@@ -1,0 +1,108 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--191d3509-693e-48ef-9628-e2b2ac6a30e2",
+        "created_by_ref": "identity--9a7d31e4-1a62-4efa-9036-2c4bdf0ddce8",
+        "created": "2021-08-31T06:17:03.345959Z",
+        "modified": "2022-05-12T16:11:57.103166Z",
+        "name": "mean",
+        "description": "Run more fall person might training.",
+        "infrastructure_types": [
+            "amplification",
+            "hosting-malware",
+            "exfiltration",
+            "botnet"
+        ],
+        "first_seen": "2022-03-30T15:21:55.939615Z",
+        "last_seen": "2022-04-24T08:37:03.208458Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 48,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "ipv4-addr",
+        "spec_version": "2.1",
+        "id": "ipv4-addr--e8db7a88-61b3-4e25-bf08-5ea411c69118",
+        "value": "187.222.35.207",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f85c3796-cf21-4cbf-8e13-aeab60fa4bf1",
+        "created_by_ref": "identity--9a7d31e4-1a62-4efa-9036-2c4bdf0ddce8",
+        "created": "2020-09-14T11:44:08.674649Z",
+        "modified": "2021-08-14T01:08:39.39815Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--191d3509-693e-48ef-9628-e2b2ac6a30e2",
+        "target_ref": "ipv4-addr--e8db7a88-61b3-4e25-bf08-5ea411c69118",
+        "start_time": "2022-01-02T21:02:45.98255Z",
+        "stop_time": "2022-10-06T05:09:50.357804Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 73,
+        "external_references": [
+            {
+                "source_name": "but",
+                "description": "On century product myself care serve.",
+                "url": "http://johnson.net/"
+            },
+            {
+                "source_name": "cut",
+                "description": "Clear will throw behavior finally list.",
+                "external_id": "KZmxrUqlwMGVjTaY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--9a7d31e4-1a62-4efa-9036-2c4bdf0ddce8",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-04-21T17:45:51.816801Z",
+        "modified": "2022-12-09T18:37:18.401744Z",
+        "name": "CrimeThingView",
+        "description": "Customizable directional open architecture",
+        "identity_class": "individual",
+        "sectors": [
+            "commercial"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 2,
+        "external_references": [
+            {
+                "source_name": "seem",
+                "description": "Consider perform also later.",
+                "hashes": {
+                    "MD5": "77245c4d14fcf955a95032cc173b4760",
+                    "SHA-1": "59d3ea7713d03a70dbb86d020e662e8b5e62923e",
+                    "SHA-256": "73b1f896a6898fe5e97417fb94bf298c6ffb29c97b07595819205e9bf7839d77",
+                    "SHA-512": "edc8ac03f4761f75e80ee101b39752370a1bb328b916b5892d88ba9c661ba2db1de9c00cfcdbdb6691b1dec2271c15773b3c2aa8d21a0ed46628b13e6dcabb8a",
+                    "SHA3-256": "4d7cd1ab6020ec253c9896845e3de4b0bd2e18093ef9851b99683e7e14975b80",
+                    "SHA3-512": "9b93424cd3ef0a5f2ee59f40997c569241f23fec78186b2790f4d61c02000af5bb2398b525e4706301c743448274e7021177eeed8f593ec87fd153cdac0b92c5"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

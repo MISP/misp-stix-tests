@@ -1,0 +1,235 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--7867779e-981a-4f0d-901c-8ce3b31224b4",
+        "created_by_ref": "identity--77d903e1-9633-4851-abd7-33a5ffe321c6",
+        "created": "2021-03-19T12:53:05.439044Z",
+        "modified": "2021-08-14T01:08:34.33232Z",
+        "name": "important",
+        "indicator_types": [
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "[(file:name < 'keep.flac') AND file:name = 'style.flac' AND file:defanged = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-08-01T08:21:20.440408Z",
+        "valid_until": "2022-08-11T20:28:33.063753Z",
+        "labels": [
+            "book",
+            "pfte-batch-1"
+        ],
+        "confidence": 36,
+        "object_marking_refs": [
+            "marking-definition--7e67f00c-e97e-499b-8559-0f5969172edd"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--65680f08-6d45-4986-a40b-7e310edf75c6",
+        "created_by_ref": "identity--77d903e1-9633-4851-abd7-33a5ffe321c6",
+        "created": "2021-05-03T14:28:21.381939Z",
+        "modified": "2021-08-14T01:08:34.334016Z",
+        "name": "here",
+        "description": "This sport someone laugh allow last.",
+        "threat_actor_types": [
+            "activist",
+            "unknown"
+        ],
+        "first_seen": "2019-12-18T22:43:02.496565Z",
+        "last_seen": "2020-09-22T23:51:47.933271Z",
+        "goals": [
+            "fine",
+            "wonder",
+            "teach"
+        ],
+        "secondary_motivations": [
+            "personal-gain",
+            "personal-gain",
+            "organizational-gain",
+            "unpredictable",
+            "dominance"
+        ],
+        "personal_motivations": [
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "course",
+            "wall",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7e67f00c-e97e-499b-8559-0f5969172edd"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--32d5bba4-377c-4f05-bb4d-89067c0570f6",
+        "created_by_ref": "identity--77d903e1-9633-4851-abd7-33a5ffe321c6",
+        "created": "2022-08-12T08:51:30.435835Z",
+        "modified": "2022-09-05T11:43:41.30616Z",
+        "relationship_type": "indicates",
+        "description": "With student tend hair such. Our use foot who. For local half us back give cover.",
+        "source_ref": "indicator--7867779e-981a-4f0d-901c-8ce3b31224b4",
+        "target_ref": "threat-actor--65680f08-6d45-4986-a40b-7e310edf75c6",
+        "stop_time": "2021-05-12T09:22:38.849558Z",
+        "labels": [
+            "require",
+            "work",
+            "pfte-batch-1"
+        ],
+        "confidence": 22,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "study",
+                "description": "Arm strong quickly there which.",
+                "hashes": {
+                    "MD5": "010d8b8969e66bf43dd755d350d1c098",
+                    "SHA-1": "f3008857e8507fd7b4ddd699fdb8c245259bfdde",
+                    "SHA-256": "67232a694cf114fe06fc5f8ca02df406ec827c84f9b8979c036e143db9ef1594",
+                    "SHA-512": "d0705d6d72aec1223cdf8df0c35b6f3e0c16835f0fb2f602dede0dabebc5d2726f9fbcbe0e08726c2375f67deb70900413568e847a498dedcd180a413c7cd541",
+                    "SHA3-256": "6cc6a84510ec92bcb328eaba68b976d7d814b80e8e02e59c226d261abbcf73c0",
+                    "SHA3-512": "8dd8c018df39a853d2fb799e6e8011c4926f86e3ffd72ff2102f233c7abdfbce1b0f7b94dbdc20dd5bcbf66d1c9f3ecf2a0193dff3f24f361a349a81fbd6cfcb"
+                },
+                "external_id": "NrXtlFIrqMmC"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7e67f00c-e97e-499b-8559-0f5969172edd"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--45de227d-3064-4341-a58c-35b45b5d658e",
+        "created_by_ref": "identity--77d903e1-9633-4851-abd7-33a5ffe321c6",
+        "created": "2020-09-01T04:21:54.943307Z",
+        "modified": "2021-08-14T01:08:34.335284Z",
+        "content": "Possible hospital strategy share call. Buy field benefit your past impact kitchen blood. Woman go hear process that hit indeed.",
+        "authors": [
+            "new",
+            "throw",
+            "better",
+            "nation"
+        ],
+        "object_refs": [
+            "indicator--7867779e-981a-4f0d-901c-8ce3b31224b4",
+            "threat-actor--65680f08-6d45-4986-a40b-7e310edf75c6",
+            "relationship--32d5bba4-377c-4f05-bb4d-89067c0570f6"
+        ],
+        "labels": [
+            "change",
+            "training",
+            "pfte-batch-1"
+        ],
+        "confidence": 42,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "call",
+                "url": "http://dixon.com/",
+                "hashes": {
+                    "MD5": "981b443484520822eb4e1cf0b6f65327",
+                    "SHA-1": "b2d65ee18d0d1d1b9d3505992a42570783e096cb",
+                    "SHA-256": "80a8bd5ec06be09d1865150edcbad2c6a7856854bbc9ca76bcd72cc9a8c6af56",
+                    "SHA-512": "c6d3fca88281feb2ed73d88156deaaccc27ab7b62edc7313680bf9d36599899b226868a672bb828ea92af0535e8e9a5106487d41f2a8806a9c6d32956d2af894",
+                    "SHA3-256": "c4504c22f78908a23a5781792ef09668c80e7e4dbca20529fdd6118135670a53",
+                    "SHA3-512": "1a77fec3762fb683a5a1fb648afbf7460ee642c73940453e84d9cbc23cf8fb30a02b6dd1deb24bfd0aa4a03c42b85ea9ac274d3eafa37ca4920917e576220efd"
+                },
+                "external_id": "KdsfjuKt"
+            },
+            {
+                "source_name": "popular",
+                "description": "Trial financial suggest student interesting believe machine.",
+                "url": "https://www.chan.biz/",
+                "hashes": {
+                    "MD5": "8241128db4528f1363f03a5ac3536b63",
+                    "SHA-1": "065b73866d9f3ba0effe77ac16e07497bc781133",
+                    "SHA-256": "5b1701cf568e4ba40c40c7ed5d4400f31f42c3e687cbc98e65b6fa1791b9dedc",
+                    "SHA-512": "b5601690f59c4f0a6632f363de68a7219e8d7552bd4bb2a0b640fed4f8e029fc7ab4d450b9a2aeb1b4747fb1726ec7fd4f2531d00b58ac47e301addc901b70bf",
+                    "SHA3-256": "58209f20a68a0242ec7a07b1f8adb5cf9bb8a98dd3c3a316cf282834b406712d",
+                    "SHA3-512": "5a492d1de30456d7c8ce0bdae2abd4a00830ca2158e4ec1d0010dd352a7e387bf19eb5eaa473c8b86d8ac29cddd54b1cd7f7a22e216b75e82945989d5fd15730"
+                }
+            },
+            {
+                "source_name": "treatment",
+                "description": "Space wonder never main necessary job.",
+                "url": "http://miller.info/"
+            },
+            {
+                "source_name": "game",
+                "description": "Fear around shake look.",
+                "url": "https://cox-hernandez.info/"
+            },
+            {
+                "source_name": "agency",
+                "description": "Shake issue white yet room way fish fact."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7e67f00c-e97e-499b-8559-0f5969172edd"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--77d903e1-9633-4851-abd7-33a5ffe321c6",
+        "created_by_ref": "identity--77d903e1-9633-4851-abd7-33a5ffe321c6",
+        "created": "2021-07-22T11:36:27.606082Z",
+        "modified": "2021-08-22T06:42:16.75851Z",
+        "name": "Hale and Sons",
+        "contact_information": "3886 Palmer Passage\nTuckerburgh, WY 95414",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--7e67f00c-e97e-499b-8559-0f5969172edd"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--7e67f00c-e97e-499b-8559-0f5969172edd",
+        "created": "2021-08-14T01:08:34.331785Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3b921193-36b9-467a-b549-f06fd7a0147e",
+                "name": "Artist despite travel Mrs long fish",
+                "create_date_time": "2021-08-14T01:08:08.430789Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.430622Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

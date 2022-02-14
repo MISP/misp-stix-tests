@@ -1,0 +1,192 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--c6251e11-07d4-4da6-a3bf-e12d2c6fb7bb",
+        "created_by_ref": "identity--72b80264-9ddc-4fb5-a321-b2664d187199",
+        "created": "2021-11-13T17:03:06.401743Z",
+        "modified": "2022-01-21T20:45:20.474844Z",
+        "name": "production",
+        "pattern": "[(email-addr:value <= 'edward57@hotmail.com') OR ipv4-addr:value = '133.233.43.106'] AND ([software:swid >= 'org.fedoraproject.Fedora-29'])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-08-16T05:41:19.611773Z",
+        "labels": [
+            "sea",
+            "pfte-batch-1"
+        ],
+        "confidence": 86,
+        "external_references": [
+            {
+                "source_name": "wrong",
+                "description": "Defense inside cause partner attack heart these.",
+                "url": "http://alvarado.biz/",
+                "hashes": {
+                    "MD5": "2e958195563ef7799d95b789ce12cfaf",
+                    "SHA-1": "4ea0961c87bcc1a7898ba2308717a224f55ddc54",
+                    "SHA-256": "cd2d932125bd5706e2177541fbc0db14e17bacbf016f20ca98a411e0bfd00ad1",
+                    "SHA-512": "7673a44c89bdac6b83abf35fc45aa7efd25a11f79e3dce3b281209346db286cdb7cbfd3db939e0e271132a89154d4dab34a2fef98010630cdf191645ba07acce",
+                    "SHA3-256": "514a3d90849f451f0e646a0614ee11e0b1e2b91db501c0c005b6cf2946ee2e17",
+                    "SHA3-512": "f298c09ab6380a34a71bef4dcd85329ba7e5a1301c9edb3f96858a015c1e4df4197578156dd5f33e40a2701c80cabf8a5396c1044c731f19a90ab4134f5ab2d2"
+                },
+                "external_id": "HYsxHOmAin"
+            },
+            {
+                "source_name": "really",
+                "description": "Skill writer top development poor.",
+                "hashes": {
+                    "MD5": "b49c8a1843185629387c8102a556ef04",
+                    "SHA-1": "f1ef527da57fd2bfb2d156fec9bd48b0648d31e5",
+                    "SHA-256": "987e3a893b6dece2bc01ad65e5c513501f6320dab76aedc33ac7bdc1da0fd1a6",
+                    "SHA-512": "6579d54751c830a3afee0f18dd8ce76d133501e86cd9237aa934fdf7eed7d73f51db21f43c6e0ffef5065ac07b11d31ce056adbbc85031d295bbbbe7133fdd43",
+                    "SHA3-256": "c6ec52a6d228896aecf13a6b8734aec71437a98117bb3164e8b2b72da0b3f471",
+                    "SHA3-512": "91520ff588d19ad69b808fe272ed9e264d8dfe92de200e936bd3221123ac21604530d8ec2b2016945cab0f74badd39b546253c6b6fe20c6009935f68d4cd8917"
+                },
+                "external_id": "CUgGUbzObZ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4656c8f9-1de9-49d3-99f0-534bfb2daa0d"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--0eb57408-8100-42ca-9d7d-9a9e2ad9160d",
+        "created_by_ref": "identity--72b80264-9ddc-4fb5-a321-b2664d187199",
+        "created": "2020-10-25T20:33:45.551476Z",
+        "modified": "2021-08-14T01:08:28.132667Z",
+        "name": "you",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "labels": [
+            "free",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "daughter",
+                "url": "https://www.miller.com/",
+                "hashes": {
+                    "MD5": "1972702fc7ed4007513fb01d78c4f5fe",
+                    "SHA-1": "1adb2c36e418d8dd54e34ee1ba984a383ef31e0f",
+                    "SHA-256": "a42bead6a15dae9cd8b68200054019274d233e58d3f9195b92fb40128f568f11",
+                    "SHA-512": "effa159f2e40b44e6cca5b49846ea2f8121f5eec55c93a92068259b474526a3e12595bed0c86729559b45e633c354a46195774aabf4a6953f80b8459988656de",
+                    "SHA3-256": "cca744789023406c110f8863685138fbddc378691fe90df58613a40dd1f3785a",
+                    "SHA3-512": "64aa059ad227288d92123451507b4bad5b80b0cce441c483e0353e9f68fc2514bc3b23bd82046d540256debd237cf90b39514dbb20ebba6f91887bd71def2659"
+                },
+                "external_id": "husoItYvUNoqpiVh"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4656c8f9-1de9-49d3-99f0-534bfb2daa0d"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--084caef6-be55-4a95-9d0f-bf93cdfdcc4c",
+        "created_by_ref": "identity--72b80264-9ddc-4fb5-a321-b2664d187199",
+        "created": "2021-06-05T14:09:10.820765Z",
+        "modified": "2022-02-01T04:14:30.733428Z",
+        "relationship_type": "indicates",
+        "description": "Difficult building mind less weight policy worker. Around remain morning.",
+        "source_ref": "indicator--c6251e11-07d4-4da6-a3bf-e12d2c6fb7bb",
+        "target_ref": "attack-pattern--0eb57408-8100-42ca-9d7d-9a9e2ad9160d",
+        "start_time": "2021-04-19T13:02:40.322978Z",
+        "stop_time": "2021-10-11T15:44:45.499048Z",
+        "labels": [
+            "nothing",
+            "play",
+            "nice",
+            "one",
+            "pattern",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--4656c8f9-1de9-49d3-99f0-534bfb2daa0d"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--72b80264-9ddc-4fb5-a321-b2664d187199",
+        "created_by_ref": "identity--72b80264-9ddc-4fb5-a321-b2664d187199",
+        "created": "2021-12-10T01:13:39.633858Z",
+        "modified": "2022-11-13T19:46:39.526718Z",
+        "name": "George PLC",
+        "description": "Cloned foreground installation",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--4656c8f9-1de9-49d3-99f0-534bfb2daa0d"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--4656c8f9-1de9-49d3-99f0-534bfb2daa0d",
+        "created": "2021-08-14T01:08:28.129403Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3af87523-f9f6-4d99-acfc-79560c4d2219",
+                "name": "Boy understand else sense give house travel already",
+                "create_date_time": "2021-08-14T01:08:08.429507Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

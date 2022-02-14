@@ -1,0 +1,164 @@
+[
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--bc648969-b537-45fb-8d37-0ac0d94e8e7a",
+        "created_by_ref": "identity--3006a53b-61ea-4b53-8e47-5632f2719f96",
+        "created": "2021-12-17T06:23:19.16609Z",
+        "modified": "2022-07-04T10:53:01.137907Z",
+        "name": "get",
+        "description": "Race meeting foot give seek model serious.",
+        "tool_types": [
+            "denial-of-service",
+            "network-capture",
+            "exploitation",
+            "remote-access"
+        ],
+        "aliases": [
+            "central",
+            "opportunity",
+            "land",
+            "campaign",
+            "finish"
+        ],
+        "tool_version": "threat",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 59,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--081208a7-7491-41d9-a598-ef3da5f5caef",
+        "created_by_ref": "identity--3006a53b-61ea-4b53-8e47-5632f2719f96",
+        "created": "2020-05-09T13:55:30.519088Z",
+        "modified": "2021-08-14T01:09:40.195177Z",
+        "name": "argue",
+        "description": "Staff story attorney trouble travel say drive.",
+        "infrastructure_types": [
+            "unknown",
+            "amplification",
+            "hosting-malware",
+            "botnet",
+            "hosting-target-lists"
+        ],
+        "aliases": [
+            "never"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--0681a7e8-3f50-4e69-a231-093b5c713e02",
+        "created_by_ref": "identity--3006a53b-61ea-4b53-8e47-5632f2719f96",
+        "created": "2022-04-28T12:26:05.580Z",
+        "modified": "2022-05-01T23:36:42.37554Z",
+        "relationship_type": "targets",
+        "description": "Itself claim leg building appear. Number foreign window case food number. Argue practice everybody develop Republican.",
+        "source_ref": "tool--bc648969-b537-45fb-8d37-0ac0d94e8e7a",
+        "target_ref": "infrastructure--081208a7-7491-41d9-a598-ef3da5f5caef",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 89,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--144ef1af-055e-480f-9d03-9958cc7336e9",
+        "created_by_ref": "identity--3006a53b-61ea-4b53-8e47-5632f2719f96",
+        "created": "2022-05-17T07:45:43.530021Z",
+        "modified": "2022-10-01T20:13:49.47118Z",
+        "description": "Where movement smile.",
+        "context": "unspecified",
+        "object_refs": [
+            "tool--bc648969-b537-45fb-8d37-0ac0d94e8e7a",
+            "infrastructure--081208a7-7491-41d9-a598-ef3da5f5caef",
+            "relationship--0681a7e8-3f50-4e69-a231-093b5c713e02"
+        ],
+        "labels": [
+            "agreement",
+            "pfte-batch-1"
+        ],
+        "confidence": 84,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3006a53b-61ea-4b53-8e47-5632f2719f96",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-03-23T19:55:03.294547Z",
+        "modified": "2022-01-19T16:49:28.129284Z",
+        "name": "Harding LLC",
+        "description": "Persistent directional hierarchy",
+        "roles": [
+            "issue"
+        ],
+        "sectors": [
+            "education",
+            "non-profit",
+            "defense"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "to",
+                "url": "https://www.smith.com/",
+                "hashes": {
+                    "MD5": "a1045ac0a9c616a3d72022ce10efbd44",
+                    "SHA-1": "e75318f310672f439093f37abbbd27b528d3ee24",
+                    "SHA-256": "aa36e32c516b42ae1db954b4706ba81fe677a28094fb29312c5b7f40641a1858",
+                    "SHA-512": "8e132dbf0c9d8891493248b1eaefae147c4cf87597197eb6e2526fc429c7abfd29a114f854937470d369a0913b591181f172495b82e32c699497663aef6baeb5",
+                    "SHA3-256": "31c709756f8795bfb5ac02d9d52f1aaa3bfe9c37384017198b3a2e0f8b526507",
+                    "SHA3-512": "5197cc04415e3d2390c08ba38c29538c195ddd41e6d362ba1794bd76d4ec27a76ddaaf4ffb4d92e9fc555b8177788afb112f1472b99314e27bae723155ef0449"
+                },
+                "external_id": "YZaPkdfbwTFNSXhpXPmC"
+            },
+            {
+                "source_name": "true",
+                "external_id": "MkcyQNjREwg"
+            },
+            {
+                "source_name": "give",
+                "description": "Part necessary set system lead clearly guy according.",
+                "external_id": "QOhyaQXsVuJKh"
+            },
+            {
+                "source_name": "front",
+                "description": "Reduce hour painting very.",
+                "url": "https://clarke.com/",
+                "hashes": {
+                    "MD5": "38965390e6a598f9b62eadae41b2964f",
+                    "SHA-1": "261d4c0e80a4bc19a8a593ddfb8f5a5953a43811",
+                    "SHA-256": "7c5f3e777f3e5f3d5e0a0b7b0a23caae118670ce6de077422d547b99c3c3feee",
+                    "SHA-512": "163b66c98e8bf44423dd2c66208c157e9b603bbec513a6816474a9ae32aa321a22a7e1a413175b323dca7b9a9f3381e286c79c281827d739b30d9114ee65f683",
+                    "SHA3-256": "adb92eb9c59a38eca6b5a678f74e9ffdd8d8dd9102d3bbb1224bf66466bfb6ba",
+                    "SHA3-512": "a224e0ad221b42a2ca842c414c35eb19439b83edc65dcfdc5672b7ee5e4d3e8cee3dd7a7ce5ce21922c47da13b0f1aee109a98b0c67a3509cb92d23e0dd7e097"
+                },
+                "external_id": "HwpDZPaxW"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

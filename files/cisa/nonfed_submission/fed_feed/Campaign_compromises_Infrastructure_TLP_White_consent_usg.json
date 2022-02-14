@@ -1,0 +1,162 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--827d79ed-9db2-48fe-bac9-9c590e157f7e",
+        "created_by_ref": "identity--e1d6b8a2-16d2-49ae-8101-f8ce6b3c1a9b",
+        "created": "2021-09-15T09:20:05.012808Z",
+        "modified": "2022-01-31T01:14:33.145594Z",
+        "name": "simple",
+        "aliases": [
+            "heart",
+            "finish"
+        ],
+        "last_seen": "2022-04-18T02:30:32.647365Z",
+        "confidence": 25,
+        "object_marking_refs": [
+            "marking-definition--2c5d8f37-0fc2-4cf5-9e11-36b75bd68bab"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--374abb4c-9c41-4b5a-bfca-e1c02ff61402",
+        "created_by_ref": "identity--e1d6b8a2-16d2-49ae-8101-f8ce6b3c1a9b",
+        "created": "2021-05-10T07:50:52.696029Z",
+        "modified": "2021-10-29T02:16:09.92924Z",
+        "name": "sit",
+        "aliases": [
+            "yourself",
+            "station"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "traditional",
+            "total",
+            "middle",
+            "agreement",
+            "recently",
+            "pfte-batch-1"
+        ],
+        "confidence": 19,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2c5d8f37-0fc2-4cf5-9e11-36b75bd68bab"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4eb0924f-163b-4c94-a4ed-e4ebfd56076f",
+        "created_by_ref": "identity--e1d6b8a2-16d2-49ae-8101-f8ce6b3c1a9b",
+        "created": "2021-07-30T20:18:16.598382Z",
+        "modified": "2021-10-15T05:10:04.044953Z",
+        "relationship_type": "compromises",
+        "source_ref": "campaign--827d79ed-9db2-48fe-bac9-9c590e157f7e",
+        "target_ref": "infrastructure--374abb4c-9c41-4b5a-bfca-e1c02ff61402",
+        "labels": [
+            "if",
+            "resource",
+            "play",
+            "pfte-batch-1"
+        ],
+        "confidence": 20,
+        "external_references": [
+            {
+                "source_name": "four",
+                "url": "https://www.juarez.org/",
+                "external_id": "mbEhqIAqYzcfh"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2c5d8f37-0fc2-4cf5-9e11-36b75bd68bab"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2c5d8f37-0fc2-4cf5-9e11-36b75bd68bab",
+        "created_by_ref": "identity--e1d6b8a2-16d2-49ae-8101-f8ce6b3c1a9b",
+        "created": "2021-08-14T01:08:14.555228Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e1d6b8a2-16d2-49ae-8101-f8ce6b3c1a9b",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-11-07T04:28:55.358808Z",
+        "modified": "2021-08-14T01:08:14.556813Z",
+        "name": "Flowers-Contreras",
+        "description": "Innovative non-volatile contingency",
+        "identity_class": "unknown",
+        "sectors": [
+            "manufacturing",
+            "technology",
+            "emergency-services",
+            "pharmaceuticals",
+            "mining"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 78,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2c5d8f37-0fc2-4cf5-9e11-36b75bd68bab"
+        ]
+    }
+]

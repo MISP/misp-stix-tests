@@ -1,0 +1,85 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--396015db-b325-4232-8822-e74efcc07ce3",
+        "created_by_ref": "identity--dafd4ab4-15c0-4d78-a028-015d6c0efee1",
+        "created": "2020-11-08T01:28:27.558188Z",
+        "modified": "2021-08-14T01:08:28.837966Z",
+        "description": "Computer father particular doctor drug plant share.",
+        "pattern": "([mutex:defanged = false] FOLLOWEDBY [autonomous-system:name = 'Tran Inc'] WITHIN 9 SECONDS) FOLLOWEDBY [(user-account:defanged = false) OR mutex:defanged = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-08-08T21:11:02.260041Z",
+        "labels": [
+            "argue",
+            "ready",
+            "simple",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--115e5f97-5e60-49de-8334-e4db33104017",
+        "created_by_ref": "identity--dafd4ab4-15c0-4d78-a028-015d6c0efee1",
+        "created": "2021-03-07T07:29:45.821705Z",
+        "modified": "2021-08-14T01:08:28.841025Z",
+        "name": "why",
+        "aliases": [
+            "explain",
+            "type"
+        ],
+        "first_seen": "2021-05-07T07:45:29.012011Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 44,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--88197950-56ad-4418-9588-03419d4127e4",
+        "created_by_ref": "identity--dafd4ab4-15c0-4d78-a028-015d6c0efee1",
+        "created": "2022-06-09T14:59:12.926557Z",
+        "modified": "2023-05-30T05:24:18.015405Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--396015db-b325-4232-8822-e74efcc07ce3",
+        "target_ref": "campaign--115e5f97-5e60-49de-8334-e4db33104017",
+        "start_time": "2020-10-25T00:25:37.8669Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 15,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--dafd4ab4-15c0-4d78-a028-015d6c0efee1",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-02-04T09:59:13.904204Z",
+        "modified": "2022-07-29T20:24:17.913342Z",
+        "name": "Ellis-Duran",
+        "description": "Automated directional Local Area Network",
+        "identity_class": "organization",
+        "contact_information": "318 Bradley Parks\nAyalaborough, NM 67933",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 78,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

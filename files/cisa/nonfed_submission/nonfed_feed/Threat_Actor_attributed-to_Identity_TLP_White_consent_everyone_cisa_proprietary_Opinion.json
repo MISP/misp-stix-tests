@@ -1,0 +1,188 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--a1740002-4719-4746-b28f-366239412b7e",
+        "created_by_ref": "identity--b3d2f0d0-3fde-4a9c-acde-b452a7e6154d",
+        "created": "2021-01-16T04:39:51.956486Z",
+        "modified": "2021-08-14T01:09:24.643686Z",
+        "name": "environment",
+        "threat_actor_types": [
+            "terrorist",
+            "unknown",
+            "sensationalist"
+        ],
+        "first_seen": "2021-05-25T07:25:46.72222Z",
+        "last_seen": "2021-11-20T14:19:19.977187Z",
+        "roles": [
+            "independent",
+            "sponsor",
+            "malware-author",
+            "infrastructure-operator",
+            "director"
+        ],
+        "goals": [
+            "Republican",
+            "toward",
+            "public",
+            "employee",
+            "matter"
+        ],
+        "sophistication": "expert",
+        "resource_level": "individual",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6d93b072-6f5a-42da-9d00-88d6c9e488ae",
+        "created_by_ref": "identity--b3d2f0d0-3fde-4a9c-acde-b452a7e6154d",
+        "created": "2022-08-02T11:10:05.349429Z",
+        "modified": "2022-10-02T18:11:17.082338Z",
+        "name": "Johnson LLC",
+        "roles": [
+            "hour",
+            "past"
+        ],
+        "identity_class": "system",
+        "contact_information": "82499 Adams Burg Suite 032\nLake Blakeshire, VA 81798",
+        "labels": [
+            "both",
+            "question",
+            "activity",
+            "anything",
+            "international",
+            "pfte-batch-1"
+        ],
+        "confidence": 22,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--15697155-b550-4023-8455-11efed3542e5",
+        "created_by_ref": "identity--b3d2f0d0-3fde-4a9c-acde-b452a7e6154d",
+        "created": "2022-03-20T20:52:08.037338Z",
+        "modified": "2023-01-30T17:27:53.585486Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "threat-actor--a1740002-4719-4746-b28f-366239412b7e",
+        "target_ref": "identity--6d93b072-6f5a-42da-9d00-88d6c9e488ae",
+        "start_time": "2022-03-16T09:34:52.914235Z",
+        "labels": [
+            "reason",
+            "picture",
+            "place",
+            "pfte-batch-1"
+        ],
+        "confidence": 78,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--34a2d022-40a6-41b9-a624-a77d0cf3f8ba",
+        "created_by_ref": "identity--b3d2f0d0-3fde-4a9c-acde-b452a7e6154d",
+        "created": "2021-11-25T17:01:53.469225Z",
+        "modified": "2022-06-16T03:05:43.490858Z",
+        "opinion": "neutral",
+        "object_refs": [
+            "threat-actor--a1740002-4719-4746-b28f-366239412b7e",
+            "identity--6d93b072-6f5a-42da-9d00-88d6c9e488ae",
+            "relationship--15697155-b550-4023-8455-11efed3542e5"
+        ],
+        "labels": [
+            "attention",
+            "bag",
+            "pfte-batch-1"
+        ],
+        "confidence": 79,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "entire",
+                "url": "https://www.stewart.com/",
+                "hashes": {
+                    "MD5": "9130d6150b8e2fb7660fe76fadddfc78",
+                    "SHA-1": "77229ed4740a44a41d665aa8a525be9a634091f7",
+                    "SHA-256": "3010b52cde20e6739a4560ec6b199af6df28d3488b419fc5c25d1727e9371df7",
+                    "SHA-512": "4da8b3a5e6672d1d6f952daf96220160ea15145a3bef262143c09f1f9de98fc2af753dd7b41934f0cb6dffee6616f593bdb1788276e2e67bf74d7ce3145be05c",
+                    "SHA3-256": "82e62bbf2170a35357cc375d95e12575712192be491f8e80046896dae91f5c79",
+                    "SHA3-512": "3b23adc23365a5961d3c4caee9ddcb00a343f4b2981d2df44c3191954cbbb52a309315a3f9824917cc581c82e8337378c5d7b18cd42d3a9479b83817fb3ca826"
+                },
+                "external_id": "rcfyeWsajEjeT"
+            },
+            {
+                "source_name": "head",
+                "description": "Score ever able professional play assume produce.",
+                "url": "http://mitchell.biz/",
+                "hashes": {
+                    "MD5": "a5efc1e535c1c8c40f11a92d153707cc",
+                    "SHA-1": "f82581bbc6a3a68a190f5b63519dda6d4f396d02",
+                    "SHA-256": "ed5bf23387035b5bccb277ae99329212b77f4d0bb5a34a201b7f888a2dffda19",
+                    "SHA-512": "00a3619a7659937d45033b2f6252848134c45cd03cee96cd86aca7b6fa9364383ee547516d6fcb24ba8559639171578dda4048498f47860179885bdcb84c941a",
+                    "SHA3-256": "58852c0f8ad9b8ca13f4307e01dd53414928a57d6342f38d6d68584fc8deaf6a",
+                    "SHA3-512": "d5d570122247108c2cda33afe55d39d7600fec32aa8702fda6479d19247d58e66ab937e80017e42ec589deae8ef67bc9a57b5e40c587bfc7283bbfe6bb073bbd"
+                }
+            },
+            {
+                "source_name": "bill",
+                "url": "https://rose-sosa.com/",
+                "external_id": "WnYyLuH"
+            },
+            {
+                "source_name": "apply",
+                "external_id": "PeIiMVcVQwFb"
+            },
+            {
+                "source_name": "policy",
+                "description": "Main probably defense eight simple check local.",
+                "hashes": {
+                    "MD5": "26d419d22b256c09ed875b73c3e5931a",
+                    "SHA-1": "b752508b7e5cbac16ae594723d03a158fb487d40",
+                    "SHA-256": "59fc560990d79b883a9e1b73b2925ed822892a208e89a752b267887c6613cac7",
+                    "SHA-512": "848759c03a9cb014af3decc77564711a92273f7dafb2dcbe8292b6b0436d17cb9cab4d0209faea25adb71c92ccc156b439b59ef9f99e2534e04d0ce7e6c17b83",
+                    "SHA3-256": "d576c6b5f18ba201f4face508feeb355df741fafd68cd597aa19a1a4bb6875a9",
+                    "SHA3-512": "817b855bdf5bcc1b97d807944fa0ce094640a74ad2c396696d3d3fa55aa23caaef1cac97807e1ff84b7e3ef23c68b251d7d236131037d8773cae0764665a1b97"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b3d2f0d0-3fde-4a9c-acde-b452a7e6154d",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-06T10:57:01.167548Z",
+        "modified": "2021-08-14T01:09:24.645313Z",
+        "name": "Frazier, Johnson and Brown",
+        "identity_class": "individual",
+        "sectors": [
+            "education",
+            "construction",
+            "infrastructure",
+            "construction"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

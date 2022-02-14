@@ -1,0 +1,224 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--a5c2453a-2179-479e-ac4a-4092e3d9cdac",
+        "created_by_ref": "identity--ac4c90d9-e430-4184-8f41-2867b2ad368a",
+        "created": "2021-09-19T00:33:13.949064Z",
+        "modified": "2021-12-30T14:29:47.121778Z",
+        "name": "break",
+        "description": "Technology forward level individual shoulder son.",
+        "indicator_types": [
+            "unknown",
+            "anonymization",
+            "unknown",
+            "malicious-activity"
+        ],
+        "pattern": "((([file:defanged = false] FOLLOWEDBY [directory:path = '/another/reveal.mp3']) AND [mac-addr:value >= '5c:fa:5b:53:d0:49'] WITHIN 3 SECONDS))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-05-21T19:55:22.019886Z",
+        "valid_until": "2022-08-01T03:11:55.286533Z",
+        "confidence": 82,
+        "object_marking_refs": [
+            "marking-definition--32c23475-8d1f-4345-b56c-7879f5489a78"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--6c644435-541b-48ad-9cd1-bb8baaede0a9",
+        "created_by_ref": "identity--ac4c90d9-e430-4184-8f41-2867b2ad368a",
+        "created": "2021-04-28T09:37:39.673249Z",
+        "modified": "2021-08-14T01:08:31.229162Z",
+        "name": "from",
+        "first_seen": "2020-08-14T22:09:59.922728Z",
+        "last_seen": "2021-08-10T12:09:37.399311Z",
+        "goals": [
+            "Want deep recently court.",
+            "Natural message election that agreement person.",
+            "Environmental nature pattern during miss fine development."
+        ],
+        "resource_level": "club",
+        "primary_motivation": "personal-gain",
+        "secondary_motivations": [
+            "ideology",
+            "organizational-gain",
+            "organizational-gain",
+            "ideology",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "top",
+            "pfte-batch-1"
+        ],
+        "confidence": 22,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--32c23475-8d1f-4345-b56c-7879f5489a78"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1a56f87f-2c12-4641-af75-4c9a1f9c0e6e",
+        "created_by_ref": "identity--ac4c90d9-e430-4184-8f41-2867b2ad368a",
+        "created": "2021-05-22T18:14:38.789257Z",
+        "modified": "2022-01-07T15:11:15.52656Z",
+        "relationship_type": "indicates",
+        "description": "Question white air I. Thing practice bring lay capital professional. Loss tend in provide miss especially bag. True black low because first.",
+        "source_ref": "indicator--a5c2453a-2179-479e-ac4a-4092e3d9cdac",
+        "target_ref": "intrusion-set--6c644435-541b-48ad-9cd1-bb8baaede0a9",
+        "start_time": "2022-04-17T14:22:35.578354Z",
+        "stop_time": "2022-06-30T04:16:11.882046Z",
+        "labels": [
+            "now",
+            "accept",
+            "pfte-batch-1"
+        ],
+        "confidence": 76,
+        "external_references": [
+            {
+                "source_name": "when",
+                "description": "Usually person adult.",
+                "url": "http://rogers.info/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--32c23475-8d1f-4345-b56c-7879f5489a78"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--32c23475-8d1f-4345-b56c-7879f5489a78",
+        "created_by_ref": "identity--ac4c90d9-e430-4184-8f41-2867b2ad368a",
+        "created": "2021-08-14T01:08:31.225972Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-cdad75a5-97a2-450d-bb1c-cac3b21b4823",
+                "name": "Continue half as create together strong",
+                "create_date_time": "2021-08-14T01:08:08.421874Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ac4c90d9-e430-4184-8f41-2867b2ad368a",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-05-12T09:28:21.720021Z",
+        "modified": "2022-06-06T03:41:10.426655Z",
+        "name": "Henson, Mitchell and Scott",
+        "roles": [
+            "three",
+            "newspaper"
+        ],
+        "identity_class": "system",
+        "contact_information": "663 John Wells Suite 199\nNorth Linda, RI 41701",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "will",
+                "description": "Store during head three standard draw.",
+                "url": "https://rangel.net/",
+                "external_id": "LecZsgDlroOgpinDDY"
+            },
+            {
+                "source_name": "entire",
+                "description": "Night statement idea language wide.",
+                "url": "https://www.miller-lopez.info/",
+                "external_id": "tToow"
+            },
+            {
+                "source_name": "yes",
+                "description": "Something realize now fact.",
+                "hashes": {
+                    "MD5": "4b862918fed40ead06c5eba047d07bb1",
+                    "SHA-1": "27c828f5f552f9620368316e235c072c250147c5",
+                    "SHA-256": "adefd1af14e5375ec6ea15302e910d43eb93f4bb0a530703a9edf27b20819b37",
+                    "SHA-512": "5ccb974a472ec7e514291ee0997af8b2e876d2ec4529e839df9d8020c54f111e3aeb776b90e15aaa6591b2c2b3381d05cc511c7657595b7bbaece3be86b6a482",
+                    "SHA3-256": "c3a42e982bcdfbc333a4a65fba5cd49f5d770dbd25a7dc6cb3c672a7315c0d40",
+                    "SHA3-512": "56c96b8c90edc9c17f6181004ad33dd60d69289d7d0fa1009cb641fed76108b9ca03d01ca43761db1eb8b508a4dcec15acd6027ed256d3d9fa48933a82bdea4d"
+                },
+                "external_id": "VDJnOv"
+            },
+            {
+                "source_name": "full",
+                "description": "Get job way couple drop best.",
+                "url": "https://graham.com/",
+                "hashes": {
+                    "MD5": "ece3cc7602a0d0dfe927da7f9449b54d",
+                    "SHA-1": "ffa07f4cae81b5aa6cbd440236f12f195b433469",
+                    "SHA-256": "713156a46c9b794931fa768fbb9973b447778cab6861dab162db74242a77757d",
+                    "SHA-512": "a3edbe5076f43ebadebfc95aa8ccecc80611e4b1eb252a00698e22b01c4fa1587109d71ab52fba68e055772d660e45f3dda9b4fb9d130df924a08191b92d20f8",
+                    "SHA3-256": "60879e409c66d6b7ca8410484dd6fe68efc14d8b084efb99c08ba8a8deb868cd",
+                    "SHA3-512": "f5973c0d579f86bc601bd1547f5d4e5a9600a41570eb8f32d930f2b5f87a4f3eaadc417cbc21d22cd6a3b04605ee28ca15dd732edbe941da5df68a4b13ce8e58"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--32c23475-8d1f-4345-b56c-7879f5489a78"
+        ]
+    }
+]

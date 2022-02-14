@@ -1,0 +1,141 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--0084187f-f156-49da-9774-96b7e9b6f9a4",
+        "created_by_ref": "identity--2854069a-a16f-4e23-b0af-9f119e404965",
+        "created": "2020-12-18T21:59:59.048673Z",
+        "modified": "2021-08-14T01:08:40.361673Z",
+        "name": "short",
+        "infrastructure_types": [
+            "hosting-target-lists"
+        ],
+        "aliases": [
+            "situation"
+        ],
+        "last_seen": "2020-11-12T16:52:49.257798Z",
+        "confidence": 12,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--37951417-dbcb-4956-af9c-996d4f50c88a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "ipv6-addr",
+        "spec_version": "2.1",
+        "id": "ipv6-addr--18715287-0e68-477b-a448-d7b609a3493f",
+        "value": "b4b4:8f06:5b4d:b5e3:d6d0:be6e:b72d:3a46",
+        "object_marking_refs": [
+            "marking-definition--37951417-dbcb-4956-af9c-996d4f50c88a"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1c362463-8bf2-4d00-ace7-d1e0510ac1f3",
+        "created_by_ref": "identity--2854069a-a16f-4e23-b0af-9f119e404965",
+        "created": "2021-01-17T15:56:09.600358Z",
+        "modified": "2021-08-14T01:08:40.361944Z",
+        "relationship_type": "communicates-with",
+        "description": "Answer tough rate serious quality other. Special community program each inside station. Choose day write road involve employee detail.",
+        "source_ref": "infrastructure--0084187f-f156-49da-9774-96b7e9b6f9a4",
+        "target_ref": "ipv6-addr--18715287-0e68-477b-a448-d7b609a3493f",
+        "confidence": 79,
+        "object_marking_refs": [
+            "marking-definition--37951417-dbcb-4956-af9c-996d4f50c88a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2854069a-a16f-4e23-b0af-9f119e404965",
+        "created_by_ref": "identity--2854069a-a16f-4e23-b0af-9f119e404965",
+        "created": "2022-03-09T14:24:09.584191Z",
+        "modified": "2022-05-15T02:36:11.975085Z",
+        "name": "Garcia, Mccall and Callahan",
+        "description": "Front-line analyzing moratorium",
+        "roles": [
+            "line",
+            "pull",
+            "possible",
+            "production",
+            "almost"
+        ],
+        "sectors": [
+            "technology",
+            "healthcare",
+            "mining",
+            "energy",
+            "emergency-services"
+        ],
+        "confidence": 54,
+        "external_references": [
+            {
+                "source_name": "city",
+                "description": "According class return base player detail.",
+                "url": "http://www.chen-rodriguez.com/"
+            },
+            {
+                "source_name": "week",
+                "description": "Everyone someone letter rule truth.",
+                "url": "https://www.powers.org/",
+                "hashes": {
+                    "MD5": "da6b715ee838733cc37c7fbe23dee367",
+                    "SHA-1": "d1ebc8f70599f837a306bcf30654b7f81da8668e",
+                    "SHA-256": "ae63b8415b8efa6201b76c8f78d366dc1c2a1038c86ca67cf127a5b732c435f9",
+                    "SHA-512": "1dc8ca5bc000bc1de09de573e1ae66069bb9847556f7670ebb9d2c20c30a888e080a2d228274a9da9059f2cc27f20bc05b2889b1d59f2f52e3f19ef354af7eea",
+                    "SHA3-256": "2987464061488c93fe911d55d4ac21950cb41050b6317f5a1c02d5fbc81ffa0d",
+                    "SHA3-512": "f3dd80d38a647778d3b0b9481b27bb8058f14acd41e28a2483c2854b8c53774408d561f94bf01c5aec46014ec95e009e715c55b5320199f25d66023289f5666d"
+                },
+                "external_id": "mbEdnhbuHAXeh"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--37951417-dbcb-4956-af9c-996d4f50c88a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--37951417-dbcb-4956-af9c-996d4f50c88a",
+        "created": "2021-08-14T01:08:40.361159Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2214d9cf-0e77-4d0b-9826-dfff28324708",
+                "name": "Build while international maybe effect movie",
+                "create_date_time": "2021-08-14T01:08:08.427765Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

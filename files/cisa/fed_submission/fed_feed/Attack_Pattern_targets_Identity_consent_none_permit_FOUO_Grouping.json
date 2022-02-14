@@ -1,0 +1,165 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--ce7f094f-dde4-4cd9-be9c-b6f6b804e4da",
+        "created_by_ref": "identity--e3708b3e-01aa-4236-9fb0-07b3ffd8bdb4",
+        "created": "2021-08-07T21:42:42.967854Z",
+        "modified": "2022-03-30T13:39:33.907527Z",
+        "name": "dinner",
+        "description": "Save culture environment art rock big however bill.",
+        "labels": [
+            "million",
+            "including",
+            "single",
+            "speech",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--16948111-9553-40c0-afe3-08858f89d896"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--facc5c59-8fcd-4463-98d6-6b3a27ee5025",
+        "created_by_ref": "identity--e3708b3e-01aa-4236-9fb0-07b3ffd8bdb4",
+        "created": "2022-01-11T03:40:48.222128Z",
+        "modified": "2022-10-04T01:37:15.197096Z",
+        "name": "Martin LLC",
+        "description": "Open-architected executive artificial intelligence",
+        "contact_information": "7034 Bishop Ramp Apt. 297\nLake Jacobstad, MI 69977",
+        "confidence": 27,
+        "object_marking_refs": [
+            "marking-definition--16948111-9553-40c0-afe3-08858f89d896"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--5645bf18-9554-4734-92cf-74e075cb74c4",
+        "created_by_ref": "identity--e3708b3e-01aa-4236-9fb0-07b3ffd8bdb4",
+        "created": "2020-11-30T22:07:33.846062Z",
+        "modified": "2021-08-14T01:08:09.677314Z",
+        "relationship_type": "targets",
+        "source_ref": "attack-pattern--ce7f094f-dde4-4cd9-be9c-b6f6b804e4da",
+        "target_ref": "identity--facc5c59-8fcd-4463-98d6-6b3a27ee5025",
+        "confidence": 41,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "young",
+                "url": "https://www.delgado-brock.com/"
+            },
+            {
+                "source_name": "arrive",
+                "description": "Industry kid compare.",
+                "url": "https://smith.org/",
+                "hashes": {
+                    "MD5": "4834fda8995822f0c2d2084b53aeb67f",
+                    "SHA-1": "25426ce554ffc1cca78e18ae9efbba94e24ba5e8",
+                    "SHA-256": "b76b8df931d920abb3881f1becc58d38161cde9ea749611712499d7cb6dbb438",
+                    "SHA-512": "406f6037c8594bf078d19e9cc6611bf79d4e85ee01122fc2735816f3583b5f460a8254a966bfaeeb46d33f4c76bbddb8d957ecad29ce0690c1d93ba3d5a51ed8",
+                    "SHA3-256": "15e8c9415747d1644f76c5ceaa0c3e1a98ff4c46827922b36ee90fdd8319aea7",
+                    "SHA3-512": "24dd849a9b30e9d64da65a2f5653e667f8096cc1aeba982beb28abfc981ac56b3ecbc16021e4ee66f12a8f021c8f44c64b51414ba5f6ca3a2b6b82934d367e2c"
+                },
+                "external_id": "zoHFL"
+            },
+            {
+                "source_name": "politics",
+                "url": "https://www.galvan.org/",
+                "external_id": "uxQZwUM"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--16948111-9553-40c0-afe3-08858f89d896"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--3ce3fb23-13e0-47e8-8d14-0821a6ab0c79",
+        "created_by_ref": "identity--e3708b3e-01aa-4236-9fb0-07b3ffd8bdb4",
+        "created": "2022-01-11T10:24:22.139214Z",
+        "modified": "2022-03-13T03:39:40.735459Z",
+        "name": "single",
+        "context": "unspecified",
+        "object_refs": [
+            "attack-pattern--ce7f094f-dde4-4cd9-be9c-b6f6b804e4da",
+            "identity--facc5c59-8fcd-4463-98d6-6b3a27ee5025",
+            "relationship--5645bf18-9554-4734-92cf-74e075cb74c4"
+        ],
+        "labels": [
+            "personal",
+            "party",
+            "anything",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--16948111-9553-40c0-afe3-08858f89d896"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e3708b3e-01aa-4236-9fb0-07b3ffd8bdb4",
+        "created_by_ref": "identity--e3708b3e-01aa-4236-9fb0-07b3ffd8bdb4",
+        "created": "2021-04-20T19:00:07.130374Z",
+        "modified": "2021-09-20T02:42:04.321272Z",
+        "name": "Lopez Ltd",
+        "roles": [
+            "ready"
+        ],
+        "identity_class": "system",
+        "confidence": 98,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--16948111-9553-40c0-afe3-08858f89d896"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--16948111-9553-40c0-afe3-08858f89d896",
+        "created": "2021-08-14T01:08:09.676152Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-54b25f01-6af2-45fd-9467-12811cc2be8c",
+                "name": "Help hit around teach",
+                "create_date_time": "2021-08-14T01:08:08.425022Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

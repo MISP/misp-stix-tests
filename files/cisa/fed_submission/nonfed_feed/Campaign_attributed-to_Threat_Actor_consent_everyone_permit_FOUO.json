@@ -1,0 +1,132 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--70c27170-a16a-4810-88a0-86d45a3a7313",
+        "created_by_ref": "identity--eaf40a5e-3b8e-4d6d-ad6d-210e64f64297",
+        "created": "2021-11-29T08:45:07.596404Z",
+        "modified": "2022-04-02T06:47:55.392197Z",
+        "name": "father",
+        "first_seen": "2020-12-10T12:35:32.822683Z",
+        "last_seen": "2021-05-01T22:26:22.698257Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "husband",
+                "description": "Letter shoulder way day.",
+                "hashes": {
+                    "MD5": "18ec6d7b7c8d508a6402663869e6405f",
+                    "SHA-1": "a40f0341eae71a2da664f7814a71d33b33fdc713",
+                    "SHA-256": "2b5789296238285352d66c132014443988c7d0590ab53dc13e07451afe269b48",
+                    "SHA-512": "ee7f401492b15e59054425c139e25721b6504d6a142befea3209c2a8ebe9621cf8b314b52bfd76524ed02802f224a6c2be30eaa21bf32e7f08281cb29dfa63a6",
+                    "SHA3-256": "3e87b5e86c09cc5ed015f92a5dce37783bca6a48a3ac463e2b3cb97caae8e668",
+                    "SHA3-512": "39f86641f38213b2acea127ef794be072a2242c97bf4de56e5c92693d0cdca9a2c194f61fbbe981984d564e045b2def011ec216af998dc4e98000ab0cf3dd5a6"
+                },
+                "external_id": "QmSrDwnnV"
+            },
+            {
+                "source_name": "show",
+                "description": "Child off see pattern.",
+                "url": "http://williams-west.biz/"
+            },
+            {
+                "source_name": "study",
+                "description": "Level thank point employee bed.",
+                "url": "https://www.rice.com/",
+                "external_id": "URHTfJ"
+            },
+            {
+                "source_name": "result",
+                "description": "Enjoy provide production professional Mr common dark.",
+                "external_id": "NWwik"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--062ca16e-b2d3-4b9d-8f74-bd859e52788a",
+        "created_by_ref": "identity--eaf40a5e-3b8e-4d6d-ad6d-210e64f64297",
+        "created": "2021-10-04T12:09:16.928309Z",
+        "modified": "2022-06-07T06:59:02.445159Z",
+        "name": "school",
+        "description": "Since spend difference drug fight its.",
+        "threat_actor_types": [
+            "sensationalist",
+            "unknown",
+            "sensationalist"
+        ],
+        "first_seen": "2020-10-29T03:08:22.170756Z",
+        "roles": [
+            "agent"
+        ],
+        "goals": [
+            "prove",
+            "order"
+        ],
+        "primary_motivation": "dominance",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--0d236203-0086-4402-805a-39c1646352b2",
+        "created_by_ref": "identity--eaf40a5e-3b8e-4d6d-ad6d-210e64f64297",
+        "created": "2021-02-06T00:04:21.104356Z",
+        "modified": "2021-08-14T01:08:14.276324Z",
+        "relationship_type": "attributed-to",
+        "description": "Story hair agency summer. Home voice piece fill effect them set our. Too shake commercial learn character last.",
+        "source_ref": "campaign--70c27170-a16a-4810-88a0-86d45a3a7313",
+        "target_ref": "threat-actor--062ca16e-b2d3-4b9d-8f74-bd859e52788a",
+        "stop_time": "2021-04-29T00:03:58.979659Z",
+        "labels": [
+            "letter",
+            "here",
+            "notice",
+            "couple",
+            "whole",
+            "pfte-batch-1"
+        ],
+        "confidence": 76,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--eaf40a5e-3b8e-4d6d-ad6d-210e64f64297",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-20T16:48:35.809252Z",
+        "modified": "2021-08-14T01:08:14.278524Z",
+        "name": "Jacobs-Byrd",
+        "description": "Public-key multi-tasking middleware",
+        "roles": [
+            "process",
+            "fund",
+            "life",
+            "community"
+        ],
+        "identity_class": "class",
+        "contact_information": "6779 Hancock Junction Apt. 398\nPort Jesse, TX 51900",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

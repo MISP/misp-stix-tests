@@ -1,0 +1,137 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--5a30a526-23b2-412e-ae2e-500655cd0a03",
+        "created_by_ref": "identity--978a560c-e23a-437f-bd80-8a14743c60ae",
+        "created": "2022-05-02T22:57:11.75867Z",
+        "modified": "2022-06-24T05:22:40.034991Z",
+        "name": "treat",
+        "description": "Garden enough bar father work environment.",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e25dd8fa-930b-48ba-9170-300f1e8a6e66"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--01da3637-5690-479c-9ea8-b62710d6c019",
+        "created_by_ref": "identity--978a560c-e23a-437f-bd80-8a14743c60ae",
+        "created": "2021-12-21T03:57:47.19275Z",
+        "modified": "2022-07-16T10:45:25.956391Z",
+        "name": "appear",
+        "pattern": "[directory:defanged = false] WITHIN 10 SECONDS",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-04-11T02:15:33.322851Z",
+        "valid_until": "2021-01-23T09:24:23.641605Z",
+        "labels": [
+            "budget",
+            "add",
+            "tough",
+            "thank",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "reveal",
+                "description": "Deep station old than situation author south.",
+                "url": "https://www.martin.com/"
+            },
+            {
+                "source_name": "special",
+                "url": "https://www.cherry.com/",
+                "external_id": "zgwrXXjOCXryjw"
+            },
+            {
+                "source_name": "energy",
+                "url": "https://nguyen.com/",
+                "external_id": "AKcewjDSVVlPp"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e25dd8fa-930b-48ba-9170-300f1e8a6e66"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--341b9340-6025-41f3-abd1-570b997effbc",
+        "created_by_ref": "identity--978a560c-e23a-437f-bd80-8a14743c60ae",
+        "created": "2022-06-23T11:56:38.342558Z",
+        "modified": "2022-08-27T21:10:12.109114Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--5a30a526-23b2-412e-ae2e-500655cd0a03",
+        "target_ref": "indicator--01da3637-5690-479c-9ea8-b62710d6c019",
+        "stop_time": "2022-05-22T18:13:07.13778Z",
+        "labels": [
+            "image",
+            "street",
+            "career",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e25dd8fa-930b-48ba-9170-300f1e8a6e66"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--978a560c-e23a-437f-bd80-8a14743c60ae",
+        "created_by_ref": "identity--978a560c-e23a-437f-bd80-8a14743c60ae",
+        "created": "2020-08-15T09:52:20.015196Z",
+        "modified": "2021-08-14T01:08:23.643447Z",
+        "name": "Moreno-Nunez",
+        "sectors": [
+            "government-local"
+        ],
+        "confidence": 87,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e25dd8fa-930b-48ba-9170-300f1e8a6e66"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--e25dd8fa-930b-48ba-9170-300f1e8a6e66",
+        "created": "2021-08-14T01:08:23.641208Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-54b25f01-6af2-45fd-9467-12811cc2be8c",
+                "name": "Help hit around teach",
+                "create_date_time": "2021-08-14T01:08:08.425022Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

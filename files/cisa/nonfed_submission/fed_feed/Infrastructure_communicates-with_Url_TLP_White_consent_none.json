@@ -1,0 +1,160 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--458f7ea4-ce07-419c-bb2c-b8b125f6168a",
+        "created_by_ref": "identity--2b7a600d-3222-424d-8845-cbdb44795de5",
+        "created": "2021-03-13T05:57:05.793692Z",
+        "modified": "2021-08-14T01:08:41.327743Z",
+        "name": "offer",
+        "infrastructure_types": [
+            "anonymization",
+            "reconnaissance",
+            "reconnaissance",
+            "staging"
+        ],
+        "first_seen": "2021-12-28T18:10:14.591246Z",
+        "last_seen": "2022-07-23T12:33:41.843865Z",
+        "object_marking_refs": [
+            "marking-definition--77389ffb-786c-4f73-a675-1fcba24f25f9"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--343fad05-7524-4c91-bb3d-26c53de4b27f",
+        "value": "http://chapman.com/",
+        "object_marking_refs": [
+            "marking-definition--77389ffb-786c-4f73-a675-1fcba24f25f9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b928b4b4-420d-4a5c-83c7-6419cc8e0055",
+        "created_by_ref": "identity--2b7a600d-3222-424d-8845-cbdb44795de5",
+        "created": "2021-10-21T07:20:50.266137Z",
+        "modified": "2022-08-26T00:11:11.610534Z",
+        "relationship_type": "communicates-with",
+        "description": "Camera employee car without president both camera throw.",
+        "source_ref": "infrastructure--458f7ea4-ce07-419c-bb2c-b8b125f6168a",
+        "target_ref": "url--343fad05-7524-4c91-bb3d-26c53de4b27f",
+        "start_time": "2021-11-23T11:04:10.435337Z",
+        "labels": [
+            "off",
+            "treat",
+            "pfte-batch-1"
+        ],
+        "confidence": 13,
+        "object_marking_refs": [
+            "marking-definition--77389ffb-786c-4f73-a675-1fcba24f25f9"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--77389ffb-786c-4f73-a675-1fcba24f25f9",
+        "created_by_ref": "identity--2b7a600d-3222-424d-8845-cbdb44795de5",
+        "created": "2021-08-14T01:08:41.327078Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2828523e-b28d-4046-9afc-51d22e18d79b",
+                "name": "Social price record ever reveal physical each",
+                "create_date_time": "2021-08-14T01:08:08.418751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.418527Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2b7a600d-3222-424d-8845-cbdb44795de5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-10T05:29:18.270481Z",
+        "modified": "2021-08-14T01:08:41.32866Z",
+        "name": "PushRichCause",
+        "description": "Diverse grid-enabled hub",
+        "identity_class": "class",
+        "contact_information": "882 Johnson Burgs\nMorantown, AL 22259",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "PM",
+                "description": "Live account employee.",
+                "external_id": "LccjSBydYKcHzzZm"
+            },
+            {
+                "source_name": "report",
+                "description": "Without hot news better image.",
+                "hashes": {
+                    "MD5": "ba23a04c46e5bc1dc5cf80e2badb7c97",
+                    "SHA-1": "c339cb37057e0f3dad6a42efae572109a2636843",
+                    "SHA-256": "a8f4e939f3bb69ec9b3500174177a09ffd2e481a4989872aea054bedc37bf284",
+                    "SHA-512": "81ecd1aa732db9007ee477a9bb0d9936644eff1786f31804bbad01e0cfb12c0b190cc971525d10165ad1e1cfb0a40f277afdef1fa3d627db7ec0ee36a62352ca",
+                    "SHA3-256": "3380738d567b1e1169f84310f581fa6481ea306afbbdb3a99897fd6317c9009f",
+                    "SHA3-512": "459c9fc39403faa644eb4dfe6bd99182261fd41f0ccb61ec50b5b68158e2f93707fe35210c672191acd3ee412cc74f565122768212979959782154dbbc954a02"
+                },
+                "external_id": "XpODCfJhaskTRWo"
+            },
+            {
+                "source_name": "gas",
+                "url": "https://www.bennett.com/",
+                "hashes": {
+                    "MD5": "8edd490971bf55123c1b2a81fc07905e",
+                    "SHA-1": "653ecef662075a27a7a4129c745df9b91a842a4b",
+                    "SHA-256": "1c4c50cfbbc40147eb7b5bde34337a93e28c81761658fbd73e42b2bc3c8ca3bd",
+                    "SHA-512": "de8473b07c86675d6be8b1ae724e91a8a8bd94ac0f136a85fb6a020a22157d60b7263aac9c3bdb27a680f3c2a424756ccde59fd39c287121321643b73a32a4b9",
+                    "SHA3-256": "0d2e9ed8a75b4b2788278ec7ae1c03e52a777c3f9aa43b316dacc46d02433c94",
+                    "SHA3-512": "91a46af1e2942886329fafa4db6d39f4553d3a8e8e19b207fe4eed90ea6b31dbc39b45ec73db92bca0caa26cefe75e5ea7345840caac1f5c5d7d6784577a22e4"
+                },
+                "external_id": "aahwise"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--77389ffb-786c-4f73-a675-1fcba24f25f9"
+        ]
+    }
+]

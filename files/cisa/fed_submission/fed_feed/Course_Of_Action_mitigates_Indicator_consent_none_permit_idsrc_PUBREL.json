@@ -1,0 +1,254 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--0d3617f8-af5b-460a-9978-1547896b15f5",
+        "created_by_ref": "identity--35e1e7c7-bae6-46fe-ac25-ae58cf36daf1",
+        "created": "2022-03-03T13:46:55.045173Z",
+        "modified": "2022-08-03T09:09:46.249836Z",
+        "name": "network",
+        "confidence": 93,
+        "external_references": [
+            {
+                "source_name": "serve",
+                "hashes": {
+                    "MD5": "8b84d76091a2e270dc42be02d43a96e2",
+                    "SHA-1": "f05318cfa144b1f29e544e080b52405f137c744f",
+                    "SHA-256": "fa2d8f12484c54722babed16bdc1e817ce374fa28d432fa56f2c9878ed820a6a",
+                    "SHA-512": "b9142c9a6d4eff34e3d8590e2a497e276656664855dd81630fc789952f9bfcc41fe36ddbf5b389ca6bf75e159ffc81d975c349b795717632025a8e4f4bfc6632",
+                    "SHA3-256": "876fbafc95ef5b1bd87dac6e4e61a176810e623d54d0b8abe2580646aa9f1301",
+                    "SHA3-512": "9b546dc7bb966555cb2cf636205ce8d6f9569a287b38ffe95c8c61c1451a6ab6c7cfff475f483cba34b377f5a4659845a01a828e55860c61e9ead2691882f769"
+                },
+                "external_id": "aohgFQhSjpCXOG"
+            },
+            {
+                "source_name": "hotel",
+                "description": "Road lawyer senior ok.",
+                "url": "https://hughes.info/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--6bac7c84-036e-4950-8d62-df211d0904ac"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--2829c883-3344-48b6-938f-51541cd3b48d",
+        "created_by_ref": "identity--35e1e7c7-bae6-46fe-ac25-ae58cf36daf1",
+        "created": "2021-08-16T11:57:54.176331Z",
+        "modified": "2022-02-24T19:33:55.543625Z",
+        "name": "when",
+        "description": "Color them prove run evidence notice goal mission.",
+        "indicator_types": [
+            "malicious-activity",
+            "unknown",
+            "benign",
+            "compromised",
+            "benign"
+        ],
+        "pattern": "([windows-registry-key:modified_time < t'2020-12-31T05:48:16.706363Z']) FOLLOWEDBY [software:vendor = 'Barber PLC'] FOLLOWEDBY [file:hashes.'SHA-256' = '617169c760c70c72306298e2a4c97f50325497484595033783b69f4f589cb9ce'] REPEATS 7 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-04-19T00:14:08.887652Z",
+        "valid_until": "2022-01-25T05:16:09.423991Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "WSrgarWTVliwDMsiXn",
+                "phase_name": "NLfXovNKwbypUhtuA"
+            }
+        ],
+        "labels": [
+            "strategy",
+            "later",
+            "pfte-batch-1"
+        ],
+        "confidence": 86,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--6bac7c84-036e-4950-8d62-df211d0904ac"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f3bc9ab9-5eb3-4c69-b534-d24abe7c3d46",
+        "created_by_ref": "identity--35e1e7c7-bae6-46fe-ac25-ae58cf36daf1",
+        "created": "2021-11-07T00:52:43.322965Z",
+        "modified": "2022-10-06T05:18:30.119262Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--0d3617f8-af5b-460a-9978-1547896b15f5",
+        "target_ref": "indicator--2829c883-3344-48b6-938f-51541cd3b48d",
+        "external_references": [
+            {
+                "source_name": "second",
+                "description": "Season customer investment at gas president.",
+                "url": "https://www.whitehead.net/",
+                "hashes": {
+                    "MD5": "3e98e867571e51dacd2736a8d2c61e14",
+                    "SHA-1": "e226aced8cf43cabb5b43f7bc4e1bf3ed2dd5ee0",
+                    "SHA-256": "e12abf8aa3fa822915ff9c6fec2f91e631090c750ff6b948b19ffb2ac48b4797",
+                    "SHA-512": "d78be189470d3c01c8ca2dd140da3be364a6a8128ba3fad96ef526797cd51dcaa0ab89338f4b9c4698bf2d1c1dc1311878021b5db9e3cd7c48f2e6917e03e3ba",
+                    "SHA3-256": "56cb71f8e1ceaf7f396acd0fd8ddd252938c5f10797ceaad842a2d7be87d7c18",
+                    "SHA3-512": "aa72edcda0daaecd7089a7e0fb0b3e2f77a9463a93cbd936c17a02e6fa48e92358aa0491837ef51d50309117101c2e3015f325dc4f09949a314b227945abd90a"
+                },
+                "external_id": "RkqNdQJjfeFsB"
+            },
+            {
+                "source_name": "catch",
+                "description": "Spend sense hundred kitchen beautiful produce.",
+                "url": "https://walls.com/",
+                "external_id": "psNzYxXpAIiPgcCp"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--6bac7c84-036e-4950-8d62-df211d0904ac"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--35e1e7c7-bae6-46fe-ac25-ae58cf36daf1",
+        "created_by_ref": "identity--35e1e7c7-bae6-46fe-ac25-ae58cf36daf1",
+        "created": "2021-10-02T23:11:05.796393Z",
+        "modified": "2021-10-26T15:34:04.734494Z",
+        "name": "Jones Ltd",
+        "description": "Multi-channeled disintermediate workforce",
+        "identity_class": "class",
+        "sectors": [
+            "energy",
+            "government-regional"
+        ],
+        "contact_information": "739 Brown Prairie\nParsonsfurt, MI 94047",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "education",
+                "description": "Say religious stock check country foot.",
+                "hashes": {
+                    "MD5": "14010ed3ed64dca6d5e4bac2d6b22683",
+                    "SHA-1": "ac9dcb6046fc805f25aa5b0c517762ae0d1506c4",
+                    "SHA-256": "61e857f972c009da0add91806c9fcdac10f1c436676b66d82aee1435e6c581dd",
+                    "SHA-512": "3a6a4a595726c165758ec45c03a625b221c7d91a187a2d7f9d31d6f2068665777f0895326d881cdd2aeb54351d960304ea5ded585d799bc282d3b5ae819a187c",
+                    "SHA3-256": "7cebebb12d412edfd051ea75d0b9a29b3da6db32c6e0a6d4b271ed76f224ae1a",
+                    "SHA3-512": "701fb224fe176086a83a16d53d68674b4b63a724d7ce90fa32b8c5cdcf0d0d2ac426410428a31af8ca1214566bddc773892d336f780ab054bd0010c9000ef412"
+                },
+                "external_id": "bfWPKWCMKLv"
+            },
+            {
+                "source_name": "capital",
+                "url": "http://www.adkins.com/",
+                "hashes": {
+                    "MD5": "a69b2cc0a66c8917ca4f7c62a8adbd81",
+                    "SHA-1": "85067d2d83619f8e7b4cf18500e21bc4299e60e8",
+                    "SHA-256": "6f560ce80cf698d98aa09b6ce634254d2777cc1287b33761942a374193f1d3f5",
+                    "SHA-512": "832a41d1851382210ca56de2064c7da8859beb237cdeb6ad8093be2ce52c7cbc5977e9642aff8e473f2904d5e6369c7d49fa9b42e20c63385b1c3bf1e33f7f81",
+                    "SHA3-256": "180b97367b6462c6c10f2d7bb918402c22c488120977ab03bce40d1ef1509b67",
+                    "SHA3-512": "641fc707034e836270f763454200edc26ce5a27655b740c2ca8725efc799f83e9e0a156c3d7411f3178f62106fc471a4d0eac50caaaf64874760d118227dcf98"
+                },
+                "external_id": "yPtkizzqSMPKRUCHTVI"
+            },
+            {
+                "source_name": "official",
+                "description": "Minute throughout less land name news.",
+                "external_id": "WivHWwKivsLVrqdYHt"
+            },
+            {
+                "source_name": "difference",
+                "url": "http://hubbard.com/"
+            },
+            {
+                "source_name": "all",
+                "description": "Save total quite say lay will even."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--6bac7c84-036e-4950-8d62-df211d0904ac"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--6bac7c84-036e-4950-8d62-df211d0904ac",
+        "created": "2021-08-14T01:08:23.731991Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c37eda22-f302-4b2e-bf63-7f8ea35d72b0",
+                "name": "Event really first our country somebody",
+                "create_date_time": "2021-08-14T01:08:08.426408Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.426228Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

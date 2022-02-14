@@ -1,0 +1,155 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--b89cd537-d7ae-4330-8165-59f34a6ee57c",
+        "created_by_ref": "identity--62a0ceac-4615-4b59-9330-d7e9985ea85c",
+        "created": "2020-08-19T08:03:32.207984Z",
+        "modified": "2021-08-14T01:08:25.782687Z",
+        "name": "everybody",
+        "labels": [
+            "specific",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2e39f902-d8a8-4069-b2a9-f6bcf7f54392"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--ab021999-bcf5-4fa7-8dad-96965b178299",
+        "created_by_ref": "identity--62a0ceac-4615-4b59-9330-d7e9985ea85c",
+        "created": "2022-01-16T11:34:10.015204Z",
+        "modified": "2022-08-19T05:35:38.967441Z",
+        "name": "hour",
+        "aliases": [
+            "action",
+            "deep"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mvMhBa",
+                "phase_name": "YvoxK"
+            },
+            {
+                "kill_chain_name": "dWZqEdXJwjoVFFt",
+                "phase_name": "zqBnTJgYUiPUubsfrKeV"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "confidence": 96,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2e39f902-d8a8-4069-b2a9-f6bcf7f54392"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b11e5f67-15be-4baf-b712-f3574689cd7f",
+        "created_by_ref": "identity--62a0ceac-4615-4b59-9330-d7e9985ea85c",
+        "created": "2020-06-17T12:49:02.095728Z",
+        "modified": "2021-08-14T01:08:25.783299Z",
+        "relationship_type": "mitigates",
+        "description": "Spring well one chance. Civil center meet choose and player third.",
+        "source_ref": "course-of-action--b89cd537-d7ae-4330-8165-59f34a6ee57c",
+        "target_ref": "tool--ab021999-bcf5-4fa7-8dad-96965b178299",
+        "stop_time": "2022-06-15T22:27:30.598045Z",
+        "object_marking_refs": [
+            "marking-definition--2e39f902-d8a8-4069-b2a9-f6bcf7f54392"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--62a0ceac-4615-4b59-9330-d7e9985ea85c",
+        "created_by_ref": "identity--62a0ceac-4615-4b59-9330-d7e9985ea85c",
+        "created": "2022-05-31T09:29:18.320727Z",
+        "modified": "2022-10-05T05:20:37.441072Z",
+        "name": "Miller, Ayala and Mann",
+        "description": "Down-sized full-range software",
+        "sectors": [
+            "automotive",
+            "commercial",
+            "construction"
+        ],
+        "contact_information": "890 Susan Causeway Apt. 530\nNew Jasonmouth, OH 24065",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2e39f902-d8a8-4069-b2a9-f6bcf7f54392"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2e39f902-d8a8-4069-b2a9-f6bcf7f54392",
+        "created": "2021-08-14T01:08:25.782057Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7114ed24-0991-4631-bb44-7704e6b690d1",
+                "name": "Traditional contain thing officer story",
+                "create_date_time": "2021-08-14T01:08:08.432511Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.432344Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

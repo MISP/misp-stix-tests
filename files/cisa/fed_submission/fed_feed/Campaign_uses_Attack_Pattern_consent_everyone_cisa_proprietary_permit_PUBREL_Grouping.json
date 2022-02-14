@@ -1,0 +1,186 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--32e641ab-563e-4858-9e26-a133fa02b1e1",
+        "created_by_ref": "identity--c5b88e5d-c564-4573-918f-ce45c0f4f8b7",
+        "created": "2021-08-24T01:09:29.155691Z",
+        "modified": "2021-11-10T00:13:16.884179Z",
+        "name": "wear",
+        "aliases": [
+            "worker",
+            "leg",
+            "inside",
+            "hard"
+        ],
+        "last_seen": "2022-04-11T15:58:20.83513Z",
+        "objective": "Suddenly public less thought.",
+        "labels": [
+            "kind",
+            "small",
+            "never",
+            "exist",
+            "vote",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "for",
+                "url": "https://cooper.net/",
+                "external_id": "QkmyzINPedZapQHE"
+            },
+            {
+                "source_name": "go",
+                "description": "Step painting number media.",
+                "hashes": {
+                    "MD5": "327d3ec759e549628ea1a9bb5cb85afd",
+                    "SHA-1": "2bb97e7803fb31b77ac16dd0d2672cb4484bba52",
+                    "SHA-256": "ca0a4bbd5c371791ea8629455256019b7f00ee33a4a21df1ecac014358cfb3fa",
+                    "SHA-512": "ecbf4f9c2df6f4ddd77fe7622df71a5384b003911c44211a16c51e290e574288680b02ddec9e87518d7ba1b4037c05c6178caef980493ab88bde9e748e362c71",
+                    "SHA3-256": "319ac14fee6db442f5ee5bd087c1ef8cf3f4b8b9d9ec3d00e621de06ae8a76b9",
+                    "SHA3-512": "bfb55d1f3ccca372582f63829ef35cfb25e65040aa33968c5e4d481a55ae36c8d32279829e7f4fc480ff27d96b17acad9c96a0db341576c07e5d279c0e901f36"
+                }
+            },
+            {
+                "source_name": "toward",
+                "description": "Or save quality game else name.",
+                "url": "http://jones.com/",
+                "external_id": "kVesZAdVrBuyZvAMWfOe"
+            },
+            {
+                "source_name": "section",
+                "description": "Under plan speech trade.",
+                "url": "https://phillips.org/",
+                "external_id": "gseFpZxx"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--29176b78-f81f-4e5b-94bf-9efd70322388"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--0a1b6ee3-eb5b-4425-9740-005bd11b5448",
+        "created_by_ref": "identity--c5b88e5d-c564-4573-918f-ce45c0f4f8b7",
+        "created": "2021-06-04T09:57:41.453713Z",
+        "modified": "2021-08-22T16:58:28.255923Z",
+        "name": "course",
+        "description": "Participant very attorney help street physical audience.",
+        "aliases": [
+            "fine",
+            "even"
+        ],
+        "labels": [
+            "test",
+            "job",
+            "friend",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--29176b78-f81f-4e5b-94bf-9efd70322388"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4cb7f588-c250-441f-b065-2b4b892f1745",
+        "created_by_ref": "identity--c5b88e5d-c564-4573-918f-ce45c0f4f8b7",
+        "created": "2021-03-16T20:00:21.331613Z",
+        "modified": "2021-08-14T01:08:18.939783Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--32e641ab-563e-4858-9e26-a133fa02b1e1",
+        "target_ref": "attack-pattern--0a1b6ee3-eb5b-4425-9740-005bd11b5448",
+        "start_time": "2022-03-31T21:25:48.146129Z",
+        "labels": [
+            "large",
+            "pfte-batch-1"
+        ],
+        "confidence": 8,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--29176b78-f81f-4e5b-94bf-9efd70322388"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--7f383792-7832-482e-a7ae-9dfedf6da30a",
+        "created_by_ref": "identity--c5b88e5d-c564-4573-918f-ce45c0f4f8b7",
+        "created": "2021-08-12T19:38:40.116615Z",
+        "modified": "2021-10-23T06:13:52.866072Z",
+        "context": "suspicious-activity",
+        "object_refs": [
+            "campaign--32e641ab-563e-4858-9e26-a133fa02b1e1",
+            "attack-pattern--0a1b6ee3-eb5b-4425-9740-005bd11b5448",
+            "relationship--4cb7f588-c250-441f-b065-2b4b892f1745"
+        ],
+        "labels": [
+            "turn",
+            "piece",
+            "individual",
+            "pfte-batch-1"
+        ],
+        "confidence": 86,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--29176b78-f81f-4e5b-94bf-9efd70322388"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c5b88e5d-c564-4573-918f-ce45c0f4f8b7",
+        "created_by_ref": "identity--c5b88e5d-c564-4573-918f-ce45c0f4f8b7",
+        "created": "2021-04-10T10:10:53.332816Z",
+        "modified": "2021-08-14T01:08:18.940324Z",
+        "name": "Drake-Lee",
+        "description": "Ergonomic didactic capability",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--29176b78-f81f-4e5b-94bf-9efd70322388"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--29176b78-f81f-4e5b-94bf-9efd70322388",
+        "created": "2021-08-14T01:08:18.93846Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-716f5d31-4760-4ed1-b8df-6b76bb19bd34",
+                "name": "Wife plan yourself training yet rich",
+                "create_date_time": "2021-08-14T01:08:08.43336Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.433196Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--e8e8498c-833b-4722-99df-66e37eb37ca5",
+        "created_by_ref": "identity--fbb7ea5e-42c7-4ec4-842c-a6d337589ec1",
+        "created": "2022-07-21T22:38:13.209714Z",
+        "modified": "2023-04-14T00:02:33.153468Z",
+        "name": "agent",
+        "labels": [
+            "issue",
+            "find",
+            "risk",
+            "pfte-batch-1"
+        ],
+        "confidence": 10,
+        "object_marking_refs": [
+            "marking-definition--2bc9bcc9-32e9-42d3-9f41-d805951bebda"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--906697eb-59f4-4b11-adcb-30b359a16a8a",
+        "created_by_ref": "identity--fbb7ea5e-42c7-4ec4-842c-a6d337589ec1",
+        "created": "2022-05-16T21:53:22.831623Z",
+        "modified": "2022-12-26T15:43:24.600752Z",
+        "name": "message",
+        "description": "Bar back money land.",
+        "aliases": [
+            "hear"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "when",
+                "description": "Long land affect age.",
+                "url": "https://thomas.org/",
+                "external_id": "zOnqvkMXV"
+            },
+            {
+                "source_name": "group",
+                "url": "http://www.landry.com/"
+            },
+            {
+                "source_name": "specific",
+                "description": "Act stop war technology person tend quickly.",
+                "url": "https://harris.com/",
+                "external_id": "LYbVVWUJjMdcc"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2bc9bcc9-32e9-42d3-9f41-d805951bebda"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--079c0688-2a66-48fb-8972-da5e596152b0",
+        "created_by_ref": "identity--fbb7ea5e-42c7-4ec4-842c-a6d337589ec1",
+        "created": "2020-08-15T01:25:05.430051Z",
+        "modified": "2021-08-14T01:08:23.250598Z",
+        "relationship_type": "mitigates",
+        "description": "Eye stock economic teacher rise six. Agent understand represent heavy reflect understand. War control move week service economic it listen.",
+        "source_ref": "course-of-action--e8e8498c-833b-4722-99df-66e37eb37ca5",
+        "target_ref": "attack-pattern--906697eb-59f4-4b11-adcb-30b359a16a8a",
+        "external_references": [
+            {
+                "source_name": "until",
+                "hashes": {
+                    "MD5": "85e7da8b19834755d313b4034d7c4ecb",
+                    "SHA-1": "78333ad8efc538906fc5db92950c8d62afa54ab9",
+                    "SHA-256": "ca9927d7bd215d02840339ea2c787f4f0e3558870e341ffd679c9bed573f15cd",
+                    "SHA-512": "e8c0d7d46475c7153a420ebc808c500d59e9d3f4c8bb91a3c8d68039dc8557574d96726f3250192c1365e06a9bb80e8bb65392a748d3505912b40da01ef5cf96",
+                    "SHA3-256": "28d5ea7da481ab193ca2454b88740da819a6895a24c1fd821b6b8db8430ecae7",
+                    "SHA3-512": "82e8eece170cb4dcefd98891e0df5771d3c3b4491968e86c65e775b611fa15705c63c9ade8a9b0cce48a4bfeee10a2896116973e43f74031ce89930e956cbb09"
+                },
+                "external_id": "sKSzvkQaQlAh"
+            },
+            {
+                "source_name": "reason",
+                "external_id": "WCqLOON"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2bc9bcc9-32e9-42d3-9f41-d805951bebda"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--fbb7ea5e-42c7-4ec4-842c-a6d337589ec1",
+        "created_by_ref": "identity--fbb7ea5e-42c7-4ec4-842c-a6d337589ec1",
+        "created": "2022-04-04T15:13:38.731929Z",
+        "modified": "2022-12-29T15:27:00.510018Z",
+        "name": "Hester LLC",
+        "roles": [
+            "explain",
+            "loss",
+            "today",
+            "newspaper",
+            "stop"
+        ],
+        "identity_class": "system",
+        "sectors": [
+            "automotive",
+            "pharmaceuticals",
+            "telecommunications"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2bc9bcc9-32e9-42d3-9f41-d805951bebda"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2bc9bcc9-32e9-42d3-9f41-d805951bebda",
+        "created": "2021-08-14T01:08:23.249094Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-b6e02fdc-1bc2-4bf7-88bf-58ec1e8c0a26",
+                "name": "Eye set happy strong city way",
+                "create_date_time": "2021-08-14T01:08:08.434259Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.434092Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

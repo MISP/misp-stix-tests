@@ -1,0 +1,143 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--b6a272fb-32c4-44d2-9f81-90ca7d4a2c5a",
+        "created_by_ref": "identity--dd25683d-67d7-421e-80d8-23e7dbfcb0c7",
+        "created": "2021-10-26T09:06:10.080484Z",
+        "modified": "2022-04-27T16:30:59.193811Z",
+        "name": "cost",
+        "aliases": [
+            "market",
+            "bar"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "first_seen": "2022-07-31T15:09:32.018711Z",
+        "labels": [
+            "enter",
+            "pfte-batch-1"
+        ],
+        "confidence": 48,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "ipv6-addr",
+        "spec_version": "2.1",
+        "id": "ipv6-addr--1b968ff0-d44b-4eb2-beee-e8d60e4fb964",
+        "value": "9a73:90d6:cf8a:1105:4741:cd8e:c862:cae9",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--086f973a-949d-4de0-a68a-5b9aac274db7",
+        "created_by_ref": "identity--dd25683d-67d7-421e-80d8-23e7dbfcb0c7",
+        "created": "2021-01-10T02:36:35.108997Z",
+        "modified": "2021-08-14T01:08:40.445252Z",
+        "relationship_type": "communicates-with",
+        "description": "Politics affect see full.",
+        "source_ref": "infrastructure--b6a272fb-32c4-44d2-9f81-90ca7d4a2c5a",
+        "target_ref": "ipv6-addr--1b968ff0-d44b-4eb2-beee-e8d60e4fb964",
+        "stop_time": "2020-09-03T03:40:11.163622Z",
+        "labels": [
+            "adult",
+            "oil",
+            "building",
+            "right",
+            "about",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "fall",
+                "hashes": {
+                    "MD5": "5f435df90da3ee77f545f2184aa4ae58",
+                    "SHA-1": "cf6b5401c7f8727bcab005c2dbc3da46d7302d8c",
+                    "SHA-256": "41b1f6421289d404a9ed92399bc1d9da2af1b4bf995fa9912a88a1473b0f8560",
+                    "SHA-512": "014f5de808053891ca023ec918ee89df4c27ebe4d4cf2650a8d628dafa507da584a0b2607d71f255089815b17747f9e8e87aaf30fcf2eaddf515c2824050032b",
+                    "SHA3-256": "835d17a127a55b09bffffaf79fc204903f96b6e6c6c4881626027cdea9c096f4",
+                    "SHA3-512": "6f9a56fd02d7a1fd1c008101ffb08ba4cb92767490aeb3dc8fb7a9ef1020ca0106f10e3e0fc8c2791e780dc30b3f5fe5bb99d919bb223943c6e33e8d03f356f6"
+                },
+                "external_id": "rnnfHsLZlzhjlgcWwx"
+            },
+            {
+                "source_name": "price",
+                "url": "http://contreras.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--dd25683d-67d7-421e-80d8-23e7dbfcb0c7",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-04-10T06:32:54.607587Z",
+        "modified": "2022-05-22T05:38:20.291444Z",
+        "name": "MainServeRepresent",
+        "identity_class": "individual",
+        "contact_information": "08303 Kristina Crest Apt. 344\nWest Ashleyport, ME 10946",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "focus",
+                "description": "Front they herself green.",
+                "url": "https://www.clark.com/",
+                "hashes": {
+                    "MD5": "bac991095b299ab3105ec30898137e21",
+                    "SHA-1": "4a743e4fd6ca809b288f075ca7b34093d6519843",
+                    "SHA-256": "0649c5717f2e478691f2d34d47e2a681e0a77ca58983ef5c53c1fe6c5646cca8",
+                    "SHA-512": "3feb96937222259bb154e2f31ed1b6900119429b742f08d399edb91b95b33e88f19df80c7faab5ae63606d4b65acef1ff6221d423c524079985414491c3c2be6",
+                    "SHA3-256": "64aeadd273738ad5485dde5ff2d21cd17fc14d65bb1fdb94225a840648752706",
+                    "SHA3-512": "8fb7732f2c0d6cba8f845b0d2de8537412dfb6f024d2083c468ae5ad08f68bc164f606d6bda88f13412dcb37732537bdbe65241d33816cd2a76120c0b8d88e14"
+                }
+            },
+            {
+                "source_name": "apply",
+                "description": "Teacher strategy training memory claim pattern environment.",
+                "url": "http://www.valencia.biz/",
+                "external_id": "eNwAT"
+            },
+            {
+                "source_name": "information",
+                "url": "http://shah.net/",
+                "hashes": {
+                    "MD5": "61fa1ef743d434bf956b9acddac8acfc",
+                    "SHA-1": "9ece9d9b3633000a8da574dfe06244a98e02ca1d",
+                    "SHA-256": "8f1909d2ba9371b5d6a837200021ef95b76eeefd4593747e086a61f58d862111",
+                    "SHA-512": "c07e2ab3b4d2543d1128ec2445ab07cbe812d1eb43043bfcae48a8eeb6c717fe724ec812023378fa2d6a772c7e28ed229737b233133620b0147f34aedcb9c883",
+                    "SHA3-256": "a68160ad2df49b6a956a358da17b18b4cf50206c524a346c4036ce6252aa81b9",
+                    "SHA3-512": "36f126d06bc6cb86d47bc8d596e7a6cb7a242d3e115dce6a28bade629c224e7df95c4701ec6533b480ae0dda786c3db33d4d3f50a7a65596ec99e67dbb772f39"
+                },
+                "external_id": "WTqMiTi"
+            },
+            {
+                "source_name": "heavy",
+                "description": "Keep within can series entire."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

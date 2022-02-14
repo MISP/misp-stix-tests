@@ -1,0 +1,197 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--4c8c5f1c-7175-4509-a12b-d79f8ec304b6",
+        "created_by_ref": "identity--ed66938e-c856-4b01-9928-d313444ff354",
+        "created": "2021-06-30T06:09:14.714956Z",
+        "modified": "2022-05-08T07:16:38.118364Z",
+        "name": "direction",
+        "pattern": "([user-account:account_type >= 'nis'] FOLLOWEDBY [mac-addr:defanged NOT = false] FOLLOWEDBY ([directory:defanged NOT = false] AND [email-addr:display_name > 'Stephanie Wilson'] START t'2022-01-22T11:55:04.532656Z' STOP t'2022-05-28T21:39:55.102399Z'))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-01-10T14:29:05.25271Z",
+        "valid_until": "2021-03-09T12:43:36.492126Z",
+        "labels": [
+            "stop",
+            "hot",
+            "similar",
+            "more",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--71a78a59-6247-49ba-927d-5962b46cb0d6"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--e495d94c-a037-466f-b947-e44ac17b7f06",
+        "created_by_ref": "identity--ed66938e-c856-4b01-9928-d313444ff354",
+        "created": "2022-06-18T12:52:09.135375Z",
+        "modified": "2023-06-01T01:09:28.154735Z",
+        "name": "Mrs",
+        "aliases": [
+            "sometimes",
+            "enjoy",
+            "lot"
+        ],
+        "first_seen": "2021-08-31T23:27:25.984737Z",
+        "last_seen": "2021-11-01T04:15:01.178162Z",
+        "resource_level": "contest",
+        "primary_motivation": "accidental",
+        "secondary_motivations": [
+            "coercion",
+            "ideology"
+        ],
+        "confidence": 95,
+        "external_references": [
+            {
+                "source_name": "energy",
+                "description": "If whom could production treatment then yourself.",
+                "url": "http://www.allen.com/",
+                "external_id": "ONSfrzrxqiROhdlVsAK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--71a78a59-6247-49ba-927d-5962b46cb0d6"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a79c54a4-aa01-4437-8a59-27d09f55471d",
+        "created_by_ref": "identity--ed66938e-c856-4b01-9928-d313444ff354",
+        "created": "2021-07-19T03:38:57.757414Z",
+        "modified": "2022-01-06T00:26:59.017494Z",
+        "relationship_type": "indicates",
+        "description": "Role fight picture I. Per a professor opportunity wife speak opportunity operation.",
+        "source_ref": "indicator--4c8c5f1c-7175-4509-a12b-d79f8ec304b6",
+        "target_ref": "intrusion-set--e495d94c-a037-466f-b947-e44ac17b7f06",
+        "start_time": "2022-02-05T09:23:07.216166Z",
+        "labels": [
+            "cell",
+            "seek",
+            "pfte-batch-1"
+        ],
+        "confidence": 64,
+        "object_marking_refs": [
+            "marking-definition--71a78a59-6247-49ba-927d-5962b46cb0d6"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ed66938e-c856-4b01-9928-d313444ff354",
+        "created_by_ref": "identity--ed66938e-c856-4b01-9928-d313444ff354",
+        "created": "2021-03-30T22:43:59.454957Z",
+        "modified": "2022-03-03T23:04:08.663609Z",
+        "name": "Bennett LLC",
+        "description": "Team-oriented 3rdgeneration leverage",
+        "roles": [
+            "about",
+            "thousand",
+            "maintain",
+            "however"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "pharmaceuticals",
+            "communications",
+            "non-profit",
+            "commercial",
+            "dams"
+        ],
+        "confidence": 58,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "watch",
+                "url": "https://www.brooks.net/",
+                "hashes": {
+                    "MD5": "91be16df4051c2ddcd74cb6c573db0a2",
+                    "SHA-1": "2b244b8690169fbecac1198a1548782c3b8dfe6c",
+                    "SHA-256": "9b5925ab5ea8ed1b63af641ec5affb1f7c0b63e05657e7dd9fb292279f6ffbf7",
+                    "SHA-512": "52e45b5aa709456dac579790de7d67d0c2643a33d6fd47eb3033ce383b5962ddc0e458f134810bc1e85b494f17ab05496d3799df9c7bc29b84086361fa248fb5",
+                    "SHA3-256": "484685fc514290db08e48886a8868645c4a45cb6e9cd61b6ad405043bd5f566e",
+                    "SHA3-512": "5382d1c94540089bb4ccd1343d6e64cc8e9c7f0bd159c1a3d61edc23e75a5ad09d12f140622148001f6b4927880f39c574d472bbab886d4e55a2755e957a0ee6"
+                },
+                "external_id": "aDozaVqxaeLAGUxCrEX"
+            },
+            {
+                "source_name": "after",
+                "url": "http://hawkins.com/",
+                "hashes": {
+                    "MD5": "7a7c2ff315ba9b4c50f44b60f4b1420d",
+                    "SHA-1": "25b6c7aaffbd15bef0defb7461fa784318f94635",
+                    "SHA-256": "f4d9325af23acb1cab4d38e614c4d04f078bafee3198bc8816f4ae188153c264",
+                    "SHA-512": "7b88e4e96af3a9fc1ae7e2a5979d44b8bc5afd6201393491b0e7de0020b0bd12488a68f2f977aba6df93f62c0873cadd3e21c2b24c500b3155ca522ef4031f36",
+                    "SHA3-256": "df5b0726c047c812fc480e3d4a8d91c6e6745f237b5f34f1716dcaf88ea6fe76",
+                    "SHA3-512": "23a27e3bf5571ac5a6a0123de175c8bdbe1dd7e6215b2b4f3aefa570d1e6e6b442d2a5b32e11b704c3c475f87da13e45b366248db338d0e541c8c289884fd3df"
+                }
+            },
+            {
+                "source_name": "detail",
+                "external_id": "PyZYrFK"
+            },
+            {
+                "source_name": "live",
+                "description": "Job represent break oil strong.",
+                "url": "http://oconnell-farley.com/",
+                "external_id": "iyaDSfoTVVErX"
+            },
+            {
+                "source_name": "themselves",
+                "url": "https://patton.net/",
+                "external_id": "CNJpOdgAvGyElFYD"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--71a78a59-6247-49ba-927d-5962b46cb0d6"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--71a78a59-6247-49ba-927d-5962b46cb0d6",
+        "created": "2021-08-14T01:08:31.644664Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f680acaf-ba5a-4af9-ba41-d819400a97d1",
+                "name": "Decide court anything one doctor sound serve nation",
+                "create_date_time": "2021-08-14T01:08:08.428211Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.428042Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,144 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--15d08b69-7a93-4875-91de-1322329321e9",
+        "created_by_ref": "identity--fde54de1-7c8c-4ec9-b253-47b26cd792d7",
+        "created": "2021-08-01T05:06:37.197078Z",
+        "modified": "2021-08-14T01:08:35.679872Z",
+        "name": "radio",
+        "indicator_types": [
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "[mutex:name NOT = 'employee'] START t'2022-04-18T02:54:26.593902Z' STOP t'2022-07-02T16:16:14.126596Z'",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-07-14T04:07:21.27726Z",
+        "valid_until": "2021-08-29T01:58:44.10064Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "labels": [
+            "suddenly",
+            "notice",
+            "study",
+            "pfte-batch-1"
+        ],
+        "confidence": 17,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--a51248a1-6117-47e2-b4ee-6a3c725598ca",
+        "created_by_ref": "identity--fde54de1-7c8c-4ec9-b253-47b26cd792d7",
+        "created": "2022-04-02T16:47:16.968484Z",
+        "modified": "2022-09-24T21:28:07.221737Z",
+        "name": "professional",
+        "labels": [
+            "customer",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--54545343-ab9b-46ff-91d8-26ddcce06161",
+        "created_by_ref": "identity--fde54de1-7c8c-4ec9-b253-47b26cd792d7",
+        "created": "2021-01-22T23:19:51.117728Z",
+        "modified": "2021-08-14T01:08:35.681805Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--15d08b69-7a93-4875-91de-1322329321e9",
+        "target_ref": "tool--a51248a1-6117-47e2-b4ee-6a3c725598ca",
+        "start_time": "2021-07-28T13:53:56.875575Z",
+        "labels": [
+            "cause",
+            "decide",
+            "describe",
+            "mother",
+            "six",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "soon",
+                "description": "Voice late money executive.",
+                "url": "https://rosales-baker.com/",
+                "hashes": {
+                    "MD5": "024931ed3a396fad3c797842ee515a65",
+                    "SHA-1": "e4625b48d598516f99f31082a6aa716f19b5df4b",
+                    "SHA-256": "4594950b15a62832becc5eb95161c13da4e94475fdf56118f16fcc7be4a2159b",
+                    "SHA-512": "52bd3b9470d7a96c0dccba5fe80cec8f79290ad6e66da7b361b2402dd9b416cbca8ba643043d3d46ad3c97e1d2a3596abac3006d95e27ae21d5321f3575d0dd0",
+                    "SHA3-256": "9b16e82998ac77e49ae3f16bbc8d6367461ef5aed6ca2d2bddaaf712e5199ff2",
+                    "SHA3-512": "7e046b4067d64ab24c140c49fe29a155f51ca54051ee47c7b6d006230a1ac09871d407f1573eabc34bd35e122a05010ab106e686c7cefa3397a69f0bb0573e97"
+                }
+            },
+            {
+                "source_name": "decide",
+                "description": "Loss too produce effort."
+            },
+            {
+                "source_name": "significant",
+                "url": "http://spencer-franco.info/"
+            },
+            {
+                "source_name": "child",
+                "description": "Spring specific decide baby nature thus service.",
+                "url": "https://luna.com/"
+            },
+            {
+                "source_name": "ready",
+                "description": "Nor line run need.",
+                "external_id": "TGSrpPO"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--fde54de1-7c8c-4ec9-b253-47b26cd792d7",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-15T11:24:12.255437Z",
+        "modified": "2021-10-25T15:38:57.844735Z",
+        "name": "ActuallyImportantPresent",
+        "roles": [
+            "international",
+            "ready"
+        ],
+        "identity_class": "individual",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

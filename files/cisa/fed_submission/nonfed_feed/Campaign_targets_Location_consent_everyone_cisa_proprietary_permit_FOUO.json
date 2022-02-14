@@ -1,0 +1,123 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--57e38630-3707-418f-83dc-eae9a05d6595",
+        "created_by_ref": "identity--dcae81b0-28c5-4d16-ab0e-41a5abfd5b42",
+        "created": "2022-01-22T12:08:45.025297Z",
+        "modified": "2022-06-20T21:13:40.640155Z",
+        "name": "itself",
+        "description": "School soldier big significant peace to.",
+        "aliases": [
+            "would",
+            "direction"
+        ],
+        "last_seen": "2021-04-15T15:42:58.577889Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 25,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--15d9de89-e540-42b0-8c77-854034e33eae",
+        "created_by_ref": "identity--dcae81b0-28c5-4d16-ab0e-41a5abfd5b42",
+        "created": "2021-10-14T03:19:29.652345Z",
+        "modified": "2022-05-26T23:30:47.829733Z",
+        "description": "Centralized clear-thinking approach",
+        "latitude": 41.917023160783316,
+        "longitude": 110.08151800111864,
+        "precision": 47.2393937940651,
+        "country": "Myanmar",
+        "administrative_area": "tquqJV",
+        "city": "Garyville",
+        "street_address": "51664 Adams Points",
+        "postal_code": "46598",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--91552635-14e9-4959-9138-e2c8403b3f45",
+        "created_by_ref": "identity--dcae81b0-28c5-4d16-ab0e-41a5abfd5b42",
+        "created": "2022-04-06T20:08:08.908542Z",
+        "modified": "2022-09-11T16:32:08.593923Z",
+        "relationship_type": "targets",
+        "source_ref": "campaign--57e38630-3707-418f-83dc-eae9a05d6595",
+        "target_ref": "location--15d9de89-e540-42b0-8c77-854034e33eae",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 24,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--dcae81b0-28c5-4d16-ab0e-41a5abfd5b42",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-01T02:08:20.766907Z",
+        "modified": "2022-09-01T06:36:49.633582Z",
+        "name": "White-Perez",
+        "identity_class": "group",
+        "contact_information": "691 Mark Coves\nMeaganhaven, MS 63736",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "positive",
+                "description": "Forward add budget cut morning beyond concern.",
+                "external_id": "BtCDztyGsZ"
+            },
+            {
+                "source_name": "the",
+                "url": "http://lewis.biz/",
+                "hashes": {
+                    "MD5": "4384ef36885e19ae8f33cdd6f61581c1",
+                    "SHA-1": "d035a56ed6298e576236d4d7757b6a7f0675527a",
+                    "SHA-256": "cc0617896b88ff88ef8d8ca23341b7b0aad95cd6df7ea1307289465bf4200e08",
+                    "SHA-512": "664c3b3c53b2ca177ed32c3a1407d7d973577bc5edd0a0d1cdcac860ecfa870169f38f0b29d29648f61bc7b0045ca30e6f05ab653110faf2a33edf1deacb3bec",
+                    "SHA3-256": "17cdaf0028b89fa6abdadbd1895b43695fbb2c0d2503af4e7fcc08d4a0268cc6",
+                    "SHA3-512": "00ab5233463211848fa045f260039bfd51e636ba650907da92a56dc39ddc51834f49fa3cb56397f7dd1eb49c50c06a42b946ebbb714386d94da192976d2c5b3e"
+                },
+                "external_id": "UepYpwfEpS"
+            },
+            {
+                "source_name": "town",
+                "description": "Seven father idea control final.",
+                "url": "http://www.hall.com/",
+                "hashes": {
+                    "MD5": "216a16f151941ac2c9f9b27339a784c1",
+                    "SHA-1": "7c319cef09de36d463cc579612a6f596e93c504f",
+                    "SHA-256": "46f67229624d45e8bbc6516216311abb5fc5dbd3384c83b9cf2ae3e8db1cdd25",
+                    "SHA-512": "731a505fd118fd3b9834edc4872602df5427e300415d6ad329361d7dfe47e3839df22805d36a073dca5a9f16bd997428720e34c038f96d3a523e574a277ce367",
+                    "SHA3-256": "b276526b575a1aebe8b30a8f8040c69b23a031166957c8cc05318aeae354f633",
+                    "SHA3-512": "4055ea174a6d78df38ff629c8251d50ecf327d5a3200e05c0023b3e0c253fc5f6864aa93ac1087eff22e98696e7a276e3b630051c94b3decfad86a6b32a67d8b"
+                }
+            },
+            {
+                "source_name": "according",
+                "description": "Hope stop allow expert whole result if.",
+                "external_id": "wfKnhivRSM"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

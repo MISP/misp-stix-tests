@@ -1,0 +1,155 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--e153edee-b0cd-4fda-baa9-bfd1186defac",
+        "created_by_ref": "identity--fb2b2769-fd9d-4837-99b8-f72b6dcb38fc",
+        "created": "2022-06-14T22:26:31.943054Z",
+        "modified": "2023-03-05T20:41:31.624629Z",
+        "name": "middle",
+        "indicator_types": [
+            "attribution",
+            "anonymization",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "([network-traffic:src_port >= 58476] FOLLOWEDBY (([process:created_time NOT = t'2020-11-16T10:49:12.873688Z'] FOLLOWEDBY [domain-name:value NOT = 'garrett-watson.org'])))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-04-30T04:13:14.54746Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "LcWTgYpVyUEsVui",
+                "phase_name": "NUihSjRt"
+            }
+        ],
+        "labels": [
+            "candidate",
+            "minute",
+            "store",
+            "rather",
+            "coach",
+            "pfte-batch-1"
+        ],
+        "confidence": 25,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--50c46e6b-64c1-4ed3-9866-20f9d3bab1a7",
+        "created_by_ref": "identity--fb2b2769-fd9d-4837-99b8-f72b6dcb38fc",
+        "created": "2021-03-30T19:24:06.09452Z",
+        "modified": "2022-01-24T00:00:52.271306Z",
+        "first_observed": "2020-08-29T03:11:40.604547Z",
+        "last_observed": "2021-04-11T14:27:44.187606Z",
+        "number_observed": 872867401,
+        "objects": {
+            "user-account--17a9dc87-99d6-4677-bb25-e83f155452bd": {
+                "type": "user-account",
+                "spec_version": "2.1",
+                "id": "user-account--17a9dc87-99d6-4677-bb25-e83f155452bd",
+                "user_id": "tiffanymccoy",
+                "credential": "$0UNJNSU&h",
+                "account_type": "windows-domain",
+                "is_service_account": true,
+                "is_disabled": true,
+                "account_created": "2021-12-07T16:37:09.667173Z",
+                "account_expires": "2022-06-15T01:33:42.902675Z",
+                "credential_last_changed": "2021-06-02T08:43:53.091034Z",
+                "account_last_login": "2021-09-16T12:28:18.891271Z"
+            }
+        },
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--45e16f2f-93d5-4a32-9b0b-4caeba3c1214",
+        "created_by_ref": "identity--fb2b2769-fd9d-4837-99b8-f72b6dcb38fc",
+        "created": "2021-04-02T07:02:49.709179Z",
+        "modified": "2021-08-14T01:08:38.140152Z",
+        "relationship_type": "based-on",
+        "source_ref": "indicator--e153edee-b0cd-4fda-baa9-bfd1186defac",
+        "target_ref": "observed-data--50c46e6b-64c1-4ed3-9866-20f9d3bab1a7",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "it",
+                "hashes": {
+                    "MD5": "bbeaf4871e8d4c31575c4cb798e61769",
+                    "SHA-1": "4e462e44525aebe7006b6ef0d102ad688252bfe8",
+                    "SHA-256": "5b2bac818ab7dd2b2b29e7ab3a65e80b06124763ac2f432fd3e073ee59b9da8c",
+                    "SHA-512": "401c5dbc54e01eefc7a5ce776177ab921ab4bfe6d8d8b9188dc0b7a916c1c101481def4f626c4e46f245bfdfc2fa4e81f92b66d05abdb03fc8759699434d7426",
+                    "SHA3-256": "167a567edbbb17a90acf83818c2fe5a78441d3f79cd0be9eb768a79d4d35b87f",
+                    "SHA3-512": "8a110a9f4949ae05563ef9614e704857c37f86eb494546c60e0bb3fb7d3c06d6166aeafee1145eca50fb05c728f24544da1a7dfa059b1a4327a61258dc4e97cc"
+                },
+                "external_id": "YJltY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--14d8f86d-fe0b-418c-aeba-72f9025b11a4",
+        "created_by_ref": "identity--fb2b2769-fd9d-4837-99b8-f72b6dcb38fc",
+        "created": "2021-10-01T16:43:29.89425Z",
+        "modified": "2022-09-17T17:52:34.122127Z",
+        "explanation": "Benefit so step staff him. Water design hit if might their. Peace age fire college garden.",
+        "authors": [
+            "best",
+            "choice",
+            "loss"
+        ],
+        "opinion": "disagree",
+        "object_refs": [
+            "indicator--e153edee-b0cd-4fda-baa9-bfd1186defac",
+            "observed-data--50c46e6b-64c1-4ed3-9866-20f9d3bab1a7",
+            "relationship--45e16f2f-93d5-4a32-9b0b-4caeba3c1214"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 70,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--fb2b2769-fd9d-4837-99b8-f72b6dcb38fc",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-12-22T03:51:48.279429Z",
+        "modified": "2022-03-16T16:07:28.767283Z",
+        "name": "Morris-Moore",
+        "sectors": [
+            "education"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

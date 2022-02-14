@@ -1,0 +1,199 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--39272404-34b2-4778-84b4-35f2e3842676",
+        "created_by_ref": "identity--f73182a9-a592-4ec0-9c9b-6d61dc9a570f",
+        "created": "2021-08-28T15:51:16.500271Z",
+        "modified": "2022-06-26T21:52:16.844419Z",
+        "name": "forget",
+        "aliases": [
+            "sea",
+            "live"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "xBnjlkxeBrLQKDYyNvyH",
+                "phase_name": "UFgkWEbhUNJhn"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "first_seen": "2020-11-14T13:17:02.444119Z",
+        "last_seen": "2021-02-16T14:52:31.042326Z",
+        "labels": [
+            "from",
+            "summer",
+            "a",
+            "pfte-batch-1"
+        ],
+        "confidence": 7,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "domain-name",
+        "spec_version": "2.1",
+        "id": "domain-name--bc0fadaf-77d7-451c-b1fb-342f35c29859",
+        "value": "weber.com",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e3fafe30-6023-4e7a-9e55-960c5726fc7a",
+        "created_by_ref": "identity--f73182a9-a592-4ec0-9c9b-6d61dc9a570f",
+        "created": "2020-12-25T01:39:35.729518Z",
+        "modified": "2021-12-18T01:27:47.114276Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--39272404-34b2-4778-84b4-35f2e3842676",
+        "target_ref": "domain-name--bc0fadaf-77d7-451c-b1fb-342f35c29859",
+        "start_time": "2022-03-12T01:08:35.220015Z",
+        "labels": [
+            "play",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "discussion",
+                "hashes": {
+                    "MD5": "f36a594fda73ef917a79505928a1f9ec",
+                    "SHA-1": "ad2bc335f4dd9e8c0882a6a88afa85f05c2e61de",
+                    "SHA-256": "6a0f95e5761c68ef924c6ea7a5edc0b2403c54d83981b1d275825e395d1849c7",
+                    "SHA-512": "a6b074653fd3aca8b15de546bc416ba705684529ee70eaa78c9265a50498bd93a9f744b2d6aa4ede14c449c986f82ad1a246bfbdbc79760e2c4d0a4835cf2474",
+                    "SHA3-256": "3b1fb465f3a44ea38c302fdaac9cdaadba6fe19c54ccfb1dd786de737bf0a31c",
+                    "SHA3-512": "1334ce4d9a3ec3f92d5b8640fc8dd246bf74d78012684be9af3ae0635d20c13c61fab586a0a0afb54f35451839483592686e53dde03aae28b00a7344a26166e0"
+                },
+                "external_id": "gOUUEJguhthpI"
+            },
+            {
+                "source_name": "question",
+                "url": "https://www.smith-ward.net/",
+                "hashes": {
+                    "MD5": "b63f295db17e0b759edbdad9df0f0b13",
+                    "SHA-1": "8dffca227518a70b5b5ab7a1e54d88ce0770a6a5",
+                    "SHA-256": "35699d34f3ebce8c3d7eeae310efee8baaa7a09f782f21434f6fa83e4c75300b",
+                    "SHA-512": "f038dafb151d0715bdea57402f530c8e4596fce7273eda6faf16f61bb9ff26bfd6a1d4a049c0a477417024a102480d5bf441ea2b4164062329c83fbe8a154c47",
+                    "SHA3-256": "99def6d3ffac837655dea4511e5cdc6e0e6bd9ae55b1f8e8428b17419a737442",
+                    "SHA3-512": "8ed60a9dbc00e23bf8c8be7abfa93dc07589bffcfca3a955a38713764401d38af8d8c72297b1b6ac718fa739756d14b57c483ab758213c9898792d57b28b1c0a"
+                },
+                "external_id": "tOTecN"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--9ad584fa-cdb1-4942-b18f-e216cc706691",
+        "created_by_ref": "identity--f73182a9-a592-4ec0-9c9b-6d61dc9a570f",
+        "created": "2021-12-02T06:32:07.292978Z",
+        "modified": "2022-08-16T19:12:39.73617Z",
+        "name": "community",
+        "context": "malware-analysis",
+        "object_refs": [
+            "infrastructure--39272404-34b2-4778-84b4-35f2e3842676",
+            "domain-name--bc0fadaf-77d7-451c-b1fb-342f35c29859",
+            "relationship--e3fafe30-6023-4e7a-9e55-960c5726fc7a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 97,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f73182a9-a592-4ec0-9c9b-6d61dc9a570f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-08-30T08:20:11.224768Z",
+        "modified": "2022-04-08T10:05:15.825785Z",
+        "name": "Clark, Osborne and Clements",
+        "roles": [
+            "parent",
+            "wear",
+            "collection",
+            "course",
+            "well"
+        ],
+        "sectors": [
+            "energy",
+            "telecommunications",
+            "hospitality-leisure"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "range",
+                "description": "Prepare manager may certain cell can.",
+                "url": "https://www.smith.net/",
+                "hashes": {
+                    "MD5": "16a76eef5f8ad233b2292bd871abcf7c",
+                    "SHA-1": "cfa36b5bb6c7cf056b33fd9419caf6bafad8daf4",
+                    "SHA-256": "479335c291bc490415dc4f76c26799aa488a3cee3b50511e9d648ff9a8316108",
+                    "SHA-512": "6176ae928a7ed69893551adea60638552197bfae9d0676ca1cd1a77745e42c8cdab11993f4027644c54c310b74736b99ca35b3a2fad2d446fc8067bab356c6ae",
+                    "SHA3-256": "a6e1dd84f7f2ee3d3bdd6b642a528b9a6d6532df159835a0642a93700f9453a6",
+                    "SHA3-512": "404cb16367f3b1c6f659146a241be242039c492cd8f1a0bd5306a6e79d3e2a6a4ad1321929b0bc4c449411ccb0da4afc61cd8da66050c4c130a8e7c49a9541bd"
+                },
+                "external_id": "eBMuqLPZvuYTgidqLY"
+            },
+            {
+                "source_name": "explain",
+                "description": "Indeed however eight water prevent.",
+                "url": "https://boyd-nelson.com/",
+                "hashes": {
+                    "MD5": "746ceeaf38e0c126f86bb0381b73eaea",
+                    "SHA-1": "0692a787aee1bcedc2be9f92239d096c4e4c72f8",
+                    "SHA-256": "25fe700be1f095d859cdeed0551d8385e9bc9b42dd9675e2600661dee85a97d5",
+                    "SHA-512": "e171efccd8e23267aa1d5ce3af21fda53e08e0289988c500cc9df1c5ac59601dc422466a617f95161a27b5ba260cc63daaef6991569482ed995bba6f41b70be6",
+                    "SHA3-256": "88043f712ecac168db7f4339993e8a919e2f8db52c403d43d1dce8f95d5921ae",
+                    "SHA3-512": "004480adeffd909d5543cf5b15a17885e31c2e838a928a4bcbe767c91a4b47b5f753f3405750c963ada5f2a267c385d1cbe80e21565247e160e33f867b3c2de2"
+                }
+            },
+            {
+                "source_name": "question",
+                "url": "http://acosta.com/"
+            },
+            {
+                "source_name": "property",
+                "description": "Energy son he against report.",
+                "url": "https://smith.com/",
+                "external_id": "VbcOVYVGQhFFMXrladz"
+            },
+            {
+                "source_name": "enough",
+                "description": "Step certain company who grow crime box thus.",
+                "url": "http://anderson.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

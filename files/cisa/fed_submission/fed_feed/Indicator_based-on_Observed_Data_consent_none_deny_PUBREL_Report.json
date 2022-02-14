@@ -1,0 +1,299 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--6b6ecfd7-065f-4da1-b173-a6e198275350",
+        "created_by_ref": "identity--3269656c-f4e2-48bd-ab1d-1c62e690cec0",
+        "created": "2022-05-10T05:44:45.996074Z",
+        "modified": "2022-07-29T03:13:29.206841Z",
+        "indicator_types": [
+            "compromised",
+            "benign",
+            "malicious-activity",
+            "unknown"
+        ],
+        "pattern": "(([windows-registry-key:values[2].data_type > 'REG_SZ']) OR [domain-name:defanged = false AND (domain-name:defanged = false)]) AND [ipv6-addr:value < 'a4b9:1ee5:8a23:a5f7:81bd:3a94:6c34:7045']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-09-11T04:06:14.34171Z",
+        "valid_until": "2022-01-28T23:32:22.720995Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "aWNyDZ",
+                "phase_name": "fgHKmmTYFc"
+            },
+            {
+                "kill_chain_name": "hJxIlJPosbckJwIOVlIn",
+                "phase_name": "HZmGRw"
+            }
+        ],
+        "labels": [
+            "there",
+            "budget",
+            "pass",
+            "heavy",
+            "later",
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "between",
+                "description": "Catch painting race bag.",
+                "hashes": {
+                    "MD5": "a75786582cc144acaf6237c91cf0188d",
+                    "SHA-1": "b53511aba89a9092fc70139fbfd7bd876cc557a3",
+                    "SHA-256": "c567776dcd7b20fbf1c125188ad3ced8009cbc5d1388b44f96e96fa2a2772975",
+                    "SHA-512": "81ace8656b9d715025b08d1c7324da2eedec30d46bfeb8eb776265a92069a0d830ab8dcca030006b7231865778be38285b7d0b327c844df45f856b42a8f5420b",
+                    "SHA3-256": "a0156832ba30bbbc9e80d35d2b795a4b3f0ea6a8886286d562e25befc623105b",
+                    "SHA3-512": "97cf108a35f6f55728af4bcbe900bea3df4e6bf5da5e404df03e3f296d517a48b08ed9e0945c5a334b86ed812f9c3c482edd84e033e1a83185acffb055365db7"
+                },
+                "external_id": "LOCDX"
+            },
+            {
+                "source_name": "director",
+                "hashes": {
+                    "MD5": "b31f03604074c2e082602e2c2f9ce0eb",
+                    "SHA-1": "f2877cd43f30557e75e49b3b2d74eff07fe200ba",
+                    "SHA-256": "52ea85ae98b6c9ce0ec1cd9f79c82a794c8aeb846f1907089bf8d67ef173ab02",
+                    "SHA-512": "1969ba24d1f27051b7649dd0cd43d33ddfdad288055c6fc7061bbf009531be092c71ad5856e6a4c8c10b0d08eab795017209b4cd47751821b9c8fb80cb0c03a7",
+                    "SHA3-256": "ace6640dc2565680563b27169872cede649f9456082f0f69e6305eb098c2e33f",
+                    "SHA3-512": "6e26952c1622de9759dbce5bf18f282202751032c329b3f1aa90e6f3dec847c4e52aee31a142ed8d6114fa2469a9819270e38fa1f0174060c3ac59b6e8fa71a7"
+                },
+                "external_id": "CWepdXVdXPXHvJJXuWI"
+            },
+            {
+                "source_name": "professor",
+                "url": "https://www.kelly.com/",
+                "hashes": {
+                    "MD5": "88d87aa6cfd4dc325822e21e021e165f",
+                    "SHA-1": "f57edb3b6e45f1c66ec4f461d4918ef7f0a4787d",
+                    "SHA-256": "ccbff87a108f2393ed3dd0448db898fad7963cf85b30d2be7077ff468e070b9d",
+                    "SHA-512": "4279d746c817f334c96dfe3e6cbb1569f41f00db379efe02cff305af6fc05f285b1aeab76e2f07bcc700e447a6f1caa83e3008b013ac7266433ce79e9c921eda",
+                    "SHA3-256": "1f4f16ea7dcd6e7a2c484fb9aa0945582dc792c4730963898339c16bc6941ce9",
+                    "SHA3-512": "39df05cbad1a7bfda6dfb3dfe8f4c95bc266f5a9c9923c3e117b8117e894b3aeeee675713551f519caac7c5321f133e744b29d17c34c21fc98987983b7ac1552"
+                },
+                "external_id": "WTxGmWvfFkRR"
+            },
+            {
+                "source_name": "out",
+                "description": "Analysis among assume rather goal represent democratic strong.",
+                "url": "http://www.carter.com/",
+                "external_id": "QDTRmbTz"
+            },
+            {
+                "source_name": "agree",
+                "description": "Surface after better compare.",
+                "url": "https://griffin.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--62272b74-7124-4ab8-a35a-017c11c4f0b5"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--ba772f61-0ac1-4f92-bc54-84bd6e5ed7f5",
+        "created_by_ref": "identity--3269656c-f4e2-48bd-ab1d-1c62e690cec0",
+        "created": "2021-02-22T06:35:08.699817Z",
+        "modified": "2021-08-14T01:08:36.862675Z",
+        "first_observed": "2021-01-29T04:45:52.550074Z",
+        "last_observed": "2021-04-17T07:35:09.599669Z",
+        "number_observed": 92482046,
+        "objects": {
+            "mutex--065a9896-e3e6-4ff3-af00-41365ce71978": {
+                "type": "mutex",
+                "spec_version": "2.1",
+                "id": "mutex--065a9896-e3e6-4ff3-af00-41365ce71978",
+                "name": "impact"
+            }
+        },
+        "labels": [
+            "class",
+            "party",
+            "interview",
+            "pfte-batch-1"
+        ],
+        "confidence": 67,
+        "object_marking_refs": [
+            "marking-definition--62272b74-7124-4ab8-a35a-017c11c4f0b5"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3a98f344-47c8-4e54-89f0-95c7f1e7e50a",
+        "created_by_ref": "identity--3269656c-f4e2-48bd-ab1d-1c62e690cec0",
+        "created": "2021-12-27T01:22:26.987752Z",
+        "modified": "2022-10-18T20:11:45.554548Z",
+        "relationship_type": "based-on",
+        "description": "Each next project. Coach wish design student. Very now sea attorney official.",
+        "source_ref": "indicator--6b6ecfd7-065f-4da1-b173-a6e198275350",
+        "target_ref": "observed-data--ba772f61-0ac1-4f92-bc54-84bd6e5ed7f5",
+        "stop_time": "2022-05-27T12:58:32.119159Z",
+        "labels": [
+            "pay",
+            "place",
+            "wait",
+            "suggest",
+            "pfte-batch-1"
+        ],
+        "confidence": 91,
+        "external_references": [
+            {
+                "source_name": "medical",
+                "description": "Cost adult thus note reduce soon herself increase.",
+                "url": "http://rivas.biz/",
+                "hashes": {
+                    "MD5": "4f2ccd43e6058ffbd4a8d5b822d2d2f6",
+                    "SHA-1": "e38859b339eeb45f331b73146c844c7fcbee272e",
+                    "SHA-256": "8ca58c516b1a37d9c7859702b08f050a90026a7c278d6b62a16bf67fe520fec5",
+                    "SHA-512": "16a5513279f0dbc1809900c2dbe31e5b7e92c2bbfabe6557ff2a018f3ad5e0bc4b8d924db4ec514fbbe2725c00dd2f6ef4a2265ec93cce77cf5d265668f57abe",
+                    "SHA3-256": "e8337121c20bbb90cf226f658e529193101b42dc8935778244b067c691409c59",
+                    "SHA3-512": "87c6c419ad955a05010c55b2d8f35f7dbee7a5dee1345b17b5a01a168247a76c4eff2f48338a71856d6a8ac78007d5b5095927e554f0ef8b03ca440e29605b30"
+                }
+            },
+            {
+                "source_name": "condition",
+                "description": "Administration school even you.",
+                "url": "https://www.phillips.com/",
+                "hashes": {
+                    "MD5": "0622d05a465fc1bec6aefa5916ad98b6",
+                    "SHA-1": "bdbbda93b0eb3a66b8cc5a8c12e94a14edbd1c01",
+                    "SHA-256": "696c12876155907f10c13b3be1ada48f3a2088effcb489b6f80ee0781fa89bb6",
+                    "SHA-512": "73003fd8f5fae50069df9f189498a53ddbbef68f16a627f8da5fed0fbefcfbfdd3a6becd1eecc4d713e42fd8bd649d70e1bf2cee45544507c4bc3c82f992bc85",
+                    "SHA3-256": "2d32d34c6518d7741a48e6708258de9bc845b4eb1cb3e9be78a59c3c203fe63b",
+                    "SHA3-512": "3c7e5a2eb5b0c57ac11dda5adc9a099741803f5b47be62c3c97b62232f8cf64f8c869029f817c9c634f9c7e6c8784b2caceb0e9b8e8949eb0d4d982a18705d4d"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--62272b74-7124-4ab8-a35a-017c11c4f0b5"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--1d227823-73d5-4e8c-919c-cda8db687e2c",
+        "created_by_ref": "identity--3269656c-f4e2-48bd-ab1d-1c62e690cec0",
+        "created": "2021-05-20T18:19:21.506539Z",
+        "modified": "2021-11-12T17:18:03.065642Z",
+        "name": "him",
+        "published": "2021-03-17T06:35:55.093182Z",
+        "object_refs": [
+            "indicator--6b6ecfd7-065f-4da1-b173-a6e198275350",
+            "observed-data--ba772f61-0ac1-4f92-bc54-84bd6e5ed7f5",
+            "relationship--3a98f344-47c8-4e54-89f0-95c7f1e7e50a"
+        ],
+        "labels": [
+            "political",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--62272b74-7124-4ab8-a35a-017c11c4f0b5"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3269656c-f4e2-48bd-ab1d-1c62e690cec0",
+        "created_by_ref": "identity--3269656c-f4e2-48bd-ab1d-1c62e690cec0",
+        "created": "2021-11-10T19:13:58.439227Z",
+        "modified": "2021-12-13T02:40:10.673046Z",
+        "name": "Farmer-Scott",
+        "description": "Operative attitude-oriented data-warehouse",
+        "contact_information": "7409 Shelton Curve\nNew Amy, HI 38036",
+        "confidence": 14,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "industry",
+                "url": "https://www.ayers-harris.net/",
+                "hashes": {
+                    "MD5": "d8e44042542a850202bdd3328fb91df6",
+                    "SHA-1": "8e6cd6b6d069cbba14b8cc6f7a4f79302c5cf8fe",
+                    "SHA-256": "5fe716955cd534ccb2292236ba01cae309d21b3f8aea076b1212beb071087311",
+                    "SHA-512": "47dec6e3e9162f863002f87bea7370ac1eef5200fe37e51e23b68e49cfaa4c56f1135f27249fd374f85fd14f4277c5b9ef3b59638b74c8de439af8be0eeaa743",
+                    "SHA3-256": "903b8d88e2fababe29bddd4afadcae171c3ac659ae4a358ccb9832b81986deae",
+                    "SHA3-512": "d169ca59ae567db5ea6c7e3fe5ff4c40e406e4860981a78888ae58d99579fe26d9cd3424af065efd976f9a188aefa177e948368f3bbf262f8f3e0ba677f7d07a"
+                }
+            },
+            {
+                "source_name": "want",
+                "url": "http://moore.org/",
+                "external_id": "adDXJlehdWo"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--62272b74-7124-4ab8-a35a-017c11c4f0b5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--62272b74-7124-4ab8-a35a-017c11c4f0b5",
+        "created": "2021-08-14T01:08:36.858546Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-44002952-ef1b-4819-85db-bdfcd1864e5e",
+                "name": "Free major nothing gun",
+                "create_date_time": "2021-08-14T01:08:08.424588Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.424412Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

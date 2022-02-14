@@ -1,0 +1,151 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--866bf5b9-c023-4c48-ac32-03d62f10a8c3",
+        "created_by_ref": "identity--b99df1fe-3da8-466b-b863-dc0033237cdc",
+        "created": "2021-12-30T14:06:13.98363Z",
+        "modified": "2022-12-20T01:18:39.720353Z",
+        "name": "story",
+        "description": "Me what must if industry easy.",
+        "aliases": [
+            "student",
+            "decide",
+            "west",
+            "push",
+            "in"
+        ],
+        "first_seen": "2020-10-12T06:48:05.853877Z",
+        "last_seen": "2021-05-01T21:33:10.026712Z",
+        "labels": [
+            "use",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--7c84d260-69c7-4fc2-b197-1e6bb30ea5b9",
+        "created_by_ref": "identity--b99df1fe-3da8-466b-b863-dc0033237cdc",
+        "created": "2021-07-23T10:50:01.065104Z",
+        "modified": "2021-12-12T06:33:51.129538Z",
+        "name": "yourself",
+        "description": "Begin spend theory present do.",
+        "aliases": [
+            "job",
+            "go",
+            "fish"
+        ],
+        "resource_level": "individual",
+        "secondary_motivations": [
+            "personal-gain",
+            "dominance",
+            "ideology"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 26,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3a55f0cf-6489-47ce-98ea-372d96a1aed6",
+        "created_by_ref": "identity--b99df1fe-3da8-466b-b863-dc0033237cdc",
+        "created": "2020-11-15T00:42:07.205734Z",
+        "modified": "2021-10-29T18:40:28.53856Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "campaign--866bf5b9-c023-4c48-ac32-03d62f10a8c3",
+        "target_ref": "intrusion-set--7c84d260-69c7-4fc2-b197-1e6bb30ea5b9",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b99df1fe-3da8-466b-b863-dc0033237cdc",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-12-11T15:54:33.383522Z",
+        "modified": "2022-06-01T13:00:05.646812Z",
+        "name": "LeaveFireMatter",
+        "roles": [
+            "cell"
+        ],
+        "sectors": [
+            "government",
+            "non-profit",
+            "hospitality-leisure"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 40,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "almost",
+                "description": "Key history majority name place American instead.",
+                "url": "https://www.morris.com/"
+            },
+            {
+                "source_name": "over",
+                "url": "http://www.hughes.org/",
+                "hashes": {
+                    "MD5": "4c9b6c0c43317a2f939767502de8fc2c",
+                    "SHA-1": "2f790f30af27adc93932dc5a9c23056439f97bdb",
+                    "SHA-256": "745850ca71dd51d05f808322cc7dc13677d49a1efb2121a371b8c27929c9ff9a",
+                    "SHA-512": "38f1d9b252125e510c974158cce00e1e007722a93c6b79ad8fc5e6d3730a92fa90ee10df7d291a7e1179d84776d3f7f8d535f30acc4eca9dfd61afe213b8d800",
+                    "SHA3-256": "cff92518fd938dbb3a7bbee7a43aa9c5492343665428ccf8ecdd7dd0ea5f03e0",
+                    "SHA3-512": "df22ae723b241fbffaa43d74275924ad3af0da0e902bc74e7dcb130dd83ff6b85ca2afe818069ba2eeebd4a22833182831f1546a119b5948114cede6602ae9f8"
+                },
+                "external_id": "zFOQtZXgXNUL"
+            },
+            {
+                "source_name": "she",
+                "description": "Reduce test kind couple wish.",
+                "url": "http://www.winters.info/",
+                "hashes": {
+                    "MD5": "48a90339904fe37becad743ab321cc39",
+                    "SHA-1": "c5761142207fb185848eafbfb2f892289aa7f8ae",
+                    "SHA-256": "ac480257f9913f4a078572eeba9f8dd837a77a7fc79cc7f484a4ead6cacc159e",
+                    "SHA-512": "7165e31d96286025f4e38e7c6c367b3e3e15496a64a7ab4131acbf1331f74cba2bc5b675f3ef5114d7b7835f2ccc580db997ef54d14b83c870e1d0d41a603d4d",
+                    "SHA3-256": "8c041ab681b879b62a71364c1429724c835958dc577c07344bc4889d3c20bf1a",
+                    "SHA3-512": "7de7a0ca371069ba2a0253d402b652d6136802a17224aefaf7045af4210c81c6f037c34bf309badf542585c59601725a047c47de4e49fc75ff3ba735cd14566b"
+                },
+                "external_id": "tLxtzlNDZN"
+            },
+            {
+                "source_name": "tree",
+                "description": "Stay college he.",
+                "url": "https://www.miller.com/",
+                "hashes": {
+                    "MD5": "1ee861f2f84ce50527b0baf6933b3bbd",
+                    "SHA-1": "8f8de808beb5616933d0473596126953b6ecee58",
+                    "SHA-256": "ef59d9ba54c4623a882961e33811f53a4bf6d208e1854d26795ad4a1684327f4",
+                    "SHA-512": "62606fe0d15537d1fcc3385d8d010372eaac5cc2d46f2fb49c29193367960595641d3085e7be0ca5ea2a2d01999b056bc7fdb2884431c89e4756d4dd2717c1dc",
+                    "SHA3-256": "66439e31e1496ce5c6b645fd704405878682218c35252327313cb790d99814ca",
+                    "SHA3-512": "e63e001f7e3de12e9df39345cb09bf0b6972bb47e444562f08c8e354cbbc289c605161c15b74182ffb02db82dfe83d33186e29087e1f0240350530ea4b23653b"
+                },
+                "external_id": "elPRUYmk"
+            },
+            {
+                "source_name": "develop",
+                "url": "http://clay-williams.biz/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

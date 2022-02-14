@@ -1,0 +1,205 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--0208a9a6-8a00-415c-a16d-82278d3d4429",
+        "created_by_ref": "identity--b869302e-21e0-4336-8205-23954f966ce4",
+        "created": "2021-05-21T14:56:48.415106Z",
+        "modified": "2021-12-20T17:21:35.009457Z",
+        "name": "she",
+        "pattern": "[mutex:defanged NOT = false] AND [network-traffic:src_byte_count >= 567387] START t'2021-02-07T17:46:23.331147Z' STOP t'2021-09-10T03:05:56.535482Z'",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-04-26T04:41:53.358653Z",
+        "valid_until": "2022-01-26T16:23:27.819795Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "MAardZunIPa",
+                "phase_name": "KWhLVugDuqrOp"
+            },
+            {
+                "kill_chain_name": "KxdSsxMxFWGs",
+                "phase_name": "CRBVHKQSBokkXHUEtltX"
+            },
+            {
+                "kill_chain_name": "jiyUITDqQJ",
+                "phase_name": "rVlnAz"
+            },
+            {
+                "kill_chain_name": "tZssEmDWC",
+                "phase_name": "BVeHuPMttOgbCMl"
+            },
+            {
+                "kill_chain_name": "cOxOOX",
+                "phase_name": "LnRSNjrsMrvdaFBLEDa"
+            }
+        ],
+        "labels": [
+            "a",
+            "population",
+            "represent",
+            "above",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--bcdb41e5-f638-43f5-bf53-2c025c61f553"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--c8e9ff84-834a-4279-9d2a-0691acbc4c9d",
+        "created_by_ref": "identity--b869302e-21e0-4336-8205-23954f966ce4",
+        "created": "2021-12-18T17:26:24.637353Z",
+        "modified": "2022-08-26T23:29:45.32204Z",
+        "name": "reach",
+        "description": "Spend budget care view.",
+        "tool_version": "reduce",
+        "labels": [
+            "loss",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--bcdb41e5-f638-43f5-bf53-2c025c61f553"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--96512a9b-9c50-4ecb-b2cf-ff1697bae3f0",
+        "created_by_ref": "identity--b869302e-21e0-4336-8205-23954f966ce4",
+        "created": "2021-07-06T04:15:06.685359Z",
+        "modified": "2021-08-14T01:08:35.194377Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--0208a9a6-8a00-415c-a16d-82278d3d4429",
+        "target_ref": "tool--c8e9ff84-834a-4279-9d2a-0691acbc4c9d",
+        "start_time": "2021-12-08T16:10:37.176957Z",
+        "stop_time": "2022-01-10T22:21:36.554092Z",
+        "labels": [
+            "carry",
+            "respond",
+            "pfte-batch-1"
+        ],
+        "confidence": 50,
+        "external_references": [
+            {
+                "source_name": "could",
+                "url": "https://mills.com/",
+                "hashes": {
+                    "MD5": "180b9fbd063260067ac0aa39d9c20797",
+                    "SHA-1": "2ef89e9a8e01f5f6ca235da6088ce9f6db28db1f",
+                    "SHA-256": "67f4770b9c57dc73f1d4e9891563e80e5a2e763c546c551eca32d18bfe23af48",
+                    "SHA-512": "ed0457f6443b240f657768fbbde6b9e09ae090e0011dbaf208e6c0ab42e9bd08ae862b4ba3827bcaccd3e63cf470075fd7d8f98f204dd82fe3012adbed39099c",
+                    "SHA3-256": "b4b2c03f3a095d6da95e21c4a6763123c8d2ea36a9d1a9b5fe5a003da9549401",
+                    "SHA3-512": "9798084ae1f805b2e796271450cc71ea977d961a0764590bfadd9ad59782b39705912f38e8ad21a2e4408381fc5380db2f72785724b8ca898bc9fa7d53ecefe9"
+                },
+                "external_id": "hRvzASpZuodN"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--bcdb41e5-f638-43f5-bf53-2c025c61f553"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b869302e-21e0-4336-8205-23954f966ce4",
+        "created_by_ref": "identity--b869302e-21e0-4336-8205-23954f966ce4",
+        "created": "2022-05-09T12:34:36.66898Z",
+        "modified": "2022-12-16T19:49:17.459455Z",
+        "name": "Payne-Garza",
+        "description": "Extended dedicated superstructure",
+        "roles": [
+            "site",
+            "responsibility",
+            "response",
+            "money"
+        ],
+        "identity_class": "group",
+        "contact_information": "Unit 9781 Box 7002\nDPO AE 12016",
+        "external_references": [
+            {
+                "source_name": "firm",
+                "description": "Hundred exactly final air certain glass.",
+                "url": "http://anderson.com/",
+                "external_id": "rQRUXrHtcAeapD"
+            },
+            {
+                "source_name": "deep",
+                "description": "Defense challenge head garden would field.",
+                "url": "http://www.castro.com/",
+                "hashes": {
+                    "MD5": "666110e4a011171ae469769183ade2f1",
+                    "SHA-1": "03b80dd5ff90a2dbe1763ab901a3f79c05e74f80",
+                    "SHA-256": "610a9a676eba435e7a63b2d404192467a7b5500ab6cbbba0b788a078259a390e",
+                    "SHA-512": "1c1dbafe7a51d2a2216af0504e8d86d09f92c3e3fec68a7e39429e462b7afc577d225c5ebfeb5d4a15e2ea2396c910cbd509ac481feb40dd5be91e62ac85ce25",
+                    "SHA3-256": "232ee701913a64d39d5ccea9ddef3ea38080717a056ff3db44c47cfdf1b03fe8",
+                    "SHA3-512": "b0966625df020c79c5f43c5263c4979c775c5cf3c62b0bd0fe37954b0e6c084f1ca1213711be9cf6dd17f10f162170bfc8f6e2f18a6a0dfc1842cfc5144d9a49"
+                },
+                "external_id": "YhrADnoRAYnzvrrfTsb"
+            },
+            {
+                "source_name": "every",
+                "url": "https://rice-taylor.com/",
+                "external_id": "DITfpHAm"
+            },
+            {
+                "source_name": "pretty",
+                "url": "https://www.tran-webb.com/",
+                "hashes": {
+                    "MD5": "baa1007ae70dd6e2a64ac70457adc12e",
+                    "SHA-1": "3f6ba7ef5355428c19a3120fe438003294fa3891",
+                    "SHA-256": "2fe824a8be8a83bba6590881a475baf36bd6a0d5badc0a168b134ae001866806",
+                    "SHA-512": "c2d69d9da677cf50818ba65d7ae1062eafa4d1c4416f54ce028ad68659af2e69f5b260a563593028a41abb2e0dfd5cf5d7d545a7d87a067eb517dec58c5c6030",
+                    "SHA3-256": "061c80de446ac674087b9b85ad50e4782cc82256943cae62d4be5dd34f378d25",
+                    "SHA3-512": "e12735ad7739ef4152a8d4e33fce8aaaa03f74f8cc32464e6612292c64acd6ac82c06f5b4abdb53c9de7e304b9a2973c1ba2c1bd0de601d71d99ef04d617ebf0"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--bcdb41e5-f638-43f5-bf53-2c025c61f553"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--bcdb41e5-f638-43f5-bf53-2c025c61f553",
+        "created": "2021-08-14T01:08:35.191114Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fb4e63d-338f-4f0a-b771-dd937b9aaabe",
+                "name": "Human on join spring",
+                "create_date_time": "2021-08-14T01:08:08.425512Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.425314Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

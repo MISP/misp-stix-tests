@@ -1,0 +1,203 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--27a83d2a-cae5-4870-b96a-d9e8c56f3d12",
+        "created_by_ref": "identity--8164cf28-fcab-4927-b8e0-26ccad0aded6",
+        "created": "2021-02-12T09:25:47.756933Z",
+        "modified": "2021-08-14T01:08:27.535424Z",
+        "description": "Concern guy wrong PM with.",
+        "indicator_types": [
+            "unknown"
+        ],
+        "pattern": "[autonomous-system:number = -494 AND autonomous-system:defanged NOT = false AND (((autonomous-system:rir > 'Gonzalez Inc') OR network-traffic:defanged = false) AND autonomous-system:rir < 'Benson LLC')]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-10-15T07:23:59.02469Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "VmJMRlVLiPuWIjNAz",
+                "phase_name": "chUdrQZycjxAhtU"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "confidence": 17,
+        "object_marking_refs": [
+            "marking-definition--289dacc7-f201-4896-a0b0-e7d89034b4c6"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--48825c62-0fec-480b-b320-cdcaa23525be",
+        "created_by_ref": "identity--8164cf28-fcab-4927-b8e0-26ccad0aded6",
+        "created": "2022-08-09T03:12:40.116174Z",
+        "modified": "2023-06-03T11:34:20.62735Z",
+        "name": "summer",
+        "labels": [
+            "consider",
+            "indicate",
+            "until",
+            "voice",
+            "this",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--289dacc7-f201-4896-a0b0-e7d89034b4c6"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--32815693-5cee-44eb-9297-032cc1c9b026",
+        "created_by_ref": "identity--8164cf28-fcab-4927-b8e0-26ccad0aded6",
+        "created": "2022-02-09T03:03:50.935935Z",
+        "modified": "2022-12-01T20:21:18.587521Z",
+        "relationship_type": "indicates",
+        "description": "Born expect possible both. Cut memory include company condition although four.",
+        "source_ref": "indicator--27a83d2a-cae5-4870-b96a-d9e8c56f3d12",
+        "target_ref": "attack-pattern--48825c62-0fec-480b-b320-cdcaa23525be",
+        "stop_time": "2021-11-29T06:15:51.95832Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "rock",
+                "description": "Power debate laugh could want.",
+                "hashes": {
+                    "MD5": "779d2763eed01052410ad8802c82b183",
+                    "SHA-1": "2149c1f19b91e473ea5b76a1e4cc064bbc7c49a5",
+                    "SHA-256": "646195789f370859c56a0fee7169a339ebed04379d502eb1d07bf175e7f6b7be",
+                    "SHA-512": "02c38ff3e04c90a1a1fb1640c228d5a3742904e194c810bdafbbb9159acffe1d2df59a5446f9520d6b338dae873f1c4b8b7c17dada87905746be2b0597eae4c0",
+                    "SHA3-256": "334b9eccd78a8e2a5eb74d43ae36d390b237f3f1f27336b9324919f8cc00154f",
+                    "SHA3-512": "2be834dfa073f6b045b1559230fd3e2007410dc81100494e4e183c4adc7e206ea7ba6784bc0ab82eb0a069368ce0e4247ea536f3028799d516b0816fc4664688"
+                },
+                "external_id": "jHImlNYzFAOUihk"
+            },
+            {
+                "source_name": "figure",
+                "url": "https://cole.com/",
+                "external_id": "pOAbcSmsnkmG"
+            },
+            {
+                "source_name": "human",
+                "description": "Hot face image agent myself.",
+                "url": "https://cortez.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--289dacc7-f201-4896-a0b0-e7d89034b4c6"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--289dacc7-f201-4896-a0b0-e7d89034b4c6",
+        "created_by_ref": "identity--8164cf28-fcab-4927-b8e0-26ccad0aded6",
+        "created": "2021-08-14T01:08:27.534735Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2a4a5944-494c-4a33-b0ba-c70e719ee1c8",
+                "name": "Room arrive pay often",
+                "create_date_time": "2021-08-14T01:08:08.421032Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8164cf28-fcab-4927-b8e0-26ccad0aded6",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-08-10T14:50:29.216637Z",
+        "modified": "2021-12-25T16:36:20.490121Z",
+        "name": "Becker, Maxwell and Murphy",
+        "roles": [
+            "bar",
+            "response",
+            "whole"
+        ],
+        "contact_information": "2766 Cameron Brook Apt. 558\nRodriguezborough, AZ 22264",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "perform",
+                "description": "Simple physical edge everyone something more these organization.",
+                "url": "https://rodriguez.info/",
+                "hashes": {
+                    "MD5": "f083624dc5407570704ae5ab8ae5a3fa",
+                    "SHA-1": "b98d8ee711215e2213252a265c53899a7a04a147",
+                    "SHA-256": "1f8df6710193bf5dd664fd964c7c3a36e38b5a63fbc45790f806edf163d36ea8",
+                    "SHA-512": "3ce2df14509d60af8ec294266270261dcf722646c8111bd1c2d75d0a19222878a379ac6315446294bba9e3bc9f2326a23bea65195b7f8a5ee3e088e88aa61f07",
+                    "SHA3-256": "37c455a3967ae8c7672e59a1f2840d11d00f4eed38392c104b650a85be69ea5b",
+                    "SHA3-512": "91a6286663728fc5e56909741cea02935510e974054bc306afe8366f8fef7fa608f1d19be54b2def5f0fcd95508eb6b8e117b9cd764e567e54e8ce32da34f2bc"
+                }
+            },
+            {
+                "source_name": "range",
+                "description": "Detail common such his view man produce.",
+                "external_id": "JVeXRXtqCIgkiMx"
+            },
+            {
+                "source_name": "land",
+                "description": "Government international spend.",
+                "external_id": "ovZGmgxfQFraZdtht"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--289dacc7-f201-4896-a0b0-e7d89034b4c6"
+        ]
+    }
+]

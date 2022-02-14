@@ -1,0 +1,191 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--b43db03e-b1a4-494f-bcbf-a138aa86cddc",
+        "created_by_ref": "identity--0ce06ce1-be4a-4c5a-8888-de7d1b10a0bd",
+        "created": "2021-10-11T05:58:39.215575Z",
+        "modified": "2022-10-11T05:15:17.741973Z",
+        "name": "meeting",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 4,
+        "external_references": [
+            {
+                "source_name": "off",
+                "description": "Claim color in enter record.",
+                "external_id": "BBdImkRzbcWgkit"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "ipv6-addr",
+        "spec_version": "2.1",
+        "id": "ipv6-addr--4cc7eb5a-094b-4aa3-b97b-cef0106798c2",
+        "value": "c9f6:3cbc:aab5:dfe:52b6:4ddc:a027:f8b4",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--2e49ece2-0db7-4960-b961-e31ea22f9fef",
+        "created_by_ref": "identity--0ce06ce1-be4a-4c5a-8888-de7d1b10a0bd",
+        "created": "2021-08-20T10:22:57.397176Z",
+        "modified": "2022-02-07T12:22:22.026026Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--b43db03e-b1a4-494f-bcbf-a138aa86cddc",
+        "target_ref": "ipv6-addr--4cc7eb5a-094b-4aa3-b97b-cef0106798c2",
+        "stop_time": "2021-12-01T17:21:31.682147Z",
+        "labels": [
+            "again",
+            "pfte-batch-1"
+        ],
+        "confidence": 99,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--2de9e8b1-fcce-4d2a-bd45-59fb9bc1c7b5",
+        "created_by_ref": "identity--0ce06ce1-be4a-4c5a-8888-de7d1b10a0bd",
+        "created": "2021-03-30T20:22:47.260291Z",
+        "modified": "2021-09-12T20:57:17.15397Z",
+        "description": "Practice level a idea away chair.",
+        "context": "suspicious-activity",
+        "object_refs": [
+            "infrastructure--b43db03e-b1a4-494f-bcbf-a138aa86cddc",
+            "ipv6-addr--4cc7eb5a-094b-4aa3-b97b-cef0106798c2",
+            "relationship--2e49ece2-0db7-4960-b961-e31ea22f9fef"
+        ],
+        "labels": [
+            "want",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "bed",
+                "description": "Investment beautiful practice as.",
+                "external_id": "QuQxKblIOLkyffuzijHV"
+            },
+            {
+                "source_name": "appear",
+                "description": "Reduce fight pattern adult however check section mind.",
+                "url": "http://wise.com/",
+                "hashes": {
+                    "MD5": "cd0ee981e15a12a9835ff0d525d0b159",
+                    "SHA-1": "a1749fd020d1974c43195e1a987e22e360c7ab69",
+                    "SHA-256": "8e97d0006592d1a30e89d2ee9fc2b732eb495e033e0cc4ba7eebc1b338b8d6c6",
+                    "SHA-512": "0c6f41efb6b6e01ac4e4693ba74ff748add9bb546faa2f788d53d7d6cbf3e58f9134a38e8a796faff4202e5e29711f3d9a2cc3b643b81171aee35702e475ccca",
+                    "SHA3-256": "8f1cc4025ca333f1db1ffe68b16fb74729aea78f8d532b42d53592d8db8fce7e",
+                    "SHA3-512": "9ba571b0c9110238633d08d13e441eb7d024403d08a184d3c3488b64afcd555574c2ad10dc9ab93d67fa0ed7560a45892f943afa40d288797d610374b17c499e"
+                },
+                "external_id": "XSkph"
+            },
+            {
+                "source_name": "tree",
+                "description": "Message social get despite movie million speech.",
+                "hashes": {
+                    "MD5": "98cbdeea1c691411ef1aa044cc42dd0e",
+                    "SHA-1": "b4f529622556c96387fb8a0fee0071aa771997d3",
+                    "SHA-256": "fae3ecb2279ddafec85ba7a76138d6b3cd87f9d53a6abc19424adec6c75f851e",
+                    "SHA-512": "dabaf3b06bdae9a00ab6928f2ead67843a45413b68df87d79af0f3235187f0ba6ebddf95b83deda61b8cc2bfc6edf85a5bfab4b22ab8c10c6f1593588ad86159",
+                    "SHA3-256": "65c193d8bc0fab114209244e04a14930b9c9979ee580a1f599857f3010f51876",
+                    "SHA3-512": "bc300c8192efe0d41f38bfcfba89e94dd925964e6169453f4a23ee0fdfc8c268c9e7694edd1fa64e797c6de7e2f740470a9729d93c7fb90b248906cbcea1f701"
+                },
+                "external_id": "glRXqtcatlhsZCKXH"
+            },
+            {
+                "source_name": "study",
+                "description": "Dark agent someone important idea despite.",
+                "url": "http://johnson.com/",
+                "hashes": {
+                    "MD5": "2e1352870a4c3393da6b9b9bc60b2b0b",
+                    "SHA-1": "c6b3282ca7da8a407dea59bd360dfdec41f219a4",
+                    "SHA-256": "c0709669fb8b6160213cdc4dc373dbabece30c87023b58d8d8a643309341710e",
+                    "SHA-512": "17a97a234f3f571f2a5b5f5d176d1525998f971db9db8b42373a4fc01ff696ba691d14b48c4330c42d49778db16a89cd7fc6b2a19ddc2186c08a43e0f3b944e2",
+                    "SHA3-256": "488fadd5d98a06a4413385b7f3fa0cb7544a2504514d306e431e833d8ee121b6",
+                    "SHA3-512": "a6f4a265e93ebd458da159223d4e5a639efc5fffcf128590c3e2cdce2d6396f54e60d6e891c550af7dd741f87a702275a4778089e45422ac9a079093440b1120"
+                }
+            },
+            {
+                "source_name": "top",
+                "description": "Window soon marriage animal memory.",
+                "hashes": {
+                    "MD5": "ee66f508c594854def5d12c14a966b28",
+                    "SHA-1": "82fb28d8d41365a729997167eb26d2c7d4f1fb8c",
+                    "SHA-256": "dded67f42f031174eef938f575dd5378500f7e700f2ef31de524696e5f10beb3",
+                    "SHA-512": "b5871e05bee6c76795d85927487ec73c8bdae07089b0bb89d30245e239f94763d62c66805cc60716a9538b84b53358e1d1b040b1d4d422c4233d297dc3625e36",
+                    "SHA3-256": "78d53618fe54e278ae9570b71f406ba1da4ed35c5e557da0477afd3180fcb626",
+                    "SHA3-512": "f4522440b67be11de1144154df4cadaae2d56c32fd950deb77961015b16ee1e4ec7710cac84f5aed5d72a1c8f6707dc3a3c90f7d7b265c2225a9bf4ed1c29dde"
+                },
+                "external_id": "wHuYA"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0ce06ce1-be4a-4c5a-8888-de7d1b10a0bd",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-12T06:16:05.246879Z",
+        "modified": "2022-01-07T19:52:32.25309Z",
+        "name": "SafeFindCentury",
+        "identity_class": "group",
+        "contact_information": "602 Michael Prairie\nNew Robert, NV 69678",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 81,
+        "external_references": [
+            {
+                "source_name": "new",
+                "description": "Body because I on watch.",
+                "hashes": {
+                    "MD5": "5956c98a7663cecd95a4f28925b4497a",
+                    "SHA-1": "2cffb5c62546d68083e578b9faae0b5c8867d79e",
+                    "SHA-256": "179d7dc6c949e886efc31c4dfad4ee1acc97522d66e2592734cb6d00251a19b1",
+                    "SHA-512": "65fba3de2087cf6e42deeb583c7bd741d5ff45b7f6422ce65f4ae699905e2229beb907c7f931b3a3f7e96ef7950d62a553e6261d42df925d22c553c141d9f1a9",
+                    "SHA3-256": "b38aa87f889b8a9467b5a0ba68cd3da03d6dc7ada8b07c56dc98d2e1c8d78082",
+                    "SHA3-512": "e6b5598e1d9145a79a81031c525d1ff42eef83fd3dc0332507f4e69bc785a3baa0e0cdec902977bc0deedb18a007eb2fdcac31898cd00264c182f1b3c4937aeb"
+                },
+                "external_id": "AERCDVEyaJN"
+            },
+            {
+                "source_name": "personal",
+                "url": "https://www.horn.com/"
+            },
+            {
+                "source_name": "usually",
+                "description": "Always country state community method.",
+                "url": "https://smith.com/",
+                "external_id": "ntoFVzDPZKRZaEivOsRa"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

@@ -1,0 +1,184 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--37abdabf-366f-4857-828c-2cbd6826f95d",
+        "created_by_ref": "identity--52354d01-100c-410a-83e7-654b80635e7e",
+        "created": "2021-09-02T01:36:08.619204Z",
+        "modified": "2022-01-17T05:23:34.923284Z",
+        "name": "set",
+        "description": "A record rest often during couple glass.",
+        "first_seen": "2021-07-14T15:08:28.185101Z",
+        "last_seen": "2022-02-05T00:17:15.038704Z",
+        "labels": [
+            "bar",
+            "shake",
+            "beautiful",
+            "citizen",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--610c8e10-a476-4d08-a036-e8b02cf15b74"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--da4fbc97-83a7-4c16-be04-dd5ab683df9c",
+        "created_by_ref": "identity--52354d01-100c-410a-83e7-654b80635e7e",
+        "created": "2021-09-27T08:09:02.541267Z",
+        "modified": "2022-03-12T04:40:07.7111Z",
+        "name": "ntAIcHVKtUC",
+        "latitude": 42.980279460951266,
+        "longitude": 126.52772789593035,
+        "precision": 19.100200269028633,
+        "country": "Saint Kitts and Nevis",
+        "administrative_area": "PlMevCTPcFZ",
+        "street_address": "159 Jones Brook Suite 187",
+        "confidence": 14,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "thus",
+                "description": "Some approach baby very.",
+                "url": "http://curtis.com/",
+                "external_id": "JMEChRfzXfXK"
+            },
+            {
+                "source_name": "these",
+                "url": "https://www.hall-baker.com/",
+                "hashes": {
+                    "MD5": "915da0d56c26f66459931756f6a2eae8",
+                    "SHA-1": "741179c55009317364c22791a630deedb5ba9121",
+                    "SHA-256": "5ccf0826bad1c0db402844684dcbfdc73ad57c861381b7bfc51093b56aea2589",
+                    "SHA-512": "764e4f4be37a345c9b8c1943ec5b8f3d86ab48b6f90ac56eec80c110f69e6e5b751d6bfda7f438d75305de732c4e964b2335dbd8c00ed1e60abf7bd254ef5701",
+                    "SHA3-256": "836c3de4e5eaeab71110f5c8b79728b5db8199e69de063bf87ba28dfd44def82",
+                    "SHA3-512": "ec08e85f126d4a25d3679c14eb3f49c366625576e44609a5a3cc756442b3c04bfcad92fbf2bfb494bcb4979418179f71867caa9a0f40548bee26c28f7213557d"
+                }
+            },
+            {
+                "source_name": "wonder",
+                "description": "Role light support data discover.",
+                "url": "https://www.swanson-french.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--610c8e10-a476-4d08-a036-e8b02cf15b74"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--cea6d966-82c2-4b02-8db9-eb8db6b214ca",
+        "created_by_ref": "identity--52354d01-100c-410a-83e7-654b80635e7e",
+        "created": "2020-10-12T22:16:55.385134Z",
+        "modified": "2021-08-14T01:08:17.033641Z",
+        "relationship_type": "targets",
+        "source_ref": "campaign--37abdabf-366f-4857-828c-2cbd6826f95d",
+        "target_ref": "location--da4fbc97-83a7-4c16-be04-dd5ab683df9c",
+        "stop_time": "2020-09-30T07:25:56.293031Z",
+        "object_marking_refs": [
+            "marking-definition--610c8e10-a476-4d08-a036-e8b02cf15b74"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--610c8e10-a476-4d08-a036-e8b02cf15b74",
+        "created_by_ref": "identity--52354d01-100c-410a-83e7-654b80635e7e",
+        "created": "2021-08-14T01:08:17.03212Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f217105b-ccd2-4cb0-893a-c1314d7d2d64",
+                "name": "Strategy land response sport over",
+                "create_date_time": "2021-08-14T01:08:08.422773Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.422466Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--52354d01-100c-410a-83e7-654b80635e7e",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-07T19:18:54.09487Z",
+        "modified": "2021-08-14T01:08:17.033903Z",
+        "name": "Smith, Shaw and Rodgers",
+        "description": "Multi-lateral methodical access",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 96,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--610c8e10-a476-4d08-a036-e8b02cf15b74"
+        ]
+    }
+]

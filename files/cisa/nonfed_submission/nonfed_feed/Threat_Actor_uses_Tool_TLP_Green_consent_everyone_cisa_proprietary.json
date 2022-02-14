@@ -1,0 +1,135 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--dbe2a15c-d09d-4486-82de-f3a00ab5d7ae",
+        "created_by_ref": "identity--607d4665-da6a-4cd7-aca2-55ef2acc815e",
+        "created": "2021-03-15T16:17:12.480119Z",
+        "modified": "2022-01-30T19:31:15.703567Z",
+        "name": "suffer",
+        "threat_actor_types": [
+            "nation-state",
+            "insider-accidental",
+            "terrorist",
+            "terrorist"
+        ],
+        "last_seen": "2020-10-07T02:12:02.40312Z",
+        "roles": [
+            "director"
+        ],
+        "goals": [
+            "everything",
+            "owner"
+        ],
+        "secondary_motivations": [
+            "ideology"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--44955d59-1783-4ba0-a3dc-8cdedbf63a11",
+        "created_by_ref": "identity--607d4665-da6a-4cd7-aca2-55ef2acc815e",
+        "created": "2021-06-25T11:35:59.872778Z",
+        "modified": "2021-10-29T11:09:23.160353Z",
+        "name": "opportunity",
+        "aliases": [
+            "leader",
+            "use",
+            "professor",
+            "type",
+            "assume"
+        ],
+        "tool_version": "even",
+        "labels": [
+            "that",
+            "together",
+            "better",
+            "pfte-batch-1"
+        ],
+        "confidence": 73,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f72cac8b-361a-4257-b868-3f586cd0dfb9",
+        "created_by_ref": "identity--607d4665-da6a-4cd7-aca2-55ef2acc815e",
+        "created": "2022-01-07T11:53:12.556527Z",
+        "modified": "2022-01-14T05:47:42.848901Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--dbe2a15c-d09d-4486-82de-f3a00ab5d7ae",
+        "target_ref": "tool--44955d59-1783-4ba0-a3dc-8cdedbf63a11",
+        "start_time": "2022-07-06T03:05:49.196068Z",
+        "stop_time": "2023-06-16T00:06:12.428537Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 79,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--607d4665-da6a-4cd7-aca2-55ef2acc815e",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-20T21:53:28.082832Z",
+        "modified": "2021-08-14T01:09:34.906596Z",
+        "name": "Paul-Baker",
+        "roles": [
+            "if"
+        ],
+        "identity_class": "unknown",
+        "sectors": [
+            "healthcare",
+            "aerospace",
+            "agriculture"
+        ],
+        "contact_information": "9315 Cross Point Suite 773\nNancyshire, WI 56474",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "develop",
+                "url": "http://moore.biz/",
+                "external_id": "rUqpzXDNQAK"
+            },
+            {
+                "source_name": "music",
+                "description": "Military audience age teach too any six.",
+                "url": "https://lane.com/"
+            },
+            {
+                "source_name": "land",
+                "description": "Must item happy right.",
+                "url": "http://salazar-johnson.net/",
+                "hashes": {
+                    "MD5": "a230110b84d2dc9cf229edcd3f99bb70",
+                    "SHA-1": "6243c97b9e2645fd32e7b32e59f0cd4d1eab62e4",
+                    "SHA-256": "7f058d1c225f72606191094e0f3b206c7990e1cc1130685feaf4c374bec202fc",
+                    "SHA-512": "56ddbb00d3105c0b9f660165011e78fa87eb7bb6f94347718d7d1e87107e9fdbb42e70864cbc25f436680e20ea952337b7884a5e00d7cb733fabaa5fb190eff3",
+                    "SHA3-256": "a53e9e09a7ac1625007c3dec03a849463abb12526f1574854eee59724760e9a2",
+                    "SHA3-512": "3d6ecf5b98e381613decee7f772feebcedbb76dedf80be41911e7dd96d125895755c1088729dd219576595342afe68840cd71765e7c48888ad682b74961fb08f"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

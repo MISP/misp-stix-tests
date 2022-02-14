@@ -1,0 +1,178 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--21f49bf9-db52-4a60-88f0-abbe6cbf439a",
+        "created_by_ref": "identity--7394b9c8-1a9d-471a-a50d-718c5309c849",
+        "created": "2020-10-17T10:19:20.765978Z",
+        "modified": "2021-08-14T01:08:12.342843Z",
+        "name": "better",
+        "confidence": 24,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b3fc14f4-9a6b-45aa-a38b-9d408f00bf82"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--c31f3b80-d265-43e0-a33a-70105ec41c85",
+        "created_by_ref": "identity--7394b9c8-1a9d-471a-a50d-718c5309c849",
+        "created": "2020-12-08T01:56:43.627349Z",
+        "modified": "2021-11-29T02:50:41.566996Z",
+        "name": "TV",
+        "tool_types": [
+            "vulnerability-scanning",
+            "unknown",
+            "denial-of-service",
+            "information-gathering",
+            "exploitation"
+        ],
+        "aliases": [
+            "someone",
+            "body",
+            "make",
+            "sign",
+            "finish"
+        ],
+        "external_references": [
+            {
+                "source_name": "family",
+                "external_id": "KTZntek"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b3fc14f4-9a6b-45aa-a38b-9d408f00bf82"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--0a360b62-4a8e-484d-9148-437f31aeae7a",
+        "created_by_ref": "identity--7394b9c8-1a9d-471a-a50d-718c5309c849",
+        "created": "2021-05-28T05:55:15.450205Z",
+        "modified": "2022-01-28T20:47:41.957429Z",
+        "relationship_type": "uses",
+        "source_ref": "attack-pattern--21f49bf9-db52-4a60-88f0-abbe6cbf439a",
+        "target_ref": "tool--c31f3b80-d265-43e0-a33a-70105ec41c85",
+        "start_time": "2021-04-11T11:50:02.17325Z",
+        "labels": [
+            "mission",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "structure",
+                "hashes": {
+                    "MD5": "cae1b311724e74bbab785782ac97b299",
+                    "SHA-1": "9194938ea5f566e2b905bb575b88c254e7cc0d46",
+                    "SHA-256": "d1cdfd5426e338d237b772e1a5f274b75026267bcb12dd452b257c35c38f51a4",
+                    "SHA-512": "cfa5adf6db058ced34a9a6e25d9977294ede76e658e25b836295f63b53eb1ad13d86d4960ca7f1109a994bd8be299d0721306de53efdc5cf60dc757b5203a2c5",
+                    "SHA3-256": "26ab1be55a5d057c1b6cb3ef90129dc464082a661b0c6d857d23cf7f43116833",
+                    "SHA3-512": "7cf2e3c8977c28497bd200d7638ba311230bc77138627bce6271943ae4fa7f4fef4aa14e1adba4967952156f613d6a9aa3ce31fb722eb7a0d9e2b7d5c9091d44"
+                },
+                "external_id": "ARqNcbIebi"
+            },
+            {
+                "source_name": "seek",
+                "description": "Herself alone budget town likely color.",
+                "url": "http://www.krueger.com/"
+            },
+            {
+                "source_name": "herself",
+                "url": "http://www.brown-reynolds.net/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b3fc14f4-9a6b-45aa-a38b-9d408f00bf82"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b3fc14f4-9a6b-45aa-a38b-9d408f00bf82",
+        "created_by_ref": "identity--7394b9c8-1a9d-471a-a50d-718c5309c849",
+        "created": "2021-08-14T01:08:12.342251Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2828523e-b28d-4046-9afc-51d22e18d79b",
+                "name": "Social price record ever reveal physical each",
+                "create_date_time": "2021-08-14T01:08:08.418751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.418527Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7394b9c8-1a9d-471a-a50d-718c5309c849",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-12-08T16:11:54.723742Z",
+        "modified": "2022-04-19T01:59:14.74163Z",
+        "name": "StopOpenSubject",
+        "description": "Secured high-level projection",
+        "sectors": [
+            "telecommunications"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "mother",
+                "description": "Organization meet everyone.",
+                "url": "https://reynolds.com/",
+                "external_id": "zHFPopSMAvnRVyIHlu"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b3fc14f4-9a6b-45aa-a38b-9d408f00bf82"
+        ]
+    }
+]

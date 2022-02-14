@@ -1,0 +1,230 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--7867779e-981a-4f0d-901c-8ce3b31224b4",
+        "created_by_ref": "identity--a6dc8cac-6e65-465b-acf9-685b8ea95c6f",
+        "created": "2021-03-19T12:53:05.439044Z",
+        "modified": "2021-08-14T01:08:34.31785Z",
+        "name": "important",
+        "indicator_types": [
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "[(file:name < 'keep.flac') AND file:name = 'style.flac' AND file:defanged = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-08-01T08:21:20.440408Z",
+        "valid_until": "2022-08-11T20:28:33.063753Z",
+        "labels": [
+            "book",
+            "pfte-batch-1"
+        ],
+        "confidence": 36,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--65680f08-6d45-4986-a40b-7e310edf75c6",
+        "created_by_ref": "identity--a6dc8cac-6e65-465b-acf9-685b8ea95c6f",
+        "created": "2021-05-03T14:28:21.381939Z",
+        "modified": "2021-08-14T01:08:34.319532Z",
+        "name": "here",
+        "description": "This sport someone laugh allow last.",
+        "threat_actor_types": [
+            "activist",
+            "unknown"
+        ],
+        "first_seen": "2019-12-18T22:43:02.496565Z",
+        "last_seen": "2020-09-22T23:51:47.933271Z",
+        "goals": [
+            "fine",
+            "wonder",
+            "teach"
+        ],
+        "secondary_motivations": [
+            "personal-gain",
+            "personal-gain",
+            "organizational-gain",
+            "unpredictable",
+            "dominance"
+        ],
+        "personal_motivations": [
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "course",
+            "wall",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--32d5bba4-377c-4f05-bb4d-89067c0570f6",
+        "created_by_ref": "identity--a6dc8cac-6e65-465b-acf9-685b8ea95c6f",
+        "created": "2022-08-12T08:51:30.435835Z",
+        "modified": "2022-09-05T11:43:41.30616Z",
+        "relationship_type": "indicates",
+        "description": "With student tend hair such. Our use foot who. For local half us back give cover.",
+        "source_ref": "indicator--7867779e-981a-4f0d-901c-8ce3b31224b4",
+        "target_ref": "threat-actor--65680f08-6d45-4986-a40b-7e310edf75c6",
+        "stop_time": "2021-05-12T09:22:38.849558Z",
+        "labels": [
+            "require",
+            "work",
+            "pfte-batch-1"
+        ],
+        "confidence": 22,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "study",
+                "description": "Arm strong quickly there which.",
+                "hashes": {
+                    "MD5": "010d8b8969e66bf43dd755d350d1c098",
+                    "SHA-1": "f3008857e8507fd7b4ddd699fdb8c245259bfdde",
+                    "SHA-256": "67232a694cf114fe06fc5f8ca02df406ec827c84f9b8979c036e143db9ef1594",
+                    "SHA-512": "d0705d6d72aec1223cdf8df0c35b6f3e0c16835f0fb2f602dede0dabebc5d2726f9fbcbe0e08726c2375f67deb70900413568e847a498dedcd180a413c7cd541",
+                    "SHA3-256": "6cc6a84510ec92bcb328eaba68b976d7d814b80e8e02e59c226d261abbcf73c0",
+                    "SHA3-512": "8dd8c018df39a853d2fb799e6e8011c4926f86e3ffd72ff2102f233c7abdfbce1b0f7b94dbdc20dd5bcbf66d1c9f3ecf2a0193dff3f24f361a349a81fbd6cfcb"
+                },
+                "external_id": "NrXtlFIrqMmC"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--45de227d-3064-4341-a58c-35b45b5d658e",
+        "created_by_ref": "identity--a6dc8cac-6e65-465b-acf9-685b8ea95c6f",
+        "created": "2020-09-01T04:21:54.943307Z",
+        "modified": "2021-08-14T01:08:34.320639Z",
+        "content": "Possible hospital strategy share call. Buy field benefit your past impact kitchen blood. Woman go hear process that hit indeed.",
+        "authors": [
+            "new",
+            "throw",
+            "better",
+            "nation"
+        ],
+        "object_refs": [
+            "indicator--7867779e-981a-4f0d-901c-8ce3b31224b4",
+            "threat-actor--65680f08-6d45-4986-a40b-7e310edf75c6",
+            "relationship--32d5bba4-377c-4f05-bb4d-89067c0570f6"
+        ],
+        "labels": [
+            "change",
+            "training",
+            "pfte-batch-1"
+        ],
+        "confidence": 42,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "call",
+                "url": "http://dixon.com/",
+                "hashes": {
+                    "MD5": "981b443484520822eb4e1cf0b6f65327",
+                    "SHA-1": "b2d65ee18d0d1d1b9d3505992a42570783e096cb",
+                    "SHA-256": "80a8bd5ec06be09d1865150edcbad2c6a7856854bbc9ca76bcd72cc9a8c6af56",
+                    "SHA-512": "c6d3fca88281feb2ed73d88156deaaccc27ab7b62edc7313680bf9d36599899b226868a672bb828ea92af0535e8e9a5106487d41f2a8806a9c6d32956d2af894",
+                    "SHA3-256": "c4504c22f78908a23a5781792ef09668c80e7e4dbca20529fdd6118135670a53",
+                    "SHA3-512": "1a77fec3762fb683a5a1fb648afbf7460ee642c73940453e84d9cbc23cf8fb30a02b6dd1deb24bfd0aa4a03c42b85ea9ac274d3eafa37ca4920917e576220efd"
+                },
+                "external_id": "KdsfjuKt"
+            },
+            {
+                "source_name": "popular",
+                "description": "Trial financial suggest student interesting believe machine.",
+                "url": "https://www.chan.biz/",
+                "hashes": {
+                    "MD5": "8241128db4528f1363f03a5ac3536b63",
+                    "SHA-1": "065b73866d9f3ba0effe77ac16e07497bc781133",
+                    "SHA-256": "5b1701cf568e4ba40c40c7ed5d4400f31f42c3e687cbc98e65b6fa1791b9dedc",
+                    "SHA-512": "b5601690f59c4f0a6632f363de68a7219e8d7552bd4bb2a0b640fed4f8e029fc7ab4d450b9a2aeb1b4747fb1726ec7fd4f2531d00b58ac47e301addc901b70bf",
+                    "SHA3-256": "58209f20a68a0242ec7a07b1f8adb5cf9bb8a98dd3c3a316cf282834b406712d",
+                    "SHA3-512": "5a492d1de30456d7c8ce0bdae2abd4a00830ca2158e4ec1d0010dd352a7e387bf19eb5eaa473c8b86d8ac29cddd54b1cd7f7a22e216b75e82945989d5fd15730"
+                }
+            },
+            {
+                "source_name": "treatment",
+                "description": "Space wonder never main necessary job.",
+                "url": "http://miller.info/"
+            },
+            {
+                "source_name": "game",
+                "description": "Fear around shake look.",
+                "url": "https://cox-hernandez.info/"
+            },
+            {
+                "source_name": "agency",
+                "description": "Shake issue white yet room way fish fact."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a6dc8cac-6e65-465b-acf9-685b8ea95c6f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-28T04:58:28.473223Z",
+        "modified": "2021-08-14T01:08:34.324026Z",
+        "name": "Huffman LLC",
+        "roles": [
+            "me",
+            "number",
+            "federal"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 61,
+        "external_references": [
+            {
+                "source_name": "form",
+                "description": "School issue doctor could sing against high.",
+                "url": "https://www.becker-cain.com/",
+                "hashes": {
+                    "MD5": "efde99f2d9c7b475e6ba0146ab9e0abc",
+                    "SHA-1": "1491d73289c25f7d2f6671dd11777af55655e00b",
+                    "SHA-256": "8d0520f683af05e79e9e5f875d9dc75671ef492a596fc8a1e648d3efc90007ff",
+                    "SHA-512": "3c043b44a209b9d2696da99ed4715f1094e5445e5743ef57aaefc7986fc20dc5a5eb0257638b8a1c23c366c6b328b2b4e039a091f87558c2bbce61195de8ff25",
+                    "SHA3-256": "94d7d3d6cc09b85531f3356ead15b35c542d35f7f7ddbe87e39ed6fbcafb89ec",
+                    "SHA3-512": "9b069a1aba9a2142b895edee4f7a5263a03eeca7fa09d5109190da3d95b2f881873cf015ca6a04b27f3844db79038d19614c8702e11ce527278a23f244fc03be"
+                },
+                "external_id": "KVkjPXxVgkUB"
+            },
+            {
+                "source_name": "student",
+                "url": "https://bender.com/",
+                "hashes": {
+                    "MD5": "9d55ebcc1a946f46366e2009d72da8e8",
+                    "SHA-1": "508c9a0624f51c715337fd2ede9c34be3914a323",
+                    "SHA-256": "e9982c744dfc724383051521686351dd449562601b3ea41e6436ba6f87c23d08",
+                    "SHA-512": "ef00733024d07b23a57cebed31bc6f7874b703e0a08c5ea081879a4ec2d2c9cac62431ea3791bec5c860d81b74079f22d5d314758cfafeefbd238af65fd46f99",
+                    "SHA3-256": "5ae58108bc3c8653e4d886270fd94baef63debca237edc5f341d0234a98d4053",
+                    "SHA3-512": "b991f8da692919b6682bb5dc313ae5782c099471a42ad4006601d282ebc83375c13a9504db0e7702e3c84189735a3c8466022fab1daeb34b0d4f57cfaa8a4e80"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

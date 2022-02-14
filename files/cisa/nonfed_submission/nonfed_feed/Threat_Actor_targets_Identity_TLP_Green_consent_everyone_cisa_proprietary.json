@@ -1,0 +1,144 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--f80d5aed-3c27-4acb-bd2b-fae93b67a388",
+        "created_by_ref": "identity--d1f20e43-1d87-4cef-bde7-73ca377548cc",
+        "created": "2020-12-04T11:13:02.007495Z",
+        "modified": "2021-08-14T01:09:29.897918Z",
+        "name": "challenge",
+        "threat_actor_types": [
+            "terrorist",
+            "criminal",
+            "competitor"
+        ],
+        "goals": [
+            "individual",
+            "decision",
+            "fast",
+            "shake",
+            "share"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f144f7d6-6d96-4b58-b56a-1188adb1e86f",
+        "created_by_ref": "identity--d1f20e43-1d87-4cef-bde7-73ca377548cc",
+        "created": "2022-03-31T09:54:37.128972Z",
+        "modified": "2022-11-10T03:43:03.180651Z",
+        "name": "Black-Baker",
+        "description": "Distributed logistical moderator",
+        "roles": [
+            "message",
+            "view",
+            "study",
+            "check"
+        ],
+        "sectors": [
+            "hospitality-leisure",
+            "government-local"
+        ],
+        "contact_information": "958 Robert Crescent\nGoodwinfort, AZ 00908",
+        "labels": [
+            "some",
+            "commercial",
+            "pfte-batch-1"
+        ],
+        "confidence": 74,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--40f56d6b-b2d3-4932-8795-f927a7e29ba4",
+        "created_by_ref": "identity--d1f20e43-1d87-4cef-bde7-73ca377548cc",
+        "created": "2021-03-15T12:01:06.734652Z",
+        "modified": "2022-01-02T11:44:34.443167Z",
+        "relationship_type": "targets",
+        "description": "Respond be only particularly. Team go drop especially report.",
+        "source_ref": "threat-actor--f80d5aed-3c27-4acb-bd2b-fae93b67a388",
+        "target_ref": "identity--f144f7d6-6d96-4b58-b56a-1188adb1e86f",
+        "start_time": "2020-11-11T09:29:29.140632Z",
+        "labels": [
+            "example",
+            "company",
+            "source",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "few",
+                "description": "Provide him high.",
+                "url": "http://www.evans-wallace.net/"
+            },
+            {
+                "source_name": "identify",
+                "description": "Respond common health move office.",
+                "hashes": {
+                    "MD5": "5d3208a1e2e9dc01081950e13aaa97b0",
+                    "SHA-1": "7436cf6cd600c2749257ecca81fd5446ef75f8e5",
+                    "SHA-256": "392631b38a0cc4699ec8211127ecd88d87670a49a6a130f2df0d7a770a990548",
+                    "SHA-512": "0e51e51c76b45fca67d32f1fcd2632057e943d71ae961812d317d304cb4c928a50dec862a2d2e19eae95a23228863f37b1392b1ee1a4fb237e0ff8f0f7b4bd1e",
+                    "SHA3-256": "fd2a9a8324fb4ddbc97733c57554b8802ad58ef0b263246d6c4fbb2abf72a191",
+                    "SHA3-512": "3a41f4e61b9e5a8b4dc9f4413547bec2cfa9d44e89bb25ea7711f98206866bd8bcc0a8b7178671ab786b3bc1dd68c7cb773b02a0b702254f1880535b6c473004"
+                }
+            },
+            {
+                "source_name": "along",
+                "description": "Decade catch herself series.",
+                "url": "http://patterson-copeland.com/",
+                "hashes": {
+                    "MD5": "5a692d46569a6d9dc223e4a0d26b3537",
+                    "SHA-1": "de4c874edcfac044f3f4d09457cf6c1bbae9e2d9",
+                    "SHA-256": "7e5287668f7fe9663a0430045840491df7eaf40509567e9e8a5f6dbb6393c4ca",
+                    "SHA-512": "3c89959d6bb9dac78c0fbd98e5599342016ed58113ad98a179aaf9319295c76233a1c4dabc7c78554cd6a8f35405cd14db73d4d8f1825c8038766aeb5ee4d203",
+                    "SHA3-256": "0c2bde9c5d7d01db8abcf4e3d72dcd275b116a6472c9d26d644964b33415b56f",
+                    "SHA3-512": "4db731a320d239a6488f0de299bff3ea0f1f1147dd04da5c40d13f7c358fb05ecae78d8e40f486b2079730730cb85d0808f26bb608c47f198d68be71f063f4a8"
+                },
+                "external_id": "nVnnoxscFAYHb"
+            },
+            {
+                "source_name": "structure",
+                "url": "https://cisneros.com/",
+                "external_id": "kmpkfZdLJBU"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d1f20e43-1d87-4cef-bde7-73ca377548cc",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-12-26T10:43:23.315826Z",
+        "modified": "2022-01-24T02:18:44.473671Z",
+        "name": "Miller Group",
+        "description": "Reduced executive hierarchy",
+        "roles": [
+            "event",
+            "Mr"
+        ],
+        "identity_class": "individual",
+        "contact_information": "Unit 5475 Box 1556\nDPO AA 59289",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

@@ -1,0 +1,203 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--2bf01605-d0fc-4dac-b47a-504bed9a6be6",
+        "created_by_ref": "identity--b7f082e2-c96b-4abe-bedd-142142245940",
+        "created": "2021-04-18T15:23:24.354496Z",
+        "modified": "2021-10-20T09:49:45.680577Z",
+        "name": "again",
+        "description": "Smile mission goal suffer think.",
+        "first_seen": "2021-05-15T00:41:22.092657Z",
+        "last_seen": "2022-01-21T13:53:01.888037Z",
+        "labels": [
+            "reach",
+            "deep",
+            "plant",
+            "science",
+            "civil",
+            "pfte-batch-1"
+        ],
+        "confidence": 19,
+        "external_references": [
+            {
+                "source_name": "interesting",
+                "url": "http://www.griffin.com/",
+                "hashes": {
+                    "MD5": "da94d2acc9dd188b075c90c3fc4e0a3a",
+                    "SHA-1": "d3974db4aa4cff5c5274756450c9dc62da4611ca",
+                    "SHA-256": "f4111596ff86a0b3999badb1896cfe7a94a86f538d1a9842d8d992c8cc913219",
+                    "SHA-512": "054c947db93b90ea98d141b732f7d9691c10a048b8f97d55c121204746be32e182ee3786f26f1496af019584d88efc7fe1c56d2cd91c6b874b34fc724f2aebb1",
+                    "SHA3-256": "a0b557081213bca26a172b8fac686a08b521094fb5959f1d30e757045c0734c7",
+                    "SHA3-512": "183255cbff8e66f496cb1f0b570ed22da5be96ecf01e95b8f63bdd0dcd1ba97b6caec3994661ba633179f9c3e8af0a85cbc078f6cb060ed17947275ff042a43a"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--3d3cdabb-5e41-48dd-ad2c-e016c2ec15fa"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--c21a2321-114e-49e3-85f8-41c739ea3ab8",
+        "value": "http://www.castro-nelson.org/",
+        "object_marking_refs": [
+            "marking-definition--3d3cdabb-5e41-48dd-ad2c-e016c2ec15fa"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--85d057b7-012c-4f18-870e-d0c937e022ee",
+        "created_by_ref": "identity--b7f082e2-c96b-4abe-bedd-142142245940",
+        "created": "2021-06-11T04:50:07.186377Z",
+        "modified": "2021-10-18T06:10:58.779181Z",
+        "relationship_type": "communicates-with",
+        "description": "Degree source challenge before. Rule last into over see manage themselves. Most record away wrong clearly into.",
+        "source_ref": "infrastructure--2bf01605-d0fc-4dac-b47a-504bed9a6be6",
+        "target_ref": "url--c21a2321-114e-49e3-85f8-41c739ea3ab8",
+        "start_time": "2022-04-28T21:13:00.236722Z",
+        "stop_time": "2022-10-07T08:06:19.931895Z",
+        "labels": [
+            "research",
+            "plant",
+            "result",
+            "tax",
+            "color",
+            "pfte-batch-1"
+        ],
+        "confidence": 82,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3d3cdabb-5e41-48dd-ad2c-e016c2ec15fa"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--3d3cdabb-5e41-48dd-ad2c-e016c2ec15fa",
+        "created_by_ref": "identity--b7f082e2-c96b-4abe-bedd-142142245940",
+        "created": "2021-08-14T01:08:41.38752Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b7f082e2-c96b-4abe-bedd-142142245940",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-03T23:20:10.519974Z",
+        "modified": "2022-04-13T20:35:03.0657Z",
+        "name": "Vasquez-Pierce",
+        "description": "Re-engineered asynchronous model",
+        "identity_class": "class",
+        "sectors": [
+            "government-national",
+            "technology"
+        ],
+        "contact_information": "66639 Terry Oval Apt. 677\nAllisonville, NH 68298",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 27,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "special",
+                "description": "Push leg early question again significant miss.",
+                "url": "http://www.fowler.com/",
+                "hashes": {
+                    "MD5": "8710798b506ed66e3718859b3832a403",
+                    "SHA-1": "abbb5c53e557503125bb2ffbc2d4732ea7411d90",
+                    "SHA-256": "328e4252c439a943448b2c8858d1a1828d7e3298d7eafc4f2086b1f1496eb388",
+                    "SHA-512": "dfc360ea14d4a4558a5b406aa05d878b15feeb7845a9232bac46af90c672b4f3c16f655c637fb45fc7ec16cd3453eb529700162fc9b96f76c1124df030b7fa8f",
+                    "SHA3-256": "95d8cdf75ea990ac7b1fb689fa4b17d80cc9f7f38eab9e07f6b1d5c8d64985cf",
+                    "SHA3-512": "a71931286edcbab976bcf53de6e52c41e30a3e8c1e2baa052529a442c75bfc47a785f2201008b68c4b95461c0a6025db7af7127d31e8b1584cd61dcdf9f27684"
+                }
+            },
+            {
+                "source_name": "figure",
+                "url": "https://www.vincent.org/",
+                "external_id": "vvsCWXVRLuWJJ"
+            },
+            {
+                "source_name": "letter",
+                "description": "Man on stand maintain week investment.",
+                "hashes": {
+                    "MD5": "36ad8feca5afee27353c0d290e5cf9bc",
+                    "SHA-1": "0e080b401c971a1552cd2d7d0c8cbeab7b8f9438",
+                    "SHA-256": "f5dbd6ee1a25a9796a446566119d1569b758ad3faf49650558b53a850329391b",
+                    "SHA-512": "e83b1515edb4962c0c025c82d0bb31f765cf857c45eb168ec79889bf676ed944a049779b5460d2c753487b20cf833ed573e00deebec6154de182fd5c6b83237c",
+                    "SHA3-256": "b54fcc3eb70dd07746166c52ca5882ad43e60d409a8538cc5bb82dc936b25047",
+                    "SHA3-512": "890438967a9da8db96fe734f1764859df8f11ce0e932e20db938968f2260c4938c8979b96f36dbf4df338f392eab1296059d66a81d6e0540b2752d590e5a0e2a"
+                },
+                "external_id": "lBxZAdOBNUmRGBhA"
+            },
+            {
+                "source_name": "easy",
+                "url": "http://gonzalez.com/",
+                "hashes": {
+                    "MD5": "2fb26c114ebc4ae12e0cf5d3c14ea68a",
+                    "SHA-1": "e58c3b75f98ff703152950bba4a352e90b331693",
+                    "SHA-256": "4922f167282bbc027ccc520f80fc8b429339a964385e0bd6626d5df4fff3add5",
+                    "SHA-512": "e9716198c395af7f0ca8bbde5a161ec488494d13479f0b8e74c1c055b8cebbe2b732054fa17b043d3d88e22b2edeff791085361cc80440ad1357937cbdb036e4",
+                    "SHA3-256": "3d04bed46c4a0f67f220e40e90f0be7b7fc4c71346589a1ccb8337fd0c565df1",
+                    "SHA3-512": "2bd4f2bb625dbe30da1ed6c9ebda669958cf98f1b50e808fd241a9c33d4f03c2295f790d5eb758e61a48d0f7b0194f964b12a986723581d40ca89f21c0059e13"
+                }
+            },
+            {
+                "source_name": "later",
+                "description": "Fill could ahead sure.",
+                "external_id": "LRIqKixsctssM"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--3d3cdabb-5e41-48dd-ad2c-e016c2ec15fa"
+        ]
+    }
+]

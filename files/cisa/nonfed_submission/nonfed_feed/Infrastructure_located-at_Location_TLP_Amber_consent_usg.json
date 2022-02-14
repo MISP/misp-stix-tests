@@ -1,0 +1,114 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--73b331fa-e6ea-4b31-af51-d7725d66c879",
+        "created_by_ref": "identity--58daa4bd-2e84-4797-b35f-0f1cfeeebcb9",
+        "created": "2020-12-13T03:47:50.907012Z",
+        "modified": "2021-08-14T01:08:49.664519Z",
+        "name": "choice",
+        "aliases": [
+            "focus",
+            "personal",
+            "win"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "ejxbPhgZhsunSaT",
+                "phase_name": "LVaAZeIpXUHiSvxl"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "last_seen": "2022-01-24T20:12:16.69734Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 14,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--fc9b22f2-1317-42db-a5d3-a28c641a1457",
+        "created_by_ref": "identity--58daa4bd-2e84-4797-b35f-0f1cfeeebcb9",
+        "created": "2022-06-17T14:38:19.295245Z",
+        "modified": "2023-01-15T13:38:53.647975Z",
+        "latitude": 44.88157403486801,
+        "longitude": -70.6945550544507,
+        "precision": 8.849365336421588,
+        "region": "eastern-europe",
+        "city": "West Christopherville",
+        "labels": [
+            "difficult",
+            "operation",
+            "structure",
+            "pfte-batch-1"
+        ],
+        "confidence": 79,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e2431841-e193-4b7f-bc43-781787e6cfe4",
+        "created_by_ref": "identity--58daa4bd-2e84-4797-b35f-0f1cfeeebcb9",
+        "created": "2021-07-12T05:36:28.886965Z",
+        "modified": "2021-08-14T01:08:49.66506Z",
+        "relationship_type": "located-at",
+        "description": "Expert result popular source build.",
+        "source_ref": "infrastructure--73b331fa-e6ea-4b31-af51-d7725d66c879",
+        "target_ref": "location--fc9b22f2-1317-42db-a5d3-a28c641a1457",
+        "start_time": "2022-05-26T16:59:38.260628Z",
+        "stop_time": "2023-01-05T14:52:31.791806Z",
+        "labels": [
+            "born",
+            "well",
+            "pfte-batch-1"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--58daa4bd-2e84-4797-b35f-0f1cfeeebcb9",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-03T23:17:03.664439Z",
+        "modified": "2022-02-14T06:51:58.16959Z",
+        "name": "MachineSecondForward",
+        "contact_information": "104 Hart Fall Suite 189\nPort Deborah, NM 21535",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 38,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

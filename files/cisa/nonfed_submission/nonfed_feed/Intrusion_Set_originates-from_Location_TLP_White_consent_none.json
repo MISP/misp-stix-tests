@@ -1,0 +1,100 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--f08b715d-90ca-43ce-bf3c-33a7d1f3f730",
+        "created_by_ref": "identity--b79c05e6-6ab5-4eaa-9d03-7434cc5c0c61",
+        "created": "2020-12-27T12:39:47.589606Z",
+        "modified": "2021-08-14T01:08:54.484537Z",
+        "name": "respond",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 85,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--9a1e46e2-b9e1-4f3a-86c1-dbf5f1fe3f49",
+        "created_by_ref": "identity--b79c05e6-6ab5-4eaa-9d03-7434cc5c0c61",
+        "created": "2020-09-24T20:18:03.948205Z",
+        "modified": "2021-08-17T11:47:27.345191Z",
+        "latitude": -8.877974740047918,
+        "longitude": -135.00421055315144,
+        "precision": 70.71001688191153,
+        "region": "antarctica",
+        "administrative_area": "WXuqV",
+        "street_address": "6887 King Bypass",
+        "labels": [
+            "lead",
+            "ok",
+            "eight",
+            "situation",
+            "pick",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "anything",
+                "description": "Relationship part public couple at project yes.",
+                "url": "https://www.benson.com/"
+            },
+            {
+                "source_name": "message",
+                "description": "Especially white either but.",
+                "external_id": "aIhcwxFnhNedeHldtjK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--fa3a3d06-c571-4191-bb4c-8d00faa018f1",
+        "created_by_ref": "identity--b79c05e6-6ab5-4eaa-9d03-7434cc5c0c61",
+        "created": "2021-09-22T11:56:09.927755Z",
+        "modified": "2022-01-12T15:50:43.202321Z",
+        "relationship_type": "originates-from",
+        "source_ref": "intrusion-set--f08b715d-90ca-43ce-bf3c-33a7d1f3f730",
+        "target_ref": "location--9a1e46e2-b9e1-4f3a-86c1-dbf5f1fe3f49",
+        "start_time": "2020-12-13T22:02:55.422762Z",
+        "stop_time": "2021-04-29T06:47:41.310527Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b79c05e6-6ab5-4eaa-9d03-7434cc5c0c61",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-04-28T13:20:51.413111Z",
+        "modified": "2022-06-12T11:39:30.570734Z",
+        "name": "DetermineYesThere",
+        "description": "Ameliorated multi-state focus group",
+        "sectors": [
+            "telecommunications",
+            "commercial",
+            "hospitality-leisure",
+            "government-national",
+            "government"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 74,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

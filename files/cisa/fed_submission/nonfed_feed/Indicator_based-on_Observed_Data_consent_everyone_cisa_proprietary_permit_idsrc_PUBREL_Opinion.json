@@ -1,0 +1,222 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--15f9a01d-0912-4389-8b7f-f4a9b161f41f",
+        "created_by_ref": "identity--33d890fc-815e-4332-949f-4451cf5ed4bc",
+        "created": "2022-03-21T00:28:19.08908Z",
+        "modified": "2022-05-13T21:57:42.871922Z",
+        "name": "thought",
+        "indicator_types": [
+            "attribution"
+        ],
+        "pattern": "([mac-addr:defanged NOT = false AND (mac-addr:defanged NOT = false AND (mac-addr:value >= '17:b9:18:c7:13:01'))] AND ([process:defanged = false OR (user-account:defanged = false)]))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-11-15T03:28:29.81107Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "agreement",
+                "description": "Firm whatever car stock house.",
+                "url": "http://www.blanchard.org/",
+                "hashes": {
+                    "MD5": "087f2f240ee7bbc71859de6f81440b2a",
+                    "SHA-1": "1bf46809a1e7306354e81531991a290f61a13214",
+                    "SHA-256": "e19f87ceb5707c82b2485afe7de4f6656fa9cc4b1e059b7f5139dd373f462de1",
+                    "SHA-512": "b71690de4dc80aa93957fc98e6fcd63d964f091d5c9c17f164a0413b22e2a70bdaac9c0a2644f14c783c82e688e68def1af8f8ebc84e4e33710fb2b335e72bfa",
+                    "SHA3-256": "2062d48988963c6e61806ff97cc457e799bdcec59f4fea561dcbf32d7aab338c",
+                    "SHA3-512": "67c73fa0006bf6ba80690876ec2c70bd40d8f4f55e0054a4b56c2fa7157626c974cf55fa9b686c9168295c86245e5d3f50c4be40fc16b1d4f22544fc5f9874c1"
+                },
+                "external_id": "rbRxpSVQgpnTNNYrKUSB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--e802e694-423c-4266-b677-92d094879fb4",
+        "created_by_ref": "identity--33d890fc-815e-4332-949f-4451cf5ed4bc",
+        "created": "2022-01-16T03:55:24.006816Z",
+        "modified": "2022-03-22T11:25:01.943366Z",
+        "first_observed": "2021-09-14T00:03:44.089647Z",
+        "last_observed": "2022-03-29T23:00:25.275242Z",
+        "number_observed": 477309837,
+        "objects": {
+            "domain-name--0129b61d-e74d-4d55-9bc7-2ec25a38060c": {
+                "type": "domain-name",
+                "spec_version": "2.1",
+                "id": "domain-name--0129b61d-e74d-4d55-9bc7-2ec25a38060c",
+                "value": "small-doyle.com"
+            }
+        },
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 78,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "attention",
+                "description": "Hospital lead health home daughter just school fine.",
+                "url": "https://fox.com/",
+                "external_id": "MichBhKdgvqnZ"
+            },
+            {
+                "source_name": "him",
+                "url": "https://george.org/",
+                "hashes": {
+                    "MD5": "d3ad7be3fee09437c71f6596f40bd5c6",
+                    "SHA-1": "3e429cf967d5c6a05e77881a5a5ac8c8ab0928d2",
+                    "SHA-256": "2b04ad5eb53fa1990ecb2febf9914384a8cd01807c57e5f5b5ce56fa212a1ca3",
+                    "SHA-512": "a122f7c5ca7ff880ebcd465d7457ac3341b51fd5fb18b681b9dfcb75369c7bd817f260d61d9d7838b4c9cce2ec6ce2c4366d8af23d488bdd7b1ce74dd3121b89",
+                    "SHA3-256": "703d35da87cf6f1989b0eb46c96c2687e86c19796f61c389554a046c2ca17393",
+                    "SHA3-512": "ef8e56f44aa5fea8f1da4ba3d7331cc5a6c9e5ac04ea919e5abc04d01c67756018d1d3a1890d92e59a888241dcd244e2502d1a29fbef56c0d24d2ac4f82f6082"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d1c44800-fdcc-4b47-bfa9-f8887388d3e7",
+        "created_by_ref": "identity--33d890fc-815e-4332-949f-4451cf5ed4bc",
+        "created": "2020-10-19T03:03:15.495854Z",
+        "modified": "2021-08-14T01:08:38.345607Z",
+        "relationship_type": "based-on",
+        "description": "Happen product director economy continue hospital last happy. Like at hard piece address father somebody. View however point hour. East debate site office.",
+        "source_ref": "indicator--15f9a01d-0912-4389-8b7f-f4a9b161f41f",
+        "target_ref": "observed-data--e802e694-423c-4266-b677-92d094879fb4",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--0fc12617-60b8-4f18-afd5-f14c4265e9f5",
+        "created_by_ref": "identity--33d890fc-815e-4332-949f-4451cf5ed4bc",
+        "created": "2020-10-14T17:39:24.432686Z",
+        "modified": "2021-08-14T01:08:38.346105Z",
+        "authors": [
+            "blue"
+        ],
+        "opinion": "strongly-disagree",
+        "object_refs": [
+            "indicator--15f9a01d-0912-4389-8b7f-f4a9b161f41f",
+            "observed-data--e802e694-423c-4266-b677-92d094879fb4",
+            "relationship--d1c44800-fdcc-4b47-bfa9-f8887388d3e7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "late",
+                "description": "Those huge charge happy become fast step as.",
+                "url": "https://nguyen-hernandez.net/",
+                "external_id": "QtBBiDDLDuOLci"
+            },
+            {
+                "source_name": "stand",
+                "url": "https://krueger.biz/",
+                "external_id": "zIUurYA"
+            },
+            {
+                "source_name": "reveal",
+                "description": "Address son decision former them.",
+                "url": "https://smith-glenn.info/",
+                "hashes": {
+                    "MD5": "35e477c919bbde05cb2e1517dea4f916",
+                    "SHA-1": "7eb21d8abf268be975cfbc74a6cf6c87464f6691",
+                    "SHA-256": "fa04607d0e2fa5fd901ad696dcb6ace3d1fc88798b1dbf02c6933ce21439c6c1",
+                    "SHA-512": "5a9608c36ddb7008e4eb26311d0aa7de3ece5fe3176ec63dbe756a68ca778fa232e590c6860e85fea59a2c6d84b2915fa9503dbe699713c37c116d716ef017cb",
+                    "SHA3-256": "a67106013e3fde817025a1e41a672e0e6b3c1e35d461fefa200ea9556f723607",
+                    "SHA3-512": "eea203cc165a7104cf6b1802d5f48c838fa42bb12ec096630825c8ae3bb0d4b139022a7cf76840169f443e2c2382f4f7e0379136fa1fda9f21829276f30e31fb"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--33d890fc-815e-4332-949f-4451cf5ed4bc",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-08-11T04:19:33.08016Z",
+        "modified": "2022-06-22T15:10:40.171242Z",
+        "name": "Thomas, Watson and Gardner",
+        "contact_information": "USNS Carter\nFPO AA 04218",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "lawyer",
+                "description": "Low section physical sing wrong poor.",
+                "url": "https://nelson-santos.com/",
+                "hashes": {
+                    "MD5": "1df0c0381f1cc49f1922ce26ae5c5fc7",
+                    "SHA-1": "a2078cb68d27f060fb4ff9766c99b2b4eb266335",
+                    "SHA-256": "870f0ae5d5e2eba221117cb09e99a347596efa6c68292d5d4c8a9998e61a2696",
+                    "SHA-512": "44cab40bcd9e9f7f5284e258c67cf3d530b3f67329de817fda92c85518ad3cba1e9915c8c9cd39cd663cef0f5cc4aaa043efbbcb6153ad616c40705958c29076",
+                    "SHA3-256": "8e7fa3f8037682f215387d11178cdf87a2f73e15a8205cbc9285c5c310f331dd",
+                    "SHA3-512": "1bbe83a9389c468a4feb55d557bac1f7746c1ac54056339b4268bd31f27748fe4ba226eb2b860a747f5fd438b3b9f92a56bc744825ef84ac0d5fb8329528a0da"
+                }
+            },
+            {
+                "source_name": "center",
+                "description": "Attack beautiful full free skill decade.",
+                "url": "http://austin.com/"
+            },
+            {
+                "source_name": "foreign",
+                "description": "Country beautiful why choose account take eight.",
+                "url": "https://www.wright.biz/",
+                "hashes": {
+                    "MD5": "47855f48b9ebfed9ff15232b681c9874",
+                    "SHA-1": "aeee7906c014f4a033ee8c304309152c522c1251",
+                    "SHA-256": "61cf5449cdafc44347d385e106973114a3766108335db51dce65430d00ab3b30",
+                    "SHA-512": "740c58d30d2596e1a3e22d964398688eadb5a247958b89d33bed504f01871a7bf3ca5121bf02d2db418f4426bbb34238cf727976b176b21d4f4ebafaa064736d",
+                    "SHA3-256": "0a57a0e32cc7db62e5c765ae3c750502de5174e1c83dc1453c58e4ad1d6d2dbf",
+                    "SHA3-512": "7e7193942b497d68ed95bca47230f63c9866a795daa3c8cbfa878f7926635ca4246936257eef0a63b7b7fc8ac64287b1e62d99d113800c59c7c04bf8fc5afc9e"
+                },
+                "external_id": "PmcuuTzMVIiRx"
+            },
+            {
+                "source_name": "here",
+                "description": "Tree raise spring stay resource.",
+                "url": "http://www.ruiz.biz/",
+                "hashes": {
+                    "MD5": "90bfc87ff353f590e956098ceb7e1ab6",
+                    "SHA-1": "cef48ac814671ab179eb773e703014c633aea764",
+                    "SHA-256": "a1a9876d98da437b020377201ac3ecc45d0160076fbe2dafe1952b94165e76b1",
+                    "SHA-512": "0ee11d567266ade580c802771a6e773e6b6de33aa93b14296beaff005a003b1397616621707629db64119574be87026683136d805f91680112aeb4792e2929b3",
+                    "SHA3-256": "4db79c09f2bbe868194f081bc03cb428071baed7fd607a3803805c1afc8e83a2",
+                    "SHA3-512": "ffbafae21b4165840e9fc32cfd8eb7dfbc562eaf53fdc09048e0667f61bcb62c3878e8c8c758a7d3dbf15b00fe43d1a2555bce91b164f086ea0c07a8aaf29500"
+                },
+                "external_id": "bxWJKOSrZEKHTp"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

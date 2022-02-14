@@ -1,0 +1,304 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--08eee196-1548-4d9b-9be2-a695484d81f5",
+        "created_by_ref": "identity--feecc97e-f71e-49b5-92d7-7083bae1ce07",
+        "created": "2021-05-03T17:32:26.185123Z",
+        "modified": "2021-08-14T01:09:29.3706Z",
+        "name": "full",
+        "aliases": [
+            "amount",
+            "born"
+        ],
+        "first_seen": "2021-11-11T11:31:12.187539Z",
+        "roles": [
+            "infrastructure-operator"
+        ],
+        "sophistication": "strategic",
+        "resource_level": "contest",
+        "secondary_motivations": [
+            "unpredictable",
+            "coercion",
+            "accidental",
+            "accidental"
+        ],
+        "personal_motivations": [
+            "personal-gain",
+            "personal-gain",
+            "coercion"
+        ],
+        "confidence": 20,
+        "external_references": [
+            {
+                "source_name": "fear",
+                "description": "Quickly team represent."
+            },
+            {
+                "source_name": "suggest",
+                "description": "Body writer today third new run particular.",
+                "url": "http://www.hancock-orr.com/",
+                "external_id": "iuPlMLqHS"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d0ea924c-cc9f-411a-9b3f-dff456ef3703"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--4c9e7c64-3bc5-4a1f-98dc-923999b7d4eb",
+        "created_by_ref": "identity--feecc97e-f71e-49b5-92d7-7083bae1ce07",
+        "created": "2022-07-17T21:22:34.035436Z",
+        "modified": "2023-02-26T08:51:23.349836Z",
+        "name": "FXTHAZHu",
+        "description": "Expanded foreground model",
+        "latitude": -23.847036321585406,
+        "longitude": 162.26548265590543,
+        "precision": 36.117563741205494,
+        "country": "Eritrea",
+        "administrative_area": "RUIejEHTsaQADU",
+        "city": "Meyerstad",
+        "street_address": "98546 Dawn Spur Apt. 219",
+        "labels": [
+            "despite",
+            "economy",
+            "image",
+            "nice",
+            "pfte-batch-1"
+        ],
+        "confidence": 91,
+        "object_marking_refs": [
+            "marking-definition--d0ea924c-cc9f-411a-9b3f-dff456ef3703"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c84ee56b-94d7-45a5-9490-6b33c27d43ba",
+        "created_by_ref": "identity--feecc97e-f71e-49b5-92d7-7083bae1ce07",
+        "created": "2021-02-11T01:39:13.617656Z",
+        "modified": "2021-12-10T07:00:34.867668Z",
+        "relationship_type": "located-at",
+        "description": "Statement low happen information important. Economic table approach find phone return. Growth rather war oil western.",
+        "source_ref": "threat-actor--08eee196-1548-4d9b-9be2-a695484d81f5",
+        "target_ref": "location--4c9e7c64-3bc5-4a1f-98dc-923999b7d4eb",
+        "confidence": 21,
+        "external_references": [
+            {
+                "source_name": "customer",
+                "description": "About his born business central."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d0ea924c-cc9f-411a-9b3f-dff456ef3703"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--7c6c09fc-09c8-41f1-9578-accbd57d478b",
+        "created_by_ref": "identity--feecc97e-f71e-49b5-92d7-7083bae1ce07",
+        "created": "2021-08-24T14:10:49.345336Z",
+        "modified": "2021-11-29T23:22:35.316687Z",
+        "context": "unspecified",
+        "object_refs": [
+            "threat-actor--08eee196-1548-4d9b-9be2-a695484d81f5",
+            "location--4c9e7c64-3bc5-4a1f-98dc-923999b7d4eb",
+            "relationship--c84ee56b-94d7-45a5-9490-6b33c27d43ba"
+        ],
+        "labels": [
+            "foot",
+            "condition",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "finish",
+                "description": "Water control into star speech.",
+                "url": "http://williams-rowe.com/",
+                "hashes": {
+                    "MD5": "a09a86fa7500e9d1942a7be328cb4118",
+                    "SHA-1": "3e319c640b0ccb3c7f0e7a7bc21bee3a5d9b5dd5",
+                    "SHA-256": "0f343814fdd04ca14383c9083111fbfdcda4f0c0f585bf7e7420a8a6a35f0857",
+                    "SHA-512": "1b5bab018f48ccf35cf20dfcab436e59d3b30cda0b345aef57b40ec0c7820a133845afd478594a574e4b82731bea7c2fffb1a580736f54a1b34f5daf0eabc7e1",
+                    "SHA3-256": "465d3d17eb420a18c61c3e7ae7e7dff22bedfcbf6ebceb6d904f19d42ed2fa56",
+                    "SHA3-512": "25ddd899afe67bbe0972413918f27f02d3fb244b8287e243feeb0f0ace2a626bcafd958904f6dedf219e80d35bb92d66e68b0b3573b81853681bdbeb7c8369b0"
+                },
+                "external_id": "dTiQWtetZdyTVpDDr"
+            },
+            {
+                "source_name": "wrong",
+                "description": "Well main door tonight serve.",
+                "external_id": "GMhuGHrC"
+            },
+            {
+                "source_name": "car",
+                "description": "Staff attention director.",
+                "url": "https://www.sutton-miller.biz/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d0ea924c-cc9f-411a-9b3f-dff456ef3703"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--feecc97e-f71e-49b5-92d7-7083bae1ce07",
+        "created_by_ref": "identity--feecc97e-f71e-49b5-92d7-7083bae1ce07",
+        "created": "2020-10-23T01:23:53.115152Z",
+        "modified": "2021-08-14T01:09:29.372675Z",
+        "name": "Bradley-Roberts",
+        "identity_class": "group",
+        "confidence": 77,
+        "external_references": [
+            {
+                "source_name": "new",
+                "description": "Bill central operation.",
+                "url": "https://howell.biz/",
+                "hashes": {
+                    "MD5": "23f4cc064027ccc51e69f80c450beb24",
+                    "SHA-1": "4c78462e40d71040bee4102829e5b6e3cecc41dc",
+                    "SHA-256": "f8b8288de882e24f260318f15ad47fa9034b5d2aa3c0c3c5bd959a90cd0d36f8",
+                    "SHA-512": "8bd49518c7b0e49681d1d8e671e52ecef4abe02286b9633d4d761bee75d8c16e488b40070d2b3f9b3d28e8d3d7a221827b935afd21bd63750deb0fe211b2d70f",
+                    "SHA3-256": "ccb13c57e6409eb845a5a3e53740057c6357c178a6e716e14512c84401aad99b",
+                    "SHA3-512": "4a763a7a63446628fcfb18bbbed1d17836bbb9efa77b4dca07656892d43fe740a9cf8d35419abfa14c32fbf48f8465466e1134fb32f7d79e76ee0ff9a7ef32e9"
+                },
+                "external_id": "xbJcUQCBDwCWLFwdX"
+            },
+            {
+                "source_name": "protect",
+                "description": "Also across popular gun end.",
+                "url": "https://www.evans.org/",
+                "hashes": {
+                    "MD5": "cc948fb7a1de568edc7734a1950682ac",
+                    "SHA-1": "4c0bef2acaa6ab6eaa69e3252aaa1dab60324920",
+                    "SHA-256": "226b0d23f9c2161bf6e6f09ecb6d865db32f348c7ca844ad3f400dea556a5a4f",
+                    "SHA-512": "b612c38b9d65571e23a9aeda98c07e04944c47cf23f3434df1bf670b4da31c69a4a880af736da1b30423c8ea0d52babf0a7e3f49496176f9bcb42a9a01c2a283",
+                    "SHA3-256": "5ca3cb76d5062ea712f9ba8c044d4199ff0733e00272d3f312c6a1d9172a3cf0",
+                    "SHA3-512": "5c342e6932d1a7c98a93c6204c2a3161157620f8f451d619b5bfcc49d5b17bcacb790fce0d8f5dadb85674568bc756dc47ec782a185187dc11258d193389c71c"
+                }
+            },
+            {
+                "source_name": "military",
+                "url": "http://www.cordova.org/",
+                "external_id": "nXaCUrQNXvLoXnk"
+            },
+            {
+                "source_name": "under",
+                "url": "http://harvey.com/",
+                "hashes": {
+                    "MD5": "beb70667cc23e8478c438e237b83d205",
+                    "SHA-1": "24c7c561b989868ab7dbba8be8d6a83b3a9aec98",
+                    "SHA-256": "70cf6ea3661463ce2b9250f4d55a28d76e251db3124b2c1c5a7fcfa0ed443c9d",
+                    "SHA-512": "6a483f1861e01b80bee96cef4ce039ad3208ae00659099a6df5c247f842ff3a56e0792a6326d54a211816d468e15c9b15c5985282c77ddae28377d8c4fa7a05c",
+                    "SHA3-256": "1c5382973a91efa5f1970f575c99f2ff6d5523ee98ad81064c868511abce5c02",
+                    "SHA3-512": "319a463eddd026ec965519c97d5758bc28536018caaa09efd16861428afa6dca0704d23300456e5d3b85937f8e6e73cc38c75af0068267453bcdffb219c43eec"
+                },
+                "external_id": "nCSYU"
+            },
+            {
+                "source_name": "fish",
+                "url": "https://peterson.com/",
+                "hashes": {
+                    "MD5": "0a2d71c51baca5edb69871944fcb9c3c",
+                    "SHA-1": "4a0654fc3d6d9765d643572587fa6dc289493f6b",
+                    "SHA-256": "c9a18377257e07684f6708b5c71cbc08dc611f37e4b44b83c438ba4ee55f2db0",
+                    "SHA-512": "193b0d679087f59ba428bab0d02ea92a55c5c49deecb8d5dab10cfc212265f4ca8e83b0d8a84e76feae552154fbbba46edce4935ad40efade81652c407481029",
+                    "SHA3-256": "6f24777ca2e02b54d9a81f9a61f7fb4f98171d95028bdfc5a43b759f1a34a73d",
+                    "SHA3-512": "72b8e420e738b7b04497d6790467296124edc4d6400bbf12c73f0b68f4f744b3d87a2eddfba886389f0fb88052b3f447c88ded21d466732180416462e85c8a80"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d0ea924c-cc9f-411a-9b3f-dff456ef3703"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d0ea924c-cc9f-411a-9b3f-dff456ef3703",
+        "created": "2021-08-14T01:09:29.369688Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-147f852e-75ac-49e9-b9d2-55199760c488",
+                "name": "Yes might consider why south he",
+                "create_date_time": "2021-08-14T01:08:08.429077Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.428904Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

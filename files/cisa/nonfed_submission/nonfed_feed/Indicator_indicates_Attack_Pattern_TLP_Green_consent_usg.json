@@ -1,0 +1,135 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--3db7a8c8-1ab5-4eeb-9b4f-c7cc1927e281",
+        "created_by_ref": "identity--61eb7af9-bab3-44bd-a1a1-ef297b3136bd",
+        "created": "2020-11-25T20:07:57.769617Z",
+        "modified": "2021-08-14T01:08:27.482532Z",
+        "name": "quality",
+        "pattern": "[directory:path > '/to/around.webm' OR mac-addr:defanged NOT = false OR file:size <= 304026 OR file:hashes.'SHA3-256' <= '5235b06c127b792d45187d2a6ba43f4dc692e9bcba63250e222eb4ad3c6cac36' OR (windows-registry-key:defanged = false)]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-08-17T02:35:55.2589Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "BilISCIVJjUnP",
+                "phase_name": "HnKdTTOsLy"
+            },
+            {
+                "kill_chain_name": "iOMrRIDsXbt",
+                "phase_name": "lPbqhNIrNY"
+            },
+            {
+                "kill_chain_name": "XibhTi",
+                "phase_name": "XHWJyzYHRAPDMfEfWc"
+            },
+            {
+                "kill_chain_name": "NUCUwvOgcUPQyYf",
+                "phase_name": "BKQxuqQJiZFyIACdt"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--49fd01d1-576d-43df-8b8d-4d9fdfb6f443",
+        "created_by_ref": "identity--61eb7af9-bab3-44bd-a1a1-ef297b3136bd",
+        "created": "2021-01-29T18:40:27.159828Z",
+        "modified": "2021-08-14T01:08:27.48547Z",
+        "name": "response",
+        "labels": [
+            "arrive",
+            "star",
+            "woman",
+            "move",
+            "board",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--88ab6c01-f30e-4007-ad96-1cd203dad8d4",
+        "created_by_ref": "identity--61eb7af9-bab3-44bd-a1a1-ef297b3136bd",
+        "created": "2020-11-19T10:39:01.525773Z",
+        "modified": "2021-08-14T01:08:27.486016Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--3db7a8c8-1ab5-4eeb-9b4f-c7cc1927e281",
+        "target_ref": "attack-pattern--49fd01d1-576d-43df-8b8d-4d9fdfb6f443",
+        "stop_time": "2021-01-22T17:44:52.531382Z",
+        "labels": [
+            "animal",
+            "heavy",
+            "everyone",
+            "together",
+            "pfte-batch-1"
+        ],
+        "confidence": 98,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "ten",
+                "description": "Number region adult establish community course.",
+                "hashes": {
+                    "MD5": "e408ca6f49b90392303fdcd2aa879739",
+                    "SHA-1": "ded08b9cf24c85259025e33e66df15ddaa5af380",
+                    "SHA-256": "13b192bd8070905bc670e30a3406971cf9121c20230d5338f29fb7ebc85e2603",
+                    "SHA-512": "979db34b97c31e648b4b365cf2b62510c9534d3fade816772df2660661715d6eb605fb0044869dfd09bfa6bf7a56db150a64342d4c10bbb6784481aa4126443c",
+                    "SHA3-256": "5b3026f5942fc6aa12b5c2dc10e2321445d6ebe6113a720aefcf8432991b5264",
+                    "SHA3-512": "5366f267bb275c4a02e7843c8387fd67c3503142fac52d58976e6acceee7860fe311c95e5a780b14f341f3a839c808ca6308908864c752c292b3dbc875230b35"
+                }
+            },
+            {
+                "source_name": "exactly",
+                "description": "International organization him.",
+                "url": "http://gonzalez.com/",
+                "external_id": "LHtUlXVD"
+            },
+            {
+                "source_name": "response",
+                "url": "http://www.fields-ruiz.com/",
+                "external_id": "WdAKVOLhNhRmI"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--61eb7af9-bab3-44bd-a1a1-ef297b3136bd",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-22T13:22:58.902235Z",
+        "modified": "2021-08-14T01:08:27.486296Z",
+        "name": "ItForeignLow",
+        "roles": [
+            "professional"
+        ],
+        "contact_information": "5439 Sara Divide Apt. 781\nEast Judithmouth, CA 17049",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 68,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

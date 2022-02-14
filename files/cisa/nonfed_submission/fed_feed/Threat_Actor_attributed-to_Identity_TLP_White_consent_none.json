@@ -1,0 +1,137 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--7844e796-9f84-4d86-84ff-f54f47d9c0d8",
+        "created_by_ref": "identity--91a9db2b-2b62-447a-91d6-314749499149",
+        "created": "2021-02-05T17:05:55.956065Z",
+        "modified": "2021-08-14T01:09:24.436031Z",
+        "name": "go",
+        "description": "Ok school southern force line not oil ground.",
+        "last_seen": "2021-11-22T03:42:32.897687Z",
+        "object_marking_refs": [
+            "marking-definition--dab5e063-f1ee-4103-9fd6-2ac59c040ddc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--680131f6-05bc-4328-98fb-05d856cf3278",
+        "created_by_ref": "identity--91a9db2b-2b62-447a-91d6-314749499149",
+        "created": "2020-12-10T01:30:19.585165Z",
+        "modified": "2021-08-25T05:02:12.867464Z",
+        "name": "Leach Inc",
+        "description": "Centralized grid-enabled attitude",
+        "labels": [
+            "by",
+            "myself",
+            "official",
+            "beyond",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--dab5e063-f1ee-4103-9fd6-2ac59c040ddc"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--44113463-0e2f-417b-a6db-eb83bf07b1d5",
+        "created_by_ref": "identity--91a9db2b-2b62-447a-91d6-314749499149",
+        "created": "2020-12-01T20:52:45.558759Z",
+        "modified": "2021-10-24T19:21:12.442374Z",
+        "relationship_type": "attributed-to",
+        "description": "Bed pass professional way realize list start manage. Across anyone teach.",
+        "source_ref": "threat-actor--7844e796-9f84-4d86-84ff-f54f47d9c0d8",
+        "target_ref": "identity--680131f6-05bc-4328-98fb-05d856cf3278",
+        "start_time": "2020-10-08T15:02:05.304469Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "room",
+                "url": "http://gardner.net/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--dab5e063-f1ee-4103-9fd6-2ac59c040ddc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--dab5e063-f1ee-4103-9fd6-2ac59c040ddc",
+        "created_by_ref": "identity--91a9db2b-2b62-447a-91d6-314749499149",
+        "created": "2021-08-14T01:09:24.435409Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2828523e-b28d-4046-9afc-51d22e18d79b",
+                "name": "Social price record ever reveal physical each",
+                "create_date_time": "2021-08-14T01:08:08.418751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.418527Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--91a9db2b-2b62-447a-91d6-314749499149",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-03-13T03:57:05.153419Z",
+        "modified": "2021-10-01T20:40:19.8383Z",
+        "name": "EmployeeTrialCarry",
+        "identity_class": "class",
+        "contact_information": "USCGC Liu\nFPO AA 45349",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 69,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--dab5e063-f1ee-4103-9fd6-2ac59c040ddc"
+        ]
+    }
+]

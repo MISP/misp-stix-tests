@@ -1,0 +1,147 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--398a158c-c37b-4bb0-a83d-6073564082bf",
+        "created_by_ref": "identity--d09358aa-1741-4203-add2-27a5b85fa4fc",
+        "created": "2020-12-07T16:59:04.636044Z",
+        "modified": "2021-08-14T01:09:41.266597Z",
+        "name": "Republican",
+        "description": "West action nearly generation yourself yeah board.",
+        "aliases": [
+            "financial"
+        ],
+        "goals": [
+            "morning"
+        ],
+        "primary_motivation": "notoriety",
+        "labels": [
+            "require",
+            "decision",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--92732ccb-52ae-4308-8ae2-339f2070a7e8"
+        ]
+    },
+    {
+        "type": "sighting",
+        "spec_version": "2.1",
+        "id": "sighting--e8d41667-aba1-4abb-8a5c-ad67803eb601",
+        "created_by_ref": "identity--d09358aa-1741-4203-add2-27a5b85fa4fc",
+        "created": "2022-05-28T17:15:51.955478Z",
+        "modified": "2023-05-06T19:50:05.460393Z",
+        "description": "Carry doctor order student seek.",
+        "first_seen": "2021-05-09T21:26:27.714072Z",
+        "last_seen": "2021-08-24T20:06:22.135273Z",
+        "count": 131569529,
+        "sighting_of_ref": "threat-actor--398a158c-c37b-4bb0-a83d-6073564082bf",
+        "summary": true,
+        "labels": [
+            "between",
+            "policy",
+            "pfte-batch-1"
+        ],
+        "confidence": 41,
+        "object_marking_refs": [
+            "marking-definition--92732ccb-52ae-4308-8ae2-339f2070a7e8"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--92732ccb-52ae-4308-8ae2-339f2070a7e8",
+        "created_by_ref": "identity--d09358aa-1741-4203-add2-27a5b85fa4fc",
+        "created": "2021-08-14T01:09:41.265903Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e665ae49-7536-4ce4-b3ac-ad9803b6185e",
+                "name": "Push teach indeed like accept",
+                "create_date_time": "2021-08-14T01:08:08.423274Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d09358aa-1741-4203-add2-27a5b85fa4fc",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-16T23:24:53.474513Z",
+        "modified": "2022-01-09T00:45:34.005045Z",
+        "name": "Steele Group",
+        "description": "Future-proofed upward-trending circuit",
+        "roles": [
+            "apply",
+            "material"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "telecommunications"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 78,
+        "object_marking_refs": [
+            "marking-definition--92732ccb-52ae-4308-8ae2-339f2070a7e8"
+        ]
+    }
+]

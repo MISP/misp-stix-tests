@@ -1,0 +1,128 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--3eef1f7c-4c52-4567-abe4-98b6e84cc927",
+        "created_by_ref": "identity--038a43d7-7bfe-4d96-a000-2580b24770ef",
+        "created": "2022-05-02T10:53:13.144672Z",
+        "modified": "2022-11-03T22:32:30.880393Z",
+        "name": "amount",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "UIsimJHOzP",
+                "phase_name": "yFvwuoteRWmgoz"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lIujOP",
+                "phase_name": "udYRQbjnSD"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "event",
+            "pfte-batch-1"
+        ],
+        "confidence": 45,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "major",
+                "hashes": {
+                    "MD5": "e5f8d329110e2ac88b736ee27cbc777e",
+                    "SHA-1": "783ac6bfaf1e0c5ac142fefb4de8fd9ede25170d",
+                    "SHA-256": "5c5d9c8ff5e5d2350d1ec880a01baa4f92dbcd8b33f7fddb118386a0613bd5ab",
+                    "SHA-512": "881ebc3d8c798afc3be4d05527afd8f5903b973b937097122458d2d5c0d6e35fbcbd31de21788a65934c1547cc4c2b86aa6f2b38c226ea9d89b268dc2551b5dc",
+                    "SHA3-256": "1f665a51a25fe1aa431a64957613302d1c184d15cde0b216fa7cee08b5ba832a",
+                    "SHA3-512": "3a4fe93c3eb0c0b96fe584c9748addc0dfea6389e8485fb7448a646542d77580adf01012332c56873d9c8b70474a0329d044aeb5d03ce37faba573dc0b6e3829"
+                },
+                "external_id": "lxfixeasNepBH"
+            },
+            {
+                "source_name": "future",
+                "description": "Table affect three should.",
+                "url": "https://www.miller.com/",
+                "hashes": {
+                    "MD5": "e3ee5c03619ccdc6e486e1b2354f5ef2",
+                    "SHA-1": "f22e835be22a5bb769b4294223fdf036013beee2",
+                    "SHA-256": "b55e2105f12155cd34cd018c1fe9add541a907d55bfd5ab91c4dffe2cea570cc",
+                    "SHA-512": "b64049b7dc16f8d9207718d4a99e8c02a428256875bf059024b10e7b7f4fd50a1272ed06858150c7a62853ee2d99f026f0ff3953e1d4f775f77ef8149937e1f7",
+                    "SHA3-256": "7d1e7ddc222c21a4ddc75ec264c39841d06ec14e641ed6d440eb1521e2e87c96",
+                    "SHA3-512": "2cb0fcb71464f6ec4e44c8a5e4fa38cd5e3e48c60a60e28fcde27b3c08dea97e8bc393fbb6b67cae33ab0ef86b98709cefa0c939a998dcbb1ab501110152ed79"
+                }
+            },
+            {
+                "source_name": "water",
+                "description": "Responsibility approach rate summer animal back.",
+                "hashes": {
+                    "MD5": "b067d4c9ed357df67a31a83bd5304aca",
+                    "SHA-1": "f4d63508425688df07d71f1244f8ef1333606643",
+                    "SHA-256": "b957dfcab78549489d5692b2a5bc6e962a045a970e8e44982e0d142bd370cb70",
+                    "SHA-512": "0babd8526acc4ab69f8ba6798dff86dc39cc7b9c262ab607b3e5006572fd9c2969f05e9c30a8a61e3116adf49e490170e358bc8a19746d319bf9797154c4eb2f",
+                    "SHA3-256": "512c725f723098c10d7d97f250c9ce33d23b473a1c305dc5d1dee948326ea7bc",
+                    "SHA3-512": "39fb38cb4cb22e1d0cbee2876aba3c2e3a1ceb61b52854bc6d21eb1b9da7b438ee07ebcf68b7911203ac0862de240125950d8aa99e186634410a4a140a568a7e"
+                },
+                "external_id": "ApXSHadNA"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "sighting",
+        "spec_version": "2.1",
+        "id": "sighting--7ef20928-be62-487a-9f71-6b2dcbbb35ca",
+        "created_by_ref": "identity--038a43d7-7bfe-4d96-a000-2580b24770ef",
+        "created": "2021-03-21T19:29:00.328647Z",
+        "modified": "2021-11-26T03:39:51.014929Z",
+        "last_seen": "2022-05-28T03:06:11.87417Z",
+        "sighting_of_ref": "attack-pattern--3eef1f7c-4c52-4567-abe4-98b6e84cc927",
+        "summary": true,
+        "labels": [
+            "main",
+            "plan",
+            "house",
+            "visit",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--038a43d7-7bfe-4d96-a000-2580b24770ef",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-01-29T23:28:42.002915Z",
+        "modified": "2022-02-24T10:38:06.468132Z",
+        "name": "AbilityPositionFew",
+        "roles": [
+            "treat",
+            "huge",
+            "win",
+            "another",
+            "difficult"
+        ],
+        "identity_class": "individual",
+        "contact_information": "19559 Tucker Springs Apt. 687\nStricklandstad, MS 39045",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

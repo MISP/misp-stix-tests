@@ -1,0 +1,165 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--2dddf75b-4a98-4b49-82eb-51dfa46b9880",
+        "created_by_ref": "identity--483937d7-64fe-4791-844b-f0efaabceee4",
+        "created": "2020-09-06T14:42:12.064639Z",
+        "modified": "2021-08-14T01:08:34.512294Z",
+        "indicator_types": [
+            "anonymization"
+        ],
+        "pattern": "([process:is_hidden = false]) OR [windows-registry-key:defanged NOT = false] START t'2021-08-16T21:43:29.776324Z' STOP t'2022-02-24T14:15:54.629707Z'",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-11-08T13:56:45.760143Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "attack",
+            "work",
+            "pfte-batch-1"
+        ],
+        "confidence": 68,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--e28a4421-f414-4de5-9109-c5864cd74a21",
+        "created_by_ref": "identity--483937d7-64fe-4791-844b-f0efaabceee4",
+        "created": "2021-08-23T05:50:39.978731Z",
+        "modified": "2022-02-04T19:42:19.165753Z",
+        "name": "media",
+        "description": "Close between modern age movie manager fire.",
+        "first_seen": "2021-12-19T15:34:00.434416Z",
+        "last_seen": "2022-03-09T18:13:22.002686Z",
+        "roles": [
+            "agent",
+            "director",
+            "agent",
+            "infrastructure-architect"
+        ],
+        "resource_level": "government",
+        "primary_motivation": "revenge",
+        "labels": [
+            "study",
+            "yes",
+            "tax",
+            "reality",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--456ba600-00f5-4320-b293-8dda28a7b43e",
+        "created_by_ref": "identity--483937d7-64fe-4791-844b-f0efaabceee4",
+        "created": "2021-04-24T13:46:29.021973Z",
+        "modified": "2021-08-14T01:08:34.514838Z",
+        "relationship_type": "indicates",
+        "description": "Several sea anything onto health. North source kitchen just. Federal author personal fact wear.",
+        "source_ref": "indicator--2dddf75b-4a98-4b49-82eb-51dfa46b9880",
+        "target_ref": "threat-actor--e28a4421-f414-4de5-9109-c5864cd74a21",
+        "start_time": "2022-08-11T14:24:26.362876Z",
+        "stop_time": "2023-01-28T04:46:56.550734Z",
+        "labels": [
+            "already",
+            "her",
+            "yard",
+            "pfte-batch-1"
+        ],
+        "confidence": 74,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "particular",
+                "description": "Box chance know attorney.",
+                "url": "https://strickland-kim.biz/",
+                "hashes": {
+                    "MD5": "6d0c8a9a2584982152804bb3560d22b4",
+                    "SHA-1": "f1310519de3c395f029b681e87e9a7ae1eab2718",
+                    "SHA-256": "302d308c19fa9a6558473b757d56be92916c3eb7c14d2b25134bd6b60529f5c0",
+                    "SHA-512": "2aeacc45f39994b28230127bea957324f18b6b12e8de21c5b205387ce6045c40c0832a19250206c588b5748da8568246000ef1edec53d023b72ed17ee875a5be",
+                    "SHA3-256": "206d5f0aefc0d200a199f43ee44a1bab26188d732c82b9b96638110c7c30d5af",
+                    "SHA3-512": "cb4625ed3571918adf4206af39b58b218441b0b157a467b349c4257e4afdcadd89ed53037a12b02973971b342f6274c266d420d0d669bcad33c83ef717e7989d"
+                },
+                "external_id": "GXLIDmOSNRg"
+            },
+            {
+                "source_name": "thus",
+                "description": "Guess consumer the future.",
+                "url": "http://www.kelley.com/",
+                "hashes": {
+                    "MD5": "132d59ea6624b5b6f9634210d888acf5",
+                    "SHA-1": "213a86bbb20ef0efb5e95361d352c93bb4f1edff",
+                    "SHA-256": "734c0c1dbd9e5c2526601d84379064818ea12cc9c211f068af3e37c3b36d6051",
+                    "SHA-512": "3b94bbba9a3475b66fc2d597df6d261a63ca22b687a32ec9b123be6f3c0fb18437ad1af72b7a00992c4258381a1bb5aa680a770f03b665dff41f84839e4b9667",
+                    "SHA3-256": "34627c65db3ea655d0c24c85c547fc66dc9ec97171ce7fb880116ad45009bc7b",
+                    "SHA3-512": "de31c8c01d93d44ad6b600919cd6e70a7adb0f87516f643ab5e34b989fe9a24074f39d2cc968b77d02b9edbc87f370b8785b487d064745227165d920bf5067c0"
+                }
+            },
+            {
+                "source_name": "believe",
+                "description": "Design program but.",
+                "url": "https://campbell.net/",
+                "hashes": {
+                    "MD5": "708dc04decbdc7638e13b91b1137c5e8",
+                    "SHA-1": "dc058df64dc4dbb2a3358de0634fbfa3c406fcc1",
+                    "SHA-256": "14b1ce63a272edd6b1f1ec86847c4a44abc9d4e6a373859d22080a367e8eeb73",
+                    "SHA-512": "d565ef23f5fc89d6e32a7db13a76d4e9c958b50854afcf00c7a857050c203ba8d7a971cb41a2376c9f80b0271084a7eed0d098fb63c0ee35640fb89b255d13b3",
+                    "SHA3-256": "fe00cf8b79fcbd4e5d596d9ff399648e42e499d1b2e1f1c49a2ec1978bd3944d",
+                    "SHA3-512": "fd85f156943779b5ab35cb1f9be034ea44b80231721a89e45c29a2fce73b1f2ca934dcd1b1903fc89a5ef59aa8e5628bd5d0c96d2d756ab6a77b563fa366c79d"
+                },
+                "external_id": "cojDzBVzj"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--483937d7-64fe-4791-844b-f0efaabceee4",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-18T06:08:24.286505Z",
+        "modified": "2023-03-01T00:12:03.212209Z",
+        "name": "Hebert, Nelson and Torres",
+        "description": "Progressive solution-oriented contingency",
+        "roles": [
+            "degree",
+            "that"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

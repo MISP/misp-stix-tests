@@ -1,0 +1,264 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--18491ad4-fef4-4604-b7cf-528c96153016",
+        "created_by_ref": "identity--4da66372-fb3c-47b4-8f39-a52f447ad82f",
+        "created": "2022-06-23T06:31:45.772733Z",
+        "modified": "2022-11-04T08:35:53.392691Z",
+        "name": "guy",
+        "pattern": "[(ipv4-addr:defanged NOT = false) OR x509-certificate:subject_public_key_modulus <= '968845373913843680321551223142' OR mac-addr:defanged NOT = false OR ipv4-addr:defanged NOT = false OR network-traffic:src_ref >= 'ipv4-addr--9dab744a-73de-4210-b39d-ad867670c0d2']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-11-02T06:22:25.766346Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "sumUIJZAsnfMLxZuxd",
+                "phase_name": "VGntpXzfstnhsvhvN"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "all",
+                "description": "Single save significant point a consider with.",
+                "external_id": "SqgYrLoe"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--4e267c3e-f0be-4445-9d15-fb76ac4ed88e",
+        "created_by_ref": "identity--4da66372-fb3c-47b4-8f39-a52f447ad82f",
+        "created": "2021-04-23T11:49:19.582255Z",
+        "modified": "2022-01-14T20:16:00.029633Z",
+        "name": "ground",
+        "infrastructure_types": [
+            "reconnaissance",
+            "command-and-control",
+            "command-and-control",
+            "reconnaissance",
+            "exfiltration"
+        ],
+        "aliases": [
+            "become",
+            "question",
+            "size",
+            "administration",
+            "according"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "labels": [
+            "travel",
+            "why",
+            "avoid",
+            "increase",
+            "employee",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "act",
+                "description": "Any cell entire read moment.",
+                "url": "https://www.sims.com/"
+            },
+            {
+                "source_name": "interesting",
+                "url": "http://mccann-barr.com/",
+                "hashes": {
+                    "MD5": "8ce1156392510be9accfac841eefb4f3",
+                    "SHA-1": "5218e173543545a95bccfc9d96dcae052949efe1",
+                    "SHA-256": "ea9dbeb2e53a54cc683bd7705f10705b2123ec0a07ad98bab6df788a67f32ba7",
+                    "SHA-512": "2e5e89ebc5185c0a439e3e66dd2fa60b435e6e0880a6afba446684d4a531163c2ecaee87a4c6e867c5c0908228b4fe1242b2995b191cc5edeac36a934b432ac3",
+                    "SHA3-256": "43ac992c35e2694ad6f7fdfa099d092092a37b6b17a1f95ecb90a6af572c341f",
+                    "SHA3-512": "91ec938a36bfb724c35c6ae2978dbf6670848740926d5abc634ce6d4202f3e45d72ef56c6ba0d3b3768f605ee36b0144d25667f03283072fcde0836d901d7cc6"
+                },
+                "external_id": "IWmTpsHFvxMzqjxsQSv"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--58d614d2-c6c3-442f-9c34-2957ded9ab29",
+        "created_by_ref": "identity--4da66372-fb3c-47b4-8f39-a52f447ad82f",
+        "created": "2021-02-01T18:58:09.014911Z",
+        "modified": "2021-10-26T16:25:27.75805Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--18491ad4-fef4-4604-b7cf-528c96153016",
+        "target_ref": "infrastructure--4e267c3e-f0be-4445-9d15-fb76ac4ed88e",
+        "stop_time": "2021-10-26T15:27:43.528979Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 38,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "answer",
+                "description": "Trade evening lose off.",
+                "url": "http://www.martin-middleton.com/",
+                "hashes": {
+                    "MD5": "2116958f0454657e6ae98a5e59510f98",
+                    "SHA-1": "efc023849cb80fdf8ce00fb630f2bc7a18feec8f",
+                    "SHA-256": "0305435198d69f726d47bf11a59932b6c85ef953ee50fb53e49afbaee7db7e8a",
+                    "SHA-512": "cb2c749cc5e1758417e7408ab80c12932b121d2d0df1a4cc85730fc4d98f84ce08eb3789e546bc72382136b1c0cd4a1403acbd020bb934abed6441d746bf289d",
+                    "SHA3-256": "09abe14f089208e768665b1721645dced35e131fad74bf975a38dcd283614bc4",
+                    "SHA3-512": "bba4971021a777cbc35b5eb13f319915f3b50aff520cc6880e5b72b744ab24435986c8c92576abba6b330ff14d5031ed2839194f95395c519acd796dd069c18f"
+                }
+            },
+            {
+                "source_name": "apply",
+                "description": "Participant north Mrs figure ago.",
+                "hashes": {
+                    "MD5": "77bcda9fc4cbdae614970b7bd246ca04",
+                    "SHA-1": "b787cceb4c1f20c64e1b923d971e673a25628371",
+                    "SHA-256": "d2b142f7e196c9e261d751859f1a8c6137885b842cf816fa42fc13392a6e2faa",
+                    "SHA-512": "12fcd549cc8c97855926c3a26dfa6410de92f40ca8e82b17372f472a0876753e5e9cfdbfc02af7fd6cbac9600e518a3ddd967864a5b876c88920b40d331598ee",
+                    "SHA3-256": "114a15cae1657fd391e45c994211442ebb5892bda751bfee8e01eb8f46acae3d",
+                    "SHA3-512": "a2dcece29d6c663b57304aaa92dc802827a68782b3928c8d50422416d12728d9efc7e61dfd633cf20a129b910e1d5dd175273d519789a0b5083a4e403bf0df6f"
+                },
+                "external_id": "XxDRNBPNQOTjoPNGYN"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--d3f33c9c-40c2-461a-8e8a-084c0452941f",
+        "created_by_ref": "identity--4da66372-fb3c-47b4-8f39-a52f447ad82f",
+        "created": "2021-02-17T11:44:12.393266Z",
+        "modified": "2021-12-04T17:31:25.375278Z",
+        "content": "Structure half money good. Exactly throughout read side site keep. Fall do test consider example message time.",
+        "object_refs": [
+            "indicator--18491ad4-fef4-4604-b7cf-528c96153016",
+            "infrastructure--4e267c3e-f0be-4445-9d15-fb76ac4ed88e",
+            "relationship--58d614d2-c6c3-442f-9c34-2957ded9ab29"
+        ],
+        "labels": [
+            "develop",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "challenge",
+                "url": "http://www.chapman.info/",
+                "external_id": "UtdYNigXFhsX"
+            },
+            {
+                "source_name": "whole",
+                "description": "Service record reveal organization.",
+                "url": "https://www.terrell.net/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4da66372-fb3c-47b4-8f39-a52f447ad82f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-11T16:41:24.218002Z",
+        "modified": "2022-03-11T10:06:40.440743Z",
+        "name": "Mosley-Cook",
+        "roles": [
+            "we",
+            "that",
+            "small"
+        ],
+        "identity_class": "unknown",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "south",
+                "description": "Mean yeah story actually dinner form.",
+                "hashes": {
+                    "MD5": "5fa0a1eeabdc9ce9e28f20c03e6dd493",
+                    "SHA-1": "5f6fa75c5358a54c5158028963f8048e317d6aba",
+                    "SHA-256": "29ee583f7eb15966fd9a675c6380d50c512129ae80cf37cc0e147f6a93c6d56c",
+                    "SHA-512": "8b6d9639db5710d149f91edcac5ef9576d64d133c192821b51cb9a0f5ef8737a3c164c58df0ee394f648cb718624d51217954f5472538753727c93d484a94b85",
+                    "SHA3-256": "c4a3f3628d008a34bf4aa38f539124908e25c501597dcac4ea6211b10efcf0f5",
+                    "SHA3-512": "0cb38dcd41887656737c397d966e2a930c3c36212d8731c602b46e8daa46d38c027255edb0085b24e7d934483e64ebdcc164a1ac7d0a50beab3b0fd7ec70d2de"
+                },
+                "external_id": "cLglKzSRSfZMY"
+            },
+            {
+                "source_name": "third",
+                "description": "Floor describe dog today prove.",
+                "hashes": {
+                    "MD5": "88a3ada8dfb18673b754fcae52b5ca4c",
+                    "SHA-1": "2734d092f9a3f0a6665ebe008415219cfae47d1a",
+                    "SHA-256": "ef5766e8572ba3bfce878de3adc8d5cbca01e31241e740b478eb828ae3392fcf",
+                    "SHA-512": "a4af190ca6ca616cfd5403d5cf6195c15324b559d73900de6505b4fe718993066cc5363271d018b7bb9349ab09039321f67de834d09548fba42cbc63a269f838",
+                    "SHA3-256": "14c58575c453e8c51aa4ca0ed4ff8d3804552257fca4ccb2eb7f1de553eb9efb",
+                    "SHA3-512": "584abab601830f66d29eaf69abfe3b017bd92211ee57bb73f441c5c0cf038e1709ae64533b257b8e8075d8dc289b5e32865b4831fd17fb6d1caf7b5a7daae127"
+                },
+                "external_id": "UbVrfz"
+            },
+            {
+                "source_name": "describe",
+                "url": "http://christian.org/",
+                "hashes": {
+                    "MD5": "1bbb1e1cb3ad118cedaf68dc2ac43188",
+                    "SHA-1": "98a8ba1c992d382ac3e22dba54fb2042da4ae991",
+                    "SHA-256": "947a230ca200d1c9f47bbdc6d9a51500afa19032a7933aae27d50963f1a19be0",
+                    "SHA-512": "a46357ceb2560177c308568b12fc69f2da63db051036009a0eb088b3563c013a2c2a801248b00c14370763dc8dd99a59e28d3f3a1ed734f71ed03b82e6b0f493",
+                    "SHA3-256": "f02cb900303b46c2245153f57d800da848eb55ade24e5c684e352bc642369881",
+                    "SHA3-512": "6740ea40ca93e084373308f1798184e39ec95db29d386d7457c689cd84856d754824e66ab995e8bf056401c52db9a1ef115dda2ff77fa0a58abe2972f7c522fa"
+                },
+                "external_id": "LtrJIgRNAgXEkrh"
+            },
+            {
+                "source_name": "fly",
+                "url": "http://ortega.com/",
+                "external_id": "LRwjNxCnqJPNsT"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

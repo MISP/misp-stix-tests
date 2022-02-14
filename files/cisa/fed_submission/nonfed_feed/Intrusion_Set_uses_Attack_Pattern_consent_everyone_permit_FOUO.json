@@ -1,0 +1,119 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--55ebfeb4-7f46-4367-9ff0-a8bed6f64fc5",
+        "created_by_ref": "identity--f27f1dad-e750-4644-bed0-2573c750df65",
+        "created": "2022-08-06T09:33:53.751141Z",
+        "modified": "2022-12-06T15:39:55.071451Z",
+        "name": "career",
+        "first_seen": "2020-12-06T07:25:40.825689Z",
+        "last_seen": "2020-12-06T14:57:15.071377Z",
+        "resource_level": "team",
+        "primary_motivation": "organizational-gain",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 32,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--e45c5312-1075-42f3-807e-64905f28c82b",
+        "created_by_ref": "identity--f27f1dad-e750-4644-bed0-2573c750df65",
+        "created": "2021-12-08T11:16:32.503058Z",
+        "modified": "2022-12-05T19:59:20.172607Z",
+        "name": "deal",
+        "aliases": [
+            "space",
+            "against",
+            "wall"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "SUHpezcz",
+                "phase_name": "ybFGYxYgdCXhuePViPg"
+            },
+            {
+                "kill_chain_name": "bJDUzaX",
+                "phase_name": "itvuBDEBlRZ"
+            },
+            {
+                "kill_chain_name": "mxInGuFXI",
+                "phase_name": "YmDrabtZ"
+            },
+            {
+                "kill_chain_name": "cZdmZ",
+                "phase_name": "zRHrYPnA"
+            },
+            {
+                "kill_chain_name": "aYBWkRCAUOll",
+                "phase_name": "TJkalevYnogp"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "hard",
+                "description": "Keep quite someone song.",
+                "hashes": {
+                    "MD5": "d10560e21bf7c1115d213610930ac133",
+                    "SHA-1": "45c595d21c90d8e0c32bcbad05271ec363b5bbb1",
+                    "SHA-256": "4eab5bd538c6597e1e54a0021d2fccefc9cf15aa02198c8e95ecc4fd3fb1d21a",
+                    "SHA-512": "5fb285d12c5969ae2245f9763d00e31b42ac26e0c8d28dc0eed6c1159dc9ca69282a2863d6884dfd9ffd97532a18971a4b2e1b5f8c5f58603c84238362c0aaf9",
+                    "SHA3-256": "f7722137dbce46ede68c0eeb2f28a7ddbf9b975e5ae2ba237b228857c6225360",
+                    "SHA3-512": "3a6361bc2f5b9f06ac6da3652ed4a13aed41f7c331b56d8977819d6324953a8269f67e20ed25336377a52eaa80ca07c76d1db9ce2cc40959471677ee3cf23a31"
+                },
+                "external_id": "QMqJPxVHmDD"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--191de855-7ea7-43b1-bfcd-4fc9a8924769",
+        "created_by_ref": "identity--f27f1dad-e750-4644-bed0-2573c750df65",
+        "created": "2020-10-10T01:51:11.284341Z",
+        "modified": "2021-08-14T01:08:58.005099Z",
+        "relationship_type": "uses",
+        "description": "Hear something task or me after. Laugh hard prove.",
+        "source_ref": "intrusion-set--55ebfeb4-7f46-4367-9ff0-a8bed6f64fc5",
+        "target_ref": "attack-pattern--e45c5312-1075-42f3-807e-64905f28c82b",
+        "start_time": "2020-09-06T09:29:59.376976Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f27f1dad-e750-4644-bed0-2573c750df65",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-07T23:33:41.129715Z",
+        "modified": "2021-12-03T06:02:41.053469Z",
+        "name": "Wilson PLC",
+        "description": "Customer-focused 5thgeneration conglomeration",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 59,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

@@ -1,0 +1,240 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--69b623cd-74d3-4620-87d0-aa4ca80c6299",
+        "created_by_ref": "identity--4880a30b-96f8-492a-bd50-72a1cad7090b",
+        "created": "2021-09-29T17:43:49.435768Z",
+        "modified": "2022-05-25T14:19:20.236291Z",
+        "name": "often",
+        "indicator_types": [
+            "compromised",
+            "malicious-activity"
+        ],
+        "pattern": "[network-traffic:end >= t'2021-10-21T06:02:49.851564Z']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-09-11T19:08:57.745335Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "NjfBHFxgaTrTLX",
+                "phase_name": "hlQQkEqfrUY"
+            },
+            {
+                "kill_chain_name": "oTzQPBdFCml",
+                "phase_name": "DhzvgeUQKtAdUDSOdYG"
+            },
+            {
+                "kill_chain_name": "ObGEWRsWezDHTewU",
+                "phase_name": "CzhlradysKjpB"
+            }
+        ],
+        "labels": [
+            "personal",
+            "pfte-batch-1"
+        ],
+        "confidence": 15,
+        "external_references": [
+            {
+                "source_name": "population",
+                "description": "Thousand shoulder whether fill direction.",
+                "url": "https://www.white.info/",
+                "external_id": "rwFDiThm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1d7eb8c9-9bfd-40d3-80da-2653c4bf5b77"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--81687fdb-c092-450c-8a9c-41ef674f5fbe",
+        "created_by_ref": "identity--4880a30b-96f8-492a-bd50-72a1cad7090b",
+        "created": "2021-12-05T05:41:54.268975Z",
+        "modified": "2021-12-12T13:20:55.430256Z",
+        "name": "green",
+        "last_seen": "2021-11-03T05:59:17.868326Z",
+        "goals": [
+            "news",
+            "why"
+        ],
+        "sophistication": "advanced",
+        "resource_level": "individual",
+        "secondary_motivations": [
+            "revenge"
+        ],
+        "personal_motivations": [
+            "dominance"
+        ],
+        "external_references": [
+            {
+                "source_name": "thank",
+                "url": "http://maddox.net/",
+                "hashes": {
+                    "MD5": "c52ab0b31f20523523c0fbadf96a3562",
+                    "SHA-1": "fcff52e5401d38a8786bc30f0159269a1e3b0e99",
+                    "SHA-256": "2e2e008e4eae2c0e012595df8f1a078217dee65fdf8db5092a99d9437749b858",
+                    "SHA-512": "39c7da1b42bd199e41fcf3f2541bfd7e5319a79c00ec8372435d515841fb11b734b9f383ee3d4b4ca33174fada4fa9354c172963125606652a38d0adc3bdee30",
+                    "SHA3-256": "9bedd1c7cae0f6687c769a8e666e7a4daf029a7a5d82eb3bb6c63d7f0444011b",
+                    "SHA3-512": "11930e507661ac9d97008e198b2d2b9338a7c2c2411515e8f7e095a7eb6e192daefa2de37d0c3054d84959e1a91a16d94ef4cf0821236ec46d4ca92e19286512"
+                },
+                "external_id": "inAzhMso"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1d7eb8c9-9bfd-40d3-80da-2653c4bf5b77"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--244dafaa-e053-44d5-bc21-4f3722757081",
+        "created_by_ref": "identity--4880a30b-96f8-492a-bd50-72a1cad7090b",
+        "created": "2021-10-03T03:10:58.874978Z",
+        "modified": "2022-07-12T14:04:35.974562Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--69b623cd-74d3-4620-87d0-aa4ca80c6299",
+        "target_ref": "threat-actor--81687fdb-c092-450c-8a9c-41ef674f5fbe",
+        "labels": [
+            "after",
+            "discover",
+            "nation",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--1d7eb8c9-9bfd-40d3-80da-2653c4bf5b77"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4880a30b-96f8-492a-bd50-72a1cad7090b",
+        "created_by_ref": "identity--4880a30b-96f8-492a-bd50-72a1cad7090b",
+        "created": "2020-11-18T09:07:09.956449Z",
+        "modified": "2021-08-14T01:08:33.985372Z",
+        "name": "Walters-Cooper",
+        "sectors": [
+            "healthcare"
+        ],
+        "contact_information": "952 Judith Wells\nEast Gregorymouth, NY 25199",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "explain",
+                "description": "Nation stock around Democrat night general.",
+                "hashes": {
+                    "MD5": "5c111ba590e978ac0f7b8e4f3b6e0578",
+                    "SHA-1": "edd02239e97afb8f18f7d378b24c8c0f44c2e3a1",
+                    "SHA-256": "2103e5889182916e7367bc1e181e1ca6884ed818c57c4dd5a9f382085d62d733",
+                    "SHA-512": "63a9954dfdab37472f5f27879009082d7f217e25d8e8a13448a22cfa74f55a442fd456ed19145a705fbcf9ae0a21b7661601346d6a308a39168fd2048a2f85ac",
+                    "SHA3-256": "890f4764e89bf48871e31afd408fb9688da5b4b7b44ce15f043d3b9888ca32d9",
+                    "SHA3-512": "a933b6d99187294fa801e9cdef5f4030af71afe73918df2c3514152bbc81647772576d66d6f7f6f4af36e92b52840c98e07cc7709691daf5b3a2aaae72658b3e"
+                }
+            },
+            {
+                "source_name": "money",
+                "url": "https://nguyen-miller.com/",
+                "hashes": {
+                    "MD5": "d277f00c90cec88a43efa7d117769095",
+                    "SHA-1": "da5bb9a7e4f297183a5989f931ee7af74f4dd7d7",
+                    "SHA-256": "84c732193a98b17ff8c0384ab5fbae53324135afb4a93c016314910f5d954481",
+                    "SHA-512": "397c64b8fe20a5b49599fdffaa328b960c8233ee1d23fa72ccd75dfef890fd835c7b85e4de1dbdd837d95988a24108cb8cdc109d6ad17c3dd457d2a168370251",
+                    "SHA3-256": "9353d1d80f560d1367f0fcf99d8b554e9d79aee8ca42202bfca67ae3a49fea73",
+                    "SHA3-512": "c341095dacbe782c8b820511e110904ff721f81c6d3f2b96606570af283a9ecac3f28fe793bd0512535a0fed10c1d20081b3673fdfa362196567ce405f9ec031"
+                },
+                "external_id": "MwgjmnO"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1d7eb8c9-9bfd-40d3-80da-2653c4bf5b77"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--1d7eb8c9-9bfd-40d3-80da-2653c4bf5b77",
+        "created": "2021-08-14T01:08:33.982572Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c37eda22-f302-4b2e-bf63-7f8ea35d72b0",
+                "name": "Event really first our country somebody",
+                "create_date_time": "2021-08-14T01:08:08.426408Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.426228Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

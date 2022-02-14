@@ -1,0 +1,169 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--1b3f0252-e736-4195-b1c6-181b3121b551",
+        "created_by_ref": "identity--9486f017-aee2-492e-b3e5-a5660677f592",
+        "created": "2021-10-28T21:12:49.525951Z",
+        "modified": "2022-02-15T22:16:36.137775Z",
+        "description": "Remain evidence doctor defense.",
+        "pattern": "[network-traffic:dst_packets >= 1038832] OR [network-traffic:dst_byte_count = 475128] OR [software:defanged NOT = false] REPEATS 3 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-09-01T14:05:10.855605Z",
+        "valid_until": "2021-10-26T16:30:09.543829Z",
+        "labels": [
+            "reason",
+            "large",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--3dced0d6-4656-4178-a3ac-831f1cb2409f"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--c0374944-5acc-4a33-8b28-a897d6a6d83c",
+        "created_by_ref": "identity--9486f017-aee2-492e-b3e5-a5660677f592",
+        "created": "2020-12-20T06:53:44.513145Z",
+        "modified": "2021-08-14T01:08:33.767553Z",
+        "name": "six",
+        "description": "Catch new lay sell necessary day within.",
+        "threat_actor_types": [
+            "hacker",
+            "nation-state",
+            "nation-state",
+            "nation-state"
+        ],
+        "last_seen": "2021-03-04T01:49:03.830542Z",
+        "sophistication": "innovator",
+        "resource_level": "government",
+        "primary_motivation": "organizational-gain",
+        "personal_motivations": [
+            "coercion"
+        ],
+        "confidence": 54,
+        "object_marking_refs": [
+            "marking-definition--3dced0d6-4656-4178-a3ac-831f1cb2409f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b63de493-b7ca-435e-841c-4a638de8fe9c",
+        "created_by_ref": "identity--9486f017-aee2-492e-b3e5-a5660677f592",
+        "created": "2021-01-21T09:34:59.007242Z",
+        "modified": "2021-10-15T00:28:39.471945Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--1b3f0252-e736-4195-b1c6-181b3121b551",
+        "target_ref": "threat-actor--c0374944-5acc-4a33-8b28-a897d6a6d83c",
+        "start_time": "2021-03-22T18:12:01.961713Z",
+        "labels": [
+            "threat",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--3dced0d6-4656-4178-a3ac-831f1cb2409f"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--3dced0d6-4656-4178-a3ac-831f1cb2409f",
+        "created_by_ref": "identity--9486f017-aee2-492e-b3e5-a5660677f592",
+        "created": "2021-08-14T01:08:33.764661Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f217105b-ccd2-4cb0-893a-c1314d7d2d64",
+                "name": "Strategy land response sport over",
+                "create_date_time": "2021-08-14T01:08:08.422773Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.422466Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--9486f017-aee2-492e-b3e5-a5660677f592",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-07T00:09:22.234626Z",
+        "modified": "2021-12-11T20:13:46.1782Z",
+        "name": "Hall Inc",
+        "identity_class": "unknown",
+        "sectors": [
+            "nuclear",
+            "communications"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--3dced0d6-4656-4178-a3ac-831f1cb2409f"
+        ]
+    }
+]

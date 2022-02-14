@@ -1,0 +1,216 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--c360751f-793a-4775-9e86-2567f9c6ca96",
+        "created_by_ref": "identity--04164a7e-eb7f-483b-b277-939e8d2ac9ce",
+        "created": "2022-06-19T05:26:39.17647Z",
+        "modified": "2023-01-30T23:31:06.792566Z",
+        "name": "former",
+        "first_seen": "2021-11-30T20:47:45.406051Z",
+        "last_seen": "2022-05-22T16:21:30.334625Z",
+        "objective": "Race young until grow those.",
+        "confidence": 9,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--8ffc8992-d66f-4875-a9ea-58d8c1cd8c99"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--4769cdc1-4e0a-41f6-b113-26563554c27e",
+        "created_by_ref": "identity--04164a7e-eb7f-483b-b277-939e8d2ac9ce",
+        "created": "2021-08-16T14:07:20.556298Z",
+        "modified": "2022-04-15T21:11:59.036829Z",
+        "name": "hear",
+        "description": "Blue prove society camera offer.",
+        "infrastructure_types": [
+            "workstation",
+            "exfiltration",
+            "workstation"
+        ],
+        "aliases": [
+            "speak",
+            "trial",
+            "wall"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "first_seen": "2022-05-20T12:04:32.626052Z",
+        "last_seen": "2022-06-01T13:05:26.372978Z",
+        "labels": [
+            "cultural",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--8ffc8992-d66f-4875-a9ea-58d8c1cd8c99"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--05055fa2-0417-4526-920a-6f2ebe228e45",
+        "created_by_ref": "identity--04164a7e-eb7f-483b-b277-939e8d2ac9ce",
+        "created": "2021-11-13T21:25:38.084804Z",
+        "modified": "2021-12-08T01:36:05.387579Z",
+        "relationship_type": "compromises",
+        "source_ref": "campaign--c360751f-793a-4775-9e86-2567f9c6ca96",
+        "target_ref": "infrastructure--4769cdc1-4e0a-41f6-b113-26563554c27e",
+        "confidence": 67,
+        "external_references": [
+            {
+                "source_name": "pattern",
+                "url": "https://alvarado.com/",
+                "external_id": "BzLCAgkuLMMhvuLrv"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8ffc8992-d66f-4875-a9ea-58d8c1cd8c99"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--8ffc8992-d66f-4875-a9ea-58d8c1cd8c99",
+        "created_by_ref": "identity--04164a7e-eb7f-483b-b277-939e8d2ac9ce",
+        "created": "2021-08-14T01:08:14.607226Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2a4a5944-494c-4a33-b0ba-c70e719ee1c8",
+                "name": "Room arrive pay often",
+                "create_date_time": "2021-08-14T01:08:08.421032Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--04164a7e-eb7f-483b-b277-939e8d2ac9ce",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-01T14:29:36.888727Z",
+        "modified": "2022-09-12T20:27:27.557884Z",
+        "name": "Davis, Rice and Adams",
+        "roles": [
+            "size",
+            "suddenly",
+            "call"
+        ],
+        "contact_information": "30134 William Rapids Apt. 749\nLake Samuel, OK 46392",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "population",
+                "url": "http://dean.com/",
+                "hashes": {
+                    "MD5": "4149f3ecacea042a2d346794d669273d",
+                    "SHA-1": "ffba83263aac0ef3666cd1f45e1e3e7f6056c6d9",
+                    "SHA-256": "4c9a70a015b891e34ffb4cb65f7b14388ed60652f3a811f82ffeea88a10f7257",
+                    "SHA-512": "f8454772ce60de623b8297afc9c924d90bb90ff481b101c73d637463201cc5e93c345f460dde0005a5ff5ac13596831d057e97598db8b3c7fdc837b4589449c5",
+                    "SHA3-256": "c69e196ce67e7bc97609cbe36c3f3e54c5bbf6c3d9b82cdd0e65498819135b85",
+                    "SHA3-512": "75e9930800bd7d5be57a5c0a82aad3f4d0316899d084e3261fec563136ec2e511a8624040cece0c42815ed6aa6bcf56904511ffbe097794c511840f3ff64a052"
+                }
+            },
+            {
+                "source_name": "husband",
+                "description": "Author once close half modern dinner woman.",
+                "url": "http://www.velazquez-murphy.com/",
+                "hashes": {
+                    "MD5": "569b33ef48d944117a758749a9245fdd",
+                    "SHA-1": "8cd691705b40edde575993842e584fa4d3f035b3",
+                    "SHA-256": "f4e4dd375f87697d5b170af82b9599476c5821ee1077a6fc2b18ea3568bcccb4",
+                    "SHA-512": "a91c635c147eb6183c7c4065ab67e02ceca56861b54d8d3e92ce7738568bff10a16dd206b0617bf2893b192e9824e755af23f1beed28ba47f37926234844cc7c",
+                    "SHA3-256": "422b6ff7c3ad144a3dc3da7b86efe6c0f8939679923718e32deb0ab616e152b1",
+                    "SHA3-512": "c6fbbc28cd4f79da14612afbfe5b32866ec50aea76b6bf17d9591381b8a29ec941676b184150436daa7a7f70c666cd66c3c6b566d869ac56058d41eefae3d0e3"
+                }
+            },
+            {
+                "source_name": "building",
+                "url": "https://www.drake.com/",
+                "external_id": "fFsXTG"
+            },
+            {
+                "source_name": "white",
+                "description": "Head ahead happy figure break.",
+                "external_id": "LXVzR"
+            },
+            {
+                "source_name": "middle",
+                "description": "Attack voice next southern.",
+                "url": "https://www.evans.org/",
+                "hashes": {
+                    "MD5": "77556a64eff45e8d9e6b95ae6576e8b4",
+                    "SHA-1": "867207828ab32db27c893affac11f7ebbf5f1bf1",
+                    "SHA-256": "fca7cb3d1283694f8afec1e1f45c85a7768e6ab181bab0b90b72fa49a0dcf6f7",
+                    "SHA-512": "16f100eea1e4980988d767235e0ae17dceb0da0ca8209aeef9600156a375d5e2efa8e5afe19e1c11308b5fdd4f67e6041196807092f7222d0b267dd08f44d129",
+                    "SHA3-256": "1d9d1ca977f23aec9f350eb4c695951ef7d49aeaca45432d434816066359c13d",
+                    "SHA3-512": "da410eedc7ee1570913f24ce66f904561a6ff94a118b7aface7fe613a9304a894a8abc8452896e0ab732dcaf2c7d01ec5e4900a7fed3edacc15f6bc85d7b2a83"
+                },
+                "external_id": "GQigqdLHSxPsAlsTcyQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8ffc8992-d66f-4875-a9ea-58d8c1cd8c99"
+        ]
+    }
+]

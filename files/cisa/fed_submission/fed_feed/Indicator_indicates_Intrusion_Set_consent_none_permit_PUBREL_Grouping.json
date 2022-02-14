@@ -1,0 +1,286 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--d9385fac-73c9-429c-a70a-5b1003d523ef",
+        "created_by_ref": "identity--6489f951-408f-47ca-ab78-bdfbfeefd04e",
+        "created": "2020-10-01T19:05:33.101271Z",
+        "modified": "2021-09-15T15:45:51.037555Z",
+        "pattern": "((([mac-addr:defanged = false] AND ([(network-traffic:src_packets = 89773) OR directory:mtime < t'2021-03-09T14:37:04.106704Z'])))) OR [process:cwd <= '/machine/situation.mov'] OR [process:is_hidden NOT = true]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-05-03T23:47:16.616821Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "XBjOQR",
+                "phase_name": "ndGpeH"
+            },
+            {
+                "kill_chain_name": "rulzJoNc",
+                "phase_name": "pCarNKFi"
+            }
+        ],
+        "labels": [
+            "break",
+            "seat",
+            "friend",
+            "benefit",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--adf3d0be-f7e3-41f7-a139-9643e6de9b92"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--c13ab2d1-301d-4b96-aac5-dd81f20d6e82",
+        "created_by_ref": "identity--6489f951-408f-47ca-ab78-bdfbfeefd04e",
+        "created": "2020-11-28T07:59:18.416304Z",
+        "modified": "2021-08-14T01:08:31.496562Z",
+        "name": "today",
+        "aliases": [
+            "just",
+            "sport",
+            "stuff",
+            "mouth"
+        ],
+        "first_seen": "2022-08-12T07:08:07.413573Z",
+        "secondary_motivations": [
+            "organizational-gain",
+            "dominance",
+            "accidental",
+            "ideology",
+            "unpredictable"
+        ],
+        "confidence": 90,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "many",
+                "description": "Three so affect part figure skill commercial.",
+                "url": "https://www.nguyen-evans.com/",
+                "external_id": "eaUKQJYzYWtsNZTrMik"
+            },
+            {
+                "source_name": "serious",
+                "description": "Me evidence sure American any life."
+            },
+            {
+                "source_name": "security",
+                "description": "Order control wear method senior need.",
+                "hashes": {
+                    "MD5": "77d16195289a8f8147f5cc0d2ee5784b",
+                    "SHA-1": "bf29f4ef825592f830dfa1f5264264652d39c4c7",
+                    "SHA-256": "8b301154adc0161c6214920660eea2dd94ba7e10be3ec619aeb8b46bf5da1857",
+                    "SHA-512": "bc07fc7804da2341d50416eee20254f253f086e569ec0cb9045a17ec153297b8e9b09f5c930c85382fe28734fb6c8fd06f6e5c1eb2aca2da191e08ec86628d1f",
+                    "SHA3-256": "5a88e9f8c923a8abbeafc5fcc9be2b51afc2b16a385927c7ee1709f31d73ed13",
+                    "SHA3-512": "103eb45b5f75ceb9952ba35874f22a413ed28f638d58558070a66462c653a5fd780b2fa60537f9c4efe8042afc01e4808492a180aabd8db53dcffa5a778d98c5"
+                },
+                "external_id": "JsVUtCTZuRU"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--adf3d0be-f7e3-41f7-a139-9643e6de9b92"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b9c3d92e-982c-447c-b990-d5dbf63ebbb3",
+        "created_by_ref": "identity--6489f951-408f-47ca-ab78-bdfbfeefd04e",
+        "created": "2020-08-26T23:11:34.289337Z",
+        "modified": "2021-08-14T01:08:31.497335Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--d9385fac-73c9-429c-a70a-5b1003d523ef",
+        "target_ref": "intrusion-set--c13ab2d1-301d-4b96-aac5-dd81f20d6e82",
+        "start_time": "2021-12-29T22:16:41.968486Z",
+        "stop_time": "2022-01-12T19:03:01.769963Z",
+        "confidence": 41,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "large",
+                "description": "Assume cup concern create teacher wear.",
+                "url": "http://www.hudson.biz/",
+                "hashes": {
+                    "MD5": "639de10ca6bc99414726695a4fb14904",
+                    "SHA-1": "12163f4e19a47098aecbb8c5e2d60fe8dd19ce98",
+                    "SHA-256": "c97353662dd2256b7c5011cb0d9b8ca44ac85cf59238c573d9b162db134ab9af",
+                    "SHA-512": "2a8cfcd7652e6033bb48b7c83687b7245a0a120c402cc037d801f9cbc4d02583328ec56e090df02f2e40cc4aad767f563489b56cca9aac17d81e8e444928358a",
+                    "SHA3-256": "101976bb22bb46896aa7d3b50594c8704c05767ae8e5d62892d4fdf16a718a46",
+                    "SHA3-512": "66bcf9ba5b44eeb1e10da8bb1e0b90566956ce9d3c8c94170077045a261a70d021baa4be3c66e856226a940ff3167d003a6639308d21aa0cde23f0ecd1ebd2a4"
+                }
+            },
+            {
+                "source_name": "create",
+                "description": "Suffer speak type once administration commercial.",
+                "url": "http://www.willis-garcia.com/"
+            },
+            {
+                "source_name": "fish",
+                "description": "Energy high body article individual help.",
+                "url": "https://thomas.org/",
+                "external_id": "aYwSIQA"
+            },
+            {
+                "source_name": "project",
+                "url": "http://bowman.biz/",
+                "external_id": "XLpWOQvWY"
+            },
+            {
+                "source_name": "then",
+                "description": "Section plan writer value glass provide.",
+                "url": "https://www.griffin.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--adf3d0be-f7e3-41f7-a139-9643e6de9b92"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--92af6b38-d559-46f1-8bbd-fa18aaa6cc28",
+        "created_by_ref": "identity--6489f951-408f-47ca-ab78-bdfbfeefd04e",
+        "created": "2021-02-10T05:57:29.287422Z",
+        "modified": "2021-08-14T01:08:31.497618Z",
+        "context": "unspecified",
+        "object_refs": [
+            "indicator--d9385fac-73c9-429c-a70a-5b1003d523ef",
+            "intrusion-set--c13ab2d1-301d-4b96-aac5-dd81f20d6e82",
+            "relationship--b9c3d92e-982c-447c-b990-d5dbf63ebbb3"
+        ],
+        "confidence": 38,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--adf3d0be-f7e3-41f7-a139-9643e6de9b92"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6489f951-408f-47ca-ab78-bdfbfeefd04e",
+        "created_by_ref": "identity--6489f951-408f-47ca-ab78-bdfbfeefd04e",
+        "created": "2021-11-23T06:23:53.041685Z",
+        "modified": "2022-05-29T07:46:23.561183Z",
+        "name": "Stephens-Harding",
+        "roles": [
+            "answer"
+        ],
+        "contact_information": "5593 Lee Centers Apt. 263\nDavidstad, AK 68193",
+        "confidence": 84,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "kitchen",
+                "description": "Indicate idea southern friend sense.",
+                "url": "http://hamilton.com/",
+                "external_id": "LlYeOVpEJGqRsz"
+            },
+            {
+                "source_name": "off",
+                "url": "http://lopez.net/",
+                "hashes": {
+                    "MD5": "4071203161bbadaecff034a681dd778d",
+                    "SHA-1": "10bccaf03e236d9eff4beee3f71d64effa623728",
+                    "SHA-256": "18d42d0cb18c0bb04672807f41baf8c5634c20aa7614ecfb3f24b2174ada35a9",
+                    "SHA-512": "44a85bc2dd549575fe9ed53d654be1f2dba736632835906c6e1fb7ff6b4ca153ac9b2b41b0cb618953993a6c01c6611d704d7cb4453636140666fa3e4215f808",
+                    "SHA3-256": "e59c79d03ba6fc09b79fb44001917578642ce6efdc849237d0a99c3c48a2e491",
+                    "SHA3-512": "9c5e8699f1a657425a583d66e3a5d0c764c4eef8a03cc4b5c9ab459e28285ae6df27a56427397b580cf457acb0bec7682682a80b3dbbd0b9bc817559a43a5848"
+                }
+            },
+            {
+                "source_name": "past",
+                "description": "Top attack particularly already wonder conference employee.",
+                "url": "https://www.powell-wright.info/",
+                "hashes": {
+                    "MD5": "5e97c9c1aa93a2aec51ba1818eac1dd8",
+                    "SHA-1": "a2452a59f08ae3e133bddc16b0a83f4e70e2183b",
+                    "SHA-256": "ace89425a10836cea0a268d28d76d9e64fdf578f74ccc3203b58a0695b4f1bf3",
+                    "SHA-512": "58be04ca952f65330d8bb6ab3c74d584222c80a13493c056943ec9965990db111a6d45c1262c302e984aba68b8304841bfc09dfbab9dda081ad1780e72892439",
+                    "SHA3-256": "f238e305b9233902e840f139d9d2b98fda57b2bb8954693652150acbab403aa6",
+                    "SHA3-512": "9314a12422298f5b349f27cdacb6e6778a93b04b7ff5365989c888a71e850dd8f81a2e402197f121288d958d0e3753037c73e561280d15e4642ba068c15fd9ab"
+                }
+            },
+            {
+                "source_name": "man",
+                "description": "Simply finally make business sing in.",
+                "url": "https://www.brown.biz/"
+            },
+            {
+                "source_name": "investment",
+                "hashes": {
+                    "MD5": "334b7c146e4899872305a4f58afe097a",
+                    "SHA-1": "4aaee7e08961ff00629f5f01e9cfab08b54beb02",
+                    "SHA-256": "c7f43a1cc241fff469e8a8bdfdb1a036d097c48414aad1de46718d10f27d404f",
+                    "SHA-512": "167f24bfa917f6a9ccfa5f84114dd708d85ad0a9fee7108272fcfc116dcfda2a1c8a2d5862337807ba96e4306c8543d22bbf04fdc098c7da98147464db5dcca9",
+                    "SHA3-256": "1f960ba3c2b607ab65d28810644235691a2b93cbfd5e09295df001febd590120",
+                    "SHA3-512": "7952a8e6c7273fed585388a4533b3c39aa6779c00e6040860781eabafdf1a73840fdcf231fa7aa020c67af8ba2eecf9a81c23fac4aabb52a4db09056042c8523"
+                },
+                "external_id": "oDFLVfvghIYKQbyuBcVh"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--adf3d0be-f7e3-41f7-a139-9643e6de9b92"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--adf3d0be-f7e3-41f7-a139-9643e6de9b92",
+        "created": "2021-08-14T01:08:31.492106Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fb4e63d-338f-4f0a-b771-dd937b9aaabe",
+                "name": "Human on join spring",
+                "create_date_time": "2021-08-14T01:08:08.425512Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.425314Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,154 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--371c6f52-0413-41d7-8175-52a7cf1e7ab9",
+        "created_by_ref": "identity--17b0d254-7bb7-4c3f-87e4-1730829de3ce",
+        "created": "2022-01-15T01:57:06.432463Z",
+        "modified": "2022-05-17T07:34:35.005826Z",
+        "name": "help",
+        "threat_actor_types": [
+            "hacker"
+        ],
+        "aliases": [
+            "rich"
+        ],
+        "first_seen": "2020-09-13T20:15:57.53458Z",
+        "roles": [
+            "director"
+        ],
+        "sophistication": "innovator",
+        "resource_level": "organization",
+        "primary_motivation": "ideology",
+        "secondary_motivations": [
+            "personal-satisfaction",
+            "coercion",
+            "dominance",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 87,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--738ea3a8-0bad-4288-8d44-bb85af3aa606",
+        "created_by_ref": "identity--17b0d254-7bb7-4c3f-87e4-1730829de3ce",
+        "created": "2022-04-25T02:26:08.944717Z",
+        "modified": "2023-04-24T04:07:24.337316Z",
+        "name": "financial",
+        "description": "Information civil level perhaps hospital toward cost.",
+        "labels": [
+            "old",
+            "reflect",
+            "chair",
+            "pfte-batch-1"
+        ],
+        "confidence": 88,
+        "external_references": [
+            {
+                "source_name": "process",
+                "description": "Gas this season church much though.",
+                "url": "https://schneider.com/",
+                "hashes": {
+                    "MD5": "023ca14d4d24edf6b2b4284661f12422",
+                    "SHA-1": "1c5e47f1a8d5c7ca318130ca3759fac927214cbe",
+                    "SHA-256": "1b024348e0b95149fd31dbd8b7c8f07027f57c046b8ff28a914211c4cb2bbb6d",
+                    "SHA-512": "3238f7a48a48245f2186bf6eaa1a1ad4baf88dee46161f25458b988090cc0dd3a6c64c259949cf9785f824ac7530951e6838f288eddbc4d4c1fb220ffda12d91",
+                    "SHA3-256": "5d330aa91990817c306f184824175de6f30422a5b2b25b4efa8a1104987a4281",
+                    "SHA3-512": "766cd38de26d704db7e47b179d04009a6e00a8cc7331d0a52995ecdc669355c81210358023be32d44a29ef662af81718870b50bd04960ff72eaa41bc80791882"
+                },
+                "external_id": "bYdxExjFYBOxA"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c990e937-4c6c-490a-971b-76bd19dcfdff",
+        "created_by_ref": "identity--17b0d254-7bb7-4c3f-87e4-1730829de3ce",
+        "created": "2021-10-12T20:09:39.497022Z",
+        "modified": "2021-12-26T11:26:03.743783Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--371c6f52-0413-41d7-8175-52a7cf1e7ab9",
+        "target_ref": "attack-pattern--738ea3a8-0bad-4288-8d44-bb85af3aa606",
+        "start_time": "2021-10-07T19:09:31.336775Z",
+        "labels": [
+            "especially",
+            "audience",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "fall",
+                "url": "https://www.green-mitchell.org/",
+                "external_id": "QdYCBKQCMwxiBVfjD"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--6fcb520e-a91f-4039-813e-eeab9e9ef04a",
+        "created_by_ref": "identity--17b0d254-7bb7-4c3f-87e4-1730829de3ce",
+        "created": "2021-06-21T23:12:58.478617Z",
+        "modified": "2022-02-17T03:45:48.812116Z",
+        "opinion": "strongly-disagree",
+        "object_refs": [
+            "threat-actor--371c6f52-0413-41d7-8175-52a7cf1e7ab9",
+            "attack-pattern--738ea3a8-0bad-4288-8d44-bb85af3aa606",
+            "relationship--c990e937-4c6c-490a-971b-76bd19dcfdff"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 77,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--17b0d254-7bb7-4c3f-87e4-1730829de3ce",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-02-25T19:50:52.358506Z",
+        "modified": "2022-06-22T15:45:22.26353Z",
+        "name": "Williams, Mays and Mclaughlin",
+        "sectors": [
+            "hospitality-leisure",
+            "government-national"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "player",
+                "external_id": "VFSJaiPFILHMgAObvOya"
+            },
+            {
+                "source_name": "probably",
+                "description": "Accept rest two general.",
+                "external_id": "gDNQMVnPgQctfCZCVzz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

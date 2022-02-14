@@ -1,0 +1,190 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--5ea79628-2562-464a-a633-4eca19e53896",
+        "created_by_ref": "identity--ee3db992-55eb-4cda-97e6-2f82ba2a2295",
+        "created": "2021-10-04T11:26:08.289643Z",
+        "modified": "2021-11-05T18:02:27.944095Z",
+        "name": "upon",
+        "description": "Account low in responsibility glass.",
+        "aliases": [
+            "enjoy",
+            "onto"
+        ],
+        "first_seen": "2021-12-03T03:44:31.518991Z",
+        "goals": [
+            "Skin need whole hard street.",
+            "Hotel no enter hundred ever sit family whose.",
+            "Draw top defense since heart brother."
+        ],
+        "primary_motivation": "coercion",
+        "labels": [
+            "green",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--26ece75c-5576-4436-9d12-0686dedcc904"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--6781bc39-2418-4581-a668-00debaa95611",
+        "created_by_ref": "identity--ee3db992-55eb-4cda-97e6-2f82ba2a2295",
+        "created": "2021-07-15T01:33:10.304791Z",
+        "modified": "2022-03-04T11:15:34.163439Z",
+        "name": "yourself",
+        "infrastructure_types": [
+            "reconnaissance",
+            "amplification"
+        ],
+        "aliases": [
+            "entire",
+            "already",
+            "character",
+            "sit"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "HWpqaXSemWPFGowA",
+                "phase_name": "tNFfmOHmJrAiszvyLo"
+            },
+            {
+                "kill_chain_name": "VjRPBOcLan",
+                "phase_name": "EtCInWQIDTAsLECZTM"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--26ece75c-5576-4436-9d12-0686dedcc904"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--41f50464-5430-4c96-8284-5523dcb1c418",
+        "created_by_ref": "identity--ee3db992-55eb-4cda-97e6-2f82ba2a2295",
+        "created": "2021-04-02T04:30:45.68929Z",
+        "modified": "2021-10-31T00:36:16.353706Z",
+        "relationship_type": "owns",
+        "source_ref": "intrusion-set--5ea79628-2562-464a-a633-4eca19e53896",
+        "target_ref": "infrastructure--6781bc39-2418-4581-a668-00debaa95611",
+        "start_time": "2021-06-06T23:35:31.47766Z",
+        "stop_time": "2021-09-17T21:27:05.812345Z",
+        "labels": [
+            "answer",
+            "none",
+            "southern",
+            "floor",
+            "drive",
+            "pfte-batch-1"
+        ],
+        "confidence": 34,
+        "object_marking_refs": [
+            "marking-definition--26ece75c-5576-4436-9d12-0686dedcc904"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--26ece75c-5576-4436-9d12-0686dedcc904",
+        "created_by_ref": "identity--ee3db992-55eb-4cda-97e6-2f82ba2a2295",
+        "created": "2021-08-14T01:08:53.784768Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3d6ad3e0-0112-4a6d-8546-447c0e169799",
+                "name": "Space side determine future",
+                "create_date_time": "2021-08-14T01:08:08.419249Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ee3db992-55eb-4cda-97e6-2f82ba2a2295",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-06-05T21:14:53.715005Z",
+        "modified": "2022-11-22T02:07:28.519319Z",
+        "name": "StudySenseDeal",
+        "description": "Customizable clear-thinking projection",
+        "sectors": [
+            "construction",
+            "government-national"
+        ],
+        "contact_information": "6870 Miller Spurs\nNew Michaelberg, CO 98337",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 90,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--26ece75c-5576-4436-9d12-0686dedcc904"
+        ]
+    }
+]

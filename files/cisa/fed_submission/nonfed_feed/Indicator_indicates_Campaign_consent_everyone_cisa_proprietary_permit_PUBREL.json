@@ -1,0 +1,118 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--cbce2980-07b1-4e6c-8d89-4e3516445b97",
+        "created_by_ref": "identity--f7d41f09-c852-46cd-8b09-3331d3c714c4",
+        "created": "2021-10-13T03:47:15.54016Z",
+        "modified": "2022-06-13T23:20:51.621976Z",
+        "name": "room",
+        "indicator_types": [
+            "malicious-activity",
+            "unknown",
+            "anomalous-activity",
+            "unknown"
+        ],
+        "pattern": "[url:value <= 'https://ferguson.biz/' AND url:defanged = false AND (url:value >= 'https://www.townsend-cortez.biz/')] FOLLOWEDBY [software:cpe = 'cpe:2.3:o:fedoraproject:fedora:29:*:*:*:*:*:*:*']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-04-11T05:21:27.562913Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 43,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--323ff979-a77e-4599-8251-3c3e8b14c766",
+        "created_by_ref": "identity--f7d41f09-c852-46cd-8b09-3331d3c714c4",
+        "created": "2022-02-05T04:14:51.677158Z",
+        "modified": "2022-08-04T05:31:33.84386Z",
+        "name": "machine",
+        "last_seen": "2022-07-29T07:38:44.668093Z",
+        "objective": "I push about soon.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 55,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b6d8539c-b735-45ff-9a2e-5797cf008993",
+        "created_by_ref": "identity--f7d41f09-c852-46cd-8b09-3331d3c714c4",
+        "created": "2021-06-12T17:49:05.680481Z",
+        "modified": "2021-09-15T10:28:37.137613Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--cbce2980-07b1-4e6c-8d89-4e3516445b97",
+        "target_ref": "campaign--323ff979-a77e-4599-8251-3c3e8b14c766",
+        "start_time": "2021-11-11T05:51:00.922619Z",
+        "stop_time": "2022-06-24T20:04:56.599198Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f7d41f09-c852-46cd-8b09-3331d3c714c4",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-12-19T06:42:28.826488Z",
+        "modified": "2022-02-03T19:37:46.499377Z",
+        "name": "Thompson-Cameron",
+        "description": "Monitored 5thgeneration hub",
+        "sectors": [
+            "education",
+            "commercial",
+            "telecommunications",
+            "government-local"
+        ],
+        "contact_information": "55539 Kim Meadow\nCamacholand, OR 43365",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "rise",
+                "description": "Few pretty leg machine away dog daughter which.",
+                "external_id": "fusWOz"
+            },
+            {
+                "source_name": "check",
+                "description": "Public rate quality deal successful hot.",
+                "hashes": {
+                    "MD5": "6b8ca923744e78ae067f96a9c990c2c1",
+                    "SHA-1": "9c3f8580f135d63e9da330de8f79acd2dec12695",
+                    "SHA-256": "2f3772c6225adb5804330762a676deb4c240f7233f9caa66655f97d44c4edb33",
+                    "SHA-512": "9b8208a8d53c4af9616de261d6d6029dc10ecf3b7c9cf486cca4ea31876d04b51f558c1dce20cfd581b10903cc109f3fe074f3e592a266ebbecfbfe2de2d606a",
+                    "SHA3-256": "a91f9d1d9d7607203b5eac3e1245904c397737eae61f494053498b3caa5eb35c",
+                    "SHA3-512": "e64f50ee599bec97e9ec8b8540f79890824bf1903d96e69ac15a0108995dcbcfcb39c97fe4f213e4e00c59aa7e1d5dcd60e063bd1b82c988d3d74ca55a99cff7"
+                },
+                "external_id": "dAAztPH"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

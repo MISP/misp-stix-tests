@@ -1,0 +1,111 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--eea25608-46ba-4162-a6cb-0a1b3ed83561",
+        "created_by_ref": "identity--eeb8feab-444e-499e-9fb2-efc6d0c460b7",
+        "created": "2022-03-07T16:00:24.827159Z",
+        "modified": "2022-10-09T20:53:05.926285Z",
+        "name": "control",
+        "first_seen": "2021-11-29T14:04:32.079103Z",
+        "last_seen": "2022-06-05T06:14:53.949913Z",
+        "objective": "Sure former late lay.",
+        "labels": [
+            "cup",
+            "pfte-batch-1"
+        ],
+        "confidence": 5,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--d6c8648d-9e82-46c7-b1a7-4f66b4b66e73",
+        "created_by_ref": "identity--eeb8feab-444e-499e-9fb2-efc6d0c460b7",
+        "created": "2022-06-19T08:04:19.208119Z",
+        "modified": "2023-01-13T06:39:57.633821Z",
+        "name": "plant",
+        "threat_actor_types": [
+            "crime-syndicate",
+            "nation-state"
+        ],
+        "first_seen": "2020-09-13T12:44:27.363243Z",
+        "roles": [
+            "agent",
+            "malware-author",
+            "infrastructure-operator"
+        ],
+        "sophistication": "strategic",
+        "resource_level": "team",
+        "primary_motivation": "unpredictable",
+        "secondary_motivations": [
+            "personal-gain",
+            "revenge"
+        ],
+        "personal_motivations": [
+            "unpredictable",
+            "organizational-gain",
+            "personal-satisfaction",
+            "coercion"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e9446c0d-fb1b-4bac-9f46-6e6dbb42286d",
+        "created_by_ref": "identity--eeb8feab-444e-499e-9fb2-efc6d0c460b7",
+        "created": "2021-01-12T21:25:35.076295Z",
+        "modified": "2021-08-27T10:57:29.222661Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "campaign--eea25608-46ba-4162-a6cb-0a1b3ed83561",
+        "target_ref": "threat-actor--d6c8648d-9e82-46c7-b1a7-4f66b4b66e73",
+        "start_time": "2020-09-22T21:52:54.496367Z",
+        "labels": [
+            "across",
+            "ready",
+            "southern",
+            "camera",
+            "around",
+            "pfte-batch-1"
+        ],
+        "confidence": 40,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--eeb8feab-444e-499e-9fb2-efc6d0c460b7",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-11T01:39:58.76649Z",
+        "modified": "2021-08-14T01:08:13.917268Z",
+        "name": "Middleton Ltd",
+        "sectors": [
+            "government-local",
+            "government-public-services",
+            "insurance"
+        ],
+        "contact_information": "633 Elizabeth Common\nVegashire, ME 78524",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 70,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

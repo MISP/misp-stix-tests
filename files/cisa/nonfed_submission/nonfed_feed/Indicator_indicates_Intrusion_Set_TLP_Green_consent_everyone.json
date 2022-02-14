@@ -1,0 +1,142 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--a5c2453a-2179-479e-ac4a-4092e3d9cdac",
+        "created_by_ref": "identity--430d9c4b-20b6-401b-b13e-7e2066c44ba5",
+        "created": "2021-09-19T00:33:13.949064Z",
+        "modified": "2021-12-30T14:29:47.121778Z",
+        "name": "break",
+        "description": "Technology forward level individual shoulder son.",
+        "indicator_types": [
+            "unknown",
+            "anonymization",
+            "unknown",
+            "malicious-activity"
+        ],
+        "pattern": "((([file:defanged = false] FOLLOWEDBY [directory:path = '/another/reveal.mp3']) AND [mac-addr:value >= '5c:fa:5b:53:d0:49'] WITHIN 3 SECONDS))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-05-21T19:55:22.019886Z",
+        "valid_until": "2022-08-01T03:11:55.286533Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 82,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--6c644435-541b-48ad-9cd1-bb8baaede0a9",
+        "created_by_ref": "identity--430d9c4b-20b6-401b-b13e-7e2066c44ba5",
+        "created": "2021-04-28T09:37:39.673249Z",
+        "modified": "2021-08-14T01:08:31.216944Z",
+        "name": "from",
+        "first_seen": "2020-08-14T22:09:59.922728Z",
+        "last_seen": "2021-08-10T12:09:37.399311Z",
+        "goals": [
+            "Want deep recently court.",
+            "Natural message election that agreement person.",
+            "Environmental nature pattern during miss fine development."
+        ],
+        "resource_level": "club",
+        "primary_motivation": "personal-gain",
+        "secondary_motivations": [
+            "ideology",
+            "organizational-gain",
+            "organizational-gain",
+            "ideology",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "top",
+            "pfte-batch-1"
+        ],
+        "confidence": 22,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1a56f87f-2c12-4641-af75-4c9a1f9c0e6e",
+        "created_by_ref": "identity--430d9c4b-20b6-401b-b13e-7e2066c44ba5",
+        "created": "2021-05-22T18:14:38.789257Z",
+        "modified": "2022-01-07T15:11:15.52656Z",
+        "relationship_type": "indicates",
+        "description": "Question white air I. Thing practice bring lay capital professional. Loss tend in provide miss especially bag. True black low because first.",
+        "source_ref": "indicator--a5c2453a-2179-479e-ac4a-4092e3d9cdac",
+        "target_ref": "intrusion-set--6c644435-541b-48ad-9cd1-bb8baaede0a9",
+        "start_time": "2022-04-17T14:22:35.578354Z",
+        "stop_time": "2022-06-30T04:16:11.882046Z",
+        "labels": [
+            "now",
+            "accept",
+            "pfte-batch-1"
+        ],
+        "confidence": 76,
+        "external_references": [
+            {
+                "source_name": "when",
+                "description": "Usually person adult.",
+                "url": "http://rogers.info/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--430d9c4b-20b6-401b-b13e-7e2066c44ba5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-08-24T16:51:10.865967Z",
+        "modified": "2021-08-14T01:08:31.217814Z",
+        "name": "Hopkins-Norman",
+        "contact_information": "USCGC Schroeder\nFPO AA 05944",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 12,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "kitchen",
+                "description": "Although hard natural soldier next still.",
+                "url": "http://bradley.com/",
+                "hashes": {
+                    "MD5": "e865b29a0b28a70c6321e6a4817af3b9",
+                    "SHA-1": "eb8f87cd293e4039aa4de60fc1932f7d64eacd87",
+                    "SHA-256": "f72fa1842bd368fd125d30ec734b0ae219f2ab1e9c3e588a8dfd1f6e718d0c6b",
+                    "SHA-512": "14f1f70106131a21264a52a4d6fd3261ea0058be5183ba51f2ef7e29ce1429dfadd003cedb685870b840626b5335986df64b538104fc6fe62406fb78ee43aa05",
+                    "SHA3-256": "e880ac353ebce740f6ae14451e35f5433d12a41421838e7552fe8132ef93bccf",
+                    "SHA3-512": "155634d9dd344fcccaa4a71217d9dada026b11f297100555d8b5617726fe0ebb76ddd7609ebc5eaab6cff29263d868adb2df31b978e9590c9393c8776a242318"
+                }
+            },
+            {
+                "source_name": "per",
+                "description": "Animal play successful data.",
+                "url": "http://williams.com/",
+                "hashes": {
+                    "MD5": "c7fe7ae4e170167add04da960e61d998",
+                    "SHA-1": "fd5567ad3e6bedb4c33d2f2d39c3c98bb8b6ef8f",
+                    "SHA-256": "f016fb2e6a6535fb0f4ab0c542b5b47ea6b3976e4561937a746ee7181651920c",
+                    "SHA-512": "2880d610cbd06948ea2dbd366046bd98b9d2e16b3bbf579ac0dc0af4dd3a9f880bcb9cb38ba48ee522f1da78deadee7764b02b6f9d6d38b519608561433b3ee5",
+                    "SHA3-256": "e8792f6afc581e320edd1f2a7e0c64505908a7e1116b8c5c6245758626b37559",
+                    "SHA3-512": "f0178149a5dba20b14b5e4766d83384e5fa20fcf918a742dc7ff49c5389e985f9dcd68ad2eef638bc329f0acc10fe1c3778630e56d79fd3adb38a0610ff91d96"
+                },
+                "external_id": "UIDcLoXfwFTICnF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

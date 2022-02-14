@@ -1,0 +1,200 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--877a43b4-c672-4d06-9213-e9be8fc2bd4e",
+        "created_by_ref": "identity--bb41dfbe-cb6f-4c99-a8bd-3b8210f1ed81",
+        "created": "2021-04-20T04:43:49.732021Z",
+        "modified": "2021-09-15T09:40:40.943133Z",
+        "name": "memory",
+        "last_seen": "2022-07-08T02:44:09.906205Z",
+        "goals": [
+            "write",
+            "city"
+        ],
+        "sophistication": "advanced",
+        "external_references": [
+            {
+                "source_name": "pick",
+                "description": "Almost end ago early so key.",
+                "hashes": {
+                    "MD5": "46283580aaa3dc403e0a9c89cdb46381",
+                    "SHA-1": "4bc3b9c5b4796147217bca87f27d482efc64c32e",
+                    "SHA-256": "c062ae7d00c1df81a885580fff328bd1019e8d0cb374158e315afacbe9fa77ca",
+                    "SHA-512": "ddde60fe18c365611c920618f50c4692ae08176592a0e03acf71155c002747884bee1e512833cb089f5311af89b452302d27a8d733871d015fd6556ed3b9c22e",
+                    "SHA3-256": "5b391b60753de689baccf164960da34984aa95648abb1aa80d4911342e247b91",
+                    "SHA3-512": "ea41e3bc57115a8dbbe42cc3b249a66783236bf57cf544205e6eb24ff41430bb7581b534d67926def2f6fde86ead7d1dc33f4c0f21de4ab4a0a5c18c8138aa57"
+                }
+            },
+            {
+                "source_name": "address",
+                "description": "Training course argue fill lawyer him.",
+                "external_id": "ARHJL"
+            },
+            {
+                "source_name": "plant",
+                "description": "Face relationship term catch will cost."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ff0c3379-0d2f-4833-9ca8-cad5e5cfd426"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--28a55c55-7eb1-4503-8385-abe15b15b3b6",
+        "created_by_ref": "identity--bb41dfbe-cb6f-4c99-a8bd-3b8210f1ed81",
+        "created": "2022-08-04T08:00:16.027683Z",
+        "modified": "2023-06-24T18:34:57.670963Z",
+        "name": "nearly",
+        "description": "Friend suddenly tend local concern return rock also.",
+        "infrastructure_types": [
+            "workstation",
+            "hosting-malware",
+            "hosting-target-lists",
+            "control-system",
+            "firewall"
+        ],
+        "last_seen": "2022-03-01T15:30:30.611072Z",
+        "labels": [
+            "executive",
+            "pfte-batch-1"
+        ],
+        "confidence": 18,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ff0c3379-0d2f-4833-9ca8-cad5e5cfd426"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--32e064f3-7387-4e9c-b7d8-287069da6047",
+        "created_by_ref": "identity--bb41dfbe-cb6f-4c99-a8bd-3b8210f1ed81",
+        "created": "2021-07-02T19:48:28.894272Z",
+        "modified": "2021-11-29T04:19:09.340719Z",
+        "relationship_type": "compromises",
+        "source_ref": "threat-actor--877a43b4-c672-4d06-9213-e9be8fc2bd4e",
+        "target_ref": "infrastructure--28a55c55-7eb1-4503-8385-abe15b15b3b6",
+        "start_time": "2021-06-16T08:46:24.04867Z",
+        "confidence": 41,
+        "object_marking_refs": [
+            "marking-definition--ff0c3379-0d2f-4833-9ca8-cad5e5cfd426"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--bb41dfbe-cb6f-4c99-a8bd-3b8210f1ed81",
+        "created_by_ref": "identity--bb41dfbe-cb6f-4c99-a8bd-3b8210f1ed81",
+        "created": "2022-01-29T08:42:18.314248Z",
+        "modified": "2022-04-16T17:38:06.064822Z",
+        "name": "Lee, Fisher and Salazar",
+        "description": "Adaptive multimedia Local Area Network",
+        "roles": [
+            "house",
+            "foot",
+            "whatever"
+        ],
+        "sectors": [
+            "emergency-services",
+            "pharmaceuticals",
+            "manufacturing"
+        ],
+        "contact_information": "282 Jerry Alley Suite 130\nLake Jefferystad, NV 29747",
+        "external_references": [
+            {
+                "source_name": "where",
+                "description": "Popular point own.",
+                "url": "https://paul-hill.info/",
+                "external_id": "TleVzdCcpjbLFEQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ff0c3379-0d2f-4833-9ca8-cad5e5cfd426"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--ff0c3379-0d2f-4833-9ca8-cad5e5cfd426",
+        "created": "2021-08-14T01:09:25.815888Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-57e7d098-4c26-4a4d-bfaa-3ee9c5e47adc",
+                "name": "Customer hot subject fight customer",
+                "create_date_time": "2021-08-14T01:08:08.428617Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

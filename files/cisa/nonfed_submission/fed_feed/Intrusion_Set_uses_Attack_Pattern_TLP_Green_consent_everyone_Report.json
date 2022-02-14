@@ -1,0 +1,230 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--ffc56def-b60e-4d69-9909-ae7dbe2d11d8",
+        "created_by_ref": "identity--88e11222-8e79-4f5f-947d-d6c9ce8f2033",
+        "created": "2021-06-06T17:43:21.151848Z",
+        "modified": "2022-03-08T02:37:46.046399Z",
+        "name": "modern",
+        "description": "Road six condition but value.",
+        "aliases": [
+            "white",
+            "such"
+        ],
+        "first_seen": "2021-12-11T23:40:09.444546Z",
+        "goals": [
+            "All report society drive.",
+            "Economy article key she.",
+            "Apply husband wide."
+        ],
+        "primary_motivation": "coercion",
+        "secondary_motivations": [
+            "revenge",
+            "personal-satisfaction",
+            "personal-gain",
+            "revenge",
+            "coercion"
+        ],
+        "confidence": 54,
+        "object_marking_refs": [
+            "marking-definition--8b989b57-f438-479f-a55d-8a07f18fb96a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--bf8d0aad-464d-473f-a139-d929e72ea90f",
+        "created_by_ref": "identity--88e11222-8e79-4f5f-947d-d6c9ce8f2033",
+        "created": "2020-10-25T19:13:48.425422Z",
+        "modified": "2021-09-04T03:07:39.60256Z",
+        "name": "its",
+        "description": "Common drug court those almost.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "shhSfrIOPwk",
+                "phase_name": "xpkjoXazIcx"
+            }
+        ],
+        "labels": [
+            "majority",
+            "rich",
+            "treatment",
+            "investment",
+            "season",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--8b989b57-f438-479f-a55d-8a07f18fb96a"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--50301954-0667-40fd-b66c-73ca97601840",
+        "created_by_ref": "identity--88e11222-8e79-4f5f-947d-d6c9ce8f2033",
+        "created": "2021-08-16T16:28:49.501529Z",
+        "modified": "2021-12-18T23:16:40.042705Z",
+        "relationship_type": "uses",
+        "description": "Investment have country conference glass drive number. Mrs sometimes several heart. Green realize huge indeed require.",
+        "source_ref": "intrusion-set--ffc56def-b60e-4d69-9909-ae7dbe2d11d8",
+        "target_ref": "attack-pattern--bf8d0aad-464d-473f-a139-d929e72ea90f",
+        "stop_time": "2021-02-07T22:43:39.523871Z",
+        "labels": [
+            "music",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--8b989b57-f438-479f-a55d-8a07f18fb96a"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--4df7956d-cfa5-4322-999b-2b3846283f00",
+        "created_by_ref": "identity--88e11222-8e79-4f5f-947d-d6c9ce8f2033",
+        "created": "2020-10-10T06:13:10.531008Z",
+        "modified": "2021-09-07T13:57:42.013629Z",
+        "name": "threat",
+        "report_types": [
+            "tool",
+            "threat-actor"
+        ],
+        "published": "2021-01-09T19:01:24.030595Z",
+        "object_refs": [
+            "intrusion-set--ffc56def-b60e-4d69-9909-ae7dbe2d11d8",
+            "attack-pattern--bf8d0aad-464d-473f-a139-d929e72ea90f",
+            "relationship--50301954-0667-40fd-b66c-73ca97601840"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--8b989b57-f438-479f-a55d-8a07f18fb96a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--8b989b57-f438-479f-a55d-8a07f18fb96a",
+        "created_by_ref": "identity--88e11222-8e79-4f5f-947d-d6c9ce8f2033",
+        "created": "2021-08-14T01:08:57.629766Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-cdad75a5-97a2-450d-bb1c-cac3b21b4823",
+                "name": "Continue half as create together strong",
+                "create_date_time": "2021-08-14T01:08:08.421874Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--88e11222-8e79-4f5f-947d-d6c9ce8f2033",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-11-19T20:57:29.803674Z",
+        "modified": "2021-09-06T17:49:32.73261Z",
+        "name": "Chambers PLC",
+        "description": "User-friendly multi-state circuit",
+        "identity_class": "class",
+        "contact_information": "7384 Alan Plains\nMichaelshire, CO 66568",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "consumer",
+                "description": "Laugh affect tax a six perform.",
+                "url": "http://www.rodriguez.com/",
+                "hashes": {
+                    "MD5": "9f9bbe32dd8808848959b91aeaef7e3e",
+                    "SHA-1": "6c1b76c94e03872ae2732693e4f9667d7e1a978e",
+                    "SHA-256": "bf41743d214330a814f5013aee039b5caf03549d00c9a1ca9977262811b18e4a",
+                    "SHA-512": "5b747ed28469f0f3ed65ab6fb8d25c7b0be2ea795519bc5e8140d1b67a2cabc03193b668931ea4ef866eb47c9796f80ecb2e58e886643c705a149a77f1a2abd9",
+                    "SHA3-256": "7af55eab0d8b768279226b37290f7e99836a1ab92efed59734b25f1e2e622a41",
+                    "SHA3-512": "6eea8335ff51fdf13bed4cc07a47d878963a5d759e07e93ab7e83510816dee57e43226193b68432dc19177161f1f791af79cfdab75dfdb28892271ac619517c6"
+                },
+                "external_id": "apxOziV"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8b989b57-f438-479f-a55d-8a07f18fb96a"
+        ]
+    }
+]

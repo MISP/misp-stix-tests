@@ -1,0 +1,96 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--ff94278b-1bff-4902-b67b-6c3faeb8325f",
+        "created_by_ref": "identity--e4b99f59-0bfa-4be8-a725-3d0d4270c4bf",
+        "created": "2022-06-20T22:35:30.995371Z",
+        "modified": "2023-05-12T02:20:31.499307Z",
+        "name": "through",
+        "infrastructure_types": [
+            "firewall",
+            "command-and-control"
+        ],
+        "aliases": [
+            "whose",
+            "top",
+            "deep",
+            "far"
+        ],
+        "first_seen": "2022-07-22T07:56:05.03308Z",
+        "last_seen": "2022-08-02T07:18:55.18719Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 73,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--3b945092-94e9-4cb3-a7a2-cb91784262c4",
+        "created_by_ref": "identity--e4b99f59-0bfa-4be8-a725-3d0d4270c4bf",
+        "created": "2021-06-21T19:06:30.177034Z",
+        "modified": "2022-03-24T18:34:33.352285Z",
+        "first_observed": "2021-01-27T09:05:17.537419Z",
+        "last_observed": "2021-02-20T23:12:26.390184Z",
+        "number_observed": 822788712,
+        "objects": {
+            "email-addr--93de9322-7760-4ced-9061-e298201e4716": {
+                "type": "email-addr",
+                "spec_version": "2.1",
+                "id": "email-addr--93de9322-7760-4ced-9061-e298201e4716",
+                "value": "lauraknox@mosley-wallace.biz",
+                "display_name": "Eric Mcclure"
+            }
+        },
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--982cef9b-0f67-4923-a5c8-d44d06d8f46b",
+        "created_by_ref": "identity--e4b99f59-0bfa-4be8-a725-3d0d4270c4bf",
+        "created": "2021-06-02T09:15:18.202814Z",
+        "modified": "2021-11-21T02:43:54.240335Z",
+        "relationship_type": "consists-of",
+        "description": "Teacher close picture note read interesting service. Movement itself between road age financial article. Their science I woman common institution.",
+        "source_ref": "infrastructure--ff94278b-1bff-4902-b67b-6c3faeb8325f",
+        "target_ref": "observed-data--3b945092-94e9-4cb3-a7a2-cb91784262c4",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 89,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e4b99f59-0bfa-4be8-a725-3d0d4270c4bf",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-13T01:09:09.550696Z",
+        "modified": "2021-08-14T01:08:44.580652Z",
+        "name": "RedPerhapsWe",
+        "description": "Ameliorated solution-oriented success",
+        "identity_class": "unknown",
+        "contact_information": "40309 Long Corners\nDenisefort, NJ 06270",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 7,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

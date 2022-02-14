@@ -1,0 +1,256 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--ced9363a-d930-4e8a-b844-ecbb095eb0d0",
+        "created_by_ref": "identity--aab9dba1-52b6-4c34-ab7a-75e4acca6088",
+        "created": "2021-01-09T12:05:19.48329Z",
+        "modified": "2021-08-14T01:08:21.744577Z",
+        "name": "save",
+        "labels": [
+            "play",
+            "garden",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "material",
+                "description": "Nearly him interview prepare impact statement trial.",
+                "url": "http://www.mccoy-howell.net/",
+                "external_id": "EDAINlyGp"
+            },
+            {
+                "source_name": "friend",
+                "description": "Hand nature require role face prove food.",
+                "url": "http://payne.com/",
+                "external_id": "SCyhlNpgwPrO"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--aad881b8-df4d-4432-b77f-c404399a8faf"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--a61f671f-9bbb-48b7-855a-ecfbf2c5c37b",
+        "created_by_ref": "identity--aab9dba1-52b6-4c34-ab7a-75e4acca6088",
+        "created": "2020-12-20T04:53:47.43904Z",
+        "modified": "2021-09-22T02:44:34.298161Z",
+        "name": "production",
+        "indicator_types": [
+            "unknown",
+            "anomalous-activity",
+            "malicious-activity",
+            "benign",
+            "unknown"
+        ],
+        "pattern": "(([(email-message:content_type >= 'message/rfc822') OR process:defanged NOT = false]) AND [windows-registry-key:modified_time >= t'2021-06-10T17:29:46.998937Z'] AND [software:swid >= 'org.fedoraproject.Fedora-29']) REPEATS 7 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-10-23T00:44:19.467102Z",
+        "valid_until": "2021-07-30T15:16:06.540655Z",
+        "labels": [
+            "indicate",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "evening",
+                "description": "Film beyond enjoy interview.",
+                "url": "https://www.gates.org/",
+                "external_id": "NWgIilqciSDujXOZ"
+            },
+            {
+                "source_name": "also",
+                "description": "Catch unit research poor party.",
+                "url": "https://combs-walker.biz/"
+            },
+            {
+                "source_name": "avoid",
+                "description": "Dark before buy series.",
+                "hashes": {
+                    "MD5": "e1d0ee4852f1f9648a04a19818dda684",
+                    "SHA-1": "bb0e81176d046cc122af8affc86cab9b88a9e9c6",
+                    "SHA-256": "4784ef28e944790feaee9c50cfa0dcb50917957a4442c404765e115cf0f449e1",
+                    "SHA-512": "fea697fb44125bb4e6f2234a1ffe65416d8a134ec5f419b9def19c30d629b4b88ca4642abcc33bcc26ab18324fcba638217f990c2797d70a829d723568d29e95",
+                    "SHA3-256": "9de0ce930e1cefec3c7af22965f9e9837644c5a8b8f22d7f9ba3f04b56dd6fc7",
+                    "SHA3-512": "bbb136e9a9b12293483f66d29c7c008ea1634a63e5508821cfe3718f605e56db2e9136471fe67d6dd289cee26e2dd760640438bee2c04148410209b74bda7718"
+                },
+                "external_id": "QOpmJbzrvny"
+            },
+            {
+                "source_name": "environment",
+                "description": "Citizen hard majority as.",
+                "url": "http://www.lee.com/",
+                "hashes": {
+                    "MD5": "ac8f1bfc7ad69d6020d9b61f14a33c16",
+                    "SHA-1": "05f4db1e0e4da0a934374c62026224b3061e2de5",
+                    "SHA-256": "40c826fd07ea54df3d0be9d19acdf1d74142f9f07f74e419a031d0cd4ea54ee9",
+                    "SHA-512": "a1d8e11c6f8df18066b29e7cfc7ae058985db9f2363901f521073c6fbae53acb5b733ce062e959f27d28f77f885dfcbf5d52e3158e6c18a7f740d41d038c2978",
+                    "SHA3-256": "d3d9666f6ec8ee966ef0a2edbab8687f971008a7641ae80cec1e3d0cce7fb06a",
+                    "SHA3-512": "47446e17e2ae8afd45ef61aa9cd9a80eeb0f036cb2cfeac04ddcc283b272a71f675822ef48f6da5f1f09ee2fb34a913676faa89ff627b895551fc465a84da683"
+                },
+                "external_id": "krKqCGZajy"
+            },
+            {
+                "source_name": "trouble",
+                "description": "Painting learn notice range career program unit.",
+                "url": "http://kelly.com/",
+                "external_id": "ZHTeo"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--aad881b8-df4d-4432-b77f-c404399a8faf"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--81e9a5c1-016e-4f0e-bfd5-5f98be5a9e0d",
+        "created_by_ref": "identity--aab9dba1-52b6-4c34-ab7a-75e4acca6088",
+        "created": "2020-11-01T14:54:44.411686Z",
+        "modified": "2021-08-14T01:08:21.748752Z",
+        "relationship_type": "investigates",
+        "description": "Yard catch north big. Live off high. Pattern hospital hospital attorney protect.",
+        "source_ref": "course-of-action--ced9363a-d930-4e8a-b844-ecbb095eb0d0",
+        "target_ref": "indicator--a61f671f-9bbb-48b7-855a-ecfbf2c5c37b",
+        "start_time": "2020-09-28T03:34:53.416818Z",
+        "stop_time": "2021-01-06T02:01:48.098587Z",
+        "labels": [
+            "back",
+            "commercial",
+            "new",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "goal",
+                "description": "Range heart remember.",
+                "hashes": {
+                    "MD5": "1d11c3bc50cee0fcfaf9b2b02c48469b",
+                    "SHA-1": "e03a5b56ddd5b1eba1dcac081af7c7a097f57e1f",
+                    "SHA-256": "e9a9b474d8aade1ae62bb0b02472d46b11222eedac7bd84fb48b215ac9b38579",
+                    "SHA-512": "87d74a34f6138c1e3740c7ea5c06b7282012a0602b8c58f24e509b34a67951a454b6ab81e3b2cba7bff702f1e26b1ca27e2c82a7c4b35d8887ccd9319df05eda",
+                    "SHA3-256": "9f7c6df8a8eeaef690710f2d2bb68d957f909be06fb180a2e4e27c1a93401361",
+                    "SHA3-512": "e720eb2870d093ab342d6e13bd653b3ff096f07eee738126e29824d0403979fd8b2846ccdb892a543ee31becbf3e0a8fd2a61a899fe6417702583db05a967598"
+                },
+                "external_id": "QmPjvhQhawxhnygbLv"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--aad881b8-df4d-4432-b77f-c404399a8faf"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--aad881b8-df4d-4432-b77f-c404399a8faf",
+        "created_by_ref": "identity--aab9dba1-52b6-4c34-ab7a-75e4acca6088",
+        "created": "2021-08-14T01:08:21.743759Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e665ae49-7536-4ce4-b3ac-ad9803b6185e",
+                "name": "Push teach indeed like accept",
+                "create_date_time": "2021-08-14T01:08:08.423274Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--aab9dba1-52b6-4c34-ab7a-75e4acca6088",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-18T13:20:29.894381Z",
+        "modified": "2021-08-14T01:08:21.749173Z",
+        "name": "Gutierrez PLC",
+        "sectors": [
+            "emergency-services",
+            "government-regional",
+            "insurance",
+            "financial-services",
+            "defense"
+        ],
+        "contact_information": "1135 Rhonda Coves Suite 350\nKimberlyton, CO 69644",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "yet",
+                "url": "https://www.wilson.biz/",
+                "hashes": {
+                    "MD5": "5cdc644726580a01d6a9d20620cb65dc",
+                    "SHA-1": "8c70a7ba36fb072c47a8fc89af2c53b075cbffba",
+                    "SHA-256": "1206a3caee6ee992f8cf2d7cfc1654a822f840a1332a30c923b3baa473fb84c3",
+                    "SHA-512": "040c717031b47085fa33fcd170732595cef2a36ab8293ec4c176bd9fb264fd534abb31211365d7eddac81533eb9db04148142237e3b3f6b4f59188d5ca12f63e",
+                    "SHA3-256": "783a3d98e1dcaf9cef74e79d66c6abf8f60c455b989c64ed97122e47f2e6745a",
+                    "SHA3-512": "55a70879c72764719257a794d37afba2fab4abb83fc260d7a68acb2caeb8453efbff8889a955da7505e9c40646f3e5e50ec3fd97b0bbacee2e3045097bdf9b5b"
+                },
+                "external_id": "iszbUeRxQKJaWGcG"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--aad881b8-df4d-4432-b77f-c404399a8faf"
+        ]
+    }
+]

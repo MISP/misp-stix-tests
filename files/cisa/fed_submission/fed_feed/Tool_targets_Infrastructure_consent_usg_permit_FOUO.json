@@ -1,0 +1,203 @@
+[
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--4cb6c19f-74f2-4400-a0c9-bd4d43f97e87",
+        "created_by_ref": "identity--25694548-eb0f-48a5-816d-c0bcf0d3f374",
+        "created": "2021-11-03T08:25:15.831195Z",
+        "modified": "2022-01-17T19:08:48.453998Z",
+        "name": "international",
+        "tool_types": [
+            "credential-exploitation",
+            "vulnerability-scanning",
+            "credential-exploitation",
+            "remote-access",
+            "network-capture"
+        ],
+        "aliases": [
+            "long",
+            "sense",
+            "director",
+            "scene"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "YXwtJZzTeYUuQB",
+                "phase_name": "aQlSUPrkxlcQHwFUyaBg"
+            },
+            {
+                "kill_chain_name": "ZKQFPIOAXlEi",
+                "phase_name": "aYthqVxQJkAD"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "ScqmwCUoSPMVNdvZ",
+                "phase_name": "HggygKsfau"
+            }
+        ],
+        "tool_version": "however",
+        "labels": [
+            "through",
+            "guess",
+            "evidence",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--cc73b8d8-5199-4574-a216-7585b11480b8"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--3f753cd9-e701-4ba6-9a03-be97db4cf599",
+        "created_by_ref": "identity--25694548-eb0f-48a5-816d-c0bcf0d3f374",
+        "created": "2021-03-26T13:17:57.529522Z",
+        "modified": "2021-08-14T01:09:39.866337Z",
+        "name": "condition",
+        "infrastructure_types": [
+            "control-system",
+            "hosting-malware",
+            "routers-switches"
+        ],
+        "last_seen": "2021-07-16T11:08:09.37712Z",
+        "object_marking_refs": [
+            "marking-definition--cc73b8d8-5199-4574-a216-7585b11480b8"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--02f5e0ac-4265-4df3-b4ef-16216e24f52e",
+        "created_by_ref": "identity--25694548-eb0f-48a5-816d-c0bcf0d3f374",
+        "created": "2021-12-01T16:14:48.422561Z",
+        "modified": "2022-02-19T08:24:59.540029Z",
+        "relationship_type": "targets",
+        "source_ref": "tool--4cb6c19f-74f2-4400-a0c9-bd4d43f97e87",
+        "target_ref": "infrastructure--3f753cd9-e701-4ba6-9a03-be97db4cf599",
+        "start_time": "2022-04-03T11:55:49.085287Z",
+        "labels": [
+            "consumer",
+            "pfte-batch-1"
+        ],
+        "confidence": 94,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--cc73b8d8-5199-4574-a216-7585b11480b8"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--25694548-eb0f-48a5-816d-c0bcf0d3f374",
+        "created_by_ref": "identity--25694548-eb0f-48a5-816d-c0bcf0d3f374",
+        "created": "2020-11-21T04:47:42.369097Z",
+        "modified": "2021-08-14T01:09:39.867307Z",
+        "name": "Burns-Thomas",
+        "identity_class": "individual",
+        "contact_information": "683 Jensen Parks\nLake Melanieland, MI 17172",
+        "confidence": 3,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "before",
+                "description": "You cover change development while debate final.",
+                "url": "https://www.hancock.com/",
+                "hashes": {
+                    "MD5": "d26d3f818271d71395eaf73c54735303",
+                    "SHA-1": "f35f6bcbeb3ee3b526a0a505746e36488c9ca1ab",
+                    "SHA-256": "649a03ee3467722444fdf2c3f203fefb58cd6ffafa8da7da7245bb4583a727da",
+                    "SHA-512": "5c836fe413db0ff45ca1d71104488de5a72a60bd4b83d0d772eff5609f09dd2195a89d15e7c5b6e8683169ad853264beba80eb2f64c2b1fdae16c84c3eeeea1d",
+                    "SHA3-256": "c165706bb26c2f62826e6e8cf92e73b02fb0e81ffb243235585186716eacf98d",
+                    "SHA3-512": "06a2643eb68357101dd3ed5a27768d02fda0199a846507628666cf088390da63c85a0e3d2ff21e1fc20b13addf015aa6ff9f0863479dc3d60193f4505ad2f43c"
+                },
+                "external_id": "XlmJkIJzXNcj"
+            },
+            {
+                "source_name": "shoulder",
+                "description": "Dog democratic cut gun.",
+                "hashes": {
+                    "MD5": "14fd600bc0e4d42573cd5dcacefe1389",
+                    "SHA-1": "24b933c02e1ec095c7c7e453426dd41bea2f8307",
+                    "SHA-256": "0587f6d785bfb8c636ca4361e2ecbe452d70b0d87863f47ce2b4c3008190ba82",
+                    "SHA-512": "34981b3b8464d38384f8cc3367c2c26c8085c4c31d991857f845dc5eb573339252abc4eac5582e123558a35e02605b9fe9355efee55fc42897027997db92d008",
+                    "SHA3-256": "cbb0832d13d1aae342fbe1d5b976952eb0e396e6bf071cd2b0c4605f5f884f5b",
+                    "SHA3-512": "78eae43e77111e7c7eb4cc88e77ecc6c2cdb792bca0eebc7977af979c9cda74d20f85d883df462e26d65746c0c0efe24ba91bccb1076ffee127f16d83b28cca3"
+                },
+                "external_id": "GnNCc"
+            },
+            {
+                "source_name": "painting",
+                "description": "Could owner feeling pass message now.",
+                "hashes": {
+                    "MD5": "858b1e37b5a395d13f563b9cc6dbbf2f",
+                    "SHA-1": "bc39c73568e521b21a63ef16def629bc4596fbd6",
+                    "SHA-256": "2e9bf97c3ae4247e42cc8020e9d63a8bd0a8b655316eadde721bd633d1cc9252",
+                    "SHA-512": "f1edc8c57039a393f1c43abf963472b7a24616068246e81018350e61f652248acdb89f7ee4479c45ca8090b1e71674ccbb84772d5efb192daf69fd368f1eedf4",
+                    "SHA3-256": "6cd6a947eb3afc310327b1865fa477704066c570eb55d44d7b40e13d3eea1fb6",
+                    "SHA3-512": "172e0b6e2d51079416b261d6c978bdd2e006ee32257c5da8cce081cd03514a080c584c98c9ff8341e1e5c95583f32053eccc72a579a466cb17fe6d8af60a02d9"
+                },
+                "external_id": "cBSdXMUDglMUcJ"
+            },
+            {
+                "source_name": "particularly",
+                "external_id": "PQWsxpGhrKkHpifAXw"
+            },
+            {
+                "source_name": "mention",
+                "description": "Present clearly society what safe want Mrs."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--cc73b8d8-5199-4574-a216-7585b11480b8"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--cc73b8d8-5199-4574-a216-7585b11480b8",
+        "created": "2021-08-14T01:09:39.86541Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2214d9cf-0e77-4d0b-9826-dfff28324708",
+                "name": "Build while international maybe effect movie",
+                "create_date_time": "2021-08-14T01:08:08.427765Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

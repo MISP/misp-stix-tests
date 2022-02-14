@@ -1,0 +1,81 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--325ab830-5bb3-4ce1-a661-b9bef42492db",
+        "created_by_ref": "identity--bd41564f-aec8-437d-a5e8-6fe8df55b0a8",
+        "created": "2021-09-01T15:47:34.072246Z",
+        "modified": "2022-07-11T17:40:12.717752Z",
+        "name": "can",
+        "aliases": [
+            "hear"
+        ],
+        "first_seen": "2021-12-21T02:23:38.351862Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 16,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--f50caa37-f8f5-4154-b751-012951a56d5e",
+        "created_by_ref": "identity--bd41564f-aec8-437d-a5e8-6fe8df55b0a8",
+        "created": "2019-12-07T13:10:59.639521Z",
+        "modified": "2021-08-14T01:08:17.32147Z",
+        "description": "Secured 24hour portal",
+        "latitude": 33.557343085933084,
+        "longitude": 112.12871468400101,
+        "country": "Congo",
+        "street_address": "7270 Howard Dale",
+        "postal_code": "26692",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a7036bd8-2cac-4897-ab60-69cfe4ccff4e",
+        "created_by_ref": "identity--bd41564f-aec8-437d-a5e8-6fe8df55b0a8",
+        "created": "2021-12-26T05:31:41.462609Z",
+        "modified": "2022-07-27T08:36:31.868492Z",
+        "relationship_type": "targets",
+        "description": "Charge wind me. Building hold table drop natural conference another.",
+        "source_ref": "campaign--325ab830-5bb3-4ce1-a661-b9bef42492db",
+        "target_ref": "location--f50caa37-f8f5-4154-b751-012951a56d5e",
+        "stop_time": "2021-11-23T23:21:28.121242Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--bd41564f-aec8-437d-a5e8-6fe8df55b0a8",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-24T09:31:03.03732Z",
+        "modified": "2021-08-14T01:08:17.323956Z",
+        "name": "AnalysisThrowAvailable",
+        "identity_class": "class",
+        "contact_information": "64989 Franklin Points Suite 721\nNew Jerry, WY 21136",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

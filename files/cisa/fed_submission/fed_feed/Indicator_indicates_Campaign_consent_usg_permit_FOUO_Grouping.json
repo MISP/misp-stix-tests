@@ -1,0 +1,246 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--668bb743-88d7-4b62-a258-ab14d5e7be1d",
+        "created_by_ref": "identity--de357baa-0d18-4fc8-b08b-bee6184cb8d1",
+        "created": "2022-04-16T10:00:08.354518Z",
+        "modified": "2022-06-23T08:23:47.946405Z",
+        "name": "kind",
+        "indicator_types": [
+            "unknown",
+            "anonymization",
+            "anomalous-activity"
+        ],
+        "pattern": "([url:value = 'https://burton.org/']) OR [autonomous-system:name <= 'Cox, Wilcox and Henson' OR ipv4-addr:value > '212.228.48.235' OR ((domain-name:value = 'wagner.com') OR software:swid >= 'org.fedoraproject.Fedora-29')]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-12-17T23:42:44.35834Z",
+        "valid_until": "2021-01-21T16:48:04.992501Z",
+        "confidence": 56,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "soon",
+                "description": "Myself source surface baby central partner.",
+                "url": "https://diaz-phillips.com/",
+                "hashes": {
+                    "MD5": "7bfbea49ea9397463d39a9f30ebd2c88",
+                    "SHA-1": "0f8ad84d14f28ec6a775924111a6306f3650881a",
+                    "SHA-256": "d40dac8ef341c0e90185ffc5d2a8aa59413b3ba4f5c68300555a946a926a6d0c",
+                    "SHA-512": "d4261d40f0e4b949cf4bdf73d6f5d5b8ded5dfd8c43576402ba14f3f2b6bef11482c1dd928072c92cec7337fd08dd8e114d00a1b6d628cb7189b3481a0e83882",
+                    "SHA3-256": "b0eedb0dee1af455eeb4c5ffdbaf609764531934a81fec3dfd3727942b9132bf",
+                    "SHA3-512": "5e45c57a6961d126627d1e52683536fd7d6abaf6ac7fe3dd070e983187a5d5ba75d1c9bf21b62ccd6f8838924bf5b00915be24e350bd292b9c41079108ad61c0"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--715f51a8-1202-41c7-9b41-77c126254299"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--4ea20d78-6b9f-46dc-9cb1-62c1d53243ee",
+        "created_by_ref": "identity--de357baa-0d18-4fc8-b08b-bee6184cb8d1",
+        "created": "2020-11-10T13:52:13.347283Z",
+        "modified": "2021-08-14T01:08:29.246241Z",
+        "name": "respond",
+        "labels": [
+            "piece",
+            "owner",
+            "product",
+            "reason",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "test",
+                "url": "http://martinez-rodriguez.com/",
+                "hashes": {
+                    "MD5": "105670cf299b47e0db7699c19c11fd17",
+                    "SHA-1": "c4ab993f8bd1f718b6d700824ed4142ea10a72aa",
+                    "SHA-256": "30a5e93870d29ba2f2adaed9709ead6d87634cf42ad03357bb1e49d6ed0cf6c1",
+                    "SHA-512": "7bff594264136ae5d89cd88dc331ffbb0b9980d6a028e66c42c6ed6d6e4903d56b6e861b81f9d1fa4d8779cb8648ac096d4859be81cd97b76003d01772c6b459",
+                    "SHA3-256": "54df294f438820922398744650e99ae91be0b6f059187d24578c956c41a76820",
+                    "SHA3-512": "c9f7a07af5d3c3114549ba3ca40dae52e24df9ef5211b3dbe5304e8164f17ba46d29bd53bd05537e81fd6d61da8cb3b853fcc61938b5c783023475073dc26928"
+                }
+            },
+            {
+                "source_name": "wide",
+                "description": "Tend glass hand positive thus.",
+                "url": "https://walters.com/"
+            },
+            {
+                "source_name": "list",
+                "description": "Hospital along throughout raise little middle assume.",
+                "external_id": "lrLCdtvlSpbSyvCXI"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--715f51a8-1202-41c7-9b41-77c126254299"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1d28dad9-913b-4b45-9d45-a5fa7295192d",
+        "created_by_ref": "identity--de357baa-0d18-4fc8-b08b-bee6184cb8d1",
+        "created": "2022-07-14T04:04:04.554221Z",
+        "modified": "2022-10-29T06:51:16.623511Z",
+        "relationship_type": "indicates",
+        "description": "My hot discuss rise task cause ahead nature. Professional military knowledge cultural seem.",
+        "source_ref": "indicator--668bb743-88d7-4b62-a258-ab14d5e7be1d",
+        "target_ref": "campaign--4ea20d78-6b9f-46dc-9cb1-62c1d53243ee",
+        "start_time": "2021-08-06T02:41:57.464986Z",
+        "labels": [
+            "already",
+            "peace",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "represent",
+                "hashes": {
+                    "MD5": "60db33b21d0b82d06d3c143b04f0cab4",
+                    "SHA-1": "4013cd66b9f153c8defea4cd18e78d8caae231fc",
+                    "SHA-256": "5a9609166a93ecb8c051b6438967f093f520773c0a7d4b8c42067e3407dff818",
+                    "SHA-512": "26cc1fa60b3612dbe000852a8be646807b073dc4c7a8a682332bd9c1654a9310daff45c6a822634e8e0caaf582aaded3e0a2b8b28a924b5e33b79358a81af0d9",
+                    "SHA3-256": "f9a61b52d33ce4ce7f0bf05a55133e4c8b9e9d6235dabc46f42bc483cf32fe71",
+                    "SHA3-512": "be9cc8c69370ff55e6406f298e2333983f4fe646289a79a9defc65e2425e6832a454b76a2e74befec86192175d3676033da10e35f9a99b8d5626820803f80ade"
+                },
+                "external_id": "RAfusD"
+            },
+            {
+                "source_name": "quite",
+                "description": "Writer simply those note many.",
+                "url": "http://www.anderson.com/",
+                "hashes": {
+                    "MD5": "abdd29982425b71f10f5fe971309ff3d",
+                    "SHA-1": "0204e19bd044a3fe3f94d977a91f27140a9f2daf",
+                    "SHA-256": "2a086b132a5293c1c09c0eaab96f0d56d674fa0e1447c2a3ade5f4f4538bfa33",
+                    "SHA-512": "457af5187ae53a2edfacd4bce4dee2799ed66fbc667b494833b647ec1b7676d480b39ead868fa5e73a19f9592db8a0ccb740ad65731f975bede0a8dc42d19b4e",
+                    "SHA3-256": "92b6e0b6564b3120c73586062cf9ce176cd86559bd98363cf609c1cb71144537",
+                    "SHA3-512": "2b54ec526185993ff27724b43ed364e2b9db8889acbbed14445d97be88b0e642597a2b0d88b428aca2e57606d45b7b3f07376094cf16820b74379ab2a60f137c"
+                },
+                "external_id": "kqqrXSEdPQI"
+            },
+            {
+                "source_name": "in",
+                "description": "Perform special wide ask its have.",
+                "url": "http://www.hodges.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--715f51a8-1202-41c7-9b41-77c126254299"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--0f4721b4-ff63-4c01-a5d1-01b2fd34d269",
+        "created_by_ref": "identity--de357baa-0d18-4fc8-b08b-bee6184cb8d1",
+        "created": "2021-03-12T07:08:12.386134Z",
+        "modified": "2021-11-13T02:08:53.116671Z",
+        "name": "quality",
+        "context": "suspicious-activity",
+        "object_refs": [
+            "indicator--668bb743-88d7-4b62-a258-ab14d5e7be1d",
+            "campaign--4ea20d78-6b9f-46dc-9cb1-62c1d53243ee",
+            "relationship--1d28dad9-913b-4b45-9d45-a5fa7295192d"
+        ],
+        "external_references": [
+            {
+                "source_name": "could",
+                "description": "Grow with assume hand yourself.",
+                "url": "http://davis-scott.com/"
+            },
+            {
+                "source_name": "whose",
+                "description": "Open kind wide role.",
+                "url": "https://www.hancock.com/",
+                "external_id": "yYqhLeL"
+            },
+            {
+                "source_name": "contain",
+                "description": "About travel compare method near role.",
+                "url": "https://kelly.com/",
+                "external_id": "AtTcKjbIpNoy"
+            },
+            {
+                "source_name": "law",
+                "description": "Magazine family minute forward unit age.",
+                "url": "https://mason.com/",
+                "external_id": "UDQNereAXr"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--715f51a8-1202-41c7-9b41-77c126254299"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--de357baa-0d18-4fc8-b08b-bee6184cb8d1",
+        "created_by_ref": "identity--de357baa-0d18-4fc8-b08b-bee6184cb8d1",
+        "created": "2021-11-26T23:15:41.771227Z",
+        "modified": "2021-12-04T05:08:09.789738Z",
+        "name": "Gomez Group",
+        "description": "Persistent solution-oriented archive",
+        "sectors": [
+            "technology"
+        ],
+        "contact_information": "372 Bentley Mount\nNorth Jamesmouth, UT 89224",
+        "confidence": 46,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--715f51a8-1202-41c7-9b41-77c126254299"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--715f51a8-1202-41c7-9b41-77c126254299",
+        "created": "2021-08-14T01:08:29.242252Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2214d9cf-0e77-4d0b-9826-dfff28324708",
+                "name": "Build while international maybe effect movie",
+                "create_date_time": "2021-08-14T01:08:08.427765Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

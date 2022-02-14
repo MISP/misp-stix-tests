@@ -1,0 +1,186 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--e54026f6-b8f1-40ea-a460-47c65ea8d69f",
+        "created_by_ref": "identity--e2850192-7dcf-40b5-923a-52acbec3cccb",
+        "created": "2021-06-30T22:59:33.918212Z",
+        "modified": "2022-05-21T03:07:31.301049Z",
+        "name": "everyone",
+        "pattern": "[email-message:defanged NOT = false] OR (([network-traffic:defanged NOT = true]) AND [(network-traffic:defanged NOT = false) AND network-traffic:src_byte_count NOT = 735896]) WITHIN 5 SECONDS",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-01-30T04:29:02.72226Z",
+        "valid_until": "2022-04-13T05:46:36.631877Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 66,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--c2050974-f5bc-4737-877e-10ea6ca69eb1",
+        "created_by_ref": "identity--e2850192-7dcf-40b5-923a-52acbec3cccb",
+        "created": "2021-04-15T00:55:18.324256Z",
+        "modified": "2021-08-14T01:08:34.843922Z",
+        "name": "method",
+        "aliases": [
+            "for"
+        ],
+        "tool_version": "capital",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "walk",
+                "description": "Four someone audience put heavy.",
+                "external_id": "yxAAunUFXHnO"
+            },
+            {
+                "source_name": "public",
+                "description": "Piece expect significant over issue power treatment.",
+                "url": "http://miller.com/"
+            },
+            {
+                "source_name": "all",
+                "description": "Hear possible discuss those cost idea understand fish.",
+                "hashes": {
+                    "MD5": "4123cf5d5880d21759e5b438c8931139",
+                    "SHA-1": "a00643679a77e56bba76632cbcf2cccad87cefd9",
+                    "SHA-256": "22176a44a202c208613071948ff6f00dd2f92cc02c7cca79f681ec1d5cdf95a0",
+                    "SHA-512": "309a272de9037969fa5e172afb83ee9f61a7fd48690ca0deaaed578d198256ac324cfe7d9198de1d4655473f95ba82e694f31aafeaaa73151b066bfb30c5ae57",
+                    "SHA3-256": "06041a0410628dafec1164a02238963711754ac1cedcad0f6590442a10cb4ebc",
+                    "SHA3-512": "9b78faa159134084c43aae3caffc72cdf1d1dbc07afe4f318eb16e48a420bde2f0743d9fa286a5145722e19bd0cdde0cb32751bb44dcfc66aa323781dea0fbb6"
+                },
+                "external_id": "INDoVCFzXIO"
+            },
+            {
+                "source_name": "ago",
+                "url": "https://chan.com/",
+                "hashes": {
+                    "MD5": "e26dccb560d063b82fc13dbcd0091fdf",
+                    "SHA-1": "f93867c571ae03fe030fa2e20968869965d9cc22",
+                    "SHA-256": "9877fdd5199278335d8d158ffb31c1350d0b86a1eaf5ad1fda7eee4f864e9b5d",
+                    "SHA-512": "6c25210377fb65150725c23879569e0446146feb8c71e3a701a6a0e274e7937d0d32c8510734d140a71c14c9e42fe26c507331bde680d8ec4d633556cc81ef6d",
+                    "SHA3-256": "05c24ee34b19621a12eed010ba0b87591558e29dd6214e7a9a3aba41b94fab37",
+                    "SHA3-512": "8f8d08957715d631a4855f8afd18702e4aa7ab9ac8605d18d2b3917110fbcdb593d13e98991bad87587c2c9d976dae9bfcf76cbd2b0f2dbb8efd4fed80b0d429"
+                },
+                "external_id": "MEpWUonDOEoDQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--11cfb85d-b873-4f77-bb60-7d1c20dc0c91",
+        "created_by_ref": "identity--e2850192-7dcf-40b5-923a-52acbec3cccb",
+        "created": "2020-11-23T08:07:31.874626Z",
+        "modified": "2021-08-14T01:08:34.844315Z",
+        "relationship_type": "indicates",
+        "description": "Forget late PM rise statement. Television yeah reveal would sometimes.",
+        "source_ref": "indicator--e54026f6-b8f1-40ea-a460-47c65ea8d69f",
+        "target_ref": "tool--c2050974-f5bc-4737-877e-10ea6ca69eb1",
+        "stop_time": "2020-12-31T00:12:06.274459Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "capital",
+                "url": "http://nielsen-young.com/",
+                "hashes": {
+                    "MD5": "99b48ff018a7e8cd765e1f693e486ff9",
+                    "SHA-1": "7746763d2410087b450f0f61c2ceb54e9ec38841",
+                    "SHA-256": "cada768ab983d4bb4c50512f1f5d19daf522e8ef1c8a892e3f55fc491aa2f4be",
+                    "SHA-512": "66545ccee2a83574fa6275792d1d595c4f75b77b02f687ea02e4beedcb407b5107e9c681283e98c6647ab0955e297e2b1202adeb2ee7f455705da2dc29b49bbc",
+                    "SHA3-256": "3941fd6f543b237b5cab238aae6982efefcee1edb39e646cee3f9e2408cd59eb",
+                    "SHA3-512": "d56c8afac9c6b57a521a54bdbd5ee369b5c5984853ba1116419e28512ce021ef27e2d28b679d3eb3e19e8f0f829784ccbb6285795537961b0e07fdbe5c5bb639"
+                },
+                "external_id": "ylkZSrd"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--dd3840ea-65f7-4eab-b706-f437901ad66e",
+        "created_by_ref": "identity--e2850192-7dcf-40b5-923a-52acbec3cccb",
+        "created": "2022-04-30T18:04:36.65935Z",
+        "modified": "2022-12-21T04:59:25.416901Z",
+        "opinion": "neutral",
+        "object_refs": [
+            "indicator--e54026f6-b8f1-40ea-a460-47c65ea8d69f",
+            "tool--c2050974-f5bc-4737-877e-10ea6ca69eb1",
+            "relationship--11cfb85d-b873-4f77-bb60-7d1c20dc0c91"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 25,
+        "external_references": [
+            {
+                "source_name": "music",
+                "description": "Act message field modern lose good address.",
+                "url": "http://manning.com/",
+                "hashes": {
+                    "MD5": "74e910795d250736364a0e6d5abe2d7a",
+                    "SHA-1": "ac76a655decac61ce85b58bf76bdf8cda918a4e8",
+                    "SHA-256": "a5da4778130a27a981673505b3cfe23d8d8bfcd99e07316cea5021b73e3dd509",
+                    "SHA-512": "c65e1dc40a4a94ca678b14b5d654621a8fb3b80dd69bfe85ff3147638137336b0bb72bad70f96116f8019db20a74074e9772623c560ebacadfe5fc26a56edc35",
+                    "SHA3-256": "a01c22034b4dfd01e4b97c5e21ffccec3a916bae15b83c58606b5ffdf264e4f1",
+                    "SHA3-512": "20eb3d3e0e87104fac80d5dea510a4bdb7da3843e98cbce1401024c95623f9988f704a02a7f688c0772d74fd77681521a66de9381ffa28c473d3e3b117d9bc2e"
+                },
+                "external_id": "DIykguvMSGNnp"
+            },
+            {
+                "source_name": "result",
+                "hashes": {
+                    "MD5": "8e49ee7d560b44f622727a8a26cf95a1",
+                    "SHA-1": "9489db2bbc5ab30a335e7df26214fc8f9431f6d6",
+                    "SHA-256": "87c3f83a753410d99f750b7aa91d228699c86fc4d593dc2f2ee5703a861280a4",
+                    "SHA-512": "7cdc02c23716a063d67167bfdc19169a82ec6bb0075002a4bcc68ecf4f8472b9ef3aee2a011aff02281e384776d78c8dad824b1d6ce67c889ff435ca3722046c",
+                    "SHA3-256": "ec8aba29df0a14677652f37db3b7e5a2627740850ed1c84258b25798773b8a40",
+                    "SHA3-512": "cb07c5e005af876ad02c3f05b4ddb66a2fac331be79e8a79b0d57cc8bba598909beb6b04a84551b2beb290157bf670dde95e1c04f25b051e00ff043fe1d6e3f6"
+                },
+                "external_id": "tDhxnqVpVRMDN"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e2850192-7dcf-40b5-923a-52acbec3cccb",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-13T10:36:37.122534Z",
+        "modified": "2021-12-04T01:00:31.073261Z",
+        "name": "Carey-Huynh",
+        "identity_class": "individual",
+        "sectors": [
+            "construction"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

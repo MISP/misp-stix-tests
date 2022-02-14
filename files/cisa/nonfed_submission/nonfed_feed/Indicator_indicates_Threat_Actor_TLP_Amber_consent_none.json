@@ -1,0 +1,167 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--ca9616d1-1540-4e75-8aaa-54fad35a151a",
+        "created_by_ref": "identity--a3160591-ca1c-4324-8652-6e70ac87f5f3",
+        "created": "2020-12-13T22:07:38.758128Z",
+        "modified": "2021-08-14T01:08:33.481765Z",
+        "indicator_types": [
+            "unknown",
+            "benign"
+        ],
+        "pattern": "[software:cpe >= 'cpe:2.3:o:fedoraproject:fedora:29:*:*:*:*:*:*:*'] OR [process:defanged = false] OR [mac-addr:defanged NOT = false] OR ([mutex:name >= 'history'] OR ([domain-name:value = 'richardson.info'])) WITHIN 6 SECONDS",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-04-18T03:37:16.11778Z",
+        "valid_until": "2021-10-03T01:17:31.419073Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "EBnRjYrS",
+                "phase_name": "vqUEjtUbvGyvJPX"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--9f98823d-8a89-43ee-9bb8-fce9125d3808",
+        "created_by_ref": "identity--a3160591-ca1c-4324-8652-6e70ac87f5f3",
+        "created": "2022-05-26T16:08:00.012721Z",
+        "modified": "2022-10-21T18:21:19.798716Z",
+        "name": "fire",
+        "description": "Against gun action something perhaps remember day follow.",
+        "first_seen": "2021-01-11T10:03:50.618105Z",
+        "last_seen": "2021-11-06T03:26:43.799974Z",
+        "roles": [
+            "independent",
+            "malware-author",
+            "agent"
+        ],
+        "sophistication": "strategic",
+        "resource_level": "club",
+        "secondary_motivations": [
+            "personal-satisfaction",
+            "revenge",
+            "coercion",
+            "ideology",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "region",
+            "consider",
+            "gas",
+            "pfte-batch-1"
+        ],
+        "confidence": 41,
+        "external_references": [
+            {
+                "source_name": "total",
+                "description": "Individual rule budget will government among.",
+                "url": "http://www.strickland.com/",
+                "external_id": "Ahphs"
+            },
+            {
+                "source_name": "relate",
+                "description": "Pretty authority business strategy and major beat.",
+                "url": "http://www.jackson.org/"
+            },
+            {
+                "source_name": "popular",
+                "description": "Anyone news shake oil play.",
+                "url": "http://www.gonzales.com/"
+            },
+            {
+                "source_name": "cultural",
+                "url": "https://valenzuela.com/",
+                "hashes": {
+                    "MD5": "0733fbb069cc36372d9d48fd1567e593",
+                    "SHA-1": "de826b2579f20ea9cf3edf90fba78cb455af4af2",
+                    "SHA-256": "5ec6b6987559a26deff6af3aac156dfc5e39be1be8d67738edbdc9c8377b1d55",
+                    "SHA-512": "062567b8d731e44775bce949d3c98b5e576b39bb91354020ae2a9f37a4ce303a8e7f215efc8ba46b890712d767ce0119190c5b5d7dee835b5a45aa94b167e1e0",
+                    "SHA3-256": "b0f4cf02590adb9c78359a2188447b8e6bb7762b7fb12edaa9e3ea5bbb88612f",
+                    "SHA3-512": "609019024088cc7be9dc4d01f09430ee95e646347aa84249e117732d9d840311b58f9dd803a9ec4f5fb1a8313bc4e63afcf349f208aaca5447c9cbd266f88c7f"
+                },
+                "external_id": "SJmqdqCLUp"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--96dd4c2e-eb7a-486e-8f2d-dc09b72c3f03",
+        "created_by_ref": "identity--a3160591-ca1c-4324-8652-6e70ac87f5f3",
+        "created": "2020-12-06T13:10:21.786003Z",
+        "modified": "2021-10-27T19:48:45.367502Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--ca9616d1-1540-4e75-8aaa-54fad35a151a",
+        "target_ref": "threat-actor--9f98823d-8a89-43ee-9bb8-fce9125d3808",
+        "start_time": "2020-08-23T02:49:51.74881Z",
+        "labels": [
+            "into",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "send",
+                "url": "https://rodriguez-wiggins.com/",
+                "hashes": {
+                    "MD5": "054661ef09e34db532567752c518e409",
+                    "SHA-1": "0c360d18965db09489a09150f09fecca2ac51ddc",
+                    "SHA-256": "397af5035633c21f8dd3fb8e7824248498bbedf00547fc55d54adb7807f78f84",
+                    "SHA-512": "ea8ea68d03785944335f8e0ddaaa67a394ef3d305259ba9a2a073f7b39960b687c5d23cc83084e9457eb4875af968ef98c2aa6a67f9bae883577fcabbc4cf173",
+                    "SHA3-256": "7376aa12d9de6ecb228b07659603fd02bba302207335d9ddd51aaed77b7b593d",
+                    "SHA3-512": "3652030d012c859c677035b33183e0540eacdd0d577de842b0114865bae69d01c93563787a7a56b1e4b300ae73d6b6ce00226ccfec02c17fb8f6368668813d37"
+                },
+                "external_id": "YKJOqJkIo"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a3160591-ca1c-4324-8652-6e70ac87f5f3",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-05T03:25:34.177631Z",
+        "modified": "2021-08-29T19:06:24.581495Z",
+        "name": "BoxSimilarHistory",
+        "description": "Pre-emptive global strategy",
+        "identity_class": "unknown",
+        "sectors": [
+            "government-national",
+            "construction",
+            "healthcare",
+            "commercial",
+            "government"
+        ],
+        "contact_information": "106 Teresa River Suite 485\nRomeroland, IA 77355",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 5,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

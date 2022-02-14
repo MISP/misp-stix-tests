@@ -1,0 +1,137 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--c4f0b2bf-f6df-4572-846d-475d8bbfe5b4",
+        "created_by_ref": "identity--24980083-9862-4568-a39b-1ad5d4edf324",
+        "created": "2022-03-26T01:24:18.654085Z",
+        "modified": "2023-02-11T16:46:33.592243Z",
+        "name": "affect",
+        "description": "Tonight understand feeling television if.",
+        "threat_actor_types": [
+            "insider-disgruntled",
+            "unknown",
+            "nation-state",
+            "competitor"
+        ],
+        "aliases": [
+            "final",
+            "last",
+            "food",
+            "take",
+            "throughout"
+        ],
+        "last_seen": "2021-05-05T08:25:02.786596Z",
+        "roles": [
+            "agent"
+        ],
+        "goals": [
+            "song",
+            "home",
+            "day",
+            "room"
+        ],
+        "primary_motivation": "coercion",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "order",
+                "url": "https://orozco-robinson.net/",
+                "hashes": {
+                    "MD5": "2e618314a61b8be14c3fddcc8a437c57",
+                    "SHA-1": "c2285696ba7744fe06a6999acfe6cc101788b389",
+                    "SHA-256": "b6ac9668d3fdad81e53a6bba591b0db961ca072aba5d37aff28da791aae2a9ce",
+                    "SHA-512": "fa1ad2a98eaeff802b6e42f3935904ce7c82b2ae369006177d3528939b83c954576993a05d195b6251ede754fad9b8a30e9a1761c726d887c9469259328253c3",
+                    "SHA3-256": "3b860f0f0487f071faf8e1bee594ff75593aa9e52f1207f0a74a5f3a2514779b",
+                    "SHA3-512": "8ad665dbc6ff2a8e8ed187d9e9b7e06b8bb32c05f31de7bc3712de27d8580b510ed330e12731b4a83622bb780dab79ead28e896c17cdf035ff17e4a01b3618f3"
+                },
+                "external_id": "hwKToYYlM"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--54c2eb92-a0cd-4232-856c-5cd9e3271b98",
+        "created_by_ref": "identity--24980083-9862-4568-a39b-1ad5d4edf324",
+        "created": "2021-10-26T07:32:08.75411Z",
+        "modified": "2022-10-12T23:12:11.108634Z",
+        "name": "little",
+        "infrastructure_types": [
+            "anonymization",
+            "staging",
+            "reconnaissance"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 93,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--76bfef41-f21d-4d06-aa0c-9b02c99ea3f5",
+        "created_by_ref": "identity--24980083-9862-4568-a39b-1ad5d4edf324",
+        "created": "2021-04-14T16:55:50.178752Z",
+        "modified": "2021-12-28T20:58:23.998114Z",
+        "relationship_type": "hosts",
+        "source_ref": "threat-actor--c4f0b2bf-f6df-4572-846d-475d8bbfe5b4",
+        "target_ref": "infrastructure--54c2eb92-a0cd-4232-856c-5cd9e3271b98",
+        "start_time": "2021-09-04T05:15:29.772552Z",
+        "stop_time": "2022-02-08T12:44:30.22256Z",
+        "labels": [
+            "the",
+            "pfte-batch-1"
+        ],
+        "confidence": 64,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--24980083-9862-4568-a39b-1ad5d4edf324",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-02T23:11:20.982248Z",
+        "modified": "2021-08-14T01:09:27.018882Z",
+        "name": "Crane-Woods",
+        "description": "Balanced directional forecast",
+        "sectors": [
+            "automotive",
+            "pharmaceuticals"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

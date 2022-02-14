@@ -1,0 +1,165 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--67fb0c3d-6e04-4ae7-8e81-11db0869b5f0",
+        "created_by_ref": "identity--e48c2985-a515-443a-8dd9-6ce804af9f55",
+        "created": "2022-03-10T20:30:25.053354Z",
+        "modified": "2022-08-11T02:24:20.209921Z",
+        "name": "his",
+        "description": "Need soon visit decide let.",
+        "aliases": [
+            "pretty",
+            "cold",
+            "push"
+        ],
+        "last_seen": "2020-10-21T05:11:36.21249Z",
+        "resource_level": "contest",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 26,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--283d48cb-e085-4f9f-9231-75946e28f84d",
+        "created_by_ref": "identity--e48c2985-a515-443a-8dd9-6ce804af9f55",
+        "created": "2021-04-26T16:20:05.307488Z",
+        "modified": "2021-08-14T01:08:58.384549Z",
+        "name": "fund",
+        "description": "Soldier remember hot see.",
+        "aliases": [
+            "sure",
+            "of",
+            "east",
+            "president",
+            "community"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "XNXefaGdjTUxhsQANLq",
+                "phase_name": "BNlQYBpryadBwYlQZ"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "last_seen": "2022-03-20T20:19:51.8969Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--da7e23f8-2414-4f80-82c3-286bbe99e771",
+        "created_by_ref": "identity--e48c2985-a515-443a-8dd9-6ce804af9f55",
+        "created": "2021-01-09T08:16:22.843694Z",
+        "modified": "2021-10-03T11:17:24.947797Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--67fb0c3d-6e04-4ae7-8e81-11db0869b5f0",
+        "target_ref": "infrastructure--283d48cb-e085-4f9f-9231-75946e28f84d",
+        "start_time": "2021-03-07T11:28:31.678031Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 49,
+        "external_references": [
+            {
+                "source_name": "rate",
+                "url": "http://www.waters-lee.biz/",
+                "hashes": {
+                    "MD5": "c583035ed16f790ca7bee816e8300a6e",
+                    "SHA-1": "741cffb021ee3e24a2d2c58b6ec8ca018fad3b8c",
+                    "SHA-256": "3f893211533aeaa4dd24d57fdf8de2653b0b5c6b11bc43b89085f6be5af86864",
+                    "SHA-512": "578a45d5e13f32cf573d90cafb0e936cbf3ad3352fff90bcf934e8b74e41abd982aaf654c63417952ec38ecf4afb8f551b84540105c37f64401d0c2da55236da",
+                    "SHA3-256": "25ea176cb095538d6cef4c9d83421d0990e9ee780f051c7a2c81fb0beb52c341",
+                    "SHA3-512": "5d1eaa0fa651ee5921d99c7a7386e92c47d928a271306ea871e5693fb7bc12a75ae949e6c808f6d59507cc25487ca2f4961924d10ebe42329d6f1d4c733d0d2c"
+                },
+                "external_id": "hjkxUinaUnuKPkdizF"
+            },
+            {
+                "source_name": "bring",
+                "description": "Together big artist pay old.",
+                "url": "http://www.davila.com/",
+                "hashes": {
+                    "MD5": "29bd2610198b2f0e3f86b5e16ad98b3d",
+                    "SHA-1": "a4ea67fd5eaf9e54b7710d37671f96fd3e16f57b",
+                    "SHA-256": "0d93160afabcd38f10b2e24977ae850fce5c873deb7abdf529ed2e82a785f237",
+                    "SHA-512": "41cffd259e12c13be9c35101a19e56621b16064fb3ad4334b3d7a19b7b65913ea7276b60d30ce4de4b47671da50d42285f1e7fa6e52524bf5447ec5859f85dba",
+                    "SHA3-256": "22c1e5ba6ab6ccfadf2c0f75e7e4fdcfd2b8749ed8663bbcebd1f8e105250640",
+                    "SHA3-512": "3a4446c2b7d6f73330dc103f2aafe748cc1980519b88bd008f42823a9c0d07afed4af71ff3927edefb82b10e2ed3a0a63dc9ff1ee0e07d0e60075e287f308cf4"
+                },
+                "external_id": "rcOOTSwILko"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e48c2985-a515-443a-8dd9-6ce804af9f55",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-20T17:20:55.084487Z",
+        "modified": "2022-07-08T11:49:19.896401Z",
+        "name": "Sullivan-Banks",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 65,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "great",
+                "description": "Second it decision month wide do team.",
+                "url": "http://gonzalez-robinson.net/",
+                "hashes": {
+                    "MD5": "3d8f03de15a6b23ce48d8afbf4446b3c",
+                    "SHA-1": "7ff1cec4f533c56a8c0a06d171c9deaa5d743b3b",
+                    "SHA-256": "795f23517c0011344a1196eabb1b48922a3a93513f45924e079090037f39b5a7",
+                    "SHA-512": "38bd930d3539b428ae430ca7f9a138e40d479265de43339a04e32215e1ea159c8361a3172fcf0abc24d16e2c2ba227dca530e98447e65e35352a2959902c71ac",
+                    "SHA3-256": "d63b39a3c834c145921192a2acd147a0aa7e34980ab8e1880b128967407226cb",
+                    "SHA3-512": "6803465d6c4a218aceb2e1599df0c723127e01a2a86aa5e390e6f0cb816389de274949c59281155dcb07b64622bd6df42eee29ced314e5ad92fc54721fee9c60"
+                },
+                "external_id": "xiKBsDBLqtHWVviXCd"
+            },
+            {
+                "source_name": "task",
+                "description": "Off generation trade child practice film.",
+                "hashes": {
+                    "MD5": "b6f14ac09fe158861a8b8cfac340b4c3",
+                    "SHA-1": "163d3d47649ab0b7add499e3902ce2a894d24a3b",
+                    "SHA-256": "3bd3ab61b6183370887bbac090618f5c0fd93f560fa4b76aa4f9cc7e5e4e59cf",
+                    "SHA-512": "0b2edba2478ce2998f5d4bcad9f19bbde260c2f7084bb83f5dc2b0cf5bfed9dcf0df9392b599f7dfddecd83be3295c7e209762c6b991db17cfc39349020d20ea",
+                    "SHA3-256": "fecc17f2e5911fcfe4c4dfff5d9643d3b7215a5566b1d2a031fbea3727cf97e6",
+                    "SHA3-512": "7f5fdddc356992fe105ec5fe5a31531849b30bf3edec020afc95bb143c4a1f7d8b6b2dd6558937c3b816532f748b3d8dc269bfca830a78960d2c50add944d8d5"
+                },
+                "external_id": "sIpimIQqJ"
+            },
+            {
+                "source_name": "full",
+                "description": "Our crime education hotel car phone call.",
+                "external_id": "CTthMDGihWvBAMcrxQze"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

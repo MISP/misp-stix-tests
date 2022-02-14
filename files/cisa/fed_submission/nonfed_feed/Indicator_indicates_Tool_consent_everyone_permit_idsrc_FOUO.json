@@ -1,0 +1,88 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--48a9c561-9ed1-48ed-bb39-5332d3e20529",
+        "created_by_ref": "identity--c41a0571-3e6c-48c1-8d02-6a4868c6ea5b",
+        "created": "2021-06-03T06:42:01.861638Z",
+        "modified": "2021-08-14T01:08:35.589063Z",
+        "name": "under",
+        "pattern": "(([ipv4-addr:value >= '128.200.79.211'] OR [email-addr:value >= 'jessecarter@yahoo.com'])) OR [mutex:name < 'take' OR (domain-name:defanged NOT = false)]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-12-12T08:44:30.788549Z",
+        "valid_until": "2021-10-09T08:05:43.897757Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--39bb3faa-f408-4e31-ae85-c20e6408a485",
+        "created_by_ref": "identity--c41a0571-3e6c-48c1-8d02-6a4868c6ea5b",
+        "created": "2022-02-02T23:10:52.855107Z",
+        "modified": "2023-01-01T08:04:15.50402Z",
+        "name": "best",
+        "description": "Different herself special answer because the.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "pPKkgvzkcitnXbXEfaS",
+                "phase_name": "YVTkwkYogcEaseLulsb"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "tool_version": "old",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 36,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--681a1180-3984-4480-9d32-7c2a7c82dd20",
+        "created_by_ref": "identity--c41a0571-3e6c-48c1-8d02-6a4868c6ea5b",
+        "created": "2021-01-01T12:35:50.693789Z",
+        "modified": "2021-08-14T01:08:35.592228Z",
+        "relationship_type": "indicates",
+        "description": "Relationship ago each station method late from policy. Speech two century necessary successful nothing. Material little media campaign.",
+        "source_ref": "indicator--48a9c561-9ed1-48ed-bb39-5332d3e20529",
+        "target_ref": "tool--39bb3faa-f408-4e31-ae85-c20e6408a485",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 30,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c41a0571-3e6c-48c1-8d02-6a4868c6ea5b",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-08-11T19:24:46.320813Z",
+        "modified": "2022-07-04T01:49:34.095173Z",
+        "name": "Jimenez-Pittman",
+        "description": "Cross-group composite capacity",
+        "identity_class": "individual",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

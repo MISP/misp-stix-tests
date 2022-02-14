@@ -1,0 +1,152 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--604a0b3c-4278-4e05-9c86-20a5e82d5d97",
+        "created_by_ref": "identity--046584d9-ae64-4730-a0dc-eb8b0ef922c7",
+        "created": "2020-11-28T01:41:26.579408Z",
+        "modified": "2021-08-14T01:08:32.042636Z",
+        "name": "three",
+        "description": "Myself not follow speak provide.",
+        "indicator_types": [
+            "unknown",
+            "attribution",
+            "unknown",
+            "anonymization"
+        ],
+        "pattern": "[network-traffic:src_byte_count > 131878]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-02-11T01:12:28.412441Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 37,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--e6c4926e-574e-4dd1-8667-5fd74b016617",
+        "created_by_ref": "identity--046584d9-ae64-4730-a0dc-eb8b0ef922c7",
+        "created": "2020-10-22T06:52:41.257419Z",
+        "modified": "2021-08-14T01:08:32.043604Z",
+        "name": "politics",
+        "description": "Force rock discuss stuff.",
+        "aliases": [
+            "nice",
+            "between"
+        ],
+        "first_seen": "2021-11-08T06:42:12.100266Z",
+        "last_seen": "2021-12-10T16:46:55.488443Z",
+        "goals": [
+            "Movement thank central miss air fact.",
+            "Help interesting around.",
+            "Court attention modern condition."
+        ],
+        "resource_level": "organization",
+        "labels": [
+            "beyond",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d6f4f1f2-3c21-4bd1-98ac-ee1a8a901812",
+        "created_by_ref": "identity--046584d9-ae64-4730-a0dc-eb8b0ef922c7",
+        "created": "2021-12-11T08:43:42.341062Z",
+        "modified": "2022-08-12T22:55:02.579122Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--604a0b3c-4278-4e05-9c86-20a5e82d5d97",
+        "target_ref": "intrusion-set--e6c4926e-574e-4dd1-8667-5fd74b016617",
+        "start_time": "2021-12-18T07:55:51.577008Z",
+        "stop_time": "2022-08-11T07:35:58.361277Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 89,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--7d92a1d5-dbd0-42d8-9024-415f7dad47db",
+        "created_by_ref": "identity--046584d9-ae64-4730-a0dc-eb8b0ef922c7",
+        "created": "2022-07-11T10:49:47.560876Z",
+        "modified": "2022-09-04T11:50:10.981495Z",
+        "name": "argue",
+        "description": "Individual picture simple rule every economic wall wind.",
+        "context": "malware-analysis",
+        "object_refs": [
+            "indicator--604a0b3c-4278-4e05-9c86-20a5e82d5d97",
+            "intrusion-set--e6c4926e-574e-4dd1-8667-5fd74b016617",
+            "relationship--d6f4f1f2-3c21-4bd1-98ac-ee1a8a901812"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 77,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--046584d9-ae64-4730-a0dc-eb8b0ef922c7",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-20T06:13:35.916995Z",
+        "modified": "2021-08-14T01:08:32.047549Z",
+        "name": "Thompson Ltd",
+        "identity_class": "system",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "establish",
+                "description": "Financial despite range natural test drug meeting collection.",
+                "external_id": "wWkZvpXAdgcwARnQAQ"
+            },
+            {
+                "source_name": "economic",
+                "description": "Ago blood knowledge.",
+                "url": "https://www.callahan-smith.com/",
+                "hashes": {
+                    "MD5": "5911c2efe4cac2122f2c1a1bd156b6f5",
+                    "SHA-1": "f1f72c0e2035b00b56f45bb4d6b9d259a77ec9d2",
+                    "SHA-256": "4aa5f05ab74078a3d2f60d47aa95a886ab24ffed3049a1b0a6dd795c8a5520e7",
+                    "SHA-512": "541b19d34bb07906b5ce5ad3832a5a371b0b654531057cc0a16a69868defd9e6dc7534757ffeb85e9eeb2c21ee2e9420e622ccc5d542643ea8f6e5e514cbf7e4",
+                    "SHA3-256": "524769e7deb0cfcc47cd867a6fcc05c6f427da02639556839089900f47960836",
+                    "SHA3-512": "3f7bef40094a5be7d47b0d2a8198ea02955bfb4410664fd0ad9135a52c22526e21000972a3a8fab4895bd2fc288f11508873a8d2c96d58f7a8afb8e0faf98001"
+                }
+            },
+            {
+                "source_name": "fly",
+                "url": "https://patterson-carey.com/",
+                "hashes": {
+                    "MD5": "3b5c4647964986279d736d0bd4a5b1e2",
+                    "SHA-1": "3d5067886a105f6283021f737e9428900f4a7609",
+                    "SHA-256": "d0d70fbcbcaaa381e9718c0e09b60d9dc4d39af7cb5c7524cb587c23bfe771ee",
+                    "SHA-512": "ee7428974228fdf6050ca3951f63e4ac5393f5e7bc73528a6f5f61542a3f9fc76a030bc5c1b1b02929132fef92d051e1110c83968cc51a6474fa72dc030ca27c",
+                    "SHA3-256": "9dc28b4ae4f835e2641e694539a5e18fa7d3975dce5415ce6acae18317fc2236",
+                    "SHA3-512": "eb49f0886e300085b2d8c1e10c990f4ddf6389d09f948f0c354d88d9a6da6018fdb459baff329cf055a2fe7d81660a5789fcde3c30bcd90dc686432794bca4c7"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

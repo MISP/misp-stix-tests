@@ -1,0 +1,155 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--c83f9b1f-085b-4415-9e82-e7981fc80628",
+        "created_by_ref": "identity--f78cdc22-2298-479f-9068-c2f865da95fc",
+        "created": "2022-03-13T17:25:37.440982Z",
+        "modified": "2022-11-24T01:08:36.565512Z",
+        "name": "include",
+        "description": "Successful line able machine eye traditional career.",
+        "first_seen": "2021-09-24T10:20:28.638976Z",
+        "objective": "Dinner bring water check benefit bank man.",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9796b578-6869-4901-b857-6253128e8ba9"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--497b0625-4e2e-4763-9447-19c3c56e9258",
+        "created_by_ref": "identity--f78cdc22-2298-479f-9068-c2f865da95fc",
+        "created": "2021-10-11T22:46:56.109744Z",
+        "modified": "2022-07-24T14:59:24.71201Z",
+        "name": "lawyer",
+        "description": "Skin hair nature pick significant result easy.",
+        "threat_actor_types": [
+            "crime-syndicate",
+            "criminal",
+            "insider-accidental",
+            "activist"
+        ],
+        "sophistication": "intermediate",
+        "resource_level": "team",
+        "secondary_motivations": [
+            "organizational-gain"
+        ],
+        "personal_motivations": [
+            "accidental",
+            "personal-gain",
+            "ideology",
+            "accidental"
+        ],
+        "labels": [
+            "animal",
+            "bed",
+            "arrive",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9796b578-6869-4901-b857-6253128e8ba9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c6957199-efb5-4945-93cc-567efdd4bc9f",
+        "created_by_ref": "identity--f78cdc22-2298-479f-9068-c2f865da95fc",
+        "created": "2021-03-19T18:25:11.819243Z",
+        "modified": "2021-12-14T16:24:53.096387Z",
+        "relationship_type": "attributed-to",
+        "description": "Early side center available. Media get president require onto. Reach tend paper.",
+        "source_ref": "campaign--c83f9b1f-085b-4415-9e82-e7981fc80628",
+        "target_ref": "threat-actor--497b0625-4e2e-4763-9447-19c3c56e9258",
+        "object_marking_refs": [
+            "marking-definition--9796b578-6869-4901-b857-6253128e8ba9"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f78cdc22-2298-479f-9068-c2f865da95fc",
+        "created_by_ref": "identity--f78cdc22-2298-479f-9068-c2f865da95fc",
+        "created": "2021-07-27T08:18:09.826922Z",
+        "modified": "2022-07-07T10:39:53.318596Z",
+        "name": "Mercer-Morales",
+        "roles": [
+            "risk",
+            "team"
+        ],
+        "confidence": 96,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9796b578-6869-4901-b857-6253128e8ba9"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--9796b578-6869-4901-b857-6253128e8ba9",
+        "created": "2021-08-14T01:08:14.05237Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-44002952-ef1b-4819-85db-bdfcd1864e5e",
+                "name": "Free major nothing gun",
+                "create_date_time": "2021-08-14T01:08:08.424588Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.424412Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

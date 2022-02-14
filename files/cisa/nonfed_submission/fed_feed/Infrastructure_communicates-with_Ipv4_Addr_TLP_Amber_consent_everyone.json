@@ -1,0 +1,199 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--1756f708-429b-4255-a5d6-d0b6248fb017",
+        "created_by_ref": "identity--2023ba70-ff52-4c92-b255-d7267ee86783",
+        "created": "2022-07-03T23:53:15.199418Z",
+        "modified": "2023-04-04T23:43:51.890349Z",
+        "name": "moment",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "last_seen": "2020-11-17T06:45:38.924722Z",
+        "labels": [
+            "this",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "school",
+                "url": "http://www.martinez.com/",
+                "hashes": {
+                    "MD5": "da4dffc516c817481d54f4d3105ecc9b",
+                    "SHA-1": "3480d45ae0121bf70fd1c059d4b5e430c2f28ecb",
+                    "SHA-256": "de7a8e39c4b0c57a1d9ca8b2f97a332aa4d42632b42e64fb6d0b0d8f18f02919",
+                    "SHA-512": "46fe4faed00fb5361a114193ab6b093102602cd2055c3f16b2d32481e2d10df8507aa3e60a0909b8258fd205f80210737e73482d43d4a22eddcc987bf964ead9",
+                    "SHA3-256": "b354cfd4ffc256368b40a755fd58a757a10cf19dcfe6bee6598ef84bd578f83f",
+                    "SHA3-512": "13f013880072f277b9246044ac34aaa0cdc19b6494ec534ebf5538fd942fe473b10d2ee726566468d2dd41639b8c59afdfbeb50f5d151a988a765c77ed1b8b92"
+                },
+                "external_id": "zEzeEnJo"
+            },
+            {
+                "source_name": "yet",
+                "description": "Serious citizen soon word television big list.",
+                "url": "http://fisher.biz/",
+                "hashes": {
+                    "MD5": "b649a583cc641e33bc984300eba59c34",
+                    "SHA-1": "0415db7d512835604b3ac460093dcbf0b8870f20",
+                    "SHA-256": "79370cfae255d73438cf386deb134cb14039b9d07c419faa10636c5892623b50",
+                    "SHA-512": "8701e9e4149a004ad5474aeaf4587f5d989fc1a929692243358939381ef6eec0706775f13100ca404c260df0fac3d047801febd17097fdda2cbc023388110aa2",
+                    "SHA3-256": "79b99b708a716293eb438209d08c5e85610ee57b1a542ed546dc1de8198b2dd0",
+                    "SHA3-512": "4c53393302ac5765d3b8df767bf91057f6dc12b18ae0b42a604c3faf42868fdb61bb69fea6c5c9e9042d0b3e11d01feddedbb777d0f824132c94ed326d4264ae"
+                }
+            },
+            {
+                "source_name": "nice",
+                "description": "Later four close recently ready.",
+                "url": "http://www.meza-clark.info/",
+                "external_id": "sOPxRMVDq"
+            },
+            {
+                "source_name": "attorney",
+                "hashes": {
+                    "MD5": "de7c50fd94aba9ad4499d460565a1553",
+                    "SHA-1": "7f329435ec7c300334c9d9e3f9919c2797ce03d7",
+                    "SHA-256": "45f1b256f403f92e3729bb1db8644d2a91642dfe491350fabc4b91615ec75eb4",
+                    "SHA-512": "26a80f16f0fcbb8996ab9e5e0abdf51b116e424706bcb6c990f3e52ab0fb2b024ed8eac29026c1ef5599546ca4395dcf6b79d92e85d2cb78aa544802de01863a",
+                    "SHA3-256": "b7a055f71f589b0c8290266e2690efa9c69357f45ba5d2a7ac96328279ae23bf",
+                    "SHA3-512": "d94d35f1853a824d8d8283a19f4b349b83eab4ba2f9eb1b3fa167439667b81589fd962ce45808e0ca8d64b83c8ae4b517dd2c686eefb6b2d811bee337d08079c"
+                },
+                "external_id": "DdrQBjIRf"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--5db4b5cd-7319-479c-9e18-889b664c2f71"
+        ]
+    },
+    {
+        "type": "ipv4-addr",
+        "spec_version": "2.1",
+        "id": "ipv4-addr--a66fdee8-6fb8-4ef0-857a-a61bd6de0e83",
+        "value": "81.141.126.165",
+        "object_marking_refs": [
+            "marking-definition--5db4b5cd-7319-479c-9e18-889b664c2f71"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f717af87-2c5d-44bf-80f7-f949aad25f8c",
+        "created_by_ref": "identity--2023ba70-ff52-4c92-b255-d7267ee86783",
+        "created": "2020-10-22T16:15:40.722983Z",
+        "modified": "2021-08-14T01:08:39.474601Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--1756f708-429b-4255-a5d6-d0b6248fb017",
+        "target_ref": "ipv4-addr--a66fdee8-6fb8-4ef0-857a-a61bd6de0e83",
+        "stop_time": "2020-12-20T23:29:31.907355Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--5db4b5cd-7319-479c-9e18-889b664c2f71"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--5db4b5cd-7319-479c-9e18-889b664c2f71",
+        "created_by_ref": "identity--2023ba70-ff52-4c92-b255-d7267ee86783",
+        "created": "2021-08-14T01:08:39.473198Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f98cddfd-8461-4143-a969-e6e230df21d4",
+                "name": "Word describe cold color",
+                "create_date_time": "2021-08-14T01:08:08.422252Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2023ba70-ff52-4c92-b255-d7267ee86783",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-20T16:51:38.112944Z",
+        "modified": "2021-08-14T01:08:39.474993Z",
+        "name": "Chung, Poole and Howell",
+        "description": "Decentralized exuding process improvement",
+        "roles": [
+            "dinner"
+        ],
+        "identity_class": "class",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "local",
+                "description": "Strong guy party join others up fly.",
+                "hashes": {
+                    "MD5": "ddd941803fbc36a4aba6da2164a38de6",
+                    "SHA-1": "01907c3c59ab8e495e8db636ea6766d313a759d7",
+                    "SHA-256": "39b18991fe15a6ba7a553884c033ac8817db12918bb2d321d6dc60c94c4b6820",
+                    "SHA-512": "ad83b31c38eda4c348de6c0c4e550c807bb0e4a0e3fc4e8274ba678f4de1204576375f83b61a37cdf54208f8cc9ee9780857f3e805665eb273adafe8aee090e0",
+                    "SHA3-256": "b50f415c3fe653d368af9afc1cc89429032119ce6e17db26d468e4bb93bcee66",
+                    "SHA3-512": "4f9b1bcc71849ecc9bcbfc2d15f9ed0fdcd706087ab0acc8fe9192348d726b1ad3af0a74a8fc95cbc7895fcc545b22974f9178c8fbf178b04c2183a37a7c0722"
+                },
+                "external_id": "wYntEpWRVQyprzO"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--5db4b5cd-7319-479c-9e18-889b664c2f71"
+        ]
+    }
+]

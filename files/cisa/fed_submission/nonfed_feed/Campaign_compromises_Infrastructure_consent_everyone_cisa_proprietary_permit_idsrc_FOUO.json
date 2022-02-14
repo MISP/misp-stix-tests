@@ -1,0 +1,146 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--f78edc16-6c0e-4e75-94f2-05f4df0d4746",
+        "created_by_ref": "identity--5ef7ea09-8354-4785-b0a9-407d5c644e7b",
+        "created": "2020-10-16T21:26:09.007909Z",
+        "modified": "2021-08-18T22:48:11.636487Z",
+        "name": "pass",
+        "first_seen": "2022-05-18T12:34:21.735989Z",
+        "objective": "Fine doctor plan.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 31,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--fcf9c9de-41a9-4f05-acad-d9148fc5569b",
+        "created_by_ref": "identity--5ef7ea09-8354-4785-b0a9-407d5c644e7b",
+        "created": "2021-06-03T01:44:51.950924Z",
+        "modified": "2022-04-10T22:32:15.113605Z",
+        "name": "practice",
+        "description": "Dark yes television maybe.",
+        "aliases": [
+            "debate"
+        ],
+        "last_seen": "2022-02-16T05:29:01.094925Z",
+        "labels": [
+            "perhaps",
+            "have",
+            "son",
+            "various",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "since",
+                "description": "White law maintain method local.",
+                "hashes": {
+                    "MD5": "b260695eb65d58a49f3b9916ad3457c0",
+                    "SHA-1": "476082a989a6541bd6c839d14019cf71f1ff7eb6",
+                    "SHA-256": "77f47062e0e7a2386be038a3015ab6f1473a70435b8f43bdb71aa535689cfba4",
+                    "SHA-512": "ed4049bb8a9882086e030fada67c9a11c694f464f211d2ac9d4cdccf56fbee04afa32eaa7318c25f9891715cefd4ff2cf067e70f57d2e6e21293949198181ec9",
+                    "SHA3-256": "40bbd6c3711457fc83e070033793e3f59b621d17164c01bc0dd8e7b5a713fb68",
+                    "SHA3-512": "f8f7939ff72412dea82595d146f1db9d1225f01058fd23a36ac89f453e693041cc4fb094edf720c587fdf5936a954846c74a79110eedc5375a7de8c7ca325269"
+                },
+                "external_id": "FUxvdzxjDOyXyVvtCtG"
+            },
+            {
+                "source_name": "material",
+                "description": "Result choose eight recent within just authority.",
+                "external_id": "zvkOandiyoePZHbHaqCL"
+            },
+            {
+                "source_name": "collection",
+                "external_id": "VaVUTNDGxDqYUFmlx"
+            },
+            {
+                "source_name": "us",
+                "description": "Along rise certain where way.",
+                "url": "http://www.turner-robertson.com/",
+                "external_id": "WoOJMoRU"
+            },
+            {
+                "source_name": "artist",
+                "description": "Evening trade ever win figure animal score.",
+                "url": "http://martinez-foster.com/",
+                "hashes": {
+                    "MD5": "5aeaf017dcf6a6702cc9b3826e3a45dd",
+                    "SHA-1": "e8297fdf5dff84fe450b1c2434d66c509d325660",
+                    "SHA-256": "00d526e951ce9d1c58e2cc691636b9231879543dbf0778b80493ca3d0589d86d",
+                    "SHA-512": "c8dbf1e47c76d4c2768e6bb4fea4f8acae9e12236b9e26db49df73d31bb27ec52a23146eb9b8b2888f05486b3ef6c9b4df2a971c85001233a64a576c3e48a598",
+                    "SHA3-256": "5b3d68c058ec556e9b78135ffd657aedbe2acce2ca780cfb32e44602b94e0e4a",
+                    "SHA3-512": "881c49af1914a1ccb48b7c72105047e54a211ed26540561909de0d559605374f6e74cf295fcd5ab56bb430f6ae9de7713dad4337935e1e6114c6baeb53e15fb5"
+                },
+                "external_id": "ygxMkKNSgkpyMGtlahQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a1e005e0-592a-48ea-9701-5dc225bc1e29",
+        "created_by_ref": "identity--5ef7ea09-8354-4785-b0a9-407d5c644e7b",
+        "created": "2021-04-02T05:02:45.231906Z",
+        "modified": "2021-10-13T02:05:09.582114Z",
+        "relationship_type": "compromises",
+        "source_ref": "campaign--f78edc16-6c0e-4e75-94f2-05f4df0d4746",
+        "target_ref": "infrastructure--fcf9c9de-41a9-4f05-acad-d9148fc5569b",
+        "start_time": "2021-04-29T05:39:13.875567Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5ef7ea09-8354-4785-b0a9-407d5c644e7b",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-01T06:46:30.185604Z",
+        "modified": "2022-06-04T22:14:30.454861Z",
+        "name": "Rodriguez and Sons",
+        "contact_information": "771 Downs Via Suite 000\nPort Ashley, KS 28042",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 96,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "edge",
+                "description": "Federal to wear significant through nation decide.",
+                "url": "http://chambers-rice.com/"
+            },
+            {
+                "source_name": "night",
+                "url": "https://anderson.com/",
+                "hashes": {
+                    "MD5": "18bbd1e34cf1c69d2724b47a50260609",
+                    "SHA-1": "b186dae38b344b59bc8dd34a43f556fd719034e4",
+                    "SHA-256": "7fe61186fc03194560df0bd2634b109401d1e8188194b0b046f794464caf5add",
+                    "SHA-512": "31e6b2fb45661c1e3c750696f0bc6ee487759ddddceb1eccb4fb73d7d5637ccc949ad75ece50a279c640f6d2d8916709cdc8d65c371d24a3b9ef2becd8cafe59",
+                    "SHA3-256": "b6c3fd62526b6e718b464802c8654c7c5f3b9276c0faa3765cd3dfbd1e7a6437",
+                    "SHA3-512": "a0e63f2146e8eca23ac7d40f758f3c7d65c59a7abb3d0a688636e27d40d3d60c5a1fc50f9017fcb117686b93232a78ca6df48cde4994f758430ccc31d0584163"
+                },
+                "external_id": "rOuXlQoSSYACcRax"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

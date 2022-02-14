@@ -1,0 +1,293 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--fc9cf0f8-432e-4f94-8980-54c4b416262f",
+        "created_by_ref": "identity--8c33eba2-f13f-4527-84d3-df656c40885e",
+        "created": "2022-07-05T07:08:45.580574Z",
+        "modified": "2022-12-06T04:18:15.542429Z",
+        "name": "truth",
+        "indicator_types": [
+            "anomalous-activity",
+            "unknown",
+            "compromised",
+            "unknown"
+        ],
+        "pattern": "[domain-name:defanged = false] FOLLOWEDBY [mac-addr:defanged NOT = false AND (mac-addr:defanged = false)] FOLLOWEDBY [x509-certificate:defanged NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-09-11T07:57:32.762913Z",
+        "valid_until": "2021-04-03T06:43:09.720442Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "rBRmzccYsDlOiWbd",
+                "phase_name": "bmmHgJCiZrzCOQCCr"
+            },
+            {
+                "kill_chain_name": "eYyFTBUZqyjI",
+                "phase_name": "KwWum"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "labels": [
+            "out",
+            "various",
+            "create",
+            "view",
+            "amount",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--6da4f63e-6996-4f35-937d-c14e7399ac99"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--8622020e-1374-4745-8f09-f7a1705844ac",
+        "created_by_ref": "identity--8c33eba2-f13f-4527-84d3-df656c40885e",
+        "created": "2021-06-21T11:34:48.761347Z",
+        "modified": "2022-01-19T18:49:18.366616Z",
+        "name": "event",
+        "threat_actor_types": [
+            "crime-syndicate"
+        ],
+        "last_seen": "2020-09-17T11:11:27.097043Z",
+        "roles": [
+            "sponsor",
+            "independent",
+            "independent"
+        ],
+        "goals": [
+            "away",
+            "space",
+            "white",
+            "nature",
+            "improve"
+        ],
+        "resource_level": "team",
+        "labels": [
+            "people",
+            "who",
+            "pfte-batch-1"
+        ],
+        "confidence": 17,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "interest",
+                "description": "Finish us method box practice.",
+                "url": "https://www.johnson-smith.biz/",
+                "hashes": {
+                    "MD5": "9a3394a3cdac26de39542e717090f22d",
+                    "SHA-1": "a5dcdee75a3e48e2ae1981342f5611559b646062",
+                    "SHA-256": "00d07e0d03e6c85b2024ec1349ce2b6111630561e5d7ad2e58cca96701ffc6e5",
+                    "SHA-512": "50a0b232bdbfd560b50708a84205d0026400625bdc6ab61ed16b5c3c49f7785d88279d771f13f136bd07514d9614b36602d2b9aeb6b13b57e4bbe19b82e82ecd",
+                    "SHA3-256": "bde50dafafc874c7f37027d4a4239e605c6b5b50e11ad627927aa8a6063df889",
+                    "SHA3-512": "f7d9fb9c725dc0f6b53fe9d2df07362a42ac599a81ed4876b9b47b25f53493f146a70534d09b8c39d3c49091059847c09b794401518687d39f469bd9c50b3790"
+                }
+            },
+            {
+                "source_name": "unit",
+                "description": "Under before apply prove pass.",
+                "url": "http://www.lopez.net/",
+                "external_id": "FiOkcOjfjgkEGmqo"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--6da4f63e-6996-4f35-937d-c14e7399ac99"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--dcafd166-0861-4f3a-852f-be31bf2574c5",
+        "created_by_ref": "identity--8c33eba2-f13f-4527-84d3-df656c40885e",
+        "created": "2022-04-08T16:56:36.550686Z",
+        "modified": "2022-04-25T14:48:10.788643Z",
+        "relationship_type": "indicates",
+        "description": "Center toward effort art hear. Also off and order along action choose reflect. Join type answer side.",
+        "source_ref": "indicator--fc9cf0f8-432e-4f94-8980-54c4b416262f",
+        "target_ref": "threat-actor--8622020e-1374-4745-8f09-f7a1705844ac",
+        "start_time": "2021-08-07T19:06:10.581094Z",
+        "external_references": [
+            {
+                "source_name": "father",
+                "description": "Where computer health image no population PM theory.",
+                "hashes": {
+                    "MD5": "29524780380489d47d70fc322b189cc5",
+                    "SHA-1": "9d8cd8858a4f1fe7a80730e3a2f065519c81a80f",
+                    "SHA-256": "2b0c1ad9cb9407d57293ddcdee9378d7eb7bb64749a7877b5b588efba41f426a",
+                    "SHA-512": "8b31156c1644eae4448e337c676089632d05f4fc42198950a73c204bf0e7859f614c53f4bdd35b96e7cf0cf59fdf128b32212fc17ed037efdeaa19c1879304d9",
+                    "SHA3-256": "8c75cdf500d2db2ddc4e5515f21460095fa5e6556533f1bb9ed5d88671f669cf",
+                    "SHA3-512": "a45733640aa396a168503b6d2667e2bbcabd31dc0daed6033f587c8ab7ed99522826632ddee1bb9f8335eb80622fdd283c5d67d105f8aa89a8eb5dcd3f986b00"
+                },
+                "external_id": "JTbcuemitdu"
+            },
+            {
+                "source_name": "herself",
+                "description": "Help television modern whether consider let collection return.",
+                "hashes": {
+                    "MD5": "746c5736e124584024c72b686660f965",
+                    "SHA-1": "2aa2fc0723977157dc682c82204f21e7a6c6cb07",
+                    "SHA-256": "3a2f0aae2a26bc4a3ea9ad52ba3adccbbca098cee97d5eb4c26502ad4de17f2f",
+                    "SHA-512": "e9088862a94e06b18746497f309c7e8acfbbadcad1e668735e3b51e52dfed93c1328247420f02d30cc939438eabe117e11a05c1c1e7ec01548b6e54c4ccd2d05",
+                    "SHA3-256": "0e164d62bc5a29295bacdfabcdcc7747a06c2cba06d09b0d313c66bbc2238193",
+                    "SHA3-512": "b6e7867b1e759725d14b35d80cc9f32895bd6db0acf90410d9741dcb896b8dbf000231b4f2dea019f73b1490b420182e00312a6952b9b96de7e27d645f7fdff4"
+                },
+                "external_id": "QnLVYwWQXHTQfUOqH"
+            },
+            {
+                "source_name": "year",
+                "description": "Chance receive fill magazine.",
+                "external_id": "bQPiqWbmdjbBjXSCXRd"
+            },
+            {
+                "source_name": "half",
+                "url": "http://morales-martin.com/",
+                "external_id": "AwzqIdDYY"
+            },
+            {
+                "source_name": "serious",
+                "description": "Describe manage industry local agency seat.",
+                "url": "http://www.carlson.com/",
+                "external_id": "cmQFbT"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--6da4f63e-6996-4f35-937d-c14e7399ac99"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--6da4f63e-6996-4f35-937d-c14e7399ac99",
+        "created_by_ref": "identity--8c33eba2-f13f-4527-84d3-df656c40885e",
+        "created": "2021-08-14T01:08:33.631167Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2a4a5944-494c-4a33-b0ba-c70e719ee1c8",
+                "name": "Room arrive pay often",
+                "create_date_time": "2021-08-14T01:08:08.421032Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8c33eba2-f13f-4527-84d3-df656c40885e",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-09T23:44:39.507426Z",
+        "modified": "2021-08-14T01:08:33.636033Z",
+        "name": "Wang Ltd",
+        "description": "Digitized mobile firmware",
+        "identity_class": "system",
+        "contact_information": "29983 Jesse Isle\nPort Kimberly, AL 43276",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 48,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "western",
+                "description": "With professor other large my mission create.",
+                "url": "http://www.smith.com/",
+                "hashes": {
+                    "MD5": "1572f864f7cf742d4d7ae3f4d93f7308",
+                    "SHA-1": "d57cb71afafcebce35c41cf88812800d5af28a39",
+                    "SHA-256": "b0e3e15f60827f8c8e2ba6cec9d5f9173167fb17ce260fdb1e0d1352431f3794",
+                    "SHA-512": "cc13937a7445e3ce22058ff94ea4785afe66acbce85d4dd411c4b4946fcf7fe171a482a646fc68a939d8788207ebd788f81c4b22295af9f900f5a1ce3258b871",
+                    "SHA3-256": "9ae2c2f16dbb255beb4f4dd9bd13e917d622b6ea71572e32df5030b4e9a11363",
+                    "SHA3-512": "e72f04a848d5e1b987882fc6a7218025cf180599a008729abebe62262e3d8a1a505a49b1d6feb72c26a7754ae645c7e0ca4ce38c2d92cd5c3fc4959f3a6c996d"
+                }
+            },
+            {
+                "source_name": "else",
+                "description": "Drive each international.",
+                "url": "https://hood.com/",
+                "hashes": {
+                    "MD5": "7b210ed3b88140540bda9266d348e5c1",
+                    "SHA-1": "08653db6f5ab1b44399e38d0c5ec66b39406f016",
+                    "SHA-256": "519d1b4769a9c475380ded27b2e385adc6c528137c0b4b213fac48a81de74355",
+                    "SHA-512": "345d44a279e830e6cad8949db73dd7fdd0dfd539c5d0a249638b2fed8021870e465215760cd42a6091d88a750c16b399dab209a6aeef73fd1453dd53f9c77123",
+                    "SHA3-256": "2cdf01c5d90323cd202d39c5d17d56c2c561f8c209c158f9ffe21a6a109721a9",
+                    "SHA3-512": "3e30043ee21c457fee115c15097364ef44470ae1e5bfb0a1e238dae871e979c2636c3a4355e18432fb8d520827e83945bcc9149bc9cb3ec78c53ec1a8f9f7a78"
+                }
+            },
+            {
+                "source_name": "together",
+                "description": "Born energy building risk minute teach.",
+                "hashes": {
+                    "MD5": "2062925b5df42bf8f318f3f28adc7ed6",
+                    "SHA-1": "3aa06523a8cb250e3c7c9832a887cf209339cf7c",
+                    "SHA-256": "b78eda5b633008dc3654fea4f916b4039ee494b3b279c8595f041e6a472dd005",
+                    "SHA-512": "77643c19912df96fcd4452ee1450c4c845b8440ccdb45d633311009df39eb8ec27ab58df0d2f7fc8bc8ed8b05ab64ae2fc7fea06e730026d1bc3a4eb84f67794",
+                    "SHA3-256": "1cb1a81d23bbd4a216d1c303cb0ced83aad7e0315dbf4c49a07078ca8317defa",
+                    "SHA3-512": "bf6c01eadebd5fab28849f365ec0765abe28a3c5677fc48110034ed33b0e3a8db313aeb159d06d3d001b18869c7a42a258985e8c20872718f7ad91e93322b94a"
+                }
+            },
+            {
+                "source_name": "however",
+                "url": "https://day.com/",
+                "external_id": "QmAXUTPBf"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--6da4f63e-6996-4f35-937d-c14e7399ac99"
+        ]
+    }
+]

@@ -1,0 +1,178 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--932a1e63-ca96-4c9c-9645-1aa3e232e1c7",
+        "created_by_ref": "identity--cdc4b5ca-e099-4749-9f57-2c3c4e016f3e",
+        "created": "2022-07-30T07:09:56.21621Z",
+        "modified": "2023-02-19T12:13:15.481623Z",
+        "name": "station",
+        "aliases": [
+            "interest",
+            "hospital",
+            "remain",
+            "yard"
+        ],
+        "first_seen": "2020-08-28T00:04:19.206315Z",
+        "last_seen": "2021-05-04T07:13:57.469375Z",
+        "roles": [
+            "infrastructure-architect",
+            "agent",
+            "director",
+            "infrastructure-operator",
+            "sponsor"
+        ],
+        "sophistication": "none",
+        "resource_level": "club",
+        "secondary_motivations": [
+            "coercion",
+            "organizational-gain",
+            "personal-satisfaction",
+            "dominance"
+        ],
+        "labels": [
+            "chance",
+            "president",
+            "low",
+            "family",
+            "pfte-batch-1"
+        ],
+        "confidence": 57,
+        "object_marking_refs": [
+            "marking-definition--d32d1dfe-66fe-4215-8948-aa883d8027e6"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--6c91dfba-abb1-4211-907e-6097d84eccc7",
+        "created_by_ref": "identity--cdc4b5ca-e099-4749-9f57-2c3c4e016f3e",
+        "created": "2020-08-24T18:03:54.359779Z",
+        "modified": "2021-08-20T20:12:17.962601Z",
+        "name": "central",
+        "description": "Lead direction too.",
+        "labels": [
+            "her",
+            "pfte-batch-1"
+        ],
+        "confidence": 72,
+        "object_marking_refs": [
+            "marking-definition--d32d1dfe-66fe-4215-8948-aa883d8027e6"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--51e7df90-5d96-46f6-ae36-e6efd49df4a1",
+        "created_by_ref": "identity--cdc4b5ca-e099-4749-9f57-2c3c4e016f3e",
+        "created": "2020-12-14T14:45:32.690516Z",
+        "modified": "2021-08-14T01:09:26.550057Z",
+        "relationship_type": "hosts",
+        "description": "Theory mouth because organization position. Morning sit practice. Short short factor nature court his begin.",
+        "source_ref": "threat-actor--932a1e63-ca96-4c9c-9645-1aa3e232e1c7",
+        "target_ref": "infrastructure--6c91dfba-abb1-4211-907e-6097d84eccc7",
+        "stop_time": "2020-09-02T17:33:26.86041Z",
+        "confidence": 67,
+        "object_marking_refs": [
+            "marking-definition--d32d1dfe-66fe-4215-8948-aa883d8027e6"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--cdc4b5ca-e099-4749-9f57-2c3c4e016f3e",
+        "created_by_ref": "identity--cdc4b5ca-e099-4749-9f57-2c3c4e016f3e",
+        "created": "2021-04-08T23:30:51.324247Z",
+        "modified": "2021-08-14T01:09:26.550326Z",
+        "name": "Wheeler-Bennett",
+        "description": "Multi-layered user-facing open architecture",
+        "roles": [
+            "like",
+            "hand"
+        ],
+        "confidence": 53,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d32d1dfe-66fe-4215-8948-aa883d8027e6"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d32d1dfe-66fe-4215-8948-aa883d8027e6",
+        "created": "2021-08-14T01:09:26.548776Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1a59cf40-939d-4572-bc52-0472b77923dd",
+                "name": "Run main democratic",
+                "create_date_time": "2021-08-14T01:08:08.425934Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

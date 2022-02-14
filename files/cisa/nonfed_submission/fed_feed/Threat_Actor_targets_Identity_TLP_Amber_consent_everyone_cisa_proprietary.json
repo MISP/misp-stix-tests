@@ -1,0 +1,203 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--f755ab52-a676-48be-af9f-ac45a951b924",
+        "created_by_ref": "identity--fd5bc4c9-571c-4526-9f89-e7476c7e9f07",
+        "created": "2021-07-27T08:31:57.92915Z",
+        "modified": "2021-09-07T23:32:48.725945Z",
+        "name": "million",
+        "threat_actor_types": [
+            "insider-accidental",
+            "hacker",
+            "competitor"
+        ],
+        "last_seen": "2022-07-08T07:34:17.074078Z",
+        "roles": [
+            "infrastructure-architect"
+        ],
+        "sophistication": "intermediate",
+        "resource_level": "club",
+        "secondary_motivations": [
+            "personal-gain",
+            "organizational-gain",
+            "dominance",
+            "revenge",
+            "revenge"
+        ],
+        "confidence": 41,
+        "object_marking_refs": [
+            "marking-definition--e22940dc-e7dd-4be8-947f-147377023cae"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2f7ad630-250e-404e-b81e-bdcb4ec7a589",
+        "created_by_ref": "identity--fd5bc4c9-571c-4526-9f89-e7476c7e9f07",
+        "created": "2022-01-18T18:14:51.664482Z",
+        "modified": "2022-08-27T01:42:14.629744Z",
+        "name": "Baker, Rubio and Gates",
+        "identity_class": "organization",
+        "contact_information": "4204 Thomas Ferry Apt. 900\nNew Melissa, GA 30240",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "owner",
+                "description": "Teacher available direction specific quickly rather.",
+                "url": "https://www.curry-morse.biz/",
+                "hashes": {
+                    "MD5": "ca4710451cc16200a24132823a15ccd2",
+                    "SHA-1": "865f689eccf1f4022eec3c0c303da1b38b101eae",
+                    "SHA-256": "8fa546d185781646b3aad1261f5e39617dd05fcae88a3851d638037547bab50f",
+                    "SHA-512": "9eb979bb76338ad259a5752d3909c2cdded80a8c88158b01cdfec5cdc88cae8c4d69c19cb38cfab6822ebbcab0a8d523226f8e4a9ddd7e1f9a8701c54c8d94f4",
+                    "SHA3-256": "6bdc51f69b75a8ca78b54e7be80021a7d40ceba21c6276575c1b4e37f9961349",
+                    "SHA3-512": "faec3639b81f708069adef1453024d010f57765e5eb1c655ef34084243b8cb7ce2980757b8828b23b5ff91eaa20266fdac3e5bd4667071f4fe57af7e65ad53cc"
+                },
+                "external_id": "MzmPcPqU"
+            },
+            {
+                "source_name": "difficult",
+                "description": "Young address audience lose write walk live."
+            },
+            {
+                "source_name": "PM",
+                "url": "https://www.gill.com/",
+                "hashes": {
+                    "MD5": "5638c0d218c6a5514b1dea29ac1415b5",
+                    "SHA-1": "ba40c7508ead1a161653f43eaa57d15550b72f9a",
+                    "SHA-256": "8edbe81e3b7753c2e4185d1e6695ec0f897014a899d3468c99e25752739ea091",
+                    "SHA-512": "d4d538cff2c2d397b7319e9a167203d8c575a8ecaac1da0f2ed62dc0194107c2b914a57eec86d479cf94f800ed4a6a915ebbffa222aafd3d5d8dd5867e99396d",
+                    "SHA3-256": "124617fe24816d19a6c269f1c1c030279d4770e6ca4ebf4065cfb93f3e0cffe9",
+                    "SHA3-512": "fd78e3e6a56fab058ac643bec44b2a6064953006ea3d3672f8ddc2459158146047a4c75e8be83b8872a108413b60a8fe51863710c88a8c964dbca24f04ef0817"
+                }
+            },
+            {
+                "source_name": "theory",
+                "description": "Catch idea maybe figure prepare sometimes this.",
+                "url": "http://dickerson-chan.com/"
+            },
+            {
+                "source_name": "would",
+                "description": "Garden glass relate sport staff."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e22940dc-e7dd-4be8-947f-147377023cae"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4ee6013b-1b8e-4216-91e9-dafb8123472b",
+        "created_by_ref": "identity--fd5bc4c9-571c-4526-9f89-e7476c7e9f07",
+        "created": "2021-10-22T00:53:15.963665Z",
+        "modified": "2022-02-04T18:05:13.884914Z",
+        "relationship_type": "targets",
+        "source_ref": "threat-actor--f755ab52-a676-48be-af9f-ac45a951b924",
+        "target_ref": "identity--2f7ad630-250e-404e-b81e-bdcb4ec7a589",
+        "stop_time": "2021-12-07T10:35:33.275415Z",
+        "external_references": [
+            {
+                "source_name": "wrong",
+                "description": "Way let customer nothing attention others sport already.",
+                "url": "https://washington.com/",
+                "external_id": "hytAO"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e22940dc-e7dd-4be8-947f-147377023cae"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--e22940dc-e7dd-4be8-947f-147377023cae",
+        "created_by_ref": "identity--fd5bc4c9-571c-4526-9f89-e7476c7e9f07",
+        "created": "2021-08-14T01:09:29.927213Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-881bbc21-deef-4d57-abf3-7f599266217f",
+                "name": "Way get would fight necessary hour measure",
+                "create_date_time": "2021-08-14T01:08:08.423662Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--fd5bc4c9-571c-4526-9f89-e7476c7e9f07",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-02T14:22:46.965459Z",
+        "modified": "2021-11-02T02:15:39.417605Z",
+        "name": "Kim LLC",
+        "roles": [
+            "everyone",
+            "opportunity",
+            "marriage",
+            "visit"
+        ],
+        "contact_information": "31681 Harris Freeway Apt. 595\nHartburgh, VT 04685",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e22940dc-e7dd-4be8-947f-147377023cae"
+        ]
+    }
+]

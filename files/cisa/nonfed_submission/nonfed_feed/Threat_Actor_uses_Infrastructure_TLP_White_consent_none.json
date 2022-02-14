@@ -1,0 +1,130 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--e1289737-a243-4de3-b81e-093d4f32f0c5",
+        "created_by_ref": "identity--00798ead-7565-4601-920a-4316a7408bad",
+        "created": "2021-08-30T01:42:55.440619Z",
+        "modified": "2021-11-11T17:14:16.471563Z",
+        "name": "question",
+        "aliases": [
+            "charge",
+            "necessary",
+            "business",
+            "activity"
+        ],
+        "resource_level": "organization",
+        "primary_motivation": "coercion",
+        "secondary_motivations": [
+            "accidental",
+            "revenge",
+            "unpredictable"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 71,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "seat",
+                "description": "One produce floor sit bag.",
+                "external_id": "DBzFWpdlrn"
+            },
+            {
+                "source_name": "field",
+                "description": "Too face approach real my maybe attorney.",
+                "hashes": {
+                    "MD5": "80d578b5e2289b5d020f33d01518fcef",
+                    "SHA-1": "57ee22ada98f33089e7c5cf49eb5361ca13d5c63",
+                    "SHA-256": "8ebf8bcb7e44d6d05af5f6ba5b2cfe7129c6b682ceda8056d10129aada8264d4",
+                    "SHA-512": "00857e845662c8e495703d2ef79442890dbabc0eac4a3694d913c4adae3f3b6f47a62ecd10926f6a3c01005b98301d36741708e31948bdd043e78b37824dec03",
+                    "SHA3-256": "e39e461155600b5e2944e842a4ece999a8c38248f7f9bd820c76631f13959482",
+                    "SHA3-512": "a58571119d30e28a0e0b220db29f33eb91eed1a4f789c14cd66bf207572d9d5969a13ce452ba2c6975780d2d3dbd4a78ba0984f9d834d62511e00c1d614d246a"
+                },
+                "external_id": "yDdsxy"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--6cad5bd5-fb08-42d0-9cf7-25fdc1299d57",
+        "created_by_ref": "identity--00798ead-7565-4601-920a-4316a7408bad",
+        "created": "2021-08-11T03:18:52.017379Z",
+        "modified": "2022-02-24T19:38:20.371663Z",
+        "name": "she",
+        "infrastructure_types": [
+            "workstation"
+        ],
+        "aliases": [
+            "audience",
+            "suffer",
+            "produce"
+        ],
+        "first_seen": "2021-04-03T16:55:21.853054Z",
+        "last_seen": "2021-12-21T20:07:26.648435Z",
+        "labels": [
+            "color",
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4c6cf31c-c983-44ac-8050-5b4f641181b7",
+        "created_by_ref": "identity--00798ead-7565-4601-920a-4316a7408bad",
+        "created": "2021-12-25T02:38:38.62518Z",
+        "modified": "2022-11-20T19:58:20.3112Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--e1289737-a243-4de3-b81e-093d4f32f0c5",
+        "target_ref": "infrastructure--6cad5bd5-fb08-42d0-9cf7-25fdc1299d57",
+        "stop_time": "2021-12-26T00:38:58.476311Z",
+        "labels": [
+            "part",
+            "only",
+            "company",
+            "star",
+            "sure",
+            "pfte-batch-1"
+        ],
+        "confidence": 23,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--00798ead-7565-4601-920a-4316a7408bad",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-28T10:24:10.388243Z",
+        "modified": "2022-11-27T22:23:32.297962Z",
+        "name": "WhiteCountryPolicy",
+        "description": "Realigned attitude-oriented hub",
+        "roles": [
+            "newspaper"
+        ],
+        "identity_class": "unknown",
+        "sectors": [
+            "energy",
+            "government"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 10,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

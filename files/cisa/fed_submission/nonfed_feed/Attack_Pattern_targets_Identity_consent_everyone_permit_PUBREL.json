@@ -1,0 +1,103 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--efac877e-9cab-4f60-8db2-34bb183d6f52",
+        "created_by_ref": "identity--4488faa8-b8da-4aae-8f7d-187bb08559ef",
+        "created": "2021-05-29T00:36:56.356419Z",
+        "modified": "2021-08-14T01:08:09.889036Z",
+        "name": "second",
+        "description": "Doctor play carry official.",
+        "aliases": [
+            "enough",
+            "chance"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b32c703f-add9-42bc-9f76-f2d32d8de382",
+        "created_by_ref": "identity--4488faa8-b8da-4aae-8f7d-187bb08559ef",
+        "created": "2022-07-05T06:52:19.774795Z",
+        "modified": "2022-11-17T12:43:20.787789Z",
+        "name": "Walters, Reyes and Watson",
+        "roles": [
+            "after",
+            "employee",
+            "instead",
+            "investment",
+            "enter"
+        ],
+        "identity_class": "unknown",
+        "contact_information": "065 Michael Brook Apt. 224\nSouth Josephfurt, NY 54154",
+        "labels": [
+            "season",
+            "pfte-batch-1"
+        ],
+        "confidence": 97,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--136f5d97-a801-4702-afb2-9894f430b3a3",
+        "created_by_ref": "identity--4488faa8-b8da-4aae-8f7d-187bb08559ef",
+        "created": "2021-05-05T11:04:09.504957Z",
+        "modified": "2021-08-14T01:08:09.889544Z",
+        "relationship_type": "targets",
+        "description": "Attack letter live shake drug. Democrat join always check with bad put close.",
+        "source_ref": "attack-pattern--efac877e-9cab-4f60-8db2-34bb183d6f52",
+        "target_ref": "identity--b32c703f-add9-42bc-9f76-f2d32d8de382",
+        "start_time": "2020-11-16T17:16:37.025151Z",
+        "stop_time": "2021-04-24T23:36:17.789074Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 99,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4488faa8-b8da-4aae-8f7d-187bb08559ef",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-17T14:11:15.324005Z",
+        "modified": "2022-04-20T14:43:53.103348Z",
+        "name": "Burnett PLC",
+        "description": "Function-based methodical knowledge user",
+        "roles": [
+            "for",
+            "full",
+            "exist",
+            "else"
+        ],
+        "identity_class": "unknown",
+        "sectors": [
+            "government-local",
+            "government-national",
+            "pharmaceuticals",
+            "retail",
+            "hospitality-leisure"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

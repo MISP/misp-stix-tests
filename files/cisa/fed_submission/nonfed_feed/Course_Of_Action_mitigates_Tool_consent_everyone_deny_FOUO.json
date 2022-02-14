@@ -1,0 +1,111 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--60c4350a-21c0-4ab4-a9d7-db208361fb2b",
+        "created_by_ref": "identity--be3d4aa1-62af-4c90-9aa9-5427b4d2dc5c",
+        "created": "2022-02-04T08:15:59.037967Z",
+        "modified": "2022-10-14T23:14:16.679457Z",
+        "name": "cause",
+        "description": "Study poor back.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--1735f967-feb3-4af9-8b0b-3963d24016ff",
+        "created_by_ref": "identity--be3d4aa1-62af-4c90-9aa9-5427b4d2dc5c",
+        "created": "2022-06-26T19:34:07.175579Z",
+        "modified": "2022-10-28T13:40:35.607222Z",
+        "name": "political",
+        "tool_types": [
+            "credential-exploitation",
+            "network-capture"
+        ],
+        "aliases": [
+            "push",
+            "growth",
+            "fire",
+            "trial",
+            "against"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "YbMKLazbvieD",
+                "phase_name": "QGldtshLfhNd"
+            },
+            {
+                "kill_chain_name": "GKXsq",
+                "phase_name": "jGNcdHqh"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "tool_version": "radio",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 23,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--dfbf60e8-2a41-4daa-ac0a-8179aa3f816b",
+        "created_by_ref": "identity--be3d4aa1-62af-4c90-9aa9-5427b4d2dc5c",
+        "created": "2021-02-26T10:50:08.636669Z",
+        "modified": "2021-10-27T03:11:48.23864Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--60c4350a-21c0-4ab4-a9d7-db208361fb2b",
+        "target_ref": "tool--1735f967-feb3-4af9-8b0b-3963d24016ff",
+        "start_time": "2022-02-09T13:56:28.570073Z",
+        "stop_time": "2022-11-19T08:45:16.723574Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--be3d4aa1-62af-4c90-9aa9-5427b4d2dc5c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-16T20:04:22.753042Z",
+        "modified": "2022-02-28T01:28:25.135348Z",
+        "name": "ThousandFoodBegin",
+        "description": "Extended web-enabled alliance",
+        "identity_class": "organization",
+        "sectors": [
+            "automotive"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

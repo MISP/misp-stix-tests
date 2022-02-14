@@ -1,0 +1,132 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--1705f79e-e4d6-40dc-acd5-79e93681e3ea",
+        "created_by_ref": "identity--1be5f10f-3aba-4556-a204-ac639cbb1925",
+        "created": "2022-03-02T06:52:13.613065Z",
+        "modified": "2022-09-19T23:25:58.885705Z",
+        "name": "edge",
+        "aliases": [
+            "at",
+            "each"
+        ],
+        "last_seen": "2021-07-25T03:26:53.696714Z",
+        "objective": "Series without decade new position.",
+        "labels": [
+            "account",
+            "then",
+            "trade",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--18861596-7d57-4121-8f0d-055104f7a42e",
+        "created_by_ref": "identity--1be5f10f-3aba-4556-a204-ac639cbb1925",
+        "created": "2021-10-29T13:54:10.142983Z",
+        "modified": "2021-12-23T00:34:30.444726Z",
+        "name": "town",
+        "description": "Future story fund community send music must.",
+        "tool_types": [
+            "exploitation",
+            "remote-access",
+            "network-capture",
+            "information-gathering"
+        ],
+        "labels": [
+            "provide",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--844af7d8-1346-4ff7-b541-4c7af9ef1055",
+        "created_by_ref": "identity--1be5f10f-3aba-4556-a204-ac639cbb1925",
+        "created": "2022-06-23T06:33:48.994629Z",
+        "modified": "2022-11-20T18:01:18.129653Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--1705f79e-e4d6-40dc-acd5-79e93681e3ea",
+        "target_ref": "tool--18861596-7d57-4121-8f0d-055104f7a42e",
+        "start_time": "2020-09-04T06:41:11.094658Z",
+        "stop_time": "2021-02-04T15:59:15.825184Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1be5f10f-3aba-4556-a204-ac639cbb1925",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-12-06T00:52:34.329973Z",
+        "modified": "2022-12-04T12:15:25.863557Z",
+        "name": "RealMostI",
+        "description": "Innovative zero administration encoding",
+        "contact_information": "21846 Sabrina Ford Suite 391\nEast Lindseychester, OK 52759",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 60,
+        "external_references": [
+            {
+                "source_name": "face",
+                "description": "Owner difficult popular.",
+                "url": "https://castaneda.com/",
+                "hashes": {
+                    "MD5": "8884c4e75bb06f839974fbd820338842",
+                    "SHA-1": "1177b2fa388791a5fd7ee66c4580d2eeca245ab2",
+                    "SHA-256": "8ff77ef59f16da0d60d669ea3525c89b1b86242db145e64df8e18dea0022b2d2",
+                    "SHA-512": "4c82f443abcdcd8b4839f4e6576be9bc2d29d6c9f155b1a98ac67ee8fa68ae402fab7ab27daf828107c551d332c12a5572e1e0963ececa8e6a81948b8c0640d0",
+                    "SHA3-256": "e98f5f2a50be3cc9b05cd4542b576a9d558588669993184044d50d2b2267f491",
+                    "SHA3-512": "44c54a470b4d079e81caad5e95b971227bc6eb970c01072c1dff44902df76148af983b05e38e31ea371e5e39a9c9579d37d8172337548189b3374c29e04ef928"
+                },
+                "external_id": "clpYcXKN"
+            },
+            {
+                "source_name": "eat",
+                "description": "Score little single season spring community nearly along.",
+                "url": "https://hoover-hill.com/",
+                "hashes": {
+                    "MD5": "1abecb5b27703ef14a678f51092c42e7",
+                    "SHA-1": "9bb1a6ed175fcf21cda2585e2f3b7bf24064ccea",
+                    "SHA-256": "cf373f377c4097f18be85ffb627720f4465d8bf83040ecb0dbfd5178d7a3a3c1",
+                    "SHA-512": "a2bd36d0f4e5d034f6e3e723cf739184eab9127b983d3d4283c183b09f23281a160682695bf83d30b126f1f898ff29edfdf9ded1a9b70679ee8bdeba1a7eea5f",
+                    "SHA3-256": "5718d84f8a8326c4006ebea341d7914ed1c62f3e53bd31db283db76ee2154e96",
+                    "SHA3-512": "4a5d1b77b6e4c2832f184e286b2cadca3fa1fe1660143da03917a4501a82860d50e1fdbb9c118aa0e4faaf9ba52b5aadaab82c9c783f0de77f2343a40ba4d7c0"
+                },
+                "external_id": "VxkcJAWqDtK"
+            },
+            {
+                "source_name": "event",
+                "description": "Degree simple choice environmental something prepare.",
+                "url": "http://murray.info/",
+                "hashes": {
+                    "MD5": "216e5afa341248c0ae57518c46dfa54a",
+                    "SHA-1": "1fd844bdf7e6512b858e8c8166b2ff5b41e2bf5d",
+                    "SHA-256": "105ba5e8bdb708881aa6943357ae60be5d6969e7f9dca0e87211e6189d26428a",
+                    "SHA-512": "8a2d744588c2591ebb57d5430bf9aa4d37fbdedfc833f74a36fdf06ee7829eef09c066f1b77608cc0fae23b3d7609d11b6277d479ebad6c7d16c306b0e137159",
+                    "SHA3-256": "4ffa0edb9482a099193341c427e7159caafb4fcbc3f21812f95b1566daeb4930",
+                    "SHA3-512": "38dda4a86f64bec5db7fe239b8178eaa2d25cf14f754d5d116b58631a4675bf829788f2e448d3cd6a9338c27f470caaf7eeaa86b79374fdb09feec7da0d75388"
+                },
+                "external_id": "bEAUOUESm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

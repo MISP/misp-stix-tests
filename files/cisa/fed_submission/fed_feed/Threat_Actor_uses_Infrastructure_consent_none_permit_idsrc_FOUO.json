@@ -1,0 +1,260 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--845d70db-eaf3-450d-b1aa-0554e55118c6",
+        "created_by_ref": "identity--3d7c0031-871f-4243-8102-711d9efd7187",
+        "created": "2022-03-25T11:36:18.550262Z",
+        "modified": "2022-10-18T12:09:47.204649Z",
+        "name": "kitchen",
+        "description": "Candidate miss almost purpose couple baby.",
+        "threat_actor_types": [
+            "hacker",
+            "insider-disgruntled",
+            "unknown",
+            "insider-accidental",
+            "spy"
+        ],
+        "aliases": [
+            "quite",
+            "certainly"
+        ],
+        "first_seen": "2022-07-22T17:09:32.912348Z",
+        "primary_motivation": "revenge",
+        "personal_motivations": [
+            "accidental",
+            "unpredictable",
+            "unpredictable"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "share",
+                "description": "Ever public relate reduce along network expert.",
+                "url": "https://spencer.com/",
+                "hashes": {
+                    "MD5": "3facaaab8312e0bf9d626fb22715fcf5",
+                    "SHA-1": "759d57bffe68100d523ea8902e6246b78d1c902f",
+                    "SHA-256": "8219d2888766605d5d9a602e2eefed5d6dd2c7aa1b77ded813609463bd36b992",
+                    "SHA-512": "d0c6d550e207cf9fe0ad3ab5ee3750a33b4a53891fc4756a75d8bf71f7c766b7967c58ab4e6e7a79ad480a0f61e21d9bbb8b761e02015faca1d6169fcbdc0009",
+                    "SHA3-256": "17bf71e0decaa93cc14efd11a0cc26f592567605dffc1c8c88ec273e81aebb9d",
+                    "SHA3-512": "15904ab02855f04560bb9a4ff50c882971ca35c45c73fc3729952f9229e141c63396d34fff953f4347be1955643617fef4ec5a65e5dc4faa5d0ee849d76e3188"
+                },
+                "external_id": "LDgxosSFRPRSADHFqglr"
+            },
+            {
+                "source_name": "right",
+                "description": "Early pass paper natural pressure industry.",
+                "url": "http://www.murphy.com/"
+            },
+            {
+                "source_name": "bring",
+                "description": "Provide be political activity eight increase stage.",
+                "hashes": {
+                    "MD5": "6cd3cc7c0b04f6f1337dc66e2a0a891e",
+                    "SHA-1": "d907b308a40fd22f8f9b0f9bde830267b0bee9fa",
+                    "SHA-256": "b2999c2730c4c8916d6cbee662f3217af441d54d399c754d7e893493165b7aa0",
+                    "SHA-512": "04ebf97703cf7f3235baf41720eec2900a810f0d8c901ce2821c7d0429bbe8649f6e4d86122a6a6709b4c40c3c635d6ff354e20948ab074a6182a9c3e2ebdca4",
+                    "SHA3-256": "ad60fa79097187753e031b9d01fffd4be79bef0ae39b32eeabba77b9425e4b1e",
+                    "SHA3-512": "c88cac90e1d7b1ef7b4292a499ec062cd69eccacd5669724406b47d73cecee68eb99738b6eba2adb1181bc26c9afca4ae309ef70be5511d61fc436e75f3f1067"
+                },
+                "external_id": "qiwCbliwsbqxhsaC"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--36d6a228-9fd1-4c64-bc46-808e70cf3fd7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--68fd6b39-7f50-4eff-b304-1ab581516737",
+        "created_by_ref": "identity--3d7c0031-871f-4243-8102-711d9efd7187",
+        "created": "2021-02-19T18:03:40.01367Z",
+        "modified": "2021-08-14T01:09:33.352145Z",
+        "name": "maybe",
+        "infrastructure_types": [
+            "workstation",
+            "routers-switches",
+            "phishing",
+            "hosting-target-lists"
+        ],
+        "aliases": [
+            "one",
+            "miss"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "xqjpHbyRpPL",
+                "phase_name": "BmQaSnjR"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--36d6a228-9fd1-4c64-bc46-808e70cf3fd7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4552d5e5-549e-4c0f-8a8e-45688048e1fa",
+        "created_by_ref": "identity--3d7c0031-871f-4243-8102-711d9efd7187",
+        "created": "2022-02-10T01:01:13.44335Z",
+        "modified": "2022-07-31T09:28:34.054127Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--845d70db-eaf3-450d-b1aa-0554e55118c6",
+        "target_ref": "infrastructure--68fd6b39-7f50-4eff-b304-1ab581516737",
+        "start_time": "2022-05-06T23:23:25.505604Z",
+        "confidence": 28,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--36d6a228-9fd1-4c64-bc46-808e70cf3fd7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3d7c0031-871f-4243-8102-711d9efd7187",
+        "created_by_ref": "identity--3d7c0031-871f-4243-8102-711d9efd7187",
+        "created": "2021-08-04T22:37:09.534033Z",
+        "modified": "2022-06-06T23:43:11.022022Z",
+        "name": "Alexander-Baker",
+        "identity_class": "unknown",
+        "sectors": [
+            "commercial",
+            "telecommunications"
+        ],
+        "contact_information": "346 Brown Falls Apt. 439\nKelseytown, SC 68155",
+        "confidence": 26,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "deal",
+                "description": "Fact crime back step their.",
+                "url": "http://combs.biz/",
+                "hashes": {
+                    "MD5": "dee264fa9ee3e65345ac8079d5b05b4c",
+                    "SHA-1": "2e435c3fef73d4ef10de388b6fe76ff1cfb8f89c",
+                    "SHA-256": "f5dd6c61585cfe34644f4a07ec63b3775c9bef699c5815079a9294542d8a1d64",
+                    "SHA-512": "cfff3e8b5d8d607c16087b84ffd8b5d84a3f9a5a6d3a085ccdaf65747bc0c811889818341e5ef764e7aba488188f2ae8758154409225acf620512a5d90f276ac",
+                    "SHA3-256": "337e650add616884222895729678f195f0f885471c1a46c0bef7415a5f76e5bf",
+                    "SHA3-512": "c3e9cfb47f2b979bebeea81683b58a235cfe8b7690d61328536a18a604fcd34466bd869e07893d6f530605c14b51fd132ab7fdee5abfc5b19854f70b900efbf4"
+                },
+                "external_id": "PhkbgQaJQVsNtdAXfmt"
+            },
+            {
+                "source_name": "relationship",
+                "url": "http://williams.com/",
+                "hashes": {
+                    "MD5": "c08e60bffb65b32d45e5555a96fc547d",
+                    "SHA-1": "90c11b8e825a4da30a15c5bdf915c8f35ff02cc9",
+                    "SHA-256": "2949b63c3d38d541e72b0946b67ec3519eb37bf47306ec1cd0872dc8952030ba",
+                    "SHA-512": "a0757075a3fa7e4b21ba6905f3c50deb12cdfdac1667578a1ae40f2023e1f2b0b5d0560d4313c738689a56e3ff9f24ea20c3ea2b7e52e6d7e736b45ea9d6e2f8",
+                    "SHA3-256": "3b79013ad0ccfd4da72781754a17301bbce50b105ad3177506ccd78331fd79fb",
+                    "SHA3-512": "c9c089bddf3b3131110419ba19e8c454eca90d92a6224e598fa3c3ebe019f64c3516fbdf14a524c42e35dde001ebbb417c04e4161a6dfc03bb614b63b4ece241"
+                },
+                "external_id": "kETphvYQYHlXh"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--36d6a228-9fd1-4c64-bc46-808e70cf3fd7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--36d6a228-9fd1-4c64-bc46-808e70cf3fd7",
+        "created": "2021-08-14T01:09:33.350691Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1a59cf40-939d-4572-bc52-0472b77923dd",
+                "name": "Run main democratic",
+                "create_date_time": "2021-08-14T01:08:08.425934Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

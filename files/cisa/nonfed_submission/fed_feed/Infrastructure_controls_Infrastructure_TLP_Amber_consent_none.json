@@ -1,0 +1,143 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--31096dab-17f9-4caf-8284-93e8fae4d2c6",
+        "created_by_ref": "identity--4dd51276-c1c1-47b8-949b-34a2f848b569",
+        "created": "2020-10-23T23:59:25.850429Z",
+        "modified": "2021-08-14T01:08:44.867045Z",
+        "name": "my",
+        "first_seen": "2020-09-12T13:32:05.898854Z",
+        "labels": [
+            "simple",
+            "article",
+            "pfte-batch-1"
+        ],
+        "confidence": 11,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--87448beb-8963-4fc8-98cc-6ea091be5b7e"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--5522b1eb-44cb-4f79-8162-4fd59bc943de",
+        "created_by_ref": "identity--4dd51276-c1c1-47b8-949b-34a2f848b569",
+        "created": "2021-07-28T17:45:35.801385Z",
+        "modified": "2022-05-27T20:29:12.466177Z",
+        "name": "guess",
+        "description": "Often choice energy PM war we.",
+        "aliases": [
+            "fear",
+            "community"
+        ],
+        "first_seen": "2021-04-28T05:19:29.883626Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--87448beb-8963-4fc8-98cc-6ea091be5b7e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--0c7b8aad-bad2-4075-b801-29c077e5621b",
+        "created_by_ref": "identity--4dd51276-c1c1-47b8-949b-34a2f848b569",
+        "created": "2020-09-20T00:39:12.537121Z",
+        "modified": "2021-08-14T01:08:44.867571Z",
+        "relationship_type": "controls",
+        "source_ref": "infrastructure--31096dab-17f9-4caf-8284-93e8fae4d2c6",
+        "target_ref": "infrastructure--5522b1eb-44cb-4f79-8162-4fd59bc943de",
+        "start_time": "2021-06-15T04:43:06.428196Z",
+        "stop_time": "2022-05-04T01:26:23.817822Z",
+        "confidence": 19,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--87448beb-8963-4fc8-98cc-6ea091be5b7e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--87448beb-8963-4fc8-98cc-6ea091be5b7e",
+        "created_by_ref": "identity--4dd51276-c1c1-47b8-949b-34a2f848b569",
+        "created": "2021-08-14T01:08:44.866443Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6f258483-31e6-4810-a3a3-83f9297fcea8",
+                "name": "Individual personal with know",
+                "create_date_time": "2021-08-14T01:08:08.419751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4dd51276-c1c1-47b8-949b-34a2f848b569",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-06-04T00:52:57.716328Z",
+        "modified": "2023-06-01T13:55:59.165898Z",
+        "name": "GiveFeelingCup",
+        "roles": [
+            "reason",
+            "chair",
+            "budget",
+            "claim"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 69,
+        "object_marking_refs": [
+            "marking-definition--87448beb-8963-4fc8-98cc-6ea091be5b7e"
+        ]
+    }
+]

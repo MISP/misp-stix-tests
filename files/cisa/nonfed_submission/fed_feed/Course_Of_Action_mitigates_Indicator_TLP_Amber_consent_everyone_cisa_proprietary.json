@@ -1,0 +1,199 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--8fc460cc-e95c-4688-b0eb-2dafa8034265",
+        "created_by_ref": "identity--1662e4cd-26b6-454c-bd9b-7405a3bfe527",
+        "created": "2020-09-19T09:55:03.778885Z",
+        "modified": "2021-08-14T01:08:23.580501Z",
+        "name": "choice",
+        "labels": [
+            "will",
+            "would",
+            "admit",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "west",
+                "description": "Visit number daughter moment study experience.",
+                "hashes": {
+                    "MD5": "0bdebd2e0b6ca14856860fd4ca3777b0",
+                    "SHA-1": "6a6b2a17fe5bf65f7f67fd6caec8054abbba434b",
+                    "SHA-256": "923bf026685debd6683808e4e2097bf245269854559c698b82019ed2e04b1fe0",
+                    "SHA-512": "7c6251e321d73d8bf0c33cd30a03d47eb82586d859aae6994a7e08377d3aa52c9bc559fa7b9c43eacb717b79cbc3f88c2052376495121af886183b740e3f0ada",
+                    "SHA3-256": "d4108857f79f8b84608e064c3d88c10ee94b7b2e2cc55e128a63b4f28db06842",
+                    "SHA3-512": "8324bc312ab82bbc2e2bc55a93005ce82836c054ee4a7b76b2c80453d0755ea9c09b19136ea725ac66cc947495c3e4e92d8d62d5f154dfe75e9257d1b6e086ae"
+                },
+                "external_id": "nfBinECaUvKsTAGeqH"
+            },
+            {
+                "source_name": "result",
+                "description": "Move three bed unit best.",
+                "url": "https://mooney-parker.net/",
+                "external_id": "RgMHOyTVtLXhiCca"
+            },
+            {
+                "source_name": "oil",
+                "description": "Although firm contain provide head whose easy machine."
+            },
+            {
+                "source_name": "recent",
+                "description": "Push really important heart.",
+                "external_id": "yqwmS"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2a7756a6-805b-4509-aeea-741c10d709de"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--d90cca17-db6b-46d7-9ad6-0607cd668687",
+        "created_by_ref": "identity--1662e4cd-26b6-454c-bd9b-7405a3bfe527",
+        "created": "2021-03-23T04:26:21.387082Z",
+        "modified": "2021-08-14T01:08:23.580751Z",
+        "description": "Machine full small thought rise.",
+        "pattern": "[directory:mtime < t'2022-01-11T23:42:20.806279Z']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-02-22T06:45:34.245583Z",
+        "labels": [
+            "chance",
+            "region",
+            "pfte-batch-1"
+        ],
+        "confidence": 61,
+        "object_marking_refs": [
+            "marking-definition--2a7756a6-805b-4509-aeea-741c10d709de"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--be4519c7-4e3b-46c1-bd78-792bae513fe6",
+        "created_by_ref": "identity--1662e4cd-26b6-454c-bd9b-7405a3bfe527",
+        "created": "2020-10-19T08:11:34.567487Z",
+        "modified": "2021-08-14T01:08:23.581896Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--8fc460cc-e95c-4688-b0eb-2dafa8034265",
+        "target_ref": "indicator--d90cca17-db6b-46d7-9ad6-0607cd668687",
+        "stop_time": "2021-08-14T13:20:46.229243Z",
+        "labels": [
+            "future",
+            "theory",
+            "him",
+            "stuff",
+            "term",
+            "pfte-batch-1"
+        ],
+        "confidence": 37,
+        "external_references": [
+            {
+                "source_name": "any",
+                "description": "Address college heavy skill.",
+                "url": "http://www.scott-wilkinson.biz/",
+                "external_id": "NPTihosJxENiLyVAN"
+            },
+            {
+                "source_name": "maintain",
+                "description": "Cold a quite guess carry especially direction night.",
+                "url": "http://www.williams.net/",
+                "hashes": {
+                    "MD5": "4ee6322266db361563f524cb8864142c",
+                    "SHA-1": "498b9682921362162665ea9f8137c797161c4580",
+                    "SHA-256": "205c3b14474baab0a454d218fd1f6e5586b249b76e8bb34653c091b123540b94",
+                    "SHA-512": "aa7658a9b764a2a6f51fe49cece8e1a3266b022203b702e67de978be61b65801025aca694a5285e19eade01752f15d4978e1bee392935693690eab3ccf486646",
+                    "SHA3-256": "22481f9433e70193a2b38366e96325ed285fd1be283c5110b00f4fde0d854544",
+                    "SHA3-512": "5857e50bf7b9561bbd6659c240516e14309c2918c65441bc7f166f36f2eaa492c5ed98da9ce0d6380a5b4162ff3094c8d35fd0e7ff61e957bbd1f577eb7c1973"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2a7756a6-805b-4509-aeea-741c10d709de"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2a7756a6-805b-4509-aeea-741c10d709de",
+        "created_by_ref": "identity--1662e4cd-26b6-454c-bd9b-7405a3bfe527",
+        "created": "2021-08-14T01:08:23.579552Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-881bbc21-deef-4d57-abf3-7f599266217f",
+                "name": "Way get would fight necessary hour measure",
+                "create_date_time": "2021-08-14T01:08:08.423662Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1662e4cd-26b6-454c-bd9b-7405a3bfe527",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-25T08:58:03.526189Z",
+        "modified": "2021-08-14T01:08:23.582199Z",
+        "name": "Meyer, Pearson and Reese",
+        "description": "Automated modular Graphical User Interface",
+        "roles": [
+            "ok",
+            "friend",
+            "physical"
+        ],
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 27,
+        "object_marking_refs": [
+            "marking-definition--2a7756a6-805b-4509-aeea-741c10d709de"
+        ]
+    }
+]

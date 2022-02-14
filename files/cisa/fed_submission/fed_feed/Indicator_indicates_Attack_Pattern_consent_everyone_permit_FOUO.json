@@ -1,0 +1,183 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--7676aef1-3bb0-40f6-b8b9-29fc1bb40f5f",
+        "created_by_ref": "identity--5f87cc09-c66a-446c-a9be-d2af71b7a40f",
+        "created": "2020-12-30T08:52:56.674386Z",
+        "modified": "2021-08-14T01:08:28.191526Z",
+        "description": "Service data become.",
+        "pattern": "(((([autonomous-system:rir NOT = 'Kirk Inc']) OR [autonomous-system:rir > 'Andrews-Haynes']))) OR [url:defanged NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-05-01T03:03:01.427011Z",
+        "valid_until": "2021-08-28T13:13:09.946317Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "labels": [
+            "similar",
+            "explain",
+            "cut",
+            "more",
+            "certainly",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--3abffe85-c2fc-4ed5-8d02-100a0666e02d"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--df1985b3-c032-4540-a11b-061448a44070",
+        "created_by_ref": "identity--5f87cc09-c66a-446c-a9be-d2af71b7a40f",
+        "created": "2020-10-29T07:26:05.746965Z",
+        "modified": "2021-08-14T01:08:28.19475Z",
+        "name": "trial",
+        "aliases": [
+            "expect",
+            "world",
+            "could",
+            "thousand",
+            "however"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "jAkQfifllvLoE",
+                "phase_name": "RREXbk"
+            }
+        ],
+        "labels": [
+            "prepare",
+            "window",
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3abffe85-c2fc-4ed5-8d02-100a0666e02d"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--02f51a3d-950a-4398-b426-b9b262df73e2",
+        "created_by_ref": "identity--5f87cc09-c66a-446c-a9be-d2af71b7a40f",
+        "created": "2020-08-13T07:37:28.666592Z",
+        "modified": "2021-08-14T01:08:28.195Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--7676aef1-3bb0-40f6-b8b9-29fc1bb40f5f",
+        "target_ref": "attack-pattern--df1985b3-c032-4540-a11b-061448a44070",
+        "start_time": "2020-12-06T06:04:40.19081Z",
+        "object_marking_refs": [
+            "marking-definition--3abffe85-c2fc-4ed5-8d02-100a0666e02d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5f87cc09-c66a-446c-a9be-d2af71b7a40f",
+        "created_by_ref": "identity--5f87cc09-c66a-446c-a9be-d2af71b7a40f",
+        "created": "2020-09-26T10:35:21.141031Z",
+        "modified": "2021-09-03T06:21:50.763084Z",
+        "name": "Smith, Nichols and Moore",
+        "description": "Progressive impactful Local Area Network",
+        "roles": [
+            "south",
+            "process"
+        ],
+        "identity_class": "system",
+        "sectors": [
+            "utilities",
+            "commercial",
+            "government-regional",
+            "hospitality-leisure",
+            "education"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "nice",
+                "description": "Scene off decide left despite matter hotel.",
+                "url": "http://www.aguilar.com/",
+                "hashes": {
+                    "MD5": "6e676f93ca4dd1b9f6281c67b2cca1d2",
+                    "SHA-1": "ad68892811b9179bdeb52629227821a20c11b484",
+                    "SHA-256": "79cefd4fc5cc220de91170d136edb8104020b09d49bf1d813b5c7592ac40fedd",
+                    "SHA-512": "c2706202cb3ce695c4212f6a258a3f4ffed6a913413c0ee627e4bbc13b446089d9d0ba02a194af95d5677fa4b46eeae9cea9c421ddf8ac3d104a2dd316df23a4",
+                    "SHA3-256": "fe00fc24754902fe30a98c6990145579c65e7c40727cf0ea1debd4dceacd7ae3",
+                    "SHA3-512": "0650765dfa07f58b933688cd6df3b6394d603fe3647fd72a479e7e8a483384cf5125a5d2554f362ff6c81aec7a141d5a9b6c05e9ed10038aa4bea7a5cff2a62f"
+                }
+            },
+            {
+                "source_name": "condition",
+                "description": "Executive buy only.",
+                "url": "https://patterson-wood.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--3abffe85-c2fc-4ed5-8d02-100a0666e02d"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--3abffe85-c2fc-4ed5-8d02-100a0666e02d",
+        "created": "2021-08-14T01:08:28.190922Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a064a16e-64c9-426c-9535-98e263215e51",
+                "name": "Member population available under",
+                "create_date_time": "2021-08-14T01:08:08.430342Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

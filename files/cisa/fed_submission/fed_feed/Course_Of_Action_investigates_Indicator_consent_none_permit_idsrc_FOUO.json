@@ -1,0 +1,202 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--d708007a-3b7e-40ce-93d3-8ee16b787cf0",
+        "created_by_ref": "identity--bc6b58ba-ffef-4ec3-91ad-d412d3fabf8b",
+        "created": "2022-05-27T11:40:09.323903Z",
+        "modified": "2023-02-06T21:59:25.702373Z",
+        "name": "capital",
+        "labels": [
+            "course",
+            "before",
+            "near",
+            "art",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--4a3be83a-ac9a-474e-b6f3-c73ce8eb7930"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--7d91535e-33db-4eb5-8334-b697f2faf6f2",
+        "created_by_ref": "identity--bc6b58ba-ffef-4ec3-91ad-d412d3fabf8b",
+        "created": "2021-02-20T21:34:17.113587Z",
+        "modified": "2021-08-14T01:08:21.934704Z",
+        "indicator_types": [
+            "unknown",
+            "attribution"
+        ],
+        "pattern": "[mutex:defanged = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-07-21T09:23:49.926061Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "KSoNpycJEqYZGr",
+                "phase_name": "QmvbjriwXKsSAcdMa"
+            },
+            {
+                "kill_chain_name": "uWrhKDixSxLiObmsoHb",
+                "phase_name": "CuUuxQFBPjShGISmfPz"
+            },
+            {
+                "kill_chain_name": "OioPxDrgZHWS",
+                "phase_name": "AWLLQSs"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "labels": [
+            "scientist",
+            "eye",
+            "cover",
+            "leg",
+            "pfte-batch-1"
+        ],
+        "confidence": 33,
+        "external_references": [
+            {
+                "source_name": "concern",
+                "description": "Beautiful structure central team become.",
+                "hashes": {
+                    "MD5": "1cad0b41384b523e6ab736ee95c2cb97",
+                    "SHA-1": "ddebad121f9411c6e44bd4dc6eb78ee7dc06681b",
+                    "SHA-256": "b0e84a1afe144a9ace3ccd5849eb5c29ea83f7349556c759df3c09728ab196ed",
+                    "SHA-512": "b1aafc79f2b6f9705dadee3bb98eeb208da108f4a33e73d96be9474473eab239d3d52baaf06f85a2cfae936dd464ff61aae07a4692572510d925cfe6d247890f",
+                    "SHA3-256": "7b057193bb8d26a6f5a93e69d52fa7f0d8858eec159ea57167f387b4782fdd22",
+                    "SHA3-512": "862c85ccdae8595924e7e5fba3e13d4476e6c33b32c0e624c02bdef38b996a59378ae36d98c0239cfe9406a5efa241b549b2f876430a23d04ed315bed56122f3"
+                },
+                "external_id": "OuidhOCkXij"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4a3be83a-ac9a-474e-b6f3-c73ce8eb7930"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--33445b31-7551-40eb-89d2-cd52f64c16d1",
+        "created_by_ref": "identity--bc6b58ba-ffef-4ec3-91ad-d412d3fabf8b",
+        "created": "2021-11-13T06:22:01.305632Z",
+        "modified": "2022-06-17T03:39:26.948091Z",
+        "relationship_type": "investigates",
+        "source_ref": "course-of-action--d708007a-3b7e-40ce-93d3-8ee16b787cf0",
+        "target_ref": "indicator--7d91535e-33db-4eb5-8334-b697f2faf6f2",
+        "stop_time": "2021-11-02T16:49:21.131743Z",
+        "labels": [
+            "road",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--4a3be83a-ac9a-474e-b6f3-c73ce8eb7930"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--bc6b58ba-ffef-4ec3-91ad-d412d3fabf8b",
+        "created_by_ref": "identity--bc6b58ba-ffef-4ec3-91ad-d412d3fabf8b",
+        "created": "2021-12-23T14:08:51.595043Z",
+        "modified": "2022-03-11T02:52:56.999652Z",
+        "name": "Villegas, Jimenez and Wilson",
+        "roles": [
+            "suggest",
+            "that",
+            "question"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "retail",
+            "emergency-services",
+            "agriculture",
+            "energy"
+        ],
+        "contact_information": "8049 Alex Turnpike Apt. 364\nPort Betty, KS 20664",
+        "object_marking_refs": [
+            "marking-definition--4a3be83a-ac9a-474e-b6f3-c73ce8eb7930"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--4a3be83a-ac9a-474e-b6f3-c73ce8eb7930",
+        "created": "2021-08-14T01:08:21.933548Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1a59cf40-939d-4572-bc52-0472b77923dd",
+                "name": "Run main democratic",
+                "create_date_time": "2021-08-14T01:08:08.425934Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

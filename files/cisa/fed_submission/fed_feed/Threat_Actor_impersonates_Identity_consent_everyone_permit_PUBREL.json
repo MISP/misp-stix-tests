@@ -1,0 +1,214 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--8b81834c-713e-4e74-8777-026974331621",
+        "created_by_ref": "identity--573f5f58-35c5-44f9-8957-e9868ec2b65d",
+        "created": "2022-03-11T01:56:19.707156Z",
+        "modified": "2022-05-10T05:27:34.095385Z",
+        "name": "anything",
+        "roles": [
+            "malware-author",
+            "sponsor",
+            "independent",
+            "malware-author",
+            "independent"
+        ],
+        "goals": [
+            "yeah",
+            "behind"
+        ],
+        "sophistication": "advanced",
+        "resource_level": "individual",
+        "primary_motivation": "unpredictable",
+        "personal_motivations": [
+            "personal-gain",
+            "dominance"
+        ],
+        "confidence": 71,
+        "object_marking_refs": [
+            "marking-definition--c2f32823-cb1f-4f2c-9187-438d8669832a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--06b569ed-3765-4c9f-ae9a-4ed9f51f7d8d",
+        "created_by_ref": "identity--573f5f58-35c5-44f9-8957-e9868ec2b65d",
+        "created": "2021-05-25T05:43:56.600554Z",
+        "modified": "2021-12-18T16:38:30.432787Z",
+        "name": "Miles Group",
+        "identity_class": "class",
+        "contact_information": "07609 Ian Drive Suite 679\nGordonchester, AL 29667",
+        "labels": [
+            "model",
+            "indicate",
+            "day",
+            "accept",
+            "partner",
+            "pfte-batch-1"
+        ],
+        "confidence": 86,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c2f32823-cb1f-4f2c-9187-438d8669832a"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8086d552-d351-499d-b32c-bb5e4c93f1b6",
+        "created_by_ref": "identity--573f5f58-35c5-44f9-8957-e9868ec2b65d",
+        "created": "2021-04-16T02:15:54.124321Z",
+        "modified": "2021-08-14T01:09:28.674034Z",
+        "relationship_type": "impersonates",
+        "source_ref": "threat-actor--8b81834c-713e-4e74-8777-026974331621",
+        "target_ref": "identity--06b569ed-3765-4c9f-ae9a-4ed9f51f7d8d",
+        "start_time": "2022-01-18T06:53:36.365676Z",
+        "labels": [
+            "defense",
+            "movie",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "better",
+                "description": "Determine establish control girl serve use.",
+                "url": "http://stewart-johnson.com/",
+                "hashes": {
+                    "MD5": "24bec0f0e317a99d06c016124b2b4159",
+                    "SHA-1": "52b3e810c02489d380b9e833316b914068d58e05",
+                    "SHA-256": "311174e7c12d7d2ffd395e92cf8ce58ce3354a4e4c88f8db319451250b8ac04e",
+                    "SHA-512": "54c9b2d39221e1b4216e751454d2f99c77d3b294d50c74697e43e6dc128cbd13edf4548d332b2e4fcf77d38cf36745eb717fa60138124877169761803685cfad",
+                    "SHA3-256": "28d45f577afe88ec32c30cbc8783c32ad86f621f3ffab847341c734d7ea08020",
+                    "SHA3-512": "26ef7e880e8b358f3be4976de967347a42c9a0fc90710c94e034a97228ef691e27fcfa6b45d20da803e50ce3bd20c9c6be4bf3a603ec1fe7a3d9b0a15dbc1ed6"
+                },
+                "external_id": "yJdttFwSaSHRHMXXmyAe"
+            },
+            {
+                "source_name": "support",
+                "url": "http://www.meadows.com/",
+                "hashes": {
+                    "MD5": "2f83550d9f6ebb0a722fc09795b0edaf",
+                    "SHA-1": "b4275fc5df84ad519afdd58604694ba8d08b4117",
+                    "SHA-256": "c33c053d6942779e2acc63508a8a064bb8dd87cdef4b5d7d49164bbe995b8249",
+                    "SHA-512": "9e8a48f94d20b183f1edc68ba77692f55acb15e2e9a6ef077798a25cd81438cf2ef873cc8a5422915d9aafad1d98f7fceb959ab15173fa01f80d4e0abfbee145",
+                    "SHA3-256": "a803a15cdbb45e3c3e81c611d94fe4d5cec421da68ce51e86626ff08b0c9ea4d",
+                    "SHA3-512": "ac5ad35b2380adfc48d7234333cbee435b07f39ca5e2a166b38eef65e53fcf14a40ed862888e1fee92d282114d672a092c1bc1402bf9e189691565c5c5773f04"
+                },
+                "external_id": "kKHOsstUDSVMZaGRl"
+            },
+            {
+                "source_name": "class",
+                "description": "Character paper very.",
+                "external_id": "wdRIiDlAonrF"
+            },
+            {
+                "source_name": "head",
+                "description": "Former church reach teacher.",
+                "url": "https://www.anderson.info/",
+                "hashes": {
+                    "MD5": "011e2ba5d0d1a986fcb943ecd3930358",
+                    "SHA-1": "059c16356dac05bc34ce59ba999c53baa16fa60c",
+                    "SHA-256": "dcb8908f69394a817a582739623180211784cde6681eab8b4b914e5892f530a9",
+                    "SHA-512": "16acab9319326ad1e523890632d808531e17e0b865c073cf44b4d7fe23961701f1fbf0ee06c3246741c757d42f3c3de74f789b20cf1fdf4729ffbf7471b83802",
+                    "SHA3-256": "0e674ddde2f8d36a7e403297e1fc9f886e3ce0ccf93e1a82e19e437f0d9c7c6e",
+                    "SHA3-512": "c0ccf1550a912d9759cdd9da94dc21ef0eb33b049cdaf0f369303c1c7cb505c57b5d7ddf6f027d592c868190d7ceaa6895dd527dcee03a6c9877a7751fa89acf"
+                }
+            },
+            {
+                "source_name": "price",
+                "description": "Laugh here provide."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c2f32823-cb1f-4f2c-9187-438d8669832a"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--573f5f58-35c5-44f9-8957-e9868ec2b65d",
+        "created_by_ref": "identity--573f5f58-35c5-44f9-8957-e9868ec2b65d",
+        "created": "2021-06-18T21:26:07.59174Z",
+        "modified": "2022-03-12T05:38:01.059314Z",
+        "name": "Beck, Cline and Bullock",
+        "description": "Seamless transitional matrices",
+        "roles": [
+            "decide",
+            "article",
+            "participant",
+            "which",
+            "boy"
+        ],
+        "identity_class": "class",
+        "contact_information": "60932 Steven Ridge Apt. 309\nWest Jacquelinestad, RI 18148",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 95,
+        "external_references": [
+            {
+                "source_name": "camera",
+                "description": "Enjoy manager country approach.",
+                "external_id": "xSGpChJLDE"
+            },
+            {
+                "source_name": "beat",
+                "description": "Something adult color camera.",
+                "url": "http://www.garcia-allen.info/",
+                "external_id": "jWgzVMZr"
+            },
+            {
+                "source_name": "most",
+                "description": "School than house four difficult.",
+                "external_id": "wKLIlH"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c2f32823-cb1f-4f2c-9187-438d8669832a"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--c2f32823-cb1f-4f2c-9187-438d8669832a",
+        "created": "2021-08-14T01:09:28.672495Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3b921193-36b9-467a-b549-f06fd7a0147e",
+                "name": "Artist despite travel Mrs long fish",
+                "create_date_time": "2021-08-14T01:08:08.430789Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.430622Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,230 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--a6538b2a-b8c4-43ff-a926-1269e8677a44",
+        "created_by_ref": "identity--66bfabdf-167c-4245-a2c4-6505c2516c87",
+        "created": "2021-04-20T14:45:58.365241Z",
+        "modified": "2021-12-01T13:56:43.326876Z",
+        "name": "national",
+        "description": "Foot box image account tell.",
+        "threat_actor_types": [
+            "terrorist",
+            "nation-state",
+            "competitor",
+            "spy",
+            "spy"
+        ],
+        "aliases": [
+            "artist",
+            "act",
+            "onto"
+        ],
+        "first_seen": "2021-10-25T17:58:05.014105Z",
+        "roles": [
+            "infrastructure-architect"
+        ],
+        "resource_level": "club",
+        "secondary_motivations": [
+            "ideology"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--51c2dcd4-2d88-41f1-8f61-5a57c0451dcd"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--5b20d289-c60a-42a3-a0fc-d6864cda0242",
+        "created_by_ref": "identity--66bfabdf-167c-4245-a2c4-6505c2516c87",
+        "created": "2021-08-27T22:47:33.548541Z",
+        "modified": "2022-08-02T11:21:43.955087Z",
+        "name": "control",
+        "description": "Organization guess himself standard.",
+        "infrastructure_types": [
+            "routers-switches",
+            "routers-switches",
+            "reconnaissance",
+            "routers-switches"
+        ],
+        "aliases": [
+            "leader",
+            "specific"
+        ],
+        "first_seen": "2020-10-20T22:55:28.032312Z",
+        "last_seen": "2021-08-24T03:27:47.17815Z",
+        "labels": [
+            "defense",
+            "step",
+            "seek",
+            "pfte-batch-1"
+        ],
+        "confidence": 54,
+        "object_marking_refs": [
+            "marking-definition--51c2dcd4-2d88-41f1-8f61-5a57c0451dcd"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d3c4079d-29f5-4b60-8db4-b3896afa55b5",
+        "created_by_ref": "identity--66bfabdf-167c-4245-a2c4-6505c2516c87",
+        "created": "2020-12-15T01:47:51.135779Z",
+        "modified": "2021-08-14T01:09:26.320891Z",
+        "relationship_type": "hosts",
+        "source_ref": "threat-actor--a6538b2a-b8c4-43ff-a926-1269e8677a44",
+        "target_ref": "infrastructure--5b20d289-c60a-42a3-a0fc-d6864cda0242",
+        "confidence": 71,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "both",
+                "url": "http://www.gay.com/",
+                "hashes": {
+                    "MD5": "8dcb56e1e8e9fc96a6deba3bd2b37084",
+                    "SHA-1": "593041b71d2a0703dd8b6619e8df467a78227fa3",
+                    "SHA-256": "a17e9ba6f83d880175b6fe12ab11b9ca5e1b170426cca623413b34109ad7d752",
+                    "SHA-512": "72a3fbeced496d8a7b6a4d679fe8eed3ffae03ddfe92f340c11095797af4c49e6167686897027a0d92b3e629095ba5fe31a395a83dee91a5256c0f58a136185d",
+                    "SHA3-256": "e578d15fb0afadc75e972056c6882bc3979bfe734f3f64a6c03d28704391f622",
+                    "SHA3-512": "0ac7ca16cac8b5ebc16992c01d1d363a2c0c5dce9cd2786bde499c57c4d1377234c5351bd265841e08fa293d84dee75324168fb9d84f1d81d85108bd61e12671"
+                },
+                "external_id": "FPkSI"
+            },
+            {
+                "source_name": "reach",
+                "description": "And family ready pull set.",
+                "external_id": "aKmOxRHmOlGXob"
+            },
+            {
+                "source_name": "thus",
+                "url": "https://willis.info/",
+                "external_id": "aqXxjvhgBgJx"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--51c2dcd4-2d88-41f1-8f61-5a57c0451dcd"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--51c2dcd4-2d88-41f1-8f61-5a57c0451dcd",
+        "created_by_ref": "identity--66bfabdf-167c-4245-a2c4-6505c2516c87",
+        "created": "2021-08-14T01:09:26.319339Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c8895e1e-4ecb-48a8-ba6f-5865a3a3066d",
+                "name": "Development get financial fill light",
+                "create_date_time": "2021-08-14T01:08:08.421416Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.421229Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--66bfabdf-167c-4245-a2c4-6505c2516c87",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-08-06T23:56:41.781484Z",
+        "modified": "2022-11-19T18:41:10.754997Z",
+        "name": "Perez, Williams and Hughes",
+        "roles": [
+            "speak",
+            "cause",
+            "consumer"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "bill",
+                "description": "Show anything shake green.",
+                "url": "http://gill.org/",
+                "external_id": "gMCcJFNlKjxfd"
+            },
+            {
+                "source_name": "send",
+                "description": "Firm visit standard he performance.",
+                "hashes": {
+                    "MD5": "0898eb4b5b184e688a808c6cd6a2c737",
+                    "SHA-1": "eb48b061aafe162735bce8c35d4e3781ac4ae510",
+                    "SHA-256": "76a957f6f83803d99e10dd17bc75df083f4811d856e69c1b12386fa6bffd44e4",
+                    "SHA-512": "5feacba444e3613d912d5337e160ff1dc455f07935a6c47a615bb1d567264ed466a7878ef2ac9e985d03614b6461ee06ab331e591d92003660e96b65b80037ac",
+                    "SHA3-256": "fc84390f89c538c105db62e0f43da894a973a427d5ff0f34c39ecdabe715f77d",
+                    "SHA3-512": "5c979ba61fb1cad48fd7e4485231808857e6e3df3bc83eb171bf52b133003156976a2b4a9db2fe9e81776eef59dadc65403df03bfe227681435e362ffab593ff"
+                },
+                "external_id": "EQTrYgVzzgPJp"
+            },
+            {
+                "source_name": "bag",
+                "description": "Air population others enter with early total reflect.",
+                "hashes": {
+                    "MD5": "7aa350efc24450ff6e4c92b6d2103f8f",
+                    "SHA-1": "caff39ee1b5a096aaa58557fec7a43961ef120f3",
+                    "SHA-256": "4cd522823177ef053347f124624278898d2cf76ec34d751b2bd7586159df1a07",
+                    "SHA-512": "77e57b4ccaf342e788c6169314a7c0c0c2253d10e405875af3c59b697c884e830b9edbc5a0add82f62b984069a3a4b8d47efe225647a733e854d956eeca597ff",
+                    "SHA3-256": "ad0edbbcd5159e35dfd762869aaf5e146cc46ae027cbc780fe61c02fad283f2e",
+                    "SHA3-512": "512dc21ea85338f10420ff13737a7b723cbc2b31c2eaa7ffcf8be5b6719420dd1f6e50d146f4a64579f3a8fa03641e3d890238e2e441ff77bb339b11dc59ce0f"
+                },
+                "external_id": "vyfVAiqfsbecC"
+            },
+            {
+                "source_name": "piece",
+                "external_id": "LCvcwRzhrsy"
+            },
+            {
+                "source_name": "find",
+                "external_id": "RfngoQNTjfkYcQbkkywG"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--51c2dcd4-2d88-41f1-8f61-5a57c0451dcd"
+        ]
+    }
+]

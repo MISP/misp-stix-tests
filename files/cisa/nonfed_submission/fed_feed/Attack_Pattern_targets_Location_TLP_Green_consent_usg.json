@@ -1,0 +1,185 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--f177070a-6e61-46de-831a-d9ae626d5487",
+        "created_by_ref": "identity--c70cdef2-b50f-4ec5-8e2b-f106e5525e2f",
+        "created": "2021-07-13T23:47:21.6524Z",
+        "modified": "2021-12-27T05:19:02.782219Z",
+        "name": "budget",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "aoilpfNuw",
+                "phase_name": "raAMEOj"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "rOHCBhV",
+                "phase_name": "oCAtIJq"
+            }
+        ],
+        "labels": [
+            "sound",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--d39a32b7-807c-4738-a30e-a42d05a4f7d5"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--a622f17d-5b2f-4b3a-b570-1432312c7d9d",
+        "created_by_ref": "identity--c70cdef2-b50f-4ec5-8e2b-f106e5525e2f",
+        "created": "2021-08-18T08:51:20.770129Z",
+        "modified": "2022-06-17T19:31:01.601697Z",
+        "name": "LqtCEqNVNhUo",
+        "latitude": 44.64599996578076,
+        "longitude": 5.490983228397454,
+        "precision": 66.44767199264857,
+        "region": "asia",
+        "country": "Madagascar",
+        "city": "Michealbury",
+        "street_address": "391 Valdez Ramp Suite 581",
+        "postal_code": "54652",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d39a32b7-807c-4738-a30e-a42d05a4f7d5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d693e5da-2ea9-43ca-97da-69ffa4cdf94b",
+        "created_by_ref": "identity--c70cdef2-b50f-4ec5-8e2b-f106e5525e2f",
+        "created": "2020-09-03T12:49:36.149991Z",
+        "modified": "2021-08-14T01:08:10.162506Z",
+        "relationship_type": "targets",
+        "source_ref": "attack-pattern--f177070a-6e61-46de-831a-d9ae626d5487",
+        "target_ref": "location--a622f17d-5b2f-4b3a-b570-1432312c7d9d",
+        "confidence": 68,
+        "object_marking_refs": [
+            "marking-definition--d39a32b7-807c-4738-a30e-a42d05a4f7d5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d39a32b7-807c-4738-a30e-a42d05a4f7d5",
+        "created_by_ref": "identity--c70cdef2-b50f-4ec5-8e2b-f106e5525e2f",
+        "created": "2021-08-14T01:08:10.161168Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-15d3e0eb-8dda-4b6b-a55d-5c6a8a6d490b",
+                "name": "Clearly industry family",
+                "create_date_time": "2021-08-14T01:08:08.420657Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c70cdef2-b50f-4ec5-8e2b-f106e5525e2f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-03T05:17:15.51828Z",
+        "modified": "2022-06-13T00:13:32.689377Z",
+        "name": "West-Mason",
+        "description": "Multi-channeled mobile productivity",
+        "sectors": [
+            "government-regional",
+            "mining",
+            "government-national",
+            "emergency-services",
+            "entertainment"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 1,
+        "external_references": [
+            {
+                "source_name": "central",
+                "description": "Health research physical weight ground effort sing every.",
+                "url": "http://www.robinson.com/",
+                "hashes": {
+                    "MD5": "f85490124ab844b4fc440515e9f89bfe",
+                    "SHA-1": "69343fd38cdf33f53488eb113f263f9e4afd1d5b",
+                    "SHA-256": "9dc3c2d10909ed0feb8e59d06d1dc66c0a22c234b6a51b6de7e30fc6d58a5e07",
+                    "SHA-512": "e53a0a47caf477cd7d9c9d103ea224e6a782ef1cf9f27e922b0436fed13e8cba550781315d9ad37983ab03c101f214be02c8e9bb00bf5326100f857c9bb8770d",
+                    "SHA3-256": "f5730a3b1ea799ebff9e2a6588f93fa684f6ce552c706fd214739105c6281bdd",
+                    "SHA3-512": "65d2b8deb28b86823abcb7ca012a76f1a13c59b1c9542bee2932cee6527d5f4b7aa73d0e94140fc2dfe6678883d79fff00e660ad7bc05cea2d863be85daa00c3"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d39a32b7-807c-4738-a30e-a42d05a4f7d5"
+        ]
+    }
+]

@@ -1,0 +1,113 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--090775af-e0d1-480b-92cd-4c80dc057338",
+        "created_by_ref": "identity--7308b28e-62fa-4fe3-b3b9-69bc49cf7589",
+        "created": "2022-06-19T02:08:07.658606Z",
+        "modified": "2023-01-21T02:44:16.589606Z",
+        "name": "add",
+        "threat_actor_types": [
+            "insider-disgruntled"
+        ],
+        "roles": [
+            "director",
+            "agent",
+            "infrastructure-architect",
+            "infrastructure-operator"
+        ],
+        "sophistication": "strategic",
+        "resource_level": "team",
+        "secondary_motivations": [
+            "personal-gain"
+        ],
+        "labels": [
+            "pass",
+            "pfte-batch-1"
+        ],
+        "confidence": 50,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c3cad59b-5659-43cb-9212-b15156a17cbe",
+        "created_by_ref": "identity--7308b28e-62fa-4fe3-b3b9-69bc49cf7589",
+        "created": "2022-03-24T18:38:22.212305Z",
+        "modified": "2022-11-29T19:55:50.088679Z",
+        "name": "Bush, Cortez and Murphy",
+        "roles": [
+            "traditional",
+            "either",
+            "grow",
+            "toward",
+            "fill"
+        ],
+        "contact_information": "Unit 8557 Box 0691\nDPO AP 50358",
+        "labels": [
+            "between",
+            "Mrs",
+            "act",
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--736e0933-340a-4c4e-b295-f4642a222807",
+        "created_by_ref": "identity--7308b28e-62fa-4fe3-b3b9-69bc49cf7589",
+        "created": "2020-09-01T02:40:26.980258Z",
+        "modified": "2021-08-14T01:09:24.596083Z",
+        "relationship_type": "attributed-to",
+        "description": "Time pay fish news miss until candidate. Summer reduce fear enough politics just development. Store build agree with heavy compare federal.",
+        "source_ref": "threat-actor--090775af-e0d1-480b-92cd-4c80dc057338",
+        "target_ref": "identity--c3cad59b-5659-43cb-9212-b15156a17cbe",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 57,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7308b28e-62fa-4fe3-b3b9-69bc49cf7589",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-03-31T12:54:27.367013Z",
+        "modified": "2021-10-08T12:29:28.109406Z",
+        "name": "Ryan PLC",
+        "identity_class": "class",
+        "contact_information": "98167 Henry Road\nLaurenberg, RI 58786",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "mention",
+                "description": "Improve raise strategy drug foot will fund.",
+                "hashes": {
+                    "MD5": "29deacf38dc098a2befd44bc4227569a",
+                    "SHA-1": "6b813f001cf404ce9763b3e0d08d9a47724e1dc1",
+                    "SHA-256": "436c18371fcca5d47187cb7280815a353cebea141b847aef0d24486de3ffa76a",
+                    "SHA-512": "660e3049356d7404d3abc264576ceda0fd82e9f8e74da173ec9882037c15dbfede4c14a3120acfb113aff6256273ee9117e39da498b3dd7f5bde41f6c1e0ffce",
+                    "SHA3-256": "476ca1a43e55130f144ce65025be3eb5e12a3d7a9ec89f50f5b44ae1e4481ff4",
+                    "SHA3-512": "b36c0332d8073138784699816f64b3f13e3167e6dd4222bbd058dcc72be106c292ac94d4f9d271e040fcb1eebe8b2ce4ba26a6ac819ea5f0f5db911dee1d0c08"
+                },
+                "external_id": "oXCCho"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

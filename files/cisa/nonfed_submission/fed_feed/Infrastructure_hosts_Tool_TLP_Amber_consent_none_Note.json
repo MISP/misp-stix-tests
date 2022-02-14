@@ -1,0 +1,197 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--2d8ae316-2d69-4ffc-9e27-e56d7eb44382",
+        "created_by_ref": "identity--487edc20-54b5-44aa-8116-50f3ffa72b30",
+        "created": "2021-10-04T07:02:55.69653Z",
+        "modified": "2022-03-31T08:21:35.621304Z",
+        "name": "hospital",
+        "infrastructure_types": [
+            "control-system",
+            "control-system",
+            "hosting-malware",
+            "workstation",
+            "command-and-control"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "nHUfYLEwNRZCow",
+                "phase_name": "lyoIykMCh"
+            }
+        ],
+        "labels": [
+            "social",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--3ea38d72-a1ac-4638-ae6c-13a8b3b9d91a"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--f0f26cf7-8206-4328-b9ac-475e82ebd626",
+        "created_by_ref": "identity--487edc20-54b5-44aa-8116-50f3ffa72b30",
+        "created": "2020-11-12T12:45:44.766975Z",
+        "modified": "2021-10-21T06:46:25.642971Z",
+        "name": "use",
+        "aliases": [
+            "might",
+            "five"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "WOeSAbvj",
+                "phase_name": "pmEwK"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "labels": [
+            "writer",
+            "learn",
+            "point",
+            "star",
+            "natural",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3ea38d72-a1ac-4638-ae6c-13a8b3b9d91a"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d9def56c-403d-44fc-bc6d-891da1d50147",
+        "created_by_ref": "identity--487edc20-54b5-44aa-8116-50f3ffa72b30",
+        "created": "2020-10-17T15:05:39.784975Z",
+        "modified": "2021-08-14T01:08:48.060117Z",
+        "relationship_type": "hosts",
+        "description": "Local message baby fine discussion. Speech north minute quite worker sit case.",
+        "source_ref": "infrastructure--2d8ae316-2d69-4ffc-9e27-e56d7eb44382",
+        "target_ref": "tool--f0f26cf7-8206-4328-b9ac-475e82ebd626",
+        "start_time": "2020-11-04T09:13:51.753922Z",
+        "confidence": 11,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3ea38d72-a1ac-4638-ae6c-13a8b3b9d91a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--32d76e1e-377a-4fcf-a739-0906f90f46e1",
+        "created_by_ref": "identity--487edc20-54b5-44aa-8116-50f3ffa72b30",
+        "created": "2020-11-26T01:38:35.594055Z",
+        "modified": "2021-09-29T20:11:25.934223Z",
+        "content": "Guy talk medical career significant board tree prevent. Success record TV military concern.",
+        "object_refs": [
+            "infrastructure--2d8ae316-2d69-4ffc-9e27-e56d7eb44382",
+            "tool--f0f26cf7-8206-4328-b9ac-475e82ebd626",
+            "relationship--d9def56c-403d-44fc-bc6d-891da1d50147"
+        ],
+        "object_marking_refs": [
+            "marking-definition--3ea38d72-a1ac-4638-ae6c-13a8b3b9d91a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--3ea38d72-a1ac-4638-ae6c-13a8b3b9d91a",
+        "created_by_ref": "identity--487edc20-54b5-44aa-8116-50f3ffa72b30",
+        "created": "2021-08-14T01:08:48.058771Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6f258483-31e6-4810-a3a3-83f9297fcea8",
+                "name": "Individual personal with know",
+                "create_date_time": "2021-08-14T01:08:08.419751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--487edc20-54b5-44aa-8116-50f3ffa72b30",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-18T16:25:49.379777Z",
+        "modified": "2022-01-25T02:07:40.541499Z",
+        "name": "ElseMarketLight",
+        "description": "Automated background Internet solution",
+        "roles": [
+            "police",
+            "then",
+            "according"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3ea38d72-a1ac-4638-ae6c-13a8b3b9d91a"
+        ]
+    }
+]

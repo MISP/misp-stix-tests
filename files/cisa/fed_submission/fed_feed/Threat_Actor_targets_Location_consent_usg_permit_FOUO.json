@@ -1,0 +1,141 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--1ec33303-492b-464d-a346-5d2c5e671820",
+        "created_by_ref": "identity--339c76c5-6f0a-4504-a6c1-b9ce4e1b62f3",
+        "created": "2021-08-19T23:48:38.761613Z",
+        "modified": "2021-09-28T22:34:59.59233Z",
+        "name": "free",
+        "aliases": [
+            "pretty",
+            "detail",
+            "day"
+        ],
+        "first_seen": "2019-11-23T13:38:01.916145Z",
+        "last_seen": "2020-10-17T22:38:25.367674Z",
+        "goals": [
+            "baby",
+            "design",
+            "star",
+            "mission",
+            "our"
+        ],
+        "resource_level": "government",
+        "personal_motivations": [
+            "dominance",
+            "ideology",
+            "unpredictable"
+        ],
+        "confidence": 78,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--efd28b8f-345a-4fb1-95dd-e02c4d6563a0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--a4fb9878-c7c4-4e16-a26d-940d83e80545",
+        "created_by_ref": "identity--339c76c5-6f0a-4504-a6c1-b9ce4e1b62f3",
+        "created": "2020-10-31T15:25:34.196002Z",
+        "modified": "2021-08-14T01:09:30.924941Z",
+        "latitude": 54.74644681473251,
+        "longitude": -40.99378833745567,
+        "region": "eastern-asia",
+        "city": "North Megan",
+        "street_address": "698 Mary Center Apt. 366",
+        "postal_code": "58689",
+        "labels": [
+            "evidence",
+            "begin",
+            "year",
+            "student",
+            "artist",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--efd28b8f-345a-4fb1-95dd-e02c4d6563a0"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--62535491-3792-4804-866f-677518d92d97",
+        "created_by_ref": "identity--339c76c5-6f0a-4504-a6c1-b9ce4e1b62f3",
+        "created": "2021-07-13T20:58:41.589469Z",
+        "modified": "2021-12-08T21:28:52.205168Z",
+        "relationship_type": "targets",
+        "source_ref": "threat-actor--1ec33303-492b-464d-a346-5d2c5e671820",
+        "target_ref": "location--a4fb9878-c7c4-4e16-a26d-940d83e80545",
+        "start_time": "2022-04-07T18:52:42.765099Z",
+        "labels": [
+            "firm",
+            "seat",
+            "type",
+            "science",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--efd28b8f-345a-4fb1-95dd-e02c4d6563a0"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--339c76c5-6f0a-4504-a6c1-b9ce4e1b62f3",
+        "created_by_ref": "identity--339c76c5-6f0a-4504-a6c1-b9ce4e1b62f3",
+        "created": "2020-11-05T06:22:30.919858Z",
+        "modified": "2021-08-14T01:09:30.925498Z",
+        "name": "Wilson Ltd",
+        "sectors": [
+            "agriculture"
+        ],
+        "object_marking_refs": [
+            "marking-definition--efd28b8f-345a-4fb1-95dd-e02c4d6563a0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--efd28b8f-345a-4fb1-95dd-e02c4d6563a0",
+        "created": "2021-08-14T01:09:30.924132Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2214d9cf-0e77-4d0b-9826-dfff28324708",
+                "name": "Build while international maybe effect movie",
+                "create_date_time": "2021-08-14T01:08:08.427765Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

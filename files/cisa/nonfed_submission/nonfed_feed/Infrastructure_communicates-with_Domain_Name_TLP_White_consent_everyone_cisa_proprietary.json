@@ -1,0 +1,162 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--7460f68a-35c1-489a-bf9d-0eedda9766aa",
+        "created_by_ref": "identity--81fe0145-a63e-4c68-9215-5af042697770",
+        "created": "2021-08-26T07:01:39.222201Z",
+        "modified": "2022-02-12T11:22:27.589291Z",
+        "name": "finish",
+        "description": "Network get pull.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "first_seen": "2020-11-05T04:57:35.892911Z",
+        "labels": [
+            "cup",
+            "determine",
+            "grow",
+            "real",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "domain-name",
+        "spec_version": "2.1",
+        "id": "domain-name--1585028e-16bd-45df-9b3f-fb88f989f69f",
+        "value": "scott.org",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--18ff6db9-cc58-4b70-9188-ea72ba3d0e9b",
+        "created_by_ref": "identity--81fe0145-a63e-4c68-9215-5af042697770",
+        "created": "2022-07-24T22:48:48.790154Z",
+        "modified": "2023-03-23T08:39:03.006982Z",
+        "relationship_type": "communicates-with",
+        "description": "Reach ball key unit American reach peace. Like south parent. Player lawyer final someone determine affect.",
+        "source_ref": "infrastructure--7460f68a-35c1-489a-bf9d-0eedda9766aa",
+        "target_ref": "domain-name--1585028e-16bd-45df-9b3f-fb88f989f69f",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 98,
+        "external_references": [
+            {
+                "source_name": "service",
+                "url": "https://johnson.com/",
+                "hashes": {
+                    "MD5": "d8544c4a1515d11b9fbb8d0a5815c1fb",
+                    "SHA-1": "6e66cbe949f178bb01ecc94bafa101a51cc7b270",
+                    "SHA-256": "c4af9847b3622a70debdb08e5d751c9a00d13db22dc302a965c536fe59bd57a2",
+                    "SHA-512": "04c7d08ede377d4a9d05a0ae2e9840bbab90f26e57194373bb3ca2148d96854a74303d65e6eb03ce5e813e3b299e495e57bd88708198af3a37ee11eb7b7647aa",
+                    "SHA3-256": "79818824b4fc886da486c8d5efd51142d5998b0cb87bb57dd8c8ff28c740fb66",
+                    "SHA3-512": "82e9b05a8ae515220ee892b57a68be0770b14531c37382befb52d7e1904c3c65b7353eb1735653197fbfb49a308e47fd532f2891183a45ab2552726b3e8ebefa"
+                },
+                "external_id": "gfrMgcJcPY"
+            },
+            {
+                "source_name": "many",
+                "url": "https://stephens-mitchell.info/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--81fe0145-a63e-4c68-9215-5af042697770",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-15T21:57:31.976474Z",
+        "modified": "2021-11-21T04:01:10.678743Z",
+        "name": "Johnson Group",
+        "roles": [
+            "run",
+            "page"
+        ],
+        "identity_class": "organization",
+        "contact_information": "132 Griffin Dam\nMichaelburgh, MS 25814",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 10,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "treat",
+                "description": "Debate study player project seven.",
+                "hashes": {
+                    "MD5": "7a493e9ebd970c7847f06ea892b5ccb2",
+                    "SHA-1": "5ed1571a550e5085bfe88155a7da6db23f1144e1",
+                    "SHA-256": "9091c54a53a0208fb24f677162dded12e7c77c85ef7dd6354fd881a8cc8c7c9b",
+                    "SHA-512": "7e5db590b28513c400dd0f353cdb56076073fbcbf4c8c795d308b6119ad2aa1ffc0ca88dd9a54034ff36f544dd9cb425dd9e59afb3f410b9036bbb6b1baeb8fd",
+                    "SHA3-256": "a2e43c800ac2e2283ca9750be2618640eb7d1c1b22fbf73f764bf2223f600736",
+                    "SHA3-512": "bc1ca4dbbd667c7e9b2d59d9f7953b0952bf498f95978bb6c1fe8f12ff68776dec05d8da60bda2bd17a3cf51793839ab4e66eb69571e0dcfe796d46775aa03f9"
+                },
+                "external_id": "SpWwFMvJfOgVJUpDfEaQ"
+            },
+            {
+                "source_name": "voice",
+                "description": "Well behavior the.",
+                "external_id": "wDbbwMIpUtDF"
+            },
+            {
+                "source_name": "network",
+                "hashes": {
+                    "MD5": "c215b0d51aba32ddd72397ba9497d921",
+                    "SHA-1": "88cf7ee70df6b0f4c4313329de8f01c0721f56f4",
+                    "SHA-256": "ad2fd5e88a2d043ba4de11eb342af706ad43e76a122034db8ec98fd664cda790",
+                    "SHA-512": "a9d70d02f5af3e881ca2ab18d081c5a3db6c747399250a058bc8f834b1d66f6977e8b04dd5bd883f0694ac6f530ea26ae37d4653ed302b60f120971572aa1f8f",
+                    "SHA3-256": "1c5a76602d35adabc20f9452a24f83a84c1d28be0bd9b57daa10f90e7599a987",
+                    "SHA3-512": "4390a37fc37940de225101cbedad857e118a322f7e22b38c07eded6da58c29214cf019cb3b47896d4027c3d0562ad8c2abd669adcf0a7ccd898c8c989e74c3d3"
+                },
+                "external_id": "OrrRGQO"
+            },
+            {
+                "source_name": "say",
+                "description": "Decade own break.",
+                "url": "http://palmer.biz/",
+                "hashes": {
+                    "MD5": "609db25f2f71cc59211f998ad9319fbf",
+                    "SHA-1": "0badb8a6b8084fdc78a324f0637be2230d0992aa",
+                    "SHA-256": "71a977a5907c613dbb625ada00a5549187496560cae43f11792eadc3d6385ff1",
+                    "SHA-512": "4f5cf42d50e25322e0e92a2e89d619ecce365be0ac2a8133d4607a3943a085c9b0478e296aff9b0216977947d03e8262eac62beb3ddb7fe92a23becba6f533bd",
+                    "SHA3-256": "61255f8a4b897a96c234a98d2b20dd8bd8f0afb51a00f878122107d41cc177ca",
+                    "SHA3-512": "b03e3dfc0189e53412f9409fbdc635e6ce4e1e456145c8d5be4f85fd0798c1de8a52f96bed5d4666d2599d96f14fefa4e5d224923e21b014f2a00685043ef409"
+                },
+                "external_id": "KsGcTmQMgAitnSye"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

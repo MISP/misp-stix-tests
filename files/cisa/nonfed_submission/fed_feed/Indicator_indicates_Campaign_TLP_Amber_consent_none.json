@@ -1,0 +1,162 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--8fb6bef9-c177-4d55-953c-42b4ed0411d6",
+        "created_by_ref": "identity--90f9e1fc-4aa0-450e-b9d7-5311e928676c",
+        "created": "2022-06-13T04:02:58.45143Z",
+        "modified": "2023-01-19T21:16:01.441571Z",
+        "name": "have",
+        "description": "Action reach out record beyond.",
+        "pattern": "[mutex:defanged NOT = false AND mutex:name <= 'give' AND (mutex:defanged = false)] FOLLOWEDBY ([windows-registry-key:defanged NOT = false] REPEATS 2 TIMES)",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-02-10T08:16:26.82672Z",
+        "valid_until": "2021-02-04T00:26:10.627986Z",
+        "confidence": 49,
+        "external_references": [
+            {
+                "source_name": "change",
+                "description": "Movie child blue to range.",
+                "external_id": "tOOhOUTHDeEFW"
+            },
+            {
+                "source_name": "yeah",
+                "description": "Nice eight even bank east success step old.",
+                "url": "https://kelley-hahn.com/",
+                "external_id": "CLGjjJcUe"
+            },
+            {
+                "source_name": "hear",
+                "description": "Center audience listen.",
+                "url": "http://www.roth.com/"
+            },
+            {
+                "source_name": "drop",
+                "description": "Mouth all picture wrong those.",
+                "url": "http://soto.biz/",
+                "external_id": "NiFZUhMWpVbInhVvzKZ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--189474be-399a-4720-886a-5f0f55879479"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--ae318ca3-8e3e-4e0f-84ce-924a5234c4d8",
+        "created_by_ref": "identity--90f9e1fc-4aa0-450e-b9d7-5311e928676c",
+        "created": "2022-02-16T04:56:59.883503Z",
+        "modified": "2022-10-17T05:44:02.226493Z",
+        "name": "beyond",
+        "description": "But feeling exist guy.",
+        "first_seen": "2021-08-14T19:15:12.038727Z",
+        "last_seen": "2022-06-22T00:59:47.132895Z",
+        "confidence": 62,
+        "object_marking_refs": [
+            "marking-definition--189474be-399a-4720-886a-5f0f55879479"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1a6510f4-c523-4309-b521-db615e5b5b8b",
+        "created_by_ref": "identity--90f9e1fc-4aa0-450e-b9d7-5311e928676c",
+        "created": "2020-11-22T20:45:59.853386Z",
+        "modified": "2021-08-14T01:08:28.642097Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--8fb6bef9-c177-4d55-953c-42b4ed0411d6",
+        "target_ref": "campaign--ae318ca3-8e3e-4e0f-84ce-924a5234c4d8",
+        "stop_time": "2022-04-13T10:40:23.194577Z",
+        "labels": [
+            "with",
+            "kid",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--189474be-399a-4720-886a-5f0f55879479"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--189474be-399a-4720-886a-5f0f55879479",
+        "created_by_ref": "identity--90f9e1fc-4aa0-450e-b9d7-5311e928676c",
+        "created": "2021-08-14T01:08:28.63833Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6f258483-31e6-4810-a3a3-83f9297fcea8",
+                "name": "Individual personal with know",
+                "create_date_time": "2021-08-14T01:08:08.419751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--90f9e1fc-4aa0-450e-b9d7-5311e928676c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-23T18:19:56.646026Z",
+        "modified": "2021-10-14T15:11:01.616582Z",
+        "name": "OverConcernThen",
+        "description": "Integrated methodical installation",
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 54,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--189474be-399a-4720-886a-5f0f55879479"
+        ]
+    }
+]

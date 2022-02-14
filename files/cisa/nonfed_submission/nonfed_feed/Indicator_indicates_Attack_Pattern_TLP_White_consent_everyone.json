@@ -1,0 +1,101 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--d8a9f461-8600-41b6-8824-e3149f0909a3",
+        "created_by_ref": "identity--9e2df462-5a72-42a2-9f98-5df5c15b4d37",
+        "created": "2021-12-16T04:08:22.911865Z",
+        "modified": "2022-07-16T04:02:20.404223Z",
+        "name": "rule",
+        "description": "Store sound summer.",
+        "indicator_types": [
+            "unknown",
+            "unknown",
+            "malicious-activity",
+            "compromised"
+        ],
+        "pattern": "[user-account:defanged NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-01-03T17:25:03.773407Z",
+        "valid_until": "2022-03-31T01:17:57.530958Z",
+        "labels": [
+            "future",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--ca5a5fb9-b77a-41d4-bd64-553817f3975d",
+        "created_by_ref": "identity--9e2df462-5a72-42a2-9f98-5df5c15b4d37",
+        "created": "2021-02-13T16:11:03.938455Z",
+        "modified": "2021-08-14T01:08:27.554519Z",
+        "name": "fish",
+        "aliases": [
+            "across",
+            "sister",
+            "light"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "JfCdDiRWTKw",
+                "phase_name": "hccbXZJl"
+            },
+            {
+                "kill_chain_name": "ZTqTG",
+                "phase_name": "ngmpMfDqbiip"
+            },
+            {
+                "kill_chain_name": "ChGwJt",
+                "phase_name": "cmxCZYZv"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ad4c3c59-3a3f-486e-8860-bcadf9229c69",
+        "created_by_ref": "identity--9e2df462-5a72-42a2-9f98-5df5c15b4d37",
+        "created": "2021-03-24T17:37:36.728037Z",
+        "modified": "2021-08-14T01:08:27.554779Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--d8a9f461-8600-41b6-8824-e3149f0909a3",
+        "target_ref": "attack-pattern--ca5a5fb9-b77a-41d4-bd64-553817f3975d",
+        "start_time": "2020-10-02T16:17:41.748329Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--9e2df462-5a72-42a2-9f98-5df5c15b4d37",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-01-04T12:49:22.821208Z",
+        "modified": "2021-11-23T11:49:48.933633Z",
+        "name": "Baker-Palmer",
+        "description": "Profit-focused zero administration approach",
+        "contact_information": "19762 Tammy Ports\nEvansbury, ME 52288",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

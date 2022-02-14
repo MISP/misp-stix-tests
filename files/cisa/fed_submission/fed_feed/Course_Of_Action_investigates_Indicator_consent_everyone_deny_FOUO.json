@@ -1,0 +1,202 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--03dc8a7e-8712-4a4b-a150-c009cad5617a",
+        "created_by_ref": "identity--67335003-73cc-4f0b-b73d-c12c49be9fef",
+        "created": "2022-03-28T06:01:02.115505Z",
+        "modified": "2022-08-24T18:22:40.686986Z",
+        "name": "development",
+        "labels": [
+            "crime",
+            "guess",
+            "marriage",
+            "old",
+            "pfte-batch-1"
+        ],
+        "confidence": 41,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--bc1701c9-42f2-4c58-a244-d0325f8663b1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--2ffcbe14-626c-4b76-ab56-cf3575146d11",
+        "created_by_ref": "identity--67335003-73cc-4f0b-b73d-c12c49be9fef",
+        "created": "2021-10-27T03:56:56.041331Z",
+        "modified": "2022-03-07T08:21:00.511967Z",
+        "description": "Mention present guess receive information environment.",
+        "pattern": "([email-addr:value > 'vrussell@yahoo.com'] START t'2022-01-01T11:45:27.717821Z' STOP t'2022-03-07T15:10:27.33345Z') OR [windows-registry-key:values[*].data >= 'xErCNHmRJbt'] OR [process:created_time = t'2020-10-14T15:24:18.541596Z']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-05-28T09:21:13.545619Z",
+        "valid_until": "2022-05-24T03:29:49.387971Z",
+        "external_references": [
+            {
+                "source_name": "property",
+                "description": "Enough simple we left result war important.",
+                "url": "http://www.maldonado.net/"
+            },
+            {
+                "source_name": "trip",
+                "description": "Benefit area consider whom respond.",
+                "url": "http://davis.com/",
+                "hashes": {
+                    "MD5": "7598c860f40c241f069946d7b4bee21c",
+                    "SHA-1": "451b50210f717e843fa06115b2848f1718ffbeb8",
+                    "SHA-256": "68342b5eca7842c08b7312b9615032d2a362b10b1ffbcbe36bc4a3f90efdd9dd",
+                    "SHA-512": "a5b31175133d59d51b4c0464d9977a1d9bc22e83ecbbcd51441e5b9f3f0a55dda568d4e3fc58753df3713115998b36aef163a9fafb580938ba12cbb8dd394a2c",
+                    "SHA3-256": "a3736f61c4a11fee62e7dc4271fb2404f0518c4cf326dea72eccd63f59d76b56",
+                    "SHA3-512": "3cc63d16b285395c1849c8eeb569e45c96dac0e7e8127e4dc5e6d945c884efd0dbcae4c3c580c28b91373f40bb3b469f716d887822677aea801d6c982e1a6825"
+                }
+            },
+            {
+                "source_name": "join",
+                "description": "Out little analysis strong trouble.",
+                "hashes": {
+                    "MD5": "3fa800b667aaec75732df66d5914c606",
+                    "SHA-1": "30b49b795a26dee51422253ce052ef6c1fe9d498",
+                    "SHA-256": "0d86edb300afbaa3bfef31830e6fc2be5c72195551fa1c6d73ef94ac57e5b63a",
+                    "SHA-512": "ec2af18cb15b979e411584856b3750d8a14e3ce201b76cd8b5240aebc016846502f1b4dca7e3b2b300d3e8a2eedf647e9e7cac0a9e2571695b44e935bba0c0ad",
+                    "SHA3-256": "69f6b4a5c44430cf3ee0fa797763a1456cf5d3704c10af7154e6dae75bb06c1d",
+                    "SHA3-512": "3b7adc11defa628d136943987ddd9b335a8a24e8a0f85f89cead4055d86fb8b75753aefd10adef83e64b20d98a6d167d071548832ab4d2ae834d9979e688413d"
+                },
+                "external_id": "VbmRQoITkutoFoz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--bc1701c9-42f2-4c58-a244-d0325f8663b1"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--bdab438d-9d9e-4bac-aa5a-de7e0e60b150",
+        "created_by_ref": "identity--67335003-73cc-4f0b-b73d-c12c49be9fef",
+        "created": "2021-03-22T16:41:28.052413Z",
+        "modified": "2021-08-14T01:08:22.175752Z",
+        "relationship_type": "investigates",
+        "description": "Position detail herself. Third keep building however partner. Myself item determine could study family. Hand himself morning development security thus strategy.",
+        "source_ref": "course-of-action--03dc8a7e-8712-4a4b-a150-c009cad5617a",
+        "target_ref": "indicator--2ffcbe14-626c-4b76-ab56-cf3575146d11",
+        "start_time": "2021-09-09T23:28:19.332248Z",
+        "confidence": 100,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--bc1701c9-42f2-4c58-a244-d0325f8663b1"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--67335003-73cc-4f0b-b73d-c12c49be9fef",
+        "created_by_ref": "identity--67335003-73cc-4f0b-b73d-c12c49be9fef",
+        "created": "2021-12-12T18:06:43.515739Z",
+        "modified": "2022-02-25T13:01:23.830595Z",
+        "name": "Miranda LLC",
+        "roles": [
+            "one",
+            "need",
+            "term",
+            "also",
+            "clearly"
+        ],
+        "identity_class": "system",
+        "sectors": [
+            "insurance",
+            "entertainment"
+        ],
+        "contact_information": "8062 Smith Mount\nCraigmouth, IA 20519",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 86,
+        "external_references": [
+            {
+                "source_name": "run",
+                "description": "Site forward main structure including.",
+                "url": "http://www.wells.org/"
+            },
+            {
+                "source_name": "bar",
+                "url": "http://cervantes-mccormick.info/",
+                "hashes": {
+                    "MD5": "5f33fd856d8d4b53bee11f443a561442",
+                    "SHA-1": "0d16dcadc962c4081627973c43f51e96f31c4cfe",
+                    "SHA-256": "b566794d25f362556fc9a8b54dc185dd27efe5ea5e55b5cd66815d21459ae1c9",
+                    "SHA-512": "ca3c5e6a48e55f944385b48788e5e40e2ecff4863e8e0f3ceb44a5c29a5202f6a9b51dd4893e1f90616de869786ef74584fad207ccb9f8e352f2b46ada300f82",
+                    "SHA3-256": "a0421e74f4624fe18823b6dbbe445ec826f181fc2d69f992b8cf1688a2864ab7",
+                    "SHA3-512": "8cea84a4d932b451739631e67e8eaf2249693add324e7fc5a4512ba052ae9612440a2fe28af0bee0b8e53d260e040044e052a46d1dc089f848e09b5cfb522d44"
+                },
+                "external_id": "OanfHAHcnrzlUtv"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--bc1701c9-42f2-4c58-a244-d0325f8663b1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--bc1701c9-42f2-4c58-a244-d0325f8663b1",
+        "created": "2021-08-14T01:08:22.171796Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3af87523-f9f6-4d99-acfc-79560c4d2219",
+                "name": "Boy understand else sense give house travel already",
+                "create_date_time": "2021-08-14T01:08:08.429507Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

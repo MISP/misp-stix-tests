@@ -1,0 +1,146 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--6f4e40ed-9c0f-4cea-bf67-669acb3d2696",
+        "created_by_ref": "identity--97682a3b-a9a1-49d8-a496-db1eca618e61",
+        "created": "2021-08-05T12:01:46.912818Z",
+        "modified": "2021-12-14T21:24:14.747372Z",
+        "name": "key",
+        "threat_actor_types": [
+            "crime-syndicate",
+            "unknown",
+            "spy"
+        ],
+        "last_seen": "2021-05-12T05:21:25.213288Z",
+        "roles": [
+            "infrastructure-architect"
+        ],
+        "goals": [
+            "fast",
+            "white"
+        ],
+        "sophistication": "expert",
+        "primary_motivation": "personal-satisfaction",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--e7ca74c3-563f-4634-bae4-f851c38f0b25",
+        "created_by_ref": "identity--97682a3b-a9a1-49d8-a496-db1eca618e61",
+        "created": "2020-12-05T08:33:22.012586Z",
+        "modified": "2021-08-14T01:09:29.439169Z",
+        "name": "Juvll",
+        "description": "Distributed multi-tasking initiative",
+        "latitude": -37.40600352647892,
+        "longitude": -107.27357677753479,
+        "precision": 30.04892797548101,
+        "country": "Kenya",
+        "administrative_area": "OzZiTXxGVSTlndmXO",
+        "street_address": "03390 Hayes Landing",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3dbaf176-8822-430c-b1df-fdfa3ec050a7",
+        "created_by_ref": "identity--97682a3b-a9a1-49d8-a496-db1eca618e61",
+        "created": "2021-03-01T23:08:48.256348Z",
+        "modified": "2021-08-14T01:09:29.439785Z",
+        "relationship_type": "located-at",
+        "description": "Bad heavy each write arrive international police. Feeling political first clearly.",
+        "source_ref": "threat-actor--6f4e40ed-9c0f-4cea-bf67-669acb3d2696",
+        "target_ref": "location--e7ca74c3-563f-4634-bae4-f851c38f0b25",
+        "labels": [
+            "investment",
+            "production",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "it",
+                "description": "Force high born child.",
+                "url": "http://casey.info/"
+            },
+            {
+                "source_name": "per",
+                "url": "https://www.west.com/"
+            },
+            {
+                "source_name": "short",
+                "url": "http://sanchez.com/"
+            },
+            {
+                "source_name": "own",
+                "description": "Part run scientist grow.",
+                "url": "https://anderson.com/",
+                "external_id": "EenySLywlz"
+            },
+            {
+                "source_name": "present",
+                "external_id": "cxpMHmBKmgQMlhYfEYhS"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--97682a3b-a9a1-49d8-a496-db1eca618e61",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-31T16:16:32.292415Z",
+        "modified": "2023-06-11T07:27:53.353741Z",
+        "name": "Chase, Farmer and Chambers",
+        "description": "Organic coherent flexibility",
+        "sectors": [
+            "financial-services",
+            "water",
+            "nuclear",
+            "pharmaceuticals",
+            "healthcare"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "so",
+                "description": "Door economic defense man west.",
+                "external_id": "IiPkBtXZaLTNJ"
+            },
+            {
+                "source_name": "building",
+                "description": "Husband PM look community work agency.",
+                "url": "http://aguirre-ellison.info/",
+                "hashes": {
+                    "MD5": "10b75ed0a1372ea13c6a6e7dcd2ae97c",
+                    "SHA-1": "cb1f7d9858c499d9d0381d2669dc9680a37ce5cf",
+                    "SHA-256": "e11bd0f370096d828a41db3ddc8232b13b266a9476b8023452054d17171c97fa",
+                    "SHA-512": "ece6a107386d06c42c4ed768f6c15055f512036a174a01990e009cd9b5d0e8645c0ebdb87a1dda8ce9911e4b02d653206c297caae3593bf6d733f7538ac568fc",
+                    "SHA3-256": "6ae78e912c547d9a8affd0027ea0e5c032c4a038ea21bf0ad6f438ae59c59144",
+                    "SHA3-512": "dd5b9b35f5c34dd17d7bdcae696473e17937d0abb8767cae454493d403e4ff159ae77803ea6797469dd9d51144d96993c4418d2c33d90bb3e460231b1a5adb9b"
+                },
+                "external_id": "RDiEzB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

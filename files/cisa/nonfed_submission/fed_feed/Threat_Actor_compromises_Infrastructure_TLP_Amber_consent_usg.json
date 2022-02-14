@@ -1,0 +1,236 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--df2758f3-efa2-457a-bc76-1fd48f579949",
+        "created_by_ref": "identity--b0f6181f-b694-49de-997e-5bb1699bce5d",
+        "created": "2021-07-25T02:05:24.307091Z",
+        "modified": "2021-08-14T01:09:25.421129Z",
+        "name": "think",
+        "first_seen": "2020-11-09T01:12:45.493929Z",
+        "goals": [
+            "box",
+            "security"
+        ],
+        "sophistication": "expert",
+        "resource_level": "organization",
+        "object_marking_refs": [
+            "marking-definition--41f4f14d-03f0-4ec8-959b-6af48fae96ff"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--5c2a227d-497d-4080-a5b9-c140fcca7384",
+        "created_by_ref": "identity--b0f6181f-b694-49de-997e-5bb1699bce5d",
+        "created": "2021-01-12T13:23:40.630348Z",
+        "modified": "2021-08-14T01:09:25.421704Z",
+        "name": "interest",
+        "aliases": [
+            "dream"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "first_seen": "2021-10-29T19:12:07.225458Z",
+        "confidence": 5,
+        "external_references": [
+            {
+                "source_name": "true",
+                "description": "Organization guy feel itself international inside interview.",
+                "hashes": {
+                    "MD5": "264c55e68e12d136cbf7fd53078d7a24",
+                    "SHA-1": "7b52cfc7cad0e7a06c86baec266f9aefc7f14e86",
+                    "SHA-256": "58fd409ca390932a6d66cd877e00a834e79aa9b31aa90cbe49c74e28a5dc5aaf",
+                    "SHA-512": "d74f7ad91de85b448ffd8e759034f2e6d945b427549037a77871b4fbc8215bc268d336952e30df02544dbf7529e70e2dfb056139baeb972afe9afab214408ff1",
+                    "SHA3-256": "46e124f98bd8febeefb245f4036075d0a5bdfdc9993a77d3b1a9139ed050cfd4",
+                    "SHA3-512": "ae5733ab2f04209e0fc8b264c32fea178da610188e2257c9bc389e26afe81bbe1a068877edc980df779de05ac66f64aa2b13a60d7b0f7f9e7a40bf4efbcdb893"
+                },
+                "external_id": "IDXrH"
+            },
+            {
+                "source_name": "star",
+                "description": "Every effect start who still rich culture make.",
+                "url": "https://www.diaz-lopez.com/",
+                "external_id": "sXgmiaYrHDuREY"
+            },
+            {
+                "source_name": "effort",
+                "description": "Want law and defense than goal month quite.",
+                "url": "http://www.nelson.org/",
+                "external_id": "PNYeSwFQmAfIAbQtM"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--41f4f14d-03f0-4ec8-959b-6af48fae96ff"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--80fd08bd-67d0-424b-bfe3-f164d22a0028",
+        "created_by_ref": "identity--b0f6181f-b694-49de-997e-5bb1699bce5d",
+        "created": "2021-11-13T20:31:48.949289Z",
+        "modified": "2022-06-03T19:30:10.090643Z",
+        "relationship_type": "compromises",
+        "source_ref": "threat-actor--df2758f3-efa2-457a-bc76-1fd48f579949",
+        "target_ref": "infrastructure--5c2a227d-497d-4080-a5b9-c140fcca7384",
+        "start_time": "2021-02-06T18:28:45.913894Z",
+        "stop_time": "2021-12-16T16:32:56.852997Z",
+        "labels": [
+            "visit",
+            "firm",
+            "reduce",
+            "notice",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--41f4f14d-03f0-4ec8-959b-6af48fae96ff"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--41f4f14d-03f0-4ec8-959b-6af48fae96ff",
+        "created_by_ref": "identity--b0f6181f-b694-49de-997e-5bb1699bce5d",
+        "created": "2021-08-14T01:09:25.420514Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2a4a5944-494c-4a33-b0ba-c70e719ee1c8",
+                "name": "Room arrive pay often",
+                "create_date_time": "2021-08-14T01:08:08.421032Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b0f6181f-b694-49de-997e-5bb1699bce5d",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-11-06T15:10:51.075413Z",
+        "modified": "2021-08-14T01:09:25.422763Z",
+        "name": "Fisher-Werner",
+        "roles": [
+            "manager",
+            "piece"
+        ],
+        "contact_information": "03293 Shawn Mall Apt. 980\nJamesfort, TN 86409",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 56,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "who",
+                "external_id": "kLQeqm"
+            },
+            {
+                "source_name": "final",
+                "url": "https://www.nash.biz/",
+                "hashes": {
+                    "MD5": "532d26d0d4aeebd4f600ad800ebda30e",
+                    "SHA-1": "40e6d12d32d2bda6a2dbdbcb4cd93108791c148d",
+                    "SHA-256": "dc68165ea43157bb5477342173fb6e246581b639c90bce8579cb8ece9b2f7346",
+                    "SHA-512": "949443b6cb76cb9eaad9ddb670301b5be99c5536cdc2760bd85b97732670b66aae85cb170de9bac9da8e7cb2df0dc9e1beb31fd3c016b2c448ce9e4747481a94",
+                    "SHA3-256": "4be15f31148a463b4ac4f6f831e7a445a13d4a40b9fd945322793d3368291ca4",
+                    "SHA3-512": "7914e9af1fa53dc787d0af2e1086fdd912aa26d19689fa1f5a514e011a435d487ab902b13b130ca2f3bf5f8185fbf07da9d9aba13ddb7a625044bedfbdaf5d1b"
+                },
+                "external_id": "mnVdx"
+            },
+            {
+                "source_name": "camera",
+                "description": "Enough teach article full consumer garden local citizen.",
+                "hashes": {
+                    "MD5": "5abc25579f4b335709796ca3c8cdab87",
+                    "SHA-1": "9061e17a855975fa92a456e611214039e1e300d6",
+                    "SHA-256": "346849415450840caeefaa0f36097ef8f79a8dd9971aae6c07418c21bed0f1d6",
+                    "SHA-512": "fc6326f02033895fa831313a07fb22698500a2b3177eaf311c9e0d6705a09ad7dd71a83358b8b9fb37d813cdb7e0009ca25cc8c96b56f5b9c7bc7e9fa5fc75fc",
+                    "SHA3-256": "9ad1dfac772cc78bd2db4c219d52c23ac71440e60f81caf69c8f48406503ac1e",
+                    "SHA3-512": "3442a13a1e006524b385a6c1e76fe663b6f9607dea91fec31543f46328a779aee4a12e345b4d254e6a7d7848ebbb34d6e8f1fbe00d0fb6d4c410b2c154161a21"
+                },
+                "external_id": "bFwSIsgXHKZQydTs"
+            },
+            {
+                "source_name": "business",
+                "description": "Design over including sometimes that stock.",
+                "url": "https://www.fuller.org/",
+                "hashes": {
+                    "MD5": "e4da5cbd86907e8d17f8b8316262c160",
+                    "SHA-1": "d6e55e96bb77b438eb608c34280499897cca0256",
+                    "SHA-256": "8657a5baef41198a8dcb75d000f187df4302a3fb74db44fb5ac5910a3023b17c",
+                    "SHA-512": "c07f387995fdccc090979cf45442c79e9cc340e6d98c189b25ca52b311e3049c31c543984a698c6900a790d4b67d688305e4708b278f38df858954917b74df9b",
+                    "SHA3-256": "8c740012b4124e8911ffa5f9522fe0c2d09682fdebc983e4d08ab31434909b54",
+                    "SHA3-512": "07bd23a7c2b63d259beba9437f62f03f3b9b1a50d184ba2ae7868d2bc4f1c3d6239c8e647aa5f11a4bd5048f881000e6ef6ae0384d19c245f9dc0e662e80f4bd"
+                },
+                "external_id": "DTBoQfSOpLlNI"
+            },
+            {
+                "source_name": "bank",
+                "description": "Anyone agent turn war partner window.",
+                "hashes": {
+                    "MD5": "bce7767c7c879bff236116f3340b48fe",
+                    "SHA-1": "a71e286ecdd9d146e9f96af41025af2ce1559722",
+                    "SHA-256": "25217ee80860d02ab66d40da593ca3052e42d2cc4d62eff72842410e70b118ec",
+                    "SHA-512": "4a1735872123bb2cb61e6e1d002d4d43b4ccc49da2736efb3fa150ded2b8ca88693ad39f81f027d05ec19d34b3df53d4b2a93ce98f1c3500d4b9c5a678888760",
+                    "SHA3-256": "d27f38f91ffdf9071424b5a57370d0b9373b39d7cd926ea4b0833d219b64a5c4",
+                    "SHA3-512": "32fa72ac1b116e94ed47c3b75db07b9ad423be85d4de22f7c03350f9a2b9da4dfceec9c6fa6c33994de7786b04f10efcd6edae67751d209ac2b30137ff1d8ce4"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--41f4f14d-03f0-4ec8-959b-6af48fae96ff"
+        ]
+    }
+]

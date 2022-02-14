@@ -1,0 +1,221 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--cce6da8d-e3be-4df8-9696-cab6457c7f3b",
+        "created_by_ref": "identity--0fd9d8c8-413c-4829-905b-c9d7d3f17cae",
+        "created": "2021-05-07T10:27:17.007462Z",
+        "modified": "2022-04-01T08:56:30.793667Z",
+        "name": "specific",
+        "indicator_types": [
+            "anonymization",
+            "compromised",
+            "unknown",
+            "anomalous-activity"
+        ],
+        "pattern": "[autonomous-system:name <= 'Sanchez PLC']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-12-01T20:05:24.135801Z",
+        "labels": [
+            "manager",
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "external_references": [
+            {
+                "source_name": "tell",
+                "description": "Upon important performance room field reason.",
+                "url": "https://cooper.com/",
+                "hashes": {
+                    "MD5": "c55fb7fdfa69c43de126362a4385308a",
+                    "SHA-1": "13efc37815ce266e20d41667be337d683ae4c172",
+                    "SHA-256": "92eaabe4d573e026d6a78ec04f0ffac453e7ad6a6b816b0545065286b06919d8",
+                    "SHA-512": "410c56441b337f7fcfa8d9078d257b6ac2ffeb10797083e9e8b8953d4bd4ff4eec11cdc13bd8c867c5dc45b715b0f2f06afdd7f1e91df1950e61505e376007d9",
+                    "SHA3-256": "b4b051ca1e16fecc96a7775075c9034457edb46f9d22a7ac2af234b405595712",
+                    "SHA3-512": "e84e646b33e3f06517297927686aa819f2d14f538f85e39103a6c92664705d977ac15c9d395c705d3c4d58bb872231929b66548ad74f2ffdec03e8e81de82e95"
+                },
+                "external_id": "OtEYKuXnEZOF"
+            },
+            {
+                "source_name": "service",
+                "description": "Something ten couple become detail view.",
+                "url": "http://mcdaniel.net/",
+                "hashes": {
+                    "MD5": "fa3d628e2c1267a7417c55a70d7c61b7",
+                    "SHA-1": "14f83cb7fa5b576e1061d9b56bd1019ac0f8e4db",
+                    "SHA-256": "bf670f5f325e41fcaaa79cc5da29cf1048dd37d0f682cd020f98c52fa751a544",
+                    "SHA-512": "3898c3ef5a1e4937187ab664d689bb257d4ab4d75088f90ebd48a197e71d6af0bbbe6783f891dfb37ee2fd4adf4a14a688a428a746069d64824ea9554520f9bf",
+                    "SHA3-256": "bd05c1de357ff0c7d5a781fc57dc8ba83e6a07ee223d31802db4d7a81574311b",
+                    "SHA3-512": "bfb2922c742d2c61e7be581b61757d2e5fb883ee67d19fd98e2989fc7f406250acfaacfb5832e0da8f8b5e451f317086625706591cbe5cc1c43f60cf3ee0bf42"
+                },
+                "external_id": "EgURxyatzQyaFgnWTI"
+            },
+            {
+                "source_name": "time",
+                "external_id": "oJEUaMHZJeraUgzDXAZD"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4b3e3863-5a98-4e8e-aed3-bda536a89007"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--803676b1-fdfd-4626-9894-7e65d4c2873b",
+        "created_by_ref": "identity--0fd9d8c8-413c-4829-905b-c9d7d3f17cae",
+        "created": "2021-01-19T10:55:22.889525Z",
+        "modified": "2021-09-12T12:00:44.310384Z",
+        "name": "class",
+        "aliases": [
+            "charge"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "labels": [
+            "team",
+            "let",
+            "as",
+            "speech",
+            "happen",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--4b3e3863-5a98-4e8e-aed3-bda536a89007"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--dfa299db-e453-4260-b107-2c301b0ec835",
+        "created_by_ref": "identity--0fd9d8c8-413c-4829-905b-c9d7d3f17cae",
+        "created": "2021-03-03T22:56:50.536829Z",
+        "modified": "2021-08-14T01:08:34.778872Z",
+        "relationship_type": "indicates",
+        "description": "Policy and husband tree among beyond involve. Positive full religious every life. Main company may skill set.",
+        "source_ref": "indicator--cce6da8d-e3be-4df8-9696-cab6457c7f3b",
+        "target_ref": "tool--803676b1-fdfd-4626-9894-7e65d4c2873b",
+        "start_time": "2020-08-30T18:22:07.699497Z",
+        "labels": [
+            "though",
+            "good",
+            "hold",
+            "radio",
+            "feeling",
+            "pfte-batch-1"
+        ],
+        "confidence": 83,
+        "external_references": [
+            {
+                "source_name": "fly",
+                "url": "https://white.com/",
+                "hashes": {
+                    "MD5": "f2dc65ca5ba46ae5aa68bf937a55f5f0",
+                    "SHA-1": "a3b68a82d7d664a217c24463ff03c620928a2de0",
+                    "SHA-256": "82342ffa3616fa378c85e1c4af73a6fd6f7296b9f8ab74eeb490f4e86af60c15",
+                    "SHA-512": "4b732cb4fa32bac49e062097b379da140c0477d530078f9388cedfa94d0c65e33024a47009bac21c73b801162bb9e596a3e39c655f2fcea7566081f5690b871f",
+                    "SHA3-256": "4cd7bbc475263c550d086cf5711bf38670fb2e71f8d3abc7446ed28b2c99f2df",
+                    "SHA3-512": "5a3e2661d2e7d8d9e1c53dad5bc3289108ee15bb0976ed636d379a7d0db202ecefb03cb668d5760df37338cbb8575e59e8e19daf4e1d90d53b419b3e90828615"
+                },
+                "external_id": "ezUCKTTxfw"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4b3e3863-5a98-4e8e-aed3-bda536a89007"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--4b3e3863-5a98-4e8e-aed3-bda536a89007",
+        "created_by_ref": "identity--0fd9d8c8-413c-4829-905b-c9d7d3f17cae",
+        "created": "2021-08-14T01:08:34.776342Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-15d3e0eb-8dda-4b6b-a55d-5c6a8a6d490b",
+                "name": "Clearly industry family",
+                "create_date_time": "2021-08-14T01:08:08.420657Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0fd9d8c8-413c-4829-905b-c9d7d3f17cae",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-19T03:56:18.468879Z",
+        "modified": "2022-03-09T15:38:11.364191Z",
+        "name": "Nelson and Sons",
+        "description": "Extended context-sensitive encryption",
+        "contact_information": "Unit 9754 Box 1705\nDPO AA 15889",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--4b3e3863-5a98-4e8e-aed3-bda536a89007"
+        ]
+    }
+]

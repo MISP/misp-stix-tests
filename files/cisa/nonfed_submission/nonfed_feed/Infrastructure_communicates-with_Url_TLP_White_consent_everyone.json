@@ -1,0 +1,105 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--6f0dfdcf-614c-46ea-abac-b7a51dd7a349",
+        "created_by_ref": "identity--725a63d8-c005-4724-bf9b-9d05a543710c",
+        "created": "2021-02-07T22:04:54.14952Z",
+        "modified": "2021-10-04T22:39:56.978407Z",
+        "name": "section",
+        "infrastructure_types": [
+            "reconnaissance",
+            "anonymization",
+            "hosting-malware",
+            "hosting-target-lists",
+            "hosting-target-lists"
+        ],
+        "aliases": [
+            "ask",
+            "high"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "first_seen": "2020-10-01T01:21:01.885944Z",
+        "last_seen": "2021-05-19T01:11:06.345413Z",
+        "labels": [
+            "energy",
+            "traditional",
+            "stock",
+            "there",
+            "hundred",
+            "pfte-batch-1"
+        ],
+        "confidence": 26,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--7a149c30-24d7-4e9e-996c-45056603a48e",
+        "value": "http://www.smith-aguirre.info/",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--169dc753-790a-4445-9b10-5e0376b25ce0",
+        "created_by_ref": "identity--725a63d8-c005-4724-bf9b-9d05a543710c",
+        "created": "2020-08-02T05:33:04.885855Z",
+        "modified": "2021-08-14T01:08:41.454023Z",
+        "relationship_type": "communicates-with",
+        "description": "Sister thank much down enjoy produce to article. Leader memory film road civil.",
+        "source_ref": "infrastructure--6f0dfdcf-614c-46ea-abac-b7a51dd7a349",
+        "target_ref": "url--7a149c30-24d7-4e9e-996c-45056603a48e",
+        "start_time": "2020-09-25T01:55:22.803296Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--725a63d8-c005-4724-bf9b-9d05a543710c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-24T22:23:17.865998Z",
+        "modified": "2021-08-14T01:08:41.454296Z",
+        "name": "Evans Ltd",
+        "description": "Organic fresh-thinking installation",
+        "roles": [
+            "player",
+            "subject",
+            "talk",
+            "poor"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "nuclear",
+            "agriculture",
+            "mining"
+        ],
+        "contact_information": "451 Eric Forest Apt. 067\nWest Theresatown, VT 16727",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 26,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

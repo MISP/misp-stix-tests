@@ -1,0 +1,209 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--be0fef7c-01f1-478d-b1d2-bbe0aa4aa1bf",
+        "created_by_ref": "identity--421d8563-a4f4-4537-9121-85461befe8a6",
+        "created": "2022-02-05T12:19:14.978698Z",
+        "modified": "2022-09-27T04:11:07.400256Z",
+        "name": "reflect",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "first_seen": "2021-10-13T16:15:04.753604Z",
+        "confidence": 93,
+        "object_marking_refs": [
+            "marking-definition--087f3055-fa42-4cfd-9b88-cbc49372fa90"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "ipv6-addr",
+        "spec_version": "2.1",
+        "id": "ipv6-addr--258b27c7-fa65-4b05-a512-363e07cd556f",
+        "value": "31c6:8c58:64f7:b5c4:6d81:a161:5621:7045",
+        "object_marking_refs": [
+            "marking-definition--087f3055-fa42-4cfd-9b88-cbc49372fa90"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--34332a19-4165-476b-8b9f-de28bf0c6b0f",
+        "created_by_ref": "identity--421d8563-a4f4-4537-9121-85461befe8a6",
+        "created": "2021-11-28T13:41:09.168612Z",
+        "modified": "2022-11-03T15:07:16.911582Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--be0fef7c-01f1-478d-b1d2-bbe0aa4aa1bf",
+        "target_ref": "ipv6-addr--258b27c7-fa65-4b05-a512-363e07cd556f",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "color",
+                "description": "Laugh such room activity.",
+                "external_id": "CSrPKnhLsM"
+            },
+            {
+                "source_name": "shoulder",
+                "description": "I control again camera play.",
+                "url": "https://friedman-munoz.info/",
+                "external_id": "UQdTgWeajuz"
+            },
+            {
+                "source_name": "finally",
+                "description": "Challenge research while push indicate boy number rich.",
+                "hashes": {
+                    "MD5": "4b3a158eac26d87b60cabcf508526b19",
+                    "SHA-1": "5cde38ca936eb4394acf2076f16d5f28b9b1ab94",
+                    "SHA-256": "596c7d634a309b02c97d40bf403b7e2f19b5c8c0b3c39fd141467f8dc1ada312",
+                    "SHA-512": "77171aa698d6314179e44a9dbf5d3b97b640153b0ed920f6523c5c31fccf8e1fa74a4fbd93d6793737d935c6f07bc494ab3be434018538155f50dca9ffed1762",
+                    "SHA3-256": "079b269f2434e7fc577109e775df02bd632fdec21349825fe5aad0498236d4ee",
+                    "SHA3-512": "fd3510f1e56e3c37d8292bee689076a3d489caf606834c21f00d535cc54877a6a43a39dc1c35b5516e33e706077e6cead618f2b7f0cc131e07d8274520f53864"
+                }
+            },
+            {
+                "source_name": "turn",
+                "description": "War career growth imagine and.",
+                "url": "http://hunt.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--087f3055-fa42-4cfd-9b88-cbc49372fa90"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--421d8563-a4f4-4537-9121-85461befe8a6",
+        "created_by_ref": "identity--421d8563-a4f4-4537-9121-85461befe8a6",
+        "created": "2021-10-05T01:38:33.905004Z",
+        "modified": "2022-01-23T21:23:49.248402Z",
+        "name": "Nichols, Matthews and Mitchell",
+        "roles": [
+            "away",
+            "watch",
+            "upon",
+            "job"
+        ],
+        "sectors": [
+            "transportation",
+            "dams",
+            "non-profit",
+            "dams",
+            "government-local"
+        ],
+        "contact_information": "941 Clarke Crescent\nNorth Jennifershire, SD 66131",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "certainly",
+                "description": "For subject this usually if.",
+                "url": "http://www.phillips.org/",
+                "hashes": {
+                    "MD5": "6af2edaaaca76bcbb2804d025883704b",
+                    "SHA-1": "ea1603ec895af9f2b40f5b860d13810801ec6d97",
+                    "SHA-256": "3150ec75b7de16bf1ab9438fd006c5585d07ea4de133cf14308d6dcecb573348",
+                    "SHA-512": "37074453b47c2115116a0daf425a3bd3eb8173dad1aebf55499625f3955842d8a18437d681c86b5fc997c9f9bf9d4925ea501001e05db1d65c5ea528e1c4b821",
+                    "SHA3-256": "1ea30a3c9188843469c27c7accd2e96f1b6c05921a926382d743a276990fadd8",
+                    "SHA3-512": "34e6eee20d4e367bf82124247eef80d88d125b1de3e6932af780e6784023f020d64a997d8a9708111b975a05f960981baf239e571a05286be68ffb117b40a7ab"
+                },
+                "external_id": "kppoKUV"
+            },
+            {
+                "source_name": "institution",
+                "description": "Attack hair bank part strong.",
+                "url": "http://cannon.com/",
+                "external_id": "vUndyyKmFxa"
+            },
+            {
+                "source_name": "impact",
+                "description": "Lay sound member head for because machine.",
+                "url": "http://clark.com/",
+                "external_id": "sPMNnQYIzpGWWewWwZ"
+            },
+            {
+                "source_name": "throughout",
+                "description": "Boy line gas suggest partner run public.",
+                "url": "https://www.mueller.com/",
+                "external_id": "DUGYtJ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--087f3055-fa42-4cfd-9b88-cbc49372fa90"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--087f3055-fa42-4cfd-9b88-cbc49372fa90",
+        "created": "2021-08-14T01:08:40.330001Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a2bad07a-f4d3-4efb-a81b-2cf0c0637fc9",
+                "name": "Our concern loss resource wear",
+                "create_date_time": "2021-08-14T01:08:08.426882Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,185 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--3e1e53e8-2ea3-4142-b600-f7c27e5d21a2",
+        "created_by_ref": "identity--3476b57d-49fa-4b97-afe0-8ef326f552fa",
+        "created": "2021-09-15T03:38:05.631747Z",
+        "modified": "2022-06-12T00:48:05.55905Z",
+        "description": "Show professional leg fine term.",
+        "pattern": "[mac-addr:defanged = false] OR [url:defanged NOT = false] OR ((((([windows-registry-key:values[1].data >= 'ZSOVCGCP']) OR [domain-name:value > 'moore.com'] OR [ipv4-addr:defanged NOT = false]))))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-06-02T22:02:02.69925Z",
+        "valid_until": "2020-10-14T14:31:28.312087Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "dKCuVUg",
+                "phase_name": "KALnrTlCJuD"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 88,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "goal",
+                "description": "Arrive nor throughout make involve check list sit.",
+                "url": "https://www.vazquez.com/",
+                "external_id": "zjcJwMUvcTADFplhd"
+            },
+            {
+                "source_name": "front",
+                "description": "Relate fund security wrong later.",
+                "url": "https://austin.com/",
+                "hashes": {
+                    "MD5": "8273580e7a1af1d04167996938302592",
+                    "SHA-1": "8bbb9904ec2ea0f55398aa55961ce70dfbca89c1",
+                    "SHA-256": "401259576617d36d9062d072ecb3dd7423b31e656d1822c3853bce5552aac0f9",
+                    "SHA-512": "2f622869d9b30dd83cdda43ca66c9ee760207461c173aa499e7b08d6fe6b4dab2f9b168e478e5ca4d0b3b9bd1367ce08f3db0cc8e1e17dad8a4d52b414ac803a",
+                    "SHA3-256": "d596b15023c3a4d20a7d090df241e8899ce446313b24a01ff82e3b2cdaff72b1",
+                    "SHA3-512": "bebf38bc14ab13c35a28eb2ed2d425aa0983df02cf95ea9ebcf0ce20b4e3ed60fd4e8a6e44ab78a23bf89b9e74002335eae22be87b636bbfffcc198d72acea4a"
+                },
+                "external_id": "NQuEGvIASTPebPO"
+            },
+            {
+                "source_name": "expert",
+                "description": "Let project at debate kid.",
+                "url": "http://mckay-williams.org/"
+            },
+            {
+                "source_name": "water",
+                "description": "Do material agreement strong including physical upon sort."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--d0cab462-e992-4581-add9-f414a542612c",
+        "created_by_ref": "identity--3476b57d-49fa-4b97-afe0-8ef326f552fa",
+        "created": "2021-09-26T20:04:41.506181Z",
+        "modified": "2022-02-15T20:52:56.764504Z",
+        "name": "resource",
+        "description": "Other budget environment serious beautiful smile budget.",
+        "aliases": [
+            "but",
+            "continue",
+            "human",
+            "cover",
+            "nearly"
+        ],
+        "first_seen": "2022-05-18T00:11:16.387363Z",
+        "secondary_motivations": [
+            "organizational-gain",
+            "notoriety",
+            "unpredictable",
+            "personal-gain",
+            "organizational-gain"
+        ],
+        "labels": [
+            "win",
+            "down",
+            "might",
+            "hospital",
+            "plan",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "family",
+                "description": "Fish support seek weight talk food miss.",
+                "hashes": {
+                    "MD5": "518963e73f92c030ac3dd95f0c022f88",
+                    "SHA-1": "715fad8235dacd62574e6568b89b2b0cf6a770d9",
+                    "SHA-256": "7b2c4ac1d5601a31370891f4619dd5b50f766ce276bb952f8cdec8c73b5ba877",
+                    "SHA-512": "9461fbca533a0d035ce6bdbcd12c5e9f50417262cc9be105e2e206f0044998ba28937d4ec23362ae5d385ff137c0385584f2476c9db1873f72add66f37c42e59",
+                    "SHA3-256": "274c239186dc249d894fe3ee6cbba2e474071826d5e1f49eab9d41e055e132fa",
+                    "SHA3-512": "f6aba836d7f9386f5be01b52e2eda3677e5502df0d256c0db66cdf0030d52a904f4ecf4a3245954b59f8b106ab67f25b6ab51078c18bf1f097145cac1f007aed"
+                },
+                "external_id": "oAqSXX"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--2cfd7fa7-66a9-4d32-8c11-02be33a7f6f8",
+        "created_by_ref": "identity--3476b57d-49fa-4b97-afe0-8ef326f552fa",
+        "created": "2021-03-17T12:45:15.624759Z",
+        "modified": "2021-12-21T10:11:23.41127Z",
+        "relationship_type": "indicates",
+        "description": "Senior Republican ok short describe history. Lay well dark apply pass. Themselves air care. Fast house popular save.",
+        "source_ref": "indicator--3e1e53e8-2ea3-4142-b600-f7c27e5d21a2",
+        "target_ref": "intrusion-set--d0cab462-e992-4581-add9-f414a542612c",
+        "start_time": "2021-08-31T20:46:37.379831Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "serious",
+                "description": "Wall campaign value visit really.",
+                "hashes": {
+                    "MD5": "002cb8e420a372f085eb745c36f085db",
+                    "SHA-1": "9686a94dc0a6ccbca5d795912fd2fa78c0f27cca",
+                    "SHA-256": "aba1114546db8908126425d21cd76f6241b958f9eed7455d4811073928708209",
+                    "SHA-512": "0d074ef4122b67144f841e376dde4885fd35cafbc9c85495c75059a923662ab8249303e7360aab2c3b4dfb2634b017ae77ef4fa9b6f08a96f81f52ce179e196c",
+                    "SHA3-256": "a73242063c73ff69cea453d9ba6c2f3d438e5449d80487b14cd479c50f2f2c96",
+                    "SHA3-512": "c1d8154a036586b356e64c3c1c0b5d6339fde9b4fecbb1c687785cc29156dd83094982edddade82295cf2ba67a249b74d00763045b6f18eba627c01adb7e072c"
+                }
+            },
+            {
+                "source_name": "list",
+                "description": "Rule say others as big of benefit.",
+                "external_id": "bqjirdMrjqgZloHO"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3476b57d-49fa-4b97-afe0-8ef326f552fa",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-12-21T02:54:45.271585Z",
+        "modified": "2022-05-14T23:04:54.942914Z",
+        "name": "FloorBusinessSell",
+        "description": "Devolved explicit protocol",
+        "roles": [
+            "level",
+            "enough",
+            "executive"
+        ],
+        "sectors": [
+            "transportation",
+            "non-profit",
+            "government-public-services",
+            "pharmaceuticals",
+            "government-national"
+        ],
+        "contact_information": "7808 James Burgs Apt. 675\nLake Shawnton, NV 18275",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 89,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

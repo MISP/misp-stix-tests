@@ -1,0 +1,252 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--7af9038a-32a2-4411-a817-e8e20c36a337",
+        "created_by_ref": "identity--32614fac-223d-4549-8cee-cd4ce8f5ccbc",
+        "created": "2020-08-27T06:44:48.754572Z",
+        "modified": "2021-08-14T01:08:18.670043Z",
+        "name": "quality",
+        "aliases": [
+            "hot",
+            "media",
+            "building"
+        ],
+        "last_seen": "2020-09-22T01:47:54.481055Z",
+        "objective": "Not perform focus even instead.",
+        "labels": [
+            "adult",
+            "news",
+            "pfte-batch-1"
+        ],
+        "confidence": 70,
+        "object_marking_refs": [
+            "marking-definition--017e2fad-92ce-4fa6-a792-77bd7df46175"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--7dfdb614-c842-47d6-8c37-a33e0d4f959b",
+        "created_by_ref": "identity--32614fac-223d-4549-8cee-cd4ce8f5ccbc",
+        "created": "2022-01-12T19:57:50.874454Z",
+        "modified": "2022-07-09T16:33:16.771027Z",
+        "name": "study",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "NBGesniphtDQfGdxdP",
+                "phase_name": "jBWHJRNuXbsm"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "paper",
+                "url": "https://www.marsh-boyer.net/",
+                "hashes": {
+                    "MD5": "3e0de45105d95a1fb7cd0e91866176ea",
+                    "SHA-1": "96ac2f4531513502bc966e7cedd5f19db5e2041e",
+                    "SHA-256": "faf4095c7804fc649bcde0e361bcb22523d26dde0e3a1686cf1b47a759a7ba02",
+                    "SHA-512": "396a794b67e991d6a5d12f32e972c5f527f0f557a2a06d1d3e326476d1b4e531ed3a4610931a392fcdfbf9167e5de534a7cc35ad8de08901671df1d70e54ba53",
+                    "SHA3-256": "35d1c146ec810a796441ef4289fe2e2a224f818022cb6b227229bceae3a08c8e",
+                    "SHA3-512": "624a0b2eac3eb111414beef9a1e458ac60cce0969c25c223fdf36c0e9d6a9eb3071bf2f7cb550e53af389d97a87eebbab889bbe861feece8414caee17aad9436"
+                },
+                "external_id": "rDNqXRxjUlPduUck"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--017e2fad-92ce-4fa6-a792-77bd7df46175"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a65140d1-a27d-491c-a981-df4778aa988a",
+        "created_by_ref": "identity--32614fac-223d-4549-8cee-cd4ce8f5ccbc",
+        "created": "2021-08-26T05:38:57.654911Z",
+        "modified": "2021-11-13T02:07:21.759227Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--7af9038a-32a2-4411-a817-e8e20c36a337",
+        "target_ref": "attack-pattern--7dfdb614-c842-47d6-8c37-a33e0d4f959b",
+        "confidence": 4,
+        "object_marking_refs": [
+            "marking-definition--017e2fad-92ce-4fa6-a792-77bd7df46175"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--8d7c1788-9e4c-4003-8165-fadd6b118d9d",
+        "created_by_ref": "identity--32614fac-223d-4549-8cee-cd4ce8f5ccbc",
+        "created": "2022-07-15T15:51:05.958612Z",
+        "modified": "2022-12-20T13:23:11.888316Z",
+        "name": "present",
+        "description": "Rich red consumer wonder budget. Consumer store goal news drop.",
+        "report_types": [
+            "attack-pattern",
+            "vulnerability",
+            "indicator",
+            "identity",
+            "identity"
+        ],
+        "published": "2021-04-26T20:33:34.82404Z",
+        "object_refs": [
+            "campaign--7af9038a-32a2-4411-a817-e8e20c36a337",
+            "attack-pattern--7dfdb614-c842-47d6-8c37-a33e0d4f959b",
+            "relationship--a65140d1-a27d-491c-a981-df4778aa988a"
+        ],
+        "confidence": 99,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "product",
+                "description": "While activity size tell but start life.",
+                "hashes": {
+                    "MD5": "62b3d84f0b4342f7ab817a60b29fcd4b",
+                    "SHA-1": "d702923583c372cea5fe4f3b3d6e903594560301",
+                    "SHA-256": "db27f4dc4c09e61cba0023f2370281edb7dc4202fcd806bfaaafcf7f1a1ad9a3",
+                    "SHA-512": "560ae27ef11e13874fe436dbbff90edf131b4cde2bfbad580b99414b593ab3d86503610247a3f97aadf7ef99fb98d5fb4dca3d4ee330cc1193d253871ab35484",
+                    "SHA3-256": "5064aff6994320805ccd862f2e50388f00c474d9ad11439bbf0845eab48f8999",
+                    "SHA3-512": "f3bc40382c1e61ac7c56e376bf00cf6067d1ed7137e458f04fecd6166169ba335af65df50bccf6d0831997d935694ddfb40cb97f99238f9440aeaa373d96cf34"
+                }
+            },
+            {
+                "source_name": "tax",
+                "description": "Whatever receive audience away.",
+                "url": "https://www.rose.info/",
+                "external_id": "jKEjdUdLojsBvYqo"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--017e2fad-92ce-4fa6-a792-77bd7df46175"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--32614fac-223d-4549-8cee-cd4ce8f5ccbc",
+        "created_by_ref": "identity--32614fac-223d-4549-8cee-cd4ce8f5ccbc",
+        "created": "2021-08-28T08:31:26.229713Z",
+        "modified": "2021-12-28T13:55:45.082098Z",
+        "name": "Thompson Inc",
+        "description": "Ameliorated actuating emulation",
+        "roles": [
+            "fund"
+        ],
+        "sectors": [
+            "government-local"
+        ],
+        "external_references": [
+            {
+                "source_name": "food",
+                "url": "http://glenn.com/",
+                "external_id": "ggvtYwZFAnxAoMQskLO"
+            },
+            {
+                "source_name": "hard",
+                "description": "Everything face air.",
+                "external_id": "jovNkOsaesCWU"
+            },
+            {
+                "source_name": "at",
+                "description": "End me authority successful strong issue.",
+                "hashes": {
+                    "MD5": "3e2f113842c071bac281d105f1a0aa20",
+                    "SHA-1": "fd67d2172a8e3a024ebec2e9df6ff6960180e564",
+                    "SHA-256": "dd5aa1a447d107917caaa3814c54e8b15b3c03200fe7b72106dface45640dbf8",
+                    "SHA-512": "b34545190af468acf888b07d16dd243c6687014ec58bfb2bf2bf255b11c65ca52419595047c8710d28f348ddef2b7f53b063c1d8ee187f14ce08d884b06e79ff",
+                    "SHA3-256": "0d3250e8e426e08f4caddc7d098e0853ed0684f1ad1433b490152c8510c85452",
+                    "SHA3-512": "36ab327e3faae90b679b0b4370aa4488eef28dc89900a089077017d08df7d7536b761a65af31f3f5ec1c1b4c27f71552e804d08dfb41af28adf02cc641eb86ec"
+                },
+                "external_id": "uKbkLRtYRTQoNNTFXnbb"
+            },
+            {
+                "source_name": "board",
+                "description": "His fine international particular ok.",
+                "hashes": {
+                    "MD5": "2cfb113a85364d044a8afb48f9048ba7",
+                    "SHA-1": "93abdf6c200a9e2ffca176c310a7a4bb4a2cd796",
+                    "SHA-256": "bf748058100663629621e6e062ca267c959aaf59ebad5964d348ef370f31800a",
+                    "SHA-512": "403a32c878a736bb1716b767940f066f447a523dfd354c3413b4ff743639fdb1f740401a374f09e862396bb600aa6e88927cc1d9dec1fa473bab272b61b33d68",
+                    "SHA3-256": "922d26cb38bdabf98ab2cf3aec5f9151fd6fdf99809006ff9b44aef46f2545c6",
+                    "SHA3-512": "bb7513a9d51940ad2a8d9e01a86a14b0833d83a0c2e322b60129ba7ea469031ab4e2a03e249275b16c070f98cdb57e3641ddd0e73c6e85e879e21b19148fa313"
+                },
+                "external_id": "hBTWjGMYhcCatQhEAc"
+            },
+            {
+                "source_name": "bed",
+                "url": "http://www.king.com/",
+                "hashes": {
+                    "MD5": "bdb6935c5ed47e665d5cff5230536fcd",
+                    "SHA-1": "9465a9eafe2b3d343bfa1bfef318a552133cb3c7",
+                    "SHA-256": "fc098111490765024b1251c97624ef5b988df1fc7cac9edcf1304be44f2f5c2d",
+                    "SHA-512": "0e25380d8ece869529a26a072a44485f37a73e29698e7a987324c42687f437bb917d60ffaa33e937101f5e704c3918ee3ad191a15f25ccc6d605692cb23218c0",
+                    "SHA3-256": "78439043071a1ecd98d414ce3465592d7497a78626675d98b2ce58c5fa360dad",
+                    "SHA3-512": "b355ebcb1d98670495b8df24efc0013b9dc623509b6354b78a1661382ef30948e4e4585e126821fa8600ccf09434d0e3c165fdd7fcf3be2c27f3f286a10ffaed"
+                },
+                "external_id": "EqQGbDmLzvKCAcWx"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--017e2fad-92ce-4fa6-a792-77bd7df46175"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--017e2fad-92ce-4fa6-a792-77bd7df46175",
+        "created": "2021-08-14T01:08:18.669524Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f680acaf-ba5a-4af9-ba41-d819400a97d1",
+                "name": "Decide court anything one doctor sound serve nation",
+                "create_date_time": "2021-08-14T01:08:08.428211Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.428042Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

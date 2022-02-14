@@ -1,0 +1,173 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--2b5a17cd-f5ce-458b-8fed-02bd0e5f5a61",
+        "created_by_ref": "identity--18c0ace0-159e-41be-8df8-e3de69e3f6b1",
+        "created": "2020-09-11T18:21:26.672563Z",
+        "modified": "2021-08-14T01:08:23.071788Z",
+        "name": "film",
+        "description": "Commercial me lead station no.",
+        "object_marking_refs": [
+            "marking-definition--5fe0f3b2-5221-40f8-85c9-e6f466015a4e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--2d39b43a-042c-479c-ac2a-bec50ce75b06",
+        "created_by_ref": "identity--18c0ace0-159e-41be-8df8-e3de69e3f6b1",
+        "created": "2020-12-13T22:14:16.408506Z",
+        "modified": "2021-08-14T01:08:23.072309Z",
+        "name": "perform",
+        "labels": [
+            "year",
+            "best",
+            "fear",
+            "unit",
+            "social",
+            "pfte-batch-1"
+        ],
+        "confidence": 72,
+        "external_references": [
+            {
+                "source_name": "us",
+                "url": "http://www.burton.com/",
+                "external_id": "mEwTCNGFWDywXUNMJgqI"
+            },
+            {
+                "source_name": "personal",
+                "description": "Effect especially individual experience drive single federal.",
+                "url": "https://www.galloway.com/",
+                "external_id": "erMwhgILwKCYjyAYmIsn"
+            },
+            {
+                "source_name": "his",
+                "description": "Daughter hard statement write.",
+                "url": "https://www.newman-thomas.com/",
+                "hashes": {
+                    "MD5": "eb8217f3cd686db86a57a8306c05a49b",
+                    "SHA-1": "beb29607b3893129e460a7ae5a445374b513d960",
+                    "SHA-256": "92dfbfda1dfc43079609817f7d4bc7fed7e392c96c62cba4552bf6be7f1775e3",
+                    "SHA-512": "d9d959a7efb389c3fc1c93b71f12d7e83e20347aee123a148d842679c94ec7293013e0ee6ba82da407ab8f4376c582ea1d751fb3531ec0fd9222ca55bdc9ca7e",
+                    "SHA3-256": "faf25fdaf7e017c8af0a49e8e019c3ed056bbea0065e5f75e716730b563b2cb2",
+                    "SHA3-512": "abf5f24913c713b13c98944fdd11b5c526d2c0d14b81e3bf086f32649f2f6d579cc4bf5348ae26272a5934cd620f7c36e1382242bf76a2550fca7ed8a8248913"
+                },
+                "external_id": "YdurnvDplpzpvrQcQcu"
+            },
+            {
+                "source_name": "capital",
+                "description": "Place how walk like lay cause position.",
+                "url": "http://www.wilson.biz/",
+                "external_id": "vhKIDngWZUsPZh"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--5fe0f3b2-5221-40f8-85c9-e6f466015a4e"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4d5bc248-570d-4d15-a752-eb8e2ec97106",
+        "created_by_ref": "identity--18c0ace0-159e-41be-8df8-e3de69e3f6b1",
+        "created": "2022-06-20T17:09:09.976339Z",
+        "modified": "2022-08-18T06:25:10.488695Z",
+        "relationship_type": "mitigates",
+        "description": "Myself enjoy probably. Trip hit lose. Agree town garden board end season.",
+        "source_ref": "course-of-action--2b5a17cd-f5ce-458b-8fed-02bd0e5f5a61",
+        "target_ref": "attack-pattern--2d39b43a-042c-479c-ac2a-bec50ce75b06",
+        "start_time": "2020-09-03T16:38:22.922628Z",
+        "stop_time": "2021-07-18T14:01:42.684643Z",
+        "labels": [
+            "there",
+            "pfte-batch-1"
+        ],
+        "confidence": 19,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--5fe0f3b2-5221-40f8-85c9-e6f466015a4e"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--ed29aa72-699d-4bdd-835d-6deb59044dfc",
+        "created_by_ref": "identity--18c0ace0-159e-41be-8df8-e3de69e3f6b1",
+        "created": "2020-10-12T04:29:59.141084Z",
+        "modified": "2021-08-14T01:08:23.072826Z",
+        "context": "suspicious-activity",
+        "object_refs": [
+            "course-of-action--2b5a17cd-f5ce-458b-8fed-02bd0e5f5a61",
+            "attack-pattern--2d39b43a-042c-479c-ac2a-bec50ce75b06",
+            "relationship--4d5bc248-570d-4d15-a752-eb8e2ec97106"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--5fe0f3b2-5221-40f8-85c9-e6f466015a4e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--18c0ace0-159e-41be-8df8-e3de69e3f6b1",
+        "created_by_ref": "identity--18c0ace0-159e-41be-8df8-e3de69e3f6b1",
+        "created": "2021-02-18T10:18:38.16313Z",
+        "modified": "2021-08-14T01:08:23.073087Z",
+        "name": "Gonzalez and Sons",
+        "description": "Fully-configurable intangible system engine",
+        "contact_information": "01607 Hawkins Station\nLake Keithberg, MT 96868",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--5fe0f3b2-5221-40f8-85c9-e6f466015a4e"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--5fe0f3b2-5221-40f8-85c9-e6f466015a4e",
+        "created": "2021-08-14T01:08:23.071279Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3b921193-36b9-467a-b549-f06fd7a0147e",
+                "name": "Artist despite travel Mrs long fish",
+                "create_date_time": "2021-08-14T01:08:08.430789Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.430622Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

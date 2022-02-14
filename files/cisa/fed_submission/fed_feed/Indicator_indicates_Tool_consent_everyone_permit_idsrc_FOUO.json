@@ -1,0 +1,161 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--48a9c561-9ed1-48ed-bb39-5332d3e20529",
+        "created_by_ref": "identity--eea4c96f-3dcf-4c06-ad63-c824a74e27ca",
+        "created": "2021-06-03T06:42:01.861638Z",
+        "modified": "2021-08-14T01:08:35.600917Z",
+        "name": "under",
+        "pattern": "(([ipv4-addr:value >= '128.200.79.211'] OR [email-addr:value >= 'jessecarter@yahoo.com'])) OR [mutex:name < 'take' OR (domain-name:defanged NOT = false)]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-12-12T08:44:30.788549Z",
+        "valid_until": "2021-10-09T08:05:43.897757Z",
+        "object_marking_refs": [
+            "marking-definition--3b089eea-c71b-40d6-8731-7987775dac07"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--39bb3faa-f408-4e31-ae85-c20e6408a485",
+        "created_by_ref": "identity--eea4c96f-3dcf-4c06-ad63-c824a74e27ca",
+        "created": "2022-02-02T23:10:52.855107Z",
+        "modified": "2023-01-01T08:04:15.50402Z",
+        "name": "best",
+        "description": "Different herself special answer because the.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "pPKkgvzkcitnXbXEfaS",
+                "phase_name": "YVTkwkYogcEaseLulsb"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "tool_version": "old",
+        "confidence": 36,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3b089eea-c71b-40d6-8731-7987775dac07"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--681a1180-3984-4480-9d32-7c2a7c82dd20",
+        "created_by_ref": "identity--eea4c96f-3dcf-4c06-ad63-c824a74e27ca",
+        "created": "2021-01-01T12:35:50.693789Z",
+        "modified": "2021-08-14T01:08:35.604429Z",
+        "relationship_type": "indicates",
+        "description": "Relationship ago each station method late from policy. Speech two century necessary successful nothing. Material little media campaign.",
+        "source_ref": "indicator--48a9c561-9ed1-48ed-bb39-5332d3e20529",
+        "target_ref": "tool--39bb3faa-f408-4e31-ae85-c20e6408a485",
+        "confidence": 30,
+        "object_marking_refs": [
+            "marking-definition--3b089eea-c71b-40d6-8731-7987775dac07"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--eea4c96f-3dcf-4c06-ad63-c824a74e27ca",
+        "created_by_ref": "identity--eea4c96f-3dcf-4c06-ad63-c824a74e27ca",
+        "created": "2021-07-23T11:35:38.430083Z",
+        "modified": "2022-03-29T00:58:38.918126Z",
+        "name": "Fisher-Benson",
+        "identity_class": "individual",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3b089eea-c71b-40d6-8731-7987775dac07"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--3b089eea-c71b-40d6-8731-7987775dac07",
+        "created": "2021-08-14T01:08:35.600274Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f97bfbf2-c194-4d73-b792-b989c4ea0ab5",
+                "name": "Focus develop ago various",
+                "create_date_time": "2021-08-14T01:08:08.431216Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

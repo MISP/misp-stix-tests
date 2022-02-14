@@ -1,0 +1,103 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--475570b7-eb79-445e-8564-eb945effb57b",
+        "created_by_ref": "identity--0dcf9f12-4455-4825-9155-206c39f7bee4",
+        "created": "2022-03-04T13:14:27.509324Z",
+        "modified": "2022-07-06T09:50:25.771367Z",
+        "name": "seek",
+        "description": "Kind month language into in other TV investment.",
+        "aliases": [
+            "nice",
+            "matter",
+            "material",
+            "manager"
+        ],
+        "first_seen": "2021-12-20T22:20:59.801172Z",
+        "last_seen": "2022-06-24T02:05:17.287668Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--b9d3e10b-4ca3-458f-aeb1-f28cbe325c1b",
+        "created_by_ref": "identity--0dcf9f12-4455-4825-9155-206c39f7bee4",
+        "created": "2020-09-26T17:33:43.413107Z",
+        "modified": "2021-08-14T01:08:14.53646Z",
+        "name": "all",
+        "description": "Enough first run again.",
+        "infrastructure_types": [
+            "command-and-control"
+        ],
+        "aliases": [
+            "again",
+            "though",
+            "professional",
+            "total"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "grnllOBjsxnMMty",
+                "phase_name": "kBzCIsio"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--144a66bf-6bbc-4d5c-878b-fe709f7a18f6",
+        "created_by_ref": "identity--0dcf9f12-4455-4825-9155-206c39f7bee4",
+        "created": "2021-05-30T12:20:37.637656Z",
+        "modified": "2022-01-31T10:37:46.40543Z",
+        "relationship_type": "compromises",
+        "source_ref": "campaign--475570b7-eb79-445e-8564-eb945effb57b",
+        "target_ref": "infrastructure--b9d3e10b-4ca3-458f-aeb1-f28cbe325c1b",
+        "start_time": "2020-09-17T09:59:50.099075Z",
+        "stop_time": "2021-03-16T06:30:11.643254Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0dcf9f12-4455-4825-9155-206c39f7bee4",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-12T17:50:36.046257Z",
+        "modified": "2021-12-26T02:30:14.88777Z",
+        "name": "ForceDataAlmost",
+        "roles": [
+            "involve",
+            "former"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 48,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

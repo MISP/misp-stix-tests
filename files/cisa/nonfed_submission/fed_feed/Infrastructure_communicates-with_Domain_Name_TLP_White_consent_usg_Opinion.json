@@ -1,0 +1,179 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--cb0264f4-1020-4c48-8c7b-327c60177472",
+        "created_by_ref": "identity--7f990fde-52e7-467c-b227-fea64e7a9e56",
+        "created": "2021-04-07T14:26:45.501442Z",
+        "modified": "2022-03-06T05:30:57.06923Z",
+        "name": "or",
+        "infrastructure_types": [
+            "phishing",
+            "routers-switches",
+            "hosting-target-lists",
+            "anonymization",
+            "hosting-target-lists"
+        ],
+        "aliases": [
+            "leave",
+            "movie"
+        ],
+        "labels": [
+            "professional",
+            "lead",
+            "brother",
+            "pfte-batch-1"
+        ],
+        "confidence": 48,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d2d0b830-eac2-449e-afc6-3521d0988284"
+        ]
+    },
+    {
+        "type": "domain-name",
+        "spec_version": "2.1",
+        "id": "domain-name--31fef1ff-7ef1-4e08-9a6b-79f7867d0a04",
+        "value": "brown.info",
+        "object_marking_refs": [
+            "marking-definition--d2d0b830-eac2-449e-afc6-3521d0988284"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c2491132-a384-4c7f-a85a-54cca620c2fb",
+        "created_by_ref": "identity--7f990fde-52e7-467c-b227-fea64e7a9e56",
+        "created": "2021-12-29T12:04:05.253548Z",
+        "modified": "2022-10-26T09:05:25.510582Z",
+        "relationship_type": "communicates-with",
+        "description": "Defense big environmental. May some agree.",
+        "source_ref": "infrastructure--cb0264f4-1020-4c48-8c7b-327c60177472",
+        "target_ref": "domain-name--31fef1ff-7ef1-4e08-9a6b-79f7867d0a04",
+        "stop_time": "2022-05-14T06:06:35.34539Z",
+        "labels": [
+            "place",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d2d0b830-eac2-449e-afc6-3521d0988284"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--33d3a54d-b8d5-4c10-904a-6611beef4a11",
+        "created_by_ref": "identity--7f990fde-52e7-467c-b227-fea64e7a9e56",
+        "created": "2021-04-10T16:51:29.814266Z",
+        "modified": "2022-03-24T15:57:12.327428Z",
+        "explanation": "Cultural sense water investment senior focus agency. Bit case financial Democrat. Involve head side whether finish.",
+        "opinion": "strongly-agree",
+        "object_refs": [
+            "infrastructure--cb0264f4-1020-4c48-8c7b-327c60177472",
+            "domain-name--31fef1ff-7ef1-4e08-9a6b-79f7867d0a04",
+            "relationship--c2491132-a384-4c7f-a85a-54cca620c2fb"
+        ],
+        "labels": [
+            "opportunity",
+            "education",
+            "cell",
+            "deal",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--d2d0b830-eac2-449e-afc6-3521d0988284"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d2d0b830-eac2-449e-afc6-3521d0988284",
+        "created_by_ref": "identity--7f990fde-52e7-467c-b227-fea64e7a9e56",
+        "created": "2021-08-14T01:08:40.719292Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7f990fde-52e7-467c-b227-fea64e7a9e56",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-01-28T22:37:19.482733Z",
+        "modified": "2023-01-01T20:04:41.111348Z",
+        "name": "Avila Inc",
+        "description": "Total global analyzer",
+        "roles": [
+            "resource",
+            "arrive"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 93,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "now",
+                "description": "Space grow age become current pretty ball.",
+                "url": "https://smith.biz/",
+                "hashes": {
+                    "MD5": "23d67dfdc5928c7f02c3e9c827d2d819",
+                    "SHA-1": "d21cad24e21bbad08df4a3f6076993fa939981e2",
+                    "SHA-256": "9c9ef78f989061156e08dee369a336925fa926ec2f3f55e2a883e43bb86e2ff1",
+                    "SHA-512": "00ad984e4b71358853f9d23406aa128f3ab1b6eabe250e71682b6e0602e75968567169f4bfdfca739ccd2aa13415b0ad56032f00be571ba8af7a6aea6a030612",
+                    "SHA3-256": "609cdfdeef624923798e2bf5b4488b34d0bfe5fa9ae4e9a90792b34caa8d8c59",
+                    "SHA3-512": "f103967aee72748def108e32fce94d68a6642f038f12aa2805f6294fbe30fca8e84151e8584610cdeef0175637f109215e8f3478b4c208f545a951dcdc786345"
+                },
+                "external_id": "SFmTJ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d2d0b830-eac2-449e-afc6-3521d0988284"
+        ]
+    }
+]

@@ -1,0 +1,192 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--e6495d59-41b9-4f1c-abe2-144134a233c5",
+        "created_by_ref": "identity--0f812bf6-199f-41bb-a1e4-0bd414b0e4d4",
+        "created": "2021-10-20T10:49:29.13998Z",
+        "modified": "2022-05-25T13:54:16.615238Z",
+        "name": "contain",
+        "aliases": [
+            "white"
+        ],
+        "confidence": 71,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "peace",
+                "description": "With while look audience.",
+                "external_id": "XsxgmsXLbPtLoBVA"
+            },
+            {
+                "source_name": "modern",
+                "description": "Note wish community save.",
+                "external_id": "riFmQakb"
+            },
+            {
+                "source_name": "majority",
+                "description": "Against try parent of camera want car.",
+                "url": "http://www.tucker.com/",
+                "external_id": "piBnpoaDLAZHS"
+            },
+            {
+                "source_name": "system",
+                "url": "https://cox.com/",
+                "hashes": {
+                    "MD5": "301f7caa13759297f9b5f2fdadc18341",
+                    "SHA-1": "866ad63dceb8d8cfe8e34e80e0716f3243ac19cf",
+                    "SHA-256": "87a73fa758fd774958181bf1e63fda6d92a02d3e2f6a35fca4f204a198663c12",
+                    "SHA-512": "e8ae85369d2877360be70d4ae2e049ec612d3b08c715fd2d149e51e5c3828f4e2f4cae4f8069e1630d46afc39355204bc447633bf3a26b10bdf87d2d89759917",
+                    "SHA3-256": "7749348695cbeacab992b1ba7265337b5e09ecc97515ed7aa90ab3dd149bfb8d",
+                    "SHA3-512": "6e32ba97af6ddb586f73a48a77f5da9e1894dc172d6d2bd63136a16fd8bf7f0d04d5017ef42ad28211f31d8c96167e18b39a88b99f99cade8d47a93362a63afe"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ce6b2f38-1939-4258-ac64-43ba468f1998"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--e37d615b-4096-4a64-b8e7-d98ba4fe19ac",
+        "created_by_ref": "identity--0f812bf6-199f-41bb-a1e4-0bd414b0e4d4",
+        "created": "2020-10-23T07:50:56.412562Z",
+        "modified": "2021-08-14T01:08:12.817786Z",
+        "name": "evidence",
+        "tool_types": [
+            "information-gathering",
+            "unknown",
+            "network-capture",
+            "credential-exploitation",
+            "exploitation"
+        ],
+        "tool_version": "around",
+        "labels": [
+            "month",
+            "pfte-batch-1"
+        ],
+        "confidence": 75,
+        "external_references": [
+            {
+                "source_name": "technology",
+                "description": "Them remember special."
+            },
+            {
+                "source_name": "travel",
+                "description": "Four into cause act.",
+                "url": "https://www.hines.com/",
+                "external_id": "vRQoTuwnfMOTGujDp"
+            },
+            {
+                "source_name": "area",
+                "description": "Talk nice artist security program join focus huge.",
+                "url": "http://gray-sanchez.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ce6b2f38-1939-4258-ac64-43ba468f1998"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--9d250715-d1c5-4129-a57a-21d41533727c",
+        "created_by_ref": "identity--0f812bf6-199f-41bb-a1e4-0bd414b0e4d4",
+        "created": "2021-11-13T18:17:30.356546Z",
+        "modified": "2022-04-03T08:12:05.838134Z",
+        "relationship_type": "uses",
+        "source_ref": "attack-pattern--e6495d59-41b9-4f1c-abe2-144134a233c5",
+        "target_ref": "tool--e37d615b-4096-4a64-b8e7-d98ba4fe19ac",
+        "start_time": "2021-09-30T19:25:27.957362Z",
+        "object_marking_refs": [
+            "marking-definition--ce6b2f38-1939-4258-ac64-43ba468f1998"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0f812bf6-199f-41bb-a1e4-0bd414b0e4d4",
+        "created_by_ref": "identity--0f812bf6-199f-41bb-a1e4-0bd414b0e4d4",
+        "created": "2021-09-24T10:06:16.034664Z",
+        "modified": "2022-01-26T04:06:07.729521Z",
+        "name": "Collins-Stevens",
+        "description": "Diverse asynchronous capacity",
+        "sectors": [
+            "commercial",
+            "education",
+            "technology",
+            "agriculture"
+        ],
+        "contact_information": "Unit 1561 Box 7231\nDPO AP 08177",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ce6b2f38-1939-4258-ac64-43ba468f1998"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--ce6b2f38-1939-4258-ac64-43ba468f1998",
+        "created": "2021-08-14T01:08:12.816477Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3af87523-f9f6-4d99-acfc-79560c4d2219",
+                "name": "Boy understand else sense give house travel already",
+                "create_date_time": "2021-08-14T01:08:08.429507Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

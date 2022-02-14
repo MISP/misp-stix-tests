@@ -1,0 +1,233 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--c8357d25-2000-465f-a361-7dd4d8311797",
+        "created_by_ref": "identity--83574974-5960-4429-8f1c-4b42201c559b",
+        "created": "2021-11-26T09:23:10.951455Z",
+        "modified": "2022-11-10T01:24:26.107242Z",
+        "name": "carry",
+        "description": "Affect artist occur defense customer.",
+        "aliases": [
+            "star"
+        ],
+        "first_seen": "2022-05-31T04:10:22.245717Z",
+        "objective": "Of politics expert weight million theory whether.",
+        "external_references": [
+            {
+                "source_name": "trial",
+                "url": "http://hernandez.org/",
+                "external_id": "FgEXcvgsfESgTWl"
+            },
+            {
+                "source_name": "say",
+                "description": "Rise even book case find not family."
+            },
+            {
+                "source_name": "lose",
+                "description": "Help organization southern art save election one.",
+                "url": "https://www.farmer.com/",
+                "external_id": "pZRSOTDSq"
+            },
+            {
+                "source_name": "two",
+                "url": "http://www.erickson-greene.biz/",
+                "external_id": "xkYqqR"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--5bc1e68f-8294-4293-a743-3d3cb19ed4c4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--51f609f6-9a8d-46c9-9c75-9e0b027f472e",
+        "created_by_ref": "identity--83574974-5960-4429-8f1c-4b42201c559b",
+        "created": "2021-06-18T06:19:59.317994Z",
+        "modified": "2021-12-18T21:41:09.61497Z",
+        "name": "sound",
+        "aliases": [
+            "determine",
+            "various",
+            "effect",
+            "hope"
+        ],
+        "last_seen": "2022-02-10T22:45:35.977363Z",
+        "goals": [
+            "parent",
+            "soon",
+            "without",
+            "fly"
+        ],
+        "personal_motivations": [
+            "ideology",
+            "coercion",
+            "coercion"
+        ],
+        "labels": [
+            "tonight",
+            "industry",
+            "near",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--5bc1e68f-8294-4293-a743-3d3cb19ed4c4"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--5f79803c-4495-4ec3-983d-3286bc1ada5d",
+        "created_by_ref": "identity--83574974-5960-4429-8f1c-4b42201c559b",
+        "created": "2022-03-29T14:37:31.381974Z",
+        "modified": "2023-02-03T17:59:40.579077Z",
+        "relationship_type": "attributed-to",
+        "description": "Per front world law. Edge daughter view ground.",
+        "source_ref": "campaign--c8357d25-2000-465f-a361-7dd4d8311797",
+        "target_ref": "threat-actor--51f609f6-9a8d-46c9-9c75-9e0b027f472e",
+        "start_time": "2021-10-07T07:40:04.897277Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--5bc1e68f-8294-4293-a743-3d3cb19ed4c4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--5bc1e68f-8294-4293-a743-3d3cb19ed4c4",
+        "created_by_ref": "identity--83574974-5960-4429-8f1c-4b42201c559b",
+        "created": "2021-08-14T01:08:13.884363Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-15d3e0eb-8dda-4b6b-a55d-5c6a8a6d490b",
+                "name": "Clearly industry family",
+                "create_date_time": "2021-08-14T01:08:08.420657Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--83574974-5960-4429-8f1c-4b42201c559b",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-16T14:05:15.232102Z",
+        "modified": "2022-09-06T18:07:25.735048Z",
+        "name": "Mitchell Inc",
+        "description": "Extended systematic architecture",
+        "sectors": [
+            "construction"
+        ],
+        "contact_information": "5833 Robert Radial Apt. 561\nReneemouth, OH 30254",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "pull",
+                "url": "http://www.gutierrez.com/",
+                "hashes": {
+                    "MD5": "a45f1e3f98ae04ee26327a92cfaecf9b",
+                    "SHA-1": "314e1dd775d6f75cd6f2e238ec9bdf2f6f999a90",
+                    "SHA-256": "5851057016f467fb7ff71361f3ebacf17e0e7de7c53fe29857faf8c1440b8529",
+                    "SHA-512": "36c3c5db61745acc6a6bed4446d27fed7bca7693ff666480c3b4334bb1aa4ed940af3c958ca451b3888d3448719c649529c2ca6e1f4a64cc80c7d0ef5ed0aa45",
+                    "SHA3-256": "5d47b51420b9a447ae470e1f6901c11da803454df3db2829263e1768da9bc91d",
+                    "SHA3-512": "8916dd2522b91a8305cd298b7d52689e91a49be2de4900f4492a1cc36d5d34eb7bb7f6a8aef26b8ab411e74a75d85671f97c2956d35ba1edf0eb00ef005e2aec"
+                },
+                "external_id": "KpUxgVVzJw"
+            },
+            {
+                "source_name": "director",
+                "description": "Item half create serious.",
+                "external_id": "kXuukGXBxdobiuhL"
+            },
+            {
+                "source_name": "summer",
+                "url": "http://moyer.com/"
+            },
+            {
+                "source_name": "result",
+                "description": "Bad water nation place.",
+                "hashes": {
+                    "MD5": "e5cf83772937eaec600221619a68ca6c",
+                    "SHA-1": "5ca926134f12b870df3011cb84bcf67e7d2a0729",
+                    "SHA-256": "6740adb2055b8c6c2e23793791ab92e5019212bbadb2a78717bc23fd10764b48",
+                    "SHA-512": "8266d0d6f10b91b08547fbe581461546eb339e886477a569b6be2d435d5deb72abb20603fe82ad333a4bdf3e352c20d5446facf2c53a952c013b0607b9205bc2",
+                    "SHA3-256": "f33efe879c127c01371c06808cf0d27e4ce24add896ec21dd343973e0ecec9ea",
+                    "SHA3-512": "b9c3cd78df5cebbe14f9b7ac013b54e3b89d441d9d97e82e24ad339699060db6dd1ade774eb070611709c3565b0667c2e36987b2839fcb8cbff0897efa0f7299"
+                },
+                "external_id": "qeOpnnHPzycdAuxwDX"
+            },
+            {
+                "source_name": "this",
+                "description": "Fall effort speech should skin reveal cut last.",
+                "url": "https://www.chen.com/",
+                "external_id": "lLzCbF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--5bc1e68f-8294-4293-a743-3d3cb19ed4c4"
+        ]
+    }
+]

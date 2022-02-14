@@ -1,0 +1,143 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--a8fdcecc-cc55-404c-b571-01c4da58a800",
+        "created_by_ref": "identity--25ea532a-5653-4114-af16-0983eff47834",
+        "created": "2021-04-08T00:19:15.379367Z",
+        "modified": "2021-11-20T22:36:10.483778Z",
+        "name": "ball",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "wPeLFzlLtvj",
+                "phase_name": "TJknYKuYZbi"
+            }
+        ],
+        "last_seen": "2022-02-12T08:58:21.881115Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7fb9ce95-c95c-460b-9b8f-1eba048ebec0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--d433007d-fe94-46cc-ba3d-ebf9f18fdeb1",
+        "created_by_ref": "identity--25ea532a-5653-4114-af16-0983eff47834",
+        "created": "2021-06-21T17:17:21.835762Z",
+        "modified": "2022-06-21T16:46:53.453567Z",
+        "name": "nGcTIfZazDOEpGcYZg",
+        "latitude": -12.987536453170748,
+        "longitude": -156.98878506957638,
+        "precision": 65.47886864030187,
+        "labels": [
+            "while",
+            "contain",
+            "key",
+            "pfte-batch-1"
+        ],
+        "confidence": 30,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7fb9ce95-c95c-460b-9b8f-1eba048ebec0"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b00fce0b-b81d-454d-bf96-258e28ed673b",
+        "created_by_ref": "identity--25ea532a-5653-4114-af16-0983eff47834",
+        "created": "2021-02-05T05:04:10.539903Z",
+        "modified": "2021-08-14T01:08:50.236608Z",
+        "relationship_type": "located-at",
+        "description": "Foot watch series different finally from economy. Avoid should or main feeling down toward. Eye full mention democratic free will.",
+        "source_ref": "infrastructure--a8fdcecc-cc55-404c-b571-01c4da58a800",
+        "target_ref": "location--d433007d-fe94-46cc-ba3d-ebf9f18fdeb1",
+        "start_time": "2021-03-28T23:39:17.774572Z",
+        "confidence": 9,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7fb9ce95-c95c-460b-9b8f-1eba048ebec0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--25ea532a-5653-4114-af16-0983eff47834",
+        "created_by_ref": "identity--25ea532a-5653-4114-af16-0983eff47834",
+        "created": "2022-02-19T10:34:13.327989Z",
+        "modified": "2022-03-30T17:19:16.370011Z",
+        "name": "Pierce LLC",
+        "description": "Programmable zero-defect array",
+        "identity_class": "group",
+        "sectors": [
+            "financial-services",
+            "government",
+            "manufacturing"
+        ],
+        "contact_information": "098 Oconnor Flat\nCharlesshire, KY 26260",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 8,
+        "external_references": [
+            {
+                "source_name": "off",
+                "description": "Near cut later food.",
+                "url": "https://santana.com/",
+                "external_id": "arDNoIVT"
+            },
+            {
+                "source_name": "physical",
+                "description": "Pressure argue leader.",
+                "url": "https://www.carter.com/",
+                "external_id": "umTAQeiEmpOiqPwqX"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7fb9ce95-c95c-460b-9b8f-1eba048ebec0"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--7fb9ce95-c95c-460b-9b8f-1eba048ebec0",
+        "created": "2021-08-14T01:08:50.235558Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-114c3c02-d336-4257-a679-8cbd2bcdae34",
+                "name": "Sort author none he account American industry worry",
+                "create_date_time": "2021-08-14T01:08:08.432919Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

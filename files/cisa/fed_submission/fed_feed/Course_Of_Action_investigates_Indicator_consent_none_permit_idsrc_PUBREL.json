@@ -1,0 +1,257 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--10b2fa89-272b-418e-8830-668968394480",
+        "created_by_ref": "identity--7944a005-bf67-4b5a-a5c3-edce4e4c7d98",
+        "created": "2021-04-09T11:44:49.01502Z",
+        "modified": "2021-08-14T01:08:21.956861Z",
+        "name": "kid",
+        "description": "Law factor money present middle store local event.",
+        "confidence": 90,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2d24c1b7-7539-437a-b67a-50e89d0e5e9a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--fa81e754-5edc-4612-9c0a-0cef511a2571",
+        "created_by_ref": "identity--7944a005-bf67-4b5a-a5c3-edce4e4c7d98",
+        "created": "2021-08-28T12:10:26.340234Z",
+        "modified": "2022-04-03T08:05:10.37699Z",
+        "name": "unit",
+        "pattern": "[autonomous-system:number NOT = 214]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-07-24T07:13:57.011007Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "conference",
+                "description": "Business relate similar style.",
+                "url": "https://www.johnson.com/",
+                "hashes": {
+                    "MD5": "de87ed909b7358e77895184dd977824b",
+                    "SHA-1": "8528feba099f164731621609265c9b90015d3705",
+                    "SHA-256": "bd7c48dec3340a11ce9f8fd971a1f71eaf82fa74efcdf648801d73c1ac884441",
+                    "SHA-512": "235212024668fa827788604c2e36de56fa3d855ef429af85403ed37e3e869897104cf2ae8eaaf2aa72f09f0d17dc71bd4ce9409e712e9f999bdf3a4bf7ef2709",
+                    "SHA3-256": "36cac55e060e094206c583053863283bcfbfd6bef1a9cd41362f06707b2df598",
+                    "SHA3-512": "a563a1936a1e34e9b28d5b26e7d02ce1da8fa3387a96c3a2358c65e16b1a458ca8cc10fce8702846832139240231bf7a99a2d425c5cdb77353a3126c22bc61f1"
+                },
+                "external_id": "hxpJXIMnvoW"
+            },
+            {
+                "source_name": "what",
+                "description": "Bring approach product create perhaps.",
+                "hashes": {
+                    "MD5": "5f8f8d44f59160ffbda1a8b8eecbf893",
+                    "SHA-1": "58fbe83300cb1ad20b7d97e4406520552ca5eb11",
+                    "SHA-256": "2cf0e1e1d40275e861a8ec6fc0d1c713a527c73a95677825956109d3313e2f09",
+                    "SHA-512": "e8ff09fd976d6b7f83a6dad1d36dac0ad9bc6028bab4554a83dbdde49a1b25ade27460742a941c7e7cebf6410f1aee0c3987d75e04f4ee5465b7a58bd57336b5",
+                    "SHA3-256": "578c45de87417c9458b6c1d0ea86f4a02d830281cd42ce5954d3df4894b7c72b",
+                    "SHA3-512": "3949fe7b0894251889b608068d87d9a6cd98eec4835031ca87018e8cc11046f02f9dd9d2c870f27509c3a98f90412917cecc5cdea2fb424f76f52dd0253669a7"
+                },
+                "external_id": "HcLKgGfKbWOvUROEHM"
+            },
+            {
+                "source_name": "of",
+                "description": "Truth democratic consider me however visit.",
+                "url": "https://cooley-bailey.com/",
+                "hashes": {
+                    "MD5": "cfa16cc5196f6110388a6b14bb9a63e8",
+                    "SHA-1": "c5d95d9b3639a4ccf4bef5bd815bd7b3daf0884f",
+                    "SHA-256": "4875c6cf435995f0838189f72d45b37319300876ef5c141ee97bbb1fb3c31565",
+                    "SHA-512": "968124f087366a3df4f110e9f505bcbf0cbf8818be171dd8dafdb0c7d275a562bf919d1c935e03aab6f23737579564c1f37e08d9e96cd4dd5dc7134e315052be",
+                    "SHA3-256": "02ce2dd4deb6c2438aa85196a398b06c2bfe70addcfbb3270d5091b59ab9f933",
+                    "SHA3-512": "75765c1abb1f00aeaa25b880c32b6539fe7cef983942e7b32183f38bc76ed403bba0108b1921604102719617b20f6b620b6bde657e91cfd16f07be6599838870"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2d24c1b7-7539-437a-b67a-50e89d0e5e9a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8fbdbc8c-3eb1-4124-8054-fa324b728701",
+        "created_by_ref": "identity--7944a005-bf67-4b5a-a5c3-edce4e4c7d98",
+        "created": "2021-06-29T12:46:35.400655Z",
+        "modified": "2021-08-14T01:08:21.958488Z",
+        "relationship_type": "investigates",
+        "source_ref": "course-of-action--10b2fa89-272b-418e-8830-668968394480",
+        "target_ref": "indicator--fa81e754-5edc-4612-9c0a-0cef511a2571",
+        "start_time": "2022-07-27T09:27:07.178157Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "response",
+                "description": "Agency quickly according card surface.",
+                "url": "https://white-smith.biz/",
+                "external_id": "QAbPSjreeWtQ"
+            },
+            {
+                "source_name": "need",
+                "description": "Million soon sit family special series.",
+                "external_id": "DlZCPgpFYSFs"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2d24c1b7-7539-437a-b67a-50e89d0e5e9a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7944a005-bf67-4b5a-a5c3-edce4e4c7d98",
+        "created_by_ref": "identity--7944a005-bf67-4b5a-a5c3-edce4e4c7d98",
+        "created": "2022-04-28T15:21:14.910309Z",
+        "modified": "2022-07-31T18:45:29.981174Z",
+        "name": "Nelson-Edwards",
+        "description": "Innovative contextually-based orchestration",
+        "roles": [
+            "after"
+        ],
+        "identity_class": "organization",
+        "contact_information": "340 Elizabeth Road\nMarystad, WA 25052",
+        "confidence": 9,
+        "external_references": [
+            {
+                "source_name": "senior",
+                "description": "Guess could big action trial memory land.",
+                "url": "https://www.thomas-booker.biz/",
+                "hashes": {
+                    "MD5": "c843cf5365e1aea63ba1cb67495725f4",
+                    "SHA-1": "b11e7dfca149fe5fe2a39600e6f61efff69dd917",
+                    "SHA-256": "960aef5ca2820605c1cf53e605ee7e67bd4d9395d1fd249c228c6c0b083166f0",
+                    "SHA-512": "0ed24bd377212495d6f38226dd2eb912a0a670ef7adc593756e73768bd4686783628d331529c7dbd2a3f8ad2ad0c9ab42d973bb571ed8ca215a1ac9a3ec4d3e6",
+                    "SHA3-256": "eb30a048dd8edc3a24a7ec1569447809168a5204ee3cea6c794347275dcb72ed",
+                    "SHA3-512": "e325ad2660902e4c9ace8edf957c119b9162ea2d04ec4af3f9899c14c5cf61d25d431b9eef63ab1386012c7e0e4aa2edf6b109dc543e041c0ac2a15232fbed87"
+                },
+                "external_id": "EnvwHPEafuav"
+            },
+            {
+                "source_name": "experience",
+                "description": "Congress month act read black music.",
+                "hashes": {
+                    "MD5": "d9ae72f6af41538e5a377aea6e8445b8",
+                    "SHA-1": "060233813dc55a23c76458e34808325221820cf5",
+                    "SHA-256": "a9656b1a93f1ab3a640a8960a5ccdad97ba0f830d048f510fb7cb0df3ec332f3",
+                    "SHA-512": "fcae54d3441f755cc475a35e5b99e61526493e69460bf7e0e0a5706845de3dfb2195237173efd64df0f7388488d14d933ef035a82d2e89cd6a21be12339b6ea8",
+                    "SHA3-256": "acbc40a8a29a6bab05c391285d54cb5f49ee4ff3297bb16417a5626176358e17",
+                    "SHA3-512": "35bd9e07e5580ee2ad9fb2c178e21fb4df8d06febcda8be57bb7366c5d86d2ca79bf93f9b317e0debc8437cc1d32e5843c4d2d0ff5adeba347aba9ea7d390157"
+                },
+                "external_id": "lnDloEEpxkicQDAM"
+            },
+            {
+                "source_name": "gas",
+                "external_id": "PGfruqJZUgSoOFCAYL"
+            },
+            {
+                "source_name": "sometimes",
+                "url": "http://miller-camacho.com/",
+                "hashes": {
+                    "MD5": "913d259b3cd8669bfa3b6295a222e4ef",
+                    "SHA-1": "a5b697fb40b3c7968d81567b04342cbd9673540b",
+                    "SHA-256": "3cdf5d3d633c3c9b6762bc39539263617864e3ce2c0aebb988a1829e5ff69098",
+                    "SHA-512": "863a5f7bdd079e25976aa9eb1fc414d6f1f5e4b703e2445508fcb675fed7ee3ebc35448d040361551bb7ffd473e483afa1370b6ed2897dbbff7177b5a8eeda6f",
+                    "SHA3-256": "1292cd08c62ae64579881c0eeb135a0e631586714a095e94bd73a4bfbd19e46b",
+                    "SHA3-512": "05fc5cfaaa63b69132c3b2128da20aaaa58f951504dcbea040191f6e002032cde24b50367683b22817c7e0a4f3dee0dc5e435fe4de70609a234531abf7003242"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2d24c1b7-7539-437a-b67a-50e89d0e5e9a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2d24c1b7-7539-437a-b67a-50e89d0e5e9a",
+        "created": "2021-08-14T01:08:21.956169Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c37eda22-f302-4b2e-bf63-7f8ea35d72b0",
+                "name": "Event really first our country somebody",
+                "create_date_time": "2021-08-14T01:08:08.426408Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.426228Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

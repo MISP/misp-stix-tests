@@ -1,0 +1,116 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--dd0b9734-fff1-4fba-a7ba-65a550ea7064",
+        "created_by_ref": "identity--c73fb20a-d18a-42e9-9e95-589fa9066d50",
+        "created": "2021-02-04T09:56:57.809327Z",
+        "modified": "2021-08-14T01:08:13.801649Z",
+        "name": "situation",
+        "first_seen": "2020-09-07T15:08:25.822644Z",
+        "last_seen": "2021-06-20T00:25:56.116051Z",
+        "labels": [
+            "network",
+            "management",
+            "likely",
+            "international",
+            "buy",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "begin",
+                "description": "Later local total option north station choose station.",
+                "external_id": "ohmZcmgMXJCidDs"
+            },
+            {
+                "source_name": "science",
+                "url": "http://www.norman-turner.com/",
+                "external_id": "BfnOXf"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--a1c10871-13a0-4bc4-ba9e-1571a92410a7",
+        "created_by_ref": "identity--c73fb20a-d18a-42e9-9e95-589fa9066d50",
+        "created": "2022-02-18T15:53:07.735527Z",
+        "modified": "2022-07-09T13:01:50.032508Z",
+        "name": "these",
+        "threat_actor_types": [
+            "unknown",
+            "activist",
+            "crime-syndicate",
+            "competitor"
+        ],
+        "first_seen": "2022-06-04T08:34:23.331482Z",
+        "roles": [
+            "independent",
+            "director"
+        ],
+        "goals": [
+            "specific",
+            "operation"
+        ],
+        "sophistication": "none",
+        "labels": [
+            "get",
+            "information",
+            "pfte-batch-1"
+        ],
+        "confidence": 15,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e9665c3a-9fe3-4e6d-b8e1-6b3fee203355",
+        "created_by_ref": "identity--c73fb20a-d18a-42e9-9e95-589fa9066d50",
+        "created": "2020-10-25T13:09:44.707952Z",
+        "modified": "2021-08-14T01:08:13.802266Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "campaign--dd0b9734-fff1-4fba-a7ba-65a550ea7064",
+        "target_ref": "threat-actor--a1c10871-13a0-4bc4-ba9e-1571a92410a7",
+        "stop_time": "2021-02-22T04:50:08.928629Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 67,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c73fb20a-d18a-42e9-9e95-589fa9066d50",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-12-22T21:54:17.372096Z",
+        "modified": "2022-10-06T15:50:13.666698Z",
+        "name": "BodyDealRock",
+        "roles": [
+            "whether",
+            "positive",
+            "many",
+            "friend"
+        ],
+        "identity_class": "group",
+        "contact_information": "432 Moreno Manors Suite 336\nJasontown, UT 19743",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

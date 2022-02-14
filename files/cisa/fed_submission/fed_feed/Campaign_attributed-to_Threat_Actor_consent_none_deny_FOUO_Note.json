@@ -1,0 +1,258 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--e3532390-fbf4-4a20-bbd2-739e90e38db3",
+        "created_by_ref": "identity--70eeb4ea-4bec-4aff-b9aa-28f07f92b465",
+        "created": "2022-01-12T17:44:45.56677Z",
+        "modified": "2022-07-20T06:23:42.540066Z",
+        "name": "choose",
+        "description": "Party respond leg science.",
+        "aliases": [
+            "clearly",
+            "deal",
+            "play"
+        ],
+        "last_seen": "2020-12-25T18:34:30.340313Z",
+        "object_marking_refs": [
+            "marking-definition--c68e8928-9d9b-4d82-8141-704af29944e4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--c988d6d4-61ee-4696-8376-b602a931a905",
+        "created_by_ref": "identity--70eeb4ea-4bec-4aff-b9aa-28f07f92b465",
+        "created": "2021-08-27T05:47:44.646833Z",
+        "modified": "2022-05-15T17:12:55.058453Z",
+        "name": "trip",
+        "description": "Beat have fire husband change.",
+        "last_seen": "2020-11-10T14:18:49.030127Z",
+        "sophistication": "expert",
+        "resource_level": "organization",
+        "primary_motivation": "accidental",
+        "personal_motivations": [
+            "accidental",
+            "organizational-gain",
+            "coercion",
+            "revenge",
+            "dominance"
+        ],
+        "labels": [
+            "budget",
+            "half",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--c68e8928-9d9b-4d82-8141-704af29944e4"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--45415d9a-712e-4181-8736-bf3605935022",
+        "created_by_ref": "identity--70eeb4ea-4bec-4aff-b9aa-28f07f92b465",
+        "created": "2022-02-19T13:12:36.070172Z",
+        "modified": "2022-05-11T16:25:23.826031Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "campaign--e3532390-fbf4-4a20-bbd2-739e90e38db3",
+        "target_ref": "threat-actor--c988d6d4-61ee-4696-8376-b602a931a905",
+        "stop_time": "2021-09-12T16:02:26.313497Z",
+        "labels": [
+            "pressure",
+            "which",
+            "draw",
+            "you",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c68e8928-9d9b-4d82-8141-704af29944e4"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--8b3338fb-2a4b-4a92-9dbf-f9ce57c442c6",
+        "created_by_ref": "identity--70eeb4ea-4bec-4aff-b9aa-28f07f92b465",
+        "created": "2022-03-24T14:50:46.323495Z",
+        "modified": "2022-06-27T12:49:52.000031Z",
+        "abstract": "Once ask apply nature. Effect bed continue public area hair prepare medical. Compare social parent so including often.",
+        "content": "Two movie dog director town set again.",
+        "object_refs": [
+            "campaign--e3532390-fbf4-4a20-bbd2-739e90e38db3",
+            "threat-actor--c988d6d4-61ee-4696-8376-b602a931a905",
+            "relationship--45415d9a-712e-4181-8736-bf3605935022"
+        ],
+        "confidence": 89,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "conference",
+                "hashes": {
+                    "MD5": "5b906478618ce2e89e77671c3c4709d1",
+                    "SHA-1": "dc85410386e26f6bd3e2e44080b7776ab39b3f8e",
+                    "SHA-256": "34e81ccbef7ec2b26328f896200cce226a4d73168c40d9bb5d004780c359944c",
+                    "SHA-512": "253ab0af0625f67ca75787698bb66f24128cf8c47341318885cb71ae8804b40f11f9f06f951e0bfa4a27d43e335ee2f3a905ff3b41177e082511d185dfec6e64",
+                    "SHA3-256": "864677359e9de2c6f755bd5a226ea32c2ab245b232dd86f9f71023dbef85b2e6",
+                    "SHA3-512": "4ae0d602c45c5e80ef727900914cfa3ae8953cc43bfe73ea33790246eb569bc5968d55a081d20e96be22742c4644f718d95cbaf58d6af7a0744c2709ff99554d"
+                },
+                "external_id": "nCQtWls"
+            },
+            {
+                "source_name": "chair",
+                "url": "https://manning.net/"
+            },
+            {
+                "source_name": "citizen",
+                "url": "https://jenkins.com/",
+                "external_id": "lKDLvmCWrvAE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c68e8928-9d9b-4d82-8141-704af29944e4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--70eeb4ea-4bec-4aff-b9aa-28f07f92b465",
+        "created_by_ref": "identity--70eeb4ea-4bec-4aff-b9aa-28f07f92b465",
+        "created": "2021-04-11T15:35:35.865155Z",
+        "modified": "2021-08-14T01:08:14.039569Z",
+        "name": "Beltran-Duncan",
+        "description": "Up-sized system-worthy circuit",
+        "roles": [
+            "my",
+            "local",
+            "end"
+        ],
+        "identity_class": "group",
+        "sectors": [
+            "energy",
+            "retail",
+            "financial-services",
+            "automotive",
+            "dams"
+        ],
+        "contact_information": "502 Deborah Summit Apt. 574\nDustinview, OK 57843",
+        "external_references": [
+            {
+                "source_name": "occur",
+                "description": "After range decide rise degree.",
+                "external_id": "ubrbswxzgTJmlr"
+            },
+            {
+                "source_name": "dark",
+                "description": "Ability learn point surface simple.",
+                "url": "https://nixon.info/",
+                "hashes": {
+                    "MD5": "3ae7fa0fd607551b8ce8ab3aec48af03",
+                    "SHA-1": "64cbc230ee5b36c1e498ea7c4cdada3511cc6983",
+                    "SHA-256": "c6a6cbe09628abef010b5fb51bea8f629345000dfeb54b409cb70edd6b68cac2",
+                    "SHA-512": "adb00752165782865eb4dc7536cd310111c3dcda6f3b95c55970161c722cc0f69d90f03884c53cc110ae04d021003fc994b2a306130d8517c7b7c1acbe044b07",
+                    "SHA3-256": "5941f1bb0638097bf2bfe801bfed7d79dd1c9a264d9ed27be8c3eda96ac21713",
+                    "SHA3-512": "0d0efcf99697aa2fad9d89de7012e63a20591787bf040ac8efe2608111fd2c09b54c0060e8993c7f6c5583185f62cd8a8d483e869f65afc07afb33d601aeddf6"
+                },
+                "external_id": "aEmdmWRHdKfo"
+            },
+            {
+                "source_name": "kitchen",
+                "description": "Weight Democrat police perhaps end that issue.",
+                "url": "https://little.com/"
+            },
+            {
+                "source_name": "positive",
+                "description": "Culture only sister state agree join.",
+                "hashes": {
+                    "MD5": "18b309e1de49d7fe744976134f636333",
+                    "SHA-1": "b7b40aeee05c3143f10f44023340907050363329",
+                    "SHA-256": "5671e20ebc4959b4b3a2258507e0c975ffaeca2a6ea6ee54a9b56969b470f300",
+                    "SHA-512": "fcba83b4ec3cf1acf1d2f7bac2cdbf9b42dd27d06c241b4af5d45e32c1ce3e554993bf4b2dc26c0d14de43dce5a2b716aa6906d4469f4ded33674e4d752c65cd",
+                    "SHA3-256": "b5ca13ee22cd0fefcad36327131d27306f2631737fa1669fa5e12629922bc513",
+                    "SHA3-512": "4458a2a17a1853cc03df4c8459e907925759ff3abc41cf3d8d49fb9bd6a76656e71266666ef4bae59e63af1c930abdbd224622ca7d6f00879ff2d571f537c8ec"
+                },
+                "external_id": "JKuRgRmFAni"
+            },
+            {
+                "source_name": "first",
+                "url": "http://palmer-wiley.com/",
+                "hashes": {
+                    "MD5": "bd9e176997103a10124720b2a3ea90ec",
+                    "SHA-1": "2fd5a6c020d494dcd407e9cf15185b8aa943681c",
+                    "SHA-256": "d8704a953825273f19a20230e86025ae3ecdc830de105e891f26c6785e31b33a",
+                    "SHA-512": "38f9d75718078c68d40af412abce7986759277c62f6082bdc635eb9a581c8871617f03df212b88a22df7dbf8edb9ee680a6d30a5d61cee496f100f4768bac786",
+                    "SHA3-256": "22058e8f9f124ddff2fa641d9ac153e752b450edb39d9098ce46dcebe69af4b4",
+                    "SHA3-512": "01d13013fd1adbea92cde4540b1afcac2cd20af59ca252bead7ad5c0673f9b51c51190446c18dfe70e777cfed011cbcb0f3e20d85b902166d89901019fe3c4e0"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c68e8928-9d9b-4d82-8141-704af29944e4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--c68e8928-9d9b-4d82-8141-704af29944e4",
+        "created": "2021-08-14T01:08:14.037176Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1946efc8-a2e0-46a4-bb9a-691cbe16f041",
+                "name": "Home politics letter yes consider",
+                "create_date_time": "2021-08-14T01:08:08.424111Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

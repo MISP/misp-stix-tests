@@ -1,0 +1,163 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--927b665a-3a20-495b-8979-b40227814f57",
+        "created_by_ref": "identity--408de436-2af5-4449-bbbf-121ead5b7588",
+        "created": "2020-12-06T04:07:49.686755Z",
+        "modified": "2021-08-15T05:21:52.648813Z",
+        "name": "such",
+        "aliases": [
+            "oil",
+            "newspaper",
+            "left"
+        ],
+        "first_seen": "2021-01-25T13:11:06.440385Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "commercial",
+                "description": "Dream conference star recent rather central.",
+                "external_id": "XMgJbBFFmDq"
+            },
+            {
+                "source_name": "wish",
+                "description": "Option mother she despite late attack common single.",
+                "url": "http://www.hill-hoffman.com/"
+            },
+            {
+                "source_name": "soldier",
+                "description": "Look paper sort southern house.",
+                "url": "https://campbell.com/",
+                "hashes": {
+                    "MD5": "69e03f33f92fbd54830d4d41049f04f2",
+                    "SHA-1": "95ee10cf0f2f24fd9e62aca12b0c1f48f2f9a912",
+                    "SHA-256": "89f7693c53686031e6c2523accf7c3cd200233f8318f2eb865fac680a9da6771",
+                    "SHA-512": "bed8f73e7b2a5e24b74e16dccae128a64c77e622b707c81f383c9265032a583db8de899e1f7428cfd529329711ed2224aadd2154e8791b71b9adf9f8386c2f39",
+                    "SHA3-256": "f81c5b60829cb167ffb7d94778fde860f4090e315085b3f3b1d8959b72438ba6",
+                    "SHA3-512": "256734c31cb7a1a54e4cf7f8b62f5ba499e2b1653ca5b31608e4abf556539474488ea454b8bcfe2dc45ace4ba4f0c8fda8183ec53a420727e1e621084d521afa"
+                }
+            },
+            {
+                "source_name": "see",
+                "url": "http://acevedo.com/",
+                "external_id": "hsEMnixrUbBRKYgN"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0a0b032d-011c-4a8f-8a83-aec9f197e3a5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--aa390192-a642-446e-b1d8-1a04d6a4d698",
+        "created_by_ref": "identity--408de436-2af5-4449-bbbf-121ead5b7588",
+        "created": "2021-08-13T17:31:27.650908Z",
+        "modified": "2021-08-28T00:30:39.87058Z",
+        "first_observed": "2020-09-24T04:35:22.203004Z",
+        "last_observed": "2021-02-12T13:22:35.005715Z",
+        "number_observed": 469181828,
+        "objects": {
+            "process--7afd7aa9-37e3-4531-84a6-b317d24dc6b0": {
+                "type": "process",
+                "spec_version": "2.1",
+                "id": "process--7afd7aa9-37e3-4531-84a6-b317d24dc6b0",
+                "pid": 18021,
+                "created_time": "2021-10-27T08:52:24.768755Z"
+            }
+        },
+        "object_marking_refs": [
+            "marking-definition--0a0b032d-011c-4a8f-8a83-aec9f197e3a5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--34c4f995-0a89-4147-bfbc-7262dd15c879",
+        "created_by_ref": "identity--408de436-2af5-4449-bbbf-121ead5b7588",
+        "created": "2020-09-12T16:04:55.926096Z",
+        "modified": "2021-08-14T01:08:44.363742Z",
+        "relationship_type": "consists-of",
+        "source_ref": "infrastructure--927b665a-3a20-495b-8979-b40227814f57",
+        "target_ref": "observed-data--aa390192-a642-446e-b1d8-1a04d6a4d698",
+        "labels": [
+            "study",
+            "item",
+            "pfte-batch-1"
+        ],
+        "confidence": 37,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--0a0b032d-011c-4a8f-8a83-aec9f197e3a5"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--408de436-2af5-4449-bbbf-121ead5b7588",
+        "created_by_ref": "identity--408de436-2af5-4449-bbbf-121ead5b7588",
+        "created": "2021-12-02T10:25:50.459608Z",
+        "modified": "2022-10-19T18:06:50.499579Z",
+        "name": "Chung Group",
+        "description": "Enterprise-wide client-server collaboration",
+        "identity_class": "group",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "specific",
+                "description": "Body shoulder choice point guy shoulder."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0a0b032d-011c-4a8f-8a83-aec9f197e3a5"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--0a0b032d-011c-4a8f-8a83-aec9f197e3a5",
+        "created": "2021-08-14T01:08:44.361803Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3b921193-36b9-467a-b549-f06fd7a0147e",
+                "name": "Artist despite travel Mrs long fish",
+                "create_date_time": "2021-08-14T01:08:08.430789Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.430622Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

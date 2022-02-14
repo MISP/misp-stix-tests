@@ -1,0 +1,178 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--0f154a79-1f05-4a11-abac-a04019e42d3f",
+        "created_by_ref": "identity--e52f8ac5-bade-435a-99c9-66272850e571",
+        "created": "2021-01-03T13:39:42.099949Z",
+        "modified": "2021-08-14T01:08:30.043599Z",
+        "description": "Possible report rock.",
+        "indicator_types": [
+            "malicious-activity",
+            "anonymization"
+        ],
+        "pattern": "[(user-account:credential < 'avG$#cS9!8') AND user-account:display_name > 'Alexandra Nguyen' AND user-account:user_id >= 'mirandakevin'] AND (([directory:mtime = t'2020-12-29T06:00:54.518351Z']) FOLLOWEDBY [process:defanged NOT = false])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-09-16T12:44:34.483802Z",
+        "valid_until": "2021-03-12T07:10:35.20809Z",
+        "labels": [
+            "trade",
+            "several",
+            "not",
+            "history",
+            "control",
+            "pfte-batch-1"
+        ],
+        "confidence": 17,
+        "external_references": [
+            {
+                "source_name": "peace",
+                "url": "https://ramsey-cox.com/",
+                "external_id": "GouuFzuDB"
+            },
+            {
+                "source_name": "I",
+                "description": "Government coach mother human center.",
+                "url": "https://bowen.com/",
+                "hashes": {
+                    "MD5": "45bf7e5376d3a3e8f57c60d5716c1309",
+                    "SHA-1": "0c8b54e16a5f6f46891fa151b610ce3270371aa1",
+                    "SHA-256": "11344552acbc23a383a4c5207a58bcadc8b4df4a0a78d02c9466415525a188cc",
+                    "SHA-512": "4a64a88d2def0ae1e100e2c131df85c2d33d239597ba800be650d7bbde2e7e97500df748e042abd4ba34c024b4f357d00738605fe377f40d3fd80414f641a997",
+                    "SHA3-256": "2f7612308562b5c0e5a439ec47a099c1e50553a60b00e5f8ceda063f67aac181",
+                    "SHA3-512": "0fa13428d1aa79b44969c533419a03f1f1f3b85723230193280a2b793183771b437559871df2a22de67a4571f3361017b598ce04979341af76c5b491ab6b06dd"
+                }
+            },
+            {
+                "source_name": "commercial",
+                "url": "https://johnson.com/",
+                "hashes": {
+                    "MD5": "9c4e55ab5763620767e99be84f42e100",
+                    "SHA-1": "05cbd5e8d8d986ab51b29ee3d2df0ddb9a967c1e",
+                    "SHA-256": "48c5a5dc3501efa6d43e1aa354f6adf43ef185d51e7237ae26a38e5d30569376",
+                    "SHA-512": "dda85847070c6deb67fea6e07671a6cbb1cdf2abac35590b8d2f4e16f8b9f37e14e388981757641b2c042e2ec86328c0e61e7bdaf6e88edcf7746e46ea91f9d3",
+                    "SHA3-256": "06253e6c3ec3827a4abd20561fa7355046b97514f1ef0e9e64e04661fd95c59e",
+                    "SHA3-512": "08a46ae0ac2ceee5e30383c0577ed361e5a8e9be669d81306cba29eb47195bb704829c5d4fdf1f289eef5e62f1b272c25acb9bd2c66af8a93a42461d02e80eee"
+                },
+                "external_id": "CULGBvTvEelCeWkQIqE"
+            },
+            {
+                "source_name": "office",
+                "description": "Sing doctor human.",
+                "url": "https://wilkerson.org/",
+                "external_id": "iQMGOQyzJruPvVoXlJQy"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--41a17b56-fc52-49bf-ac5c-15d332e95287",
+        "created_by_ref": "identity--e52f8ac5-bade-435a-99c9-66272850e571",
+        "created": "2021-02-11T08:11:38.891628Z",
+        "modified": "2021-08-14T01:08:30.046819Z",
+        "name": "north",
+        "description": "Long debate story appear action itself that.",
+        "aliases": [
+            "name",
+            "again"
+        ],
+        "labels": [
+            "ok",
+            "agency",
+            "too",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "others",
+                "url": "https://www.stephens.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4e96bf67-0523-44ca-ba9a-e6f0beaa8c44",
+        "created_by_ref": "identity--e52f8ac5-bade-435a-99c9-66272850e571",
+        "created": "2021-06-30T02:47:21.509752Z",
+        "modified": "2022-03-30T21:22:05.240423Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--0f154a79-1f05-4a11-abac-a04019e42d3f",
+        "target_ref": "infrastructure--41a17b56-fc52-49bf-ac5c-15d332e95287",
+        "start_time": "2020-12-15T02:17:23.189188Z",
+        "stop_time": "2021-10-14T09:11:33.99694Z",
+        "labels": [
+            "hour",
+            "sit",
+            "game",
+            "statement",
+            "pfte-batch-1"
+        ],
+        "confidence": 63,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e52f8ac5-bade-435a-99c9-66272850e571",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-03-24T01:34:01.472938Z",
+        "modified": "2021-10-19T19:41:58.304125Z",
+        "name": "Smith and Sons",
+        "description": "Reactive needs-based application",
+        "roles": [
+            "ground",
+            "it"
+        ],
+        "identity_class": "organization",
+        "sectors": [
+            "construction"
+        ],
+        "contact_information": "9012 Hebert Ports Suite 788\nJacksonton, WA 40918",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "different",
+                "description": "Newspaper foreign discussion.",
+                "hashes": {
+                    "MD5": "9091f669e1c8b2bb6ce5804193a844f0",
+                    "SHA-1": "a4f09eef4559162c61b49aa7b69885e920aa9e63",
+                    "SHA-256": "8e481ecbf70bef7cf0f6584be5d25de93ee84b5f5ad7f9fd947e27b963e44f6b",
+                    "SHA-512": "f31392888e13ddbe1585ff5d6314fecaf237aef11b543dd3a9c133f4f2302bb70e19cb3517ba3e8b664c63b23042544c52a79cd00d8e57c515b8615f896823a4",
+                    "SHA3-256": "d41f5d8e3b3858a6eed05ad3c19546226556b825dfd5abeb198c0fd889e7b2cf",
+                    "SHA3-512": "de1d442f02f5a31006d0efddbe6381c1485c89a330cd145845cae686e85f52461e68684b37e96e8ca0acf8c695f66a21f39ca49cc77a9e477bffd80efa0c36b4"
+                }
+            },
+            {
+                "source_name": "reality",
+                "description": "Stand computer many another him study thing.",
+                "url": "http://www.carr.com/",
+                "external_id": "nYIdVjjNIum"
+            },
+            {
+                "source_name": "side",
+                "description": "Protect surface change human.",
+                "url": "https://www.rivas-walker.com/",
+                "external_id": "VdzJGfYIVvg"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

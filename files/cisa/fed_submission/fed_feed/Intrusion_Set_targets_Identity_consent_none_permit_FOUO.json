@@ -1,0 +1,173 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--acef8ce2-4e7c-442f-b84b-c7a2e55b8134",
+        "created_by_ref": "identity--0c85888c-69fc-4751-b897-f255b276e28e",
+        "created": "2022-07-27T00:55:27.038298Z",
+        "modified": "2022-10-21T15:14:22.906931Z",
+        "name": "necessary",
+        "description": "Suffer news future up.",
+        "aliases": [
+            "subject",
+            "agreement"
+        ],
+        "secondary_motivations": [
+            "notoriety",
+            "personal-gain",
+            "personal-gain"
+        ],
+        "confidence": 12,
+        "object_marking_refs": [
+            "marking-definition--3118a089-1467-45a5-b35a-40f8ecccf2aa"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--04a32805-15b2-4eb6-a453-f0fe1975ef0b",
+        "created_by_ref": "identity--0c85888c-69fc-4751-b897-f255b276e28e",
+        "created": "2021-03-23T06:03:05.206325Z",
+        "modified": "2021-08-14T01:08:55.565465Z",
+        "name": "Adkins-Nelson",
+        "roles": [
+            "ago",
+            "woman",
+            "from",
+            "family",
+            "level"
+        ],
+        "identity_class": "organization",
+        "sectors": [
+            "government-regional",
+            "commercial",
+            "water",
+            "technology"
+        ],
+        "contact_information": "632 Rhodes Loop\nHarrisshire, FL 56817",
+        "confidence": 38,
+        "external_references": [
+            {
+                "source_name": "Republican",
+                "url": "https://www.wright.com/",
+                "external_id": "YrBdHKqEVMIkGQbBhXph"
+            },
+            {
+                "source_name": "maintain",
+                "url": "https://www.madden.com/",
+                "external_id": "HtpQXE"
+            },
+            {
+                "source_name": "finish",
+                "description": "Couple point fear seek challenge.",
+                "url": "https://www.luna.com/"
+            },
+            {
+                "source_name": "community",
+                "description": "Set fish town as mouth population.",
+                "url": "http://www.mills.com/",
+                "external_id": "gCaEKjJGxDCqMjqQh"
+            },
+            {
+                "source_name": "interesting",
+                "description": "Particularly majority north look away letter.",
+                "external_id": "fPYGYnJNERM"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--3118a089-1467-45a5-b35a-40f8ecccf2aa"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--cf032125-97c4-4eed-b9f6-dd2163d7fd1f",
+        "created_by_ref": "identity--0c85888c-69fc-4751-b897-f255b276e28e",
+        "created": "2021-06-01T04:25:46.744043Z",
+        "modified": "2022-01-28T15:14:26.796292Z",
+        "relationship_type": "targets",
+        "description": "Who front debate no cut organization level drop. Fly ten must analysis some top sound.",
+        "source_ref": "intrusion-set--acef8ce2-4e7c-442f-b84b-c7a2e55b8134",
+        "target_ref": "identity--04a32805-15b2-4eb6-a453-f0fe1975ef0b",
+        "stop_time": "2022-06-22T18:00:54.457368Z",
+        "labels": [
+            "thought",
+            "lawyer",
+            "support",
+            "pfte-batch-1"
+        ],
+        "confidence": 98,
+        "object_marking_refs": [
+            "marking-definition--3118a089-1467-45a5-b35a-40f8ecccf2aa"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0c85888c-69fc-4751-b897-f255b276e28e",
+        "created_by_ref": "identity--0c85888c-69fc-4751-b897-f255b276e28e",
+        "created": "2022-02-04T19:25:04.565553Z",
+        "modified": "2022-03-21T13:09:01.904136Z",
+        "name": "Jones, Moore and Tucker",
+        "roles": [
+            "buy",
+            "eat",
+            "soon",
+            "imagine",
+            "assume"
+        ],
+        "sectors": [
+            "utilities",
+            "government-public-services",
+            "financial-services",
+            "communications"
+        ],
+        "object_marking_refs": [
+            "marking-definition--3118a089-1467-45a5-b35a-40f8ecccf2aa"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--3118a089-1467-45a5-b35a-40f8ecccf2aa",
+        "created": "2021-08-14T01:08:55.564327Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-54b25f01-6af2-45fd-9467-12811cc2be8c",
+                "name": "Help hit around teach",
+                "create_date_time": "2021-08-14T01:08:08.425022Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

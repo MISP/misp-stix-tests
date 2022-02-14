@@ -1,0 +1,164 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--515c91fc-3409-48ec-8334-ff755c70a2f9",
+        "created_by_ref": "identity--372ce503-131a-4398-956e-b830b35a6589",
+        "created": "2020-09-05T22:29:48.386317Z",
+        "modified": "2021-08-14T01:09:28.814241Z",
+        "name": "partner",
+        "aliases": [
+            "else"
+        ],
+        "goals": [
+            "message"
+        ],
+        "sophistication": "intermediate",
+        "personal_motivations": [
+            "notoriety",
+            "dominance",
+            "ideology"
+        ],
+        "labels": [
+            "citizen",
+            "ground",
+            "risk",
+            "teach",
+            "thing",
+            "pfte-batch-1"
+        ],
+        "confidence": 2,
+        "object_marking_refs": [
+            "marking-definition--dffd427a-6a8a-41d7-876d-eaf3b870523b"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--dd9652b2-f895-406c-8eb3-715c4d7ecdc8",
+        "created_by_ref": "identity--372ce503-131a-4398-956e-b830b35a6589",
+        "created": "2021-12-05T06:33:34.31875Z",
+        "modified": "2022-07-24T04:54:00.886807Z",
+        "name": "Tate PLC",
+        "roles": [
+            "off"
+        ],
+        "confidence": 20,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--dffd427a-6a8a-41d7-876d-eaf3b870523b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a2e561f7-e0ef-4c75-87bc-232d0aadc700",
+        "created_by_ref": "identity--372ce503-131a-4398-956e-b830b35a6589",
+        "created": "2021-06-28T06:13:09.801221Z",
+        "modified": "2021-11-12T21:05:15.878227Z",
+        "relationship_type": "impersonates",
+        "source_ref": "threat-actor--515c91fc-3409-48ec-8334-ff755c70a2f9",
+        "target_ref": "identity--dd9652b2-f895-406c-8eb3-715c4d7ecdc8",
+        "stop_time": "2020-11-15T10:15:27.668191Z",
+        "confidence": 50,
+        "external_references": [
+            {
+                "source_name": "bring",
+                "url": "https://www.bridges-dougherty.com/",
+                "external_id": "XMFaO"
+            },
+            {
+                "source_name": "young",
+                "description": "Question now head expert success view.",
+                "url": "https://www.smith.com/",
+                "hashes": {
+                    "MD5": "8933abdc017f11c85f2b23f1565e73bb",
+                    "SHA-1": "f27042c46ffb16a3f784598d334b476030be2ba5",
+                    "SHA-256": "68c18747c95ac773a959abff1ca584c321115628bc6928ad94edd8dc4565febc",
+                    "SHA-512": "b259d286b039fed79241104b6f0c95f158949426dff59047f918523eaa72fa20bb1fec974ff1e57dea44da50f4621bbe679e6e1d27d26b05f5acaafc135ae104",
+                    "SHA3-256": "b4f4f47cc571ebd9fafc7ce0dfc352380f0cb758ac2280e614772ce881002066",
+                    "SHA3-512": "a94b582e1ab65a6f938591d4ba55f0c8591e6df0f7779b742a8dfb0110d80f26e92b3c10cab491527a2355a5e71c13f4ac11b0c9b7b567b061b19086f7faaf08"
+                },
+                "external_id": "SVotFgyD"
+            },
+            {
+                "source_name": "call",
+                "description": "Task read price inside them property type yes.",
+                "url": "http://scott.org/",
+                "external_id": "CjyCZfxKZCDtF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--dffd427a-6a8a-41d7-876d-eaf3b870523b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--372ce503-131a-4398-956e-b830b35a6589",
+        "created_by_ref": "identity--372ce503-131a-4398-956e-b830b35a6589",
+        "created": "2020-09-13T15:50:53.65238Z",
+        "modified": "2021-08-25T20:54:18.565027Z",
+        "name": "Hawkins LLC",
+        "description": "Open-architected directional ability",
+        "roles": [
+            "station",
+            "perhaps",
+            "stage"
+        ],
+        "identity_class": "unknown",
+        "contact_information": "746 Kevin Meadows Apt. 001\nNew Gary, WA 77558",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 44,
+        "object_marking_refs": [
+            "marking-definition--dffd427a-6a8a-41d7-876d-eaf3b870523b"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--dffd427a-6a8a-41d7-876d-eaf3b870523b",
+        "created": "2021-08-14T01:09:28.813698Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-716f5d31-4760-4ed1-b8df-6b76bb19bd34",
+                "name": "Wife plan yourself training yet rich",
+                "create_date_time": "2021-08-14T01:08:08.43336Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.433196Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,194 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--7a342df5-31bf-434c-8dd8-0a9e56cdb2f1",
+        "created_by_ref": "identity--2f0e6dca-63ba-4c3a-be04-239f197ad1da",
+        "created": "2021-09-10T16:38:05.875895Z",
+        "modified": "2021-10-02T07:39:08.056326Z",
+        "pattern": "[x509-certificate:defanged NOT = false AND (x509-certificate:validity_not_before > t'2020-12-26T09:29:56.607391Z')] FOLLOWEDBY [mac-addr:defanged NOT = false] FOLLOWEDBY ([x509-certificate:defanged NOT = false])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-08-23T10:09:34.46248Z",
+        "valid_until": "2022-05-31T10:48:27.063495Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "eyTrIbx",
+                "phase_name": "VbmlsrXqwpmgvntANP"
+            }
+        ],
+        "labels": [
+            "sure",
+            "pfte-batch-1"
+        ],
+        "confidence": 41,
+        "object_marking_refs": [
+            "marking-definition--5a013599-86ef-4bdb-89da-bc045cd0f084"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--12ef777e-bc74-40d9-a2a7-4e84257e9f9f",
+        "created_by_ref": "identity--2f0e6dca-63ba-4c3a-be04-239f197ad1da",
+        "created": "2021-03-23T13:10:18.990187Z",
+        "modified": "2021-12-01T22:02:38.941023Z",
+        "name": "son",
+        "description": "Lay hold image personal.",
+        "last_seen": "2021-05-20T18:19:26.863264Z",
+        "primary_motivation": "accidental",
+        "secondary_motivations": [
+            "personal-satisfaction",
+            "personal-satisfaction",
+            "coercion",
+            "coercion"
+        ],
+        "labels": [
+            "require",
+            "rock",
+            "hand",
+            "pfte-batch-1"
+        ],
+        "confidence": 62,
+        "object_marking_refs": [
+            "marking-definition--5a013599-86ef-4bdb-89da-bc045cd0f084"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3ff7ed23-1b3c-4be1-a75c-905ff1754e13",
+        "created_by_ref": "identity--2f0e6dca-63ba-4c3a-be04-239f197ad1da",
+        "created": "2020-08-27T20:24:38.418824Z",
+        "modified": "2021-08-14T01:08:32.088746Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--7a342df5-31bf-434c-8dd8-0a9e56cdb2f1",
+        "target_ref": "intrusion-set--12ef777e-bc74-40d9-a2a7-4e84257e9f9f",
+        "stop_time": "2020-09-09T14:20:01.676503Z",
+        "labels": [
+            "write",
+            "listen",
+            "memory",
+            "out",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--5a013599-86ef-4bdb-89da-bc045cd0f084"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--c2cd8819-3867-4804-8a6f-adf69fa687be",
+        "created_by_ref": "identity--2f0e6dca-63ba-4c3a-be04-239f197ad1da",
+        "created": "2020-09-27T03:00:11.82195Z",
+        "modified": "2021-08-14T01:08:32.089186Z",
+        "explanation": "Skill already under assume. Use race most carry.",
+        "opinion": "strongly-agree",
+        "object_refs": [
+            "indicator--7a342df5-31bf-434c-8dd8-0a9e56cdb2f1",
+            "intrusion-set--12ef777e-bc74-40d9-a2a7-4e84257e9f9f",
+            "relationship--3ff7ed23-1b3c-4be1-a75c-905ff1754e13"
+        ],
+        "confidence": 93,
+        "object_marking_refs": [
+            "marking-definition--5a013599-86ef-4bdb-89da-bc045cd0f084"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2f0e6dca-63ba-4c3a-be04-239f197ad1da",
+        "created_by_ref": "identity--2f0e6dca-63ba-4c3a-be04-239f197ad1da",
+        "created": "2022-03-21T04:57:03.177159Z",
+        "modified": "2023-02-08T06:12:37.895876Z",
+        "name": "Hayes Ltd",
+        "description": "Fully-configurable disintermediate secured line",
+        "identity_class": "class",
+        "contact_information": "199 Shane Village\nBooneton, KS 56999",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--5a013599-86ef-4bdb-89da-bc045cd0f084"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--5a013599-86ef-4bdb-89da-bc045cd0f084",
+        "created": "2021-08-14T01:08:32.084987Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fadf816-7ba3-41ea-a52c-2855b3ec9d5a",
+                "name": "Report official major we center outside throughout population",
+                "create_date_time": "2021-08-14T01:08:08.433803Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

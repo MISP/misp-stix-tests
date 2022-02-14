@@ -1,0 +1,153 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--906142c0-1187-4fa3-8712-c7aea358f7e5",
+        "created_by_ref": "identity--7e814c1b-15b9-4817-8b42-78d18f5279b6",
+        "created": "2019-10-19T06:49:50.591354Z",
+        "modified": "2021-08-14T01:09:41.69975Z",
+        "name": "owner",
+        "infrastructure_types": [
+            "workstation"
+        ],
+        "aliases": [
+            "while",
+            "from",
+            "sure"
+        ],
+        "last_seen": "2021-06-28T16:48:53.639984Z",
+        "object_marking_refs": [
+            "marking-definition--d3944a82-8574-438c-aa9b-b4e3031db324"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "sighting",
+        "spec_version": "2.1",
+        "id": "sighting--051f894d-c185-422b-83cc-bdd18d3c9e0c",
+        "created_by_ref": "identity--7e814c1b-15b9-4817-8b42-78d18f5279b6",
+        "created": "2020-08-15T01:13:16.149459Z",
+        "modified": "2021-08-14T01:09:41.700011Z",
+        "last_seen": "2021-03-12T03:08:30.451497Z",
+        "count": 868787600,
+        "sighting_of_ref": "infrastructure--906142c0-1187-4fa3-8712-c7aea358f7e5",
+        "labels": [
+            "event",
+            "specific",
+            "continue",
+            "focus",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d3944a82-8574-438c-aa9b-b4e3031db324"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7e814c1b-15b9-4817-8b42-78d18f5279b6",
+        "created_by_ref": "identity--7e814c1b-15b9-4817-8b42-78d18f5279b6",
+        "created": "2022-06-07T03:20:47.808589Z",
+        "modified": "2022-09-11T06:40:10.793688Z",
+        "name": "Chaney LLC",
+        "description": "Centralized even-keeled implementation",
+        "roles": [
+            "hospital",
+            "by"
+        ],
+        "sectors": [
+            "water",
+            "telecommunications",
+            "government-national",
+            "water"
+        ],
+        "contact_information": "USCGC Roy\nFPO AA 36386",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 42,
+        "object_marking_refs": [
+            "marking-definition--d3944a82-8574-438c-aa9b-b4e3031db324"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d3944a82-8574-438c-aa9b-b4e3031db324",
+        "created": "2021-08-14T01:09:41.699057Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-b6e02fdc-1bc2-4bf7-88bf-58ec1e8c0a26",
+                "name": "Eye set happy strong city way",
+                "create_date_time": "2021-08-14T01:08:08.434259Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.434092Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

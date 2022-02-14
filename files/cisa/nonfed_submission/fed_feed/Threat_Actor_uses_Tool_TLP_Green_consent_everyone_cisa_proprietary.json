@@ -1,0 +1,230 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--dbe2a15c-d09d-4486-82de-f3a00ab5d7ae",
+        "created_by_ref": "identity--da278e5c-b746-4ac7-8154-83a3be1ad7ae",
+        "created": "2021-03-15T16:17:12.480119Z",
+        "modified": "2022-01-30T19:31:15.703567Z",
+        "name": "suffer",
+        "threat_actor_types": [
+            "nation-state",
+            "insider-accidental",
+            "terrorist",
+            "terrorist"
+        ],
+        "last_seen": "2020-10-07T02:12:02.40312Z",
+        "roles": [
+            "director"
+        ],
+        "goals": [
+            "everything",
+            "owner"
+        ],
+        "secondary_motivations": [
+            "ideology"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2c46b2cb-a6aa-48e2-8231-378792b4038c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--44955d59-1783-4ba0-a3dc-8cdedbf63a11",
+        "created_by_ref": "identity--da278e5c-b746-4ac7-8154-83a3be1ad7ae",
+        "created": "2021-06-25T11:35:59.872778Z",
+        "modified": "2021-10-29T11:09:23.160353Z",
+        "name": "opportunity",
+        "aliases": [
+            "leader",
+            "use",
+            "professor",
+            "type",
+            "assume"
+        ],
+        "tool_version": "even",
+        "labels": [
+            "that",
+            "together",
+            "better",
+            "pfte-batch-1"
+        ],
+        "confidence": 73,
+        "object_marking_refs": [
+            "marking-definition--2c46b2cb-a6aa-48e2-8231-378792b4038c"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f72cac8b-361a-4257-b868-3f586cd0dfb9",
+        "created_by_ref": "identity--da278e5c-b746-4ac7-8154-83a3be1ad7ae",
+        "created": "2022-01-07T11:53:12.556527Z",
+        "modified": "2022-01-14T05:47:42.848901Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--dbe2a15c-d09d-4486-82de-f3a00ab5d7ae",
+        "target_ref": "tool--44955d59-1783-4ba0-a3dc-8cdedbf63a11",
+        "start_time": "2022-07-06T03:05:49.196068Z",
+        "stop_time": "2023-06-16T00:06:12.428537Z",
+        "confidence": 79,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2c46b2cb-a6aa-48e2-8231-378792b4038c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2c46b2cb-a6aa-48e2-8231-378792b4038c",
+        "created_by_ref": "identity--da278e5c-b746-4ac7-8154-83a3be1ad7ae",
+        "created": "2021-08-14T01:09:34.913096Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e665ae49-7536-4ce4-b3ac-ad9803b6185e",
+                "name": "Push teach indeed like accept",
+                "create_date_time": "2021-08-14T01:08:08.423274Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--da278e5c-b746-4ac7-8154-83a3be1ad7ae",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-14T05:02:53.223136Z",
+        "modified": "2022-12-18T20:26:31.247457Z",
+        "name": "Carroll LLC",
+        "roles": [
+            "involve",
+            "anyone",
+            "article",
+            "media",
+            "send"
+        ],
+        "identity_class": "system",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 46,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "sign",
+                "description": "Tree summer when against level mention part.",
+                "url": "https://short-powell.com/",
+                "hashes": {
+                    "MD5": "924b9a8a82d2dd07dad4e926c2361e9d",
+                    "SHA-1": "167291afbd6a6e98cbefd9b30f56679c36e53d13",
+                    "SHA-256": "f356c111864804982e181c0cadf8cee0421d025448cbc32c3a367df0a2f40528",
+                    "SHA-512": "4f8c6c9b1d71ecb9a153625c084415d5ee5e487f1820d2e0c3b754d3a7790c28e7ba786077d7267dcc9a6128447938c00c92ef0cbcf4bd888045cdec5f7e16c3",
+                    "SHA3-256": "a4be89bb870e69527d90d2ac738ec5c39b552a1ace24e6cc09969f41ea3165c0",
+                    "SHA3-512": "cb07b5a3ea6e6e9a5f9ddfaefa7113f653b5efd131f5df19927c86d8a99a376574180a6005079b9641f3acdd59d54ef48ae7cbb5c4da8e69b765f67188692493"
+                },
+                "external_id": "IwGyFC"
+            },
+            {
+                "source_name": "smile",
+                "description": "Debate partner manage gun.",
+                "external_id": "VhYMlfyoHNQ"
+            },
+            {
+                "source_name": "town",
+                "description": "Ask face from institution this.",
+                "external_id": "ozfxFU"
+            },
+            {
+                "source_name": "factor",
+                "hashes": {
+                    "MD5": "e0aec8f657a6cc6251837648e28ddc4b",
+                    "SHA-1": "5bb64b423c09a6f8dba6fe90ba3fa2e7d9e20359",
+                    "SHA-256": "393964d85d465ed47b94080c0f4f413028837bdf5634782886ac6ef94a8b3370",
+                    "SHA-512": "c8b7b8a8e970c26ae896c10c31cd1a9cec58c444dc885fb0fa2615466ca7907d8f22ca611aee66b5f1ac113808bcbc727a4f024240e44e9e297d71151e4c0dc1",
+                    "SHA3-256": "490cc25a117a1b9a45d282fd4b0286d68ea158396bc9ff33ea40a83390147596",
+                    "SHA3-512": "b5fc497acd361201e14517c2e37498e83a6b0a4a85e3ae84a9be6078dc8df1a077b439631d9a6f9b82fdc41885962ba532c2298abc6db5621a42e21a76218c7b"
+                },
+                "external_id": "BCXFEqgHJYFx"
+            },
+            {
+                "source_name": "paper",
+                "description": "Brother modern charge such perhaps.",
+                "url": "https://www.bradshaw.info/",
+                "hashes": {
+                    "MD5": "de694c1058c5aeffe59b66da476a8d09",
+                    "SHA-1": "6663e3c786864bc17aa89660af28492d1306d613",
+                    "SHA-256": "40d2ee3319fbbe8ec3fbe9f4d88ba16737a020211344b6be2c898bbfe045e28f",
+                    "SHA-512": "4dd4c724e995cc46cefcbdb58a3d60a483aea4a6dc2ba032aa7f35f5e67ccfcfca6cf1b7692700e28c43bfb54479e301df4a15fa98ec4eddb3dd284c0a6e2929",
+                    "SHA3-256": "8e826ed85c3d132112ddeb5403546ce6a963402aa1eefa490a1b77efa8cbf867",
+                    "SHA3-512": "231c2036e2243b8e2033643811427cebfc01af62aa1b8f11e229d9334bc783654ed982a70b006d6d9e0c06be699a1233322d340721cb9823305034b0bac63682"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2c46b2cb-a6aa-48e2-8231-378792b4038c"
+        ]
+    }
+]

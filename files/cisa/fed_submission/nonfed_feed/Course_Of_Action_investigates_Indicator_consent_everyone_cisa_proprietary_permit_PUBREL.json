@@ -1,0 +1,123 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--f20e03a5-f7e2-4c3a-89c5-91f3145e3924",
+        "created_by_ref": "identity--8ec2afdd-e395-4c54-86c0-e79065dd3de1",
+        "created": "2022-04-18T06:47:29.545397Z",
+        "modified": "2023-03-11T06:22:25.879598Z",
+        "name": "guess",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 37,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--3d549186-36b4-43d2-a4e7-be9dbf7f92de",
+        "created_by_ref": "identity--8ec2afdd-e395-4c54-86c0-e79065dd3de1",
+        "created": "2021-07-28T13:44:35.912492Z",
+        "modified": "2022-02-28T22:14:28.412969Z",
+        "name": "wish",
+        "indicator_types": [
+            "attribution",
+            "malicious-activity",
+            "unknown",
+            "anonymization"
+        ],
+        "pattern": "[email-message:received_lines[0] < 'WgXnr']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-04-04T01:43:14.81878Z",
+        "valid_until": "2021-05-04T20:28:33.640351Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "uRJndaEFvRfQUrRbMmso",
+                "phase_name": "ovPDUbRcpiZLvC"
+            },
+            {
+                "kill_chain_name": "csLwqBwwrLgyPHBVWoK",
+                "phase_name": "iDVVS"
+            },
+            {
+                "kill_chain_name": "SFrzzBiPoRGrSbg",
+                "phase_name": "UDrXA"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c97c3abc-2c08-4660-8ab0-e7c4dc8a69d4",
+        "created_by_ref": "identity--8ec2afdd-e395-4c54-86c0-e79065dd3de1",
+        "created": "2021-12-29T02:02:58.149851Z",
+        "modified": "2022-08-07T03:55:31.258171Z",
+        "relationship_type": "investigates",
+        "description": "Much all animal with produce. Want ago eye sometimes.",
+        "source_ref": "course-of-action--f20e03a5-f7e2-4c3a-89c5-91f3145e3924",
+        "target_ref": "indicator--3d549186-36b4-43d2-a4e7-be9dbf7f92de",
+        "labels": [
+            "church",
+            "line",
+            "drop",
+            "fill",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8ec2afdd-e395-4c54-86c0-e79065dd3de1",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-02-10T13:42:21.63633Z",
+        "modified": "2022-09-24T05:05:31.497995Z",
+        "name": "Mcdaniel Group",
+        "roles": [
+            "those",
+            "admit"
+        ],
+        "identity_class": "individual",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 95,
+        "external_references": [
+            {
+                "source_name": "tend",
+                "description": "Police west air detail.",
+                "url": "https://www.shaw.org/",
+                "hashes": {
+                    "MD5": "1c962dac00506d9fc59e485cc0707afb",
+                    "SHA-1": "2a9d30102dc03781e6284d729eb291940a0c5b70",
+                    "SHA-256": "39c28fb1263eb6863835572e97aa67e9ea795c8b2943862ada8965da8f15732f",
+                    "SHA-512": "992374e43cdff4114c2dc3ba5b1a642ea3f7bc78a9bdf83846f058c4c83f6ffde532e6978d7231314856eb6ceeb1556d36880f27498a2c24785315411d0afe81",
+                    "SHA3-256": "f3a0b724b3a980abe85eb33400401009ca81ad2b5497fa2098c7642422b5ad26",
+                    "SHA3-512": "12079c7ced58356223a28f4910f7a72e5bdb9646bfe7ae3edf0f01b7ef4c5d63859db507374c1ab58bf7aa8a76d749378f84b3f8830d23ad088f6cfe53db9e2c"
+                }
+            },
+            {
+                "source_name": "play",
+                "url": "https://www.sanchez.info/",
+                "external_id": "pcbIJUHZw"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

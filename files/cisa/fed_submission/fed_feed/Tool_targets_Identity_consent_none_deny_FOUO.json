@@ -1,0 +1,162 @@
+[
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--9ca02498-67bc-472b-a8a8-c403437ff0d9",
+        "created_by_ref": "identity--7beea12b-410f-42d7-8415-2d41e83ca3f1",
+        "created": "2020-10-08T07:35:01.791135Z",
+        "modified": "2021-08-14T01:09:38.899898Z",
+        "name": "total",
+        "description": "Protect one direction special.",
+        "tool_types": [
+            "denial-of-service",
+            "network-capture",
+            "information-gathering",
+            "vulnerability-scanning",
+            "credential-exploitation"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "PUWpQIx",
+                "phase_name": "hnSbModZfDgLUpunPS"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "interesting",
+            "share",
+            "hit",
+            "these",
+            "pfte-batch-1"
+        ],
+        "confidence": 30,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--21de47dc-7f8f-47b9-bc91-28a8a8182b71"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--51679eb3-0a64-4b9c-ad9c-476faf52de96",
+        "created_by_ref": "identity--7beea12b-410f-42d7-8415-2d41e83ca3f1",
+        "created": "2021-10-23T12:15:16.48336Z",
+        "modified": "2022-03-23T03:09:50.272783Z",
+        "name": "Rodriguez and Sons",
+        "identity_class": "organization",
+        "labels": [
+            "woman",
+            "majority",
+            "check",
+            "however",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--21de47dc-7f8f-47b9-bc91-28a8a8182b71"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--2b01dc8d-8a32-49f4-a7a0-6739606282a2",
+        "created_by_ref": "identity--7beea12b-410f-42d7-8415-2d41e83ca3f1",
+        "created": "2019-11-11T12:49:42.543949Z",
+        "modified": "2021-08-14T01:09:38.900393Z",
+        "relationship_type": "targets",
+        "description": "Century administration poor doctor send feel serve believe. Subject out member charge wait tough.",
+        "source_ref": "tool--9ca02498-67bc-472b-a8a8-c403437ff0d9",
+        "target_ref": "identity--51679eb3-0a64-4b9c-ad9c-476faf52de96",
+        "start_time": "2021-09-23T16:57:48.318802Z",
+        "object_marking_refs": [
+            "marking-definition--21de47dc-7f8f-47b9-bc91-28a8a8182b71"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7beea12b-410f-42d7-8415-2d41e83ca3f1",
+        "created_by_ref": "identity--7beea12b-410f-42d7-8415-2d41e83ca3f1",
+        "created": "2021-04-02T01:05:58.428816Z",
+        "modified": "2021-08-14T01:09:38.900658Z",
+        "name": "Sanchez, White and Patterson",
+        "description": "Cross-platform mobile standardization",
+        "roles": [
+            "nature",
+            "leg",
+            "picture",
+            "benefit"
+        ],
+        "identity_class": "group",
+        "object_marking_refs": [
+            "marking-definition--21de47dc-7f8f-47b9-bc91-28a8a8182b71"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--21de47dc-7f8f-47b9-bc91-28a8a8182b71",
+        "created": "2021-08-14T01:09:38.899176Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1946efc8-a2e0-46a4-bb9a-691cbe16f041",
+                "name": "Home politics letter yes consider",
+                "create_date_time": "2021-08-14T01:08:08.424111Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

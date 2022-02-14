@@ -1,0 +1,290 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--e8df4daa-ca53-46a1-9aeb-e1d2bd61a6f4",
+        "created_by_ref": "identity--423c8108-4d61-449f-bba6-733b005c4b3a",
+        "created": "2022-05-12T23:28:11.469185Z",
+        "modified": "2022-05-22T07:18:54.150533Z",
+        "indicator_types": [
+            "unknown"
+        ],
+        "pattern": "(([email-message:defanged NOT = false AND email-message:content_type <= 'multipart/alternative' AND (email-message:subject > 'Into Congress every campaign discussion game drop.')] AND ([file:atime <= t'2021-05-25T16:26:40.807126Z'])) FOLLOWEDBY [software:vendor < 'Vaughn-Collins'])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-12-03T23:18:02.086526Z",
+        "labels": [
+            "direction",
+            "real",
+            "individual",
+            "life",
+            "school",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "big",
+                "url": "https://www.pena-lewis.com/",
+                "external_id": "EjYrc"
+            },
+            {
+                "source_name": "since",
+                "description": "Go require local loss walk culture benefit.",
+                "url": "https://www.bell.com/",
+                "hashes": {
+                    "MD5": "1d68432674103a79038a3a06c6f55cee",
+                    "SHA-1": "83fba8fe66683f7423018801dcd55366ba9e8fb2",
+                    "SHA-256": "d9136e8a00aeeb51a10335a4acc0894e2be3f6f030e8d6505a42f4e178c6de7a",
+                    "SHA-512": "c6cd2f9391a4b9dc55423cbbce970fe16127c87a04e1cbc4d2fb9fa15f32402b2c151ea85f33b7ebf1f8a9222f1ef7987ca06f871715bdb4775bccf5e0a1ac5b",
+                    "SHA3-256": "5aae9bd9c8c82e9aa67ef65e3ea6fa5f363d0fed1a6c23c1d152badbba53b0d7",
+                    "SHA3-512": "3fb7829267e3163f9de2a7ee07fd76d70566d59c31552a2f34a1fa623dfb1a530686cd1b3a217d1b2a04b9da1b7fd06bfbece0abc8aa1a52a9eb6f18e26e7105"
+                },
+                "external_id": "OlaLtJckxmOJD"
+            },
+            {
+                "source_name": "effect",
+                "hashes": {
+                    "MD5": "21f79c7bb30a0535c70a1ab413b76d56",
+                    "SHA-1": "c3cb74559fadb61a55853bf912b6ec83a04fe663",
+                    "SHA-256": "0ff65778db62f2d9a20368c1d704059a6961e3ef52dae73c1363457030255ca8",
+                    "SHA-512": "8bc59871b19756aa81925adc6d194216b50f1883ff5c6a3f229a582f8c574ebb47afdbb6614bc4fbe9d29cbdab8b5afc83c284c09aced7a4bf1e7a36da206e47",
+                    "SHA3-256": "b30b6fef823008e26504e8a6d1d2cb1773ec482d8d02a9cad643fd5cc728e533",
+                    "SHA3-512": "0c8efdafa240ea608a8e890c9bf7d45eb88c0ae815119aee7e21eca93b01589827133a0b8940d426cb892f82a2c40a1f64925428b3ab48857089bdd303ea2bd2"
+                },
+                "external_id": "MtvwghzGzwMTzfcx"
+            },
+            {
+                "source_name": "alone",
+                "description": "Hundred budget finish pick really reason type amount.",
+                "url": "http://www.armstrong.biz/",
+                "hashes": {
+                    "MD5": "eb302ca931dce9874a34a4d46b911a9a",
+                    "SHA-1": "fd8ce59996c5c516c939ccb15f84149a51c60ad2",
+                    "SHA-256": "d42a2bc61f81e61410ab3f32dc3a63272c70843ceb21034ec5444bb0d64da99b",
+                    "SHA-512": "99e6b6f2ee1dd3705bd6c9f233ba0de8e6b3f9b76a104fcd790147d7c8f9f324411b2aa29dfc88a3ec6569d563c59c092463bfc27555bb6d17d09c825305e4d3",
+                    "SHA3-256": "18acfb4936406d9ced5e6ce682498bacf8d850613155bc16b950ff34777557e6",
+                    "SHA3-512": "2d51f18fde2065ce5b2e9579c5c91a548d72e20b6231a86d3d03ee4756f93d05c120f9be6b85d963a6d42ef9df8a9df02846fa3622748ecee6f4203c57a42c31"
+                }
+            },
+            {
+                "source_name": "street",
+                "url": "https://thomas.com/",
+                "hashes": {
+                    "MD5": "a3c5bf7be08c64cb380560bee92870ae",
+                    "SHA-1": "97a4b779c2806e40e1239bdcd42ce9dd815e8300",
+                    "SHA-256": "f6aa7a2e484dc58ac026bb326047603b4823dda402354413fcdf56573c323bc5",
+                    "SHA-512": "ce7347ffd45134809db9a3bb5df9eb11f66cddc6581b7d9b71a85f93dbb06888a7d44df488b906567149f2f7545d9591e4b9fa71208d8e94199ac1ffb1a11c42",
+                    "SHA3-256": "b574194d77a38810f6a5fc0a3bd553ba99c6446ac8453b95301b92cf9a850ef9",
+                    "SHA3-512": "b25114c9473f27d9aea259e71b7fdf847ab21ef90b4e83250104100b6bfc1448ebfca43044f78c9ad179759a3f3a5cb6035c531ef8402c4597e09473a48dcc75"
+                },
+                "external_id": "AyCcSKpVZGsbh"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--52847217-71bf-4584-8191-2048fd66bb4b"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--ddda8591-aa71-4a7f-bda8-c8e07519a378",
+        "created_by_ref": "identity--423c8108-4d61-449f-bba6-733b005c4b3a",
+        "created": "2020-09-06T02:49:10.15795Z",
+        "modified": "2021-08-23T13:21:06.081156Z",
+        "name": "else",
+        "description": "Best where machine beat blood.",
+        "tool_types": [
+            "exploitation"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "tool_version": "set",
+        "labels": [
+            "trial",
+            "leave",
+            "pfte-batch-1"
+        ],
+        "confidence": 77,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "necessary",
+                "description": "Might ask politics question over.",
+                "url": "http://www.long-romero.org/",
+                "external_id": "liLzeJmVrrQGjdDOrKu"
+            },
+            {
+                "source_name": "cultural",
+                "description": "Behind same report performance guess Republican.",
+                "url": "https://nguyen.net/",
+                "hashes": {
+                    "MD5": "0c0819388c73ace127f25aaf3ef28acc",
+                    "SHA-1": "49dcae788f57a183b8916b88241a47c1781ffd9a",
+                    "SHA-256": "1e647f9dc9a2c9ddd3e8827165d33ec12ab307d3a2e7921dd105cb0b7fef196c",
+                    "SHA-512": "dd1f1d6044ed708cdf86716b5650d5768e645033547f7b3fb1749c42e67b420a53e1d86a7c3c47e1306d9fc4653513bc413000cb9ac23e7e20a865f211a9c2bc",
+                    "SHA3-256": "2931cec06567a9437c2d851cdac4b653768719dcb5b7dd9eee630705cbddd4b0",
+                    "SHA3-512": "340b041ae374ed512eece2afe3d53478a90a73ee67302707f1ed809446158e1183363511e3e83d6ff1a2186c5c1c813b4e27ff806fbb72c18eff5d09f84746e6"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--52847217-71bf-4584-8191-2048fd66bb4b"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--464938e8-89f4-4c84-8e87-7613a687fadc",
+        "created_by_ref": "identity--423c8108-4d61-449f-bba6-733b005c4b3a",
+        "created": "2022-01-25T17:54:46.233013Z",
+        "modified": "2022-11-07T23:43:34.890833Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--e8df4daa-ca53-46a1-9aeb-e1d2bd61a6f4",
+        "target_ref": "tool--ddda8591-aa71-4a7f-bda8-c8e07519a378",
+        "labels": [
+            "should",
+            "production",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "decide",
+                "url": "http://www.chen.com/",
+                "hashes": {
+                    "MD5": "27a6e59b9a81ea91415d0948479fb0ef",
+                    "SHA-1": "0f929955801e030376ae39bbd5e8243839efdab9",
+                    "SHA-256": "37f6ef0c8cfcfddc2cd04bc6c07a35ee533c1a71b6db123a118ab3a5903526fe",
+                    "SHA-512": "c069ef33a0acb649b1f336b762eaf947387f86d7c9058af473cd4f6e20b7f284dec890b8093462ebd06fa3aeabe2d44ad10e5a97b1ab66e00d816a0803a95859",
+                    "SHA3-256": "8046454738e1907b39bf75e1d7e256b51f25516f0960053126de18ae2d76af31",
+                    "SHA3-512": "87af618cf9c422d85d99a04e0620469804288dc32d3671a8d690fd0e50b5688b7ed7d518cf36eab6f0cf678ea4c65f235f7b97abc9fbab6f26667d575956f717"
+                }
+            },
+            {
+                "source_name": "dream",
+                "description": "Group his dream center sing glass draw author.",
+                "external_id": "hBHvIHlmVQiEjFivxDb"
+            },
+            {
+                "source_name": "take",
+                "description": "Recognize eye information ask.",
+                "hashes": {
+                    "MD5": "c5fec6d1b3e51f8c5dd482950e6c9163",
+                    "SHA-1": "52fce5e4ac7823446087c166170df2c211bbde7e",
+                    "SHA-256": "63c71a73bc2b7dafc31a61c4892caaef7a1a80e3493f2495f91ba06e3f507ae7",
+                    "SHA-512": "0a1af879170b293e5eaedc50201866e39e4add3e14965f047276d3fe4fd772a9bf3f172a1db63f5ca7537533dc013f0472d8bce0d83a5807e3564cb27f5870be",
+                    "SHA3-256": "2c15e69cdca860f445fd47a31daa0479ed93f2ab51b8fed6957657180a281049",
+                    "SHA3-512": "e2074e37e8254722d28fac09e882ce2e0ca9fbee6f956f8b8fce8f2ed00469dc0e9aec442bd928ea93e812a6f28f018159c7e70a12e561e895634c470c46d3c5"
+                },
+                "external_id": "bugTksvlc"
+            },
+            {
+                "source_name": "meet",
+                "url": "https://www.wilkerson.com/",
+                "hashes": {
+                    "MD5": "3921f0f66198c9c8279c94fc74593915",
+                    "SHA-1": "1da661ce96066d49abb5d7c75e1c35d8490545e7",
+                    "SHA-256": "9ab9af5670a4faa78d595eed62754bd2e0cf5e9274b600fc6b1b37688812fd4d",
+                    "SHA-512": "6dd52310b5d67c29c549e8c998813c431f94aa9d265b1bd5c1092d87ef671429c12ee4f782f803ec226b9fd7e95dd075725e84122c309dde94a23777be5542c1",
+                    "SHA3-256": "20806d480a770f2c6d42cc498471c3a9d2a5e38e660ea8eca3a47d13511e75c2",
+                    "SHA3-512": "0146474ac95d7539af87ba2407ee16560bc12070b0b809d8496496b65d5100df8fc0bb458313b2e6d09c792161c34d5a5de8b7ffc8f5a72332c05db9905a687e"
+                },
+                "external_id": "oKspG"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--52847217-71bf-4584-8191-2048fd66bb4b"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--423c8108-4d61-449f-bba6-733b005c4b3a",
+        "created_by_ref": "identity--423c8108-4d61-449f-bba6-733b005c4b3a",
+        "created": "2022-04-24T13:18:50.528255Z",
+        "modified": "2022-06-10T15:32:21.617829Z",
+        "name": "Barrett-Pena",
+        "roles": [
+            "grow",
+            "difference",
+            "western"
+        ],
+        "sectors": [
+            "communications"
+        ],
+        "contact_information": "55597 Lawrence Brook\nNew Eduardoburgh, VT 78350",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "leave",
+                "description": "Agency area economy her.",
+                "url": "http://wilkinson.biz/"
+            },
+            {
+                "source_name": "success",
+                "description": "Put should house great near factor need.",
+                "url": "https://miller-coleman.com/",
+                "hashes": {
+                    "MD5": "f5213edee855678bbc3f96f425c46556",
+                    "SHA-1": "89755d6aeba3153acae86b61a87976e3d9cdc4b5",
+                    "SHA-256": "dc193ff42519615e078d83fc26960b56030325f3ea154371df20876559ab5e14",
+                    "SHA-512": "d84c713f7efacad6bf0dac3ddd265f7349e3768b36f7ed4e1d2641bd7983258f15d0844bd99bc87703adb38eb3a8e48afdfeb2dcf41cde0add8aa936eb8b98e7",
+                    "SHA3-256": "788d886b0f37f2a3c4cf042d6b9421c11e11659e2a9805e0070097eb0d4f18bc",
+                    "SHA3-512": "01cf998abd869c366076cb54540357fa9bb7c6927719eab54de16c482030702dc3449170ba4da11679ffae0eac3954bb0da5565cdb216b8cc7a4672fdb5b477e"
+                }
+            },
+            {
+                "source_name": "pattern",
+                "description": "Store some sit better central exist stage."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--52847217-71bf-4584-8191-2048fd66bb4b"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--52847217-71bf-4584-8191-2048fd66bb4b",
+        "created": "2021-08-14T01:08:35.778899Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-716f5d31-4760-4ed1-b8df-6b76bb19bd34",
+                "name": "Wife plan yourself training yet rich",
+                "create_date_time": "2021-08-14T01:08:08.43336Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.433196Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

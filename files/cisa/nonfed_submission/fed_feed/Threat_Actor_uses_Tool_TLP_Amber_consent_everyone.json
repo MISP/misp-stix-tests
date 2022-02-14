@@ -1,0 +1,225 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--5ea7b2e3-2d14-4e33-b62b-91606fdfe107",
+        "created_by_ref": "identity--6c716bcf-a17d-4989-aa36-94531efd1d65",
+        "created": "2021-07-18T16:53:11.265897Z",
+        "modified": "2021-10-26T09:05:32.337743Z",
+        "name": "price",
+        "aliases": [
+            "billion",
+            "traditional",
+            "early",
+            "whose",
+            "respond"
+        ],
+        "resource_level": "club",
+        "primary_motivation": "organizational-gain",
+        "secondary_motivations": [
+            "dominance",
+            "organizational-gain"
+        ],
+        "labels": [
+            "in",
+            "interest",
+            "which",
+            "responsibility",
+            "stand",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--ced8c7f6-5efe-4044-8c23-eaf9aa82605b"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--b9436341-e0bb-44e2-94a5-f2abc426b003",
+        "created_by_ref": "identity--6c716bcf-a17d-4989-aa36-94531efd1d65",
+        "created": "2022-02-03T04:27:16.62047Z",
+        "modified": "2022-12-13T05:51:19.170046Z",
+        "name": "argue",
+        "tool_types": [
+            "remote-access",
+            "network-capture",
+            "denial-of-service"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "mEzmFSceIyvXw",
+                "phase_name": "RxNJjIh"
+            }
+        ],
+        "labels": [
+            "back",
+            "offer",
+            "term",
+            "bag",
+            "somebody",
+            "pfte-batch-1"
+        ],
+        "confidence": 75,
+        "external_references": [
+            {
+                "source_name": "body",
+                "description": "Ahead program six put court seat."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ced8c7f6-5efe-4044-8c23-eaf9aa82605b"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--2fc9a594-ff42-4c47-a01b-fc3baa3d80ab",
+        "created_by_ref": "identity--6c716bcf-a17d-4989-aa36-94531efd1d65",
+        "created": "2021-12-24T02:26:42.371347Z",
+        "modified": "2022-03-20T10:20:48.479811Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--5ea7b2e3-2d14-4e33-b62b-91606fdfe107",
+        "target_ref": "tool--b9436341-e0bb-44e2-94a5-f2abc426b003",
+        "start_time": "2020-12-30T14:26:29.902303Z",
+        "confidence": 38,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "property",
+                "description": "Quality reach happen food possible pull personal.",
+                "url": "http://wood-moore.com/",
+                "hashes": {
+                    "MD5": "cc9810618edad8713545bbf8f71b60b8",
+                    "SHA-1": "ff11e8b2da557dd0aec9b1e5f3f4a6c41b02aa38",
+                    "SHA-256": "edcc1f09ca88dc190ef17a2f0ef4dbb10c8a4ed68ebd86d1539232ee5ed1f60f",
+                    "SHA-512": "5274ee51e307348a71afce200d1f71b794a8336f758de58c64b5ae9e81b30f49355d91d3de67ce8fa91f13f2a9e3911bdf5a0d7563d9fc59ef81f496f9e91946",
+                    "SHA3-256": "f5a88fe0fab72179c087ecfa73db9c6ea782a86261bd611331f39fec9ae04f5a",
+                    "SHA3-512": "8f11958562f9bc79b14f10e614a2e0f335f2968a08e851120560c313845d2ffe5c33f35d496bb896acc67b75571e1d02e9cd25a966df2b6fd47dacfbf4a1d4e8"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ced8c7f6-5efe-4044-8c23-eaf9aa82605b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--ced8c7f6-5efe-4044-8c23-eaf9aa82605b",
+        "created_by_ref": "identity--6c716bcf-a17d-4989-aa36-94531efd1d65",
+        "created": "2021-08-14T01:09:34.859296Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f98cddfd-8461-4143-a969-e6e230df21d4",
+                "name": "Word describe cold color",
+                "create_date_time": "2021-08-14T01:08:08.422252Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6c716bcf-a17d-4989-aa36-94531efd1d65",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-18T05:01:18.10903Z",
+        "modified": "2021-08-14T01:09:34.861448Z",
+        "name": "Anthony, Phillips and Patterson",
+        "sectors": [
+            "pharmaceuticals"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "first",
+                "description": "Until style order car state often.",
+                "url": "https://www.smith-clark.biz/"
+            },
+            {
+                "source_name": "wide",
+                "description": "Anyone appear hold nice summer ahead visit.",
+                "url": "https://cunningham.info/",
+                "external_id": "cuHsCkyZTABBphh"
+            },
+            {
+                "source_name": "create",
+                "description": "Interview value push almost popular.",
+                "external_id": "kCuLfRKQIDEzwrfKsZ"
+            },
+            {
+                "source_name": "full",
+                "description": "Boy number free attention amount modern reveal.",
+                "url": "https://www.greene-bennett.com/"
+            },
+            {
+                "source_name": "cut",
+                "url": "https://www.rocha.info/",
+                "hashes": {
+                    "MD5": "5929855063c4f126d7e6ce1724b1dbca",
+                    "SHA-1": "fe41005158ecbb43ac0c8690d50084900f2e2cdc",
+                    "SHA-256": "2924dc6b53e7102c8dc5fff4b82ffd241318ed2608822d4ee4dc65007da3978e",
+                    "SHA-512": "0b84444ad92efcd7f7bde39d2b2da63d798beca605bfa3e453281a376bdf7933c066370dc18463ecab623116c117f898cf5909784eafd346c20f0c1205aff8fa",
+                    "SHA3-256": "e170c62f137e9e86dd45520ef7e84e270e3c0d45d4cb5e7cbb637fc347e2b0f3",
+                    "SHA3-512": "9b768d7cdcd3dde8e3043f1a9de3b0f928403ffe24f27f5b6c91f402669dd81eacaf415a3cce20d0696435a1106b0f920e477c81c333af6698f5002930e82e61"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ced8c7f6-5efe-4044-8c23-eaf9aa82605b"
+        ]
+    }
+]

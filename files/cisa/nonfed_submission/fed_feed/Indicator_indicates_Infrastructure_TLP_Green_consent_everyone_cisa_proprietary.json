@@ -1,0 +1,224 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--0be28888-0d45-4584-876c-d40de6c35d9e",
+        "created_by_ref": "identity--c5227e6e-14f6-43c4-b6cd-9bbcc6397c9a",
+        "created": "2022-01-21T10:18:29.809526Z",
+        "modified": "2022-03-23T16:30:52.18707Z",
+        "description": "Me evidence different age.",
+        "indicator_types": [
+            "attribution",
+            "malicious-activity",
+            "benign",
+            "unknown",
+            "anomalous-activity"
+        ],
+        "pattern": "[x509-certificate:is_self_signed = true] AND [directory:mtime >= t'2021-09-15T07:46:54.393665Z']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-05-21T20:20:35.897028Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "zsDvpdyn",
+                "phase_name": "JDVPHvYRjLQhZhFTbk"
+            },
+            {
+                "kill_chain_name": "bIaAaHHJPX",
+                "phase_name": "BxsDagKUPCwEKEJmlTEB"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c5a92d9c-6437-40d0-a0ca-a17a3cb712a0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--ca13be76-e500-46a8-be36-316788145bc5",
+        "created_by_ref": "identity--c5227e6e-14f6-43c4-b6cd-9bbcc6397c9a",
+        "created": "2022-04-26T15:53:33.276765Z",
+        "modified": "2023-01-15T15:22:50.113429Z",
+        "name": "eat",
+        "description": "Join institution stage tend.",
+        "last_seen": "2022-05-17T02:55:47.984893Z",
+        "labels": [
+            "something",
+            "itself",
+            "risk",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c5a92d9c-6437-40d0-a0ca-a17a3cb712a0"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4a07d43c-6a12-4d29-ac0f-42a4c28e7b6c",
+        "created_by_ref": "identity--c5227e6e-14f6-43c4-b6cd-9bbcc6397c9a",
+        "created": "2020-10-25T01:19:55.446112Z",
+        "modified": "2021-08-14T01:08:30.109251Z",
+        "relationship_type": "indicates",
+        "description": "Seat stop week final poor skin. Well bill move practice our change fall purpose.",
+        "source_ref": "indicator--0be28888-0d45-4584-876c-d40de6c35d9e",
+        "target_ref": "infrastructure--ca13be76-e500-46a8-be36-316788145bc5",
+        "start_time": "2020-08-21T22:31:23.861405Z",
+        "labels": [
+            "seat",
+            "allow",
+            "area",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "page",
+                "url": "https://martinez-keith.net/",
+                "external_id": "NGGXcKEKcsKiERa"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c5a92d9c-6437-40d0-a0ca-a17a3cb712a0"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--c5a92d9c-6437-40d0-a0ca-a17a3cb712a0",
+        "created_by_ref": "identity--c5227e6e-14f6-43c4-b6cd-9bbcc6397c9a",
+        "created": "2021-08-14T01:08:30.106663Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e665ae49-7536-4ce4-b3ac-ad9803b6185e",
+                "name": "Push teach indeed like accept",
+                "create_date_time": "2021-08-14T01:08:08.423274Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c5227e6e-14f6-43c4-b6cd-9bbcc6397c9a",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-01T16:52:18.134618Z",
+        "modified": "2021-12-31T17:01:41.531811Z",
+        "name": "Mann Group",
+        "description": "Cloned discrete secured line",
+        "roles": [
+            "cold",
+            "author",
+            "sit",
+            "where"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 3,
+        "external_references": [
+            {
+                "source_name": "save",
+                "external_id": "tQQUsmOBgtHgEbHj"
+            },
+            {
+                "source_name": "it",
+                "description": "Room social know several property war.",
+                "url": "https://jones.biz/",
+                "external_id": "UHZdjqxJstc"
+            },
+            {
+                "source_name": "nature",
+                "external_id": "fadYFA"
+            },
+            {
+                "source_name": "town",
+                "url": "https://www.thompson.com/",
+                "hashes": {
+                    "MD5": "ba3200523ac1d6ab8afad34e411fd3b9",
+                    "SHA-1": "cb962c2eebad745f248b9635dc7a5711fe3603b1",
+                    "SHA-256": "979229215d3cf72f62bbb0802eb15d82256cea2e219d60fc1aafa08dc3ad8a5a",
+                    "SHA-512": "93247932fcf4f4132e9a4318142ac8991b56a9fe922d71012d11d3e46612353b190c65c0043867bb2961da553bdd54428dffd61b53956a3f32b5c4ee73f965a2",
+                    "SHA3-256": "b55a36d681e3aa04bc4da793f1ac67b7f7f721d1011d592bc723de11fc5128c4",
+                    "SHA3-512": "ad46daa0bb86e98150fddf023dc70f7d0312172de14dfe48209620b47ad5c094bba9ff3396cc14ccacfdf181f11989d11f86daa9ba41c0a30503f770d88fe2d7"
+                },
+                "external_id": "sZoUgOmzWd"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c5a92d9c-6437-40d0-a0ca-a17a3cb712a0"
+        ]
+    }
+]

@@ -1,0 +1,160 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--5c827feb-3324-41da-9988-824b65342cde",
+        "created_by_ref": "identity--56185484-c6fe-4c5d-bbca-f8db84e73a46",
+        "created": "2021-08-28T23:47:15.159202Z",
+        "modified": "2022-08-18T08:32:43.947664Z",
+        "name": "middle",
+        "pattern": "(([domain-name:defanged = false]) OR [domain-name:defanged NOT = false])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-09-25T14:18:10.172042Z",
+        "valid_until": "2022-05-12T00:29:45.379257Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "OZMcGgzraLbs",
+                "phase_name": "ktirrrAoKwCIbD"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 9,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "bill",
+                "description": "Evidence north others mention black chance employee.",
+                "url": "http://kim.com/"
+            },
+            {
+                "source_name": "such",
+                "url": "https://lucas.com/",
+                "hashes": {
+                    "MD5": "28aafe38022dc4e15a60297153d42b60",
+                    "SHA-1": "d49b0c9fd1f0cd73b4642e91884be7f4f571dff1",
+                    "SHA-256": "ee496d176a5dd6d4a2716fa6804ef692015eb09d31af4cdbe6309b4005403521",
+                    "SHA-512": "b2a56a87f02875736b54369cccc7b031ac03a91902315e4b1281455096fbe6a9007216e974f3c3130d1a1ba7efdbc37dfdfcd9fd53ad08eae4a54455015291ed",
+                    "SHA3-256": "d3dc5d649233fcd8bc120515676f5b1ba06f995f18042e81afc2b4d3d4f440c5",
+                    "SHA3-512": "5730834cc235fe08a5efe7cf68bf036dcad70357a98fbe535cbc6ec33692eba4ae30c315627c5473bb98ee51cd69b68ecb52963f331d0f9f1c96f44ca2c5fd89"
+                },
+                "external_id": "nhRGHaYEPdfyadKKvisb"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--f5b905ba-470d-41df-9318-08f0eedd2f29",
+        "created_by_ref": "identity--56185484-c6fe-4c5d-bbca-f8db84e73a46",
+        "created": "2021-06-02T07:03:00.674061Z",
+        "modified": "2022-01-23T17:32:21.8134Z",
+        "name": "explain",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "ECuihOyz",
+                "phase_name": "JpGvmiVv"
+            }
+        ],
+        "labels": [
+            "sense",
+            "still",
+            "cost",
+            "by",
+            "sometimes",
+            "pfte-batch-1"
+        ],
+        "confidence": 5,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e081bffc-7648-4cfd-8004-74088ea28bc7",
+        "created_by_ref": "identity--56185484-c6fe-4c5d-bbca-f8db84e73a46",
+        "created": "2022-05-31T16:41:09.86756Z",
+        "modified": "2022-06-16T07:28:25.955535Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--5c827feb-3324-41da-9988-824b65342cde",
+        "target_ref": "attack-pattern--f5b905ba-470d-41df-9318-08f0eedd2f29",
+        "stop_time": "2022-06-07T03:28:31.953542Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "upon",
+                "description": "Manager hope before drop simple.",
+                "url": "http://villegas-booker.biz/",
+                "hashes": {
+                    "MD5": "f754aad698b5bc60a6fa066d0da82e21",
+                    "SHA-1": "40a8753ba2eb719cbf5b12258c3a7b1299942cdd",
+                    "SHA-256": "4da8dcde6e8dfbc7a67e14e72d1cdfce8abc7d4557e5fac683951909998f77ff",
+                    "SHA-512": "0c539de2453fad7d7ecae6f0db9f1717c0ec878a95a5b5f44780c18c0547dc2b3cbf03482a61d3e7d380b5c37f7fda95f098c6465e554327e1d0f0f1025b7890",
+                    "SHA3-256": "5b49172cc1c626da96514234d20c71d3c1b5ff6fab969de804e2871052ae4854",
+                    "SHA3-512": "7497134717aae5c597315d941681905e132258a5c751987d6acd427027840a97ffe59199c0051548e5cc78439f6a308d693619dd8e370a3c9146b66ca747eb23"
+                },
+                "external_id": "VgoxWruhjViGpAzX"
+            },
+            {
+                "source_name": "how",
+                "hashes": {
+                    "MD5": "61d30e437473d9d3a532190c79e117dc",
+                    "SHA-1": "b82388091809b0676c9a827a5459b310bca8cf7f",
+                    "SHA-256": "21ac7576fe39a8fffcc4b99f7125d7d1491ebf3909f0d1b7eaaca0b1424bbe05",
+                    "SHA-512": "72909f34a4d018ef79eaf65db55fd76120650d92c21b221e3a96542db81f9242fcb4a6f5ca87ebb8374960fb6bef64c052c61b5653a35b76e2647bd3f8b80470",
+                    "SHA3-256": "5d6336cc16c3e1cb3295926fa9a0b6a717cdb205cf5714c05c827cd7544c1c5c",
+                    "SHA3-512": "24a1246ddbd733f4bfa9271847b74fb90eadab65c10c0045e2ba61adeea32e2390a4b76cc8aca25ca12926049846ddfbb10a4c1d73f9dcc5fb8780c4b418d1c6"
+                },
+                "external_id": "kXHgvlDBo"
+            },
+            {
+                "source_name": "name",
+                "description": "Beat among themselves.",
+                "url": "http://hines.com/",
+                "external_id": "gFDnqXJhi"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--56185484-c6fe-4c5d-bbca-f8db84e73a46",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-08-06T19:23:05.86124Z",
+        "modified": "2022-10-22T12:18:19.615239Z",
+        "name": "BetterCoupleStandard",
+        "roles": [
+            "attack"
+        ],
+        "contact_information": "8530 Justin Alley Suite 002\nSouth Christopherfort, NV 34429",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 4,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

@@ -1,0 +1,131 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--80526549-d38b-4200-9ebd-21f6d72e7016",
+        "created_by_ref": "identity--d3d72285-a1fa-4a16-8be6-4e9898deffc5",
+        "created": "2021-10-28T10:16:47.261487Z",
+        "modified": "2022-09-05T08:58:03.42096Z",
+        "name": "far",
+        "description": "Million five seven listen.",
+        "aliases": [
+            "ok",
+            "food",
+            "follow",
+            "person"
+        ],
+        "first_seen": "2020-10-14T09:17:16.463937Z",
+        "roles": [
+            "agent"
+        ],
+        "primary_motivation": "ideology",
+        "labels": [
+            "treat",
+            "full",
+            "wall",
+            "stock",
+            "break",
+            "pfte-batch-1"
+        ],
+        "confidence": 92,
+        "external_references": [
+            {
+                "source_name": "threat",
+                "description": "Seat always think industry crime over support.",
+                "url": "https://www.smith.info/",
+                "external_id": "hdfPpTHzLYXJduUZ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--c329885c-00b1-43c8-9313-6c1e4648ef93",
+        "created_by_ref": "identity--d3d72285-a1fa-4a16-8be6-4e9898deffc5",
+        "created": "2022-05-22T16:42:18.124508Z",
+        "modified": "2022-06-13T12:45:06.704511Z",
+        "name": "gun",
+        "description": "Also writer high.",
+        "tool_types": [
+            "network-capture",
+            "denial-of-service",
+            "information-gathering"
+        ],
+        "tool_version": "test",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--663f3ff1-3090-4ae7-93c1-c921c0ed96d2",
+        "created_by_ref": "identity--d3d72285-a1fa-4a16-8be6-4e9898deffc5",
+        "created": "2021-09-05T08:26:14.165827Z",
+        "modified": "2022-05-23T19:49:44.982711Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--80526549-d38b-4200-9ebd-21f6d72e7016",
+        "target_ref": "tool--c329885c-00b1-43c8-9313-6c1e4648ef93",
+        "stop_time": "2020-10-08T12:01:29.116305Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "former",
+                "url": "http://finley-davis.com/",
+                "hashes": {
+                    "MD5": "2988635219428b1adb2ff7193aaf684e",
+                    "SHA-1": "4bfa06d677102a61c6aec31fa4f4b904bbb70bb8",
+                    "SHA-256": "17802d0629897f5bcd7515d2a53fbb349888c047cb652191d801c294a44df47f",
+                    "SHA-512": "f74c48d5ad46c828f7a9fa1371695a791aaf29a67c9c8f8c8171c50144bd24bfb42485581346f446564a0e9b30f60e3e7d71a2c2bc8076d940583aefcac02fce",
+                    "SHA3-256": "d31fff90949110b95ccaea72e1907563b468119ee4075e19c7a9625d2a2e2604",
+                    "SHA3-512": "a637aab0fa10f0edcf4cde29937e62234c5aae45de6056aca249664f6677035ba77933090c8d03ef916efc60174d9c1feeebbc4ced8804fcff8386dae196f0ac"
+                },
+                "external_id": "tmvitVR"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d3d72285-a1fa-4a16-8be6-4e9898deffc5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-01-22T16:33:11.467409Z",
+        "modified": "2022-11-21T10:15:47.352468Z",
+        "name": "Williams, Forbes and Bradley",
+        "description": "Configurable full-range function",
+        "roles": [
+            "relate",
+            "soon",
+            "anyone"
+        ],
+        "sectors": [
+            "government-public-services",
+            "healthcare",
+            "government",
+            "nuclear",
+            "retail"
+        ],
+        "contact_information": "021 Lynch Court Suite 639\nNorth Tristan, IN 88900",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 81,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

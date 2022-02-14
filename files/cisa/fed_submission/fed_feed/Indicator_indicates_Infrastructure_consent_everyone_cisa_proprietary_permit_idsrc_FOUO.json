@@ -1,0 +1,187 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--c7e163ce-a3d2-47b4-bacf-ead5c6fc99dd",
+        "created_by_ref": "identity--61cb9c55-2377-4f94-99d6-b4d6e142bc3b",
+        "created": "2022-07-14T18:38:46.754002Z",
+        "modified": "2022-12-24T10:16:11.067849Z",
+        "indicator_types": [
+            "compromised",
+            "anonymization",
+            "compromised"
+        ],
+        "pattern": "([domain-name:value >= 'johnson-thompson.com' AND domain-name:value < 'gonzales-martinez.info' AND (domain-name:value >= 'nichols-hood.com')] AND [email-message:received_lines[0] >= 'YFYaSSOxXFf']) OR [email-addr:defanged = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-11-29T17:09:27.430654Z",
+        "labels": [
+            "draw",
+            "picture",
+            "never",
+            "argue",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--c15d7cd7-f160-4313-bcc9-558bbb2ff1ee"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--46b7822b-ea75-4097-9ac4-cdd65fe22fec",
+        "created_by_ref": "identity--61cb9c55-2377-4f94-99d6-b4d6e142bc3b",
+        "created": "2022-04-06T09:37:57.772652Z",
+        "modified": "2022-07-27T11:14:56.210549Z",
+        "name": "he",
+        "description": "Including chance water clearly community scene necessary candidate.",
+        "aliases": [
+            "participant",
+            "will",
+            "unit",
+            "easy",
+            "make"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "ubvkrwXWgIRkfrdsQx",
+                "phase_name": "XznStIBzACToLt"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "first_seen": "2020-12-25T00:23:52.34186Z",
+        "object_marking_refs": [
+            "marking-definition--c15d7cd7-f160-4313-bcc9-558bbb2ff1ee"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d73bbba5-7542-4038-863a-b35175e41689",
+        "created_by_ref": "identity--61cb9c55-2377-4f94-99d6-b4d6e142bc3b",
+        "created": "2021-01-03T20:32:54.650293Z",
+        "modified": "2021-08-14T01:08:30.906042Z",
+        "relationship_type": "indicates",
+        "description": "Figure bill couple because. Head mind Democrat thus among race join.",
+        "source_ref": "indicator--c7e163ce-a3d2-47b4-bacf-ead5c6fc99dd",
+        "target_ref": "infrastructure--46b7822b-ea75-4097-9ac4-cdd65fe22fec",
+        "stop_time": "2022-03-08T19:00:41.716639Z",
+        "confidence": 35,
+        "object_marking_refs": [
+            "marking-definition--c15d7cd7-f160-4313-bcc9-558bbb2ff1ee"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--61cb9c55-2377-4f94-99d6-b4d6e142bc3b",
+        "created_by_ref": "identity--61cb9c55-2377-4f94-99d6-b4d6e142bc3b",
+        "created": "2021-10-19T23:26:21.124819Z",
+        "modified": "2022-06-26T13:58:12.901951Z",
+        "name": "Hawkins-Wilson",
+        "roles": [
+            "management",
+            "world",
+            "fact"
+        ],
+        "identity_class": "class",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 4,
+        "object_marking_refs": [
+            "marking-definition--c15d7cd7-f160-4313-bcc9-558bbb2ff1ee"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--c15d7cd7-f160-4313-bcc9-558bbb2ff1ee",
+        "created": "2021-08-14T01:08:30.901583Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fadf816-7ba3-41ea-a52c-2855b3ec9d5a",
+                "name": "Report official major we center outside throughout population",
+                "create_date_time": "2021-08-14T01:08:08.433803Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

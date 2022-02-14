@@ -1,0 +1,217 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--2a434d75-3ef6-4a96-bf32-ee0f0464cd41",
+        "created_by_ref": "identity--3d6d2656-7a93-4029-807a-8dd6c6565810",
+        "created": "2022-02-11T07:55:14.859761Z",
+        "modified": "2023-01-18T19:38:23.496597Z",
+        "indicator_types": [
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "(([file:defanged = true] AND [mac-addr:defanged NOT = false]))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-09-05T09:01:03.594628Z",
+        "valid_until": "2022-05-06T14:15:48.468892Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "UmAzJyd",
+                "phase_name": "WgGgHSyOIZLhxlLQaq"
+            },
+            {
+                "kill_chain_name": "TDMiOqTwBmFVPIEBk",
+                "phase_name": "hKbfwVwNUjl"
+            }
+        ],
+        "labels": [
+            "suddenly",
+            "door",
+            "capital",
+            "woman",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "success",
+                "description": "Set girl employee along candidate.",
+                "url": "http://lee-walker.org/",
+                "external_id": "vnofz"
+            },
+            {
+                "source_name": "last",
+                "url": "https://rose.com/"
+            },
+            {
+                "source_name": "can",
+                "description": "Himself large expect religious hotel although to.",
+                "url": "https://marquez-meyer.org/",
+                "external_id": "hsilWn"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--bc4e70e6-5627-4b1d-9295-dea33c236767",
+        "created_by_ref": "identity--3d6d2656-7a93-4029-807a-8dd6c6565810",
+        "created": "2022-03-23T13:13:57.492456Z",
+        "modified": "2023-01-11T10:35:20.858642Z",
+        "name": "painting",
+        "description": "Forget very later concern any plan.",
+        "objective": "This far behind play color use.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 97,
+        "external_references": [
+            {
+                "source_name": "sister",
+                "description": "Brother true sense far.",
+                "url": "https://www.daniels.net/",
+                "external_id": "SybhOJ"
+            },
+            {
+                "source_name": "war",
+                "description": "Present ready manager because talk degree early hold.",
+                "external_id": "dwkzJMNxfFog"
+            },
+            {
+                "source_name": "white",
+                "description": "Condition college institution set.",
+                "url": "http://www.pugh.net/"
+            },
+            {
+                "source_name": "land",
+                "url": "http://www.bright-long.com/",
+                "hashes": {
+                    "MD5": "2d2bee841191a926f46821695b6b54e9",
+                    "SHA-1": "de3b9ecd067f6935b3f31448b50a99fa8d9081ed",
+                    "SHA-256": "f26e2afa4ddfbc1d21d85db1d4dc418bc419b11fd660beecdb7a1e544d63126d",
+                    "SHA-512": "1e2d3279764ba16fd3f0099f687109793af03bc9e46bb17ed0b811e3fbd0fa1539f3e712b32e6a870f628ed7a9d764f5ca7f28a7a13820341346a8168fd787f7",
+                    "SHA3-256": "c3792209a92af4bbcbb4fd3ce42a250a4fda804698e59da7770fa9e399d34b77",
+                    "SHA3-512": "b6c5d9f77c7669600778b07a473219bc05fc981dd1eca4eece0121d1fcf68146c04ca559a7d2e46c32048f31f05dea628f7302c74ac3bf92ee8b1f3bf84c82c9"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ac428da3-2832-4368-8c90-46a1bdf12a4a",
+        "created_by_ref": "identity--3d6d2656-7a93-4029-807a-8dd6c6565810",
+        "created": "2022-04-10T17:03:00.927521Z",
+        "modified": "2022-11-12T11:06:22.858069Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--2a434d75-3ef6-4a96-bf32-ee0f0464cd41",
+        "target_ref": "campaign--bc4e70e6-5627-4b1d-9295-dea33c236767",
+        "start_time": "2022-02-24T07:05:45.191608Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 93,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "provide",
+                "description": "Church million believe east nature pay.",
+                "external_id": "MblhpdDShPiCpujvgOjG"
+            },
+            {
+                "source_name": "social",
+                "description": "Listen education thus sit old another strong add.",
+                "url": "http://harris.com/",
+                "hashes": {
+                    "MD5": "acbe5b973eefdb8992f33f76c8ae0769",
+                    "SHA-1": "d44dc2c0153bdf20753e991e36d736102a0b366e",
+                    "SHA-256": "761e23db8cc15e0423c53180530363d76f7f73b296e5ac3befc1f1b28c59c33c",
+                    "SHA-512": "1625de77def6de3fd59a365a208eaf596d8896eb578f89bbfc4045c36ea4509c0cf3a0011a4a352fdbd23d85179ee6eaf0039e303f076ac342141f1bea50109c",
+                    "SHA3-256": "f14840c7161cadd7f7044f80e1ebc79b4532ab6cb2e4c86d6c32f4db89cea6d7",
+                    "SHA3-512": "0dad59395d80bae9a870315c4a597964df62df5f9a52e02838ca90283b0f8f8106dd0230b2c8797ffb5a74338f4327ae1fa1525162b883467fe3f5d6ee763fb0"
+                },
+                "external_id": "dBuOvYOBYOs"
+            },
+            {
+                "source_name": "rest",
+                "url": "https://holt.org/",
+                "external_id": "vykIkbMxc"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3d6d2656-7a93-4029-807a-8dd6c6565810",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-01-12T23:48:40.39758Z",
+        "modified": "2022-09-08T11:52:33.72447Z",
+        "name": "Williams, Edwards and Wells",
+        "roles": [
+            "this",
+            "month",
+            "follow"
+        ],
+        "identity_class": "unknown",
+        "sectors": [
+            "financial-services",
+            "utilities"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 36,
+        "external_references": [
+            {
+                "source_name": "pick",
+                "description": "Day tough guy treat.",
+                "url": "http://thomas.com/",
+                "external_id": "kawVDGjgZmQWrcpZ"
+            },
+            {
+                "source_name": "soldier",
+                "description": "Travel someone through record friend majority space.",
+                "url": "http://williams.com/",
+                "hashes": {
+                    "MD5": "8e340b41ffd30c1331a13985d668010f",
+                    "SHA-1": "f0273b649362a7c38498d213ae14cecdc1a3f62f",
+                    "SHA-256": "8bef26a5a66d9e187e65702ce7a9297cdff09f46608d1f569130c91685f8bac0",
+                    "SHA-512": "0617319e768b24faf7e9e4ce8d9a7cf46a202766858735407adf488eaabeeabf6322721f16f9ad30aaf338b96ab223a093083ba5ef907eb0a6908d2efffcb707",
+                    "SHA3-256": "2f0b9528df1219eb3033de4ce81aa20ce140d2a6073d63395f1239ead7d034b9",
+                    "SHA3-512": "8fb46579e6ad310b50c084f8ba4346d3bdde91bf63120808ab19386b035d225504a76ccb7f036348e50327d765cc73b2a0ec6270ffee4447cbe184a0f0cfec2b"
+                },
+                "external_id": "RxvqIBJKDbiBr"
+            },
+            {
+                "source_name": "democratic",
+                "description": "Win speak science catch discussion go ground."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

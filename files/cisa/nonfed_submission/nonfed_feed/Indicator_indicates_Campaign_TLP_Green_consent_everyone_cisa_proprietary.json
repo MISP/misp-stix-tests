@@ -1,0 +1,168 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--6d8b46f5-7005-4dc2-a1c5-e4dca9a0614b",
+        "created_by_ref": "identity--88dbca44-6f30-439a-bcbb-0894e91049c3",
+        "created": "2020-12-01T08:47:41.01529Z",
+        "modified": "2021-08-14T01:08:28.905705Z",
+        "name": "will",
+        "description": "Question keep protect affect.",
+        "indicator_types": [
+            "unknown"
+        ],
+        "pattern": "[autonomous-system:name > 'Hancock, Miller and Carter'] FOLLOWEDBY [ipv6-addr:value = 'dd8c:202b:d311:7ee1:5c9a:bf95:d2ad:6416'] FOLLOWEDBY ([(ipv4-addr:value < '221.236.112.49') OR windows-registry-key:modified_time NOT = t'2022-08-10T00:51:15.974015Z'] START t'2021-02-11T02:51:52.576165Z' STOP t'2021-05-09T15:02:07.490707Z') REPEATS 2 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-05-14T21:18:13.504036Z",
+        "valid_until": "2022-06-07T20:46:40.796666Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "style",
+                "description": "Big discover ground audience.",
+                "url": "https://www.baker-friedman.com/",
+                "hashes": {
+                    "MD5": "cb4b8d51c4f0abb311aad0b22c207bfc",
+                    "SHA-1": "4a519016ce188a3d308cc397a9fcfc24e3cb3a6e",
+                    "SHA-256": "faf740e8ec6a327a8d4cd24b6d30f9c304a6f00c2c22aae64290f4e547f5944c",
+                    "SHA-512": "71b0e4c933ef095b42d9bc4579617eab89a36fc73c4029bf599a78c5a337500a56442d320b5bf3f93c60870b21d9a440bfcbb8b7cd742500338c91f1c4edce0d",
+                    "SHA3-256": "92070838bcb91b6d61d8a50dc587c6f9081e91160f0c38f9935c3af54145d02e",
+                    "SHA3-512": "a49f0595f583e4682ecfc329beff7d183e38dfb4dac52975670bd5c0335143434bc83fbae75c3128490e62014232c40312d720fe2ac670161d02448a95ae7a8a"
+                }
+            },
+            {
+                "source_name": "girl",
+                "description": "To enter TV.",
+                "hashes": {
+                    "MD5": "bb80c37d0bbc912986500b8902b4eeb9",
+                    "SHA-1": "3e1af1a4e6f205f1dfc744d9303ee0537d4e5ed2",
+                    "SHA-256": "ac639070576ab2c069b0356c6e07270b7290f0b5de8221c14dd5b4d732474dc9",
+                    "SHA-512": "81a625b5fcafec44a5b173ac2b6b8710a06bbbb32b32143d31518a8918619eb977faf4d2feb124386c886bbd2b5c4b1795a7558dc13dc956c80565151e92ca6d",
+                    "SHA3-256": "e0e16f1203167585d8c87d954f133dc25379575dabb780fe2d140a53cf8c37af",
+                    "SHA3-512": "da61bc5641d376ee9f80e23bc59346e67f2f890e509ecc04bf6cf686f64bf228f0002566c3c29fe0f290478f04a68349b572e30df6776dedb289d7f94f184aa2"
+                },
+                "external_id": "itFyLYeUn"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--1c0a6795-50f4-4a61-abda-93ec0cfd8373",
+        "created_by_ref": "identity--88dbca44-6f30-439a-bcbb-0894e91049c3",
+        "created": "2022-01-14T13:44:34.490789Z",
+        "modified": "2022-08-12T17:17:34.437614Z",
+        "name": "compare",
+        "description": "Sort before positive leader million.",
+        "first_seen": "2021-07-09T10:40:01.244756Z",
+        "labels": [
+            "two",
+            "appear",
+            "just",
+            "peace",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "woman",
+                "url": "https://www.conrad-guerrero.biz/",
+                "external_id": "HLdSlGLE"
+            },
+            {
+                "source_name": "room",
+                "description": "Discussion son land threat.",
+                "external_id": "OaKPcrrwnYNwAidftMF"
+            },
+            {
+                "source_name": "happen",
+                "description": "Dinner daughter coach could.",
+                "url": "http://schaefer.com/",
+                "hashes": {
+                    "MD5": "be4991147f51ed6ca9abab38e116a999",
+                    "SHA-1": "07d62b20ec5b1c5e9db981dbc8eb5550d496c316",
+                    "SHA-256": "be6750531894595fedc56a793b2ad15449982901e113f52c343fbda8bc2d8abe",
+                    "SHA-512": "f731ef1c56c9a7bfd1904dbd6b29fcd6914c1b9d9cc61c4c5c3029be3a4e721aa803dc7a0df7a946af8d8ceb9fcf915a87c84fbd8180512869e7739fb5ce2199",
+                    "SHA3-256": "48f50ef797295a0c7c113453d3f5dd5c0bf6ce3098f9da1ccc57f283119bcaa8",
+                    "SHA3-512": "09586f81479995ca6905df9e5cd2b92e69d9c74396d746a3fbd47491ae41697060cf9ca42cddbda342d4b46f98370101064890ae563a374fe569a771a9bff6b0"
+                }
+            },
+            {
+                "source_name": "lot",
+                "external_id": "FyITsYeaLFGPkjCUT"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--29b1b9a2-0945-43f3-ad9a-e0c773feb3cd",
+        "created_by_ref": "identity--88dbca44-6f30-439a-bcbb-0894e91049c3",
+        "created": "2021-03-15T00:54:07.814486Z",
+        "modified": "2021-08-14T01:08:28.910204Z",
+        "relationship_type": "indicates",
+        "description": "Eye continue black just cold ten cold action. Avoid physical board quite when under run single. Defense hundred ability finally she chair.",
+        "source_ref": "indicator--6d8b46f5-7005-4dc2-a1c5-e4dca9a0614b",
+        "target_ref": "campaign--1c0a6795-50f4-4a61-abda-93ec0cfd8373",
+        "stop_time": "2022-08-08T05:55:33.612967Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 79,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "doctor",
+                "description": "Town born thank term house trip if.",
+                "hashes": {
+                    "MD5": "90b991cea1b22d2735ce739137d44cb9",
+                    "SHA-1": "e9d132d3514ffff11a8cd229ef7bd4e650110a41",
+                    "SHA-256": "98709e99df41d925110da8e9da7fb30e82cd5099aaebbd1fe8d65c92da8e7948",
+                    "SHA-512": "0961d7d6ac7b28cacedb026bffeeb408f51e25bf3e04fdc7cec847e3642953b1bac073ab5fb37ce08febd69e6a6a527d5d5023ebfeeac6fc87aa842f37c72112",
+                    "SHA3-256": "bc81895db2e4fc74e98fabce6ab71a85c610661d4f1b4dfb5fac3c91e73744e6",
+                    "SHA3-512": "be80cbe7c19590c7555ad7a4204623c8bc126a51adb26812962aab1fd1ac24247a2e2396f4442e2ca2bbfaf8ed7c9c1365ae4b32b9527c4ce685272418a42f12"
+                },
+                "external_id": "FkyWocIVJHXeonJUIxj"
+            },
+            {
+                "source_name": "respond",
+                "description": "Door court such design trip candidate adult."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--88dbca44-6f30-439a-bcbb-0894e91049c3",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-06-03T17:51:55.705939Z",
+        "modified": "2022-06-10T12:30:39.822808Z",
+        "name": "Conner, Garrett and Martinez",
+        "description": "Operative stable website",
+        "roles": [
+            "he",
+            "test",
+            "white",
+            "just"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 47,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

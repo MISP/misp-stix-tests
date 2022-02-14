@@ -1,0 +1,191 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--67fb0c3d-6e04-4ae7-8e81-11db0869b5f0",
+        "created_by_ref": "identity--4e93e364-65e3-4501-83e3-1caa13716c3d",
+        "created": "2022-03-10T20:30:25.053354Z",
+        "modified": "2022-08-11T02:24:20.209921Z",
+        "name": "his",
+        "description": "Need soon visit decide let.",
+        "aliases": [
+            "pretty",
+            "cold",
+            "push"
+        ],
+        "last_seen": "2020-10-21T05:11:36.21249Z",
+        "resource_level": "contest",
+        "confidence": 26,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--39934dad-079e-4b17-9c10-58b26292f094"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--283d48cb-e085-4f9f-9231-75946e28f84d",
+        "created_by_ref": "identity--4e93e364-65e3-4501-83e3-1caa13716c3d",
+        "created": "2021-04-26T16:20:05.307488Z",
+        "modified": "2021-08-14T01:08:58.392341Z",
+        "name": "fund",
+        "description": "Soldier remember hot see.",
+        "aliases": [
+            "sure",
+            "of",
+            "east",
+            "president",
+            "community"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "XNXefaGdjTUxhsQANLq",
+                "phase_name": "BNlQYBpryadBwYlQZ"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "last_seen": "2022-03-20T20:19:51.8969Z",
+        "object_marking_refs": [
+            "marking-definition--39934dad-079e-4b17-9c10-58b26292f094"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--da7e23f8-2414-4f80-82c3-286bbe99e771",
+        "created_by_ref": "identity--4e93e364-65e3-4501-83e3-1caa13716c3d",
+        "created": "2021-01-09T08:16:22.843694Z",
+        "modified": "2021-10-03T11:17:24.947797Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--67fb0c3d-6e04-4ae7-8e81-11db0869b5f0",
+        "target_ref": "infrastructure--283d48cb-e085-4f9f-9231-75946e28f84d",
+        "start_time": "2021-03-07T11:28:31.678031Z",
+        "confidence": 49,
+        "external_references": [
+            {
+                "source_name": "rate",
+                "url": "http://www.waters-lee.biz/",
+                "hashes": {
+                    "MD5": "c583035ed16f790ca7bee816e8300a6e",
+                    "SHA-1": "741cffb021ee3e24a2d2c58b6ec8ca018fad3b8c",
+                    "SHA-256": "3f893211533aeaa4dd24d57fdf8de2653b0b5c6b11bc43b89085f6be5af86864",
+                    "SHA-512": "578a45d5e13f32cf573d90cafb0e936cbf3ad3352fff90bcf934e8b74e41abd982aaf654c63417952ec38ecf4afb8f551b84540105c37f64401d0c2da55236da",
+                    "SHA3-256": "25ea176cb095538d6cef4c9d83421d0990e9ee780f051c7a2c81fb0beb52c341",
+                    "SHA3-512": "5d1eaa0fa651ee5921d99c7a7386e92c47d928a271306ea871e5693fb7bc12a75ae949e6c808f6d59507cc25487ca2f4961924d10ebe42329d6f1d4c733d0d2c"
+                },
+                "external_id": "hjkxUinaUnuKPkdizF"
+            },
+            {
+                "source_name": "bring",
+                "description": "Together big artist pay old.",
+                "url": "http://www.davila.com/",
+                "hashes": {
+                    "MD5": "29bd2610198b2f0e3f86b5e16ad98b3d",
+                    "SHA-1": "a4ea67fd5eaf9e54b7710d37671f96fd3e16f57b",
+                    "SHA-256": "0d93160afabcd38f10b2e24977ae850fce5c873deb7abdf529ed2e82a785f237",
+                    "SHA-512": "41cffd259e12c13be9c35101a19e56621b16064fb3ad4334b3d7a19b7b65913ea7276b60d30ce4de4b47671da50d42285f1e7fa6e52524bf5447ec5859f85dba",
+                    "SHA3-256": "22c1e5ba6ab6ccfadf2c0f75e7e4fdcfd2b8749ed8663bbcebd1f8e105250640",
+                    "SHA3-512": "3a4446c2b7d6f73330dc103f2aafe748cc1980519b88bd008f42823a9c0d07afed4af71ff3927edefb82b10e2ed3a0a63dc9ff1ee0e07d0e60075e287f308cf4"
+                },
+                "external_id": "rcOOTSwILko"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--39934dad-079e-4b17-9c10-58b26292f094"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--39934dad-079e-4b17-9c10-58b26292f094",
+        "created_by_ref": "identity--4e93e364-65e3-4501-83e3-1caa13716c3d",
+        "created": "2021-08-14T01:08:58.391004Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c8895e1e-4ecb-48a8-ba6f-5865a3a3066d",
+                "name": "Development get financial fill light",
+                "create_date_time": "2021-08-14T01:08:08.421416Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.421229Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4e93e364-65e3-4501-83e3-1caa13716c3d",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-03T21:33:04.427597Z",
+        "modified": "2022-12-09T19:34:40.909499Z",
+        "name": "Velez and Sons",
+        "description": "User-centric system-worthy process improvement",
+        "roles": [
+            "industry"
+        ],
+        "identity_class": "unknown",
+        "sectors": [
+            "dams"
+        ],
+        "contact_information": "6737 Rich Course Apt. 253\nAllenburgh, KS 01035",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 66,
+        "object_marking_refs": [
+            "marking-definition--39934dad-079e-4b17-9c10-58b26292f094"
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--9e9dc159-a8ba-4574-a5cf-4af78ec499c5",
+        "created_by_ref": "identity--33e2e186-b92a-4894-b2a7-ebbb89f6c428",
+        "created": "2022-06-21T15:30:54.380937Z",
+        "modified": "2022-08-30T06:52:44.51141Z",
+        "name": "quite",
+        "aliases": [
+            "begin",
+            "field"
+        ],
+        "first_seen": "2021-03-25T09:45:44.832661Z",
+        "last_seen": "2021-06-04T23:18:56.730499Z",
+        "objective": "Accept plant very myself.",
+        "labels": [
+            "decision",
+            "beyond",
+            "player",
+            "pfte-batch-1"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--e75a19fd-dc44-4a92-90a4-045c8d7d133a",
+        "created_by_ref": "identity--33e2e186-b92a-4894-b2a7-ebbb89f6c428",
+        "created": "2022-02-28T17:04:48.679326Z",
+        "modified": "2023-02-20T12:30:53.351108Z",
+        "name": "term",
+        "infrastructure_types": [
+            "staging",
+            "phishing",
+            "workstation",
+            "staging"
+        ],
+        "aliases": [
+            "because",
+            "five"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "uWYzRXgHY",
+                "phase_name": "NVBvteSiauAAcDJURHUz"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "first_seen": "2021-02-11T19:56:35.748175Z",
+        "labels": [
+            "enter",
+            "company",
+            "happy",
+            "who",
+            "either",
+            "pfte-batch-1"
+        ],
+        "confidence": 61,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--5acd4e21-dae8-45b8-9996-f1005ac437df",
+        "created_by_ref": "identity--33e2e186-b92a-4894-b2a7-ebbb89f6c428",
+        "created": "2021-10-29T12:02:02.302964Z",
+        "modified": "2022-03-03T05:41:29.123648Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--9e9dc159-a8ba-4574-a5cf-4af78ec499c5",
+        "target_ref": "infrastructure--e75a19fd-dc44-4a92-90a4-045c8d7d133a",
+        "start_time": "2022-02-03T19:40:19.551209Z",
+        "labels": [
+            "identify",
+            "pfte-batch-1"
+        ],
+        "confidence": 70,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--33e2e186-b92a-4894-b2a7-ebbb89f6c428",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-08-07T16:33:34.091774Z",
+        "modified": "2022-05-08T05:57:26.559022Z",
+        "name": "ImportantRedTough",
+        "description": "Exclusive leadingedge open system",
+        "roles": [
+            "coach",
+            "character"
+        ],
+        "identity_class": "class",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

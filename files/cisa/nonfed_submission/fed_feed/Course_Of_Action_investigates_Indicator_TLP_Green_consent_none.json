@@ -1,0 +1,246 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--36b00519-0295-4008-87d7-324c0646f560",
+        "created_by_ref": "identity--21376217-e7b0-4f37-855d-6a79d2f36dd8",
+        "created": "2021-08-04T21:28:11.175439Z",
+        "modified": "2022-02-11T21:14:01.825237Z",
+        "name": "cause",
+        "confidence": 37,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "race",
+                "description": "Cell life husband series.",
+                "url": "http://www.schroeder.net/",
+                "hashes": {
+                    "MD5": "b48fd81e607a538f07d4cd0966d13a08",
+                    "SHA-1": "5af48f46ec5fd1f4b74591df258dbe585b7a3b0d",
+                    "SHA-256": "2788fae9bbe5541ee4c6ea38a1ec512ec6f95f9f93c10ebe11135471ba94f7d7",
+                    "SHA-512": "8343ddae2d8de0afd7e5eada2e6d36e515ef0a1e378b0081087f1f75b44bc505bc6aaa5316ae4dd77224e866f4ca3cd67bda724dc805468c5a1e2a03ba8d380e",
+                    "SHA3-256": "94e2547d0400b2bd1334db36101c92663a8428ae8c59988a59a341319ed277c1",
+                    "SHA3-512": "0577471522462d342015e914740dd5526e86ad65580188bc7e3565932aa0e4e8db1318030b97037af45b8c41e5363ef87658c9247f191094e25c6c28730a02c6"
+                },
+                "external_id": "UCkFGYqwZtwNGprABPk"
+            },
+            {
+                "source_name": "forward",
+                "description": "Various consumer represent consumer ok see.",
+                "url": "http://barnett.com/",
+                "hashes": {
+                    "MD5": "277c18a628db8e8bfb85a813aa86503f",
+                    "SHA-1": "44df3b6d673e40d52daaf1be1f0479be224adfea",
+                    "SHA-256": "4a4c5fcd27f1ad63d5791b5802eeac56a61cf70abe560fe5c6c73ab835a40dab",
+                    "SHA-512": "b1ffbadb6b137757b8eaf9dbd4824b4453cfdae6556fb502298d82c5c80c357cd40eab5b89ec996e1bdb33ef069c7e2e584231d8780b3ef5a85faffe84e69c38",
+                    "SHA3-256": "aef0cac42d9fae47af9cf2a09a5910ca50c4245819599301d008e7dcf1a1f1d2",
+                    "SHA3-512": "93e98df853648a56970ca0fda88ada9bbedc560e5b6998dfa5c8045d9609fc1787628340ea36b6d12c599ed77c1f79ad5d606351ed08a4c3e0bb7f400db497e9"
+                }
+            },
+            {
+                "source_name": "fact",
+                "description": "Heavy life free thank weight boy great attention.",
+                "url": "http://www.brown.net/",
+                "external_id": "NVCoxbRlLvL"
+            },
+            {
+                "source_name": "trip",
+                "description": "Which plant quite.",
+                "url": "https://www.martin-ward.com/",
+                "external_id": "QDGEiRCNpeCH"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--de5c413a-f559-4e92-ae8f-4ceb2ca95749"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--066d534d-6a81-4077-8873-23f63b0ef472",
+        "created_by_ref": "identity--21376217-e7b0-4f37-855d-6a79d2f36dd8",
+        "created": "2021-01-27T15:30:48.978521Z",
+        "modified": "2021-08-14T01:08:21.390697Z",
+        "indicator_types": [
+            "anomalous-activity",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "[x509-certificate:subject <= 'kitchen' AND (x509-certificate:subject_public_key_exponent > 31220)] AND [software:name = 'NmQSqd'] AND [mutex:defanged = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-04-19T15:46:31.633795Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "UKiwgKzrtBa",
+                "phase_name": "YbFGiC"
+            }
+        ],
+        "labels": [
+            "perhaps",
+            "serve",
+            "billion",
+            "paper",
+            "pfte-batch-1"
+        ],
+        "confidence": 36,
+        "object_marking_refs": [
+            "marking-definition--de5c413a-f559-4e92-ae8f-4ceb2ca95749"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8abff4e3-cdc5-45f2-82c1-eadcf35cf94d",
+        "created_by_ref": "identity--21376217-e7b0-4f37-855d-6a79d2f36dd8",
+        "created": "2022-04-21T14:54:12.521701Z",
+        "modified": "2022-12-30T15:58:54.815796Z",
+        "relationship_type": "investigates",
+        "description": "Same wait tend analysis. Truth until everybody brother information walk stuff pull. Name clear our more often truth common.",
+        "source_ref": "course-of-action--36b00519-0295-4008-87d7-324c0646f560",
+        "target_ref": "indicator--066d534d-6a81-4077-8873-23f63b0ef472",
+        "labels": [
+            "seem",
+            "too",
+            "space",
+            "professor",
+            "east",
+            "pfte-batch-1"
+        ],
+        "confidence": 60,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "street",
+                "description": "Evidence strong road woman.",
+                "url": "https://wilson.com/",
+                "external_id": "ZSQvYpCgAN"
+            },
+            {
+                "source_name": "health",
+                "description": "Conference center break else actually.",
+                "url": "http://smith.com/",
+                "hashes": {
+                    "MD5": "2af0dfbb75a9dfe03e786966ab354450",
+                    "SHA-1": "38694859d8b980e14ea2011452d038bddf5248dd",
+                    "SHA-256": "14cea28965a9cd1f12aab5d526b4530eea78f35be1351a7b68a00c189f6127ee",
+                    "SHA-512": "1e4f7997ea6a4b2bdc411a037faccce6a86460b3ff6b12c4b55fbb3c4208aaaf8cf7bd2b3a1bb7511360baf5559ca145978a044b60b86da8afe5ee79c168e981",
+                    "SHA3-256": "24a3d693112c85db20471d1164cdf3d422770aeb21d15fd2705242a9e1d9ac90",
+                    "SHA3-512": "d62a57046053ab627bcc4c00bd1e056a301dbd04b06bc9b4da615a807a060d3936782e5294f48a7644de25a0e8072a2734508619e90368045e631c0b03ffbc2b"
+                },
+                "external_id": "tJmHAtPjJL"
+            },
+            {
+                "source_name": "song",
+                "description": "Mother those trip item risk different allow.",
+                "url": "https://www.weeks-white.org/",
+                "external_id": "llRedaV"
+            },
+            {
+                "source_name": "believe",
+                "description": "Whole data rate gun identify.",
+                "url": "http://www.carpenter-martinez.net/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--de5c413a-f559-4e92-ae8f-4ceb2ca95749"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--de5c413a-f559-4e92-ae8f-4ceb2ca95749",
+        "created_by_ref": "identity--21376217-e7b0-4f37-855d-6a79d2f36dd8",
+        "created": "2021-08-14T01:08:21.389383Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3d6ad3e0-0112-4a6d-8546-447c0e169799",
+                "name": "Space side determine future",
+                "create_date_time": "2021-08-14T01:08:08.419249Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--21376217-e7b0-4f37-855d-6a79d2f36dd8",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-28T00:42:21.778622Z",
+        "modified": "2022-07-25T19:54:56.921408Z",
+        "name": "WallMissBuy",
+        "roles": [
+            "seven",
+            "result",
+            "near",
+            "item"
+        ],
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 98,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--de5c413a-f559-4e92-ae8f-4ceb2ca95749"
+        ]
+    }
+]

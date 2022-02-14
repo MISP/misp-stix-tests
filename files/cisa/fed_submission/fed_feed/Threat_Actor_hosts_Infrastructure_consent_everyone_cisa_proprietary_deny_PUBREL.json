@@ -1,0 +1,197 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--ab8d9a6c-a450-4429-b160-998e77481ef8",
+        "created_by_ref": "identity--9e82c571-e480-472e-9eef-806045cb0225",
+        "created": "2021-07-28T08:48:20.936103Z",
+        "modified": "2021-09-16T04:23:15.778569Z",
+        "name": "strategy",
+        "aliases": [
+            "sound",
+            "bad",
+            "hospital"
+        ],
+        "last_seen": "2022-02-24T21:25:31.73516Z",
+        "roles": [
+            "infrastructure-operator",
+            "malware-author",
+            "sponsor",
+            "independent",
+            "director"
+        ],
+        "goals": [
+            "section",
+            "whether",
+            "music"
+        ],
+        "sophistication": "strategic",
+        "primary_motivation": "personal-gain",
+        "labels": [
+            "why",
+            "concern",
+            "might",
+            "contain",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--8ae25e4a-e343-46e8-829d-d1eba6c3b196"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--7ef65f56-7313-4b17-bb7c-8499bbfcf60a",
+        "created_by_ref": "identity--9e82c571-e480-472e-9eef-806045cb0225",
+        "created": "2021-02-22T01:27:49.578022Z",
+        "modified": "2021-09-16T00:54:55.944477Z",
+        "name": "young",
+        "aliases": [
+            "dream"
+        ],
+        "last_seen": "2020-11-19T06:42:21.497158Z",
+        "object_marking_refs": [
+            "marking-definition--8ae25e4a-e343-46e8-829d-d1eba6c3b196"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f032d163-9ff3-4609-adc0-a3fefadc79c9",
+        "created_by_ref": "identity--9e82c571-e480-472e-9eef-806045cb0225",
+        "created": "2021-08-31T23:30:10.101063Z",
+        "modified": "2022-02-16T17:30:45.888211Z",
+        "relationship_type": "hosts",
+        "source_ref": "threat-actor--ab8d9a6c-a450-4429-b160-998e77481ef8",
+        "target_ref": "infrastructure--7ef65f56-7313-4b17-bb7c-8499bbfcf60a",
+        "stop_time": "2022-03-27T12:55:10.242692Z",
+        "labels": [
+            "project",
+            "generation",
+            "miss",
+            "reach",
+            "treatment",
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "external_references": [
+            {
+                "source_name": "any",
+                "description": "Address million guy may final.",
+                "external_id": "leFHeVGvJdPSlU"
+            },
+            {
+                "source_name": "spring",
+                "description": "Participant would couple better entire over.",
+                "hashes": {
+                    "MD5": "f2583ca234e1ca575bef674e50bf2d4d",
+                    "SHA-1": "70b94695c4b186f91236a5da010172368a3cc5de",
+                    "SHA-256": "1a8d84f64d27baf2214e8ec161bf57c552d48c990f00126faeecb2fc5c01fac9",
+                    "SHA-512": "fc6a958b1081e7341d87d52245933a43193bb16f0063ba38efc383d61bfc006030786e28849ee38f53b3f81fe8ef11bdab792d993e67825cdf589133ac98d3fe",
+                    "SHA3-256": "4879a43392c6a1a576401420efdd7f082cb343ed28c072874ba2a060de67dd81",
+                    "SHA3-512": "24155fe6e44236189913ca026e43aa9ca4c6b9690ad43604064dc4df6d28654e01abb445faeca35ee7d05415208dfdfc786a4d24c761bd355970d36c8289117e"
+                },
+                "external_id": "QbFQRzGQDDSkKIRdX"
+            },
+            {
+                "source_name": "listen",
+                "hashes": {
+                    "MD5": "f4d5f1eec7d70d1d9f42a36fe01cc200",
+                    "SHA-1": "d7a0ec898aa3a11810343de07b541ff2039cd19c",
+                    "SHA-256": "fe263bc40c5fdb0faecc8fef256ab6628d12156482e8c9229de677b91969935d",
+                    "SHA-512": "8957b52902c444f9bb9004485a3c3a8ff3c28ecacf4f8d9fbf0e9fdf30fd901f1e9b3c94e5392f0cf9eb52be55dbae277538ad44a0567832efee226a0c0635e0",
+                    "SHA3-256": "6042fb66742cb20f0abedf6aab2a9aee725d36b9a0fa5dcf6d91072c21ee3131",
+                    "SHA3-512": "14a73b74d62090e24a28e85c5e930fdc8c3669e71aaa3bf52fd78b3e77e6d541979e9d38f10e45f87d367feb346a91b5add5e7008438f021f05c88eceaee1fef"
+                },
+                "external_id": "wYrxMcSLbHoZLpPqa"
+            },
+            {
+                "source_name": "sea",
+                "description": "Election collection describe choice.",
+                "external_id": "OTCnJLwLiYhyvAfQok"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8ae25e4a-e343-46e8-829d-d1eba6c3b196"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--9e82c571-e480-472e-9eef-806045cb0225",
+        "created_by_ref": "identity--9e82c571-e480-472e-9eef-806045cb0225",
+        "created": "2022-05-28T07:42:37.195564Z",
+        "modified": "2023-02-21T21:22:43.35313Z",
+        "name": "Pierce, Owens and Williams",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 67,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--8ae25e4a-e343-46e8-829d-d1eba6c3b196"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--8ae25e4a-e343-46e8-829d-d1eba6c3b196",
+        "created": "2021-08-14T01:09:26.973559Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7114ed24-0991-4631-bb44-7704e6b690d1",
+                "name": "Traditional contain thing officer story",
+                "create_date_time": "2021-08-14T01:08:08.432511Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.432344Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

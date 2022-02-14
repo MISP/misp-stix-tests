@@ -1,0 +1,127 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--c7ea8aca-45dc-4ca1-8076-bb84036d2974",
+        "created_by_ref": "identity--4a271fd4-860a-431a-8ffc-469e47e0628c",
+        "created": "2022-04-25T10:13:27.886097Z",
+        "modified": "2022-10-11T16:19:51.795305Z",
+        "name": "brother",
+        "aliases": [
+            "stop",
+            "today",
+            "catch",
+            "while",
+            "lead"
+        ],
+        "last_seen": "2022-06-23T22:04:39.433533Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "those",
+                "description": "Company player perhaps difficult.",
+                "url": "https://www.mann.biz/"
+            },
+            {
+                "source_name": "do",
+                "description": "Interest total dinner city performance hope defense.",
+                "external_id": "kXUceD"
+            },
+            {
+                "source_name": "trial",
+                "url": "https://www.marquez-williams.biz/",
+                "external_id": "LjifOAraVRU"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--b4899db0-3caa-4a07-95a7-d80ba5c1aa91",
+        "created_by_ref": "identity--4a271fd4-860a-431a-8ffc-469e47e0628c",
+        "created": "2022-01-23T01:39:58.692758Z",
+        "modified": "2022-02-12T11:00:01.011112Z",
+        "name": "clearly",
+        "description": "Car from half trial animal concern more.",
+        "last_seen": "2020-11-01T23:36:55.828158Z",
+        "roles": [
+            "director",
+            "infrastructure-architect",
+            "independent"
+        ],
+        "goals": [
+            "four",
+            "manage",
+            "lay",
+            "check",
+            "magazine"
+        ],
+        "resource_level": "individual",
+        "primary_motivation": "revenge",
+        "secondary_motivations": [
+            "dominance",
+            "personal-satisfaction"
+        ],
+        "personal_motivations": [
+            "unpredictable",
+            "unpredictable",
+            "personal-gain",
+            "dominance",
+            "unpredictable"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 48,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--eeba3340-0262-4bd5-b9a2-4133f804f2b9",
+        "created_by_ref": "identity--4a271fd4-860a-431a-8ffc-469e47e0628c",
+        "created": "2020-10-12T17:37:32.172945Z",
+        "modified": "2021-08-14T01:08:14.260029Z",
+        "relationship_type": "attributed-to",
+        "description": "Son size southern most. Position which through leave. Dark collection rate relationship focus.",
+        "source_ref": "campaign--c7ea8aca-45dc-4ca1-8076-bb84036d2974",
+        "target_ref": "threat-actor--b4899db0-3caa-4a07-95a7-d80ba5c1aa91",
+        "start_time": "2020-09-12T12:37:24.942768Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4a271fd4-860a-431a-8ffc-469e47e0628c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-03-04T17:55:27.725362Z",
+        "modified": "2022-02-20T05:03:50.421752Z",
+        "name": "SeemBigPlan",
+        "roles": [
+            "lay",
+            "police",
+            "age"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 55,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

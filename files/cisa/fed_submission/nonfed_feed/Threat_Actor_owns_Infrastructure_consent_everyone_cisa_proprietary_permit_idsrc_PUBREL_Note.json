@@ -1,0 +1,136 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--8b5daa45-17b8-48ec-8c06-249205d4673f",
+        "created_by_ref": "identity--de22e5ec-af36-4306-9ed0-7ef7ba0a9527",
+        "created": "2021-07-12T20:52:44.834581Z",
+        "modified": "2021-09-12T16:37:33.963001Z",
+        "name": "cover",
+        "description": "Adult option event reason friend government.",
+        "aliases": [
+            "think"
+        ],
+        "roles": [
+            "sponsor",
+            "infrastructure-operator",
+            "independent",
+            "malware-author"
+        ],
+        "sophistication": "expert",
+        "resource_level": "organization",
+        "primary_motivation": "organizational-gain",
+        "personal_motivations": [
+            "revenge",
+            "dominance",
+            "accidental",
+            "personal-gain",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 62,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--7f57d52e-41e6-4253-8257-87a66223648e",
+        "created_by_ref": "identity--de22e5ec-af36-4306-9ed0-7ef7ba0a9527",
+        "created": "2022-03-17T09:43:09.731567Z",
+        "modified": "2022-07-24T12:58:33.784551Z",
+        "name": "red",
+        "aliases": [
+            "vote",
+            "teacher"
+        ],
+        "first_seen": "2021-12-05T20:44:19.591917Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d982d150-b949-450b-b790-b5c8bc542ef4",
+        "created_by_ref": "identity--de22e5ec-af36-4306-9ed0-7ef7ba0a9527",
+        "created": "2021-05-02T06:44:11.813803Z",
+        "modified": "2021-08-14T01:09:28.030945Z",
+        "relationship_type": "owns",
+        "source_ref": "threat-actor--8b5daa45-17b8-48ec-8c06-249205d4673f",
+        "target_ref": "infrastructure--7f57d52e-41e6-4253-8257-87a66223648e",
+        "labels": [
+            "adult",
+            "order",
+            "entire",
+            "pfte-batch-1"
+        ],
+        "confidence": 59,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--cc0d959d-d349-43b3-b486-8a9575e464fe",
+        "created_by_ref": "identity--de22e5ec-af36-4306-9ed0-7ef7ba0a9527",
+        "created": "2021-04-17T07:43:32.286309Z",
+        "modified": "2021-09-01T08:22:13.538897Z",
+        "content": "Social town share main leg nothing including. Hot business ahead role left that type.",
+        "authors": [
+            "share",
+            "establish",
+            "far",
+            "clearly",
+            "clear"
+        ],
+        "object_refs": [
+            "threat-actor--8b5daa45-17b8-48ec-8c06-249205d4673f",
+            "infrastructure--7f57d52e-41e6-4253-8257-87a66223648e",
+            "relationship--d982d150-b949-450b-b790-b5c8bc542ef4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 68,
+        "external_references": [
+            {
+                "source_name": "discover",
+                "description": "Politics environmental only interesting two while phone.",
+                "external_id": "fPLsFsODMoDRmPmcujV"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--de22e5ec-af36-4306-9ed0-7ef7ba0a9527",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-14T04:40:42.22483Z",
+        "modified": "2022-02-07T15:57:06.963141Z",
+        "name": "Robbins, Clark and Jones",
+        "description": "Digitized intermediate benchmark",
+        "identity_class": "individual",
+        "contact_information": "13699 Curtis River Suite 772\nTorresmouth, OK 58860",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

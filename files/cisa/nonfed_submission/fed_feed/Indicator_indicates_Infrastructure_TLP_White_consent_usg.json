@@ -1,0 +1,204 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--2ac3d469-9871-4fec-acd8-6a5b1e082ddc",
+        "created_by_ref": "identity--0be0f38e-23ee-41c8-9b27-8f73a89545d8",
+        "created": "2021-01-31T07:55:34.721443Z",
+        "modified": "2021-08-14T01:08:29.868991Z",
+        "pattern": "(([email-addr:display_name <= 'Larry Savage' OR x509-certificate:validity_not_after > t'2021-12-25T15:05:35.537349Z' OR (mac-addr:value = '4a:6d:be:68:99:e3')]) OR [(windows-registry-key:key <= 'pkhpR') AND windows-registry-key:key < 'KWAdNnbYMlhiC'])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-05-07T18:31:28.324603Z",
+        "valid_until": "2022-01-30T11:25:04.742064Z",
+        "confidence": 83,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "group",
+                "description": "Different capital lead.",
+                "url": "http://www.rose.com/"
+            },
+            {
+                "source_name": "specific",
+                "description": "Close foot camera agreement or prepare.",
+                "url": "http://www.cook.net/",
+                "hashes": {
+                    "MD5": "90b487f7a13032423a0b2fa106eb02ce",
+                    "SHA-1": "b7c6871578f95845fd4f961a847b8be9eb937cc8",
+                    "SHA-256": "267feecfd760d0365d5750c12b0d112f46224ac548104259bc53e9b82c1e3db7",
+                    "SHA-512": "9a43dbc6bd6a990415680e3552ce7d6a9ed9af32f71ad859478860499c9a5c235c84fb5c8ec585daa889a0c39c182986ae1e6a5d62dce09cf2fdb9de7ff854b3",
+                    "SHA3-256": "b7011bfd3287aff3c87671f0a9ba8835be5e1c331a46ce95140ad8703ad75e16",
+                    "SHA3-512": "f7cfdbcb774a29da3fb7ebcf9876fd029399a53d2166b8a4328997c581d275f0a6ec8e67ba9be684a9db7f9ec3cf56147a6e89bd2373e3dbdf8691870e793c44"
+                },
+                "external_id": "FTjAhJNQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2994b24b-6cde-4843-bc7c-006f5eedf844"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--a36f176b-383f-4b2e-ab00-6de102e56b72",
+        "created_by_ref": "identity--0be0f38e-23ee-41c8-9b27-8f73a89545d8",
+        "created": "2022-07-16T23:50:49.344113Z",
+        "modified": "2023-06-10T04:44:03.321512Z",
+        "name": "cost",
+        "description": "Medical scene list seek including surface.",
+        "aliases": [
+            "yet",
+            "black",
+            "or",
+            "end",
+            "note"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "iisKWKrsqU",
+                "phase_name": "DbffpsQidfYgTkCxRr"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "first_seen": "2022-01-18T04:03:56.11552Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2994b24b-6cde-4843-bc7c-006f5eedf844"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e6a265b1-475e-45e2-b0ef-085d5fd901da",
+        "created_by_ref": "identity--0be0f38e-23ee-41c8-9b27-8f73a89545d8",
+        "created": "2021-06-26T14:20:04.427619Z",
+        "modified": "2022-03-29T17:30:08.860124Z",
+        "relationship_type": "indicates",
+        "description": "Activity six reason hospital successful hit opportunity. Store capital material civil. Million city read consumer finish.",
+        "source_ref": "indicator--2ac3d469-9871-4fec-acd8-6a5b1e082ddc",
+        "target_ref": "infrastructure--a36f176b-383f-4b2e-ab00-6de102e56b72",
+        "start_time": "2022-03-06T10:24:34.816226Z",
+        "confidence": 31,
+        "object_marking_refs": [
+            "marking-definition--2994b24b-6cde-4843-bc7c-006f5eedf844"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2994b24b-6cde-4843-bc7c-006f5eedf844",
+        "created_by_ref": "identity--0be0f38e-23ee-41c8-9b27-8f73a89545d8",
+        "created": "2021-08-14T01:08:29.868199Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0be0f38e-23ee-41c8-9b27-8f73a89545d8",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-04-04T12:11:19.634037Z",
+        "modified": "2022-12-22T19:40:27.847046Z",
+        "name": "Mitchell LLC",
+        "identity_class": "individual",
+        "sectors": [
+            "healthcare",
+            "pharmaceuticals",
+            "mining",
+            "entertainment"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 90,
+        "external_references": [
+            {
+                "source_name": "professional",
+                "description": "Into Democrat wish likely."
+            },
+            {
+                "source_name": "what",
+                "description": "Arrive black million sell.",
+                "url": "https://landry-oliver.net/"
+            },
+            {
+                "source_name": "side",
+                "description": "Policy represent Republican teacher.",
+                "url": "https://jones.com/",
+                "external_id": "nTmsMHyVwngeZPfWsu"
+            },
+            {
+                "source_name": "four",
+                "url": "https://stevenson.com/"
+            },
+            {
+                "source_name": "receive",
+                "url": "https://www.stevenson-becker.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2994b24b-6cde-4843-bc7c-006f5eedf844"
+        ]
+    }
+]

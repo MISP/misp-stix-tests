@@ -1,0 +1,175 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--d410a639-7698-4b76-8831-f9bf71d6b662",
+        "created_by_ref": "identity--db217d7b-77c2-4d1b-a136-2eac1ea2af6a",
+        "created": "2020-12-07T12:09:18.633513Z",
+        "modified": "2021-08-14T01:08:23.62319Z",
+        "name": "attack",
+        "description": "He energy learn move listen.",
+        "confidence": 94,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "oil",
+                "description": "Front feel loss sort increase let employee.",
+                "url": "http://lawson.info/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e0f6f35b-927f-4621-a167-8ab880ee946d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--e12ae5a8-2bc2-488c-bd83-94f7966f5495",
+        "created_by_ref": "identity--db217d7b-77c2-4d1b-a136-2eac1ea2af6a",
+        "created": "2020-12-21T17:17:26.472928Z",
+        "modified": "2021-08-14T01:08:23.623495Z",
+        "name": "television",
+        "description": "Describe term deal certain collection growth.",
+        "indicator_types": [
+            "unknown"
+        ],
+        "pattern": "[autonomous-system:name NOT = 'Olson, Scott and Barrera']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-09-26T10:54:24.658441Z",
+        "valid_until": "2021-10-18T11:48:22.291821Z",
+        "confidence": 40,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "spring",
+                "description": "Edge them generation politics including guy condition."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e0f6f35b-927f-4621-a167-8ab880ee946d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1cf880eb-7315-46e5-a4fb-88b5af6a27fa",
+        "created_by_ref": "identity--db217d7b-77c2-4d1b-a136-2eac1ea2af6a",
+        "created": "2022-01-21T21:50:05.164936Z",
+        "modified": "2022-02-14T18:50:21.182708Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--d410a639-7698-4b76-8831-f9bf71d6b662",
+        "target_ref": "indicator--e12ae5a8-2bc2-488c-bd83-94f7966f5495",
+        "stop_time": "2021-12-23T23:01:58.120866Z",
+        "confidence": 73,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e0f6f35b-927f-4621-a167-8ab880ee946d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--db217d7b-77c2-4d1b-a136-2eac1ea2af6a",
+        "created_by_ref": "identity--db217d7b-77c2-4d1b-a136-2eac1ea2af6a",
+        "created": "2021-06-16T04:35:57.812723Z",
+        "modified": "2022-03-24T11:25:52.030682Z",
+        "name": "Whitaker-Washington",
+        "sectors": [
+            "education",
+            "energy"
+        ],
+        "external_references": [
+            {
+                "source_name": "strong",
+                "url": "https://www.brennan.com/",
+                "hashes": {
+                    "MD5": "27f8a4969c98b3c3ff483b202da4b4b5",
+                    "SHA-1": "05e5cac95a2527532b374f4920f300d1f791ebef",
+                    "SHA-256": "1a13def9c794c62e792afa1ff07f4a98735f1a89d2d9ada306c3cde2655d2f99",
+                    "SHA-512": "140d9bd9459bcf0830ca1ce7ad7da72c884d95d4ba3bc9db24858ddcf56758f1f758fa3180e29ef7529fc58b7fab5f9feda12353e8e4c827485e1935354251f7",
+                    "SHA3-256": "f0ecde8d1b38fe78cd62f3c42dce7a98817c3ba7f2ba1f60f3dbb027ad6147b0",
+                    "SHA3-512": "708fcd36bb03bb4ab153323061eb0fc4bc90d84ac7a5b4171388fe229731c241a864664f9883896d0616d9be973f46f81f3933d97b69ed67feaa15b4ffc9c7a3"
+                },
+                "external_id": "PhnBuEvCI"
+            },
+            {
+                "source_name": "color",
+                "description": "Lead able back modern law national."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e0f6f35b-927f-4621-a167-8ab880ee946d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--e0f6f35b-927f-4621-a167-8ab880ee946d",
+        "created": "2021-08-14T01:08:23.622492Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-44002952-ef1b-4819-85db-bdfcd1864e5e",
+                "name": "Free major nothing gun",
+                "create_date_time": "2021-08-14T01:08:08.424588Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.424412Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

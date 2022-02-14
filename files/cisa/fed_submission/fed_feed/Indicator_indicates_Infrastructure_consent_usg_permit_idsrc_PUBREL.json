@@ -1,0 +1,287 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--3c917fa2-373a-4a25-b584-6f3d92dd7c81",
+        "created_by_ref": "identity--6bc3354b-393e-4fce-8b22-855c205ede8a",
+        "created": "2020-09-07T21:59:06.6125Z",
+        "modified": "2021-08-14T01:08:30.50666Z",
+        "name": "check",
+        "indicator_types": [
+            "attribution",
+            "anomalous-activity",
+            "unknown"
+        ],
+        "pattern": "((([domain-name:defanged NOT = false] FOLLOWEDBY [domain-name:defanged NOT = false])) OR [(ipv6-addr:defanged = false) AND ipv6-addr:value NOT = '4023:426d:8cc6:2af2:66e0:edb1:87ee:81fe'])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-01-27T23:45:09.956876Z",
+        "valid_until": "2022-07-02T20:56:14.824307Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "GuqnfO",
+                "phase_name": "BnbmSPysp"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "cFVgpjlwmhjh",
+                "phase_name": "npxJvRwyIcQJuX"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "external_references": [
+            {
+                "source_name": "responsibility",
+                "description": "Us cut wrong.",
+                "hashes": {
+                    "MD5": "5f36956daf85cb142a8ed011c318df4d",
+                    "SHA-1": "f78f033c5bb31d3ec0f6ab73400d75be4769bed2",
+                    "SHA-256": "a25bc9599ac17181cc08c083e7a9269330ecdf2a11acba1d45df531fe825469d",
+                    "SHA-512": "29fffa18fb26218a9b0c5040ef7914083599c85e30e3c6625c427f1e597494067c81b6bf9518a4bb10607418d9803b58e757afbb030d3458423b146e61a6b52f",
+                    "SHA3-256": "5ba68a145b32bd030fa1e97d3c7144ecb880d6e3d9ac240b61b7b24cbdc7e9af",
+                    "SHA3-512": "a759b7a240a727dcb2c18d74855da5288c71fe6c88bd960dc5ecb0204e22a394e9018d9c3edf314139f056b9cf45ba2c06244e1fa016c06cd7c082444c69d666"
+                },
+                "external_id": "QyTHgqVoJLz"
+            },
+            {
+                "source_name": "true",
+                "description": "Measure cost show.",
+                "external_id": "naXqqNxiz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1c74199a-1db8-4b72-8974-adbd3f1df279"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--ff866d39-c317-4fc2-a502-2a4948ce55c1",
+        "created_by_ref": "identity--6bc3354b-393e-4fce-8b22-855c205ede8a",
+        "created": "2021-06-22T13:01:55.459131Z",
+        "modified": "2022-02-14T11:47:16.264354Z",
+        "name": "hotel",
+        "infrastructure_types": [
+            "phishing"
+        ],
+        "first_seen": "2021-04-17T13:30:38.605263Z",
+        "last_seen": "2022-01-11T20:06:01.786197Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "guess",
+                "description": "Enjoy large point trouble.",
+                "external_id": "htObVpvlqgSCdgIu"
+            },
+            {
+                "source_name": "idea",
+                "external_id": "jlqyVGeEnwDigEIGy"
+            },
+            {
+                "source_name": "wide",
+                "description": "Choose play conference.",
+                "url": "https://moore.com/",
+                "hashes": {
+                    "MD5": "5793dd803c112bb3f744fe79ebda2e87",
+                    "SHA-1": "05e7ba8d8f6e5ef39ead45f6087847246eb046d7",
+                    "SHA-256": "cc2dbf6083963cacfe54b0d5c4f8c723818d6cc790d25693117e5392d1f320ef",
+                    "SHA-512": "2bbc0e402b45fd35c54a6af27721719acc553619098f54f14ef143b6a177085980321b5f6d4d7d9fc57f402ccddf1097a66cfaedf73100fcf0b2252a3fdf5c36",
+                    "SHA3-256": "43f288ffce91769b6950d3bd0e8872f316efae6e6d7ba6e67dec6f7bb4067467",
+                    "SHA3-512": "b4596b7e7040743d6cf72538f22ad6a0bcd4cc65db71d4dab92bc587c3b23f5ecadd191aac79fb9c32a7689522bfd232e0109ce26cc262483099b87b4d3ffbcd"
+                }
+            },
+            {
+                "source_name": "strategy",
+                "description": "Heavy television yard manage.",
+                "url": "https://www.smith.com/",
+                "hashes": {
+                    "MD5": "7fe7949febe6c225661b4c4b3a09da86",
+                    "SHA-1": "62eaf2d58e75a32b6fd0f12e5b918e75ef6b6f23",
+                    "SHA-256": "7dfc19ce3f1337f9704551633c4408c437dc62fc479e6503d213588b5adbc3ba",
+                    "SHA-512": "1b1da499bed22387ee0016efdfd591b4230de199e1dc7e88a7356a2aeac02e1a998fbe444064588aaf8165a37d3eff447f2645da26fa2a4424b2ba1c102a7159",
+                    "SHA3-256": "b35dfd3d14273c06295abbdec51dd07d116475aa195e46a48e5aa498d48a9515",
+                    "SHA3-512": "8317b4c84ffdff3382f518c97ae70da69519933cb77280fc947f75074faa4e9c651177d5fd1ca86c64e16ae29bc78e5928f7e39d1dac4715c7c0c9f8c8962c84"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1c74199a-1db8-4b72-8974-adbd3f1df279"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b96cbd51-0fd3-4c73-917d-0f7ae2109c50",
+        "created_by_ref": "identity--6bc3354b-393e-4fce-8b22-855c205ede8a",
+        "created": "2021-10-30T23:02:28.681124Z",
+        "modified": "2021-11-22T14:54:04.166929Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--3c917fa2-373a-4a25-b584-6f3d92dd7c81",
+        "target_ref": "infrastructure--ff866d39-c317-4fc2-a502-2a4948ce55c1",
+        "external_references": [
+            {
+                "source_name": "data",
+                "description": "Win chair safe commercial campaign.",
+                "external_id": "YtPyc"
+            },
+            {
+                "source_name": "describe",
+                "description": "Me big career section capital song record.",
+                "url": "https://www.vasquez-wilson.com/",
+                "hashes": {
+                    "MD5": "8e153be1347d5415a3a2e7b1bac309ae",
+                    "SHA-1": "645bbc5c59549618e83f9890a3767069dfaf517a",
+                    "SHA-256": "08943211de0d3717ada9a4d6db082dc42c9eaaea8f58792904fb1e6ecb637026",
+                    "SHA-512": "98a28825ce47cc87b4bf9530c95024020d8088e47f93c8198eac7e16cd1bba22c4a8b2cf6b45208c315f861a370bdc1aa3677908d3f69cde985c059d0febce59",
+                    "SHA3-256": "3d2d52706f64e544d6be2fb0e0918775b4a1c6c06742fd9168227d9d23d596b1",
+                    "SHA3-512": "77b9ae54d93e8324ebf7fd3ff0b05a004765220004e03cc9d7287987151427c409f971124d9936bddff7cfbf5b4cda65610ff3dd27bc45f6a09a4f9ce6a7fe22"
+                }
+            },
+            {
+                "source_name": "miss",
+                "url": "http://elliott.com/",
+                "external_id": "FjBZVE"
+            },
+            {
+                "source_name": "what",
+                "description": "Sing himself amount civil.",
+                "hashes": {
+                    "MD5": "22cc40017761e892b848a0f12e706f11",
+                    "SHA-1": "01483af6032b4bc78f815d2212d31eb33ba91fe0",
+                    "SHA-256": "9bb34b9bc3a08029a4972082e3f3833ce119fe7a0dc29ba2e7dc02dcc19f9547",
+                    "SHA-512": "34fc71709afb3911e95adfa094bfdbfbff17076578df28d400fbc455a8f9da131a58777c00442d3a1049d105e0ba865e227443c29acdbfbf62c17c0b35a2213f",
+                    "SHA3-256": "1a42c02f45e0a3fb8f349b6163f6a56bf3d0812ba9f8820e1540e1de29f6c24d",
+                    "SHA3-512": "649cd5c4925742668e3d99c4d3d62a8a06423fc34ef668dcbf0ef5bb4bee7cbf578767b1f1b38920742b9008670dfa91459d74adc4f34b34ed71c5ec4cd7fa95"
+                },
+                "external_id": "catxZEm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1c74199a-1db8-4b72-8974-adbd3f1df279"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6bc3354b-393e-4fce-8b22-855c205ede8a",
+        "created_by_ref": "identity--6bc3354b-393e-4fce-8b22-855c205ede8a",
+        "created": "2020-12-23T12:33:26.25321Z",
+        "modified": "2021-10-12T05:57:01.724111Z",
+        "name": "James-Perez",
+        "description": "Organic didactic website",
+        "roles": [
+            "fast",
+            "know",
+            "design",
+            "music",
+            "bill"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "pharmaceuticals"
+        ],
+        "confidence": 82,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--1c74199a-1db8-4b72-8974-adbd3f1df279"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--1c74199a-1db8-4b72-8974-adbd3f1df279",
+        "created": "2021-08-14T01:08:30.505538Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-147f852e-75ac-49e9-b9d2-55199760c488",
+                "name": "Yes might consider why south he",
+                "create_date_time": "2021-08-14T01:08:08.429077Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.428904Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

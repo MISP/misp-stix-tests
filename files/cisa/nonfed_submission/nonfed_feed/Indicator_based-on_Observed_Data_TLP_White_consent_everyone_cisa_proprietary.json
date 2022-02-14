@@ -1,0 +1,114 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--4a49ff0d-f59d-4cfe-9ed2-3d1790eea9f3",
+        "created_by_ref": "identity--9e39a79e-f101-4f58-92bc-453c4ca1cae3",
+        "created": "2020-08-26T22:08:40.461598Z",
+        "modified": "2021-08-14T01:08:36.56396Z",
+        "name": "thing",
+        "indicator_types": [
+            "unknown",
+            "unknown",
+            "malicious-activity",
+            "unknown"
+        ],
+        "pattern": "([ipv4-addr:value > '119.73.28.44']) FOLLOWEDBY [autonomous-system:rir NOT = 'Dunn, Lewis and Howard'] FOLLOWEDBY [mutex:name <= 'compare']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-04-16T11:35:21.700667Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--7f78d9f3-b53b-42ca-a1ad-6243d9ac0f64",
+        "created_by_ref": "identity--9e39a79e-f101-4f58-92bc-453c4ca1cae3",
+        "created": "2020-08-13T19:25:46.610471Z",
+        "modified": "2021-08-14T01:08:36.566245Z",
+        "first_observed": "2021-06-06T04:19:35.346629Z",
+        "last_observed": "2021-06-09T18:05:38.154974Z",
+        "number_observed": 125581351,
+        "objects": {
+            "mac-addr--7a261b96-d2f6-44cc-a446-3fa3fb17fc1a": {
+                "type": "mac-addr",
+                "spec_version": "2.1",
+                "id": "mac-addr--7a261b96-d2f6-44cc-a446-3fa3fb17fc1a",
+                "value": "db:db:f8:f9:86:4b"
+            }
+        },
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--96d6ac68-d45d-431c-b083-5b754117f870",
+        "created_by_ref": "identity--9e39a79e-f101-4f58-92bc-453c4ca1cae3",
+        "created": "2022-02-21T19:31:14.30266Z",
+        "modified": "2022-06-28T21:37:11.933874Z",
+        "relationship_type": "based-on",
+        "source_ref": "indicator--4a49ff0d-f59d-4cfe-9ed2-3d1790eea9f3",
+        "target_ref": "observed-data--7f78d9f3-b53b-42ca-a1ad-6243d9ac0f64",
+        "stop_time": "2020-09-26T07:51:09.059435Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "buy",
+                "description": "Easy position manage final management.",
+                "url": "http://stewart-donovan.com/",
+                "external_id": "eaoHrQRnINVW"
+            },
+            {
+                "source_name": "event",
+                "description": "Popular question believe tell size.",
+                "hashes": {
+                    "MD5": "1680b7c1f3f12e0aa0ea47a5c1870532",
+                    "SHA-1": "ecd7ca50f85518e7a5e540527f6a4a3578c01762",
+                    "SHA-256": "9d86d68887c2afb8ae78716c37945229993f669db3b9d8a7c77e4c4f704d72c8",
+                    "SHA-512": "f8bc5ce73bb84b18f32472728b968e95800180a4a762c8b21463f85e8cc8b6afc029088b8b11b3413f9ac568b8ca323aaa11c40bd1c67d3224c172a96de07aad",
+                    "SHA3-256": "609bbcfd0fbd8f93d200a436df1733bf6d6a0b490e085a2a664315c706be494b",
+                    "SHA3-512": "1d9e93fe19872c65e101f923539fa291ef570ab47224d985333ae7f99d08146d3ecf5627897264788c7d13349c33db68ece631402b79009c94c712c6286b0388"
+                },
+                "external_id": "rILLTaogz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--9e39a79e-f101-4f58-92bc-453c4ca1cae3",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-12-28T03:33:25.543798Z",
+        "modified": "2022-12-10T10:32:17.42786Z",
+        "name": "Cross, Spencer and Robles",
+        "description": "Configurable cohesive challenge",
+        "identity_class": "class",
+        "sectors": [
+            "manufacturing",
+            "emergency-services"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

@@ -1,0 +1,190 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--062992b0-3a00-4e08-88d6-40288e14bba2",
+        "created_by_ref": "identity--bf10b786-574e-4d8f-88e1-e000b348841d",
+        "created": "2022-03-19T09:32:33.418988Z",
+        "modified": "2022-11-18T22:50:11.94677Z",
+        "name": "recently",
+        "description": "Run amount not stock space black.",
+        "labels": [
+            "traditional",
+            "pfte-batch-1"
+        ],
+        "confidence": 39,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--b9f60b44-e007-4e9e-9273-6ef22ba3bfe4",
+        "created_by_ref": "identity--bf10b786-574e-4d8f-88e1-e000b348841d",
+        "created": "2020-08-16T06:57:55.572934Z",
+        "modified": "2021-08-14T01:08:23.537618Z",
+        "pattern": "(([ipv6-addr:defanged = false] WITHIN 4 SECONDS) FOLLOWEDBY [url:value < 'http://www.alvarado.info/'] WITHIN 8 SECONDS)",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-03-08T06:43:35.503858Z",
+        "valid_until": "2020-10-14T21:17:26.954253Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "labels": [
+            "drop",
+            "expert",
+            "candidate",
+            "part",
+            "pfte-batch-1"
+        ],
+        "confidence": 26,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--fa4dcde6-a58a-4b03-bd3d-19d8a52973fc",
+        "created_by_ref": "identity--bf10b786-574e-4d8f-88e1-e000b348841d",
+        "created": "2021-05-04T08:48:25.196716Z",
+        "modified": "2022-04-04T17:53:10.088742Z",
+        "relationship_type": "mitigates",
+        "description": "Kid me issue cut check thousand let. Lawyer father fact lead arm different lot.",
+        "source_ref": "course-of-action--062992b0-3a00-4e08-88d6-40288e14bba2",
+        "target_ref": "indicator--b9f60b44-e007-4e9e-9273-6ef22ba3bfe4",
+        "start_time": "2020-08-17T08:15:25.629361Z",
+        "stop_time": "2020-09-20T00:21:27.50518Z",
+        "labels": [
+            "southern",
+            "night",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "gun",
+                "description": "Exist indicate face management later.",
+                "hashes": {
+                    "MD5": "a077906db099d13fea798f1c2a155cbd",
+                    "SHA-1": "ce62ffa04538cb9b33dcaf4b6debe3f5a5be7ab6",
+                    "SHA-256": "2091a9ad4955a9509a0e05d09c4c5a241b4047faa4245d427abe8f893fc7d599",
+                    "SHA-512": "68ebb2a071a0af19185757af87e1b8f89f87f96d16a96bdda5b2eb9c3064bf055c370e10f1787eb21c670d5b60b8ead68f911d0cfead0f638d5800579b85452d",
+                    "SHA3-256": "5b73cea8b61bcee16d4747946a06be10990a3cfa8ef1dbe0c25f32f08333efbf",
+                    "SHA3-512": "de52351bbf55767001cec78600f7c4d53a6c523a3e81255e75d1756e0da31b5af9ee465016b49e391c38b0ae584692d76566074bf532966aaa6c2e630de12373"
+                },
+                "external_id": "ddzmNtnuDTlW"
+            },
+            {
+                "source_name": "tree",
+                "description": "Close sort sound hot thank that.",
+                "url": "https://www.harmon-burns.com/",
+                "hashes": {
+                    "MD5": "515be1630a104c3e2d088ba399dfed4d",
+                    "SHA-1": "a89f5555f7da252eb10a4e713fb08c439282252a",
+                    "SHA-256": "7b6a8726562fda74c4fe3035c5cc040238fed29273349350b65655d10337c981",
+                    "SHA-512": "0370f7f1bdf2e6a2faf07ea9d1e0be3e13dbfa56180b49b631bc56aaa0ba6dd6b3f97d258455ebf6dcd0d3559be37947a06350c5f92e982ee7a76e0b315199fa",
+                    "SHA3-256": "49d63e07510b55e6ed5734986ad8707b871e55cdb2b677f7fa733e2363fe12cd",
+                    "SHA3-512": "d073255291d4fc915bafd16abbc77f82c9f7a2d1f74bee8d5de676eadecc08fedc46367e11b78d988cb82b638c9f487ff5ba70cd83f22274012dd05e96348109"
+                }
+            },
+            {
+                "source_name": "board",
+                "description": "Hit company consumer against.",
+                "url": "https://www.black.com/",
+                "hashes": {
+                    "MD5": "5961ca746c28ddcec803b93e96a3af2b",
+                    "SHA-1": "f2895e9038d8ccc070ffef97b04acab4faa3f946",
+                    "SHA-256": "6b3dae37c9dd6b05574f628a6c6a793ff6e771aa99794130798bc388f4b1f2be",
+                    "SHA-512": "07cee87b86a306f4c9f59b3ee2d9bbfad28e9837f3fc1f328d3bfffa62b53519c1c420b72e0992fb8284aa64d9815129a6c85729c981cfc15e0598b56a0b61af",
+                    "SHA3-256": "3a9dd3ab58ebac3c00a416b42f96266ccdc64223890821ceb036148a3d3ea439",
+                    "SHA3-512": "821f9ae93bc09ff8ed453157bf8fa9d5b4e42281c5aaf1303609a283548222003f9ac5d7119424fe6105c2276323bdcb1f921dfb5cf0a2fa2238ce3be176f035"
+                },
+                "external_id": "TFCrU"
+            },
+            {
+                "source_name": "sea",
+                "description": "Quality number exist attorney evidence.",
+                "hashes": {
+                    "MD5": "970fb1b75b164c085b88c0f15ff1311c",
+                    "SHA-1": "aefb90871d30da1c28ceaeee800e585beb0324b4",
+                    "SHA-256": "d035a3d5eba2136ab2592f001bac51c8f98962d9dad799eb7e15ee06eb1ac1f5",
+                    "SHA-512": "95b186590a2f7d5ea65dace9642d51fcbbbbe982fe06e7bf84fa4683a11bcfba437d9d01183f12f0c90ea5b132b0b99c5f75de300b8ba2dd59fbfa5c3d025d34",
+                    "SHA3-256": "d3f24175267f149171af6facde2a3c7ea55ce8b7b59248f6c10ae5546e2dbc40",
+                    "SHA3-512": "a60986fbf76b480589d0091b4919fff9ad4ba8f3f8eca0d7afc8cddc8231eb860ffc55517a02954a4d53a9ad21890bbcbcaed2bc19a35769525d4fd9d41a9a78"
+                }
+            },
+            {
+                "source_name": "else",
+                "description": "Training what economic subject whole model.",
+                "external_id": "rZtcEGDCCvVvyXZOZc"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--bf10b786-574e-4d8f-88e1-e000b348841d",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-28T06:23:58.317037Z",
+        "modified": "2021-12-25T04:40:34.318546Z",
+        "name": "Clayton, Gomez and Drake",
+        "description": "Vision-oriented maximized leverage",
+        "roles": [
+            "image",
+            "knowledge",
+            "concern",
+            "share"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 67,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "two",
+                "url": "http://www.edwards.com/",
+                "external_id": "qsdqTPWMrEoykMym"
+            },
+            {
+                "source_name": "himself",
+                "description": "Sound executive medical ball.",
+                "url": "https://www.evans-wilkins.com/",
+                "hashes": {
+                    "MD5": "8715df64d5c94b675daf7069a6aba2f4",
+                    "SHA-1": "feafd54797033c70adf45a38ff69b019b36c7ca9",
+                    "SHA-256": "12214337ecc1878d97a47e56887c660057018bf2fb74949a1d4aeeaf045fdcd1",
+                    "SHA-512": "fac5474b7ee41a80dc06845d0343a0e685e717ba7c859796318ad9f4b09be8644ce52e69fe2d20b8c5fd6da9ceac2b2283810f151ccf6f73eafb58b4e8df6be3",
+                    "SHA3-256": "b1f06848d0ec56c1f31a20afda188470b05679d6782dcebecd040d6c44a7dc40",
+                    "SHA3-512": "6c678375bf17f8732610fca7cb21d011681ee948c05d04fd690df17cba6eafb15ce189b2385fbbef391612bef879c473b1a0dfefc9f54900e02f150aca2e1e3b"
+                }
+            },
+            {
+                "source_name": "act",
+                "hashes": {
+                    "MD5": "90af53dae13b264a2753f1e383611823",
+                    "SHA-1": "6c2f7bf6b5716a651bae96562bd4a5f0ad192937",
+                    "SHA-256": "8a5286839159436e0e8e132d9ef5bf75f352bb7a4f09b6f322168b011542d327",
+                    "SHA-512": "c1fe00edb306d0203e21eaed5a7ec8916a032cb83fc6745f63f41b27792b2af7859af8fc01573e33cc223d090dcdf90f65cfe7511e1ac5f30da9e2ec0b0fd495",
+                    "SHA3-256": "4e726d9699f57fb1e7c154098ea7fb9705baafef97965301fc436bff063efa54",
+                    "SHA3-512": "e4094b3cc277fc0b8d27ecd27ffb620f2cb3ad30b94ccc2dbea3363c66b3ade2c1372a3c2f8f639b3599d10490614748661b92784ca2685b02b86dd21bae5314"
+                },
+                "external_id": "eIonsruwpgLitaFYKj"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

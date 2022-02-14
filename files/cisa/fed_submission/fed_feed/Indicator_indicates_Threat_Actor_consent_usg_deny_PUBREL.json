@@ -1,0 +1,208 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--6d689726-832d-4461-add5-bd596d68b341",
+        "created_by_ref": "identity--cd05eaa4-27b0-4c67-ac83-514476ba69e1",
+        "created": "2022-07-30T22:23:49.335133Z",
+        "modified": "2022-12-23T03:29:01.31448Z",
+        "description": "Reason behind support effect management something.",
+        "pattern": "[process:created_time = t'2021-11-18T18:49:02.356676Z' OR autonomous-system:defanged = false OR (file:name < 'soon.mp3')] FOLLOWEDBY [file:defanged = false] FOLLOWEDBY ([mac-addr:value >= '43:7b:31:55:0e:d8'] START t'2021-07-02T17:56:02.945127Z' STOP t'2022-02-03T18:52:50.221016Z')",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-12-11T09:56:05.298511Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "sAMJna",
+                "phase_name": "mrsIspewBZQNlOgucb"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "confidence": 32,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fed3e3cb-e6f6-4dee-9b9b-38b7d6defd7e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--e06054ae-758f-4292-a454-b0499b7a37f6",
+        "created_by_ref": "identity--cd05eaa4-27b0-4c67-ac83-514476ba69e1",
+        "created": "2021-12-10T02:55:52.296521Z",
+        "modified": "2022-02-11T20:00:55.643157Z",
+        "name": "write",
+        "description": "Third there none national.",
+        "first_seen": "2021-06-14T10:13:50.159882Z",
+        "last_seen": "2021-07-12T05:43:55.889308Z",
+        "goals": [
+            "physical"
+        ],
+        "sophistication": "strategic",
+        "secondary_motivations": [
+            "notoriety",
+            "dominance",
+            "unpredictable",
+            "notoriety"
+        ],
+        "confidence": 84,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fed3e3cb-e6f6-4dee-9b9b-38b7d6defd7e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4904f998-01f5-40ec-84dc-981dcaf6fffc",
+        "created_by_ref": "identity--cd05eaa4-27b0-4c67-ac83-514476ba69e1",
+        "created": "2021-01-22T07:53:08.263155Z",
+        "modified": "2021-08-18T11:23:33.254431Z",
+        "relationship_type": "indicates",
+        "description": "Important news within. Tell blood city parent green wonder. Cell customer over shoulder activity.",
+        "source_ref": "indicator--6d689726-832d-4461-add5-bd596d68b341",
+        "target_ref": "threat-actor--e06054ae-758f-4292-a454-b0499b7a37f6",
+        "stop_time": "2021-03-31T22:54:38.265476Z",
+        "confidence": 18,
+        "object_marking_refs": [
+            "marking-definition--fed3e3cb-e6f6-4dee-9b9b-38b7d6defd7e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--cd05eaa4-27b0-4c67-ac83-514476ba69e1",
+        "created_by_ref": "identity--cd05eaa4-27b0-4c67-ac83-514476ba69e1",
+        "created": "2022-04-07T18:10:37.994309Z",
+        "modified": "2022-09-03T11:57:48.984742Z",
+        "name": "Salazar Ltd",
+        "identity_class": "class",
+        "contact_information": "1265 Tonya Pike Suite 194\nHarrisstad, WI 62702",
+        "external_references": [
+            {
+                "source_name": "entire",
+                "description": "Begin buy identify glass.",
+                "url": "http://lester.biz/"
+            },
+            {
+                "source_name": "defense",
+                "external_id": "mXCUURoabPxdpMRN"
+            },
+            {
+                "source_name": "artist",
+                "description": "Prevent hundred close kind project role finally give.",
+                "url": "http://cummings-zimmerman.biz/",
+                "hashes": {
+                    "MD5": "fbd009a38d474790043add40f576c269",
+                    "SHA-1": "75a9446ab4a881c0a71779bf2b93c7925ca15ab0",
+                    "SHA-256": "b66dea86866e181c454885624906a9fd0270309c4ae173ec77ec20ae71324d41",
+                    "SHA-512": "72f30ba32583ad7374a2ca26fd7d1bb3e203e0cd3e1b52cacaf8de05ad059be091f381bc3a516b5ccf9ab9cad8ee79258a3832ca9ad8180f92b593ba97c97390",
+                    "SHA3-256": "5ba560330d151d8d5d6f4db036231d1bacf22f39f3bf96c6099cdaee711fe633",
+                    "SHA3-512": "ee90935e0c3769a9dad42f195f4642fa637432e433f2da3a53dc2e2daefbb164675df88e4fd550dde9da29a5225140ac74144119dc34fad1583907400da23348"
+                }
+            },
+            {
+                "source_name": "catch",
+                "description": "Spring down enjoy big.",
+                "hashes": {
+                    "MD5": "14a810824d709669ae1d89f22c65924d",
+                    "SHA-1": "c03b1bd6bd59cfa42210a52d7e1d95c96202cedc",
+                    "SHA-256": "927ade1d897ddd567c92d5909ccd636263aa9a2e55c5b248a3a451aff6978a56",
+                    "SHA-512": "40efc7898e0c3bcf764c5c88109a9e71253b87da61cff80703ba5b44652ea3e161dfc009e7ae961d7f679bfbdb6a3b271cf242cf62acf14074062ebfa97e6035",
+                    "SHA3-256": "39282f55ccf5da4c5700a3d69014bcca3c1c5755845adc4047b2dab1c21fe9d7",
+                    "SHA3-512": "33f6939c1a3baf4c7b2646b0e34564c7726498fa026cf3dd89791357ff88fd1bda6d644e98264ec6ad0c617071fe277a4b5522041eeb6bf1e489d83ac002b12a"
+                }
+            },
+            {
+                "source_name": "camera",
+                "description": "Meet home continue mission theory I performance.",
+                "url": "https://www.watson.org/",
+                "hashes": {
+                    "MD5": "b3a85ea58c32ef3dfb24f53a8da3a4f7",
+                    "SHA-1": "ce9ff4a564f3b4608c2cd4c57f4b11dca943278b",
+                    "SHA-256": "092e4671d38a0df367d8aee5fc660a42ba1918a97aef4d97387d286abc488b4c",
+                    "SHA-512": "1aac468819f8c527a4cb2ab3a4ee90e90cca6292347615f2f2c40ad778642a0e67cd1c28fe2caf008d221d02cd1e17e36e4f635e8c6cad5e906b444278587647",
+                    "SHA3-256": "069a01205da848630e42112a2fcd62cc9bf8aa982875eaf82eb16d6c77b6c7b2",
+                    "SHA3-512": "72e7811bf3bcdddb3ed236ee0f17bcad50d4cb948362b1b37d296be15c26a00e263d25886611874c69d54bb79437bf0f178ba3dfe122380469a18ff7e5a97bd9"
+                },
+                "external_id": "VyzCjTA"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fed3e3cb-e6f6-4dee-9b9b-38b7d6defd7e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--fed3e3cb-e6f6-4dee-9b9b-38b7d6defd7e",
+        "created": "2021-08-14T01:08:34.051944Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

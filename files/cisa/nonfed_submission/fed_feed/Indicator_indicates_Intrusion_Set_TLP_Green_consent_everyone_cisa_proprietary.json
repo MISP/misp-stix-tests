@@ -1,0 +1,255 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--168125b2-50ec-4f6f-9fe7-bca627870866",
+        "created_by_ref": "identity--2d7b500c-54ba-4a01-a95d-dec1cd8596fa",
+        "created": "2021-03-09T12:38:30.180926Z",
+        "modified": "2022-02-19T11:46:43.070702Z",
+        "name": "decision",
+        "description": "Picture kind enough dark opportunity through center.",
+        "indicator_types": [
+            "compromised",
+            "anomalous-activity",
+            "malicious-activity"
+        ],
+        "pattern": "[domain-name:value >= 'price.com'] AND [mutex:defanged = false] AND ([file:ctime NOT = t'2021-05-25T20:43:43.674347Z'] REPEATS 1 TIMES) WITHIN 10 SECONDS",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-09-22T13:01:36.130082Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "cshXgShhCymhxHmAexG",
+                "phase_name": "vnhDHJSc"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "labels": [
+            "move",
+            "meet",
+            "just",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "Mr",
+                "hashes": {
+                    "MD5": "d586409ec44ff5ec16890990954ca7bb",
+                    "SHA-1": "f0bb3fa5dd6e4800b497c234447a091984970929",
+                    "SHA-256": "4771b678496eca8d787fc4cc18a73c1cf0e1fbed1d9d270dae37300bd8f193d0",
+                    "SHA-512": "309acae541185b3524b07a70cb800c1fd899276c56ebc3fb622b62839acc1dea87a23ac0c7acd225bfd0cb27ecb8d10155d8a88d7fd308ea1f57890274f33737",
+                    "SHA3-256": "4297408b89dc88bb77ffa10bf65734720a0ab9b2b862d4bbfce5df789e94e910",
+                    "SHA3-512": "6986cc84679d023991f2c34b4dcb33acd47bc366a3f82a187a3fc63059022ea62827503158d412c10a2b60cf2de693fcb08c1636d8b0d4a6f267476c0fae6808"
+                },
+                "external_id": "WSHcSuHZhmlBldgIZYdZ"
+            },
+            {
+                "source_name": "lay",
+                "description": "Physical chair service pretty become similar.",
+                "url": "http://daniels.org/",
+                "hashes": {
+                    "MD5": "762897f356d8222550d75aae1b0f529e",
+                    "SHA-1": "4dde33ad5ddc863afbeab30fa512a35eb2b564e5",
+                    "SHA-256": "cd9edcad28b920a19878e4a1dc35d30b02eaf770e97a2551545be0e883eaeca5",
+                    "SHA-512": "d89475b0c54a08c27c1a5986e8231d12b328872baf51592bf890b25965f55d9b1d5d239ec263edfe72f9a4863b3a9b80a9c646ab98879a0d03d8fcc649b11550",
+                    "SHA3-256": "c6bca45410c694954f6a080b1137569f017e497d565dbf81ca7bf107db4c211f",
+                    "SHA3-512": "f52c136a1f9b01d1df446460b87ba22129c091311edf1a0410da6fde37feba366616dec52f7c09236e15fbfc16c0f40c904dc229e8f5cdb6bdcb1bbf83c044ed"
+                },
+                "external_id": "Wzyypq"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--48954490-2683-4924-a918-3c1b0bac15eb"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--6f8e5162-50f2-495b-b736-d50162808146",
+        "created_by_ref": "identity--2d7b500c-54ba-4a01-a95d-dec1cd8596fa",
+        "created": "2022-08-08T03:41:04.021233Z",
+        "modified": "2022-12-12T04:58:00.178264Z",
+        "name": "start",
+        "description": "Soldier itself believe their treat.",
+        "aliases": [
+            "fine",
+            "idea"
+        ],
+        "first_seen": "2021-08-30T17:16:45.776492Z",
+        "goals": [
+            "Win hair win.",
+            "Section civil what worker stock.",
+            "Early type me expert somebody anything."
+        ],
+        "resource_level": "individual",
+        "primary_motivation": "revenge",
+        "secondary_motivations": [
+            "notoriety",
+            "unpredictable",
+            "ideology"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "writer",
+                "url": "http://goodman.net/",
+                "hashes": {
+                    "MD5": "b7a8b17aba2dbae54d91059fcbed4d8f",
+                    "SHA-1": "ae89e959e20039f8a486651cf79aea8de1bfa810",
+                    "SHA-256": "4652b2f090fa6d27568cee2c0fc30dcb18a79d8af916c82f86906faf00dea4b8",
+                    "SHA-512": "e096da86a52b508f5e4834d472e3bec457b29d66aded6d055f986f94f9a2800b667f45620da6e7a4db4d645df00b0b67a186f12a35b40745e82f23b01ea5a088",
+                    "SHA3-256": "b4c6b67afe7455a823c9b732dd9133a5e3083f83f8f914651d097c01d9b9df56",
+                    "SHA3-512": "533c07fd49051f923c854e542fb7fed3084a439469a90f444ec9550962bc06e0aa4e2978f21de0028429815833364b0495b3205dbbbce7e717e309d6fe30ef7f"
+                },
+                "external_id": "xDZiW"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--48954490-2683-4924-a918-3c1b0bac15eb"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8ef9f444-efa7-41aa-b81e-31c086d2a0e3",
+        "created_by_ref": "identity--2d7b500c-54ba-4a01-a95d-dec1cd8596fa",
+        "created": "2022-01-01T19:36:41.577249Z",
+        "modified": "2022-08-15T06:42:45.87836Z",
+        "relationship_type": "indicates",
+        "description": "Nothing policy always left recently stop cause miss.",
+        "source_ref": "indicator--168125b2-50ec-4f6f-9fe7-bca627870866",
+        "target_ref": "intrusion-set--6f8e5162-50f2-495b-b736-d50162808146",
+        "labels": [
+            "here",
+            "bed",
+            "test",
+            "heavy",
+            "pfte-batch-1"
+        ],
+        "confidence": 11,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "already",
+                "url": "http://villarreal-tran.com/",
+                "external_id": "JaVQqFthdqyWl"
+            },
+            {
+                "source_name": "whom",
+                "external_id": "QcQPwUnKo"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--48954490-2683-4924-a918-3c1b0bac15eb"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--48954490-2683-4924-a918-3c1b0bac15eb",
+        "created_by_ref": "identity--2d7b500c-54ba-4a01-a95d-dec1cd8596fa",
+        "created": "2021-08-14T01:08:31.328818Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e665ae49-7536-4ce4-b3ac-ad9803b6185e",
+                "name": "Push teach indeed like accept",
+                "create_date_time": "2021-08-14T01:08:08.423274Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2d7b500c-54ba-4a01-a95d-dec1cd8596fa",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-24T16:05:20.926663Z",
+        "modified": "2022-04-25T19:54:40.571473Z",
+        "name": "Rose-King",
+        "description": "Down-sized local encoding",
+        "sectors": [
+            "government",
+            "defense",
+            "entertainment",
+            "aerospace",
+            "pharmaceuticals"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--48954490-2683-4924-a918-3c1b0bac15eb"
+        ]
+    }
+]

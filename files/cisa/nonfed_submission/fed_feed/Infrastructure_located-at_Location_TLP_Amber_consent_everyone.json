@@ -1,0 +1,166 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--a45370fb-7873-49dc-81fe-523202e21ba5",
+        "created_by_ref": "identity--5fdecfca-7ef9-4d86-9be2-8a84eab4db12",
+        "created": "2022-02-20T10:53:19.822674Z",
+        "modified": "2022-05-13T09:39:46.927967Z",
+        "name": "good",
+        "description": "Week nearly forward lose result language.",
+        "aliases": [
+            "cultural",
+            "short"
+        ],
+        "external_references": [
+            {
+                "source_name": "thought",
+                "description": "Strong task you interest scene.",
+                "external_id": "qVancpNHaV"
+            },
+            {
+                "source_name": "true",
+                "description": "Either idea direction.",
+                "url": "http://matthews-barnes.com/",
+                "hashes": {
+                    "MD5": "56331de74b90cb5a45552e5697e24b3c",
+                    "SHA-1": "55a7d819df1eea974e75d4fa7f2d726d3ea1aab5",
+                    "SHA-256": "66b2d808d830939b2a6e5e61b23fa6f0707f8ef40e58f90b4b70cc871e6937ca",
+                    "SHA-512": "ba641d899341df5f4e4c6d1dcd6e35ee3aabf622c882501fc2e176ca76b760059f06eb59fcbc6ec819322dc8e1f57254ec16ee619398e204836bb32964dc62ae",
+                    "SHA3-256": "219035f5f63afdc7d03c6f5fd1490be14a9b7ee1b9ce0e183607182fd2a2730f",
+                    "SHA3-512": "7d74045b12acdc9587059e7058f33c064bd11a22f4eb06fd26fd3eb5c6f7d78d74a2b0ec331cf71155c605f193581ab241ed942d07e1b9ad1066c90dee1de3b2"
+                },
+                "external_id": "CewtmNnIqYxQOLKDU"
+            },
+            {
+                "source_name": "million",
+                "description": "Story job decide fund old."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7ec6f296-a45c-4ca0-b9ee-227533dabc73"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--7ac67529-86f9-42a7-b70c-c12416a2cfae",
+        "created_by_ref": "identity--5fdecfca-7ef9-4d86-9be2-8a84eab4db12",
+        "created": "2022-03-06T09:13:40.220088Z",
+        "modified": "2022-12-16T01:40:09.245442Z",
+        "latitude": 15.26886170279522,
+        "longitude": 22.2390101200194,
+        "precision": 7.553957447979432,
+        "country": "Korea",
+        "city": "Lake Michaelfurt",
+        "postal_code": "22494",
+        "labels": [
+            "not",
+            "responsibility",
+            "along",
+            "before",
+            "pfte-batch-1"
+        ],
+        "confidence": 97,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7ec6f296-a45c-4ca0-b9ee-227533dabc73"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a8058177-5ae9-4c1a-be2d-9047baa7e699",
+        "created_by_ref": "identity--5fdecfca-7ef9-4d86-9be2-8a84eab4db12",
+        "created": "2021-09-27T10:56:12.623483Z",
+        "modified": "2021-12-31T03:10:39.932618Z",
+        "relationship_type": "located-at",
+        "description": "Benefit mean provide person for art everything stop. Dark fact good poor long. Fly attention measure old identify significant where.",
+        "source_ref": "infrastructure--a45370fb-7873-49dc-81fe-523202e21ba5",
+        "target_ref": "location--7ac67529-86f9-42a7-b70c-c12416a2cfae",
+        "confidence": 65,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7ec6f296-a45c-4ca0-b9ee-227533dabc73"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--7ec6f296-a45c-4ca0-b9ee-227533dabc73",
+        "created_by_ref": "identity--5fdecfca-7ef9-4d86-9be2-8a84eab4db12",
+        "created": "2021-08-14T01:08:49.718879Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f98cddfd-8461-4143-a969-e6e230df21d4",
+                "name": "Word describe cold color",
+                "create_date_time": "2021-08-14T01:08:08.422252Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5fdecfca-7ef9-4d86-9be2-8a84eab4db12",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-05T10:25:12.398059Z",
+        "modified": "2023-03-15T09:46:51.037637Z",
+        "name": "Chavez Inc",
+        "description": "Versatile object-oriented website",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 1,
+        "object_marking_refs": [
+            "marking-definition--7ec6f296-a45c-4ca0-b9ee-227533dabc73"
+        ]
+    }
+]

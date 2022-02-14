@@ -1,0 +1,114 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--9ffa2f44-df47-4940-acb1-ca30e72973fd",
+        "created_by_ref": "identity--0d6fdfa4-9b4a-4ca7-bbb6-c55f458eb077",
+        "created": "2021-05-24T10:12:33.274354Z",
+        "modified": "2022-01-29T15:34:01.493127Z",
+        "name": "mean",
+        "threat_actor_types": [
+            "insider-disgruntled",
+            "spy",
+            "nation-state",
+            "nation-state"
+        ],
+        "first_seen": "2021-05-07T11:15:05.620492Z",
+        "goals": [
+            "PM",
+            "film"
+        ],
+        "primary_motivation": "accidental",
+        "secondary_motivations": [
+            "revenge",
+            "personal-satisfaction",
+            "personal-gain"
+        ],
+        "labels": [
+            "home",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--6f1bf79d-97ba-4069-bc06-33fb8edadb6d",
+        "created_by_ref": "identity--0d6fdfa4-9b4a-4ca7-bbb6-c55f458eb077",
+        "created": "2021-01-29T03:31:42.842727Z",
+        "modified": "2021-08-14T01:09:35.321717Z",
+        "name": "power",
+        "tool_types": [
+            "denial-of-service",
+            "information-gathering",
+            "network-capture",
+            "denial-of-service"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "AcokVcebxhS",
+                "phase_name": "pyHSClEfOgCgpwlUU"
+            }
+        ],
+        "tool_version": "range",
+        "labels": [
+            "surface",
+            "food",
+            "real",
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--43457597-dcc1-4f22-b8ea-549541ba16b8",
+        "created_by_ref": "identity--0d6fdfa4-9b4a-4ca7-bbb6-c55f458eb077",
+        "created": "2021-03-06T10:03:07.665765Z",
+        "modified": "2021-08-14T01:09:35.321967Z",
+        "relationship_type": "uses",
+        "description": "Check mean letter somebody once. Price meet least money. Government southern teacher place few heavy.",
+        "source_ref": "threat-actor--9ffa2f44-df47-4940-acb1-ca30e72973fd",
+        "target_ref": "tool--6f1bf79d-97ba-4069-bc06-33fb8edadb6d",
+        "start_time": "2021-07-22T11:02:17.107912Z",
+        "labels": [
+            "then",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0d6fdfa4-9b4a-4ca7-bbb6-c55f458eb077",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-11-14T11:11:54.220571Z",
+        "modified": "2021-08-14T01:09:35.323906Z",
+        "name": "Mann LLC",
+        "roles": [
+            "rule",
+            "agreement",
+            "actually",
+            "fear"
+        ],
+        "identity_class": "class",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

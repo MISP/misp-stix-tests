@@ -1,0 +1,104 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--49fefd44-7773-40ba-808a-066e611fc65f",
+        "created_by_ref": "identity--daa94064-4431-480a-841f-68afc026997a",
+        "created": "2022-02-14T07:44:28.940387Z",
+        "modified": "2022-10-03T11:37:06.654216Z",
+        "name": "style",
+        "aliases": [
+            "summer",
+            "western",
+            "public",
+            "my"
+        ],
+        "first_seen": "2021-07-20T11:46:19.911265Z",
+        "primary_motivation": "accidental",
+        "labels": [
+            "begin",
+            "pull",
+            "mention",
+            "threat",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--ab66dcb5-6fad-4f09-8b1b-6e1ab6f90657",
+        "created_by_ref": "identity--daa94064-4431-480a-841f-68afc026997a",
+        "created": "2022-03-09T04:50:24.657687Z",
+        "modified": "2022-04-07T15:58:15.926163Z",
+        "latitude": -4.602155486405323,
+        "longitude": -70.57714533393342,
+        "region": "northern-africa",
+        "administrative_area": "XNCpRpqXRYjTMR",
+        "street_address": "92024 Wilson Creek",
+        "postal_code": "50273",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 49,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "plan",
+                "description": "Apply but game see their Congress break.",
+                "external_id": "ZFbdosXPCImPSBtX"
+            },
+            {
+                "source_name": "lead",
+                "description": "Set special purpose back can population.",
+                "external_id": "LpECKpyUC"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ee524022-5492-4bca-8bac-7e437f4002b8",
+        "created_by_ref": "identity--daa94064-4431-480a-841f-68afc026997a",
+        "created": "2022-02-09T04:01:03.243915Z",
+        "modified": "2022-03-22T15:21:06.038953Z",
+        "relationship_type": "originates-from",
+        "source_ref": "intrusion-set--49fefd44-7773-40ba-808a-066e611fc65f",
+        "target_ref": "location--ab66dcb5-6fad-4f09-8b1b-6e1ab6f90657",
+        "start_time": "2021-03-14T05:48:01.07103Z",
+        "labels": [
+            "easy",
+            "strategy",
+            "surface",
+            "often",
+            "modern",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--daa94064-4431-480a-841f-68afc026997a",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-03-13T05:35:12.925835Z",
+        "modified": "2021-08-14T01:08:55.220586Z",
+        "name": "Arnold-Clarke",
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

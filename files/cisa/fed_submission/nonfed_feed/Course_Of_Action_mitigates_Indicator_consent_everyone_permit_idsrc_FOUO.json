@@ -1,0 +1,119 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--3f8aeac4-9010-43f2-9615-939caa15d184",
+        "created_by_ref": "identity--4e40211e-d9a6-4185-b1ae-b1d54b966ee0",
+        "created": "2022-03-26T13:04:36.709467Z",
+        "modified": "2022-07-01T18:12:51.200338Z",
+        "name": "public",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 90,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "letter",
+                "description": "Pay before ability wide produce stand land.",
+                "url": "https://www.mills.com/"
+            },
+            {
+                "source_name": "movie",
+                "url": "https://www.hartman.com/",
+                "hashes": {
+                    "MD5": "8457a3eedb2740c67ae168238010a88a",
+                    "SHA-1": "35ce79f1ad0eea28f44fdaf0dfcf39a08f4e1729",
+                    "SHA-256": "5ba8eaef31971ee1e661b7929d5f24d0eaf813cc42e0b56e50acc8860446dc76",
+                    "SHA-512": "41ff37b369ab808c65b5393b462351771c712492f7d777a6b74790bcf7a85b37a5a4b0c921a15a199cf7cc84e5fb70179e04e1ec3da7c32c4b2bcafd1c517fc4",
+                    "SHA3-256": "040d4ada8134716544f6246a1a25a73b9fff4ce775d8dca6f84bfd0ba797d5f1",
+                    "SHA3-512": "b66b4e5c58bbc66ab034babbd8e04d6854b85cf0b4f601b9902fcadc37ff6171116fada50a54ce03658327746f53ae6ee44a1da9b02c25ff0616437ff4f7c77d"
+                },
+                "external_id": "ZvwkWXVxsgZsQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--5cd0d69a-829a-4ff7-9132-602d6d9cc909",
+        "created_by_ref": "identity--4e40211e-d9a6-4185-b1ae-b1d54b966ee0",
+        "created": "2020-08-24T14:13:13.318985Z",
+        "modified": "2021-08-14T01:08:24.079285Z",
+        "description": "Media good training give life between significant.",
+        "pattern": "[software:defanged = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-05-21T16:55:06.31134Z",
+        "valid_until": "2022-03-15T07:43:24.929771Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "labels": [
+            "wear",
+            "age",
+            "week",
+            "pfte-batch-1"
+        ],
+        "confidence": 6,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--6b64c947-55c9-48e9-b48f-f4fc7d436191",
+        "created_by_ref": "identity--4e40211e-d9a6-4185-b1ae-b1d54b966ee0",
+        "created": "2021-11-30T16:53:35.746218Z",
+        "modified": "2022-05-10T19:27:33.451452Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--3f8aeac4-9010-43f2-9615-939caa15d184",
+        "target_ref": "indicator--5cd0d69a-829a-4ff7-9132-602d6d9cc909",
+        "start_time": "2021-07-24T17:02:28.318004Z",
+        "stop_time": "2021-12-03T20:06:24.557617Z",
+        "labels": [
+            "work",
+            "pfte-batch-1"
+        ],
+        "confidence": 75,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4e40211e-d9a6-4185-b1ae-b1d54b966ee0",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-21T16:08:31.951002Z",
+        "modified": "2022-02-01T12:33:24.02881Z",
+        "name": "Mcmahon Ltd",
+        "roles": [
+            "lot",
+            "relate",
+            "glass",
+            "left",
+            "loss"
+        ],
+        "contact_information": "13153 Cody Plaza\nNew Cherylmouth, OK 48260",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

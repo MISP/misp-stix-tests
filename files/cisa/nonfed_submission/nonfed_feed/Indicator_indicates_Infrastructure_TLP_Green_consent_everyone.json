@@ -1,0 +1,187 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--87fd9a69-e35b-447e-ad1a-d6bc4b96eb4f",
+        "created_by_ref": "identity--3ec7162e-f841-410b-91dc-038711589edb",
+        "created": "2022-01-22T19:51:24.906132Z",
+        "modified": "2022-09-26T02:11:38.338514Z",
+        "name": "on",
+        "pattern": "([software:swid > 'org.fedoraproject.Fedora-29'] FOLLOWEDBY [(email-message:date > t'2021-10-10T07:11:19.204368Z') AND email-message:content_type >= 'message/http']) WITHIN 2 SECONDS",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-09-13T23:56:21.582594Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "BGbPsyhKse",
+                "phase_name": "mPsaiMmxzWlvei"
+            }
+        ],
+        "labels": [
+            "young",
+            "face",
+            "I",
+            "who",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--a6afb200-a360-449e-bbba-4eb0004d0137",
+        "created_by_ref": "identity--3ec7162e-f841-410b-91dc-038711589edb",
+        "created": "2021-05-27T09:55:04.559031Z",
+        "modified": "2021-08-14T01:08:30.006426Z",
+        "name": "finish",
+        "aliases": [
+            "wear"
+        ],
+        "first_seen": "2020-11-01T10:12:25.369495Z",
+        "labels": [
+            "in",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "leg",
+                "url": "https://bradshaw.com/",
+                "external_id": "qifHR"
+            },
+            {
+                "source_name": "enter",
+                "description": "Foot short four plant strong deal color.",
+                "url": "http://www.french-shelton.biz/",
+                "external_id": "phaIKIdrX"
+            },
+            {
+                "source_name": "inside",
+                "description": "Fund because project time may change plant."
+            },
+            {
+                "source_name": "nation",
+                "description": "Sell people thus improve.",
+                "url": "http://www.ray.net/",
+                "hashes": {
+                    "MD5": "9dab4d43c6ef3def4d3b3d0ee6fffef2",
+                    "SHA-1": "7f762ff337934889eee166d890206a3e49cdf326",
+                    "SHA-256": "bf70eab42b18de58318da34ad16ab2bdb4842b684868803c737ff7871afbe420",
+                    "SHA-512": "b0a87947cf62b402bd920a77aa4998d2cdfb7910bc5c765cbc19b08e0702e418fe58feddc6c81697117d3b7bb9ca1bbfa4364ec848659f73d3da78e0d0757bea",
+                    "SHA3-256": "306bb238c120fa016789acdbc6483d3997198483445f270596317ef8161e9aa5",
+                    "SHA3-512": "5809868d9962c68a7c223195592eec6ee842e3d095c547ed6af531b267726c12bce6408742397ef442907409a8bf0e44844a69af9c731c8d24fb086c6428dc38"
+                }
+            },
+            {
+                "source_name": "herself",
+                "description": "Attorney arrive in scientist hour ability.",
+                "url": "http://www.benson.com/",
+                "external_id": "kgelol"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--84286a75-4329-486d-bb5b-fcb74233d1bf",
+        "created_by_ref": "identity--3ec7162e-f841-410b-91dc-038711589edb",
+        "created": "2022-05-24T01:21:55.76856Z",
+        "modified": "2022-06-21T17:43:56.744688Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--87fd9a69-e35b-447e-ad1a-d6bc4b96eb4f",
+        "target_ref": "infrastructure--a6afb200-a360-449e-bbba-4eb0004d0137",
+        "start_time": "2021-09-04T16:19:57.103314Z",
+        "labels": [
+            "drop",
+            "last",
+            "modern",
+            "bring",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "recognize",
+                "url": "http://www.johnson.com/",
+                "hashes": {
+                    "MD5": "5e5922696cd8a47b8ffca58d604a1156",
+                    "SHA-1": "f79631c563b23a19faab6df23cb4cfc31f895984",
+                    "SHA-256": "0aa0f739a6783054b47d8706eb98018c600daad9d8e56c7f426892018010e627",
+                    "SHA-512": "361f5445e8242192be200c02905855656b5bd296da862874ab837f4fbb79461ff8ec7cafadee8b2fae83183c0511451f5fb782dec9339296f8f4219be8832e22",
+                    "SHA3-256": "67686532891a467e8527db79654d9a0fb6d5b0ab2e109347b63e5c1dd182a650",
+                    "SHA3-512": "cc07fb99bd4ea91fb8328a10c43946d658b2ffbaa3bedb4a77f4770e4c201efbd3191bd6fa7681e1b626c8309cdb6dfcaa3c8b439ae2d97a4a754e8715e154ab"
+                },
+                "external_id": "yaiJFKeOTDUjPVCpM"
+            },
+            {
+                "source_name": "relationship",
+                "description": "Security drug rate scientist.",
+                "url": "https://www.williamson.com/",
+                "hashes": {
+                    "MD5": "7c13875858b1914d6a3c829a727cbb15",
+                    "SHA-1": "c61ea359fbfd29192b3c1604158d993bf2a78cea",
+                    "SHA-256": "5646b3b44b240256bced17424eeba659b12a2126f45bab19463c3690f3d0fb13",
+                    "SHA-512": "55395c70fcb7f2eaaeb6191afe912a12fd273d574aa087c15408c38c89e17c73e66ad0fafb576c124bae8fc83f72d6b6a9a9e00f1bcb4166d8cd826a11353955",
+                    "SHA3-256": "107ba7835a58e668e26cc08873d081ea5314fb84aade3b7473e6bee6cc5648c0",
+                    "SHA3-512": "5f2b25949e97ff591bf2d3e2bb7aa6d5d4585651e983369398ed02e7e76c1ba42510333a06af6b6a0b013c86749850770ca0dd13dec68749eaa8eeed44af7843"
+                }
+            },
+            {
+                "source_name": "modern",
+                "description": "Control cause true fast.",
+                "url": "https://www.stark-thomas.biz/"
+            },
+            {
+                "source_name": "tend",
+                "description": "Investment when still remember people car.",
+                "external_id": "skmLDVCjoGfWWe"
+            },
+            {
+                "source_name": "then",
+                "url": "https://www.burns.com/",
+                "external_id": "SHoUgN"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3ec7162e-f841-410b-91dc-038711589edb",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-22T11:58:46.403064Z",
+        "modified": "2021-09-11T03:19:23.067558Z",
+        "name": "Bush-Irwin",
+        "roles": [
+            "maybe"
+        ],
+        "sectors": [
+            "financial-services",
+            "financial-services",
+            "chemical"
+        ],
+        "contact_information": "80677 Sheri Plains\nMichaelstad, LA 81374",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 100,
+        "external_references": [
+            {
+                "source_name": "record",
+                "description": "West onto life around situation my sister.",
+                "url": "http://www.taylor-soto.com/",
+                "external_id": "aKgRPbSccb"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

@@ -1,0 +1,185 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--493bd39d-cbd1-4c31-a835-2fcdd2b9df7a",
+        "created_by_ref": "identity--df7450e8-7c70-499b-abe2-2ae0acf28c9f",
+        "created": "2021-02-06T11:06:41.929472Z",
+        "modified": "2021-11-07T16:34:32.003348Z",
+        "name": "strong",
+        "labels": [
+            "image",
+            "partner",
+            "take",
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ef0bf73d-98ae-4b96-b5c4-b359a38ca884"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--3d11d0f2-f7e5-4b69-adbf-fae561aa3dd1",
+        "created_by_ref": "identity--df7450e8-7c70-499b-abe2-2ae0acf28c9f",
+        "created": "2022-06-16T13:38:14.449815Z",
+        "modified": "2022-08-23T15:43:08.604273Z",
+        "name": "study",
+        "tool_types": [
+            "vulnerability-scanning",
+            "network-capture",
+            "unknown",
+            "network-capture",
+            "remote-access"
+        ],
+        "aliases": [
+            "past",
+            "huge"
+        ],
+        "labels": [
+            "middle",
+            "staff",
+            "participant",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "man",
+                "url": "https://byrd-escobar.biz/",
+                "external_id": "umBOLwrcgrPvVtvzD"
+            },
+            {
+                "source_name": "organization",
+                "external_id": "YEaNpKZYIphXiWy"
+            },
+            {
+                "source_name": "know",
+                "description": "Commercial place design again subject cell meeting senior.",
+                "hashes": {
+                    "MD5": "8e2da58d33745de92a5fa4ea5abc338c",
+                    "SHA-1": "a7fd932956f5cf1fb2044c0faa2d61d12c5f6308",
+                    "SHA-256": "5ddc01a87c3c0d2965a879b26e05b8ab94956826f36840fbbafbd4604e88ab89",
+                    "SHA-512": "105bb954ba087ff1e21e93438f2c5bf248564b34e10be8ac472fbc266679fb9cf2f7616181ca2af00773baced42c78b220d1d5a64cc9d74fa9856c89cc526e44",
+                    "SHA3-256": "d074353c6718c7344475dda5196220d26cdc6c08d2b234a5611d921de955dce5",
+                    "SHA3-512": "ccd421f1ce93d2e516cfec9dfd9ebc51813ddf582158776563177658445fcb052cb89c02e3f6b9516eb93861a0a0115707d7caee67988c3e070caeeb4ee5135d"
+                }
+            },
+            {
+                "source_name": "whatever",
+                "external_id": "tKvHoKEHk"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ef0bf73d-98ae-4b96-b5c4-b359a38ca884"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a97966b0-2e9f-4047-a4c1-71bf0b21a0da",
+        "created_by_ref": "identity--df7450e8-7c70-499b-abe2-2ae0acf28c9f",
+        "created": "2022-07-26T08:47:07.775099Z",
+        "modified": "2023-03-27T02:16:00.563942Z",
+        "relationship_type": "mitigates",
+        "description": "Agency give unit picture kind along. Child strategy hospital institution somebody Mr election central. Body whom skin trip mention.",
+        "source_ref": "course-of-action--493bd39d-cbd1-4c31-a835-2fcdd2b9df7a",
+        "target_ref": "tool--3d11d0f2-f7e5-4b69-adbf-fae561aa3dd1",
+        "stop_time": "2021-12-09T06:18:04.354912Z",
+        "labels": [
+            "hot",
+            "spend",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--ef0bf73d-98ae-4b96-b5c4-b359a38ca884"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--df7450e8-7c70-499b-abe2-2ae0acf28c9f",
+        "created_by_ref": "identity--df7450e8-7c70-499b-abe2-2ae0acf28c9f",
+        "created": "2020-11-29T11:25:49.879923Z",
+        "modified": "2021-08-14T01:08:25.540821Z",
+        "name": "Gutierrez-Smith",
+        "roles": [
+            "doctor",
+            "oil"
+        ],
+        "sectors": [
+            "non-profit",
+            "communications",
+            "education",
+            "hospitality-leisure"
+        ],
+        "contact_information": "088 Johnson Fork Suite 750\nPort Huntermouth, NC 35396",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ef0bf73d-98ae-4b96-b5c4-b359a38ca884"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--ef0bf73d-98ae-4b96-b5c4-b359a38ca884",
+        "created": "2021-08-14T01:08:25.539123Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

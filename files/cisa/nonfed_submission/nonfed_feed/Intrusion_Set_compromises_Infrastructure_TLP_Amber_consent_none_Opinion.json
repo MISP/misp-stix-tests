@@ -1,0 +1,187 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--9c56df44-3212-4b09-b3c2-12c81356dce9",
+        "created_by_ref": "identity--aaee0c8e-02c8-4e7a-b495-abc028ddb9d0",
+        "created": "2022-04-21T15:39:03.859682Z",
+        "modified": "2023-02-12T04:14:48.195828Z",
+        "name": "walk",
+        "aliases": [
+            "act"
+        ],
+        "goals": [
+            "Level hospital sometimes stock around significant base.",
+            "Dream guess deal on.",
+            "Board each grow gun."
+        ],
+        "resource_level": "team",
+        "labels": [
+            "spend",
+            "hour",
+            "green",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--35eeff7f-941d-4d81-8ecb-eababbf04a3c",
+        "created_by_ref": "identity--aaee0c8e-02c8-4e7a-b495-abc028ddb9d0",
+        "created": "2021-10-14T11:47:58.168181Z",
+        "modified": "2022-07-02T13:33:15.071955Z",
+        "name": "life",
+        "description": "World shake minute picture.",
+        "aliases": [
+            "natural",
+            "firm",
+            "particular",
+            "responsibility"
+        ],
+        "first_seen": "2021-12-02T11:42:04.235954Z",
+        "labels": [
+            "entire",
+            "citizen",
+            "court",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "walk",
+                "hashes": {
+                    "MD5": "769113bce309cd657adb06b8aa4d0b3a",
+                    "SHA-1": "da89c293035486e60ba20a7104c1dbaa88e6bcb7",
+                    "SHA-256": "e0746770e1484fda5774625bc627b813e41a591935214cde181b0911f1c94cc6",
+                    "SHA-512": "fc06696da701fd61e6afcd6f0218a00d355350c83d154d28be7021e40fb4ee43bb3a9b072207ac7be7df9ae3bbfc00c36d31a6af8febbd3ecba120c3e3667362",
+                    "SHA3-256": "590d6501509ac1af5a84d3d0b6a08004abf2ac829c7db73edcb01e931e0de8f5",
+                    "SHA3-512": "90a5fd5526696f5035ee91b63449c0395a2b1666cec0de5d795ef7198343560cbfb5d080283ff63fd8c09531182f79cdb5ada2027c3599467b7c8dc5ecc124f9"
+                },
+                "external_id": "zKtEnTEXNRSSMKyjdhGs"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--6cbd12f1-2ee3-400a-9665-fb570bebfb3c",
+        "created_by_ref": "identity--aaee0c8e-02c8-4e7a-b495-abc028ddb9d0",
+        "created": "2021-04-06T18:24:13.994171Z",
+        "modified": "2022-03-16T09:43:56.765255Z",
+        "relationship_type": "compromises",
+        "source_ref": "intrusion-set--9c56df44-3212-4b09-b3c2-12c81356dce9",
+        "target_ref": "infrastructure--35eeff7f-941d-4d81-8ecb-eababbf04a3c",
+        "start_time": "2022-08-02T03:45:03.823569Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 17,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--7350cef1-0310-4f5b-9267-018234bab9b6",
+        "created_by_ref": "identity--aaee0c8e-02c8-4e7a-b495-abc028ddb9d0",
+        "created": "2020-09-08T09:40:28.498116Z",
+        "modified": "2021-08-14T01:08:52.119741Z",
+        "authors": [
+            "instead",
+            "sing",
+            "I",
+            "her"
+        ],
+        "opinion": "strongly-disagree",
+        "object_refs": [
+            "intrusion-set--9c56df44-3212-4b09-b3c2-12c81356dce9",
+            "infrastructure--35eeff7f-941d-4d81-8ecb-eababbf04a3c",
+            "relationship--6cbd12f1-2ee3-400a-9665-fb570bebfb3c"
+        ],
+        "labels": [
+            "tend",
+            "space",
+            "other",
+            "answer",
+            "conference",
+            "pfte-batch-1"
+        ],
+        "confidence": 80,
+        "external_references": [
+            {
+                "source_name": "generation",
+                "description": "Fine reflect number no well.",
+                "hashes": {
+                    "MD5": "7f82c3fdc74044eb8b46182d619ef922",
+                    "SHA-1": "2580708132557554231a9707102e972d65db4b4e",
+                    "SHA-256": "1bf78402074dc0d277baa1f8ae8f68c1e53e34ee55ef26b670c4a5058c4f8989",
+                    "SHA-512": "8b7e0960832d46721005e39d1340ee7b65382437815a53c67973ab9f3616787ee9cdf1b35f608f52127d24d81be328cd8bb0721157f9c3c76bd091d44d77ff8f",
+                    "SHA3-256": "08479876731eb75f1b6a30f7d3f1f2031dda78b28c0a3819daae7566e9c94222",
+                    "SHA3-512": "a3ef011dd024d8259753489e32c0c159a5ec9eb6e7c504ecc92c8f0c68fc40fd203e620267f84ba8f078014ac0fc99321e1e317ee07d2fdc7d903c433fd4ba39"
+                },
+                "external_id": "YeadggTZIruiShKz"
+            },
+            {
+                "source_name": "give",
+                "description": "Family house end will ago care expect.",
+                "url": "https://perez.com/",
+                "hashes": {
+                    "MD5": "8b46985b6652e9d0a350667833834761",
+                    "SHA-1": "9883b4baaf32778200661cc7fdf5331207b807e2",
+                    "SHA-256": "a26bd0bd5f98eb94097980defca6cc9cbec646205c94a1bc88a8b29590fa2cb2",
+                    "SHA-512": "d6b3f1d977a4e271836db1a09a16d30c68809b969a96fba50ffafd07378da4054f65314f1d60eb3e69edb34c8a119d3ffd62975f41e3a0e76c3ab4b61831108b",
+                    "SHA3-256": "b847b5805ff82152dffb223851a67084282e67cfab517785d878b1555b380546",
+                    "SHA3-512": "0d3e4cfd92dbaf3b0d2f5660c36ed69e468e46185b3ecb0a0ef59b2f551858b4873d0678c2e957a1d6ea264203243156ade1c7f92e5e4beffc82f0df7951b554"
+                },
+                "external_id": "pSnttlPuouhuxal"
+            },
+            {
+                "source_name": "couple",
+                "description": "Along can treat sort near big.",
+                "url": "https://patton-wilson.org/",
+                "external_id": "iJAhCygRQN"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--aaee0c8e-02c8-4e7a-b495-abc028ddb9d0",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-08-10T09:15:21.503111Z",
+        "modified": "2023-03-09T02:46:13.053707Z",
+        "name": "NowTheirCertainly",
+        "roles": [
+            "girl",
+            "general",
+            "top",
+            "still",
+            "break"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "water",
+            "financial-services",
+            "energy",
+            "defense",
+            "technology"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

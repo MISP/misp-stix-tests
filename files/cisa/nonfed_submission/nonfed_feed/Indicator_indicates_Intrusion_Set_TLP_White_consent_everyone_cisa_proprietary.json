@@ -1,0 +1,156 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--4f69681b-6a48-4d8a-ba19-ec9e8b410082",
+        "created_by_ref": "identity--565ed179-4c80-4d5f-b0dd-5c0c403cd74f",
+        "created": "2021-02-17T08:37:04.138918Z",
+        "modified": "2021-10-27T10:17:33.385218Z",
+        "pattern": "((([email-message:content_type < 'audio/mp4'] AND [ipv4-addr:value > '56.247.237.124'])))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-08-15T08:50:17.715099Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 31,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "life",
+                "description": "Remember law laugh teach six window anyone.",
+                "url": "http://www.salas.com/",
+                "external_id": "MGTEUmioxxlxeZMBzdY"
+            },
+            {
+                "source_name": "wrong",
+                "description": "Training several community.",
+                "external_id": "AYXRXh"
+            },
+            {
+                "source_name": "table",
+                "description": "Watch necessary floor century."
+            },
+            {
+                "source_name": "agent",
+                "url": "https://torres.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--bb1a4c3d-2a78-45f2-a0ba-1a5555b270f5",
+        "created_by_ref": "identity--565ed179-4c80-4d5f-b0dd-5c0c403cd74f",
+        "created": "2021-12-06T16:16:40.671762Z",
+        "modified": "2022-03-22T05:13:33.955112Z",
+        "name": "run",
+        "last_seen": "2021-05-22T18:42:50.884234Z",
+        "goals": [
+            "Security second whatever away key establish.",
+            "Stand career left could fine.",
+            "Special drive author situation head despite."
+        ],
+        "secondary_motivations": [
+            "organizational-gain",
+            "revenge",
+            "revenge",
+            "ideology",
+            "organizational-gain"
+        ],
+        "labels": [
+            "at",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--aac2dabd-33d5-44e4-83f8-17bda7d77c0f",
+        "created_by_ref": "identity--565ed179-4c80-4d5f-b0dd-5c0c403cd74f",
+        "created": "2020-10-11T23:10:16.885183Z",
+        "modified": "2021-08-14T01:08:31.288809Z",
+        "relationship_type": "indicates",
+        "description": "Region walk whom consider stage. There much force pattern reduce drop.",
+        "source_ref": "indicator--4f69681b-6a48-4d8a-ba19-ec9e8b410082",
+        "target_ref": "intrusion-set--bb1a4c3d-2a78-45f2-a0ba-1a5555b270f5",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "world",
+                "description": "Detail off standard stop yet religious.",
+                "external_id": "DBAXnqMqnHseegjkZwy"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--565ed179-4c80-4d5f-b0dd-5c0c403cd74f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-10T05:13:55.560178Z",
+        "modified": "2022-02-03T22:58:00.867038Z",
+        "name": "Smith-Stevenson",
+        "description": "Horizontal 24/7 algorithm",
+        "identity_class": "system",
+        "sectors": [
+            "technology",
+            "transportation",
+            "telecommunications",
+            "chemical"
+        ],
+        "contact_information": "USS Young\nFPO AE 12157",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 50,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "more",
+                "description": "Better sign call situation college summer.",
+                "external_id": "lGhXRbrnTRXwsFXLnS"
+            },
+            {
+                "source_name": "alone",
+                "url": "http://grant.com/",
+                "external_id": "dvbFanYax"
+            },
+            {
+                "source_name": "concern",
+                "description": "Head shake various lead.",
+                "external_id": "EzFCnnBnwGJxZ"
+            },
+            {
+                "source_name": "economy",
+                "description": "General national big budget class.",
+                "url": "http://williams-garza.org/",
+                "hashes": {
+                    "MD5": "1c217bb24bf40260638b6c04d3b19242",
+                    "SHA-1": "556ad74a7f17c79d29dc4199cbcf7b33288c6b03",
+                    "SHA-256": "87d7bb244d1cdaf4122a00d1d2ac480c500cb025ae897d2b358b2541c86c2a26",
+                    "SHA-512": "381c5b560e8931fcd92b2f5d3708824adcf5f8aaf13875d2710d3c99579d071f4a1cfe9a8261dfd22b0ab7798c2d058081ffb17c9db97b519b070ee2d458a994",
+                    "SHA3-256": "51d81df159a1f6f99593d9a32da24525d7904600468e1372e873bcd86caafc7d",
+                    "SHA3-512": "a2616184221a54fecf28561c189fa0cb377fd753dd6b644fa1bac2ec498fc346ea5eb12d5e99c2494ca7b75ccbb8326e08d2238449537288c4d4680c19f85f25"
+                },
+                "external_id": "nAdexGbouOYUDjtT"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

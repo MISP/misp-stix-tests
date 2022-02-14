@@ -1,0 +1,242 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--4a49ff0d-f59d-4cfe-9ed2-3d1790eea9f3",
+        "created_by_ref": "identity--a845e705-9ceb-4a0f-9ec4-e3d3cb647be1",
+        "created": "2020-08-26T22:08:40.461598Z",
+        "modified": "2021-08-14T01:08:36.577001Z",
+        "name": "thing",
+        "indicator_types": [
+            "unknown",
+            "unknown",
+            "malicious-activity",
+            "unknown"
+        ],
+        "pattern": "([ipv4-addr:value > '119.73.28.44']) FOLLOWEDBY [autonomous-system:rir NOT = 'Dunn, Lewis and Howard'] FOLLOWEDBY [mutex:name <= 'compare']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-04-16T11:35:21.700667Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--47ce5cf3-74f3-431a-bd17-cf462306f647"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--7f78d9f3-b53b-42ca-a1ad-6243d9ac0f64",
+        "created_by_ref": "identity--a845e705-9ceb-4a0f-9ec4-e3d3cb647be1",
+        "created": "2020-08-13T19:25:46.610471Z",
+        "modified": "2021-08-14T01:08:36.579381Z",
+        "first_observed": "2021-06-06T04:19:35.346629Z",
+        "last_observed": "2021-06-09T18:05:38.154974Z",
+        "number_observed": 125581351,
+        "objects": {
+            "mac-addr--7a261b96-d2f6-44cc-a446-3fa3fb17fc1a": {
+                "type": "mac-addr",
+                "spec_version": "2.1",
+                "id": "mac-addr--7a261b96-d2f6-44cc-a446-3fa3fb17fc1a",
+                "value": "db:db:f8:f9:86:4b"
+            }
+        },
+        "object_marking_refs": [
+            "marking-definition--47ce5cf3-74f3-431a-bd17-cf462306f647"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--96d6ac68-d45d-431c-b083-5b754117f870",
+        "created_by_ref": "identity--a845e705-9ceb-4a0f-9ec4-e3d3cb647be1",
+        "created": "2022-02-21T19:31:14.30266Z",
+        "modified": "2022-06-28T21:37:11.933874Z",
+        "relationship_type": "based-on",
+        "source_ref": "indicator--4a49ff0d-f59d-4cfe-9ed2-3d1790eea9f3",
+        "target_ref": "observed-data--7f78d9f3-b53b-42ca-a1ad-6243d9ac0f64",
+        "stop_time": "2020-09-26T07:51:09.059435Z",
+        "external_references": [
+            {
+                "source_name": "buy",
+                "description": "Easy position manage final management.",
+                "url": "http://stewart-donovan.com/",
+                "external_id": "eaoHrQRnINVW"
+            },
+            {
+                "source_name": "event",
+                "description": "Popular question believe tell size.",
+                "hashes": {
+                    "MD5": "1680b7c1f3f12e0aa0ea47a5c1870532",
+                    "SHA-1": "ecd7ca50f85518e7a5e540527f6a4a3578c01762",
+                    "SHA-256": "9d86d68887c2afb8ae78716c37945229993f669db3b9d8a7c77e4c4f704d72c8",
+                    "SHA-512": "f8bc5ce73bb84b18f32472728b968e95800180a4a762c8b21463f85e8cc8b6afc029088b8b11b3413f9ac568b8ca323aaa11c40bd1c67d3224c172a96de07aad",
+                    "SHA3-256": "609bbcfd0fbd8f93d200a436df1733bf6d6a0b490e085a2a664315c706be494b",
+                    "SHA3-512": "1d9e93fe19872c65e101f923539fa291ef570ab47224d985333ae7f99d08146d3ecf5627897264788c7d13349c33db68ece631402b79009c94c712c6286b0388"
+                },
+                "external_id": "rILLTaogz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--47ce5cf3-74f3-431a-bd17-cf462306f647"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--47ce5cf3-74f3-431a-bd17-cf462306f647",
+        "created_by_ref": "identity--a845e705-9ceb-4a0f-9ec4-e3d3cb647be1",
+        "created": "2021-08-14T01:08:36.576221Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f217105b-ccd2-4cb0-893a-c1314d7d2d64",
+                "name": "Strategy land response sport over",
+                "create_date_time": "2021-08-14T01:08:08.422773Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.422466Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a845e705-9ceb-4a0f-9ec4-e3d3cb647be1",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-18T13:42:33.831343Z",
+        "modified": "2022-05-07T23:06:15.348942Z",
+        "name": "Lam, Johnson and Hernandez",
+        "roles": [
+            "argue",
+            "I"
+        ],
+        "contact_information": "929 Obrien Camp\nKennethstad, TX 16244",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "no",
+                "description": "To also address life forward surface couple.",
+                "hashes": {
+                    "MD5": "9ee73259bbc5c158e86f47933af63dce",
+                    "SHA-1": "20e1287e76ddb64436896a0fa0c4e3263117d29b",
+                    "SHA-256": "0afe55ab83ed765463700c128863aecb0dba20e1a1ee9a289e1ef1531db1ea68",
+                    "SHA-512": "6ad2ba422b27eb84a5366d633c3c5751479cf148362ed3eb5fed93ac889b7cbe44cae87cb0ea271f86950b5668a42610625f3e92660a4f96a784300c53709e4b",
+                    "SHA3-256": "fd6b14826ccde23d7d76aaca0161e1658f0eecc030ec5f63068831c75d64ff68",
+                    "SHA3-512": "6a8a275859a32650111222453bb70172bde6fc96e4d22f2161733a1186bee3cb81d9fefe0792427105513231c4b4e062ae0470dd095e10fb5652f213fa2a3f6d"
+                }
+            },
+            {
+                "source_name": "discussion",
+                "url": "https://robinson-carter.biz/"
+            },
+            {
+                "source_name": "statement",
+                "description": "Other pressure argue than past check.",
+                "url": "https://www.alvarez.com/",
+                "hashes": {
+                    "MD5": "4253252cef0fead4bb5e029a0970d76e",
+                    "SHA-1": "f48fd519a42ed09cb369afbd6bdff295921360ef",
+                    "SHA-256": "46543d824c1e9b10c1a13bc4ce613816dc40895d2ffa237c5a8d9cc94db4cc20",
+                    "SHA-512": "ec6b7140424ff7413d8490c790d449bf90e15b81d8ff3cb9ff9151f5751dca50de291beca52984742472db3187475f584cb85dac9e57a5c55472632e5b7569d7",
+                    "SHA3-256": "ef7b9b1898313b3164a4e7501401f209063751764aea8574ec6a734286e7b854",
+                    "SHA3-512": "e403a1ca9bb1ca666b3ee03d2bd60ecafc725be43479fb775d22086833ae6b68eda133a5717832ba1dca3db46458fbb76c8016ed59b7aa2f0cc5e2c2b502c7aa"
+                },
+                "external_id": "SiYwuyWYaYfaDHvFatM"
+            },
+            {
+                "source_name": "reach",
+                "description": "Value arrive find factor small here Mrs.",
+                "url": "https://mitchell.info/",
+                "external_id": "WkKsRZBYNPwcKy"
+            },
+            {
+                "source_name": "trade",
+                "description": "Prove think magazine according within.",
+                "url": "http://www.campbell.com/",
+                "hashes": {
+                    "MD5": "bdaa947c5c14fe8df40519578cff0503",
+                    "SHA-1": "703a351e1313ac99aa09a8f9691dca6729f2594a",
+                    "SHA-256": "08b47f5d6545fc903858309a3ce648febf5b12f080b168ba31aac4235da09b87",
+                    "SHA-512": "938244884632cec12fcd082c52390deea76e3e12bb70510727485757de3e928017e0ee577e03159de48cdfda329f9be253cf931d687117366668daaef4c1eddd",
+                    "SHA3-256": "d313905ed6a5bbe7cf706aa3fe4e5587180296e4522e854826526515711c3cdc",
+                    "SHA3-512": "66b54dc395a1971f0d470f929c3cca9123dbd1906e0be0fb09c1680e276e58d6b531ca5e9791173364a32e91dea1c92f9b11deb5ae8ac810f79fadacec6d2992"
+                },
+                "external_id": "kkdRoObTiYt"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--47ce5cf3-74f3-431a-bd17-cf462306f647"
+        ]
+    }
+]

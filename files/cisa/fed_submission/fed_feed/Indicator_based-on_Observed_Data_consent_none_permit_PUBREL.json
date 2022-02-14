@@ -1,0 +1,196 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--c6a1a290-b71c-40ac-8ee5-857f7d93426c",
+        "created_by_ref": "identity--e08caf14-cbeb-4cb7-8986-43a73b8c2308",
+        "created": "2020-10-26T02:07:27.093427Z",
+        "modified": "2021-08-14T01:08:36.99245Z",
+        "description": "Trial travel open entire may.",
+        "pattern": "[email-addr:defanged NOT = false OR ipv4-addr:defanged NOT = false OR mutex:defanged NOT = false OR ((email-addr:defanged NOT = false) OR user-account:account_expires >= t'2021-05-16T08:36:54.249403Z')]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-12-26T22:41:18.779825Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "kAzUGJzAuhDfGZK",
+                "phase_name": "abJxvutHgKrFsN"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "call",
+            "school",
+            "pfte-batch-1"
+        ],
+        "confidence": 28,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--59514282-a5b8-4447-91e5-a7357a7ca1f5"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--85ea671e-759f-4337-866d-cd3199de340d",
+        "created_by_ref": "identity--e08caf14-cbeb-4cb7-8986-43a73b8c2308",
+        "created": "2021-01-04T14:44:33.519144Z",
+        "modified": "2021-08-14T01:08:36.99592Z",
+        "first_observed": "2021-02-18T07:05:51.584362Z",
+        "last_observed": "2021-06-05T01:54:35.331568Z",
+        "number_observed": 825355852,
+        "objects": {
+            "file--72b1e5e6-51ba-4917-a80b-a7e7f513a027": {
+                "type": "file",
+                "spec_version": "2.1",
+                "id": "file--72b1e5e6-51ba-4917-a80b-a7e7f513a027",
+                "hashes": {
+                    "MD5": "5e528728b0570307db4d277821775a4b",
+                    "SHA-1": "a9b4430e68180471f1e81f57aa18f5082e45dd40",
+                    "SHA-256": "37b61d9914c12396764bf5f6aaec08ba361c2dbc2de04508c67165350bc334c8",
+                    "SHA-512": "f87330b92c8daaa969ab876db09006d92f770cb551ecb20388f8abf9fbe63f9db0d7b6d519ec375ddbaf604bd5c74dcdbc4400a456c360eac569af6355630659",
+                    "SHA3-256": "aca3d952fcf5225a32b3de13946c65647f021b0bc36aba71a82ff57ba90775ec",
+                    "SHA3-512": "fddd1d2243a5c82dc1d41ff48f161eb8ac83916f6ef84784e9a4c2b1ae3bb176c1887edaeaf67f4e76c2ee5919f1785752df7b882039072ac6d16c9ebbdebb2f"
+                },
+                "name": "member.mp3",
+                "ctime": "2021-05-17T18:18:59.735132Z",
+                "mtime": "2020-11-28T17:18:02.566628Z",
+                "atime": "2021-06-21T08:04:34.779676Z",
+                "defanged": true
+            }
+        },
+        "labels": [
+            "list",
+            "doctor",
+            "trouble",
+            "west",
+            "crime",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--59514282-a5b8-4447-91e5-a7357a7ca1f5"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4bbd93c0-2f11-4c01-9d8b-4b2b9021e72c",
+        "created_by_ref": "identity--e08caf14-cbeb-4cb7-8986-43a73b8c2308",
+        "created": "2021-02-16T06:58:45.033328Z",
+        "modified": "2021-10-01T05:08:45.686847Z",
+        "relationship_type": "based-on",
+        "description": "Economy four see consumer which. Page stage tough whole conference few not.",
+        "source_ref": "indicator--c6a1a290-b71c-40ac-8ee5-857f7d93426c",
+        "target_ref": "observed-data--85ea671e-759f-4337-866d-cd3199de340d",
+        "confidence": 63,
+        "object_marking_refs": [
+            "marking-definition--59514282-a5b8-4447-91e5-a7357a7ca1f5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e08caf14-cbeb-4cb7-8986-43a73b8c2308",
+        "created_by_ref": "identity--e08caf14-cbeb-4cb7-8986-43a73b8c2308",
+        "created": "2021-05-28T22:09:13.527244Z",
+        "modified": "2021-08-14T01:08:36.997169Z",
+        "name": "Combs, Bright and Smith",
+        "roles": [
+            "beautiful",
+            "community",
+            "pull",
+            "situation",
+            "especially"
+        ],
+        "identity_class": "system",
+        "sectors": [
+            "agriculture",
+            "infrastructure",
+            "education"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "scientist",
+                "description": "American since bed maintain."
+            },
+            {
+                "source_name": "show",
+                "description": "Beat order kind particularly south upon wonder.",
+                "url": "https://www.reynolds-patel.com/",
+                "hashes": {
+                    "MD5": "c5b12ad9af749462ebcab6b25acb3ba4",
+                    "SHA-1": "bfb55a5ce573aa3a926f5f4fd9e9d4fb01ce19b7",
+                    "SHA-256": "0c5517f52e393430f253e1125da33d545ef293c8560cde97d3dee6ef1898aa3b",
+                    "SHA-512": "b9bec5314998d796966394e24051db27236539b5b38734dd9b618d6cf203578245f00b3889ee0f2d3f5532fc05b0ca8ef4ced713992c1cd1995285ba70f432d4",
+                    "SHA3-256": "10afddbaaa446f53c64a77844a54cc23f5324af9feddb1c51567fa4e451055ce",
+                    "SHA3-512": "f90eff7f72a9a58ab984ac912f55ec7fd9e92b7013081343e007a3ff17f85a5d37904942152b8613980847ff40186753c503b84cb1ac0b47d77c1aa7348f098c"
+                },
+                "external_id": "lSHCdsCEtdwdq"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--59514282-a5b8-4447-91e5-a7357a7ca1f5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--59514282-a5b8-4447-91e5-a7357a7ca1f5",
+        "created": "2021-08-14T01:08:36.991725Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fb4e63d-338f-4f0a-b771-dd937b9aaabe",
+                "name": "Human on join spring",
+                "create_date_time": "2021-08-14T01:08:08.425512Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.425314Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

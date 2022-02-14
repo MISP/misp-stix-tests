@@ -1,0 +1,214 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--687e8c0f-c24b-4ef0-b0ad-82eb6af61e42",
+        "created_by_ref": "identity--1be80000-febc-4a0c-89f2-536c6750839f",
+        "created": "2021-12-26T22:02:29.072812Z",
+        "modified": "2022-11-28T20:22:14.275791Z",
+        "name": "practice",
+        "goals": [
+            "Billion green meet fine system last.",
+            "By reveal kind plan agreement account actually.",
+            "A describe even happen."
+        ],
+        "primary_motivation": "personal-satisfaction",
+        "secondary_motivations": [
+            "notoriety",
+            "organizational-gain"
+        ],
+        "confidence": 72,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--507af73f-c250-4743-a042-c488f129742a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--f611a51c-1827-4d71-92fe-01b0c4d66a5c",
+        "created_by_ref": "identity--1be80000-febc-4a0c-89f2-536c6750839f",
+        "created": "2020-12-01T12:50:13.127165Z",
+        "modified": "2021-08-14T01:08:53.340036Z",
+        "name": "learn",
+        "description": "Deep budget interesting leave not.",
+        "infrastructure_types": [
+            "botnet",
+            "hosting-target-lists"
+        ],
+        "aliases": [
+            "why"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "Gaixj",
+                "phase_name": "NgLMMhJYmdUjK"
+            }
+        ],
+        "first_seen": "2020-06-10T06:59:20.204905Z",
+        "last_seen": "2020-11-22T12:23:32.07146Z",
+        "labels": [
+            "which",
+            "memory",
+            "determine",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--507af73f-c250-4743-a042-c488f129742a"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--522b770e-38ef-41ee-9f2b-cd54ff960bbd",
+        "created_by_ref": "identity--1be80000-febc-4a0c-89f2-536c6750839f",
+        "created": "2020-10-08T06:35:02.382965Z",
+        "modified": "2021-10-01T02:59:59.842423Z",
+        "relationship_type": "hosts",
+        "source_ref": "intrusion-set--687e8c0f-c24b-4ef0-b0ad-82eb6af61e42",
+        "target_ref": "infrastructure--f611a51c-1827-4d71-92fe-01b0c4d66a5c",
+        "confidence": 31,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--507af73f-c250-4743-a042-c488f129742a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--af6f71f1-e37a-493a-9e76-b95fd5588aec",
+        "created_by_ref": "identity--1be80000-febc-4a0c-89f2-536c6750839f",
+        "created": "2020-08-24T11:41:34.643774Z",
+        "modified": "2021-08-14T01:08:53.340595Z",
+        "name": "hand",
+        "description": "Push practice someone matter state lot.",
+        "context": "suspicious-activity",
+        "object_refs": [
+            "intrusion-set--687e8c0f-c24b-4ef0-b0ad-82eb6af61e42",
+            "infrastructure--f611a51c-1827-4d71-92fe-01b0c4d66a5c",
+            "relationship--522b770e-38ef-41ee-9f2b-cd54ff960bbd"
+        ],
+        "labels": [
+            "already",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--507af73f-c250-4743-a042-c488f129742a"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1be80000-febc-4a0c-89f2-536c6750839f",
+        "created_by_ref": "identity--1be80000-febc-4a0c-89f2-536c6750839f",
+        "created": "2021-10-01T02:59:12.011476Z",
+        "modified": "2022-01-29T06:42:26.583418Z",
+        "name": "Lewis, Wright and Haley",
+        "roles": [
+            "bit",
+            "opportunity",
+            "choose",
+            "citizen",
+            "store"
+        ],
+        "contact_information": "922 Tonya Knoll\nRobinsonton, HI 08372",
+        "confidence": 6,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--507af73f-c250-4743-a042-c488f129742a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--507af73f-c250-4743-a042-c488f129742a",
+        "created": "2021-08-14T01:08:53.338889Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c37eda22-f302-4b2e-bf63-7f8ea35d72b0",
+                "name": "Event really first our country somebody",
+                "create_date_time": "2021-08-14T01:08:08.426408Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.426228Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

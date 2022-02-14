@@ -1,0 +1,251 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--15f9a01d-0912-4389-8b7f-f4a9b161f41f",
+        "created_by_ref": "identity--73460428-0a4d-412b-a925-446f5580c865",
+        "created": "2022-03-21T00:28:19.08908Z",
+        "modified": "2022-05-13T21:57:42.871922Z",
+        "name": "thought",
+        "indicator_types": [
+            "attribution"
+        ],
+        "pattern": "([mac-addr:defanged NOT = false AND (mac-addr:defanged NOT = false AND (mac-addr:value >= '17:b9:18:c7:13:01'))] AND ([process:defanged = false OR (user-account:defanged = false)]))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-11-15T03:28:29.81107Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "agreement",
+                "description": "Firm whatever car stock house.",
+                "url": "http://www.blanchard.org/",
+                "hashes": {
+                    "MD5": "087f2f240ee7bbc71859de6f81440b2a",
+                    "SHA-1": "1bf46809a1e7306354e81531991a290f61a13214",
+                    "SHA-256": "e19f87ceb5707c82b2485afe7de4f6656fa9cc4b1e059b7f5139dd373f462de1",
+                    "SHA-512": "b71690de4dc80aa93957fc98e6fcd63d964f091d5c9c17f164a0413b22e2a70bdaac9c0a2644f14c783c82e688e68def1af8f8ebc84e4e33710fb2b335e72bfa",
+                    "SHA3-256": "2062d48988963c6e61806ff97cc457e799bdcec59f4fea561dcbf32d7aab338c",
+                    "SHA3-512": "67c73fa0006bf6ba80690876ec2c70bd40d8f4f55e0054a4b56c2fa7157626c974cf55fa9b686c9168295c86245e5d3f50c4be40fc16b1d4f22544fc5f9874c1"
+                },
+                "external_id": "rbRxpSVQgpnTNNYrKUSB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--24bc5421-e0e1-4445-a1c3-9f19bb23d737"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--e802e694-423c-4266-b677-92d094879fb4",
+        "created_by_ref": "identity--73460428-0a4d-412b-a925-446f5580c865",
+        "created": "2022-01-16T03:55:24.006816Z",
+        "modified": "2022-03-22T11:25:01.943366Z",
+        "first_observed": "2021-09-14T00:03:44.089647Z",
+        "last_observed": "2022-03-29T23:00:25.275242Z",
+        "number_observed": 477309837,
+        "objects": {
+            "domain-name--0129b61d-e74d-4d55-9bc7-2ec25a38060c": {
+                "type": "domain-name",
+                "spec_version": "2.1",
+                "id": "domain-name--0129b61d-e74d-4d55-9bc7-2ec25a38060c",
+                "value": "small-doyle.com"
+            }
+        },
+        "confidence": 78,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "attention",
+                "description": "Hospital lead health home daughter just school fine.",
+                "url": "https://fox.com/",
+                "external_id": "MichBhKdgvqnZ"
+            },
+            {
+                "source_name": "him",
+                "url": "https://george.org/",
+                "hashes": {
+                    "MD5": "d3ad7be3fee09437c71f6596f40bd5c6",
+                    "SHA-1": "3e429cf967d5c6a05e77881a5a5ac8c8ab0928d2",
+                    "SHA-256": "2b04ad5eb53fa1990ecb2febf9914384a8cd01807c57e5f5b5ce56fa212a1ca3",
+                    "SHA-512": "a122f7c5ca7ff880ebcd465d7457ac3341b51fd5fb18b681b9dfcb75369c7bd817f260d61d9d7838b4c9cce2ec6ce2c4366d8af23d488bdd7b1ce74dd3121b89",
+                    "SHA3-256": "703d35da87cf6f1989b0eb46c96c2687e86c19796f61c389554a046c2ca17393",
+                    "SHA3-512": "ef8e56f44aa5fea8f1da4ba3d7331cc5a6c9e5ac04ea919e5abc04d01c67756018d1d3a1890d92e59a888241dcd244e2502d1a29fbef56c0d24d2ac4f82f6082"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--24bc5421-e0e1-4445-a1c3-9f19bb23d737"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d1c44800-fdcc-4b47-bfa9-f8887388d3e7",
+        "created_by_ref": "identity--73460428-0a4d-412b-a925-446f5580c865",
+        "created": "2020-10-19T03:03:15.495854Z",
+        "modified": "2021-08-14T01:08:38.365674Z",
+        "relationship_type": "based-on",
+        "description": "Happen product director economy continue hospital last happy. Like at hard piece address father somebody. View however point hour. East debate site office.",
+        "source_ref": "indicator--15f9a01d-0912-4389-8b7f-f4a9b161f41f",
+        "target_ref": "observed-data--e802e694-423c-4266-b677-92d094879fb4",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--24bc5421-e0e1-4445-a1c3-9f19bb23d737"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--0fc12617-60b8-4f18-afd5-f14c4265e9f5",
+        "created_by_ref": "identity--73460428-0a4d-412b-a925-446f5580c865",
+        "created": "2020-10-14T17:39:24.432686Z",
+        "modified": "2021-08-14T01:08:38.366176Z",
+        "authors": [
+            "blue"
+        ],
+        "opinion": "strongly-disagree",
+        "object_refs": [
+            "indicator--15f9a01d-0912-4389-8b7f-f4a9b161f41f",
+            "observed-data--e802e694-423c-4266-b677-92d094879fb4",
+            "relationship--d1c44800-fdcc-4b47-bfa9-f8887388d3e7"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "late",
+                "description": "Those huge charge happy become fast step as.",
+                "url": "https://nguyen-hernandez.net/",
+                "external_id": "QtBBiDDLDuOLci"
+            },
+            {
+                "source_name": "stand",
+                "url": "https://krueger.biz/",
+                "external_id": "zIUurYA"
+            },
+            {
+                "source_name": "reveal",
+                "description": "Address son decision former them.",
+                "url": "https://smith-glenn.info/",
+                "hashes": {
+                    "MD5": "35e477c919bbde05cb2e1517dea4f916",
+                    "SHA-1": "7eb21d8abf268be975cfbc74a6cf6c87464f6691",
+                    "SHA-256": "fa04607d0e2fa5fd901ad696dcb6ace3d1fc88798b1dbf02c6933ce21439c6c1",
+                    "SHA-512": "5a9608c36ddb7008e4eb26311d0aa7de3ece5fe3176ec63dbe756a68ca778fa232e590c6860e85fea59a2c6d84b2915fa9503dbe699713c37c116d716ef017cb",
+                    "SHA3-256": "a67106013e3fde817025a1e41a672e0e6b3c1e35d461fefa200ea9556f723607",
+                    "SHA3-512": "eea203cc165a7104cf6b1802d5f48c838fa42bb12ec096630825c8ae3bb0d4b139022a7cf76840169f443e2c2382f4f7e0379136fa1fda9f21829276f30e31fb"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--24bc5421-e0e1-4445-a1c3-9f19bb23d737"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--73460428-0a4d-412b-a925-446f5580c865",
+        "created_by_ref": "identity--73460428-0a4d-412b-a925-446f5580c865",
+        "created": "2020-09-04T23:48:10.948808Z",
+        "modified": "2021-08-14T01:08:38.366447Z",
+        "name": "White, Lopez and Frye",
+        "identity_class": "organization",
+        "contact_information": "9688 Summer Underpass\nPort Mark, WA 63973",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--24bc5421-e0e1-4445-a1c3-9f19bb23d737"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--24bc5421-e0e1-4445-a1c3-9f19bb23d737",
+        "created": "2021-08-14T01:08:38.360659Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-b6e02fdc-1bc2-4bf7-88bf-58ec1e8c0a26",
+                "name": "Eye set happy strong city way",
+                "create_date_time": "2021-08-14T01:08:08.434259Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.434092Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

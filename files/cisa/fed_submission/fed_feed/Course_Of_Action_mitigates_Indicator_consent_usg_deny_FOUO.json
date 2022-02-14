@@ -1,0 +1,206 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--09ef0ac2-f958-43f4-b218-08063b75e15a",
+        "created_by_ref": "identity--f09fbae8-79b8-4e67-af16-d5039ad887ec",
+        "created": "2021-03-16T04:01:31.273668Z",
+        "modified": "2022-03-01T09:06:33.066359Z",
+        "name": "mind",
+        "labels": [
+            "art",
+            "region",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "radio",
+                "description": "Agreement federal sell letter star region everything nor.",
+                "url": "https://www.king-hunter.com/",
+                "hashes": {
+                    "MD5": "b90154914ba9dc257d7b00c2410f5803",
+                    "SHA-1": "b50928e127d2ea5e401d7415d5d7a97a8804faf6",
+                    "SHA-256": "a3520652479f3df6dc7aae91d1d6a03f3395a04f6728bcd7b904a80de2bb962c",
+                    "SHA-512": "5e4bb350a94fb8bb231b0e1ba91aa49682503998b3a560dccc8c87a41ea289857e80f679191bf0b053306112e2792225b589fa6c74f55d258abb4a80eca2993d",
+                    "SHA3-256": "c0a500be3f8f83fbe37d568f92417d2c332d5a12cbafd85c71f53ca8b402212e",
+                    "SHA3-512": "9c3922f7ac0332e54e9089bf837c3e35001a47f2ae0b9177eae5b0c5e6f8ac58894aa77de543c0042a9c581a5e6eb298ef06626c952c1326aef979041061ef79"
+                }
+            },
+            {
+                "source_name": "network",
+                "hashes": {
+                    "MD5": "9c6a65b2c1c59caccb39b90cdc6ff357",
+                    "SHA-1": "b9a2d755fe9ea6c34f4b213ceee46aee803d8f50",
+                    "SHA-256": "8830ea194f6e1722806a06cdba1ba9128a77507243fef94d357d779262f117e0",
+                    "SHA-512": "62156b9abb5bd88bb813f9c2589ebf2c4025afbbe86f8f3c5c2d4eacf10287b15e857d95c25e459f99155b5ec5a223ca00429acb5eacaa7f4451db1a3293ee9b",
+                    "SHA3-256": "66a07ed9c802e3a0496d41a6afcd05579dada574d6f95f29900dbfd675cc35a3",
+                    "SHA3-512": "fc4b4ad5b78b07f47dd6bda350bc30a570fd0ab4ed91a8fe7c6ea2d04428a04d2c549d86498120121c1434bf727def3f9f20bf4ba65ec7a54b45b36f7ac86be5"
+                },
+                "external_id": "SCxzEXIisNeuJKXFm"
+            },
+            {
+                "source_name": "fear",
+                "description": "Set billion husband usually measure customer.",
+                "external_id": "zGpvzZfq"
+            },
+            {
+                "source_name": "green",
+                "description": "Some red save politics include.",
+                "url": "http://www.powell.com/",
+                "hashes": {
+                    "MD5": "2cd32ac42409b8de8551084a1c3885d9",
+                    "SHA-1": "1fcc13b7316952c8831868483f3fd4f764236722",
+                    "SHA-256": "85a5db6dae5d572016ec18947a64b64dcbbbca0d882105b1080bf56edbcf278d",
+                    "SHA-512": "b245f71783209c2bf237bdf9adad949e23d02f3a39ccec010f633d4130eec94321ccc8c30c3046fda16ae8d14a981024b3ec2a3f178ad749596be054df977605",
+                    "SHA3-256": "556256608b84d6122188c79c2e99a11ecd1b7c3f17854f78e68af6c5f48f2baf",
+                    "SHA3-512": "85ceb5d3a9831029719cdbdedad1ca8771aed0e80069b168fbb936edc14a2fb0ecdcc8dd542a5bea6abf760aade2045cb7aa453fc396cbff7d384afc9fc0f751"
+                },
+                "external_id": "dcYTFOsOMwyoYHhtK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--318bf224-e7ab-4fcb-848a-ad8b3126705e"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--c579eaf2-2331-455e-a1a6-060083b7da9e",
+        "created_by_ref": "identity--f09fbae8-79b8-4e67-af16-d5039ad887ec",
+        "created": "2021-04-10T09:11:26.404071Z",
+        "modified": "2022-01-26T07:50:36.619319Z",
+        "name": "real",
+        "indicator_types": [
+            "unknown"
+        ],
+        "pattern": "((((([software:defanged = false AND (software:name <= 'VnyQzOttytpngrpsmDL')])) REPEATS 1 TIMES))) FOLLOWEDBY [user-account:defanged NOT = false AND (user-account:defanged = false)] FOLLOWEDBY [user-account:account_created < t'2021-01-15T02:09:39.191272Z']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-04-28T08:09:00.120403Z",
+        "valid_until": "2021-09-05T23:44:32.77428Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "WwMmBF",
+                "phase_name": "DkGScZxfdbZf"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "labels": [
+            "body",
+            "Mr",
+            "peace",
+            "college",
+            "pfte-batch-1"
+        ],
+        "confidence": 56,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--318bf224-e7ab-4fcb-848a-ad8b3126705e"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3cb8a7f4-2a66-4d80-b428-a70f90efe191",
+        "created_by_ref": "identity--f09fbae8-79b8-4e67-af16-d5039ad887ec",
+        "created": "2020-10-30T12:48:14.722643Z",
+        "modified": "2021-08-14T01:08:23.786885Z",
+        "relationship_type": "mitigates",
+        "description": "Grow standard strong teach. Mouth thus political check.",
+        "source_ref": "course-of-action--09ef0ac2-f958-43f4-b218-08063b75e15a",
+        "target_ref": "indicator--c579eaf2-2331-455e-a1a6-060083b7da9e",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--318bf224-e7ab-4fcb-848a-ad8b3126705e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f09fbae8-79b8-4e67-af16-d5039ad887ec",
+        "created_by_ref": "identity--f09fbae8-79b8-4e67-af16-d5039ad887ec",
+        "created": "2022-05-09T02:21:52.564462Z",
+        "modified": "2023-01-15T19:25:20.883661Z",
+        "name": "Nolan PLC",
+        "roles": [
+            "two"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--318bf224-e7ab-4fcb-848a-ad8b3126705e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--318bf224-e7ab-4fcb-848a-ad8b3126705e",
+        "created": "2021-08-14T01:08:23.78142Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a2bad07a-f4d3-4efb-a81b-2cf0c0637fc9",
+                "name": "Our concern loss resource wear",
+                "create_date_time": "2021-08-14T01:08:08.426882Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

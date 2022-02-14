@@ -1,0 +1,269 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--8671709f-54ff-4dbd-a486-d4cc991b1684",
+        "created_by_ref": "identity--10b8e612-78d1-44c7-9e1e-f2c18c28a534",
+        "created": "2022-01-11T23:36:02.90333Z",
+        "modified": "2022-07-19T19:22:42.087397Z",
+        "indicator_types": [
+            "malicious-activity",
+            "unknown",
+            "unknown",
+            "compromised"
+        ],
+        "pattern": "[email-message:is_multipart = true OR (email-message:defanged = false)]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-10-26T08:03:44.791021Z",
+        "labels": [
+            "style",
+            "professor",
+            "own",
+            "author",
+            "pfte-batch-1"
+        ],
+        "confidence": 52,
+        "external_references": [
+            {
+                "source_name": "end",
+                "description": "Center baby theory generation perhaps not interview.",
+                "url": "https://west.biz/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b6876364-89bf-408c-9522-f1d2226c2cd6"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--1fd09a6e-898f-4b7c-b376-1080614d3718",
+        "created_by_ref": "identity--10b8e612-78d1-44c7-9e1e-f2c18c28a534",
+        "created": "2021-11-20T17:10:02.129764Z",
+        "modified": "2022-03-11T22:45:02.909008Z",
+        "name": "you",
+        "first_seen": "2022-02-22T22:34:26.488915Z",
+        "primary_motivation": "unpredictable",
+        "secondary_motivations": [
+            "coercion",
+            "accidental",
+            "revenge",
+            "dominance",
+            "ideology"
+        ],
+        "labels": [
+            "give",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "growth",
+                "description": "Hospital speak animal job seat box.",
+                "url": "http://pierce.org/",
+                "hashes": {
+                    "MD5": "7d08356855c73084f832a08e35d1b501",
+                    "SHA-1": "dc22f6206fb9ef844701efbcb5b2cfc099ff6a76",
+                    "SHA-256": "6be9cffff2786a24829dc28eb311f79bde0d9eb0b21cba194b8cd8ca265165c0",
+                    "SHA-512": "68790a430c1f28d3b634e4df31f590cf0ddd51e869cffff274aec54944f0c8849e07c20a32148031c550b520f7e20c0fc7a2aa066ac847560e954383e1af39b7",
+                    "SHA3-256": "c7c032f8b242317cbcfd9bf299311dbbe4da2056b584c7b0d4feff5cf4994068",
+                    "SHA3-512": "6c4f2f5bbe57d164139d3f4f22a3dcb3f7083b4a9753b71e49d1b4fe399828c9f615f996757e810f970566387c0fcd1e8bc3577bdccefd8eba5b15fa5639a469"
+                },
+                "external_id": "YqxlkijJTL"
+            },
+            {
+                "source_name": "fish",
+                "description": "Time fight painting near country growth heavy.",
+                "url": "http://miller.com/",
+                "external_id": "dBESrEXreLjpZtc"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b6876364-89bf-408c-9522-f1d2226c2cd6"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--de0009fd-8506-4cbb-a5af-248f2bcb6143",
+        "created_by_ref": "identity--10b8e612-78d1-44c7-9e1e-f2c18c28a534",
+        "created": "2022-04-03T16:08:00.913834Z",
+        "modified": "2022-04-04T23:03:51.985905Z",
+        "relationship_type": "indicates",
+        "description": "Around campaign late woman. National event like security writer. You though suddenly remain might happen hard.",
+        "source_ref": "indicator--8671709f-54ff-4dbd-a486-d4cc991b1684",
+        "target_ref": "intrusion-set--1fd09a6e-898f-4b7c-b376-1080614d3718",
+        "stop_time": "2021-11-27T22:59:15.576831Z",
+        "labels": [
+            "machine",
+            "pfte-batch-1"
+        ],
+        "confidence": 36,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "executive",
+                "description": "Among land mean story reflect.",
+                "url": "https://thomas.com/",
+                "hashes": {
+                    "MD5": "22625b9b0c0884bed065ddbcfbdd49d8",
+                    "SHA-1": "7f2b81774aa5f26334696b0978f059f301a8eb04",
+                    "SHA-256": "3fb886472361bcde25a59c0eecf10fd6913a38c33c860e98362b6527945344b1",
+                    "SHA-512": "ba6d12ff40f4cb812d3212de22181f19cc5c57944bf84c9fc1fa744a30a9ca629a7e2bb5742e9bce6591d66393bc4a22668848a6ff223bc5f91f7a433b849b9c",
+                    "SHA3-256": "f3091f53d5d671146c13240499d09880066f58e3640048a9a0819af1c23acc1e",
+                    "SHA3-512": "92f387530de77256f85169a8dc714025f94b2560e7939b8947394b002568a8ec2cb21779b899f2033f41ea266063085e2fde5cbbd4e7d3ab9db83461535bfa39"
+                },
+                "external_id": "UkMpmVJByqAfWO"
+            },
+            {
+                "source_name": "feeling",
+                "description": "May hair political surface audience more mean.",
+                "url": "http://berg-owens.com/",
+                "hashes": {
+                    "MD5": "3ceb7687ecc10a94acd76676efc08d41",
+                    "SHA-1": "82fc6645b630b4bd9c99753848e6c598464f19d5",
+                    "SHA-256": "e3110194d8b1dac197aa0e6991f0b1e43146d7e223080f9fb685b3a8cdfa7653",
+                    "SHA-512": "45bcc914d52d6cf4150ca2a92a43f4c46bfa8a4b46350e22a6549ce4921ed20d99493570f094acef866b7f5e54fe789e186f18a2d80c92af7b41bae2975afe04",
+                    "SHA3-256": "0593c485bdae843aa27b6594ba474b0442a07ba982b02e70eab8171a3d0df3cc",
+                    "SHA3-512": "3258e2c2fb5ea160b923a9fb2246eda5eacd8d2a7a476a4b62fdffe31050c60e2acdf003f2d53fb523fe5e6f613b383a93de8bb9d07ae387effc082ff84e724b"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b6876364-89bf-408c-9522-f1d2226c2cd6"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b6876364-89bf-408c-9522-f1d2226c2cd6",
+        "created_by_ref": "identity--10b8e612-78d1-44c7-9e1e-f2c18c28a534",
+        "created": "2021-08-14T01:08:31.150549Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2a4a5944-494c-4a33-b0ba-c70e719ee1c8",
+                "name": "Room arrive pay often",
+                "create_date_time": "2021-08-14T01:08:08.421032Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--10b8e612-78d1-44c7-9e1e-f2c18c28a534",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-17T17:58:33.100682Z",
+        "modified": "2021-08-14T01:08:31.154273Z",
+        "name": "Burch, Smith and Lane",
+        "description": "Open-source executive concept",
+        "contact_information": "465 Roth Ridge\nEast Mariahbury, NV 67916",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 46,
+        "external_references": [
+            {
+                "source_name": "pretty",
+                "description": "Language heavy well wish ever describe.",
+                "url": "https://www.elliott-davidson.com/"
+            },
+            {
+                "source_name": "occur",
+                "description": "Lead church table central international.",
+                "url": "http://www.wolf-austin.org/",
+                "hashes": {
+                    "MD5": "931efc6b91d9d5973e14405abaf568d6",
+                    "SHA-1": "0d4db46ce6dc00c7c11be88083f5d0783272612f",
+                    "SHA-256": "28288edd963fd113f396fc41613671b2c6e384ebdf02de0d73b5332b340b8bd0",
+                    "SHA-512": "99d3f072bb39dda53894feaebb8e14bd70adb6612a315d8380cdeaa6ce3bcf2a7693e7a0d7a2ce03d7832ba64460b3abd63f15b12ef9d84543f40217c1dc3d35",
+                    "SHA3-256": "349a883d0068e3fa647feba6ad05721a4c2cc729c97b7ffb93657bbb8b2af527",
+                    "SHA3-512": "67675da9108713e8ce0c3034a355ab43fe06b2b440e9dad8616614c9f9f4c3b659a1966bd370cc3560f92228798568bc231bf29e29512dd7b389b1949cfbd23f"
+                },
+                "external_id": "gNBLELHlw"
+            },
+            {
+                "source_name": "section",
+                "url": "http://www.perez.com/",
+                "hashes": {
+                    "MD5": "d781c92f4bbd6620d5f9b2077e66be2a",
+                    "SHA-1": "8dea1c2cf4b085b70d92d6aca727da243ffd3133",
+                    "SHA-256": "ff31f34ea7d97cfb5075c2eaa038f113a4954befb5dd53ff9d1e5ab1ec6f5604",
+                    "SHA-512": "d51e86f167b70c92b3b8ae79e5a5da557bcd04540251708cd22afc297532b800c58d811a6a6b66cf4c578b82723fc95db081b6e300cc1b5d7ac0552c06cedef4",
+                    "SHA3-256": "b206aff530002f656af2c874077a04c1333a21d1a3f8c1fa30362d1a64bf9950",
+                    "SHA3-512": "f639c1e6969aa13bc1a44950957b6d068091cccc9718b88501e64b0607d277c3fc04d3bfd91c6f24a66e26713c72ea1f26af74635c002255bbec182aabb45fe5"
+                },
+                "external_id": "VGANXQjDITYAyFMpp"
+            },
+            {
+                "source_name": "red",
+                "description": "Let artist trip paper another act anything.",
+                "hashes": {
+                    "MD5": "29c86469f7aa1cb3696fe7145d642745",
+                    "SHA-1": "e7265ad6e409b1d6cfd0adaea8ed1cba6dc56767",
+                    "SHA-256": "84d2e5fdb1f072eab267ef7b9a4c7e9f12f760301543c14397f301b87844cf7f",
+                    "SHA-512": "fce5929825ce4b01067e3d4d69832ecb51264eda69774c18f0be127d64b32c8bb89033a7bc3b53cbbc396e1e797fd2decb2ce490ce1fdfea92f0db07330a7097",
+                    "SHA3-256": "1e28e61348f3d7d5f3f5d27199a1a219e3e0208873ab5039ee045d19d484d9fb",
+                    "SHA3-512": "8582dbd8c39be719623387aa762cc7419f60b4826d84450d76a3837cdaca33c9d5672524bc3463221978494e9911f63f9085ba7beaaac113616a255e5a28e7c0"
+                }
+            },
+            {
+                "source_name": "oil",
+                "description": "Else prevent need.",
+                "hashes": {
+                    "MD5": "db0778f605a00ba5e92ade4ff9f4960e",
+                    "SHA-1": "41829a639fa4645e9d83c760cba0ff15c1ec3a82",
+                    "SHA-256": "b6d027405e2c5eb93c0832b5032debf8aa9bbb8b2a5e064b50d190fd2b564481",
+                    "SHA-512": "577cedf2ba1fd6f6f6e493f323c71c81c1701e005ff7de1247f3e4fbb670a9ada1ca668f7a17bdb9f21f96515ee0eeeb0f5e0a41f781d4e06b45b1e010cf7b8e",
+                    "SHA3-256": "11b975b7501f9ba2b4276e5d30945cb31016320e36e4f215ff78a22cf14faa44",
+                    "SHA3-512": "c7203b3647e9206f90508db5df58fcade79ab62e96a4dc0149e7edd3dd3775d80a44a6fb6e4d2f911cc8c89b875ebc3630f18ffb7f731f687d7c5da60bd3e7b1"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b6876364-89bf-408c-9522-f1d2226c2cd6"
+        ]
+    }
+]

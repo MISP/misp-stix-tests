@@ -1,0 +1,167 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--f790c4e7-48e5-44fc-bfd6-00df303b10ed",
+        "created_by_ref": "identity--c1ea2333-191c-4351-af1a-43edc6078b13",
+        "created": "2022-07-22T22:08:58.175391Z",
+        "modified": "2023-07-18T12:55:36.258591Z",
+        "name": "rich",
+        "infrastructure_types": [
+            "botnet",
+            "botnet",
+            "anonymization"
+        ],
+        "aliases": [
+            "concern"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "kDFnHoyxOMtnxeuAO",
+                "phase_name": "xlRsitwJESWfiea"
+            },
+            {
+                "kill_chain_name": "fxYcF",
+                "phase_name": "prGDRXILcsLbpEHrACCE"
+            },
+            {
+                "kill_chain_name": "csBKnWnvuGSw",
+                "phase_name": "FlhRmQhmVIA"
+            },
+            {
+                "kill_chain_name": "mqdhvmrkDzI",
+                "phase_name": "JXNoQQqv"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 63,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--8ffad704-c7fc-43b2-a6e4-23790d5bf2d9",
+        "created_by_ref": "identity--c1ea2333-191c-4351-af1a-43edc6078b13",
+        "created": "2021-06-26T09:53:54.514308Z",
+        "modified": "2022-04-16T15:25:27.807994Z",
+        "name": "audience",
+        "tool_types": [
+            "denial-of-service",
+            "information-gathering",
+            "network-capture",
+            "information-gathering"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "IdbyDxKGYDZBmPJraqlz",
+                "phase_name": "bzXsJCQJ"
+            },
+            {
+                "kill_chain_name": "wCebi",
+                "phase_name": "lJEdWXXtLCfggFMclDir"
+            }
+        ],
+        "labels": [
+            "top",
+            "them",
+            "ball",
+            "pfte-batch-1"
+        ],
+        "confidence": 41,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "guess",
+                "description": "Fight arm message seek hold pass sea trade."
+            },
+            {
+                "source_name": "keep",
+                "description": "Appear dog least responsibility.",
+                "url": "http://morgan.info/",
+                "external_id": "pfWaNVXPcjhc"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1f0b3092-7d77-4513-8d0f-ce6b49a9bc08",
+        "created_by_ref": "identity--c1ea2333-191c-4351-af1a-43edc6078b13",
+        "created": "2022-04-20T11:44:56.478673Z",
+        "modified": "2022-05-22T23:25:57.614954Z",
+        "relationship_type": "hosts",
+        "source_ref": "infrastructure--f790c4e7-48e5-44fc-bfd6-00df303b10ed",
+        "target_ref": "tool--8ffad704-c7fc-43b2-a6e4-23790d5bf2d9",
+        "start_time": "2020-11-17T17:17:08.542696Z",
+        "stop_time": "2021-10-25T20:15:47.252052Z",
+        "labels": [
+            "finally",
+            "dinner",
+            "approach",
+            "hot",
+            "fund",
+            "pfte-batch-1"
+        ],
+        "confidence": 6,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c1ea2333-191c-4351-af1a-43edc6078b13",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-11T03:58:04.695999Z",
+        "modified": "2022-05-02T06:50:50.41276Z",
+        "name": "Grant-Gray",
+        "roles": [
+            "step",
+            "street",
+            "stay"
+        ],
+        "sectors": [
+            "aerospace",
+            "transportation",
+            "government-national",
+            "government"
+        ],
+        "contact_information": "98442 Michael Way Apt. 498\nLake Lisa, NM 21348",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 77,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "page",
+                "hashes": {
+                    "MD5": "bad1ca765fd6eca2558dac725187ecca",
+                    "SHA-1": "c304ef08633367953b318c0031f24f6284176cb8",
+                    "SHA-256": "1850332617148e83800417911b5692a5daeaff9b9fc461b561a9ae67b948a57c",
+                    "SHA-512": "9c5007b079cc4a8000b41d2989fc2629f5d7c127806a4e7126fa7e7e0e8cc820f1b2c33515353054d96092ba296ac88aa91612639e3a6f5a9ffe8ddf98eefcd4",
+                    "SHA3-256": "b1c3ee7bc17d1244b216e5718d1a791dfc55f54168d291a4049b3429254ac906",
+                    "SHA3-512": "e64f69444c5a1dc62c2c6ff89f4da853d3659e57c3dd0d3d35083328e50e67dcf3d6e66523eddae9add22b14737f807f31db15e01abf3204b3fd3a0442e65402"
+                },
+                "external_id": "FFifIect"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

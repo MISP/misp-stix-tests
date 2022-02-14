@@ -1,0 +1,119 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--7ffce58a-8a30-4390-bd21-27eac41d0f70",
+        "created_by_ref": "identity--61785fee-6330-431f-9a2f-deb7750c5886",
+        "created": "2021-09-19T22:16:27.399232Z",
+        "modified": "2021-11-19T22:37:05.411323Z",
+        "name": "field",
+        "description": "Join interview force player.",
+        "indicator_types": [
+            "unknown",
+            "anomalous-activity",
+            "attribution"
+        ],
+        "pattern": "([email-addr:value >= 'edavis@levine.com']) AND [x509-certificate:defanged = false AND (x509-certificate:version = '13')]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-10-04T16:30:57.532602Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--8da7920b-ed65-4050-b4a9-2f4afa684b4f",
+        "created_by_ref": "identity--61785fee-6330-431f-9a2f-deb7750c5886",
+        "created": "2021-10-16T22:26:14.933258Z",
+        "modified": "2022-05-15T03:36:44.096303Z",
+        "name": "research",
+        "description": "Wish rock prepare support per quickly if us.",
+        "aliases": [
+            "through",
+            "future"
+        ],
+        "objective": "Whose table ago act laugh.",
+        "labels": [
+            "though",
+            "minute",
+            "month",
+            "research",
+            "performance",
+            "pfte-batch-1"
+        ],
+        "confidence": 61,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c529c9b3-6075-4cbf-a469-f24548c874da",
+        "created_by_ref": "identity--61785fee-6330-431f-9a2f-deb7750c5886",
+        "created": "2021-04-09T05:44:51.116625Z",
+        "modified": "2022-02-24T03:45:09.776966Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--7ffce58a-8a30-4390-bd21-27eac41d0f70",
+        "target_ref": "campaign--8da7920b-ed65-4050-b4a9-2f4afa684b4f",
+        "stop_time": "2020-08-16T16:46:13.749559Z",
+        "labels": [
+            "natural",
+            "sense",
+            "option",
+            "reality",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "year",
+                "description": "Stand safe might one keep statement last tree.",
+                "external_id": "VuLYCKuHKfQgMyF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--61785fee-6330-431f-9a2f-deb7750c5886",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-11T13:58:15.224911Z",
+        "modified": "2022-03-10T01:24:11.413434Z",
+        "name": "Lewis-Cunningham",
+        "description": "Assimilated even-keeled moratorium",
+        "roles": [
+            "you",
+            "need"
+        ],
+        "sectors": [
+            "mining",
+            "agriculture",
+            "construction",
+            "insurance"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 87,
+        "external_references": [
+            {
+                "source_name": "career",
+                "url": "http://www.turner.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

@@ -1,0 +1,128 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--b87fc3c4-1ef4-40af-b7dc-37c3b177e8c2",
+        "created_by_ref": "identity--b464d3c1-6296-4248-bb10-e1d86ae6ef9b",
+        "created": "2021-12-04T05:50:21.15422Z",
+        "modified": "2022-02-12T09:49:04.710957Z",
+        "name": "if",
+        "aliases": [
+            "top"
+        ],
+        "first_seen": "2022-01-08T21:55:15.758959Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "ipv6-addr",
+        "spec_version": "2.1",
+        "id": "ipv6-addr--b8aab2ab-5156-41f3-bdac-29c1d131087f",
+        "value": "7720:d82c:a842:48a3:bba3:163:d0a:a2f2",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--635f8c20-f864-4ff2-ac9d-103f26b49dba",
+        "created_by_ref": "identity--b464d3c1-6296-4248-bb10-e1d86ae6ef9b",
+        "created": "2021-07-03T20:42:02.165224Z",
+        "modified": "2022-02-03T16:38:41.250982Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--b87fc3c4-1ef4-40af-b7dc-37c3b177e8c2",
+        "target_ref": "ipv6-addr--b8aab2ab-5156-41f3-bdac-29c1d131087f",
+        "labels": [
+            "fly",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b464d3c1-6296-4248-bb10-e1d86ae6ef9b",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-10T13:53:24.862807Z",
+        "modified": "2021-08-14T01:08:40.490907Z",
+        "name": "Lawrence Ltd",
+        "description": "Mandatory composite superstructure",
+        "roles": [
+            "learn",
+            "event",
+            "cold"
+        ],
+        "identity_class": "system",
+        "sectors": [
+            "nuclear",
+            "government-public-services",
+            "automotive",
+            "telecommunications",
+            "government-public-services"
+        ],
+        "contact_information": "39651 Wright Locks Apt. 876\nNew Frances, NM 89362",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 81,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "ok",
+                "description": "Forget interview appear recent eat.",
+                "url": "http://www.brooks-russell.com/",
+                "external_id": "MlzHVTfALskWPYPc"
+            },
+            {
+                "source_name": "mean",
+                "description": "Animal explain government including customer court organization.",
+                "hashes": {
+                    "MD5": "ff38180de1215b0d24ddd36785059166",
+                    "SHA-1": "ffbb7e7f05180d852bc7d7305e0bb9b75aa7e89a",
+                    "SHA-256": "28a8b064af7892b1353706915ff4238c3aea57ce11f99763e7d6c430ca178857",
+                    "SHA-512": "0f52235fb2ddcdeb710502a524a8b28d57ae8776aa1bce812b6c1f9e0c7df3cef19fa5ab629533f48ddb08273a5c428524d5c18287fcf6ba42ac33e28e69085c",
+                    "SHA3-256": "f18cff9f4e6ab7ed74e702a300281f31cb81bac7cd67abd9d9c7d0a87c899764",
+                    "SHA3-512": "fb1eff7d75f107479fef22e6e2b8b80c2c6ac89fa8e10c783149b064082abb120ddefab30a349b9ed977017df650c85d9661e9f87110b4a20a8bc8065d380e2d"
+                }
+            },
+            {
+                "source_name": "sometimes",
+                "url": "http://www.taylor-hopkins.com/"
+            },
+            {
+                "source_name": "last",
+                "description": "As probably how history herself.",
+                "external_id": "LoDbSPPcdhoFaeGvbn"
+            },
+            {
+                "source_name": "so",
+                "description": "Onto imagine attack.",
+                "url": "https://vaughn-larson.com/",
+                "hashes": {
+                    "MD5": "42fad662cc57035ab2176dbfff155ba8",
+                    "SHA-1": "cd3e76ebaad1173ec704c59bc6b57f88cdaa150e",
+                    "SHA-256": "2c5b95e4f180d7243aa0f5e09ed1e89ad30a823a44e9a09736c43c504fdfee00",
+                    "SHA-512": "177b727065a1e0b96f1c3f77b1b97f7d9aa1d0e545995a496b0e5a97e4e519dd977ec1f360a9091ad075987746fdd59e329d02014c761a3d57dffe4793713b29",
+                    "SHA3-256": "bb754284575abc66c57321afcc18a699f48ca7ce9033df0b4758cb247911fda2",
+                    "SHA3-512": "b73d3e20313389271d821bfb37d74c9ab073214ee667d7826e3205759cf3d0f3b3f4158f51dedd68ce29f93cbf198b7a8014b1a337cbad3ebf665f40eedbedb7"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

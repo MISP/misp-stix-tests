@@ -1,0 +1,259 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--b1630383-31bb-4c6a-a53e-91955e5abe21",
+        "created_by_ref": "identity--b5a68daa-3bdc-4746-875f-5fe477fa1aec",
+        "created": "2022-07-31T01:24:10.807497Z",
+        "modified": "2023-01-23T07:21:04.039194Z",
+        "indicator_types": [
+            "unknown",
+            "malicious-activity"
+        ],
+        "pattern": "[directory:path_enc <= 'ISO-8859-4']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-01-03T16:13:00.790191Z",
+        "labels": [
+            "card",
+            "mention",
+            "consider",
+            "money",
+            "wrong",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--123f0684-a854-42f6-91f7-ad5dec0e38a7"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--cdcabdb9-04ae-4abd-8829-3c5ffe7d654d",
+        "created_by_ref": "identity--b5a68daa-3bdc-4746-875f-5fe477fa1aec",
+        "created": "2020-09-15T20:51:41.181675Z",
+        "modified": "2021-08-14T01:08:35.630898Z",
+        "name": "few",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "CeJzeFvnqZ",
+                "phase_name": "iSdRakvku"
+            },
+            {
+                "kill_chain_name": "YDWIruUJLJFOVpsB",
+                "phase_name": "DhkrvQvJeHhWlvlV"
+            }
+        ],
+        "labels": [
+            "military",
+            "its",
+            "give",
+            "pfte-batch-1"
+        ],
+        "confidence": 83,
+        "external_references": [
+            {
+                "source_name": "see",
+                "hashes": {
+                    "MD5": "64b8ef8a116e348066e32ce90d68a32d",
+                    "SHA-1": "6b21511ad0d387bffdd836138eb608e05016ffcf",
+                    "SHA-256": "9a0215ecc2e33e333244bf7c0faa85498ef81c9eaa908e9cac0272f6cda4832e",
+                    "SHA-512": "920e6cb8e96a284006ac142bd8fb109f7b031ef9b4df2d140739beb15fe20fb724e0cba36578eab5040d649ab8964b313713eaa414ca8d8514ccd1942ff2ac3d",
+                    "SHA3-256": "130b5b8fbb5e5b38e9e9fede50b70bb6c764e62849bfa874120793ac947a03c9",
+                    "SHA3-512": "77fe16130db23912f3d6b51057ed3619847d911fe632a0fdef22899b50ee142984c8565d14b987b56fe24f8c7908700c2a0d4d082cc3ebc499b3b7842424646b"
+                },
+                "external_id": "OIZNbUph"
+            },
+            {
+                "source_name": "artist",
+                "external_id": "JFkykkzLHjpR"
+            },
+            {
+                "source_name": "magazine",
+                "url": "http://wright.net/",
+                "hashes": {
+                    "MD5": "ea7fbc20b8afcbac488a2c3b7f762c0d",
+                    "SHA-1": "5c9996799701840d237915bb628e4d7388414a0d",
+                    "SHA-256": "4e56f25d60acb7f741d591c122aa85f95295ba5e0c6a87b8c277d23d81bf1ff9",
+                    "SHA-512": "48326a411159d21b167f5f1db4485e273b8f270bd29f957d0b9a840ef9780e027d5baf93d2b3693f031824945b421fae48356cf9e79b9453679a906d31a76fb7",
+                    "SHA3-256": "4c018994b77771d9145065736c5ef513f9cb0a4d2acbfeefcab89ce7c3ba8dfe",
+                    "SHA3-512": "e55c46313a1c8bd55323b86141acc7a3289fe18cd3d3cce0d75ed72733ccac79b62eee1cff2ba0d0f8575d9c3163b80b7917134e38b6fc595060577731d0a90e"
+                }
+            },
+            {
+                "source_name": "practice",
+                "url": "https://gibson-reeves.info/",
+                "external_id": "LcaUaOjxbukEyN"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--123f0684-a854-42f6-91f7-ad5dec0e38a7"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b2a1c7ef-53d9-4873-97d9-71f7bbb0c070",
+        "created_by_ref": "identity--b5a68daa-3bdc-4746-875f-5fe477fa1aec",
+        "created": "2022-05-08T07:06:28.110331Z",
+        "modified": "2022-05-24T16:43:05.798421Z",
+        "relationship_type": "indicates",
+        "description": "Leg everything control point. Leg defense watch feeling or son parent.",
+        "source_ref": "indicator--b1630383-31bb-4c6a-a53e-91955e5abe21",
+        "target_ref": "tool--cdcabdb9-04ae-4abd-8829-3c5ffe7d654d",
+        "start_time": "2020-09-18T20:50:16.941554Z",
+        "stop_time": "2020-11-18T03:05:10.159215Z",
+        "labels": [
+            "general",
+            "pfte-batch-1"
+        ],
+        "confidence": 28,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--123f0684-a854-42f6-91f7-ad5dec0e38a7"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b5a68daa-3bdc-4746-875f-5fe477fa1aec",
+        "created_by_ref": "identity--b5a68daa-3bdc-4746-875f-5fe477fa1aec",
+        "created": "2021-01-16T11:00:49.107278Z",
+        "modified": "2021-12-18T07:23:04.190548Z",
+        "name": "Soto-Hernandez",
+        "roles": [
+            "everything",
+            "claim"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "entertainment",
+            "construction"
+        ],
+        "contact_information": "Unit 0501 Box 8273\nDPO AA 74367",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "attorney",
+                "description": "Wall support very many apply off.",
+                "url": "http://graham-chase.net/",
+                "external_id": "rdYoQrPEqdHCMqQj"
+            },
+            {
+                "source_name": "off",
+                "description": "Might view two happy cause.",
+                "hashes": {
+                    "MD5": "a3f96fafd866183790a61046e1dd0504",
+                    "SHA-1": "a36a32df1ebd1495f87effc22972ffdd94c70637",
+                    "SHA-256": "59f7b722d129e11cd4051ad25f1cc20a615af1098119e7c8ad0b277da852d8c4",
+                    "SHA-512": "3110e3edeea3a8e76348522b9968c21c3479b7b0f9d339a2d6d7e3cb6c8ffd809e42b6a4bc5dee516e6836752743a67c750782be84a24f948c1a1b688b952c0a",
+                    "SHA3-256": "f534c987867dc18d55f688487946c92b05a311efd7ac3aac53cecbc85c25ee11",
+                    "SHA3-512": "97111285af4a2ce8e4d646858efd1d626eb167861f47a0dc1227c62e59c3635ca296158fbd38788690f38a0f72dcb41c9062f7284717b297747c99e18edebb8c"
+                }
+            },
+            {
+                "source_name": "wind",
+                "description": "Trip evidence later chair lot include nor.",
+                "external_id": "hSzuTstttRtPRunMO"
+            },
+            {
+                "source_name": "check",
+                "external_id": "adTRWwwFcXMvHy"
+            },
+            {
+                "source_name": "task",
+                "external_id": "WiKshtbqAKCOTz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--123f0684-a854-42f6-91f7-ad5dec0e38a7"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--123f0684-a854-42f6-91f7-ad5dec0e38a7",
+        "created": "2021-08-14T01:08:35.62883Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6d40bd19-4710-4b69-9440-86c8c2a858b4",
+                "name": "Purpose response respond always trouble later investment",
+                "create_date_time": "2021-08-14T01:08:08.431664Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.4315Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

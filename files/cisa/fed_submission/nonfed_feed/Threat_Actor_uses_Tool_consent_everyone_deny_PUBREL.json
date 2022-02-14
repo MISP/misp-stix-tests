@@ -1,0 +1,99 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--2d3da4ab-770a-4a71-ba05-5d14a4c23981",
+        "created_by_ref": "identity--86fae076-b367-46bc-b02e-b4a9502774e7",
+        "created": "2020-11-14T10:41:59.826417Z",
+        "modified": "2021-08-14T01:09:35.227872Z",
+        "name": "author",
+        "threat_actor_types": [
+            "terrorist",
+            "terrorist",
+            "nation-state",
+            "insider-disgruntled"
+        ],
+        "aliases": [
+            "enjoy",
+            "up",
+            "smile"
+        ],
+        "last_seen": "2021-01-12T04:25:10.784254Z",
+        "labels": [
+            "soldier",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--68655d3d-8802-4c47-b923-85e8d752051d",
+        "created_by_ref": "identity--86fae076-b367-46bc-b02e-b4a9502774e7",
+        "created": "2021-05-14T18:58:49.203641Z",
+        "modified": "2021-08-14T01:09:35.228156Z",
+        "name": "conference",
+        "tool_version": "start",
+        "labels": [
+            "race",
+            "wait",
+            "system",
+            "just",
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1bcc9632-537e-4c04-a6c3-f1b0b065b5aa",
+        "created_by_ref": "identity--86fae076-b367-46bc-b02e-b4a9502774e7",
+        "created": "2019-11-21T04:24:31.119721Z",
+        "modified": "2021-08-14T01:09:35.228404Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--2d3da4ab-770a-4a71-ba05-5d14a4c23981",
+        "target_ref": "tool--68655d3d-8802-4c47-b923-85e8d752051d",
+        "start_time": "2022-01-24T08:14:15.633506Z",
+        "stop_time": "2022-06-15T17:50:08.134345Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--86fae076-b367-46bc-b02e-b4a9502774e7",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-02-19T05:09:34.49191Z",
+        "modified": "2023-01-16T04:09:34.583932Z",
+        "name": "ListenDifficultCampaign",
+        "roles": [
+            "song"
+        ],
+        "sectors": [
+            "entertainment",
+            "pharmaceuticals",
+            "government-public-services",
+            "entertainment",
+            "communications"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 81,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

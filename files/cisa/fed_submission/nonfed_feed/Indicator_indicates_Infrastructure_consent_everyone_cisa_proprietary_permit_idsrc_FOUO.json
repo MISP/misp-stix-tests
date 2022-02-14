@@ -1,0 +1,115 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--c7e163ce-a3d2-47b4-bacf-ead5c6fc99dd",
+        "created_by_ref": "identity--46ee3987-78d4-452d-9dd2-848a0d9dff86",
+        "created": "2022-07-14T18:38:46.754002Z",
+        "modified": "2022-12-24T10:16:11.067849Z",
+        "indicator_types": [
+            "compromised",
+            "anonymization",
+            "compromised"
+        ],
+        "pattern": "([domain-name:value >= 'johnson-thompson.com' AND domain-name:value < 'gonzales-martinez.info' AND (domain-name:value >= 'nichols-hood.com')] AND [email-message:received_lines[0] >= 'YFYaSSOxXFf']) OR [email-addr:defanged = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-11-29T17:09:27.430654Z",
+        "labels": [
+            "draw",
+            "picture",
+            "never",
+            "argue",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--46b7822b-ea75-4097-9ac4-cdd65fe22fec",
+        "created_by_ref": "identity--46ee3987-78d4-452d-9dd2-848a0d9dff86",
+        "created": "2022-04-06T09:37:57.772652Z",
+        "modified": "2022-07-27T11:14:56.210549Z",
+        "name": "he",
+        "description": "Including chance water clearly community scene necessary candidate.",
+        "aliases": [
+            "participant",
+            "will",
+            "unit",
+            "easy",
+            "make"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "ubvkrwXWgIRkfrdsQx",
+                "phase_name": "XznStIBzACToLt"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "first_seen": "2020-12-25T00:23:52.34186Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d73bbba5-7542-4038-863a-b35175e41689",
+        "created_by_ref": "identity--46ee3987-78d4-452d-9dd2-848a0d9dff86",
+        "created": "2021-01-03T20:32:54.650293Z",
+        "modified": "2021-08-14T01:08:30.891528Z",
+        "relationship_type": "indicates",
+        "description": "Figure bill couple because. Head mind Democrat thus among race join.",
+        "source_ref": "indicator--c7e163ce-a3d2-47b4-bacf-ead5c6fc99dd",
+        "target_ref": "infrastructure--46b7822b-ea75-4097-9ac4-cdd65fe22fec",
+        "stop_time": "2022-03-08T19:00:41.716639Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 35,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--46ee3987-78d4-452d-9dd2-848a0d9dff86",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-01-30T17:58:43.373814Z",
+        "modified": "2022-08-26T02:08:59.711622Z",
+        "name": "Zhang, Mueller and Wood",
+        "identity_class": "group",
+        "sectors": [
+            "telecommunications",
+            "infrastructure",
+            "financial-services",
+            "energy"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

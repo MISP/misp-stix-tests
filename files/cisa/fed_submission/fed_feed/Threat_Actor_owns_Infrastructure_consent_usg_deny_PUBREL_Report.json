@@ -1,0 +1,226 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--66192faf-ef6e-445c-a95d-0c4e723fe4a2",
+        "created_by_ref": "identity--965ee33c-30ae-4a60-bf82-b8b089d4a79d",
+        "created": "2022-04-19T23:40:55.891864Z",
+        "modified": "2022-05-10T22:55:11.194562Z",
+        "name": "list",
+        "description": "Capital once interest poor together ground safe.",
+        "first_seen": "2021-07-23T09:41:45.311613Z",
+        "resource_level": "team",
+        "secondary_motivations": [
+            "revenge",
+            "dominance"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "every",
+                "description": "Strategy second suggest raise mention.",
+                "url": "https://warner.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--3412ce3a-4da4-4356-b1f8-6f167cd580c0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--d54fe240-3884-496b-9461-8a44011519bc",
+        "created_by_ref": "identity--965ee33c-30ae-4a60-bf82-b8b089d4a79d",
+        "created": "2020-12-30T22:42:10.390767Z",
+        "modified": "2021-08-14T01:09:27.596643Z",
+        "name": "change",
+        "description": "Very military child rise single long man.",
+        "infrastructure_types": [
+            "routers-switches",
+            "routers-switches",
+            "hosting-target-lists",
+            "workstation",
+            "command-and-control"
+        ],
+        "first_seen": "2020-02-28T00:16:53.99936Z",
+        "last_seen": "2020-10-22T00:11:39.988167Z",
+        "confidence": 92,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3412ce3a-4da4-4356-b1f8-6f167cd580c0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--938605ec-3f3a-40d0-a1df-3412e7c45d0d",
+        "created_by_ref": "identity--965ee33c-30ae-4a60-bf82-b8b089d4a79d",
+        "created": "2021-07-31T09:18:59.600398Z",
+        "modified": "2022-02-10T08:39:15.344449Z",
+        "relationship_type": "owns",
+        "source_ref": "threat-actor--66192faf-ef6e-445c-a95d-0c4e723fe4a2",
+        "target_ref": "infrastructure--d54fe240-3884-496b-9461-8a44011519bc",
+        "start_time": "2021-01-31T08:58:13.410129Z",
+        "stop_time": "2021-10-24T20:40:40.441536Z",
+        "labels": [
+            "bar",
+            "citizen",
+            "goal",
+            "pfte-batch-1"
+        ],
+        "confidence": 8,
+        "external_references": [
+            {
+                "source_name": "second",
+                "description": "Week each enough since nor.",
+                "hashes": {
+                    "MD5": "bd2c7e592c99a3126aec749dbb51d4e8",
+                    "SHA-1": "979eed704aec9f1eeab9c52fc67ea6eb1b86c60b",
+                    "SHA-256": "3c6b7c96a5a833c32dbd715a8cf3b6a538ad35c6675bbe83c57cb95bd3e0dc5c",
+                    "SHA-512": "2ebde82e080f6c528367ef10fde5038b8fa84ffc9b694a0192059b26c582a90db684167df62f0765bf09fa11ff68015f4a92b19cb75a32d7ac52458a7c9e33e3",
+                    "SHA3-256": "e837cc3ab74168050e80fd93a2963c4b459e1b4f8d0f08dc4cbfc1b52b21ab20",
+                    "SHA3-512": "540e2fc92ab18796268e3007e3dc24ab138bcbbe9366bce22714a509bea4367ef8c537fe874c009be65439c8760368b461177dbb39a5c7d6854ebc76dde25259"
+                }
+            },
+            {
+                "source_name": "indeed",
+                "description": "Rate base parent discuss point environment whom.",
+                "external_id": "GJMCjmemhS"
+            },
+            {
+                "source_name": "environment",
+                "external_id": "CooYNNRRVy"
+            },
+            {
+                "source_name": "state",
+                "external_id": "xckcXMJ"
+            },
+            {
+                "source_name": "ever",
+                "url": "http://morgan.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--3412ce3a-4da4-4356-b1f8-6f167cd580c0"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--19502ebd-68ee-4012-8dca-f9f79a678387",
+        "created_by_ref": "identity--965ee33c-30ae-4a60-bf82-b8b089d4a79d",
+        "created": "2021-09-27T12:43:16.534516Z",
+        "modified": "2022-04-15T12:05:52.50898Z",
+        "name": "always",
+        "description": "Wide sport state front remain soldier worker. Police use finally film decide fight. Message leave both buy first.",
+        "report_types": [
+            "vulnerability",
+            "campaign",
+            "tool"
+        ],
+        "published": "2021-09-25T03:16:46.732014Z",
+        "object_refs": [
+            "threat-actor--66192faf-ef6e-445c-a95d-0c4e723fe4a2",
+            "infrastructure--d54fe240-3884-496b-9461-8a44011519bc",
+            "relationship--938605ec-3f3a-40d0-a1df-3412e7c45d0d"
+        ],
+        "labels": [
+            "all",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3412ce3a-4da4-4356-b1f8-6f167cd580c0"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--965ee33c-30ae-4a60-bf82-b8b089d4a79d",
+        "created_by_ref": "identity--965ee33c-30ae-4a60-bf82-b8b089d4a79d",
+        "created": "2021-10-27T07:17:26.724325Z",
+        "modified": "2021-11-14T11:21:53.907188Z",
+        "name": "Moss-Williams",
+        "roles": [
+            "none",
+            "soon",
+            "make",
+            "subject",
+            "young"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "entertainment"
+        ],
+        "object_marking_refs": [
+            "marking-definition--3412ce3a-4da4-4356-b1f8-6f167cd580c0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--3412ce3a-4da4-4356-b1f8-6f167cd580c0",
+        "created": "2021-08-14T01:09:27.595466Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

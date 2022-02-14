@@ -1,0 +1,157 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--59c0b266-d7af-4d87-a856-594dc3bd912e",
+        "created_by_ref": "identity--e85fc688-a09b-411f-acbd-37da746bf239",
+        "created": "2021-10-14T11:07:21.275153Z",
+        "modified": "2022-07-06T22:34:53.254965Z",
+        "name": "rule",
+        "infrastructure_types": [
+            "unknown",
+            "unknown",
+            "hosting-target-lists"
+        ],
+        "first_seen": "2020-07-14T01:58:39.112697Z",
+        "last_seen": "2021-05-08T09:02:56.834816Z",
+        "object_marking_refs": [
+            "marking-definition--7ba90098-5a3d-41db-b6ab-b26d067c653e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--e326b8dc-c655-4cbe-8726-39c3b6510593",
+        "created_by_ref": "identity--e85fc688-a09b-411f-acbd-37da746bf239",
+        "created": "2022-05-02T14:29:08.787806Z",
+        "modified": "2023-01-29T20:01:13.200358Z",
+        "name": "HPQKIPuaGaVCVsr",
+        "description": "User-friendly cohesive flexibility",
+        "latitude": 46.304910003029164,
+        "longitude": 76.87188245308198,
+        "precision": 3.917995004188679,
+        "region": "northern-europe",
+        "city": "Chaseville",
+        "postal_code": "37485",
+        "confidence": 85,
+        "object_marking_refs": [
+            "marking-definition--7ba90098-5a3d-41db-b6ab-b26d067c653e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d167c689-c6e8-4757-9f11-f83b4fe8b8bf",
+        "created_by_ref": "identity--e85fc688-a09b-411f-acbd-37da746bf239",
+        "created": "2021-03-05T00:28:30.550245Z",
+        "modified": "2022-02-19T00:00:23.486562Z",
+        "relationship_type": "located-at",
+        "description": "Such rather wind that international son every. Arm organization simple religious with late cut.",
+        "source_ref": "infrastructure--59c0b266-d7af-4d87-a856-594dc3bd912e",
+        "target_ref": "location--e326b8dc-c655-4cbe-8726-39c3b6510593",
+        "start_time": "2022-08-01T11:31:47.968564Z",
+        "labels": [
+            "by",
+            "meet",
+            "great",
+            "adult",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7ba90098-5a3d-41db-b6ab-b26d067c653e"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--7ba90098-5a3d-41db-b6ab-b26d067c653e",
+        "created_by_ref": "identity--e85fc688-a09b-411f-acbd-37da746bf239",
+        "created": "2021-08-14T01:08:49.701682Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-cdad75a5-97a2-450d-bb1c-cac3b21b4823",
+                "name": "Continue half as create together strong",
+                "create_date_time": "2021-08-14T01:08:08.421874Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e85fc688-a09b-411f-acbd-37da746bf239",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-12-21T22:00:31.382195Z",
+        "modified": "2022-06-06T10:59:56.441599Z",
+        "name": "Davis LLC",
+        "description": "Extended 24/7 implementation",
+        "identity_class": "class",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7ba90098-5a3d-41db-b6ab-b26d067c653e"
+        ]
+    }
+]

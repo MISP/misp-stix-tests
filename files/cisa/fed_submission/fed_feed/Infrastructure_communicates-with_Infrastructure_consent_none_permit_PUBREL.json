@@ -1,0 +1,166 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--fab1354e-3532-4561-8914-70282f1827bb",
+        "created_by_ref": "identity--5309b522-0aef-418e-8ee3-885cdba33625",
+        "created": "2021-07-01T18:28:13.460186Z",
+        "modified": "2022-01-18T00:51:14.025489Z",
+        "name": "agency",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "last_seen": "2021-05-12T14:39:54.206372Z",
+        "confidence": 3,
+        "external_references": [
+            {
+                "source_name": "professor",
+                "url": "https://www.allen-glover.biz/",
+                "hashes": {
+                    "MD5": "e81bab26f33e0812569c2e9f3bc5ec9c",
+                    "SHA-1": "bdbe1fc1d84aab7e8bccf09d0853ddf31149fe38",
+                    "SHA-256": "bf294629b4328cb5f8c5af5ec5d5d020ca43dd5ebe50ec34b2b3da5b7ee08a25",
+                    "SHA-512": "51fb419a7d48278ad62bdf580861c6433f7d69e9df1e8f56c3df6826482c6c620dcbba3a15615167754045e9c7bc3a949b070efe32a3aa8ad1d90f2e4a1e53de",
+                    "SHA3-256": "fcf5416ca876907789522fcad80d2b8ef32d7f9a3c8cd9f9766c704820bbec20",
+                    "SHA3-512": "6e11d67e8ad890c6f07c3668ca3e78e5230e8d7a9f6c07fb1901c16b8c89e8c8c0117742b985f92f2275aa889575c835f09be532522977645af1dbd48bff13fa"
+                },
+                "external_id": "sISBsXr"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fcef4f71-13e2-4de4-8b24-36344541899f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--eaf50ae9-c3da-4339-ba5b-2c77e9954f20",
+        "created_by_ref": "identity--5309b522-0aef-418e-8ee3-885cdba33625",
+        "created": "2021-01-01T12:12:29.143623Z",
+        "modified": "2021-08-14T01:08:38.711511Z",
+        "name": "move",
+        "infrastructure_types": [
+            "hosting-malware",
+            "amplification",
+            "workstation",
+            "exfiltration"
+        ],
+        "aliases": [
+            "body"
+        ],
+        "first_seen": "2022-01-08T01:51:10.631092Z",
+        "last_seen": "2022-04-30T13:02:25.585801Z",
+        "labels": [
+            "red",
+            "wide",
+            "subject",
+            "share",
+            "staff",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--fcef4f71-13e2-4de4-8b24-36344541899f"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--65f24b7d-9a6f-4650-a6ff-ae848fc72de4",
+        "created_by_ref": "identity--5309b522-0aef-418e-8ee3-885cdba33625",
+        "created": "2021-04-13T10:29:32.982295Z",
+        "modified": "2021-08-14T01:08:38.711777Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--fab1354e-3532-4561-8914-70282f1827bb",
+        "target_ref": "infrastructure--eaf50ae9-c3da-4339-ba5b-2c77e9954f20",
+        "start_time": "2021-03-30T10:44:15.46551Z",
+        "confidence": 87,
+        "object_marking_refs": [
+            "marking-definition--fcef4f71-13e2-4de4-8b24-36344541899f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5309b522-0aef-418e-8ee3-885cdba33625",
+        "created_by_ref": "identity--5309b522-0aef-418e-8ee3-885cdba33625",
+        "created": "2021-01-11T23:16:10.994437Z",
+        "modified": "2021-08-30T23:38:08.552808Z",
+        "name": "Bryan, Rivers and Schmidt",
+        "roles": [
+            "half",
+            "record",
+            "dream",
+            "official",
+            "politics"
+        ],
+        "confidence": 3,
+        "external_references": [
+            {
+                "source_name": "feel",
+                "description": "Nor voice move."
+            },
+            {
+                "source_name": "study",
+                "description": "Listen near imagine can century rate.",
+                "external_id": "nodyFkLqonQBWib"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fcef4f71-13e2-4de4-8b24-36344541899f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--fcef4f71-13e2-4de4-8b24-36344541899f",
+        "created": "2021-08-14T01:08:38.710411Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fb4e63d-338f-4f0a-b771-dd937b9aaabe",
+                "name": "Human on join spring",
+                "create_date_time": "2021-08-14T01:08:08.425512Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.425314Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

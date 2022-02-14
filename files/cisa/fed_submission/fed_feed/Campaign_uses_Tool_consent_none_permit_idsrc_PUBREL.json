@@ -1,0 +1,185 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--738a7560-7820-445b-945d-8ee7e6ed2d0b",
+        "created_by_ref": "identity--c7bd4eb7-1484-4bb7-bdcc-57325169a288",
+        "created": "2021-03-26T01:58:08.409429Z",
+        "modified": "2022-03-20T16:10:02.661068Z",
+        "name": "think",
+        "description": "Town join first gas consider trial government.",
+        "aliases": [
+            "act"
+        ],
+        "first_seen": "2021-08-27T10:02:16.337849Z",
+        "objective": "Want first leader reflect majority senior.",
+        "labels": [
+            "admit",
+            "fast",
+            "author",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--3094567c-6dc2-40e0-bbe0-fe2255a259cb"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--87f001d0-aaf4-4a43-b27a-a245e8ae7f3f",
+        "created_by_ref": "identity--c7bd4eb7-1484-4bb7-bdcc-57325169a288",
+        "created": "2021-05-06T19:11:40.228997Z",
+        "modified": "2021-10-09T11:30:22.875106Z",
+        "name": "white",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "cWzrXvQNNgnoVgU",
+                "phase_name": "bXBFIweHukCoIo"
+            },
+            {
+                "kill_chain_name": "tOghbmvZRDNsUSkoE",
+                "phase_name": "ONMVIidb"
+            }
+        ],
+        "tool_version": "business",
+        "labels": [
+            "imagine",
+            "allow",
+            "director",
+            "pfte-batch-1"
+        ],
+        "confidence": 54,
+        "object_marking_refs": [
+            "marking-definition--3094567c-6dc2-40e0-bbe0-fe2255a259cb"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a07e8db0-9dfc-40c2-af57-a33a8dc513f7",
+        "created_by_ref": "identity--c7bd4eb7-1484-4bb7-bdcc-57325169a288",
+        "created": "2021-12-31T18:07:01.432542Z",
+        "modified": "2022-08-01T12:57:06.965424Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--738a7560-7820-445b-945d-8ee7e6ed2d0b",
+        "target_ref": "tool--87f001d0-aaf4-4a43-b27a-a245e8ae7f3f",
+        "start_time": "2021-03-31T04:48:44.962447Z",
+        "stop_time": "2021-10-06T02:16:34.063822Z",
+        "external_references": [
+            {
+                "source_name": "employee",
+                "description": "Commercial cultural what lawyer base evidence same drive.",
+                "url": "http://www.rice.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--3094567c-6dc2-40e0-bbe0-fe2255a259cb"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c7bd4eb7-1484-4bb7-bdcc-57325169a288",
+        "created_by_ref": "identity--c7bd4eb7-1484-4bb7-bdcc-57325169a288",
+        "created": "2022-06-13T17:09:26.527821Z",
+        "modified": "2023-04-01T12:50:19.191338Z",
+        "name": "Berg-Johnston",
+        "roles": [
+            "meeting",
+            "policy",
+            "first"
+        ],
+        "identity_class": "system",
+        "contact_information": "76434 Hood Ridges\nDianaview, KY 23088",
+        "confidence": 38,
+        "object_marking_refs": [
+            "marking-definition--3094567c-6dc2-40e0-bbe0-fe2255a259cb"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--3094567c-6dc2-40e0-bbe0-fe2255a259cb",
+        "created": "2021-08-14T01:08:20.942156Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c37eda22-f302-4b2e-bf63-7f8ea35d72b0",
+                "name": "Event really first our country somebody",
+                "create_date_time": "2021-08-14T01:08:08.426408Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.426228Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

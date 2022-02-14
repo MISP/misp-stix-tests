@@ -1,0 +1,199 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--4f69681b-6a48-4d8a-ba19-ec9e8b410082",
+        "created_by_ref": "identity--9a3b883f-2754-40ce-b281-d6e5bc1ee65e",
+        "created": "2021-02-17T08:37:04.138918Z",
+        "modified": "2021-10-27T10:17:33.385218Z",
+        "pattern": "((([email-message:content_type < 'audio/mp4'] AND [ipv4-addr:value > '56.247.237.124'])))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-08-15T08:50:17.715099Z",
+        "confidence": 31,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "life",
+                "description": "Remember law laugh teach six window anyone.",
+                "url": "http://www.salas.com/",
+                "external_id": "MGTEUmioxxlxeZMBzdY"
+            },
+            {
+                "source_name": "wrong",
+                "description": "Training several community.",
+                "external_id": "AYXRXh"
+            },
+            {
+                "source_name": "table",
+                "description": "Watch necessary floor century."
+            },
+            {
+                "source_name": "agent",
+                "url": "https://torres.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--def97167-73e0-48fd-8556-90f342444abd"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--bb1a4c3d-2a78-45f2-a0ba-1a5555b270f5",
+        "created_by_ref": "identity--9a3b883f-2754-40ce-b281-d6e5bc1ee65e",
+        "created": "2021-12-06T16:16:40.671762Z",
+        "modified": "2022-03-22T05:13:33.955112Z",
+        "name": "run",
+        "last_seen": "2021-05-22T18:42:50.884234Z",
+        "goals": [
+            "Security second whatever away key establish.",
+            "Stand career left could fine.",
+            "Special drive author situation head despite."
+        ],
+        "secondary_motivations": [
+            "organizational-gain",
+            "revenge",
+            "revenge",
+            "ideology",
+            "organizational-gain"
+        ],
+        "labels": [
+            "at",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--def97167-73e0-48fd-8556-90f342444abd"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--aac2dabd-33d5-44e4-83f8-17bda7d77c0f",
+        "created_by_ref": "identity--9a3b883f-2754-40ce-b281-d6e5bc1ee65e",
+        "created": "2020-10-11T23:10:16.885183Z",
+        "modified": "2021-08-14T01:08:31.299701Z",
+        "relationship_type": "indicates",
+        "description": "Region walk whom consider stage. There much force pattern reduce drop.",
+        "source_ref": "indicator--4f69681b-6a48-4d8a-ba19-ec9e8b410082",
+        "target_ref": "intrusion-set--bb1a4c3d-2a78-45f2-a0ba-1a5555b270f5",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "world",
+                "description": "Detail off standard stop yet religious.",
+                "external_id": "DBAXnqMqnHseegjkZwy"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--def97167-73e0-48fd-8556-90f342444abd"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--def97167-73e0-48fd-8556-90f342444abd",
+        "created_by_ref": "identity--9a3b883f-2754-40ce-b281-d6e5bc1ee65e",
+        "created": "2021-08-14T01:08:31.296507Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f217105b-ccd2-4cb0-893a-c1314d7d2d64",
+                "name": "Strategy land response sport over",
+                "create_date_time": "2021-08-14T01:08:08.422773Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.422466Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--9a3b883f-2754-40ce-b281-d6e5bc1ee65e",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-30T10:38:35.932806Z",
+        "modified": "2022-07-13T03:50:25.900932Z",
+        "name": "Lawson Group",
+        "roles": [
+            "cold",
+            "behavior",
+            "market",
+            "radio"
+        ],
+        "sectors": [
+            "hospitality-leisure"
+        ],
+        "contact_information": "463 April Station\nNew Danielside, NH 22442",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--def97167-73e0-48fd-8556-90f342444abd"
+        ]
+    }
+]

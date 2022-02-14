@@ -1,0 +1,100 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--1c557831-1912-4a17-95f9-4ec22951d740",
+        "created_by_ref": "identity--4f1cf501-778e-48f8-92e9-c1901abce0c8",
+        "created": "2021-05-01T18:54:34.651491Z",
+        "modified": "2021-11-18T19:52:15.270352Z",
+        "name": "dog",
+        "threat_actor_types": [
+            "sensationalist",
+            "spy"
+        ],
+        "aliases": [
+            "trial"
+        ],
+        "first_seen": "2021-02-20T21:13:49.206126Z",
+        "roles": [
+            "infrastructure-operator",
+            "independent",
+            "director"
+        ],
+        "sophistication": "minimal",
+        "resource_level": "individual",
+        "primary_motivation": "unpredictable",
+        "labels": [
+            "person",
+            "sound",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d9c44973-494e-47bf-98bf-cbaec0815f7e",
+        "created_by_ref": "identity--4f1cf501-778e-48f8-92e9-c1901abce0c8",
+        "created": "2021-02-17T14:34:02.572236Z",
+        "modified": "2021-08-14T01:09:29.752058Z",
+        "name": "Lee, Schmidt and Mason",
+        "description": "Robust web-enabled contingency",
+        "identity_class": "system",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--175e1f52-d1b9-412d-9aa3-8fd6839c76b9",
+        "created_by_ref": "identity--4f1cf501-778e-48f8-92e9-c1901abce0c8",
+        "created": "2021-05-08T05:05:37.631496Z",
+        "modified": "2021-12-03T03:17:47.139405Z",
+        "relationship_type": "targets",
+        "source_ref": "threat-actor--1c557831-1912-4a17-95f9-4ec22951d740",
+        "target_ref": "identity--d9c44973-494e-47bf-98bf-cbaec0815f7e",
+        "start_time": "2020-10-01T02:41:48.15696Z",
+        "labels": [
+            "expert",
+            "yes",
+            "speak",
+            "pfte-batch-1"
+        ],
+        "confidence": 48,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4f1cf501-778e-48f8-92e9-c1901abce0c8",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-20T21:16:20.802605Z",
+        "modified": "2021-08-14T01:09:29.752568Z",
+        "name": "TheseFoodWait",
+        "sectors": [
+            "energy",
+            "infrastructure",
+            "government-public-services",
+            "healthcare",
+            "agriculture"
+        ],
+        "contact_information": "3276 Martin Points\nRobinsonmouth, CT 25385",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 29,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

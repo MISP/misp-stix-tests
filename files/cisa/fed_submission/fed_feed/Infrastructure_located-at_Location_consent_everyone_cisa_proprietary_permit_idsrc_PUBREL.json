@@ -1,0 +1,206 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--eec18df0-c4a8-4401-9f0a-57bd610a909e",
+        "created_by_ref": "identity--1a044c9f-610b-4e57-ad32-091602359d2c",
+        "created": "2021-05-09T22:00:10.277718Z",
+        "modified": "2021-09-20T15:55:09.351982Z",
+        "name": "television",
+        "infrastructure_types": [
+            "unknown",
+            "exfiltration",
+            "botnet"
+        ],
+        "aliases": [
+            "process",
+            "never",
+            "successful",
+            "only"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "JbPGbOD",
+                "phase_name": "IXxAnArxfrMKmtA"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "last_seen": "2022-06-12T08:53:47.004981Z",
+        "confidence": 98,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b36f5ddf-bcc3-4e26-959f-7a44d40b9a38"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--53d49ba1-3b01-4e7d-a519-9dfca0c76ae3",
+        "created_by_ref": "identity--1a044c9f-610b-4e57-ad32-091602359d2c",
+        "created": "2020-12-29T07:24:58.427631Z",
+        "modified": "2021-08-14T01:08:50.304728Z",
+        "latitude": -73.94843505806897,
+        "longitude": -37.05887580129928,
+        "administrative_area": "tYfuiyaaftTb",
+        "city": "Underwoodberg",
+        "postal_code": "88079",
+        "confidence": 17,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b36f5ddf-bcc3-4e26-959f-7a44d40b9a38"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--cf1ccfec-64f6-438a-85b2-37e0600e2c36",
+        "created_by_ref": "identity--1a044c9f-610b-4e57-ad32-091602359d2c",
+        "created": "2020-10-31T08:34:14.327626Z",
+        "modified": "2021-08-14T01:08:50.305003Z",
+        "relationship_type": "located-at",
+        "description": "Cup official mission military after born. Rich similar full. Simple officer box research include bit.",
+        "source_ref": "infrastructure--eec18df0-c4a8-4401-9f0a-57bd610a909e",
+        "target_ref": "location--53d49ba1-3b01-4e7d-a519-9dfca0c76ae3",
+        "start_time": "2022-04-17T20:15:34.974218Z",
+        "confidence": 35,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b36f5ddf-bcc3-4e26-959f-7a44d40b9a38"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1a044c9f-610b-4e57-ad32-091602359d2c",
+        "created_by_ref": "identity--1a044c9f-610b-4e57-ad32-091602359d2c",
+        "created": "2021-07-26T09:25:51.211495Z",
+        "modified": "2021-09-16T10:58:28.376795Z",
+        "name": "Stephenson-Mejia",
+        "identity_class": "group",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "house",
+                "url": "http://schwartz.info/",
+                "external_id": "NIszaOsIzYa"
+            },
+            {
+                "source_name": "space",
+                "url": "https://vargas-schaefer.com/",
+                "hashes": {
+                    "MD5": "214ddd3b67e838fca1637327dddfada7",
+                    "SHA-1": "d1cd6df9f510ab0107c20ee5d04d1af56017dac1",
+                    "SHA-256": "742e51755b66edebe45b304eb61a6cea28897cd04e07fe781838861161f5f701",
+                    "SHA-512": "9ca9a4784bea81fe985484366ec409b04de65abdc5613c2d388929d158d71df68bb395c217d8ad97c044e2ee0396f804b13dceda51025986ec648ace29dc9ea9",
+                    "SHA3-256": "897edb2b9f6c5f7798a08ce2c04cfe0fdbd350a7fa2624a159463078911cbdcf",
+                    "SHA3-512": "a4dfc558822370b13e31589897ae13c611d87e4919c2067cccc67cdf7f7adb5c0f6fb460f5004f2babafae40544853e9bb34a821909b1cc4700791d3fd200725"
+                },
+                "external_id": "YGnqHBhp"
+            },
+            {
+                "source_name": "yet",
+                "url": "https://www.jacobs.org/",
+                "external_id": "oQdrtOyAFBFgwjFsOX"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b36f5ddf-bcc3-4e26-959f-7a44d40b9a38"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b36f5ddf-bcc3-4e26-959f-7a44d40b9a38",
+        "created": "2021-08-14T01:08:50.303619Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-b6e02fdc-1bc2-4bf7-88bf-58ec1e8c0a26",
+                "name": "Eye set happy strong city way",
+                "create_date_time": "2021-08-14T01:08:08.434259Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.434092Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

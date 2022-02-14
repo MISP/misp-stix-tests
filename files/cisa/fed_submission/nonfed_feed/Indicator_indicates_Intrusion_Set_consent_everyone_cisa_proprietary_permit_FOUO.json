@@ -1,0 +1,125 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--e24401e8-0e9f-4e51-86dc-37be9c248548",
+        "created_by_ref": "identity--f80e7c2d-9505-45fd-9475-0d6c8fbb7d32",
+        "created": "2022-07-13T21:27:31.139081Z",
+        "modified": "2023-01-26T08:22:40.074873Z",
+        "name": "question",
+        "indicator_types": [
+            "anonymization",
+            "anomalous-activity"
+        ],
+        "pattern": "([autonomous-system:rir > 'Harris Ltd'] AND ([mac-addr:value NOT = '1e:55:b2:31:fa:b9'])) OR [windows-registry-key:defanged NOT = false OR (email-message:defanged = false)]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-05-24T08:10:40.8982Z",
+        "valid_until": "2020-11-28T04:18:41.497243Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "gdFhSBrdt",
+                "phase_name": "fwaOjGdqC"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 8,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--4dd425d6-9de0-4072-b018-25dc52ced992",
+        "created_by_ref": "identity--f80e7c2d-9505-45fd-9475-0d6c8fbb7d32",
+        "created": "2021-11-17T16:28:09.324589Z",
+        "modified": "2022-03-27T13:35:44.906991Z",
+        "name": "decision",
+        "description": "Share operation value office occur more.",
+        "first_seen": "2021-05-13T02:08:51.939089Z",
+        "goals": [
+            "Democratic off country school.",
+            "Interest way usually early.",
+            "Cultural thus agent age ready."
+        ],
+        "resource_level": "government",
+        "primary_motivation": "coercion",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "happy",
+                "description": "Several state itself candidate oil west.",
+                "url": "https://russell-meyer.com/",
+                "hashes": {
+                    "MD5": "2e203950034147bd60581e91c267e607",
+                    "SHA-1": "6a3d36de1ff03cf4a1ec939ab8f84cc0f93c9f48",
+                    "SHA-256": "725d6d5a174977ef1d8362b9a6a62e73e75f511ccfbcf86f050fc0ce4df29b65",
+                    "SHA-512": "577a7939433b29d9859bbe4b265792312f4d05055331a127478c843043eb9fe5d9c3221b5e3f9ba906409255429073b1506cec2a6556af7058f463e95276e561",
+                    "SHA3-256": "dba5089ae380542d7b8d99b9367a30b237e2ebd2e5fcc0d28f4d4748455b0b66",
+                    "SHA3-512": "655e7003f43b131668aa80989a11339affc261e96e25dc48104f67a4e70afb1f01b83a0968f18aea02d795c20f76b38559f7ec4c3da3ca1cfd6620855fd2f9c1"
+                },
+                "external_id": "cgiejAeLIezsYB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--94a06754-c96f-45c4-9bc9-24f8728c972a",
+        "created_by_ref": "identity--f80e7c2d-9505-45fd-9475-0d6c8fbb7d32",
+        "created": "2021-09-14T04:20:05.766786Z",
+        "modified": "2022-06-18T12:35:54.148882Z",
+        "relationship_type": "indicates",
+        "description": "Sign eye own board century section. Mouth character sea do. Gun identify short debate condition family.",
+        "source_ref": "indicator--e24401e8-0e9f-4e51-86dc-37be9c248548",
+        "target_ref": "intrusion-set--4dd425d6-9de0-4072-b018-25dc52ced992",
+        "start_time": "2021-03-31T13:13:37.857115Z",
+        "labels": [
+            "world",
+            "pfte-batch-1"
+        ],
+        "confidence": 12,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "officer",
+                "description": "American similar operation fact thank.",
+                "url": "https://www.ashley-rivera.com/",
+                "external_id": "bsrJlP"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f80e7c2d-9505-45fd-9475-0d6c8fbb7d32",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-10T20:20:31.992826Z",
+        "modified": "2021-08-14T01:08:32.017867Z",
+        "name": "Brown-Trevino",
+        "sectors": [
+            "emergency-services"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

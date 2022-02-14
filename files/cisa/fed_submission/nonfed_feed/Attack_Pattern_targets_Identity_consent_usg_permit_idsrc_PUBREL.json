@@ -1,0 +1,136 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--79e623fe-395a-4f14-bd5d-e74bc93ea9d3",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2021-04-03T21:11:42.955689Z",
+        "modified": "2021-08-14T01:08:09.822105Z",
+        "name": "fly",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "XsTTjpGu",
+                "phase_name": "uWmEHonCJgzXXgPZQPH"
+            },
+            {
+                "kill_chain_name": "UiGLaxfD",
+                "phase_name": "XDscMuVWhPUC"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 95,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d6355be2-afae-47cc-b22d-ddb22127cc43",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2021-07-20T12:35:44.541594Z",
+        "modified": "2021-10-10T13:24:12.029953Z",
+        "name": "Gibson-Morse",
+        "description": "Cross-group client-driven core",
+        "sectors": [
+            "infrastructure",
+            "telecommunications",
+            "chemical",
+            "pharmaceuticals"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "general",
+                "description": "Together trip decide doctor around ever.",
+                "url": "http://www.wilson.com/",
+                "external_id": "UQcomLb"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--7470c075-9725-41a0-bb48-17274e7ac653",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2020-09-21T21:42:11.473977Z",
+        "modified": "2021-08-14T01:08:09.822857Z",
+        "relationship_type": "targets",
+        "description": "Course me image. Another prepare cultural air. Spring far night never really.",
+        "source_ref": "attack-pattern--79e623fe-395a-4f14-bd5d-e74bc93ea9d3",
+        "target_ref": "identity--d6355be2-afae-47cc-b22d-ddb22127cc43",
+        "stop_time": "2020-10-30T03:27:35.190203Z",
+        "labels": [
+            "fight",
+            "result",
+            "pfte-batch-1"
+        ],
+        "confidence": 83,
+        "external_references": [
+            {
+                "source_name": "hard",
+                "url": "https://taylor.info/",
+                "external_id": "WSbcrcdKmfm"
+            },
+            {
+                "source_name": "enough",
+                "description": "Teacher scene analysis cold little maybe class toward.",
+                "url": "https://www.chambers-thompson.com/"
+            },
+            {
+                "source_name": "he",
+                "url": "http://www.gray.com/",
+                "external_id": "GzMUNCfSpTIq"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-01-01T00:00:00.000Z",
+        "modified": "2020-01-01T00:00:00.000Z",
+        "name": "USA.USG",
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

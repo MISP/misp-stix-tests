@@ -1,0 +1,253 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--3bfd44fb-4c90-4a73-828b-9a49210e59ec",
+        "created_by_ref": "identity--e9d4d1a6-a776-4234-b861-8e3ce4d2a458",
+        "created": "2021-10-02T19:15:00.468224Z",
+        "modified": "2022-09-16T09:04:15.823209Z",
+        "name": "design",
+        "aliases": [
+            "whole",
+            "others",
+            "amount",
+            "determine",
+            "later"
+        ],
+        "first_seen": "2020-03-13T23:33:05.487468Z",
+        "last_seen": "2020-12-17T12:00:36.840743Z",
+        "goals": [
+            "need",
+            "hit",
+            "police",
+            "impact"
+        ],
+        "sophistication": "innovator",
+        "primary_motivation": "ideology",
+        "personal_motivations": [
+            "ideology",
+            "coercion",
+            "organizational-gain",
+            "ideology",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "unit",
+            "wind",
+            "firm",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--080977aa-ea34-4f74-87c4-574cf6e396a6"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--a23a3239-ca8a-493c-8135-1e906c305f9b",
+        "created_by_ref": "identity--e9d4d1a6-a776-4234-b861-8e3ce4d2a458",
+        "created": "2020-11-27T10:30:34.935215Z",
+        "modified": "2021-08-14T01:09:33.635559Z",
+        "name": "building",
+        "description": "Measure recognize result free pattern year.",
+        "aliases": [
+            "let",
+            "door",
+            "resource"
+        ],
+        "first_seen": "2020-08-20T20:59:00.134426Z",
+        "last_seen": "2021-02-19T07:23:47.29811Z",
+        "confidence": 46,
+        "object_marking_refs": [
+            "marking-definition--080977aa-ea34-4f74-87c4-574cf6e396a6"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--090bb158-d08e-49c6-be4f-4ed18be9627e",
+        "created_by_ref": "identity--e9d4d1a6-a776-4234-b861-8e3ce4d2a458",
+        "created": "2021-03-21T14:55:25.87378Z",
+        "modified": "2021-08-14T01:09:33.636115Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--3bfd44fb-4c90-4a73-828b-9a49210e59ec",
+        "target_ref": "infrastructure--a23a3239-ca8a-493c-8135-1e906c305f9b",
+        "labels": [
+            "how",
+            "occur",
+            "on",
+            "available",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "night",
+                "description": "Although here difficult.",
+                "hashes": {
+                    "MD5": "5c8d78f875d859bc29cb7fc93a2b0756",
+                    "SHA-1": "55a9604c92dff83e3b5cd109d5f108ba96e7789c",
+                    "SHA-256": "d5d4af76a9204771c681aa2af21aa9d42e960ccd20027fc2d43ed58e085cac4a",
+                    "SHA-512": "c8939f56107cb4bc11150bcac22bad79fa766704e423e6b0a0a3588956db63eef675b80858b94b6f3b80e371c7ee1a1d4261ce5f65a83ffc1ba81845a2171726",
+                    "SHA3-256": "71f7902c38bb0727d3e7a7ea5a0c1a3e9722f32d6a3797d47cff8f1f18c65851",
+                    "SHA3-512": "ff691aae20638601454894fccd0ea177d33e35a70f265de60ea52b110d953d0d4d495b4b9a187a1428dd172d430ca3569cc11aa3cf96cbbd2197f1b49abe8e30"
+                },
+                "external_id": "KhOFuccgEJdlDLA"
+            },
+            {
+                "source_name": "your",
+                "description": "Star gun year effect line.",
+                "external_id": "nqCClQUpOJTndUQDpN"
+            },
+            {
+                "source_name": "but",
+                "url": "http://www.carlson-lopez.com/",
+                "hashes": {
+                    "MD5": "e6752a92ce8165dd22661e1d9bd2b9d3",
+                    "SHA-1": "f4c1bdc1390924edad291a3b2960bef37a41b7e3",
+                    "SHA-256": "2c5fce4f18b9bfb873cec21c710d2398b4f0f1c20061f1f30a563e4b96e2b1db",
+                    "SHA-512": "7b45a8b093057127d8220e2e7e7311f882650fb51d00c2a99f72f0f114d94703231afe8abdf7f5f31f8684923acdbae5a95b56013d831157276e42b50ca5db9b",
+                    "SHA3-256": "173b6703156659a3df998afa883152ff4102706e8d6ada7c6ceba41a4e1cf219",
+                    "SHA3-512": "fe05e0e2564aaec004e92ae445c67ae74bea0b12d951f7a5a0ca78a05afd17b627a2bac7e96852aacd126f5b01e2023edcc119b2b453e06b0a80f01079de570c"
+                },
+                "external_id": "AIPShfojLbdmjYtvjVEB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--080977aa-ea34-4f74-87c4-574cf6e396a6"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e9d4d1a6-a776-4234-b861-8e3ce4d2a458",
+        "created_by_ref": "identity--e9d4d1a6-a776-4234-b861-8e3ce4d2a458",
+        "created": "2021-01-31T04:17:34.980499Z",
+        "modified": "2021-08-14T01:09:33.636733Z",
+        "name": "Rivas-Hunt",
+        "description": "Decentralized disintermediate hierarchy",
+        "contact_information": "58065 Russell Mews\nNorth Kendrafurt, CT 81590",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 19,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "attention",
+                "url": "https://www.jenkins-dodson.org/",
+                "hashes": {
+                    "MD5": "5c28a2a34267fdfe3c008f2c37cc3aa8",
+                    "SHA-1": "82e0d71388f9928dcc5b21bc1798aa1b529d2616",
+                    "SHA-256": "c7a98127af038d755fb83ddb85d75d58adb5b9e4c7e7a74b781369594a62beff",
+                    "SHA-512": "92e75c34254614a9032275e5a0981ef00f7f5cc05fb63a5fb69356c9db906cd76a0a990f591a6acd40368e25d8edad0a1c759fa964181f7f88fec28f81e42f75",
+                    "SHA3-256": "2aaa91370b02908f37c51ac1f207f95e4430c36f1c675c74d33186ae4e8497c4",
+                    "SHA3-512": "521503a86c6bce9d9cbf0c04d13bba10f1dfef242235d5a08c061b535b3b5ef3cc0442bdc7dd1a4e98165e3f753fb32ad2ea16b0523bd13e1c391429d781cac4"
+                }
+            },
+            {
+                "source_name": "address",
+                "description": "Subject this score yeah style.",
+                "url": "http://rodriguez.biz/",
+                "hashes": {
+                    "MD5": "052cb1a9c07bd0fd1d0cea22fc287696",
+                    "SHA-1": "aa7451107ea0eb3c4973bf25dcb496bb20b8f1e4",
+                    "SHA-256": "c7a485c2fa241b40d5cfb454cfb5db45f167bc528741cc6bed989480a0b6d9fc",
+                    "SHA-512": "176fae176fe542c8d59f4baefd3c6fd615d26373ac9785a71c8a05e38f30214eeec658d9f212459d246c430cbde5207434f8fc7fc2c825ec45adaece2ab49e4d",
+                    "SHA3-256": "a4a92dcc26c7c8c81da68d1854be35b79e3b5495f8405bf428989e34a2b26693",
+                    "SHA3-512": "3efc40c3682b88596572ca7ca3336787a7e5de5614b95bcde76fdc87e584fb3ce2c3054919e482a194244628d3858207d3bf13be73e8c662e2c42593621f741b"
+                },
+                "external_id": "pzqeRHGi"
+            },
+            {
+                "source_name": "part",
+                "url": "http://www.moore-campbell.org/",
+                "external_id": "gmfbxkXA"
+            },
+            {
+                "source_name": "if",
+                "description": "Either manager develop result if moment.",
+                "url": "http://johnson.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--080977aa-ea34-4f74-87c4-574cf6e396a6"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--080977aa-ea34-4f74-87c4-574cf6e396a6",
+        "created": "2021-08-14T01:09:33.634569Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f97bfbf2-c194-4d73-b792-b989c4ea0ab5",
+                "name": "Focus develop ago various",
+                "create_date_time": "2021-08-14T01:08:08.431216Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

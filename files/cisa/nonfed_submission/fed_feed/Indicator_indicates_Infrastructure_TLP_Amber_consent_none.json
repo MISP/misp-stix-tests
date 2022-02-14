@@ -1,0 +1,265 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--10e1928e-cc82-4fac-bc84-304764057f6a",
+        "created_by_ref": "identity--1a848fb2-59b8-4153-9417-ba6932c90c7f",
+        "created": "2022-04-06T23:40:22.750128Z",
+        "modified": "2022-10-31T08:13:14.981658Z",
+        "name": "training",
+        "pattern": "[url:defanged = false OR ((process:is_hidden NOT = true) OR mutex:name <= 'program')]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-09-24T14:00:53.208379Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "KuEoqETJOWQhClprd",
+                "phase_name": "JWAQfdkpfcwkilFbjsf"
+            },
+            {
+                "kill_chain_name": "VtARBszhOomhKwR",
+                "phase_name": "MuUoVkfaLi"
+            }
+        ],
+        "labels": [
+            "past",
+            "rate",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "film",
+                "description": "Watch four form.",
+                "url": "http://wilson-bartlett.com/",
+                "external_id": "CkPlwIQlXJiNdau"
+            },
+            {
+                "source_name": "within",
+                "description": "Pretty keep news.",
+                "hashes": {
+                    "MD5": "b9cca80c53e532e460752054b667e4a8",
+                    "SHA-1": "fee9c88e589cda5946a7a2103a22e39657e05831",
+                    "SHA-256": "398f1c4e4ac5c41896664959a7e6a8a2a35f38fe4d4c183e10d3cebf37097453",
+                    "SHA-512": "4ecafb0bf798806a65d46d5b56a9111a5222582235f30a852f4081ca9cbf4b5910128495799af6bd5c782952dd8776ba01e76f882e3b3b6baa828a412f0bb75f",
+                    "SHA3-256": "9e87d4a911b09560ec5c5b3354fe8692059974a0b504f12d716f5626c748942a",
+                    "SHA3-512": "9224e1f3c38e70c74de649302ff5aa5749da3757326ed061aaafb1a49ccbff6883b7207a3d0e1b052fa5fb998cd9f61b8026b7272cc8d6c684bd60363a131bf9"
+                },
+                "external_id": "ubwWC"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4a6f5ad1-32f4-49b6-b833-cab94808693d"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--6f5f4061-0127-4e36-bc1d-7546ba488693",
+        "created_by_ref": "identity--1a848fb2-59b8-4153-9417-ba6932c90c7f",
+        "created": "2020-09-21T17:38:42.653337Z",
+        "modified": "2021-08-14T01:08:29.833228Z",
+        "name": "risk",
+        "description": "Rate kitchen phone participant rather growth month.",
+        "infrastructure_types": [
+            "botnet",
+            "staging"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "SbOsrckUwChafpN",
+                "phase_name": "jAlMPc"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4a6f5ad1-32f4-49b6-b833-cab94808693d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--192cba7a-4342-4859-9b0a-5f1b5ea94dd9",
+        "created_by_ref": "identity--1a848fb2-59b8-4153-9417-ba6932c90c7f",
+        "created": "2020-09-03T07:22:02.699885Z",
+        "modified": "2021-08-14T01:08:29.833806Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--10e1928e-cc82-4fac-bc84-304764057f6a",
+        "target_ref": "infrastructure--6f5f4061-0127-4e36-bc1d-7546ba488693",
+        "stop_time": "2022-07-05T02:51:05.236608Z",
+        "confidence": 98,
+        "external_references": [
+            {
+                "source_name": "far",
+                "url": "http://green.com/",
+                "hashes": {
+                    "MD5": "7a2ea6674894821721cc9e26fffec1e2",
+                    "SHA-1": "97f3d3286ffb3678f46081fe9bb9e335a86ed346",
+                    "SHA-256": "ced99545c4801a145f82d3db7bdaf0a491073c34de497a5537b2f1a02e03cfa9",
+                    "SHA-512": "3010a068262566951574d4ec35b317a59dda86d1885a1f9e393d86a5a81913ab36ecf592f623558fcbacb2298c062b5eedf24a61f8aacbf924519f91f4bbc49f",
+                    "SHA3-256": "9e556766aa7c9c56971311fd5bc3fc26b741334bc48223ef6d1726188170bc2a",
+                    "SHA3-512": "e38a837cf61a8a484ae7d0c33fd63069eb1cffc8cee1d2c8b7163da98dfe510516d4dea3244f7069e451ed11e9200ff312b3cc7819e1b756b1c0e39981d86240"
+                },
+                "external_id": "jrKtAwtUzrjNi"
+            },
+            {
+                "source_name": "until",
+                "description": "Knowledge hospital charge picture."
+            },
+            {
+                "source_name": "during",
+                "description": "Dream PM stand become movie I message.",
+                "hashes": {
+                    "MD5": "1aef95a501e7409d552d7bed1612ce39",
+                    "SHA-1": "797c4e36e434e8d2760855195833038c12abbe31",
+                    "SHA-256": "de3d29f6594d30c24b93252f6e23c70556d608ff9fc2eb434ea3ef1f8a76e57b",
+                    "SHA-512": "8ca0b957f5b23b7836de4648596d2f6aa08297e67e2de5599d4b68e33e41ea6054a9219fa6005878b43a203c2816853ebbb268363452eeb2ccc3deada550f416",
+                    "SHA3-256": "bedba847a31bc00f40de4b821b04f28854ec3407ba8dc02e560d8cc56a5bd8a8",
+                    "SHA3-512": "a0154debd5af82da950aa4bf279b71486b5509bf8da59cc3eaa99cbf9df9e266a038109b62c76a227a4bfdbfb4d954817b48bdeaa3799ac20e3c4853c4a28cf5"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4a6f5ad1-32f4-49b6-b833-cab94808693d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--4a6f5ad1-32f4-49b6-b833-cab94808693d",
+        "created_by_ref": "identity--1a848fb2-59b8-4153-9417-ba6932c90c7f",
+        "created": "2021-08-14T01:08:29.829938Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6f258483-31e6-4810-a3a3-83f9297fcea8",
+                "name": "Individual personal with know",
+                "create_date_time": "2021-08-14T01:08:08.419751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1a848fb2-59b8-4153-9417-ba6932c90c7f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-15T05:49:03.170574Z",
+        "modified": "2021-08-14T01:08:29.834369Z",
+        "name": "FormSportHouse",
+        "roles": [
+            "indeed",
+            "girl",
+            "meeting",
+            "take"
+        ],
+        "sectors": [
+            "retail",
+            "government-local",
+            "infrastructure",
+            "dams",
+            "telecommunications"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "poor",
+                "url": "https://www.gonzalez.org/",
+                "hashes": {
+                    "MD5": "9e5269bb95ac4ca9fdc7079e925b56e2",
+                    "SHA-1": "0b32b083d6eb8c3606f10a2665bb34bd24b6805f",
+                    "SHA-256": "66f4aeaf6532de18e4b1cde21e171a03743073d2b562e3052036a178f370dc85",
+                    "SHA-512": "ef52e68fec2f4b3095178dbefe8e9cdd863684fe4c98a952eff9adc4b030104858a5597ff87febefacf7cbb832c2180218c645d1ef4c6a304965125874698229",
+                    "SHA3-256": "948f20a457d495456773c0d44c1498d7e39ef4abe60284ab3904381b164376c0",
+                    "SHA3-512": "6b0844f090730ce2ef66ce22c7446c4ef45fe465cbd0576c801bfe7123362e0388b9a516f07b2012002f26132fbea0855ca2c94d7f50595940caa9f329ae1a98"
+                }
+            },
+            {
+                "source_name": "speech",
+                "description": "Star down state get while either.",
+                "url": "https://www.forbes.org/",
+                "hashes": {
+                    "MD5": "e9f7a9fae26047fa6c8024730c43a730",
+                    "SHA-1": "cecbd54eae02dc0387fb39b369663178ca1daed7",
+                    "SHA-256": "08aa7633f26652ac2a218a48699deea164e9c0d846bbf6e838e06de546ebe71b",
+                    "SHA-512": "8b1bb5c33db5fd7aa6c06dd9ed277fd23adac8fcdd90bcbdb30887d5559ced4d62f83176f151ce44c6be1953dfe5841d1dbe23b8252130c5ced6b584acb420f6",
+                    "SHA3-256": "8d7dc054850239194288a7b3b2456dc0a4e4424c89d231c1887a544ca09aa5b9",
+                    "SHA3-512": "9b8c374b8591f81492410af37832f20184f4891aec3247498b3a2c79bdf069ec922e433052e63d9ab30c109be33074b0a7d1a9c0c994c372710210c9aef577a8"
+                },
+                "external_id": "ECgjl"
+            },
+            {
+                "source_name": "before",
+                "url": "https://www.davis.org/",
+                "external_id": "BiDMPo"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4a6f5ad1-32f4-49b6-b833-cab94808693d"
+        ]
+    }
+]

@@ -1,0 +1,147 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--c2cc498b-62a1-4e26-924a-63cb8eb68c23",
+        "created_by_ref": "identity--244bedda-9a3a-4c6a-b176-bcecfbca2d83",
+        "created": "2021-12-17T15:42:13.465792Z",
+        "modified": "2022-10-13T14:13:51.35555Z",
+        "name": "environment",
+        "description": "Computer cause great character.",
+        "roles": [
+            "malware-author",
+            "malware-author"
+        ],
+        "goals": [
+            "song",
+            "case"
+        ],
+        "sophistication": "advanced",
+        "confidence": 56,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--642c2762-4a74-4321-bc57-29fbf177a62b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--b0e14246-acf4-4391-ae9d-4794c547ea31",
+        "created_by_ref": "identity--244bedda-9a3a-4c6a-b176-bcecfbca2d83",
+        "created": "2022-02-12T16:58:24.448572Z",
+        "modified": "2023-01-24T06:52:15.562022Z",
+        "name": "event",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "vjeagUjXnfjv",
+                "phase_name": "FGRINhnpaUYmpVGNpg"
+            }
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--642c2762-4a74-4321-bc57-29fbf177a62b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--5e0ba84b-ee2e-43a9-a24e-8a7905c1839a",
+        "created_by_ref": "identity--244bedda-9a3a-4c6a-b176-bcecfbca2d83",
+        "created": "2021-07-14T21:47:23.6249Z",
+        "modified": "2021-08-22T18:36:44.425688Z",
+        "relationship_type": "owns",
+        "description": "Buy structure start capital sometimes letter. Religious economic into explain example.",
+        "source_ref": "threat-actor--c2cc498b-62a1-4e26-924a-63cb8eb68c23",
+        "target_ref": "infrastructure--b0e14246-acf4-4391-ae9d-4794c547ea31",
+        "start_time": "2021-08-06T14:42:14.569561Z",
+        "object_marking_refs": [
+            "marking-definition--642c2762-4a74-4321-bc57-29fbf177a62b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--642c2762-4a74-4321-bc57-29fbf177a62b",
+        "created_by_ref": "identity--244bedda-9a3a-4c6a-b176-bcecfbca2d83",
+        "created": "2021-08-14T01:09:27.242922Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2a4a5944-494c-4a33-b0ba-c70e719ee1c8",
+                "name": "Room arrive pay often",
+                "create_date_time": "2021-08-14T01:08:08.421032Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--244bedda-9a3a-4c6a-b176-bcecfbca2d83",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-05T23:46:21.168911Z",
+        "modified": "2022-05-25T16:55:15.513052Z",
+        "name": "Ray-Edwards",
+        "description": "Object-based optimal productivity",
+        "roles": [
+            "trial",
+            "pass"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--642c2762-4a74-4321-bc57-29fbf177a62b"
+        ]
+    }
+]

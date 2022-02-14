@@ -1,0 +1,89 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--97fef205-8206-4fac-b4d8-d198a136371e",
+        "created_by_ref": "identity--2154bcc8-b817-44c9-8cb0-9971a8b41755",
+        "created": "2020-10-08T10:54:23.435747Z",
+        "modified": "2021-08-14T01:08:10.613968Z",
+        "name": "understand",
+        "aliases": [
+            "cost"
+        ],
+        "labels": [
+            "must",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--a841d230-518a-40fd-8268-ed1b500c69fd",
+        "created_by_ref": "identity--2154bcc8-b817-44c9-8cb0-9971a8b41755",
+        "created": "2022-01-05T23:40:00.916642Z",
+        "modified": "2022-12-20T17:43:31.525384Z",
+        "name": "iyZHwkgdPmoONQAH",
+        "latitude": 82.35828926951211,
+        "longitude": 147.83772640227602,
+        "precision": 70.3780391135509,
+        "country": "Brunei Darussalam",
+        "administrative_area": "BcMDyzXGAgTGCoEkvCmo",
+        "city": "Christopherborough",
+        "postal_code": "54971",
+        "labels": [
+            "teach",
+            "respond",
+            "meeting",
+            "since",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--200caf8c-a702-4d19-9e3e-5cca65d35660",
+        "created_by_ref": "identity--2154bcc8-b817-44c9-8cb0-9971a8b41755",
+        "created": "2021-08-28T07:39:47.960658Z",
+        "modified": "2022-01-21T09:36:06.489202Z",
+        "relationship_type": "targets",
+        "source_ref": "attack-pattern--97fef205-8206-4fac-b4d8-d198a136371e",
+        "target_ref": "location--a841d230-518a-40fd-8268-ed1b500c69fd",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2154bcc8-b817-44c9-8cb0-9971a8b41755",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-15T16:14:01.94869Z",
+        "modified": "2021-08-14T01:08:10.616551Z",
+        "name": "Leon PLC",
+        "description": "Up-sized scalable middleware",
+        "sectors": [
+            "manufacturing",
+            "government-regional",
+            "defense"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

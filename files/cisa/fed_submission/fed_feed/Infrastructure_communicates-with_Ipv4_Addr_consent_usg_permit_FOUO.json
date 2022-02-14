@@ -1,0 +1,129 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--bda3afa1-54b6-458c-9466-b725c0973489",
+        "created_by_ref": "identity--6cd7617e-eafb-40c0-8e49-513e2a2a4b24",
+        "created": "2021-08-04T01:40:52.936572Z",
+        "modified": "2022-04-24T16:06:18.332307Z",
+        "name": "budget",
+        "description": "Fight share particular job move drive someone.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "CheVnAOkSBfAicpwiZa",
+                "phase_name": "ftLWyjX"
+            },
+            {
+                "kill_chain_name": "AJeyJM",
+                "phase_name": "TUfuGcRlxVIYw"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "first_seen": "2021-01-18T18:21:09.716627Z",
+        "last_seen": "2021-03-03T15:53:43.730119Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--0ea2eb84-028e-49f5-adb4-68e10bfcd768"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "ipv4-addr",
+        "spec_version": "2.1",
+        "id": "ipv4-addr--1f853870-fc8c-4956-a299-0cf41c0aa64e",
+        "value": "1.14.243.176",
+        "object_marking_refs": [
+            "marking-definition--0ea2eb84-028e-49f5-adb4-68e10bfcd768"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--80abecb8-7693-42ba-acfb-b034319e3d7e",
+        "created_by_ref": "identity--6cd7617e-eafb-40c0-8e49-513e2a2a4b24",
+        "created": "2021-11-08T16:05:44.27389Z",
+        "modified": "2022-08-01T08:32:51.462072Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--bda3afa1-54b6-458c-9466-b725c0973489",
+        "target_ref": "ipv4-addr--1f853870-fc8c-4956-a299-0cf41c0aa64e",
+        "start_time": "2021-07-26T09:34:41.068605Z",
+        "stop_time": "2022-04-16T04:48:05.921498Z",
+        "confidence": 92,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "professional",
+                "description": "Why situation though say alone industry necessary.",
+                "external_id": "WfXRnCQvulNWZtXSyxK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0ea2eb84-028e-49f5-adb4-68e10bfcd768"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6cd7617e-eafb-40c0-8e49-513e2a2a4b24",
+        "created_by_ref": "identity--6cd7617e-eafb-40c0-8e49-513e2a2a4b24",
+        "created": "2022-07-24T09:48:35.414482Z",
+        "modified": "2023-04-20T20:50:01.516541Z",
+        "name": "Perez PLC",
+        "description": "Adaptive asynchronous infrastructure",
+        "sectors": [
+            "financial-services",
+            "telecommunications"
+        ],
+        "confidence": 24,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--0ea2eb84-028e-49f5-adb4-68e10bfcd768"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--0ea2eb84-028e-49f5-adb4-68e10bfcd768",
+        "created": "2021-08-14T01:08:39.684788Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2214d9cf-0e77-4d0b-9826-dfff28324708",
+                "name": "Build while international maybe effect movie",
+                "create_date_time": "2021-08-14T01:08:08.427765Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,191 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--925b9be8-20ea-4764-8540-d34e946d6429",
+        "created_by_ref": "identity--181a8a6d-ef40-4693-bda2-3f044984a1a6",
+        "created": "2021-06-26T19:47:25.536284Z",
+        "modified": "2022-01-04T14:51:20.301074Z",
+        "indicator_types": [
+            "unknown",
+            "malicious-activity",
+            "benign"
+        ],
+        "pattern": "([(email-message:is_multipart NOT = true) OR windows-registry-key:defanged = false] AND ([directory:path_enc >= 'ISO-8859-1'] REPEATS 10 TIMES)) FOLLOWEDBY [software:vendor > 'Baker-Diaz'] WITHIN 3 SECONDS",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-07-24T18:51:51.389562Z",
+        "confidence": 62,
+        "object_marking_refs": [
+            "marking-definition--833a7b95-0b90-42e8-963d-80897f763148"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--1dffa1a0-a116-45f5-b677-0299c5b5457b",
+        "created_by_ref": "identity--181a8a6d-ef40-4693-bda2-3f044984a1a6",
+        "created": "2021-04-26T12:05:22.242211Z",
+        "modified": "2021-08-14T01:08:29.604718Z",
+        "name": "now",
+        "objective": "Treatment suddenly ever rich.",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--833a7b95-0b90-42e8-963d-80897f763148"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ca39c53a-0ef0-4f10-acd8-e5eba1b2949a",
+        "created_by_ref": "identity--181a8a6d-ef40-4693-bda2-3f044984a1a6",
+        "created": "2021-12-10T01:57:13.832397Z",
+        "modified": "2022-11-20T10:14:30.540867Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--925b9be8-20ea-4764-8540-d34e946d6429",
+        "target_ref": "campaign--1dffa1a0-a116-45f5-b677-0299c5b5457b",
+        "confidence": 50,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "speech",
+                "description": "Suffer something hospital.",
+                "url": "http://www.morgan.com/",
+                "hashes": {
+                    "MD5": "d6df19041c7bde9dcb1e0922b46c4fbb",
+                    "SHA-1": "2180348e0fd52cc5d56b14a3778c1df21e05831b",
+                    "SHA-256": "5ce400815d3785642afb78ba763a6ee9afb7d48569679ebf0d8346d13f8b7831",
+                    "SHA-512": "6ab9bb36e8b1a9c02c529d9ab0be817ba0db36d07b19954c700920b1fb5821037e39d81e032e7e1bf16ff85bbbd633e0710c4c6306376c5318480085f3c549c9",
+                    "SHA3-256": "f4ef36064df671aed640d9848349f8a6f8648152e96d26a3152b9688e49fd889",
+                    "SHA3-512": "5b3786c61852d9ac723d8164fd35625f7b327cae5bbd3ed17c8a94013e0b717149921280645cda8caa8bdb9822202036331bff7b0eb175184a104c1d96b4efd0"
+                },
+                "external_id": "nqMlDktMInRcUC"
+            },
+            {
+                "source_name": "author",
+                "description": "Third stock future most hard challenge serious.",
+                "hashes": {
+                    "MD5": "567a0812d443e5eafb527b570a89a9e9",
+                    "SHA-1": "3957d0bb8fe3600e2f99f7fadbf66c172110c956",
+                    "SHA-256": "ee9ced95551dacb7ecfa92fe8f8b458fc6eee0536950d3fcbd2a58299d6f8ee0",
+                    "SHA-512": "c7b39cf232ddfe76089a9cba016b565caf4f161ddb3d53ea0875f5b71d55d79520d5d03d6bad67b1281d801c7b63ebfb78c5811c0d40f3cde36ce21d5fe5b809",
+                    "SHA3-256": "6676e69196eadf0cf5bb5eaaf1757b27dc90dc9f417bc6459cb228a42916a88f",
+                    "SHA3-512": "2f6e387e873509f29b6ea9109b3a2b50d526be02d3d88a798405c60eb8a569314310232f719c76afe49e5c40d04eafecee0256abe48dbd4e8ae6db814f15ff83"
+                },
+                "external_id": "BhiPGiXVx"
+            },
+            {
+                "source_name": "husband",
+                "description": "Teacher message woman assume research reflect stand.",
+                "hashes": {
+                    "MD5": "65cbf0afde8d412b5fb945bfa129a354",
+                    "SHA-1": "92f6b94e6ef3630c2675e8f0c7853ea0be017f61",
+                    "SHA-256": "93284ddfdc9e0f348221d1bdcbca736458f258d53c9c026f5b45d6532551a6a5",
+                    "SHA-512": "c1f627bb89f9349b5dfc6dbd706c3f72d291c9716b5f983bac76fcad28d51e5c68e61863c7f3bf0128db3ae2a838d057631198058c065be362cf44898c414618",
+                    "SHA3-256": "5115bc99c0b5551bd64e9d96626e7904dd3038f8f7bb28448dc9cee2467b2b94",
+                    "SHA3-512": "2fa5ef6575b9c475aca4395428e93199023ced7465c648434bedf6a0ff533a6b4da1118efbe86206e9dafa09aceb19563f0fa4a765b05c8ec755d6270c112fe3"
+                }
+            },
+            {
+                "source_name": "so",
+                "description": "Individual surface director.",
+                "url": "http://young.com/",
+                "hashes": {
+                    "MD5": "74b4980fb2138982e1c9bcca1e07b658",
+                    "SHA-1": "3fb2aa5e86b25e0eb7fbbe5c04f2b647749eba5c",
+                    "SHA-256": "749ce74fc0ac078ff14090fce875806605ef1ccf8b1821eb4e4e1b597587f777",
+                    "SHA-512": "b4dfb48e642dd4e88cd8acdd580b69710a0cbd891a0e2adab125f12d9749ff3943ee3357aea2335f0dba0772116263fef6f2a5d999018b903993067997e99d20",
+                    "SHA3-256": "23fe72c9fe1ec719b2fef16e6d7d1c8e23f069c5bfda5985648fe04d2a961605",
+                    "SHA3-512": "8b83449d1eac359e7ff0dd7031893efb177447777ad5220e079bb5bee37516b1eb3724465da616b291f6caa2520b351042224ff7baf22eafe2cfc886ddcefe2f"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--833a7b95-0b90-42e8-963d-80897f763148"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--181a8a6d-ef40-4693-bda2-3f044984a1a6",
+        "created_by_ref": "identity--181a8a6d-ef40-4693-bda2-3f044984a1a6",
+        "created": "2021-01-12T22:29:15.393424Z",
+        "modified": "2021-09-23T13:44:29.954156Z",
+        "name": "Baldwin Group",
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--833a7b95-0b90-42e8-963d-80897f763148"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--833a7b95-0b90-42e8-963d-80897f763148",
+        "created": "2021-08-14T01:08:29.600879Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7114ed24-0991-4631-bb44-7704e6b690d1",
+                "name": "Traditional contain thing officer story",
+                "create_date_time": "2021-08-14T01:08:08.432511Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.432344Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

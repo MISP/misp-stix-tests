@@ -1,0 +1,174 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--c850e3e8-13b1-434d-9124-376df4bf97b6",
+        "created_by_ref": "identity--082b679c-bf4f-495a-844d-777fd714bf53",
+        "created": "2021-06-26T00:43:11.395021Z",
+        "modified": "2022-04-14T11:23:54.718392Z",
+        "name": "action",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "NfzQCdJrAqCBXAqBS",
+                "phase_name": "LHglY"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4834b8c8-4aa8-4183-99de-59a7bab36e0c",
+        "created_by_ref": "identity--082b679c-bf4f-495a-844d-777fd714bf53",
+        "created": "2021-09-23T23:06:26.28474Z",
+        "modified": "2022-06-23T23:15:37.737191Z",
+        "name": "Reynolds-Johnston",
+        "roles": [
+            "part",
+            "choose",
+            "once",
+            "million"
+        ],
+        "identity_class": "group",
+        "sectors": [
+            "mining",
+            "automotive",
+            "non-profit"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 65,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "discover",
+                "url": "http://lopez.com/",
+                "external_id": "QzIrRnOc"
+            },
+            {
+                "source_name": "study",
+                "description": "Spring activity seven want.",
+                "url": "https://www.riley.com/",
+                "hashes": {
+                    "MD5": "481cd19f57563c869d94a6d2b3facaef",
+                    "SHA-1": "23504ae07cef3dc6f48a1508dbdb1f5b5794456c",
+                    "SHA-256": "ef1aa320c99a823612e714f3677d8461dc02389cf4cd215e83ebbcb49a1567d0",
+                    "SHA-512": "4f0c04f79b0f1ed39b42611f383a80d57c8342abd292348e842e3553e80535a6cc304f9e1982442aabc64e882ecc955afa3dca36bf4ae3f16c36bd961976f782",
+                    "SHA3-256": "4221abe0ade985100d2316c2e88ef4bf76d6099c7a94bfdc7b906e78b2e2c07b",
+                    "SHA3-512": "14555e7fea8b004e2998996638981494c6a8059011990c572686a1b7337de8f7721eb93d61c60fc5bf52e1a5194ca3e8f9853d6f0b7da4a3eabf8515936dbb3b"
+                },
+                "external_id": "dSgqAhZXbeqo"
+            },
+            {
+                "source_name": "speech",
+                "url": "http://boyd.com/",
+                "hashes": {
+                    "MD5": "55c5aa919382d461ff30c14da7ac95ee",
+                    "SHA-1": "811babe1480e5206add2a6b6d5d2b8fd5628912a",
+                    "SHA-256": "5515e62ebc58ecbdd2866fb6724ed6a7192f0b4fd69656d549f8ec67ec99d386",
+                    "SHA-512": "eddbb5c25e19476ae4669b09c4b29342092b0aa208d80f466ce0d47e7dc6364ac38a4d176660ea0a3271295cdc5dc1acf2b134434263b696bc5e3a98ef4d70f6",
+                    "SHA3-256": "8bd64dd7bb090d992433ad25c7f399cc63f3dd58abce11fa961bd5c56c653388",
+                    "SHA3-512": "e36b4f1eb54890214ea215896452f2813f28d06ff3fac1f054db1112a0e89b26b24ef69187f17e49fb2d3c889ec619e896d31c05c13150481938527073886e37"
+                },
+                "external_id": "CmIIsLrIWskxpvzz"
+            },
+            {
+                "source_name": "light",
+                "description": "Best somebody leg test loss.",
+                "hashes": {
+                    "MD5": "b6b5a3c288c81d8b1135f563e642a37c",
+                    "SHA-1": "78088ea63a30dd8ceb4db78594349a478a49b2fe",
+                    "SHA-256": "7997eb10b85740f873511ee0da0aa25215bf8ee86cff4540c7422cbd45558950",
+                    "SHA-512": "387f06727a2038657aacd446b41b5d32e353e1b0b129a362ae4aa5c674148eb74616bf11e4cbc7a83198f45859632b3c3304d621f17def9680c1b1a93244e527",
+                    "SHA3-256": "09a257c470a6b45c8a31a2b213638bfce86f6bb6f66cb600fe06f373d6e524e4",
+                    "SHA3-512": "d56c69a6613eb7977bc653806d7bf5b4d763a183fb25a6b2fb8cb14d77039817b01923c140cfc614bf045e767658fb52123570e5d83535147e070023efc930a0"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f76017da-0f03-4dc7-96b9-2973f236ed71",
+        "created_by_ref": "identity--082b679c-bf4f-495a-844d-777fd714bf53",
+        "created": "2021-04-18T16:31:45.470893Z",
+        "modified": "2022-03-20T13:27:33.458399Z",
+        "relationship_type": "targets",
+        "description": "Dream play health later stuff. Land after stand yourself level heavy. National ability last.",
+        "source_ref": "attack-pattern--c850e3e8-13b1-434d-9124-376df4bf97b6",
+        "target_ref": "identity--4834b8c8-4aa8-4183-99de-59a7bab36e0c",
+        "stop_time": "2021-03-05T12:00:00.795317Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 37,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--082b679c-bf4f-495a-844d-777fd714bf53",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-11-26T02:50:05.439624Z",
+        "modified": "2021-08-14T01:08:09.489326Z",
+        "name": "Morris PLC",
+        "description": "User-friendly solution-oriented protocol",
+        "contact_information": "6579 Miller Stravenue\nHansenchester, SD 24716",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 28,
+        "external_references": [
+            {
+                "source_name": "concern",
+                "description": "Argue system half difference which citizen forget.",
+                "external_id": "mnGmSNrlsVcJdUUEmOfi"
+            },
+            {
+                "source_name": "foot",
+                "description": "Magazine after use official into.",
+                "external_id": "RWvPiWpOrbhtPNIXpus"
+            },
+            {
+                "source_name": "officer",
+                "url": "http://www.rios-suarez.com/",
+                "external_id": "clVFVS"
+            },
+            {
+                "source_name": "player",
+                "description": "Either something executive exactly without whatever speech.",
+                "url": "http://whitney.com/",
+                "hashes": {
+                    "MD5": "eebcac1aad0c6ff967d3e72cee687f71",
+                    "SHA-1": "ace11682919286bc3dd5431298ae78f1bb3a158c",
+                    "SHA-256": "a606d5180cc17b776a46eb8ae018f7d13f07eb5ac37b3537c940d8050ceaa2c5",
+                    "SHA-512": "ddf36d37f0a0f4ab20f0064b5b26171234e2b63e4f86a5626fe07c93e519f97a3fc287864e6dee864bc7a0c575599fdf627f51f820c6ae9436605ad4eeb40a46",
+                    "SHA3-256": "7e233c5b50139957d2196dfe14088b751cf309fac0af2f70dceaffaa2c7bee3a",
+                    "SHA3-512": "95bb0704bc38def27079c3cbd9476e77e9bafe8d91daf8debff688ef4a5eea6810b619ed6e01bc4b5f1e60857e5bf990d7b953bf88c44d595bbaa9509c9d352e"
+                },
+                "external_id": "sSxwR"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

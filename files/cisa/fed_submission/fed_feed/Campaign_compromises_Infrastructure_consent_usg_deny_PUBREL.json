@@ -1,0 +1,153 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--fef1c81f-d95a-447d-90ce-776c2670148e",
+        "created_by_ref": "identity--f35db226-b9b9-4701-b134-55d69c933c2c",
+        "created": "2022-08-04T04:42:53.848353Z",
+        "modified": "2022-09-15T20:15:54.891147Z",
+        "name": "easy",
+        "description": "Guess toward trouble point community suddenly.",
+        "aliases": [
+            "news"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--687f34d8-1590-467c-ac3d-9d7e319e6d47"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--6cfa5ab6-7fbd-4351-9ea5-940edb86db20",
+        "created_by_ref": "identity--f35db226-b9b9-4701-b134-55d69c933c2c",
+        "created": "2020-03-13T05:36:30.429153Z",
+        "modified": "2021-08-14T01:08:14.879587Z",
+        "name": "couple",
+        "infrastructure_types": [
+            "reconnaissance"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "ELaTNQIrglu",
+                "phase_name": "crWxPbwNuo"
+            }
+        ],
+        "last_seen": "2022-01-09T21:38:19.444441Z",
+        "object_marking_refs": [
+            "marking-definition--687f34d8-1590-467c-ac3d-9d7e319e6d47"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--9a7d940e-5c47-4849-a65d-6ce5a5d97ce9",
+        "created_by_ref": "identity--f35db226-b9b9-4701-b134-55d69c933c2c",
+        "created": "2022-04-09T00:18:16.797583Z",
+        "modified": "2022-11-07T02:20:08.496351Z",
+        "relationship_type": "compromises",
+        "description": "Such responsibility or glass item discuss bed. Throughout move throughout woman movie partner. Force evidence player modern compare necessary.",
+        "source_ref": "campaign--fef1c81f-d95a-447d-90ce-776c2670148e",
+        "target_ref": "infrastructure--6cfa5ab6-7fbd-4351-9ea5-940edb86db20",
+        "labels": [
+            "purpose",
+            "life",
+            "security",
+            "benefit",
+            "pfte-batch-1"
+        ],
+        "confidence": 16,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--687f34d8-1590-467c-ac3d-9d7e319e6d47"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f35db226-b9b9-4701-b134-55d69c933c2c",
+        "created_by_ref": "identity--f35db226-b9b9-4701-b134-55d69c933c2c",
+        "created": "2022-07-10T02:30:12.726606Z",
+        "modified": "2023-01-10T10:08:42.638387Z",
+        "name": "Simmons PLC",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--687f34d8-1590-467c-ac3d-9d7e319e6d47"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--687f34d8-1590-467c-ac3d-9d7e319e6d47",
+        "created": "2021-08-14T01:08:14.878553Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

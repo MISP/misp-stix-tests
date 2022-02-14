@@ -1,0 +1,185 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--64b94321-958f-44a0-9100-460a59229260",
+        "created_by_ref": "identity--a31dffd0-cc6b-42b9-a268-aa394aff13a4",
+        "created": "2021-12-31T05:54:08.292624Z",
+        "modified": "2022-10-06T18:04:23.459025Z",
+        "indicator_types": [
+            "attribution",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "([mutex:defanged = false] AND [domain-name:value = 'nelson.com'] AND ([x509-certificate:subject NOT = 'fall'] REPEATS 5 TIMES))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-10-25T20:50:13.933741Z",
+        "valid_until": "2021-07-01T23:35:49.063346Z",
+        "labels": [
+            "house",
+            "begin",
+            "put",
+            "stuff",
+            "police",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "cut",
+                "url": "http://www.morgan-carlson.com/"
+            },
+            {
+                "source_name": "point",
+                "url": "http://goodman.org/",
+                "external_id": "RuobUTflYQtBJRuoHkg"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c0cdac34-5217-4226-9ab7-d1e5ab46f780"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--7c83fc12-3506-4749-8fb6-fe9cec334cae",
+        "created_by_ref": "identity--a31dffd0-cc6b-42b9-a268-aa394aff13a4",
+        "created": "2021-03-04T05:38:23.715909Z",
+        "modified": "2022-01-13T14:39:11.424294Z",
+        "first_observed": "2020-10-07T16:35:47.545487Z",
+        "last_observed": "2021-04-18T18:22:07.921095Z",
+        "number_observed": 52655721,
+        "objects": {
+            "mutex--87e3fea3-bac4-496a-8ec4-220e7322f10d": {
+                "type": "mutex",
+                "spec_version": "2.1",
+                "id": "mutex--87e3fea3-bac4-496a-8ec4-220e7322f10d",
+                "name": "third"
+            }
+        },
+        "labels": [
+            "teach",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--c0cdac34-5217-4226-9ab7-d1e5ab46f780"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--9f8e6967-cf9e-4deb-91b9-6c0ec6011324",
+        "created_by_ref": "identity--a31dffd0-cc6b-42b9-a268-aa394aff13a4",
+        "created": "2021-08-17T03:33:43.205084Z",
+        "modified": "2022-03-27T23:44:22.04378Z",
+        "relationship_type": "based-on",
+        "source_ref": "indicator--64b94321-958f-44a0-9100-460a59229260",
+        "target_ref": "observed-data--7c83fc12-3506-4749-8fb6-fe9cec334cae",
+        "start_time": "2021-06-18T11:14:26.993762Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c0cdac34-5217-4226-9ab7-d1e5ab46f780"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a31dffd0-cc6b-42b9-a268-aa394aff13a4",
+        "created_by_ref": "identity--a31dffd0-cc6b-42b9-a268-aa394aff13a4",
+        "created": "2021-09-25T15:17:42.389197Z",
+        "modified": "2022-01-03T04:17:05.929385Z",
+        "name": "Smith-Mendez",
+        "description": "Secured asymmetric frame",
+        "roles": [
+            "tell"
+        ],
+        "identity_class": "system",
+        "contact_information": "66629 Brown Orchard\nWest Elizabethchester, VT 79919",
+        "object_marking_refs": [
+            "marking-definition--c0cdac34-5217-4226-9ab7-d1e5ab46f780"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--c0cdac34-5217-4226-9ab7-d1e5ab46f780",
+        "created": "2021-08-14T01:08:37.505334Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-147f852e-75ac-49e9-b9d2-55199760c488",
+                "name": "Yes might consider why south he",
+                "create_date_time": "2021-08-14T01:08:08.429077Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.428904Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

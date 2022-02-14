@@ -1,0 +1,145 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--198a8a9d-06ed-46b1-beb9-0a6ccc37ac9b",
+        "created_by_ref": "identity--0aadc52b-a80d-423f-ab5c-50dcb5fd6f1a",
+        "created": "2021-02-27T07:07:39.720521Z",
+        "modified": "2021-08-28T11:34:03.286522Z",
+        "name": "state",
+        "pattern": "[network-traffic:defanged = false OR (email-message:is_multipart = false)] AND [ipv6-addr:defanged NOT = false] AND ([(software:vendor = 'Hanson Ltd') OR directory:path = '/describe/north.wav'] REPEATS 6 TIMES)",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-08-17T11:54:53.559559Z",
+        "labels": [
+            "example",
+            "kitchen",
+            "those",
+            "pfte-batch-1"
+        ],
+        "confidence": 78,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--fabc8e6f-98b7-422e-a613-70897c89c6e9",
+        "created_by_ref": "identity--0aadc52b-a80d-423f-ab5c-50dcb5fd6f1a",
+        "created": "2021-07-14T13:39:01.324513Z",
+        "modified": "2022-02-02T16:04:30.717987Z",
+        "name": "region",
+        "aliases": [
+            "deal",
+            "risk",
+            "whole",
+            "development"
+        ],
+        "first_seen": "2020-02-03T01:11:01.073826Z",
+        "last_seen": "2021-01-06T12:21:13.355786Z",
+        "primary_motivation": "accidental",
+        "labels": [
+            "car",
+            "cultural",
+            "something",
+            "itself",
+            "pfte-batch-1"
+        ],
+        "confidence": 66,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "itself",
+                "url": "https://conley.info/",
+                "hashes": {
+                    "MD5": "6319fd3f005de400544b37635926bf63",
+                    "SHA-1": "c63a4b4463ae290d4a629dfb69f56e260e28e9fd",
+                    "SHA-256": "6723953ce22b8088fc8db44004e01caa91f8f65a104417d1a6f14c92da3dc275",
+                    "SHA-512": "83711564e33655de594e9f618a59fd5c5d2dd48970bd40922b4d7da4a7c68eb4c6c79be543488313ca8fc15c20bdc3e6161ed72d74a0a032c4065f57fd582317",
+                    "SHA3-256": "dd510fd750ce736cf9de6765a06ccc81e11982c4ccd36a78664d50d1d5a57ced",
+                    "SHA3-512": "3c0fd5243452d5e1ce5bd8da60e48c386ad3701c45b4e1f21eb9b351a43ab1b022eb2791bd32109f080daa10c950fc4da0e73afda41ce9bf33b9609e95290182"
+                },
+                "external_id": "wVrck"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--98eedcd2-e53d-493b-9e26-0e9c8c8b525a",
+        "created_by_ref": "identity--0aadc52b-a80d-423f-ab5c-50dcb5fd6f1a",
+        "created": "2021-07-02T10:56:37.844484Z",
+        "modified": "2022-01-20T02:32:26.59427Z",
+        "relationship_type": "indicates",
+        "description": "Present set region first. Rise arm whether what authority himself.",
+        "source_ref": "indicator--198a8a9d-06ed-46b1-beb9-0a6ccc37ac9b",
+        "target_ref": "intrusion-set--fabc8e6f-98b7-422e-a613-70897c89c6e9",
+        "start_time": "2021-11-17T04:28:38.93583Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "participant",
+                "description": "Hair wide area suffer.",
+                "url": "http://www.beasley.info/",
+                "hashes": {
+                    "MD5": "f2b90b5bd15a0bf9c424fb9c8887dc80",
+                    "SHA-1": "74b248cc58c5031c47c08c603ad8f22121147db8",
+                    "SHA-256": "dfddedbe44d5e81c82d08842e7334946321ea9e803542c2c0a686149c5a9be2e",
+                    "SHA-512": "e226fd4b1070e054a0be4744bc0c0d204768c09b7ced9d268aa0d033b3e0f9d94e582ff5a072e1d1d0e8b31158f64591110438e6eaf337782548e2a158cbbc2f",
+                    "SHA3-256": "55229ed5a3ddd7e60fff6b83a4cb34f95a13f626c820f7408fc9fd9f03cfcea6",
+                    "SHA3-512": "86cbf6ff2df17832527e79577acf5748046be95c72ef2e9098cdd433b89f73ce2ab0e9451173d767b3e93f1283bce328db7169f6a25c11384ef081e51dd888b1"
+                },
+                "external_id": "FeoekrAcNhYEcSGhrEzy"
+            },
+            {
+                "source_name": "act",
+                "description": "Dinner government man only.",
+                "url": "https://mcclain.com/",
+                "hashes": {
+                    "MD5": "49a8752f8930b185867b97c876c0b97c",
+                    "SHA-1": "6dde5fa6fbda58c825f98cdda7de7e43e41613a5",
+                    "SHA-256": "e0bcc3f610c99529f19a5b4e0d0b12007f684e54a1c3a07b62fcc9e09a0e5df5",
+                    "SHA-512": "f1e02e046b021e805170fc67cfcee32740c0b141858d9877ed78971a2a858229b8ca2e210118e587f2b67317e3c5f96d30f2a3e8f8cd5d7b4a733921fa88d052",
+                    "SHA3-256": "5adc55b22623ebbe1b8fd8f7565cdba6e91d8589b6b73597608afb41aa4eb715",
+                    "SHA3-512": "0232bd9a9e6a8a9d8bf486120e752b418516ff560e61fffbcfd975f2eac0cba9ecad62af266b90cd5d6d1c7ab87d4c6dac3d952f9044504ada0e4f9fcd04e35d"
+                },
+                "external_id": "KBHRsSmti"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0aadc52b-a80d-423f-ab5c-50dcb5fd6f1a",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-01-16T01:21:30.08322Z",
+        "modified": "2022-01-31T06:33:06.155198Z",
+        "name": "Hart and Sons",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 70,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "heavy",
+                "description": "Perform environmental method.",
+                "external_id": "XVDfTpa"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

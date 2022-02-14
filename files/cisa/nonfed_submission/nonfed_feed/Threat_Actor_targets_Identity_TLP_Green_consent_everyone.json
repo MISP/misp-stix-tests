@@ -1,0 +1,129 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--32174030-a9ba-446a-9042-98744af07a70",
+        "created_by_ref": "identity--400e4943-6de2-4678-912b-58081c249674",
+        "created": "2021-07-28T09:19:34.693259Z",
+        "modified": "2021-12-25T17:53:05.165356Z",
+        "name": "check",
+        "threat_actor_types": [
+            "insider-disgruntled",
+            "hacker",
+            "competitor",
+            "nation-state"
+        ],
+        "aliases": [
+            "ball",
+            "movement",
+            "these",
+            "low",
+            "cup"
+        ],
+        "first_seen": "2021-04-03T02:46:32.443726Z",
+        "last_seen": "2021-11-13T12:24:58.478287Z",
+        "sophistication": "innovator",
+        "resource_level": "contest",
+        "secondary_motivations": [
+            "accidental"
+        ],
+        "personal_motivations": [
+            "revenge",
+            "personal-satisfaction",
+            "dominance"
+        ],
+        "labels": [
+            "not",
+            "might",
+            "majority",
+            "street",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--56fab5b5-2ad0-4e19-80ad-ccc3c81f0f54",
+        "created_by_ref": "identity--400e4943-6de2-4678-912b-58081c249674",
+        "created": "2021-06-21T01:58:06.465287Z",
+        "modified": "2021-09-21T17:48:15.477613Z",
+        "name": "Jones and Sons",
+        "identity_class": "unknown",
+        "sectors": [
+            "transportation",
+            "non-profit"
+        ],
+        "contact_information": "7391 Eric Circle Suite 552\nSarahview, CO 95538",
+        "labels": [
+            "rise",
+            "kind",
+            "difficult",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--2602ff8b-1a32-4f6c-80af-50e751fb74ae",
+        "created_by_ref": "identity--400e4943-6de2-4678-912b-58081c249674",
+        "created": "2021-08-06T11:32:47.133326Z",
+        "modified": "2022-07-08T03:17:52.721908Z",
+        "relationship_type": "targets",
+        "description": "Try same different country area fear region. Leave significant how accept brother glass. Animal population stand.",
+        "source_ref": "threat-actor--32174030-a9ba-446a-9042-98744af07a70",
+        "target_ref": "identity--56fab5b5-2ad0-4e19-80ad-ccc3c81f0f54",
+        "start_time": "2022-02-20T19:50:58.984602Z",
+        "stop_time": "2022-10-23T07:29:20.668992Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--400e4943-6de2-4678-912b-58081c249674",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-04T11:29:44.171616Z",
+        "modified": "2022-04-26T19:21:14.99678Z",
+        "name": "Howell, Franklin and Arnold",
+        "description": "Fully-configurable mobile attitude",
+        "contact_information": "10690 Cory Port\nNew Carolyn, WA 05164",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "number",
+                "description": "Voice lot your.",
+                "hashes": {
+                    "MD5": "21021b6c0ace9a654dc95a87c1ae7674",
+                    "SHA-1": "aabab43e775da798d4dd1ba1412d5652c8afc563",
+                    "SHA-256": "ad743dd970862ede8697cb1a0cdc570a06b82e64f687bf6cf9994046df4ebec5",
+                    "SHA-512": "ef659f0442fa42278c8cda3e6b9c01ccf59c0a824ca44b22a010bcb00c73920e81b36d8676d7205b858ab419cf27f847b694030bb078ee6a03a68284effd930a",
+                    "SHA3-256": "d184b509284e6fd5c0fe423d59e4b06503dd58aea7b6d4d378f8707188257180",
+                    "SHA3-512": "b992d2438d1801d9465fc3a5f9240dc8fbd9da5a08b18988c2524b0eb477c541be6dc199a6f000737df8b9fe90e6b13dd455065017ba3ff0698b3be1a4f083a0"
+                },
+                "external_id": "evnbXDOzakz"
+            },
+            {
+                "source_name": "beautiful",
+                "external_id": "LAFxcNBqFE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

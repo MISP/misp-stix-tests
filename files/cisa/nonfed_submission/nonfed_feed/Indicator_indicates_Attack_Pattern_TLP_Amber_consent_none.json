@@ -1,0 +1,161 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--b3ef2e67-3069-4a04-a61c-d6d640388994",
+        "created_by_ref": "identity--c0fa722d-6270-44b7-9700-a8a80246682c",
+        "created": "2022-04-20T13:01:29.983224Z",
+        "modified": "2022-11-07T06:57:59.265746Z",
+        "indicator_types": [
+            "anomalous-activity",
+            "unknown",
+            "unknown",
+            "anomalous-activity"
+        ],
+        "pattern": "[network-traffic:protocols[2] >= 'http'] AND ([autonomous-system:number < 470] OR [domain-name:defanged NOT = false] OR ([windows-registry-key:key >= 'fHzlaBVuFZdy']))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-08-26T10:28:18.461363Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "IgMMVSXy",
+                "phase_name": "PbBDCkyIqW"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "labels": [
+            "accept",
+            "yeah",
+            "artist",
+            "physical",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--4d9e724a-bbdf-4a31-b516-bf404bfa79eb",
+        "created_by_ref": "identity--c0fa722d-6270-44b7-9700-a8a80246682c",
+        "created": "2020-09-06T11:22:25.333575Z",
+        "modified": "2021-08-14T01:08:27.396302Z",
+        "name": "writer",
+        "description": "Often my forget field.",
+        "aliases": [
+            "most",
+            "team",
+            "executive"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "Iubhx",
+                "phase_name": "TqnsjI"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "dGCoxMES",
+                "phase_name": "yqSNxPzHWqdFtgtFAXk"
+            }
+        ],
+        "labels": [
+            "use",
+            "pfte-batch-1"
+        ],
+        "confidence": 23,
+        "external_references": [
+            {
+                "source_name": "brother",
+                "description": "Matter someone life green lawyer.",
+                "external_id": "JCfQIvWZIJ"
+            },
+            {
+                "source_name": "lose",
+                "description": "Individual democratic amount pretty animal class poor.",
+                "external_id": "uZaGnk"
+            },
+            {
+                "source_name": "purpose",
+                "description": "Management traditional factor save economic.",
+                "url": "http://hamilton-eaton.com/",
+                "hashes": {
+                    "MD5": "c5751ccd99f3090d6416eb13f0626d7a",
+                    "SHA-1": "d7698b756f8b5e189c1d36ae070fad811221ff93",
+                    "SHA-256": "37efe7d41dcadee39820f0b8d4e17f0aa1e2a86b686bfe2f56e71cd9e46bfdfb",
+                    "SHA-512": "ebdb212597f6acd6e3bd50038fedc26c333a523d983147e1a9ca5ae907d926bcfa093ea7e99b8766cb028db651c8b8ffe1972fac10483acd3bb0bfa889e00b2b",
+                    "SHA3-256": "e3000c915a0a843a8832f923206838a98df3e74181b36a9a4fcb9d451570fc87",
+                    "SHA3-512": "aec813ff6540db4f094634293c36e605f5eb431f65eba9dce6c6ddc21c4962d4b34eb35c3a493cd86f3f6cd9d0d48fff5465b3f725142d39bc7d2bd181543ffe"
+                },
+                "external_id": "QuxHckZNLJdJkXuJ"
+            },
+            {
+                "source_name": "fine",
+                "description": "Window cup among southern.",
+                "external_id": "pYctpQfiFgBXIkBUBoc"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--dc792158-b921-4466-a876-08ab9e464932",
+        "created_by_ref": "identity--c0fa722d-6270-44b7-9700-a8a80246682c",
+        "created": "2022-07-05T19:03:04.664699Z",
+        "modified": "2022-09-02T22:25:12.57753Z",
+        "relationship_type": "indicates",
+        "description": "Build news people treatment. Although water west lot eight several right. Remain amount assume treatment.",
+        "source_ref": "indicator--b3ef2e67-3069-4a04-a61c-d6d640388994",
+        "target_ref": "attack-pattern--4d9e724a-bbdf-4a31-b516-bf404bfa79eb",
+        "start_time": "2020-11-08T15:11:48.351234Z",
+        "labels": [
+            "real",
+            "that",
+            "pfte-batch-1"
+        ],
+        "confidence": 13,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c0fa722d-6270-44b7-9700-a8a80246682c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-08-18T17:23:23.275007Z",
+        "modified": "2021-08-14T01:08:27.396827Z",
+        "name": "FaceStateNature",
+        "description": "Visionary explicit migration",
+        "identity_class": "class",
+        "sectors": [
+            "hospitality-leisure",
+            "water",
+            "aerospace",
+            "healthcare",
+            "mining"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

@@ -1,0 +1,187 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--eededad8-4f65-41da-aa03-a393bf930a8a",
+        "created_by_ref": "identity--019c2c43-ab83-4553-a350-ca267b060061",
+        "created": "2021-02-03T19:49:50.791308Z",
+        "modified": "2021-08-14T01:08:29.740595Z",
+        "indicator_types": [
+            "unknown",
+            "unknown",
+            "anomalous-activity",
+            "attribution"
+        ],
+        "pattern": "([ipv6-addr:defanged = false OR (directory:defanged = false)] FOLLOWEDBY ([windows-registry-key:modified_time < t'2021-04-25T03:13:48.428241Z']) START t'2020-08-27T16:40:23.674461Z' STOP t'2021-05-07T06:40:49.245054Z') FOLLOWEDBY [ipv4-addr:value <= '112.158.79.36']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-12-18T14:55:16.324974Z",
+        "labels": [
+            "act",
+            "store",
+            "pfte-batch-1"
+        ],
+        "confidence": 70,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--2d168f20-f046-409d-b8a3-893a44d09804",
+        "created_by_ref": "identity--019c2c43-ab83-4553-a350-ca267b060061",
+        "created": "2022-08-03T05:23:01.531952Z",
+        "modified": "2023-03-08T20:33:00.363453Z",
+        "name": "whom",
+        "description": "Economy really treatment far manage no.",
+        "infrastructure_types": [
+            "hosting-target-lists"
+        ],
+        "aliases": [
+            "language",
+            "alone",
+            "simply"
+        ],
+        "last_seen": "2021-10-01T18:50:59.650206Z",
+        "labels": [
+            "various",
+            "pfte-batch-1"
+        ],
+        "confidence": 52,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "yard",
+                "description": "Rest paper write drive.",
+                "url": "https://www.young.com/"
+            },
+            {
+                "source_name": "glass",
+                "description": "Cell minute cover.",
+                "url": "http://www.wolfe.com/",
+                "hashes": {
+                    "MD5": "9c70890ae429b6a5a9a2dc05552c0862",
+                    "SHA-1": "04e57eb12e6625d9d6f71cb0e2e0f9cf2f3d200b",
+                    "SHA-256": "3f0620b51368f00f332d702b872ddea88806a1cadc706542c842d8230b02e695",
+                    "SHA-512": "46db7e8bba32f2b2b6444cfc626e7d7ce931cee156f5d69a9c45f31f8ea7d86582c98792f3304a58b11a1f267b0a81241c482d275ab9863efb54882e8cd52e9a",
+                    "SHA3-256": "cd10e278aa3aaa8621bb6de97c197ed0180f47384dd88c33775718071002d716",
+                    "SHA3-512": "e20495aa946f613c4c52bb7a69245b936c9f4dd07b753a53f7a1af95e45743847d709b739231e89bcca22e21730d6380cd96b1c4e19ac9fe0069dbf61a596846"
+                }
+            },
+            {
+                "source_name": "challenge",
+                "description": "Nation clearly reflect data."
+            },
+            {
+                "source_name": "six",
+                "hashes": {
+                    "MD5": "edbeb99355c9d10362cf4730009b64eb",
+                    "SHA-1": "fa3cd17c47932fc583b20533ef41a14210b151a7",
+                    "SHA-256": "e715b782b31547ebfae80237995f9160a7c0426826a6d69c327143ba9cd0f140",
+                    "SHA-512": "9bd56cc4afa163d1c99915334f43f31627a7e5819102b1db3c1218dadf10dcb36b4c57c7a9c7761dd2375f23cc6420ff1823526ae0d75d5f8fcd8bde969ceb55",
+                    "SHA3-256": "956f3c5173a0589bb12b4a0512b16a386ebf5632c9ee89b2506e43e6debc8685",
+                    "SHA3-512": "c75dbb25ed1d74b5ddb85d09576c3149837ae02d10879c66aaa527745485cb271a1b033896c09ab10e224464ddf85b485cded2846a9997aa66cc45a8f32101d2"
+                },
+                "external_id": "JXXOJhLhb"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8e75360e-cd3f-4f7f-841a-ebd67bbbbd42",
+        "created_by_ref": "identity--019c2c43-ab83-4553-a350-ca267b060061",
+        "created": "2021-12-01T01:57:10.269977Z",
+        "modified": "2022-07-29T12:41:47.438119Z",
+        "relationship_type": "indicates",
+        "description": "Including imagine two everybody imagine. Majority throw scientist peace.",
+        "source_ref": "indicator--eededad8-4f65-41da-aa03-a393bf930a8a",
+        "target_ref": "infrastructure--2d168f20-f046-409d-b8a3-893a44d09804",
+        "start_time": "2022-07-24T01:17:47.20763Z",
+        "labels": [
+            "together",
+            "east",
+            "pfte-batch-1"
+        ],
+        "confidence": 33,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "shoulder",
+                "description": "Final its science impact.",
+                "url": "http://www.anderson.info/",
+                "hashes": {
+                    "MD5": "d21182c7cf3a3cbbb58b0e42089c2758",
+                    "SHA-1": "95380f16483bba791189ca67a91ffd8610eb8b48",
+                    "SHA-256": "9ea685bc0d3a99643782b715cd4d04c87099f35e784f2d58a6209507636d0d59",
+                    "SHA-512": "a6ea689e09977cc1dfdf070a06ca75bbf4211404f5fa09d32ad8837555b9012028684b41a7c68cfc6f924c55678e50157fc7be5338bb5ed8099d8f50b965f076",
+                    "SHA3-256": "c37a82ca38b74cd1700a2a2d43d64b7e5517990b2460e57cc78132d73d84bb73",
+                    "SHA3-512": "2813516b80f0d1e799c108b97b53e00ade6c00dca8a6268dad8f46129a5d7e40f1a88289f92ca4a21653adaf9852b562a8718aefc15b9f70afcb01ba0477b9ea"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--3fabd082-f4f0-4351-9cf2-0b0ba6f45edc",
+        "created_by_ref": "identity--019c2c43-ab83-4553-a350-ca267b060061",
+        "created": "2021-11-27T11:59:36.302817Z",
+        "modified": "2022-04-23T18:52:36.510539Z",
+        "opinion": "strongly-disagree",
+        "object_refs": [
+            "indicator--eededad8-4f65-41da-aa03-a393bf930a8a",
+            "infrastructure--2d168f20-f046-409d-b8a3-893a44d09804",
+            "relationship--8e75360e-cd3f-4f7f-841a-ebd67bbbbd42"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--019c2c43-ab83-4553-a350-ca267b060061",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-29T11:05:51.61808Z",
+        "modified": "2022-04-28T08:19:57.317682Z",
+        "name": "EveningCrimeAdd",
+        "identity_class": "individual",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 25,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "almost",
+                "description": "Let but available.",
+                "url": "https://www.larson.biz/",
+                "hashes": {
+                    "MD5": "efe78b3b7b0616102c91812a62bc71de",
+                    "SHA-1": "63b5b46a60f5a7f13ae2b19752568ffb1c8b257e",
+                    "SHA-256": "e9b2807550df970053083c6a0c15a56a84596f28081551ec4f2bf00f8e7be1df",
+                    "SHA-512": "98af623dca00eef82456153402b6be49fff29803afcb7d1a97ef7d7d47d6d9b401a1b375a33fb1aaf99c9ff32bcb15671f89fce19747eeec2d78ace623840e35",
+                    "SHA3-256": "507c07102f0f4b2cb9075cc3668c71b35f32a4613a5c9464f0d6ecd0af778681",
+                    "SHA3-512": "953f7db014742cf2aceafea0f2b83cdf4a49ce9cf56ab714ef1d8ceef4c711aaaddb03f035b76dcb8babe2bab8b89db5ff9b714700bf5b6e4eef88c2a66d30eb"
+                },
+                "external_id": "mtrlaRtQarOReRLEpbw"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

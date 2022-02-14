@@ -1,0 +1,232 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--c01edd01-7be1-4f8f-9f38-59462e8b918b",
+        "created_by_ref": "identity--4b5f8dde-75ba-4113-a70a-0c9db41ffc3b",
+        "created": "2022-01-14T15:16:13.307924Z",
+        "modified": "2022-01-31T16:35:46.330506Z",
+        "name": "whatever",
+        "last_seen": "2021-02-26T13:01:31.170323Z",
+        "confidence": 93,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--da0f2312-f652-415a-af22-eb09a0559943"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--8f0e3eea-dee4-4b33-aa8b-d880a3e38880",
+        "created_by_ref": "identity--4b5f8dde-75ba-4113-a70a-0c9db41ffc3b",
+        "created": "2021-04-03T22:43:41.571392Z",
+        "modified": "2021-08-18T08:36:51.190641Z",
+        "name": "either",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "sQZYYjOFWSYuBBaVLQhj",
+                "phase_name": "nCgYihq"
+            },
+            {
+                "kill_chain_name": "ZtIQKTxkfwRZmzkMaM",
+                "phase_name": "UnQRPNcNJGR"
+            }
+        ],
+        "labels": [
+            "property",
+            "would",
+            "news",
+            "simply",
+            "two",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--da0f2312-f652-415a-af22-eb09a0559943"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--282be449-88ed-4304-9962-ee65ea168fc5",
+        "created_by_ref": "identity--4b5f8dde-75ba-4113-a70a-0c9db41ffc3b",
+        "created": "2020-10-31T03:06:31.134951Z",
+        "modified": "2021-08-14T01:08:58.048332Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c01edd01-7be1-4f8f-9f38-59462e8b918b",
+        "target_ref": "attack-pattern--8f0e3eea-dee4-4b33-aa8b-d880a3e38880",
+        "confidence": 75,
+        "external_references": [
+            {
+                "source_name": "apply",
+                "description": "Learn record agree article son.",
+                "url": "https://gay.com/",
+                "hashes": {
+                    "MD5": "b1b9fe03d930c7ce59482449067926b4",
+                    "SHA-1": "cb55b859383e238d58c6734eb674be24a5b22023",
+                    "SHA-256": "046439011a0234548a5a34002f2b112ca6fb649fef43093fb674dddf952527d8",
+                    "SHA-512": "b824cf3b220279263c9ba39041ec05b6c9759e8d140cb496e11316f9f8b3f82b0ca053db9b90caa72df41cbc3dac2f120f38d200b660877a16fd82b366604376",
+                    "SHA3-256": "163559693e0ce3523db84f77010926da98c8caaac121d75afc44bb05055172eb",
+                    "SHA3-512": "5733423021230fa2033a0eaa33934766af4d64a4d20c1b2c123a6830aed1386142b9b204c8260396bcbd08f7378c6928fce7d2de9bf90e1a9578070aa87c0572"
+                },
+                "external_id": "gBFlNQczXgq"
+            },
+            {
+                "source_name": "executive",
+                "description": "Seven rock born law always.",
+                "url": "https://dominguez.com/",
+                "hashes": {
+                    "MD5": "0ff5787a6bb7021cde1b828a6edb4e27",
+                    "SHA-1": "8c4bb6400921f4992f434cef9c3bd85e978d443e",
+                    "SHA-256": "fbf9846afb9419677f3baaa81f5b8a807a0e06f01f9979beb26cc84d523ddc52",
+                    "SHA-512": "74a2ad96be3990037572a7636f87c3439551057d3451f0e216c56354007c4547d0ae6c94d218c24a2d29178d013e1872ecc31ec479cf7208da82d172cc5c1df6",
+                    "SHA3-256": "5f03c5ec6247291277925daa48ab0947745a6b9f229fca59e0e9d5918a83d987",
+                    "SHA3-512": "35955eefd5ad8c999183d867d82ddeda40be9ee721e5ff1ed75deb9bf9391e54bffd01a0544491a0621feac50a1ab8c7854fbfbdaeb245952cffa73a0f47d76b"
+                },
+                "external_id": "PJLqgipziqIMGOmD"
+            },
+            {
+                "source_name": "month",
+                "description": "Offer maintain pass system matter."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--da0f2312-f652-415a-af22-eb09a0559943"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4b5f8dde-75ba-4113-a70a-0c9db41ffc3b",
+        "created_by_ref": "identity--4b5f8dde-75ba-4113-a70a-0c9db41ffc3b",
+        "created": "2020-09-15T19:04:50.218235Z",
+        "modified": "2021-08-14T01:08:58.048871Z",
+        "name": "Walker PLC",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 52,
+        "external_references": [
+            {
+                "source_name": "once",
+                "description": "Still throw red.",
+                "hashes": {
+                    "MD5": "494b8cf7ca8de32bd3fb2a143fff2487",
+                    "SHA-1": "9ad67a38034b50383718321f7b3f6bd0779fb65e",
+                    "SHA-256": "7ac22c13c8aba62f05a8e1602c55300d614605e3b6912e4638e081da01eda9d9",
+                    "SHA-512": "ae0f522cfb44311f4d9ff26bc2ed186f1519bbff5f99354f7dee540d5991b305bf61b173acfca3d642314599adade269b29ee64470105369596a82b836a57a8d",
+                    "SHA3-256": "610c4bd6786947a56d32fe8a21808fa4e0a686ffc9245a8afc27b72dea7659fb",
+                    "SHA3-512": "2cdbb72adfdab7f054ccfa5840a7544ed04dfa2ab171c9bc458e316e051fac1a5034fa1828e5fc3a7540b631125aefda80812b1efecaa25097dd5fb18dbffcd6"
+                },
+                "external_id": "bgKjCBXcCFqLmZ"
+            },
+            {
+                "source_name": "sound",
+                "external_id": "CisOVIuGcHb"
+            },
+            {
+                "source_name": "factor",
+                "hashes": {
+                    "MD5": "6244cf2aead1464321bc233007c2457f",
+                    "SHA-1": "2c1ecffeecc7e46e8a66618bc12554569a210c03",
+                    "SHA-256": "e30c0f72ed30868a3af0cca8e403bee082c2cc9daefe9d6ceb66ea347895df3d",
+                    "SHA-512": "2633edcb69163d89b2f47a1ab4988291a62f0c0f6df8bb93dceac08c75527283cc5fd88fd35b74906d14aa6573941362ab457eac7cf85207269d0eb5958547db",
+                    "SHA3-256": "81dacf5e67a991f677ca9a950f328367f0668aa513e110af3aad3d445587f500",
+                    "SHA3-512": "4acbc1f7db9907614a870bfed4f6c09de807233f51c5f68a441673d6e8181cba185847e55f4dd44a80bb59b74f158c249a7b8cbc767f11e1a226bdfd80943eb6"
+                },
+                "external_id": "KHifxUElQOXd"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--da0f2312-f652-415a-af22-eb09a0559943"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--da0f2312-f652-415a-af22-eb09a0559943",
+        "created": "2021-08-14T01:08:58.046732Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f97bfbf2-c194-4d73-b792-b989c4ea0ab5",
+                "name": "Focus develop ago various",
+                "create_date_time": "2021-08-14T01:08:08.431216Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

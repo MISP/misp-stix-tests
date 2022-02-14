@@ -1,0 +1,128 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--14aec29f-d7d3-400f-bca0-4861c7e21a88",
+        "created_by_ref": "identity--5fc1cc13-f024-49f1-852c-6d5f67f72267",
+        "created": "2020-12-10T13:40:41.277005Z",
+        "modified": "2021-10-18T11:44:10.803598Z",
+        "name": "agree",
+        "labels": [
+            "cold",
+            "no",
+            "glass",
+            "him",
+            "pfte-batch-1"
+        ],
+        "confidence": 77,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "but",
+                "description": "Should he must prevent expect total.",
+                "url": "http://green.biz/",
+                "hashes": {
+                    "MD5": "d51c51511ed04a9a29b6f69fdee01aa1",
+                    "SHA-1": "038049199a64bb55f153f1ece5028dba93022703",
+                    "SHA-256": "0bf256736b627898001a2afceaa9bae32c5ef75f5e6fb709aa9629a3703f0fc7",
+                    "SHA-512": "eb635be9887647e9c30df8a6a1cbc03b46f00632f461455573f461f65fa4e2a539347023a1ac8a774f789bd019930882d6f116f2c63bb0b59464472b1c3be0b1",
+                    "SHA3-256": "5c5206df0790df673ae7a5ade9fe79969683de2a70497162e4c63353f016880f",
+                    "SHA3-512": "6e2ed4346bf6e7bc74dfeec940dcb9fcf2879bf1d235bd56163fc2b66da0a53e9545e86a46e7e28b2135ea7f9709195ce710fb269b2466dfc0d13f158f183c1f"
+                },
+                "external_id": "ldnoyYvdx"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--4222d38a-f789-4c58-a18a-771f8c94c287",
+        "created_by_ref": "identity--5fc1cc13-f024-49f1-852c-6d5f67f72267",
+        "created": "2021-11-02T18:47:59.127518Z",
+        "modified": "2022-07-07T22:42:24.854037Z",
+        "name": "seat",
+        "description": "Value beautiful without respond structure require.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--351a396e-20b5-4c0d-8a5c-f3c6d95cf1f5",
+        "created_by_ref": "identity--5fc1cc13-f024-49f1-852c-6d5f67f72267",
+        "created": "2022-01-27T23:42:48.223552Z",
+        "modified": "2022-10-19T02:53:47.825322Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--14aec29f-d7d3-400f-bca0-4861c7e21a88",
+        "target_ref": "tool--4222d38a-f789-4c58-a18a-771f8c94c287",
+        "start_time": "2021-03-14T18:12:17.473646Z",
+        "labels": [
+            "agency",
+            "itself",
+            "accept",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--118d61c9-aa53-4707-bd86-b72984b5004f",
+        "created_by_ref": "identity--5fc1cc13-f024-49f1-852c-6d5f67f72267",
+        "created": "2021-10-21T10:37:26.601651Z",
+        "modified": "2021-12-24T06:34:07.026589Z",
+        "opinion": "strongly-disagree",
+        "object_refs": [
+            "course-of-action--14aec29f-d7d3-400f-bca0-4861c7e21a88",
+            "tool--4222d38a-f789-4c58-a18a-771f8c94c287",
+            "relationship--351a396e-20b5-4c0d-8a5c-f3c6d95cf1f5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "determine",
+                "description": "Move magazine ago no.",
+                "external_id": "UsythWvVhYAZcSShaphE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5fc1cc13-f024-49f1-852c-6d5f67f72267",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-04-23T08:06:35.012921Z",
+        "modified": "2022-08-31T12:59:52.650708Z",
+        "name": "Baker-Martinez",
+        "description": "Mandatory contextually-based adapter",
+        "identity_class": "organization",
+        "sectors": [
+            "automotive"
+        ],
+        "contact_information": "22589 Mays Circle Suite 018\nWest Anthony, NM 57164",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 83,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

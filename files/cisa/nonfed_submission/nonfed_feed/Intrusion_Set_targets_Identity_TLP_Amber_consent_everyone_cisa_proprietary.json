@@ -1,0 +1,112 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--4bc4d3c6-5e36-466d-b2fa-c211877a1f97",
+        "created_by_ref": "identity--1377c2c7-bfd6-46f6-8639-bd53f88ff410",
+        "created": "2020-10-25T00:23:57.317701Z",
+        "modified": "2021-09-21T08:54:55.63611Z",
+        "name": "like",
+        "description": "Far thought today plant event ability once.",
+        "aliases": [
+            "manager"
+        ],
+        "goals": [
+            "Movie Mrs minute attention.",
+            "Listen product can choose item draw remember.",
+            "Hold including rule population pick."
+        ],
+        "secondary_motivations": [
+            "accidental",
+            "accidental",
+            "accidental",
+            "revenge",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 24,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--9c92f2ef-7b3f-457f-8c8c-a796a00a9af6",
+        "created_by_ref": "identity--1377c2c7-bfd6-46f6-8639-bd53f88ff410",
+        "created": "2021-02-26T04:32:05.992519Z",
+        "modified": "2021-08-14T01:08:55.502882Z",
+        "name": "Brown, Sullivan and Thomas",
+        "roles": [
+            "must",
+            "according"
+        ],
+        "sectors": [
+            "chemical",
+            "financial-services"
+        ],
+        "contact_information": "214 Nguyen Pass\nEast Patrick, NC 33754",
+        "labels": [
+            "happy",
+            "account",
+            "economy",
+            "camera",
+            "health",
+            "pfte-batch-1"
+        ],
+        "confidence": 88,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--65261ab7-feef-47a2-8b58-c62b6ab8f53e",
+        "created_by_ref": "identity--1377c2c7-bfd6-46f6-8639-bd53f88ff410",
+        "created": "2022-06-05T18:50:22.081404Z",
+        "modified": "2022-10-05T20:07:28.664611Z",
+        "relationship_type": "targets",
+        "source_ref": "intrusion-set--4bc4d3c6-5e36-466d-b2fa-c211877a1f97",
+        "target_ref": "identity--9c92f2ef-7b3f-457f-8c8c-a796a00a9af6",
+        "start_time": "2020-12-15T05:41:07.520276Z",
+        "stop_time": "2021-06-19T07:20:34.330664Z",
+        "labels": [
+            "but",
+            "admit",
+            "light",
+            "staff",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1377c2c7-bfd6-46f6-8639-bd53f88ff410",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-05T20:38:50.398048Z",
+        "modified": "2021-08-14T01:08:55.503427Z",
+        "name": "Barnes-Byrd",
+        "sectors": [
+            "telecommunications",
+            "utilities",
+            "infrastructure",
+            "agriculture",
+            "telecommunications"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--33419ced-4a9c-4596-a0fa-e43a17ad17bb",
+        "created_by_ref": "identity--eeb345b1-c57a-4d82-b652-7491abb7dd05",
+        "created": "2022-02-20T11:45:37.948679Z",
+        "modified": "2022-06-09T13:45:40.248947Z",
+        "name": "beat",
+        "description": "Instead likely kind red.",
+        "last_seen": "2021-04-02T04:46:10.676278Z",
+        "labels": [
+            "respond",
+            "citizen",
+            "data",
+            "look",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--55c713e3-6f9b-4a07-af6d-1706a675bb2c",
+        "created_by_ref": "identity--eeb345b1-c57a-4d82-b652-7491abb7dd05",
+        "created": "2022-02-01T01:12:12.113564Z",
+        "modified": "2022-08-26T09:15:21.524585Z",
+        "name": "off",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "bnHqaVpxKkwQKTeIwH",
+                "phase_name": "wFlJVGaYfHj"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "labels": [
+            "nature",
+            "off",
+            "ok",
+            "leave",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--59826ff0-92bc-4ae2-b247-7952fb62b726",
+        "created_by_ref": "identity--eeb345b1-c57a-4d82-b652-7491abb7dd05",
+        "created": "2020-12-28T06:45:16.155501Z",
+        "modified": "2021-12-25T11:57:48.236353Z",
+        "relationship_type": "uses",
+        "description": "Southern woman only support call its remember. Agree science everyone level class. Partner scene article process peace time red while.",
+        "source_ref": "campaign--33419ced-4a9c-4596-a0fa-e43a17ad17bb",
+        "target_ref": "attack-pattern--55c713e3-6f9b-4a07-af6d-1706a675bb2c",
+        "stop_time": "2021-07-12T08:23:52.536634Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--eeb345b1-c57a-4d82-b652-7491abb7dd05",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-27T10:33:31.3277Z",
+        "modified": "2021-09-03T16:03:49.41636Z",
+        "name": "Taylor-Johnson",
+        "contact_information": "7427 Samantha Islands\nLake Phillip, TX 78670",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 85,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "most",
+                "url": "https://rodriguez.com/",
+                "external_id": "oKeFI"
+            },
+            {
+                "source_name": "coach",
+                "description": "Bed idea offer go this.",
+                "url": "https://www.moore.info/",
+                "hashes": {
+                    "MD5": "520487badd7c7804a960388c7c99e917",
+                    "SHA-1": "6aec81db61d041bcb04c49ab5d89de911249b6ba",
+                    "SHA-256": "4d9bd28ca9b14c7e7b33deab43c509b3280976d0c6648b01c7a86a433670b1aa",
+                    "SHA-512": "e9c0ab5f7f03a435ed11e3ecdbca04f600fb927910ca6d53b0dad3c4ce166abd2f01e8c1e9f7e6ceb5be974176a3ae6d961daf9999f8232bf83dbc7398a68664",
+                    "SHA3-256": "484b5231ba4fe470247cade42dcb8834e2a5f929b2fa65b51e5ff28fe4ee0605",
+                    "SHA3-512": "462dd1598ab9c6e1876df3de976adf135f4f7342eadffc1b514a700dc4fad91fa352ff076f815bab5380abadf701b3a8422dcb4f6d28f928bd123a2b3fe4f2a5"
+                },
+                "external_id": "ZjVjgWHlI"
+            },
+            {
+                "source_name": "a",
+                "url": "https://robbins.biz/",
+                "hashes": {
+                    "MD5": "6a7bcfe349530a3220e5b34f7c23b942",
+                    "SHA-1": "281d6428b9c56612fd80a2501c49235a69db65c1",
+                    "SHA-256": "95a43d8b6c45f91d89c768a9691641f88adcc9dfadb895b5424d39e73f454480",
+                    "SHA-512": "d1c5fb6ac237f9148f5d836448161b353a78b2a67e649fc3a0f622b166f1f09168ee20ebd16bd20331cc7846e295a5ff0985e79a5f64684202ae808d3aeb7d19",
+                    "SHA3-256": "b59f3a594c4e3e95ebde0b4d6c3d06c5d3673604334dec0e0f40800d03130798",
+                    "SHA3-512": "4fde803ff91f298b34a33378314805518ac8bf10f47f9fbd3d5dda53c5c5ced2a397aa0e47305ba62f67b6bbe45a7ce4278e85e8af5ac67c916c75ebed5269b2"
+                },
+                "external_id": "VwytWoBcGTxeAfmuUyC"
+            },
+            {
+                "source_name": "film",
+                "description": "Public edge live key certain current.",
+                "url": "https://watson.net/",
+                "hashes": {
+                    "MD5": "fb9c67bb20aa853361f4e211557c4a74",
+                    "SHA-1": "8fdda36168f5d0af5ff4e95c56867a372d37add2",
+                    "SHA-256": "fd11d77cc58b4eae9adb08f939112b30117cfe96e5fefe037e26dd212822ebba",
+                    "SHA-512": "0847ab03e0705ff5ec223027c70615bac188049a00cc04de13f07ffba6e5a342f332d3d7cd4999e9372a9a951d0c333c891b1cc900fc05686f02fb95dd6406da",
+                    "SHA3-256": "3c1f5b5756a12347e7456a0a06b158ed0bdb326b37cffa0f1cc6217e04b1fc63",
+                    "SHA3-512": "6c327427f64c93e84caf8e38fc763335b79e17200d92d1bc71b0676e38026ff1250d588b75182c5bf9df0377a18b710a645a2b63ce2ba81939069389fc24cedb"
+                },
+                "external_id": "FTsagtRqIGsVd"
+            },
+            {
+                "source_name": "type",
+                "hashes": {
+                    "MD5": "5dd9bb5b8790fcff89cd0b70c587ec8f",
+                    "SHA-1": "f9e5fb9f85bb4a20f8d051ce161b4dba95b743f9",
+                    "SHA-256": "2dcfa2f4adeef9be74f92fdf6aa335709cc4c726684dc88feffd81fd00428074",
+                    "SHA-512": "3ea1bd8bdb852fa0e654df560f2557473c5e1fe8aade8a4adf6ec5e438a20ea784ff96008a42fc6d7521b9cfa6947f96d1f50d3bc8f238898204a3eec9a8aaf5",
+                    "SHA3-256": "c403dadd5900e5037e33bf51abc06c6e6f6fd8a00f53cd42d0607f475fdc3d85",
+                    "SHA3-512": "397a19762d466414747e2ce9b9ea2a28f980228a6e80171f9abe16fcbeb9a7507b24d7aa2dcab0a6ce6e072a74e73e70fe1375c4151cda619e8ce198de9f48e6"
+                },
+                "external_id": "oksCfRlTmX"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

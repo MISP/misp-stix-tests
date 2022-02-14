@@ -1,0 +1,205 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--00c44025-66cc-4bfd-8207-e8cca1b27c3f",
+        "created_by_ref": "identity--9a7eb6e6-bf80-4e15-a3fe-ee79d2584a1f",
+        "created": "2021-06-16T18:54:52.457613Z",
+        "modified": "2022-03-26T16:51:28.195452Z",
+        "name": "watch",
+        "description": "Now plant book stage Republican.",
+        "indicator_types": [
+            "anomalous-activity",
+            "unknown",
+            "benign",
+            "unknown"
+        ],
+        "pattern": "(([process:pid >= 58862]) AND [user-account:account_expires >= t'2021-11-07T09:25:40.66553Z' AND (user-account:is_disabled = true)] REPEATS 3 TIMES) OR [email-addr:value > 'grayjamie@gmail.com'] START t'2020-09-14T14:21:40.700239Z' STOP t'2021-05-21T14:50:37.416677Z'",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-07-24T22:16:19.759274Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "XijOsiqpRYYUGX",
+                "phase_name": "WWTECAu"
+            },
+            {
+                "kill_chain_name": "TttivMlln",
+                "phase_name": "roeFmroJVmauAJtlj"
+            }
+        ],
+        "labels": [
+            "ball",
+            "Congress",
+            "pfte-batch-1"
+        ],
+        "confidence": 40,
+        "object_marking_refs": [
+            "marking-definition--358e3cdc-1df2-4701-a154-8b081fb3c250"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--4c5c555c-b66e-483e-8f00-4639a892cf60",
+        "created_by_ref": "identity--9a7eb6e6-bf80-4e15-a3fe-ee79d2584a1f",
+        "created": "2022-06-14T15:17:26.710514Z",
+        "modified": "2022-08-20T15:34:42.146725Z",
+        "name": "again",
+        "description": "Do class without budget.",
+        "infrastructure_types": [
+            "botnet",
+            "workstation",
+            "amplification",
+            "anonymization",
+            "routers-switches"
+        ],
+        "first_seen": "2021-06-15T21:32:37.243668Z",
+        "last_seen": "2022-03-13T15:25:08.095063Z",
+        "confidence": 72,
+        "object_marking_refs": [
+            "marking-definition--358e3cdc-1df2-4701-a154-8b081fb3c250"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8f7ec5ad-ccf6-4d08-b1ce-8ab5764541a2",
+        "created_by_ref": "identity--9a7eb6e6-bf80-4e15-a3fe-ee79d2584a1f",
+        "created": "2022-01-09T20:43:54.621689Z",
+        "modified": "2022-05-04T12:28:41.68137Z",
+        "relationship_type": "indicates",
+        "description": "For language hand not test human. Energy month support break discussion space talk.",
+        "source_ref": "indicator--00c44025-66cc-4bfd-8207-e8cca1b27c3f",
+        "target_ref": "infrastructure--4c5c555c-b66e-483e-8f00-4639a892cf60",
+        "stop_time": "2022-05-29T13:57:45.680378Z",
+        "confidence": 8,
+        "object_marking_refs": [
+            "marking-definition--358e3cdc-1df2-4701-a154-8b081fb3c250"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--9a7eb6e6-bf80-4e15-a3fe-ee79d2584a1f",
+        "created_by_ref": "identity--9a7eb6e6-bf80-4e15-a3fe-ee79d2584a1f",
+        "created": "2021-10-03T17:57:54.646827Z",
+        "modified": "2022-04-03T21:27:28.211961Z",
+        "name": "Carr, Smith and Russell",
+        "description": "Universal mission-critical leverage",
+        "roles": [
+            "green",
+            "debate"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 88,
+        "external_references": [
+            {
+                "source_name": "always",
+                "description": "Current open power support off worker."
+            },
+            {
+                "source_name": "effort",
+                "description": "Everyone light owner natural although three walk.",
+                "url": "https://www.glenn-mahoney.com/",
+                "hashes": {
+                    "MD5": "87f0232de8285e4bca6b6fed3c4ffe4f",
+                    "SHA-1": "5d7d38c997070af24970585dabfe8a3676765035",
+                    "SHA-256": "b94c3ce4d63833f06aac44fae104242d8c51c0ce73cf9ad2dc77b53be75a006a",
+                    "SHA-512": "5768dc8f398e6ef621cdfa32efcedfa56c4a40db71ab3fb6def450fb92d967bb90d4dff817300fa0351dc455463b91e9c8eae0240b45d8c6e205cf615f5b4ad8",
+                    "SHA3-256": "19942c22eb0da0a850d65df1fef6272f99df3ff7fdd9574935c0d5c549f319a2",
+                    "SHA3-512": "8e6bea7029fce11acc3728c35727953aa2a3a22ac3423ca8dec40864f94d3b328c4d479137bc6346bf45059659633e50c0cd554513ef513a5e8ff46dc73876d4"
+                },
+                "external_id": "pBmdKCkgN"
+            },
+            {
+                "source_name": "itself",
+                "description": "Pass manage eight American good case generation.",
+                "hashes": {
+                    "MD5": "fb3d55ade7cd052f5f89a648081caee7",
+                    "SHA-1": "e7a2ba8fe80d89dfb5e321bfee58faeb3320875b",
+                    "SHA-256": "303e024be4b781a6e0706170d20665b9e410f00045e3deac6d85e28befad9ca6",
+                    "SHA-512": "5434f911944871ece79e4d255a99bc2831fa1de5d018b3760693743f1a2e0f01751b0a47620a223fb37ca4fd59bb933d3f88cb820dd2bafbafc227887c6d7d77",
+                    "SHA3-256": "7df75cba39b86b02b4ca24f62ee666680d450610a10ae86ea91fb325b8d1f4f5",
+                    "SHA3-512": "24ae828598b8cd56e093077595638b2f0b90938f68c408a3ea107b31f4c07f9439644dd39b4f06b83218f18c4435db554753864e991c2fa29b5c0437010044df"
+                }
+            },
+            {
+                "source_name": "nor",
+                "description": "To last form check for.",
+                "url": "http://hahn.biz/",
+                "hashes": {
+                    "MD5": "93c006575a55fd583b41763e0722f023",
+                    "SHA-1": "0b946ae2371122ee36840827a170d1da010098cc",
+                    "SHA-256": "8c33914a03a6b4a94f2b47c1ba747227b9f5f9bceae1299f0720e71b517084c0",
+                    "SHA-512": "4ed609c3a64b5dc6cc6fc709ab857b0d453300cdd707d8d0ce079689f6b0472af8d4ec085da78a922c156b0ee15d2f57933f73301e85f1211e959bfa9f418f5c",
+                    "SHA3-256": "1d7ab92b48bbbd78bb98d7808d06ff61d96778e00b383413491b6b651ff2ba86",
+                    "SHA3-512": "1263a98c83812334091f2b30c048719590cc29104ba83731ed4b3881a370e79555a465fe773170511817d53c015fe9121df108ae6c210c8ebb700d205d1ddd38"
+                },
+                "external_id": "jMkFvJTX"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--358e3cdc-1df2-4701-a154-8b081fb3c250"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--358e3cdc-1df2-4701-a154-8b081fb3c250",
+        "created": "2021-08-14T01:08:30.861299Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-716f5d31-4760-4ed1-b8df-6b76bb19bd34",
+                "name": "Wife plan yourself training yet rich",
+                "create_date_time": "2021-08-14T01:08:08.43336Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.433196Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

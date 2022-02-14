@@ -1,0 +1,196 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--52319484-9f76-4bd3-a110-e092035993e4",
+        "created_by_ref": "identity--ff1bb76a-7813-4c35-ad44-0cdade88e6bc",
+        "created": "2020-10-18T14:59:17.979074Z",
+        "modified": "2021-08-14T01:09:25.978538Z",
+        "name": "election",
+        "last_seen": "2021-03-23T04:20:00.815432Z",
+        "goals": [
+            "create",
+            "other",
+            "argue",
+            "control",
+            "school"
+        ],
+        "primary_motivation": "revenge",
+        "personal_motivations": [
+            "unpredictable",
+            "ideology",
+            "personal-satisfaction"
+        ],
+        "object_marking_refs": [
+            "marking-definition--9d99f639-e633-4f3c-a6d9-6b4f88f4da09"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--5a088cb2-b0d6-488e-a650-e089e7a96840",
+        "created_by_ref": "identity--ff1bb76a-7813-4c35-ad44-0cdade88e6bc",
+        "created": "2021-10-02T10:45:15.691868Z",
+        "modified": "2022-01-26T06:33:59.680535Z",
+        "name": "could",
+        "description": "Property special father very by.",
+        "infrastructure_types": [
+            "exfiltration",
+            "control-system",
+            "firewall",
+            "hosting-target-lists",
+            "amplification"
+        ],
+        "aliases": [
+            "politics",
+            "walk",
+            "check",
+            "hear"
+        ],
+        "first_seen": "2021-09-13T09:04:26.505756Z",
+        "last_seen": "2022-05-06T20:36:05.172738Z",
+        "object_marking_refs": [
+            "marking-definition--9d99f639-e633-4f3c-a6d9-6b4f88f4da09"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--101fc131-3bee-4313-b9f5-2ea554ad912a",
+        "created_by_ref": "identity--ff1bb76a-7813-4c35-ad44-0cdade88e6bc",
+        "created": "2021-08-21T05:02:24.328785Z",
+        "modified": "2021-11-15T08:25:25.892499Z",
+        "relationship_type": "compromises",
+        "description": "Player organization environmental. Local rather much news pick.",
+        "source_ref": "threat-actor--52319484-9f76-4bd3-a110-e092035993e4",
+        "target_ref": "infrastructure--5a088cb2-b0d6-488e-a650-e089e7a96840",
+        "start_time": "2022-08-14T01:09:15.041802Z",
+        "stop_time": "2023-06-19T13:25:07.059763Z",
+        "labels": [
+            "another",
+            "fine",
+            "success",
+            "pfte-batch-1"
+        ],
+        "confidence": 55,
+        "object_marking_refs": [
+            "marking-definition--9d99f639-e633-4f3c-a6d9-6b4f88f4da09"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ff1bb76a-7813-4c35-ad44-0cdade88e6bc",
+        "created_by_ref": "identity--ff1bb76a-7813-4c35-ad44-0cdade88e6bc",
+        "created": "2021-02-07T02:32:51.810127Z",
+        "modified": "2021-08-14T01:09:25.979507Z",
+        "name": "Harmon and Sons",
+        "description": "Fundamental explicit moratorium",
+        "identity_class": "unknown",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 22,
+        "external_references": [
+            {
+                "source_name": "service",
+                "url": "https://garcia-white.com/",
+                "hashes": {
+                    "MD5": "db67cd7d07f23b7e0baf3819fc444d3d",
+                    "SHA-1": "56dfd2a1f78ae3ac0d4937d11e9512d065f70bde",
+                    "SHA-256": "2f7f6c9bbb8568dc0268bc19223dec5f7be7506c3f03ea37bf2cee7127d8fd61",
+                    "SHA-512": "ee2e02f90e20a7ad637ac30939f30fd9eec6fabc9830afdda29cbfc8c1d9e7c72a57fcbda8ec6eb6fa52bec5d2532a926d5f93c82a12aa9f5ac57905db993830",
+                    "SHA3-256": "86dddf79e9cbae2d926a908269d1343da6666f94ce33f25a0b4d892a98d3efc9",
+                    "SHA3-512": "067c3e113c776b0a6a9833219ef90d2d7b9f4c365e84dbce68ae3113faca3aa23a93a5d2fbdeb4a446463f0e1f28b3ba55280879775ccd78eafac8b15c06078b"
+                },
+                "external_id": "unxgmbt"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9d99f639-e633-4f3c-a6d9-6b4f88f4da09"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--9d99f639-e633-4f3c-a6d9-6b4f88f4da09",
+        "created": "2021-08-14T01:09:25.977743Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6d40bd19-4710-4b69-9440-86c8c2a858b4",
+                "name": "Purpose response respond always trouble later investment",
+                "create_date_time": "2021-08-14T01:08:08.431664Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.4315Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

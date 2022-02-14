@@ -1,0 +1,191 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--27153ab4-31bb-47de-b625-44ee2aca3f0e",
+        "created_by_ref": "identity--e63dee2d-6937-4877-9d3f-db7cbd62b020",
+        "created": "2020-11-13T03:26:30.870047Z",
+        "modified": "2021-08-14T01:08:33.932673Z",
+        "pattern": "([(windows-registry-key:modified_time <= t'2020-09-13T03:29:41.31951Z') AND windows-registry-key:number_of_subkeys = 4] START t'2021-09-26T05:32:55.594189Z' STOP t'2022-06-24T00:40:19.039Z') OR [software:defanged = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-04-24T17:53:40.74297Z",
+        "valid_until": "2021-06-22T04:56:33.017046Z",
+        "labels": [
+            "left",
+            "pfte-batch-1"
+        ],
+        "confidence": 34,
+        "object_marking_refs": [
+            "marking-definition--e2dabf3c-7581-473e-a0cf-7701981edcdf"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--b6f64583-4d79-4845-86a3-df880b606bfd",
+        "created_by_ref": "identity--e63dee2d-6937-4877-9d3f-db7cbd62b020",
+        "created": "2020-09-02T14:47:22.47665Z",
+        "modified": "2021-08-14T01:08:33.935235Z",
+        "name": "size",
+        "description": "Suggest face street decade laugh dream close forward.",
+        "first_seen": "2021-12-17T14:52:04.604658Z",
+        "last_seen": "2021-12-23T23:38:39.205741Z",
+        "roles": [
+            "infrastructure-operator"
+        ],
+        "resource_level": "team",
+        "secondary_motivations": [
+            "dominance",
+            "coercion",
+            "personal-gain",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "treatment",
+            "human",
+            "rich",
+            "experience",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "indicate",
+                "description": "Training perhaps chair shoulder something dinner spring.",
+                "url": "http://www.johnson-fitzpatrick.com/",
+                "hashes": {
+                    "MD5": "bce91728524a722db7c89a3bd513adab",
+                    "SHA-1": "6bd0b3c81c653559505e7bf0037de5cc80580a6f",
+                    "SHA-256": "6602351405edb4316b4718e37d50d51240652be68bd27abb0da341db555f818e",
+                    "SHA-512": "03e18fafe530a530e929e6ab875a4b9fc5fca5e91a10ed870198fa1e04a1c548ad4ccbaad0f376927f3457433615d610bfe9af8192cb179130e4dd5070f78a26",
+                    "SHA3-256": "fa05f98f8d24f58c260040bb7eba7f1d79c1ca763173bb90ff93e2ce0397b3f0",
+                    "SHA3-512": "353675813832d66aa137be4ffd3534edce055f9ac417c05dfa794a26da8c7489101a0907a0152befe5020e047b8e367c2647df6e974c2505b1b5d640a5bd9b2e"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e2dabf3c-7581-473e-a0cf-7701981edcdf"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3114633e-f9f6-44c8-925d-8377d4f91dc9",
+        "created_by_ref": "identity--e63dee2d-6937-4877-9d3f-db7cbd62b020",
+        "created": "2020-10-24T03:56:53.21465Z",
+        "modified": "2021-08-14T01:08:33.935657Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--27153ab4-31bb-47de-b625-44ee2aca3f0e",
+        "target_ref": "threat-actor--b6f64583-4d79-4845-86a3-df880b606bfd",
+        "stop_time": "2020-08-30T01:38:21.62908Z",
+        "confidence": 40,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "wall",
+                "description": "Grow society mouth soon condition stuff single bit.",
+                "url": "https://cooper-marshall.com/",
+                "hashes": {
+                    "MD5": "f0a17e17543641f01471f71abf4c5e2e",
+                    "SHA-1": "c8d3e7e0f8e3f55446956ff9e3249b6fc7fd6d84",
+                    "SHA-256": "fb6f352322dcd7c1eb82c1b61b737dfe02862178492aaf78bdc2533d5220ee78",
+                    "SHA-512": "c010e674a21d1237e5ff547f09ea4af8c0693cc88a251fca9fd3bad155b54d0435583a5accc65c93603b1ca7474c4b8cb02717db082f8f5cdc6989da4b9b209e",
+                    "SHA3-256": "702777859ad68febaee0a12917df01ad8fa0e0bc2fa6cb45513ee3bf17bc8403",
+                    "SHA3-512": "f634326545fff16abd9807127e8c3e72506be4923b0b725c378f36fbdae182fe4f66c27fd51fd1d2a0e73afc9f54c7641bf253cde6cb105c550af63b56ca6809"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e2dabf3c-7581-473e-a0cf-7701981edcdf"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--ab15796b-7e3f-4409-a2ce-1c753c32bbac",
+        "created_by_ref": "identity--e63dee2d-6937-4877-9d3f-db7cbd62b020",
+        "created": "2022-05-21T21:47:50.557787Z",
+        "modified": "2022-11-14T04:01:45.633707Z",
+        "opinion": "neutral",
+        "object_refs": [
+            "indicator--27153ab4-31bb-47de-b625-44ee2aca3f0e",
+            "threat-actor--b6f64583-4d79-4845-86a3-df880b606bfd",
+            "relationship--3114633e-f9f6-44c8-925d-8377d4f91dc9"
+        ],
+        "confidence": 96,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e2dabf3c-7581-473e-a0cf-7701981edcdf"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e63dee2d-6937-4877-9d3f-db7cbd62b020",
+        "created_by_ref": "identity--e63dee2d-6937-4877-9d3f-db7cbd62b020",
+        "created": "2021-10-24T14:06:09.844708Z",
+        "modified": "2022-01-20T22:38:12.260151Z",
+        "name": "Johnson-Garza",
+        "description": "Operative object-oriented concept",
+        "roles": [
+            "learn",
+            "second",
+            "attention",
+            "research"
+        ],
+        "identity_class": "organization",
+        "sectors": [
+            "chemical"
+        ],
+        "object_marking_refs": [
+            "marking-definition--e2dabf3c-7581-473e-a0cf-7701981edcdf"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--e2dabf3c-7581-473e-a0cf-7701981edcdf",
+        "created": "2021-08-14T01:08:33.932143Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fb4e63d-338f-4f0a-b771-dd937b9aaabe",
+                "name": "Human on join spring",
+                "create_date_time": "2021-08-14T01:08:08.425512Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.425314Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

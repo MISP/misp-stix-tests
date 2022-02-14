@@ -1,0 +1,156 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--325ab830-5bb3-4ce1-a661-b9bef42492db",
+        "created_by_ref": "identity--cda7e6da-4111-4130-b655-8d92bddea5bb",
+        "created": "2021-09-01T15:47:34.072246Z",
+        "modified": "2022-07-11T17:40:12.717752Z",
+        "name": "can",
+        "aliases": [
+            "hear"
+        ],
+        "first_seen": "2021-12-21T02:23:38.351862Z",
+        "confidence": 16,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2e10449c-dc64-4299-bdb9-a320eca56c02"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--f50caa37-f8f5-4154-b751-012951a56d5e",
+        "created_by_ref": "identity--cda7e6da-4111-4130-b655-8d92bddea5bb",
+        "created": "2019-12-07T13:10:59.639521Z",
+        "modified": "2021-08-14T01:08:17.329195Z",
+        "description": "Secured 24hour portal",
+        "latitude": 33.557343085933084,
+        "longitude": 112.12871468400101,
+        "country": "Congo",
+        "street_address": "7270 Howard Dale",
+        "postal_code": "26692",
+        "object_marking_refs": [
+            "marking-definition--2e10449c-dc64-4299-bdb9-a320eca56c02"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a7036bd8-2cac-4897-ab60-69cfe4ccff4e",
+        "created_by_ref": "identity--cda7e6da-4111-4130-b655-8d92bddea5bb",
+        "created": "2021-12-26T05:31:41.462609Z",
+        "modified": "2022-07-27T08:36:31.868492Z",
+        "relationship_type": "targets",
+        "description": "Charge wind me. Building hold table drop natural conference another.",
+        "source_ref": "campaign--325ab830-5bb3-4ce1-a661-b9bef42492db",
+        "target_ref": "location--f50caa37-f8f5-4154-b751-012951a56d5e",
+        "stop_time": "2021-11-23T23:21:28.121242Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2e10449c-dc64-4299-bdb9-a320eca56c02"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--cda7e6da-4111-4130-b655-8d92bddea5bb",
+        "created_by_ref": "identity--cda7e6da-4111-4130-b655-8d92bddea5bb",
+        "created": "2021-04-27T11:56:35.304668Z",
+        "modified": "2021-11-12T21:43:34.108541Z",
+        "name": "Morris LLC",
+        "roles": [
+            "want"
+        ],
+        "identity_class": "group",
+        "sectors": [
+            "mining",
+            "technology",
+            "government-local",
+            "retail",
+            "government-public-services"
+        ],
+        "contact_information": "3823 Harrington Ridge Suite 981\nArmstrongchester, TX 42374",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "prepare",
+                "description": "Allow science source under job day.",
+                "external_id": "CbNviXrlrWhgJpcFIx"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2e10449c-dc64-4299-bdb9-a320eca56c02"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2e10449c-dc64-4299-bdb9-a320eca56c02",
+        "created": "2021-08-14T01:08:17.328062Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1b1f4ecf-83db-4fe9-8c22-38a5f88b6694",
+                "name": "Deal certainly rather appear present safe",
+                "create_date_time": "2021-08-14T01:08:08.429946Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.429783Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

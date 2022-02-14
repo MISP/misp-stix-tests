@@ -1,0 +1,159 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--7cfbb46a-1064-4340-82ad-f296e762658d",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2022-06-12T22:47:19.555851Z",
+        "modified": "2022-12-24T07:05:39.041244Z",
+        "name": "tell",
+        "description": "Force war specific paper.",
+        "labels": [
+            "ahead",
+            "bar",
+            "gas",
+            "pfte-batch-1"
+        ],
+        "confidence": 52,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--121fcc70-5f07-488c-84c7-1cd82ab6a9fa",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2021-12-13T16:28:00.721328Z",
+        "modified": "2022-01-30T17:50:50.149345Z",
+        "name": "Nelson, Smith and Bishop",
+        "description": "Polarized fault-tolerant success",
+        "sectors": [
+            "mining",
+            "energy"
+        ],
+        "contact_information": "USCGC Barnes\nFPO AE 55458",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 62,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3b0d43f6-e8a8-4a88-8edf-4a2d35f3a63c",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2020-10-31T18:27:54.256957Z",
+        "modified": "2021-08-14T01:08:09.687627Z",
+        "relationship_type": "targets",
+        "description": "Surface ability support offer to say happen painting. Point oil everyone morning series.",
+        "source_ref": "attack-pattern--7cfbb46a-1064-4340-82ad-f296e762658d",
+        "target_ref": "identity--121fcc70-5f07-488c-84c7-1cd82ab6a9fa",
+        "labels": [
+            "attention",
+            "game",
+            "soon",
+            "science",
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--77fb5dd6-4b2a-436f-9424-374fefc5fda3",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2021-12-09T00:43:15.882804Z",
+        "modified": "2022-08-26T22:45:59.820224Z",
+        "name": "happy",
+        "context": "unspecified",
+        "object_refs": [
+            "attack-pattern--7cfbb46a-1064-4340-82ad-f296e762658d",
+            "identity--121fcc70-5f07-488c-84c7-1cd82ab6a9fa",
+            "relationship--3b0d43f6-e8a8-4a88-8edf-4a2d35f3a63c"
+        ],
+        "labels": [
+            "buy",
+            "late",
+            "last",
+            "pfte-batch-1"
+        ],
+        "confidence": 15,
+        "external_references": [
+            {
+                "source_name": "easy",
+                "description": "Cost language tell likely clear.",
+                "url": "http://www.steele.org/",
+                "hashes": {
+                    "MD5": "6a70724a3487fb5d248f0cb58ec698e5",
+                    "SHA-1": "42a7468194b737d6f42314bc4fb7c60a5feefaa6",
+                    "SHA-256": "7d00964412548d7ec6fe12b08d70b9ad85740740a8955c607ed028ace7557d20",
+                    "SHA-512": "7b24ba0be36b7d0cb222f9762daa6191e9942e483fedfb526cbf1ccdd82056bbf6b546237b18971872c2d9159d21d812fa01e89e63d1469c6d4cc0b9af45c0f6",
+                    "SHA3-256": "0217cce2d7d2fc161810b0cca434e1fa98ee929db6dda2d4e7b1d6c7808069a3",
+                    "SHA3-512": "3dbbb033bf725e78f3a8ae46775da3a03dcbbaee9716afc6507e9ec7da9997113bbfe7d5e708f0774189cd98a65367af77d17e379f2e9c5afc766b9b33b9eea7"
+                }
+            },
+            {
+                "source_name": "activity",
+                "description": "Within particularly ask single run even case.",
+                "hashes": {
+                    "MD5": "cee534a66098893c11a079967db874cd",
+                    "SHA-1": "c7dca93b7e4a31b36f5f5bfd37880d24556a2c91",
+                    "SHA-256": "215950365a277a849f69df8480303630ac93ef431c666c4d65ef716e48db4ed5",
+                    "SHA-512": "6750bb17cb760b01bb518954273004a5664ebf0a2a34a950b7ef36e680251a7149a1901efcd0edb36780838faec345a7582409018d6d6bcf9d69efbcd0a00b79",
+                    "SHA3-256": "80daa23193f2ce74788f7fe5c3764cc795acec853507f439c050f42b27cc5394",
+                    "SHA3-512": "241acb8351620061c2ef717fb2bf2779832c780dc80b55f4ea8dee644455fd601ed3b3a7a30607d0060360f36d2dd0cb72d2f59638bfaf488a7943541e5a6eb8"
+                }
+            },
+            {
+                "source_name": "country",
+                "description": "Identify such until dog enter.",
+                "url": "https://thompson-bauer.com/",
+                "external_id": "MNsYcRwYH"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-01-01T00:00:00.000Z",
+        "modified": "2020-01-01T00:00:00.000Z",
+        "name": "USA.USG",
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

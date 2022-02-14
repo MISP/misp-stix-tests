@@ -1,0 +1,223 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--7ffce58a-8a30-4390-bd21-27eac41d0f70",
+        "created_by_ref": "identity--eb29af72-5678-4b88-bd4a-e1cef31960b8",
+        "created": "2021-09-19T22:16:27.399232Z",
+        "modified": "2021-11-19T22:37:05.411323Z",
+        "name": "field",
+        "description": "Join interview force player.",
+        "indicator_types": [
+            "unknown",
+            "anomalous-activity",
+            "attribution"
+        ],
+        "pattern": "([email-addr:value >= 'edavis@levine.com']) AND [x509-certificate:defanged = false AND (x509-certificate:version = '13')]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-10-04T16:30:57.532602Z",
+        "object_marking_refs": [
+            "marking-definition--e6bcb4ac-bb04-4af6-9561-5055e7f7f24c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--8da7920b-ed65-4050-b4a9-2f4afa684b4f",
+        "created_by_ref": "identity--eb29af72-5678-4b88-bd4a-e1cef31960b8",
+        "created": "2021-10-16T22:26:14.933258Z",
+        "modified": "2022-05-15T03:36:44.096303Z",
+        "name": "research",
+        "description": "Wish rock prepare support per quickly if us.",
+        "aliases": [
+            "through",
+            "future"
+        ],
+        "objective": "Whose table ago act laugh.",
+        "labels": [
+            "though",
+            "minute",
+            "month",
+            "research",
+            "performance",
+            "pfte-batch-1"
+        ],
+        "confidence": 61,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e6bcb4ac-bb04-4af6-9561-5055e7f7f24c"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c529c9b3-6075-4cbf-a469-f24548c874da",
+        "created_by_ref": "identity--eb29af72-5678-4b88-bd4a-e1cef31960b8",
+        "created": "2021-04-09T05:44:51.116625Z",
+        "modified": "2022-02-24T03:45:09.776966Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--7ffce58a-8a30-4390-bd21-27eac41d0f70",
+        "target_ref": "campaign--8da7920b-ed65-4050-b4a9-2f4afa684b4f",
+        "stop_time": "2020-08-16T16:46:13.749559Z",
+        "labels": [
+            "natural",
+            "sense",
+            "option",
+            "reality",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "year",
+                "description": "Stand safe might one keep statement last tree.",
+                "external_id": "VuLYCKuHKfQgMyF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e6bcb4ac-bb04-4af6-9561-5055e7f7f24c"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--eb29af72-5678-4b88-bd4a-e1cef31960b8",
+        "created_by_ref": "identity--eb29af72-5678-4b88-bd4a-e1cef31960b8",
+        "created": "2021-09-06T13:09:34.028548Z",
+        "modified": "2022-06-08T13:14:58.511595Z",
+        "name": "Boyer, Brown and Hunter",
+        "description": "Secured high-level approach",
+        "roles": [
+            "cultural",
+            "likely",
+            "tonight",
+            "eight"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "chemical",
+            "healthcare"
+        ],
+        "contact_information": "652 Rivas Point\nScottchester, GA 57717",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "six",
+                "description": "That offer throughout light nice card teach.",
+                "hashes": {
+                    "MD5": "1c9563dcc5163464cb2f03c2d983c0d6",
+                    "SHA-1": "0988a0ebf8920936652eee3262c4a9cbe5cbbc27",
+                    "SHA-256": "393d023299a80f2d4a9ed5118087a8cd7c54633cebfc11b7c492141415c17d53",
+                    "SHA-512": "6f8485c9edaca9bc33b4c5edc3d35a6173fe8b69b27bc7c617f51c4922463cbeedfb775941a79588a6767084689a017be5cd3f91f70f11a4e84098082ba9e5f4",
+                    "SHA3-256": "01e971ecaef33a09592bada80b41b226d80d14b42255b2bec8dd7ddd0f3c67c5",
+                    "SHA3-512": "f498c16b76fc2152212e82a04fab9185c7df06c629795aade3402861df75f29449266c4a469facac8587f0fb568bac21adb19129c797118701e65a9234fdc117"
+                },
+                "external_id": "kmZxRftsfzHn"
+            },
+            {
+                "source_name": "not",
+                "external_id": "IeTtFLaucaJEYv"
+            },
+            {
+                "source_name": "decide",
+                "url": "https://harper.info/"
+            },
+            {
+                "source_name": "should",
+                "url": "http://salinas-oneal.info/",
+                "hashes": {
+                    "MD5": "ba596fa82066f267a2107f431e3b8350",
+                    "SHA-1": "b5528a2e37a7061f1c9bd71a514b25683939f23a",
+                    "SHA-256": "e5e0e4dc4e55235b47831453ef6cae30bd56ea04f113a21e640c92a57fd3f29b",
+                    "SHA-512": "540415dd83d70eaf295ca0d4f0865eb65b57f8dee0d241db70781b65337d690be81ac678cbfca221b7c30811884e39e672f9ec90da54addb173e523ae473ae80",
+                    "SHA3-256": "0476fcb7d77dc41a90262d85de0dc9165f74f5b0dae0704bce4cedb9107ef0a5",
+                    "SHA3-512": "dce6f170761ea082d800f50f0d35c302ef8fb51f1cd394acf88a97eaf54821c26db849c3d2a5453c1279bfaf6d279a502009c1ac98bf0ddd8151b0db54bdd68a"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e6bcb4ac-bb04-4af6-9561-5055e7f7f24c"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--e6bcb4ac-bb04-4af6-9561-5055e7f7f24c",
+        "created": "2021-08-14T01:08:29.694403Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fadf816-7ba3-41ea-a52c-2855b3ec9d5a",
+                "name": "Report official major we center outside throughout population",
+                "create_date_time": "2021-08-14T01:08:08.433803Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

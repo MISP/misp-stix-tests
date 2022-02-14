@@ -1,0 +1,101 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--9f97a5e9-d385-4acc-87a9-50f4034f196a",
+        "created_by_ref": "identity--f8297d38-767c-4925-8e4c-611a19e42718",
+        "created": "2022-05-22T13:23:45.526983Z",
+        "modified": "2022-11-16T01:06:32.571315Z",
+        "name": "garden",
+        "description": "Available note scene.",
+        "first_seen": "2021-09-25T17:37:41.015035Z",
+        "last_seen": "2022-01-19T11:44:09.738531Z",
+        "objective": "Let threat capital shake consumer station air.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--8bc77902-6955-43f3-8f5d-203abc43aacd",
+        "created_by_ref": "identity--f8297d38-767c-4925-8e4c-611a19e42718",
+        "created": "2020-09-20T13:43:15.396066Z",
+        "modified": "2021-08-14T01:08:19.716034Z",
+        "name": "more",
+        "infrastructure_types": [
+            "control-system",
+            "routers-switches"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "dfjxSBZCIruykFgEjv",
+                "phase_name": "mLkAJGcdIQ"
+            }
+        ],
+        "first_seen": "2021-08-12T17:49:32.448894Z",
+        "last_seen": "2022-03-21T00:47:24.94163Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 90,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "buy",
+                "description": "Discussion skill sit it next pick yard turn.",
+                "url": "http://perez-ward.net/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--7101c134-6ce3-43c4-a1df-0127734ee45c",
+        "created_by_ref": "identity--f8297d38-767c-4925-8e4c-611a19e42718",
+        "created": "2021-10-15T03:34:38.395923Z",
+        "modified": "2022-05-03T05:46:53.042553Z",
+        "relationship_type": "uses",
+        "description": "Group strategy what food director. Nice sense say ever law ago put.",
+        "source_ref": "campaign--9f97a5e9-d385-4acc-87a9-50f4034f196a",
+        "target_ref": "infrastructure--8bc77902-6955-43f3-8f5d-203abc43aacd",
+        "labels": [
+            "total",
+            "later",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f8297d38-767c-4925-8e4c-611a19e42718",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-08-04T17:23:41.581881Z",
+        "modified": "2023-07-22T18:25:52.03768Z",
+        "name": "Nunez-Garcia",
+        "description": "Total content-based service-desk",
+        "identity_class": "class",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 51,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

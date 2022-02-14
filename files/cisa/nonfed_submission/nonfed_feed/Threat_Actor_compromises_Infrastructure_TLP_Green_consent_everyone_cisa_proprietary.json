@@ -1,0 +1,151 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--b3ace79a-fe30-4a8f-8265-37cd2f44913b",
+        "created_by_ref": "identity--62ee4fae-82f9-4b53-85e0-536c9746b563",
+        "created": "2022-03-20T20:25:17.330422Z",
+        "modified": "2022-08-18T18:29:09.204139Z",
+        "name": "fight",
+        "description": "Across son letter bill choice.",
+        "threat_actor_types": [
+            "terrorist"
+        ],
+        "first_seen": "2022-04-06T17:37:41.444271Z",
+        "last_seen": "2022-06-01T06:41:07.460472Z",
+        "roles": [
+            "malware-author"
+        ],
+        "resource_level": "contest",
+        "primary_motivation": "personal-satisfaction",
+        "personal_motivations": [
+            "personal-gain",
+            "ideology",
+            "personal-satisfaction",
+            "personal-satisfaction",
+            "unpredictable"
+        ],
+        "labels": [
+            "training",
+            "apply",
+            "conference",
+            "sport",
+            "how",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--d899e27f-0158-4841-9010-19109f3fcdad",
+        "created_by_ref": "identity--62ee4fae-82f9-4b53-85e0-536c9746b563",
+        "created": "2022-07-14T16:33:48.546173Z",
+        "modified": "2023-05-27T22:26:39.870916Z",
+        "name": "six",
+        "description": "Forward play city area fish pressure kitchen dream.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "pZqeJkmQDpYmK",
+                "phase_name": "LMLtQQpIGCRHa"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "first_seen": "2021-10-30T21:32:47.36399Z",
+        "last_seen": "2022-01-07T15:29:25.898033Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 22,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--bd461cbd-8ead-4f2d-ace7-6732a9acfe21",
+        "created_by_ref": "identity--62ee4fae-82f9-4b53-85e0-536c9746b563",
+        "created": "2020-08-21T06:44:12.388544Z",
+        "modified": "2021-08-14T01:09:25.531781Z",
+        "relationship_type": "compromises",
+        "source_ref": "threat-actor--b3ace79a-fe30-4a8f-8265-37cd2f44913b",
+        "target_ref": "infrastructure--d899e27f-0158-4841-9010-19109f3fcdad",
+        "labels": [
+            "while",
+            "cup",
+            "crime",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--62ee4fae-82f9-4b53-85e0-536c9746b563",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-24T11:29:07.996951Z",
+        "modified": "2021-08-14T01:09:25.532287Z",
+        "name": "Foster and Sons",
+        "roles": [
+            "difference",
+            "apply",
+            "through",
+            "resource",
+            "better"
+        ],
+        "identity_class": "system",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "week",
+                "description": "Remain speak side leader exist nature.",
+                "url": "http://rios-santiago.biz/",
+                "external_id": "zHDLeTlZitkSExhr"
+            },
+            {
+                "source_name": "pull",
+                "description": "Customer her artist around."
+            },
+            {
+                "source_name": "to",
+                "description": "Hair physical attorney character.",
+                "url": "https://collins.com/",
+                "hashes": {
+                    "MD5": "6cd76245976470ed97b77c3fca8b4d41",
+                    "SHA-1": "267ae7821ba625e56bc62e33180c8c98b74e3705",
+                    "SHA-256": "7750234ed6d180bc97c857e72c5ce68a0df4005d0f1bc0bc8c8ab48b7d6ad656",
+                    "SHA-512": "4c0724a3b9f73b26d4013f8923835c816dcf3540e5913c9089d6c33de77ade5ed1958bb5770708c15a3e570665cc515148320750d470a7337d342ec8530007ae",
+                    "SHA3-256": "e1180d04499eeaf25c975274c006a94c4093e933b4da8eecd2af57fad463583c",
+                    "SHA3-512": "6a8e0dd8698bc4a9fa8bacc80c18ab7c1c11636affcf6b5081d68910b2fbb10687c096cd890e384dc4da82a1a69a19076d76139542052cd00198acb2d246ff42"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

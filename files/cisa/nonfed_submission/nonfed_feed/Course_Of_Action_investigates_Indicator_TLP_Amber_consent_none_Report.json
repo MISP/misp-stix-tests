@@ -1,0 +1,206 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--e0769136-5555-49b9-84f0-e0fbc97d459d",
+        "created_by_ref": "identity--7bdca18f-d02c-4d13-b87a-7eae46a2a07f",
+        "created": "2021-06-25T21:53:06.002918Z",
+        "modified": "2021-08-14T01:08:21.417916Z",
+        "name": "amount",
+        "labels": [
+            "throw",
+            "let",
+            "pfte-batch-1"
+        ],
+        "confidence": 51,
+        "external_references": [
+            {
+                "source_name": "decide",
+                "url": "http://wells.net/",
+                "hashes": {
+                    "MD5": "8f849c54b372654135323518a559eeb2",
+                    "SHA-1": "1cc7bbe053747fb64f8d68e443b2c38ed309a09c",
+                    "SHA-256": "49cbd538a6622b45ab9db1b3c8054f670adc305b5fc4b367b7e0a9e4174f780f",
+                    "SHA-512": "24a5cbfcee278b4cdda414b07532025a975fa2d14bbb8f589772294c14e961d060262649f90d166a67d1fdb3cda40c2700ce4d7ee6c8c71f070da5e5024e1c55",
+                    "SHA3-256": "8bcfa6336740d392ca7ec254bee80ae155abb9e4a0bf13a2a8082c9575c0fe90",
+                    "SHA3-512": "4e95e1c88f5944ffe4d0db392687653116acd940e8c36d513adb8c8fd9913d313b08d25a6757d75e8c55f1ae093057b089d948d0b7fbb5bab82d76be0e2d24ff"
+                }
+            },
+            {
+                "source_name": "thank",
+                "url": "http://www.ross.com/",
+                "hashes": {
+                    "MD5": "710badcc3aa6f941d186a93fb385c01f",
+                    "SHA-1": "5669e210b5733c31decf7bbe786f1010580f9a15",
+                    "SHA-256": "8920c92aca6e5814763bdc8a89b563e62f1ba9636c2b0064c7eb80e21d976b98",
+                    "SHA-512": "7ba7afae3960f877d2f5e460224d47523f64ab69d2082e9a22c4262435fcb26a9dc2b0f39d7a2fa639bef385dfb2ef5f099887b4d0765477afb07c62fa33faca",
+                    "SHA3-256": "82e6fd94f6a49d7da254d74c67f2e5e76c65092ca60e64fac7986c1b157add46",
+                    "SHA3-512": "949460ab759ca831127ade903a588760156cd3b2d5163673e78397617ab084d3a9ee50163fe6fece465c22b850533f34dc4f1239b65e14d25de4ed328b86bb67"
+                },
+                "external_id": "mNIpDkWO"
+            },
+            {
+                "source_name": "training",
+                "description": "Difference something know own customer suggest control behavior.",
+                "hashes": {
+                    "MD5": "94c764d758ee06a887f1f4b2bb517e87",
+                    "SHA-1": "6160e69c674b4d3f9cdb801d96b89794c9739381",
+                    "SHA-256": "5f980dc33bdf61831723d014114b18f12a4290108e505fdcead25baa83390749",
+                    "SHA-512": "769fe9b9e8317eb0b6ad883483b38b248c69efbb57dedf20f60b9952ec844cedb830e0a0d734e2fbbbcf28c011efb0a854b764fb10a2ed9e000207695ec63832",
+                    "SHA3-256": "8332a1c42f5f78cab068ba7485b26834f8b5fb6049d874aa21479f0072ce0738",
+                    "SHA3-512": "d64c888ce2ffa4df34e69a4422be07ca79bd89bb4a07ff11d56f63d69c92324f423325370c0c67f3ad5dbcf480ea615cc9303d1346c8436ba708975bec5871c7"
+                },
+                "external_id": "xifaLAPbAJtiOUDNRuTo"
+            },
+            {
+                "source_name": "statement",
+                "url": "https://www.santana-mason.com/",
+                "external_id": "qwScUiE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--1b3a6cc2-33a2-4af0-b4cb-f9562b0859da",
+        "created_by_ref": "identity--7bdca18f-d02c-4d13-b87a-7eae46a2a07f",
+        "created": "2021-04-24T04:36:50.279668Z",
+        "modified": "2021-08-14T01:08:21.418148Z",
+        "name": "across",
+        "pattern": "[mac-addr:value < '36:6d:f4:e9:5e:97' AND mac-addr:value >= '38:66:8d:d3:ac:34' AND (process:pid = 56152 OR mac-addr:value <= '73:bf:8a:2b:c7:ef' OR (domain-name:defanged NOT = false))]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-01-05T04:27:03.114216Z",
+        "labels": [
+            "hotel",
+            "pfte-batch-1"
+        ],
+        "confidence": 94,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c5a0d47b-efb0-454e-a566-0351a9889ad1",
+        "created_by_ref": "identity--7bdca18f-d02c-4d13-b87a-7eae46a2a07f",
+        "created": "2022-01-26T06:45:01.074423Z",
+        "modified": "2022-05-13T17:52:13.807954Z",
+        "relationship_type": "investigates",
+        "source_ref": "course-of-action--e0769136-5555-49b9-84f0-e0fbc97d459d",
+        "target_ref": "indicator--1b3a6cc2-33a2-4af0-b4cb-f9562b0859da",
+        "start_time": "2021-09-27T08:23:31.654457Z",
+        "stop_time": "2022-03-26T05:31:05.0424Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "cell",
+                "description": "Look rule floor tell follow impact performance sign.",
+                "url": "https://www.collins.biz/",
+                "hashes": {
+                    "MD5": "41b62d3987bf69462c794ff6d1aa5c37",
+                    "SHA-1": "3db4012b8abad39b6f9c800f5b363e1c4d528694",
+                    "SHA-256": "51caf0d892aeef496eacd07703ef248e916692f0f9edc841b4be7830ebeb4177",
+                    "SHA-512": "078f0df2ea23fb8563152461a9265ab83d1f9090f633b81c6c02cc918e23a6ce2ffba6d7da80cd2bbe173db39b1ec3a2ff67653c2e84b7976712cf32d01b7910",
+                    "SHA3-256": "e63e468289324e096c34f1e3257ba5ab5e5fbce0cda89f1465b84f3987a2b39e",
+                    "SHA3-512": "d7a374c53230819d4bd6adffbfb7610d81228385f4acd915df88da11be72322420b48ed2805fc691985eedad76c4d2d595f1208f51a4f35596f10c05463bfab2"
+                },
+                "external_id": "aSdBqzDyyx"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--a245b0c8-041a-4238-bcc1-b5ddcc19ba3b",
+        "created_by_ref": "identity--7bdca18f-d02c-4d13-b87a-7eae46a2a07f",
+        "created": "2021-02-03T06:46:13.926623Z",
+        "modified": "2021-11-15T19:57:13.601888Z",
+        "name": "shoulder",
+        "report_types": [
+            "indicator",
+            "intrusion-set",
+            "threat-report",
+            "tool"
+        ],
+        "published": "2022-03-27T09:45:07.350648Z",
+        "object_refs": [
+            "course-of-action--e0769136-5555-49b9-84f0-e0fbc97d459d",
+            "indicator--1b3a6cc2-33a2-4af0-b4cb-f9562b0859da",
+            "relationship--c5a0d47b-efb0-454e-a566-0351a9889ad1"
+        ],
+        "labels": [
+            "table",
+            "idea",
+            "huge",
+            "TV",
+            "own",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "somebody",
+                "description": "Personal street same catch major member.",
+                "hashes": {
+                    "MD5": "0022fae8d0f9d4f5c203e0ef61d2defb",
+                    "SHA-1": "9bc00a996e25063d9bf7e1b991ca39d596acadf3",
+                    "SHA-256": "cd0a7bbb5dada236998db6e64eb0d097071b58f2a43f044e6cd7c9c16e28143a",
+                    "SHA-512": "3fbd78e15ad12536d76c134bedf5e5865b00c25e7d5931773d68c0a08261046d0642b510648773aeb6b87d4d4da7a44ba91c7d94fd1846f4efe0ac151c09d005",
+                    "SHA3-256": "063f430487befff86bf35c2c34a098a58348d884bb2920ae3e12c63151e0adc5",
+                    "SHA3-512": "80b8426ea30efa7da70ac4b148430d9f01e9360168f51de4a61b08ea656c09a5926daf82feba255dcdf2d0ff0dd7544f2c05a55b137d26205418186517be2882"
+                },
+                "external_id": "LiOPPxsqIhNxKDWfHtpp"
+            },
+            {
+                "source_name": "wonder",
+                "description": "Tree town kid arm dog give.",
+                "hashes": {
+                    "MD5": "28dda78cbd77b0570cd94452d99ea032",
+                    "SHA-1": "a9f28670b12add3ef882f0099ac3821e4caa6d9b",
+                    "SHA-256": "b655a3f511dc6294032576a2d161504067a05b624294af5795fbf95ceab52617",
+                    "SHA-512": "58d4e8fbbd6942ffe724d9b897005a39410c4486cb34c6c16f43acaf2edf75da3fe88b32e31810781fd3212b8e2a0520105017e5a85d70403c887c80afabfe70",
+                    "SHA3-256": "840a939c7a42562bef800a738e09cff91d2bb1ec1a103ad7284bf9c7b93c8760",
+                    "SHA3-512": "972876e91c3220f273d95cb990a77d6fda6411b9da921477e7b984b286e7a76e1b7c2b08173d8e5583f17d298421acdb909c0928e26694c0c9dc9ae33887385a"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7bdca18f-d02c-4d13-b87a-7eae46a2a07f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-11T23:48:17.756587Z",
+        "modified": "2022-04-27T06:36:58.420904Z",
+        "name": "IncreaseGardenHour",
+        "identity_class": "group",
+        "sectors": [
+            "infrastructure",
+            "energy",
+            "emergency-services"
+        ],
+        "contact_information": "68317 Key Road\nLake Annaview, MD 42489",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 28,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

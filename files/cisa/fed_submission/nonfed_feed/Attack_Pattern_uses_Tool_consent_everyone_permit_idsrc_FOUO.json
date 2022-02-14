@@ -1,0 +1,90 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--15ee5b66-9119-44fe-807c-25c4eccc7cd3",
+        "created_by_ref": "identity--eedcde15-e9ed-4b4d-847d-d4ed131660cb",
+        "created": "2022-05-28T21:39:16.656518Z",
+        "modified": "2022-08-22T08:00:48.820745Z",
+        "name": "write",
+        "description": "Full fill concern administration begin PM prepare.",
+        "aliases": [
+            "goal",
+            "compare",
+            "remember",
+            "possible",
+            "future"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--ba76682c-57b4-4794-a51d-3ae6b6087993",
+        "created_by_ref": "identity--eedcde15-e9ed-4b4d-847d-d4ed131660cb",
+        "created": "2021-02-19T21:45:25.164145Z",
+        "modified": "2021-12-05T03:43:39.699064Z",
+        "name": "first",
+        "aliases": [
+            "crime",
+            "us",
+            "decade",
+            "blood",
+            "recent"
+        ],
+        "tool_version": "maintain",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--2cb5e05c-fd50-46ad-8237-efb94b0a1407",
+        "created_by_ref": "identity--eedcde15-e9ed-4b4d-847d-d4ed131660cb",
+        "created": "2021-12-06T14:27:49.143116Z",
+        "modified": "2022-01-30T23:58:10.734013Z",
+        "relationship_type": "uses",
+        "description": "Defense manage partner ever art. Suggest kid sing relationship. Work help still our without. Down often serious accept than local matter.",
+        "source_ref": "attack-pattern--15ee5b66-9119-44fe-807c-25c4eccc7cd3",
+        "target_ref": "tool--ba76682c-57b4-4794-a51d-3ae6b6087993",
+        "stop_time": "2022-04-09T16:24:44.360906Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 82,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--eedcde15-e9ed-4b4d-847d-d4ed131660cb",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-08-25T23:20:12.594805Z",
+        "modified": "2022-08-15T13:17:39.520883Z",
+        "name": "Gomez and Sons",
+        "sectors": [
+            "retail"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

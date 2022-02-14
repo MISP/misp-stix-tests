@@ -1,0 +1,153 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--2b5a17cd-f5ce-458b-8fed-02bd0e5f5a61",
+        "created_by_ref": "identity--682b3169-64e7-4332-818f-6f1bfac87e5b",
+        "created": "2020-09-11T18:21:26.672563Z",
+        "modified": "2021-08-14T01:08:23.062356Z",
+        "name": "film",
+        "description": "Commercial me lead station no.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--2d39b43a-042c-479c-ac2a-bec50ce75b06",
+        "created_by_ref": "identity--682b3169-64e7-4332-818f-6f1bfac87e5b",
+        "created": "2020-12-13T22:14:16.408506Z",
+        "modified": "2021-08-14T01:08:23.062875Z",
+        "name": "perform",
+        "labels": [
+            "year",
+            "best",
+            "fear",
+            "unit",
+            "social",
+            "pfte-batch-1"
+        ],
+        "confidence": 72,
+        "external_references": [
+            {
+                "source_name": "us",
+                "url": "http://www.burton.com/",
+                "external_id": "mEwTCNGFWDywXUNMJgqI"
+            },
+            {
+                "source_name": "personal",
+                "description": "Effect especially individual experience drive single federal.",
+                "url": "https://www.galloway.com/",
+                "external_id": "erMwhgILwKCYjyAYmIsn"
+            },
+            {
+                "source_name": "his",
+                "description": "Daughter hard statement write.",
+                "url": "https://www.newman-thomas.com/",
+                "hashes": {
+                    "MD5": "eb8217f3cd686db86a57a8306c05a49b",
+                    "SHA-1": "beb29607b3893129e460a7ae5a445374b513d960",
+                    "SHA-256": "92dfbfda1dfc43079609817f7d4bc7fed7e392c96c62cba4552bf6be7f1775e3",
+                    "SHA-512": "d9d959a7efb389c3fc1c93b71f12d7e83e20347aee123a148d842679c94ec7293013e0ee6ba82da407ab8f4376c582ea1d751fb3531ec0fd9222ca55bdc9ca7e",
+                    "SHA3-256": "faf25fdaf7e017c8af0a49e8e019c3ed056bbea0065e5f75e716730b563b2cb2",
+                    "SHA3-512": "abf5f24913c713b13c98944fdd11b5c526d2c0d14b81e3bf086f32649f2f6d579cc4bf5348ae26272a5934cd620f7c36e1382242bf76a2550fca7ed8a8248913"
+                },
+                "external_id": "YdurnvDplpzpvrQcQcu"
+            },
+            {
+                "source_name": "capital",
+                "description": "Place how walk like lay cause position.",
+                "url": "http://www.wilson.biz/",
+                "external_id": "vhKIDngWZUsPZh"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4d5bc248-570d-4d15-a752-eb8e2ec97106",
+        "created_by_ref": "identity--682b3169-64e7-4332-818f-6f1bfac87e5b",
+        "created": "2022-06-20T17:09:09.976339Z",
+        "modified": "2022-08-18T06:25:10.488695Z",
+        "relationship_type": "mitigates",
+        "description": "Myself enjoy probably. Trip hit lose. Agree town garden board end season.",
+        "source_ref": "course-of-action--2b5a17cd-f5ce-458b-8fed-02bd0e5f5a61",
+        "target_ref": "attack-pattern--2d39b43a-042c-479c-ac2a-bec50ce75b06",
+        "start_time": "2020-09-03T16:38:22.922628Z",
+        "stop_time": "2021-07-18T14:01:42.684643Z",
+        "labels": [
+            "there",
+            "pfte-batch-1"
+        ],
+        "confidence": 19,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--ed29aa72-699d-4bdd-835d-6deb59044dfc",
+        "created_by_ref": "identity--682b3169-64e7-4332-818f-6f1bfac87e5b",
+        "created": "2020-10-12T04:29:59.141084Z",
+        "modified": "2021-08-14T01:08:23.063389Z",
+        "context": "suspicious-activity",
+        "object_refs": [
+            "course-of-action--2b5a17cd-f5ce-458b-8fed-02bd0e5f5a61",
+            "attack-pattern--2d39b43a-042c-479c-ac2a-bec50ce75b06",
+            "relationship--4d5bc248-570d-4d15-a752-eb8e2ec97106"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--682b3169-64e7-4332-818f-6f1bfac87e5b",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-06-02T03:26:27.395387Z",
+        "modified": "2023-01-26T22:52:51.203394Z",
+        "name": "Levy, Henry and Stewart",
+        "description": "Operative 6thgeneration support",
+        "sectors": [
+            "manufacturing",
+            "automotive",
+            "utilities",
+            "transportation",
+            "insurance"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 47,
+        "external_references": [
+            {
+                "source_name": "trouble",
+                "description": "Read hope despite.",
+                "url": "http://www.walker.com/",
+                "external_id": "bbildoLvbOFgY"
+            },
+            {
+                "source_name": "cost",
+                "description": "Full relate staff southern information way blue doctor."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

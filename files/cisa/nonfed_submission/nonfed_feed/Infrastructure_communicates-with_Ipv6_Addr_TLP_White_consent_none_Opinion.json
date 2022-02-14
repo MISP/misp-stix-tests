@@ -1,0 +1,161 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--2a92a905-66d7-42b4-87a2-7e5e714a5c30",
+        "created_by_ref": "identity--08b28059-69dd-4813-b7e2-8e97144c2935",
+        "created": "2021-11-11T22:46:17.327935Z",
+        "modified": "2021-11-24T13:59:51.634111Z",
+        "name": "point",
+        "description": "Benefit window future sea out.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "first_seen": "2021-08-10T16:06:14.673901Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 96,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "ipv6-addr",
+        "spec_version": "2.1",
+        "id": "ipv6-addr--e2fe98bb-00aa-4d36-9ad0-d1ab638df724",
+        "value": "7b4d:7183:f049:19d3:13e5:bec:677b:fb0d",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--257b200d-d200-46c6-bcb4-d5ce416f058f",
+        "created_by_ref": "identity--08b28059-69dd-4813-b7e2-8e97144c2935",
+        "created": "2021-12-18T07:15:07.339445Z",
+        "modified": "2022-11-10T17:25:18.257827Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--2a92a905-66d7-42b4-87a2-7e5e714a5c30",
+        "target_ref": "ipv6-addr--e2fe98bb-00aa-4d36-9ad0-d1ab638df724",
+        "labels": [
+            "base",
+            "raise",
+            "treat",
+            "ready",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "everybody",
+                "description": "Meet turn last explain.",
+                "url": "https://moore.org/",
+                "external_id": "SqxJRAvXDhBwK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--e39481e2-5d12-4976-8aab-b40007ba91e1",
+        "created_by_ref": "identity--08b28059-69dd-4813-b7e2-8e97144c2935",
+        "created": "2021-05-28T20:17:39.599112Z",
+        "modified": "2021-09-03T22:24:08.515557Z",
+        "authors": [
+            "month"
+        ],
+        "opinion": "agree",
+        "object_refs": [
+            "infrastructure--2a92a905-66d7-42b4-87a2-7e5e714a5c30",
+            "ipv6-addr--e2fe98bb-00aa-4d36-9ad0-d1ab638df724",
+            "relationship--257b200d-d200-46c6-bcb4-d5ce416f058f"
+        ],
+        "labels": [
+            "million",
+            "blue",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "issue",
+                "url": "http://www.bradford.info/",
+                "hashes": {
+                    "MD5": "c3bf6590eb991479a85522f6a61bcebe",
+                    "SHA-1": "70d7947ad04888de744ebe8e2dd007f4f8e8c9da",
+                    "SHA-256": "4a9327acba1aae4da21f115e02d3b54e75dae5991a1fea77849f02f2547e68f4",
+                    "SHA-512": "33d210622bca3942e94b760e5179a13f034f45f1b3c56beb49ec32e7deefd772a4312f00640dbf6928e5ce52e11ed7c86bccff66dda3f785c7f04bfdc1684b75",
+                    "SHA3-256": "9699a1d35ab53ce1217b28e74200de58c129529b4a395cb3b834c905e56d658a",
+                    "SHA3-512": "88627412c2437ac38b9ae44f502cc6837665e453da3b85fb1064c917bae9f2793ad008fb5e852e9df6805b365c89fd120fdf50d1e40716b55f11bf33dd040d56"
+                },
+                "external_id": "GpxPrVxQBiVN"
+            },
+            {
+                "source_name": "identify",
+                "description": "Reason environment collection sound health like.",
+                "url": "https://www.cooper.org/",
+                "hashes": {
+                    "MD5": "8cb82830a3ab1c45fe9bbf8ab73b0ee8",
+                    "SHA-1": "7f471e9ee0c23b6ba5cbcfe0b8100f6e2a6d6ad2",
+                    "SHA-256": "742a4943ea8c3e2b7f1d8c6b4e47e0d81a3702989517a12bf70b714f863c8ca0",
+                    "SHA-512": "af49e1bd1f04f99c476cb95de5a42e4de865362ec879b05f2027ea7f201be9fd0400303087c3bc31d59fb515c752d3bbd405ae06ed8b446ac935829cf6d36466",
+                    "SHA3-256": "d5e0ac94a2b8ba82f787bdce5bc353eb72053a32d337890fa5d06b9a2b0c8b7e",
+                    "SHA3-512": "713e491f8c4fdf7b37c528f127457b087c5a39f3ef7ffa18b992940101f158c1bdcd7d1b1a1edbadafd350315ebcc89e82ec9e1483e2c22b46368bf318f88c37"
+                },
+                "external_id": "XNFNTKabs"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--08b28059-69dd-4813-b7e2-8e97144c2935",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-09T21:48:52.576667Z",
+        "modified": "2023-03-01T08:41:37.4848Z",
+        "name": "NoDirectionEast",
+        "roles": [
+            "maintain",
+            "policy"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "healthcare",
+            "emergency-services",
+            "insurance",
+            "telecommunications",
+            "entertainment"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 76,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--7a26fe0f-bc70-418d-a2e0-c74bdc310b7f",
+        "created_by_ref": "identity--7740b6de-56c1-4d7b-8531-275d9544ff80",
+        "created": "2021-10-23T05:01:54.761051Z",
+        "modified": "2022-09-13T09:41:11.647681Z",
+        "name": "side",
+        "aliases": [
+            "magazine"
+        ],
+        "last_seen": "2021-05-25T14:57:50.360222Z",
+        "goals": [
+            "outside",
+            "list",
+            "western",
+            "scene"
+        ],
+        "sophistication": "expert",
+        "resource_level": "club",
+        "secondary_motivations": [
+            "notoriety",
+            "accidental",
+            "accidental",
+            "revenge",
+            "personal-gain"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--05c57b7e-8049-4dcc-86c7-51576f7c71ca",
+        "created_by_ref": "identity--7740b6de-56c1-4d7b-8531-275d9544ff80",
+        "created": "2022-04-02T12:12:08.868645Z",
+        "modified": "2022-09-15T17:01:11.177141Z",
+        "name": "hGgJAY",
+        "description": "Fundamental foreground standardization",
+        "latitude": 22.150393599034615,
+        "longitude": -108.9754933348529,
+        "city": "Farleyfurt",
+        "postal_code": "45117",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "over",
+                "description": "Level at however such her.",
+                "url": "https://gilmore-fernandez.net/",
+                "hashes": {
+                    "MD5": "42ac4d835ab6a62b426bd4b1efa16507",
+                    "SHA-1": "26b088cca90dbcfd92a77ed6644ef6818c460189",
+                    "SHA-256": "d38016f3beebecf076da7ea58da90a1ae8b85d2e0d7aad1e49b66b8a63b357fe",
+                    "SHA-512": "29ccae2d38118f223cacf5f01b138688c402cf55054e701e47bff723806edc535adfa27b33b5a68c9518d1b54b07d523dba464d5e60d7276755b75a4a25c150a",
+                    "SHA3-256": "3febd7120376067fa062dc5cc5311a6069a3391b6b992e95bac1a884487f4f1d",
+                    "SHA3-512": "fc378b877b402e23cb8bee190a26d4373c8de6da8f0fe6fb6d601be24f02b21caeb8346d05912b07944f61a5ae01d3e53e45ce1f0b835d7145216e93c7e87966"
+                },
+                "external_id": "vkqqtQGzuFjvAA"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--2597e659-66f1-47bb-9456-2266dd165acb",
+        "created_by_ref": "identity--7740b6de-56c1-4d7b-8531-275d9544ff80",
+        "created": "2021-03-02T13:46:53.747984Z",
+        "modified": "2021-08-14T01:09:28.87624Z",
+        "relationship_type": "located-at",
+        "source_ref": "threat-actor--7a26fe0f-bc70-418d-a2e0-c74bdc310b7f",
+        "target_ref": "location--05c57b7e-8049-4dcc-86c7-51576f7c71ca",
+        "start_time": "2020-12-07T15:47:16.489467Z",
+        "stop_time": "2021-06-14T01:58:41.812153Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7740b6de-56c1-4d7b-8531-275d9544ff80",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-21T06:30:17.160385Z",
+        "modified": "2022-05-19T10:25:56.245573Z",
+        "name": "ClearlyOurWeek",
+        "description": "Compatible dedicated system engine",
+        "sectors": [
+            "infrastructure",
+            "aerospace"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "production",
+                "url": "http://www.vega.biz/",
+                "external_id": "ywBNTTnHTBZqYyW"
+            },
+            {
+                "source_name": "again",
+                "url": "http://www.parker.biz/",
+                "external_id": "SmQRziAxjtDIPJAVfc"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

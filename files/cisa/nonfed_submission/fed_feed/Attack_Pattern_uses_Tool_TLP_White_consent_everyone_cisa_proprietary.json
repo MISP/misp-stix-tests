@@ -1,0 +1,181 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--e53aba38-19dd-42a3-9578-50d85fc8716e",
+        "created_by_ref": "identity--e3bc2f1f-fa22-46b0-b0b2-7b31989405b5",
+        "created": "2022-05-10T07:49:25.726145Z",
+        "modified": "2022-05-31T09:08:05.836417Z",
+        "name": "president",
+        "description": "Police ten administration decision watch letter.",
+        "labels": [
+            "back",
+            "dream",
+            "pfte-batch-1"
+        ],
+        "confidence": 50,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d5af8c1e-6584-4cc0-a023-75af0383d8d4"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--c3b8dd5c-1cef-433a-a0c7-379acc0674fa",
+        "created_by_ref": "identity--e3bc2f1f-fa22-46b0-b0b2-7b31989405b5",
+        "created": "2022-03-09T01:11:26.172171Z",
+        "modified": "2023-01-16T03:48:23.669781Z",
+        "name": "production",
+        "aliases": [
+            "carry",
+            "until",
+            "dinner"
+        ],
+        "tool_version": "offer",
+        "labels": [
+            "nothing",
+            "garden",
+            "pfte-batch-1"
+        ],
+        "confidence": 27,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "beat",
+                "url": "https://www.brown.com/",
+                "external_id": "fBwpFyOgiZGyZqFpF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d5af8c1e-6584-4cc0-a023-75af0383d8d4"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--16287aba-64e6-41b8-a5e4-0f54c298b135",
+        "created_by_ref": "identity--e3bc2f1f-fa22-46b0-b0b2-7b31989405b5",
+        "created": "2021-04-27T13:23:12.699532Z",
+        "modified": "2021-09-20T06:02:47.491088Z",
+        "relationship_type": "uses",
+        "description": "Agree travel will street later center plan wrong. Political about structure mission sea. Position true capital everyone.",
+        "source_ref": "attack-pattern--e53aba38-19dd-42a3-9578-50d85fc8716e",
+        "target_ref": "tool--c3b8dd5c-1cef-433a-a0c7-379acc0674fa",
+        "stop_time": "2022-07-05T14:03:54.71765Z",
+        "labels": [
+            "ever",
+            "floor",
+            "action",
+            "interview",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d5af8c1e-6584-4cc0-a023-75af0383d8d4"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d5af8c1e-6584-4cc0-a023-75af0383d8d4",
+        "created_by_ref": "identity--e3bc2f1f-fa22-46b0-b0b2-7b31989405b5",
+        "created": "2021-08-14T01:08:12.524889Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f217105b-ccd2-4cb0-893a-c1314d7d2d64",
+                "name": "Strategy land response sport over",
+                "create_date_time": "2021-08-14T01:08:08.422773Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.422466Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e3bc2f1f-fa22-46b0-b0b2-7b31989405b5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-13T05:29:36.718762Z",
+        "modified": "2022-07-20T20:46:29.279389Z",
+        "name": "Torres-Barnes",
+        "roles": [
+            "kid",
+            "argue"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "commercial",
+            "retail",
+            "commercial",
+            "government-regional"
+        ],
+        "contact_information": "3903 Martinez Tunnel\nStephenburgh, GA 98243",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--d5af8c1e-6584-4cc0-a023-75af0383d8d4"
+        ]
+    }
+]

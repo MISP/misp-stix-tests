@@ -1,0 +1,216 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--624cf50e-f1c8-49ae-b7a1-b22742804355",
+        "created_by_ref": "identity--4d2886e6-2937-4fce-bf28-e670ccc04ab5",
+        "created": "2022-05-16T10:45:35.39988Z",
+        "modified": "2022-08-22T03:26:54.932809Z",
+        "name": "subject",
+        "aliases": [
+            "hospital",
+            "song",
+            "during"
+        ],
+        "resource_level": "contest",
+        "primary_motivation": "revenge",
+        "secondary_motivations": [
+            "notoriety",
+            "ideology",
+            "revenge",
+            "revenge"
+        ],
+        "labels": [
+            "the",
+            "pfte-batch-1"
+        ],
+        "confidence": 55,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a91540e2-cd6f-428d-b156-30c2bb778c86"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--afe6b57a-21f3-4f15-a183-b095dbe566f0",
+        "created_by_ref": "identity--4d2886e6-2937-4fce-bf28-e670ccc04ab5",
+        "created": "2021-07-18T04:41:41.800894Z",
+        "modified": "2022-04-19T03:09:30.206214Z",
+        "name": "national",
+        "description": "Test forget should since.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "ameKjboSzk",
+                "phase_name": "kCenwFLkrPAjjiG"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "cgjQozOoM",
+                "phase_name": "MPEMcRoPKGeFxTDLi"
+            },
+            {
+                "kill_chain_name": "gJXVHnNqnSCDOOGoI",
+                "phase_name": "zCdzyTr"
+            }
+        ],
+        "last_seen": "2021-09-05T09:35:41.730426Z",
+        "labels": [
+            "trouble",
+            "better",
+            "want",
+            "field",
+            "pfte-batch-1"
+        ],
+        "confidence": 22,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a91540e2-cd6f-428d-b156-30c2bb778c86"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--72f16507-9978-431c-b82d-6d83f6378230",
+        "created_by_ref": "identity--4d2886e6-2937-4fce-bf28-e670ccc04ab5",
+        "created": "2022-03-30T10:22:22.515975Z",
+        "modified": "2023-02-19T15:56:16.738086Z",
+        "relationship_type": "uses",
+        "description": "Year lay within interest because. Find defense next group land short.",
+        "source_ref": "intrusion-set--624cf50e-f1c8-49ae-b7a1-b22742804355",
+        "target_ref": "infrastructure--afe6b57a-21f3-4f15-a183-b095dbe566f0",
+        "labels": [
+            "mind",
+            "sign",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a91540e2-cd6f-428d-b156-30c2bb778c86"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--a91540e2-cd6f-428d-b156-30c2bb778c86",
+        "created_by_ref": "identity--4d2886e6-2937-4fce-bf28-e670ccc04ab5",
+        "created": "2021-08-14T01:08:58.273384Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3d6ad3e0-0112-4a6d-8546-447c0e169799",
+                "name": "Space side determine future",
+                "create_date_time": "2021-08-14T01:08:08.419249Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4d2886e6-2937-4fce-bf28-e670ccc04ab5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-30T06:58:39.742063Z",
+        "modified": "2021-08-14T01:08:58.275249Z",
+        "name": "EarlyManProperty",
+        "roles": [
+            "while",
+            "face",
+            "energy",
+            "want",
+            "example"
+        ],
+        "identity_class": "organization",
+        "contact_information": "71037 Cassandra Islands\nLake Donaldfort, CT 68519",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 49,
+        "external_references": [
+            {
+                "source_name": "certainly",
+                "description": "Eye because tree involve expert.",
+                "url": "http://campbell-barnes.com/",
+                "hashes": {
+                    "MD5": "62dc737f11783bfe9a19bb62e377b2c7",
+                    "SHA-1": "16bc2386e99442d724d69650b5865065aa7e9a81",
+                    "SHA-256": "217bae67652f7404e19cfce7a48e13f96fb79e08318f5df52fc4bb6298aaa038",
+                    "SHA-512": "06a37324037629e08ee3fef288fac48edcf432b7f07a036264d5869e5903cad45b4ba77b6a5012b32c55daa7c28593a6d5008a303fe0e3bc51f99cc56e889fe7",
+                    "SHA3-256": "e0209869160f831d778678638c5473ef97fbf60b140071b2686fdc4ce5078301",
+                    "SHA3-512": "3cdb41ead70d58fa212c2f7798f160f6929e8e3afb822eb90fed6ac062b64e6b50d7bb2227af53658e56cc7b36ee27665bf6b0879ef75ab2b81ac01822e9cef8"
+                },
+                "external_id": "pnpyvRCNg"
+            },
+            {
+                "source_name": "begin",
+                "url": "http://hall-hill.com/",
+                "hashes": {
+                    "MD5": "3a7784dd6a94c96a3d6c44eb4fdbf7e6",
+                    "SHA-1": "2957848fbe081168196ea58481f9713fd0ec79a8",
+                    "SHA-256": "44171b0af2a76ace21367c519de737029b34d35b0d772b2916a49ab799835bd3",
+                    "SHA-512": "5ae913bad4f4a9aa438390d99479bc69e94053523ae075dcecf99d9f385a7ff3278a8407113dca7aa28fe1b51f3b0c300e349ebb6c238cab9984f98f8be414ea",
+                    "SHA3-256": "b56e9f4d8e21288d89d8540a583190b65cf7743bc0c76e62f28c4f7f124d754f",
+                    "SHA3-512": "5706c78a6b72bddc576b1e5a4a3d7556b87c798a0ed9713d66912c16e21f1ff38789331770b72fe3eceb33d93728372b82db3182f2cdb0c79887b544cea21cbd"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a91540e2-cd6f-428d-b156-30c2bb778c86"
+        ]
+    }
+]

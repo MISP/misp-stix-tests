@@ -1,0 +1,101 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--23a38752-bdb9-468e-aa0c-e1bf024afb35",
+        "created_by_ref": "identity--eea27965-9818-4ae5-97ac-b20909e71cea",
+        "created": "2021-01-13T17:29:15.266651Z",
+        "modified": "2021-08-14T01:08:22.192195Z",
+        "name": "understand",
+        "labels": [
+            "believe",
+            "establish",
+            "tonight",
+            "administration",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--0f26a3fb-8d29-46db-ae6b-09ce6d2a1a12",
+        "created_by_ref": "identity--eea27965-9818-4ae5-97ac-b20909e71cea",
+        "created": "2021-09-15T12:30:40.504025Z",
+        "modified": "2022-06-24T15:53:54.990271Z",
+        "name": "boy",
+        "pattern": "([mutex:defanged = false] OR [process:pid < 27331] OR ((([mac-addr:defanged = false] AND ([software:name <= 'ttlnvVLIXEXlqtzyGvz']))))) FOLLOWEDBY [domain-name:value < 'jackson-johns.org']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-09-17T17:05:59.993378Z",
+        "valid_until": "2020-12-07T00:20:46.165361Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "WFmyUzhkucd",
+                "phase_name": "ikplvCQrUWGxta"
+            },
+            {
+                "kill_chain_name": "AAOmKjQPF",
+                "phase_name": "RLzdcyutUAIgY"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 68,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f758da2b-cba7-4c4d-9d69-38db2f1cafc6",
+        "created_by_ref": "identity--eea27965-9818-4ae5-97ac-b20909e71cea",
+        "created": "2022-01-25T14:44:28.863226Z",
+        "modified": "2022-08-22T08:54:58.197245Z",
+        "relationship_type": "investigates",
+        "description": "Maybe fact stand collection. Phone accept always simple special make. Your personal letter sound probably sound manage.",
+        "source_ref": "course-of-action--23a38752-bdb9-468e-aa0c-e1bf024afb35",
+        "target_ref": "indicator--0f26a3fb-8d29-46db-ae6b-09ce6d2a1a12",
+        "start_time": "2022-07-07T11:46:19.762488Z",
+        "stop_time": "2022-12-24T11:23:11.392012Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 60,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--eea27965-9818-4ae5-97ac-b20909e71cea",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-01-13T02:50:04.374473Z",
+        "modified": "2022-10-08T09:44:26.626707Z",
+        "name": "PlanAvoidImagine",
+        "description": "Cross-group incremental secured line",
+        "roles": [
+            "thing",
+            "similar",
+            "read",
+            "let",
+            "we"
+        ],
+        "sectors": [
+            "healthcare"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

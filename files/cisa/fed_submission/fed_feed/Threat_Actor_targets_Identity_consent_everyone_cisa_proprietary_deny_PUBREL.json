@@ -1,0 +1,209 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--e605968a-da4b-4ad4-ac21-60406035df14",
+        "created_by_ref": "identity--90701e5d-c13f-4b09-bb28-a8011a19d2ba",
+        "created": "2021-10-04T09:33:28.515126Z",
+        "modified": "2021-12-21T01:32:47.201005Z",
+        "name": "key",
+        "first_seen": "2021-08-03T04:20:23.786915Z",
+        "last_seen": "2022-04-22T22:49:22.387547Z",
+        "roles": [
+            "malware-author",
+            "independent"
+        ],
+        "goals": [
+            "buy",
+            "technology",
+            "population"
+        ],
+        "sophistication": "expert",
+        "personal_motivations": [
+            "revenge",
+            "accidental",
+            "dominance"
+        ],
+        "labels": [
+            "check",
+            "stop",
+            "effect",
+            "sport",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--23294c16-210a-40dc-a09b-e83d21429549"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--17d928f9-ee15-4ac8-90d8-2d75101b6209",
+        "created_by_ref": "identity--90701e5d-c13f-4b09-bb28-a8011a19d2ba",
+        "created": "2020-12-07T07:09:50.221881Z",
+        "modified": "2021-08-14T01:09:30.359871Z",
+        "name": "Strickland PLC",
+        "description": "Automated 3rdgeneration focus group",
+        "roles": [
+            "particularly"
+        ],
+        "sectors": [
+            "transportation",
+            "aerospace"
+        ],
+        "contact_information": "4675 Wilson Ville Suite 711\nRickyton, VT 09859",
+        "external_references": [
+            {
+                "source_name": "by",
+                "description": "Bar sort not establish can either career.",
+                "url": "http://www.ball-woods.info/",
+                "hashes": {
+                    "MD5": "e21c4629f1f1f49b72ab5f89738695e5",
+                    "SHA-1": "d2ff554d517f2c27ef4679a8cc3c496ebba1bcbf",
+                    "SHA-256": "aaedfaf8875a8a1b5ee8abd56e379b4335de46d3e1cc421abcedc5da2c01beb9",
+                    "SHA-512": "8fb22cc1d8d5b480219ce63e5b05910a1b89a1af76911da7c87b9904a44a6a632593adcb544a156356c8b29b40fb855481fa79377e644869b004a6ad189113b5",
+                    "SHA3-256": "51efdcb027a541dab09536c70656bd1b8258754014b383eddf00f3b93a80e097",
+                    "SHA3-512": "18f85672336983528d6dee66fb8e353284e4ef48758538688e6d7184e23f4808edc5b10a5ab503cdfd8e5d9f005f1e30453edfe4acd5f3774d88422d9a752467"
+                },
+                "external_id": "ajQUvUoriZYZNkE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--23294c16-210a-40dc-a09b-e83d21429549"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e1ce547b-bc31-435c-9f15-48de3c8683c8",
+        "created_by_ref": "identity--90701e5d-c13f-4b09-bb28-a8011a19d2ba",
+        "created": "2022-04-06T03:07:59.664657Z",
+        "modified": "2022-08-21T04:47:17.76234Z",
+        "relationship_type": "targets",
+        "source_ref": "threat-actor--e605968a-da4b-4ad4-ac21-60406035df14",
+        "target_ref": "identity--17d928f9-ee15-4ac8-90d8-2d75101b6209",
+        "start_time": "2021-07-12T15:10:37.181754Z",
+        "stop_time": "2022-06-14T00:42:22.456789Z",
+        "confidence": 7,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "black",
+                "url": "https://knight.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--23294c16-210a-40dc-a09b-e83d21429549"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--90701e5d-c13f-4b09-bb28-a8011a19d2ba",
+        "created_by_ref": "identity--90701e5d-c13f-4b09-bb28-a8011a19d2ba",
+        "created": "2020-11-02T04:50:26.410743Z",
+        "modified": "2021-08-23T15:54:10.509677Z",
+        "name": "Robinson, Bishop and Warner",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "father",
+                "url": "http://www.powell.net/",
+                "hashes": {
+                    "MD5": "e1602c3ce112a65f4db22aef6e13c4d8",
+                    "SHA-1": "e77fc6a8d13c91fab90014528b5825f26a43236d",
+                    "SHA-256": "415c46666ee5cf14a9f0ab07a3a87a2539338aca027f7d6ffe3dfa17410c2b0e",
+                    "SHA-512": "a5e69a5a1d50fc33bfb10304aadfa98fe0a1fa72c283d230c761ca605c6987029b3e69e18e17e5c701aaf88cd68f744180b45836f9fc68443d894bb7ab91383a",
+                    "SHA3-256": "c9ac2882eaec6626921c1d5e15b8ceff33c211241b4e5cf8c7ec3088cc47134d",
+                    "SHA3-512": "d1cc69b5dfacbad1823a34a7feaf0b03acc01e142e521a246ff2bc904904b6cd76f9170539238cdb67ab1415357286b2fdc816dd09434ae27875ba63f2d5da32"
+                },
+                "external_id": "KKsREHnmYN"
+            },
+            {
+                "source_name": "also",
+                "description": "Suddenly nice yet everything wide enough.",
+                "url": "http://grant.com/"
+            },
+            {
+                "source_name": "product",
+                "description": "Than feeling company.",
+                "url": "https://holland.info/"
+            },
+            {
+                "source_name": "another",
+                "url": "http://wilson-hart.com/",
+                "external_id": "mNOAEZ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--23294c16-210a-40dc-a09b-e83d21429549"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--23294c16-210a-40dc-a09b-e83d21429549",
+        "created": "2021-08-14T01:09:30.358683Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7114ed24-0991-4631-bb44-7704e6b690d1",
+                "name": "Traditional contain thing officer story",
+                "create_date_time": "2021-08-14T01:08:08.432511Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.432344Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

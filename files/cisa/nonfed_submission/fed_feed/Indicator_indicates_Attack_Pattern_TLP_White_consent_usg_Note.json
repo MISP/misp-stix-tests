@@ -1,0 +1,289 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--da9393f7-f824-4668-8b97-68876d0035c6",
+        "created_by_ref": "identity--96418fde-2359-4088-8532-f4b02c8e7910",
+        "created": "2022-03-10T16:52:56.449852Z",
+        "modified": "2022-08-06T10:18:08.122671Z",
+        "description": "From tend hope miss push nearly program when.",
+        "indicator_types": [
+            "unknown",
+            "benign",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "([((user-account:display_name <= 'David Graham') AND user-account:can_escalate_privs NOT = true) OR x509-certificate:subject_public_key_algorithm >= 'yourself'] OR [email-addr:defanged NOT = false OR (network-traffic:protocols[0] >= 'ipv4')]) REPEATS 2 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-04-01T11:50:42.088614Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "GiOtwbirwgOF",
+                "phase_name": "ObaBEK"
+            }
+        ],
+        "confidence": 39,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "over",
+                "url": "https://campos.com/",
+                "hashes": {
+                    "MD5": "d3f132f792f92c7a679529b478010b10",
+                    "SHA-1": "06d3589f04ab91b62f9b03e75307a03573678208",
+                    "SHA-256": "5694981cc84e45aca646bdaa2d214989bde6d10370b1c70e497a30ad27817f78",
+                    "SHA-512": "b6636befed6911ce5a798528b888ee9ffdcfc4dec87157fe4cf96e0ae5d9a772d752e4b999a9cdf25df964556f8ce4d33729c556474425508d98fc2dc5582655",
+                    "SHA3-256": "d58b6d50564864b6a138536af5beef410584e588c46e77ab1f716951a738f2bc",
+                    "SHA3-512": "8c2993e66afa2062c642d6d54aa412c51a63c3995dea98c02212f93f164a01a7e116f5144cbe6efca7f28ba64dcf6c5383ad7fa89c232a81040a4abb6ba28417"
+                },
+                "external_id": "rZCOdCTQt"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--12362cd2-e10a-44a0-be66-e544af94563f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--eec8a11b-e7a8-47d7-96c1-2d150f9ad489",
+        "created_by_ref": "identity--96418fde-2359-4088-8532-f4b02c8e7910",
+        "created": "2022-07-20T10:29:16.177995Z",
+        "modified": "2022-12-19T14:16:01.474597Z",
+        "name": "time",
+        "description": "Race sell discussion win employee.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "VbFBfAMTLEybq",
+                "phase_name": "gLYrWcB"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "confidence": 98,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "white",
+                "url": "https://www.kramer-decker.com/",
+                "external_id": "jTExYHeCaEtDWxxDnE"
+            },
+            {
+                "source_name": "director",
+                "url": "http://www.hawkins.com/",
+                "external_id": "zMiLaGyiAVkCPUxCT"
+            },
+            {
+                "source_name": "marriage",
+                "description": "Discussion even turn current eat necessary sing."
+            },
+            {
+                "source_name": "who",
+                "external_id": "dNolZoNWnkErkToRmSwS"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--12362cd2-e10a-44a0-be66-e544af94563f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--9f1f345d-1db6-406c-a4f6-3da42aa5fa6e",
+        "created_by_ref": "identity--96418fde-2359-4088-8532-f4b02c8e7910",
+        "created": "2021-06-02T23:37:43.487302Z",
+        "modified": "2021-11-06T18:41:32.792831Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--da9393f7-f824-4668-8b97-68876d0035c6",
+        "target_ref": "attack-pattern--eec8a11b-e7a8-47d7-96c1-2d150f9ad489",
+        "start_time": "2020-11-13T19:38:47.923436Z",
+        "confidence": 73,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "believe",
+                "description": "Member phone into."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--12362cd2-e10a-44a0-be66-e544af94563f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--05980e64-b052-4a25-9948-6d9cd0940185",
+        "created_by_ref": "identity--96418fde-2359-4088-8532-f4b02c8e7910",
+        "created": "2021-02-21T23:33:28.604718Z",
+        "modified": "2021-08-19T18:04:45.004001Z",
+        "abstract": "Begin purpose film involve hospital. Plant employee turn instead drive network itself. Quite fund worker prevent wish notice those.",
+        "content": "Politics beyond six. Standard much former politics wife.",
+        "authors": [
+            "leg"
+        ],
+        "object_refs": [
+            "indicator--da9393f7-f824-4668-8b97-68876d0035c6",
+            "attack-pattern--eec8a11b-e7a8-47d7-96c1-2d150f9ad489",
+            "relationship--9f1f345d-1db6-406c-a4f6-3da42aa5fa6e"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "rule",
+                "url": "https://monroe.com/",
+                "external_id": "jQzjdttmDUQlePiBY"
+            },
+            {
+                "source_name": "democratic",
+                "description": "Keep sometimes respond follow bit very after around.",
+                "url": "https://gibbs.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--12362cd2-e10a-44a0-be66-e544af94563f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--12362cd2-e10a-44a0-be66-e544af94563f",
+        "created_by_ref": "identity--96418fde-2359-4088-8532-f4b02c8e7910",
+        "created": "2021-08-14T01:08:27.4552Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--96418fde-2359-4088-8532-f4b02c8e7910",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-31T01:55:14.579761Z",
+        "modified": "2023-01-07T04:07:33.22765Z",
+        "name": "Hutchinson-Wilson",
+        "description": "Distributed tangible protocol",
+        "roles": [
+            "hospital"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 74,
+        "external_references": [
+            {
+                "source_name": "describe",
+                "url": "https://www.scott.org/"
+            },
+            {
+                "source_name": "and",
+                "description": "Why result fine wonder stage soon.",
+                "hashes": {
+                    "MD5": "4f4703af4cdc89a30b51cc2fd5edb1e0",
+                    "SHA-1": "4752e6fa62dddd5842a92ca8ccf1dc5e7c7b159c",
+                    "SHA-256": "bf2a3c6daf922f2f1fba9efc5d71105347481f12fffe02979a2bf8a6aa8a5841",
+                    "SHA-512": "f3bfa60267cb2d5d94bd2467c580e565d1ecf7b649a5386dce23628b0053b9373cee7ac111e815e11cdb9e80a9943bc503cbc36e94727fa61751d40229ffa52e",
+                    "SHA3-256": "3397d0eeaf9d256a7e6f5fea6d0b263af54da6623b1b68dcb36790a8f8aa95cf",
+                    "SHA3-512": "f94c22c8321e81c5554423bd98869a2a128e21221ef3c0b126c992ed740598c5b94473b31ac52f5047e34ad58ec9853b7949a41f56f4c1780cddcdac603a463c"
+                }
+            },
+            {
+                "source_name": "return",
+                "description": "Support from someone worker.",
+                "hashes": {
+                    "MD5": "c08478e3e96278faa878dbefa10b86a4",
+                    "SHA-1": "7d79c1ce3803f161e65a07a70bdb41a0f495a3ea",
+                    "SHA-256": "f0e9825abde81c30448096bd0fbd79aca54a595f698b1d0a070c30419ce32a1a",
+                    "SHA-512": "3183600068639866da6dd2b036e33853bebc99b0ed4e77b2c0c1c3d8eb490f96d2bc37e63472ed1fe38b21c443078da0b77c73a4087b851f22ab5ed7357db10e",
+                    "SHA3-256": "504caac2c9d35d91107dc0775993abca6f8df8391178af92c392066b909a1c78",
+                    "SHA3-512": "f69ddf4bd09cc6f5d10f7db4b944317ab00e9a51df2e4f4c07ef09714c55642be0477f8d193860006c4708ff68bc045aa5302cb60e79cd8239ae4e6368ef9d61"
+                }
+            },
+            {
+                "source_name": "speech",
+                "description": "Check case force arrive last goal medical.",
+                "url": "https://guerra-weaver.com/",
+                "hashes": {
+                    "MD5": "d8d7ceda81dd03f4fdd035653002be65",
+                    "SHA-1": "db931242dc60c142dada31e6bdf94694e833ed99",
+                    "SHA-256": "bc70f705d47aa55bb7a1317ca5f7fc8453fa06b30bb8a7dea66cd8d3afcbfd46",
+                    "SHA-512": "c636621f863a7b087b5b679855ad382c8dfeb26742cae10ce27cf866653adfd8bee207356c1f40dc94540755923ea18f11f834c876cbd0d8e220cf35175c77cc",
+                    "SHA3-256": "f4940577a5a40b1d11cb6daf73ae439685164c8c889339f257e9ecd9094197e5",
+                    "SHA3-512": "e87b924c4ab6a2c2284451318af53409df6de6c1d0fb0b9782b70fe23d4b0cd296826b7abaa7aff4d114a0fc2b73f8a7d62788c78f0b269096cbdf9657059b43"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--12362cd2-e10a-44a0-be66-e544af94563f"
+        ]
+    }
+]

@@ -1,0 +1,170 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--bc8a1771-70ae-4e5a-827b-8ef456859298",
+        "created_by_ref": "identity--6715ea9d-0b04-4ad9-aab1-fff7ba425bca",
+        "created": "2021-11-13T20:36:16.412795Z",
+        "modified": "2022-06-27T16:45:25.906753Z",
+        "name": "good",
+        "description": "Know listen decision charge program stay rule last.",
+        "threat_actor_types": [
+            "sensationalist"
+        ],
+        "aliases": [
+            "step",
+            "next",
+            "suggest",
+            "every"
+        ],
+        "first_seen": "2022-06-21T01:07:12.971377Z",
+        "sophistication": "strategic",
+        "resource_level": "government",
+        "primary_motivation": "ideology",
+        "personal_motivations": [
+            "ideology"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--3787238e-83aa-47d5-b6be-bb7fe370f991",
+        "created_by_ref": "identity--6715ea9d-0b04-4ad9-aab1-fff7ba425bca",
+        "created": "2021-10-14T17:59:40.713056Z",
+        "modified": "2022-02-14T11:53:06.795055Z",
+        "name": "magazine",
+        "aliases": [
+            "the"
+        ],
+        "tool_version": "north",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 100,
+        "external_references": [
+            {
+                "source_name": "it",
+                "url": "https://miller.com/"
+            },
+            {
+                "source_name": "describe",
+                "description": "Agency then important attack wide scene go.",
+                "hashes": {
+                    "MD5": "c0e8383268ee165a89cad9dbf4b2594a",
+                    "SHA-1": "163a93fc81e10bdf4a5a38c9e393a53ec1d4393a",
+                    "SHA-256": "c1ab9f73256ca8bdf66c742b93538bbfac33f712761e5a265f1107db412f6de0",
+                    "SHA-512": "594eb4c0372284328ce7cfd9c1e115de94681dda06090c359f5f89fc6d269c947edc8399b108c9e9caa1d3005e2c363c3a3a68b3665e5f89e09fabff8ad5a22c",
+                    "SHA3-256": "628fb64e26749b31b3bc9fd1bf603f9daa9211b78b26a97ebb0c16736f811ae5",
+                    "SHA3-512": "b2eb5325e1ed7c4a62bfa51c1d7d1cd2fa04de2393f839bf60aa43129349054597739b26fc395e470c67b6c40c1a3dc0e7464fcd8a03a2bd750da155889d87c7"
+                }
+            },
+            {
+                "source_name": "edge",
+                "description": "Today expert space week professor book site.",
+                "url": "https://www.shelton.com/",
+                "external_id": "dEKSOicN"
+            },
+            {
+                "source_name": "only",
+                "description": "Should see weight believe boy.",
+                "hashes": {
+                    "MD5": "e602f99a64d8682aa3e2a9b6a1556d53",
+                    "SHA-1": "94d245edd466e425ca21c6e73e2d5c55ccc4a781",
+                    "SHA-256": "a9975fda954db825e0f1430eea933f2508b2cfccf706a0490156f12ea095b548",
+                    "SHA-512": "1b6139dbe401a6a2c10fac68aa43f44d1fd041315e158a2d669e68ad6f778ace9eb5686dac062c4b08c6154a36a979fb7099c0e520e5f3f8981c17b3f795dd10",
+                    "SHA3-256": "61f25350c2b4cae7c09be2f4a15a616e64cdf33b857e561599cb87499e52b1b0",
+                    "SHA3-512": "6b2ee40d0362a2d70400d9af76838da68ce0210aff43b068f6237026baeed0f5581293cf5092dd66e758732dcd1022076002fefd15ff244cc54719e10cd0aa83"
+                },
+                "external_id": "WoAaGRYWiccxWC"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--0f28c15c-df85-4452-b3f5-2efae17dae77",
+        "created_by_ref": "identity--6715ea9d-0b04-4ad9-aab1-fff7ba425bca",
+        "created": "2021-08-29T14:20:13.700686Z",
+        "modified": "2022-05-02T02:18:48.654473Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--bc8a1771-70ae-4e5a-827b-8ef456859298",
+        "target_ref": "tool--3787238e-83aa-47d5-b6be-bb7fe370f991",
+        "start_time": "2021-04-19T01:47:56.965545Z",
+        "stop_time": "2022-04-03T11:32:10.741076Z",
+        "labels": [
+            "you",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6715ea9d-0b04-4ad9-aab1-fff7ba425bca",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-04-13T01:56:33.391418Z",
+        "modified": "2023-03-26T17:59:31.164184Z",
+        "name": "Owens Ltd",
+        "description": "Quality-focused human-resource neural-net",
+        "contact_information": "70945 Smith Fall\nLake Stephen, CO 21740",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "money",
+                "url": "https://www.williamson-ferguson.info/",
+                "hashes": {
+                    "MD5": "7c782879d1700013599ca7a3c24bf131",
+                    "SHA-1": "cb60a05c47a398ee671062f4fa11d8144d62a7d5",
+                    "SHA-256": "f807da05ff3fe3681ee9fb3d63a2557e9e14f2d53323a8384fb6247279bbc753",
+                    "SHA-512": "be1a8e79ec5fd0f97ae815f1cffcc28f12544efc9c7c7171f4ef74bc8ea8a93609ad91995f672d172f3b1740f64b570556921a4e948ab8ca76fefbdd43eaf6e1",
+                    "SHA3-256": "6b84a6745170324f5a81431c994112703530090de47bad22f78c6d0024321219",
+                    "SHA3-512": "c31c06ace7e68665111f7a75705009600603998fdf3c70c13bae7ea4d0b205a20928bfcc3d64ca6837cbfbc4354663aeddb14b5707113c4df62f5fe67fdba462"
+                },
+                "external_id": "CbexncJYFLR"
+            },
+            {
+                "source_name": "side",
+                "description": "Laugh career couple economic.",
+                "hashes": {
+                    "MD5": "6ee2e7514060312f2adf8fb6708e8474",
+                    "SHA-1": "e02557e696f27230e02a838a699e77d79d0c308c",
+                    "SHA-256": "904d376a69c848ac2dbbff80367f8eb635743111b485004c7c0a6df090016f75",
+                    "SHA-512": "e2b4f33570b1aaf9d8cbc1db24e98f3a96799427bd39fd7d23fb2beb7f2338efc36a66cbe37211337f5e4093c630816c799a444e592e5b5ac9a05b8ba712c6ce",
+                    "SHA3-256": "a24b1610b0cbd5f6a488436fc43fa8fbd902ceab49212cd3cba1ee317be75277",
+                    "SHA3-512": "f828bc53e6452448f49c59f4d89bef5bd4d6797d064a9e0e2712aa96881857cb890c30bd19d69323f10dfe31ae34ce065e17bd5352ef2c3d2a50451b24f5de49"
+                },
+                "external_id": "MhXfZp"
+            },
+            {
+                "source_name": "type",
+                "hashes": {
+                    "MD5": "1980da3be7c67cbd36bfaea6deedbd4c",
+                    "SHA-1": "846c233e4826ddb0a2e00227b3ce790c08b8e811",
+                    "SHA-256": "e5e6063b78c9326deb10b60c35f2091d98859406f0d33d3e9f1523c653acee92",
+                    "SHA-512": "ddfbd22360702518e42cd058e285d42d8b4580ca1625fe30722fec3741f41b02b0629cdfc95e4337664b947621cbc1b0de0112de6da8804252447887ba0ec60b",
+                    "SHA3-256": "17bd1c748b78885514f75eed7287ca4446303ddf01d30e993590d8dce87715ba",
+                    "SHA3-512": "053e884460dc8aac9614c7cedc12f54acdcd30febfa796c35bddb430614049ab929bae3a1bb9038389689c28983998781d93d26b835ab60a2def6ca30c8fe2a0"
+                },
+                "external_id": "kqgqYRgNDwsQxohVQTm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

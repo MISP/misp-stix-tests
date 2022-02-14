@@ -1,0 +1,157 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--12eff95a-313f-4d3b-83f0-616aa28b689e",
+        "created_by_ref": "identity--e7f10425-19a3-4a0e-a6ed-62a32652c485",
+        "created": "2022-05-23T19:48:27.87563Z",
+        "modified": "2022-06-07T18:19:26.237733Z",
+        "name": "wall",
+        "description": "Focus one follow knowledge fact spend resource.",
+        "threat_actor_types": [
+            "activist",
+            "activist",
+            "insider-disgruntled",
+            "crime-syndicate"
+        ],
+        "first_seen": "2020-08-16T19:10:28.831675Z",
+        "last_seen": "2021-08-01T03:15:30.416165Z",
+        "primary_motivation": "accidental",
+        "labels": [
+            "nice",
+            "stay",
+            "amount",
+            "reach",
+            "pfte-batch-1"
+        ],
+        "confidence": 22,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ede1b717-fa96-49b9-911c-e1363d8a9282"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--5c4c3ff9-e320-4a18-858a-b0759203f8e9",
+        "created_by_ref": "identity--e7f10425-19a3-4a0e-a6ed-62a32652c485",
+        "created": "2020-12-10T11:32:27.653037Z",
+        "modified": "2021-08-14T01:09:26.041724Z",
+        "name": "never",
+        "infrastructure_types": [
+            "hosting-malware",
+            "hosting-malware",
+            "hosting-target-lists",
+            "amplification"
+        ],
+        "aliases": [
+            "probably",
+            "explain",
+            "machine"
+        ],
+        "first_seen": "2021-07-11T11:08:25.217336Z",
+        "last_seen": "2022-01-20T16:06:27.872584Z",
+        "labels": [
+            "around",
+            "leg",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--ede1b717-fa96-49b9-911c-e1363d8a9282"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--768ce775-0303-4fba-b75f-b62d57acb6ef",
+        "created_by_ref": "identity--e7f10425-19a3-4a0e-a6ed-62a32652c485",
+        "created": "2021-05-03T04:04:17.745202Z",
+        "modified": "2021-12-16T12:43:29.749385Z",
+        "relationship_type": "compromises",
+        "description": "Executive technology day. Sense few she girl parent go step.",
+        "source_ref": "threat-actor--12eff95a-313f-4d3b-83f0-616aa28b689e",
+        "target_ref": "infrastructure--5c4c3ff9-e320-4a18-858a-b0759203f8e9",
+        "start_time": "2021-01-03T14:19:45.890199Z",
+        "stop_time": "2021-03-15T22:07:22.30904Z",
+        "labels": [
+            "next",
+            "current",
+            "edge",
+            "pretty",
+            "almost",
+            "pfte-batch-1"
+        ],
+        "confidence": 25,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "seek",
+                "description": "Discover benefit could performance.",
+                "url": "http://kirk.com/",
+                "external_id": "RfzKmJwimvHloR"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ede1b717-fa96-49b9-911c-e1363d8a9282"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e7f10425-19a3-4a0e-a6ed-62a32652c485",
+        "created_by_ref": "identity--e7f10425-19a3-4a0e-a6ed-62a32652c485",
+        "created": "2021-07-22T19:00:49.718695Z",
+        "modified": "2021-08-14T01:09:26.042426Z",
+        "name": "Horton-Barry",
+        "description": "Ergonomic dedicated model",
+        "identity_class": "unknown",
+        "sectors": [
+            "government-regional",
+            "financial-services",
+            "financial-services"
+        ],
+        "contact_information": "541 Timothy Pass Suite 534\nEast Scott, VT 37012",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--ede1b717-fa96-49b9-911c-e1363d8a9282"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--ede1b717-fa96-49b9-911c-e1363d8a9282",
+        "created": "2021-08-14T01:09:26.040935Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-114c3c02-d336-4257-a679-8cbd2bcdae34",
+                "name": "Sort author none he account American industry worry",
+                "create_date_time": "2021-08-14T01:08:08.432919Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

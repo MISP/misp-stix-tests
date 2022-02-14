@@ -1,0 +1,171 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--2832c696-d482-44f4-8d8c-c492a24681de",
+        "created_by_ref": "identity--4a5ea3c4-b9fc-4045-a76a-cd1aeef0385b",
+        "created": "2020-10-06T06:51:29.441778Z",
+        "modified": "2021-08-14T01:08:39.834414Z",
+        "name": "everyone",
+        "infrastructure_types": [
+            "reconnaissance",
+            "anonymization",
+            "control-system",
+            "staging"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "rahYvoaNPfuwezydG",
+                "phase_name": "bwSONNUocQRlsrP"
+            },
+            {
+                "kill_chain_name": "sTRjQooqmZBl",
+                "phase_name": "qcGnFnteEr"
+            }
+        ],
+        "first_seen": "2020-06-22T13:43:13.610074Z",
+        "last_seen": "2021-04-05T02:40:51.623388Z",
+        "confidence": 42,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2eef28dd-9940-4b5c-aa51-14c1e33b4f6e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "ipv4-addr",
+        "spec_version": "2.1",
+        "id": "ipv4-addr--473b11e8-9340-44e8-b4f0-b2cd234d5988",
+        "value": "130.126.203.247",
+        "object_marking_refs": [
+            "marking-definition--2eef28dd-9940-4b5c-aa51-14c1e33b4f6e"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1420b02c-d69a-46d7-bd68-dc590e5fa329",
+        "created_by_ref": "identity--4a5ea3c4-b9fc-4045-a76a-cd1aeef0385b",
+        "created": "2021-05-04T13:46:44.814546Z",
+        "modified": "2021-08-24T07:51:14.594071Z",
+        "relationship_type": "communicates-with",
+        "description": "Reveal once southern fly. Share issue turn ahead some most.",
+        "source_ref": "infrastructure--2832c696-d482-44f4-8d8c-c492a24681de",
+        "target_ref": "ipv4-addr--473b11e8-9340-44e8-b4f0-b2cd234d5988",
+        "confidence": 95,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2eef28dd-9940-4b5c-aa51-14c1e33b4f6e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4a5ea3c4-b9fc-4045-a76a-cd1aeef0385b",
+        "created_by_ref": "identity--4a5ea3c4-b9fc-4045-a76a-cd1aeef0385b",
+        "created": "2021-09-15T15:40:46.733645Z",
+        "modified": "2022-02-04T02:44:21.621531Z",
+        "name": "Anderson, Curry and Smith",
+        "description": "Robust high-level productivity",
+        "roles": [
+            "day",
+            "seem"
+        ],
+        "sectors": [
+            "water",
+            "nuclear",
+            "education",
+            "defense"
+        ],
+        "contact_information": "973 Rachel Spurs\nPort Catherine, KY 43678",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 90,
+        "object_marking_refs": [
+            "marking-definition--2eef28dd-9940-4b5c-aa51-14c1e33b4f6e"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2eef28dd-9940-4b5c-aa51-14c1e33b4f6e",
+        "created": "2021-08-14T01:08:39.833636Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6d40bd19-4710-4b69-9440-86c8c2a858b4",
+                "name": "Purpose response respond always trouble later investment",
+                "create_date_time": "2021-08-14T01:08:08.431664Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.4315Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

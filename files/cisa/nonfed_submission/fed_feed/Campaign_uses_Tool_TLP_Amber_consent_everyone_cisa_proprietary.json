@@ -1,0 +1,201 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--8ef2955f-3b69-4832-9a56-d0be20182039",
+        "created_by_ref": "identity--375f973d-8528-4e84-8cb8-69bef1b28f6f",
+        "created": "2022-06-11T00:03:28.955772Z",
+        "modified": "2023-04-29T18:42:15.832545Z",
+        "name": "know",
+        "description": "Organization inside half human.",
+        "first_seen": "2021-04-11T06:00:03.255213Z",
+        "objective": "Whether magazine what adult million.",
+        "labels": [
+            "such",
+            "pfte-batch-1"
+        ],
+        "confidence": 6,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--8811b463-abab-4d3c-a493-7ba25a72ea52"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--a9f3eea1-ce71-4a6c-a2ef-a328e3978889",
+        "created_by_ref": "identity--375f973d-8528-4e84-8cb8-69bef1b28f6f",
+        "created": "2020-09-16T02:19:11.275607Z",
+        "modified": "2021-08-14T01:08:20.82064Z",
+        "name": "travel",
+        "description": "Son season water take second employee.",
+        "tool_types": [
+            "network-capture",
+            "exploitation",
+            "network-capture",
+            "vulnerability-scanning",
+            "denial-of-service"
+        ],
+        "tool_version": "involve",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "close",
+                "url": "http://casey.biz/",
+                "external_id": "eEzabbaazcbJJr"
+            },
+            {
+                "source_name": "prove",
+                "external_id": "QoDIb"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8811b463-abab-4d3c-a493-7ba25a72ea52"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--11d79532-eaad-4726-9678-4ade4de45823",
+        "created_by_ref": "identity--375f973d-8528-4e84-8cb8-69bef1b28f6f",
+        "created": "2022-06-20T18:46:14.50324Z",
+        "modified": "2023-04-03T13:39:04.359376Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--8ef2955f-3b69-4832-9a56-d0be20182039",
+        "target_ref": "tool--a9f3eea1-ce71-4a6c-a2ef-a328e3978889",
+        "start_time": "2021-04-20T07:53:59.807035Z",
+        "stop_time": "2021-08-16T23:33:28.129301Z",
+        "external_references": [
+            {
+                "source_name": "party",
+                "description": "Expert maintain suddenly experience deal be something none.",
+                "hashes": {
+                    "MD5": "654d04049580089d0ae2fc9723dd5b96",
+                    "SHA-1": "c41d58a930b72aed080d973f9615e8aba72e25d4",
+                    "SHA-256": "321db3df99237a2d23f20b6e6b49345a7982230938bf438111388cf130d07c95",
+                    "SHA-512": "5440ff507ef3e62b0f40bf938530941ba8fd75f89cc4538e91f74c65dc1fb1caefa031b8ac3aafb0c54c3f393a6f0678e5ace18994d07fd4b46dc64aa5112e7a",
+                    "SHA3-256": "857860fd26e01cfdbce3213d899d6cb2be84d9eb742228e38af83aed878a8657",
+                    "SHA3-512": "06a5246ece8fd928d5632d43484e839f91dcd9e36dda9abec6c6ac4b317d54d63a53b95c89188edbcd20e23b935d3c86e25ea0ebafa618e70d4c2e352f75bc64"
+                },
+                "external_id": "VIRFklcur"
+            },
+            {
+                "source_name": "specific",
+                "description": "Now will safe make blood.",
+                "hashes": {
+                    "MD5": "61ab2b8ec7911ca65d17c44e89a987bf",
+                    "SHA-1": "863d2dae32e31975d1accd8c32281c4a80d6ae89",
+                    "SHA-256": "0292d165ba31b9fb81eacbfba92e7c2c47eb15e22f62ac1d4d7d6bb70af52aec",
+                    "SHA-512": "8da951e1afa9b0a564e975051c784cd967c11b3ae3e76d4399f187360648c3bd04d114623715de1390948bf9054b2257d75823a3be08c278574d29ebdd56542b",
+                    "SHA3-256": "9bb4c07a2b2c578946c4e8df6b978d275d41d13ebd73fc7390ae4fb32118429e",
+                    "SHA3-512": "9180488aea73ccd3d1f6d013d599f0fa8302e1dcdf1f06fa85885a748309fa5b45858fa12638057dc2a9583d8d5ecfcc7e93e8b732f1dd7ef2de9053c2ac26c2"
+                },
+                "external_id": "LOXKppTVaZcJvGAuJwpE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8811b463-abab-4d3c-a493-7ba25a72ea52"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--8811b463-abab-4d3c-a493-7ba25a72ea52",
+        "created_by_ref": "identity--375f973d-8528-4e84-8cb8-69bef1b28f6f",
+        "created": "2021-08-14T01:08:20.819626Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-881bbc21-deef-4d57-abf3-7f599266217f",
+                "name": "Way get would fight necessary hour measure",
+                "create_date_time": "2021-08-14T01:08:08.423662Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--375f973d-8528-4e84-8cb8-69bef1b28f6f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-06-22T05:43:54.260531Z",
+        "modified": "2023-04-10T19:26:55.619514Z",
+        "name": "Lozano, Atkins and Brown",
+        "description": "Focused eco-centric process improvement",
+        "identity_class": "class",
+        "contact_information": "92172 Ryan Drive Suite 287\nRyanchester, NM 78027",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 9,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "everybody",
+                "description": "Return Mrs matter task become plant.",
+                "url": "http://www.merritt.com/",
+                "hashes": {
+                    "MD5": "bde56b97f70925b8894120bf27ce1749",
+                    "SHA-1": "1e5625f451b2f0282185f5179864a7b9f4e3718f",
+                    "SHA-256": "8a48403b808a545d21890301a4d511ab160decfd21ce5c1bdc0dd2997ffcc932",
+                    "SHA-512": "25c5cd924ca279ab260e7b52fc3294dbc2f5ac04ebd64e3a54ad31d3acce956ed0e4661ab0b7da71cdff40a8a72ed6154c3d284a1a51bfe573de1c22f4e24a3e",
+                    "SHA3-256": "1c0c4d19a64dc3ae910a860748756756d880b8153d6920ae7292c4ae9c8df604",
+                    "SHA3-512": "a9f7d3b1debd9423fca1ce0f7ce5c7b3b79904bd412acbc2512b80f39812a01456cee6b26397a6dfc8bb68207207c786b0be603e1eb30df833039099c51f54ee"
+                },
+                "external_id": "TBVPzPbSDOlipSFcLzxE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8811b463-abab-4d3c-a493-7ba25a72ea52"
+        ]
+    }
+]

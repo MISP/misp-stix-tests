@@ -1,0 +1,199 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--3c4b7875-bf06-44e9-8e14-36c4089ad26e",
+        "created_by_ref": "identity--0ba83325-ac93-473e-98a3-81269751e0c0",
+        "created": "2021-06-11T11:50:21.755183Z",
+        "modified": "2021-09-07T05:40:50.37768Z",
+        "name": "people",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "JuBHudFHfznYTANeo",
+                "phase_name": "LnyycnCKkWeLI"
+            }
+        ],
+        "labels": [
+            "issue",
+            "call",
+            "pfte-batch-1"
+        ],
+        "confidence": 10,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3486e951-28e0-4b82-8a47-b39bea662afd"
+        ]
+    },
+    {
+        "type": "sighting",
+        "spec_version": "2.1",
+        "id": "sighting--084b2759-3775-40e8-86a7-5dbd1fbaa423",
+        "created_by_ref": "identity--0ba83325-ac93-473e-98a3-81269751e0c0",
+        "created": "2022-01-26T13:56:42.707475Z",
+        "modified": "2022-08-14T23:35:36.01071Z",
+        "description": "Leave company tell team go this voice.",
+        "first_seen": "2021-07-20T01:29:05.249274Z",
+        "last_seen": "2022-01-14T15:44:05.566873Z",
+        "count": 278242579,
+        "sighting_of_ref": "attack-pattern--3c4b7875-bf06-44e9-8e14-36c4089ad26e",
+        "labels": [
+            "choose",
+            "tend",
+            "little",
+            "pfte-batch-1"
+        ],
+        "confidence": 22,
+        "external_references": [
+            {
+                "source_name": "sense",
+                "url": "https://www.horn.org/",
+                "hashes": {
+                    "MD5": "a4a3219c5f22b9b09c8118f397c7a999",
+                    "SHA-1": "78f039e22edc48d846d9877cedc66a64723abec2",
+                    "SHA-256": "f8b3334c93a843833ec92611a382ebd510cbeb6c857029a8b72d2741c01bbbae",
+                    "SHA-512": "ca1007f6a842d02c91923c20aea30f805ac90b9127a1b5f5e58ff39441e253ced97158893dc62b259b7e5dae2e01d895093b0cc9f4200c5991c48bb22fd3cbc0",
+                    "SHA3-256": "bbe67f118dfa0e40e5b92113c075954d39fcd9255c903518b39f35294a10ad10",
+                    "SHA3-512": "c25562fca19dec3a7c6e9b1cdaabebeefdc65da745a78c38b7615981de8d09bfd9d63d0435b71a08cadde00c27cf1e3c0bf0dbaeb26fcc3f23f5cbbc1fe57083"
+                },
+                "external_id": "vRWWGAexsjB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--3486e951-28e0-4b82-8a47-b39bea662afd"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--3486e951-28e0-4b82-8a47-b39bea662afd",
+        "created_by_ref": "identity--0ba83325-ac93-473e-98a3-81269751e0c0",
+        "created": "2021-08-14T01:09:41.210675Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-cdad75a5-97a2-450d-bb1c-cac3b21b4823",
+                "name": "Continue half as create together strong",
+                "create_date_time": "2021-08-14T01:08:08.421874Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0ba83325-ac93-473e-98a3-81269751e0c0",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-05-10T22:16:54.508225Z",
+        "modified": "2023-02-12T10:33:49.408439Z",
+        "name": "Wong and Sons",
+        "description": "Cross-group homogeneous Graphic Interface",
+        "identity_class": "group",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "lay",
+                "external_id": "JZjTnc"
+            },
+            {
+                "source_name": "not",
+                "url": "http://www.deleon.com/",
+                "hashes": {
+                    "MD5": "df509459b677682431f98e01e5a6212f",
+                    "SHA-1": "ae0bd705da00ca649f86e3525e2488c47ddd9523",
+                    "SHA-256": "60feced082983d51fd05d90a459006f754f174c5c9e2c58944d9693da2e75dcf",
+                    "SHA-512": "40413aa92b3544267c4f07c117643c66ec1ce02fe1da720e0cfc9db64ebb53f0222a74edfea06f4d858439d3fe7c0f19be2a335f9fc3da09c49671d3e6854bd9",
+                    "SHA3-256": "2111937f7f495e45fb8c9b84187da180e4a5b77569afa3608ad3f0fb536e9f1c",
+                    "SHA3-512": "d94704668041a57384d31d6b63e7395d744aff53e42211cbeffedb57dbac715134bc3d751c7675f94ed354e7633f327a408334911df74523e2bb52e7e6a74c84"
+                }
+            },
+            {
+                "source_name": "assume",
+                "description": "Which speak significant since how in.",
+                "url": "http://hansen.com/",
+                "hashes": {
+                    "MD5": "ec2d924aac232fd1f0cc036ea8093b48",
+                    "SHA-1": "1db59227e97bb081bc827ddb8687e6e364122d28",
+                    "SHA-256": "c44c0a11f0edd0ab9919ce0be522812a0194aa0d6aaddec252b49ecb3308eccf",
+                    "SHA-512": "c34eb904cce177ba1b38f1a3201262b71db7da568fb8d9ce86a362cbef246f8dc8206bd6b95b8779b753f05de339b0bf016c2a977d24e3b46a3a27053b49a2ff",
+                    "SHA3-256": "83cc65e46c6f325e9a21d87287cf95e5bdbfe5a3e643f898991143d161745810",
+                    "SHA3-512": "7c17b09dd5327a39a8e4fbb6d2d5e2f0c7a28101ff1f108f492778d0a6c37c3f7b7c48a1a1f492b2f074b20956dd412d52d7e27fb5d721d1e86d6d68c9ccad7b"
+                },
+                "external_id": "AZpIzasrjPO"
+            },
+            {
+                "source_name": "from",
+                "description": "Game artist everything.",
+                "url": "http://rogers.com/",
+                "hashes": {
+                    "MD5": "3689b5db1ccef075027b0b3f273e4696",
+                    "SHA-1": "109d48af8be7725fa9d20f6ff291a9325298062c",
+                    "SHA-256": "28c343956f5e098c5eca26f8c3f574947a5e558d0c9ca7856e60c4fc67feb942",
+                    "SHA-512": "30ef31d69821c26784f90ed212b17265957a435778368ed6ad1fe54a5e96d404caf7285c75c2c72deb2b2cdb50f3e562a43a5cbb23bee744efad932b203b42cd",
+                    "SHA3-256": "e938cb7556cd864511fb17532bcbc3ac4e3fe12e66a840c77cbd9d81486fc6e8",
+                    "SHA3-512": "bd822c1685d7301d9fecb539dc768e3f677f6cfed3fda6e7791a553e466fa71c773eb63c955d992dfca244517d7ddc614acbe9327747b1c7ae20eaafdefa2075"
+                }
+            },
+            {
+                "source_name": "consumer",
+                "url": "https://www.berry-singh.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--3486e951-28e0-4b82-8a47-b39bea662afd"
+        ]
+    }
+]

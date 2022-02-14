@@ -1,0 +1,100 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--e4077f0c-f918-4de0-8b25-96e814bf7e55",
+        "created_by_ref": "identity--571b9165-0439-4d7a-8146-bac2f91c2663",
+        "created": "2022-05-12T04:00:50.123057Z",
+        "modified": "2022-12-02T10:31:45.708229Z",
+        "name": "away",
+        "first_seen": "2021-10-31T08:40:28.509214Z",
+        "labels": [
+            "finally",
+            "pfte-batch-1"
+        ],
+        "confidence": 11,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--5c150290-950c-4d6e-9419-957b9316584a",
+        "created_by_ref": "identity--571b9165-0439-4d7a-8146-bac2f91c2663",
+        "created": "2021-08-08T15:01:57.264401Z",
+        "modified": "2022-03-11T21:49:43.231395Z",
+        "name": "class",
+        "infrastructure_types": [
+            "exfiltration"
+        ],
+        "aliases": [
+            "set"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "first_seen": "2022-06-15T16:52:09.202541Z",
+        "last_seen": "2022-07-27T23:16:26.723764Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ab3f564f-9cdd-4b8b-aaa4-4c667477ba1e",
+        "created_by_ref": "identity--571b9165-0439-4d7a-8146-bac2f91c2663",
+        "created": "2022-07-15T09:01:54.988416Z",
+        "modified": "2022-08-01T10:51:54.520053Z",
+        "relationship_type": "owns",
+        "description": "Record fly current bit. Live book because available. Above various trip office finally.",
+        "source_ref": "intrusion-set--e4077f0c-f918-4de0-8b25-96e814bf7e55",
+        "target_ref": "infrastructure--5c150290-950c-4d6e-9419-957b9316584a",
+        "start_time": "2020-11-13T14:31:50.613645Z",
+        "stop_time": "2021-08-11T05:44:16.94891Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 68,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--571b9165-0439-4d7a-8146-bac2f91c2663",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-01-26T00:23:11.924762Z",
+        "modified": "2021-12-13T16:06:58.974846Z",
+        "name": "Cummings, Cole and Harris",
+        "description": "Proactive logistical throughput",
+        "roles": [
+            "senior",
+            "one"
+        ],
+        "sectors": [
+            "government-local",
+            "communications",
+            "infrastructure",
+            "infrastructure"
+        ],
+        "contact_information": "3059 Knight Ferry\nWest Jennifer, HI 09122",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 10,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

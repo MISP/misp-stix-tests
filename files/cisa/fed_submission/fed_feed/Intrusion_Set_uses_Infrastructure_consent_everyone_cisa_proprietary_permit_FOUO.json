@@ -1,0 +1,176 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--db47485a-b9d9-4c50-943f-781200b0ec53",
+        "created_by_ref": "identity--44e18702-9d33-4fd3-89a2-00b32bff59f1",
+        "created": "2021-06-05T12:58:07.264574Z",
+        "modified": "2022-05-19T13:42:47.054141Z",
+        "name": "production",
+        "description": "Important building strong would stage still whom low.",
+        "resource_level": "individual",
+        "labels": [
+            "help",
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "object_marking_refs": [
+            "marking-definition--526ca43a-8754-4fab-9b3e-2ca5236d45d0"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--7f2adad1-283b-4cd2-8efd-0476b3df8ba5",
+        "created_by_ref": "identity--44e18702-9d33-4fd3-89a2-00b32bff59f1",
+        "created": "2021-08-21T00:00:05.402341Z",
+        "modified": "2021-10-26T17:53:20.027635Z",
+        "name": "somebody",
+        "infrastructure_types": [
+            "phishing",
+            "hosting-malware",
+            "staging"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "xVWDCSgOjHCfQLQGlS",
+                "phase_name": "WscMlul"
+            },
+            {
+                "kill_chain_name": "sxMZzKkSeO",
+                "phase_name": "SJFNHhpDAUgUurGjd"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "last_seen": "2021-12-05T20:55:36.132144Z",
+        "confidence": 12,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "chance",
+                "url": "https://www.werner.com/",
+                "hashes": {
+                    "MD5": "4a427b462a2b5f59c6277c04afbc27e5",
+                    "SHA-1": "e8f014329a4043c4ec218188a4accf28bd579cb2",
+                    "SHA-256": "c2c7a46bacf7e538f56679cd7eaedff7a6e09b06bfc4da2ea775bf540746d3fb",
+                    "SHA-512": "26a2d518193698ad06864e587d79e72aa62f707ec3e954ea5e55206ea20a9edef97f7992b692ccfd04f67b9ae760c18825b747fb43d1b2397d2f3d5b612cd02b",
+                    "SHA3-256": "daf0bafd9beac012ffdeeb67c3aa85774772cbccb51c9f26b6c1337f86f5c105",
+                    "SHA3-512": "a3e31565ffa98f6e19db4cadb9054f93ce9bb5e785877a1e493ed912f337d8ddbbd24b1b6e8b0fd39a0fcbf3d9832c2c6a072f64efb26c46f2c261e959ad64fd"
+                }
+            },
+            {
+                "source_name": "consumer",
+                "url": "http://bryant.com/",
+                "external_id": "qwxgrOgTnshhhIPyCY"
+            },
+            {
+                "source_name": "describe",
+                "description": "Fly soon item marriage.",
+                "url": "https://burnett.com/",
+                "hashes": {
+                    "MD5": "46adf9934fb493f3744042717e5971f4",
+                    "SHA-1": "73a74ff2c1fb6c439cbbad7415e8f4f2bf60b1ab",
+                    "SHA-256": "dd3084d7ac555bbb1ea345fc99b5d8775f3eb25a1610e17f83c370f51cbd6570",
+                    "SHA-512": "5302aa34e7705a9ffe8883b68ad6b6f72e0d980630664684a7f75a5f55b77267edad361dc7b40aac2eecf1bdc81d8cc20e836ec30cb79e4bcbd01a5a2b2035ef",
+                    "SHA3-256": "ce0434dba6c0c4fa63a40b44d8c30c1e9741ce596204ba3669d0da5a4998a6c4",
+                    "SHA3-512": "0ebd0b1cdbead4dfeabc891a652ed24fe0cadb618d112f4cde929246c608d1b37dafc8ddeffe57137f48e2b5a12bf19967ec656ea3a1f54106c104247a40845b"
+                },
+                "external_id": "jqzcMxGKKbeRFJQyqQIz"
+            },
+            {
+                "source_name": "sit",
+                "external_id": "tjYwwpUp"
+            },
+            {
+                "source_name": "across",
+                "description": "Agree company bad field hand strong though visit."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--526ca43a-8754-4fab-9b3e-2ca5236d45d0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e5f61f4c-bc68-4058-8b3b-829cc1b416c7",
+        "created_by_ref": "identity--44e18702-9d33-4fd3-89a2-00b32bff59f1",
+        "created": "2021-02-21T17:18:48.047821Z",
+        "modified": "2021-09-30T19:10:18.035629Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--db47485a-b9d9-4c50-943f-781200b0ec53",
+        "target_ref": "infrastructure--7f2adad1-283b-4cd2-8efd-0476b3df8ba5",
+        "labels": [
+            "war",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--526ca43a-8754-4fab-9b3e-2ca5236d45d0"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--44e18702-9d33-4fd3-89a2-00b32bff59f1",
+        "created_by_ref": "identity--44e18702-9d33-4fd3-89a2-00b32bff59f1",
+        "created": "2021-10-22T20:14:33.394315Z",
+        "modified": "2022-05-25T06:33:44.33364Z",
+        "name": "Hall, Kennedy and Hernandez",
+        "description": "Innovative zero-defect core",
+        "identity_class": "unknown",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 51,
+        "object_marking_refs": [
+            "marking-definition--526ca43a-8754-4fab-9b3e-2ca5236d45d0"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--526ca43a-8754-4fab-9b3e-2ca5236d45d0",
+        "created": "2021-08-14T01:08:58.962629Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-114c3c02-d336-4257-a679-8cbd2bcdae34",
+                "name": "Sort author none he account American industry worry",
+                "create_date_time": "2021-08-14T01:08:08.432919Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

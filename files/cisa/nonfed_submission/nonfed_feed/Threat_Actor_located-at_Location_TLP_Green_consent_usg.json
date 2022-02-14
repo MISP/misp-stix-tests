@@ -1,0 +1,123 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--8037339b-ca5d-4b61-82aa-1026593d99ad",
+        "created_by_ref": "identity--8046bcbc-1e54-4b89-8e63-5c77b58708b7",
+        "created": "2020-11-16T02:16:14.764305Z",
+        "modified": "2021-08-14T01:09:28.955301Z",
+        "name": "edge",
+        "aliases": [
+            "live"
+        ],
+        "first_seen": "2020-12-17T12:03:30.385128Z",
+        "roles": [
+            "agent",
+            "director",
+            "independent",
+            "infrastructure-operator"
+        ],
+        "goals": [
+            "administration",
+            "community",
+            "will",
+            "subject"
+        ],
+        "resource_level": "individual",
+        "primary_motivation": "unpredictable",
+        "secondary_motivations": [
+            "accidental",
+            "unpredictable"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--de1a0eb5-bcdb-42cd-8234-ff1535f40e3a",
+        "created_by_ref": "identity--8046bcbc-1e54-4b89-8e63-5c77b58708b7",
+        "created": "2022-07-01T18:33:41.079004Z",
+        "modified": "2022-08-15T01:42:19.942016Z",
+        "description": "Seamless neutral complexity",
+        "latitude": -13.627134354384737,
+        "longitude": 35.09743246221524,
+        "region": "latin-america-caribbean",
+        "country": "South Africa",
+        "city": "Kellerbury",
+        "labels": [
+            "see",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3e31c8fc-2863-4b71-8290-bd350eafbd36",
+        "created_by_ref": "identity--8046bcbc-1e54-4b89-8e63-5c77b58708b7",
+        "created": "2021-08-03T05:01:07.706387Z",
+        "modified": "2021-10-27T01:18:27.342261Z",
+        "relationship_type": "located-at",
+        "source_ref": "threat-actor--8037339b-ca5d-4b61-82aa-1026593d99ad",
+        "target_ref": "location--de1a0eb5-bcdb-42cd-8234-ff1535f40e3a",
+        "start_time": "2022-04-13T20:54:29.363194Z",
+        "labels": [
+            "thousand",
+            "simple",
+            "far",
+            "space",
+            "edge",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8046bcbc-1e54-4b89-8e63-5c77b58708b7",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-01-24T14:47:04.971564Z",
+        "modified": "2022-02-08T22:43:54.382915Z",
+        "name": "CongressStandHer",
+        "roles": [
+            "job"
+        ],
+        "sectors": [
+            "transportation",
+            "hospitality-leisure"
+        ],
+        "contact_information": "91756 Rodriguez Junctions Apt. 990\nEast Melissafort, CA 79984",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 82,
+        "external_references": [
+            {
+                "source_name": "play",
+                "description": "Pretty whose half party.",
+                "hashes": {
+                    "MD5": "49a5ecb327f1f06ef93097a94451820b",
+                    "SHA-1": "b5535f126126cec02759dc6ed86bcc38cffc806e",
+                    "SHA-256": "63cf428a2a67c7ec0e93c972156e83f8f40462effe17d0f25ae06cdce74a3dbf",
+                    "SHA-512": "a0121c956d6402c226f9d1b6089b69bbf25fa8ec5be16718fdc788f227e2afbc2840a7935db5e5486211c4d46ea3b760d630180912d47daec8f6da3a7333486c",
+                    "SHA3-256": "d864337e1da6c2ce6ac20f867ca95bc44e6dc4ed40e5523fbe34521189d1a407",
+                    "SHA3-512": "e278cbc89ae28ec7a9e038862faebc9583f5118ab9160f0e6a8404eb77f2974dd707d227c213a37e42fb7d69afaaf37e9be6d7bfb02753dccea447b79b799306"
+                },
+                "external_id": "LMnTarJCPVgPKfLlnZc"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

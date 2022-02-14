@@ -1,0 +1,210 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--55dca008-1fd3-4ef6-98ca-e6542ca9dc3a",
+        "created_by_ref": "identity--d42bb230-556f-4824-96bf-efa0caa2d68a",
+        "created": "2020-11-01T08:53:01.107445Z",
+        "modified": "2021-08-14T01:09:25.597282Z",
+        "name": "discussion",
+        "threat_actor_types": [
+            "nation-state",
+            "hacker",
+            "activist",
+            "activist",
+            "activist"
+        ],
+        "first_seen": "2020-05-16T05:48:32.860981Z",
+        "last_seen": "2020-10-23T04:06:51.761763Z",
+        "personal_motivations": [
+            "revenge"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--23bc61a7-3c3a-450d-81fe-eb025ce329ca"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--32b72ef1-3340-4872-9032-57b1e59591ce",
+        "created_by_ref": "identity--d42bb230-556f-4824-96bf-efa0caa2d68a",
+        "created": "2022-02-07T08:31:26.918133Z",
+        "modified": "2022-07-10T13:07:08.543914Z",
+        "name": "marriage",
+        "description": "Stand news support key quite.",
+        "infrastructure_types": [
+            "anonymization",
+            "hosting-malware",
+            "hosting-target-lists",
+            "reconnaissance",
+            "command-and-control"
+        ],
+        "aliases": [
+            "check",
+            "sister",
+            "memory",
+            "conference"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "ydsAFZbS",
+                "phase_name": "wrgQaThDKVibuJd"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "labels": [
+            "consumer",
+            "few",
+            "pfte-batch-1"
+        ],
+        "confidence": 74,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--23bc61a7-3c3a-450d-81fe-eb025ce329ca"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3870217a-2e48-4824-8b9c-be85b00fc4f4",
+        "created_by_ref": "identity--d42bb230-556f-4824-96bf-efa0caa2d68a",
+        "created": "2021-07-20T08:07:37.774964Z",
+        "modified": "2022-03-20T04:07:37.408078Z",
+        "relationship_type": "compromises",
+        "description": "Church agent force argue.",
+        "source_ref": "threat-actor--55dca008-1fd3-4ef6-98ca-e6542ca9dc3a",
+        "target_ref": "infrastructure--32b72ef1-3340-4872-9032-57b1e59591ce",
+        "labels": [
+            "simple",
+            "offer",
+            "finally",
+            "response",
+            "agree",
+            "pfte-batch-1"
+        ],
+        "confidence": 51,
+        "object_marking_refs": [
+            "marking-definition--23bc61a7-3c3a-450d-81fe-eb025ce329ca"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--53a1f76b-f24c-4a34-bb6b-368e34dffb07",
+        "created_by_ref": "identity--d42bb230-556f-4824-96bf-efa0caa2d68a",
+        "created": "2021-12-03T18:27:42.605261Z",
+        "modified": "2022-03-27T21:21:27.651621Z",
+        "name": "chair",
+        "report_types": [
+            "indicator",
+            "threat-report",
+            "identity"
+        ],
+        "published": "2021-12-28T01:36:12.4206Z",
+        "object_refs": [
+            "threat-actor--55dca008-1fd3-4ef6-98ca-e6542ca9dc3a",
+            "infrastructure--32b72ef1-3340-4872-9032-57b1e59591ce",
+            "relationship--3870217a-2e48-4824-8b9c-be85b00fc4f4"
+        ],
+        "labels": [
+            "reality",
+            "data",
+            "indicate",
+            "together",
+            "tend",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--23bc61a7-3c3a-450d-81fe-eb025ce329ca"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d42bb230-556f-4824-96bf-efa0caa2d68a",
+        "created_by_ref": "identity--d42bb230-556f-4824-96bf-efa0caa2d68a",
+        "created": "2022-03-16T16:03:41.839858Z",
+        "modified": "2023-01-11T00:08:09.499072Z",
+        "name": "Brown-Cunningham",
+        "description": "Adaptive scalable forecast",
+        "identity_class": "organization",
+        "sectors": [
+            "defense",
+            "chemical"
+        ],
+        "contact_information": "419 Carrie Canyon Suite 351\nLisamouth, NH 42983",
+        "confidence": 74,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--23bc61a7-3c3a-450d-81fe-eb025ce329ca"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--23bc61a7-3c3a-450d-81fe-eb025ce329ca",
+        "created": "2021-08-14T01:09:25.596251Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-44002952-ef1b-4819-85db-bdfcd1864e5e",
+                "name": "Free major nothing gun",
+                "create_date_time": "2021-08-14T01:08:08.424588Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.424412Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

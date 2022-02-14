@@ -1,0 +1,212 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--b6b43094-070c-45a2-a196-20f37eba289b",
+        "created_by_ref": "identity--14d77755-07fd-427c-9d66-8f205d9bd450",
+        "created": "2021-03-17T12:07:30.354651Z",
+        "modified": "2021-10-31T21:13:59.223398Z",
+        "name": "marriage",
+        "first_seen": "2021-07-19T16:54:44.925594Z",
+        "confidence": 3,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "none",
+                "url": "https://www.rogers.com/",
+                "external_id": "KLdIdmrVthbtknuSmFm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--61612448-3709-433c-9efd-7bff64b2d6ab"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--9428d3ca-8dac-4386-816a-6272bd6f9047",
+        "created_by_ref": "identity--14d77755-07fd-427c-9d66-8f205d9bd450",
+        "created": "2020-10-16T16:21:14.849749Z",
+        "modified": "2021-08-14T01:08:21.145149Z",
+        "name": "remain",
+        "aliases": [
+            "hear",
+            "seat"
+        ],
+        "tool_version": "believe",
+        "labels": [
+            "past",
+            "doctor",
+            "if",
+            "help",
+            "region",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "pattern",
+                "url": "http://www.hunt.org/"
+            },
+            {
+                "source_name": "task",
+                "url": "https://shepherd-koch.com/",
+                "external_id": "bhgymzncWwetl"
+            },
+            {
+                "source_name": "play",
+                "url": "https://www.young.biz/",
+                "hashes": {
+                    "MD5": "56777ad7ddd32a6ee080371be01d3a47",
+                    "SHA-1": "9ad92e845d3afffcf74934f4e3b057d3efe60a41",
+                    "SHA-256": "27edf93e85e4209fae542d4fe548239a958116a3957ddebedecd871f0b7fda27",
+                    "SHA-512": "1cfc2787d231340f7914cfc68ffa034b7456ac3ba20df93065f626d997b821799a690777518e9fcefb29866364be1b73b20be23dec9339cc3d8bf2fd4db5bf8b",
+                    "SHA3-256": "205fb353d9027418b97d3d8650ed0368ab8cdf87cc53108f009b530881873493",
+                    "SHA3-512": "114503e7fd3086e6b28a7c8d888c1fbbd0ed96962d731a23e2294f87580a07ddcf3aa72ad81d5c7447e6199b463de82b384f78bdd2071aa0d8b05af278582ea0"
+                },
+                "external_id": "dzkjvjK"
+            },
+            {
+                "source_name": "might",
+                "description": "Foreign actually across run page.",
+                "url": "http://stephens.org/",
+                "hashes": {
+                    "MD5": "115a29752e4d03bdd10cc74678abf1ac",
+                    "SHA-1": "5e115c51dc42b5f8ca73ac6fcd0d59c25d882d43",
+                    "SHA-256": "c61c22ee7a924ffd0af20642181672a8a52c1ee435aeab900b4e1ce4359e8850",
+                    "SHA-512": "03d4119e5a0f5bfa28f673c22b41517baf97c8b947727df0418c7888adae48829f33b4702885681361387d1604c9bed0ff4e577de1ffdbc4b882105fdc17c54f",
+                    "SHA3-256": "2d8868784caaaabe4948da83312e3d8b753435fb8b57c105dfa1ac078010a6b8",
+                    "SHA3-512": "e1b93e04f2eb605298265c11ee21c673d3b80c7ed5bc62d1171ec3cdc8965fb4e9ca12f53eaa4b5fe599a8ea29cb4e1a7882d68b9d8c47ea5f5f3ccd599c5a3e"
+                },
+                "external_id": "xnIUNjADDwheQI"
+            },
+            {
+                "source_name": "television",
+                "url": "https://www.hall-bass.com/",
+                "external_id": "IdwhLBuYoKwbJax"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--61612448-3709-433c-9efd-7bff64b2d6ab"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f18134dd-76fd-40c4-8e0c-4bfa6f1275ac",
+        "created_by_ref": "identity--14d77755-07fd-427c-9d66-8f205d9bd450",
+        "created": "2021-10-24T19:42:56.903667Z",
+        "modified": "2021-11-01T07:12:34.468322Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--b6b43094-070c-45a2-a196-20f37eba289b",
+        "target_ref": "tool--9428d3ca-8dac-4386-816a-6272bd6f9047",
+        "start_time": "2021-06-29T22:58:40.762135Z",
+        "stop_time": "2022-05-28T02:47:39.157491Z",
+        "object_marking_refs": [
+            "marking-definition--61612448-3709-433c-9efd-7bff64b2d6ab"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--14d77755-07fd-427c-9d66-8f205d9bd450",
+        "created_by_ref": "identity--14d77755-07fd-427c-9d66-8f205d9bd450",
+        "created": "2022-08-03T16:33:07.128002Z",
+        "modified": "2022-10-21T13:02:41.089695Z",
+        "name": "Alvarez PLC",
+        "roles": [
+            "heart",
+            "program",
+            "government",
+            "word"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 89,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--61612448-3709-433c-9efd-7bff64b2d6ab"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--61612448-3709-433c-9efd-7bff64b2d6ab",
+        "created": "2021-08-14T01:08:21.143787Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f97bfbf2-c194-4d73-b792-b989c4ea0ab5",
+                "name": "Focus develop ago various",
+                "create_date_time": "2021-08-14T01:08:08.431216Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

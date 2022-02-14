@@ -1,0 +1,170 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--b14efc9d-ebb6-4aa0-84cc-be8cc0456812",
+        "created_by_ref": "identity--be582f2b-8436-4aa9-b720-db379fcf0b78",
+        "created": "2021-09-24T11:49:47.603439Z",
+        "modified": "2022-04-20T05:18:51.200042Z",
+        "pattern": "[email-message:message_id <= 'dadams@sanchez.com']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-01-24T17:52:54.604349Z",
+        "valid_until": "2021-03-10T04:07:31.29802Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "yWUwxYpEJjJdbBS",
+                "phase_name": "fkVRnkNxlQJAImkXAp"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "labels": [
+            "full",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--356f6cf6-0305-4c23-8135-b93028915e49"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--376972c0-ce51-49f4-b480-2582245d19e3",
+        "created_by_ref": "identity--be582f2b-8436-4aa9-b720-db379fcf0b78",
+        "created": "2021-10-24T19:24:04.185897Z",
+        "modified": "2022-03-18T19:39:04.565909Z",
+        "name": "decade",
+        "last_seen": "2022-04-21T05:57:32.070754Z",
+        "labels": [
+            "goal",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "serious",
+                "description": "Street newspaper sign sell describe community.",
+                "url": "https://www.andrade.com/",
+                "hashes": {
+                    "MD5": "464e4886d5be15489eb768cf53ad8851",
+                    "SHA-1": "4e7c3f154c247faa996733c0a05d2a7ae7d41bce",
+                    "SHA-256": "d64cf9ee44ac7c8c8467b960ffe02f85f7a832e2abd95b5df0e4d43334dc978d",
+                    "SHA-512": "fc17ba090befb290ceeefbb4ee3037d200e6432163a34814d81fb82705a9b4dc2ebc2392ba8f01ed6a37785e46be8dad066ce1123d3a8c95a615b8a7fc80aeec",
+                    "SHA3-256": "3cafa47dc80fe680cb040095d579e95d8045ebc4d501a3d41aec01c2d4f4685a",
+                    "SHA3-512": "61b547ea3d34f3f3921f5bf2c1011c31cec5290fecbfdfce56fd2ac83861b1ebde821c3a19ccab00f60bbc186b0edd8311192b4000c176c1ae76b3c4425b4ced"
+                },
+                "external_id": "farEFAlTDfCDelm"
+            },
+            {
+                "source_name": "difficult",
+                "description": "Stage me cover where buy according.",
+                "url": "https://franklin.org/",
+                "external_id": "aAliDFBaCliFwD"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--356f6cf6-0305-4c23-8135-b93028915e49"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--77fa1ab7-07e1-47d1-a51f-1e255d972d4c",
+        "created_by_ref": "identity--be582f2b-8436-4aa9-b720-db379fcf0b78",
+        "created": "2020-11-17T05:42:24.621763Z",
+        "modified": "2021-08-14T01:08:29.368384Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--b14efc9d-ebb6-4aa0-84cc-be8cc0456812",
+        "target_ref": "campaign--376972c0-ce51-49f4-b480-2582245d19e3",
+        "stop_time": "2020-11-16T18:22:07.262903Z",
+        "object_marking_refs": [
+            "marking-definition--356f6cf6-0305-4c23-8135-b93028915e49"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--be582f2b-8436-4aa9-b720-db379fcf0b78",
+        "created_by_ref": "identity--be582f2b-8436-4aa9-b720-db379fcf0b78",
+        "created": "2021-07-07T02:39:25.348371Z",
+        "modified": "2021-10-18T05:31:41.121947Z",
+        "name": "Cochran Group",
+        "identity_class": "system",
+        "sectors": [
+            "emergency-services",
+            "commercial",
+            "defense",
+            "government-national"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 100,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--356f6cf6-0305-4c23-8135-b93028915e49"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--356f6cf6-0305-4c23-8135-b93028915e49",
+        "created": "2021-08-14T01:08:29.366317Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3af87523-f9f6-4d99-acfc-79560c4d2219",
+                "name": "Boy understand else sense give house travel already",
+                "create_date_time": "2021-08-14T01:08:08.429507Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

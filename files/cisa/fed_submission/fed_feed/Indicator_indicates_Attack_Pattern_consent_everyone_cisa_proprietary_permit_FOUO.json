@@ -1,0 +1,174 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--41467bbd-025a-4746-a702-6ce9041a32d9",
+        "created_by_ref": "identity--557cd326-66a8-4fbf-9895-fbcc9e6418a8",
+        "created": "2022-04-25T04:21:27.537487Z",
+        "modified": "2023-01-29T20:40:45.800118Z",
+        "indicator_types": [
+            "benign",
+            "unknown"
+        ],
+        "pattern": "[ipv6-addr:defanged NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-06-06T11:24:46.049186Z",
+        "valid_until": "2020-11-28T12:37:56.19416Z",
+        "confidence": 86,
+        "object_marking_refs": [
+            "marking-definition--751e3ebe-378d-4a16-99bd-972006fca52a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--b965099c-22e1-43f1-9be7-8e8f21292542",
+        "created_by_ref": "identity--557cd326-66a8-4fbf-9895-fbcc9e6418a8",
+        "created": "2021-04-11T23:30:23.048806Z",
+        "modified": "2021-08-21T10:48:56.93838Z",
+        "name": "central",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "aZxmRrzWJk",
+                "phase_name": "CZbeWIkWAXedC"
+            }
+        ],
+        "labels": [
+            "international",
+            "office",
+            "push",
+            "pfte-batch-1"
+        ],
+        "confidence": 48,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--751e3ebe-378d-4a16-99bd-972006fca52a"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--6421dc4a-cdb3-4e69-8846-db9e3de5c8be",
+        "created_by_ref": "identity--557cd326-66a8-4fbf-9895-fbcc9e6418a8",
+        "created": "2021-07-18T02:11:09.043583Z",
+        "modified": "2022-02-22T21:04:29.07929Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--41467bbd-025a-4746-a702-6ce9041a32d9",
+        "target_ref": "attack-pattern--b965099c-22e1-43f1-9be7-8e8f21292542",
+        "start_time": "2021-09-11T11:57:29.825368Z",
+        "labels": [
+            "in",
+            "both",
+            "choose",
+            "pfte-batch-1"
+        ],
+        "confidence": 86,
+        "external_references": [
+            {
+                "source_name": "pick",
+                "url": "http://yu.com/",
+                "hashes": {
+                    "MD5": "5e6684512f6f0242fb4beab883e4d20f",
+                    "SHA-1": "b2f4f992433007a88362608ae6b20054e1c0cc52",
+                    "SHA-256": "4816af3e40f9ed8979c105af79fc889d1aa11d9fcfe33405e237217d71647d04",
+                    "SHA-512": "337af73039c6f2a6b9cc9af4e357d09417990f6f122526e075b3ddf193981b43be0fd4be5f177c8207f7ec240f633fdedbea9a77ee2ed005500ad115c51aac8b",
+                    "SHA3-256": "f6a1fa8917cc5744b7ce572b9531a7191efb5d6c5c6b37f919b2529992e9952f",
+                    "SHA3-512": "66e97b8bc78bcd1cc0b1f9c0b63f19f71f6b19535213ecdb63b3831423da8625d2302a8d995957f889780d10cdb09114e03fa41586d41515580ab7713b660077"
+                },
+                "external_id": "MpvUo"
+            },
+            {
+                "source_name": "food",
+                "description": "Child professional forward series our add issue lay.",
+                "url": "http://roberts.net/",
+                "hashes": {
+                    "MD5": "3cc8c2459d5d9b31627fce9c139a7fe3",
+                    "SHA-1": "265f4944db2ed8c58f37a73213329cc7912a9ac3",
+                    "SHA-256": "4214cdb35a1f6b0373cd0ead5eca0ac2e0cc9deba666d5ea963e8dbd338e4246",
+                    "SHA-512": "a06feefea9fc4efc94d583702d16278b9d1096bff75cf19a98a6ed96d18711f9a1a715e8570891abac3156f7043778a70d6ff0f8e2678e2aee825989272ef10e",
+                    "SHA3-256": "c0586969be92b192ee92616b67e40b35d0b96b1e7d5eee57687f110c137eb3d7",
+                    "SHA3-512": "d619ac57d336e18f9e265a68840c84b268e2de81cd43ac0992694a456464f34ae047e7af6260834ed6d3e8043a8873bafd18aca43868f5cb39b311b2dfb56d53"
+                },
+                "external_id": "CxiNFvxqpBHCqlHpA"
+            },
+            {
+                "source_name": "movement",
+                "description": "Truth new against.",
+                "url": "http://meyer.net/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--751e3ebe-378d-4a16-99bd-972006fca52a"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--557cd326-66a8-4fbf-9895-fbcc9e6418a8",
+        "created_by_ref": "identity--557cd326-66a8-4fbf-9895-fbcc9e6418a8",
+        "created": "2022-02-08T12:39:23.240472Z",
+        "modified": "2022-05-24T10:51:21.332964Z",
+        "name": "Howard-Schneider",
+        "description": "Multi-tiered modular success",
+        "roles": [
+            "upon",
+            "enter",
+            "hair",
+            "television",
+            "born"
+        ],
+        "identity_class": "group",
+        "sectors": [
+            "construction",
+            "emergency-services"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 7,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--751e3ebe-378d-4a16-99bd-972006fca52a"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--751e3ebe-378d-4a16-99bd-972006fca52a",
+        "created": "2021-08-14T01:08:28.417747Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-114c3c02-d336-4257-a679-8cbd2bcdae34",
+                "name": "Sort author none he account American industry worry",
+                "create_date_time": "2021-08-14T01:08:08.432919Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

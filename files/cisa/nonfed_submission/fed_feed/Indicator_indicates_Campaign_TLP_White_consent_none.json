@@ -1,0 +1,141 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--c0793ba5-fcdb-4777-9fe6-933a62f2b3ac",
+        "created_by_ref": "identity--33623a21-717b-4d46-9bbd-c0de317a1d5d",
+        "created": "2021-09-11T22:30:18.329664Z",
+        "modified": "2021-11-24T00:01:38.273519Z",
+        "name": "network",
+        "description": "Energy include color itself.",
+        "pattern": "([windows-registry-key:defanged NOT = false]) OR [network-traffic:src_ref.defanged NOT = false] OR [domain-name:defanged NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-10-05T20:15:24.400329Z",
+        "valid_until": "2022-04-06T17:11:34.35198Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "GnTzLvpDw",
+                "phase_name": "HyOCEUYY"
+            }
+        ],
+        "confidence": 7,
+        "object_marking_refs": [
+            "marking-definition--25de844c-f1ec-4d43-b37f-94d3ad66841b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--3bfafb68-29c3-42b4-a13a-1031334129c2",
+        "created_by_ref": "identity--33623a21-717b-4d46-9bbd-c0de317a1d5d",
+        "created": "2021-07-30T11:18:23.393213Z",
+        "modified": "2022-07-22T09:16:51.760352Z",
+        "name": "few",
+        "object_marking_refs": [
+            "marking-definition--25de844c-f1ec-4d43-b37f-94d3ad66841b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e2170ec7-b7a1-4ae2-a03d-56cd2de8f0f9",
+        "created_by_ref": "identity--33623a21-717b-4d46-9bbd-c0de317a1d5d",
+        "created": "2021-07-09T03:32:38.00909Z",
+        "modified": "2022-01-11T17:55:15.557454Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--c0793ba5-fcdb-4777-9fe6-933a62f2b3ac",
+        "target_ref": "campaign--3bfafb68-29c3-42b4-a13a-1031334129c2",
+        "stop_time": "2022-05-22T12:25:44.593932Z",
+        "labels": [
+            "war",
+            "smile",
+            "pfte-batch-1"
+        ],
+        "confidence": 44,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--25de844c-f1ec-4d43-b37f-94d3ad66841b"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--25de844c-f1ec-4d43-b37f-94d3ad66841b",
+        "created_by_ref": "identity--33623a21-717b-4d46-9bbd-c0de317a1d5d",
+        "created": "2021-08-14T01:08:28.571002Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2828523e-b28d-4046-9afc-51d22e18d79b",
+                "name": "Social price record ever reveal physical each",
+                "create_date_time": "2021-08-14T01:08:08.418751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.418527Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--33623a21-717b-4d46-9bbd-c0de317a1d5d",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-05T14:59:38.232333Z",
+        "modified": "2021-12-28T02:18:34.678132Z",
+        "name": "WifeMissionSave",
+        "identity_class": "organization",
+        "contact_information": "37867 Rodney Extensions Suite 968\nLake Kennethburgh, NY 89745",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--25de844c-f1ec-4d43-b37f-94d3ad66841b"
+        ]
+    }
+]

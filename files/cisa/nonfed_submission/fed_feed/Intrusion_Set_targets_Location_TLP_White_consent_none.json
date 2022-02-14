@@ -1,0 +1,168 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--6712c43b-9f7b-4258-a130-753fa52010bd",
+        "created_by_ref": "identity--825ccee8-086c-4a27-9d5a-1e9d86c7e41c",
+        "created": "2022-02-28T05:39:48.635092Z",
+        "modified": "2022-11-26T23:13:26.436387Z",
+        "name": "shake",
+        "first_seen": "2020-01-28T13:55:29.985053Z",
+        "last_seen": "2020-11-06T12:53:17.435934Z",
+        "secondary_motivations": [
+            "personal-gain"
+        ],
+        "labels": [
+            "attack",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--2da37258-fd28-48c2-92c8-648470128315"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--beef1bf4-7454-4308-9869-e5043a6e052b",
+        "created_by_ref": "identity--825ccee8-086c-4a27-9d5a-1e9d86c7e41c",
+        "created": "2022-06-15T11:03:54.715881Z",
+        "modified": "2023-02-06T10:06:17.839546Z",
+        "latitude": 76.19076528089508,
+        "longitude": -68.63023375214209,
+        "region": "central-asia",
+        "country": "British Virgin Islands",
+        "postal_code": "59730",
+        "confidence": 91,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "my",
+                "hashes": {
+                    "MD5": "bcddd6dbfc4f9c0d4ff0ed1b99e6fbf7",
+                    "SHA-1": "2d7471b64645c94a5a068bcd2d2187ff60c2b49f",
+                    "SHA-256": "c440a3421cada9e2a7fedecf9c88064b55b79eef4f5bdc3002886bc0f198d6bd",
+                    "SHA-512": "9c97496b21ef4992b862400144e61bd53dc78656b23f284242ec85b3fcadbb33eef4c13e92186faca9a44ff7051e653e67d7aa4b8061841349eefe00302224fd",
+                    "SHA3-256": "784bfb00b4ad1d65d9ea3145c0e3a9638e61770b24ac71ed125a588b62676dc7",
+                    "SHA3-512": "887a7ebb5b7f0fe34c8c0d12a4feb1ffe4a281737d5249e8dbb17538e1cf1e24dd28189fad34936f120345bc4079fe585af83149544fde151819724e23bdaf86"
+                },
+                "external_id": "xYDReJbJqYZU"
+            },
+            {
+                "source_name": "top",
+                "url": "http://www.lyons.com/",
+                "hashes": {
+                    "MD5": "e27aea7a26b5a95c3116798af9a05a26",
+                    "SHA-1": "0ac5ac17260e4c691882d721caf32aaa48ffbc6f",
+                    "SHA-256": "f07ab6f787fd270f70a45ea211813527862328ec419697c1377e344e69b654cf",
+                    "SHA-512": "c7e9c4c377f25a45bd5fd598398472e15fd426ff7fb0437b82ee5f65e575148bfe8aff454de1cc2d3813d97e101fb5d1729ebd42b6461d306e2e7ad32ad42de5",
+                    "SHA3-256": "e17370b0219c9057e381d63a9c492711736e0f567e6c0b1a7b88c55476747b02",
+                    "SHA3-512": "151a73a693814b4749dd2a59a0f709ed979176a2ff4d8e6be27cc5f17cf38f17677544b7df0c7d4065280ba4ed0bd8c2afc34491dd01f14b02482871e62f67ea"
+                },
+                "external_id": "txPVzrwmEAdo"
+            },
+            {
+                "source_name": "thus",
+                "external_id": "ssBGJNKDzka"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2da37258-fd28-48c2-92c8-648470128315"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--7aea6b80-bd16-43d3-a156-76bfa6e512dd",
+        "created_by_ref": "identity--825ccee8-086c-4a27-9d5a-1e9d86c7e41c",
+        "created": "2020-11-14T10:57:17.414583Z",
+        "modified": "2021-10-28T00:48:43.316462Z",
+        "relationship_type": "targets",
+        "source_ref": "intrusion-set--6712c43b-9f7b-4258-a130-753fa52010bd",
+        "target_ref": "location--beef1bf4-7454-4308-9869-e5043a6e052b",
+        "stop_time": "2020-11-28T11:54:44.998422Z",
+        "confidence": 73,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2da37258-fd28-48c2-92c8-648470128315"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2da37258-fd28-48c2-92c8-648470128315",
+        "created_by_ref": "identity--825ccee8-086c-4a27-9d5a-1e9d86c7e41c",
+        "created": "2021-08-14T01:08:56.06143Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2828523e-b28d-4046-9afc-51d22e18d79b",
+                "name": "Social price record ever reveal physical each",
+                "create_date_time": "2021-08-14T01:08:08.418751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.418527Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--825ccee8-086c-4a27-9d5a-1e9d86c7e41c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-19T10:48:18.921696Z",
+        "modified": "2021-08-14T01:08:56.063126Z",
+        "name": "ProtectEastValue",
+        "identity_class": "individual",
+        "sectors": [
+            "manufacturing"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 8,
+        "object_marking_refs": [
+            "marking-definition--2da37258-fd28-48c2-92c8-648470128315"
+        ]
+    }
+]

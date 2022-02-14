@@ -1,0 +1,133 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--efad6107-57cb-488e-86cb-e46e1f9428e9",
+        "created_by_ref": "identity--60c22d96-7e44-405a-8379-d27df218e900",
+        "created": "2022-06-06T00:38:10.218607Z",
+        "modified": "2022-11-06T21:27:52.740204Z",
+        "name": "letter",
+        "threat_actor_types": [
+            "crime-syndicate",
+            "insider-accidental",
+            "insider-disgruntled",
+            "terrorist",
+            "insider-accidental"
+        ],
+        "first_seen": "2021-03-27T23:45:19.763275Z",
+        "last_seen": "2021-10-23T13:31:32.401695Z",
+        "roles": [
+            "agent"
+        ],
+        "goals": [
+            "southern",
+            "whether",
+            "significant",
+            "meeting"
+        ],
+        "sophistication": "intermediate",
+        "personal_motivations": [
+            "ideology",
+            "ideology",
+            "organizational-gain",
+            "ideology",
+            "dominance"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "vote",
+                "url": "http://green-rogers.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--38e386d9-c486-40c1-a61d-634d65bad5c7",
+        "created_by_ref": "identity--60c22d96-7e44-405a-8379-d27df218e900",
+        "created": "2021-07-07T04:45:43.557611Z",
+        "modified": "2021-11-14T22:53:02.174772Z",
+        "name": "protect",
+        "aliases": [
+            "either",
+            "full",
+            "surface"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "BzMsxopxZVvxGLCHqr",
+                "phase_name": "iuReB"
+            }
+        ],
+        "labels": [
+            "region",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "dog",
+                "url": "https://bradford.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b535535c-e538-488b-a7f5-0b4279aa7dce",
+        "created_by_ref": "identity--60c22d96-7e44-405a-8379-d27df218e900",
+        "created": "2022-03-03T11:17:08.068051Z",
+        "modified": "2023-01-16T10:07:18.752837Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--efad6107-57cb-488e-86cb-e46e1f9428e9",
+        "target_ref": "attack-pattern--38e386d9-c486-40c1-a61d-634d65bad5c7",
+        "start_time": "2021-02-28T10:39:23.607022Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "yourself",
+                "description": "During computer whatever.",
+                "url": "https://rose.com/",
+                "external_id": "nRAJttsrLpLnMEgiDi"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--60c22d96-7e44-405a-8379-d27df218e900",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-06T12:17:39.682Z",
+        "modified": "2021-08-14T01:09:32.246916Z",
+        "name": "Mcknight, Johnson and George",
+        "identity_class": "class",
+        "sectors": [
+            "education",
+            "defense",
+            "agriculture"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

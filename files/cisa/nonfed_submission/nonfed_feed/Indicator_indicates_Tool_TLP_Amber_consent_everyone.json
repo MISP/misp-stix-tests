@@ -1,0 +1,151 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--6925f0d6-7679-48bc-9ee5-57923a0b4746",
+        "created_by_ref": "identity--d15ddfea-aaa4-49f0-bc75-5ab39fe6a74b",
+        "created": "2022-04-05T16:39:18.327226Z",
+        "modified": "2023-01-26T21:40:10.825921Z",
+        "name": "will",
+        "description": "Parent paper cultural cover new raise special.",
+        "pattern": "[file:mtime >= t'2021-12-16T04:30:30.504597Z'] AND [x509-certificate:is_self_signed NOT = true AND ((x509-certificate:defanged NOT = false) AND x509-certificate:signature_algorithm <= 'perhaps')] AND [mac-addr:value NOT = '3f:97:2e:37:b3:6e']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-10-04T20:36:14.964607Z",
+        "valid_until": "2022-06-15T12:30:27.928503Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "vlxdbaFhBXHohqEveFzk",
+                "phase_name": "FdMCydOutjoiHwRNNx"
+            }
+        ],
+        "labels": [
+            "condition",
+            "race",
+            "subject",
+            "pfte-batch-1"
+        ],
+        "confidence": 79,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--c63b9e56-4dee-4456-a855-08e2e38ed597",
+        "created_by_ref": "identity--d15ddfea-aaa4-49f0-bc75-5ab39fe6a74b",
+        "created": "2022-03-15T06:25:53.692268Z",
+        "modified": "2022-07-07T17:48:55.226845Z",
+        "name": "he",
+        "tool_types": [
+            "denial-of-service",
+            "information-gathering",
+            "network-capture",
+            "vulnerability-scanning"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "tool_version": "vote",
+        "labels": [
+            "only",
+            "point",
+            "nearly",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--5be3280a-6e29-4fde-9fcc-97001d6be918",
+        "created_by_ref": "identity--d15ddfea-aaa4-49f0-bc75-5ab39fe6a74b",
+        "created": "2021-08-16T09:44:11.78224Z",
+        "modified": "2022-04-15T18:01:26.017527Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--6925f0d6-7679-48bc-9ee5-57923a0b4746",
+        "target_ref": "tool--c63b9e56-4dee-4456-a855-08e2e38ed597",
+        "stop_time": "2022-07-08T15:59:51.866467Z",
+        "labels": [
+            "hot",
+            "bring",
+            "pfte-batch-1"
+        ],
+        "confidence": 92,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "imagine",
+                "description": "Force rest this ground decide know.",
+                "url": "https://www.pierce.org/",
+                "hashes": {
+                    "MD5": "fbc4a56e23e88789ce3fbe05e1dc0183",
+                    "SHA-1": "e79f6ef7cd384f6d13a42509bae458339ee1316e",
+                    "SHA-256": "58684ec0fc3f003fb169b4efbf5205480afd8afad94973e3fb20080ee2ac3c5b",
+                    "SHA-512": "d830e7af9704345f231f8bf6474e4fab006e5cc5a0da34e929cf81532fc0e60ac23be8ea14a6e6e02562fbab4007622be0a4a9e1539b568a5f84d981b2a9b1d4",
+                    "SHA3-256": "29c18eb6585296bba386f799ca57037d641bec46cd9747b69ee41b1dd7599be0",
+                    "SHA3-512": "79e2d92a038dfa83b8c67c183516c28465d5a215b154bb6c9c2108a703c95615a4bc8c94d1fd5b49978ce5b85b65ed106f0de71296519f03825fb52a8211d435"
+                },
+                "external_id": "jFMnvnzybJeu"
+            },
+            {
+                "source_name": "rich",
+                "description": "Under wish herself role foreign old soon.",
+                "url": "http://brown.com/",
+                "hashes": {
+                    "MD5": "36c4a33b46fad4176feaeb06518d20e5",
+                    "SHA-1": "c685423c88283ead30cddc754ec4bf7beecd71bf",
+                    "SHA-256": "ebb6c3ed94e28767a98e32c73fa710841a9081fb95728f5bf043769db881d46e",
+                    "SHA-512": "5d5efefc7969f1917cd8fbc22a47577fabad99b76b113fe7de70cfb222914e8ce5a1c735b77e7dc4db4d693d7a912b3897d703f28b6666127728094adbce45e4",
+                    "SHA3-256": "c24ae9db51d1dc610ba77ba0277fe08a65dd3853aaa5b5838a03034b0b6d53d3",
+                    "SHA3-512": "06b1a79a7ea23fc8fc1a86a7e62140c0b7b253e78973dc59dd512136f4a78e73ce77d5d11bde37323cab27262dffb1a6793241f5cba59793ee16d22a0c8ef486"
+                },
+                "external_id": "yGOuvmitm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d15ddfea-aaa4-49f0-bc75-5ab39fe6a74b",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-02-26T09:29:04.935535Z",
+        "modified": "2022-06-16T03:07:46.573538Z",
+        "name": "Martinez-Scott",
+        "description": "Open-architected maximized capacity",
+        "roles": [
+            "free",
+            "reach",
+            "military",
+            "answer",
+            "sell"
+        ],
+        "contact_information": "981 Collier Haven Apt. 326\nCynthiastad, NM 00939",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 24,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

@@ -1,0 +1,161 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--0e76b504-5862-4c4a-bb23-02c511db1058",
+        "created_by_ref": "identity--23da3cc3-8017-4098-8eb3-6e29df981432",
+        "created": "2021-10-12T03:35:57.713103Z",
+        "modified": "2022-05-15T16:30:49.006083Z",
+        "name": "east",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 6,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--2fc5ae80-3244-4831-b2b1-397f59519d0e",
+        "created_by_ref": "identity--23da3cc3-8017-4098-8eb3-6e29df981432",
+        "created": "2020-11-13T09:07:56.56062Z",
+        "modified": "2021-08-14T01:08:17.421313Z",
+        "name": "hdtZPVa",
+        "latitude": -59.56423815368616,
+        "longitude": 177.32069332262972,
+        "precision": 36.937565639977045,
+        "administrative_area": "drsMj",
+        "street_address": "5543 Dixon Parks",
+        "labels": [
+            "throw",
+            "pfte-batch-1"
+        ],
+        "confidence": 11,
+        "external_references": [
+            {
+                "source_name": "example",
+                "description": "Song happen face kid.",
+                "url": "http://lindsey.net/"
+            },
+            {
+                "source_name": "do",
+                "description": "You reveal there degree its.",
+                "url": "http://www.dennis.com/",
+                "hashes": {
+                    "MD5": "87735f399753778c7b99188aa0b1204e",
+                    "SHA-1": "d83db6881ea4de443965718f1f6e19ca941832a7",
+                    "SHA-256": "4a1e8a3b5d625681db933395cd7609b6db1279e8ba4a3a96baf10037298d1990",
+                    "SHA-512": "7e0452330cbe1e12878784206d3b53f0af519a89d99bef7a0979de624bdfde46a35483bfd3e68c6745882dbd02c0922e8c00d1322f64d487e7d65d22bf5ff51e",
+                    "SHA3-256": "48d752e46ef9105ff7c469ac2ee25405dcaee23532b58c18e685311f8588d8da",
+                    "SHA3-512": "79ab9b007ac566a6b0a73da23f371f946bda77e7a90835022cf13e6c2d102ef3eb236d27be62bd49f7972100b25b60d0d35e4c13f124917a4ec2a2004aa9206c"
+                }
+            },
+            {
+                "source_name": "power",
+                "description": "National deep hard mind still event.",
+                "url": "http://sawyer.com/",
+                "hashes": {
+                    "MD5": "e64617ab91d1957c2fe40e92a20b5255",
+                    "SHA-1": "db45fd34591e37e56d6f89975e24c27d9c672282",
+                    "SHA-256": "288758fe909e5b007e9f3afdb05f917c03257f30607ec30b27813a5675007f12",
+                    "SHA-512": "505dfdcdf7487a772697085941d64d3e248f2a2c671c26fdf3a4526c55e68b81aedc0987cfa24a9f9077a343e2f45e66699334a3dc85c497e99d5b680cd60cd8",
+                    "SHA3-256": "85c7203d2a33a0bcdde2423334a0dadc27ab08193463a6dd175129d18c20b4d1",
+                    "SHA3-512": "5b3cb2f8d5534dce74e0b5b7c73ce85876ea51f6f7897b849f45f0512163a76aa8b82f50fd0b216c6d9e71b935df0da56912f43e4ccc96f7102e362c3dd99c19"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--5d48c99d-02e2-4fe4-8dca-826142cacf4f",
+        "created_by_ref": "identity--23da3cc3-8017-4098-8eb3-6e29df981432",
+        "created": "2021-07-10T05:58:55.874591Z",
+        "modified": "2022-05-13T05:26:41.211253Z",
+        "relationship_type": "targets",
+        "source_ref": "campaign--0e76b504-5862-4c4a-bb23-02c511db1058",
+        "target_ref": "location--2fc5ae80-3244-4831-b2b1-397f59519d0e",
+        "start_time": "2020-10-01T12:42:19.845757Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "eye",
+                "url": "http://www.cordova-williams.net/",
+                "hashes": {
+                    "MD5": "2553ab335b114b4045d642ee2465d3ac",
+                    "SHA-1": "86d222bd83269edb84f6d01e5b9ae9260f39a759",
+                    "SHA-256": "aff9f2190c9724c5bb8ba845e5d87776c5b4b90d01a4cb781b2a8687e92ae7c5",
+                    "SHA-512": "1e7304674061bc50d7f94c06a8379af5e981af2cbdf32ee22daef53a67ba71be48dce1a5d9ccdcbe73b751eb0abcc63c8b0cb1a3d62a5395e32df5821ddc1a28",
+                    "SHA3-256": "aa9ec236f702d6b422ee9193342f07b5c51d2e3aec4e1228a29be354e29d9776",
+                    "SHA3-512": "13c8cbfd271cecc0a5389ca13d78395f8509a74eed312efc2f8529544a6a8b7d4ac37cae17332d89ee478ca1d0fa0f21f6138679ad167d64f874fa9e902fbb6d"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--06b498b3-5747-443b-ba8b-17c9034195a0",
+        "created_by_ref": "identity--23da3cc3-8017-4098-8eb3-6e29df981432",
+        "created": "2021-03-25T17:38:05.689207Z",
+        "modified": "2021-08-14T01:08:17.422003Z",
+        "authors": [
+            "officer",
+            "travel",
+            "too",
+            "son"
+        ],
+        "opinion": "agree",
+        "object_refs": [
+            "campaign--0e76b504-5862-4c4a-bb23-02c511db1058",
+            "location--2fc5ae80-3244-4831-b2b1-397f59519d0e",
+            "relationship--5d48c99d-02e2-4fe4-8dca-826142cacf4f"
+        ],
+        "labels": [
+            "west",
+            "song",
+            "good",
+            "fish",
+            "pfte-batch-1"
+        ],
+        "confidence": 78,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--23da3cc3-8017-4098-8eb3-6e29df981432",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-09T12:29:18.478874Z",
+        "modified": "2021-08-14T01:08:17.424017Z",
+        "name": "MovementGuessFirst",
+        "sectors": [
+            "education",
+            "defense",
+            "utilities",
+            "insurance",
+            "agriculture"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

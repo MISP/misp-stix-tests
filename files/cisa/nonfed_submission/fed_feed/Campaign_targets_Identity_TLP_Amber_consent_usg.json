@@ -1,0 +1,238 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--cb431624-175b-47bf-a02a-ba1f4ea5bbb0",
+        "created_by_ref": "identity--53388c45-2e0a-4bfa-842c-933c305a3b36",
+        "created": "2022-08-01T13:27:26.749448Z",
+        "modified": "2023-07-03T18:30:06.603236Z",
+        "name": "less",
+        "aliases": [
+            "through",
+            "set",
+            "like"
+        ],
+        "objective": "Product sell executive the usually.",
+        "labels": [
+            "save",
+            "appear",
+            "establish",
+            "pfte-batch-1"
+        ],
+        "confidence": 2,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "reduce",
+                "description": "Group identify prepare hundred support."
+            },
+            {
+                "source_name": "quality",
+                "description": "Indicate size four."
+            },
+            {
+                "source_name": "bag",
+                "description": "Happy deep deep single have century report.",
+                "url": "http://www.brown-warren.com/",
+                "external_id": "nvXraLUH"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--293f8043-8ab3-4f1e-8dc1-c666046513fb"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--087746a3-60d1-464e-8522-787e6fdb0ae6",
+        "created_by_ref": "identity--53388c45-2e0a-4bfa-842c-933c305a3b36",
+        "created": "2020-11-02T13:14:25.937082Z",
+        "modified": "2021-08-14T01:08:16.121109Z",
+        "name": "Carpenter-Cook",
+        "roles": [
+            "sport",
+            "never",
+            "song"
+        ],
+        "sectors": [
+            "defense",
+            "water",
+            "construction"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "ready",
+                "description": "Eat gun party.",
+                "url": "https://turner-greer.com/",
+                "external_id": "OTHUfluDDIevQxH"
+            },
+            {
+                "source_name": "choice",
+                "description": "Film myself treatment market these public."
+            },
+            {
+                "source_name": "growth",
+                "description": "Every deep listen difficult many.",
+                "external_id": "CrLTScgAfoT"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--293f8043-8ab3-4f1e-8dc1-c666046513fb"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3dbd9d7b-42e7-47bd-9962-a6778788ffe7",
+        "created_by_ref": "identity--53388c45-2e0a-4bfa-842c-933c305a3b36",
+        "created": "2022-07-17T09:50:41.385996Z",
+        "modified": "2023-02-04T15:42:40.351315Z",
+        "relationship_type": "targets",
+        "source_ref": "campaign--cb431624-175b-47bf-a02a-ba1f4ea5bbb0",
+        "target_ref": "identity--087746a3-60d1-464e-8522-787e6fdb0ae6",
+        "start_time": "2022-01-05T15:59:03.962801Z",
+        "stop_time": "2022-02-15T00:30:48.426315Z",
+        "confidence": 2,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--293f8043-8ab3-4f1e-8dc1-c666046513fb"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--293f8043-8ab3-4f1e-8dc1-c666046513fb",
+        "created_by_ref": "identity--53388c45-2e0a-4bfa-842c-933c305a3b36",
+        "created": "2021-08-14T01:08:16.119897Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2a4a5944-494c-4a33-b0ba-c70e719ee1c8",
+                "name": "Room arrive pay often",
+                "create_date_time": "2021-08-14T01:08:08.421032Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--53388c45-2e0a-4bfa-842c-933c305a3b36",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-06-04T18:27:16.689687Z",
+        "modified": "2023-05-23T16:33:09.889715Z",
+        "name": "Roy Group",
+        "description": "Automated grid-enabled matrices",
+        "roles": [
+            "also",
+            "present",
+            "avoid",
+            "decide"
+        ],
+        "sectors": [
+            "dams"
+        ],
+        "contact_information": "62597 Hawkins Glens\nWest Justin, SC 23844",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "local",
+                "description": "Term seven whose gun.",
+                "hashes": {
+                    "MD5": "41d95a6dcfaf972ff86932136971b736",
+                    "SHA-1": "5cd5f7246c60a023fa0617d990eae19c0a902f5a",
+                    "SHA-256": "e77ddcc5a058ad87663d1b56bdb2bab5409e9f86fdc973ae11d6aadbdf8d673a",
+                    "SHA-512": "f10ec1054f9c8d5c40dfd67c9ef1ba459fcd8f2dc313cdb7ed44d8c4856fd66bec8fed4f984a5e18a1039300e7cda513f40111175213d7563d64afb2af4ecffa",
+                    "SHA3-256": "cd5088ff6671d736cc1879c2ccc8073ff83bb28b3621776c844da0c0c4440f68",
+                    "SHA3-512": "6ac269d62bd1a2aae855c23b5f6e12f0b7623949f57582f56031e9274acdd8093b8bb4a3647c4c4498b04d1835ec93964f497a6aec17a026b5acf8d4ac961806"
+                },
+                "external_id": "Mgpct"
+            },
+            {
+                "source_name": "threat",
+                "description": "Office when air part under trade bit.",
+                "url": "http://roberts.com/",
+                "external_id": "uZZotvMNQwfmEKjjRH"
+            },
+            {
+                "source_name": "role",
+                "description": "Say field listen room offer miss.",
+                "url": "http://moran.com/",
+                "hashes": {
+                    "MD5": "89c2272545c53fdb5f940eb0f4dd93b4",
+                    "SHA-1": "f2f0989dfa1d166d48b8eaec454e995fddcb78c7",
+                    "SHA-256": "7ce0064783b9eff5221fa22f29a2ddbdc537db0bbc4e0c9e8e0fcbb9c9f6d64c",
+                    "SHA-512": "60fb2717aa5932b207b66bd281e0e6f67b13ab5faf1a2e8e55983e0f19fdb2f1065cf9e42c684019a440c453b77781760d0a9eccbd2934fb2ea3f4fe270ca7fb",
+                    "SHA3-256": "7464311576047dc3b9ec3873dd9cd34a560bfc6029a9c1b0f3322c9f15c72ddd",
+                    "SHA3-512": "b3f49702d2aa0645a0e65fe888742b7afdd4019a9dc1c389012f3eeb3ad8e0070c54c71919e71b645a8703127c716029eb0261126127c6ee1063e208d48a7739"
+                },
+                "external_id": "tHAlSsAGdyQlRwEkn"
+            },
+            {
+                "source_name": "option",
+                "description": "Travel product finish coach us science brother.",
+                "url": "http://rogers.info/",
+                "external_id": "CNoZKUBPuefl"
+            },
+            {
+                "source_name": "glass",
+                "description": "From view reason successful ago have song.",
+                "url": "https://burke.biz/",
+                "external_id": "SgtPC"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--293f8043-8ab3-4f1e-8dc1-c666046513fb"
+        ]
+    }
+]

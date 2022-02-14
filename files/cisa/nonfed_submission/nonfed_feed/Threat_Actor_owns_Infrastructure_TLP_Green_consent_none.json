@@ -1,0 +1,106 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--4fc20c65-3b3f-4dd7-809a-d44f41b33954",
+        "created_by_ref": "identity--cbb78b57-1a7a-4c14-a36e-a712de09afc9",
+        "created": "2021-01-15T08:49:44.421949Z",
+        "modified": "2021-08-14T01:09:27.132517Z",
+        "name": "ten",
+        "aliases": [
+            "beautiful",
+            "that",
+            "class",
+            "same"
+        ],
+        "last_seen": "2020-09-18T09:44:40.634364Z",
+        "secondary_motivations": [
+            "unpredictable",
+            "organizational-gain",
+            "dominance",
+            "personal-satisfaction"
+        ],
+        "personal_motivations": [
+            "dominance",
+            "dominance",
+            "dominance"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 69,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--077cd27b-f36b-4118-851d-abe5dc4f3236",
+        "created_by_ref": "identity--cbb78b57-1a7a-4c14-a36e-a712de09afc9",
+        "created": "2022-06-23T12:53:54.179335Z",
+        "modified": "2023-03-24T15:21:56.084341Z",
+        "name": "participant",
+        "infrastructure_types": [
+            "phishing",
+            "hosting-malware",
+            "phishing",
+            "staging"
+        ],
+        "first_seen": "2022-04-06T02:29:09.551395Z",
+        "labels": [
+            "service",
+            "pfte-batch-1"
+        ],
+        "confidence": 30,
+        "external_references": [
+            {
+                "source_name": "station",
+                "url": "https://thompson.org/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8c95cbe8-c2f2-4648-8ec1-5381f8eca3a2",
+        "created_by_ref": "identity--cbb78b57-1a7a-4c14-a36e-a712de09afc9",
+        "created": "2020-01-18T17:27:51.128115Z",
+        "modified": "2021-08-14T01:09:27.133159Z",
+        "relationship_type": "owns",
+        "source_ref": "threat-actor--4fc20c65-3b3f-4dd7-809a-d44f41b33954",
+        "target_ref": "infrastructure--077cd27b-f36b-4118-851d-abe5dc4f3236",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--cbb78b57-1a7a-4c14-a36e-a712de09afc9",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-01-27T08:10:34.565361Z",
+        "modified": "2022-09-19T09:59:15.082288Z",
+        "name": "CanDirectorDown",
+        "roles": [
+            "chance"
+        ],
+        "identity_class": "class",
+        "contact_information": "99992 Lisa View\nBrendamouth, UT 45238",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 52,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

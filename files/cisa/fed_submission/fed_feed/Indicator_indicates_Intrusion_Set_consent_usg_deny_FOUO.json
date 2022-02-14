@@ -1,0 +1,197 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--6d0a15e2-6cbf-4157-93d9-d9bb09323ea4",
+        "created_by_ref": "identity--23c9f880-d9ae-4528-8308-36bcc814fa58",
+        "created": "2021-01-04T18:47:12.339068Z",
+        "modified": "2021-08-14T01:08:31.562772Z",
+        "description": "Course when piece value any.",
+        "pattern": "[domain-name:defanged NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-05-19T13:02:04.973945Z",
+        "confidence": 40,
+        "external_references": [
+            {
+                "source_name": "big",
+                "url": "https://www.grant.net/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c9065b51-b40a-4e41-9582-a51a9e7f732a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--cbda205e-0a1a-4759-bc68-5f3b622cfef6",
+        "created_by_ref": "identity--23c9f880-d9ae-4528-8308-36bcc814fa58",
+        "created": "2019-12-10T10:44:58.360587Z",
+        "modified": "2021-08-14T01:08:31.563666Z",
+        "name": "travel",
+        "resource_level": "government",
+        "secondary_motivations": [
+            "coercion",
+            "notoriety"
+        ],
+        "object_marking_refs": [
+            "marking-definition--c9065b51-b40a-4e41-9582-a51a9e7f732a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--52a46815-bb9a-4774-af57-322d7f5d4120",
+        "created_by_ref": "identity--23c9f880-d9ae-4528-8308-36bcc814fa58",
+        "created": "2022-08-05T16:13:33.349143Z",
+        "modified": "2022-11-15T00:58:30.433894Z",
+        "relationship_type": "indicates",
+        "description": "Go he our fill price child according board. Find ask positive far establish appear. Early customer off discussion call allow. However he list team.",
+        "source_ref": "indicator--6d0a15e2-6cbf-4157-93d9-d9bb09323ea4",
+        "target_ref": "intrusion-set--cbda205e-0a1a-4759-bc68-5f3b622cfef6",
+        "start_time": "2021-03-12T22:02:44.795577Z",
+        "stop_time": "2021-07-30T03:12:50.345564Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c9065b51-b40a-4e41-9582-a51a9e7f732a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--23c9f880-d9ae-4528-8308-36bcc814fa58",
+        "created_by_ref": "identity--23c9f880-d9ae-4528-8308-36bcc814fa58",
+        "created": "2022-06-22T01:31:19.20885Z",
+        "modified": "2022-12-20T08:46:34.998564Z",
+        "name": "Ramirez, Ford and Edwards",
+        "description": "Phased local workforce",
+        "sectors": [
+            "hospitality-leisure",
+            "dams",
+            "water"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "break",
+                "url": "http://brady.com/",
+                "hashes": {
+                    "MD5": "ad5561c30d7064e742ced2f98d912e5b",
+                    "SHA-1": "9e2dafec13723c3d0e183b12faec4ab3a5b07282",
+                    "SHA-256": "728dd6d8c175f9d3c8c817af207acb9e699eb9235e412bbf1e7e931c62db1849",
+                    "SHA-512": "171526bde2310dffb39b0de533eb71fb35585fa2033eaf57363167ea78c217dab20ff8227cb4f7d99fef2533c3d40134901be385110c3131035a5aebcddfd251",
+                    "SHA3-256": "82738d40d90473e5e32252259c437fb304a091c5c360251a963ac5e8a3921e8b",
+                    "SHA3-512": "c09fe0df374f5da8ba851949ba9257d9d0ef2ceaabca5b7214296382346c70e5f26fc3dd1222ac7943b1299ef47203ed01941602503791b8a46b8b4cd4b7b2de"
+                },
+                "external_id": "QQBnjVLf"
+            },
+            {
+                "source_name": "write",
+                "description": "Follow happen present ok song people.",
+                "external_id": "LBfrBt"
+            },
+            {
+                "source_name": "describe",
+                "description": "Firm tax open.",
+                "url": "http://burns.com/"
+            },
+            {
+                "source_name": "economy",
+                "description": "Certainly large save enjoy blood various success.",
+                "url": "https://chang-clark.net/",
+                "hashes": {
+                    "MD5": "ef5550a83f367d09b0ac68d42c3a18a5",
+                    "SHA-1": "ede3b6d6d9d317fc339bf8a31c731d6df19e34ba",
+                    "SHA-256": "72dd9340e1f60a490291134f68852e55a899cd458450a30238af7cdbdc1843b2",
+                    "SHA-512": "809a76b511d2bb5479bf6f0cc9f9fc0a0207747b5a75247e12be7539fe2b1566f7d1dd80aef4ac600e93ccee13b418ee0759fa21717387e9a985fe17a64a8f2a",
+                    "SHA3-256": "32b6b0829cb22d5f89eb8fdeeb6bcb9f4b65119797ba2348a7ab15eab98e2f1a",
+                    "SHA3-512": "1405f44ee89ef87485b86b333c1ba93fe270986b83cdfb2cd48cfd01b0ff038816a8984c8b7321a7502359e79b3309ab755dec31081ddb7e5ece84349ecd3555"
+                }
+            },
+            {
+                "source_name": "various",
+                "description": "Address not able marriage choice.",
+                "url": "https://www.atkins-mcclain.com/",
+                "hashes": {
+                    "MD5": "502cb3a0bc10d8cbdc55482140d1880f",
+                    "SHA-1": "ccbe1b35a0cb7f388a489a1ea608a86788d9b64e",
+                    "SHA-256": "4e6c04f0a9fecc4baf9f254155bd5b15572dc3fe94420ec2d0fba58dfec5cde0",
+                    "SHA-512": "aee840aedf4599c9ce1ef45591b24124c4475c68126738b87fe2dc8a665ba8a57bc8e72ad1a707aea0f8adc8a28b0014640d5bae4cc5b5ad07c3b4d602fbc678",
+                    "SHA3-256": "965cf6ed33cd7e0588d8174288850383c464dfb19861557ccb9920275b86dfbd",
+                    "SHA3-512": "ac53cf48a0bfa942f680db51680015688c4eb4a9c28ccaf47ffcf199484eb245a450dc0de4f71d8ae8b3ef316d1ea4d00508b47c1be6b6251beb4ee612f65ab3"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c9065b51-b40a-4e41-9582-a51a9e7f732a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--c9065b51-b40a-4e41-9582-a51a9e7f732a",
+        "created": "2021-08-14T01:08:31.562123Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a2bad07a-f4d3-4efb-a81b-2cf0c0637fc9",
+                "name": "Our concern loss resource wear",
+                "create_date_time": "2021-08-14T01:08:08.426882Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

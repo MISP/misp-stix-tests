@@ -1,0 +1,195 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--bd0beaa8-1ee5-4b04-b20e-376dbd10fd24",
+        "created_by_ref": "identity--95f75211-d6e7-4515-8885-6c6e25029a27",
+        "created": "2022-05-22T18:45:58.591574Z",
+        "modified": "2022-10-22T00:32:43.652649Z",
+        "name": "policy",
+        "aliases": [
+            "employee",
+            "save"
+        ],
+        "labels": [
+            "arm",
+            "seat",
+            "data",
+            "while",
+            "pfte-batch-1"
+        ],
+        "confidence": 97,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "student",
+                "url": "https://jordan.net/",
+                "hashes": {
+                    "MD5": "73373b6c3276eff832a900571e5caca5",
+                    "SHA-1": "b454f3cc7d7d5146a61d5eb11e9f99dc5c33a886",
+                    "SHA-256": "5a0dbefed613bc8cbd7de23245e25b9ee1014294b2073257bacde7435acd4692",
+                    "SHA-512": "e26e823193b066d2d47861716e4f8de7a55f83c32627536eda306d7dfd2932c6c2d201f02f321112e89df67a207a1daa664aea01c1875cad9bfe262c33f0d0d2",
+                    "SHA3-256": "92bcb960f056dea48ecb70df77f7c2f9160e161c8cb13210f471aa8ebc67a38b",
+                    "SHA3-512": "60442e1f854d59523229376b9e5a80537b37cc80d1f4b0a34c6d5834c65d19000d8ec5e276585f33c704995f9de66da5c3db9840bf576cb965fbcbef8cc44352"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--81fedc70-dec6-4ea6-a289-c1ba91ce5497",
+        "created_by_ref": "identity--95f75211-d6e7-4515-8885-6c6e25029a27",
+        "created": "2021-12-27T20:36:51.255137Z",
+        "modified": "2022-01-26T04:14:26.984468Z",
+        "name": "Gray, Rogers and Marquez",
+        "description": "Integrated homogeneous superstructure",
+        "roles": [
+            "sound",
+            "time"
+        ],
+        "sectors": [
+            "emergency-services",
+            "manufacturing",
+            "entertainment",
+            "hospitality-leisure",
+            "government"
+        ],
+        "contact_information": "533 Amy Points\nPort Joseshire, PA 90576",
+        "labels": [
+            "send",
+            "house",
+            "pfte-batch-1"
+        ],
+        "confidence": 47,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--695602b9-f884-4954-af99-241fe5141028",
+        "created_by_ref": "identity--95f75211-d6e7-4515-8885-6c6e25029a27",
+        "created": "2022-06-28T01:07:15.059599Z",
+        "modified": "2022-07-22T12:25:41.105178Z",
+        "relationship_type": "targets",
+        "source_ref": "attack-pattern--bd0beaa8-1ee5-4b04-b20e-376dbd10fd24",
+        "target_ref": "identity--81fedc70-dec6-4ea6-a289-c1ba91ce5497",
+        "start_time": "2021-03-16T04:24:54.109439Z",
+        "stop_time": "2021-10-18T06:33:11.132596Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 92,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "education",
+                "description": "Develop boy middle during meet brother.",
+                "url": "http://www.nguyen.com/",
+                "hashes": {
+                    "MD5": "3a9f3631c78ed991745fcdd03a5355e1",
+                    "SHA-1": "8ffba48c423043f5cbbd91f74079b2d32b042cf1",
+                    "SHA-256": "771639f54dafb9887798ecd4e9606c57a71a4bd59f9a0513588294cb29894162",
+                    "SHA-512": "e9fae3143ef3ed6d5ec25b8ffbacb8d3bc098c397a87f32410511db4fc92977983abfef6290b9f66758e4eefdfb1f19abc6036234383e8acc8148a6af0a0e50a",
+                    "SHA3-256": "35742f1c255986d44e181a4c557f3b86287d444890d4299f41bc4c3394ee560d",
+                    "SHA3-512": "ee919f7695562f76270bfb6d4fecce68502a67211edf567acc6d0f4ce319ecc269563e24d0c34f0273ccdf2b0970127a0d8d4a7482d7b6fcf2b1293c0fb60fb1"
+                },
+                "external_id": "SIDwBDDrv"
+            },
+            {
+                "source_name": "her",
+                "description": "Shoulder she walk analysis cause wide party.",
+                "url": "https://www.riley.info/",
+                "external_id": "OxclABGzjkwyxVRtkJ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--95f75211-d6e7-4515-8885-6c6e25029a27",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-10T06:39:44.63334Z",
+        "modified": "2022-03-10T17:00:22.523335Z",
+        "name": "PaintingImageTalk",
+        "description": "Reactive upward-trending access",
+        "identity_class": "system",
+        "sectors": [
+            "telecommunications",
+            "insurance",
+            "communications",
+            "entertainment"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "back",
+                "description": "Out process cause old shoulder just until miss.",
+                "url": "http://hernandez-king.biz/",
+                "hashes": {
+                    "MD5": "bd6abf3845fd736152bf2686a40bd1e8",
+                    "SHA-1": "6c6a3a5f96be899b93df65a77fdf1383e6c2fc34",
+                    "SHA-256": "79164cb1d263e15d98639702ccfbf5c9ea850424717f5457a30679dc696d501e",
+                    "SHA-512": "8789cb80847a4ace0ff10825de715882992cd887311c74dca9ccc4f25269eb702b8c197f8b5aef8aab5bea80005859b9a6e6aa4d5eb5fdface93bf85d065bfea",
+                    "SHA3-256": "4ba9d15637c8b9c66b7d17027b81f96e65d1d9486bdd9a5435e079ff92196255",
+                    "SHA3-512": "55b407df61165de185231b565454f4a1887b24288b514befb045082ece1920a0b30c1978675ef0852feffa6d4881fecd0696a89b7d1dba152c0cf3d6b7ec0148"
+                },
+                "external_id": "BCvqaQXl"
+            },
+            {
+                "source_name": "black",
+                "description": "Set relationship respond treatment road human.",
+                "url": "http://gordon.com/",
+                "hashes": {
+                    "MD5": "85a59eab62fa1ca2e49312403488ddf7",
+                    "SHA-1": "8216bcc468cf7faf390604c6164f7f723ff7e46a",
+                    "SHA-256": "d8df10514f84d6a933c324411bec7e54b5386050213cc0d8b2bb787c01e68e19",
+                    "SHA-512": "db2cffa6a7fa757da66c399b41a9ca851c5a6163af8ee85e442838de04a94a6d98d2f844525af0e80d45365e4d35f2c754754d10a8f788382ac607b4555a5932",
+                    "SHA3-256": "d6c9bedee82be75cf4215cc57da09816529dc2f4d717d4b8ca0a9000a5f06ffb",
+                    "SHA3-512": "bc30c5cba6f61062dd5ef74e55d3fbc8e699b26816da6cc8cdb7ce6cb72d556daa10e158277bab8f369511194f4b0b2bd4b2e8c99762dccd88e4d64228b3943a"
+                },
+                "external_id": "sdqJmXvlzJZBwPW"
+            },
+            {
+                "source_name": "house",
+                "description": "Public goal number else.",
+                "external_id": "LzbYFjdfEoJIdDOge"
+            },
+            {
+                "source_name": "stay",
+                "description": "Become building teacher room later.",
+                "url": "http://parks.net/",
+                "hashes": {
+                    "MD5": "647969eab6e6563ce39eb8bd9a8ed00a",
+                    "SHA-1": "eda7fd9f0de3104696c58a84f2e336192e5225b9",
+                    "SHA-256": "37b8a632941000fe84ead67df667bf072d982b8657db63465c2f959157ec28db",
+                    "SHA-512": "846c1c364190d5803d7bc4259b99ca9af6084c5fd6da5158a6994ccc83cdfaa5f2f0075faa8c4f4e6c960b72b5d03cb8129a70bc17be4e0250b4edbd0a4aee6c",
+                    "SHA3-256": "186291bc32924c705e3d6a2490b57dea21a3e666012d57ec9533de67716dc65e",
+                    "SHA3-512": "31ea4c7f998e9f2d4e99ba8bbb6da421fe8a72e6c1cb368b022ef3f869c191033b3f50bb79766cdb7ed253b14cad4a35434d3fb9584dbbea4835e6e412468230"
+                },
+                "external_id": "ECniuDoR"
+            },
+            {
+                "source_name": "buy",
+                "description": "Turn compare system Democrat seat money ask.",
+                "external_id": "jkFbcDbIvpqedYnhca"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

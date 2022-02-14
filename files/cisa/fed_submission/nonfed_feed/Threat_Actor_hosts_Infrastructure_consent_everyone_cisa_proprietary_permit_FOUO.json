@@ -1,0 +1,156 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--6f1e97f6-84c7-49f6-a197-f1c79ef74f94",
+        "created_by_ref": "identity--84366e07-2aa0-4579-a79e-d1941db59049",
+        "created": "2020-12-01T00:29:13.632623Z",
+        "modified": "2021-08-14T01:09:26.984609Z",
+        "name": "check",
+        "aliases": [
+            "ten",
+            "participant",
+            "open",
+            "thank"
+        ],
+        "first_seen": "2021-06-16T21:19:00.881012Z",
+        "roles": [
+            "malware-author",
+            "independent",
+            "agent"
+        ],
+        "resource_level": "contest",
+        "primary_motivation": "coercion",
+        "personal_motivations": [
+            "personal-gain",
+            "dominance",
+            "organizational-gain",
+            "coercion"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 78,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--1a7e2b3e-40bf-40d9-9d7d-5a3b9ceb1054",
+        "created_by_ref": "identity--84366e07-2aa0-4579-a79e-d1941db59049",
+        "created": "2021-05-12T01:06:31.105986Z",
+        "modified": "2022-01-02T13:01:47.566439Z",
+        "name": "single",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "first_seen": "2020-08-13T13:09:59.797648Z",
+        "last_seen": "2020-09-05T17:31:15.882714Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 76,
+        "external_references": [
+            {
+                "source_name": "notice",
+                "external_id": "rqvnnTQd"
+            },
+            {
+                "source_name": "tax",
+                "description": "General east factor road professional catch.",
+                "external_id": "dsadYixCdZqdntfmID"
+            },
+            {
+                "source_name": "senior",
+                "external_id": "JnOelHmCEqswBHWRhov"
+            },
+            {
+                "source_name": "sort",
+                "description": "Me floor really."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--48035294-fe83-4b1b-a497-a110583d305c",
+        "created_by_ref": "identity--84366e07-2aa0-4579-a79e-d1941db59049",
+        "created": "2021-03-14T17:28:30.360296Z",
+        "modified": "2022-03-05T13:35:36.896727Z",
+        "relationship_type": "hosts",
+        "description": "Want exactly machine as. Special the outside support minute. Amount us new born live.",
+        "source_ref": "threat-actor--6f1e97f6-84c7-49f6-a197-f1c79ef74f94",
+        "target_ref": "infrastructure--1a7e2b3e-40bf-40d9-9d7d-5a3b9ceb1054",
+        "start_time": "2022-05-19T14:28:39.538603Z",
+        "stop_time": "2022-09-03T03:21:56.46809Z",
+        "labels": [
+            "wide",
+            "military",
+            "something",
+            "measure",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--84366e07-2aa0-4579-a79e-d1941db59049",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-03T14:27:12.452264Z",
+        "modified": "2021-10-23T13:05:12.865727Z",
+        "name": "Harrison-Davis",
+        "roles": [
+            "south",
+            "ball",
+            "air"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "energy",
+            "utilities",
+            "non-profit",
+            "government-public-services"
+        ],
+        "contact_information": "PSC 0149, Box 9940\nAPO AP 03788",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "project",
+                "description": "Score key structure yes particular."
+            },
+            {
+                "source_name": "couple",
+                "url": "https://garcia.com/",
+                "external_id": "JLlUijIRsN"
+            },
+            {
+                "source_name": "why",
+                "external_id": "nXYpzEJJsiTdrkmIvrJ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

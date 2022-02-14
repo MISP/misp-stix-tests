@@ -1,0 +1,253 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--41e1dae3-18da-4460-a046-fbaadecf866f",
+        "created_by_ref": "identity--e97f5c15-ec59-4f04-90ab-2732a8d2246c",
+        "created": "2021-06-27T14:11:40.257856Z",
+        "modified": "2021-09-06T07:48:52.165383Z",
+        "name": "appear",
+        "description": "Area establish mind according bit successful.",
+        "first_seen": "2019-11-26T09:31:34.312782Z",
+        "last_seen": "2020-09-05T12:15:52.822162Z",
+        "roles": [
+            "infrastructure-architect"
+        ],
+        "sophistication": "minimal",
+        "personal_motivations": [
+            "notoriety",
+            "accidental",
+            "personal-satisfaction"
+        ],
+        "confidence": 76,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c5b15239-630d-4589-bdbd-13c4286e6852"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--911bde9e-491e-49bf-8a4e-2cea8837ee39",
+        "created_by_ref": "identity--e97f5c15-ec59-4f04-90ab-2732a8d2246c",
+        "created": "2021-02-04T19:53:48.95404Z",
+        "modified": "2021-10-26T19:25:33.624312Z",
+        "name": "choice",
+        "description": "Name design serious structure.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "first_seen": "2020-03-30T10:23:47.662725Z",
+        "last_seen": "2020-12-11T16:15:10.585895Z",
+        "confidence": 29,
+        "object_marking_refs": [
+            "marking-definition--c5b15239-630d-4589-bdbd-13c4286e6852"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--edec81ae-fef6-4e70-9e66-d8c65c7896a2",
+        "created_by_ref": "identity--e97f5c15-ec59-4f04-90ab-2732a8d2246c",
+        "created": "2021-12-22T23:24:12.257243Z",
+        "modified": "2022-08-25T10:44:31.100129Z",
+        "relationship_type": "owns",
+        "description": "Member still how age drop. Shake wind decide maintain.",
+        "source_ref": "threat-actor--41e1dae3-18da-4460-a046-fbaadecf866f",
+        "target_ref": "infrastructure--911bde9e-491e-49bf-8a4e-2cea8837ee39",
+        "start_time": "2022-03-08T21:49:14.118777Z",
+        "stop_time": "2023-01-12T09:24:31.64754Z",
+        "labels": [
+            "challenge",
+            "anyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "already",
+                "description": "Role modern interest entire to.",
+                "url": "http://www.blankenship.com/",
+                "hashes": {
+                    "MD5": "e843b687d74731799f3df820f6338436",
+                    "SHA-1": "0d466e16ccd2e200865f7e36c7d746c168cb9747",
+                    "SHA-256": "04b922594981930c6456f8f5559c42aa7af268ff45fc2c8f9e37131a4ffd9518",
+                    "SHA-512": "b7686e7896ba8c3bd307bcdea1e2c5abb0a71b309b5fa5bcd13ea02f938d8478e5186f66645b58244576df8e8aeb64c72478776ceed4d61ceeac62cc4a3d5667",
+                    "SHA3-256": "f772f873ba5c9cf181a8c576b8eb397755483d01c7782615aa6cc3576ac89d0d",
+                    "SHA3-512": "f12b1819e639aaa89f1befddc4463e91f30e631b7df2388935cea775e740b4c787c98da99932a58488a41666437c672577a3028e65132cad94968c2695a3a777"
+                },
+                "external_id": "sZKRLZXHknS"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c5b15239-630d-4589-bdbd-13c4286e6852"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--5db7cdf8-48b8-4395-9ad7-e17a4a488da6",
+        "created_by_ref": "identity--e97f5c15-ec59-4f04-90ab-2732a8d2246c",
+        "created": "2022-01-04T06:51:00.183756Z",
+        "modified": "2022-07-20T15:39:59.520445Z",
+        "content": "Alone leave capital positive mouth light. Carry he act. Again more tell animal.",
+        "authors": [
+            "factor"
+        ],
+        "object_refs": [
+            "threat-actor--41e1dae3-18da-4460-a046-fbaadecf866f",
+            "infrastructure--911bde9e-491e-49bf-8a4e-2cea8837ee39",
+            "relationship--edec81ae-fef6-4e70-9e66-d8c65c7896a2"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c5b15239-630d-4589-bdbd-13c4286e6852"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e97f5c15-ec59-4f04-90ab-2732a8d2246c",
+        "created_by_ref": "identity--e97f5c15-ec59-4f04-90ab-2732a8d2246c",
+        "created": "2020-10-10T20:00:34.939586Z",
+        "modified": "2021-08-14T01:09:27.89312Z",
+        "name": "Pennington, Davis and Clark",
+        "description": "Enterprise-wide client-driven core",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "while",
+                "url": "http://mitchell.com/",
+                "external_id": "yOIwWC"
+            },
+            {
+                "source_name": "employee",
+                "description": "Feel rich until author bar cut someone.",
+                "hashes": {
+                    "MD5": "5e026ac95df4ac2975156777e108ead9",
+                    "SHA-1": "d75fe22b7949f5dec63bb0e483e2ba55d669f92d",
+                    "SHA-256": "5b69c9de4f22bccfe1676e9cf7e161797ca2c88ac1e59a8fdc3c5a9e2ba466bd",
+                    "SHA-512": "4c4033878c63b938d3f4f5faa9d262c9df7b2fd684adad655d432a1ae00225d0ba714f3d9a984de42919a6227cb66777ca0ed53ac7dccc50c3c2685c4226800f",
+                    "SHA3-256": "a087a6aa6a3f09f8448b54c8e4a5be0a9a18884d7be7a1c03cd1395c375ef830",
+                    "SHA3-512": "baa572b09ef7020f8bd357301b95dd7e6c6aa3148d0eef315f90d0ba118c47a32980078dab91232bb787851e16122dcc9736029d0f220c590c3dd9ca123dabcf"
+                },
+                "external_id": "JNqlMSHFn"
+            },
+            {
+                "source_name": "religious",
+                "url": "https://www.mcclain-morrow.net/"
+            },
+            {
+                "source_name": "speak",
+                "description": "Yeah hotel article over trade pay.",
+                "url": "https://www.barrett.com/",
+                "hashes": {
+                    "MD5": "46ec606ff4d2f7595e632030dbe6f764",
+                    "SHA-1": "b2260affb430aaf1ca41a4ecd2bd88ff4a2f2c6d",
+                    "SHA-256": "bf27df1432d3321e756feb76290f2ed0dba7e8bcfa6be8fb5535ec379cce3ca7",
+                    "SHA-512": "5cb58baee60d166c7c4af42a3d9b4211c87eee478567b48b884569d84f078527f1c3b59ef5d261feff14ce7e8e70b801ef9b1db0198ff6983080bb5060fd9f64",
+                    "SHA3-256": "257fbe6a7dac68a4a5289cde62b63a8ec515a2cc9ee4ab4696fad24740a6312a",
+                    "SHA3-512": "c92b1fa5a447aab742a82818d8600e1a1d363b858425e95f37d3e359ade9fd0353fcef6b96efcd19a74a5f7dd9deedaa15954ce228393ad65a042ec5fc1a1208"
+                }
+            },
+            {
+                "source_name": "direction",
+                "url": "http://gonzales-hawkins.net/",
+                "external_id": "FwhLBBsbNHFW"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c5b15239-630d-4589-bdbd-13c4286e6852"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--c5b15239-630d-4589-bdbd-13c4286e6852",
+        "created": "2021-08-14T01:09:27.890312Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6d40bd19-4710-4b69-9440-86c8c2a858b4",
+                "name": "Purpose response respond always trouble later investment",
+                "create_date_time": "2021-08-14T01:08:08.431664Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.4315Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

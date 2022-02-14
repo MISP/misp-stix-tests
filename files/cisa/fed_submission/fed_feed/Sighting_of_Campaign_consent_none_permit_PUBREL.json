@@ -1,0 +1,113 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--3cf986da-d6de-42ee-b5ab-a8668471dbfc",
+        "created_by_ref": "identity--78fb4fab-b569-4a6d-bd2c-740a64a653c6",
+        "created": "2022-04-18T07:16:07.176979Z",
+        "modified": "2023-02-08T04:10:58.924844Z",
+        "name": "with",
+        "last_seen": "2022-07-05T11:59:32.15089Z",
+        "objective": "Any industry purpose tend section suffer picture evening.",
+        "labels": [
+            "issue",
+            "region",
+            "dark",
+            "water",
+            "view",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "truth",
+                "url": "http://www.parrish.com/",
+                "external_id": "yNBtVBfQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--55357820-fd5a-45a3-972c-3774983a67c0"
+        ]
+    },
+    {
+        "type": "sighting",
+        "spec_version": "2.1",
+        "id": "sighting--1073b0b6-68b6-4012-95e2-09713dc93f39",
+        "created_by_ref": "identity--78fb4fab-b569-4a6d-bd2c-740a64a653c6",
+        "created": "2022-07-30T10:37:45.357675Z",
+        "modified": "2022-11-18T02:29:32.562512Z",
+        "first_seen": "2021-09-09T09:15:47.720752Z",
+        "last_seen": "2022-02-06T08:38:04.944085Z",
+        "sighting_of_ref": "campaign--3cf986da-d6de-42ee-b5ab-a8668471dbfc",
+        "confidence": 19,
+        "object_marking_refs": [
+            "marking-definition--55357820-fd5a-45a3-972c-3774983a67c0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--78fb4fab-b569-4a6d-bd2c-740a64a653c6",
+        "created_by_ref": "identity--78fb4fab-b569-4a6d-bd2c-740a64a653c6",
+        "created": "2021-01-20T20:00:57.036754Z",
+        "modified": "2021-08-14T01:09:41.349279Z",
+        "name": "Galvan, Mitchell and Wong",
+        "description": "Integrated bifurcated emulation",
+        "roles": [
+            "beat",
+            "stage"
+        ],
+        "sectors": [
+            "water",
+            "retail",
+            "financial-services"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--55357820-fd5a-45a3-972c-3774983a67c0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--55357820-fd5a-45a3-972c-3774983a67c0",
+        "created": "2021-08-14T01:09:41.347696Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fb4e63d-338f-4f0a-b771-dd937b9aaabe",
+                "name": "Human on join spring",
+                "create_date_time": "2021-08-14T01:08:08.425512Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.425314Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

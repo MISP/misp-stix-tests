@@ -1,0 +1,195 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--d04a23f4-9b4f-493c-9064-f2f32d403aaa",
+        "created_by_ref": "identity--f740b6e5-1f8b-4e27-a57f-6477669305df",
+        "created": "2022-06-05T14:10:10.861746Z",
+        "modified": "2023-05-20T00:43:12.839869Z",
+        "name": "year",
+        "description": "Collection mission lay down.",
+        "confidence": 59,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9809fb4b-ab87-4537-8ddb-959e23823747"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--2e8883ab-af0a-4fa0-95d3-85e69252eb5a",
+        "created_by_ref": "identity--f740b6e5-1f8b-4e27-a57f-6477669305df",
+        "created": "2021-02-18T02:16:10.76355Z",
+        "modified": "2021-11-05T15:28:26.287477Z",
+        "name": "practice",
+        "confidence": 62,
+        "external_references": [
+            {
+                "source_name": "list",
+                "url": "https://www.williams-chambers.biz/",
+                "external_id": "fNWeGBWsybo"
+            },
+            {
+                "source_name": "eight",
+                "description": "Agree site himself media he from season.",
+                "url": "http://www.tapia.com/",
+                "external_id": "mEuZspqfseQdJ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9809fb4b-ab87-4537-8ddb-959e23823747"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c6a23ed3-8172-4570-b6d8-67d382a971ca",
+        "created_by_ref": "identity--f740b6e5-1f8b-4e27-a57f-6477669305df",
+        "created": "2020-10-15T04:10:48.921625Z",
+        "modified": "2021-08-14T01:08:22.786074Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--d04a23f4-9b4f-493c-9064-f2f32d403aaa",
+        "target_ref": "attack-pattern--2e8883ab-af0a-4fa0-95d3-85e69252eb5a",
+        "start_time": "2021-09-02T00:53:58.15601Z",
+        "stop_time": "2021-11-18T02:18:29.93541Z",
+        "labels": [
+            "deep",
+            "pfte-batch-1"
+        ],
+        "confidence": 83,
+        "external_references": [
+            {
+                "source_name": "their",
+                "description": "Age language establish late national."
+            },
+            {
+                "source_name": "loss",
+                "url": "http://www.west-brooks.net/",
+                "external_id": "PvClhYnRmrVnUPCK"
+            },
+            {
+                "source_name": "network",
+                "description": "Along help sell push new station.",
+                "url": "https://olsen-oliver.com/",
+                "external_id": "tehNznyunsKtmDq"
+            },
+            {
+                "source_name": "paper",
+                "description": "Save act investment yard network.",
+                "external_id": "zcgwpc"
+            },
+            {
+                "source_name": "when",
+                "url": "http://carter-herrera.com/",
+                "hashes": {
+                    "MD5": "a1ab108013bdbbf52972de09a17bf548",
+                    "SHA-1": "4429c43ab1e9268819909164790fdf0441086ba0",
+                    "SHA-256": "82f460058fe5ab25bc0b33f35d29e8bf415f657037c8d74695d6909a92908ed7",
+                    "SHA-512": "53dec608d079219d4f701579fda824401f50115dca348d5da05da71c966780c1311fbb24e1cc97672adf6c49791ca2e81e3ebb3da9bcd6118247720858e490fa",
+                    "SHA3-256": "ae8e67aebcd88c597041363347a30aa2fb237abe4714ce34b1e0c690209c1dd9",
+                    "SHA3-512": "62059e9a994c23e60bd0016790eb77887978febe7fd81ed79514371b1b28941b361154a0a370d0aa7eb4152aa32dc68aae4022967249a6be4f4eabd1cadce53b"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9809fb4b-ab87-4537-8ddb-959e23823747"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--9809fb4b-ab87-4537-8ddb-959e23823747",
+        "created_by_ref": "identity--f740b6e5-1f8b-4e27-a57f-6477669305df",
+        "created": "2021-08-14T01:08:22.784526Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-881bbc21-deef-4d57-abf3-7f599266217f",
+                "name": "Way get would fight necessary hour measure",
+                "create_date_time": "2021-08-14T01:08:08.423662Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f740b6e5-1f8b-4e27-a57f-6477669305df",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-19T22:32:52.741346Z",
+        "modified": "2022-07-07T05:40:47.939548Z",
+        "name": "Baker-Thompson",
+        "description": "Implemented bottom-line Internet solution",
+        "contact_information": "461 John Rapids Suite 463\nPort Stephaniemouth, WV 66390",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 51,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "ago",
+                "description": "Probably easy far likely general.",
+                "url": "http://www.thomas.com/"
+            },
+            {
+                "source_name": "culture",
+                "description": "Scientist clearly relate spend only team.",
+                "url": "http://www.garcia-hoffman.com/",
+                "external_id": "lGAmDRC"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9809fb4b-ab87-4537-8ddb-959e23823747"
+        ]
+    }
+]

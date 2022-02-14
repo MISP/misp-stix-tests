@@ -1,0 +1,171 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--66d607b3-d26b-422d-9607-00f30384ef54",
+        "created_by_ref": "identity--94466834-7df3-4244-bf00-a7b3d726d35e",
+        "created": "2020-10-16T10:39:15.069629Z",
+        "modified": "2021-09-23T17:07:48.947515Z",
+        "name": "capital",
+        "description": "Sea difficult remember attorney.",
+        "labels": [
+            "character",
+            "baby",
+            "share",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--979139c6-652f-4d77-a8ad-e0e3d93d884f"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--d3f57164-9090-41ba-9e10-41d4ef1e96c2",
+        "created_by_ref": "identity--94466834-7df3-4244-bf00-a7b3d726d35e",
+        "created": "2021-03-21T13:13:03.128162Z",
+        "modified": "2021-08-14T01:08:22.429955Z",
+        "name": "class",
+        "indicator_types": [
+            "benign",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "[mutex:defanged NOT = false] AND (([ipv4-addr:defanged NOT = false] OR [(directory:path NOT = '/appear/trial.ppt') AND directory:path_enc < 'ISO-8859-6-E']))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-09-27T19:11:25.129851Z",
+        "valid_until": "2021-06-17T14:34:24.483332Z",
+        "object_marking_refs": [
+            "marking-definition--979139c6-652f-4d77-a8ad-e0e3d93d884f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1991290c-35b0-4a8a-a471-cb200e224cdf",
+        "created_by_ref": "identity--94466834-7df3-4244-bf00-a7b3d726d35e",
+        "created": "2021-10-03T02:54:42.988403Z",
+        "modified": "2022-09-30T12:26:36.47423Z",
+        "relationship_type": "investigates",
+        "description": "Sea kind trade inside letter. Development life this tend. Create worry both population performance trip argue.",
+        "source_ref": "course-of-action--66d607b3-d26b-422d-9607-00f30384ef54",
+        "target_ref": "indicator--d3f57164-9090-41ba-9e10-41d4ef1e96c2",
+        "stop_time": "2021-09-29T08:24:46.864208Z",
+        "external_references": [
+            {
+                "source_name": "great",
+                "description": "Of education protect can partner huge too.",
+                "url": "http://www.turner-west.biz/"
+            },
+            {
+                "source_name": "foot",
+                "description": "Send audience society everyone quality.",
+                "url": "http://oneill.com/",
+                "hashes": {
+                    "MD5": "4c35c6ad84bfa42acfaed7f70291cc83",
+                    "SHA-1": "88adc5ec688bc66af22ad1e782ca41b8f0e98143",
+                    "SHA-256": "06274534effe425fc26f1903bc594e7aae6f32e3fd1000873a9b0775f8d18398",
+                    "SHA-512": "d41e77df6d1c8b7bcb92a777ca214f42c9659a1a1aa7bf256a6040951b9bbdaa523c4d0790bab235c195e1352060b070f573a3bb9cb7b4a62cfbc210537d6a5c",
+                    "SHA3-256": "c167b63ce69cac70aaffe62f4ae925152d332e800f963c7510e5b67add42d445",
+                    "SHA3-512": "cf1c97511584980b68e4207f3e92c43e82c938911c902e4328cc206b81f2e77c430c01aecc9f27d426e5707bf7fea14493d27e00c458b796d726af4256bba3ef"
+                }
+            },
+            {
+                "source_name": "four",
+                "description": "Music meet share position drug.",
+                "url": "http://www.montgomery.info/",
+                "external_id": "AhGaNkqtzVeuAuu"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--979139c6-652f-4d77-a8ad-e0e3d93d884f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--33272939-54ab-4976-9b1c-03608852c039",
+        "created_by_ref": "identity--94466834-7df3-4244-bf00-a7b3d726d35e",
+        "created": "2020-05-31T17:26:53.355392Z",
+        "modified": "2021-08-14T01:08:22.433356Z",
+        "name": "positive",
+        "published": "2020-12-29T17:11:36.041992Z",
+        "object_refs": [
+            "course-of-action--66d607b3-d26b-422d-9607-00f30384ef54",
+            "indicator--d3f57164-9090-41ba-9e10-41d4ef1e96c2",
+            "relationship--1991290c-35b0-4a8a-a471-cb200e224cdf"
+        ],
+        "object_marking_refs": [
+            "marking-definition--979139c6-652f-4d77-a8ad-e0e3d93d884f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--94466834-7df3-4244-bf00-a7b3d726d35e",
+        "created_by_ref": "identity--94466834-7df3-4244-bf00-a7b3d726d35e",
+        "created": "2021-09-19T13:17:13.742671Z",
+        "modified": "2022-09-06T18:33:48.854849Z",
+        "name": "Johnson, Heath and Brown",
+        "description": "Fully-configurable discrete projection",
+        "identity_class": "group",
+        "sectors": [
+            "education",
+            "non-profit"
+        ],
+        "contact_information": "USS Thompson\nFPO AA 42336",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--979139c6-652f-4d77-a8ad-e0e3d93d884f"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--979139c6-652f-4d77-a8ad-e0e3d93d884f",
+        "created": "2021-08-14T01:08:22.429264Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-114c3c02-d336-4257-a679-8cbd2bcdae34",
+                "name": "Sort author none he account American industry worry",
+                "create_date_time": "2021-08-14T01:08:08.432919Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

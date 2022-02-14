@@ -1,0 +1,225 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--39f45727-b37a-453f-ba12-b751bc17d3bf",
+        "created_by_ref": "identity--d2995a63-7165-4d6d-8373-5886853da00b",
+        "created": "2022-05-16T18:42:50.997712Z",
+        "modified": "2022-06-03T20:22:07.823036Z",
+        "name": "themselves",
+        "description": "Election surface government popular team inside.",
+        "confidence": 40,
+        "external_references": [
+            {
+                "source_name": "know",
+                "description": "Quality turn somebody concern room into between relationship.",
+                "url": "https://www.cortez.com/",
+                "hashes": {
+                    "MD5": "ce334a43874555e96f62af624f0e3454",
+                    "SHA-1": "a7d110f0d1a99c3b2cea76da4bf0ccd4add26844",
+                    "SHA-256": "417e41786e4e2466d26752cdb3368febd432f81ec6e592a3dc6f496271abac17",
+                    "SHA-512": "e2bb110bf057d431441b70ab61c80026997603690b8a6cd1b0376282c785ff772dad32eee9c0cd6acb54244e65566b8d426d60af0d77aa865ea8bbcdc2e280d1",
+                    "SHA3-256": "cdf725fa5a8c63d0b04e531222f50283c26fb09db95b2cfb55f8b7e77e64de65",
+                    "SHA3-512": "29a1b469b7eac2e1758b60c1eabe6ee06b2f78293b0916962cf03c4897e8c5701fbffe1b14f32f535b025617c09b3d1574286c9e44760f1846aed8480d954f51"
+                },
+                "external_id": "AkHKvpMWIrNOGD"
+            },
+            {
+                "source_name": "court",
+                "description": "Interesting help when large heart.",
+                "external_id": "wvVWCQbOHkwouFunTsC"
+            },
+            {
+                "source_name": "ahead",
+                "description": "Art pass probably visit skin.",
+                "external_id": "qmRXUOcH"
+            },
+            {
+                "source_name": "role",
+                "description": "Remember world real season seek many.",
+                "url": "https://www.weiss-flynn.biz/",
+                "external_id": "hVxDtsZLRXflQSNueW"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0459fe88-03e7-49ae-a1bc-c2874698db88"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--dfe59c02-31c1-4b28-9788-4ceaf67b54d6",
+        "created_by_ref": "identity--d2995a63-7165-4d6d-8373-5886853da00b",
+        "created": "2020-03-01T10:17:24.930307Z",
+        "modified": "2021-08-14T01:08:24.288448Z",
+        "name": "hear",
+        "description": "Investment state give only somebody by example.",
+        "indicator_types": [
+            "anonymization",
+            "benign",
+            "unknown",
+            "malicious-activity"
+        ],
+        "pattern": "(([ipv4-addr:defanged = false] FOLLOWEDBY [email-message:is_multipart = true] FOLLOWEDBY ([software:vendor NOT = 'Cortez Group'] START t'2020-11-22T11:06:50.670206Z' STOP t'2022-08-12T03:38:38.460044Z')))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-06-06T07:59:34.024729Z",
+        "valid_until": "2020-10-31T08:09:14.717037Z",
+        "object_marking_refs": [
+            "marking-definition--0459fe88-03e7-49ae-a1bc-c2874698db88"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--69cf95f4-4f21-4503-9874-3a4856a589ed",
+        "created_by_ref": "identity--d2995a63-7165-4d6d-8373-5886853da00b",
+        "created": "2020-10-14T16:46:52.305036Z",
+        "modified": "2021-08-14T01:08:24.291214Z",
+        "relationship_type": "mitigates",
+        "description": "Stuff fall hope free available today wide. Risk example avoid story beat trouble.",
+        "source_ref": "course-of-action--39f45727-b37a-453f-ba12-b751bc17d3bf",
+        "target_ref": "indicator--dfe59c02-31c1-4b28-9788-4ceaf67b54d6",
+        "start_time": "2022-08-07T13:04:49.296372Z",
+        "stop_time": "2023-01-01T13:01:02.506704Z",
+        "confidence": 44,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--0459fe88-03e7-49ae-a1bc-c2874698db88"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d2995a63-7165-4d6d-8373-5886853da00b",
+        "created_by_ref": "identity--d2995a63-7165-4d6d-8373-5886853da00b",
+        "created": "2022-05-14T22:07:02.709242Z",
+        "modified": "2023-01-25T07:42:46.382871Z",
+        "name": "Arias-Myers",
+        "sectors": [
+            "automotive",
+            "dams",
+            "insurance"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 66,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "guess",
+                "description": "Part indicate partner plant up feel local.",
+                "url": "http://www.lewis-shelton.com/",
+                "hashes": {
+                    "MD5": "f747a496e06bdaec2c9da64a055a9efd",
+                    "SHA-1": "9ac83850d0493ea76b89f5386296edab1d9de29a",
+                    "SHA-256": "58b03ca9614ac7c10dce51df00bb1b24d81e3323dcf59a8551bec16f0e6ab46a",
+                    "SHA-512": "3717d29745ea7358752f3658a60e50f563e892b51b2c1675ad9ef77b69d154995a3d06eabbb011af83c76bdb0d2018eb96c433375a5a77cf3cebadbb8cb18c69",
+                    "SHA3-256": "56897966c58ae208fa19d98805342e52575716e8165b8a6054e0b7b28183a011",
+                    "SHA3-512": "0c7f796514f2c50ceb6da2f757e6d6cbcd21d16bde86b9e101f5e758389da0f955af499fe5c71f372f1ab04fafd9cf7a1bf8942d2342b2d5e87916168b4f90d1"
+                },
+                "external_id": "AyszKIjTTyVktnfyuAs"
+            },
+            {
+                "source_name": "very",
+                "description": "By discover must turn institution democratic nation.",
+                "url": "http://zamora-fuentes.info/",
+                "hashes": {
+                    "MD5": "6beb134c1d267343a6961acc5228f8f4",
+                    "SHA-1": "9d42db3d9000d739880f0cc02af4434e0f6c6177",
+                    "SHA-256": "38053f86e616c1ececee93613ff93cd5c4f4cc480951485b800576ae192e9ae1",
+                    "SHA-512": "4dac4a747d3020150ef22df1d88ec15c7a8eb3170b2e820853cbd1264894dac9ea67c572170c7993593554503944d005abba29831c4d6b7c8ad6691963d2edd5",
+                    "SHA3-256": "ec8cf5713d70d35f527948c966c8445f0a70d3e7a09b71bf7fdda6c5eafa1e24",
+                    "SHA3-512": "91658aecc12c15f22b1439f2eccf41c6f368f32f86f1fd1ba02d25047bbb4646a3f64a07c25caeaa445d01c6d1b45d90866a73d5460c5b52440e684ffb681ef8"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0459fe88-03e7-49ae-a1bc-c2874698db88"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--0459fe88-03e7-49ae-a1bc-c2874698db88",
+        "created": "2021-08-14T01:08:24.287281Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fadf816-7ba3-41ea-a52c-2855b3ec9d5a",
+                "name": "Report official major we center outside throughout population",
+                "create_date_time": "2021-08-14T01:08:08.433803Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

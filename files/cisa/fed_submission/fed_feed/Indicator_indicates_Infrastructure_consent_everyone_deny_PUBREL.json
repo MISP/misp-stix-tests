@@ -1,0 +1,187 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--55bd67be-8583-4204-9d2e-ed1d16673220",
+        "created_by_ref": "identity--872b650f-46fa-483a-a6b3-0f8b801a3cd8",
+        "created": "2021-06-06T15:32:00.400387Z",
+        "modified": "2021-08-14T01:08:30.578531Z",
+        "indicator_types": [
+            "compromised",
+            "malicious-activity"
+        ],
+        "pattern": "[(email-addr:value = 'paul07@smith-hall.net') AND email-addr:value >= 'ccooper@anderson-sanchez.biz'] OR [ipv4-addr:value NOT = '170.113.92.82' OR (domain-name:defanged = false)] OR [directory:path = '/above/accept.wav']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-02-20T10:11:25.943245Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "TrzzlgciiMMYIUkm",
+                "phase_name": "JbYDylLqhMLitd"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b322b8d3-fa46-437d-a821-473dc025a470"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--b58d39ad-cb3d-4b25-a9eb-eed8ab571729",
+        "created_by_ref": "identity--872b650f-46fa-483a-a6b3-0f8b801a3cd8",
+        "created": "2022-01-24T10:35:13.761094Z",
+        "modified": "2022-03-09T15:14:55.431771Z",
+        "name": "rate",
+        "description": "And art effect side.",
+        "infrastructure_types": [
+            "routers-switches"
+        ],
+        "aliases": [
+            "house",
+            "sister"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "VhbHDfgNiDeYNRe",
+                "phase_name": "bkIvucYWTUBppdHoO"
+            }
+        ],
+        "first_seen": "2022-02-11T17:25:22.183233Z",
+        "labels": [
+            "protect",
+            "mention",
+            "group",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--b322b8d3-fa46-437d-a821-473dc025a470"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b082e134-bc39-4f30-b9ad-29af4218c77f",
+        "created_by_ref": "identity--872b650f-46fa-483a-a6b3-0f8b801a3cd8",
+        "created": "2020-12-10T00:01:32.243097Z",
+        "modified": "2021-08-14T01:08:30.582263Z",
+        "relationship_type": "indicates",
+        "description": "Them edge through always enough free. Fight relationship entire art role. Edge mean something hard its wish team.",
+        "source_ref": "indicator--55bd67be-8583-4204-9d2e-ed1d16673220",
+        "target_ref": "infrastructure--b58d39ad-cb3d-4b25-a9eb-eed8ab571729",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b322b8d3-fa46-437d-a821-473dc025a470"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--872b650f-46fa-483a-a6b3-0f8b801a3cd8",
+        "created_by_ref": "identity--872b650f-46fa-483a-a6b3-0f8b801a3cd8",
+        "created": "2020-10-29T06:28:20.421189Z",
+        "modified": "2021-08-14T01:08:30.582525Z",
+        "name": "Thompson-Cooke",
+        "sectors": [
+            "education",
+            "chemical",
+            "pharmaceuticals"
+        ],
+        "contact_information": "54948 Castillo Plaza\nNew Carlos, AL 91533",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 37,
+        "object_marking_refs": [
+            "marking-definition--b322b8d3-fa46-437d-a821-473dc025a470"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b322b8d3-fa46-437d-a821-473dc025a470",
+        "created": "2021-08-14T01:08:30.577718Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1b1f4ecf-83db-4fe9-8c22-38a5f88b6694",
+                "name": "Deal certainly rather appear present safe",
+                "create_date_time": "2021-08-14T01:08:08.429946Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.429783Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

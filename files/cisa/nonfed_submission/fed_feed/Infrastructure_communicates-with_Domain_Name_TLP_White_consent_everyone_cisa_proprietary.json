@@ -1,0 +1,212 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--7460f68a-35c1-489a-bf9d-0eedda9766aa",
+        "created_by_ref": "identity--d9085fa5-3402-44ba-814d-dd4edf23c15c",
+        "created": "2021-08-26T07:01:39.222201Z",
+        "modified": "2022-02-12T11:22:27.589291Z",
+        "name": "finish",
+        "description": "Network get pull.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "first_seen": "2020-11-05T04:57:35.892911Z",
+        "labels": [
+            "cup",
+            "determine",
+            "grow",
+            "real",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3583def0-09c9-4723-8ae2-93140fd72b9d"
+        ]
+    },
+    {
+        "type": "domain-name",
+        "spec_version": "2.1",
+        "id": "domain-name--1585028e-16bd-45df-9b3f-fb88f989f69f",
+        "value": "scott.org",
+        "object_marking_refs": [
+            "marking-definition--3583def0-09c9-4723-8ae2-93140fd72b9d"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--18ff6db9-cc58-4b70-9188-ea72ba3d0e9b",
+        "created_by_ref": "identity--d9085fa5-3402-44ba-814d-dd4edf23c15c",
+        "created": "2022-07-24T22:48:48.790154Z",
+        "modified": "2023-03-23T08:39:03.006982Z",
+        "relationship_type": "communicates-with",
+        "description": "Reach ball key unit American reach peace. Like south parent. Player lawyer final someone determine affect.",
+        "source_ref": "infrastructure--7460f68a-35c1-489a-bf9d-0eedda9766aa",
+        "target_ref": "domain-name--1585028e-16bd-45df-9b3f-fb88f989f69f",
+        "confidence": 98,
+        "external_references": [
+            {
+                "source_name": "service",
+                "url": "https://johnson.com/",
+                "hashes": {
+                    "MD5": "d8544c4a1515d11b9fbb8d0a5815c1fb",
+                    "SHA-1": "6e66cbe949f178bb01ecc94bafa101a51cc7b270",
+                    "SHA-256": "c4af9847b3622a70debdb08e5d751c9a00d13db22dc302a965c536fe59bd57a2",
+                    "SHA-512": "04c7d08ede377d4a9d05a0ae2e9840bbab90f26e57194373bb3ca2148d96854a74303d65e6eb03ce5e813e3b299e495e57bd88708198af3a37ee11eb7b7647aa",
+                    "SHA3-256": "79818824b4fc886da486c8d5efd51142d5998b0cb87bb57dd8c8ff28c740fb66",
+                    "SHA3-512": "82e9b05a8ae515220ee892b57a68be0770b14531c37382befb52d7e1904c3c65b7353eb1735653197fbfb49a308e47fd532f2891183a45ab2552726b3e8ebefa"
+                },
+                "external_id": "gfrMgcJcPY"
+            },
+            {
+                "source_name": "many",
+                "url": "https://stephens-mitchell.info/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--3583def0-09c9-4723-8ae2-93140fd72b9d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--3583def0-09c9-4723-8ae2-93140fd72b9d",
+        "created_by_ref": "identity--d9085fa5-3402-44ba-814d-dd4edf23c15c",
+        "created": "2021-08-14T01:08:40.842193Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f217105b-ccd2-4cb0-893a-c1314d7d2d64",
+                "name": "Strategy land response sport over",
+                "create_date_time": "2021-08-14T01:08:08.422773Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.422466Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d9085fa5-3402-44ba-814d-dd4edf23c15c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-05T01:25:12.938749Z",
+        "modified": "2022-09-25T12:08:30.074437Z",
+        "name": "Kim-Caldwell",
+        "description": "Polarized grid-enabled benchmark",
+        "roles": [
+            "Congress",
+            "whole"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "emergency-services",
+            "commercial",
+            "commercial",
+            "retail"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 88,
+        "external_references": [
+            {
+                "source_name": "all",
+                "description": "Sign perhaps rise tonight else must.",
+                "external_id": "XrhdzHBEezNOfyfvd"
+            },
+            {
+                "source_name": "certainly",
+                "hashes": {
+                    "MD5": "ae776fee4de761add13319af6c912a95",
+                    "SHA-1": "ce77ed8d325a08889c8f16f067a5f07f1486a0c5",
+                    "SHA-256": "576df49eb0b2eab4ed70912b85cc9ece9183910277b084d3a24263af3465d6b9",
+                    "SHA-512": "f794da7556c5857d53e9ba01d8eaf79e31af640853443ce38a073a68f3eb55761c8574d58fd40aabf7525cd8910c7b6c779e76578adde9fb00fa87092dfab407",
+                    "SHA3-256": "e3af887bac6d51fb86c4a1975de4242ec53429e56f7c055742fd0c28b1f42796",
+                    "SHA3-512": "ae852c66d289ba7800cf588bf15953918ef61f66de459f831ab491891f16f65d4302e505b187796ec8648a8d2e93bca349689d69a73a07db29ee9fa6fee2d2d4"
+                },
+                "external_id": "QGYveucetjlXxtxnfYvJ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--3583def0-09c9-4723-8ae2-93140fd72b9d"
+        ]
+    }
+]

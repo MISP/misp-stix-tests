@@ -1,0 +1,220 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--39272404-34b2-4778-84b4-35f2e3842676",
+        "created_by_ref": "identity--0830350a-26fc-40a6-a034-93d9edfaaf68",
+        "created": "2021-08-28T15:51:16.500271Z",
+        "modified": "2022-06-26T21:52:16.844419Z",
+        "name": "forget",
+        "aliases": [
+            "sea",
+            "live"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "xBnjlkxeBrLQKDYyNvyH",
+                "phase_name": "UFgkWEbhUNJhn"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "first_seen": "2020-11-14T13:17:02.444119Z",
+        "last_seen": "2021-02-16T14:52:31.042326Z",
+        "labels": [
+            "from",
+            "summer",
+            "a",
+            "pfte-batch-1"
+        ],
+        "confidence": 7,
+        "object_marking_refs": [
+            "marking-definition--7978c992-9a02-4fe2-8fc1-d49b5ba2d05d"
+        ]
+    },
+    {
+        "type": "domain-name",
+        "spec_version": "2.1",
+        "id": "domain-name--bc0fadaf-77d7-451c-b1fb-342f35c29859",
+        "value": "weber.com",
+        "object_marking_refs": [
+            "marking-definition--7978c992-9a02-4fe2-8fc1-d49b5ba2d05d"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e3fafe30-6023-4e7a-9e55-960c5726fc7a",
+        "created_by_ref": "identity--0830350a-26fc-40a6-a034-93d9edfaaf68",
+        "created": "2020-12-25T01:39:35.729518Z",
+        "modified": "2021-12-18T01:27:47.114276Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--39272404-34b2-4778-84b4-35f2e3842676",
+        "target_ref": "domain-name--bc0fadaf-77d7-451c-b1fb-342f35c29859",
+        "start_time": "2022-03-12T01:08:35.220015Z",
+        "labels": [
+            "play",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "discussion",
+                "hashes": {
+                    "MD5": "f36a594fda73ef917a79505928a1f9ec",
+                    "SHA-1": "ad2bc335f4dd9e8c0882a6a88afa85f05c2e61de",
+                    "SHA-256": "6a0f95e5761c68ef924c6ea7a5edc0b2403c54d83981b1d275825e395d1849c7",
+                    "SHA-512": "a6b074653fd3aca8b15de546bc416ba705684529ee70eaa78c9265a50498bd93a9f744b2d6aa4ede14c449c986f82ad1a246bfbdbc79760e2c4d0a4835cf2474",
+                    "SHA3-256": "3b1fb465f3a44ea38c302fdaac9cdaadba6fe19c54ccfb1dd786de737bf0a31c",
+                    "SHA3-512": "1334ce4d9a3ec3f92d5b8640fc8dd246bf74d78012684be9af3ae0635d20c13c61fab586a0a0afb54f35451839483592686e53dde03aae28b00a7344a26166e0"
+                },
+                "external_id": "gOUUEJguhthpI"
+            },
+            {
+                "source_name": "question",
+                "url": "https://www.smith-ward.net/",
+                "hashes": {
+                    "MD5": "b63f295db17e0b759edbdad9df0f0b13",
+                    "SHA-1": "8dffca227518a70b5b5ab7a1e54d88ce0770a6a5",
+                    "SHA-256": "35699d34f3ebce8c3d7eeae310efee8baaa7a09f782f21434f6fa83e4c75300b",
+                    "SHA-512": "f038dafb151d0715bdea57402f530c8e4596fce7273eda6faf16f61bb9ff26bfd6a1d4a049c0a477417024a102480d5bf441ea2b4164062329c83fbe8a154c47",
+                    "SHA3-256": "99def6d3ffac837655dea4511e5cdc6e0e6bd9ae55b1f8e8428b17419a737442",
+                    "SHA3-512": "8ed60a9dbc00e23bf8c8be7abfa93dc07589bffcfca3a955a38713764401d38af8d8c72297b1b6ac718fa739756d14b57c483ab758213c9898792d57b28b1c0a"
+                },
+                "external_id": "tOTecN"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7978c992-9a02-4fe2-8fc1-d49b5ba2d05d"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--9ad584fa-cdb1-4942-b18f-e216cc706691",
+        "created_by_ref": "identity--0830350a-26fc-40a6-a034-93d9edfaaf68",
+        "created": "2021-12-02T06:32:07.292978Z",
+        "modified": "2022-08-16T19:12:39.73617Z",
+        "name": "community",
+        "context": "malware-analysis",
+        "object_refs": [
+            "infrastructure--39272404-34b2-4778-84b4-35f2e3842676",
+            "domain-name--bc0fadaf-77d7-451c-b1fb-342f35c29859",
+            "relationship--e3fafe30-6023-4e7a-9e55-960c5726fc7a"
+        ],
+        "confidence": 97,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7978c992-9a02-4fe2-8fc1-d49b5ba2d05d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--7978c992-9a02-4fe2-8fc1-d49b5ba2d05d",
+        "created_by_ref": "identity--0830350a-26fc-40a6-a034-93d9edfaaf68",
+        "created": "2021-08-14T01:08:40.793705Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-cdad75a5-97a2-450d-bb1c-cac3b21b4823",
+                "name": "Continue half as create together strong",
+                "create_date_time": "2021-08-14T01:08:08.421874Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0830350a-26fc-40a6-a034-93d9edfaaf68",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-23T01:01:59.27906Z",
+        "modified": "2021-11-03T05:40:02.981157Z",
+        "name": "Vargas LLC",
+        "roles": [
+            "suddenly",
+            "military",
+            "learn"
+        ],
+        "sectors": [
+            "government-local",
+            "mining",
+            "aerospace",
+            "insurance",
+            "mining"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 28,
+        "object_marking_refs": [
+            "marking-definition--7978c992-9a02-4fe2-8fc1-d49b5ba2d05d"
+        ]
+    }
+]

@@ -1,0 +1,205 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--b2f4e795-f195-492f-bdbe-a3300e77e2a8",
+        "created_by_ref": "identity--2a45072a-a72f-48dc-b13c-53ae6cccad4a",
+        "created": "2022-02-25T03:58:43.86081Z",
+        "modified": "2022-09-20T20:55:27.011814Z",
+        "name": "measure",
+        "labels": [
+            "people",
+            "although",
+            "pfte-batch-1"
+        ],
+        "confidence": 92,
+        "object_marking_refs": [
+            "marking-definition--14034290-5dd1-4a41-a588-56cc1eb5fd7b"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--db6094f0-ef4c-406e-898e-31ce7ed29618",
+        "created_by_ref": "identity--2a45072a-a72f-48dc-b13c-53ae6cccad4a",
+        "created": "2021-12-09T14:45:17.329491Z",
+        "modified": "2022-08-22T07:02:00.597209Z",
+        "name": "state",
+        "description": "Free by better article wife west list.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "OQpGJFkAXLPvYxgE",
+                "phase_name": "nZYKthRJH"
+            },
+            {
+                "kill_chain_name": "RjGmZSwR",
+                "phase_name": "FiMuwHXdUUsNojywjZIk"
+            }
+        ],
+        "first_seen": "2021-09-05T13:22:00.924692Z",
+        "labels": [
+            "others",
+            "pfte-batch-1"
+        ],
+        "confidence": 13,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--14034290-5dd1-4a41-a588-56cc1eb5fd7b"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--063df95a-f634-40e5-9a47-963ff7971cab",
+        "created_by_ref": "identity--2a45072a-a72f-48dc-b13c-53ae6cccad4a",
+        "created": "2020-08-20T13:19:52.645245Z",
+        "modified": "2021-08-14T01:08:14.7664Z",
+        "relationship_type": "compromises",
+        "source_ref": "campaign--b2f4e795-f195-492f-bdbe-a3300e77e2a8",
+        "target_ref": "infrastructure--db6094f0-ef4c-406e-898e-31ce7ed29618",
+        "confidence": 15,
+        "object_marking_refs": [
+            "marking-definition--14034290-5dd1-4a41-a588-56cc1eb5fd7b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2a45072a-a72f-48dc-b13c-53ae6cccad4a",
+        "created_by_ref": "identity--2a45072a-a72f-48dc-b13c-53ae6cccad4a",
+        "created": "2022-02-19T11:50:59.181112Z",
+        "modified": "2022-07-05T02:36:29.188885Z",
+        "name": "Morris-Thompson",
+        "description": "Pre-emptive executive access",
+        "identity_class": "class",
+        "sectors": [
+            "government-national",
+            "construction",
+            "retail",
+            "pharmaceuticals",
+            "retail"
+        ],
+        "confidence": 62,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "issue",
+                "url": "http://hurley.biz/",
+                "hashes": {
+                    "MD5": "45c7c7ec62c679d5ac36ce9536c4d158",
+                    "SHA-1": "916f68feb54c428f4615f5c1fad9e591406e1c15",
+                    "SHA-256": "9a563f8d063b0ee39dc0c05fd89b3a1743f84dad2843d083dbb7f30a2b193e34",
+                    "SHA-512": "2c4014b4d0ac181494cd5894d7cad8acfc882b1340a779766fbb2c5c0a4c56a9fecdd69fa0865f5f962b2a41f0769fc330c92b2c01241f68c2c7fcd4a7d87f2e",
+                    "SHA3-256": "7e8bbcc63ab677beb75f1a5522f682b347727d45d35c9e29657e2a0be0902aef",
+                    "SHA3-512": "8c1567be5f013f3f1f048a92587c2192b41f06aa8a1e79a3490c1667e8a2dc8fd25772af031412b2f259da48d43a36a4fbb4627ebbecd64c994a9e767d1c68e1"
+                }
+            },
+            {
+                "source_name": "design",
+                "description": "Interesting issue production blood maybe job opportunity.",
+                "url": "https://roberson.net/",
+                "hashes": {
+                    "MD5": "f7ff31ece42896553522324dac90e084",
+                    "SHA-1": "87563f52cafa30e6b2d97df430b08233da2d6c07",
+                    "SHA-256": "abaed9e86b6e9796adcfb70f2ae90a792b0e9daad40e0191727c1fbcaa129d48",
+                    "SHA-512": "3aa82d0cf71d18df599610adc96c539faf23ead7fe06fb5c0ff59d994488d23c16ac1e4db8f57953f34a4a1000e5af14e37bca3b55a36489bb883fc51ab9738e",
+                    "SHA3-256": "618fb43a8b109284e53adf77c791deaf946094b0703b46b2f333cdc7bb52033c",
+                    "SHA3-512": "9bf74ea05206d8eb4a35517971d5014bf41f5311e4426a0701c3873d8011618d37cf42c8db8354c49477d9783922457bb6569779a4a04301967abf5450935c79"
+                },
+                "external_id": "XodHgzY"
+            },
+            {
+                "source_name": "without",
+                "url": "http://www.davis-murillo.net/",
+                "hashes": {
+                    "MD5": "f12c2bf4f21f53bbed218e1891291945",
+                    "SHA-1": "affa0d1e7482a46397b04c89506f4af343d13738",
+                    "SHA-256": "d47c45e6177f691123b9be478c926fd813e3b60eda7f266ebc0f3628936ab3f6",
+                    "SHA-512": "1522ffc958caaec418049c42df4f5c3cdaee94f9356da2200e0fedbc4da68e1f753cc0efc5157cb3501a0e75c00229cecb7c1d49e446c142609df006d1c52e2d",
+                    "SHA3-256": "89cbd071f196c22989fab1ecf71d2704b9ab4c48940ec34e41d6e0b4dfd1672f",
+                    "SHA3-512": "5e1d4146d9ddefc96d7a2d015b2cad7074550f775f12ddc4e8619defbc56c60c98c3aafd2b00a0ff8e5efcddfa4b416f07be219be128d776a3e3c72b8e98af40"
+                },
+                "external_id": "vXCmsKi"
+            },
+            {
+                "source_name": "project",
+                "description": "Easy under most land myself in democratic feel."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--14034290-5dd1-4a41-a588-56cc1eb5fd7b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--14034290-5dd1-4a41-a588-56cc1eb5fd7b",
+        "created": "2021-08-14T01:08:14.764845Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-44002952-ef1b-4819-85db-bdfcd1864e5e",
+                "name": "Free major nothing gun",
+                "create_date_time": "2021-08-14T01:08:08.424588Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.424412Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

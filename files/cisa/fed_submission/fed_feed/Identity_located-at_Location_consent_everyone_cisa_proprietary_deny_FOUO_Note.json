@@ -1,0 +1,193 @@
+[
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7ed06f5a-e273-498b-9404-0f72a75344b2",
+        "created_by_ref": "identity--2b2b4678-b623-4ded-ac1b-fa5deb5b8254",
+        "created": "2020-08-30T20:21:01.970563Z",
+        "modified": "2021-08-14T01:08:27.171336Z",
+        "name": "Hernandez Ltd",
+        "contact_information": "4257 Jonathan Pike\nFreemanberg, NV 30818",
+        "labels": [
+            "man",
+            "challenge",
+            "adult",
+            "service",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "worker",
+                "description": "Animal information wonder long nothing child arrive.",
+                "url": "https://www.moore.com/",
+                "hashes": {
+                    "MD5": "eee5c10a8941e96e2ccb1ea08f1f4471",
+                    "SHA-1": "c3bd6f1e4314a43e31e90717a65d76ded77390a8",
+                    "SHA-256": "c353a435ae08cd4d57b76875fb589b408ac54fd9c63f24bdd2b0cebaa09da7d5",
+                    "SHA-512": "6de8df1e3390f04b76cf6c57bb14a4a55c054a688776423d22d770077c148ee8f482325e7060baf55c7fdfcabea8ea299a09364dfd36b11a4fa222844653f063",
+                    "SHA3-256": "49ae5568acce1eff855890d4482b5ec9d5074ed8b6757e7d5920c8238a4087a7",
+                    "SHA3-512": "d26fd4dce39c5fc45814adf4b6732d553bcc7512fdbcb287d29ba2567f0afed8629022c64cf89a5e6b3bb043f8c10316b5e8f88d7f298c2961f9658b36e80f4d"
+                },
+                "external_id": "ZmafWPoQkxDoi"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--50f7670c-346f-4bc1-ba35-cdc5147f9306"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--6ec63f0b-d410-4ece-9ac0-726b049b73f2",
+        "created_by_ref": "identity--2b2b4678-b623-4ded-ac1b-fa5deb5b8254",
+        "created": "2021-07-22T11:22:28.893185Z",
+        "modified": "2021-12-15T10:08:41.280551Z",
+        "name": "bRfPPSxAeuerLNOHpK",
+        "description": "Streamlined 6thgeneration workforce",
+        "latitude": 53.54199055099008,
+        "longitude": 50.9880052488399,
+        "precision": 63.49389718098425,
+        "region": "melanesia",
+        "street_address": "42111 April Heights",
+        "postal_code": "41931",
+        "confidence": 68,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--50f7670c-346f-4bc1-ba35-cdc5147f9306"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ba000e42-f147-4bdb-abf4-b21bb15affdf",
+        "created_by_ref": "identity--2b2b4678-b623-4ded-ac1b-fa5deb5b8254",
+        "created": "2020-09-20T02:55:30.211086Z",
+        "modified": "2021-08-14T01:08:27.171854Z",
+        "relationship_type": "located-at",
+        "source_ref": "identity--7ed06f5a-e273-498b-9404-0f72a75344b2",
+        "target_ref": "location--6ec63f0b-d410-4ece-9ac0-726b049b73f2",
+        "start_time": "2022-06-11T15:39:58.822879Z",
+        "stop_time": "2023-01-08T09:00:12.858071Z",
+        "confidence": 65,
+        "object_marking_refs": [
+            "marking-definition--50f7670c-346f-4bc1-ba35-cdc5147f9306"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--7a98ee8b-7463-4ac0-b661-d076fe975096",
+        "created_by_ref": "identity--2b2b4678-b623-4ded-ac1b-fa5deb5b8254",
+        "created": "2022-05-28T18:41:18.801892Z",
+        "modified": "2023-02-22T07:22:25.135789Z",
+        "abstract": "Forget north test before. Finally capital bed.",
+        "content": "Sell again bad strategy step. See garden south store health lay establish.",
+        "object_refs": [
+            "identity--7ed06f5a-e273-498b-9404-0f72a75344b2",
+            "location--6ec63f0b-d410-4ece-9ac0-726b049b73f2",
+            "relationship--ba000e42-f147-4bdb-abf4-b21bb15affdf"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--50f7670c-346f-4bc1-ba35-cdc5147f9306"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2b2b4678-b623-4ded-ac1b-fa5deb5b8254",
+        "created_by_ref": "identity--2b2b4678-b623-4ded-ac1b-fa5deb5b8254",
+        "created": "2020-10-18T04:05:12.346506Z",
+        "modified": "2021-08-14T01:08:27.172468Z",
+        "name": "Castro Ltd",
+        "description": "Open-source cohesive conglomeration",
+        "roles": [
+            "read",
+            "them",
+            "improve"
+        ],
+        "identity_class": "group",
+        "sectors": [
+            "infrastructure"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "protect",
+                "description": "Market former something teach network high each.",
+                "url": "https://www.navarro-wells.net/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--50f7670c-346f-4bc1-ba35-cdc5147f9306"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--50f7670c-346f-4bc1-ba35-cdc5147f9306",
+        "created": "2021-08-14T01:08:27.170642Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e0c28f68-5570-434a-9764-3e8498f0a59a",
+                "name": "Serve much idea usually",
+                "create_date_time": "2021-08-14T01:08:08.432065Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

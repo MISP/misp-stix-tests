@@ -1,0 +1,113 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--c03276ad-1f1b-4187-8a6b-205db11e2d29",
+        "created_by_ref": "identity--0143f028-5fb1-423e-98bf-d3369ab6cfff",
+        "created": "2022-06-04T08:01:35.707992Z",
+        "modified": "2023-05-16T16:49:40.577885Z",
+        "name": "chair",
+        "description": "Size election report deep important.",
+        "aliases": [
+            "game",
+            "school",
+            "raise"
+        ],
+        "resource_level": "individual",
+        "primary_motivation": "unpredictable",
+        "secondary_motivations": [
+            "notoriety"
+        ],
+        "labels": [
+            "structure",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--7e023d8f-0c47-4da7-93a3-5ea20b55a0ec",
+        "created_by_ref": "identity--0143f028-5fb1-423e-98bf-d3369ab6cfff",
+        "created": "2021-06-02T18:34:22.260808Z",
+        "modified": "2021-11-13T15:10:37.087587Z",
+        "name": "then",
+        "aliases": [
+            "culture",
+            "Republican",
+            "capital",
+            "situation"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--39cd20a0-8138-44f1-89a4-77ca7ddfea21",
+        "created_by_ref": "identity--0143f028-5fb1-423e-98bf-d3369ab6cfff",
+        "created": "2021-08-11T01:15:34.918499Z",
+        "modified": "2021-12-07T23:23:49.08266Z",
+        "relationship_type": "owns",
+        "source_ref": "intrusion-set--c03276ad-1f1b-4187-8a6b-205db11e2d29",
+        "target_ref": "infrastructure--7e023d8f-0c47-4da7-93a3-5ea20b55a0ec",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 76,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--72cfba95-eb1a-4edc-a19c-bc91458fe304",
+        "created_by_ref": "identity--0143f028-5fb1-423e-98bf-d3369ab6cfff",
+        "created": "2021-10-04T21:00:39.80618Z",
+        "modified": "2021-12-22T01:25:07.335038Z",
+        "name": "far",
+        "published": "2020-08-21T10:06:55.22889Z",
+        "object_refs": [
+            "intrusion-set--c03276ad-1f1b-4187-8a6b-205db11e2d29",
+            "infrastructure--7e023d8f-0c47-4da7-93a3-5ea20b55a0ec",
+            "relationship--39cd20a0-8138-44f1-89a4-77ca7ddfea21"
+        ],
+        "labels": [
+            "seat",
+            "effect",
+            "political",
+            "explain",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0143f028-5fb1-423e-98bf-d3369ab6cfff",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-06-20T13:45:07.399377Z",
+        "modified": "2021-08-14T01:08:53.952496Z",
+        "name": "Bennett, Sanchez and Miller",
+        "identity_class": "class",
+        "contact_information": "6842 Diane Falls\nSmithland, IL 38526",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

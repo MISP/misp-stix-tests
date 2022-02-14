@@ -1,0 +1,200 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--434f5871-50f7-4c40-a34b-56e28ac40577",
+        "created_by_ref": "identity--acafd441-fbdc-4ca4-87c8-41f8eabe5117",
+        "created": "2021-11-07T14:55:32.811653Z",
+        "modified": "2022-05-25T14:16:54.484267Z",
+        "description": "Since husband open section continue.",
+        "indicator_types": [
+            "anonymization",
+            "unknown",
+            "benign",
+            "compromised"
+        ],
+        "pattern": "[user-account:credential_last_changed < t'2021-04-24T01:41:46.514782Z'] WITHIN 6 SECONDS",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-10-22T05:48:21.195518Z",
+        "confidence": 46,
+        "external_references": [
+            {
+                "source_name": "think",
+                "description": "Project actually all child.",
+                "external_id": "QPvHsWQFQtoKVK"
+            },
+            {
+                "source_name": "effort",
+                "url": "http://www.graham.biz/",
+                "external_id": "kKbQNMoMjS"
+            },
+            {
+                "source_name": "fill",
+                "hashes": {
+                    "MD5": "dc273356d952c484dc6817088f6de026",
+                    "SHA-1": "73d1acd0a5130d7d440bb4a62f5fa5b7baf9ed7a",
+                    "SHA-256": "a8ce64c68f2b7827fdacce11852a52dfaffce5a3f335f754bbc64606e4f751db",
+                    "SHA-512": "58cb23ca978906f88add58b796edf5c549c265e5c20cf005a3d48bba0be3365053bc37ab66f81c9c8937ba31fc2928277cb20b9dd975766dc29bdcde610b6d34",
+                    "SHA3-256": "b1b253683f30f2e6a0760b0031a4ebacec57d5c6f346f71ef3aa7e01ae090d77",
+                    "SHA3-512": "1b1d01a07c396b65627115403d3efc826b1267066b054e871ed523494971f2741df3f6427f8043c9488ad7ccec77f1834a93bbb7d0f777da7e34b4d46420b3ac"
+                },
+                "external_id": "FRTcbcrCX"
+            },
+            {
+                "source_name": "up",
+                "description": "Grow responsibility economy hold.",
+                "hashes": {
+                    "MD5": "73c644c98b67bac55d6a7276d06293ab",
+                    "SHA-1": "5bdbe1b5e5c96d297f36e776a38d6d48fb3e0b3d",
+                    "SHA-256": "a158c7e80d578ac0572b16c92d2b80f37c5c55ce7ab730c8114e3d2e82f6b8ef",
+                    "SHA-512": "d0576af1bf1a4643d5a6173864aeed20bb4ddec0fd43a20da1ab3177846149efa4a15eb354479d28a03a88e8b18dd50d00c50d31822708dc097c123d1ed680a5",
+                    "SHA3-256": "0cc1777207f4277a7f808719aaabbfa99752915c03490d38171d8df7b45dddc6",
+                    "SHA3-512": "694afd02b0de2a585324d1ce99dc16dca5396254db75129827a891d115417cebb60e77b1ff0d1407d5e0281008f109d3bdac8c1ebe95da645feaa64ba2cae841"
+                },
+                "external_id": "rqTeMkAxmcBTjhmwwGy"
+            },
+            {
+                "source_name": "energy",
+                "description": "Task push study player.",
+                "url": "https://www.martin.info/",
+                "hashes": {
+                    "MD5": "3ddb05477d3261790cb2730e6dcfee53",
+                    "SHA-1": "e890e1c1de20ba1de9eac646d4ef99d6f2096ed2",
+                    "SHA-256": "7e8ab048657552a1b2281588b7f62f116f64d8cd69a45cd0ccc55b8ed2f5f7df",
+                    "SHA-512": "dc811e2f13c78766eba0067abef872ce5f0bc8d692cf714230c7ae429bfe2d4bb8d817c5cf82d7b2c9371d92d2e5388c6754ca3742d8a912b43fa10977acc92e",
+                    "SHA3-256": "fc87d2c1b50fd34625def71308eb8fde4467f4a42c33ae6b681e0251bcb4c6b3",
+                    "SHA3-512": "ba1ec037f7923f7535f61fdd4c3a978d7730aee2d5139025db4d8a50a0e5e930cbcf2201286229202f6ae722f472cd34f95e17aa3a00907b852a0ad80751f4ea"
+                },
+                "external_id": "bEZfkScfQXYWMJRF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d2a1059a-d456-47bc-89fd-c502f8169d46"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--e5e7ade9-32d6-41e1-8089-748be82a5e1d",
+        "created_by_ref": "identity--acafd441-fbdc-4ca4-87c8-41f8eabe5117",
+        "created": "2021-11-02T00:37:40.008061Z",
+        "modified": "2022-01-16T09:20:51.077469Z",
+        "first_observed": "2021-05-08T18:01:35.730239Z",
+        "last_observed": "2021-06-02T13:10:33.93459Z",
+        "number_observed": 542577091,
+        "objects": {
+            "ipv6-addr--2a646375-5553-44f7-944a-9fb83558b985": {
+                "type": "ipv6-addr",
+                "spec_version": "2.1",
+                "id": "ipv6-addr--2a646375-5553-44f7-944a-9fb83558b985",
+                "value": "1050:a721:e4e7:5fb6:430a:4fd5:6e4:eeac"
+            },
+            "network-traffic--9792ead5-ba3c-4979-bb8f-20f244f9c97d": {
+                "type": "network-traffic",
+                "spec_version": "2.1",
+                "id": "network-traffic--9792ead5-ba3c-4979-bb8f-20f244f9c97d",
+                "end": "2022-07-01T20:02:39.319604Z",
+                "is_active": false,
+                "dst_ref": "ipv6-addr--2a646375-5553-44f7-944a-9fb83558b985",
+                "dst_port": 64603,
+                "protocols": [
+                    "ipv4",
+                    "tcp",
+                    "http"
+                ],
+                "src_byte_count": 688186,
+                "dst_byte_count": 947866,
+                "dst_packets": 396242
+            }
+        },
+        "confidence": 35,
+        "object_marking_refs": [
+            "marking-definition--d2a1059a-d456-47bc-89fd-c502f8169d46"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8227018d-60e2-4394-8576-e13130bd8ad7",
+        "created_by_ref": "identity--acafd441-fbdc-4ca4-87c8-41f8eabe5117",
+        "created": "2021-03-18T03:44:23.568623Z",
+        "modified": "2021-08-14T01:08:36.928471Z",
+        "relationship_type": "based-on",
+        "description": "Reflect TV ago instead consumer hit. Work man life star deep floor better door.",
+        "source_ref": "indicator--434f5871-50f7-4c40-a34b-56e28ac40577",
+        "target_ref": "observed-data--e5e7ade9-32d6-41e1-8089-748be82a5e1d",
+        "stop_time": "2021-11-09T01:54:14.598517Z",
+        "object_marking_refs": [
+            "marking-definition--d2a1059a-d456-47bc-89fd-c502f8169d46"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--acafd441-fbdc-4ca4-87c8-41f8eabe5117",
+        "created_by_ref": "identity--acafd441-fbdc-4ca4-87c8-41f8eabe5117",
+        "created": "2021-04-12T21:48:02.295411Z",
+        "modified": "2022-02-24T07:22:05.424743Z",
+        "name": "Avery and Sons",
+        "identity_class": "unknown",
+        "sectors": [
+            "manufacturing",
+            "pharmaceuticals",
+            "healthcare",
+            "healthcare",
+            "automotive"
+        ],
+        "confidence": 64,
+        "object_marking_refs": [
+            "marking-definition--d2a1059a-d456-47bc-89fd-c502f8169d46"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d2a1059a-d456-47bc-89fd-c502f8169d46",
+        "created": "2021-08-14T01:08:36.924648Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-54b25f01-6af2-45fd-9467-12811cc2be8c",
+                "name": "Help hit around teach",
+                "create_date_time": "2021-08-14T01:08:08.425022Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

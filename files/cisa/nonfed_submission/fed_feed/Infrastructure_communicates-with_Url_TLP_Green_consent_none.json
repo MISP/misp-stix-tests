@@ -1,0 +1,174 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--948aec2a-9f71-4d93-8516-e71468099ed8",
+        "created_by_ref": "identity--2b97ee12-2ee0-4b29-aede-fa9e45851dcf",
+        "created": "2022-04-25T06:30:25.467509Z",
+        "modified": "2022-06-11T06:51:35.315663Z",
+        "name": "ahead",
+        "infrastructure_types": [
+            "anonymization",
+            "staging",
+            "exfiltration"
+        ],
+        "first_seen": "2020-07-16T21:28:34.395671Z",
+        "last_seen": "2021-03-18T23:38:58.40822Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "defense",
+                "url": "http://rodriguez.net/",
+                "hashes": {
+                    "MD5": "0daf11f271239822b4ec2098c31d21f7",
+                    "SHA-1": "97354a7c86f87b3bc998519a88cff5dce84ed442",
+                    "SHA-256": "18bb077f660afd70372629ca8935d71318b6e29aea1e2f9f6561ad20b75b6214",
+                    "SHA-512": "79b653b9236b6932c2d70d483fec4213d1ff9a48d831445908da60dcd4c864fe01e1b893fba5a255d5b4313a5782a6a6c024ee926e4bc153c691f228e92eae07",
+                    "SHA3-256": "4aece12dc7d9a889c1379652d9c4957e65bb7f73f10c2794bbe4225dd3755fb2",
+                    "SHA3-512": "bd04527348fc89f05f4e4bc3af929e45a581ac7701af23e9167f6114de9b40a56a7a5981791780cb20ed0eea301319ca5dec8e1f829589e5a684e76c60c71114"
+                },
+                "external_id": "RVFgdXEMFIBdaF"
+            },
+            {
+                "source_name": "send",
+                "description": "Shoulder unit center hotel lose social.",
+                "url": "https://khan.com/",
+                "hashes": {
+                    "MD5": "2423271b8e28f5de1db22caa81739f6f",
+                    "SHA-1": "2f449ed752ea5659976f93afa7afaf4591a81acd",
+                    "SHA-256": "edc23b97ec9ed313a453f14fa3de66ad3bf722354a8a9d3eb3119966f7e909d3",
+                    "SHA-512": "2ebdcbad8016497aa0e3076b08ae7fdc00874ab66c8533004d0e41cb2723d4c9adb86b8c37c0f58dce229e13052777989bc2266f7df76ea3fb6afb335ea56c8c",
+                    "SHA3-256": "c863b1abd932f6b32dc85d24bdffbc689bda1b45edaa1df710fb4c13ca749020",
+                    "SHA3-512": "ed5b3a850dd2e850ae314b98d4209f4edd1a7cc174468b3e1c93708c37043bda57002a37469465589d218f160612b8bd31be73c8f90d1513a997ff50a54db208"
+                },
+                "external_id": "YtXXmXYCfplHKfNI"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--130d900a-2c3c-4c34-976c-56fbcad0ba79"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--a1578c4f-d14f-4df8-bcc7-29723af96d18",
+        "value": "https://www.wade-miller.com/",
+        "object_marking_refs": [
+            "marking-definition--130d900a-2c3c-4c34-976c-56fbcad0ba79"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d8094a02-f680-4671-b8d2-ac9422640278",
+        "created_by_ref": "identity--2b97ee12-2ee0-4b29-aede-fa9e45851dcf",
+        "created": "2022-05-18T16:20:35.309088Z",
+        "modified": "2022-10-21T16:34:34.865752Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--948aec2a-9f71-4d93-8516-e71468099ed8",
+        "target_ref": "url--a1578c4f-d14f-4df8-bcc7-29723af96d18",
+        "start_time": "2020-12-14T03:42:00.172181Z",
+        "confidence": 100,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--130d900a-2c3c-4c34-976c-56fbcad0ba79"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--130d900a-2c3c-4c34-976c-56fbcad0ba79",
+        "created_by_ref": "identity--2b97ee12-2ee0-4b29-aede-fa9e45851dcf",
+        "created": "2021-08-14T01:08:41.344614Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3d6ad3e0-0112-4a6d-8546-447c0e169799",
+                "name": "Space side determine future",
+                "create_date_time": "2021-08-14T01:08:08.419249Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2b97ee12-2ee0-4b29-aede-fa9e45851dcf",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-05T22:19:24.768594Z",
+        "modified": "2022-09-24T15:50:38.764898Z",
+        "name": "PerThusPossible",
+        "description": "Optimized even-keeled alliance",
+        "roles": [
+            "recent",
+            "doctor",
+            "behavior"
+        ],
+        "identity_class": "group",
+        "contact_information": "90008 Harry Trace Apt. 845\nFordside, VA 57236",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--130d900a-2c3c-4c34-976c-56fbcad0ba79"
+        ]
+    }
+]

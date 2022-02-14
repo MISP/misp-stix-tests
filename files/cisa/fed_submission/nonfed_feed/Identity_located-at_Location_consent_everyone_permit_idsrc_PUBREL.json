@@ -1,0 +1,112 @@
+[
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4b1ebc12-5e16-43ff-8a4d-21fda179da5c",
+        "created_by_ref": "identity--0a5ee636-f4a0-41a0-99c5-e714a48d0d1e",
+        "created": "2020-12-02T12:29:18.745422Z",
+        "modified": "2021-09-21T20:58:59.966674Z",
+        "name": "Gonzalez, Hernandez and Lopez",
+        "identity_class": "class",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--313d97ba-58f5-4758-9bd2-e7080e40d003",
+        "created_by_ref": "identity--0a5ee636-f4a0-41a0-99c5-e714a48d0d1e",
+        "created": "2022-08-02T18:48:42.363275Z",
+        "modified": "2023-04-09T14:36:38.582542Z",
+        "name": "KxkCVtYdKYss",
+        "latitude": 17.749567293028704,
+        "longitude": 163.4540653170597,
+        "precision": 29.509079827767724,
+        "region": "australia-new-zealand",
+        "administrative_area": "TqKCrFAytWSwR",
+        "city": "North Stephen",
+        "postal_code": "14639",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 19,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e52dbe30-9ddf-4e33-9ae0-0b4e5ab73634",
+        "created_by_ref": "identity--0a5ee636-f4a0-41a0-99c5-e714a48d0d1e",
+        "created": "2020-08-23T21:18:23.790847Z",
+        "modified": "2021-08-14T01:08:27.139166Z",
+        "relationship_type": "located-at",
+        "source_ref": "identity--4b1ebc12-5e16-43ff-8a4d-21fda179da5c",
+        "target_ref": "location--313d97ba-58f5-4758-9bd2-e7080e40d003",
+        "stop_time": "2021-02-10T05:47:50.40885Z",
+        "labels": [
+            "right",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0a5ee636-f4a0-41a0-99c5-e714a48d0d1e",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-04T21:09:23.487374Z",
+        "modified": "2021-08-26T21:25:30.313078Z",
+        "name": "Gardner-Smith",
+        "description": "Cross-group secondary task-force",
+        "identity_class": "organization",
+        "sectors": [
+            "chemical"
+        ],
+        "contact_information": "3094 Caroline Junctions\nLake Candicehaven, ME 53934",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "summer",
+                "description": "No agency world level.",
+                "hashes": {
+                    "MD5": "9aa6af8393bb4266316590c5ce170dc0",
+                    "SHA-1": "e57170781a749bbb3a72be4aa11553be725d2a0c",
+                    "SHA-256": "b076c2c8402553178b2bbb43bda13ff76bef834f58d0cc0f63245b20a0203d7b",
+                    "SHA-512": "2e7c9ef26e2071f58d542e5e5b349570b10614098b5b591481a02a526f445e5e61c3aa4f24bc0992e5fece56b2e3cbd8057bfff8b69f5806f76a0a7a22f08a10",
+                    "SHA3-256": "79723c1640a0dd9b3628b22591542f325c532c426e7e4ab7c44b7082be61cc30",
+                    "SHA3-512": "0956147370bef3b52060b287f52176cf2aacce582ec354c17f2653ba27b1547ecfff60cbad577abce81150a894664f6728c3cee36549fffc02ddbcaa9295e691"
+                }
+            },
+            {
+                "source_name": "break",
+                "description": "Government state this wonder specific.",
+                "url": "https://hayes-stafford.com/",
+                "hashes": {
+                    "MD5": "b02fba82038f88c08667a6d6c359ad87",
+                    "SHA-1": "4c96dcfdce1bf6c1f5e17c39bcd373a514ae3046",
+                    "SHA-256": "dbd4b2be8b7af0748513d961271b321198e14ea61c149d0e629596663c73e740",
+                    "SHA-512": "0371e556e43ad1d2a9d90575c475f0a69c768caa40bf5f6487ae60ce4f0067c5856bdc2c17631392f9914f0445469dc2a4f150c5fc4f9af6a3225b0850a55074",
+                    "SHA3-256": "00addf5803bc08bf8a65ef1c550f4d1366bd75afba44f9dcbe71b8874d47ef45",
+                    "SHA3-512": "b307430a776f6577a36099ee8d7ed1e22f7a658eee0d17497bb77c1a9f00ee49210c2151acea365b64c61fd190bd689416b7b8cc9680c46b31342b7c977095d1"
+                },
+                "external_id": "hIcIxm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

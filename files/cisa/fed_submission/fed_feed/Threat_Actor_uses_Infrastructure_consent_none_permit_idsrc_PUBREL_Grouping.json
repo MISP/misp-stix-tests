@@ -1,0 +1,349 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--b8b541cf-893e-4a07-8644-430b229cc2e4",
+        "created_by_ref": "identity--0c21b575-cb14-417e-8919-4c5becc6d779",
+        "created": "2021-11-23T01:00:13.795072Z",
+        "modified": "2022-01-11T07:58:21.996176Z",
+        "name": "institution",
+        "description": "Face trade a.",
+        "last_seen": "2022-02-04T18:18:10.785525Z",
+        "goals": [
+            "successful"
+        ],
+        "resource_level": "organization",
+        "primary_motivation": "organizational-gain",
+        "confidence": 45,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "defense",
+                "url": "https://www.parker.org/",
+                "hashes": {
+                    "MD5": "3f69571e6b17290b6a93bb13fa8f5a9b",
+                    "SHA-1": "2e666688597a583e20a63214cacb9020f4979336",
+                    "SHA-256": "90d406a0e4c03445468ab87bb9fdb16c6525bad8b138aa555c1134d678d04374",
+                    "SHA-512": "b8b1509016c62838240bd4f544275dc4ec8c3834bb8d4b17b99dccb72a4224b74f46130d2b0543196fb70ae0d63a409f64548c111af39cef45e67421c3146109",
+                    "SHA3-256": "562a1a85c11934be780cc5d8646670a4b70f5ff262bb9d8cd7c842bc5535bb6e",
+                    "SHA3-512": "88123e02833f666461d12734d52d5ef9bbc95677690535e105874937ce9d4ffc6c4a3dc1bd193d5bedd467c0ffe4079c905418966d1a93612e592b264ce7566c"
+                },
+                "external_id": "iCmgOklsmvqz"
+            },
+            {
+                "source_name": "along",
+                "description": "Green under later main including blood ask force.",
+                "url": "https://taylor-taylor.com/",
+                "external_id": "mdEFxaWVP"
+            },
+            {
+                "source_name": "edge",
+                "url": "https://www.phillips.biz/",
+                "hashes": {
+                    "MD5": "79964dd4695c7d4e8d29dd0659ee643d",
+                    "SHA-1": "5e6c697ea51f9d90453599f36142572ae470f61a",
+                    "SHA-256": "4ca50b4c7c8537813b7ddefd4fcdc0bd3512fa248e4894c039f24c9340954e91",
+                    "SHA-512": "afd3a4181e4f712fa1d79130469335fa9e9776adbd31fe07c22b86ecd99a322d101e20ba995405406e6ba19ac999f185d624fab259339456dde87044889bcd56",
+                    "SHA3-256": "23c9a091946d451d9aeae3437cdb2d98a9707524f654e1866fc19c4782bc38d5",
+                    "SHA3-512": "ad4cfe3de9db346e3f08703154ed3336a7ddd51b1b888bf55f69c7538117498fa184845354f2b6a76e70b57efbc3a315b6584fe68b8a5c8a254b76e5f85e12d7"
+                },
+                "external_id": "thhUSHMHyoF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--38a7fc37-b6d8-4a0e-9668-d812e1e9ba31"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--1e59e4b5-ff7f-469c-a9f6-438264755590",
+        "created_by_ref": "identity--0c21b575-cb14-417e-8919-4c5becc6d779",
+        "created": "2022-01-04T21:11:11.938034Z",
+        "modified": "2022-08-28T20:24:44.463521Z",
+        "name": "plant",
+        "description": "Heavy produce challenge east dog guy.",
+        "infrastructure_types": [
+            "anonymization",
+            "routers-switches"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "AepiB",
+                "phase_name": "mLfsyPNKtrxdVBSCo"
+            },
+            {
+                "kill_chain_name": "HPDxNt",
+                "phase_name": "twqnoHhxJvoiFMDjGT"
+            },
+            {
+                "kill_chain_name": "bEixifmOA",
+                "phase_name": "JASnfbQy"
+            },
+            {
+                "kill_chain_name": "DuwjL",
+                "phase_name": "kherwGsTQcFeOjR"
+            }
+        ],
+        "first_seen": "2021-09-28T06:41:12.60327Z",
+        "confidence": 99,
+        "object_marking_refs": [
+            "marking-definition--38a7fc37-b6d8-4a0e-9668-d812e1e9ba31"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--24e39c58-37f2-4b64-a569-0d6f5e48559c",
+        "created_by_ref": "identity--0c21b575-cb14-417e-8919-4c5becc6d779",
+        "created": "2021-11-07T07:43:10.286657Z",
+        "modified": "2021-12-03T02:48:37.188518Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--b8b541cf-893e-4a07-8644-430b229cc2e4",
+        "target_ref": "infrastructure--1e59e4b5-ff7f-469c-a9f6-438264755590",
+        "start_time": "2022-06-02T02:57:32.955825Z",
+        "labels": [
+            "main",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--38a7fc37-b6d8-4a0e-9668-d812e1e9ba31"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--6eab44f5-d271-4242-a685-b2794800956d",
+        "created_by_ref": "identity--0c21b575-cb14-417e-8919-4c5becc6d779",
+        "created": "2022-08-01T09:19:04.772177Z",
+        "modified": "2023-06-06T20:23:19.619002Z",
+        "description": "Result former while view.",
+        "context": "unspecified",
+        "object_refs": [
+            "threat-actor--b8b541cf-893e-4a07-8644-430b229cc2e4",
+            "infrastructure--1e59e4b5-ff7f-469c-a9f6-438264755590",
+            "relationship--24e39c58-37f2-4b64-a569-0d6f5e48559c"
+        ],
+        "labels": [
+            "sit",
+            "generation",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "no",
+                "description": "Leader build significant hot.",
+                "url": "https://www.estrada-simpson.com/",
+                "external_id": "XUeVYGALGeKiYqGXIGoH"
+            },
+            {
+                "source_name": "statement",
+                "url": "https://www.guzman.org/"
+            },
+            {
+                "source_name": "unit",
+                "description": "Beyond door movie decide.",
+                "url": "https://www.flowers.com/",
+                "hashes": {
+                    "MD5": "c1d31607d7f999d02ca9d40995822ee8",
+                    "SHA-1": "81dce711182cded335849d0a0a0cce71e7e10964",
+                    "SHA-256": "fedc69fff6c7745f9c1da163a160927f2b1fe649c5e2c9835d7ca0f1996c5d2f",
+                    "SHA-512": "9c51e9d3e9b1a928068cb6a40db497c4decccbab5033ee04b46b64dea3408af9cdaf746f507ba52dd639b446e9968f91f4adc76d2a164c555256b5bb889ec240",
+                    "SHA3-256": "e5ace584648476f7da60e89f489b168529006aef2efdb8ffa4b7adba8b0de148",
+                    "SHA3-512": "9cd0056c7b7c2c5f2854e7231672ab16161490c486080aff09217d7c28ae56a1cbdec818ebdc8aaca1caa67540139573b49d83748513fce33870a2df4af47000"
+                },
+                "external_id": "GzQacF"
+            },
+            {
+                "source_name": "environmental",
+                "description": "Should health baby go.",
+                "url": "http://www.jimenez.net/",
+                "hashes": {
+                    "MD5": "37caf573cacb0efa1f023fb1d7dde6cd",
+                    "SHA-1": "920cfee6bf4b6ac9622511940cd245d8f931f955",
+                    "SHA-256": "448eb6c54d7d0f128e8f7e95f31d05c85328974e682695eaf7c84a07dbc822af",
+                    "SHA-512": "eabb0ae13529c1631ac3669cb89d0b7e9066d6a8a8c1a6241d2a8f11894116e12dab9c5bc9bd7604a4565d4438967bd6987e8b332af6796c052355d44fd60450",
+                    "SHA3-256": "ca4495b0f8ed591133f643e7de48fe26c2b0966b68268508c406fb2ca0fc3b05",
+                    "SHA3-512": "0c3b67001c9ab0e4a9cd9457eb65f251fd46d58c330c3a614bfff0a2b315e8f2c2d892ac9a567ac3d0140b7164612889bf85dd45fd8df4f61064d10e8ff35c2d"
+                },
+                "external_id": "oXqqvJiPixMaGgWvXr"
+            },
+            {
+                "source_name": "shoulder",
+                "url": "https://www.collins.com/",
+                "hashes": {
+                    "MD5": "8d72743f2989fafe66da00110ef87070",
+                    "SHA-1": "e9173d5ada779ac5b0dd595cd8a532dfa7d49704",
+                    "SHA-256": "b7f02eb095683a3d562a7676587914d41338aeb62fe556b29e3c324b00f9f84f",
+                    "SHA-512": "6ad338e4364c5b27e181f7f53c216f02bf59ad5c2d32f71d451fe91604a937a345a86bf498c332d918774ca1db30b6628b7dca44d4f12a74173c8a005f915c6e",
+                    "SHA3-256": "d52d40b7b401cb767346db7d7b000ef062d9725def1f4fced735b2b837e95fc0",
+                    "SHA3-512": "83333d8ed68b601ed9797e3a7e7f3cd5b8864f49d5ebd9454d400e18c3c7978734c430a8b9205477bf25d3ef4554329c2c7e7ad4d56880f1395bc6b6aa5c953e"
+                },
+                "external_id": "tsULvvIDLiOBIb"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--38a7fc37-b6d8-4a0e-9668-d812e1e9ba31"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0c21b575-cb14-417e-8919-4c5becc6d779",
+        "created_by_ref": "identity--0c21b575-cb14-417e-8919-4c5becc6d779",
+        "created": "2021-03-09T16:36:42.869286Z",
+        "modified": "2021-08-14T01:09:33.383271Z",
+        "name": "Webb-Alexander",
+        "description": "Profit-focused 24hour benchmark",
+        "roles": [
+            "character",
+            "nice",
+            "white"
+        ],
+        "confidence": 6,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "audience",
+                "description": "New stop here marriage out explain.",
+                "url": "https://www.smith.org/"
+            },
+            {
+                "source_name": "require",
+                "url": "https://kelley-washington.com/",
+                "hashes": {
+                    "MD5": "01b3307611e7dddec2fbb1c01dc0b14b",
+                    "SHA-1": "ed5272d7b41f915c42e76d1934ee12d322f080d1",
+                    "SHA-256": "4bf3e7f21c351ee984bbbfcdde2faa09a3f7398a39a97a1c599113bf273a3a30",
+                    "SHA-512": "0ef6d68e3cb855e0b46bf19a8f50758e35948909ddaed79095bbec719106f8ad44345221d16225e100231871bb0fe6f05861d71161b18cd9270ba53cd08fad7d",
+                    "SHA3-256": "e88752c065c1d429c03635bdfa70d7926862e59e4cd2b83ef5b033502e0ec49c",
+                    "SHA3-512": "e8bf9921f228093a260f31bc8c366125577f0298ea16aeb9ce91ff78237d95f13f67b5da917927807076281b0611c0718f94045ea0d72e790fe43f864899f5c5"
+                },
+                "external_id": "lDRPeIDceoXwHRGd"
+            },
+            {
+                "source_name": "culture",
+                "url": "http://baird-perry.com/",
+                "external_id": "VvzymfGqOcchTHxm"
+            },
+            {
+                "source_name": "wear",
+                "description": "Defense find here example song.",
+                "hashes": {
+                    "MD5": "fd778c87ed423a2418aa6f78dff4e40e",
+                    "SHA-1": "6f7fb0e569e1df5a2bd3ed85c4f4326a932ef7c3",
+                    "SHA-256": "6d0c01829be7ac2121f08884915a51d1f5eb2e64c632a8a9694151e17af4f6fa",
+                    "SHA-512": "87b5b9f63a6536259a2e8910339aba65e7a9bb54331539a406a01355b1b710f8673976c8fac7ecb938309f46a9c26f92f7c208d3e1a8031e8773eaca07db9fbb",
+                    "SHA3-256": "dfc776085d55d21e71047f5a1c1489285c61874c03b6c4a81bc859e4196bb738",
+                    "SHA3-512": "430a59289cf52d45c99d299e5ef825c1ae6679cc52b13087dac6588ff9cc9b2e7c91e9ece644f826dfb21ad14d05abf712f95adf419d556cd9e459e4974e0099"
+                },
+                "external_id": "QOTWcLvzFCqMJupHQTIM"
+            },
+            {
+                "source_name": "they",
+                "hashes": {
+                    "MD5": "155170c8db9d4cfddceabdd29b1653a4",
+                    "SHA-1": "487ad8f88b779f7c8eaf514d5df8079c51af1f16",
+                    "SHA-256": "cfa27598aee587eba2afc74665fec966c1044157a3ff640c8308f5a359bc44f6",
+                    "SHA-512": "49e4a81436c11d84859d4d63ad4c9707f0a274151bfc20148b911a4365b05d3a1dee53e5143e5bbb66b13e645fa1e4373f3d2d33907a6378087867e1bb7eef2d",
+                    "SHA3-256": "611269c62020aba66bb908566b36716189ef5723bba33adea982ba8c8e1d83e9",
+                    "SHA3-512": "e7d618caf6e1cc600f8e289c0bb86e6a29923c2bff62eca55a8a726d6de6d8e0bee4a6535018c0867f082ba0300a0a0adeedc538ff2396b2224ab24a0681b7e4"
+                },
+                "external_id": "tSKlfWDOn"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--38a7fc37-b6d8-4a0e-9668-d812e1e9ba31"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--38a7fc37-b6d8-4a0e-9668-d812e1e9ba31",
+        "created": "2021-08-14T01:09:33.379755Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c37eda22-f302-4b2e-bf63-7f8ea35d72b0",
+                "name": "Event really first our country somebody",
+                "create_date_time": "2021-08-14T01:08:08.426408Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.426228Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

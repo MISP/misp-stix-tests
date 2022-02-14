@@ -1,0 +1,252 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--893001e9-4574-42af-80d3-ed65435619a5",
+        "created_by_ref": "identity--04dcf6ea-ad9f-48f7-881c-f89da1757cdb",
+        "created": "2021-02-22T09:40:40.931635Z",
+        "modified": "2021-08-14T01:08:36.720308Z",
+        "name": "end",
+        "description": "Yes describe night population.",
+        "indicator_types": [
+            "anomalous-activity",
+            "malicious-activity"
+        ],
+        "pattern": "([directory:path NOT = '/blue/letter.pages'] OR [(mutex:name < 'from') AND mutex:defanged = false])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-11-26T09:29:50.219107Z",
+        "valid_until": "2021-07-07T01:17:00.650906Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "WrEBDbOLJlWaOor",
+                "phase_name": "wsfhlMbLVqNSXlKIEg"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "GDXkzMwJiL",
+                "phase_name": "nCNqKgOvq"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "ZtWJdnEZZVL",
+                "phase_name": "lnTNJjF"
+            }
+        ],
+        "confidence": 4,
+        "object_marking_refs": [
+            "marking-definition--d53af869-c5a7-4035-998d-a9e242b5bc2e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--dc8b56f5-1cca-48d1-9dec-1a2d5b98a5fb",
+        "created_by_ref": "identity--04dcf6ea-ad9f-48f7-881c-f89da1757cdb",
+        "created": "2021-08-22T12:37:06.407044Z",
+        "modified": "2022-04-12T11:00:10.40331Z",
+        "first_observed": "2020-08-25T10:51:38.756567Z",
+        "last_observed": "2021-08-14T16:24:39.052674Z",
+        "number_observed": 567521988,
+        "objects": {
+            "software--be6624f7-306f-4c16-ace6-c8f193f74709": {
+                "type": "software",
+                "spec_version": "2.1",
+                "id": "software--be6624f7-306f-4c16-ace6-c8f193f74709",
+                "name": "PyoIWxipEaIaB",
+                "version": "5"
+            }
+        },
+        "confidence": 25,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "left",
+                "description": "Myself head dark be purpose measure candidate.",
+                "external_id": "deZHjSVriL"
+            },
+            {
+                "source_name": "blood",
+                "url": "http://weaver-smith.com/",
+                "hashes": {
+                    "MD5": "68adba3b17477de80eaa2bb08f74d586",
+                    "SHA-1": "aeba64b80bbeb63b64ca9bfa40b2827fcafb876f",
+                    "SHA-256": "897936bda91a76fa92567c36b826ee1f340f3696f41bdc91c92e6655ca7af6db",
+                    "SHA-512": "0d16d9df8bac8749871b77b6fcbb310584c3aeb16c4e9f68fe6430c2e60e614afc27bdc11fba8b9fb868783dead86727e17db8a51eca880a61b62f0126c281fb",
+                    "SHA3-256": "e67a55ffe4b82c1f329ec1a0a6e9d17ea87301e1b86b9712e0ae8a0de99141b3",
+                    "SHA3-512": "d752210183bb971aeecfe8266bdbccab1ff0a2a6458db82db6dc1a2ce899a2d8287193d969b451cecb4b3a56260a3d59d0c60d94fc1829d9d87a9540fa93a783"
+                },
+                "external_id": "YCuXgjgxwmzAbzqhFO"
+            },
+            {
+                "source_name": "matter",
+                "url": "https://www.johnson.biz/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d53af869-c5a7-4035-998d-a9e242b5bc2e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1383b236-316d-457c-be9d-bdbbef1da854",
+        "created_by_ref": "identity--04dcf6ea-ad9f-48f7-881c-f89da1757cdb",
+        "created": "2021-06-15T06:32:51.522857Z",
+        "modified": "2021-08-21T10:54:08.248898Z",
+        "relationship_type": "based-on",
+        "description": "Simple information his center effort thus them. Investment become mother. About possible believe activity.",
+        "source_ref": "indicator--893001e9-4574-42af-80d3-ed65435619a5",
+        "target_ref": "observed-data--dc8b56f5-1cca-48d1-9dec-1a2d5b98a5fb",
+        "start_time": "2021-12-28T20:01:38.536594Z",
+        "labels": [
+            "interesting",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "shoulder",
+                "url": "https://www.green-peterson.com/",
+                "hashes": {
+                    "MD5": "649064933e22ac8aed037189d18502c2",
+                    "SHA-1": "5e548e7019d56b9e99d23ca18f55dc6716e3ca94",
+                    "SHA-256": "42b9f0e98409d2773f03f92f2d3146b0be08f3e604702c8a0b3ead6979f1cb97",
+                    "SHA-512": "081434247ca376dc4824df1b8e6ea00f5fac5162c12a91bcf95f408801c13a94ff734ce35de988a182ecd0faa1a3817df183a41750feee7bdd021670dcf0afdb",
+                    "SHA3-256": "caeaee13b244dfc8befca5c17bd29549e8ac7901e174e806ddcef2e8158e96f9",
+                    "SHA3-512": "fe9187df5dbaaeed96049c2e8dd0d7eae030eb7262c6e77b2376acf2fa51eabf6f44e1c7436eecf1c24f2d3d557b65eaf0f18c59aa849d9f5dd890f65ee70e8c"
+                },
+                "external_id": "nsllEya"
+            },
+            {
+                "source_name": "any",
+                "description": "Practice its within card.",
+                "url": "https://frederick.com/",
+                "external_id": "fJsynIDqNRvP"
+            },
+            {
+                "source_name": "customer",
+                "description": "Lot heart look close girl begin.",
+                "hashes": {
+                    "MD5": "37d1cd831bb6d04370b7ae79083d2ebf",
+                    "SHA-1": "a84676049cbec13ca44197a2e5c23872f87dc8c7",
+                    "SHA-256": "788a4c45d68257eb5a0c804c01d3a2b34298980e7fff44d365d57fb22884e4b2",
+                    "SHA-512": "c79f104898a9da5ed7bc24dff4baed546c6fd3d99b090f9f6477ae4664f795c75fb329bd91dc331b76bb93a3449c01788c3704e47763534e4a36944ce8cfaef2",
+                    "SHA3-256": "aac9625997afb17229cb734f4c74237278fe38ff88852ca39d94aae989f0e157",
+                    "SHA3-512": "c05ad4d42d8e9a57d4550963b542a7a9f7492eade6c743f4b8420d2485d22d874ed1f97eb5ed4cc57cf065e01c002fb9ec07d3eb8d6c8b4b0aed10379d462628"
+                },
+                "external_id": "nbzIWWRyZtLMVqoBmnSK"
+            },
+            {
+                "source_name": "white",
+                "description": "Product huge spend suffer change tax week experience."
+            },
+            {
+                "source_name": "president",
+                "description": "Mention phone available quite career man.",
+                "url": "https://perez-duarte.com/",
+                "hashes": {
+                    "MD5": "6d24c08fc1957352818aa23c35f6d4d7",
+                    "SHA-1": "b14431f7617f9eaa3db8095876ddcf461f81db01",
+                    "SHA-256": "b3fd98bfd8dfdb7b14802cf824218a94533f3052bbfeba98f01a47a1461e6bc7",
+                    "SHA-512": "247d0000f77a081903903e042f86291208c443861314f0bc299166149d79385733ab4b821ba6ccdc1ae5db21e5de1a1d5a6ce880c0bcdc50e95fe7cbfb5fa0e9",
+                    "SHA3-256": "8761fe77d8fa3dcd0d3efd65a2bff1e5c78ba7e81dbaa0c4ebcc1aaefe1bd79e",
+                    "SHA3-512": "2a4e8b9721fdf31a5fd45a0699e804b03dbc520763e3ae238b7342c74d4d08a1f200e8dd2471e5042c01f955f66952394c516a7da6a4b2ad02e571afd9dc54ab"
+                },
+                "external_id": "lfIXvlBksxxdBbtchX"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d53af869-c5a7-4035-998d-a9e242b5bc2e"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d53af869-c5a7-4035-998d-a9e242b5bc2e",
+        "created_by_ref": "identity--04dcf6ea-ad9f-48f7-881c-f89da1757cdb",
+        "created": "2021-08-14T01:08:36.719412Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-881bbc21-deef-4d57-abf3-7f599266217f",
+                "name": "Way get would fight necessary hour measure",
+                "create_date_time": "2021-08-14T01:08:08.423662Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--04dcf6ea-ad9f-48f7-881c-f89da1757cdb",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-25T07:50:51.803485Z",
+        "modified": "2023-01-19T14:48:29.575267Z",
+        "name": "Gray LLC",
+        "description": "Visionary web-enabled service-desk",
+        "identity_class": "unknown",
+        "contact_information": "USS Gonzalez\nFPO AP 24918",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 7,
+        "object_marking_refs": [
+            "marking-definition--d53af869-c5a7-4035-998d-a9e242b5bc2e"
+        ]
+    }
+]

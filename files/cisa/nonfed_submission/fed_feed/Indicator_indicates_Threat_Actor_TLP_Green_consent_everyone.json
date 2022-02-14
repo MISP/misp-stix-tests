@@ -1,0 +1,225 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--1695dbf7-68cd-4092-b207-063e0fb7ce71",
+        "created_by_ref": "identity--8877287b-52cf-4f1f-959c-de47178a3717",
+        "created": "2021-06-09T21:06:09.691302Z",
+        "modified": "2022-04-07T17:35:51.995883Z",
+        "name": "compare",
+        "description": "Best southern real.",
+        "indicator_types": [
+            "unknown",
+            "anonymization"
+        ],
+        "pattern": "[(user-account:defanged = false) OR software:vendor < 'Mata, Burnett and Stephens']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-03-18T03:33:07.27952Z",
+        "valid_until": "2022-04-04T11:57:28.710927Z",
+        "confidence": 60,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "international",
+                "url": "http://www.fox.com/",
+                "external_id": "BqGdnJ"
+            },
+            {
+                "source_name": "person",
+                "description": "Instead particular trouble reduce treat.",
+                "url": "http://whitaker.net/",
+                "hashes": {
+                    "MD5": "fbcba5ca815c8cc461d5794535595bf5",
+                    "SHA-1": "d1a59b1e1d0ec1ee291459ccb3d77152785c9755",
+                    "SHA-256": "11964f60585fb9e851abff85e857cd4f691b571ea44f53dfcae57cf21f0acd77",
+                    "SHA-512": "080fcbfd0468d4f802cb6cdb78f430fb30a4f6995153751c1a5c279f826cd23b56ac6aaaa170d6cb50e18e190f46150fa16ae2525bd01128c6aeb9f4c2aaa9e9",
+                    "SHA3-256": "ca73e44ace946a039ca027d4d6aaa71166574644bb0868a1618c7cc5e8907b79",
+                    "SHA3-512": "83ff72c89696e9d2d6cfc9b8064015208bd20e912363069436f26519d2d704c26f931fbb1a718fd63f5c1a475992e9730ab108fe9c157f985beac5426b6b617b"
+                },
+                "external_id": "acKgfp"
+            },
+            {
+                "source_name": "window",
+                "description": "View language down action behind call close.",
+                "url": "https://www.tucker.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--75d96db3-80be-46f3-a874-5ccc29a98c96"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--2854cd8c-06ed-478f-b2ea-a69ac0994da8",
+        "created_by_ref": "identity--8877287b-52cf-4f1f-959c-de47178a3717",
+        "created": "2021-03-06T07:55:20.302023Z",
+        "modified": "2021-08-14T01:08:33.692304Z",
+        "name": "color",
+        "description": "Structure thus model understand citizen.",
+        "last_seen": "2021-03-15T14:52:36.357484Z",
+        "goals": [
+            "thought",
+            "whole",
+            "simple"
+        ],
+        "secondary_motivations": [
+            "notoriety",
+            "coercion",
+            "revenge",
+            "notoriety"
+        ],
+        "personal_motivations": [
+            "notoriety",
+            "unpredictable",
+            "accidental",
+            "unpredictable",
+            "notoriety"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--75d96db3-80be-46f3-a874-5ccc29a98c96"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e5dc2dc3-6b18-4585-bcff-181f404a9b35",
+        "created_by_ref": "identity--8877287b-52cf-4f1f-959c-de47178a3717",
+        "created": "2021-08-20T00:15:44.377346Z",
+        "modified": "2021-10-12T22:42:07.046407Z",
+        "relationship_type": "indicates",
+        "description": "Behind accept soldier air deal action. Reflect once should pass gun start. Simply perform nature sing fill.",
+        "source_ref": "indicator--1695dbf7-68cd-4092-b207-063e0fb7ce71",
+        "target_ref": "threat-actor--2854cd8c-06ed-478f-b2ea-a69ac0994da8",
+        "start_time": "2022-03-31T12:21:03.066972Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "clearly",
+                "description": "View throughout ahead.",
+                "external_id": "tkNobwTNoGtNc"
+            },
+            {
+                "source_name": "recent",
+                "description": "Thousand last course direction certain.",
+                "hashes": {
+                    "MD5": "8bf237bd21c028e027e550183fed7144",
+                    "SHA-1": "fa4d3486e5a8c3aafe7782759e6bd7b30b1707c5",
+                    "SHA-256": "edd97ef552888850c26a4bb2b008de9a6e4b2cab29b1ee88f97ddb2b9bb5279e",
+                    "SHA-512": "b6747b572044b1a40f6fea8287b3b8257d2c1c756c61d29b0a398d49aec83e5683f8614844c979a1e082a99af4ae88cd14539a6db40136fc935a1a2228069959",
+                    "SHA3-256": "d893209a467e59c53fc2e8ccbc221456a59cef97d34ac57507f3992a9cfbf76e",
+                    "SHA3-512": "7b091cbc61c100802d9d30566250dc7deef3875b0e25c836b119fe9b6255fcc35a5fdc1a56f6a80552945cf32eda52a50c1eee87fcffea79f2e1d75b4ea50d8d"
+                },
+                "external_id": "UVjFxfpmrI"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--75d96db3-80be-46f3-a874-5ccc29a98c96"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--75d96db3-80be-46f3-a874-5ccc29a98c96",
+        "created_by_ref": "identity--8877287b-52cf-4f1f-959c-de47178a3717",
+        "created": "2021-08-14T01:08:33.689781Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-cdad75a5-97a2-450d-bb1c-cac3b21b4823",
+                "name": "Continue half as create together strong",
+                "create_date_time": "2021-08-14T01:08:08.421874Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8877287b-52cf-4f1f-959c-de47178a3717",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-19T07:38:51.82892Z",
+        "modified": "2022-12-29T03:15:57.336513Z",
+        "name": "Smith Ltd",
+        "roles": [
+            "program",
+            "employee",
+            "wait",
+            "ground",
+            "box"
+        ],
+        "sectors": [
+            "government-local"
+        ],
+        "contact_information": "7731 Wilson Cape Suite 984\nSouth Rachelbury, SD 35071",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--75d96db3-80be-46f3-a874-5ccc29a98c96"
+        ]
+    }
+]

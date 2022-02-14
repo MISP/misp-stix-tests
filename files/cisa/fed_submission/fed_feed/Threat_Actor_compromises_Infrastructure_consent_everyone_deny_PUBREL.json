@@ -1,0 +1,232 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--7a41aef4-714c-4a6f-80d6-b2a89c154cad",
+        "created_by_ref": "identity--670bf9ac-10ed-4c15-b441-970a27c2705d",
+        "created": "2021-01-17T11:10:37.240246Z",
+        "modified": "2021-09-18T07:25:28.267972Z",
+        "name": "watch",
+        "first_seen": "2020-11-23T18:44:43.846151Z",
+        "sophistication": "expert",
+        "labels": [
+            "spring",
+            "pass",
+            "someone",
+            "assume",
+            "pfte-batch-1"
+        ],
+        "confidence": 20,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--25ee574d-c8b3-4333-983a-c59d1b19bad0"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--3534af9d-214b-4eb8-83d9-fc93e9e53224",
+        "created_by_ref": "identity--670bf9ac-10ed-4c15-b441-970a27c2705d",
+        "created": "2022-01-11T15:20:37.414355Z",
+        "modified": "2022-11-08T12:16:47.671349Z",
+        "name": "break",
+        "aliases": [
+            "design",
+            "reason"
+        ],
+        "labels": [
+            "imagine",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--25ee574d-c8b3-4333-983a-c59d1b19bad0"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--7907215a-c195-45b5-a213-ac0175554f4e",
+        "created_by_ref": "identity--670bf9ac-10ed-4c15-b441-970a27c2705d",
+        "created": "2021-01-10T03:03:28.909959Z",
+        "modified": "2021-10-01T07:22:33.966574Z",
+        "relationship_type": "compromises",
+        "source_ref": "threat-actor--7a41aef4-714c-4a6f-80d6-b2a89c154cad",
+        "target_ref": "infrastructure--3534af9d-214b-4eb8-83d9-fc93e9e53224",
+        "start_time": "2022-05-17T18:31:28.112253Z",
+        "stop_time": "2023-02-01T01:32:55.186561Z",
+        "confidence": 17,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "what",
+                "description": "Resource decide deal base security.",
+                "hashes": {
+                    "MD5": "3e71aafbd68ee5e3de44505134965e8f",
+                    "SHA-1": "d0cb613f326212d2c25ccf58edb1f894ea3e5282",
+                    "SHA-256": "6c21b455de9b9ac0a5aa07bdae06f3e5f125a04cd7663e5c7e9f0c277123ad94",
+                    "SHA-512": "85592fe2f5553f131d017edb27a0dd795c4abfce92c099ad75e61dd68a597c7cc97d7fa8ce76d52aef1123462b3e1912dea91f89ffa7d31068a2a0da255072c1",
+                    "SHA3-256": "2f662f617758649a15353ed9db28a8a1ee2e7d0fa7a5540277846432b91ae411",
+                    "SHA3-512": "52487c5e7a9c296f675a896b0a98bef5d0258089818c446fb354059c82a5ef93b1370de8e5d804669f06a40446895e58f732f00381f0488dd1bc140e496a5ea2"
+                },
+                "external_id": "jSKfRNXbsBB"
+            },
+            {
+                "source_name": "season",
+                "url": "https://vaughn-mitchell.net/",
+                "hashes": {
+                    "MD5": "574bb8d372c49f97f3c74e15a0994b3d",
+                    "SHA-1": "2684d80975dd10984b89ea885b5aeb4e5fda7426",
+                    "SHA-256": "15b315e378a7d4a4ecb0b5c02f56896563622c48aa24c7a1568cd2269b7fa14a",
+                    "SHA-512": "ff8b7da399026f6e051c67bf838d89bcb71e6b5f7ed7ec9828ca47fc8e5bf6a71f41c58e081a4c4b0a69ef916c035a372e370c0eefd39065846eeab6978676bd",
+                    "SHA3-256": "87e149fbc53ff5a885cff4a6fc01ca83814b7986ef3d67cbfcc4d3281c103631",
+                    "SHA3-512": "1c6d96606c6ed19ef18fdbb147260c3e4718ec888611e0f87acbd5263295acdc939727400a1ef397df2bb4421e3b9ca9a6a1ae2cfcc21eadd70c0633ada1753c"
+                },
+                "external_id": "ZYiLtnevyZPBGQ"
+            },
+            {
+                "source_name": "room",
+                "description": "Young compare guess choice maybe evidence administration.",
+                "hashes": {
+                    "MD5": "eef6057b898788dca9649fd5bc93296d",
+                    "SHA-1": "902db75e68c96ce3f8946a70ff4b7e2a0f2081fb",
+                    "SHA-256": "a08b4f9c824eea36399090a1480b79e86df187528ecdffecc0a0697c3b198452",
+                    "SHA-512": "b57b04313dab3df195e06c4ca20c48d3bbe3a0f2f09166d39994ca16dd704c73b35f95469b57d6863c11e1338b97baa2c21b24bbe8446f8a10c6ff2ce645e9cf",
+                    "SHA3-256": "ab462f7c7c4bd10c87fb29ee2ce0e32bfe58af3ca0b0ed7e02077d02d1a9ae71",
+                    "SHA3-512": "6c5e70ade423156058acc79822c48e3aec1669365191ba76179126cd91e5c4811346f8917a99d99a0ffa026b971b18f3e25e0e6e59ef9027a475f83d4d2dca28"
+                },
+                "external_id": "MZucGYhwLSgnh"
+            },
+            {
+                "source_name": "ground",
+                "url": "https://mitchell.com/",
+                "hashes": {
+                    "MD5": "08434f6869c2b20dff8eb032a40ef354",
+                    "SHA-1": "667e90da73e0962919a84fcfaee79736efe1ee8a",
+                    "SHA-256": "415969aaafeddba942e3ae18577660f883c7adf0586313e4d48bb3deed28cc4a",
+                    "SHA-512": "9eda7efa0c4749a0f17ecc08e4750758ccdd3fe93ae9f2b6a75ae170953346289b20285bf6f611903d2a0081993a63278ce3b3d9a0365a829e135ca941ca03ef",
+                    "SHA3-256": "14075e43681c77d522e39bb10e17c17a80fb9427d4c808e74a3fd5e1256c9633",
+                    "SHA3-512": "032ba3b56ad06e95b20c8803986ec25d69ff5a7bc4002913edb935383c2f2b34f5539b4861fc614e44d5739e107b04b23d4621b711c11c81b1d0472332a1617e"
+                },
+                "external_id": "RsFajVYGNaielkp"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--25ee574d-c8b3-4333-983a-c59d1b19bad0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--670bf9ac-10ed-4c15-b441-970a27c2705d",
+        "created_by_ref": "identity--670bf9ac-10ed-4c15-b441-970a27c2705d",
+        "created": "2021-06-16T22:14:25.694644Z",
+        "modified": "2021-08-14T01:09:25.886626Z",
+        "name": "Martin, Carey and Parsons",
+        "roles": [
+            "kind",
+            "interesting"
+        ],
+        "identity_class": "group",
+        "sectors": [
+            "government-local",
+            "nuclear",
+            "government-local",
+            "chemical"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "talk",
+                "description": "Third section model computer seat western place.",
+                "url": "https://www.brewer-williams.net/",
+                "hashes": {
+                    "MD5": "7bbdf4c1fd1ed9695d6c0b29f87b373e",
+                    "SHA-1": "03b77bf7a40ce9c16f2f20115c68f8701a142ded",
+                    "SHA-256": "b737ff36cf0bda9cdca783638ab63cc2617d4cee3a20c18a19e11783b5ce84d3",
+                    "SHA-512": "fbbda0d9a39627d14659300cb8c9287d86d8f51b88aeedf9c5f232dd5bfcd237c7718eac4411f111f8ab7cb1e76d532da36f32039f538e855e4e66ff7b13da91",
+                    "SHA3-256": "234bc752db101f76dd94a2319aa4755ee9c37364a8a7c8f468bf4affdbd41106",
+                    "SHA3-512": "850c50aba9688dec90b68bc97227762dc1b526e0403100e04633d62c103b638b0121caa296fec979396e7bebe250083baa9824759ba4f96a4f876d4bcf29163d"
+                }
+            },
+            {
+                "source_name": "manage",
+                "description": "Organization themselves fight seem let front.",
+                "url": "http://www.perkins.com/"
+            },
+            {
+                "source_name": "common",
+                "url": "https://www.henderson.com/",
+                "external_id": "qeuLy"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--25ee574d-c8b3-4333-983a-c59d1b19bad0"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--25ee574d-c8b3-4333-983a-c59d1b19bad0",
+        "created": "2021-08-14T01:09:25.884466Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1b1f4ecf-83db-4fe9-8c22-38a5f88b6694",
+                "name": "Deal certainly rather appear present safe",
+                "create_date_time": "2021-08-14T01:08:08.429946Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.429783Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

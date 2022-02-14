@@ -1,0 +1,112 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--c6b9817c-994e-493d-bf95-abc89b84d8ba",
+        "created_by_ref": "identity--c475a2e4-5cc5-4960-b0ed-27e69adc99ae",
+        "created": "2022-04-03T07:36:44.086442Z",
+        "modified": "2022-06-24T03:57:31.805741Z",
+        "name": "threat",
+        "description": "Scene area stock.",
+        "indicator_types": [
+            "unknown"
+        ],
+        "pattern": "[domain-name:value < 'owens-mason.org'] OR [url:defanged NOT = false] OR [directory:atime >= t'2022-06-09T16:13:14.947402Z']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-03-07T08:51:55.521017Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "IhlkkbTjioQnuH",
+                "phase_name": "fuBKHrnbZpJ"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--826d2766-8ded-46ca-9d8a-fd0101ad2f98",
+        "created_by_ref": "identity--c475a2e4-5cc5-4960-b0ed-27e69adc99ae",
+        "created": "2020-11-06T18:38:23.268001Z",
+        "modified": "2021-08-14T01:08:34.635818Z",
+        "name": "international",
+        "description": "Style something name strong writer heart.",
+        "aliases": [
+            "less",
+            "blue",
+            "tell",
+            "main"
+        ],
+        "tool_version": "sure",
+        "labels": [
+            "author",
+            "process",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--dff0e25d-3a03-42b0-b01a-53dc2258b608",
+        "created_by_ref": "identity--c475a2e4-5cc5-4960-b0ed-27e69adc99ae",
+        "created": "2022-01-16T01:55:15.645703Z",
+        "modified": "2022-04-18T14:05:24.66282Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--c6b9817c-994e-493d-bf95-abc89b84d8ba",
+        "target_ref": "tool--826d2766-8ded-46ca-9d8a-fd0101ad2f98",
+        "start_time": "2021-05-03T20:07:18.691735Z",
+        "labels": [
+            "remember",
+            "audience",
+            "pfte-batch-1"
+        ],
+        "confidence": 78,
+        "external_references": [
+            {
+                "source_name": "growth",
+                "description": "Rich gas several help hot win before.",
+                "external_id": "WOaKsdZhFAuCVfgfrZsm"
+            },
+            {
+                "source_name": "organization",
+                "description": "Head hair not first first five city.",
+                "url": "https://www.zhang.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c475a2e4-5cc5-4960-b0ed-27e69adc99ae",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-10T08:34:59.226546Z",
+        "modified": "2021-11-09T16:47:01.799728Z",
+        "name": "AskHardIdentify",
+        "description": "Mandatory asynchronous data-warehouse",
+        "sectors": [
+            "utilities",
+            "government"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 24,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

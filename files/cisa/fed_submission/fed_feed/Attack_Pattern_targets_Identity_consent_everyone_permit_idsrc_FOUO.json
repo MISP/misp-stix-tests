@@ -1,0 +1,166 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--9bfd4d53-eedd-4ee4-81c2-226b1674007a",
+        "created_by_ref": "identity--240bb71b-f19b-43eb-86ad-a1964cabc42d",
+        "created": "2022-03-08T14:41:55.586223Z",
+        "modified": "2022-10-31T19:22:05.737741Z",
+        "name": "suffer",
+        "description": "Bar expect billion maybe man.",
+        "aliases": [
+            "month",
+            "oil",
+            "accept",
+            "social",
+            "consumer"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--dbd7f918-c6df-4b79-a8d9-6ea1ce0f4c0e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ca06f84c-edbc-43cb-8e5d-a1c33e035512",
+        "created_by_ref": "identity--240bb71b-f19b-43eb-86ad-a1964cabc42d",
+        "created": "2021-08-02T07:51:11.290532Z",
+        "modified": "2022-05-31T05:30:56.741577Z",
+        "name": "Stevens-Morgan",
+        "sectors": [
+            "nuclear",
+            "defense",
+            "hospitality-leisure"
+        ],
+        "contact_information": "79668 Knight Square Apt. 173\nKatherinechester, PA 06550",
+        "labels": [
+            "also",
+            "employee",
+            "little",
+            "pfte-batch-1"
+        ],
+        "confidence": 46,
+        "object_marking_refs": [
+            "marking-definition--dbd7f918-c6df-4b79-a8d9-6ea1ce0f4c0e"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--cfcf55c5-6d5e-497f-b875-62f5d10ac4a2",
+        "created_by_ref": "identity--240bb71b-f19b-43eb-86ad-a1964cabc42d",
+        "created": "2020-09-23T14:13:01.858089Z",
+        "modified": "2021-08-14T01:08:09.909225Z",
+        "relationship_type": "targets",
+        "source_ref": "attack-pattern--9bfd4d53-eedd-4ee4-81c2-226b1674007a",
+        "target_ref": "identity--ca06f84c-edbc-43cb-8e5d-a1c33e035512",
+        "stop_time": "2020-10-06T10:55:03.539094Z",
+        "labels": [
+            "source",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--dbd7f918-c6df-4b79-a8d9-6ea1ce0f4c0e"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--240bb71b-f19b-43eb-86ad-a1964cabc42d",
+        "created_by_ref": "identity--240bb71b-f19b-43eb-86ad-a1964cabc42d",
+        "created": "2021-12-18T14:22:53.947936Z",
+        "modified": "2022-04-16T19:21:03.125029Z",
+        "name": "Nguyen, Massey and Brown",
+        "description": "Digitized fault-tolerant info-mediaries",
+        "sectors": [
+            "manufacturing",
+            "mining",
+            "mining"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 57,
+        "object_marking_refs": [
+            "marking-definition--dbd7f918-c6df-4b79-a8d9-6ea1ce0f4c0e"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--dbd7f918-c6df-4b79-a8d9-6ea1ce0f4c0e",
+        "created": "2021-08-14T01:08:09.908081Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f97bfbf2-c194-4d73-b792-b989c4ea0ab5",
+                "name": "Focus develop ago various",
+                "create_date_time": "2021-08-14T01:08:08.431216Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,154 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--6a69c46e-f9e8-496f-a850-5552bcd0836c",
+        "created_by_ref": "identity--3ca8846a-d90f-460f-a301-6d2bc077b7ff",
+        "created": "2022-06-09T00:54:29.681651Z",
+        "modified": "2023-02-04T09:45:19.338053Z",
+        "name": "baby",
+        "threat_actor_types": [
+            "spy"
+        ],
+        "first_seen": "2021-05-01T17:57:50.855733Z",
+        "last_seen": "2022-02-09T15:51:14.686952Z",
+        "goals": [
+            "represent",
+            "continue",
+            "education",
+            "child"
+        ],
+        "secondary_motivations": [
+            "ideology",
+            "accidental",
+            "unpredictable",
+            "revenge",
+            "personal-gain"
+        ],
+        "personal_motivations": [
+            "unpredictable",
+            "ideology",
+            "unpredictable"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 21,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--f71a23d6-407e-423a-bf92-74d4f6cc8bbb",
+        "created_by_ref": "identity--3ca8846a-d90f-460f-a301-6d2bc077b7ff",
+        "created": "2022-07-26T09:55:26.906423Z",
+        "modified": "2023-01-02T18:58:17.804073Z",
+        "name": "thousand",
+        "description": "Win major yard car one really black.",
+        "infrastructure_types": [
+            "staging"
+        ],
+        "first_seen": "2020-08-28T13:57:17.072383Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 40,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e3d49402-dfba-4d1e-a0eb-0beaf79edb7d",
+        "created_by_ref": "identity--3ca8846a-d90f-460f-a301-6d2bc077b7ff",
+        "created": "2021-08-28T08:49:42.559539Z",
+        "modified": "2022-02-02T05:27:27.624185Z",
+        "relationship_type": "owns",
+        "description": "Treat work compare set this decide. Some trouble collection body meet house. Blue ok entire civil.",
+        "source_ref": "threat-actor--6a69c46e-f9e8-496f-a850-5552bcd0836c",
+        "target_ref": "infrastructure--f71a23d6-407e-423a-bf92-74d4f6cc8bbb",
+        "start_time": "2021-10-19T22:52:00.639637Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3ca8846a-d90f-460f-a301-6d2bc077b7ff",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-17T18:58:31.707692Z",
+        "modified": "2021-08-14T01:09:27.91255Z",
+        "name": "UponSocialSimple",
+        "roles": [
+            "modern",
+            "need"
+        ],
+        "contact_information": "1681 Juarez Estates Apt. 229\nNorth Sheena, AK 74004",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "from",
+                "url": "https://www.harris-weiss.com/",
+                "external_id": "gLWEjwPwP"
+            },
+            {
+                "source_name": "later",
+                "description": "Care always ten growth support.",
+                "url": "http://mcdaniel.com/",
+                "hashes": {
+                    "MD5": "085fade3d8eb9c0187879414626885b5",
+                    "SHA-1": "9088cc2cac3a8ea4cf130d9efa8af3eec74f5279",
+                    "SHA-256": "3546d965f1cac0edf86564fb1811ec3e501a0c93cd5546bdb1f13ade75578232",
+                    "SHA-512": "1d6faba6da497f6b25104bee8308d930671e037915484665ab8cfd7847da5e6f50a3c92ffd5ffcbea288b0c47f7e29d5036d04122308cb5af6adf85a6fbc8e19",
+                    "SHA3-256": "b68f2c20a7587beded20eb408d9b6272e4614f96903f0a8ffd65ab1a45a90884",
+                    "SHA3-512": "a84193d32b7f28034a0a7383948f0302557b371e03ea2080eb6eef32222d8576b02fdfdcf9725871feeab9687b5705287b736fa2af833d56f732efc994fb6dfc"
+                }
+            },
+            {
+                "source_name": "another",
+                "url": "https://www.powell.com/",
+                "hashes": {
+                    "MD5": "925c5bb541758bb42e43a5310bb4e897",
+                    "SHA-1": "2ca0c84f9ce86fdb32ddc1f1e76a99c466264ace",
+                    "SHA-256": "ccd9c7b50f85360d64b61db1f9b6370c539f92ba8156d241e46a8ce047100a9f",
+                    "SHA-512": "96ea79051e668332737c00faafcdfa5982a176d48bf5fe3f4ba66c419affff37622bfa9ce6613a60775584226c75d1e75367b79826d0e5fdba472ffde6890832",
+                    "SHA3-256": "d68aa39dc35617ca19f84667d5c746fe1e1fd170f4f1b2a8bf419ab178674ee4",
+                    "SHA3-512": "03ea8fe09ee1360232d3a5128e86846869f75a3c4c12e56541b63b60535fe57930807422a6ca09e0739b3d9b2d3dc3934a31551991f7e04274613658511de88b"
+                },
+                "external_id": "ScAAVgSzqto"
+            },
+            {
+                "source_name": "seven",
+                "external_id": "xSWOVFHVczq"
+            },
+            {
+                "source_name": "rock",
+                "description": "Soon south build firm.",
+                "url": "http://byrd.com/",
+                "hashes": {
+                    "MD5": "0cb3bfa0b86645529b98647f407533f3",
+                    "SHA-1": "757c81d112c1df1491f09e7a239af1fee4548188",
+                    "SHA-256": "69b7778f9cb25c963643f77a7c11e6e53bdefb6c10f2224bab4d8f75bf1c14ab",
+                    "SHA-512": "1318206768822c168e6367baadffca8e66d631d9b6aecefe22134382e1d83a4e196912176a4c803b0427e3c7dc654d49e9bb6d97a74696130f9c253111863ddb",
+                    "SHA3-256": "5002c629641b8d442bfe86aebb69fc30b012552202dac3f0dc164bf529c0567c",
+                    "SHA3-512": "7bc7135a927e4fbb9d10fc4175cd289fee0891b9d53798ccbb7a50c3d5df9075857f638d3b892d9d7d63fb5cbcb72f240f23e9222408801aa0c0ba1ca15f3bf7"
+                },
+                "external_id": "oBmlcYTCUxjIrGE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

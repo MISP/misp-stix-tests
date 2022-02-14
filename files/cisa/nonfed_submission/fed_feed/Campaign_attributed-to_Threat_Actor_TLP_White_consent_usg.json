@@ -1,0 +1,201 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--692def6e-5706-4221-aee8-8bc95fb3fa50",
+        "created_by_ref": "identity--8cf047db-3f7a-432c-97d8-360d4c47e119",
+        "created": "2020-12-10T01:32:31.08879Z",
+        "modified": "2021-08-14T01:08:13.863018Z",
+        "name": "continue",
+        "last_seen": "2022-08-03T15:50:05.513935Z",
+        "objective": "Leader night throw big.",
+        "labels": [
+            "let",
+            "firm",
+            "either",
+            "and",
+            "rise",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--eadd951a-1c2f-41c9-b0bb-e0c3b38c970d"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--9b0f26f4-ea2c-4322-8375-05742d5c99ea",
+        "created_by_ref": "identity--8cf047db-3f7a-432c-97d8-360d4c47e119",
+        "created": "2022-07-30T09:49:44.789883Z",
+        "modified": "2023-07-05T00:20:55.990313Z",
+        "name": "dog",
+        "description": "Stand concern represent perform spring.",
+        "threat_actor_types": [
+            "crime-syndicate",
+            "hacker",
+            "unknown"
+        ],
+        "first_seen": "2020-12-18T14:40:30.466847Z",
+        "sophistication": "minimal",
+        "secondary_motivations": [
+            "revenge",
+            "notoriety"
+        ],
+        "confidence": 41,
+        "object_marking_refs": [
+            "marking-definition--eadd951a-1c2f-41c9-b0bb-e0c3b38c970d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d22ab784-1cb4-4de2-9e4d-b9e9e80217e4",
+        "created_by_ref": "identity--8cf047db-3f7a-432c-97d8-360d4c47e119",
+        "created": "2022-04-15T19:13:05.196706Z",
+        "modified": "2022-07-08T19:21:00.99997Z",
+        "relationship_type": "attributed-to",
+        "description": "Card wonder information hit difficult call. Floor this training outside.",
+        "source_ref": "campaign--692def6e-5706-4221-aee8-8bc95fb3fa50",
+        "target_ref": "threat-actor--9b0f26f4-ea2c-4322-8375-05742d5c99ea",
+        "start_time": "2022-04-12T09:18:51.547942Z",
+        "stop_time": "2023-02-09T22:27:23.113115Z",
+        "labels": [
+            "fine",
+            "parent",
+            "staff",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--eadd951a-1c2f-41c9-b0bb-e0c3b38c970d"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--eadd951a-1c2f-41c9-b0bb-e0c3b38c970d",
+        "created_by_ref": "identity--8cf047db-3f7a-432c-97d8-360d4c47e119",
+        "created": "2021-08-14T01:08:13.86242Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8cf047db-3f7a-432c-97d8-360d4c47e119",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-11T04:54:04.397159Z",
+        "modified": "2022-03-29T05:01:41.70427Z",
+        "name": "Pena-Chung",
+        "roles": [
+            "address",
+            "room",
+            "feel",
+            "necessary"
+        ],
+        "sectors": [
+            "education",
+            "entertainment",
+            "communications",
+            "emergency-services"
+        ],
+        "contact_information": "59375 Alexander Knolls\nNew Chadstad, KY 13941",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 32,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "pressure",
+                "description": "Reason unit little dog size carry scene.",
+                "url": "http://www.gray.com/",
+                "external_id": "ZJtbhbLZs"
+            },
+            {
+                "source_name": "leave",
+                "description": "Big reason final ready.",
+                "url": "http://francis.biz/",
+                "hashes": {
+                    "MD5": "b0abddc6bf77dfcc5c87f51461a0c11e",
+                    "SHA-1": "33d23305e882bb629909c7b839c92c84721fb773",
+                    "SHA-256": "1e9de4194b04ca6b1c73b794769602ee5b08370889cd3a14b6b89be53d65c6b6",
+                    "SHA-512": "1770876d40d5241f3e1c42132ce382ef5e7cad67c20033941b8327719b8014f786274b2fcc9373436349ea5352b1eaba5ea16229bbf2da8e21228dcfca2c4b37",
+                    "SHA3-256": "0eda6f378f656307f05f33d59dd18945ef50941d460c0ef02b7b422fe259eb1c",
+                    "SHA3-512": "ef40aa551455035195df922004c8c3493b4fff6d6486f2b7d4417ce3f2366bdd5c3cdf754dd6e8cc5dd22e079b359d4a15af4402d4d9f0275c03ba84b152359a"
+                },
+                "external_id": "EJdwaCTCfyqj"
+            },
+            {
+                "source_name": "dinner",
+                "description": "Skin these author.",
+                "url": "https://www.johnson.com/",
+                "external_id": "qSszs"
+            },
+            {
+                "source_name": "trial",
+                "description": "Page amount much student.",
+                "url": "http://williams.com/",
+                "hashes": {
+                    "MD5": "d1da77b540567db4ff9bba22602be0d9",
+                    "SHA-1": "e655369fb4abde0e482f8810d3af791965f01620",
+                    "SHA-256": "fa7f3da9e327e7cdcd3497abdc8b0d5a5a19148a57f4d2977cb17449f157656e",
+                    "SHA-512": "5a193a69f3de9b8e4d07f058c44aea4180d10a7c94a7eff6a6389b1cf71d6f7a56a8f37fd8049c113bd9b0f9395207127c389749dc926f0ae94724846a2977e1",
+                    "SHA3-256": "564d0aab7063b5d36d63f80714a4bb254a7fd6d8f31e0887fd28968166c8de21",
+                    "SHA3-512": "16ed44f527df39cd0489ea95209c4f49b32e0d643cef16cbba9107d7537c38c6a573a7b688a8015991969690d036f56f6936b5b59b167375b60a28d315bcf885"
+                },
+                "external_id": "nFHeUE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--eadd951a-1c2f-41c9-b0bb-e0c3b38c970d"
+        ]
+    }
+]

@@ -1,0 +1,199 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--c8983eb7-608e-4d91-8a58-4fe12a9b9023",
+        "created_by_ref": "identity--e84c93a9-9f5d-422e-a82a-38f23d6ad0f4",
+        "created": "2022-07-27T18:08:34.391931Z",
+        "modified": "2023-01-17T16:13:58.522316Z",
+        "name": "home",
+        "first_seen": "2022-01-12T00:17:40.534264Z",
+        "last_seen": "2022-07-17T23:31:31.268581Z",
+        "labels": [
+            "have",
+            "radio",
+            "list",
+            "most",
+            "news",
+            "pfte-batch-1"
+        ],
+        "confidence": 16,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--da2daf7f-1351-4b81-be51-0de212f5a71d"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--59f41b1e-57ac-4d7b-a8d1-ac665e35e7bc",
+        "created_by_ref": "identity--e84c93a9-9f5d-422e-a82a-38f23d6ad0f4",
+        "created": "2021-08-01T22:22:27.604766Z",
+        "modified": "2021-10-17T02:09:07.496161Z",
+        "name": "these",
+        "description": "Out always recent hit choice push baby.",
+        "tool_version": "culture",
+        "labels": [
+            "man",
+            "attack",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--da2daf7f-1351-4b81-be51-0de212f5a71d"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1ec97a31-9572-4b89-94af-f56b00834feb",
+        "created_by_ref": "identity--e84c93a9-9f5d-422e-a82a-38f23d6ad0f4",
+        "created": "2021-11-17T21:22:00.312235Z",
+        "modified": "2022-09-30T01:33:32.944344Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--c8983eb7-608e-4d91-8a58-4fe12a9b9023",
+        "target_ref": "tool--59f41b1e-57ac-4d7b-a8d1-ac665e35e7bc",
+        "start_time": "2021-07-03T13:16:34.109607Z",
+        "confidence": 61,
+        "external_references": [
+            {
+                "source_name": "drive",
+                "description": "Their option sit until join.",
+                "hashes": {
+                    "MD5": "39fcee8706aea779f7a4079515e50fb2",
+                    "SHA-1": "5f46b7ef9323c4b26a20d84e206f189662aa0221",
+                    "SHA-256": "5ac3db26a3dfa56c30d6391f2ec467c5128f9594fb3bc6d9dfcd9a3c4c44d4fe",
+                    "SHA-512": "c90361a74a9707d0927a97cb6a2194915f51d1174b312dbfe383e8818e4e21cd673afaa165b969423d6602f6afc4f0040b51097f032e8a11c650aa6dbada7cee",
+                    "SHA3-256": "d0ab57a4c058b4636e6d02a95903c6a1203c80b1eea244b6b5d5c91af8eac37e",
+                    "SHA3-512": "38a7306612faec6c1b54b4b449e878e39aa82bc1beac0a9e49d1d897c3b9cad9dff895ea0f4e197fa96bdce3b13b9d73125396a82fbfd9103776d916350f1236"
+                },
+                "external_id": "LJsBCqYzo"
+            },
+            {
+                "source_name": "arrive",
+                "url": "http://jackson.com/",
+                "hashes": {
+                    "MD5": "bbda499df42f7331970649b1a97e5fa7",
+                    "SHA-1": "414a5ea8cdbcdc70f38a8c696d68703b0d550337",
+                    "SHA-256": "f329b53341afb64d448591a5030d6f5f2deabcda303d4b07a7c4a9da7e1bfa1a",
+                    "SHA-512": "28746db8a36253693e8298758de3a35dbd9a240abc64b175720d24a4386a1775668e15c59dfd13d6dc1763b2a62344daee526be0d6afdb8a1788a5371f9e84b5",
+                    "SHA3-256": "470fe3a4dc0347ea662e4298256ddb1911b65edcc19bc0052eeb5c957bb8ddc5",
+                    "SHA3-512": "7b5ebccc84b19ff41bacbdd18a356d866b67fc7d855c76087e1d4134aa95b3ab439d76f45d51371c8f358c5675de72d96b0f2402551cf5e06ffea707b937b826"
+                },
+                "external_id": "OloGZDYFApOmKc"
+            },
+            {
+                "source_name": "say",
+                "description": "Become though prepare good say similar water development.",
+                "url": "https://www.branch.com/",
+                "hashes": {
+                    "MD5": "b305490716bc801d594f335a34582095",
+                    "SHA-1": "8b1d02d4eb813c0034645d63fc66eb6ebe7312d7",
+                    "SHA-256": "1509876d03e411035abeaebea48bb4a299002b52b9c0316f05888fb0db70e271",
+                    "SHA-512": "b30e31be3681e3cd434bfc1046ac2b841b5ecc058c4d59fba9cb1e3cb4228f68fd7394ce064992402ddedc8eeae807bd3ce89432b7be3986248e86a797e8fa52",
+                    "SHA3-256": "ff74091cf168e7ee69fd7acd6f34ac3f9bea0fe22912c9d97713697d2b12a5bf",
+                    "SHA3-512": "a7b325b8ed83fd05f4929d3a4ecd1a1cc2d745e570cbc28ced052fe197f294b80f95ed8d97a4d2b2551ed05ca3cd9d4567df79162105c5f37af8953794934fbb"
+                },
+                "external_id": "dBfRejRE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--da2daf7f-1351-4b81-be51-0de212f5a71d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--da2daf7f-1351-4b81-be51-0de212f5a71d",
+        "created_by_ref": "identity--e84c93a9-9f5d-422e-a82a-38f23d6ad0f4",
+        "created": "2021-08-14T01:08:20.737486Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-cdad75a5-97a2-450d-bb1c-cac3b21b4823",
+                "name": "Continue half as create together strong",
+                "create_date_time": "2021-08-14T01:08:08.421874Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e84c93a9-9f5d-422e-a82a-38f23d6ad0f4",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-15T06:51:39.838792Z",
+        "modified": "2022-01-07T11:58:21.811117Z",
+        "name": "Hill-Bailey",
+        "description": "Automated web-enabled knowledgebase",
+        "sectors": [
+            "dams",
+            "government",
+            "government-public-services"
+        ],
+        "contact_information": "151 Davis Pines Apt. 690\nLake Sarah, KY 51792",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 11,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--da2daf7f-1351-4b81-be51-0de212f5a71d"
+        ]
+    }
+]

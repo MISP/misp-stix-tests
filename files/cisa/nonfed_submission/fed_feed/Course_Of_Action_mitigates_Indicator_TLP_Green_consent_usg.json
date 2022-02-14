@@ -1,0 +1,177 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--90c64a1b-af56-4a13-8998-9ff2b6ab50af",
+        "created_by_ref": "identity--3e26c369-c0af-4fa5-960a-e03902171d89",
+        "created": "2020-11-11T08:44:15.689145Z",
+        "modified": "2021-08-14T01:08:23.374658Z",
+        "name": "indeed",
+        "labels": [
+            "million",
+            "film",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--762f22e1-bcda-4f63-b482-45a334a8a0b5"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--0400b8af-3627-4408-ba6b-9bb8dabfae7b",
+        "created_by_ref": "identity--3e26c369-c0af-4fa5-960a-e03902171d89",
+        "created": "2021-08-01T10:01:11.538428Z",
+        "modified": "2022-03-16T14:09:44.224553Z",
+        "description": "Consumer those foreign red religious defense concern all.",
+        "pattern": "[autonomous-system:number < -799] OR [process:is_hidden = false] START t'2021-05-09T07:53:18.114738Z' STOP t'2021-08-22T04:58:39.173164Z'",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-05-07T14:23:15.893379Z",
+        "labels": [
+            "wonder",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "air",
+                "external_id": "sVUBZ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--762f22e1-bcda-4f63-b482-45a334a8a0b5"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--7ac6d15c-60a7-451f-a2b5-408bdf7abd54",
+        "created_by_ref": "identity--3e26c369-c0af-4fa5-960a-e03902171d89",
+        "created": "2021-01-11T03:00:38.407842Z",
+        "modified": "2021-08-14T01:08:23.376657Z",
+        "relationship_type": "mitigates",
+        "description": "Group left plan trip.",
+        "source_ref": "course-of-action--90c64a1b-af56-4a13-8998-9ff2b6ab50af",
+        "target_ref": "indicator--0400b8af-3627-4408-ba6b-9bb8dabfae7b",
+        "labels": [
+            "benefit",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--762f22e1-bcda-4f63-b482-45a334a8a0b5"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--762f22e1-bcda-4f63-b482-45a334a8a0b5",
+        "created_by_ref": "identity--3e26c369-c0af-4fa5-960a-e03902171d89",
+        "created": "2021-08-14T01:08:23.373952Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-15d3e0eb-8dda-4b6b-a55d-5c6a8a6d490b",
+                "name": "Clearly industry family",
+                "create_date_time": "2021-08-14T01:08:08.420657Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3e26c369-c0af-4fa5-960a-e03902171d89",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-11-14T08:55:24.06163Z",
+        "modified": "2021-09-26T01:35:54.822543Z",
+        "name": "Reyes and Sons",
+        "description": "Re-engineered motivating conglomeration",
+        "sectors": [
+            "chemical",
+            "communications",
+            "construction"
+        ],
+        "contact_information": "07879 Stanton Shoals Suite 169\nNorth Emilyport, OK 79260",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "score",
+                "description": "Second rule author meeting major.",
+                "external_id": "rCSvOVB"
+            },
+            {
+                "source_name": "name",
+                "url": "http://rogers.com/"
+            },
+            {
+                "source_name": "fill",
+                "description": "Final require trip.",
+                "url": "http://davis.com/"
+            },
+            {
+                "source_name": "natural",
+                "description": "Field word fund policy laugh major usually.",
+                "url": "https://www.knight.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--762f22e1-bcda-4f63-b482-45a334a8a0b5"
+        ]
+    }
+]

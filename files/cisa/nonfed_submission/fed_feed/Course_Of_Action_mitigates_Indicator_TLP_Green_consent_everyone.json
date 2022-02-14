@@ -1,0 +1,239 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--6916d653-f70c-4551-9191-166ac58fe50d",
+        "created_by_ref": "identity--a1669eb7-39c7-46e9-91de-65fa705e10cc",
+        "created": "2022-03-03T01:54:32.762695Z",
+        "modified": "2022-04-07T14:58:24.419473Z",
+        "name": "involve",
+        "confidence": 13,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d2ad6a8a-3465-40ad-8500-dc555378fa61"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--2c841366-c14f-441b-9227-8ea94e63cd5a",
+        "created_by_ref": "identity--a1669eb7-39c7-46e9-91de-65fa705e10cc",
+        "created": "2022-05-17T02:04:24.323766Z",
+        "modified": "2022-06-29T03:45:11.975132Z",
+        "name": "kitchen",
+        "pattern": "(([mutex:name <= 'improve']) AND [domain-name:value < 'tanner.com'] AND [x509-certificate:version > '7'] START t'2020-10-28T06:47:54.377977Z' STOP t'2021-10-29T11:42:16.209255Z')",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-01-27T10:27:43.234922Z",
+        "valid_until": "2022-02-20T22:12:49.930584Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "NQjJcHNyeEHPgUtS",
+                "phase_name": "GdQtHE"
+            },
+            {
+                "kill_chain_name": "yQtBledI",
+                "phase_name": "yvaXNKK"
+            },
+            {
+                "kill_chain_name": "XTEAOkgdhdrcY",
+                "phase_name": "oDSZKIJwyLHyvLkMiT"
+            },
+            {
+                "kill_chain_name": "ziwqrDNyXgZDBym",
+                "phase_name": "kYFPFYNq"
+            }
+        ],
+        "confidence": 36,
+        "object_marking_refs": [
+            "marking-definition--d2ad6a8a-3465-40ad-8500-dc555378fa61"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--fef5eaac-cb6f-4295-af98-344ad22e2711",
+        "created_by_ref": "identity--a1669eb7-39c7-46e9-91de-65fa705e10cc",
+        "created": "2020-10-06T08:13:28.063612Z",
+        "modified": "2021-09-17T16:18:43.44731Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--6916d653-f70c-4551-9191-166ac58fe50d",
+        "target_ref": "indicator--2c841366-c14f-441b-9227-8ea94e63cd5a",
+        "start_time": "2021-01-07T10:59:10.544899Z",
+        "confidence": 84,
+        "external_references": [
+            {
+                "source_name": "around",
+                "description": "Simple early design team.",
+                "url": "http://casey.com/",
+                "hashes": {
+                    "MD5": "7f18d24b9c5fb34746fe92e609046653",
+                    "SHA-1": "158aa1256d9d9f985f1ebce73992d0e85985c3f4",
+                    "SHA-256": "f7dd41b99b5b4f55339df2e3341b6fb1e00839a4fe7f13be8c8870f139797f48",
+                    "SHA-512": "4b1ef9500fd3f749524fb31e2f0a3eea5b4a1fef510960129fa15cb251326a65645aa1d7e068fb8654ee38a96e8e92f76b6e9553dc6663330b9068e11e44dae4",
+                    "SHA3-256": "3e5ebebac101dbeee9ade0e0cf9b0146f10a94d48535ffe7cd674ae4008b472a",
+                    "SHA3-512": "a065b7a1d15e7c7105bbe80cd8e4a77823291fc81ec33b6a59dd7056bed92336124c573403d57083c0ad3da55e7a291118d8191d3892c387aa413bca799c7171"
+                },
+                "external_id": "jtyNBKSxojd"
+            },
+            {
+                "source_name": "employee",
+                "url": "http://bartlett.com/",
+                "hashes": {
+                    "MD5": "1d876682b802b96e3a1bfd4008af45ff",
+                    "SHA-1": "1a00f19fc3ede03daa9cd6ea35c973e670f0e6f8",
+                    "SHA-256": "ebbf38d7dc1cb22dc79e4fae960e32cf2a3a937cb8e145df041956a2af480d4f",
+                    "SHA-512": "6acb154c608229c0047c5e642ffaec5ff236be2f78554ceacf2e8ff0b675614b152167db4fcfac77f65e6b5dc9f10a6e6cbe85f71618fff51e47e6ede3b300e4",
+                    "SHA3-256": "53d5baccad4a1f402eb71dc55736ff586901ddce6c0d1f4ae8816a8497695a72",
+                    "SHA3-512": "886363ff67808d0682926cd883339ea9b336d20d0520f46584efbe527aede7885860e0dff0b26966bd3971f23e04490a0df1c243d8867a3151fa6d8340170b36"
+                }
+            },
+            {
+                "source_name": "drug",
+                "url": "https://dorsey-colon.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d2ad6a8a-3465-40ad-8500-dc555378fa61"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d2ad6a8a-3465-40ad-8500-dc555378fa61",
+        "created_by_ref": "identity--a1669eb7-39c7-46e9-91de-65fa705e10cc",
+        "created": "2021-08-14T01:08:23.45796Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-cdad75a5-97a2-450d-bb1c-cac3b21b4823",
+                "name": "Continue half as create together strong",
+                "create_date_time": "2021-08-14T01:08:08.421874Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a1669eb7-39c7-46e9-91de-65fa705e10cc",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-23T20:28:28.769908Z",
+        "modified": "2022-10-20T17:17:55.541077Z",
+        "name": "Nguyen-Brooks",
+        "roles": [
+            "thousand",
+            "machine",
+            "catch",
+            "past",
+            "figure"
+        ],
+        "identity_class": "class",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 85,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "local",
+                "url": "http://schroeder-perez.com/"
+            },
+            {
+                "source_name": "contain",
+                "url": "http://www.jones.com/",
+                "external_id": "bBceoV"
+            },
+            {
+                "source_name": "bill",
+                "hashes": {
+                    "MD5": "26e6dcec95dbdff0d9716c54ef098ccb",
+                    "SHA-1": "fd0a65636e1620cd59c16f39a0ed372d584eaeca",
+                    "SHA-256": "bd55ea777cc50d6b71adaa3ff650fb63ef82defe451070f43c7c5525bb19c50d",
+                    "SHA-512": "f0d3ef3c9ebb0f27e342305133e236a0ebf996ab9e9bf702be165861abd52b74cb844e0d94e5cadace49a73e6bf03984a65c0a8ba0139b369fc9a1f554f12a3f",
+                    "SHA3-256": "8702c2b3c73b79a3243eb3a7bf02e94a9d83f1b351bbca5f735690a29dbf5d32",
+                    "SHA3-512": "99839f734294a9825ab8162ddd621885cde94c4d6fdaa3a501607701e6d06bef6f880983287f28c1cb358a617087daa66c6eb73934e44ccda87a6b7962ed1a02"
+                },
+                "external_id": "ZnKoWImrGvB"
+            },
+            {
+                "source_name": "almost",
+                "description": "Speech family control project coach scientist.",
+                "url": "http://www.bryant.net/",
+                "hashes": {
+                    "MD5": "ceeb26e32bf9e00e7c8ec7b5b3c515a2",
+                    "SHA-1": "ff686f966991ff9c93e77db8aea46e16740272d8",
+                    "SHA-256": "6aae160b4221a05c61012932eb9fa711dae6ea59a03f136b7401065f1d6b8ef8",
+                    "SHA-512": "6fa2849735582f150f7d5357f0777951531c7092cea4ca95ff88173c0ec964474cbf2c6ca8239e4388154107272f8f68bb90fae70827891e87884e87a43a2402",
+                    "SHA3-256": "50ac194229a4f9c484b04caa30a9ba2dd76da2c4a97ed4cd7b40ff906f2ecd06",
+                    "SHA3-512": "ee54cc1a61d25421d99e853b126bae73d9fd1ee22e5fd90e5170bcdde2e4f2f86ca01e04e033b4b1ceaaaf357b693c9ac0cb418214d9709a77cf832a659261fd"
+                },
+                "external_id": "jeKWLtHKeVBcjscFv"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d2ad6a8a-3465-40ad-8500-dc555378fa61"
+        ]
+    }
+]

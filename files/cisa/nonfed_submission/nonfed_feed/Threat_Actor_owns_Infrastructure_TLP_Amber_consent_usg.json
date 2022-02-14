@@ -1,0 +1,103 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--c2cc498b-62a1-4e26-924a-63cb8eb68c23",
+        "created_by_ref": "identity--8a46659c-27d5-442c-9893-b1530815a07d",
+        "created": "2021-12-17T15:42:13.465792Z",
+        "modified": "2022-10-13T14:13:51.35555Z",
+        "name": "environment",
+        "description": "Computer cause great character.",
+        "roles": [
+            "malware-author",
+            "malware-author"
+        ],
+        "goals": [
+            "song",
+            "case"
+        ],
+        "sophistication": "advanced",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 56,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--b0e14246-acf4-4391-ae9d-4794c547ea31",
+        "created_by_ref": "identity--8a46659c-27d5-442c-9893-b1530815a07d",
+        "created": "2022-02-12T16:58:24.448572Z",
+        "modified": "2023-01-24T06:52:15.562022Z",
+        "name": "event",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "vjeagUjXnfjv",
+                "phase_name": "FGRINhnpaUYmpVGNpg"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--5e0ba84b-ee2e-43a9-a24e-8a7905c1839a",
+        "created_by_ref": "identity--8a46659c-27d5-442c-9893-b1530815a07d",
+        "created": "2021-07-14T21:47:23.6249Z",
+        "modified": "2021-08-22T18:36:44.425688Z",
+        "relationship_type": "owns",
+        "description": "Buy structure start capital sometimes letter. Religious economic into explain example.",
+        "source_ref": "threat-actor--c2cc498b-62a1-4e26-924a-63cb8eb68c23",
+        "target_ref": "infrastructure--b0e14246-acf4-4391-ae9d-4794c547ea31",
+        "start_time": "2021-08-06T14:42:14.569561Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8a46659c-27d5-442c-9893-b1530815a07d",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-04-10T14:30:54.203035Z",
+        "modified": "2023-02-18T01:16:55.427417Z",
+        "name": "FaceBagLikely",
+        "identity_class": "system",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "factor",
+                "description": "No perform find approach style.",
+                "url": "http://hays.com/",
+                "hashes": {
+                    "MD5": "eeba84049792494c0462fdc483f47452",
+                    "SHA-1": "7678ed4b7eecfe4b4dc04f0718be729fa950e8e0",
+                    "SHA-256": "74511e3b4d34e8113b3380d58c17a57c9534a6d9ce3e16d9d46df60e6b1e3298",
+                    "SHA-512": "2a8734858cc4538de9581ae1d3bb2d099df04d7ccfd45253a2d5d297e42a7dc9418ec3a43b85a901dbd3faa3ab7b0bcfba6e162a15e9039d9f7e2c278effebd1",
+                    "SHA3-256": "ca0a4ad8aee51c716fcfb9aed74c16a5b4b72c289793a36e32c95e72412cf5ed",
+                    "SHA3-512": "41e4a0dca54d80b7c0a56cf305a6e41272b599272688d409dec1f5b017828ae33252d58672c0f1e54fd50a74ce7d1026af0c4508482994920dd473d50b4e318e"
+                },
+                "external_id": "WrGphWy"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

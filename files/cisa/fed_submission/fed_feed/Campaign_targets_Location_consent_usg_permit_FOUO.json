@@ -1,0 +1,147 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--24c57082-8805-4e9c-b73b-963d33cac5f0",
+        "created_by_ref": "identity--4174bd7c-7102-43ba-a8e9-5fb35ccf6770",
+        "created": "2022-02-18T22:10:04.916838Z",
+        "modified": "2022-11-26T14:34:24.026163Z",
+        "name": "out",
+        "description": "Decade everybody feel professor mind energy city.",
+        "last_seen": "2022-07-28T19:58:27.775078Z",
+        "labels": [
+            "two",
+            "stop",
+            "set",
+            "pfte-batch-1"
+        ],
+        "confidence": 20,
+        "object_marking_refs": [
+            "marking-definition--388fd46a-c963-4fce-ad5c-50242bb563df"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--74b5f305-5901-4d6d-9e6a-a26a6d01ce38",
+        "created_by_ref": "identity--4174bd7c-7102-43ba-a8e9-5fb35ccf6770",
+        "created": "2022-04-21T00:33:16.419519Z",
+        "modified": "2023-03-26T18:33:17.414767Z",
+        "name": "QiSlSAxWkcCz",
+        "description": "Enterprise-wide fresh-thinking moderator",
+        "latitude": 10.139171751493322,
+        "longitude": -147.78475948818863,
+        "region": "africa",
+        "country": "Czech Republic",
+        "city": "Alexanderland",
+        "postal_code": "39750",
+        "confidence": 30,
+        "object_marking_refs": [
+            "marking-definition--388fd46a-c963-4fce-ad5c-50242bb563df"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8a4a591d-945a-4c84-a657-05a0fdb43d52",
+        "created_by_ref": "identity--4174bd7c-7102-43ba-a8e9-5fb35ccf6770",
+        "created": "2021-02-28T08:57:31.949934Z",
+        "modified": "2021-08-14T01:08:17.250589Z",
+        "relationship_type": "targets",
+        "description": "Body simple safe task at style bank voice. It wrong father approach stay body we.",
+        "source_ref": "campaign--24c57082-8805-4e9c-b73b-963d33cac5f0",
+        "target_ref": "location--74b5f305-5901-4d6d-9e6a-a26a6d01ce38",
+        "stop_time": "2020-12-13T07:17:55.299909Z",
+        "external_references": [
+            {
+                "source_name": "decide",
+                "description": "Response nice movie significant top easy.",
+                "url": "https://harvey-hughes.info/",
+                "external_id": "wJJkjimI"
+            },
+            {
+                "source_name": "account",
+                "description": "Agreement state fear meet wear.",
+                "external_id": "nbBydQOKbs"
+            },
+            {
+                "source_name": "door",
+                "external_id": "vFbRoPQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--388fd46a-c963-4fce-ad5c-50242bb563df"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4174bd7c-7102-43ba-a8e9-5fb35ccf6770",
+        "created_by_ref": "identity--4174bd7c-7102-43ba-a8e9-5fb35ccf6770",
+        "created": "2021-03-09T11:27:19.974243Z",
+        "modified": "2021-10-29T02:24:08.980263Z",
+        "name": "Johnson Inc",
+        "roles": [
+            "easy",
+            "whether",
+            "building",
+            "ability",
+            "draw"
+        ],
+        "contact_information": "97285 Todd Meadows\nSouth Richardberg, DE 47445",
+        "external_references": [
+            {
+                "source_name": "yes",
+                "description": "Under assume body partner.",
+                "url": "https://smith-russo.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--388fd46a-c963-4fce-ad5c-50242bb563df"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--388fd46a-c963-4fce-ad5c-50242bb563df",
+        "created": "2021-08-14T01:08:17.249305Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2214d9cf-0e77-4d0b-9826-dfff28324708",
+                "name": "Build while international maybe effect movie",
+                "create_date_time": "2021-08-14T01:08:08.427765Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

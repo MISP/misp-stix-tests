@@ -1,0 +1,149 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--df7c69ec-50d2-4a0c-925a-843bb2e599dc",
+        "created_by_ref": "identity--23fb2863-e893-4a2f-bf85-53698ea9eeb5",
+        "created": "2021-07-15T15:20:46.276077Z",
+        "modified": "2022-06-21T22:03:45.176969Z",
+        "name": "green",
+        "confidence": 31,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--dd7c3b21-32e0-4dda-b60e-a06111759483"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--a7efdd67-a3e8-4aeb-9e72-1890e916dc9a",
+        "created_by_ref": "identity--23fb2863-e893-4a2f-bf85-53698ea9eeb5",
+        "created": "2021-02-19T10:02:36.559811Z",
+        "modified": "2021-12-05T20:50:04.776997Z",
+        "name": "seat",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "yamRFFgTOqlvwIuWB",
+                "phase_name": "qFGXKRHoBEH"
+            }
+        ],
+        "confidence": 19,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--dd7c3b21-32e0-4dda-b60e-a06111759483"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--20a01b1a-373d-4f38-8598-ee516c98f5f4",
+        "created_by_ref": "identity--23fb2863-e893-4a2f-bf85-53698ea9eeb5",
+        "created": "2022-03-08T10:22:26.923129Z",
+        "modified": "2022-08-09T06:21:06.373553Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--df7c69ec-50d2-4a0c-925a-843bb2e599dc",
+        "target_ref": "attack-pattern--a7efdd67-a3e8-4aeb-9e72-1890e916dc9a",
+        "labels": [
+            "foot",
+            "since",
+            "seek",
+            "billion",
+            "bit",
+            "pfte-batch-1"
+        ],
+        "confidence": 7,
+        "object_marking_refs": [
+            "marking-definition--dd7c3b21-32e0-4dda-b60e-a06111759483"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--23fb2863-e893-4a2f-bf85-53698ea9eeb5",
+        "created_by_ref": "identity--23fb2863-e893-4a2f-bf85-53698ea9eeb5",
+        "created": "2022-03-08T00:20:38.902733Z",
+        "modified": "2023-02-08T01:44:09.438943Z",
+        "name": "Berg, Mckee and Palmer",
+        "contact_information": "USCGC Cooper\nFPO AE 67750",
+        "confidence": 33,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--dd7c3b21-32e0-4dda-b60e-a06111759483"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--dd7c3b21-32e0-4dda-b60e-a06111759483",
+        "created": "2021-08-14T01:08:22.811548Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-44002952-ef1b-4819-85db-bdfcd1864e5e",
+                "name": "Free major nothing gun",
+                "create_date_time": "2021-08-14T01:08:08.424588Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.424412Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

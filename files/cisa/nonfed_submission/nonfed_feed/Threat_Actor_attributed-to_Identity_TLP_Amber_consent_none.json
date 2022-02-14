@@ -1,0 +1,215 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--d4e4ef7a-f35f-4f6c-a80d-2e30f0d69aaf",
+        "created_by_ref": "identity--92e6ff99-4d1e-4bea-963a-9e99de0e52cd",
+        "created": "2021-03-14T08:26:17.482828Z",
+        "modified": "2021-12-27T12:54:52.984633Z",
+        "name": "federal",
+        "threat_actor_types": [
+            "insider-disgruntled",
+            "criminal",
+            "insider-disgruntled"
+        ],
+        "aliases": [
+            "adult",
+            "political",
+            "some",
+            "open",
+            "home"
+        ],
+        "last_seen": "2020-08-24T17:28:02.996163Z",
+        "sophistication": "advanced",
+        "resource_level": "team",
+        "secondary_motivations": [
+            "ideology",
+            "unpredictable",
+            "personal-gain",
+            "revenge"
+        ],
+        "personal_motivations": [
+            "personal-gain",
+            "coercion"
+        ],
+        "labels": [
+            "course",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--46b39157-29ef-4c8a-9507-d4f9b2cc05c5",
+        "created_by_ref": "identity--92e6ff99-4d1e-4bea-963a-9e99de0e52cd",
+        "created": "2021-11-06T04:39:38.193253Z",
+        "modified": "2021-11-22T11:21:24.310519Z",
+        "name": "Dunlap, Burnett and Wheeler",
+        "sectors": [
+            "mining"
+        ],
+        "contact_information": "166 Ramsey Throughway\nPort Stephenborough, IN 31019",
+        "labels": [
+            "allow",
+            "series",
+            "might",
+            "number",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "hotel",
+                "hashes": {
+                    "MD5": "4f0bfcecce369c0eb5a9f3491dc1c750",
+                    "SHA-1": "f68d97aae068069b2a5f5db4a55b2399c7e45a32",
+                    "SHA-256": "ec181f9131b36c49c75a84eb5c8dd5d77169eda38233714c2210b902007f4eae",
+                    "SHA-512": "02b10e65e2cd6cad95a030922327740609013fbbc6dad2a08ab01a79401406882425d652b8a3f50483f0eef0f4a5a71223f1d80d3782343682a718b2c0a02138",
+                    "SHA3-256": "d892488c30a69c836fb3e9b29bc48a2a9719d51198ad667d5fef9e606a4ecb0f",
+                    "SHA3-512": "2c14fb11085655036f1552c81be3efc1de577e3af726daee0139143dfa49c8c1854bbfdc8012907dc20679d0beed4813fe9ca44e7de20260b80049b47be192fe"
+                },
+                "external_id": "PyERNsghVIYeNZiVxkSd"
+            },
+            {
+                "source_name": "together",
+                "url": "https://williams.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b5206f66-1c0e-40e6-90ab-3df069f4dc94",
+        "created_by_ref": "identity--92e6ff99-4d1e-4bea-963a-9e99de0e52cd",
+        "created": "2022-08-05T01:42:36.542035Z",
+        "modified": "2022-11-05T13:51:19.174152Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "threat-actor--d4e4ef7a-f35f-4f6c-a80d-2e30f0d69aaf",
+        "target_ref": "identity--46b39157-29ef-4c8a-9507-d4f9b2cc05c5",
+        "start_time": "2020-10-07T14:01:07.40532Z",
+        "stop_time": "2021-05-27T22:06:52.502598Z",
+        "labels": [
+            "firm",
+            "later",
+            "enjoy",
+            "administration",
+            "too",
+            "pfte-batch-1"
+        ],
+        "confidence": 71,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "use",
+                "external_id": "bqQZZKSOnKiuI"
+            },
+            {
+                "source_name": "share",
+                "description": "Either part important deal center clearly today on.",
+                "external_id": "HKgqvrSAiItkjFEKsigf"
+            },
+            {
+                "source_name": "run",
+                "description": "Forget politics easy story.",
+                "url": "http://www.kirk.com/",
+                "external_id": "VsPPVSUYrqRLBHYMo"
+            },
+            {
+                "source_name": "include",
+                "description": "Much cover best hotel chance.",
+                "url": "https://www.nelson.com/",
+                "hashes": {
+                    "MD5": "82ee8acf817a4cb69e7c33e8c8ca3fee",
+                    "SHA-1": "56a06ff57efcdea7fc69924b1fd0427e429f5fd4",
+                    "SHA-256": "68577293112a8c1b595b75f82995dcc52bdd85a5f21e7d113fb5a4d40aa4b615",
+                    "SHA-512": "a8d1c9e9b5d98bb417d8d451612517e30fe2315acc243032e65694fcab1aa2adb065d1d08860445fc50a637060fbbd4a41420fb0049b767c6ca588c8b15e9866",
+                    "SHA3-256": "942f80c52005ce21b29143e70d7bd5e67452e280605e35056003307066e4928d",
+                    "SHA3-512": "48590253bd41fe3bcb7b6caa9a5c5e4507b23f7b6d2468395a6eb62344c9fc61d6a3caa998586dc28a6b7072ab92824c64ca58fa84d112b8491d91c1273f9335"
+                },
+                "external_id": "aYJxHFxPpsAsHQGnP"
+            },
+            {
+                "source_name": "appear",
+                "description": "Environment learn herself but course impact.",
+                "url": "https://cummings.com/",
+                "external_id": "fJcTXrjxp"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--92e6ff99-4d1e-4bea-963a-9e99de0e52cd",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-14T00:55:22.715812Z",
+        "modified": "2022-04-28T02:50:46.808623Z",
+        "name": "ScoreDayDetermine",
+        "description": "Customizable dedicated knowledgebase",
+        "roles": [
+            "develop",
+            "beat",
+            "between",
+            "three",
+            "according"
+        ],
+        "identity_class": "group",
+        "contact_information": "PSC 0528, Box 0781\nAPO AA 53730",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "mission",
+                "url": "https://www.reyes.com/"
+            },
+            {
+                "source_name": "available",
+                "hashes": {
+                    "MD5": "ff1accb1201bb6bbd3eb626996b0434e",
+                    "SHA-1": "3330d8aad7680c3410dc8c4f4b63228466d11dfc",
+                    "SHA-256": "4940e4d263e3bc2be5834af1d371747e8037ca9a044471af864bf46d0a1b6a90",
+                    "SHA-512": "3273f5d4d5c679eeb5918776abb4dab797e10f16ec073f61c72435e5c454942effbe440b773139ddbc7dc334d20b58259699f22b5c96328438121e8a56889ae8",
+                    "SHA3-256": "d94c653c2779ad0d3d74badf3e7f52eed3c730881053c7385f68b79dee21e038",
+                    "SHA3-512": "21266465a3a485e38afb82f7888faa3b79d0fda3470d1d71dbd57aa4c1eb7607c3907151f64b96cae7ac07a0839dbe4b4c1d5ba55b9fd311e430633519d2fe61"
+                },
+                "external_id": "GeBSpZsTANDKCBW"
+            },
+            {
+                "source_name": "week",
+                "url": "https://williams.com/",
+                "hashes": {
+                    "MD5": "67692499a362e08441ca1ce604010a02",
+                    "SHA-1": "62122b1138a17f19158f81d5b30112b801d4308f",
+                    "SHA-256": "72407f50e6e85334c2cb3ca75ae8d2282f2b1d925c66221f8ddcac253a5924e2",
+                    "SHA-512": "341768309e23df5bfa60d750f8798e9869b176477c9627175e5b2ca24b86a7dad9e19357f60f79811e26661dd5f250027faa1d733d0228f6abdbfe4b2956152e",
+                    "SHA3-256": "a6d6cc8e6061cc2d20d619a5eeaecb59b9d0b6e07ac2064155672d49836646b9",
+                    "SHA3-512": "3139aa7d67d2493ea313f40da279e18ff7645018ce718b5796c0d167ff52b18193260097b31c5b678187c9aee22df11fd0b1f2101449c5c2c3085959ea1b4a7d"
+                },
+                "external_id": "jWlVjMFiRVonaLD"
+            },
+            {
+                "source_name": "notice",
+                "description": "Summer technology return against pick thousand.",
+                "url": "http://www.bryant.net/",
+                "external_id": "FLlRf"
+            },
+            {
+                "source_name": "fast",
+                "description": "Him leader do dinner."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

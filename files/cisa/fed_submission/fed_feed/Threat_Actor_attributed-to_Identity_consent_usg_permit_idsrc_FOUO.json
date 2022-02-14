@@ -1,0 +1,228 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--43eb5cd2-6428-4e49-8f70-227873707ee4",
+        "created_by_ref": "identity--34155660-f56e-43cc-a983-84ba678335dd",
+        "created": "2022-04-19T02:28:28.676272Z",
+        "modified": "2022-06-27T16:10:05.792992Z",
+        "name": "food",
+        "threat_actor_types": [
+            "sensationalist",
+            "unknown",
+            "crime-syndicate",
+            "hacker"
+        ],
+        "last_seen": "2022-01-03T00:21:40.736626Z",
+        "sophistication": "none",
+        "resource_level": "contest",
+        "secondary_motivations": [
+            "dominance",
+            "dominance",
+            "ideology",
+            "personal-satisfaction"
+        ],
+        "personal_motivations": [
+            "revenge",
+            "accidental",
+            "revenge",
+            "accidental",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "government",
+            "medical",
+            "however",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--385dd69b-d7a2-4c74-bc56-a148ae986fae"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a9b06503-5a51-4f32-be51-604478824718",
+        "created_by_ref": "identity--34155660-f56e-43cc-a983-84ba678335dd",
+        "created": "2022-07-04T20:05:57.420313Z",
+        "modified": "2023-06-07T10:44:44.939508Z",
+        "name": "Brown, Brooks and Hines",
+        "description": "De-engineered well-modulated infrastructure",
+        "sectors": [
+            "mining",
+            "entertainment"
+        ],
+        "contact_information": "53432 Jones Neck\nGonzalesshire, FL 54934",
+        "labels": [
+            "in",
+            "pfte-batch-1"
+        ],
+        "confidence": 50,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--385dd69b-d7a2-4c74-bc56-a148ae986fae"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--128f7072-7c3c-4d9c-9065-c8ac8c04edca",
+        "created_by_ref": "identity--34155660-f56e-43cc-a983-84ba678335dd",
+        "created": "2022-04-08T20:26:52.683489Z",
+        "modified": "2022-12-22T14:54:29.688086Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "threat-actor--43eb5cd2-6428-4e49-8f70-227873707ee4",
+        "target_ref": "identity--a9b06503-5a51-4f32-be51-604478824718",
+        "start_time": "2021-05-20T06:31:47.259855Z",
+        "confidence": 88,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--385dd69b-d7a2-4c74-bc56-a148ae986fae"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--34155660-f56e-43cc-a983-84ba678335dd",
+        "created_by_ref": "identity--34155660-f56e-43cc-a983-84ba678335dd",
+        "created": "2020-09-24T08:36:49.725488Z",
+        "modified": "2021-08-14T01:09:24.942612Z",
+        "name": "Jenkins, Barker and Anderson",
+        "description": "Profit-focused incremental groupware",
+        "roles": [
+            "consumer",
+            "year",
+            "cell",
+            "American"
+        ],
+        "sectors": [
+            "utilities",
+            "healthcare",
+            "nuclear",
+            "government"
+        ],
+        "confidence": 69,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "door",
+                "description": "Century chair never usually as.",
+                "url": "http://sanchez-bates.com/",
+                "external_id": "JrRUlbt"
+            },
+            {
+                "source_name": "stop",
+                "description": "Cold involve agreement example price service establish.",
+                "url": "https://jones-davenport.com/"
+            },
+            {
+                "source_name": "early",
+                "description": "Toward present impact series change.",
+                "url": "https://www.hernandez.org/",
+                "hashes": {
+                    "MD5": "12c09c8e79e4f56d947a86e47f3c3dd8",
+                    "SHA-1": "c7ce10328eba14e068f8f928f5403b460ec55171",
+                    "SHA-256": "7cf2d78b11d104ec3d65f8b0d31b7a3ddd4eeba5a51cd8d9df114bfb6c336e82",
+                    "SHA-512": "a860e496e06b4b3d6a843843407e9b53c71c005c7c5a5de2e2c3af33844aa816eca5f45d1cc05ca1075afab2fd270c1c973b2bb8fd91a2cf13e482161bb91dc4",
+                    "SHA3-256": "b751fc8a2bec540a186ea80687f5c6d119148da212db97642deb329e6bc05c2a",
+                    "SHA3-512": "3b822effe5d579ba599cceff085f4fdbb01faa9a8145446cf9153fcf7288be57e28c3215c539945e208bf03bbebf5b8b4625891b259eec3c841735d419ccb0f5"
+                },
+                "external_id": "jiMuEXaFziKsOrl"
+            },
+            {
+                "source_name": "bit",
+                "description": "Already several risk skin.",
+                "url": "http://sexton.net/",
+                "external_id": "kmiSrUKKihvdDBMT"
+            },
+            {
+                "source_name": "indeed",
+                "description": "Morning pay prove debate.",
+                "external_id": "GpgZMWID"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--385dd69b-d7a2-4c74-bc56-a148ae986fae"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--385dd69b-d7a2-4c74-bc56-a148ae986fae",
+        "created": "2021-08-14T01:09:24.940733Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-57e7d098-4c26-4a4d-bfaa-3ee9c5e47adc",
+                "name": "Customer hot subject fight customer",
+                "create_date_time": "2021-08-14T01:08:08.428617Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

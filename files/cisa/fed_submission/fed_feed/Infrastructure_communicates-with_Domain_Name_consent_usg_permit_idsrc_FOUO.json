@@ -1,0 +1,172 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--e6926a3d-5134-40a0-ae0c-9ca2e58f8abd",
+        "created_by_ref": "identity--ec34758b-c72b-4dbb-a930-83f14b48dc80",
+        "created": "2021-11-11T11:33:30.346167Z",
+        "modified": "2022-03-11T21:25:13.707558Z",
+        "name": "let",
+        "aliases": [
+            "along",
+            "born"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "AQkWphhoTXrRoHB",
+                "phase_name": "wbEdgCsaMdy"
+            },
+            {
+                "kill_chain_name": "NwcYcFMSZm",
+                "phase_name": "IvCzJDY"
+            },
+            {
+                "kill_chain_name": "YxcczToTWjXtbO",
+                "phase_name": "cKkKIziIQ"
+            },
+            {
+                "kill_chain_name": "qhaggCoryi",
+                "phase_name": "kDnIb"
+            }
+        ],
+        "first_seen": "2020-09-10T14:09:04.833234Z",
+        "labels": [
+            "serious",
+            "easy",
+            "pfte-batch-1"
+        ],
+        "confidence": 91,
+        "object_marking_refs": [
+            "marking-definition--fc057ef0-3807-437a-acd7-166dcbc7d201"
+        ]
+    },
+    {
+        "type": "domain-name",
+        "spec_version": "2.1",
+        "id": "domain-name--331ec09d-e241-4fa7-a202-7fc6bc1d90fb",
+        "value": "burton.com",
+        "object_marking_refs": [
+            "marking-definition--fc057ef0-3807-437a-acd7-166dcbc7d201"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--cc4627af-a7d1-4fad-a27f-42b4529a9d9c",
+        "created_by_ref": "identity--ec34758b-c72b-4dbb-a930-83f14b48dc80",
+        "created": "2021-03-16T04:24:41.218727Z",
+        "modified": "2021-08-14T01:08:41.046559Z",
+        "relationship_type": "communicates-with",
+        "description": "White soldier move feeling eye forward food. Within state nice officer forward. Everything lay describe figure air area mission.",
+        "source_ref": "infrastructure--e6926a3d-5134-40a0-ae0c-9ca2e58f8abd",
+        "target_ref": "domain-name--331ec09d-e241-4fa7-a202-7fc6bc1d90fb",
+        "labels": [
+            "information",
+            "describe",
+            "him",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fc057ef0-3807-437a-acd7-166dcbc7d201"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ec34758b-c72b-4dbb-a930-83f14b48dc80",
+        "created_by_ref": "identity--ec34758b-c72b-4dbb-a930-83f14b48dc80",
+        "created": "2021-03-29T10:53:23.206266Z",
+        "modified": "2022-01-17T14:12:03.874282Z",
+        "name": "Yang PLC",
+        "contact_information": "255 Stevenson Road Suite 898\nEast Troy, MO 80469",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "edge",
+                "description": "Forward put full trial both.",
+                "url": "https://hamilton.com/",
+                "external_id": "opQEzCDNebPuJRrTM"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fc057ef0-3807-437a-acd7-166dcbc7d201"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--fc057ef0-3807-437a-acd7-166dcbc7d201",
+        "created": "2021-08-14T01:08:41.045472Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-57e7d098-4c26-4a4d-bfaa-3ee9c5e47adc",
+                "name": "Customer hot subject fight customer",
+                "create_date_time": "2021-08-14T01:08:08.428617Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

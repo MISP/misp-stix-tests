@@ -1,0 +1,218 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--371c6f52-0413-41d7-8175-52a7cf1e7ab9",
+        "created_by_ref": "identity--0c42ba72-711f-43d7-a885-f6dca79673c9",
+        "created": "2022-01-15T01:57:06.432463Z",
+        "modified": "2022-05-17T07:34:35.005826Z",
+        "name": "help",
+        "threat_actor_types": [
+            "hacker"
+        ],
+        "aliases": [
+            "rich"
+        ],
+        "first_seen": "2020-09-13T20:15:57.53458Z",
+        "roles": [
+            "director"
+        ],
+        "sophistication": "innovator",
+        "resource_level": "organization",
+        "primary_motivation": "ideology",
+        "secondary_motivations": [
+            "personal-satisfaction",
+            "coercion",
+            "dominance",
+            "personal-satisfaction"
+        ],
+        "confidence": 87,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--236d10c4-2896-41ea-ba57-a1e1cb688cd1"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--738ea3a8-0bad-4288-8d44-bb85af3aa606",
+        "created_by_ref": "identity--0c42ba72-711f-43d7-a885-f6dca79673c9",
+        "created": "2022-04-25T02:26:08.944717Z",
+        "modified": "2023-04-24T04:07:24.337316Z",
+        "name": "financial",
+        "description": "Information civil level perhaps hospital toward cost.",
+        "labels": [
+            "old",
+            "reflect",
+            "chair",
+            "pfte-batch-1"
+        ],
+        "confidence": 88,
+        "external_references": [
+            {
+                "source_name": "process",
+                "description": "Gas this season church much though.",
+                "url": "https://schneider.com/",
+                "hashes": {
+                    "MD5": "023ca14d4d24edf6b2b4284661f12422",
+                    "SHA-1": "1c5e47f1a8d5c7ca318130ca3759fac927214cbe",
+                    "SHA-256": "1b024348e0b95149fd31dbd8b7c8f07027f57c046b8ff28a914211c4cb2bbb6d",
+                    "SHA-512": "3238f7a48a48245f2186bf6eaa1a1ad4baf88dee46161f25458b988090cc0dd3a6c64c259949cf9785f824ac7530951e6838f288eddbc4d4c1fb220ffda12d91",
+                    "SHA3-256": "5d330aa91990817c306f184824175de6f30422a5b2b25b4efa8a1104987a4281",
+                    "SHA3-512": "766cd38de26d704db7e47b179d04009a6e00a8cc7331d0a52995ecdc669355c81210358023be32d44a29ef662af81718870b50bd04960ff72eaa41bc80791882"
+                },
+                "external_id": "bYdxExjFYBOxA"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--236d10c4-2896-41ea-ba57-a1e1cb688cd1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c990e937-4c6c-490a-971b-76bd19dcfdff",
+        "created_by_ref": "identity--0c42ba72-711f-43d7-a885-f6dca79673c9",
+        "created": "2021-10-12T20:09:39.497022Z",
+        "modified": "2021-12-26T11:26:03.743783Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--371c6f52-0413-41d7-8175-52a7cf1e7ab9",
+        "target_ref": "attack-pattern--738ea3a8-0bad-4288-8d44-bb85af3aa606",
+        "start_time": "2021-10-07T19:09:31.336775Z",
+        "labels": [
+            "especially",
+            "audience",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "fall",
+                "url": "https://www.green-mitchell.org/",
+                "external_id": "QdYCBKQCMwxiBVfjD"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--236d10c4-2896-41ea-ba57-a1e1cb688cd1"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--6fcb520e-a91f-4039-813e-eeab9e9ef04a",
+        "created_by_ref": "identity--0c42ba72-711f-43d7-a885-f6dca79673c9",
+        "created": "2021-06-21T23:12:58.478617Z",
+        "modified": "2022-02-17T03:45:48.812116Z",
+        "opinion": "strongly-disagree",
+        "object_refs": [
+            "threat-actor--371c6f52-0413-41d7-8175-52a7cf1e7ab9",
+            "attack-pattern--738ea3a8-0bad-4288-8d44-bb85af3aa606",
+            "relationship--c990e937-4c6c-490a-971b-76bd19dcfdff"
+        ],
+        "confidence": 77,
+        "object_marking_refs": [
+            "marking-definition--236d10c4-2896-41ea-ba57-a1e1cb688cd1"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0c42ba72-711f-43d7-a885-f6dca79673c9",
+        "created_by_ref": "identity--0c42ba72-711f-43d7-a885-f6dca79673c9",
+        "created": "2020-08-21T13:10:21.34805Z",
+        "modified": "2021-08-14T01:09:32.835795Z",
+        "name": "Duffy-Neal",
+        "description": "Adaptive interactive flexibility",
+        "contact_information": "3090 Cody Path\nEast Alexandershire, OH 63409",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--236d10c4-2896-41ea-ba57-a1e1cb688cd1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--236d10c4-2896-41ea-ba57-a1e1cb688cd1",
+        "created": "2021-08-14T01:09:32.831724Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6d40bd19-4710-4b69-9440-86c8c2a858b4",
+                "name": "Purpose response respond always trouble later investment",
+                "create_date_time": "2021-08-14T01:08:08.431664Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.4315Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

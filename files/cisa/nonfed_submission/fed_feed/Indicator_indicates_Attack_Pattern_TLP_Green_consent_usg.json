@@ -1,0 +1,242 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--3db7a8c8-1ab5-4eeb-9b4f-c7cc1927e281",
+        "created_by_ref": "identity--2556bc4b-8a3c-4b78-a154-7572a9231fb2",
+        "created": "2020-11-25T20:07:57.769617Z",
+        "modified": "2021-08-14T01:08:27.498027Z",
+        "name": "quality",
+        "pattern": "[directory:path > '/to/around.webm' OR mac-addr:defanged NOT = false OR file:size <= 304026 OR file:hashes.'SHA3-256' <= '5235b06c127b792d45187d2a6ba43f4dc692e9bcba63250e222eb4ad3c6cac36' OR (windows-registry-key:defanged = false)]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-08-17T02:35:55.2589Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "BilISCIVJjUnP",
+                "phase_name": "HnKdTTOsLy"
+            },
+            {
+                "kill_chain_name": "iOMrRIDsXbt",
+                "phase_name": "lPbqhNIrNY"
+            },
+            {
+                "kill_chain_name": "XibhTi",
+                "phase_name": "XHWJyzYHRAPDMfEfWc"
+            },
+            {
+                "kill_chain_name": "NUCUwvOgcUPQyYf",
+                "phase_name": "BKQxuqQJiZFyIACdt"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--aa43b382-8555-4128-9292-64403c656c2b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--49fd01d1-576d-43df-8b8d-4d9fdfb6f443",
+        "created_by_ref": "identity--2556bc4b-8a3c-4b78-a154-7572a9231fb2",
+        "created": "2021-01-29T18:40:27.159828Z",
+        "modified": "2021-08-14T01:08:27.502059Z",
+        "name": "response",
+        "labels": [
+            "arrive",
+            "star",
+            "woman",
+            "move",
+            "board",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--aa43b382-8555-4128-9292-64403c656c2b"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--88ab6c01-f30e-4007-ad96-1cd203dad8d4",
+        "created_by_ref": "identity--2556bc4b-8a3c-4b78-a154-7572a9231fb2",
+        "created": "2020-11-19T10:39:01.525773Z",
+        "modified": "2021-08-14T01:08:27.502672Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--3db7a8c8-1ab5-4eeb-9b4f-c7cc1927e281",
+        "target_ref": "attack-pattern--49fd01d1-576d-43df-8b8d-4d9fdfb6f443",
+        "stop_time": "2021-01-22T17:44:52.531382Z",
+        "labels": [
+            "animal",
+            "heavy",
+            "everyone",
+            "together",
+            "pfte-batch-1"
+        ],
+        "confidence": 98,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "ten",
+                "description": "Number region adult establish community course.",
+                "hashes": {
+                    "MD5": "e408ca6f49b90392303fdcd2aa879739",
+                    "SHA-1": "ded08b9cf24c85259025e33e66df15ddaa5af380",
+                    "SHA-256": "13b192bd8070905bc670e30a3406971cf9121c20230d5338f29fb7ebc85e2603",
+                    "SHA-512": "979db34b97c31e648b4b365cf2b62510c9534d3fade816772df2660661715d6eb605fb0044869dfd09bfa6bf7a56db150a64342d4c10bbb6784481aa4126443c",
+                    "SHA3-256": "5b3026f5942fc6aa12b5c2dc10e2321445d6ebe6113a720aefcf8432991b5264",
+                    "SHA3-512": "5366f267bb275c4a02e7843c8387fd67c3503142fac52d58976e6acceee7860fe311c95e5a780b14f341f3a839c808ca6308908864c752c292b3dbc875230b35"
+                }
+            },
+            {
+                "source_name": "exactly",
+                "description": "International organization him.",
+                "url": "http://gonzalez.com/",
+                "external_id": "LHtUlXVD"
+            },
+            {
+                "source_name": "response",
+                "url": "http://www.fields-ruiz.com/",
+                "external_id": "WdAKVOLhNhRmI"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--aa43b382-8555-4128-9292-64403c656c2b"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--aa43b382-8555-4128-9292-64403c656c2b",
+        "created_by_ref": "identity--2556bc4b-8a3c-4b78-a154-7572a9231fb2",
+        "created": "2021-08-14T01:08:27.496889Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-15d3e0eb-8dda-4b6b-a55d-5c6a8a6d490b",
+                "name": "Clearly industry family",
+                "create_date_time": "2021-08-14T01:08:08.420657Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2556bc4b-8a3c-4b78-a154-7572a9231fb2",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-05-18T20:38:08.103632Z",
+        "modified": "2023-03-20T01:48:46.166774Z",
+        "name": "Richmond LLC",
+        "sectors": [
+            "government-local"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "national",
+                "description": "Play budget himself join prove.",
+                "url": "http://www.fuller.com/",
+                "external_id": "QvLJpD"
+            },
+            {
+                "source_name": "impact",
+                "description": "President down method mention social cover public.",
+                "url": "http://www.mccoy.net/",
+                "hashes": {
+                    "MD5": "82c1411a20c7000215d743b733253656",
+                    "SHA-1": "624867d17deea42fb7ee5743b36d50d9f8aa9257",
+                    "SHA-256": "959b5b7656ca32faffb982764405e3f6066335045f5d9bcec5e8ab09e0215308",
+                    "SHA-512": "136d57838cbbc9ffc4a12552bbb1a8cd26456e988255444477f5b0445641624a3895ccdf74f9c7b5e49e5b256321eddcaa9fed6b9090710537b1f3861114bba3",
+                    "SHA3-256": "10d8368e0198ab8d8eaed9ef537c74385f09e0dbbd7b49b22b5f67a18b899046",
+                    "SHA3-512": "f25218f7eb379e8c886e31f3047ecbadebd0a56ec03a54ec9dc9c52b5be9b4cd7fb599f0435be92643e7652152ec0f2125f6a054f6e8c52ec56f668fe15239e6"
+                }
+            },
+            {
+                "source_name": "fast",
+                "url": "http://farmer.biz/"
+            },
+            {
+                "source_name": "wall",
+                "description": "Clear me know never firm fine instead.",
+                "hashes": {
+                    "MD5": "399055b0b4fca3610afd70fe5df5a5cd",
+                    "SHA-1": "62c81d1b662dfdad6e7aaaa99ee2efe78aa46d90",
+                    "SHA-256": "157154fd8667399f3837325e831574c0bf535ed5a1028c7005fbd168b7e74729",
+                    "SHA-512": "6acd4e5d4a377b4e77e2c164d87e7bc3ab3386cfeffaa612200fb6c4bf2e20a9a7bb533d986e28833135389f88b8371043bd9f1931edd1bfa3e670ccbb07c714",
+                    "SHA3-256": "4093d5fe7445cf92455cbfd5b2accfdd807c9849447809fe1a606298b7917279",
+                    "SHA3-512": "2a84f6c0064548f2d816e1c396fe7a639c7e2ab28d91d7ef2ddea3aa3a3b04cc65548d8cbac3d5f795cade2ad9fd16e8e46558b9ce395f12851982452b8028d0"
+                },
+                "external_id": "jPivpOhVesIagCO"
+            },
+            {
+                "source_name": "evidence",
+                "description": "Everyone edge create peace style president like.",
+                "external_id": "MiwLZhVIJQq"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--aa43b382-8555-4128-9292-64403c656c2b"
+        ]
+    }
+]

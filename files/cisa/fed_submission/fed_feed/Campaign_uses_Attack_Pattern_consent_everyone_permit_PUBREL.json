@@ -1,0 +1,160 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--33419ced-4a9c-4596-a0fa-e43a17ad17bb",
+        "created_by_ref": "identity--6b541fbd-91c1-420c-9620-77f80a01929a",
+        "created": "2022-02-20T11:45:37.948679Z",
+        "modified": "2022-06-09T13:45:40.248947Z",
+        "name": "beat",
+        "description": "Instead likely kind red.",
+        "last_seen": "2021-04-02T04:46:10.676278Z",
+        "labels": [
+            "respond",
+            "citizen",
+            "data",
+            "look",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--bba95872-08a4-4eab-9f0d-6bc6136c9a34"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--55c713e3-6f9b-4a07-af6d-1706a675bb2c",
+        "created_by_ref": "identity--6b541fbd-91c1-420c-9620-77f80a01929a",
+        "created": "2022-02-01T01:12:12.113564Z",
+        "modified": "2022-08-26T09:15:21.524585Z",
+        "name": "off",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "bnHqaVpxKkwQKTeIwH",
+                "phase_name": "wFlJVGaYfHj"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "labels": [
+            "nature",
+            "off",
+            "ok",
+            "leave",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--bba95872-08a4-4eab-9f0d-6bc6136c9a34"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--59826ff0-92bc-4ae2-b247-7952fb62b726",
+        "created_by_ref": "identity--6b541fbd-91c1-420c-9620-77f80a01929a",
+        "created": "2020-12-28T06:45:16.155501Z",
+        "modified": "2021-12-25T11:57:48.236353Z",
+        "relationship_type": "uses",
+        "description": "Southern woman only support call its remember. Agree science everyone level class. Partner scene article process peace time red while.",
+        "source_ref": "campaign--33419ced-4a9c-4596-a0fa-e43a17ad17bb",
+        "target_ref": "attack-pattern--55c713e3-6f9b-4a07-af6d-1706a675bb2c",
+        "stop_time": "2021-07-12T08:23:52.536634Z",
+        "object_marking_refs": [
+            "marking-definition--bba95872-08a4-4eab-9f0d-6bc6136c9a34"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6b541fbd-91c1-420c-9620-77f80a01929a",
+        "created_by_ref": "identity--6b541fbd-91c1-420c-9620-77f80a01929a",
+        "created": "2020-09-10T05:15:14.712308Z",
+        "modified": "2021-08-14T01:08:18.802148Z",
+        "name": "Jones, Martin and Brown",
+        "description": "Adaptive foreground hub",
+        "roles": [
+            "role"
+        ],
+        "identity_class": "system",
+        "contact_information": "PSC 8379, Box 4091\nAPO AP 43672",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 24,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "great",
+                "url": "https://alvarez-andrews.com/",
+                "hashes": {
+                    "MD5": "4db449cafdf18c0720436fe2b2ab8da6",
+                    "SHA-1": "5eed0030f1f5b425a683a76e4a42ead784a0a7be",
+                    "SHA-256": "5e73b1f6423ad2b78c14f062f19f5f0346340078daa936bbc32e7fc23960b02e",
+                    "SHA-512": "5e5b2e8532e9a436462f3278ec4a657baea3df7566eb97e830a5a7f3f28701a360217f51c47c3a5986efcb1573792563190165659e83a43b2682b1fccb8775f6",
+                    "SHA3-256": "70655210dc9c261f1c2e26a36025fd6809f5a969ccab7dd0f86dfb92b9e35eac",
+                    "SHA3-512": "d49684bff4c9ee8b37ea262b8c067772cd245af51005ac1901fcf3f957d17e5ab73c4607b428bf15e41d15104538da5dff81d063a7eda1e13590108665e9d746"
+                },
+                "external_id": "fpiculrMdbnuknv"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--bba95872-08a4-4eab-9f0d-6bc6136c9a34"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--bba95872-08a4-4eab-9f0d-6bc6136c9a34",
+        "created": "2021-08-14T01:08:18.800557Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3b921193-36b9-467a-b549-f06fd7a0147e",
+                "name": "Artist despite travel Mrs long fish",
+                "create_date_time": "2021-08-14T01:08:08.430789Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.430622Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

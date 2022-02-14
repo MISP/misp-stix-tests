@@ -1,0 +1,254 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--c850e3e8-13b1-434d-9124-376df4bf97b6",
+        "created_by_ref": "identity--6da4dfd6-94b9-449c-8c1f-06fd0bd08044",
+        "created": "2021-06-26T00:43:11.395021Z",
+        "modified": "2022-04-14T11:23:54.718392Z",
+        "name": "action",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "NfzQCdJrAqCBXAqBS",
+                "phase_name": "LHglY"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d9919745-ec87-4ea1-8c91-2e7a023ca70d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4834b8c8-4aa8-4183-99de-59a7bab36e0c",
+        "created_by_ref": "identity--6da4dfd6-94b9-449c-8c1f-06fd0bd08044",
+        "created": "2021-09-23T23:06:26.28474Z",
+        "modified": "2022-06-23T23:15:37.737191Z",
+        "name": "Reynolds-Johnston",
+        "roles": [
+            "part",
+            "choose",
+            "once",
+            "million"
+        ],
+        "identity_class": "group",
+        "sectors": [
+            "mining",
+            "automotive",
+            "non-profit"
+        ],
+        "confidence": 65,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "discover",
+                "url": "http://lopez.com/",
+                "external_id": "QzIrRnOc"
+            },
+            {
+                "source_name": "study",
+                "description": "Spring activity seven want.",
+                "url": "https://www.riley.com/",
+                "hashes": {
+                    "MD5": "481cd19f57563c869d94a6d2b3facaef",
+                    "SHA-1": "23504ae07cef3dc6f48a1508dbdb1f5b5794456c",
+                    "SHA-256": "ef1aa320c99a823612e714f3677d8461dc02389cf4cd215e83ebbcb49a1567d0",
+                    "SHA-512": "4f0c04f79b0f1ed39b42611f383a80d57c8342abd292348e842e3553e80535a6cc304f9e1982442aabc64e882ecc955afa3dca36bf4ae3f16c36bd961976f782",
+                    "SHA3-256": "4221abe0ade985100d2316c2e88ef4bf76d6099c7a94bfdc7b906e78b2e2c07b",
+                    "SHA3-512": "14555e7fea8b004e2998996638981494c6a8059011990c572686a1b7337de8f7721eb93d61c60fc5bf52e1a5194ca3e8f9853d6f0b7da4a3eabf8515936dbb3b"
+                },
+                "external_id": "dSgqAhZXbeqo"
+            },
+            {
+                "source_name": "speech",
+                "url": "http://boyd.com/",
+                "hashes": {
+                    "MD5": "55c5aa919382d461ff30c14da7ac95ee",
+                    "SHA-1": "811babe1480e5206add2a6b6d5d2b8fd5628912a",
+                    "SHA-256": "5515e62ebc58ecbdd2866fb6724ed6a7192f0b4fd69656d549f8ec67ec99d386",
+                    "SHA-512": "eddbb5c25e19476ae4669b09c4b29342092b0aa208d80f466ce0d47e7dc6364ac38a4d176660ea0a3271295cdc5dc1acf2b134434263b696bc5e3a98ef4d70f6",
+                    "SHA3-256": "8bd64dd7bb090d992433ad25c7f399cc63f3dd58abce11fa961bd5c56c653388",
+                    "SHA3-512": "e36b4f1eb54890214ea215896452f2813f28d06ff3fac1f054db1112a0e89b26b24ef69187f17e49fb2d3c889ec619e896d31c05c13150481938527073886e37"
+                },
+                "external_id": "CmIIsLrIWskxpvzz"
+            },
+            {
+                "source_name": "light",
+                "description": "Best somebody leg test loss.",
+                "hashes": {
+                    "MD5": "b6b5a3c288c81d8b1135f563e642a37c",
+                    "SHA-1": "78088ea63a30dd8ceb4db78594349a478a49b2fe",
+                    "SHA-256": "7997eb10b85740f873511ee0da0aa25215bf8ee86cff4540c7422cbd45558950",
+                    "SHA-512": "387f06727a2038657aacd446b41b5d32e353e1b0b129a362ae4aa5c674148eb74616bf11e4cbc7a83198f45859632b3c3304d621f17def9680c1b1a93244e527",
+                    "SHA3-256": "09a257c470a6b45c8a31a2b213638bfce86f6bb6f66cb600fe06f373d6e524e4",
+                    "SHA3-512": "d56c69a6613eb7977bc653806d7bf5b4d763a183fb25a6b2fb8cb14d77039817b01923c140cfc614bf045e767658fb52123570e5d83535147e070023efc930a0"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d9919745-ec87-4ea1-8c91-2e7a023ca70d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f76017da-0f03-4dc7-96b9-2973f236ed71",
+        "created_by_ref": "identity--6da4dfd6-94b9-449c-8c1f-06fd0bd08044",
+        "created": "2021-04-18T16:31:45.470893Z",
+        "modified": "2022-03-20T13:27:33.458399Z",
+        "relationship_type": "targets",
+        "description": "Dream play health later stuff. Land after stand yourself level heavy. National ability last.",
+        "source_ref": "attack-pattern--c850e3e8-13b1-434d-9124-376df4bf97b6",
+        "target_ref": "identity--4834b8c8-4aa8-4183-99de-59a7bab36e0c",
+        "stop_time": "2021-03-05T12:00:00.795317Z",
+        "confidence": 37,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d9919745-ec87-4ea1-8c91-2e7a023ca70d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d9919745-ec87-4ea1-8c91-2e7a023ca70d",
+        "created_by_ref": "identity--6da4dfd6-94b9-449c-8c1f-06fd0bd08044",
+        "created": "2021-08-14T01:08:09.4972Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c8895e1e-4ecb-48a8-ba6f-5865a3a3066d",
+                "name": "Development get financial fill light",
+                "create_date_time": "2021-08-14T01:08:08.421416Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.421229Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6da4dfd6-94b9-449c-8c1f-06fd0bd08044",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-08-05T03:39:52.224876Z",
+        "modified": "2022-04-19T00:26:06.484366Z",
+        "name": "Bell-Turner",
+        "sectors": [
+            "government-local",
+            "automotive",
+            "aerospace"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "be",
+                "description": "Agency can popular bed threat attorney.",
+                "url": "https://wood.com/",
+                "hashes": {
+                    "MD5": "0cb8693d5524416c3048e1bccadaed2c",
+                    "SHA-1": "475e08d709ecf0e57f40165bc17b0b455f3dbe97",
+                    "SHA-256": "c55f9f5a8879fe6dd67fc41775412ac185bd1ea006b6d367cf36ce451a615ed5",
+                    "SHA-512": "7b0c8ff41206760cd846200ae823461c6d28182a2624b7e8dcc3f0cd4c8c1895536c7be92d6f146f5e2dbf54566294ff1377fc879b691767277b863d4de55768",
+                    "SHA3-256": "5ae71b9b70078a07924599548416a8e29d31a11d6d35aa4088e3c8ad1c7aaa98",
+                    "SHA3-512": "223d63e57f5c62b4fb62e58d0b0e8cd4c33e0e0b3682561ecf1d50d5abf7e912bbb9e651d038eb8b4645ffe7c905578d77c44e97ae69cf131e34a570277ea2f7"
+                },
+                "external_id": "dPeKyHaSoHlvFUXr"
+            },
+            {
+                "source_name": "case",
+                "description": "Picture window no level pick.",
+                "url": "https://phillips-ross.info/",
+                "hashes": {
+                    "MD5": "4c4918be508ca04aea97f24a84534015",
+                    "SHA-1": "d68c6983d4968b78f19b31a85d7d909757a48ee1",
+                    "SHA-256": "c0fc678e1d00e951a4453be2f7c39d4ce66d43642154cea897de0c7e55f5ce3f",
+                    "SHA-512": "fb63ff1c809ca0d7cf17704566adfcc89f1df8362690833e1ca70bf4ce804ce68da2a4db1f0309acabf6f19b80b9fec7d005f4580c7815b1e3f43d254b18eec0",
+                    "SHA3-256": "902f28b48c1d464fa9f1a1b13475f3139b8d1956f9291f3e6746d991847bbaeb",
+                    "SHA3-512": "1cce69e63ef3fb37c5c5bd5386fa833946e053db3aa458fd34a1c872e5a390dac06752225e0337926f1e4c1bce9ba84bb2310625d812b07853318cf0d5798a75"
+                }
+            },
+            {
+                "source_name": "reason",
+                "url": "http://www.day-ward.info/",
+                "hashes": {
+                    "MD5": "42b4337a1257c614f2adce0bf45eaa74",
+                    "SHA-1": "47d826c781dc72744264fec940c93653e0899292",
+                    "SHA-256": "9d1bd07ece3c4bcbd01a45defa2d186c4f5f93d0463423a8f9dc3cddebef1619",
+                    "SHA-512": "8791cb706fc21f424d0b80a09967e232734f1657664ebf1202c63d715d3808c3a28bb8e4d71ef1809ed2a0193a3602750a53520a0a2c95d6c0fab78da187da5a",
+                    "SHA3-256": "5318181d98287b40ecc5b8196612a3c3b9eb1a9462bfb1e95fabf81bc50cf459",
+                    "SHA3-512": "974ecd63c473689a98950365f8217926d7eb47325bdd8b30dbff43e5ebe9bbbe8d09e0d05ccaf874dfda92cf21eb33b280964696ac32862253bde7ce14d07ccc"
+                },
+                "external_id": "FRdjt"
+            },
+            {
+                "source_name": "parent",
+                "description": "Discussion cause under better suddenly.",
+                "url": "https://www.davis.com/",
+                "hashes": {
+                    "MD5": "383347f5d9357b49a079129160649ab9",
+                    "SHA-1": "3199b09a67480874b7a0c2fa443690e61ffcba41",
+                    "SHA-256": "fffaca0cead3f0b0b586e12fe6d9be1580cf1bb6dc144b543ceb517bcff69a1f",
+                    "SHA-512": "9e8600623f4fd2b2aa9f64a362e3f9366999f34f74fdd34b745333e27d3c06c7b3fb67e8abe55ce15cbbcf78ece67f331094b03c30d2b423e050fffc5b0b2965",
+                    "SHA3-256": "8f493d6736cd593252420285568af7b44f77057ac4513a64f83d3029c369be83",
+                    "SHA3-512": "4234b8384f18dd8ed5a9b143bf305a44431d00444540909581e80745ae6331789d7aa4654e92357e3752df0b817737fa53682bb8f2dad198740d8b39004a74e1"
+                },
+                "external_id": "YzmkLGsYLxQjdhsz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d9919745-ec87-4ea1-8c91-2e7a023ca70d"
+        ]
+    }
+]

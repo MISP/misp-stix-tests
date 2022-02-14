@@ -1,0 +1,175 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--df4d1ece-129d-4f65-907f-5aba89ca184b",
+        "created_by_ref": "identity--9496d998-9ec4-4861-8e34-688e64bbc7e3",
+        "created": "2020-10-22T07:38:07.193441Z",
+        "modified": "2021-08-14T01:08:16.196857Z",
+        "name": "success",
+        "description": "Middle fall what high charge like.",
+        "aliases": [
+            "what",
+            "together",
+            "green"
+        ],
+        "first_seen": "2021-04-26T03:37:56.741267Z",
+        "last_seen": "2022-04-17T18:13:10.906794Z",
+        "confidence": 61,
+        "object_marking_refs": [
+            "marking-definition--f8df8acf-ebed-4f07-90ec-6982121b6f87"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--da945d4e-1e9a-4335-8703-dd4db0e4281a",
+        "created_by_ref": "identity--9496d998-9ec4-4861-8e34-688e64bbc7e3",
+        "created": "2020-12-29T07:39:14.850799Z",
+        "modified": "2021-08-14T01:08:16.197113Z",
+        "name": "Glover-Cole",
+        "roles": [
+            "this",
+            "dinner",
+            "important",
+            "president"
+        ],
+        "labels": [
+            "near",
+            "national",
+            "military",
+            "pfte-batch-1"
+        ],
+        "confidence": 19,
+        "object_marking_refs": [
+            "marking-definition--f8df8acf-ebed-4f07-90ec-6982121b6f87"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1dffe50f-4679-4ca1-aa37-83e6eb617aa0",
+        "created_by_ref": "identity--9496d998-9ec4-4861-8e34-688e64bbc7e3",
+        "created": "2020-12-04T14:50:55.883171Z",
+        "modified": "2021-08-14T01:08:16.197598Z",
+        "relationship_type": "targets",
+        "source_ref": "campaign--df4d1ece-129d-4f65-907f-5aba89ca184b",
+        "target_ref": "identity--da945d4e-1e9a-4335-8703-dd4db0e4281a",
+        "stop_time": "2021-09-11T04:36:27.615481Z",
+        "labels": [
+            "notice",
+            "pfte-batch-1"
+        ],
+        "confidence": 62,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "majority",
+                "description": "Amount as TV.",
+                "external_id": "YXwIwaYciD"
+            },
+            {
+                "source_name": "life",
+                "url": "http://www.randall-johnson.com/",
+                "hashes": {
+                    "MD5": "cc8d38a283c2dbc6df19fb368c91dd53",
+                    "SHA-1": "4b562ad750b58b3536f948b624a94f9218b3dbce",
+                    "SHA-256": "fb5979e264aef5930c7bf90ffe7b74b935bf118fda25a12d6a8e0fd527506af1",
+                    "SHA-512": "3e97704347ddb4f20634906f93f0c2626056db6b70e19636bdc38eeb0dfe753e7169397c4e6dee2fea7b03001a7ef9e82f732c77686f0637072adc51ee83cce0",
+                    "SHA3-256": "ccbeea6f607521a7cafdf2f1521a85dcea6c64d2f1e7c8af0361b51060d60652",
+                    "SHA3-512": "c1dac49b641c4712ad092022d57864da1e030186c58f03a2b89d0d84886e999f9596cba02b32ee70d5c8109994a00523124ebd0cfbd0f10d9e863565e798ed3b"
+                },
+                "external_id": "UCIcld"
+            },
+            {
+                "source_name": "knowledge",
+                "description": "Between born lot.",
+                "external_id": "RhzUhE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f8df8acf-ebed-4f07-90ec-6982121b6f87"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--f8df8acf-ebed-4f07-90ec-6982121b6f87",
+        "created_by_ref": "identity--9496d998-9ec4-4861-8e34-688e64bbc7e3",
+        "created": "2021-08-14T01:08:16.196256Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f98cddfd-8461-4143-a969-e6e230df21d4",
+                "name": "Word describe cold color",
+                "create_date_time": "2021-08-14T01:08:08.422252Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--9496d998-9ec4-4861-8e34-688e64bbc7e3",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-06-13T06:35:35.564828Z",
+        "modified": "2023-04-21T11:01:53.740107Z",
+        "name": "Frazier, Butler and Francis",
+        "identity_class": "organization",
+        "sectors": [
+            "financial-services",
+            "government-regional",
+            "financial-services"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f8df8acf-ebed-4f07-90ec-6982121b6f87"
+        ]
+    }
+]

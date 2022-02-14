@@ -1,0 +1,183 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--2cfbdc2f-9bc2-4829-842c-14f38c058184",
+        "created_by_ref": "identity--c8fb7b10-17a9-40ee-8f2e-fbaa9d988094",
+        "created": "2021-03-28T04:19:21.542729Z",
+        "modified": "2022-02-24T05:53:11.297065Z",
+        "name": "level",
+        "aliases": [
+            "tonight",
+            "office",
+            "letter",
+            "field"
+        ],
+        "labels": [
+            "often",
+            "serious",
+            "pfte-batch-1"
+        ],
+        "confidence": 73,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "treat",
+                "external_id": "yUiIRZNqhEr"
+            },
+            {
+                "source_name": "every",
+                "description": "Exist she around stop suddenly.",
+                "external_id": "eHDoOYLLgfT"
+            },
+            {
+                "source_name": "whatever",
+                "url": "https://www.griffin.biz/",
+                "external_id": "PIoSLiyANPRCmHte"
+            },
+            {
+                "source_name": "imagine",
+                "url": "https://warren-fox.net/",
+                "external_id": "LWfQJXr"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fae750fd-4685-424d-882a-3bc6fc3f9fe3"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--26a2258e-dd43-42bd-8a06-6029d93befe4",
+        "created_by_ref": "identity--c8fb7b10-17a9-40ee-8f2e-fbaa9d988094",
+        "created": "2021-09-30T18:44:02.279824Z",
+        "modified": "2021-11-25T23:37:52.541265Z",
+        "name": "story",
+        "aliases": [
+            "certain",
+            "such",
+            "American",
+            "fast",
+            "option"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "zpjPGlg",
+                "phase_name": "DGoVJfwiJafj"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "labels": [
+            "leader",
+            "total",
+            "key",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--fae750fd-4685-424d-882a-3bc6fc3f9fe3"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--68a0ed1b-1393-4482-aa0b-595f17c709de",
+        "created_by_ref": "identity--c8fb7b10-17a9-40ee-8f2e-fbaa9d988094",
+        "created": "2021-12-21T14:00:29.874578Z",
+        "modified": "2022-07-16T15:14:45.214685Z",
+        "relationship_type": "uses",
+        "description": "Believe off thus although force mother. Nice him at official last newspaper.",
+        "source_ref": "attack-pattern--2cfbdc2f-9bc2-4829-842c-14f38c058184",
+        "target_ref": "tool--26a2258e-dd43-42bd-8a06-6029d93befe4",
+        "stop_time": "2021-11-02T19:08:42.313742Z",
+        "labels": [
+            "dark",
+            "put",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--fae750fd-4685-424d-882a-3bc6fc3f9fe3"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c8fb7b10-17a9-40ee-8f2e-fbaa9d988094",
+        "created_by_ref": "identity--c8fb7b10-17a9-40ee-8f2e-fbaa9d988094",
+        "created": "2020-11-13T13:34:49.281525Z",
+        "modified": "2021-08-14T01:08:12.706058Z",
+        "name": "Lewis PLC",
+        "roles": [
+            "tend",
+            "partner",
+            "still"
+        ],
+        "contact_information": "84690 Krueger Brooks Apt. 970\nShelbymouth, DC 88515",
+        "object_marking_refs": [
+            "marking-definition--fae750fd-4685-424d-882a-3bc6fc3f9fe3"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--fae750fd-4685-424d-882a-3bc6fc3f9fe3",
+        "created": "2021-08-14T01:08:12.704307Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

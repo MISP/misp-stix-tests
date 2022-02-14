@@ -1,0 +1,185 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--d2e16377-3ed0-428e-8391-b85ef5bbbbb8",
+        "created_by_ref": "identity--922c3651-1612-46e5-98bb-acd1c67d0165",
+        "created": "2020-11-30T19:16:23.240688Z",
+        "modified": "2021-08-14T01:08:56.207971Z",
+        "name": "serious",
+        "aliases": [
+            "suggest",
+            "good",
+            "what",
+            "military",
+            "capital"
+        ],
+        "last_seen": "2022-05-01T08:38:57.892551Z",
+        "goals": [
+            "During speak hour them.",
+            "Ask weight writer specific.",
+            "Maintain western road against board participant."
+        ],
+        "resource_level": "individual",
+        "primary_motivation": "revenge",
+        "secondary_motivations": [
+            "notoriety"
+        ],
+        "labels": [
+            "kind",
+            "area",
+            "local",
+            "pfte-batch-1"
+        ],
+        "confidence": 14,
+        "object_marking_refs": [
+            "marking-definition--659b507c-baf7-4532-8b17-72371296ed4a"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--34c7f413-ccaa-4a86-8a70-394c68a3148e",
+        "created_by_ref": "identity--922c3651-1612-46e5-98bb-acd1c67d0165",
+        "created": "2022-03-23T03:24:27.859205Z",
+        "modified": "2022-08-16T10:10:13.431952Z",
+        "latitude": 51.856539582708734,
+        "longitude": 12.915339959211167,
+        "precision": 95.22700201032463,
+        "administrative_area": "lcvDsOQR",
+        "postal_code": "71822",
+        "confidence": 27,
+        "object_marking_refs": [
+            "marking-definition--659b507c-baf7-4532-8b17-72371296ed4a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--452f0c31-6acf-46c5-a3e2-070622fc78f1",
+        "created_by_ref": "identity--922c3651-1612-46e5-98bb-acd1c67d0165",
+        "created": "2021-06-14T10:38:53.167402Z",
+        "modified": "2021-11-17T06:33:39.025778Z",
+        "relationship_type": "targets",
+        "description": "Nothing dream science coach prevent.",
+        "source_ref": "intrusion-set--d2e16377-3ed0-428e-8391-b85ef5bbbbb8",
+        "target_ref": "location--34c7f413-ccaa-4a86-8a70-394c68a3148e",
+        "stop_time": "2021-01-15T06:58:18.626963Z",
+        "labels": [
+            "issue",
+            "despite",
+            "bad",
+            "more",
+            "pfte-batch-1"
+        ],
+        "confidence": 85,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "continue",
+                "description": "Build vote experience although.",
+                "url": "https://www.perez.info/",
+                "hashes": {
+                    "MD5": "284d72b531f551cba7032ad7a5ca0007",
+                    "SHA-1": "1961f40c2af3712dd42120f9c3117dd86d545b05",
+                    "SHA-256": "2c4953fc206afbec4b8ee5c12eeac25707cc6b82dd7f728395d45a9ee0ba9bf5",
+                    "SHA-512": "aeef6c8d583e7f2a0afe76b45baf4040a18fb3e0571d7a6b6da72a5be2ee31de895cbb376e29719035b3ec747cc53bd73491f5ae48f7564e0147a4f3d62446fb",
+                    "SHA3-256": "694b73a4a2412a7be2d30bf48b3b1111eccb2b849becd467c5ceded990684a6e",
+                    "SHA3-512": "d25c1ec116ff5f609bef9e4a9e8ba9649a5590a52adf37e6ca33a7dd67943d97d56f9d11a173450c2a90adbdad9c36c58bce40413d8801939089f00fe277d56c"
+                },
+                "external_id": "DVZTbtTGJXIMIlJotG"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--659b507c-baf7-4532-8b17-72371296ed4a"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--659b507c-baf7-4532-8b17-72371296ed4a",
+        "created_by_ref": "identity--922c3651-1612-46e5-98bb-acd1c67d0165",
+        "created": "2021-08-14T01:08:56.207236Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-cdad75a5-97a2-450d-bb1c-cac3b21b4823",
+                "name": "Continue half as create together strong",
+                "create_date_time": "2021-08-14T01:08:08.421874Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--922c3651-1612-46e5-98bb-acd1c67d0165",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-21T12:41:13.578651Z",
+        "modified": "2021-09-11T15:53:15.446437Z",
+        "name": "Johnson Ltd",
+        "identity_class": "unknown",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--659b507c-baf7-4532-8b17-72371296ed4a"
+        ]
+    }
+]

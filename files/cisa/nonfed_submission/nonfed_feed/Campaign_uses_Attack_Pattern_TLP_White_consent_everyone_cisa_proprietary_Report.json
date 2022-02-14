@@ -1,0 +1,133 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--7addbc67-5e52-4516-9f51-3355082ace1d",
+        "created_by_ref": "identity--860a7cd9-93b2-4822-a33d-09ee67f00dd0",
+        "created": "2021-01-11T15:07:20.25902Z",
+        "modified": "2021-08-14T01:08:18.442494Z",
+        "name": "page",
+        "objective": "Answer face company computer discussion them.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 6,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "chance",
+                "url": "https://scott.com/",
+                "hashes": {
+                    "MD5": "b1d1e27929538a7a669e057d1edc784d",
+                    "SHA-1": "484d52d5572f20ab9e3717622e19d5a66184ee00",
+                    "SHA-256": "928f31cda7119526c2454db5c6903709134cbafec63a98da68cb02957c8808db",
+                    "SHA-512": "f747073313f9d47ab9c3520d858ea580434c7438c5a4113748ab3890f17d325618eaff4c22963bd35a08f89675d0c34983a0c4e1ec921c1f6e257be215650a85",
+                    "SHA3-256": "44b889e924fcdb7bfa96f6bd90dff3280113d970b3aca3f6a5396359bb2a770a",
+                    "SHA3-512": "c81a8813c6840cb0d32481ca4eb73f59e91efea477878c3873303909073badfd194d05534e7a0082aef587e6d1a49c58f5fc35c1ebb4bbedf9ee2cdf61cfa1d4"
+                },
+                "external_id": "jnjRYNFuqsjq"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--7ed159e6-afdb-4750-9430-4f310167e12b",
+        "created_by_ref": "identity--860a7cd9-93b2-4822-a33d-09ee67f00dd0",
+        "created": "2021-05-07T06:50:11.291388Z",
+        "modified": "2021-11-26T08:21:39.341449Z",
+        "name": "of",
+        "labels": [
+            "what",
+            "physical",
+            "pfte-batch-1"
+        ],
+        "confidence": 6,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--058d2aa3-81d9-4067-9a72-2fe4956f2d84",
+        "created_by_ref": "identity--860a7cd9-93b2-4822-a33d-09ee67f00dd0",
+        "created": "2021-09-11T08:19:53.057829Z",
+        "modified": "2022-08-26T20:28:10.691885Z",
+        "relationship_type": "uses",
+        "description": "Prove yourself radio but cup. No degree speech author represent.",
+        "source_ref": "campaign--7addbc67-5e52-4516-9f51-3355082ace1d",
+        "target_ref": "attack-pattern--7ed159e6-afdb-4750-9430-4f310167e12b",
+        "start_time": "2020-11-17T06:57:01.41876Z",
+        "stop_time": "2021-02-11T04:02:57.704819Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--1a30dba6-72c5-41a2-b211-c87fc7b2a744",
+        "created_by_ref": "identity--860a7cd9-93b2-4822-a33d-09ee67f00dd0",
+        "created": "2020-11-24T20:27:38.132158Z",
+        "modified": "2021-08-14T01:08:18.443268Z",
+        "name": "American",
+        "description": "Minute at until. Feel college after turn forget.",
+        "report_types": [
+            "observed-data",
+            "threat-actor",
+            "observed-data",
+            "intrusion-set",
+            "indicator"
+        ],
+        "published": "2022-03-23T10:34:30.439193Z",
+        "object_refs": [
+            "campaign--7addbc67-5e52-4516-9f51-3355082ace1d",
+            "attack-pattern--7ed159e6-afdb-4750-9430-4f310167e12b",
+            "relationship--058d2aa3-81d9-4067-9a72-2fe4956f2d84"
+        ],
+        "labels": [
+            "center",
+            "simply",
+            "smile",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--860a7cd9-93b2-4822-a33d-09ee67f00dd0",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-23T17:38:30.281317Z",
+        "modified": "2021-08-14T01:08:18.443551Z",
+        "name": "Rodriguez LLC",
+        "description": "Reactive 6thgeneration productivity",
+        "identity_class": "individual",
+        "sectors": [
+            "government-local",
+            "chemical",
+            "financial-services"
+        ],
+        "contact_information": "PSC 6351, Box 8025\nAPO AE 64893",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 92,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

@@ -1,0 +1,161 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--fa5ee575-513a-421b-a373-6687cc2af327",
+        "created_by_ref": "identity--0f01734a-faee-46db-949a-a79e7c15460b",
+        "created": "2020-10-01T01:55:32.474609Z",
+        "modified": "2021-08-14T01:08:40.535636Z",
+        "name": "rate",
+        "description": "Say shoulder argue late identify.",
+        "infrastructure_types": [
+            "staging",
+            "routers-switches"
+        ],
+        "last_seen": "2021-05-01T01:33:44.126639Z",
+        "labels": [
+            "guess",
+            "pfte-batch-1"
+        ],
+        "confidence": 24,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "part",
+                "description": "Natural society center get over necessary develop.",
+                "url": "http://www.rivera-black.com/",
+                "hashes": {
+                    "MD5": "14c6f46562839e151cf058c6339117a3",
+                    "SHA-1": "9421c2ebdf8b79ba8d9169d62046b24fee95b45e",
+                    "SHA-256": "33517f784bb4aa924929f11dff503ff857979cafbdf1700f54cd64ccf0b4c001",
+                    "SHA-512": "db15ffb806a638e8599fab177d05370376171f454b10aa5f98e6ba65bf9ae4258947ede35baa6058ebaa60d130f09eac91a0d5dd19ca97e0271184c5044aaebf",
+                    "SHA3-256": "4a6d553d8240a839fd55e313de3cbaea652a963f171ef23dc9b3c0a409e24dfe",
+                    "SHA3-512": "a27ace42eb0560628ae2e12e2d51f8b9b2ff8f952f758c47de6a8530e2b3f7bf55b1b23a12f5516af650f2c2634fc2bad63289bf9a17a0f2378e49771751bc85"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1fd7a44c-5dd1-44f4-ac56-287c769c488f"
+        ]
+    },
+    {
+        "type": "ipv6-addr",
+        "spec_version": "2.1",
+        "id": "ipv6-addr--ad0149ef-e6d6-41d7-a903-064f44188b3f",
+        "value": "7be2:c243:ef1a:eb15:8a47:3a2:8079:1911",
+        "object_marking_refs": [
+            "marking-definition--1fd7a44c-5dd1-44f4-ac56-287c769c488f"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--88faaccb-4a33-4454-ab80-d4e93ffc38b2",
+        "created_by_ref": "identity--0f01734a-faee-46db-949a-a79e7c15460b",
+        "created": "2021-02-23T06:28:00.733175Z",
+        "modified": "2022-02-10T11:40:33.756984Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--fa5ee575-513a-421b-a373-6687cc2af327",
+        "target_ref": "ipv6-addr--ad0149ef-e6d6-41d7-a903-064f44188b3f",
+        "start_time": "2020-12-19T03:16:56.992071Z",
+        "object_marking_refs": [
+            "marking-definition--1fd7a44c-5dd1-44f4-ac56-287c769c488f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0f01734a-faee-46db-949a-a79e7c15460b",
+        "created_by_ref": "identity--0f01734a-faee-46db-949a-a79e7c15460b",
+        "created": "2021-11-10T21:03:39.594289Z",
+        "modified": "2022-06-07T03:52:11.607518Z",
+        "name": "Gonzalez, Mills and Avila",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--1fd7a44c-5dd1-44f4-ac56-287c769c488f"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--1fd7a44c-5dd1-44f4-ac56-287c769c488f",
+        "created": "2021-08-14T01:08:40.534803Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6d40bd19-4710-4b69-9440-86c8c2a858b4",
+                "name": "Purpose response respond always trouble later investment",
+                "create_date_time": "2021-08-14T01:08:08.431664Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.4315Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

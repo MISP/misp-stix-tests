@@ -1,0 +1,190 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--9ba93f63-11e6-427a-989c-8cb058cbcc6f",
+        "created_by_ref": "identity--665f31f6-b0fc-44d1-9a68-87fe352b49d2",
+        "created": "2021-01-06T07:19:35.390848Z",
+        "modified": "2021-09-11T00:27:41.147763Z",
+        "name": "something",
+        "description": "None but new no attorney behavior operation.",
+        "first_seen": "2020-09-04T07:31:22.172292Z",
+        "last_seen": "2021-04-15T07:39:49.74762Z",
+        "resource_level": "government",
+        "primary_motivation": "dominance",
+        "labels": [
+            "green",
+            "card",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e161ec7d-e57b-4a62-bdd5-2f1700b594ed"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1b5e9287-df02-4355-aadc-2a07576e2b71",
+        "created_by_ref": "identity--665f31f6-b0fc-44d1-9a68-87fe352b49d2",
+        "created": "2020-09-30T23:00:09.365145Z",
+        "modified": "2021-08-14T01:08:55.336272Z",
+        "name": "Morris Ltd",
+        "description": "Robust client-server hierarchy",
+        "sectors": [
+            "healthcare",
+            "technology"
+        ],
+        "confidence": 73,
+        "external_references": [
+            {
+                "source_name": "professor",
+                "description": "Piece doctor about part do up partner seven.",
+                "url": "https://gamble.net/",
+                "external_id": "dufKwaBhrMXHsArJ"
+            },
+            {
+                "source_name": "wide",
+                "description": "Agency body adult security dinner look.",
+                "url": "http://hernandez.com/",
+                "external_id": "fpjSREjcJl"
+            },
+            {
+                "source_name": "animal",
+                "external_id": "qgeMoXkYHtn"
+            },
+            {
+                "source_name": "attorney",
+                "description": "Total Mr career way.",
+                "external_id": "NKCMZtPEvgISzQoOVwh"
+            },
+            {
+                "source_name": "artist",
+                "description": "Or imagine easy southern board.",
+                "url": "http://www.gonzalez.com/",
+                "hashes": {
+                    "MD5": "56543092d5e587cd948d847e053a8601",
+                    "SHA-1": "4917ec321653d2d11979fed256f770a094172f83",
+                    "SHA-256": "b54a9ff4c89a1a96f43b23dec1dd438448fb27d35e59e8fa3b0add55eaac9665",
+                    "SHA-512": "1664b8409faec083d4be1ef1db0cac0b3f9d2d81a39abcf8ad839aa275d3d9214c331b5b2e0a5a0f58e4037cc76ebfac72ff23e263f88b1baa3413772ae863e3",
+                    "SHA3-256": "8f1c8e1f72060791412f4c8fde4df94d9fb98ab05edad91aa0b90f9096ae34b7",
+                    "SHA3-512": "8cf2958806ba8d5ba64c793219fedcc5ebc82ddc0dac7d25effe0a6c5ec3d5d679c2076080d4fc055212b79319a37f769c2d51024aff71f6feb81662d9c87c75"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e161ec7d-e57b-4a62-bdd5-2f1700b594ed"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--88094036-8900-47c3-af5e-a033f19b9ff9",
+        "created_by_ref": "identity--665f31f6-b0fc-44d1-9a68-87fe352b49d2",
+        "created": "2021-01-09T09:21:50.604043Z",
+        "modified": "2021-12-07T07:04:01.595117Z",
+        "relationship_type": "targets",
+        "source_ref": "intrusion-set--9ba93f63-11e6-427a-989c-8cb058cbcc6f",
+        "target_ref": "identity--1b5e9287-df02-4355-aadc-2a07576e2b71",
+        "stop_time": "2021-08-29T04:10:08.860644Z",
+        "confidence": 59,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e161ec7d-e57b-4a62-bdd5-2f1700b594ed"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--e161ec7d-e57b-4a62-bdd5-2f1700b594ed",
+        "created_by_ref": "identity--665f31f6-b0fc-44d1-9a68-87fe352b49d2",
+        "created": "2021-08-14T01:08:55.334933Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-15d3e0eb-8dda-4b6b-a55d-5c6a8a6d490b",
+                "name": "Clearly industry family",
+                "create_date_time": "2021-08-14T01:08:08.420657Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--665f31f6-b0fc-44d1-9a68-87fe352b49d2",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-20T09:08:10.003915Z",
+        "modified": "2021-08-14T01:08:55.336808Z",
+        "name": "Anderson-Guerrero",
+        "description": "Devolved object-oriented monitoring",
+        "sectors": [
+            "healthcare"
+        ],
+        "contact_information": "766 Shannon Harbor Apt. 721\nSouth Natalieberg, AZ 50175",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--e161ec7d-e57b-4a62-bdd5-2f1700b594ed"
+        ]
+    }
+]

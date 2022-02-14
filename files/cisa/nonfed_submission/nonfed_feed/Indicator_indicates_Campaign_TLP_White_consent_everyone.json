@@ -1,0 +1,133 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--676f6a01-b807-417c-a991-961a037b0b17",
+        "created_by_ref": "identity--d91f8447-c394-4eee-88b8-5e427a42faab",
+        "created": "2021-04-19T03:57:36.511411Z",
+        "modified": "2021-08-14T01:08:28.766554Z",
+        "description": "Matter safe minute remain specific international business.",
+        "pattern": "[directory:defanged = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-02-01T00:41:19.981354Z",
+        "labels": [
+            "blue",
+            "man",
+            "down",
+            "pfte-batch-1"
+        ],
+        "confidence": 19,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--4bc36a98-1dae-466f-b410-08c6ae766f22",
+        "created_by_ref": "identity--d91f8447-c394-4eee-88b8-5e427a42faab",
+        "created": "2021-03-04T05:09:28.279895Z",
+        "modified": "2021-08-14T01:08:28.767675Z",
+        "name": "daughter",
+        "first_seen": "2022-05-24T22:37:36.151536Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 86,
+        "external_references": [
+            {
+                "source_name": "night",
+                "description": "Who move make last whether college baby discuss.",
+                "url": "http://www.hicks.info/",
+                "hashes": {
+                    "MD5": "df7213787fb5fcf7232b70c529ab102a",
+                    "SHA-1": "dcfe6a80334846b22fc903366a68118c0c337460",
+                    "SHA-256": "5ecbb3ec45a9b5ba3c65f1827b5abc87ef4198a837d40f53c66998af14ad939c",
+                    "SHA-512": "8640e5865586d9f866c4f9e0335dbefb29665058f2e869a2f1ab746945b05470090a94ed8b6ab6fa67a10f95bea8213409618749ab14ec983a73f726a7a7a725",
+                    "SHA3-256": "32bf4321f5566e20779460bfa48a843af2ef53e5a839e0c55db7b4a26b8f4d49",
+                    "SHA3-512": "359253a90b553f77da98260cf039c3d697bb40c08f7b122d25df53099c47e953b68edd246f27572af2b163e82b3544032394757f3ab666fe65b29cd6b6dd5e27"
+                },
+                "external_id": "okvvwmZmDLXZz"
+            },
+            {
+                "source_name": "else",
+                "description": "Sit ball serious beautiful employee against job.",
+                "url": "https://cruz.com/",
+                "external_id": "nXNAIyKKeTFEwEoRMC"
+            },
+            {
+                "source_name": "more",
+                "url": "https://www.diaz-grimes.com/"
+            },
+            {
+                "source_name": "allow",
+                "url": "https://www.douglas.com/",
+                "external_id": "lOVGJDvyysF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--96048adc-557e-4301-a4ea-afdb4e9ed617",
+        "created_by_ref": "identity--d91f8447-c394-4eee-88b8-5e427a42faab",
+        "created": "2022-01-27T08:23:28.627432Z",
+        "modified": "2022-05-18T08:44:51.034475Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--676f6a01-b807-417c-a991-961a037b0b17",
+        "target_ref": "campaign--4bc36a98-1dae-466f-b410-08c6ae766f22",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "else",
+                "url": "http://hess-griffin.org/",
+                "hashes": {
+                    "MD5": "721de4b13a38bc8933fcfcf579b2cb4e",
+                    "SHA-1": "17f402b26b8dff821fd59130adbe99ddcc2a7478",
+                    "SHA-256": "67d2f3a85489c0645c151044dd150a03e80529659c4a3d8ec620887e568da4dd",
+                    "SHA-512": "ccf5e2c16fbb35c1b9607614a1be924e26ae43f119049ef0322b8b577c48c08d3d7fa2be638cf60dceec3d6fffc962e6e817a565927aae7ef7e4f099e11c0dbb",
+                    "SHA3-256": "6a60afc8d3d71539290a06287d0e66f5e7f9ade19bbb59660fceade76c0e6b4a",
+                    "SHA3-512": "b5dad144fa2bd6353bab11e16c62b4a977040c20523f0b29a9a8099a35df6a838b5d79c57bd1a345e7428015c28abf34628998b243ff90a7c627bca1cbcd766c"
+                },
+                "external_id": "kVvxFDBpRhPWkByNha"
+            },
+            {
+                "source_name": "cover",
+                "description": "Remember move need energy.",
+                "external_id": "fsEaVQLNQA"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d91f8447-c394-4eee-88b8-5e427a42faab",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-05T14:03:28.817789Z",
+        "modified": "2022-09-02T11:43:49.820605Z",
+        "name": "Smith Group",
+        "sectors": [
+            "pharmaceuticals",
+            "construction"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

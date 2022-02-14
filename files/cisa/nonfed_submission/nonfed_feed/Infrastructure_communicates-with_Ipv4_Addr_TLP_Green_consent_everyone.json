@@ -1,0 +1,88 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--f2893169-c934-4626-9a40-bc90ef1b1860",
+        "created_by_ref": "identity--84bde754-405d-4a6b-bed2-1c66cc696e06",
+        "created": "2020-10-23T11:01:02.420498Z",
+        "modified": "2021-09-09T20:30:54.309678Z",
+        "name": "administration",
+        "infrastructure_types": [
+            "unknown",
+            "firewall",
+            "reconnaissance",
+            "reconnaissance",
+            "amplification"
+        ],
+        "aliases": [
+            "do",
+            "Congress",
+            "job",
+            "anyone",
+            "message"
+        ],
+        "first_seen": "2021-06-12T16:15:20.048385Z",
+        "labels": [
+            "almost",
+            "house",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "ipv4-addr",
+        "spec_version": "2.1",
+        "id": "ipv4-addr--947d9ecc-716d-47ff-8de8-e81177e2e789",
+        "value": "171.121.38.148",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--bcff4750-b946-4d3d-96de-1ace262880c8",
+        "created_by_ref": "identity--84bde754-405d-4a6b-bed2-1c66cc696e06",
+        "created": "2022-01-15T21:33:20.938741Z",
+        "modified": "2022-07-27T02:30:00.66733Z",
+        "relationship_type": "communicates-with",
+        "description": "Future democratic later test personal.",
+        "source_ref": "infrastructure--f2893169-c934-4626-9a40-bc90ef1b1860",
+        "target_ref": "ipv4-addr--947d9ecc-716d-47ff-8de8-e81177e2e789",
+        "start_time": "2020-10-16T16:43:54.58718Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--84bde754-405d-4a6b-bed2-1c66cc696e06",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-01T07:17:44.447916Z",
+        "modified": "2021-08-14T01:08:39.450506Z",
+        "name": "Harvey-Smith",
+        "description": "Down-sized impactful synergy",
+        "roles": [
+            "a",
+            "deal",
+            "set"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 52,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

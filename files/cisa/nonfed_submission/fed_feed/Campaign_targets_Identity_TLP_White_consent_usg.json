@@ -1,0 +1,143 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--df34c330-f83f-41e6-9fa0-b8c4e09cea45",
+        "created_by_ref": "identity--1d83c697-8e7e-44f0-8c0b-9e065b475f31",
+        "created": "2022-07-05T13:42:17.757922Z",
+        "modified": "2022-07-21T06:58:55.369384Z",
+        "name": "miss",
+        "aliases": [
+            "task",
+            "agree",
+            "interest"
+        ],
+        "last_seen": "2021-08-08T18:54:27.176865Z",
+        "labels": [
+            "claim",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--8de01c9c-a2b2-4258-b02a-9c0f934bc33b"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a7591731-23f7-47a0-a7bf-809da4d8d89d",
+        "created_by_ref": "identity--1d83c697-8e7e-44f0-8c0b-9e065b475f31",
+        "created": "2020-08-23T19:18:52.9967Z",
+        "modified": "2021-08-14T01:08:16.085721Z",
+        "name": "Wilkerson, Walsh and Patterson",
+        "description": "Profound reciprocal encoding",
+        "sectors": [
+            "dams",
+            "government-public-services"
+        ],
+        "labels": [
+            "door",
+            "share",
+            "public",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--8de01c9c-a2b2-4258-b02a-9c0f934bc33b"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c9b171d9-57c7-42e9-9005-58b83aeb47e0",
+        "created_by_ref": "identity--1d83c697-8e7e-44f0-8c0b-9e065b475f31",
+        "created": "2021-02-06T17:10:08.713369Z",
+        "modified": "2021-08-14T01:08:16.086045Z",
+        "relationship_type": "targets",
+        "source_ref": "campaign--df34c330-f83f-41e6-9fa0-b8c4e09cea45",
+        "target_ref": "identity--a7591731-23f7-47a0-a7bf-809da4d8d89d",
+        "start_time": "2021-10-30T20:56:10.276192Z",
+        "stop_time": "2022-07-02T21:38:59.31199Z",
+        "labels": [
+            "yes",
+            "friend",
+            "role",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--8de01c9c-a2b2-4258-b02a-9c0f934bc33b"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--8de01c9c-a2b2-4258-b02a-9c0f934bc33b",
+        "created_by_ref": "identity--1d83c697-8e7e-44f0-8c0b-9e065b475f31",
+        "created": "2021-08-14T01:08:16.084741Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1d83c697-8e7e-44f0-8c0b-9e065b475f31",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-03-20T03:22:10.075987Z",
+        "modified": "2021-08-14T01:08:16.086684Z",
+        "name": "Scott-Nicholson",
+        "description": "Operative responsive middleware",
+        "roles": [
+            "time",
+            "respond"
+        ],
+        "contact_information": "5783 Evans Turnpike\nShawnview, MD 86736",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--8de01c9c-a2b2-4258-b02a-9c0f934bc33b"
+        ]
+    }
+]

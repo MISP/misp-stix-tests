@@ -1,0 +1,160 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--9ee546d1-ff0a-41c9-bde6-8ad26e89423f",
+        "created_by_ref": "identity--08b83bc1-5eda-4b24-b3de-0448b964385a",
+        "created": "2022-06-08T22:54:25.743061Z",
+        "modified": "2023-01-30T03:32:24.171665Z",
+        "name": "sell",
+        "description": "Visit share save consumer drop writer half.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "EpWAaXbDHcFAoMF",
+                "phase_name": "XwoyFFHgkZnCl"
+            }
+        ],
+        "confidence": 13,
+        "object_marking_refs": [
+            "marking-definition--ea68c1cb-e0bf-4c10-95ed-2db0b12047a4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--f5708e2d-a126-43ee-ae1e-31eb05ac4345",
+        "created_by_ref": "identity--08b83bc1-5eda-4b24-b3de-0448b964385a",
+        "created": "2022-05-16T08:15:06.678314Z",
+        "modified": "2022-08-26T18:48:16.339611Z",
+        "name": "qrWqUiUhTtFnc",
+        "latitude": 41.10621804266427,
+        "longitude": 29.794402118727447,
+        "precision": 59.71069629333684,
+        "region": "northern-africa",
+        "city": "North James",
+        "street_address": "1570 Aaron Bypass Apt. 612",
+        "confidence": 99,
+        "object_marking_refs": [
+            "marking-definition--ea68c1cb-e0bf-4c10-95ed-2db0b12047a4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--cf263ec8-15ce-4717-9bac-45ea46b4204d",
+        "created_by_ref": "identity--08b83bc1-5eda-4b24-b3de-0448b964385a",
+        "created": "2020-12-13T17:05:59.061883Z",
+        "modified": "2021-08-14T01:08:10.464705Z",
+        "relationship_type": "targets",
+        "description": "Break son lead forget phone something. Animal key environmental front may majority.",
+        "source_ref": "attack-pattern--9ee546d1-ff0a-41c9-bde6-8ad26e89423f",
+        "target_ref": "location--f5708e2d-a126-43ee-ae1e-31eb05ac4345",
+        "start_time": "2022-03-15T09:40:32.870791Z",
+        "confidence": 85,
+        "object_marking_refs": [
+            "marking-definition--ea68c1cb-e0bf-4c10-95ed-2db0b12047a4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--08b83bc1-5eda-4b24-b3de-0448b964385a",
+        "created_by_ref": "identity--08b83bc1-5eda-4b24-b3de-0448b964385a",
+        "created": "2021-03-19T16:12:46.117523Z",
+        "modified": "2022-01-26T02:36:03.979425Z",
+        "name": "Simmons and Sons",
+        "description": "Total intermediate help-desk",
+        "roles": [
+            "nor",
+            "town",
+            "movie",
+            "successful",
+            "who"
+        ],
+        "sectors": [
+            "chemical"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ea68c1cb-e0bf-4c10-95ed-2db0b12047a4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--ea68c1cb-e0bf-4c10-95ed-2db0b12047a4",
+        "created": "2021-08-14T01:08:10.463408Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

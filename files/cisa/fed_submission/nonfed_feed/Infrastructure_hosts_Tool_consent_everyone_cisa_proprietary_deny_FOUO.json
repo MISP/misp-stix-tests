@@ -1,0 +1,115 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--7a419af3-d42a-4b23-a65e-cdeb54b32567",
+        "created_by_ref": "identity--a8ca65f6-d7c6-4e67-9146-7c8c2121bade",
+        "created": "2020-11-06T12:50:05.631592Z",
+        "modified": "2021-08-14T01:08:48.621975Z",
+        "name": "prevent",
+        "description": "Pm discover away teacher.",
+        "infrastructure_types": [
+            "reconnaissance"
+        ],
+        "aliases": [
+            "operation",
+            "skill"
+        ],
+        "first_seen": "2022-03-09T23:37:58.992597Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--86ce9f64-91dc-488c-99ab-91e03cd4f55e",
+        "created_by_ref": "identity--a8ca65f6-d7c6-4e67-9146-7c8c2121bade",
+        "created": "2021-08-22T01:48:20.507628Z",
+        "modified": "2021-09-09T07:19:22.213719Z",
+        "name": "man",
+        "description": "Event soldier source single inside represent responsibility.",
+        "aliases": [
+            "really",
+            "safe",
+            "player",
+            "sense"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "BWvgqyfntYgukqUErJF",
+                "phase_name": "ZkWaJJMGBIHNOyQmmMIH"
+            },
+            {
+                "kill_chain_name": "iDUhG",
+                "phase_name": "HwegGIwiMDX"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "NXvYuNYcGNrF",
+                "phase_name": "OiwQUhYyUcQ"
+            },
+            {
+                "kill_chain_name": "BNRaToMpxriPA",
+                "phase_name": "SEjSRVFKYLN"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 7,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--49e43a34-ee45-41ce-8c60-1c6b5de67ea9",
+        "created_by_ref": "identity--a8ca65f6-d7c6-4e67-9146-7c8c2121bade",
+        "created": "2022-06-13T03:49:12.738296Z",
+        "modified": "2023-01-01T08:54:30.556873Z",
+        "relationship_type": "hosts",
+        "source_ref": "infrastructure--7a419af3-d42a-4b23-a65e-cdeb54b32567",
+        "target_ref": "tool--86ce9f64-91dc-488c-99ab-91e03cd4f55e",
+        "start_time": "2022-07-27T02:55:20.202997Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 95,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a8ca65f6-d7c6-4e67-9146-7c8c2121bade",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-17T01:37:52.918125Z",
+        "modified": "2021-11-27T14:38:26.399712Z",
+        "name": "AttorneyApproachMust",
+        "sectors": [
+            "government-regional",
+            "dams",
+            "non-profit",
+            "dams",
+            "dams"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 86,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

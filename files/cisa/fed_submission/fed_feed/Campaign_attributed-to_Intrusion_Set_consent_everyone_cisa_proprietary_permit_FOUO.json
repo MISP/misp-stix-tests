@@ -1,0 +1,143 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--a64e3aa0-c295-459a-8285-5435ac215a35",
+        "created_by_ref": "identity--edfe2528-ed5e-4cf9-9131-c3923647ee23",
+        "created": "2020-11-09T04:13:26.740502Z",
+        "modified": "2021-08-14T01:08:13.729437Z",
+        "name": "mother",
+        "description": "Accept turn card in official student trial.",
+        "first_seen": "2021-11-30T02:09:23.098803Z",
+        "labels": [
+            "friend",
+            "of",
+            "dark",
+            "theory",
+            "whose",
+            "pfte-batch-1"
+        ],
+        "confidence": 96,
+        "object_marking_refs": [
+            "marking-definition--8bae4771-cc79-49b3-aadc-5ae2cf1a29a4"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--062e1a3b-68aa-4c17-8a00-ec33d701e419",
+        "created_by_ref": "identity--edfe2528-ed5e-4cf9-9131-c3923647ee23",
+        "created": "2022-03-26T13:37:04.72845Z",
+        "modified": "2023-02-17T10:45:01.981493Z",
+        "name": "bed",
+        "aliases": [
+            "the",
+            "item",
+            "article",
+            "our",
+            "however"
+        ],
+        "first_seen": "2021-06-17T08:51:54.168924Z",
+        "last_seen": "2022-02-13T05:54:42.918234Z",
+        "goals": [
+            "Else conference whether save.",
+            "Adult others question financial young.",
+            "Degree science step strategy father personal."
+        ],
+        "secondary_motivations": [
+            "revenge"
+        ],
+        "labels": [
+            "night",
+            "quickly",
+            "national",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--8bae4771-cc79-49b3-aadc-5ae2cf1a29a4"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a625836e-a711-40b3-8a09-74f35b468230",
+        "created_by_ref": "identity--edfe2528-ed5e-4cf9-9131-c3923647ee23",
+        "created": "2021-07-31T10:26:17.4403Z",
+        "modified": "2022-03-20T11:46:03.166841Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "campaign--a64e3aa0-c295-459a-8285-5435ac215a35",
+        "target_ref": "intrusion-set--062e1a3b-68aa-4c17-8a00-ec33d701e419",
+        "labels": [
+            "field",
+            "analysis",
+            "material",
+            "serious",
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--8bae4771-cc79-49b3-aadc-5ae2cf1a29a4"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--edfe2528-ed5e-4cf9-9131-c3923647ee23",
+        "created_by_ref": "identity--edfe2528-ed5e-4cf9-9131-c3923647ee23",
+        "created": "2021-02-26T08:08:57.60642Z",
+        "modified": "2021-08-14T01:08:13.730256Z",
+        "name": "Freeman and Sons",
+        "description": "Organized neutral success",
+        "sectors": [
+            "financial-services",
+            "hospitality-leisure",
+            "government-public-services"
+        ],
+        "contact_information": "082 Moss Corner\nRodgersside, TX 70154",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--8bae4771-cc79-49b3-aadc-5ae2cf1a29a4"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--8bae4771-cc79-49b3-aadc-5ae2cf1a29a4",
+        "created": "2021-08-14T01:08:13.728975Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-114c3c02-d336-4257-a679-8cbd2bcdae34",
+                "name": "Sort author none he account American industry worry",
+                "create_date_time": "2021-08-14T01:08:08.432919Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

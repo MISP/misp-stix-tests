@@ -1,0 +1,215 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--fe26a33c-786c-40df-bd57-b60363fe23b4",
+        "created_by_ref": "identity--b8b994be-9088-4df2-b4f1-0619674d7954",
+        "created": "2021-08-08T00:14:59.452192Z",
+        "modified": "2022-02-10T14:48:30.244501Z",
+        "name": "wait",
+        "indicator_types": [
+            "attribution",
+            "attribution"
+        ],
+        "pattern": "[autonomous-system:defanged NOT = false] OR ([process:created_time <= t'2021-05-29T23:17:42.824312Z'] OR ([network-traffic:dst_ref = 'ipv6-addr--c07b5e6b-4f7b-40fb-8e7f-398d8f65e79a'] START t'2021-04-27T03:22:31.526791Z' STOP t'2022-06-23T09:49:10.988241Z'))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-06-27T01:21:31.059721Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 16,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "cold",
+                "description": "Color and throughout.",
+                "external_id": "SgWbvQ"
+            },
+            {
+                "source_name": "take",
+                "url": "http://carrillo.biz/",
+                "hashes": {
+                    "MD5": "6f25ff554c3ab0fef137db684451501e",
+                    "SHA-1": "1ddc7a7ba9ca9d740c9293d70ccc1f7d55194fc4",
+                    "SHA-256": "22fc725f08652e3c36872534e6f1743d4941581074531697692585b499574520",
+                    "SHA-512": "c332088e141f0be2cca50c735446dbad65d195e450439f56c0d4096758b3689d214e8c5b2542bd2593df44a10ee000ee9f6b9f28d3bc5b3e8f0d629b8cc937d5",
+                    "SHA3-256": "bcf923599fd89bf5a26b8a3f37c4b2d3dec5d01f69eb7cbea28f4f6e98f6dca1",
+                    "SHA3-512": "5c53f1487832da86ee238eef6d9127463e423474cef16404f8e63e2f1543f2fe6fd1722b89461829f01d39504de9570b7ffc20b24afa9bb09e52b6e3a6283e44"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--c524ed44-a4fd-48c5-bca0-c12926552270",
+        "created_by_ref": "identity--b8b994be-9088-4df2-b4f1-0619674d7954",
+        "created": "2021-03-19T20:55:58.804351Z",
+        "modified": "2021-11-26T05:52:36.327672Z",
+        "first_observed": "2020-11-05T11:19:25.817831Z",
+        "last_observed": "2020-12-02T04:12:22.173475Z",
+        "number_observed": 773943883,
+        "objects": {
+            "autonomous-system--5e15856c-7194-4c12-807a-156820c047cf": {
+                "type": "autonomous-system",
+                "spec_version": "2.1",
+                "id": "autonomous-system--5e15856c-7194-4c12-807a-156820c047cf",
+                "number": 857,
+                "name": "Brown Group",
+                "rir": "Smith-Horton"
+            }
+        },
+        "labels": [
+            "mission",
+            "remember",
+            "cell",
+            "pfte-batch-1"
+        ],
+        "confidence": 79,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "wife",
+                "url": "https://www.kim-foster.com/",
+                "external_id": "fedoQZhocevJIgArF"
+            },
+            {
+                "source_name": "rule",
+                "description": "Dog million rule by wonder.",
+                "url": "https://www.rose.net/",
+                "external_id": "ZAyBgXOCBDCDwBvYN"
+            },
+            {
+                "source_name": "respond",
+                "description": "Event marriage police fine.",
+                "hashes": {
+                    "MD5": "541c46000e2056600bea6ce9da6186e9",
+                    "SHA-1": "1aa979aae591a95f8526a7299c8eb846b652472c",
+                    "SHA-256": "3b9426df3621c5c8bb75fac1c525c2fdc32584f70b8d154fe9f38b093b332fbc",
+                    "SHA-512": "ca3b5d985e174db0e0d4d366445ae25daa6873690526311300b56bcb86d86531580834c78e268df70c96174492aab92f7d0a532bb3abc0e9016aef1206d9f826",
+                    "SHA3-256": "0603d848f0ccb27e3d9108477239a2bf2a0f9bf9ae6fba3a403a08740d3890e4",
+                    "SHA3-512": "13363748108cef2a31294efdcdf7c14a686ecb1299364e797f70803b2db9d8e13d4ef01d0a83f066c83a1f90b41b9cde3e7969c8341bf737a140ecf3baebdeeb"
+                },
+                "external_id": "ubRqD"
+            },
+            {
+                "source_name": "decide",
+                "description": "Provide unit identify turn write.",
+                "url": "http://novak-torres.com/",
+                "hashes": {
+                    "MD5": "012386c3521ee92e6e4e1916f5b436f5",
+                    "SHA-1": "38138a61183d92f3c08d9aa953750db2e140d856",
+                    "SHA-256": "09ffc7953d5d6b9009d28e0a524cddb62f380511b4458f2d0d468c12fcd799b9",
+                    "SHA-512": "f1a3512671bf6a69851441dc7eb5b9ad23dfee202de6fe58d1f0465f5760be7ac603d02feaf044382051ccbaf002c8c9ea61abd58692d6612346e86faca16322",
+                    "SHA3-256": "4bad570e8337acd2a7f93bbce446528fd0ef5902ee5e6bbcb7424fde93d419cd",
+                    "SHA3-512": "4b329cd69d43d2cb55c51a1f076a9583a82371ddaa4be93f0182f3a8e73f135500764fac6177db03b74afa477f1a2923d46e2767cd589ebaf4d3e3af4e702f4f"
+                },
+                "external_id": "EuzwXZgHoNIsskM"
+            },
+            {
+                "source_name": "generation",
+                "description": "Enjoy usually try station group.",
+                "url": "http://tyler-navarro.com/",
+                "external_id": "YaNORaTTNLkvnl"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--fa172b3d-1632-4c8c-b92e-2858a4f979ea",
+        "created_by_ref": "identity--b8b994be-9088-4df2-b4f1-0619674d7954",
+        "created": "2020-11-02T09:39:05.535366Z",
+        "modified": "2021-08-14T01:08:36.073379Z",
+        "relationship_type": "based-on",
+        "source_ref": "indicator--fe26a33c-786c-40df-bd57-b60363fe23b4",
+        "target_ref": "observed-data--c524ed44-a4fd-48c5-bca0-c12926552270",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "learn",
+                "url": "http://www.schultz.com/",
+                "external_id": "IwjOnuttLxtyKpt"
+            },
+            {
+                "source_name": "friend",
+                "url": "http://www.mcknight-adams.com/",
+                "hashes": {
+                    "MD5": "df01a8769f25e5e4d14b56d5dab46f0c",
+                    "SHA-1": "22020777b63f7bec3659d2b6e79e13bbdab18012",
+                    "SHA-256": "5eca77f951f99778ea33cebd3d2baf740a2eab46c14dfba1ccf047a00ba652aa",
+                    "SHA-512": "826e922d6fbbe6b8e9ca6131d47a381be66f86ab54c894fc59eedb7731c8422c6c70dcd08062513475143cae0de222e3bf74d50bf1a723a8a72bcde735f1d863",
+                    "SHA3-256": "e47a2486c47f2f7527745df69675dbf53bc17677f305c00c58dc4036c232d825",
+                    "SHA3-512": "c8e5922e3752eb9d1c153dfdf86789759682c2ec9bcf90c8de869e9c1fb5577a7e2e714e3b2d0dc08e6eee98d4046f72d31754b5e675aec42fd6fa21aa9b60f9"
+                }
+            },
+            {
+                "source_name": "relate",
+                "description": "Measure pretty sister agreement wish network fear.",
+                "url": "https://www.west.com/",
+                "hashes": {
+                    "MD5": "4e9b895c3566c35d0e5779976fde0274",
+                    "SHA-1": "7f93e16c83fef23e110b56ab5b12b4a5feab231f",
+                    "SHA-256": "f9670086be5b6ba21893f16263d12773a923051d5227382fa1fa509a7ad220ac",
+                    "SHA-512": "a560ec87e0c55b293552ab33867ebfa6df88a7901bb2c20eaebcd51c1baa18933d78409d12eb7dcf753ffc427fa96efd66a0bc49dc0e30e9da32d63710f52f92",
+                    "SHA3-256": "acabdda1e6e59918da04863c1015225f259c046a0f1a55ac7c5767fad152d2c9",
+                    "SHA3-512": "abf89672e285f2af4495a0b5f635775d3fd10bb519f2c46705deb3475036918afde966fb313cbdb8d5e95208a58b6d76a65c49a70341732324ab5d2b3122ea8c"
+                }
+            },
+            {
+                "source_name": "condition",
+                "description": "Thing field officer leg something century.",
+                "url": "https://richardson.com/",
+                "external_id": "clGrOKsMIweZTZSiHX"
+            },
+            {
+                "source_name": "south",
+                "description": "Sell approach well defense sit agent finish.",
+                "url": "https://www.hernandez.org/",
+                "hashes": {
+                    "MD5": "7236915c970c675462dc1b2f1f0f87bb",
+                    "SHA-1": "3e86713c2ee6b2b4d19e49b711eedd2e0189cc54",
+                    "SHA-256": "d25a5f7dd27b2dc1f10738aed017121f5f79f3a2c0f77602c37d08f5973ce876",
+                    "SHA-512": "f2330c14cf512ebf7b4a8f661da70b8959990b51176e002756ff848574369e70221f0a4415866e2b8f51c7dc6ee27c59f7948fd1eecdbf0911185e46c812c90d",
+                    "SHA3-256": "1b19bdff5b61f1f3e71353e76244b85648513830c02f7bfbd9c304feb7617e53",
+                    "SHA3-512": "e27bbc95c4901dbb82ff173a51f7a734d18af06542beb6d7d351e44d90de486cc53bd570e0a5d8e252646e1eead9f82e6a2c266c8f1952cc7a39bb3966f73e74"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b8b994be-9088-4df2-b4f1-0619674d7954",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-01-27T01:44:08.224513Z",
+        "modified": "2021-08-14T01:08:36.073651Z",
+        "name": "AccountDeepWatch",
+        "identity_class": "unknown",
+        "sectors": [
+            "dams",
+            "education"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 4,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

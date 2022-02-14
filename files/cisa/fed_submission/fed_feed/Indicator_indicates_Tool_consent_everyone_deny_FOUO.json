@@ -1,0 +1,203 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--f6b4d0d0-19d3-43a2-8ab7-ba61db975400",
+        "created_by_ref": "identity--643799d5-eaa4-43ec-ad0b-ed7a33aae357",
+        "created": "2020-02-01T04:16:19.183489Z",
+        "modified": "2021-08-14T01:08:35.476145Z",
+        "pattern": "(([process:defanged NOT = false] OR [network-traffic:dst_port >= 44373] REPEATS 5 TIMES)) FOLLOWEDBY [domain-name:value NOT = 'parker.com']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-12-24T02:38:15.591944Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "LUEfzHzEjbHTgD",
+                "phase_name": "vWlMgKZXjd"
+            },
+            {
+                "kill_chain_name": "BoQAYcLtZkqJWz",
+                "phase_name": "PcOJStG"
+            },
+            {
+                "kill_chain_name": "zAUthPuyWAeR",
+                "phase_name": "VmPWdA"
+            },
+            {
+                "kill_chain_name": "pfSrynBQnekJJZ",
+                "phase_name": "wgSdIJvMRCaPUOgWIvL"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--96e6c397-8a00-41a6-84c5-c8cb0eafda9c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--7c6453bd-ce97-4cdb-af1d-55f639446b9d",
+        "created_by_ref": "identity--643799d5-eaa4-43ec-ad0b-ed7a33aae357",
+        "created": "2021-08-05T15:19:32.534185Z",
+        "modified": "2022-05-24T11:02:23.90293Z",
+        "name": "do",
+        "description": "Network ahead threat bill rest.",
+        "tool_types": [
+            "vulnerability-scanning",
+            "credential-exploitation"
+        ],
+        "tool_version": "scene",
+        "labels": [
+            "security",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "toward",
+                "description": "Husband girl floor.",
+                "external_id": "xMFeRrUmKZtryYdMQaS"
+            },
+            {
+                "source_name": "affect",
+                "url": "http://franco-marquez.com/",
+                "hashes": {
+                    "MD5": "f6a4639ef866829c3661e177afb44da5",
+                    "SHA-1": "d2829fdfbda7ed5728b6f353de02a162256fc74e",
+                    "SHA-256": "1739c5cde245c021bc97d102a9b4d51ec93235cd4767f23cf3466b09a45ca099",
+                    "SHA-512": "e6dceee8ea1324bc3f44ce5adcb99291159c30d0fa921bb4a6d044aabe5d4085ae71f16c4f78f3e45ee510a42892a75709fe79ca4d55acd74a7a91d425ec4f12",
+                    "SHA3-256": "fe43ddff1b8b8531a905ae7bb709877749eedfe60d7db867766b4b0f334a1169",
+                    "SHA3-512": "f6a8dee91949a4b1d0ec5dd1d58937f5ec77febf92f224c240d353610178375a622ae84bafc38a01d83813ef86a90ab5bd09df430421e72fab8f77a1ebda93a7"
+                },
+                "external_id": "lbtOGjZrxtUx"
+            },
+            {
+                "source_name": "husband",
+                "description": "Republican detail size story.",
+                "url": "http://lewis.org/",
+                "hashes": {
+                    "MD5": "324791cc5890966e58b429777fea3d84",
+                    "SHA-1": "e9000c5b0b3a79d43143d995812772a5f2fbee99",
+                    "SHA-256": "5447c5ee513a217b0d92e0c13b92320871f74bedd0c3b780ecbf742065635942",
+                    "SHA-512": "5c70a887cf75c05865fcefeefba2c0c7068e3023df09d38a5515b4ad012b3de58484ed20661b4d654008bf424c6803c9f177dec17d31ea22543daa968e29a63f",
+                    "SHA3-256": "8dcca8065711bb3137d152d0d3e3830d62b2d946443baa09b4d490198d85e938",
+                    "SHA3-512": "4216ef8077356ee414e9a0b9a0d40a0af1a225eafbc78a92b4de16f302b001c045df7071b302816f0c546b8e79efba2c3da7d9467b3ab51d7e21a42de7683815"
+                },
+                "external_id": "tGWdviw"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--96e6c397-8a00-41a6-84c5-c8cb0eafda9c"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--42af0f38-eaf5-4866-8027-92be417d0522",
+        "created_by_ref": "identity--643799d5-eaa4-43ec-ad0b-ed7a33aae357",
+        "created": "2020-09-12T19:46:33.275059Z",
+        "modified": "2021-08-23T02:01:12.590451Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--f6b4d0d0-19d3-43a2-8ab7-ba61db975400",
+        "target_ref": "tool--7c6453bd-ce97-4cdb-af1d-55f639446b9d",
+        "start_time": "2022-05-02T08:30:52.636837Z",
+        "stop_time": "2022-08-12T11:45:30.638821Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--96e6c397-8a00-41a6-84c5-c8cb0eafda9c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--643799d5-eaa4-43ec-ad0b-ed7a33aae357",
+        "created_by_ref": "identity--643799d5-eaa4-43ec-ad0b-ed7a33aae357",
+        "created": "2021-07-07T13:19:05.415785Z",
+        "modified": "2021-10-23T19:08:31.117678Z",
+        "name": "Cardenas Group",
+        "description": "Enterprise-wide discrete neural-net",
+        "roles": [
+            "loss"
+        ],
+        "identity_class": "organization",
+        "sectors": [
+            "government-national",
+            "financial-services",
+            "pharmaceuticals",
+            "entertainment",
+            "water"
+        ],
+        "contact_information": "158 Crystal Ridge\nSouth Debbieshire, VT 05728",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--96e6c397-8a00-41a6-84c5-c8cb0eafda9c"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--96e6c397-8a00-41a6-84c5-c8cb0eafda9c",
+        "created": "2021-08-14T01:08:35.475364Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3af87523-f9f6-4d99-acfc-79560c4d2219",
+                "name": "Boy understand else sense give house travel already",
+                "create_date_time": "2021-08-14T01:08:08.429507Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

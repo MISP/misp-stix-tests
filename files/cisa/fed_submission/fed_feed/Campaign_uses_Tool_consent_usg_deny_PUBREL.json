@@ -1,0 +1,154 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--667cab11-a45e-4770-8a23-6586c9f2936c",
+        "created_by_ref": "identity--efe7a2dc-1a8c-4793-9477-9348e79dee79",
+        "created": "2020-10-24T11:56:57.226942Z",
+        "modified": "2021-08-14T01:08:20.97129Z",
+        "name": "four",
+        "description": "Continue others final service center.",
+        "aliases": [
+            "action",
+            "arrive",
+            "policy"
+        ],
+        "last_seen": "2021-09-03T17:47:59.428841Z",
+        "confidence": 46,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fdef568e-af03-4bc9-beb7-09dee2a8e551"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--bc82e548-4806-4664-9899-c8dfbb82ea34",
+        "created_by_ref": "identity--efe7a2dc-1a8c-4793-9477-9348e79dee79",
+        "created": "2022-02-07T18:50:43.507892Z",
+        "modified": "2022-03-30T04:43:45.8664Z",
+        "name": "Democrat",
+        "description": "Finish do myself race.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "yvjwxjIlMhrq",
+                "phase_name": "Miouddwke"
+            }
+        ],
+        "tool_version": "only",
+        "labels": [
+            "difficult",
+            "enter",
+            "reveal",
+            "pfte-batch-1"
+        ],
+        "confidence": 94,
+        "object_marking_refs": [
+            "marking-definition--fdef568e-af03-4bc9-beb7-09dee2a8e551"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ef19452a-df92-492f-8f74-85da7a2adb81",
+        "created_by_ref": "identity--efe7a2dc-1a8c-4793-9477-9348e79dee79",
+        "created": "2021-02-23T07:33:38.974407Z",
+        "modified": "2022-01-29T03:25:48.049096Z",
+        "relationship_type": "uses",
+        "description": "Authority strong strategy use. Light step party identify defense they. Glass floor right win try tree debate smile.",
+        "source_ref": "campaign--667cab11-a45e-4770-8a23-6586c9f2936c",
+        "target_ref": "tool--bc82e548-4806-4664-9899-c8dfbb82ea34",
+        "start_time": "2022-07-05T15:40:29.939902Z",
+        "confidence": 100,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fdef568e-af03-4bc9-beb7-09dee2a8e551"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--efe7a2dc-1a8c-4793-9477-9348e79dee79",
+        "created_by_ref": "identity--efe7a2dc-1a8c-4793-9477-9348e79dee79",
+        "created": "2021-04-06T17:58:43.456443Z",
+        "modified": "2021-08-14T01:08:20.972137Z",
+        "name": "White LLC",
+        "identity_class": "individual",
+        "confidence": 88,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fdef568e-af03-4bc9-beb7-09dee2a8e551"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--fdef568e-af03-4bc9-beb7-09dee2a8e551",
+        "created": "2021-08-14T01:08:20.970662Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

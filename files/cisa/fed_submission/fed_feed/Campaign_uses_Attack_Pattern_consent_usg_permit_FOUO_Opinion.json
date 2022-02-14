@@ -1,0 +1,173 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--aab17928-df19-4563-8545-ccb7c1324ef0",
+        "created_by_ref": "identity--6f1b3040-7ae8-4602-ade9-58a7f6ec42a1",
+        "created": "2022-02-21T14:34:27.261137Z",
+        "modified": "2022-04-22T09:48:12.399149Z",
+        "name": "school",
+        "description": "Fall suffer happy country.",
+        "aliases": [
+            "garden",
+            "property",
+            "develop",
+            "general",
+            "mind"
+        ],
+        "last_seen": "2022-04-08T07:56:33.553463Z",
+        "labels": [
+            "behind",
+            "employee",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--1d897a51-fc0d-410a-bd29-af9987071e06"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--301e7855-c7e5-4c4b-84ff-e7ccdbe2df42",
+        "created_by_ref": "identity--6f1b3040-7ae8-4602-ade9-58a7f6ec42a1",
+        "created": "2021-10-24T10:35:05.505483Z",
+        "modified": "2022-09-08T19:00:27.003306Z",
+        "name": "particular",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--1d897a51-fc0d-410a-bd29-af9987071e06"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--33c1d911-dcf6-463f-b7ea-9741a6d6d0f3",
+        "created_by_ref": "identity--6f1b3040-7ae8-4602-ade9-58a7f6ec42a1",
+        "created": "2020-10-18T16:21:22.631658Z",
+        "modified": "2021-09-11T13:43:29.429777Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--aab17928-df19-4563-8545-ccb7c1324ef0",
+        "target_ref": "attack-pattern--301e7855-c7e5-4c4b-84ff-e7ccdbe2df42",
+        "stop_time": "2020-10-18T09:42:58.962299Z",
+        "object_marking_refs": [
+            "marking-definition--1d897a51-fc0d-410a-bd29-af9987071e06"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--1efaf464-132b-403c-b088-c48c99017abd",
+        "created_by_ref": "identity--6f1b3040-7ae8-4602-ade9-58a7f6ec42a1",
+        "created": "2020-09-22T10:44:17.783419Z",
+        "modified": "2021-08-14T01:08:18.65189Z",
+        "explanation": "Player dream than true mind method court. Final note while. Phone recognize care often best option prove.",
+        "opinion": "strongly-disagree",
+        "object_refs": [
+            "campaign--aab17928-df19-4563-8545-ccb7c1324ef0",
+            "attack-pattern--301e7855-c7e5-4c4b-84ff-e7ccdbe2df42",
+            "relationship--33c1d911-dcf6-463f-b7ea-9741a6d6d0f3"
+        ],
+        "labels": [
+            "letter",
+            "leg",
+            "woman",
+            "our",
+            "kind",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--1d897a51-fc0d-410a-bd29-af9987071e06"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6f1b3040-7ae8-4602-ade9-58a7f6ec42a1",
+        "created_by_ref": "identity--6f1b3040-7ae8-4602-ade9-58a7f6ec42a1",
+        "created": "2021-08-06T14:47:42.835249Z",
+        "modified": "2022-03-22T21:36:20.27588Z",
+        "name": "Newton, Shea and Fletcher",
+        "contact_information": "271 Thornton Lights Suite 861\nSimmonsbury, SD 00624",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "page",
+                "url": "https://www.hernandez-hamilton.com/",
+                "external_id": "dJPBOAMamgQjYYhQTIp"
+            },
+            {
+                "source_name": "affect",
+                "description": "Real level loss have understand.",
+                "hashes": {
+                    "MD5": "93313a8b5ebf1e05040f0ef3fe97e9fb",
+                    "SHA-1": "8bdadcf19b43105af842177d8a1927d9081019df",
+                    "SHA-256": "c90fbdf434e197fe2c64f48ed2af4795895d66030d0c0487e54beff7a538adda",
+                    "SHA-512": "328831d468b430e561b3d685681e752161990fc57cc30f8b0cf2914b73382a81ed9b9204fa97d6c8badce8f466db64b85ce92ac5959a0f3436f99196d992026d",
+                    "SHA3-256": "627eb57c4a37a316a25ec040736a8bdfbfd514e7f1989007a0efdd544790e8ec",
+                    "SHA3-512": "817b69b431013ace158066e6a5421f447ea5517c43cf47638a2b985a8c8eef26614e69b33728347513051c912f6f257198e0f0fab8e982260c3db2dbfb9e0b0b"
+                },
+                "external_id": "cRFQithvtwmaO"
+            },
+            {
+                "source_name": "store",
+                "hashes": {
+                    "MD5": "071d40d0b8e2b9e87fa52580cd4ccaf2",
+                    "SHA-1": "0700bacf2ebf95a1b1a1a2de88f36283d597eb7f",
+                    "SHA-256": "6388302d65be1cfe8eb976b5cb157ac09806013caf0c320ee928d2e39ccefba1",
+                    "SHA-512": "91f7f49dc90f0457de61c06dd7340b841f1d131438aad3aea55ff8774d4e6ed9a750d330201076410f58a250212b9bd931f1c0c555e993fb4e67e4e3d965ac6d",
+                    "SHA3-256": "7cf2eea0ca02b2ad8096a0772bdb8a7834858dac0d3249506b977ce14bce3835",
+                    "SHA3-512": "f5a8991bca1df4740703d1735f1af84ccbcce6dcf82902381f37fe068d833e0b76b621ccc9384072211e3e637122aea4ccff3dfeae28b66f4dca9871936f97f0"
+                },
+                "external_id": "sPQiGLMG"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1d897a51-fc0d-410a-bd29-af9987071e06"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--1d897a51-fc0d-410a-bd29-af9987071e06",
+        "created": "2021-08-14T01:08:18.650688Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2214d9cf-0e77-4d0b-9826-dfff28324708",
+                "name": "Build while international maybe effect movie",
+                "create_date_time": "2021-08-14T01:08:08.427765Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--5e11eed5-0f90-4b65-9626-787fcf85998d",
+        "created_by_ref": "identity--7a1df271-1246-49f4-bbb0-dfe727929832",
+        "created": "2020-09-13T06:39:36.611689Z",
+        "modified": "2021-08-14T01:08:20.596397Z",
+        "name": "myself",
+        "aliases": [
+            "model",
+            "all",
+            "me",
+            "tough",
+            "person"
+        ],
+        "last_seen": "2020-11-20T23:17:04.206504Z",
+        "objective": "Particular probably all option able baby.",
+        "labels": [
+            "gas",
+            "pfte-batch-1"
+        ],
+        "confidence": 89,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--f226720e-09e4-49d0-83eb-b42c9cf15610",
+        "created_by_ref": "identity--7a1df271-1246-49f4-bbb0-dfe727929832",
+        "created": "2022-07-14T14:58:35.389193Z",
+        "modified": "2022-11-20T05:40:34.283577Z",
+        "name": "current",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "finally",
+            "many",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--6de53477-a3d1-4114-8d23-f091313357ea",
+        "created_by_ref": "identity--7a1df271-1246-49f4-bbb0-dfe727929832",
+        "created": "2022-05-15T12:44:21.670985Z",
+        "modified": "2022-07-08T15:32:15.694452Z",
+        "relationship_type": "uses",
+        "description": "Game allow maybe today less score. Kind evidence anything seven name.",
+        "source_ref": "campaign--5e11eed5-0f90-4b65-9626-787fcf85998d",
+        "target_ref": "tool--f226720e-09e4-49d0-83eb-b42c9cf15610",
+        "start_time": "2020-08-29T03:32:55.297812Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7a1df271-1246-49f4-bbb0-dfe727929832",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-04-06T15:51:58.538311Z",
+        "modified": "2023-03-09T04:09:57.591048Z",
+        "name": "FishNorMeet",
+        "description": "Adaptive encompassing help-desk",
+        "sectors": [
+            "entertainment",
+            "defense"
+        ],
+        "contact_information": "38098 Ruth Fort\nMelissaview, CT 70956",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

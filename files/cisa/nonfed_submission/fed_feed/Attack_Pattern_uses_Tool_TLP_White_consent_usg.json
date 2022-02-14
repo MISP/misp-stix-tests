@@ -1,0 +1,215 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--295f14d2-a6bc-4b7e-9d43-f40a21f2e2be",
+        "created_by_ref": "identity--eccaecd5-55ed-48e0-98cf-38d031cf560e",
+        "created": "2022-03-20T01:29:08.753471Z",
+        "modified": "2023-02-19T05:26:37.15421Z",
+        "name": "loss",
+        "aliases": [
+            "learn",
+            "meeting",
+            "outside",
+            "should",
+            "recent"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "OgSCeTMMaAIuZEFuCe",
+                "phase_name": "ljCOlasOuFHqsMEIGg"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--bc487a74-41b5-4c81-8a03-d526231b0b13"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--ea0614d7-44a4-406b-9903-9bbeee38cf3c",
+        "created_by_ref": "identity--eccaecd5-55ed-48e0-98cf-38d031cf560e",
+        "created": "2020-12-21T09:37:12.178402Z",
+        "modified": "2021-08-14T01:08:12.400608Z",
+        "name": "focus",
+        "description": "Nice relationship Republican keep.",
+        "tool_types": [
+            "denial-of-service",
+            "unknown",
+            "exploitation",
+            "credential-exploitation",
+            "network-capture"
+        ],
+        "aliases": [
+            "officer",
+            "peace",
+            "sound"
+        ],
+        "object_marking_refs": [
+            "marking-definition--bc487a74-41b5-4c81-8a03-d526231b0b13"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--150d2c24-9b4d-4099-847f-6c3dbaaf5ed7",
+        "created_by_ref": "identity--eccaecd5-55ed-48e0-98cf-38d031cf560e",
+        "created": "2020-08-29T17:52:15.634895Z",
+        "modified": "2021-08-14T01:08:12.400861Z",
+        "relationship_type": "uses",
+        "source_ref": "attack-pattern--295f14d2-a6bc-4b7e-9d43-f40a21f2e2be",
+        "target_ref": "tool--ea0614d7-44a4-406b-9903-9bbeee38cf3c",
+        "start_time": "2021-09-14T06:24:53.105136Z",
+        "stop_time": "2022-04-24T13:41:06.469217Z",
+        "labels": [
+            "politics",
+            "need",
+            "leg",
+            "hard",
+            "avoid",
+            "pfte-batch-1"
+        ],
+        "confidence": 13,
+        "object_marking_refs": [
+            "marking-definition--bc487a74-41b5-4c81-8a03-d526231b0b13"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--bc487a74-41b5-4c81-8a03-d526231b0b13",
+        "created_by_ref": "identity--eccaecd5-55ed-48e0-98cf-38d031cf560e",
+        "created": "2021-08-14T01:08:12.399685Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--eccaecd5-55ed-48e0-98cf-38d031cf560e",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-10T20:13:48.467697Z",
+        "modified": "2021-12-21T00:24:04.541191Z",
+        "name": "Valentine and Sons",
+        "roles": [
+            "decade",
+            "pick",
+            "claim",
+            "manager",
+            "technology"
+        ],
+        "identity_class": "group",
+        "sectors": [
+            "government-public-services",
+            "water",
+            "government-national"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "number",
+                "url": "https://schmidt.com/",
+                "hashes": {
+                    "MD5": "34253890e2a33d013c8abaccee143123",
+                    "SHA-1": "2bd1d1c948126d1d5dc5dca878e2bd9f35fc7cfa",
+                    "SHA-256": "9326c0a7619c1c9452f41e1ed0fd879758757d19ae356d11910a823fb084e764",
+                    "SHA-512": "f2535e51014fedb02ad3b9aacdea8c1a7c954b19dee834026a57c6fcb77f6a0c1e6b2b6091c145a25922221dacc13c9422f082a7e146c8cc93ca7898fbaab166",
+                    "SHA3-256": "9aca7d607f680213b06c1aac0170ed8c9f7d3d7ed076ea0fe53d40dfa8a9db43",
+                    "SHA3-512": "e9a3c745cb5c121d24161a8497abbb5ce18140276bff26056fa417c5294e203093552aa6d7886eefa62cbb68261f56afac21a874786233cf081cada69710c97e"
+                },
+                "external_id": "IdZjSjWtEhlBlZpawd"
+            },
+            {
+                "source_name": "girl",
+                "description": "Parent side face.",
+                "url": "http://www.dunn.biz/",
+                "external_id": "zCeBLPtnu"
+            },
+            {
+                "source_name": "authority",
+                "url": "https://anderson.com/",
+                "external_id": "PJAtjyBFPwxVBPrwgEyg"
+            },
+            {
+                "source_name": "suffer",
+                "description": "Tough lot cup detail way window drop.",
+                "url": "https://blair-lester.net/",
+                "hashes": {
+                    "MD5": "870e3341ac54445b49a3a59478b145ed",
+                    "SHA-1": "850d2aefcc460951acaac2e3b59a3eea7a3d5423",
+                    "SHA-256": "57fb1c8cd37236edc68f32b665ec48cb07da053d9b74183c4df2a427c4a839cc",
+                    "SHA-512": "345037b6bf0757302e2ca79ce1e27af906f97ae8583e12b816b005f58716e9c2ca2399ea78b799ac0b4f22a7618bff3c95f827dbe3bb9e17b2f8a109da3b8f0a",
+                    "SHA3-256": "4a2c70733d3e2063bb00244eb259c6f05ea2c4652a1f5b85d98167cf92f3fa76",
+                    "SHA3-512": "188c424f3ae7f363f1427763e9bf954fbf132089df997e766a2d307d01404653786e6829d1811b2686867eb6eb87b737a46ebd75af0538e544b968d9d74c46d7"
+                },
+                "external_id": "oTOtUfxb"
+            },
+            {
+                "source_name": "trial",
+                "description": "But rest key owner.",
+                "url": "https://www.hull.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--bc487a74-41b5-4c81-8a03-d526231b0b13"
+        ]
+    }
+]

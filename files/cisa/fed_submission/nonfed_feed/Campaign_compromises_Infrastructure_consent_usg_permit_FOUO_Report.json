@@ -1,0 +1,246 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--827f38b2-93f3-4689-8687-590b78382507",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2021-09-27T10:34:39.451334Z",
+        "modified": "2022-02-11T23:16:38.873175Z",
+        "name": "room",
+        "description": "Everyone ball meeting book leave.",
+        "last_seen": "2022-03-25T15:21:12.00314Z",
+        "objective": "Task just away spring thing service.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 84,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--c825bda5-08b4-49fc-b657-11b306df0dba",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2020-11-11T07:42:44.590228Z",
+        "modified": "2021-10-27T20:01:16.740352Z",
+        "name": "perhaps",
+        "infrastructure_types": [
+            "control-system"
+        ],
+        "aliases": [
+            "walk",
+            "world",
+            "energy",
+            "here"
+        ],
+        "first_seen": "2021-08-22T07:30:30.646687Z",
+        "last_seen": "2022-07-27T03:03:47.963598Z",
+        "labels": [
+            "represent",
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "city",
+                "description": "Address radio stand data both try establish build.",
+                "url": "http://schroeder.info/",
+                "external_id": "JbLZkMRK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--27fc027e-c104-406a-af94-8d751bd52c1b",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2022-04-07T23:47:37.16474Z",
+        "modified": "2022-08-13T18:40:15.785957Z",
+        "relationship_type": "compromises",
+        "source_ref": "campaign--827f38b2-93f3-4689-8687-590b78382507",
+        "target_ref": "infrastructure--c825bda5-08b4-49fc-b657-11b306df0dba",
+        "stop_time": "2022-04-30T01:10:50.040002Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 11,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--baf4c60a-9ac8-453f-a435-c1f5f6e4178d",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2020-08-25T09:59:17.670749Z",
+        "modified": "2021-08-14T01:08:14.889938Z",
+        "name": "hard",
+        "report_types": [
+            "attack-pattern",
+            "identity",
+            "campaign",
+            "vulnerability",
+            "campaign"
+        ],
+        "published": "2022-07-05T14:13:45.188617Z",
+        "object_refs": [
+            "campaign--827f38b2-93f3-4689-8687-590b78382507",
+            "infrastructure--c825bda5-08b4-49fc-b657-11b306df0dba",
+            "relationship--27fc027e-c104-406a-af94-8d751bd52c1b"
+        ],
+        "labels": [
+            "break",
+            "understand",
+            "finish",
+            "pretty",
+            "pfte-batch-1"
+        ],
+        "confidence": 100,
+        "external_references": [
+            {
+                "source_name": "floor",
+                "url": "https://mills.com/",
+                "hashes": {
+                    "MD5": "282e06a3179fcbf27b60e7a77517ef2a",
+                    "SHA-1": "1fe0465d56e0039c92f8dd978ba5b02ad750d4ef",
+                    "SHA-256": "5d970229789689abc064db9780d61b8c99bd1bfcedbb4443383827720c5f86a2",
+                    "SHA-512": "9d0639191154fd22e70d739538a1f6d2c952a3ec2621bc1c04e5aa5ab2e5e870d0c18a6bfbb3ef170a10a306483b1a77327efa055be6d924801f1b3911a44c2b",
+                    "SHA3-256": "302de063466d0b938c482f30d5ea064d4d74fa9ee3faa8c47f19eeaeffa945ec",
+                    "SHA3-512": "9fa2d96e0cddc1b76fd83cb5590ba2bdca24ee09af820ec79e1b60146be0ddc54bf01039b457d49a56762e4cfafee188e9d0538e0fab4690f54cf0f2eeddc998"
+                },
+                "external_id": "hVAZvnZBDZuGTBsMV"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-01-01T00:00:00.000Z",
+        "modified": "2020-01-01T00:00:00.000Z",
+        "name": "USA.USG",
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

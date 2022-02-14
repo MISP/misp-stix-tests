@@ -1,0 +1,159 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--202fef12-123e-4894-b78b-084259593fac",
+        "created_by_ref": "identity--ed41930a-cabf-441d-97b4-278fade29be0",
+        "created": "2021-10-24T09:37:24.19437Z",
+        "modified": "2021-11-10T17:00:51.840924Z",
+        "name": "hospital",
+        "description": "Office test free television real computer.",
+        "infrastructure_types": [
+            "firewall"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "first_seen": "2021-06-23T23:24:54.310783Z",
+        "last_seen": "2021-07-21T07:55:22.749901Z",
+        "labels": [
+            "purpose",
+            "training",
+            "various",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--deb27fe4-594f-4552-90aa-a34eebcfdb88"
+        ]
+    },
+    {
+        "type": "domain-name",
+        "spec_version": "2.1",
+        "id": "domain-name--0b7a158d-1821-4fed-8c6e-c58f69d35965",
+        "value": "taylor.com",
+        "object_marking_refs": [
+            "marking-definition--deb27fe4-594f-4552-90aa-a34eebcfdb88"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ba551792-1bef-4141-8f43-e2d9c20c1a46",
+        "created_by_ref": "identity--ed41930a-cabf-441d-97b4-278fade29be0",
+        "created": "2021-04-11T04:36:08.036883Z",
+        "modified": "2021-08-14T01:08:40.733694Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--202fef12-123e-4894-b78b-084259593fac",
+        "target_ref": "domain-name--0b7a158d-1821-4fed-8c6e-c58f69d35965",
+        "start_time": "2022-03-31T10:44:59.653837Z",
+        "confidence": 84,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--deb27fe4-594f-4552-90aa-a34eebcfdb88"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--deb27fe4-594f-4552-90aa-a34eebcfdb88",
+        "created_by_ref": "identity--ed41930a-cabf-441d-97b4-278fade29be0",
+        "created": "2021-08-14T01:08:40.732624Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-15d3e0eb-8dda-4b6b-a55d-5c6a8a6d490b",
+                "name": "Clearly industry family",
+                "create_date_time": "2021-08-14T01:08:08.420657Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ed41930a-cabf-441d-97b4-278fade29be0",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-13T19:00:01.61277Z",
+        "modified": "2021-08-14T01:08:40.733974Z",
+        "name": "Wright-Jones",
+        "description": "Profound systematic interface",
+        "roles": [
+            "doctor",
+            "I",
+            "eight",
+            "set"
+        ],
+        "identity_class": "unknown",
+        "contact_information": "47222 Stephen Wells Apt. 605\nWest Jenniferchester, NC 53603",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 7,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--deb27fe4-594f-4552-90aa-a34eebcfdb88"
+        ]
+    }
+]

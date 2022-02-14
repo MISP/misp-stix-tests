@@ -1,0 +1,133 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--c01edd01-7be1-4f8f-9f38-59462e8b918b",
+        "created_by_ref": "identity--054eb816-cf60-49e4-a580-5602fdee495c",
+        "created": "2022-01-14T15:16:13.307924Z",
+        "modified": "2022-01-31T16:35:46.330506Z",
+        "name": "whatever",
+        "last_seen": "2021-02-26T13:01:31.170323Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 93,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--8f0e3eea-dee4-4b33-aa8b-d880a3e38880",
+        "created_by_ref": "identity--054eb816-cf60-49e4-a580-5602fdee495c",
+        "created": "2021-04-03T22:43:41.571392Z",
+        "modified": "2021-08-18T08:36:51.190641Z",
+        "name": "either",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "sQZYYjOFWSYuBBaVLQhj",
+                "phase_name": "nCgYihq"
+            },
+            {
+                "kill_chain_name": "ZtIQKTxkfwRZmzkMaM",
+                "phase_name": "UnQRPNcNJGR"
+            }
+        ],
+        "labels": [
+            "property",
+            "would",
+            "news",
+            "simply",
+            "two",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--282be449-88ed-4304-9962-ee65ea168fc5",
+        "created_by_ref": "identity--054eb816-cf60-49e4-a580-5602fdee495c",
+        "created": "2020-10-31T03:06:31.134951Z",
+        "modified": "2021-08-14T01:08:58.038649Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c01edd01-7be1-4f8f-9f38-59462e8b918b",
+        "target_ref": "attack-pattern--8f0e3eea-dee4-4b33-aa8b-d880a3e38880",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 75,
+        "external_references": [
+            {
+                "source_name": "apply",
+                "description": "Learn record agree article son.",
+                "url": "https://gay.com/",
+                "hashes": {
+                    "MD5": "b1b9fe03d930c7ce59482449067926b4",
+                    "SHA-1": "cb55b859383e238d58c6734eb674be24a5b22023",
+                    "SHA-256": "046439011a0234548a5a34002f2b112ca6fb649fef43093fb674dddf952527d8",
+                    "SHA-512": "b824cf3b220279263c9ba39041ec05b6c9759e8d140cb496e11316f9f8b3f82b0ca053db9b90caa72df41cbc3dac2f120f38d200b660877a16fd82b366604376",
+                    "SHA3-256": "163559693e0ce3523db84f77010926da98c8caaac121d75afc44bb05055172eb",
+                    "SHA3-512": "5733423021230fa2033a0eaa33934766af4d64a4d20c1b2c123a6830aed1386142b9b204c8260396bcbd08f7378c6928fce7d2de9bf90e1a9578070aa87c0572"
+                },
+                "external_id": "gBFlNQczXgq"
+            },
+            {
+                "source_name": "executive",
+                "description": "Seven rock born law always.",
+                "url": "https://dominguez.com/",
+                "hashes": {
+                    "MD5": "0ff5787a6bb7021cde1b828a6edb4e27",
+                    "SHA-1": "8c4bb6400921f4992f434cef9c3bd85e978d443e",
+                    "SHA-256": "fbf9846afb9419677f3baaa81f5b8a807a0e06f01f9979beb26cc84d523ddc52",
+                    "SHA-512": "74a2ad96be3990037572a7636f87c3439551057d3451f0e216c56354007c4547d0ae6c94d218c24a2d29178d013e1872ecc31ec479cf7208da82d172cc5c1df6",
+                    "SHA3-256": "5f03c5ec6247291277925daa48ab0947745a6b9f229fca59e0e9d5918a83d987",
+                    "SHA3-512": "35955eefd5ad8c999183d867d82ddeda40be9ee721e5ff1ed75deb9bf9391e54bffd01a0544491a0621feac50a1ab8c7854fbfbdaeb245952cffa73a0f47d76b"
+                },
+                "external_id": "PJLqgipziqIMGOmD"
+            },
+            {
+                "source_name": "month",
+                "description": "Offer maintain pass system matter."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--054eb816-cf60-49e4-a580-5602fdee495c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-06T16:41:05.297259Z",
+        "modified": "2022-02-07T09:05:58.91145Z",
+        "name": "Holt LLC",
+        "description": "Managed bi-directional moderator",
+        "identity_class": "organization",
+        "sectors": [
+            "construction"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

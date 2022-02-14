@@ -1,0 +1,199 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--2fc30206-ad6d-45f2-addd-0ec71296af6a",
+        "created_by_ref": "identity--7075f6b2-9c7e-4f04-a342-ff0ce440b195",
+        "created": "2021-01-04T20:30:51.799682Z",
+        "modified": "2021-08-14T01:09:34.988993Z",
+        "name": "focus",
+        "description": "Box why beyond.",
+        "threat_actor_types": [
+            "insider-accidental",
+            "hacker"
+        ],
+        "aliases": [
+            "else",
+            "suddenly"
+        ],
+        "first_seen": "2022-01-22T14:32:50.614456Z",
+        "roles": [
+            "agent",
+            "agent",
+            "independent"
+        ],
+        "goals": [
+            "act",
+            "consider",
+            "focus",
+            "involve"
+        ],
+        "personal_motivations": [
+            "coercion",
+            "notoriety",
+            "dominance",
+            "ideology",
+            "accidental"
+        ],
+        "confidence": 86,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--755973ff-681e-4cda-9612-736c20077ad7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--97679240-6529-4759-9292-f6b73517b195",
+        "created_by_ref": "identity--7075f6b2-9c7e-4f04-a342-ff0ce440b195",
+        "created": "2022-01-11T23:20:04.087099Z",
+        "modified": "2022-05-27T16:53:03.006501Z",
+        "name": "goal",
+        "description": "War style choice heart close color.",
+        "tool_types": [
+            "denial-of-service",
+            "denial-of-service",
+            "denial-of-service",
+            "denial-of-service",
+            "network-capture"
+        ],
+        "aliases": [
+            "ball",
+            "person",
+            "any",
+            "work"
+        ],
+        "tool_version": "democratic",
+        "labels": [
+            "subject",
+            "hit",
+            "bit",
+            "college",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--755973ff-681e-4cda-9612-736c20077ad7"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--5b3db5b2-df37-472e-bc59-23c985f30cc5",
+        "created_by_ref": "identity--7075f6b2-9c7e-4f04-a342-ff0ce440b195",
+        "created": "2022-02-15T17:46:40.982714Z",
+        "modified": "2023-01-25T12:47:02.027472Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--2fc30206-ad6d-45f2-addd-0ec71296af6a",
+        "target_ref": "tool--97679240-6529-4759-9292-f6b73517b195",
+        "start_time": "2021-11-27T02:42:28.185023Z",
+        "stop_time": "2022-04-10T20:05:05.140056Z",
+        "confidence": 8,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "miss",
+                "description": "Case if more next and friend loss nation.",
+                "url": "http://cooper.com/",
+                "hashes": {
+                    "MD5": "d8815a1170bf7c06c50cd2b31238936f",
+                    "SHA-1": "1052fa416b64dc0180b02fd6df9ffb146d746abb",
+                    "SHA-256": "74208b13c34ca13a15530c030181ef16babcd26c8aee08af570de600e123d101",
+                    "SHA-512": "5876128e30a7859487e960e665e3c57a0ddd20ee7523ea964d34d8371fcc1e92c7754df47e7e2e46538e24504048136a1037f9d18e8b13a66104723142ac1c2f",
+                    "SHA3-256": "bd59a74ffb14d5a5ff2966da4764b3f30445431a454693db731c7fac2e69172b",
+                    "SHA3-512": "f91f18c87c38f66a061bb98171c7b97885283e662588161e01e3aa99e4bcb05d60a6952963827a4c30dd3d2f8bf7c492d632a16d9ef0fb8fb086956112ff554b"
+                },
+                "external_id": "zUDrXg"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--755973ff-681e-4cda-9612-736c20077ad7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7075f6b2-9c7e-4f04-a342-ff0ce440b195",
+        "created_by_ref": "identity--7075f6b2-9c7e-4f04-a342-ff0ce440b195",
+        "created": "2022-02-01T01:43:10.549198Z",
+        "modified": "2022-05-30T08:48:01.193443Z",
+        "name": "Jones, Edwards and Townsend",
+        "description": "Grass-roots contextually-based circuit",
+        "identity_class": "organization",
+        "sectors": [
+            "hospitality-leisure",
+            "emergency-services"
+        ],
+        "contact_information": "8739 Horton Heights\nLake Michaelfort, KS 07239",
+        "confidence": 27,
+        "object_marking_refs": [
+            "marking-definition--755973ff-681e-4cda-9612-736c20077ad7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--755973ff-681e-4cda-9612-736c20077ad7",
+        "created": "2021-08-14T01:09:34.988305Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-44002952-ef1b-4819-85db-bdfcd1864e5e",
+                "name": "Free major nothing gun",
+                "create_date_time": "2021-08-14T01:08:08.424588Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.424412Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,159 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--c58b233f-db55-4874-beb0-462d79a67cbe",
+        "created_by_ref": "identity--743dee7f-a2cb-4d7f-98fb-2f92459fd032",
+        "created": "2022-04-14T07:55:42.696062Z",
+        "modified": "2022-07-09T20:35:10.354317Z",
+        "name": "at",
+        "description": "Have single more traditional.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 74,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--3f1f230e-f47a-41f3-8eb0-71c4fdea08f6",
+        "created_by_ref": "identity--743dee7f-a2cb-4d7f-98fb-2f92459fd032",
+        "created": "2022-01-04T23:30:45.356408Z",
+        "modified": "2022-03-13T19:04:38.013935Z",
+        "name": "ground",
+        "indicator_types": [
+            "anomalous-activity",
+            "unknown",
+            "anonymization",
+            "unknown",
+            "benign"
+        ],
+        "pattern": "[url:defanged = false] AND (([email-message:defanged = false] AND ([ipv6-addr:defanged NOT = false] START t'2020-09-11T02:50:09.626402Z' STOP t'2021-08-21T05:25:36.457505Z')))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-08-01T14:56:26.58888Z",
+        "valid_until": "2022-04-04T17:44:15.28351Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "yYnfDKniMeBzOhqQD",
+                "phase_name": "NiVsCfCnwNne"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "iIUJGDIKNRWmACp",
+                "phase_name": "cEqJmTsZAIInKsPUgQ"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b346d9d8-7de7-4c35-b626-742ba379856e",
+        "created_by_ref": "identity--743dee7f-a2cb-4d7f-98fb-2f92459fd032",
+        "created": "2020-10-08T04:58:22.243901Z",
+        "modified": "2021-08-22T15:37:14.777321Z",
+        "relationship_type": "investigates",
+        "description": "If player hold after environment.",
+        "source_ref": "course-of-action--c58b233f-db55-4874-beb0-462d79a67cbe",
+        "target_ref": "indicator--3f1f230e-f47a-41f3-8eb0-71c4fdea08f6",
+        "stop_time": "2021-12-04T08:56:37.490761Z",
+        "labels": [
+            "music",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "job",
+                "url": "http://www.walker.com/",
+                "hashes": {
+                    "MD5": "4d0f31d8385da1b625fb15563b2fa217",
+                    "SHA-1": "1249aaed2f40356eaa6cab6474a90f03e3145b2f",
+                    "SHA-256": "1718b8ddd7c6a6b3267abf461fd0a6805308a42b3a8fc5706122f924c815732e",
+                    "SHA-512": "43333199d2b78899ad5bbb6617a7e88523f984c45f670ff050247789250745a813edbde39a8c3c816b792854123ecf22d712a3363ef6e7a513755d3abae2fd40",
+                    "SHA3-256": "0b284036cbf55645b3aad1c0fd4f752953b71b7d5defb28d2c95ac29b539f67b",
+                    "SHA3-512": "baa8a266187ac6813250cdfc559f2bfc4f41968430f8ec9924ea0ce78f16f3d82e6c033be3715f73c83eefceb0d450ce863a9e275894ba97ad3505797bc0a3f1"
+                },
+                "external_id": "eqgMFyguSKYc"
+            },
+            {
+                "source_name": "word",
+                "description": "Word month leader.",
+                "url": "https://key-hooper.info/",
+                "external_id": "ZTKuyAcEzZGZDkAIrtFx"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--10d4fc44-b5bd-486c-bcdc-188b75ec6e18",
+        "created_by_ref": "identity--743dee7f-a2cb-4d7f-98fb-2f92459fd032",
+        "created": "2021-02-18T16:06:33.947224Z",
+        "modified": "2022-01-06T14:30:50.377816Z",
+        "abstract": "Radio lead family discussion effect. Involve majority change tough a protect indeed.",
+        "content": "Color arrive road office director central determine most. Say water process charge discussion foreign line.",
+        "authors": [
+            "trial"
+        ],
+        "object_refs": [
+            "course-of-action--c58b233f-db55-4874-beb0-462d79a67cbe",
+            "indicator--3f1f230e-f47a-41f3-8eb0-71c4fdea08f6",
+            "relationship--b346d9d8-7de7-4c35-b626-742ba379856e"
+        ],
+        "labels": [
+            "scientist",
+            "memory",
+            "throughout",
+            "suffer",
+            "idea",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--743dee7f-a2cb-4d7f-98fb-2f92459fd032",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-22T01:19:39.289342Z",
+        "modified": "2022-07-28T22:21:42.911797Z",
+        "name": "Miller-Mccarthy",
+        "description": "Focused intermediate concept",
+        "roles": [
+            "maintain",
+            "front"
+        ],
+        "sectors": [
+            "insurance",
+            "financial-services"
+        ],
+        "contact_information": "26396 Erin Manor Suite 068\nPort Cynthia, DC 78587",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 67,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

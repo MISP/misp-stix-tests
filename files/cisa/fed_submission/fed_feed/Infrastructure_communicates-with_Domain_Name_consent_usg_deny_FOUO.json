@@ -1,0 +1,171 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--b1cab03c-dae4-4b1a-83c5-9dd9a583a1c1",
+        "created_by_ref": "identity--b32a3d08-d958-4608-8bac-4c967054288d",
+        "created": "2022-03-07T01:03:18.328198Z",
+        "modified": "2022-05-12T17:35:22.674591Z",
+        "name": "identify",
+        "aliases": [
+            "something",
+            "ability",
+            "pattern",
+            "capital"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "first_seen": "2020-09-21T20:57:19.645232Z",
+        "last_seen": "2021-02-08T10:28:41.03872Z",
+        "labels": [
+            "organization",
+            "marriage",
+            "economic",
+            "pfte-batch-1"
+        ],
+        "confidence": 71,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--cedc6f85-57be-4c91-a163-9ef293c07f86"
+        ]
+    },
+    {
+        "type": "domain-name",
+        "spec_version": "2.1",
+        "id": "domain-name--6dd6bc88-ab35-424e-9964-cfcaa7c0f0f8",
+        "value": "sutton.com",
+        "object_marking_refs": [
+            "marking-definition--cedc6f85-57be-4c91-a163-9ef293c07f86"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--18f335f9-e9b6-4e5f-8a1d-e6870fb3b503",
+        "created_by_ref": "identity--b32a3d08-d958-4608-8bac-4c967054288d",
+        "created": "2021-11-04T15:52:18.6568Z",
+        "modified": "2022-06-26T07:33:56.631649Z",
+        "relationship_type": "communicates-with",
+        "description": "Side key test low glass never analysis. During toward seat different small personal.",
+        "source_ref": "infrastructure--b1cab03c-dae4-4b1a-83c5-9dd9a583a1c1",
+        "target_ref": "domain-name--6dd6bc88-ab35-424e-9964-cfcaa7c0f0f8",
+        "start_time": "2020-10-23T22:12:58.895952Z",
+        "stop_time": "2021-08-28T17:47:28.423131Z",
+        "confidence": 13,
+        "object_marking_refs": [
+            "marking-definition--cedc6f85-57be-4c91-a163-9ef293c07f86"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b32a3d08-d958-4608-8bac-4c967054288d",
+        "created_by_ref": "identity--b32a3d08-d958-4608-8bac-4c967054288d",
+        "created": "2022-06-25T23:46:53.210931Z",
+        "modified": "2022-06-26T07:24:13.894908Z",
+        "name": "Brown Inc",
+        "description": "Multi-channeled 24hour instruction set",
+        "identity_class": "group",
+        "confidence": 66,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "third",
+                "url": "https://case.org/",
+                "external_id": "XRZofTSbQxsxlMYZ"
+            },
+            {
+                "source_name": "early",
+                "description": "Enough dog place hundred case.",
+                "url": "https://www.wheeler.com/",
+                "external_id": "FqACcnwtRBm"
+            },
+            {
+                "source_name": "nothing",
+                "url": "http://lester.biz/",
+                "external_id": "wUNdRhXlkbUnese"
+            },
+            {
+                "source_name": "chance",
+                "description": "Pattern company black.",
+                "hashes": {
+                    "MD5": "d27b52ec81f000d46e633b7c7ffd9135",
+                    "SHA-1": "32bb0d228da41125455ab7a38a86adcef763bb70",
+                    "SHA-256": "d60418fb0220b1dcacfe6b2bf128a1026a3ac223840dc72379c41c9d2040d7c2",
+                    "SHA-512": "67c20d56b5e807bd01fa5a720db24ad3bfe1308155e9e3b0b47d43b368282e4efbc9516eafb3a8302da95b363acdc2efe63d6380cd93011dd3d914c7eab7ab97",
+                    "SHA3-256": "4c41ac1ca175b39ae8316535be07307ea33a898acc4761765ec58ff584d10633",
+                    "SHA3-512": "dcfe0eed76fa1340a1ebe99b35f138227b5f1f7bb4bcb2ced7dafb217e679c27108f1c6066380bd28396e457a30f8853493bb24db4c6d3dcd7cce3f6ec6a9a89"
+                },
+                "external_id": "wMCvAYhMjToQICfP"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--cedc6f85-57be-4c91-a163-9ef293c07f86"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--cedc6f85-57be-4c91-a163-9ef293c07f86",
+        "created": "2021-08-14T01:08:40.988919Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a2bad07a-f4d3-4efb-a81b-2cf0c0637fc9",
+                "name": "Our concern loss resource wear",
+                "create_date_time": "2021-08-14T01:08:08.426882Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

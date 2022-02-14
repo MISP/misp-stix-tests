@@ -1,0 +1,150 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--85255beb-8829-49fd-acc4-d69edce61e78",
+        "created_by_ref": "identity--53461c3f-93dd-4070-b8ec-6fc92763199a",
+        "created": "2020-12-02T02:18:37.575605Z",
+        "modified": "2021-10-13T19:26:36.587099Z",
+        "name": "raise",
+        "description": "Main know prepare report.",
+        "labels": [
+            "catch",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--af281439-e4e0-48c4-b318-7b0375457681"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--01f820d4-0d33-4193-b34b-9961f58ea089",
+        "created_by_ref": "identity--53461c3f-93dd-4070-b8ec-6fc92763199a",
+        "created": "2022-03-13T06:30:49.534793Z",
+        "modified": "2022-09-14T07:41:53.814168Z",
+        "name": "number",
+        "description": "Allow pull discuss certainly visit least war.",
+        "tool_types": [
+            "unknown",
+            "denial-of-service",
+            "unknown"
+        ],
+        "tool_version": "carry",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--af281439-e4e0-48c4-b318-7b0375457681"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3f214569-0fe9-4cf8-84f7-62dac6c25470",
+        "created_by_ref": "identity--53461c3f-93dd-4070-b8ec-6fc92763199a",
+        "created": "2021-06-28T05:10:24.645938Z",
+        "modified": "2022-03-24T00:30:17.382856Z",
+        "relationship_type": "hosts",
+        "source_ref": "infrastructure--85255beb-8829-49fd-acc4-d69edce61e78",
+        "target_ref": "tool--01f820d4-0d33-4193-b34b-9961f58ea089",
+        "start_time": "2021-08-05T05:24:26.165005Z",
+        "stop_time": "2022-06-16T18:11:32.262046Z",
+        "confidence": 45,
+        "external_references": [
+            {
+                "source_name": "bit",
+                "description": "Be a reduce none north term.",
+                "url": "http://ball.info/",
+                "external_id": "VsgTqL"
+            },
+            {
+                "source_name": "yes",
+                "url": "http://www.murray-benjamin.com/",
+                "external_id": "OCPEGvic"
+            },
+            {
+                "source_name": "whatever",
+                "description": "Into take task individual.",
+                "external_id": "VfUxKlyHPxKcUX"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--af281439-e4e0-48c4-b318-7b0375457681"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--53461c3f-93dd-4070-b8ec-6fc92763199a",
+        "created_by_ref": "identity--53461c3f-93dd-4070-b8ec-6fc92763199a",
+        "created": "2021-08-04T13:12:58.962624Z",
+        "modified": "2022-02-22T00:31:40.73036Z",
+        "name": "White, Sparks and Kennedy",
+        "roles": [
+            "bill",
+            "prepare",
+            "above"
+        ],
+        "confidence": 64,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "radio",
+                "description": "Without space war economy probably strategy improve white.",
+                "url": "http://www.williams.net/",
+                "external_id": "MZeDGVo"
+            },
+            {
+                "source_name": "garden",
+                "url": "http://www.fuller-smith.biz/",
+                "external_id": "cpWnRtjYEp"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--af281439-e4e0-48c4-b318-7b0375457681"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--af281439-e4e0-48c4-b318-7b0375457681",
+        "created": "2021-08-14T01:08:48.311756Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-54b25f01-6af2-45fd-9467-12811cc2be8c",
+                "name": "Help hit around teach",
+                "create_date_time": "2021-08-14T01:08:08.425022Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

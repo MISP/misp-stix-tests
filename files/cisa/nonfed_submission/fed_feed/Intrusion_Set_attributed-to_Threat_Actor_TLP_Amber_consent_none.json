@@ -1,0 +1,189 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--2eda5f1e-8c9f-48b6-8137-dcc235cfc1e6",
+        "created_by_ref": "identity--ef83bdd0-baf7-4efc-a53e-e4b6d8ee739c",
+        "created": "2022-06-18T23:40:41.419478Z",
+        "modified": "2023-03-23T04:18:27.727665Z",
+        "name": "behavior",
+        "description": "Poor door including.",
+        "aliases": [
+            "treat",
+            "travel",
+            "high",
+            "reduce",
+            "bill"
+        ],
+        "first_seen": "2022-04-03T15:06:37.666616Z",
+        "primary_motivation": "revenge",
+        "labels": [
+            "glass",
+            "pfte-batch-1"
+        ],
+        "confidence": 71,
+        "external_references": [
+            {
+                "source_name": "learn",
+                "description": "Nearly focus go this decision later.",
+                "url": "http://www.anderson.com/",
+                "hashes": {
+                    "MD5": "e5984276cf1cccab4bb07cb69a31ad6f",
+                    "SHA-1": "45bf8e80206c07cb26103a07b706911dbb634dab",
+                    "SHA-256": "bae946e5649e7f97a845a462e699fd86d6c159e4649aa86b3e211a9f6710f9a2",
+                    "SHA-512": "83ca4cc1701907fd7b27e4f33749ef644e7b89cb950a6c872c749394d62aec2405cb6c931f9c1cd4bbb143cd91c271d79fd2463e387adcee7e0f4156297a8f46",
+                    "SHA3-256": "6d100308b31996a5c94806bfc85c87154301839a5d72fe0705eb8fc8b1c3deec",
+                    "SHA3-512": "99bdd85857ec34fe47ef3c1eb2e12dbcb628052bec447a5429fc852bd88a95c80a279ecdd1c46e21366621814036cc4480fcb6ebfbce4e1356a821ac9e277b2a"
+                },
+                "external_id": "wbnDnSsLamEKCaOUHY"
+            },
+            {
+                "source_name": "possible",
+                "description": "Difficult create leg Mr major national simple.",
+                "url": "http://ford.info/",
+                "external_id": "XzoBbwqpDuydETj"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d9b516f3-2e4b-4ef4-b107-f67e279467e3"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--3117c3ce-b86e-45e9-87c0-f45a015bc10a",
+        "created_by_ref": "identity--ef83bdd0-baf7-4efc-a53e-e4b6d8ee739c",
+        "created": "2021-07-19T23:27:05.981014Z",
+        "modified": "2021-11-08T20:09:05.054598Z",
+        "name": "president",
+        "description": "Water board section would law home process.",
+        "threat_actor_types": [
+            "activist"
+        ],
+        "first_seen": "2020-08-25T19:10:21.186658Z",
+        "roles": [
+            "malware-author",
+            "independent"
+        ],
+        "primary_motivation": "dominance",
+        "secondary_motivations": [
+            "organizational-gain",
+            "notoriety",
+            "dominance",
+            "dominance"
+        ],
+        "personal_motivations": [
+            "personal-gain"
+        ],
+        "object_marking_refs": [
+            "marking-definition--d9b516f3-2e4b-4ef4-b107-f67e279467e3"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ab2401dc-8630-4972-b7db-0e21b2fd6966",
+        "created_by_ref": "identity--ef83bdd0-baf7-4efc-a53e-e4b6d8ee739c",
+        "created": "2021-04-19T18:48:49.296813Z",
+        "modified": "2022-01-19T17:28:02.587117Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "intrusion-set--2eda5f1e-8c9f-48b6-8137-dcc235cfc1e6",
+        "target_ref": "threat-actor--3117c3ce-b86e-45e9-87c0-f45a015bc10a",
+        "stop_time": "2022-06-21T13:14:45.359074Z",
+        "labels": [
+            "imagine",
+            "task",
+            "personal",
+            "mouth",
+            "dream",
+            "pfte-batch-1"
+        ],
+        "confidence": 86,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d9b516f3-2e4b-4ef4-b107-f67e279467e3"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d9b516f3-2e4b-4ef4-b107-f67e279467e3",
+        "created_by_ref": "identity--ef83bdd0-baf7-4efc-a53e-e4b6d8ee739c",
+        "created": "2021-08-14T01:08:51.253548Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6f258483-31e6-4810-a3a3-83f9297fcea8",
+                "name": "Individual personal with know",
+                "create_date_time": "2021-08-14T01:08:08.419751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ef83bdd0-baf7-4efc-a53e-e4b6d8ee739c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-01-11T21:09:43.471718Z",
+        "modified": "2022-01-02T06:04:40.312198Z",
+        "name": "LeavePatternRadio",
+        "description": "Cross-platform mobile leverage",
+        "identity_class": "individual",
+        "sectors": [
+            "manufacturing",
+            "water"
+        ],
+        "contact_information": "USNV Ward\nFPO AA 86596",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 98,
+        "object_marking_refs": [
+            "marking-definition--d9b516f3-2e4b-4ef4-b107-f67e279467e3"
+        ]
+    }
+]

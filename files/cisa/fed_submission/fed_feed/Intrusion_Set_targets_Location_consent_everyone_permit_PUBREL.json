@@ -1,0 +1,134 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--fec933c2-c2d4-466f-bb78-c33b8cbdf7fa",
+        "created_by_ref": "identity--6cd3a9a1-b555-4294-82f3-071d3b12df2e",
+        "created": "2022-08-05T20:48:07.101517Z",
+        "modified": "2023-03-17T03:22:08.196735Z",
+        "name": "these",
+        "description": "Goal despite finally new.",
+        "goals": [
+            "Better dinner son society word base speak occur.",
+            "Everything wonder peace like energy expert crime.",
+            "Far ever drive contain."
+        ],
+        "resource_level": "team",
+        "primary_motivation": "accidental",
+        "secondary_motivations": [
+            "coercion",
+            "personal-gain",
+            "unpredictable"
+        ],
+        "labels": [
+            "challenge",
+            "little",
+            "public",
+            "name",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a96c2753-b879-4532-b68a-d6e6e30ef959"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--edef3976-89c3-43fc-94ba-cf41424f181e",
+        "created_by_ref": "identity--6cd3a9a1-b555-4294-82f3-071d3b12df2e",
+        "created": "2021-04-19T07:29:03.833192Z",
+        "modified": "2022-01-11T06:50:35.222083Z",
+        "name": "agEccY",
+        "latitude": 58.866049710526795,
+        "longitude": -74.10703006786208,
+        "administrative_area": "lEHtETZhcPH",
+        "street_address": "2542 Brown Shoal Suite 242",
+        "labels": [
+            "light",
+            "discuss",
+            "I",
+            "environmental",
+            "pfte-batch-1"
+        ],
+        "confidence": 61,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a96c2753-b879-4532-b68a-d6e6e30ef959"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e66c752e-e579-42eb-b52a-c57a9e76a29e",
+        "created_by_ref": "identity--6cd3a9a1-b555-4294-82f3-071d3b12df2e",
+        "created": "2021-04-24T17:13:32.882927Z",
+        "modified": "2022-01-11T16:17:11.213062Z",
+        "relationship_type": "targets",
+        "source_ref": "intrusion-set--fec933c2-c2d4-466f-bb78-c33b8cbdf7fa",
+        "target_ref": "location--edef3976-89c3-43fc-94ba-cf41424f181e",
+        "object_marking_refs": [
+            "marking-definition--a96c2753-b879-4532-b68a-d6e6e30ef959"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6cd3a9a1-b555-4294-82f3-071d3b12df2e",
+        "created_by_ref": "identity--6cd3a9a1-b555-4294-82f3-071d3b12df2e",
+        "created": "2022-05-03T08:33:08.938507Z",
+        "modified": "2022-11-11T05:48:10.793561Z",
+        "name": "Peters, Long and Campbell",
+        "description": "Enhanced cohesive interface",
+        "contact_information": "Unit 7081 Box 6432\nDPO AE 62148",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 85,
+        "object_marking_refs": [
+            "marking-definition--a96c2753-b879-4532-b68a-d6e6e30ef959"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--a96c2753-b879-4532-b68a-d6e6e30ef959",
+        "created": "2021-08-14T01:08:56.572349Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3b921193-36b9-467a-b549-f06fd7a0147e",
+                "name": "Artist despite travel Mrs long fish",
+                "create_date_time": "2021-08-14T01:08:08.430789Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.430622Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

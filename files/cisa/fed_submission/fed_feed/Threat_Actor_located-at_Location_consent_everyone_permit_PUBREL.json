@@ -1,0 +1,157 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--b63d9e5b-fe5b-47e0-a5e9-89ce739a899b",
+        "created_by_ref": "identity--169aa559-7df2-4a11-9bef-e378be4be569",
+        "created": "2022-07-31T16:25:52.421443Z",
+        "modified": "2023-03-09T23:32:34.484774Z",
+        "name": "different",
+        "threat_actor_types": [
+            "competitor",
+            "insider-disgruntled"
+        ],
+        "roles": [
+            "infrastructure-architect"
+        ],
+        "resource_level": "club",
+        "primary_motivation": "coercion",
+        "labels": [
+            "trade",
+            "pfte-batch-1"
+        ],
+        "confidence": 30,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "PM",
+                "description": "Approach program stage drive church.",
+                "hashes": {
+                    "MD5": "1734687a71f8a9f1f56e07504a756d4b",
+                    "SHA-1": "cc3af726d30cc77d4ce95ad0c5b292e446869ef3",
+                    "SHA-256": "ee05097e73f354098a7d2af4c9e2eda19e8c53e4be1d31705072e532f5380b64",
+                    "SHA-512": "74808b60ff5a25457873c96aa2c688be94b0b31a26568c507a6ab311816be476cccaa7f50294431ec92578fa789b7fc7f5b9e1cd6b07cc27c4d6c6829772384f",
+                    "SHA3-256": "87514b3d42b1762ea641f0900f4d13663c8787d438aa820b6647cd6e7644f3d9",
+                    "SHA3-512": "6521cd2e87f144d779e2984b32e74232fe16158d011f124fb7686b7bbc542210b3bb3f9b362568b55ce5bef6a439e845c4a80ec533b84760e0d2768e870f6c84"
+                },
+                "external_id": "dijzEPSxRTmKvU"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--5e4cbe8e-8d7e-4ce4-ab9f-91e6de1cdb7a"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--ce255de8-5d4a-4d97-83f3-b95b33abd148",
+        "created_by_ref": "identity--169aa559-7df2-4a11-9bef-e378be4be569",
+        "created": "2022-02-02T08:23:48.252076Z",
+        "modified": "2022-05-17T03:02:25.389887Z",
+        "name": "AspxnEayMcwdbxlxRlt",
+        "latitude": -11.649640154601201,
+        "longitude": 165.6459573092983,
+        "administrative_area": "rpTHjn",
+        "city": "West Ashleyburgh",
+        "postal_code": "71856",
+        "labels": [
+            "total",
+            "inside",
+            "often",
+            "pfte-batch-1"
+        ],
+        "confidence": 45,
+        "object_marking_refs": [
+            "marking-definition--5e4cbe8e-8d7e-4ce4-ab9f-91e6de1cdb7a"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--69de476d-b861-4c95-a321-45073068268b",
+        "created_by_ref": "identity--169aa559-7df2-4a11-9bef-e378be4be569",
+        "created": "2021-04-17T13:43:22.487742Z",
+        "modified": "2022-03-12T16:01:32.693177Z",
+        "relationship_type": "located-at",
+        "description": "But draw difficult experience result board.",
+        "source_ref": "threat-actor--b63d9e5b-fe5b-47e0-a5e9-89ce739a899b",
+        "target_ref": "location--ce255de8-5d4a-4d97-83f3-b95b33abd148",
+        "start_time": "2021-09-24T05:47:34.961807Z",
+        "external_references": [
+            {
+                "source_name": "morning",
+                "description": "Should deep moment.",
+                "external_id": "VqDxmzNIbg"
+            },
+            {
+                "source_name": "course",
+                "description": "Citizen media term keep ahead away tough.",
+                "external_id": "zcbBzzWRbJYVoqjH"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--5e4cbe8e-8d7e-4ce4-ab9f-91e6de1cdb7a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--169aa559-7df2-4a11-9bef-e378be4be569",
+        "created_by_ref": "identity--169aa559-7df2-4a11-9bef-e378be4be569",
+        "created": "2020-10-09T01:01:25.777234Z",
+        "modified": "2021-08-14T01:09:29.470606Z",
+        "name": "Sanchez-Dickerson",
+        "description": "Vision-oriented high-level support",
+        "identity_class": "individual",
+        "contact_information": "7988 Martin Harbor\nPort Cindyhaven, IA 93105",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 36,
+        "object_marking_refs": [
+            "marking-definition--5e4cbe8e-8d7e-4ce4-ab9f-91e6de1cdb7a"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--5e4cbe8e-8d7e-4ce4-ab9f-91e6de1cdb7a",
+        "created": "2021-08-14T01:09:29.468943Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3b921193-36b9-467a-b549-f06fd7a0147e",
+                "name": "Artist despite travel Mrs long fish",
+                "create_date_time": "2021-08-14T01:08:08.430789Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.430622Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

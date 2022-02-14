@@ -1,0 +1,105 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--46330894-28e5-4fb5-84af-de395934526e",
+        "created_by_ref": "identity--07f6ee76-a10f-4b3c-83a4-fae3a715f104",
+        "created": "2022-07-09T04:11:46.718057Z",
+        "modified": "2022-10-16T13:10:23.554273Z",
+        "name": "remain",
+        "description": "Agent remember over important.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 24,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--d91de9c5-68f6-4d48-a927-8fef397b92c3",
+        "created_by_ref": "identity--07f6ee76-a10f-4b3c-83a4-fae3a715f104",
+        "created": "2022-01-13T14:17:21.623859Z",
+        "modified": "2022-12-04T13:57:24.848688Z",
+        "indicator_types": [
+            "compromised"
+        ],
+        "pattern": "[ipv4-addr:value < '15.84.226.117']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-11-23T02:22:30.299951Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "nor",
+                "hashes": {
+                    "MD5": "234a95b214abd064cde14cc51602a6d2",
+                    "SHA-1": "d699f5861b32500304269d662bc02a274c0420e0",
+                    "SHA-256": "eff440cb055df0da27fb50a67a20b01515b5cbdfd0b54bc30cdbb4d42adc7321",
+                    "SHA-512": "d4e9d019e45ca1f04dd0a7238d908059420bf25b85dd67175d04d3642d156c2e4cd8d22d7f770a5b12e19567152edf70ba45e44e54b14cedc301a39328d1d95f",
+                    "SHA3-256": "de55dbd8c5a8ee98984b7eaa79b8b1a39d93e5bcb1f38e91eca1a965a585e3d9",
+                    "SHA3-512": "68ad40d501c47b26eb6f3b97477a8adcd8bc25047f3f64b328ff269c05788366d5a58eca3d1fa79da17610df0405d085f3be196b317d2363a88203d956123736"
+                },
+                "external_id": "jnSLe"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--9ebffae2-bae1-460c-a831-2f9cf5db3dac",
+        "created_by_ref": "identity--07f6ee76-a10f-4b3c-83a4-fae3a715f104",
+        "created": "2020-12-10T10:09:44.269463Z",
+        "modified": "2021-08-14T01:08:22.257223Z",
+        "relationship_type": "investigates",
+        "source_ref": "course-of-action--46330894-28e5-4fb5-84af-de395934526e",
+        "target_ref": "indicator--d91de9c5-68f6-4d48-a927-8fef397b92c3",
+        "stop_time": "2021-01-16T03:36:31.221772Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 9,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--07f6ee76-a10f-4b3c-83a4-fae3a715f104",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-21T23:31:10.727422Z",
+        "modified": "2021-08-14T01:08:22.259543Z",
+        "name": "Nelson-Crawford",
+        "description": "De-engineered uniform Graphical User Interface",
+        "roles": [
+            "chance"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "government-public-services",
+            "communications",
+            "commercial",
+            "telecommunications",
+            "automotive"
+        ],
+        "contact_information": "74836 Patrick Cove Suite 104\nPort Kimberly, AK 57134",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 77,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

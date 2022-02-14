@@ -1,0 +1,140 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--ee59a47d-ebc7-4241-8a5c-85398c81814a",
+        "created_by_ref": "identity--fcb48b0d-8bd2-4f6e-842c-92211939e157",
+        "created": "2021-02-07T03:21:03.291043Z",
+        "modified": "2021-08-14T01:08:54.040084Z",
+        "name": "tend",
+        "description": "School section choice water study peace.",
+        "aliases": [
+            "clear",
+            "this",
+            "although",
+            "learn"
+        ],
+        "last_seen": "2021-02-06T23:23:57.259949Z",
+        "goals": [
+            "Source drop expert image market total.",
+            "Other scientist save position condition.",
+            "Everybody their fund hotel air."
+        ],
+        "primary_motivation": "accidental",
+        "labels": [
+            "white",
+            "tough",
+            "name",
+            "tough",
+            "PM",
+            "pfte-batch-1"
+        ],
+        "confidence": 73,
+        "object_marking_refs": [
+            "marking-definition--e90eccc3-482b-40ef-a263-def8e1f85b17"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--25433d0a-12a7-4406-88a2-bb3462f5293b",
+        "created_by_ref": "identity--fcb48b0d-8bd2-4f6e-842c-92211939e157",
+        "created": "2022-06-04T07:07:42.884143Z",
+        "modified": "2022-12-23T20:52:13.298784Z",
+        "name": "window",
+        "aliases": [
+            "front",
+            "rather",
+            "nature",
+            "like"
+        ],
+        "first_seen": "2020-04-22T23:19:13.262055Z",
+        "last_seen": "2020-08-18T09:53:53.150206Z",
+        "confidence": 36,
+        "object_marking_refs": [
+            "marking-definition--e90eccc3-482b-40ef-a263-def8e1f85b17"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a881a275-d0b3-4731-9797-f15e201a68bc",
+        "created_by_ref": "identity--fcb48b0d-8bd2-4f6e-842c-92211939e157",
+        "created": "2021-05-10T07:15:57.28581Z",
+        "modified": "2022-03-16T12:03:34.249656Z",
+        "relationship_type": "owns",
+        "source_ref": "intrusion-set--ee59a47d-ebc7-4241-8a5c-85398c81814a",
+        "target_ref": "infrastructure--25433d0a-12a7-4406-88a2-bb3462f5293b",
+        "confidence": 83,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e90eccc3-482b-40ef-a263-def8e1f85b17"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--fcb48b0d-8bd2-4f6e-842c-92211939e157",
+        "created_by_ref": "identity--fcb48b0d-8bd2-4f6e-842c-92211939e157",
+        "created": "2022-07-19T18:47:41.071566Z",
+        "modified": "2022-08-22T09:14:47.749428Z",
+        "name": "Figueroa LLC",
+        "identity_class": "individual",
+        "sectors": [
+            "aerospace",
+            "agriculture",
+            "government-national",
+            "government-national",
+            "automotive"
+        ],
+        "confidence": 75,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e90eccc3-482b-40ef-a263-def8e1f85b17"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--e90eccc3-482b-40ef-a263-def8e1f85b17",
+        "created": "2021-08-14T01:08:54.039623Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-54b25f01-6af2-45fd-9467-12811cc2be8c",
+                "name": "Help hit around teach",
+                "create_date_time": "2021-08-14T01:08:08.425022Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

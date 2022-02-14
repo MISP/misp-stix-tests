@@ -1,0 +1,176 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--9748d0ce-b553-4a0f-a953-c3d74a850b48",
+        "created_by_ref": "identity--2fbd3e5e-2126-4eea-8642-dbe51f3a05c2",
+        "created": "2021-10-14T06:58:43.303085Z",
+        "modified": "2022-05-26T16:48:46.339214Z",
+        "name": "trip",
+        "description": "Miss state outside forget let.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 84,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--e957a224-4650-46ff-ac09-55091e88f409",
+        "created_by_ref": "identity--2fbd3e5e-2126-4eea-8642-dbe51f3a05c2",
+        "created": "2022-03-27T09:06:10.491601Z",
+        "modified": "2022-06-22T08:56:12.46845Z",
+        "name": "company",
+        "pattern": "[email-addr:defanged NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-01-26T05:21:18.190931Z",
+        "valid_until": "2022-04-13T13:25:36.548908Z",
+        "labels": [
+            "then",
+            "age",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "collection",
+                "description": "Enjoy senior activity box."
+            },
+            {
+                "source_name": "offer",
+                "description": "Produce land now son home political.",
+                "hashes": {
+                    "MD5": "a3ab0e2b96ff90f80f97a52046c1c505",
+                    "SHA-1": "e17ef57287709c429a9d5e5d70caf3a2ad595424",
+                    "SHA-256": "d6c3086b998b5760042fa716ff0777bc38095aa2aa14cfd4e461277ec02807af",
+                    "SHA-512": "7be2363ed80662bb51b0426ab3c4823d484f8bb0e31fd9230fc4f10c9644eb7b58b3e721bfe1937105ab97b9412a2f5c03203221bf35d268a8a7fedc175e277c",
+                    "SHA3-256": "2e21096134c6915762df0031cbb98fb130344c991b3150b6eba4fa3479335015",
+                    "SHA3-512": "bb91ac9b11af8b64de578a248462115ccd88800e88f731629faa212525cf860aef3674a7bba539be7be1d9f4cd472d2da73d6c9141da70d577f0c357d7b8c131"
+                },
+                "external_id": "ljetevKqmBNRgspnCrmT"
+            },
+            {
+                "source_name": "performance",
+                "description": "Whether focus bag story girl Congress traditional.",
+                "hashes": {
+                    "MD5": "9b253e06119dc7893fe7740d1cf77978",
+                    "SHA-1": "e6cedb51b3d43068b2c2acf36b7d3134a439053a",
+                    "SHA-256": "bd4ab0d820a0fa83578bc16a94ffe9845f78e1d85b2f10f57228dcdeb85dfb2d",
+                    "SHA-512": "a82042060c043dba3cd33e2ec966db36b3bf99eff69c2cb61f4d898c4e770796d05e6a7ff9532b59268a9c6207acf71fd241a2b646658ef287830920b03ca69f",
+                    "SHA3-256": "3e78c8148dc2d9116cd2bcfcd4ab2a54c87d6167e9989a840d17efe26a3ba61f",
+                    "SHA3-512": "c2a4a55061937b70ad74df002a3ce04ae9453c9627905a011e58f6b55dd7f966e80ab51dc8a5f4f5cb21fcfe81e4cbc4dc216342e72e7cc483e42b68494d02e4"
+                },
+                "external_id": "SNeTbwTIujTqia"
+            },
+            {
+                "source_name": "talk",
+                "url": "http://barron.net/"
+            },
+            {
+                "source_name": "spring",
+                "description": "Travel often strong economic.",
+                "external_id": "DXtzWUCxMIdDWtYpg"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3efdd250-9a47-4bbd-935d-7528c4d7ec9d",
+        "created_by_ref": "identity--2fbd3e5e-2126-4eea-8642-dbe51f3a05c2",
+        "created": "2021-11-27T10:14:18.11815Z",
+        "modified": "2021-12-15T05:17:10.199492Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--9748d0ce-b553-4a0f-a953-c3d74a850b48",
+        "target_ref": "indicator--e957a224-4650-46ff-ac09-55091e88f409",
+        "stop_time": "2021-07-23T02:52:46.601156Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 63,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2fbd3e5e-2126-4eea-8642-dbe51f3a05c2",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-01-17T23:43:21.853897Z",
+        "modified": "2021-08-14T01:08:23.341074Z",
+        "name": "TurnCaseSong",
+        "description": "Cross-group systemic customer loyalty",
+        "roles": [
+            "cut",
+            "education",
+            "military"
+        ],
+        "contact_information": "98173 Haley Island Apt. 133\nPooleburgh, CA 52783",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "experience",
+                "hashes": {
+                    "MD5": "ebad37b9f2f599a47aa87f1c96e45b7f",
+                    "SHA-1": "d44fac322ab5455b529e9b607924a5c2bfd9a45c",
+                    "SHA-256": "52705d914bf2f0afaa3ac509045f7aedf4f9c907a9c4643dd20218bf2878bba6",
+                    "SHA-512": "d807c25f9658b6ac91ea1b7678c49fa13fda4293839a0a102de8e0c9cbfe3004fc3c1978d67d106fe5abd69bcf5aab2a56dbea3dce9b632b1ae34551b14d4330",
+                    "SHA3-256": "1dfb19c6e6445301de731dc1daf88e1c83bb3d26528da087c14c9c552d954371",
+                    "SHA3-512": "41706988f450e388b6ae913dec3245b92c17372de105a298726ae1a2e43e8dd30a3a5dc86469b8467408242d26fd2222f68ea210b66de3ef4fd74bde06ae080c"
+                },
+                "external_id": "sTrmePiBreprGB"
+            },
+            {
+                "source_name": "once",
+                "url": "https://www.reese.com/"
+            },
+            {
+                "source_name": "prevent",
+                "url": "https://king-neal.com/",
+                "external_id": "FNogoqIc"
+            },
+            {
+                "source_name": "environment",
+                "description": "Not already many century smile study speak.",
+                "hashes": {
+                    "MD5": "76d89696427b1d62693b41bda7772985",
+                    "SHA-1": "ad04934aad28a1d8b98a672076bcbf54c240b3a5",
+                    "SHA-256": "621873251e85f7eee269492e0d8ccf9c131530ac90886e577d184da62db6f232",
+                    "SHA-512": "75414aff155574c8ffae25589da0e3b2e936b6d9722c5fd0ad17e522f006ff7cf14ff8a4f6fe6356d5fb81dc2a4bceb015c695a18c87b5d16c0da1d95330b6bf",
+                    "SHA3-256": "3e216083fc2a8a59636a0ba664edc8c902c0dc754d1522a0b8096afbc2c9fa16",
+                    "SHA3-512": "b40c9f83fc95254f23ffdfc98f4f4c30c73df98d20fc7d1f7058252866c6ad89aa814ddfdaf575e74ae15ff35f8a98321d8485a76560e7e138b4db02548edc99"
+                },
+                "external_id": "FkBnEMWyHcO"
+            },
+            {
+                "source_name": "art",
+                "description": "Next reach state never bad man over.",
+                "url": "https://www.lopez.net/",
+                "hashes": {
+                    "MD5": "2115cc415a948328dc7d12e1d53d50f6",
+                    "SHA-1": "0ac1049ab00d51d97d9c2c858362dd13ec7ee74f",
+                    "SHA-256": "c6a732d0070000e892b5a4544ac0381a894c77ad7bcc11e0b590ffd832c985ee",
+                    "SHA-512": "6d856d1075c475d997fed48414175acaaaa185028f870ebe453e6e9728a31ea56c79ec458bbc8f270ff4fa8dfae40b9f9701df8a0f9cdf7e6bc2340744223639",
+                    "SHA3-256": "286f1880b42cb0ed9bbeb27675ecd1cb330d4ddebeadaf65936907e8482ce98a",
+                    "SHA3-512": "c2384800d374f05965bbfa0c28e5843c926463ce8cfb2a504cff492c094bd67f6e3e99257a3997b03fec24a45b15b6313bc6ac8b387ca83efa36cb8f1dec040f"
+                },
+                "external_id": "VsjlRwYPwzNR"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

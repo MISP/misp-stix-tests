@@ -1,0 +1,176 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--85e4c125-d920-425a-bf4b-4d43901b4594",
+        "created_by_ref": "identity--e5f727ba-7ddb-4a24-a7bb-da560a3e1848",
+        "created": "2022-03-31T13:30:24.165372Z",
+        "modified": "2022-11-15T18:25:36.679819Z",
+        "name": "firm",
+        "description": "Yourself eight form can feeling analysis computer.",
+        "infrastructure_types": [
+            "phishing",
+            "phishing",
+            "control-system",
+            "workstation",
+            "botnet"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "GhBKwFaSbydbp",
+                "phase_name": "ZghsFADSLbRP"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "bxnnqDgItZEQ",
+                "phase_name": "oqhkaHIJO"
+            },
+            {
+                "kill_chain_name": "zPnudXHIUpWOxvCKGWl",
+                "phase_name": "XtxZZdNXVLhTfIHVzhdD"
+            }
+        ],
+        "first_seen": "2020-06-25T21:53:51.547877Z",
+        "last_seen": "2020-11-23T06:53:26.763591Z",
+        "confidence": 16,
+        "object_marking_refs": [
+            "marking-definition--9b66962e-a03a-4f02-af16-77841bc74e42"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--d392d92d-fe5a-4d77-b33c-769a45ac5601",
+        "created_by_ref": "identity--e5f727ba-7ddb-4a24-a7bb-da560a3e1848",
+        "created": "2021-04-24T12:17:49.427712Z",
+        "modified": "2022-03-11T08:09:44.866567Z",
+        "name": "teach",
+        "infrastructure_types": [
+            "routers-switches",
+            "amplification",
+            "control-system",
+            "anonymization"
+        ],
+        "labels": [
+            "often",
+            "pfte-batch-1"
+        ],
+        "confidence": 88,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9b66962e-a03a-4f02-af16-77841bc74e42"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--518dfd91-6ac8-4e7b-af7a-999ac106e27a",
+        "created_by_ref": "identity--e5f727ba-7ddb-4a24-a7bb-da560a3e1848",
+        "created": "2022-02-23T20:29:56.735089Z",
+        "modified": "2022-08-31T02:03:37.377529Z",
+        "relationship_type": "uses",
+        "source_ref": "infrastructure--85e4c125-d920-425a-bf4b-4d43901b4594",
+        "target_ref": "infrastructure--d392d92d-fe5a-4d77-b33c-769a45ac5601",
+        "confidence": 89,
+        "object_marking_refs": [
+            "marking-definition--9b66962e-a03a-4f02-af16-77841bc74e42"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e5f727ba-7ddb-4a24-a7bb-da560a3e1848",
+        "created_by_ref": "identity--e5f727ba-7ddb-4a24-a7bb-da560a3e1848",
+        "created": "2022-02-16T03:46:05.65857Z",
+        "modified": "2022-05-06T13:58:14.312498Z",
+        "name": "Morgan, Brown and Strong",
+        "description": "Intuitive system-worthy project",
+        "identity_class": "organization",
+        "contact_information": "91714 Bradley Roads Apt. 522\nShortbury, IA 65041",
+        "external_references": [
+            {
+                "source_name": "recent",
+                "description": "Reflect shoulder national apply between data education.",
+                "hashes": {
+                    "MD5": "ecb9e9f4e1595985a87291d8a2153b72",
+                    "SHA-1": "1be245328d11380e276bfc3ab911d4bfdef84084",
+                    "SHA-256": "da7a47f2b6ba2f909d14f7e117c9139158bf8810ddacd531e17d0f6109fe0430",
+                    "SHA-512": "208e05ad4f5d75a9421dd7fac81fdd2b8d984e4ddd5e0eca0eab9ac60a2575a6965d40222cf6d42f59371acb1c56006be49212701a7d42143dda2385cec99703",
+                    "SHA3-256": "af8e70704e6991b1502c0e09b9a690ad849193524025631c70885b88fe7efda5",
+                    "SHA3-512": "a9d5e2ed3c71b30938001b7fb638108c024795ee7fae09fbdd2ef2d912a6ea8d53d98fcf4ae6b2fc1688b0597d11b8430f88d940fc33ee18751399ee89736a64"
+                }
+            },
+            {
+                "source_name": "people",
+                "description": "Program standard size Democrat.",
+                "hashes": {
+                    "MD5": "e8d271a0365998ecf5f89db820bd70cd",
+                    "SHA-1": "2e3d63fd5e9d4c1d8a2374a280e647803f5eb239",
+                    "SHA-256": "35cb78a8f387631017eb2890156845bf57a58315bc31c245d0ca883f6ff0c5e3",
+                    "SHA-512": "1ecf1a518a717cd168aa8c4315e16bcaf218cd439a37d760255635e607488ac4003b7fcc37161a177d4375ddbbb31351444ea41bab5ec879733afaa52b400c3e",
+                    "SHA3-256": "bbd2c9fec55c88ed5540cadee3fd3042b1b8f0a51b11677b877eb6e9ee7cfa52",
+                    "SHA3-512": "9627adcc3cb57deb75cca5e08325f671f115583c38ad1f814491fee891db323be45475d3fdf29dc2a2e2c5b03572188cfd8a21dbca3f42b994d980a4b6cd8817"
+                }
+            },
+            {
+                "source_name": "action",
+                "description": "Plant reality wide opportunity thus month.",
+                "external_id": "itIDtmaIw"
+            },
+            {
+                "source_name": "stay",
+                "external_id": "ETHpXS"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9b66962e-a03a-4f02-af16-77841bc74e42"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--9b66962e-a03a-4f02-af16-77841bc74e42",
+        "created": "2021-08-14T01:08:50.668552Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-54b25f01-6af2-45fd-9467-12811cc2be8c",
+                "name": "Help hit around teach",
+                "create_date_time": "2021-08-14T01:08:08.425022Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

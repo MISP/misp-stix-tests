@@ -1,0 +1,186 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--b6b43094-070c-45a2-a196-20f37eba289b",
+        "created_by_ref": "identity--389c94a7-53e5-4ab6-b406-a346488826ac",
+        "created": "2021-03-17T12:07:30.354651Z",
+        "modified": "2021-10-31T21:13:59.223398Z",
+        "name": "marriage",
+        "first_seen": "2021-07-19T16:54:44.925594Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 3,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "none",
+                "url": "https://www.rogers.com/",
+                "external_id": "KLdIdmrVthbtknuSmFm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--9428d3ca-8dac-4386-816a-6272bd6f9047",
+        "created_by_ref": "identity--389c94a7-53e5-4ab6-b406-a346488826ac",
+        "created": "2020-10-16T16:21:14.849749Z",
+        "modified": "2021-08-14T01:08:21.133004Z",
+        "name": "remain",
+        "aliases": [
+            "hear",
+            "seat"
+        ],
+        "tool_version": "believe",
+        "labels": [
+            "past",
+            "doctor",
+            "if",
+            "help",
+            "region",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "pattern",
+                "url": "http://www.hunt.org/"
+            },
+            {
+                "source_name": "task",
+                "url": "https://shepherd-koch.com/",
+                "external_id": "bhgymzncWwetl"
+            },
+            {
+                "source_name": "play",
+                "url": "https://www.young.biz/",
+                "hashes": {
+                    "MD5": "56777ad7ddd32a6ee080371be01d3a47",
+                    "SHA-1": "9ad92e845d3afffcf74934f4e3b057d3efe60a41",
+                    "SHA-256": "27edf93e85e4209fae542d4fe548239a958116a3957ddebedecd871f0b7fda27",
+                    "SHA-512": "1cfc2787d231340f7914cfc68ffa034b7456ac3ba20df93065f626d997b821799a690777518e9fcefb29866364be1b73b20be23dec9339cc3d8bf2fd4db5bf8b",
+                    "SHA3-256": "205fb353d9027418b97d3d8650ed0368ab8cdf87cc53108f009b530881873493",
+                    "SHA3-512": "114503e7fd3086e6b28a7c8d888c1fbbd0ed96962d731a23e2294f87580a07ddcf3aa72ad81d5c7447e6199b463de82b384f78bdd2071aa0d8b05af278582ea0"
+                },
+                "external_id": "dzkjvjK"
+            },
+            {
+                "source_name": "might",
+                "description": "Foreign actually across run page.",
+                "url": "http://stephens.org/",
+                "hashes": {
+                    "MD5": "115a29752e4d03bdd10cc74678abf1ac",
+                    "SHA-1": "5e115c51dc42b5f8ca73ac6fcd0d59c25d882d43",
+                    "SHA-256": "c61c22ee7a924ffd0af20642181672a8a52c1ee435aeab900b4e1ce4359e8850",
+                    "SHA-512": "03d4119e5a0f5bfa28f673c22b41517baf97c8b947727df0418c7888adae48829f33b4702885681361387d1604c9bed0ff4e577de1ffdbc4b882105fdc17c54f",
+                    "SHA3-256": "2d8868784caaaabe4948da83312e3d8b753435fb8b57c105dfa1ac078010a6b8",
+                    "SHA3-512": "e1b93e04f2eb605298265c11ee21c673d3b80c7ed5bc62d1171ec3cdc8965fb4e9ca12f53eaa4b5fe599a8ea29cb4e1a7882d68b9d8c47ea5f5f3ccd599c5a3e"
+                },
+                "external_id": "xnIUNjADDwheQI"
+            },
+            {
+                "source_name": "television",
+                "url": "https://www.hall-bass.com/",
+                "external_id": "IdwhLBuYoKwbJax"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f18134dd-76fd-40c4-8e0c-4bfa6f1275ac",
+        "created_by_ref": "identity--389c94a7-53e5-4ab6-b406-a346488826ac",
+        "created": "2021-10-24T19:42:56.903667Z",
+        "modified": "2021-11-01T07:12:34.468322Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--b6b43094-070c-45a2-a196-20f37eba289b",
+        "target_ref": "tool--9428d3ca-8dac-4386-816a-6272bd6f9047",
+        "start_time": "2021-06-29T22:58:40.762135Z",
+        "stop_time": "2022-05-28T02:47:39.157491Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--389c94a7-53e5-4ab6-b406-a346488826ac",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-12T16:45:07.275818Z",
+        "modified": "2021-11-23T12:50:21.118332Z",
+        "name": "Cox, Gonzales and Elliott",
+        "description": "Down-sized neutral standardization",
+        "identity_class": "system",
+        "sectors": [
+            "government-national",
+            "government-public-services",
+            "mining"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 61,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "remain",
+                "url": "https://ellison.com/",
+                "hashes": {
+                    "MD5": "2fd7efee158a68858bb452a09f5000ee",
+                    "SHA-1": "c779e32d8e9cd648cb5d747586833303da0a2729",
+                    "SHA-256": "18adbb53abd9be00ab5013082aad231c8f3453f335fa1b6af44552a22e2d07ea",
+                    "SHA-512": "159b666172bd8f0d6ff14a315e68a6f2bf515a98de4fc81486a1a6bcc26f35a32aa5b6acff2eb9db6bfc9042e93e2e4cf46af2be26c3100914c68b110ec93b93",
+                    "SHA3-256": "18146e9ccc8cbd31f3bbf915e5d68ecfd59a778c7960d06d701ffc3dc11170bd",
+                    "SHA3-512": "c5f99cb5f847b612e65f6a735afd2226ccae26ed213fefa2d9641eaadf6981a0dd714b3c51c6186e711babdb15c5644c46da10361d7023e7cbcb862d6f160421"
+                },
+                "external_id": "loCvioDYReLUwdnyF"
+            },
+            {
+                "source_name": "security",
+                "url": "http://dawson-bowen.com/",
+                "hashes": {
+                    "MD5": "155d17011ca8d3dfcf90451fde78f5a5",
+                    "SHA-1": "185fcf17227642b40925f968c7c3c76f41c52b81",
+                    "SHA-256": "042a48ca2ee6678b7c09ab8f969a8c4b68513b8d3b5d69bce79de3072a4721a0",
+                    "SHA-512": "7a85f0157385e2f08909b828c219e66dc6d285a5ea6fa2466650cc4811f2c6907c4ce28d704e53f5c76373bf46ecf945a2a9aa377562e4533c19aaf762591fb0",
+                    "SHA3-256": "e12838dfb9a0e3ad3d15423dcec9f7b6c1bf11aa14ad528718b734f6c1d3ccd9",
+                    "SHA3-512": "6481b8db87b3de50b647a72e85930f9426b8fcbf083e9a98e296a75bf8730a3630ee17502da0c041a32a34c54e0d38bdc226cf5de38967e68b0daaafd88e83e7"
+                },
+                "external_id": "IYBNEQfWVhdsySmJivwC"
+            },
+            {
+                "source_name": "say",
+                "url": "https://hernandez-wolfe.org/",
+                "external_id": "nrlASzaNOaBOAtzXegqc"
+            },
+            {
+                "source_name": "if",
+                "url": "https://www.krause-reynolds.biz/",
+                "hashes": {
+                    "MD5": "45d499417d1f35d08d8d56094137971c",
+                    "SHA-1": "146c1ee4fb2fb09fea31b7f4f2cb3cccb23c04c6",
+                    "SHA-256": "a96f15b96cfb862a0dc36e4a0a160aebe9f60b5eb49a30d97013512627e684fd",
+                    "SHA-512": "38a68784120b90bca3a9c41c63c04ff1a2f38444fc8f93cce59e404cfcf60ba983b430ccd38c0d4f2b6f134051763b5926bf9126f4d9a247bcd379916dbcb5bb",
+                    "SHA3-256": "86968a8814a399e5728083e3a82dd672679a668f422593940a1f323a0607e3dd",
+                    "SHA3-512": "0614ac0a7c10f3dc39a3a640662d0007d7a879c60b7828efcbf34e3b8a06eb1444a22308ae00c780b4178c3924f1b63a487ece51bab74c4f5c7aae5316af8ad1"
+                },
+                "external_id": "ALBlmiUjNt"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

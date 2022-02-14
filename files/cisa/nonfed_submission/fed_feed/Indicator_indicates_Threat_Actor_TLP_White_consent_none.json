@@ -1,0 +1,214 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--b9335d68-0862-4e88-ac91-f5831c0edb9b",
+        "created_by_ref": "identity--635bc0ad-5b96-4876-beff-b88672a659aa",
+        "created": "2021-06-17T09:46:03.119129Z",
+        "modified": "2021-12-02T17:58:28.16194Z",
+        "pattern": "[directory:path_enc < 'ISO-8859-2'] OR [url:defanged NOT = false] OR (([autonomous-system:defanged NOT = false]) OR [x509-certificate:subject_public_key_modulus <= '476548511860045952541673086412'] OR [software:vendor NOT = 'Navarro, Fisher and Wilkinson']) START t'2021-08-13T03:08:58.380342Z' STOP t'2021-09-26T00:40:07.186998Z'",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-03-02T08:46:49.27238Z",
+        "valid_until": "2020-12-19T21:08:25.388444Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "labels": [
+            "nothing",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--6d441dcc-c12a-437b-8939-01444cf3b53b"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--4ceab01b-0d85-4791-868d-97a2feed5741",
+        "created_by_ref": "identity--635bc0ad-5b96-4876-beff-b88672a659aa",
+        "created": "2022-02-06T02:55:40.178277Z",
+        "modified": "2022-02-14T07:41:03.49812Z",
+        "name": "yeah",
+        "description": "Discover option even theory outside relationship perform hope.",
+        "threat_actor_types": [
+            "unknown",
+            "terrorist",
+            "unknown",
+            "spy"
+        ],
+        "first_seen": "2021-01-20T04:56:16.455786Z",
+        "last_seen": "2021-03-22T19:02:03.683365Z",
+        "sophistication": "expert",
+        "primary_motivation": "organizational-gain",
+        "secondary_motivations": [
+            "accidental",
+            "dominance",
+            "personal-gain"
+        ],
+        "personal_motivations": [
+            "coercion"
+        ],
+        "object_marking_refs": [
+            "marking-definition--6d441dcc-c12a-437b-8939-01444cf3b53b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ff524048-93f2-487b-ac54-c3d6dde9ad3e",
+        "created_by_ref": "identity--635bc0ad-5b96-4876-beff-b88672a659aa",
+        "created": "2021-06-23T01:50:17.258738Z",
+        "modified": "2021-08-20T12:12:56.913756Z",
+        "relationship_type": "indicates",
+        "description": "Thank story family nice research brother. Exactly write clear rich concern in against. Agency prove listen full.",
+        "source_ref": "indicator--b9335d68-0862-4e88-ac91-f5831c0edb9b",
+        "target_ref": "threat-actor--4ceab01b-0d85-4791-868d-97a2feed5741",
+        "confidence": 97,
+        "external_references": [
+            {
+                "source_name": "for",
+                "description": "Interview simple present oil green personal world.",
+                "hashes": {
+                    "MD5": "d3385768130f57398c5df555064ae38d",
+                    "SHA-1": "a2d5f25f0232c28a04dd16b12819e81d11ba8be2",
+                    "SHA-256": "ae1afb52e71e4a7b2dde8f88dcff909aad7b8da07068200c9b265a11f57dc77e",
+                    "SHA-512": "485dfe4d5ccd919de0ff25641eff34f7405d4440c1c4b18369a5d1dae3d67be0e7b2822b647af903e23912988211836bb629e24f2785dddc07751d80f2dbc765",
+                    "SHA3-256": "2576ff53e329871b804c105b2dc7d3196ef628bb98e1d566d92eb2fc386c6fd8",
+                    "SHA3-512": "e3618fc3aad6ef57f6b5bfcb6dd6dd04dbf64dda71ac222cb8894fcd878feba4ca0c617182402dfc1b64c172d65c9b644e7d196bf2a1ea53a99ddf82b7158a87"
+                },
+                "external_id": "cRFmwCpbrgGFvIEz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--6d441dcc-c12a-437b-8939-01444cf3b53b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--6d441dcc-c12a-437b-8939-01444cf3b53b",
+        "created_by_ref": "identity--635bc0ad-5b96-4876-beff-b88672a659aa",
+        "created": "2021-08-14T01:08:33.418766Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2828523e-b28d-4046-9afc-51d22e18d79b",
+                "name": "Social price record ever reveal physical each",
+                "create_date_time": "2021-08-14T01:08:08.418751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.418527Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--635bc0ad-5b96-4876-beff-b88672a659aa",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-29T06:06:37.488709Z",
+        "modified": "2022-04-04T10:26:17.197316Z",
+        "name": "GenerationItInternational",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "school",
+                "description": "Respond decade white door line could check.",
+                "url": "http://shah.com/",
+                "hashes": {
+                    "MD5": "ddf98331b57f39cc3b7e4600fe20016c",
+                    "SHA-1": "51421e6df6b3d318ba065d1ca070910aa522d91c",
+                    "SHA-256": "72d6d56a7ba968388110cf78f8e53296b05b1ce4a5d04692b389f7b9a3bb8d31",
+                    "SHA-512": "5b35e7cad6cb178c757a9fa5f930700158c9d957f35c0c1cbcb5369a226340118834299a54fa7915fc99af15e3fb14a4ecf37f257464b4a0126b3cb82894ee86",
+                    "SHA3-256": "75b49a234b7b921ad508a641194918835acd04ec0b201dce0a18f50a47e43859",
+                    "SHA3-512": "edd67d3b1976178354b4dfabd7ed8b60710ef7d98f4697bcf806916b1ed1962982f82ff868b3b4d4cdf6f0b2a5eb2b8b8e11965ceaa83800b4ac84355ce25ec1"
+                },
+                "external_id": "PKOQKBRHfDjyEiH"
+            },
+            {
+                "source_name": "much",
+                "url": "https://chung.com/"
+            },
+            {
+                "source_name": "of",
+                "description": "Hand institution security individual rich.",
+                "hashes": {
+                    "MD5": "0b57f1f670ed90442cd32da005df4941",
+                    "SHA-1": "4b932640c4a9a658664223ce7f8bb49908c02f70",
+                    "SHA-256": "dfc5c51ceebd459f35162c70d4026fc1033c6bac84bf56cbe1e08127eb33dbdb",
+                    "SHA-512": "1e94ab1e5b8b4d90bced0e9743bcfb9cec1679c72c976a3a367b20db33f49d8fc38706bdba03ff626a6f9367ffa36c4dd0ae3b0229c7847e8ec46839de1ffe6d",
+                    "SHA3-256": "8cf5c5c7304eef045b8cbe36ec720bfe6f770a87b7c3b742cb3c30655d088f21",
+                    "SHA3-512": "dfee296d2528fff9d5f85486fa927729fae41e522a6f57ee0c15490ffc675606c069873d0ca173ae52f51e6008d30a10971b0f29291cee4bbd6d71b462081866"
+                }
+            },
+            {
+                "source_name": "fight",
+                "hashes": {
+                    "MD5": "c15aef60786f61d9ae99954b6156daad",
+                    "SHA-1": "cf544b8fecea7a0ccdd0e205162afd88528a558b",
+                    "SHA-256": "840f67b72c148d79e06f9e35383a225c51a5b274cb85baf8aa7e4fadedaa9877",
+                    "SHA-512": "bd6d48d92d1c08c6524cd06d4041d88e9c8cd2b96af70fc743a66866423058cad542fc4ba95850d38d91f8abc00471a8473df79a4dbd69429ecf006040349d0c",
+                    "SHA3-256": "da20d869c5277fc5db6d50d47bbae2f7260ff47dae193d9afe7ec2b36f819be8",
+                    "SHA3-512": "dae56845cdb28ed92f6546658c218d9aab2b9d7b6e623eab58c195b17274954536c9a3adcbee0a7e80367ea4617d6c1747eadc553c5dcd731aeecf027a48778a"
+                },
+                "external_id": "BjDlQFJE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--6d441dcc-c12a-437b-8939-01444cf3b53b"
+        ]
+    }
+]

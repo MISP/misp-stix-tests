@@ -1,0 +1,271 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--ff67fea9-e668-4765-9e23-5a65c7429d48",
+        "created_by_ref": "identity--1fcb2f0f-14bd-4b74-a6fe-c8398f3c6a19",
+        "created": "2021-07-07T14:54:51.16482Z",
+        "modified": "2022-05-04T17:21:52.763734Z",
+        "description": "Service from help eye onto involve.",
+        "indicator_types": [
+            "attribution",
+            "unknown",
+            "anonymization",
+            "anomalous-activity"
+        ],
+        "pattern": "([((software:defanged NOT = false) OR file:ctime NOT = t'2020-08-27T12:04:49.543039Z') AND software:cpe NOT = 'cpe:2.3:o:fedoraproject:fedora:29:*:*:*:*:*:*:*' AND software:defanged = false] FOLLOWEDBY [email-message:subject < 'Like or yard need.'] START t'2021-02-09T10:53:16.165098Z' STOP t'2022-06-16T05:11:22.958006Z') WITHIN 1 SECONDS",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-02-24T07:56:20.76752Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "STCriXkibCyqz",
+                "phase_name": "DQhhVLmBruZRksjnZgxd"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "FoDekSQRHMEbWeR",
+                "phase_name": "YTNrFd"
+            },
+            {
+                "kill_chain_name": "uQvFrIhFcQWVbGNuI",
+                "phase_name": "BwstMZdQAWBQaXfrEi"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "institution",
+                "description": "Whether war any child.",
+                "url": "https://www.delgado.com/",
+                "hashes": {
+                    "MD5": "85b4a7168505ad57de2b1d857d411833",
+                    "SHA-1": "4ebabe15e2a42f75faac9815d5d1aebcde5b0b4e",
+                    "SHA-256": "dadabd3c9ad8722dfbe53fc3bd9d4d862d5dbb92f7784851bba9f24e7bf6f137",
+                    "SHA-512": "7d289e2f9a01ebb21d19627f5faa6eb248e2de6e5ec5f0774cdf70f35503fa73e8c9f50f157a1716dd71b0719f0f94e835aed92a1e4f3edc0279cb98eb5e261d",
+                    "SHA3-256": "e6e134adf60ddf01bb4273bea6db3b27d7391bbbade6eabac4b32910b60260aa",
+                    "SHA3-512": "8e82c4ca865cf9df81b066c42278cae4f11f4cb8548be7790f95c943f4f55bd52cd5d185e35436623cb8342d706a57f5088381455f7507695cef8228d475fee5"
+                }
+            },
+            {
+                "source_name": "take",
+                "description": "Local trouble television.",
+                "url": "https://www.hurley.net/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--10382e35-fb7e-4db7-81eb-72b429fe566e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--e7dc38f9-0cd3-41f4-9dbd-e47749186375",
+        "created_by_ref": "identity--1fcb2f0f-14bd-4b74-a6fe-c8398f3c6a19",
+        "created": "2021-10-15T10:21:51.161464Z",
+        "modified": "2022-08-11T12:25:12.837593Z",
+        "name": "much",
+        "description": "Herself enjoy yes while away impact later goal.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "confidence": 97,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "yes",
+                "description": "Might contain share public.",
+                "url": "http://marshall.com/",
+                "hashes": {
+                    "MD5": "7e15ad6e7477ff6708bde3c55db34f42",
+                    "SHA-1": "77c5e44a9370ed241c184c043bcb9eddaeb04d33",
+                    "SHA-256": "ad4832bb69b94bec5da839706e9d5bbd69e1e607d764febac1f591d07ceccf5b",
+                    "SHA-512": "4cca8a440cb953035f21f58a257d8f350f21fe3d7aad09a12666ff5dfacc24093c54ed4e4010a0f7084aa4d093f34d374c2340190c26efa72d6e9d04bd1efc7e",
+                    "SHA3-256": "d6890d7ac7eac28e7b3fccceee71efe76347942359a112c686c5503828512132",
+                    "SHA3-512": "0e4ccb48f45c1e73b4d88da774af51057667764df961c2f796ae68b0a59686c6f5c242475bf8b1d2f48953bc584f2e04ddce50644347fe8eb4762441a0e93833"
+                }
+            },
+            {
+                "source_name": "born",
+                "description": "Prepare while military.",
+                "hashes": {
+                    "MD5": "46fa9e1c6a3c981f7bc651c52a2a6177",
+                    "SHA-1": "4932b3a6497372bc6a4a416264cd340176abb4e5",
+                    "SHA-256": "9c415c2a87f0ace4bc40472f1f98d7cb70e9321752868c6b59f5b2579c145727",
+                    "SHA-512": "e9cfc6fd3a24d7fce0bbdde0a9aa45105c8f02b89aee99d1877400377bad8a6aa74c7e36f8816cc9800bb1ca34e6f3f27de808eb419094731574e1c9473ecbf8",
+                    "SHA3-256": "5699f05a755b0fd7508792dcdc52a83fc009954c1067e9bfd72e1fab490e6658",
+                    "SHA3-512": "5df3030b6db3f7f6e882994faed025567d4e39c90e17be08d067bd33b29a1d5e1a63a89cf1a82b971b32e88b112fbd2fc9b58be0c29934217ce88830bb4b382c"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--10382e35-fb7e-4db7-81eb-72b429fe566e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b35a93ea-8394-418e-be7e-11e84857c5d6",
+        "created_by_ref": "identity--1fcb2f0f-14bd-4b74-a6fe-c8398f3c6a19",
+        "created": "2020-09-25T01:28:40.420691Z",
+        "modified": "2021-08-14T01:08:27.726716Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--ff67fea9-e668-4765-9e23-5a65c7429d48",
+        "target_ref": "attack-pattern--e7dc38f9-0cd3-41f4-9dbd-e47749186375",
+        "stop_time": "2022-07-21T15:32:24.390634Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "dog",
+                "description": "Off animal he art something beyond.",
+                "url": "http://www.clark-ortiz.com/",
+                "external_id": "TtoXac"
+            },
+            {
+                "source_name": "born",
+                "description": "Article generation college newspaper.",
+                "url": "http://quinn.com/",
+                "external_id": "eHwyqPsyTbwmaV"
+            },
+            {
+                "source_name": "best",
+                "hashes": {
+                    "MD5": "0057a5582aedaa8da3fe44488911bf65",
+                    "SHA-1": "b1b5d4025c33a5b8e4bf21ebce76ad2ac2eaf2cb",
+                    "SHA-256": "ab502b84ebd677e9b8df1f9d856f4918dc9043cfa8d12b5559d3887ba0bd4c4c",
+                    "SHA-512": "42c1c4f6657a820bf748a96615fa0c356fc47649860144e5cbb7e089b4a0b403432235627dfc9d46a580b7de47149b9761e2e8e97a1d76d1703de01ebe5f66f8",
+                    "SHA3-256": "bdb64b6011265f7ec0a7d74a0c3eae5b5b5bd0f8e3a34796fe00d00fe12b0dfc",
+                    "SHA3-512": "8ea403327f174d5da604e56683329fec0a678b60d3247a3b7ed8d414bd04206df66445a41ddb8d042015f973093940d5641353148d7f5f30c2b0beb41cecc129"
+                },
+                "external_id": "ebFEZoko"
+            },
+            {
+                "source_name": "culture",
+                "description": "Economic heavy tonight.",
+                "external_id": "jtaVYITyn"
+            },
+            {
+                "source_name": "through",
+                "description": "Suggest exactly put show get difficult.",
+                "url": "https://donovan.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--10382e35-fb7e-4db7-81eb-72b429fe566e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--10382e35-fb7e-4db7-81eb-72b429fe566e",
+        "created_by_ref": "identity--1fcb2f0f-14bd-4b74-a6fe-c8398f3c6a19",
+        "created": "2021-08-14T01:08:27.720132Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e665ae49-7536-4ce4-b3ac-ad9803b6185e",
+                "name": "Push teach indeed like accept",
+                "create_date_time": "2021-08-14T01:08:08.423274Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1fcb2f0f-14bd-4b74-a6fe-c8398f3c6a19",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-24T15:32:50.708246Z",
+        "modified": "2023-03-13T08:11:36.487645Z",
+        "name": "Hicks, Conner and Jimenez",
+        "roles": [
+            "way"
+        ],
+        "identity_class": "group",
+        "sectors": [
+            "commercial"
+        ],
+        "contact_information": "06535 Melissa Camp\nSchmidtport, AL 19280",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 62,
+        "object_marking_refs": [
+            "marking-definition--10382e35-fb7e-4db7-81eb-72b429fe566e"
+        ]
+    }
+]

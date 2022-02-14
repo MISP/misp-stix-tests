@@ -1,0 +1,206 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--181bba83-1f43-4dab-9df8-5b7b9e146dce",
+        "created_by_ref": "identity--a4519e4a-4ff9-46cf-b3ea-e3c788cdb47a",
+        "created": "2020-11-04T08:06:08.503767Z",
+        "modified": "2021-08-14T01:09:33.522728Z",
+        "name": "live",
+        "threat_actor_types": [
+            "competitor",
+            "spy",
+            "unknown"
+        ],
+        "aliases": [
+            "note"
+        ],
+        "first_seen": "2022-03-26T04:20:15.681696Z",
+        "roles": [
+            "director",
+            "sponsor",
+            "agent"
+        ],
+        "goals": [
+            "me",
+            "hand"
+        ],
+        "sophistication": "expert",
+        "primary_motivation": "personal-satisfaction",
+        "personal_motivations": [
+            "personal-gain",
+            "notoriety"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "many",
+                "hashes": {
+                    "MD5": "4fecf67560ba61209ae2d0cdc542873e",
+                    "SHA-1": "677581672b33d47b82a050bbac7c4bee7d8ccf09",
+                    "SHA-256": "2e7c26bffaba561fc6c470d201a7d610c70457520e2137d9d041413428f99348",
+                    "SHA-512": "47de22a7e1f7e56faf31afcb445d8e4874797326f591dfa7b3deac946472576cc14c574b7bf5364646d1bc80e78821e0972ae6b80a18b341145f0912ec6b0a10",
+                    "SHA3-256": "dda9296bb744cad16fcf93d542b0faca94949f201e2c000b91632c73ee414f1f",
+                    "SHA3-512": "3bd757ea5cc65417addda5b83e9a42e448b71894abaaa97e0d8194378dd3e31501d0478557c30c25a709aef9c4f8b31cfeb10b406a41f35ce936b5d1e24d6dff"
+                },
+                "external_id": "JFKFbgQrOyEXKGTq"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--cf36c135-92b3-430c-8f0e-4d1fe4d9b33b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--f9c7e092-818a-4ffe-86b5-eb39ec1465a1",
+        "created_by_ref": "identity--a4519e4a-4ff9-46cf-b3ea-e3c788cdb47a",
+        "created": "2020-10-22T19:24:02.200738Z",
+        "modified": "2021-09-28T23:47:33.386863Z",
+        "name": "find",
+        "infrastructure_types": [
+            "unknown",
+            "staging",
+            "amplification",
+            "firewall",
+            "routers-switches"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "first_seen": "2020-11-02T00:14:42.07233Z",
+        "last_seen": "2021-10-13T04:59:41.761406Z",
+        "confidence": 9,
+        "object_marking_refs": [
+            "marking-definition--cf36c135-92b3-430c-8f0e-4d1fe4d9b33b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ac26fc38-3886-404e-80f4-d6bba0843194",
+        "created_by_ref": "identity--a4519e4a-4ff9-46cf-b3ea-e3c788cdb47a",
+        "created": "2021-10-07T15:37:01.128967Z",
+        "modified": "2022-04-08T16:51:25.208259Z",
+        "relationship_type": "uses",
+        "description": "Recognize throughout whatever media.",
+        "source_ref": "threat-actor--181bba83-1f43-4dab-9df8-5b7b9e146dce",
+        "target_ref": "infrastructure--f9c7e092-818a-4ffe-86b5-eb39ec1465a1",
+        "labels": [
+            "staff",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--cf36c135-92b3-430c-8f0e-4d1fe4d9b33b"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a4519e4a-4ff9-46cf-b3ea-e3c788cdb47a",
+        "created_by_ref": "identity--a4519e4a-4ff9-46cf-b3ea-e3c788cdb47a",
+        "created": "2021-03-13T18:33:49.735215Z",
+        "modified": "2021-08-14T01:09:33.523717Z",
+        "name": "Ramos-Jones",
+        "sectors": [
+            "aerospace",
+            "healthcare",
+            "non-profit"
+        ],
+        "contact_information": "3435 Allen Square Apt. 346\nRobertshire, MS 18141",
+        "confidence": 2,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--cf36c135-92b3-430c-8f0e-4d1fe4d9b33b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--cf36c135-92b3-430c-8f0e-4d1fe4d9b33b",
+        "created": "2021-08-14T01:09:33.521799Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-147f852e-75ac-49e9-b9d2-55199760c488",
+                "name": "Yes might consider why south he",
+                "create_date_time": "2021-08-14T01:08:08.429077Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.428904Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

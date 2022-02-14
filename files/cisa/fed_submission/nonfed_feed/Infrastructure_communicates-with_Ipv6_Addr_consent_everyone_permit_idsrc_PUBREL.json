@@ -1,0 +1,91 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--fa5ee575-513a-421b-a373-6687cc2af327",
+        "created_by_ref": "identity--a93bb4ac-93d7-4dc8-afdd-f6cb74d6e801",
+        "created": "2020-10-01T01:55:32.474609Z",
+        "modified": "2021-08-14T01:08:40.528644Z",
+        "name": "rate",
+        "description": "Say shoulder argue late identify.",
+        "infrastructure_types": [
+            "staging",
+            "routers-switches"
+        ],
+        "last_seen": "2021-05-01T01:33:44.126639Z",
+        "labels": [
+            "guess",
+            "pfte-batch-1"
+        ],
+        "confidence": 24,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "part",
+                "description": "Natural society center get over necessary develop.",
+                "url": "http://www.rivera-black.com/",
+                "hashes": {
+                    "MD5": "14c6f46562839e151cf058c6339117a3",
+                    "SHA-1": "9421c2ebdf8b79ba8d9169d62046b24fee95b45e",
+                    "SHA-256": "33517f784bb4aa924929f11dff503ff857979cafbdf1700f54cd64ccf0b4c001",
+                    "SHA-512": "db15ffb806a638e8599fab177d05370376171f454b10aa5f98e6ba65bf9ae4258947ede35baa6058ebaa60d130f09eac91a0d5dd19ca97e0271184c5044aaebf",
+                    "SHA3-256": "4a6d553d8240a839fd55e313de3cbaea652a963f171ef23dc9b3c0a409e24dfe",
+                    "SHA3-512": "a27ace42eb0560628ae2e12e2d51f8b9b2ff8f952f758c47de6a8530e2b3f7bf55b1b23a12f5516af650f2c2634fc2bad63289bf9a17a0f2378e49771751bc85"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "ipv6-addr",
+        "spec_version": "2.1",
+        "id": "ipv6-addr--ad0149ef-e6d6-41d7-a903-064f44188b3f",
+        "value": "7be2:c243:ef1a:eb15:8a47:3a2:8079:1911",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--88faaccb-4a33-4454-ab80-d4e93ffc38b2",
+        "created_by_ref": "identity--a93bb4ac-93d7-4dc8-afdd-f6cb74d6e801",
+        "created": "2021-02-23T06:28:00.733175Z",
+        "modified": "2022-02-10T11:40:33.756984Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--fa5ee575-513a-421b-a373-6687cc2af327",
+        "target_ref": "ipv6-addr--ad0149ef-e6d6-41d7-a903-064f44188b3f",
+        "start_time": "2020-12-19T03:16:56.992071Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a93bb4ac-93d7-4dc8-afdd-f6cb74d6e801",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-27T22:22:12.857245Z",
+        "modified": "2022-05-17T10:53:31.202411Z",
+        "name": "Russell Inc",
+        "description": "Distributed scalable initiative",
+        "identity_class": "unknown",
+        "contact_information": "741 Mejia Dam Suite 202\nEast Jeannebury, AK 68672",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

@@ -1,0 +1,178 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--11d05eed-4111-4f9d-9dce-806a5681280a",
+        "created_by_ref": "identity--60261c07-60b2-44db-95d1-3f6d967e0c9b",
+        "created": "2021-01-12T03:21:06.396884Z",
+        "modified": "2021-08-14T01:08:53.831085Z",
+        "name": "animal",
+        "first_seen": "2021-10-15T18:25:46.17601Z",
+        "last_seen": "2021-12-18T07:51:41.603113Z",
+        "goals": [
+            "Or color high around amount.",
+            "Success new painting suffer everything history.",
+            "Guess wind ten perform people must nor."
+        ],
+        "resource_level": "organization",
+        "secondary_motivations": [
+            "accidental",
+            "organizational-gain",
+            "ideology"
+        ],
+        "labels": [
+            "future",
+            "meeting",
+            "form",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "level",
+                "hashes": {
+                    "MD5": "c3775b4eb73a61b984c5943e58a8b357",
+                    "SHA-1": "ff71418a9187497a4e99e4c96f34875e15a7b48c",
+                    "SHA-256": "f348cc9661c7574b1bdb27707957ec902461eceba184bce5b336216d8194c6df",
+                    "SHA-512": "be75b5c1a02dbaf2969e1d10c88ef33abe2250b06a273f6b683db212eaaf5d7bb5ebfa7f129cd6fd43022d9a3a253c4d3cca63906be36baeecb9010c158ca02f",
+                    "SHA3-256": "22c2e36bd2fa81a06154cfae208bb6e8a72d466c23875f4394e4254f8a3d4dd0",
+                    "SHA3-512": "764d1a96a861f9789bfe44e90d4e6bb5a048c28ce7f913aee50b621bc37d646b4263f9a89fbebd33471a39d8d31698a4180ab5ce492884c8fee633a032c3d485"
+                },
+                "external_id": "pehPVpDxlmFXhHtlqn"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d8b6f3de-ce68-4395-907b-a799bc74aaf5"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--08c5e39c-5174-46df-b2ca-6a0e33458598",
+        "created_by_ref": "identity--60261c07-60b2-44db-95d1-3f6d967e0c9b",
+        "created": "2022-07-14T02:53:16.102431Z",
+        "modified": "2022-11-02T22:25:49.770106Z",
+        "name": "food",
+        "description": "Commercial and read large significant traditional occur.",
+        "infrastructure_types": [
+            "botnet",
+            "amplification",
+            "botnet",
+            "routers-switches"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "refVzhPBJXBFBlkWEJz",
+                "phase_name": "RspgRvXxzY"
+            }
+        ],
+        "first_seen": "2021-02-13T11:43:02.85887Z",
+        "last_seen": "2021-09-15T08:35:50.466007Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d8b6f3de-ce68-4395-907b-a799bc74aaf5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b5d99207-09d3-4440-8a21-f468df4a02ab",
+        "created_by_ref": "identity--60261c07-60b2-44db-95d1-3f6d967e0c9b",
+        "created": "2022-05-06T20:15:02.821183Z",
+        "modified": "2022-07-28T02:54:49.438831Z",
+        "relationship_type": "owns",
+        "source_ref": "intrusion-set--11d05eed-4111-4f9d-9dce-806a5681280a",
+        "target_ref": "infrastructure--08c5e39c-5174-46df-b2ca-6a0e33458598",
+        "start_time": "2022-04-26T21:36:49.453964Z",
+        "object_marking_refs": [
+            "marking-definition--d8b6f3de-ce68-4395-907b-a799bc74aaf5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d8b6f3de-ce68-4395-907b-a799bc74aaf5",
+        "created_by_ref": "identity--60261c07-60b2-44db-95d1-3f6d967e0c9b",
+        "created": "2021-08-14T01:08:53.830346Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--60261c07-60b2-44db-95d1-3f6d967e0c9b",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-21T20:51:09.451454Z",
+        "modified": "2021-10-26T06:33:59.158677Z",
+        "name": "Perry, Waller and Whitehead",
+        "description": "Streamlined interactive Graphic Interface",
+        "sectors": [
+            "financial-services",
+            "utilities"
+        ],
+        "contact_information": "7738 Erica Inlet\nPort Brianmouth, NJ 69594",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "business",
+                "url": "http://www.miller.biz/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d8b6f3de-ce68-4395-907b-a799bc74aaf5"
+        ]
+    }
+]

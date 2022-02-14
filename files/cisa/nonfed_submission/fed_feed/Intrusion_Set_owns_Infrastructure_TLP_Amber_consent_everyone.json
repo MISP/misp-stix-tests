@@ -1,0 +1,152 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--2087a8d8-d167-482e-9857-56e36c834888",
+        "created_by_ref": "identity--dce26997-16a1-4edf-a349-44b7898cb0ca",
+        "created": "2022-02-15T09:50:51.261624Z",
+        "modified": "2022-04-22T12:44:25.102338Z",
+        "name": "choose",
+        "first_seen": "2020-08-25T02:48:37.959716Z",
+        "goals": [
+            "However their blood player computer newspaper music figure.",
+            "Series next camera television remember so.",
+            "Environmental us window nation across."
+        ],
+        "secondary_motivations": [
+            "personal-satisfaction",
+            "revenge"
+        ],
+        "labels": [
+            "television",
+            "pfte-batch-1"
+        ],
+        "confidence": 49,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2c867a21-cf5e-4250-b5bb-98c1352984bc"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--f00de1b7-c8cc-4c48-a8b9-02b154dc679a",
+        "created_by_ref": "identity--dce26997-16a1-4edf-a349-44b7898cb0ca",
+        "created": "2021-12-06T18:11:54.197905Z",
+        "modified": "2022-02-09T21:38:25.057581Z",
+        "name": "own",
+        "description": "Light drive door.",
+        "aliases": [
+            "begin"
+        ],
+        "first_seen": "2021-05-04T03:41:28.58304Z",
+        "labels": [
+            "too",
+            "see",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--2c867a21-cf5e-4250-b5bb-98c1352984bc"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f378d3ac-e19f-4ade-a93f-6b845af54e39",
+        "created_by_ref": "identity--dce26997-16a1-4edf-a349-44b7898cb0ca",
+        "created": "2022-03-22T22:36:14.447872Z",
+        "modified": "2022-05-12T00:29:34.880886Z",
+        "relationship_type": "owns",
+        "source_ref": "intrusion-set--2087a8d8-d167-482e-9857-56e36c834888",
+        "target_ref": "infrastructure--f00de1b7-c8cc-4c48-a8b9-02b154dc679a",
+        "stop_time": "2020-11-28T23:31:22.826654Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2c867a21-cf5e-4250-b5bb-98c1352984bc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2c867a21-cf5e-4250-b5bb-98c1352984bc",
+        "created_by_ref": "identity--dce26997-16a1-4edf-a349-44b7898cb0ca",
+        "created": "2021-08-14T01:08:53.940043Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f98cddfd-8461-4143-a969-e6e230df21d4",
+                "name": "Word describe cold color",
+                "create_date_time": "2021-08-14T01:08:08.422252Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--dce26997-16a1-4edf-a349-44b7898cb0ca",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-17T11:27:02.61411Z",
+        "modified": "2021-09-29T07:43:49.268277Z",
+        "name": "Stewart, Boyd and Franco",
+        "roles": [
+            "leg",
+            "thing"
+        ],
+        "sectors": [
+            "water",
+            "education"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 100,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2c867a21-cf5e-4250-b5bb-98c1352984bc"
+        ]
+    }
+]

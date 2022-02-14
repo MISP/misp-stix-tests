@@ -1,0 +1,315 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--328eef65-d419-4d26-89a3-92cd2dbc5818",
+        "created_by_ref": "identity--21c8fa39-150f-4610-9a94-dfb26afe352a",
+        "created": "2021-01-14T06:27:03.244206Z",
+        "modified": "2021-12-27T13:38:53.148747Z",
+        "name": "size",
+        "pattern": "[autonomous-system:number NOT = 105 OR (autonomous-system:number <= -594)] OR [url:value > 'http://burnett.info/'] OR [user-account:credential > 'G@9nDlxCmw']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-03-08T13:57:29.130684Z",
+        "valid_until": "2022-07-22T08:21:09.69947Z",
+        "labels": [
+            "voice",
+            "program",
+            "PM",
+            "pfte-batch-1"
+        ],
+        "confidence": 91,
+        "external_references": [
+            {
+                "source_name": "do",
+                "description": "Light last possible group.",
+                "url": "http://www.matthews.biz/",
+                "external_id": "zuubxcnDSVJYSQV"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8cce93b3-4f8a-4b48-9dfd-d4480e84d21c"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--f3f117c7-c617-429c-ae51-16b70dc468e0",
+        "created_by_ref": "identity--21c8fa39-150f-4610-9a94-dfb26afe352a",
+        "created": "2022-07-23T03:34:15.59243Z",
+        "modified": "2023-03-28T12:34:07.51429Z",
+        "name": "owner",
+        "infrastructure_types": [
+            "command-and-control",
+            "botnet",
+            "reconnaissance"
+        ],
+        "aliases": [
+            "property",
+            "four",
+            "discussion",
+            "test",
+            "account"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "oZWtAicyEBLCMujeNda",
+                "phase_name": "QURCFbGxNn"
+            }
+        ],
+        "first_seen": "2021-07-31T04:19:07.579997Z",
+        "confidence": 54,
+        "external_references": [
+            {
+                "source_name": "follow",
+                "url": "https://www.graham.com/",
+                "hashes": {
+                    "MD5": "3b10649d695b33541aa96a899da64001",
+                    "SHA-1": "84449f10f58ed6369f0e98f81bb61d14d7eb5e59",
+                    "SHA-256": "3a916ffdc5ba4f5799f70183cb9053622dc9e2060263308240526f3f49b6fcb0",
+                    "SHA-512": "cd3502936956bdad7d84107dea012d345a9a260ebc616cdfbb788fd8dc098c57fdb76b465f01199ad379dd9a9d6d059d06ddd247f0cd8768688c846e05efac76",
+                    "SHA3-256": "88e1ff57f1a4bf8d3c5e88b37d882ec85c80a0f2d587d5e2fbf7e62f6275ddb8",
+                    "SHA3-512": "9f95e9e13a323d9490a155081518ce6c3be8cbc966fa5bc9c65af5ee8bcbc60830d591f4a363b606cdc6739ecaeb7738a5b48aef8ace1b4781d0cb136b9241a6"
+                },
+                "external_id": "xralcHcPRU"
+            },
+            {
+                "source_name": "generation",
+                "url": "http://www.morales.net/",
+                "hashes": {
+                    "MD5": "0fbe45a618e400ab10945d4be8c4fc87",
+                    "SHA-1": "fcc814f9c8d625475fd5bb99a90d3f707cdc2f1e",
+                    "SHA-256": "539fda208caad2a2fb4a5221b0359c53d5bf4e636556c509e701fcb7681c3e46",
+                    "SHA-512": "774b86f88ce5aeddbebf2a4f1de7875c38a0af738b2c299f3083e2aafa3fd00ae3ee653db5fa220c04a4d7e2cecc66a4ead15e93cd6de87d76ffebaecdebe0eb",
+                    "SHA3-256": "f350e5f5d32abbc03a094bba8c2a2f132b9d8dc28b551dc72bb63ee425797670",
+                    "SHA3-512": "478338b101ec98acb598c8e804fa474195e93d515ca1463124d6e1c85c8c98417c14a682e2f1625cd81eae49f50eda45e989e89f80816702b9c8874f51501474"
+                }
+            },
+            {
+                "source_name": "pretty",
+                "description": "Particularly new according fill.",
+                "url": "https://www.boyd.com/",
+                "hashes": {
+                    "MD5": "fd664964d4c7ef1b82c85b49d5b6627d",
+                    "SHA-1": "f202492c651cbae5d87c0934c5a4d8e599c2593c",
+                    "SHA-256": "7f1a41061eb5e910cdd13c9f03d01ce8b342846c6e99dddfaedf9a156635857f",
+                    "SHA-512": "6b7252e4bda23bf93f375aba327d7374ca0b188048bb63267c564c55732d9b74d3baa7a251044659427082d0acf31662b4f3b237c3930ee55313330a38b721b1",
+                    "SHA3-256": "406059bb82495b3c0b28c49bd406c9849723c4c3361d5c4a8ef5594bdda47332",
+                    "SHA3-512": "2c23478e04e76302c1aaa8bb7fc9b7b535d76b06d8ae3555ba075351e19dd9fe25e10e94fc81410012498e14d533274a601df0bc3a4937502bb5cf635a5b3f44"
+                },
+                "external_id": "chICLcetWquB"
+            },
+            {
+                "source_name": "several",
+                "url": "http://www.booker.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8cce93b3-4f8a-4b48-9dfd-d4480e84d21c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f4606d3d-c8a6-46d8-b06a-2226578064bd",
+        "created_by_ref": "identity--21c8fa39-150f-4610-9a94-dfb26afe352a",
+        "created": "2021-12-04T06:53:08.039915Z",
+        "modified": "2022-05-21T09:53:11.405677Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--328eef65-d419-4d26-89a3-92cd2dbc5818",
+        "target_ref": "infrastructure--f3f117c7-c617-429c-ae51-16b70dc468e0",
+        "start_time": "2021-01-08T13:18:59.734278Z",
+        "stop_time": "2021-05-04T13:29:14.541356Z",
+        "labels": [
+            "pass",
+            "there",
+            "drive",
+            "pfte-batch-1"
+        ],
+        "confidence": 2,
+        "external_references": [
+            {
+                "source_name": "responsibility",
+                "description": "Hour suffer success skill newspaper model thought.",
+                "url": "http://adams-scott.com/",
+                "external_id": "zBdWrJNNGpKumKJ"
+            },
+            {
+                "source_name": "boy",
+                "description": "Quite fund school teach color.",
+                "hashes": {
+                    "MD5": "d27bb6b0a5e6e6f6304aff054f13bf1c",
+                    "SHA-1": "e101d29b46ad18cb55ac85353431c369bd85c805",
+                    "SHA-256": "f24132dda09b088f4fc829315a09af116a33e067787f5075bda4d7bfe63201f3",
+                    "SHA-512": "1ad37ef6069add596739b97ecd970347d0b382703934f68ff9785fd8d165a1942103031a9f25def60f5d88fab8312c95ff6c0cb1b2e96cdb70649bb850ce6e0c",
+                    "SHA3-256": "58c24fb4ebd31cd27b09855bbf7918d6404a8eca796adfb4bbd8dc4a760c2623",
+                    "SHA3-512": "3d7613ac4fe305bc66582a4d69d9054acc299f1253f03a55ea1d6c9004f82529504d835c056e4c983a697112b718c9418aaf6c54993746b98514abd244fa562a"
+                },
+                "external_id": "zfIpTNCHFIbWsdjmvwNe"
+            },
+            {
+                "source_name": "while",
+                "description": "Include your large into store natural day when.",
+                "url": "https://www.henry.com/",
+                "external_id": "lKvulgEilAjJCjZGqUwB"
+            },
+            {
+                "source_name": "home",
+                "url": "http://lopez.com/",
+                "external_id": "GDdVS"
+            },
+            {
+                "source_name": "free",
+                "description": "Gun remember deep piece indeed brother choice.",
+                "url": "https://dalton.com/",
+                "hashes": {
+                    "MD5": "3faeb6141efa7db4f861d3cc22a7064e",
+                    "SHA-1": "c08d0ef90c217fc4b82894295813164f6e13cb16",
+                    "SHA-256": "ceca5790d6f009b143a0a1869e4e62a04fcdd0360689ee7a616f0cc7b482c5e8",
+                    "SHA-512": "71507523182d6c4188ad7a7420d640279c4bdd7c0b0186f2b981dccbbd7cd4723d5df187c4f24ed0dec4d6c1a82190e5ba05f1411222f64674070d707044dfff",
+                    "SHA3-256": "a02e56c601570a223531a6689202ae96d0817739d35fdaf55502e9747b101a68",
+                    "SHA3-512": "3a1c64045e496dbce6125faf92d343f13b8ace9bdeb1b152df2ddf67c9bc086247dd2654a3c51b54f6318d1b4d7ccd5da6bd3bf431dedb2c9871d8fc62225334"
+                },
+                "external_id": "NJownfMkbs"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8cce93b3-4f8a-4b48-9dfd-d4480e84d21c"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--21c8fa39-150f-4610-9a94-dfb26afe352a",
+        "created_by_ref": "identity--21c8fa39-150f-4610-9a94-dfb26afe352a",
+        "created": "2021-07-02T21:26:19.341348Z",
+        "modified": "2022-04-03T07:54:40.570092Z",
+        "name": "Sanchez PLC",
+        "description": "Centralized scalable hub",
+        "identity_class": "group",
+        "sectors": [
+            "insurance",
+            "telecommunications",
+            "defense",
+            "automotive",
+            "telecommunications"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "feel",
+                "description": "True cause as need movement impact role.",
+                "hashes": {
+                    "MD5": "49da96cdcc3f2000ced0d21c9778f2a5",
+                    "SHA-1": "d573733e4c114a9c8fc7281c8ed6440207eca83e",
+                    "SHA-256": "a392e92d1a8e209ea106bafde969469bb5c11780bdb8e6070eb3376bd4005a78",
+                    "SHA-512": "aa9d40f12d06b44e4248100b727231538eae146d3415cbe8489380d337a48e541a4cf81b8ea74cfa4eccae658cdbf8bb33fb8f99b0f261421a5f0644b672122f",
+                    "SHA3-256": "973d895cc080a72c511c58ff78ea58c153676fea10458221ce698ac86ceea410",
+                    "SHA3-512": "cbd385f4ef055e4d8bd16493fd25056ec903d78b2e553794a739a733b42ee7d19e1d425b7cd100776b3157480cebc6a591ae9ceba97a87058397601abca3dfba"
+                },
+                "external_id": "IDkVLZIYCvrzWQGiP"
+            },
+            {
+                "source_name": "budget",
+                "description": "Scientist shake wish get least whether learn.",
+                "external_id": "VmwmvWvzEbWw"
+            },
+            {
+                "source_name": "protect",
+                "description": "Sing blue ball scene design next wait.",
+                "url": "http://durham-lester.info/",
+                "hashes": {
+                    "MD5": "65426773442169e4ba2a521273b58d4a",
+                    "SHA-1": "28ce1ee7dfb7f9dff3cc937698c3dba099fced70",
+                    "SHA-256": "9fb2462d482043d5c1fad4b12752db9e3dc57279d48af4ebc387b9117adfe152",
+                    "SHA-512": "58abffd3f931eaa4679d9e3dfbd7fa565950f511b72553b34c235c98d35432386130d6b08ad2d7177ec6292cfe01176762aac99bd5d7d3517b9fe4066eea4792",
+                    "SHA3-256": "2b6f783feac1064d652e5e1dd431c29b4e42082e1afaac2db2eac67180c7150f",
+                    "SHA3-512": "1d68caba498c4846b3a3c305b3f8bdc5081a19f3a22aea77388d5e9623e4151eadb90f8dc9aec88530d2bfebe35872ecd36b708e8920200db0c37b3ea7b3f93a"
+                }
+            },
+            {
+                "source_name": "better",
+                "description": "Early many never success report movie.",
+                "url": "http://waters-vega.net/",
+                "hashes": {
+                    "MD5": "1210af28291b1de199cabbf38670ec32",
+                    "SHA-1": "20f4c7d96a9513aa848850f21c561b8b9a866fd6",
+                    "SHA-256": "c850c4f46981eda1f59464939638b1bcbecc2f9587eeb7068921a502c3f073cc",
+                    "SHA-512": "9f4c3ddd69ec089837507130ac7d705eea62bf536c793a3a42f37125e21efd28e3326db14ca81ee9dd9bb0ee78b7997d14e701e014d992901de58ff67693509c",
+                    "SHA3-256": "19a5c881ce40bbcd504b2b4277943ed3e57747da838fa42824791d74739469ad",
+                    "SHA3-512": "eb6d288532359bf102187f3dc39c374fc895dc2418a4be3605f8dc51e896273d1865ada3844ce351d137b4d45957c50457bea6576f13975f3c77a33eb72b4f17"
+                },
+                "external_id": "oEbrrDKCpNUjv"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8cce93b3-4f8a-4b48-9dfd-d4480e84d21c"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--8cce93b3-4f8a-4b48-9dfd-d4480e84d21c",
+        "created": "2021-08-14T01:08:30.751202Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e0c28f68-5570-434a-9764-3e8498f0a59a",
+                "name": "Serve much idea usually",
+                "create_date_time": "2021-08-14T01:08:08.432065Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

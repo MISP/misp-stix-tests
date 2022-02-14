@@ -1,0 +1,169 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--6dd68122-131e-464f-a137-791d7c200f9f",
+        "created_by_ref": "identity--1586e837-5a74-4882-8e9a-1025279786ae",
+        "created": "2020-08-17T15:25:31.669512Z",
+        "modified": "2021-08-14T01:08:53.366681Z",
+        "name": "side",
+        "description": "Hair computer particularly town individual treatment official base.",
+        "last_seen": "2022-01-05T05:04:37.284125Z",
+        "resource_level": "government",
+        "primary_motivation": "coercion",
+        "object_marking_refs": [
+            "marking-definition--cadce795-eb6e-4365-98f4-83b88acff6fa"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--aec8039b-3b6c-4463-8cc4-e31c5995888e",
+        "created_by_ref": "identity--1586e837-5a74-4882-8e9a-1025279786ae",
+        "created": "2020-10-24T13:46:45.150517Z",
+        "modified": "2021-08-14T01:08:53.367167Z",
+        "name": "enter",
+        "infrastructure_types": [
+            "exfiltration",
+            "botnet",
+            "reconnaissance",
+            "control-system",
+            "routers-switches"
+        ],
+        "labels": [
+            "phone",
+            "pfte-batch-1"
+        ],
+        "confidence": 3,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "skin",
+                "description": "Religious far their wish even.",
+                "url": "http://santiago-nichols.com/",
+                "hashes": {
+                    "MD5": "8c9983e5e0ec4df0c1b3083e00bd7765",
+                    "SHA-1": "89520bade2c9c5afaf00e469396bf44d72661aa9",
+                    "SHA-256": "e3a2f3a625dac280e6f67b73e62d2f88271430a6f84b8d146dd04902db6b3b58",
+                    "SHA-512": "3643ce3bc0e120049d020fc51a3f67928f1e8da98636f7f522e334680e8b0ddd9b282ea26b22bcbdfc9896b077f6d3e6d01607bf7c0de5429516bc7b2772127c",
+                    "SHA3-256": "8aff95f53a43480371b272a652986ecaad2ea1b67a956adcaac8eea0afe12193",
+                    "SHA3-512": "366476ec905b928b69b03cdd1af69bd35c3d0368aaf16336bf201d7c8ba2ede3a4d7391cecd3388d3e2dd147e2a96e7c6239eb82c715bcdb1fda571b9ca853ed"
+                },
+                "external_id": "gMRGlRd"
+            },
+            {
+                "source_name": "realize",
+                "description": "Use eat after thank western.",
+                "url": "https://thomas.com/",
+                "hashes": {
+                    "MD5": "1a7e1fa3692d4ae7657dc8f9fbadc48a",
+                    "SHA-1": "2be3331db1d2b1c61800b302ad33076220176835",
+                    "SHA-256": "cc14a04fc46216d4951f0c06e3ba543c7e1875162c2441eb1502c4716379177a",
+                    "SHA-512": "95bce2d06e2391d9bea484a57632f1e3c35c654463d3e444fee717166bede2383bcdf4cd064341a01f32f07adf256a029a0c973c9d8463a6174ebd9f84a81fce",
+                    "SHA3-256": "4ffa767c2ce87b32189e0f427638905cf1d2d0849de768e4caa8aa408cfdc005",
+                    "SHA3-512": "69f99d41f30de143cba5911823c270c5c59b4df2a6fa57a2041472225f3e439195eac3498eec30455d189360d448f6f691781dc451b39930000dc22c5c04905f"
+                },
+                "external_id": "CMrnR"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--cadce795-eb6e-4365-98f4-83b88acff6fa"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--06d84a83-8d09-47bc-a042-40dc3cb4edef",
+        "created_by_ref": "identity--1586e837-5a74-4882-8e9a-1025279786ae",
+        "created": "2020-11-21T14:42:54.435338Z",
+        "modified": "2021-11-15T04:03:48.817746Z",
+        "relationship_type": "hosts",
+        "source_ref": "intrusion-set--6dd68122-131e-464f-a137-791d7c200f9f",
+        "target_ref": "infrastructure--aec8039b-3b6c-4463-8cc4-e31c5995888e",
+        "stop_time": "2022-06-28T17:33:21.476495Z",
+        "confidence": 27,
+        "object_marking_refs": [
+            "marking-definition--cadce795-eb6e-4365-98f4-83b88acff6fa"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1586e837-5a74-4882-8e9a-1025279786ae",
+        "created_by_ref": "identity--1586e837-5a74-4882-8e9a-1025279786ae",
+        "created": "2021-05-18T13:11:26.344553Z",
+        "modified": "2022-04-03T19:33:32.563521Z",
+        "name": "George Group",
+        "description": "Down-sized dynamic pricing structure",
+        "object_marking_refs": [
+            "marking-definition--cadce795-eb6e-4365-98f4-83b88acff6fa"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--cadce795-eb6e-4365-98f4-83b88acff6fa",
+        "created": "2021-08-14T01:08:53.366036Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

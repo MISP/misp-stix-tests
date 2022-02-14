@@ -1,0 +1,178 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--7b898be7-208f-4a60-a038-1421a8903647",
+        "created_by_ref": "identity--fd0f4958-0e1a-408f-9e01-7e57e472d647",
+        "created": "2021-08-12T06:51:45.002514Z",
+        "modified": "2022-06-13T07:50:23.503385Z",
+        "name": "shoulder",
+        "secondary_motivations": [
+            "personal-gain",
+            "ideology",
+            "coercion",
+            "accidental"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ed1492b4-171a-484b-b7d0-2b2ab7023f68"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--ab2022e7-e392-4513-a37a-2dfa3705b943",
+        "created_by_ref": "identity--fd0f4958-0e1a-408f-9e01-7e57e472d647",
+        "created": "2021-05-26T01:00:39.916939Z",
+        "modified": "2021-11-17T02:51:23.358869Z",
+        "name": "sea",
+        "infrastructure_types": [
+            "hosting-malware",
+            "reconnaissance",
+            "hosting-target-lists",
+            "staging"
+        ],
+        "first_seen": "2021-11-28T10:58:17.317113Z",
+        "last_seen": "2022-03-26T09:29:00.637838Z",
+        "confidence": 25,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ed1492b4-171a-484b-b7d0-2b2ab7023f68"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--9e973be8-69b3-4cf6-a926-38a2a49e4968",
+        "created_by_ref": "identity--fd0f4958-0e1a-408f-9e01-7e57e472d647",
+        "created": "2022-05-17T14:58:02.172431Z",
+        "modified": "2022-10-11T16:32:32.934802Z",
+        "relationship_type": "uses",
+        "description": "Brother computer same amount respond late. Chance door education such today forward. Song most lose exactly summer forward.",
+        "source_ref": "intrusion-set--7b898be7-208f-4a60-a038-1421a8903647",
+        "target_ref": "infrastructure--ab2022e7-e392-4513-a37a-2dfa3705b943",
+        "start_time": "2022-04-14T22:28:32.798304Z",
+        "confidence": 36,
+        "external_references": [
+            {
+                "source_name": "happen",
+                "url": "http://www.horne.net/",
+                "external_id": "wyenHjAwoTASDRkqyxk"
+            },
+            {
+                "source_name": "home",
+                "url": "http://www.davis.com/",
+                "external_id": "LBleildYBGHsFxYwB"
+            },
+            {
+                "source_name": "level",
+                "description": "Kind world nice factor behavior out.",
+                "hashes": {
+                    "MD5": "87e40b848cecaaffc2021b90fb2f2a51",
+                    "SHA-1": "92e82c97829c7f4db7466823d785a86aeade6d36",
+                    "SHA-256": "4293d56b4ef011770ceddabc7ee63620880019e80976bd0e73b70232ffc7e205",
+                    "SHA-512": "9d90b2c52fc6f0dce49130953b97eb1e1a5426a25496cc49fdcc1be0ca0c2aa688e058199a69be9e6d48df1bebcac8a129f9c3242bdc13e0c0d9926a5669aa8f",
+                    "SHA3-256": "7b7bbc2193dd74d8cbe8847a4f7af21874a0f32178cc866f8fcc6b781cb46f17",
+                    "SHA3-512": "7f0734457795151c7b7e9a10e5ca2748d44c41d3cc3159ee1a194fda13e47e9fbec2fa75a5fe331323606849c1285649edb7d86fe7b1232e6f1cb41911f6a686"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ed1492b4-171a-484b-b7d0-2b2ab7023f68"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--ed1492b4-171a-484b-b7d0-2b2ab7023f68",
+        "created_by_ref": "identity--fd0f4958-0e1a-408f-9e01-7e57e472d647",
+        "created": "2021-08-14T01:08:58.372282Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2a4a5944-494c-4a33-b0ba-c70e719ee1c8",
+                "name": "Room arrive pay often",
+                "create_date_time": "2021-08-14T01:08:08.421032Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--fd0f4958-0e1a-408f-9e01-7e57e472d647",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-29T03:37:46.880372Z",
+        "modified": "2021-08-14T01:08:58.373964Z",
+        "name": "Graham-Glass",
+        "roles": [
+            "consumer",
+            "poor",
+            "class",
+            "professional",
+            "series"
+        ],
+        "identity_class": "group",
+        "sectors": [
+            "government",
+            "insurance",
+            "financial-services"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 92,
+        "object_marking_refs": [
+            "marking-definition--ed1492b4-171a-484b-b7d0-2b2ab7023f68"
+        ]
+    }
+]

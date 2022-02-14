@@ -1,0 +1,122 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--0be28888-0d45-4584-876c-d40de6c35d9e",
+        "created_by_ref": "identity--513576db-074c-4a64-b5b1-2b9b25c2b247",
+        "created": "2022-01-21T10:18:29.809526Z",
+        "modified": "2022-03-23T16:30:52.18707Z",
+        "description": "Me evidence different age.",
+        "indicator_types": [
+            "attribution",
+            "malicious-activity",
+            "benign",
+            "unknown",
+            "anomalous-activity"
+        ],
+        "pattern": "[x509-certificate:is_self_signed = true] AND [directory:mtime >= t'2021-09-15T07:46:54.393665Z']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-05-21T20:20:35.897028Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "zsDvpdyn",
+                "phase_name": "JDVPHvYRjLQhZhFTbk"
+            },
+            {
+                "kill_chain_name": "bIaAaHHJPX",
+                "phase_name": "BxsDagKUPCwEKEJmlTEB"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--ca13be76-e500-46a8-be36-316788145bc5",
+        "created_by_ref": "identity--513576db-074c-4a64-b5b1-2b9b25c2b247",
+        "created": "2022-04-26T15:53:33.276765Z",
+        "modified": "2023-01-15T15:22:50.113429Z",
+        "name": "eat",
+        "description": "Join institution stage tend.",
+        "last_seen": "2022-05-17T02:55:47.984893Z",
+        "labels": [
+            "something",
+            "itself",
+            "risk",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4a07d43c-6a12-4d29-ac0f-42a4c28e7b6c",
+        "created_by_ref": "identity--513576db-074c-4a64-b5b1-2b9b25c2b247",
+        "created": "2020-10-25T01:19:55.446112Z",
+        "modified": "2021-08-14T01:08:30.100147Z",
+        "relationship_type": "indicates",
+        "description": "Seat stop week final poor skin. Well bill move practice our change fall purpose.",
+        "source_ref": "indicator--0be28888-0d45-4584-876c-d40de6c35d9e",
+        "target_ref": "infrastructure--ca13be76-e500-46a8-be36-316788145bc5",
+        "start_time": "2020-08-21T22:31:23.861405Z",
+        "labels": [
+            "seat",
+            "allow",
+            "area",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "page",
+                "url": "https://martinez-keith.net/",
+                "external_id": "NGGXcKEKcsKiERa"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--513576db-074c-4a64-b5b1-2b9b25c2b247",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-07T05:58:53.218477Z",
+        "modified": "2023-02-01T15:38:52.286741Z",
+        "name": "Booker-Brown",
+        "roles": [
+            "my"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 26,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

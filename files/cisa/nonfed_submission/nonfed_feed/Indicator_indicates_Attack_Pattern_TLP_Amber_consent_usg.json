@@ -1,0 +1,123 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--27a83d2a-cae5-4870-b96a-d9e8c56f3d12",
+        "created_by_ref": "identity--38287639-fb2b-4c6e-87e3-f471cf615efd",
+        "created": "2021-02-12T09:25:47.756933Z",
+        "modified": "2021-08-14T01:08:27.522742Z",
+        "description": "Concern guy wrong PM with.",
+        "indicator_types": [
+            "unknown"
+        ],
+        "pattern": "[autonomous-system:number = -494 AND autonomous-system:defanged NOT = false AND (((autonomous-system:rir > 'Gonzalez Inc') OR network-traffic:defanged = false) AND autonomous-system:rir < 'Benson LLC')]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-10-15T07:23:59.02469Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "VmJMRlVLiPuWIjNAz",
+                "phase_name": "chUdrQZycjxAhtU"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 17,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--48825c62-0fec-480b-b320-cdcaa23525be",
+        "created_by_ref": "identity--38287639-fb2b-4c6e-87e3-f471cf615efd",
+        "created": "2022-08-09T03:12:40.116174Z",
+        "modified": "2023-06-03T11:34:20.62735Z",
+        "name": "summer",
+        "labels": [
+            "consider",
+            "indicate",
+            "until",
+            "voice",
+            "this",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--32815693-5cee-44eb-9297-032cc1c9b026",
+        "created_by_ref": "identity--38287639-fb2b-4c6e-87e3-f471cf615efd",
+        "created": "2022-02-09T03:03:50.935935Z",
+        "modified": "2022-12-01T20:21:18.587521Z",
+        "relationship_type": "indicates",
+        "description": "Born expect possible both. Cut memory include company condition although four.",
+        "source_ref": "indicator--27a83d2a-cae5-4870-b96a-d9e8c56f3d12",
+        "target_ref": "attack-pattern--48825c62-0fec-480b-b320-cdcaa23525be",
+        "stop_time": "2021-11-29T06:15:51.95832Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "rock",
+                "description": "Power debate laugh could want.",
+                "hashes": {
+                    "MD5": "779d2763eed01052410ad8802c82b183",
+                    "SHA-1": "2149c1f19b91e473ea5b76a1e4cc064bbc7c49a5",
+                    "SHA-256": "646195789f370859c56a0fee7169a339ebed04379d502eb1d07bf175e7f6b7be",
+                    "SHA-512": "02c38ff3e04c90a1a1fb1640c228d5a3742904e194c810bdafbbb9159acffe1d2df59a5446f9520d6b338dae873f1c4b8b7c17dada87905746be2b0597eae4c0",
+                    "SHA3-256": "334b9eccd78a8e2a5eb74d43ae36d390b237f3f1f27336b9324919f8cc00154f",
+                    "SHA3-512": "2be834dfa073f6b045b1559230fd3e2007410dc81100494e4e183c4adc7e206ea7ba6784bc0ab82eb0a069368ce0e4247ea536f3028799d516b0816fc4664688"
+                },
+                "external_id": "jHImlNYzFAOUihk"
+            },
+            {
+                "source_name": "figure",
+                "url": "https://cole.com/",
+                "external_id": "pOAbcSmsnkmG"
+            },
+            {
+                "source_name": "human",
+                "description": "Hot face image agent myself.",
+                "url": "https://cortez.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--38287639-fb2b-4c6e-87e3-f471cf615efd",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-01T19:05:28.720623Z",
+        "modified": "2022-04-26T00:46:32.171041Z",
+        "name": "FactLaughSkill",
+        "description": "Phased transitional help-desk",
+        "sectors": [
+            "communications"
+        ],
+        "contact_information": "784 Peterson Brooks Apt. 610\nEast Melissachester, CT 39970",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 42,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

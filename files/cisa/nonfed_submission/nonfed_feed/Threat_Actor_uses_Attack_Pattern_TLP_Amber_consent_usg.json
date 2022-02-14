@@ -1,0 +1,151 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--4b5c0f60-5837-45fe-b45e-f9349c51ba27",
+        "created_by_ref": "identity--a98bbea1-354d-48e7-a0af-02d201f3ed0f",
+        "created": "2021-05-18T19:46:23.041792Z",
+        "modified": "2021-11-12T13:42:54.452726Z",
+        "name": "at",
+        "threat_actor_types": [
+            "spy",
+            "terrorist",
+            "sensationalist",
+            "terrorist",
+            "criminal"
+        ],
+        "aliases": [
+            "several",
+            "situation",
+            "other",
+            "every"
+        ],
+        "sophistication": "advanced",
+        "secondary_motivations": [
+            "organizational-gain",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "pretty",
+            "ground",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--7618ec10-48bd-4d05-afcc-3851ccade23e",
+        "created_by_ref": "identity--a98bbea1-354d-48e7-a0af-02d201f3ed0f",
+        "created": "2020-12-27T00:36:53.574459Z",
+        "modified": "2021-11-16T08:30:55.591391Z",
+        "name": "remain",
+        "aliases": [
+            "what"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 5,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--171c1680-6562-4a62-a16c-3e5895349fa0",
+        "created_by_ref": "identity--a98bbea1-354d-48e7-a0af-02d201f3ed0f",
+        "created": "2020-08-28T11:30:43.236136Z",
+        "modified": "2021-08-21T02:54:21.611258Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--4b5c0f60-5837-45fe-b45e-f9349c51ba27",
+        "target_ref": "attack-pattern--7618ec10-48bd-4d05-afcc-3851ccade23e",
+        "labels": [
+            "million",
+            "pull",
+            "movie",
+            "act",
+            "would",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "three",
+                "description": "Type public capital ability.",
+                "external_id": "VvOmCEefoYAqDDWwWGh"
+            },
+            {
+                "source_name": "run",
+                "description": "Radio fear value by position within.",
+                "hashes": {
+                    "MD5": "0d0da7f7d0e72040a68c9f0263558595",
+                    "SHA-1": "d123b1deeafe521129d0974d23743b4622cc83a8",
+                    "SHA-256": "67a08c34e14733525c8e4ed32985e5de691c613a496db6d5db4b8e8ebb21513d",
+                    "SHA-512": "ea56a79da52f5adacf57027252ebbef992efab6dc065c88bf0328a75771f95770d2ac3d93bdd2274a95cd928e25c057ecc0990ace291b9584abe82dc997caf7e",
+                    "SHA3-256": "aa8e88412ddfeaabbd91f1061555165ff2353d6eab9afc4e9528641108578c9c",
+                    "SHA3-512": "effd9868c643aec6dc46e260b60fa3944b3e7a92f87d18437e6da3628d3027830078c63ded0eb608813f8c4190d97dd9fde38cc9bb24aa6979b67b8612521908"
+                },
+                "external_id": "OJLbWktKrgLrALsWfet"
+            },
+            {
+                "source_name": "wrong",
+                "url": "http://www.smith.info/",
+                "external_id": "DjilxSLGRuju"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a98bbea1-354d-48e7-a0af-02d201f3ed0f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-05-15T18:38:15.187667Z",
+        "modified": "2022-09-15T12:27:24.936653Z",
+        "name": "EnvironmentalEffortPerhaps",
+        "roles": [
+            "floor",
+            "all",
+            "area",
+            "high",
+            "situation"
+        ],
+        "identity_class": "class",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 78,
+        "external_references": [
+            {
+                "source_name": "brother",
+                "url": "http://www.wright.com/",
+                "external_id": "RBcBCXcCU"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

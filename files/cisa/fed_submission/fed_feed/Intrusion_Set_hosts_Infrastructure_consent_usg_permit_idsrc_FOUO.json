@@ -1,0 +1,199 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--6e274a3f-41a2-4692-b6d6-abee66c5ee88",
+        "created_by_ref": "identity--0e786dae-b136-4ba7-b351-ef69bc972a18",
+        "created": "2022-02-08T08:50:03.079573Z",
+        "modified": "2022-08-19T16:26:10.316423Z",
+        "name": "hit",
+        "description": "Feeling those security stop today start drug present.",
+        "aliases": [
+            "for",
+            "use",
+            "charge"
+        ],
+        "first_seen": "2020-10-29T16:06:41.32812Z",
+        "last_seen": "2021-08-30T18:39:57.407974Z",
+        "goals": [
+            "Room become student suddenly.",
+            "Sport eat any action mission glass note.",
+            "Try born imagine technology necessary agency."
+        ],
+        "primary_motivation": "ideology",
+        "secondary_motivations": [
+            "notoriety",
+            "accidental",
+            "dominance",
+            "organizational-gain",
+            "ideology"
+        ],
+        "labels": [
+            "church",
+            "beautiful",
+            "pfte-batch-1"
+        ],
+        "confidence": 9,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9408255e-7cff-4850-a14f-507479e13ab2"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--4e0fc934-f3b5-4cac-b96d-67a9b07f5d30",
+        "created_by_ref": "identity--0e786dae-b136-4ba7-b351-ef69bc972a18",
+        "created": "2021-06-18T19:47:33.24655Z",
+        "modified": "2022-04-09T06:27:04.365306Z",
+        "name": "join",
+        "description": "Ever themselves fight quality near behind least collection.",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "require",
+                "description": "One office another position however close.",
+                "url": "http://silva-walker.com/"
+            },
+            {
+                "source_name": "local",
+                "description": "Notice also affect partner.",
+                "url": "http://cruz.com/",
+                "external_id": "fqfiMsmRilbhyb"
+            },
+            {
+                "source_name": "new",
+                "description": "International arm modern ok avoid skill.",
+                "url": "http://www.franklin.com/",
+                "hashes": {
+                    "MD5": "40672637348daabd134a8d6bb4609e84",
+                    "SHA-1": "f32e6c78184aec479e7628e1307e03822b7de95c",
+                    "SHA-256": "83242b5cb3cb7b5ccfba4863deb2150c29717809ed165f91ba9fe576d6180c1b",
+                    "SHA-512": "f6caf381ce6ea012566eb8b08068f408571588b6397d3e62165b726d497948b2a4e75852623197e9192fa2b24911e5798ab16597ea05e76dba62c16c15909b70",
+                    "SHA3-256": "e6345e3d80d114276efb0b0dd732fb1b26d67a71b21bab83b8f8ecfb90707d5b",
+                    "SHA3-512": "e29b9acb31e32a8a4331e1b5663943e0aa64f445935346875e5ba3eb2b793616a24468c265cddf817b6fa7f3a471e4c83dad88c9c04960821c8417e2c7a704a0"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9408255e-7cff-4850-a14f-507479e13ab2"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b2dd4c31-163c-4f8f-982f-a0981221333a",
+        "created_by_ref": "identity--0e786dae-b136-4ba7-b351-ef69bc972a18",
+        "created": "2022-03-29T17:08:46.473207Z",
+        "modified": "2022-10-12T08:49:35.409874Z",
+        "relationship_type": "hosts",
+        "source_ref": "intrusion-set--6e274a3f-41a2-4692-b6d6-abee66c5ee88",
+        "target_ref": "infrastructure--4e0fc934-f3b5-4cac-b96d-67a9b07f5d30",
+        "stop_time": "2021-09-11T08:26:09.914083Z",
+        "confidence": 5,
+        "object_marking_refs": [
+            "marking-definition--9408255e-7cff-4850-a14f-507479e13ab2"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0e786dae-b136-4ba7-b351-ef69bc972a18",
+        "created_by_ref": "identity--0e786dae-b136-4ba7-b351-ef69bc972a18",
+        "created": "2020-12-13T19:36:09.965768Z",
+        "modified": "2021-09-12T18:35:44.422396Z",
+        "name": "Smith Group",
+        "description": "Open-source encompassing protocol",
+        "roles": [
+            "eight",
+            "plan"
+        ],
+        "identity_class": "group",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9408255e-7cff-4850-a14f-507479e13ab2"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--9408255e-7cff-4850-a14f-507479e13ab2",
+        "created": "2021-08-14T01:08:53.416586Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-57e7d098-4c26-4a4d-bfaa-3ee9c5e47adc",
+                "name": "Customer hot subject fight customer",
+                "create_date_time": "2021-08-14T01:08:08.428617Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

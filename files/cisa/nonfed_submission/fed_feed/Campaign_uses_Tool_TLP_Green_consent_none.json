@@ -1,0 +1,189 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--5e11eed5-0f90-4b65-9626-787fcf85998d",
+        "created_by_ref": "identity--98884234-a9e5-46a5-bf26-d9c7616c4a16",
+        "created": "2020-09-13T06:39:36.611689Z",
+        "modified": "2021-08-14T01:08:20.602361Z",
+        "name": "myself",
+        "aliases": [
+            "model",
+            "all",
+            "me",
+            "tough",
+            "person"
+        ],
+        "last_seen": "2020-11-20T23:17:04.206504Z",
+        "objective": "Particular probably all option able baby.",
+        "labels": [
+            "gas",
+            "pfte-batch-1"
+        ],
+        "confidence": 89,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--38c43d33-5cd9-45a8-9864-5bd75cc80a27"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--f226720e-09e4-49d0-83eb-b42c9cf15610",
+        "created_by_ref": "identity--98884234-a9e5-46a5-bf26-d9c7616c4a16",
+        "created": "2022-07-14T14:58:35.389193Z",
+        "modified": "2022-11-20T05:40:34.283577Z",
+        "name": "current",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "finally",
+            "many",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--38c43d33-5cd9-45a8-9864-5bd75cc80a27"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--6de53477-a3d1-4114-8d23-f091313357ea",
+        "created_by_ref": "identity--98884234-a9e5-46a5-bf26-d9c7616c4a16",
+        "created": "2022-05-15T12:44:21.670985Z",
+        "modified": "2022-07-08T15:32:15.694452Z",
+        "relationship_type": "uses",
+        "description": "Game allow maybe today less score. Kind evidence anything seven name.",
+        "source_ref": "campaign--5e11eed5-0f90-4b65-9626-787fcf85998d",
+        "target_ref": "tool--f226720e-09e4-49d0-83eb-b42c9cf15610",
+        "start_time": "2020-08-29T03:32:55.297812Z",
+        "object_marking_refs": [
+            "marking-definition--38c43d33-5cd9-45a8-9864-5bd75cc80a27"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--38c43d33-5cd9-45a8-9864-5bd75cc80a27",
+        "created_by_ref": "identity--98884234-a9e5-46a5-bf26-d9c7616c4a16",
+        "created": "2021-08-14T01:08:20.601678Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3d6ad3e0-0112-4a6d-8546-447c0e169799",
+                "name": "Space side determine future",
+                "create_date_time": "2021-08-14T01:08:08.419249Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--98884234-a9e5-46a5-bf26-d9c7616c4a16",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-06-27T19:16:00.005471Z",
+        "modified": "2023-01-25T00:19:41.830435Z",
+        "name": "WithWhoBecome",
+        "description": "Reverse-engineered attitude-oriented pricing structure",
+        "contact_information": "681 Glenda Spurs Suite 820\nDonnamouth, IA 30823",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 73,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "blood",
+                "description": "Wall practice exist early chair talk although.",
+                "hashes": {
+                    "MD5": "1962bc188ae4f71f6449fb2671348d49",
+                    "SHA-1": "cb81b499dfae57bf014d9f18dda7fa86756aa7da",
+                    "SHA-256": "97f9db4fb72f481d2b4bfb2621fe9722371285fe2333053a7d8d0955ef169f11",
+                    "SHA-512": "2028b0baeaf7cecee57369967ba8c6b94d7207e8e47a3721b27d2d06ec11545d46d9534d5a65f78017e80ee7f5be4f8d9ba48d33f66762e86d5ccf4033a1da99",
+                    "SHA3-256": "e64776b08a475cae2838e618d895de3dfdf9808d8553f13a2e2229426df71ffe",
+                    "SHA3-512": "cdad82d50ef7f094646ada4aa14a575de0281359e00300c365e20b117999966c5c4aee17be6c3f49e2b3e1d3558fa7d2f5c839cbbe87657d5535a8324e0badc5"
+                },
+                "external_id": "lFsbBxVDu"
+            },
+            {
+                "source_name": "simply",
+                "description": "Natural event son seven carry free candidate.",
+                "hashes": {
+                    "MD5": "d2ce32b6b2d6a49f7913d7e136eaf71e",
+                    "SHA-1": "17129ad9d3591a0d44007e68970e3033ba6461ca",
+                    "SHA-256": "7f284667fc960154b826a5cfaf4d13c301756d1e39b257cbe898a04b127b31ac",
+                    "SHA-512": "c8e5b67f7c5d827c44098b18f3b6ca633bcb2f3708556f5edea0f6b6749bf9b648b0a292d43e10038dcd191ecb92d65406273cb458ebc87bfa082826edd9084f",
+                    "SHA3-256": "2469ca544e23c4b5b0a8c728b4a0012914e044e75f129a3db0aaaba3078578b5",
+                    "SHA3-512": "8e2fea03c9b6e3f6a27b922a1e2f255e11a8546763cd32dbff19aa06082c90f39f08437df25777ecbcc8d01543cb4fa8e1c98b7f13b5e7cfb26f68bab738bba5"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--38c43d33-5cd9-45a8-9864-5bd75cc80a27"
+        ]
+    }
+]

@@ -1,0 +1,187 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--c214e15d-59e3-4338-be6f-970bd5a4238e",
+        "created_by_ref": "identity--d4de06f5-18c3-466e-964f-d522bf89ca49",
+        "created": "2021-06-28T00:42:02.143307Z",
+        "modified": "2021-08-14T01:08:56.723676Z",
+        "name": "case",
+        "aliases": [
+            "eye",
+            "close",
+            "sea",
+            "economy"
+        ],
+        "goals": [
+            "Lose company trouble concern.",
+            "Eye form nation address.",
+            "Bag after note building ten property."
+        ],
+        "primary_motivation": "personal-gain",
+        "confidence": 97,
+        "object_marking_refs": [
+            "marking-definition--4d6e391c-cb0c-457b-bf44-bc0d8cc01fd5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--b0466f78-a526-4753-982b-e016e0798954",
+        "created_by_ref": "identity--d4de06f5-18c3-466e-964f-d522bf89ca49",
+        "created": "2022-04-26T16:12:25.679145Z",
+        "modified": "2023-04-18T03:17:44.188206Z",
+        "name": "uvkDp",
+        "description": "Self-enabling empowering website",
+        "latitude": 43.98497033533792,
+        "longitude": -86.40200154603846,
+        "precision": 72.66572139069302,
+        "country": "Serbia",
+        "city": "East Tammystad",
+        "postal_code": "85159",
+        "confidence": 63,
+        "object_marking_refs": [
+            "marking-definition--4d6e391c-cb0c-457b-bf44-bc0d8cc01fd5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--90bf42e8-e993-45a0-9e82-47e10ac9f445",
+        "created_by_ref": "identity--d4de06f5-18c3-466e-964f-d522bf89ca49",
+        "created": "2021-12-29T15:06:50.34341Z",
+        "modified": "2022-05-27T14:45:34.709387Z",
+        "relationship_type": "targets",
+        "description": "One return reduce popular song current their. Civil dark near those.",
+        "source_ref": "intrusion-set--c214e15d-59e3-4338-be6f-970bd5a4238e",
+        "target_ref": "location--b0466f78-a526-4753-982b-e016e0798954",
+        "start_time": "2021-03-13T02:11:50.161213Z",
+        "confidence": 44,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--4d6e391c-cb0c-457b-bf44-bc0d8cc01fd5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d4de06f5-18c3-466e-964f-d522bf89ca49",
+        "created_by_ref": "identity--d4de06f5-18c3-466e-964f-d522bf89ca49",
+        "created": "2022-07-03T19:21:08.647506Z",
+        "modified": "2023-02-03T12:38:58.97346Z",
+        "name": "Mccullough-Jenkins",
+        "roles": [
+            "happen"
+        ],
+        "identity_class": "organization",
+        "sectors": [
+            "retail",
+            "education"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 57,
+        "external_references": [
+            {
+                "source_name": "six",
+                "url": "https://www.hardy-larsen.com/",
+                "hashes": {
+                    "MD5": "43b16c7688503be267df89ea276d7996",
+                    "SHA-1": "fe0e46add33cb28053a6ca4132824abadf44e10b",
+                    "SHA-256": "19b56b76eb181ad727431fae11306c375c91ed79d3fff3ca00f65f00b6c62a12",
+                    "SHA-512": "6559860e9221e85bd41e2482f1f28f2f943e7a62eb96e6b352ac2df473534b52362d4d0ab7d4f1a68affe79894d1e4fbf5ed14e0d5b6db0209faf5c0773b8595",
+                    "SHA3-256": "6721b724ca10cf1af4ca8888bde32c9794928aa7c04ac6e18e8c8d61de1fd758",
+                    "SHA3-512": "cc58f4ab281074c7dd4c28ca9e92db9f691461bc7dbc9e0ba2bf6ef73119afd22d40bc75ad4849f984333cea9d1768235087cdf1738dd3508ed4f217178dee1c"
+                },
+                "external_id": "cSZBGrBNeH"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4d6e391c-cb0c-457b-bf44-bc0d8cc01fd5"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--4d6e391c-cb0c-457b-bf44-bc0d8cc01fd5",
+        "created": "2021-08-14T01:08:56.723052Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fadf816-7ba3-41ea-a52c-2855b3ec9d5a",
+                "name": "Report official major we center outside throughout population",
+                "create_date_time": "2021-08-14T01:08:08.433803Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

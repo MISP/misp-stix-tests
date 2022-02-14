@@ -1,0 +1,151 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--f788f3bd-8d4c-4076-9290-acb3571b519a",
+        "created_by_ref": "identity--3991c22c-c12f-400e-a71f-f6f0a737633a",
+        "created": "2022-01-21T04:34:05.422015Z",
+        "modified": "2022-06-06T04:27:01.601216Z",
+        "name": "different",
+        "last_seen": "2021-06-07T03:07:41.218403Z",
+        "roles": [
+            "director",
+            "infrastructure-architect"
+        ],
+        "goals": [
+            "any",
+            "year",
+            "decide",
+            "let",
+            "other"
+        ],
+        "sophistication": "strategic",
+        "secondary_motivations": [
+            "personal-satisfaction",
+            "organizational-gain",
+            "dominance",
+            "revenge"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "total",
+                "url": "https://www.ware.com/",
+                "external_id": "lKLhuBXjUbAJJscQEE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--0a97e9c7-e13f-4922-b20e-cc15883e6b83",
+        "created_by_ref": "identity--3991c22c-c12f-400e-a71f-f6f0a737633a",
+        "created": "2020-05-02T04:55:17.70837Z",
+        "modified": "2021-08-14T01:09:26.242758Z",
+        "name": "always",
+        "aliases": [
+            "race",
+            "treat",
+            "community",
+            "camera",
+            "add"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "qIxLttCfsPAZUZH",
+                "phase_name": "EpBquJipfIiBq"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "riMOZJDOrXejnthzYo",
+                "phase_name": "ucuNbFnPlw"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "zAUuMMvOEbESkvXMbgI",
+                "phase_name": "SJNXeLpUYavE"
+            }
+        ],
+        "last_seen": "2022-06-26T07:08:00.128328Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--20727d07-797c-4a5d-9418-25b756f6f387",
+        "created_by_ref": "identity--3991c22c-c12f-400e-a71f-f6f0a737633a",
+        "created": "2020-02-28T16:38:51.852448Z",
+        "modified": "2021-08-14T01:09:26.24303Z",
+        "relationship_type": "hosts",
+        "description": "Change year probably full. Site animal recently everything head measure. Support research challenge.",
+        "source_ref": "threat-actor--f788f3bd-8d4c-4076-9290-acb3571b519a",
+        "target_ref": "infrastructure--0a97e9c7-e13f-4922-b20e-cc15883e6b83",
+        "stop_time": "2021-10-01T01:20:57.842863Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3991c22c-c12f-400e-a71f-f6f0a737633a",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-05-09T13:30:13.634296Z",
+        "modified": "2022-07-12T06:32:49.359885Z",
+        "name": "WonderHealthNational",
+        "description": "Exclusive cohesive algorithm",
+        "identity_class": "organization",
+        "sectors": [
+            "commercial",
+            "manufacturing"
+        ],
+        "contact_information": "768 Mary Mill Apt. 584\nWilliamsshire, OK 19480",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 35,
+        "external_references": [
+            {
+                "source_name": "growth",
+                "description": "Stay power address team argue."
+            },
+            {
+                "source_name": "baby",
+                "description": "Thought low model sport individual where degree.",
+                "hashes": {
+                    "MD5": "cee8947c3f5b1345233d9fb1713b9f9d",
+                    "SHA-1": "ae6968ea7f9eeb8ad43cd3523a57b076b21c53f0",
+                    "SHA-256": "98871539703785256d9c93194f5030576431cc8129996c8f808f6cef1a3e2b14",
+                    "SHA-512": "77ed3ad1ae66f4dbabc6bb821fff0bdeeb153eb934b939b3362c13eacb2264f26a74cc161197f229a7c1b5753c4a91deebd41b7e2b3a8d3b4742ed0349807c52",
+                    "SHA3-256": "bbd7fe0c7af2e9626b881af2a90ed21baea3e17acdd2a15870a0845f959c47ac",
+                    "SHA3-512": "623fb6d40237415f39618c199a323c642dbff372134625614fd9d5996d8dd66d56c0c88334973629639274d6c038e3f2a3dfefcf99107074708d54c82cff2aad"
+                },
+                "external_id": "EVvwjSdlMhDkn"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

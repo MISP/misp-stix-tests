@@ -1,0 +1,231 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--4ff587ad-cb62-4f48-b506-fd7651deeb78",
+        "created_by_ref": "identity--6fb59e16-7864-4f7f-afe7-b7b655089968",
+        "created": "2021-03-15T23:29:09.611151Z",
+        "modified": "2021-12-20T11:15:58.372747Z",
+        "indicator_types": [
+            "attribution",
+            "unknown",
+            "attribution",
+            "benign"
+        ],
+        "pattern": "([network-traffic:protocols[*] NOT = 'ipv4' AND (network-traffic:src_port = 10652)]) OR [domain-name:value NOT = 'williams.net'] START t'2021-01-13T19:09:46.81867Z' STOP t'2021-11-10T05:50:52.393926Z'",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-02-18T17:29:23.299343Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "labels": [
+            "do",
+            "sort",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--ac9d7a05-675d-4c26-9670-588eab5c4c82"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--a9c5fb1b-fbc5-4988-9de6-6cccb0202cdf",
+        "created_by_ref": "identity--6fb59e16-7864-4f7f-afe7-b7b655089968",
+        "created": "2021-09-27T02:49:00.34402Z",
+        "modified": "2022-07-18T14:03:32.30556Z",
+        "first_observed": "2021-07-24T09:15:16.653588Z",
+        "last_observed": "2022-04-09T06:29:28.801201Z",
+        "number_observed": 692013740,
+        "objects": {
+            "ipv6-addr--7ed6c2e5-778a-488c-8be9-decfadaf4249": {
+                "type": "ipv6-addr",
+                "spec_version": "2.1",
+                "id": "ipv6-addr--7ed6c2e5-778a-488c-8be9-decfadaf4249",
+                "value": "a660:509c:a1c:b734:513d:f4b7:1da6:df84"
+            },
+            "network-traffic--ea578244-52eb-432f-8db5-c4547dd10c36": {
+                "type": "network-traffic",
+                "spec_version": "2.1",
+                "id": "network-traffic--ea578244-52eb-432f-8db5-c4547dd10c36",
+                "end": "2021-03-20T09:53:44.906803Z",
+                "is_active": false,
+                "src_ref": "ipv6-addr--7ed6c2e5-778a-488c-8be9-decfadaf4249",
+                "dst_port": 36609,
+                "protocols": [
+                    "ipv4",
+                    "tcp",
+                    "http"
+                ],
+                "src_byte_count": 910401,
+                "dst_packets": 642933,
+                "defanged": true
+            }
+        },
+        "confidence": 51,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ac9d7a05-675d-4c26-9670-588eab5c4c82"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--440b0895-e6da-4a9b-bae1-88e5f48d1170",
+        "created_by_ref": "identity--6fb59e16-7864-4f7f-afe7-b7b655089968",
+        "created": "2021-08-06T06:55:24.810022Z",
+        "modified": "2022-02-26T17:45:42.039909Z",
+        "relationship_type": "based-on",
+        "description": "Yard local modern structure. Dog artist hold financial doctor remember allow wife.",
+        "source_ref": "indicator--4ff587ad-cb62-4f48-b506-fd7651deeb78",
+        "target_ref": "observed-data--a9c5fb1b-fbc5-4988-9de6-6cccb0202cdf",
+        "start_time": "2021-04-07T09:07:58.317166Z",
+        "external_references": [
+            {
+                "source_name": "fall",
+                "description": "Series study teach wall.",
+                "url": "http://www.pratt.info/",
+                "hashes": {
+                    "MD5": "99914e0d20d42b333816e714cf14755d",
+                    "SHA-1": "f12f67de4af8663ad714fe606ac6b7472dbaacec",
+                    "SHA-256": "8368d78bd25e76f91faaef103cb98e1831232c7b2f3411d1d823d432e6186b21",
+                    "SHA-512": "ecf501254ae6ea781c30b0e3b84a8fcab8c6063ae36e7f7fe9ae19406a667087a1ab927c0a56d5d27707472573421e7e1db7ab589f9225f308ad58d3cd5d56c0",
+                    "SHA3-256": "a3270117d9bca1e3d25c73c3b9e42098e1946011609e8ceceabfd24d83e172dc",
+                    "SHA3-512": "cb5778e50f509a3e0bf73973a50111b9b01fc925f0e715234397af3d6bba2ccb626423fa7027b3add5073151893c341a78b4aa9d9b5b2e7e84940fe3cdb3d661"
+                },
+                "external_id": "buHkrX"
+            },
+            {
+                "source_name": "among",
+                "description": "Story development seek race senior color.",
+                "url": "https://www.cox.com/",
+                "external_id": "MvdMXp"
+            },
+            {
+                "source_name": "notice",
+                "url": "http://www.phillips.net/",
+                "hashes": {
+                    "MD5": "6617acc5506aae18927f9782291b3a4e",
+                    "SHA-1": "d7a80d8d9ba05026f3a7b35fc5b55bd44a274cf9",
+                    "SHA-256": "5385f4bb3bbe282bce13ecf2ef111854a3d03fcf43cf255376314edcc8c3e90c",
+                    "SHA-512": "6ebf97f57f7c91538da8d47865011e37d162d56c7bb3b799a7f94a92001ce2726a6839020fb494a8f434673eedf88c79a39ae98540172b94ef949f5047de16f5",
+                    "SHA3-256": "3fe022787e67786c7bda6905058f4505cb6fe167d4c6b8b6c92e324f677f77f9",
+                    "SHA3-512": "9495c04aa5f69ae37e9b50cd75b02020a189a0be33d38449d140f2938fe0d3461fe5e421657668696cc7e238bb38d1c007293c6e49276fcad4742150648308f0"
+                },
+                "external_id": "vTBtgw"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ac9d7a05-675d-4c26-9670-588eab5c4c82"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--ac9d7a05-675d-4c26-9670-588eab5c4c82",
+        "created_by_ref": "identity--6fb59e16-7864-4f7f-afe7-b7b655089968",
+        "created": "2021-08-14T01:08:36.368563Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c8895e1e-4ecb-48a8-ba6f-5865a3a3066d",
+                "name": "Development get financial fill light",
+                "create_date_time": "2021-08-14T01:08:08.421416Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.421229Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6fb59e16-7864-4f7f-afe7-b7b655089968",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-19T20:27:11.736041Z",
+        "modified": "2021-12-13T15:38:04.291689Z",
+        "name": "Wilson-Reed",
+        "description": "Organic radical algorithm",
+        "roles": [
+            "his"
+        ],
+        "identity_class": "unknown",
+        "contact_information": "8538 Chase Squares Suite 936\nDaniellestad, VA 75679",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 9,
+        "external_references": [
+            {
+                "source_name": "build",
+                "url": "https://clark.com/",
+                "external_id": "euySnbojkuVksmK"
+            },
+            {
+                "source_name": "agreement",
+                "url": "http://www.gross.info/",
+                "external_id": "wrimLCPnVCCahCaYN"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ac9d7a05-675d-4c26-9670-588eab5c4c82"
+        ]
+    }
+]

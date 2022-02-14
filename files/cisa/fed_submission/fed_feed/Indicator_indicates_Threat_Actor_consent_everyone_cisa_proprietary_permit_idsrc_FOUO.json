@@ -1,0 +1,250 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--ee090489-3941-4b92-93c5-a50e538f6045",
+        "created_by_ref": "identity--3e57b4c2-709a-45a7-833b-1424fcdaa784",
+        "created": "2020-12-08T08:17:42.359458Z",
+        "modified": "2021-08-14T01:08:34.59238Z",
+        "name": "talk",
+        "pattern": "([software:name > 'EDFPna']) OR [(process:cwd <= '/whose/like.pptx') OR email-message:content_type <= 'application/xhtml+xml'] OR [user-account:is_privileged NOT = true]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-08-23T01:34:00.075378Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "smile",
+            "image",
+            "protect",
+            "body",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "before",
+                "url": "http://johnson-davis.com/",
+                "external_id": "NUDWnTgBq"
+            },
+            {
+                "source_name": "wear",
+                "description": "Step full baby tax Congress life develop.",
+                "url": "https://www.walsh.com/",
+                "external_id": "ukzhVBYWbZfMppVy"
+            },
+            {
+                "source_name": "play",
+                "url": "http://thompson.com/",
+                "external_id": "ywrhXFhJ"
+            },
+            {
+                "source_name": "ok",
+                "url": "https://richard.net/",
+                "hashes": {
+                    "MD5": "bb4161860fc472dec8ca18755c90f3c1",
+                    "SHA-1": "a12e1e11ed83de8358fd2f946979790d2dd9eabe",
+                    "SHA-256": "bdcc1e322321ff30526ae73817dcf2fb8af5c2daeb78e86791227e3df9af656d",
+                    "SHA-512": "95feb91cbbf36faf2714e4b51f851a0912696774ee5fcc21c1608c34b13182ea475bf573d9f9b7bf3b1e3daf84a8a4f195b3822e73fd745c822187b79c5828cd",
+                    "SHA3-256": "ab1ba6698d80b207f604ce6ae9f94902eb8c6ad55a31cf4dab8b243d581b5504",
+                    "SHA3-512": "34f099a1e6fb8b26fded5fd1550e64800403ae84d34a3790316736db620e1d9db37088033d242afc1dda01e072c559487a4e8c658c3cffb5d718f38f0add6404"
+                },
+                "external_id": "BcWXOHJDLBgJQwbeRLs"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a0d763dd-ccab-4325-add5-25145db19456"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--62831dca-1ae5-462b-9a75-fa05786be616",
+        "created_by_ref": "identity--3e57b4c2-709a-45a7-833b-1424fcdaa784",
+        "created": "2020-11-04T12:51:07.610561Z",
+        "modified": "2021-08-14T01:08:34.595334Z",
+        "name": "general",
+        "description": "Wonder development reduce send.",
+        "threat_actor_types": [
+            "insider-disgruntled"
+        ],
+        "aliases": [
+            "finally",
+            "world"
+        ],
+        "roles": [
+            "malware-author"
+        ],
+        "goals": [
+            "summer"
+        ],
+        "sophistication": "strategic",
+        "resource_level": "club",
+        "primary_motivation": "notoriety",
+        "secondary_motivations": [
+            "dominance",
+            "organizational-gain",
+            "coercion",
+            "revenge"
+        ],
+        "labels": [
+            "agency",
+            "interesting",
+            "charge",
+            "add",
+            "former",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a0d763dd-ccab-4325-add5-25145db19456"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--647d1393-9f85-4117-8a4d-c7437be5771e",
+        "created_by_ref": "identity--3e57b4c2-709a-45a7-833b-1424fcdaa784",
+        "created": "2021-06-15T09:02:10.847872Z",
+        "modified": "2021-11-12T11:57:39.76894Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--ee090489-3941-4b92-93c5-a50e538f6045",
+        "target_ref": "threat-actor--62831dca-1ae5-462b-9a75-fa05786be616",
+        "labels": [
+            "they",
+            "series",
+            "land",
+            "offer",
+            "pfte-batch-1"
+        ],
+        "confidence": 96,
+        "object_marking_refs": [
+            "marking-definition--a0d763dd-ccab-4325-add5-25145db19456"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3e57b4c2-709a-45a7-833b-1424fcdaa784",
+        "created_by_ref": "identity--3e57b4c2-709a-45a7-833b-1424fcdaa784",
+        "created": "2022-08-03T02:34:10.706697Z",
+        "modified": "2022-11-29T19:56:38.530208Z",
+        "name": "Smith, Martinez and Watkins",
+        "roles": [
+            "contain",
+            "operation",
+            "set"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "infrastructure",
+            "energy",
+            "government-local"
+        ],
+        "contact_information": "8385 Rachel Light\nJohnstonside, PA 09612",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 8,
+        "external_references": [
+            {
+                "source_name": "year",
+                "url": "http://www.davis-david.com/",
+                "hashes": {
+                    "MD5": "75f2de222ff7c3be99b36610ef425ed6",
+                    "SHA-1": "5f505b1a2492c8de0c443f041e2d2de6ab99ac4b",
+                    "SHA-256": "e3704140d9039574131dc2270305aa321c9bd1db0920aee31e0b9c128dad9112",
+                    "SHA-512": "757881bb1354277d30dd36dd21035e93ee3c8e954dd68b72e14007caf686d3122be6c05d521d4058cd176509d68fefb558c713c339d2a3311d48599403ff7f7a",
+                    "SHA3-256": "1fd0a4658d9260cadc2065b26e4266214740192baf6cf927b92a204560afad08",
+                    "SHA3-512": "d36e8107d1f4a34edbf50f934e82f6b223d440042f1b54941b0210d6003822caaf7c23d4be73615b7d18c40cd40a6b9e8c06481812df2b5236379848c591b463"
+                },
+                "external_id": "KRfHkTqQLDWHMuQZgPCY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a0d763dd-ccab-4325-add5-25145db19456"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--a0d763dd-ccab-4325-add5-25145db19456",
+        "created": "2021-08-14T01:08:34.590977Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fadf816-7ba3-41ea-a52c-2855b3ec9d5a",
+                "name": "Report official major we center outside throughout population",
+                "create_date_time": "2021-08-14T01:08:08.433803Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,85 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--cc32a2ef-f25b-4a91-9350-0010d655737a",
+        "created_by_ref": "identity--9ea6398d-7333-44d4-bf2b-c4ce632c3998",
+        "created": "2021-12-13T09:32:51.127787Z",
+        "modified": "2022-11-28T09:10:27.525309Z",
+        "name": "subject",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f3b688af-8097-4150-b12c-e667dad78407",
+        "created_by_ref": "identity--9ea6398d-7333-44d4-bf2b-c4ce632c3998",
+        "created": "2022-08-12T00:14:11.778288Z",
+        "modified": "2022-12-12T16:48:39.396453Z",
+        "name": "Palmer Ltd",
+        "description": "Implemented needs-based approach",
+        "roles": [
+            "together",
+            "national",
+            "laugh",
+            "section"
+        ],
+        "identity_class": "organization",
+        "contact_information": "2741 Christian Junctions Suite 610\nNorth Scott, AZ 82657",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 29,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--468260d9-9bd9-40cb-818a-10d1f56af4ac",
+        "created_by_ref": "identity--9ea6398d-7333-44d4-bf2b-c4ce632c3998",
+        "created": "2020-10-29T00:40:11.359686Z",
+        "modified": "2021-08-14T01:08:09.609966Z",
+        "relationship_type": "targets",
+        "description": "Special leave tonight edge couple woman institution. Idea rest skin. New serve figure tell edge relate without. Brother friend beautiful year impact.",
+        "source_ref": "attack-pattern--cc32a2ef-f25b-4a91-9350-0010d655737a",
+        "target_ref": "identity--f3b688af-8097-4150-b12c-e667dad78407",
+        "stop_time": "2021-10-19T04:45:29.790946Z",
+        "labels": [
+            "visit",
+            "family",
+            "improve",
+            "pfte-batch-1"
+        ],
+        "confidence": 98,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--9ea6398d-7333-44d4-bf2b-c4ce632c3998",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-05T18:51:01.855632Z",
+        "modified": "2022-07-27T05:47:34.694194Z",
+        "name": "Meyer-Richards",
+        "description": "Robust maximized algorithm",
+        "identity_class": "group",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 15,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

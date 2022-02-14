@@ -1,0 +1,204 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--48899d2a-8c61-45fb-96e9-5f99a4f52cca",
+        "created_by_ref": "identity--04ebde19-408f-4862-baf6-df78c227467f",
+        "created": "2020-09-27T02:05:00.636552Z",
+        "modified": "2021-08-14T01:08:23.604199Z",
+        "name": "think",
+        "description": "Collection subject beautiful oil.",
+        "confidence": 18,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f91a619e-d7c5-43cb-a924-4bacca95c8e8"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--e94200a1-aee4-4853-8267-417d70b8ddfc",
+        "created_by_ref": "identity--04ebde19-408f-4862-baf6-df78c227467f",
+        "created": "2021-02-04T04:48:47.397331Z",
+        "modified": "2021-08-14T01:08:23.604804Z",
+        "description": "Fine at expect avoid card.",
+        "pattern": "[mac-addr:value <= '7d:f7:d0:58:69:8d'] WITHIN 8 SECONDS",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-02-18T12:25:51.45464Z",
+        "valid_until": "2021-08-19T05:14:07.110517Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "confidence": 27,
+        "external_references": [
+            {
+                "source_name": "suggest",
+                "url": "https://www.kennedy.com/",
+                "external_id": "dYSLriSTu"
+            },
+            {
+                "source_name": "vote",
+                "url": "https://www.good-austin.org/",
+                "hashes": {
+                    "MD5": "552c8a78e0915e228ca72caad68a5841",
+                    "SHA-1": "779644fb7c8000e9a886c08526ad07c8a2ea9ebb",
+                    "SHA-256": "bcae862359a8452cb2931295bee5f294c37c1ecec6551096e7305afabc470152",
+                    "SHA-512": "f5b66ccb6fd145b6dd727a0d29a11316cf3a6cde770713ba2faded4640c77c3588f6655606f0aae73ef5c8069b50c6f5d9f531fc37c0d9bbe7d28f66a543ceff",
+                    "SHA3-256": "b7d29656de16f7908d84618dedadee2691d8b850c8c77aadfe0d9d21edd2b273",
+                    "SHA3-512": "61c137f7c2c4213247b6ba5fe99fefc66cbdf9093b0dbf9648e27a39dd33c10d873e87b6a93dc133b4cf5c2b80fcb2b0bace1c2493e5cdf374a32be0e9c28c55"
+                },
+                "external_id": "PmduCMtOegrtycmlAX"
+            },
+            {
+                "source_name": "peace",
+                "description": "Soldier unit culture hold.",
+                "hashes": {
+                    "MD5": "fc0bfb9292f8db0452e02918d2921c5b",
+                    "SHA-1": "83918a50fc7f2197ab8b5c2640f8fbb0a4d9eecf",
+                    "SHA-256": "1ebdd3c250ae53409a23661da58a54e2f628f297a5fb67b069cc4f5dce18ace9",
+                    "SHA-512": "6f243ff2530391162b7b909bae15582b5b65d827609a5c87086055046a3957888817e885c369eff9bf93c6c7c683e0da783daa1fcb4991ba253b948cab81f583",
+                    "SHA3-256": "629210676684a4ef13cdf2cc43893d600f53185f074b8aa487f7a48cafe156bc",
+                    "SHA3-512": "695e59fc7156f21dc9904494d1ab9c2b81b422b59041cf74653809d3bbde8a3feff6a23d6ba98eb962c315e57709ae568604300155e40b4f33f3080baa810c17"
+                },
+                "external_id": "JnMUj"
+            },
+            {
+                "source_name": "nation",
+                "url": "http://www.morris.com/",
+                "external_id": "YhOYvWlxoGaEaGHDbj"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f91a619e-d7c5-43cb-a924-4bacca95c8e8"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--baf8815e-19a8-41a7-8010-47b15bd90035",
+        "created_by_ref": "identity--04ebde19-408f-4862-baf6-df78c227467f",
+        "created": "2021-08-05T06:45:31.795225Z",
+        "modified": "2021-11-15T12:59:02.550191Z",
+        "relationship_type": "mitigates",
+        "description": "Price street each Mrs avoid young car. Week ahead each south. Question he player finish star.",
+        "source_ref": "course-of-action--48899d2a-8c61-45fb-96e9-5f99a4f52cca",
+        "target_ref": "indicator--e94200a1-aee4-4853-8267-417d70b8ddfc",
+        "confidence": 34,
+        "object_marking_refs": [
+            "marking-definition--f91a619e-d7c5-43cb-a924-4bacca95c8e8"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--b36d4d62-c9da-462f-91b1-813a6cffb313",
+        "created_by_ref": "identity--04ebde19-408f-4862-baf6-df78c227467f",
+        "created": "2021-09-23T01:46:37.499434Z",
+        "modified": "2022-07-05T21:33:48.716399Z",
+        "context": "suspicious-activity",
+        "object_refs": [
+            "course-of-action--48899d2a-8c61-45fb-96e9-5f99a4f52cca",
+            "indicator--e94200a1-aee4-4853-8267-417d70b8ddfc",
+            "relationship--baf8815e-19a8-41a7-8010-47b15bd90035"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f91a619e-d7c5-43cb-a924-4bacca95c8e8"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--04ebde19-408f-4862-baf6-df78c227467f",
+        "created_by_ref": "identity--04ebde19-408f-4862-baf6-df78c227467f",
+        "created": "2021-11-13T00:08:16.976274Z",
+        "modified": "2022-10-23T19:33:54.764895Z",
+        "name": "Rivera Group",
+        "roles": [
+            "several",
+            "fall",
+            "fight",
+            "land",
+            "news"
+        ],
+        "identity_class": "group",
+        "contact_information": "55923 Santos Estates Suite 052\nLake Barbarafurt, NH 02066",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f91a619e-d7c5-43cb-a924-4bacca95c8e8"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--f91a619e-d7c5-43cb-a924-4bacca95c8e8",
+        "created": "2021-08-14T01:08:23.60363Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1946efc8-a2e0-46a4-bb9a-691cbe16f041",
+                "name": "Home politics letter yes consider",
+                "create_date_time": "2021-08-14T01:08:08.424111Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

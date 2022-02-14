@@ -1,0 +1,208 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--0bae7a52-bbfd-426f-b8bf-240faa344f3c",
+        "created_by_ref": "identity--4786a581-b7bd-4e9c-8b9d-e448f587b350",
+        "created": "2022-03-24T00:54:42.967983Z",
+        "modified": "2022-09-29T22:31:47.672597Z",
+        "name": "many",
+        "pattern": "([email-message:received_lines[0] = 'PxEcqOeVTrDrUDwpC']) FOLLOWEDBY [(autonomous-system:rir = 'Kline-Green') OR windows-registry-key:defanged = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-10-01T15:15:19.062215Z",
+        "valid_until": "2022-01-13T14:08:24.537731Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "VOijYdwkz",
+                "phase_name": "EyJRYUlUlTnXamv"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "labels": [
+            "improve",
+            "forward",
+            "bag",
+            "song",
+            "story",
+            "pfte-batch-1"
+        ],
+        "confidence": 24,
+        "external_references": [
+            {
+                "source_name": "foot",
+                "description": "Firm claim wind piece.",
+                "url": "http://www.dunn.com/",
+                "hashes": {
+                    "MD5": "6d40e4e08dd29a9c13a0326c02ee7b0c",
+                    "SHA-1": "0dac66dd5e1ed751ad7f79dfcab1d40156ace653",
+                    "SHA-256": "266fb1c895911eb4fd95e7ff26661ff61692cddfc715f013e1f2ab336c794e2b",
+                    "SHA-512": "fdee9897f68049cb07df3bbc37443fb4558648bd790b63dc8a17fe606813fccad3958de62c4b52f16db645dba7814515fe34c0ddc783a20865c48f61d142bfcc",
+                    "SHA3-256": "3c11141c6942d99645b03563ec35fe76195140b2cd41bf003d32aba3d284b45c",
+                    "SHA3-512": "8ad3f2b5bb6365df14e7aba405b755a49ca12755a210e958862c5d374426aaf9005ed2bbe0b7c0c76842aef53e4589ed9612319d4f6c54d9cd95a6c7d0c0d45b"
+                }
+            },
+            {
+                "source_name": "be",
+                "external_id": "WMwANkZLIHiMRWZgb"
+            },
+            {
+                "source_name": "role",
+                "description": "Simple three too bed.",
+                "url": "https://www.reyes-cantu.com/",
+                "external_id": "hRVQDHODccJEaz"
+            },
+            {
+                "source_name": "best",
+                "description": "Own write time man.",
+                "url": "http://martin.com/",
+                "hashes": {
+                    "MD5": "acbd5c9a12c702a7b8dd1ab0b8a2f16c",
+                    "SHA-1": "5d1fe0e1529efcd6b35300a10ecd3ecd01d270c8",
+                    "SHA-256": "df741a0f6aeca231a454cb566d62d208b6a95af7a87cc6a4fdb10c6491d149ea",
+                    "SHA-512": "64f3cf3474223d706bca76ed9cf6de60a5c1d5bb61e1680cbb3b800ae8d7cb4d535cc4f6598d5a0385a742d98d83ac0d88757af9398ca5986da62743defcd4b8",
+                    "SHA3-256": "93b752f604856432e8e41166bf06c488138b6f7ac827cec3f9768b829e1ccd4f",
+                    "SHA3-512": "90623ce1f96238ad1bbbbcdb4a6823ea6aef4256f9596773a288dd7aec996cc41dc099a57c3f3aa9d5b3dd19ba2b55f2f213706155bf50cb933a1ed0b38e264a"
+                },
+                "external_id": "DHEevDbuTFK"
+            },
+            {
+                "source_name": "education",
+                "external_id": "jrGSeV"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--ce728224-6c60-4177-8c05-20ed205f4e33",
+        "created_by_ref": "identity--4786a581-b7bd-4e9c-8b9d-e448f587b350",
+        "created": "2020-02-29T06:19:26.122265Z",
+        "modified": "2021-08-14T01:08:30.633661Z",
+        "name": "total",
+        "description": "Just very fund institution.",
+        "infrastructure_types": [
+            "hosting-malware",
+            "unknown",
+            "reconnaissance",
+            "amplification",
+            "hosting-target-lists"
+        ],
+        "aliases": [
+            "billion",
+            "part"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "kOPdcTZC",
+                "phase_name": "XyAUZgxBkIlGBPNb"
+            },
+            {
+                "kill_chain_name": "bKPadbInUdXirksCquZQ",
+                "phase_name": "ODRuYqpAjOAnWghyiJlz"
+            }
+        ],
+        "last_seen": "2021-08-27T12:57:09.488547Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--de0ab564-8fd9-48db-91d5-c1f53e1a9e10",
+        "created_by_ref": "identity--4786a581-b7bd-4e9c-8b9d-e448f587b350",
+        "created": "2021-07-06T06:48:44.587126Z",
+        "modified": "2022-03-21T20:24:50.079602Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--0bae7a52-bbfd-426f-b8bf-240faa344f3c",
+        "target_ref": "infrastructure--ce728224-6c60-4177-8c05-20ed205f4e33",
+        "stop_time": "2021-04-04T21:33:23.041331Z",
+        "labels": [
+            "believe",
+            "laugh",
+            "include",
+            "especially",
+            "chair",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "cost",
+                "url": "http://www.stone-bell.net/",
+                "external_id": "JUTlcMfiqwKYjWIIjk"
+            },
+            {
+                "source_name": "today",
+                "hashes": {
+                    "MD5": "3367fb8db532e8b47e1208832d8aa194",
+                    "SHA-1": "d5dcb93e83d5b5688e9f30d03b28c971da222800",
+                    "SHA-256": "3040e8d0896d736fc7f8e4f92a5dffe051db630c4aa308012d1f925d8d91418a",
+                    "SHA-512": "36b1b252dbbff273c6ea81f4b8bebb54dcaa6ec81faf3e2289643d8f198715e2f5e87f73cc618e8cfab725047fa1cb11603bd2561aecef1d2741ff10504334c9",
+                    "SHA3-256": "fb9f17fce4d55418d150e88e553a8d44f9d3d1b836d71c19bd1213df53168651",
+                    "SHA3-512": "b5de42786d4f39818d7b41a5bd5b1ff2ceffd16d6f55a4b98f86c23f77e91e90cd4916f598202a82bfab81fb5c4ae8726eab1f5536cbfc4532e63413683c2733"
+                },
+                "external_id": "iGMYwtoDEfu"
+            },
+            {
+                "source_name": "out",
+                "description": "Might nor challenge center.",
+                "hashes": {
+                    "MD5": "1369156b2e0198519a889ac367162974",
+                    "SHA-1": "41d34ad2c4add3cb584cbdbcf07eb39d56eb57a4",
+                    "SHA-256": "37b8cf2bb98deb1e362e993b0a32c69bd3231b388348c8b45a9fc50fbc1b6223",
+                    "SHA-512": "eb19f235c7f3067de4acf881a0248a52334ba90bb79987c397dfdea146e73d96e52d1434ea8281e9e74a2139bb19e4dbc31cf0437bccee0a223214fefaaa3002",
+                    "SHA3-256": "c4b93c537613b00dc76f423341d261196e1f5e830379c9127378aaf0c1b69fa0",
+                    "SHA3-512": "c5a04aa5dcb9aeff3d791ab0561a4a0c286f74683f11a11313f8c474c2854ff8f65b6700b0110e68340196bcb4fd66d8dea794a4351ed07a588894833d92b41c"
+                },
+                "external_id": "mPBTBHEMGjqeQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4786a581-b7bd-4e9c-8b9d-e448f587b350",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-06-07T23:36:03.631135Z",
+        "modified": "2022-10-06T19:06:51.36542Z",
+        "name": "Hernandez, Scott and Martinez",
+        "description": "Horizontal bifurcated portal",
+        "identity_class": "individual",
+        "contact_information": "0012 Corey Skyway Suite 409\nEast Amandamouth, MN 32904",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "determine",
+                "description": "Matter bad idea hair ball our record modern.",
+                "url": "https://www.howard.net/",
+                "hashes": {
+                    "MD5": "95b3d0b0fcdc31da2b5d2c727f471b91",
+                    "SHA-1": "e0de0f1faa98da32bcfccc09f5f52be4ce0aec1e",
+                    "SHA-256": "a28e17369bc6144f39cbc1489f98f52704eeb8d85cdf6ded003fd8cb18c37f58",
+                    "SHA-512": "f5c5cdbd550c811cebad0212ac5d96e19b3c1e0587a84e1f861c55caeaaa8f5e3852d4ff702d42b0ff240f76aae8a5fe03b373e50b68a40acdb524b51a1d7d82",
+                    "SHA3-256": "f9d53811d86633f95c07866489c8a2ad5b184c36b95ec6a49e91f124a5bb8c0b",
+                    "SHA3-512": "27e7f81c4f374c94a86a1e463911eb6f0bccb6cba11ce8b4cd76ccc69b707c2a4cfd78e16cdaafc160bdd57ae915bab2523e860a2a6b6312098d4d1d146dfaf0"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

@@ -1,0 +1,104 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--f177070a-6e61-46de-831a-d9ae626d5487",
+        "created_by_ref": "identity--a03bac9d-318f-4502-9960-880448eced23",
+        "created": "2021-07-13T23:47:21.6524Z",
+        "modified": "2021-12-27T05:19:02.782219Z",
+        "name": "budget",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "aoilpfNuw",
+                "phase_name": "raAMEOj"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "rOHCBhV",
+                "phase_name": "oCAtIJq"
+            }
+        ],
+        "labels": [
+            "sound",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--a622f17d-5b2f-4b3a-b570-1432312c7d9d",
+        "created_by_ref": "identity--a03bac9d-318f-4502-9960-880448eced23",
+        "created": "2021-08-18T08:51:20.770129Z",
+        "modified": "2022-06-17T19:31:01.601697Z",
+        "name": "LqtCEqNVNhUo",
+        "latitude": 44.64599996578076,
+        "longitude": 5.490983228397454,
+        "precision": 66.44767199264857,
+        "region": "asia",
+        "country": "Madagascar",
+        "city": "Michealbury",
+        "street_address": "391 Valdez Ramp Suite 581",
+        "postal_code": "54652",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d693e5da-2ea9-43ca-97da-69ffa4cdf94b",
+        "created_by_ref": "identity--a03bac9d-318f-4502-9960-880448eced23",
+        "created": "2020-09-03T12:49:36.149991Z",
+        "modified": "2021-08-14T01:08:10.15651Z",
+        "relationship_type": "targets",
+        "source_ref": "attack-pattern--f177070a-6e61-46de-831a-d9ae626d5487",
+        "target_ref": "location--a622f17d-5b2f-4b3a-b570-1432312c7d9d",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 68,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a03bac9d-318f-4502-9960-880448eced23",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-01-16T05:02:32.528131Z",
+        "modified": "2021-08-14T01:08:10.156771Z",
+        "name": "DiscussionHotMaybe",
+        "description": "Multi-tiered bifurcated throughput",
+        "sectors": [
+            "manufacturing",
+            "financial-services",
+            "communications",
+            "government-regional",
+            "technology"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 54,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

@@ -1,0 +1,316 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--b5db6a42-87a0-4cf3-a138-6eb0f7718ffa",
+        "created_by_ref": "identity--dcf6bce2-550c-4f3d-8861-ed2125d921c7",
+        "created": "2020-12-21T02:58:24.006677Z",
+        "modified": "2021-11-07T05:33:55.555765Z",
+        "name": "begin",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "confidence": 89,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--1a5f81c2-6993-4a0b-8e94-c8d47b59e781"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3275b0e8-1c74-4d41-89f5-2ca0a7d1e019",
+        "created_by_ref": "identity--dcf6bce2-550c-4f3d-8861-ed2125d921c7",
+        "created": "2021-07-15T20:33:06.87983Z",
+        "modified": "2021-12-15T23:53:37.813308Z",
+        "name": "Preston-Cooper",
+        "description": "Monitored directional budgetary management",
+        "roles": [
+            "individual",
+            "determine",
+            "quickly",
+            "understand"
+        ],
+        "identity_class": "individual",
+        "contact_information": "PSC 0292, Box 4141\nAPO AP 59884",
+        "labels": [
+            "future",
+            "parent",
+            "including",
+            "bill",
+            "pfte-batch-1"
+        ],
+        "confidence": 90,
+        "external_references": [
+            {
+                "source_name": "huge",
+                "description": "Weight eye these nature can sit.",
+                "url": "https://www.moore.com/"
+            },
+            {
+                "source_name": "physical",
+                "description": "Movie art provide toward keep one vote."
+            },
+            {
+                "source_name": "nice",
+                "description": "Finish inside although then three.",
+                "url": "https://www.arnold.com/",
+                "hashes": {
+                    "MD5": "0064af3d35b5f614b2a137bea3fc0332",
+                    "SHA-1": "ac43b6db8636654c28cae7d1bfb86e79b14690f0",
+                    "SHA-256": "648ed4c383df4a780d9f158c7181f96189131266dcacadb1009ced0e1c1c90d9",
+                    "SHA-512": "39a46f28dbf17b6bcf338ad4542037be0f1c011f7f4a9e686bce45eeca702802be8d86d8f3b8011228468dccfba803ae89e4ee006912eaa6847f33114c4acfca",
+                    "SHA3-256": "417fdd28330b5bc3ffa22085e004b6f4fa956cd144681f29b048c8a4e8cd3c89",
+                    "SHA3-512": "46088f014ce99458947989ad1e32223244e8a86cfd27de397adb8ef19f672aadc3cfc337397b3cdeee59395337ce19c95461f1c6c0d3573f21b4d75d200c5604"
+                },
+                "external_id": "wOsdJlXHqTw"
+            },
+            {
+                "source_name": "within",
+                "url": "http://ellis.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1a5f81c2-6993-4a0b-8e94-c8d47b59e781"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--0623d1fc-8b30-4932-a1ea-961fb9b310aa",
+        "created_by_ref": "identity--dcf6bce2-550c-4f3d-8861-ed2125d921c7",
+        "created": "2021-10-29T13:53:56.98538Z",
+        "modified": "2022-05-19T01:59:24.333614Z",
+        "relationship_type": "targets",
+        "source_ref": "attack-pattern--b5db6a42-87a0-4cf3-a138-6eb0f7718ffa",
+        "target_ref": "identity--3275b0e8-1c74-4d41-89f5-2ca0a7d1e019",
+        "start_time": "2021-05-09T05:59:01.253767Z",
+        "stop_time": "2021-12-11T03:00:48.958756Z",
+        "labels": [
+            "letter",
+            "a",
+            "pfte-batch-1"
+        ],
+        "confidence": 37,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "open",
+                "url": "http://www.schultz-hancock.org/",
+                "hashes": {
+                    "MD5": "0f7dbfde767d0e8b712c1142bd135f43",
+                    "SHA-1": "5c4e9b13129b79601c6e59d7af9152980389d185",
+                    "SHA-256": "15b580dd2754ef0d95c8eb7b41c03ee28f34696d1458e474d975447068101b76",
+                    "SHA-512": "0fb5f12f05990dc94bd9e78857a581c9927571b778327c036c94e1c3a01077db005abec4a86bd37b30804db9cb9bcbad7576a4ea810df199cf70824ccfcd8044",
+                    "SHA3-256": "96650852e353f710c372a2fa79733f0a976cbe596125656c62f5f4041d43b7f8",
+                    "SHA3-512": "1d7cce5aeffe233a3bf87ab7c6eb7441fa2c0c4338f9aa8388335c4719e671bd94f701ca863d0bd97333cbdbb5affd6daf313a4f0445b679064e7058ce8666ce"
+                },
+                "external_id": "pUUsE"
+            },
+            {
+                "source_name": "project",
+                "description": "Democratic leg truth tax newspaper.",
+                "url": "http://www.lewis-rogers.com/",
+                "hashes": {
+                    "MD5": "c3291f88cd2afa760061ca4f46b8f415",
+                    "SHA-1": "bc4cead36c54a6d4e938dd64502f932fb5103f7e",
+                    "SHA-256": "cb0bbdfb7bd6ea40b312a18cea979c00a7b212e0b40be9b853d9d972a65022b7",
+                    "SHA-512": "afa05823ae97b5caa4e18c81b17f8959062024ff6e3ffaa78cb81e75775858bb6497d6464db11294df0f382ae3d7c2614326fbdc26913898f41adfce59aa4336",
+                    "SHA3-256": "3906128be3b5dc813f2c067ab9fa917d02d99b49573e124965bcab6ad39c1dd6",
+                    "SHA3-512": "89c51992c8461090bf2146f9a8b769db8808553b53c1af2246faec40871407c04249b7c4220dc337b4efd16271cdc09330413125bfeef69c5a69bb0a5bdd86ab"
+                },
+                "external_id": "qoWkAK"
+            },
+            {
+                "source_name": "join",
+                "url": "https://davidson.com/",
+                "hashes": {
+                    "MD5": "c77176123ab655bf6c8788f3cad882d2",
+                    "SHA-1": "ff69502f0aa1947180f353f895a2f194f15e1f67",
+                    "SHA-256": "c46504a87639e0c6e34b02f741494941ed552dd1dd890aef80dcfe20f2e0af91",
+                    "SHA-512": "eeb26eb3820acfc5823ca97f71f82d50c19535e1e272b64c1fe75d417a3e2f460a99881d9304ed6a38a270e9553b15b74e18a5ecb2688a2f60b6f1ac4f872d8c",
+                    "SHA3-256": "cecc5a05b926f79129b0c597551c9be73d0711a4f853423b52454c5d0807e2ea",
+                    "SHA3-512": "1a729d797116cf856bfdd2bfa2239566e558efc70b8035eaf35f15b66a6127c0b95c75d45b219bcf55a890681111729a9eb4ec90de785798f7fd53e8d7dfe691"
+                },
+                "external_id": "YbOtPPEibTCuNMBOaqx"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1a5f81c2-6993-4a0b-8e94-c8d47b59e781"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--447c797d-14be-4dd3-b7c4-1eb65274ba0d",
+        "created_by_ref": "identity--dcf6bce2-550c-4f3d-8861-ed2125d921c7",
+        "created": "2021-04-05T06:07:42.881833Z",
+        "modified": "2021-08-14T01:08:10.024606Z",
+        "name": "eat",
+        "context": "suspicious-activity",
+        "object_refs": [
+            "attack-pattern--b5db6a42-87a0-4cf3-a138-6eb0f7718ffa",
+            "identity--3275b0e8-1c74-4d41-89f5-2ca0a7d1e019",
+            "relationship--0623d1fc-8b30-4932-a1ea-961fb9b310aa"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--1a5f81c2-6993-4a0b-8e94-c8d47b59e781"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--dcf6bce2-550c-4f3d-8861-ed2125d921c7",
+        "created_by_ref": "identity--dcf6bce2-550c-4f3d-8861-ed2125d921c7",
+        "created": "2021-07-25T22:47:43.229553Z",
+        "modified": "2022-06-11T05:46:54.294262Z",
+        "name": "Weaver PLC",
+        "roles": [
+            "physical",
+            "less"
+        ],
+        "sectors": [
+            "automotive",
+            "telecommunications",
+            "communications"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "must",
+                "description": "Pick find wish list.",
+                "url": "https://boyd-snow.com/",
+                "external_id": "nNMlEucejYIcTYHdmpXC"
+            },
+            {
+                "source_name": "plan",
+                "url": "http://www.caldwell.org/",
+                "hashes": {
+                    "MD5": "e74f4f6899dfd74be6a82dac060ed4d2",
+                    "SHA-1": "9141029f5d8461c56b64c032fb369159ea069c02",
+                    "SHA-256": "731e2604f8378f484c4c69afbfb90453f87930a56e3d44ac23ddf7d29e3ce004",
+                    "SHA-512": "133b27f426224e542df844e7671641b8e9f7b45702b8573dbdaaa03f7adc82637c4086c24ad9a160eed30338df0940e4ea44ca9783a601c7fa21353f446a1f51",
+                    "SHA3-256": "41cd61a9a929721ad9b41a04be814a6705912eaf507e6b11f8b2d16e83f9e0f6",
+                    "SHA3-512": "9f226f6483cc218e8f335f96de395a665385740a7223822def392d998529920bc305aa0164e6361dd9553ff9be0053896e5ba1676195c837068e3618457ffe5e"
+                }
+            },
+            {
+                "source_name": "moment",
+                "external_id": "EvcxTyFmDJ"
+            },
+            {
+                "source_name": "event",
+                "description": "Well foreign century carry summer simply hotel fill.",
+                "external_id": "GyAOCPNvEwUYCGSI"
+            },
+            {
+                "source_name": "number",
+                "description": "Address decision game reveal apply with.",
+                "url": "https://www.welch.info/",
+                "hashes": {
+                    "MD5": "1b00b1a27ba660ca6f49921749abe78c",
+                    "SHA-1": "67affee22d78f40eb1ed92320a265b8679713a31",
+                    "SHA-256": "edcb9b592308acf30070b8e0862edd8742920e87ae9ff466b7a1960454f7fdf8",
+                    "SHA-512": "b451e6f54846dcdaad87ff172ce2a838dad224471b3714fcbe15ef5eb186d3722851f6fca79002968ae21e9f22f9bf9f0af4d9b0036cc7920fd10142756e5836",
+                    "SHA3-256": "6fd34b21a4f2b419beae289e16fe8f20a38d9bef7a3e1e1bc35004976ac1ff00",
+                    "SHA3-512": "f933a95120f6259078878f3fe1169d32738c3b397a9fc7dd4caed8a2c3bba909476f5a2d7bbe0e488ffd4900bd0dcab7884e74e3c8b63bcf22113939b836881e"
+                },
+                "external_id": "NmbxTgbgtiamlnge"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1a5f81c2-6993-4a0b-8e94-c8d47b59e781"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--1a5f81c2-6993-4a0b-8e94-c8d47b59e781",
+        "created": "2021-08-14T01:08:10.022485Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fadf816-7ba3-41ea-a52c-2855b3ec9d5a",
+                "name": "Report official major we center outside throughout population",
+                "create_date_time": "2021-08-14T01:08:08.433803Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

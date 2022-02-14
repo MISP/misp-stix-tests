@@ -1,0 +1,182 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--c9239966-5fd3-4fc1-acf7-712bf0d0599c",
+        "created_by_ref": "identity--48fa361c-2e79-4c57-970e-bb9dd062ee92",
+        "created": "2022-05-27T01:24:25.414375Z",
+        "modified": "2023-01-28T12:19:11.508585Z",
+        "name": "lawyer",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "HHFMSaTEPhrUadTTI",
+                "phase_name": "BFwfWostXqipPS"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "xRGudEzGkx",
+                "phase_name": "iIcHsCGKNLKgbFiAbU"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f53b6e97-24bc-42db-bb28-5241cdb30569"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--57bdbcee-0f60-4d9b-bed8-d16779fc62fa",
+        "created_by_ref": "identity--48fa361c-2e79-4c57-970e-bb9dd062ee92",
+        "created": "2021-10-10T23:03:12.582878Z",
+        "modified": "2021-12-13T20:53:28.928652Z",
+        "name": "CJAHQYejlo",
+        "latitude": -65.48896647057725,
+        "longitude": -10.052099454754028,
+        "country": "Cocos (Keeling) Islands",
+        "object_marking_refs": [
+            "marking-definition--f53b6e97-24bc-42db-bb28-5241cdb30569"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a12d32a9-b8ef-4edb-8e6c-bf72cf5d72b7",
+        "created_by_ref": "identity--48fa361c-2e79-4c57-970e-bb9dd062ee92",
+        "created": "2020-10-31T18:12:46.897856Z",
+        "modified": "2021-08-14T01:08:10.607168Z",
+        "relationship_type": "targets",
+        "source_ref": "attack-pattern--c9239966-5fd3-4fc1-acf7-712bf0d0599c",
+        "target_ref": "location--57bdbcee-0f60-4d9b-bed8-d16779fc62fa",
+        "start_time": "2022-05-20T05:28:00.737445Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f53b6e97-24bc-42db-bb28-5241cdb30569"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--b95cbac0-39b8-49ab-995d-9bd18d26513d",
+        "created_by_ref": "identity--48fa361c-2e79-4c57-970e-bb9dd062ee92",
+        "created": "2022-03-23T16:25:47.34042Z",
+        "modified": "2022-07-19T20:54:15.983349Z",
+        "content": "Important Democrat activity cell some summer site. Again fall road oil dark onto affect.",
+        "authors": [
+            "shake",
+            "view"
+        ],
+        "object_refs": [
+            "attack-pattern--c9239966-5fd3-4fc1-acf7-712bf0d0599c",
+            "location--57bdbcee-0f60-4d9b-bed8-d16779fc62fa",
+            "relationship--a12d32a9-b8ef-4edb-8e6c-bf72cf5d72b7"
+        ],
+        "confidence": 55,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "provide",
+                "url": "https://www.davidson-miller.org/",
+                "external_id": "MTBcaT"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f53b6e97-24bc-42db-bb28-5241cdb30569"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--48fa361c-2e79-4c57-970e-bb9dd062ee92",
+        "created_by_ref": "identity--48fa361c-2e79-4c57-970e-bb9dd062ee92",
+        "created": "2020-09-19T15:48:32.217435Z",
+        "modified": "2021-08-14T01:08:10.607812Z",
+        "name": "Anthony, Hernandez and Thomas",
+        "description": "Networked optimizing projection",
+        "identity_class": "individual",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f53b6e97-24bc-42db-bb28-5241cdb30569"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--f53b6e97-24bc-42db-bb28-5241cdb30569",
+        "created": "2021-08-14T01:08:10.60581Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1b1f4ecf-83db-4fe9-8c22-38a5f88b6694",
+                "name": "Deal certainly rather appear present safe",
+                "create_date_time": "2021-08-14T01:08:08.429946Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.429783Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

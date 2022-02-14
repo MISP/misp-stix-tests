@@ -1,0 +1,312 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--a1bb7645-fca0-4d0d-a048-a464f3571820",
+        "created_by_ref": "identity--191d3877-f68e-4445-b7ad-320b5dc8f0c1",
+        "created": "2021-10-24T15:00:23.730106Z",
+        "modified": "2022-05-01T08:58:56.188801Z",
+        "name": "peace",
+        "description": "Game outside single live beyond apply.",
+        "pattern": "(([(email-message:defanged NOT = false) AND email-message:defanged NOT = false])) AND [email-addr:value <= 'iflores@lane.com']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-08-02T02:48:19.233357Z",
+        "valid_until": "2020-11-26T14:27:15.002024Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "eBtSszhezPryi",
+                "phase_name": "MMmzCASDznknncp"
+            },
+            {
+                "kill_chain_name": "jqdXnkRXXcxuXupi",
+                "phase_name": "DdwoiIgdOSWimGhSjeB"
+            }
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "throughout",
+                "description": "Quickly possible chair pay result suffer.",
+                "hashes": {
+                    "MD5": "1d943a76d760baa7def545bb90545103",
+                    "SHA-1": "1c982d1bf41ef1d66d54f0edbbe5cc49ef351375",
+                    "SHA-256": "f7cc2db258554e66b70572947b0cb133158863c5c7e4c2d6d45d98a5d5411af5",
+                    "SHA-512": "fdd49f8aa85da700d0788352c093c0a6da30406ad5269838fb47c228afe1f45bbcca5746eb4c4f50ae53935fc42653a7850e2cab8e7511f4a18299b3f0b99bf6",
+                    "SHA3-256": "2c89105b551f10a2596e6629d948631c693773541b20a94d4081cfd35eed9d57",
+                    "SHA3-512": "d72aed488fb20e34f39f24b8725a83ec3e877f0f54e1c13e53b0cadbd18b3bcf95dc6f5945c3f054bcb1bbe8716570c7574451e3bf5a2698fff6de8ff16c75aa"
+                },
+                "external_id": "VsczIYGo"
+            },
+            {
+                "source_name": "argue",
+                "description": "Analysis notice improve fact white lawyer scientist.",
+                "url": "https://www.schroeder.info/",
+                "hashes": {
+                    "MD5": "469a13e3ba1a945c315d88edb0733795",
+                    "SHA-1": "c54bf82d7a86a0e8ad61a598b469c33bb7237994",
+                    "SHA-256": "8e1c51549dba7bb76cc0b443fc66bd6e8ecea3c2d9bf8a5f1e5785e004032ab8",
+                    "SHA-512": "ab358a9ad4d8f5d3749f0f1c203e0e8aac626ee7313ca80760bc6077b21fd1b7c5cff9b1d5c9af06372f02928408994fe3c26a237a4b86935ccc95d59ca79c36",
+                    "SHA3-256": "28b3d0f7042ec3f46fdf2bce3d55a2a9622da8cd34ab482cf2f0bd3042ea6847",
+                    "SHA3-512": "f169f2efa00e268e6d9cfc0123401e1c82884376349cd60346bd50924b5cda973d2935548ec71450d9f6ff90c26163fa29b1c699e6676dc16bc2d3e7ba2b808e"
+                }
+            },
+            {
+                "source_name": "fight",
+                "description": "Many lose continue administration history.",
+                "url": "https://www.jensen.biz/",
+                "external_id": "WjDMfoQXZtjtks"
+            },
+            {
+                "source_name": "keep",
+                "url": "http://www.cox.com/",
+                "external_id": "NmesrxkscWoiwomvYyCj"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1a62b9ef-b274-4414-8c48-1e8fb57907d8"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--5b12a758-70c3-4c9c-a619-616e882f5560",
+        "created_by_ref": "identity--191d3877-f68e-4445-b7ad-320b5dc8f0c1",
+        "created": "2021-09-01T08:29:20.743566Z",
+        "modified": "2022-05-27T16:45:08.226336Z",
+        "first_observed": "2020-12-07T19:02:01.726695Z",
+        "last_observed": "2021-04-04T18:45:34.695255Z",
+        "number_observed": 771552832,
+        "objects": {
+            "mac-addr--51894904-8ed8-4de7-aadd-96c2b0ffde3d": {
+                "type": "mac-addr",
+                "spec_version": "2.1",
+                "id": "mac-addr--51894904-8ed8-4de7-aadd-96c2b0ffde3d",
+                "value": "05:00:2e:96:7d:ad"
+            }
+        },
+        "confidence": 17,
+        "object_marking_refs": [
+            "marking-definition--1a62b9ef-b274-4414-8c48-1e8fb57907d8"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--6b187d7a-3316-4d5e-8021-f48d8196960e",
+        "created_by_ref": "identity--191d3877-f68e-4445-b7ad-320b5dc8f0c1",
+        "created": "2021-12-25T13:17:37.164468Z",
+        "modified": "2022-07-12T10:03:26.284962Z",
+        "relationship_type": "based-on",
+        "source_ref": "indicator--a1bb7645-fca0-4d0d-a048-a464f3571820",
+        "target_ref": "observed-data--5b12a758-70c3-4c9c-a619-616e882f5560",
+        "start_time": "2022-07-18T08:27:56.416853Z",
+        "labels": [
+            "learn",
+            "place",
+            "friend",
+            "thought",
+            "skill",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "stock",
+                "description": "Wall financial ahead as.",
+                "url": "http://www.owens-sloan.com/",
+                "hashes": {
+                    "MD5": "decf2ce8d3dec9033cad089a5fbe5ecd",
+                    "SHA-1": "32a3fbe48acef082c085931e40471ec3ee442e67",
+                    "SHA-256": "746440ad106bff2eb0ebf93d238ebb75be11e2134c01e8c64de7987b125e9525",
+                    "SHA-512": "204c2debe3c034e7480d23936d4526df1facdb73def45e6da470c3368d6d61369c447e467d3115263a42394ea57ae7523cd126a1fa0f5b56f9579c2f574f33e1",
+                    "SHA3-256": "2bd9548bb58ae7ca566a25f74cacf95c1c1629f2a515dbf6485dcb22187be854",
+                    "SHA3-512": "b5a03ff2b6c1e5759b1a1dc60aaf088c4cabba21ef085da9a7647018cb9c77eb1ac6056761e3d55680dfbe93baa6a1331d03c6d21b8acc5be92d79a2614de9bf"
+                },
+                "external_id": "JbHcJAUqDNNdnM"
+            },
+            {
+                "source_name": "morning",
+                "description": "Defense imagine pattern amount today statement time.",
+                "url": "http://www.aguirre.com/"
+            },
+            {
+                "source_name": "space",
+                "description": "Bit story common.",
+                "external_id": "HgimICaSlUOIet"
+            },
+            {
+                "source_name": "early",
+                "description": "Tough how thing pretty.",
+                "url": "http://www.williams.com/",
+                "external_id": "TDYtgOg"
+            },
+            {
+                "source_name": "dream",
+                "description": "Somebody grow society then resource could.",
+                "url": "https://www.mason.com/",
+                "external_id": "JRmZwmTPANbXwcn"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1a62b9ef-b274-4414-8c48-1e8fb57907d8"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--191d3877-f68e-4445-b7ad-320b5dc8f0c1",
+        "created_by_ref": "identity--191d3877-f68e-4445-b7ad-320b5dc8f0c1",
+        "created": "2021-04-03T23:49:09.263144Z",
+        "modified": "2021-09-26T23:11:34.227248Z",
+        "name": "Dudley-Williams",
+        "sectors": [
+            "dams",
+            "government-national",
+            "mining"
+        ],
+        "confidence": 1,
+        "external_references": [
+            {
+                "source_name": "tax",
+                "url": "http://warren-boyd.biz/",
+                "hashes": {
+                    "MD5": "839b56cb8848a48512b0d3908089aa9f",
+                    "SHA-1": "0bb5701ca0aac96ee23876ef2a57b1508da54387",
+                    "SHA-256": "3aca511a87ebb864f8a8bf92114c48738877e58d186e8f6059cbcb950fcab290",
+                    "SHA-512": "09fc24f9b2858d7428bb1ea325e5c99b1c568e49783dee2a3ce89235a422c2ee64d6f90057d00e1db5f59e23cb4a4ba3b4478d2c3a593b81dd1086046e7fbb70",
+                    "SHA3-256": "c6c7a5402d5cb6676db1b2b0247f00deeea3a3705da8567efc0b285baaf57c02",
+                    "SHA3-512": "747456df90036e14bb57242d2dec10e308e485c96c9272b65d30ae368f2b95f5fddbe5c41fec8ab4acd048b93a25e926a370e4d28f3ab47a92accd173deb9f22"
+                },
+                "external_id": "zGFHhxO"
+            },
+            {
+                "source_name": "gas",
+                "url": "https://www.rojas.com/",
+                "hashes": {
+                    "MD5": "c2fccdffe61ed933a1cd800f43001648",
+                    "SHA-1": "5335782c3a85b5dacd8d98c52935af6ce6a665c7",
+                    "SHA-256": "f21fb5be2c36a5439cfa7f7b72d1b9cfbe21cfdfe93b047667444a7842e9e9ec",
+                    "SHA-512": "2632415fb8f2d1b678e2fd988b1d4b268e79d7b829e47c583c6ae74633421035ec83866656b748bd23900b62e792094b2b7168f4b554c18fc198a8708e275af4",
+                    "SHA3-256": "0c1ca830c5619824e91735482ad0b180be5d24c4672e5cd916954709fb13e500",
+                    "SHA3-512": "19df09dd1b258cf69c6c549b8111033b0733d2c1b236f91949bc251b44a16342708fb4a45298fd29691d78aee16bfb469a59d35ea6c89260e71aa134d7da80f3"
+                }
+            },
+            {
+                "source_name": "policy",
+                "description": "Middle performance man.",
+                "url": "https://campbell-smith.com/",
+                "hashes": {
+                    "MD5": "24eadcfb7b13813046ce118e8ca27dc7",
+                    "SHA-1": "fc74686a08c44d5af41326fee3243b2970c9ea14",
+                    "SHA-256": "dde0924dcf9c1bf760dff211cb536a054dd6568e5468831c035b98a888219032",
+                    "SHA-512": "ba1f93b294e155936d2fcccb7c8bcbc9ba9378371c28ca772e57f42aac01e464cc02466997d373a5e8f14916515a1266acbaaa8e422841234621108569f59827",
+                    "SHA3-256": "3f5a38bb6fc22c62d1db472dcb6c5a26c5fc391ea0d7af6e22c36328ff44c95f",
+                    "SHA3-512": "b640dd32fcfc63f390b258adf3521c7163663b5aff6ca94c030bd7e26a08b2acd2b1e73833cf8d43fda826206369dae28f7a58eba6f57796855f02abf72a9c1a"
+                }
+            },
+            {
+                "source_name": "interest",
+                "description": "Method rule management occur health he keep.",
+                "hashes": {
+                    "MD5": "450173ea2c6a6b68d53d2c22bbf83b0e",
+                    "SHA-1": "a844caad84ee5cfeb3d9dd96188f35d8d3d5c11b",
+                    "SHA-256": "9720653c3ecb1a01b194ec1f468a94834e6484943d4352d29f2fa8d0f9ca113b",
+                    "SHA-512": "a81af8ef938247acff5d00afbb76579d900c6554636ae1574503593357c8541f835b9edaac0c0a14e4e58897aa370edb24e54d70f7822ec9778e1c2618b4ad52",
+                    "SHA3-256": "0493d890add594ce4912a7afab3fc6f23a6bb64af4b67d2ebf03e096c17bcd5d",
+                    "SHA3-512": "6f9f6598d843e88d4f92213d99ab82bc5292ddb3cccbb0684ff06855b8a2bf7743a97855ed61c93333d91f9e23abc08e6424f68a96ae578a3049ab0eb230dae4"
+                },
+                "external_id": "STGsoGBas"
+            },
+            {
+                "source_name": "arm",
+                "description": "Them explain use go into notice she.",
+                "external_id": "QGuxeUGmii"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1a62b9ef-b274-4414-8c48-1e8fb57907d8"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--1a62b9ef-b274-4414-8c48-1e8fb57907d8",
+        "created": "2021-08-14T01:08:37.059593Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1a59cf40-939d-4572-bc52-0472b77923dd",
+                "name": "Run main democratic",
+                "create_date_time": "2021-08-14T01:08:08.425934Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

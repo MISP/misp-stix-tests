@@ -1,0 +1,179 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--3d471349-acad-43d8-86c4-98fc0656309a",
+        "created_by_ref": "identity--10f2076f-7917-44cf-9588-7178cba26181",
+        "created": "2021-08-06T05:00:03.033897Z",
+        "modified": "2022-06-11T19:03:09.432176Z",
+        "name": "director",
+        "description": "Series field middle pattern.",
+        "threat_actor_types": [
+            "criminal",
+            "terrorist",
+            "criminal",
+            "crime-syndicate",
+            "crime-syndicate"
+        ],
+        "roles": [
+            "sponsor",
+            "agent",
+            "agent"
+        ],
+        "sophistication": "advanced",
+        "primary_motivation": "personal-satisfaction",
+        "secondary_motivations": [
+            "notoriety",
+            "coercion",
+            "ideology",
+            "dominance",
+            "notoriety"
+        ],
+        "labels": [
+            "camera",
+            "baby",
+            "long",
+            "pfte-batch-1"
+        ],
+        "confidence": 24,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "candidate",
+                "description": "Game matter watch relationship push mouth.",
+                "hashes": {
+                    "MD5": "14c2c72db3a96423dc399d190f7f8acd",
+                    "SHA-1": "31ed74e454dfac496875e1a95931d402fbf9f031",
+                    "SHA-256": "0b06193b4ae956510488c9dd29e5bc47332a5e0ac94bde9fd70ef952eb034f8c",
+                    "SHA-512": "1a4cc6dc368b23c0d956ac1ae7d4b84e1a8f8a168a49ade22455e5005f8f2ab03e005580b4a5cfb85559e3848f42f4b73a3643cd1b3ff8132d4e746cc92b2307",
+                    "SHA3-256": "0546dd957ffb83af6b8d599e8f4e4d77eb358e394b96b242fdc42e370c642bd7",
+                    "SHA3-512": "4eb8b5416ccb6810efdab11d2e9f221d07b3938e5646388f7175f70be1ead5a2d8f5e74baed8e2a184d74b4120f9ad4cddb97f9889c20b2f93a23bf908ab68b1"
+                },
+                "external_id": "ORieGFDNtNRTiK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--1b2ffb51-0909-434c-814b-e88a4b1a4ae7",
+        "created_by_ref": "identity--10f2076f-7917-44cf-9588-7178cba26181",
+        "created": "2021-12-04T16:02:10.546679Z",
+        "modified": "2021-12-05T01:22:11.815765Z",
+        "name": "sound",
+        "aliases": [
+            "view",
+            "lay",
+            "challenge",
+            "maybe",
+            "difficult"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "first_seen": "2020-01-11T20:01:11.148705Z",
+        "last_seen": "2020-09-04T06:37:24.489396Z",
+        "labels": [
+            "under",
+            "pfte-batch-1"
+        ],
+        "confidence": 25,
+        "external_references": [
+            {
+                "source_name": "detail",
+                "description": "Site they speak method state summer way."
+            },
+            {
+                "source_name": "simply",
+                "description": "Reveal ahead just past.",
+                "url": "http://wall.com/",
+                "external_id": "rhLGINErbtsELRSn"
+            },
+            {
+                "source_name": "myself",
+                "url": "http://www.heath.com/",
+                "external_id": "OJEqvRkwMdYKitGQmYtf"
+            },
+            {
+                "source_name": "real",
+                "url": "https://www.baldwin.com/",
+                "external_id": "AyjomLTkbP"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1425d5c7-e5bd-46e1-a7b5-cb64a6663888",
+        "created_by_ref": "identity--10f2076f-7917-44cf-9588-7178cba26181",
+        "created": "2021-07-07T17:30:47.492319Z",
+        "modified": "2021-09-19T11:33:08.076624Z",
+        "relationship_type": "hosts",
+        "source_ref": "threat-actor--3d471349-acad-43d8-86c4-98fc0656309a",
+        "target_ref": "infrastructure--1b2ffb51-0909-434c-814b-e88a4b1a4ae7",
+        "labels": [
+            "base",
+            "apply",
+            "above",
+            "anyone",
+            "follow",
+            "pfte-batch-1"
+        ],
+        "confidence": 72,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--10f2076f-7917-44cf-9588-7178cba26181",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-10T18:21:27.37074Z",
+        "modified": "2022-02-17T12:22:18.263114Z",
+        "name": "Vargas-Coffey",
+        "description": "User-centric human-resource application",
+        "roles": [
+            "base",
+            "attention",
+            "speech",
+            "require",
+            "adult"
+        ],
+        "identity_class": "group",
+        "sectors": [
+            "commercial",
+            "government-public-services",
+            "hospitality-leisure"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "Mr",
+                "description": "Pretty could smile necessary budget entire when.",
+                "external_id": "xuzJGYfSSfPEsFXE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--f821c281-583e-4af2-b416-0387c8bf8cca",
+        "created_by_ref": "identity--dcf095b0-d0f1-458c-a7c9-cf00c1129457",
+        "created": "2021-01-31T12:18:53.817899Z",
+        "modified": "2021-08-14T01:09:00.60008Z",
+        "name": "class",
+        "description": "Answer model indicate trip bed.",
+        "primary_motivation": "accidental",
+        "secondary_motivations": [
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "fast",
+            "will",
+            "act",
+            "life",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--8f088405-4284-4ec2-9801-c632abb6704d",
+        "created_by_ref": "identity--dcf095b0-d0f1-458c-a7c9-cf00c1129457",
+        "created": "2021-11-27T00:27:42.552529Z",
+        "modified": "2022-02-01T08:38:13.599941Z",
+        "name": "evidence",
+        "description": "Sign million main fine.",
+        "aliases": [
+            "on"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "MWPOlLVjdW",
+                "phase_name": "GmaQodd"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "tool_version": "impact",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--17b37fad-f6bd-427e-8ef8-19db05765bdc",
+        "created_by_ref": "identity--dcf095b0-d0f1-458c-a7c9-cf00c1129457",
+        "created": "2020-12-14T10:09:21.761Z",
+        "modified": "2021-08-14T01:09:00.600803Z",
+        "relationship_type": "uses",
+        "description": "Term after history. Down seek subject western travel.",
+        "source_ref": "intrusion-set--f821c281-583e-4af2-b416-0387c8bf8cca",
+        "target_ref": "tool--8f088405-4284-4ec2-9801-c632abb6704d",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--dcf095b0-d0f1-458c-a7c9-cf00c1129457",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-11-26T11:06:22.009968Z",
+        "modified": "2021-08-14T01:09:00.602828Z",
+        "name": "Daniels-Evans",
+        "description": "Operative intangible framework",
+        "identity_class": "group",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

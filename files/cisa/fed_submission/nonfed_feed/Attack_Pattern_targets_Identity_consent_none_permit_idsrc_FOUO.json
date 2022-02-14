@@ -1,0 +1,120 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--df5feaf4-6770-464a-87a6-e42e45569a9e",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2021-04-19T23:11:25.479961Z",
+        "modified": "2021-11-21T20:01:54.144371Z",
+        "name": "reduce",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "YsLjTRaB",
+                "phase_name": "hHgRRucTsetYWtTyU"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "GsSbgkVjq",
+                "phase_name": "ScsvpqsRljegAJkZ"
+            },
+            {
+                "kill_chain_name": "hVUZbPfORpAoiwrwgU",
+                "phase_name": "KWMKMsJetxxAsG"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--08ca6c5f-6d50-4d7b-a24c-9271b75d749e",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2021-09-08T02:28:40.79141Z",
+        "modified": "2022-04-09T18:31:59.37062Z",
+        "name": "Mejia, Jackson and Cruz",
+        "description": "Managed global open architecture",
+        "roles": [
+            "table",
+            "happy"
+        ],
+        "identity_class": "class",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "gas",
+                "description": "Because maintain good likely soon.",
+                "url": "https://www.coffey-castillo.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--707c7b52-0359-45a3-8942-f6de6842897d",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2021-02-12T00:10:15.27083Z",
+        "modified": "2021-12-05T16:59:01.234994Z",
+        "relationship_type": "targets",
+        "description": "Cold change own pay attention. Power church service democratic school visit operation. Could could that remember.",
+        "source_ref": "attack-pattern--df5feaf4-6770-464a-87a6-e42e45569a9e",
+        "target_ref": "identity--08ca6c5f-6d50-4d7b-a24c-9271b75d749e",
+        "stop_time": "2020-09-28T14:09:13.472102Z",
+        "labels": [
+            "them",
+            "behavior",
+            "take",
+            "pfte-batch-1"
+        ],
+        "confidence": 2,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-01-01T00:00:00.000Z",
+        "modified": "2020-01-01T00:00:00.000Z",
+        "name": "USA.USG",
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

@@ -1,0 +1,191 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--c1c0e9a8-bc08-40df-bb29-2dd0bf27ea1f",
+        "created_by_ref": "identity--a6f3a1a2-0adb-49cd-9a8e-3c3913637785",
+        "created": "2022-05-13T06:39:54.444672Z",
+        "modified": "2023-03-05T05:03:26.780365Z",
+        "indicator_types": [
+            "compromised"
+        ],
+        "pattern": "[network-traffic:defanged = true] FOLLOWEDBY [url:value NOT = 'http://www.adams-brady.com/']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-03-15T05:17:44.718941Z",
+        "valid_until": "2022-05-16T05:43:57.996015Z",
+        "confidence": 100,
+        "object_marking_refs": [
+            "marking-definition--ca49f6f7-0571-4e39-a4c2-a8192b83e1e1"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--cae6f6fb-bb5b-4891-b162-9442c9bf3b71",
+        "created_by_ref": "identity--a6f3a1a2-0adb-49cd-9a8e-3c3913637785",
+        "created": "2022-03-30T12:28:13.599198Z",
+        "modified": "2022-12-19T02:33:46.796751Z",
+        "name": "call",
+        "aliases": [
+            "road",
+            "reflect",
+            "safe",
+            "throughout",
+            "food"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "last_seen": "2021-03-13T03:43:53.852129Z",
+        "labels": [
+            "production",
+            "use",
+            "agree",
+            "kind",
+            "job",
+            "pfte-batch-1"
+        ],
+        "confidence": 12,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "meeting",
+                "description": "Wind pretty determine peace.",
+                "url": "https://bolton.net/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ca49f6f7-0571-4e39-a4c2-a8192b83e1e1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4dc2737e-5547-406a-a065-8d8effb1c4e0",
+        "created_by_ref": "identity--a6f3a1a2-0adb-49cd-9a8e-3c3913637785",
+        "created": "2020-10-07T07:47:39.514418Z",
+        "modified": "2021-08-14T01:08:30.084327Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--c1c0e9a8-bc08-40df-bb29-2dd0bf27ea1f",
+        "target_ref": "infrastructure--cae6f6fb-bb5b-4891-b162-9442c9bf3b71",
+        "stop_time": "2021-11-06T02:13:22.257819Z",
+        "confidence": 92,
+        "object_marking_refs": [
+            "marking-definition--ca49f6f7-0571-4e39-a4c2-a8192b83e1e1"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--ca49f6f7-0571-4e39-a4c2-a8192b83e1e1",
+        "created_by_ref": "identity--a6f3a1a2-0adb-49cd-9a8e-3c3913637785",
+        "created": "2021-08-14T01:08:30.081637Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f217105b-ccd2-4cb0-893a-c1314d7d2d64",
+                "name": "Strategy land response sport over",
+                "create_date_time": "2021-08-14T01:08:08.422773Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.422466Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a6f3a1a2-0adb-49cd-9a8e-3c3913637785",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-21T16:16:11.13921Z",
+        "modified": "2022-10-07T23:51:23.117073Z",
+        "name": "Wise-Hopkins",
+        "description": "Re-engineered modular instruction set",
+        "roles": [
+            "class",
+            "spring"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "non-profit",
+            "telecommunications",
+            "communications"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 94,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ca49f6f7-0571-4e39-a4c2-a8192b83e1e1"
+        ]
+    }
+]

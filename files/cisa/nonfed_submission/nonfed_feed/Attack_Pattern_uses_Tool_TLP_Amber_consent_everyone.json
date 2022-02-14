@@ -1,0 +1,147 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--c4a9698b-e72c-4748-a1fe-971ef6bf3471",
+        "created_by_ref": "identity--a07dca20-4325-430f-a602-7cc75a877e36",
+        "created": "2022-03-11T03:04:40.894652Z",
+        "modified": "2023-01-13T14:55:12.274872Z",
+        "name": "it",
+        "description": "Stay impact hundred that stuff choose.",
+        "aliases": [
+            "pretty",
+            "plan"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "form",
+            "understand",
+            "pfte-batch-1"
+        ],
+        "confidence": 6,
+        "external_references": [
+            {
+                "source_name": "threat",
+                "description": "Little similar data method."
+            },
+            {
+                "source_name": "indicate",
+                "url": "http://www.french-torres.org/"
+            },
+            {
+                "source_name": "name",
+                "description": "Natural make sea him.",
+                "hashes": {
+                    "MD5": "68ab9995f175a47fb03f0af5c8228e13",
+                    "SHA-1": "c6e19e19411bdfb6c253ce89fa898b7f7397d2ca",
+                    "SHA-256": "7b063a32fecce21399ec897a623cfe1cc67f5dd41b7aa45a395d443e8c6afd6c",
+                    "SHA-512": "5c2485a375b62b1193716534d2619204ca85b436ffea8baf73837628970ac86bda63ad539788b77fe497f5a2353f41de7bd9198fab543f9301dce07b9f5d0b8f",
+                    "SHA3-256": "06e57ac32ecc920f6a5b08f58bc3752b5ebdf3dbde982f364cd3972be3f4b4a4",
+                    "SHA3-512": "4a5839b7baa163750deb4c41b0b984e83a0013cbc800180749fe2058e5bb4d5286bba3c000fb09c41ad29a9fe62d4e433b2b58697055b8a9b66ff80443f128be"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--9c276692-42dc-401d-8955-9721defd9193",
+        "created_by_ref": "identity--a07dca20-4325-430f-a602-7cc75a877e36",
+        "created": "2022-02-15T23:17:08.022899Z",
+        "modified": "2022-07-27T13:53:59.338053Z",
+        "name": "late",
+        "tool_types": [
+            "remote-access",
+            "information-gathering",
+            "exploitation",
+            "vulnerability-scanning",
+            "information-gathering"
+        ],
+        "labels": [
+            "dinner",
+            "pfte-batch-1"
+        ],
+        "confidence": 52,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--609bc820-a408-4219-822f-cfc493c683c3",
+        "created_by_ref": "identity--a07dca20-4325-430f-a602-7cc75a877e36",
+        "created": "2021-05-29T19:04:36.377384Z",
+        "modified": "2021-11-19T13:00:19.349656Z",
+        "relationship_type": "uses",
+        "description": "Us several account major establish hot kind hope. Entire modern always program could better every.",
+        "source_ref": "attack-pattern--c4a9698b-e72c-4748-a1fe-971ef6bf3471",
+        "target_ref": "tool--9c276692-42dc-401d-8955-9721defd9193",
+        "start_time": "2021-09-30T23:26:34.872474Z",
+        "labels": [
+            "bad",
+            "option",
+            "year",
+            "pfte-batch-1"
+        ],
+        "confidence": 84,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "record",
+                "hashes": {
+                    "MD5": "418690bb025feaa5298597e8bc76732c",
+                    "SHA-1": "2d90f08aec14c896c46b2734f15ad5d88dfbac22",
+                    "SHA-256": "13de8e0f6bbb376f43f79c7e79132dd9946c38bf219d2c88ab9e18a0f9afc311",
+                    "SHA-512": "21b4c2ed7c2cc02e790ed290aa5417a0022028c4bbb89996a66240ad4c3fbff4294a5d2d69c8eef39f28537dbb19f3052cb01c6da751e691c794d6cea30ebbb7",
+                    "SHA3-256": "b1bf7754bf299b328cf140098ce5bd804d458fb3e216212d1aed74b8fcda8803",
+                    "SHA3-512": "98733a1c37edaad0d0237e4c95fecdb24acf0512b6f4dcb7a9ebc5fe09c1445c8427ba3d6183fee64caefab974d771cad4e731db82c5a60dfcf646c1a1a6d3d6"
+                },
+                "external_id": "aZUTdKVIbvql"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a07dca20-4325-430f-a602-7cc75a877e36",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-01-28T16:13:32.036621Z",
+        "modified": "2021-09-15T17:42:29.068331Z",
+        "name": "Lambert, Roach and Hobbs",
+        "description": "Cross-platform fault-tolerant success",
+        "sectors": [
+            "entertainment",
+            "infrastructure"
+        ],
+        "contact_information": "5443 Johnny Ford\nNorth Joanmouth, NY 90047",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

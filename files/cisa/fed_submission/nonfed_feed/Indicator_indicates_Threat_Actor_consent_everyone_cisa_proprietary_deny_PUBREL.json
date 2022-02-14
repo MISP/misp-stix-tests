@@ -1,0 +1,138 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--a74ba967-208d-4bf7-9a0d-a3540bafa3fb",
+        "created_by_ref": "identity--9734f13e-b59e-42c1-8709-58036eab588f",
+        "created": "2020-11-01T08:24:29.831394Z",
+        "modified": "2021-08-14T01:08:34.48005Z",
+        "indicator_types": [
+            "anomalous-activity",
+            "unknown",
+            "unknown",
+            "unknown",
+            "anonymization"
+        ],
+        "pattern": "(([(ipv6-addr:defanged NOT = false) AND ipv6-addr:defanged = false] AND [email-addr:display_name > 'Vicki Scott'] AND [mutex:defanged NOT = false])) AND [user-account:can_escalate_privs NOT = true]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-12-16T13:38:34.924142Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "icLOdmdbGBoPiMSu",
+                "phase_name": "BiokFozlqtCSBMpzR"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--b1b061c6-ab16-4b66-a2a3-c74126b0b14b",
+        "created_by_ref": "identity--9734f13e-b59e-42c1-8709-58036eab588f",
+        "created": "2022-01-05T16:33:55.835492Z",
+        "modified": "2022-12-02T18:25:15.581916Z",
+        "name": "commercial",
+        "description": "Old experience itself billion only training.",
+        "aliases": [
+            "work",
+            "management",
+            "or",
+            "race"
+        ],
+        "first_seen": "2021-04-28T12:27:49.706985Z",
+        "last_seen": "2021-07-28T00:05:06.341819Z",
+        "resource_level": "organization",
+        "primary_motivation": "dominance",
+        "personal_motivations": [
+            "organizational-gain",
+            "organizational-gain",
+            "organizational-gain",
+            "coercion",
+            "organizational-gain"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 35,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3ee90176-ff8b-4ed9-9cd7-d24e7b6f92a4",
+        "created_by_ref": "identity--9734f13e-b59e-42c1-8709-58036eab588f",
+        "created": "2020-12-13T13:56:09.381457Z",
+        "modified": "2021-08-14T01:08:34.483697Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--a74ba967-208d-4bf7-9a0d-a3540bafa3fb",
+        "target_ref": "threat-actor--b1b061c6-ab16-4b66-a2a3-c74126b0b14b",
+        "start_time": "2020-10-05T00:15:11.071084Z",
+        "labels": [
+            "focus",
+            "street",
+            "both",
+            "pfte-batch-1"
+        ],
+        "confidence": 36,
+        "external_references": [
+            {
+                "source_name": "not",
+                "description": "Rest fact price.",
+                "url": "https://www.king.com/",
+                "hashes": {
+                    "MD5": "0099116a889504a12153f3c6dc3f6cfe",
+                    "SHA-1": "ffe56e8762b2b50c72685602752098ffe522f202",
+                    "SHA-256": "e0d04438f3724a87523eceecc7f98abde9dc780248b3b18141a0360e7694658f",
+                    "SHA-512": "18357347bf415c53438d8911242fb59d9675d428ae924b5ededad38d682025782542007e7242d93dea36acf2970ce054bc38e021c003b4cdfaf5651d80451643",
+                    "SHA3-256": "2244e704b19d9a2ececd9bf36cc6cd416f72485f56dcd14749c0303ea9ef1175",
+                    "SHA3-512": "b5c5d60c399b3bfcff3eae117f920edebc27b4aaf9897dda4e2e22008a0a163a68ff5c98e8afb8eb3cc12c67cd0a0b33427dc1ec2d0f5e6dac45536732b7fdbc"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--9734f13e-b59e-42c1-8709-58036eab588f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-16T01:27:00.865306Z",
+        "modified": "2021-08-14T01:08:34.48588Z",
+        "name": "ReallyAirAlready",
+        "description": "Multi-channeled analyzing project",
+        "roles": [
+            "audience",
+            "still",
+            "hundred"
+        ],
+        "contact_information": "6540 Zoe Key Apt. 562\nJamesview, WA 90258",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

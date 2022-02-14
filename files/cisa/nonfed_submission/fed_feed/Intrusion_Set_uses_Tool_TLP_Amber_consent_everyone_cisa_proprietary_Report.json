@@ -1,0 +1,219 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--44508f3b-2048-4989-8fdc-c435164fbeb1",
+        "created_by_ref": "identity--a275cd53-baa4-4f15-9718-cefc8858d77b",
+        "created": "2021-04-03T01:46:46.158449Z",
+        "modified": "2021-12-23T18:00:25.326736Z",
+        "name": "wait",
+        "description": "Success amount answer education foreign do.",
+        "first_seen": "2021-03-17T06:00:16.655279Z",
+        "last_seen": "2021-06-20T13:15:17.427769Z",
+        "goals": [
+            "Be hand quickly.",
+            "Community research owner choice medical.",
+            "Single year themselves risk close."
+        ],
+        "resource_level": "government",
+        "secondary_motivations": [
+            "ideology",
+            "notoriety",
+            "accidental",
+            "organizational-gain"
+        ],
+        "object_marking_refs": [
+            "marking-definition--971e58fb-b84f-4010-b4cc-ae2ba2906978"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--37d07bf3-1621-4b57-a38e-ec22f94fd289",
+        "created_by_ref": "identity--a275cd53-baa4-4f15-9718-cefc8858d77b",
+        "created": "2021-11-25T09:41:38.301948Z",
+        "modified": "2022-07-26T11:54:24.093555Z",
+        "name": "bed",
+        "description": "Possible baby pressure per hand consider.",
+        "object_marking_refs": [
+            "marking-definition--971e58fb-b84f-4010-b4cc-ae2ba2906978"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--773e1682-8b34-447f-b453-e2cc47c183ae",
+        "created_by_ref": "identity--a275cd53-baa4-4f15-9718-cefc8858d77b",
+        "created": "2022-04-11T04:19:36.095246Z",
+        "modified": "2023-02-28T08:42:07.053602Z",
+        "relationship_type": "uses",
+        "description": "Offer she media against.",
+        "source_ref": "intrusion-set--44508f3b-2048-4989-8fdc-c435164fbeb1",
+        "target_ref": "tool--37d07bf3-1621-4b57-a38e-ec22f94fd289",
+        "start_time": "2022-06-30T17:06:45.782346Z",
+        "confidence": 36,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--971e58fb-b84f-4010-b4cc-ae2ba2906978"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--320824f6-c8de-456b-8704-4869b5670d34",
+        "created_by_ref": "identity--a275cd53-baa4-4f15-9718-cefc8858d77b",
+        "created": "2021-07-24T06:49:10.593667Z",
+        "modified": "2021-09-03T02:08:16.318974Z",
+        "name": "peace",
+        "report_types": [
+            "threat-report",
+            "threat-actor",
+            "attack-pattern"
+        ],
+        "published": "2021-04-16T05:25:00.288138Z",
+        "object_refs": [
+            "intrusion-set--44508f3b-2048-4989-8fdc-c435164fbeb1",
+            "tool--37d07bf3-1621-4b57-a38e-ec22f94fd289",
+            "relationship--773e1682-8b34-447f-b453-e2cc47c183ae"
+        ],
+        "labels": [
+            "season",
+            "pfte-batch-1"
+        ],
+        "confidence": 30,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--971e58fb-b84f-4010-b4cc-ae2ba2906978"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--971e58fb-b84f-4010-b4cc-ae2ba2906978",
+        "created_by_ref": "identity--a275cd53-baa4-4f15-9718-cefc8858d77b",
+        "created": "2021-08-14T01:09:00.10999Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-881bbc21-deef-4d57-abf3-7f599266217f",
+                "name": "Way get would fight necessary hour measure",
+                "create_date_time": "2021-08-14T01:08:08.423662Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a275cd53-baa4-4f15-9718-cefc8858d77b",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-13T20:53:10.823301Z",
+        "modified": "2022-09-02T09:23:22.841103Z",
+        "name": "Fisher-Hernandez",
+        "description": "Adaptive national approach",
+        "roles": [
+            "drop",
+            "finally",
+            "sign",
+            "heavy",
+            "apply"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "government",
+            "emergency-services",
+            "aerospace",
+            "commercial"
+        ],
+        "contact_information": "70279 Amy Crest\nEast Michaelbury, AZ 47550",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "as",
+                "url": "https://johnson-jackson.net/",
+                "external_id": "uYHDghqijcFwMHReA"
+            },
+            {
+                "source_name": "author",
+                "description": "Read type show before technology.",
+                "url": "http://robinson.com/",
+                "hashes": {
+                    "MD5": "1e7daf205abc00074bac4a79eaf1b401",
+                    "SHA-1": "6924327baa6234eda80f65827148b203e92d10d5",
+                    "SHA-256": "6691da7188ee6a48e2abf6601a83ce8e342d7f65f50cc66ddcf2ed8e70d2d642",
+                    "SHA-512": "556eb0be05b641cea80c49d7c574c037e30b808ffe1e9534b3f7398b1279dd874df769ecf497a919226a01a07ee003df0015e72d03ce506b437d7391be57ed06",
+                    "SHA3-256": "bbaf2df648b17c7c542fd24e0a1a8a8cfea54ed4da23da459e46c5f65ffd0482",
+                    "SHA3-512": "0059c381c5138e93aa6cc540d7872b826f298038ce994088039f3f89352bcd627ea05fae4788f144c24ef91570d4a4cb143587d8b96da486efc47a5951265628"
+                },
+                "external_id": "hCGhfRvNnXbSoSRnek"
+            },
+            {
+                "source_name": "unit",
+                "url": "https://alvarado.com/",
+                "external_id": "tsaIyLMjuC"
+            },
+            {
+                "source_name": "increase",
+                "url": "https://www.holmes.info/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--971e58fb-b84f-4010-b4cc-ae2ba2906978"
+        ]
+    }
+]

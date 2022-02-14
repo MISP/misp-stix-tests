@@ -1,0 +1,190 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--27b89f42-a1bd-4b55-8191-95f856f4871d",
+        "created_by_ref": "identity--94584030-f035-4b5c-902a-d08fa6ae1cd7",
+        "created": "2022-01-16T11:12:25.064656Z",
+        "modified": "2022-02-14T11:07:44.721434Z",
+        "name": "paper",
+        "description": "Skill interview team security well yeah set.",
+        "pattern": "[directory:defanged = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-02-25T16:44:48.894845Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "labels": [
+            "political",
+            "pfte-batch-1"
+        ],
+        "confidence": 10,
+        "object_marking_refs": [
+            "marking-definition--edefc7fc-1531-427a-b0b0-6bbd8b186e52"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--6eb8b981-ff9f-40f8-929a-befca2085537",
+        "created_by_ref": "identity--94584030-f035-4b5c-902a-d08fa6ae1cd7",
+        "created": "2021-04-07T23:28:38.887068Z",
+        "modified": "2021-08-14T01:08:28.10419Z",
+        "name": "offer",
+        "description": "Mean network war none turn usually reality.",
+        "external_references": [
+            {
+                "source_name": "end",
+                "description": "Country about Democrat hot event we pay.",
+                "url": "https://www.baker.com/",
+                "external_id": "JOblPAodctokrbW"
+            },
+            {
+                "source_name": "truth",
+                "description": "Seem baby thought another his someone.",
+                "url": "http://www.alvarado-gallagher.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--edefc7fc-1531-427a-b0b0-6bbd8b186e52"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3b68d089-dcf9-4367-9b1a-888b3279e20b",
+        "created_by_ref": "identity--94584030-f035-4b5c-902a-d08fa6ae1cd7",
+        "created": "2021-12-28T14:00:56.09224Z",
+        "modified": "2022-07-02T19:58:09.021674Z",
+        "relationship_type": "indicates",
+        "description": "Where medical building clear rather. Child we economic lead could. Gas summer seek finish court child trade. Us individual side PM three perhaps white.",
+        "source_ref": "indicator--27b89f42-a1bd-4b55-8191-95f856f4871d",
+        "target_ref": "attack-pattern--6eb8b981-ff9f-40f8-929a-befca2085537",
+        "confidence": 35,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--edefc7fc-1531-427a-b0b0-6bbd8b186e52"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--94584030-f035-4b5c-902a-d08fa6ae1cd7",
+        "created_by_ref": "identity--94584030-f035-4b5c-902a-d08fa6ae1cd7",
+        "created": "2020-11-10T13:19:03.472208Z",
+        "modified": "2021-08-14T01:08:28.104685Z",
+        "name": "Barnes Inc",
+        "roles": [
+            "conference",
+            "upon",
+            "particular"
+        ],
+        "identity_class": "organization",
+        "contact_information": "PSC 7587, Box 1681\nAPO AE 44547",
+        "confidence": 3,
+        "object_marking_refs": [
+            "marking-definition--edefc7fc-1531-427a-b0b0-6bbd8b186e52"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--edefc7fc-1531-427a-b0b0-6bbd8b186e52",
+        "created": "2021-08-14T01:08:28.102342Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-147f852e-75ac-49e9-b9d2-55199760c488",
+                "name": "Yes might consider why south he",
+                "create_date_time": "2021-08-14T01:08:08.429077Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.428904Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

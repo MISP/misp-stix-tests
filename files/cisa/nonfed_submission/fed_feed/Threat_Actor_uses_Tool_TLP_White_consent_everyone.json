@@ -1,0 +1,247 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--f349cf09-2272-4653-bfe3-1da450aba526",
+        "created_by_ref": "identity--f85b331b-4014-4f2f-aba7-ecc84cf28c5d",
+        "created": "2020-12-11T11:02:12.268546Z",
+        "modified": "2021-08-14T01:09:34.805869Z",
+        "name": "west",
+        "aliases": [
+            "thousand",
+            "learn",
+            "attack",
+            "bring"
+        ],
+        "last_seen": "2022-08-07T23:16:17.239849Z",
+        "roles": [
+            "malware-author",
+            "independent",
+            "agent",
+            "independent"
+        ],
+        "goals": [
+            "organization",
+            "seven"
+        ],
+        "secondary_motivations": [
+            "personal-gain"
+        ],
+        "labels": [
+            "soon",
+            "pfte-batch-1"
+        ],
+        "confidence": 21,
+        "external_references": [
+            {
+                "source_name": "city",
+                "description": "Power she challenge well.",
+                "url": "https://www.williamson.net/"
+            },
+            {
+                "source_name": "ask",
+                "description": "Score shoulder exist ground.",
+                "url": "http://torres-berg.com/",
+                "hashes": {
+                    "MD5": "015e6f5a237e11dd3f05a6adb6bba919",
+                    "SHA-1": "b5e1be8b67961293c9072912d143719f3faee40e",
+                    "SHA-256": "cd0362e529675d0d4f869cc1f0014af669cdfaed1f53c8a291e0c79e19c56f60",
+                    "SHA-512": "c316021c7166a40bb514c39650e7559321d2fc5ae8923a2f8aa542f237992cceb63803b0aaf6e75c980e92d3ec3a0d903dd90543868958e16a935bd7b19dd325",
+                    "SHA3-256": "4fb30ea00e328ca0dbb3dbbd0cc7bed09fac380a9cf6272699c5c5920cc8029c",
+                    "SHA3-512": "3f74b790063b0c51fc11962d667bb73e1976241c2aefb43dfbaccff33872998f4e0bdb189628e73e3d5788f6e1b44d629920c0272c133be59046313cfb1ed50e"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--da2124ae-8a5e-4497-beb1-1f6365b0f3b9"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--136ed372-62d2-493c-b2d8-55e71dec95c2",
+        "created_by_ref": "identity--f85b331b-4014-4f2f-aba7-ecc84cf28c5d",
+        "created": "2020-12-11T20:58:43.94967Z",
+        "modified": "2021-08-14T01:09:34.806258Z",
+        "name": "computer",
+        "tool_types": [
+            "information-gathering",
+            "remote-access",
+            "credential-exploitation",
+            "network-capture",
+            "denial-of-service"
+        ],
+        "aliases": [
+            "small",
+            "return"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "uHEAOdKqdM",
+                "phase_name": "QqlWzALfiEpDLinWajgj"
+            },
+            {
+                "kill_chain_name": "HVJwYgbGbDnWZpT",
+                "phase_name": "eiuGr"
+            }
+        ],
+        "tool_version": "who",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--da2124ae-8a5e-4497-beb1-1f6365b0f3b9"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d69c6f50-c4b3-4d15-9ed5-a1cbc67cb578",
+        "created_by_ref": "identity--f85b331b-4014-4f2f-aba7-ecc84cf28c5d",
+        "created": "2022-03-18T13:58:09.797387Z",
+        "modified": "2023-01-13T02:41:17.366218Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--f349cf09-2272-4653-bfe3-1da450aba526",
+        "target_ref": "tool--136ed372-62d2-493c-b2d8-55e71dec95c2",
+        "start_time": "2022-06-08T20:13:37.44721Z",
+        "labels": [
+            "admit",
+            "consider",
+            "theory",
+            "pfte-batch-1"
+        ],
+        "confidence": 41,
+        "external_references": [
+            {
+                "source_name": "trouble",
+                "url": "http://mcclain.com/"
+            },
+            {
+                "source_name": "wife",
+                "description": "Lay picture past foot.",
+                "hashes": {
+                    "MD5": "3a96fbf00f6bc74b3ae3cfa9717150d0",
+                    "SHA-1": "4a6aaff0df405573c5b2ab4d9f22933fedf53c12",
+                    "SHA-256": "cbcb75920f7774cf7b45c53f5165687f3708b2a70d855b119e2e84291ca14f94",
+                    "SHA-512": "44f64fcfd69fcea6722b87bbb3ab2d4e217d1d8cab63883a685400547db8ba475df3edffea5b42e5a2fd6ee850145767818e26288174934153503de6cafb5f90",
+                    "SHA3-256": "b6f203a2538eb7649324120134469e310ce595097e2da719cd398490d82fd2c2",
+                    "SHA3-512": "a7d1baf27f22a65747cdb707458668aafd5072ac2b733c8cf25f649f033e421ccbd3972e34c75f8368aba03f8c7cb697c4b918ee56ab13405f81e719f1ae7413"
+                },
+                "external_id": "VBvbeZIf"
+            },
+            {
+                "source_name": "case",
+                "description": "Community term receive brother art response time."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--da2124ae-8a5e-4497-beb1-1f6365b0f3b9"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--da2124ae-8a5e-4497-beb1-1f6365b0f3b9",
+        "created_by_ref": "identity--f85b331b-4014-4f2f-aba7-ecc84cf28c5d",
+        "created": "2021-08-14T01:09:34.805074Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c8895e1e-4ecb-48a8-ba6f-5865a3a3066d",
+                "name": "Development get financial fill light",
+                "create_date_time": "2021-08-14T01:08:08.421416Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.421229Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f85b331b-4014-4f2f-aba7-ecc84cf28c5d",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-11-03T09:37:43.451448Z",
+        "modified": "2021-08-14T01:09:34.807308Z",
+        "name": "Walker-Miranda",
+        "identity_class": "unknown",
+        "contact_information": "16726 Christian Mall\nRyanton, WV 35923",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "far",
+                "description": "Civil stay throughout base require less during support.",
+                "hashes": {
+                    "MD5": "ddf39acc66e52743fd1db69cf7f13b67",
+                    "SHA-1": "f6610cb2f4e43b41d05d703539eb94b4fbdb0490",
+                    "SHA-256": "d3abff0e84418cf8691c745e2914c0ca1343219815175dbd9fbe9ed11c121b90",
+                    "SHA-512": "d0d69d505eefc68e8e3fd5913c87ba9439abf5338574eb1922698edf322757be8ed528dcf42112a3212549c3b0e93cf12bb47d8756b897c31d547377b1d69943",
+                    "SHA3-256": "edef92e697dd6c0c99c00f599f126536dcfc8e275a083d0ce158bd53c620f11a",
+                    "SHA3-512": "c45c0c9042070069d0cf1414c7949f766d27b0ee221fe702fa4ad99685675a8924bfde0450c6cde5c00ef57f6419267c675f959f3addac84361b3f52c7b60201"
+                },
+                "external_id": "NuMTWjycCS"
+            },
+            {
+                "source_name": "social",
+                "description": "Usually late political.",
+                "url": "http://campbell-martin.com/"
+            },
+            {
+                "source_name": "major",
+                "description": "Town positive learn but.",
+                "url": "http://gates.biz/",
+                "hashes": {
+                    "MD5": "78142a47c1691f5c415bc18aad295c98",
+                    "SHA-1": "559eb063368e853475bf3afafd0e6fa123016890",
+                    "SHA-256": "3615c72bb88e1c9fbde6954541707e6d5766f975e5faa68837380bbcef235181",
+                    "SHA-512": "9cacd71eee2fe6efb9ace70515df76d074d0f67bd38d0ef81cdabb019fc6bb6bfa7387d2fd4c84a7ba9464748f9e7a68e89e61786899ba71b49986d084dd5945",
+                    "SHA3-256": "8c0e9a516f17ec974d9cfe57f7d72ff5a5b0f5066080d49c5cb5c74f0bb1ce39",
+                    "SHA3-512": "47c95b93b847b44a48bb50e67803cd05259f801142b3370edcbe950ee2d44beb06d5feada91447ba60020373ac722313b71e38e93b14a63c1fb87a57bd568ea7"
+                },
+                "external_id": "Cwasff"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--da2124ae-8a5e-4497-beb1-1f6365b0f3b9"
+        ]
+    }
+]

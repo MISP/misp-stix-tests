@@ -1,0 +1,152 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--a2f8f88d-67fb-4b5d-be53-bce60c3e6fdb",
+        "created_by_ref": "identity--adc2721e-678c-4bef-9751-9155ad29c142",
+        "created": "2022-07-30T20:17:26.678289Z",
+        "modified": "2023-03-21T13:55:48.95442Z",
+        "name": "democratic",
+        "description": "Mr respond toward but reduce fall.",
+        "first_seen": "2022-05-06T04:24:18.784826Z",
+        "last_seen": "2022-06-20T14:42:48.766952Z",
+        "labels": [
+            "collection",
+            "pfte-batch-1"
+        ],
+        "confidence": 1,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c06ee7a2-9b47-4e61-a79b-2d28f690612c"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--649ea56d-4b52-49c0-aec6-346d83fd74d2",
+        "created_by_ref": "identity--adc2721e-678c-4bef-9751-9155ad29c142",
+        "created": "2021-03-03T08:17:00.947272Z",
+        "modified": "2021-08-14T01:08:17.315518Z",
+        "name": "dtatWRbYdiScxulDpI",
+        "latitude": -70.72082810496342,
+        "longitude": 121.93651128711275,
+        "country": "Togo",
+        "city": "Sullivanchester",
+        "postal_code": "57035",
+        "labels": [
+            "opportunity",
+            "idea",
+            "sing",
+            "over",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c06ee7a2-9b47-4e61-a79b-2d28f690612c"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--670290f0-9358-481b-abb7-39ba62cf2963",
+        "created_by_ref": "identity--adc2721e-678c-4bef-9751-9155ad29c142",
+        "created": "2020-08-23T05:28:08.520877Z",
+        "modified": "2021-08-14T01:08:17.315784Z",
+        "relationship_type": "targets",
+        "description": "Do opportunity ok. White how father growth phone major either away. Type specific son weight throw budget. Girl many loss whole major social.",
+        "source_ref": "campaign--a2f8f88d-67fb-4b5d-be53-bce60c3e6fdb",
+        "target_ref": "location--649ea56d-4b52-49c0-aec6-346d83fd74d2",
+        "labels": [
+            "religious",
+            "foot",
+            "million",
+            "draw",
+            "pfte-batch-1"
+        ],
+        "confidence": 25,
+        "object_marking_refs": [
+            "marking-definition--c06ee7a2-9b47-4e61-a79b-2d28f690612c"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--adc2721e-678c-4bef-9751-9155ad29c142",
+        "created_by_ref": "identity--adc2721e-678c-4bef-9751-9155ad29c142",
+        "created": "2021-03-21T07:15:45.960865Z",
+        "modified": "2021-08-14T19:20:42.241728Z",
+        "name": "Ochoa Group",
+        "description": "Reduced tangible encoding",
+        "roles": [
+            "force",
+            "cultural"
+        ],
+        "sectors": [
+            "utilities",
+            "education"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c06ee7a2-9b47-4e61-a79b-2d28f690612c"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--c06ee7a2-9b47-4e61-a79b-2d28f690612c",
+        "created": "2021-08-14T01:08:17.314664Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3af87523-f9f6-4d99-acfc-79560c4d2219",
+                "name": "Boy understand else sense give house travel already",
+                "create_date_time": "2021-08-14T01:08:08.429507Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

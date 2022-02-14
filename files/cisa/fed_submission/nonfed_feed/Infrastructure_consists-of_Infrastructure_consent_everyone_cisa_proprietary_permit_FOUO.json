@@ -1,0 +1,110 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--cbc4aba6-8824-4a4b-93a1-8363be8e72e9",
+        "created_by_ref": "identity--aad9d313-d105-46ef-948c-5160b3a26e47",
+        "created": "2020-11-26T22:28:45.367314Z",
+        "modified": "2021-08-14T01:08:42.715793Z",
+        "name": "commercial",
+        "aliases": [
+            "charge",
+            "red",
+            "involve"
+        ],
+        "first_seen": "2022-01-13T14:27:22.492728Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--16670e52-4e5d-467c-8afa-70e0281a3a0a",
+        "created_by_ref": "identity--aad9d313-d105-46ef-948c-5160b3a26e47",
+        "created": "2022-03-23T10:38:49.803099Z",
+        "modified": "2022-08-10T09:41:01.611994Z",
+        "name": "for",
+        "infrastructure_types": [
+            "hosting-malware",
+            "reconnaissance"
+        ],
+        "aliases": [
+            "interest",
+            "he",
+            "any"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "NUWrtAdqYTpBJEexNkVR",
+                "phase_name": "vrmRUiEN"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "first_seen": "2022-05-03T12:25:42.35321Z",
+        "labels": [
+            "for",
+            "near",
+            "in",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--7ad4a622-00d1-46f3-93cf-5cf75ad50894",
+        "created_by_ref": "identity--aad9d313-d105-46ef-948c-5160b3a26e47",
+        "created": "2021-03-01T03:37:04.566303Z",
+        "modified": "2021-08-14T09:14:13.152668Z",
+        "relationship_type": "consists-of",
+        "description": "Many would author thank. Small kitchen fall reflect serve. Much capital relationship choose everyone.",
+        "source_ref": "infrastructure--cbc4aba6-8824-4a4b-93a1-8363be8e72e9",
+        "target_ref": "infrastructure--16670e52-4e5d-467c-8afa-70e0281a3a0a",
+        "start_time": "2020-08-23T07:24:40.958765Z",
+        "stop_time": "2020-11-02T01:24:48.732145Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 45,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--aad9d313-d105-46ef-948c-5160b3a26e47",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-26T17:08:51.795039Z",
+        "modified": "2021-11-29T07:46:33.77448Z",
+        "name": "Johnson, Gilmore and Townsend",
+        "description": "Persevering grid-enabled Internet solution",
+        "sectors": [
+            "emergency-services",
+            "commercial"
+        ],
+        "contact_information": "000 Jay Spring\nBenjaminborough, MI 28381",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 33,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

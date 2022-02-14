@@ -1,0 +1,216 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--28f985c5-d5cd-4b9d-a097-15eddd44ce1a",
+        "created_by_ref": "identity--e75c9004-e8d9-4b70-8607-ef1c7305f246",
+        "created": "2021-01-06T10:26:17.206123Z",
+        "modified": "2021-08-14T01:08:23.292271Z",
+        "name": "ability",
+        "labels": [
+            "consider",
+            "happy",
+            "his",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "push",
+                "description": "Win Mrs international process most authority.",
+                "url": "http://www.hunter-gill.net/",
+                "hashes": {
+                    "MD5": "d0cea7778f7355aa5e6a97b07132496c",
+                    "SHA-1": "22336b5ada263361200a7bbe9f7e66360259f225",
+                    "SHA-256": "6edefe25d4eda802746ea5107b6847e30eced4d6abab396566ce890670d222a2",
+                    "SHA-512": "f885f4af3f90f789da97dd219c0528aa58de3c297fab52d97eee4c3d4c462d521a3126d61cdab53ab2f8c3f1c7c391a043fb217eeda41f7ebde6f68501943cba",
+                    "SHA3-256": "b57a5d1c3b414dae4087728cd706d6141d6e2349dba4f880162c4dedacd7c72c",
+                    "SHA3-512": "977623b2cebeffc996f1c0dbcc0665a3636c49d97b2e2f014e51e784ae3dbbedf4b5bc59b3caf078012e6bb3f5003583df27112264b7a70ef8513376116485a5"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fe37b994-b975-4286-b25e-5b0fc9fb5eef"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--9252cb68-dc5a-4ab7-8079-d5b5260bc5dd",
+        "created_by_ref": "identity--e75c9004-e8d9-4b70-8607-ef1c7305f246",
+        "created": "2021-09-26T23:55:42.835799Z",
+        "modified": "2022-09-13T20:34:58.056361Z",
+        "pattern": "[email-message:is_multipart NOT = false] REPEATS 7 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-11-09T15:35:40.700008Z",
+        "labels": [
+            "management",
+            "feeling",
+            "result",
+            "option",
+            "pfte-batch-1"
+        ],
+        "confidence": 76,
+        "object_marking_refs": [
+            "marking-definition--fe37b994-b975-4286-b25e-5b0fc9fb5eef"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--72a003a6-2c0b-4f34-9d74-ef212eee35ae",
+        "created_by_ref": "identity--e75c9004-e8d9-4b70-8607-ef1c7305f246",
+        "created": "2022-03-23T13:11:23.759671Z",
+        "modified": "2023-03-12T00:29:42.583353Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--28f985c5-d5cd-4b9d-a097-15eddd44ce1a",
+        "target_ref": "indicator--9252cb68-dc5a-4ab7-8079-d5b5260bc5dd",
+        "start_time": "2020-12-16T23:34:31.726986Z",
+        "stop_time": "2021-04-20T14:25:17.885008Z",
+        "confidence": 83,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "experience",
+                "description": "State end budget product low remember.",
+                "url": "http://quinn.com/",
+                "hashes": {
+                    "MD5": "454c958ee6559520c7c3c3ff131474a9",
+                    "SHA-1": "94d9369ac691bde8ca3f451bf8c8e75bfce00e10",
+                    "SHA-256": "bc1c159247db39333c0934ab0cd2943ff2bcb8fe47b0c8c86f0ad3bb66bf41a7",
+                    "SHA-512": "defb03841c4b99730499b127c7eaf6c8bff8927ca6439c9ba0dab0a353a62ebdebe85221a1e6aaba85c288cd141daf6ac448711c0aa45a342d1b985206f68c28",
+                    "SHA3-256": "4cb10a45ad54829a40bcbe10dde0ae7fc4c01e025bdc7ae24a2ef44bcf52584f",
+                    "SHA3-512": "2b96ac2f87b9366478a0f4a7cef4f592bc7a141aadc922859f4cc6cc5196db0fff955ed15c4b8f010f920c6e5ed6e93b42ae4b29179d9ebeb98b93ed0f7b93b0"
+                },
+                "external_id": "aCKllz"
+            },
+            {
+                "source_name": "worry",
+                "description": "School sign involve situation cell.",
+                "hashes": {
+                    "MD5": "3ecea209aae0f3ee539393fc5c56240f",
+                    "SHA-1": "4fdfbcbfe8b9a5a4b166630c0f55bbefd42f0ded",
+                    "SHA-256": "93c2483e012d4b331106527f3a8602bac430757184a3a58e49379dcaa8c97679",
+                    "SHA-512": "97f42b8dd29ef423c94a407a06ae6cf3faf08b12850f96b9df8d91fd32aad89ecbafc28feb3cb02c0cd7a2b3718d8c833ae4b87127901b97aa3a2934cee72915",
+                    "SHA3-256": "3eb3fc4c6764426b8539f894827d92f99585ab6688ff904ce8f1ae4ff6281d93",
+                    "SHA3-512": "078c61f834d413aa187efc778698b18f45e5ff2b27119d405d0e81eef7a6b3246e98eb47f6e64d3e1840acd69d120b1785e58a58f9923a723647d40bbd9e7384"
+                },
+                "external_id": "azbJqVqTxfYD"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fe37b994-b975-4286-b25e-5b0fc9fb5eef"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--fe37b994-b975-4286-b25e-5b0fc9fb5eef",
+        "created_by_ref": "identity--e75c9004-e8d9-4b70-8607-ef1c7305f246",
+        "created": "2021-08-14T01:08:23.291484Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3d6ad3e0-0112-4a6d-8546-447c0e169799",
+                "name": "Space side determine future",
+                "create_date_time": "2021-08-14T01:08:08.419249Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e75c9004-e8d9-4b70-8607-ef1c7305f246",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-05T20:21:05.660484Z",
+        "modified": "2022-01-25T13:16:51.097537Z",
+        "name": "SpecificCoverLetter",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "sea",
+                "description": "Place always director voice science.",
+                "url": "http://www.clark.com/",
+                "external_id": "vrdPOInYtgKVwRloDPs"
+            },
+            {
+                "source_name": "shake",
+                "description": "How agent mean compare compare.",
+                "url": "https://www.cole.net/",
+                "external_id": "TAkCpU"
+            },
+            {
+                "source_name": "appear",
+                "description": "Us in begin management claim.",
+                "url": "https://thomas.com/"
+            },
+            {
+                "source_name": "work",
+                "url": "http://www.woods.com/",
+                "external_id": "GPtULskC"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fe37b994-b975-4286-b25e-5b0fc9fb5eef"
+        ]
+    }
+]

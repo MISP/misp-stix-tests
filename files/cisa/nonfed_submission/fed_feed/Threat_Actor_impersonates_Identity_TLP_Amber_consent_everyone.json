@@ -1,0 +1,173 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--30617600-2c9c-4cd6-ba8f-f320e00f2a38",
+        "created_by_ref": "identity--96cc1be8-65fd-4a79-91e4-0f6092d5f2dd",
+        "created": "2020-10-04T13:50:55.008335Z",
+        "modified": "2021-08-14T01:09:28.267019Z",
+        "name": "pretty",
+        "first_seen": "2021-03-11T16:59:32.879919Z",
+        "last_seen": "2022-01-17T07:03:04.181881Z",
+        "resource_level": "government",
+        "primary_motivation": "dominance",
+        "secondary_motivations": [
+            "notoriety",
+            "unpredictable",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "add",
+            "establish",
+            "right",
+            "pfte-batch-1"
+        ],
+        "confidence": 59,
+        "object_marking_refs": [
+            "marking-definition--acc27cca-24fe-47aa-91ec-18a41a9f2aba"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ee8297c2-9e64-4577-8341-60268e99a3d7",
+        "created_by_ref": "identity--96cc1be8-65fd-4a79-91e4-0f6092d5f2dd",
+        "created": "2021-01-31T04:34:28.874321Z",
+        "modified": "2022-01-20T04:42:44.773264Z",
+        "name": "Mason-James",
+        "description": "Compatible systematic customer loyalty",
+        "roles": [
+            "adult",
+            "state",
+            "after",
+            "image",
+            "hand"
+        ],
+        "identity_class": "class",
+        "contact_information": "Unit 8017 Box 0065\nDPO AP 90382",
+        "confidence": 66,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--acc27cca-24fe-47aa-91ec-18a41a9f2aba"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c995d6bf-0dd8-4b30-8e1d-e8ecc21ee58f",
+        "created_by_ref": "identity--96cc1be8-65fd-4a79-91e4-0f6092d5f2dd",
+        "created": "2019-12-11T20:53:27.542114Z",
+        "modified": "2021-08-14T01:09:28.267585Z",
+        "relationship_type": "impersonates",
+        "source_ref": "threat-actor--30617600-2c9c-4cd6-ba8f-f320e00f2a38",
+        "target_ref": "identity--ee8297c2-9e64-4577-8341-60268e99a3d7",
+        "stop_time": "2021-02-23T07:40:57.083645Z",
+        "object_marking_refs": [
+            "marking-definition--acc27cca-24fe-47aa-91ec-18a41a9f2aba"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--acc27cca-24fe-47aa-91ec-18a41a9f2aba",
+        "created_by_ref": "identity--96cc1be8-65fd-4a79-91e4-0f6092d5f2dd",
+        "created": "2021-08-14T01:09:28.266267Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f98cddfd-8461-4143-a969-e6e230df21d4",
+                "name": "Word describe cold color",
+                "create_date_time": "2021-08-14T01:08:08.422252Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--96cc1be8-65fd-4a79-91e4-0f6092d5f2dd",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-25T04:59:38.361652Z",
+        "modified": "2022-03-03T09:03:36.259113Z",
+        "name": "Moore-Evans",
+        "roles": [
+            "stuff",
+            "member",
+            "reality",
+            "hot",
+            "determine"
+        ],
+        "identity_class": "group",
+        "contact_information": "1177 Young Extension\nBuchananfort, OH 22930",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "now",
+                "description": "Name change none look interview.",
+                "url": "https://www.nelson.net/",
+                "external_id": "zMtPusNe"
+            },
+            {
+                "source_name": "water",
+                "external_id": "QjiwKIxXQlzyt"
+            },
+            {
+                "source_name": "station",
+                "url": "https://jenkins-thompson.com/",
+                "external_id": "FEnaTSravapgcvnIK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--acc27cca-24fe-47aa-91ec-18a41a9f2aba"
+        ]
+    }
+]

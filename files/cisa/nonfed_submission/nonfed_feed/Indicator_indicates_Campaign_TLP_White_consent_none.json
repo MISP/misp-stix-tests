@@ -1,0 +1,88 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--c0793ba5-fcdb-4777-9fe6-933a62f2b3ac",
+        "created_by_ref": "identity--42628021-639a-437f-a9c0-3b25ee4315f4",
+        "created": "2021-09-11T22:30:18.329664Z",
+        "modified": "2021-11-24T00:01:38.273519Z",
+        "name": "network",
+        "description": "Energy include color itself.",
+        "pattern": "([windows-registry-key:defanged NOT = false]) OR [network-traffic:src_ref.defanged NOT = false] OR [domain-name:defanged NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-10-05T20:15:24.400329Z",
+        "valid_until": "2022-04-06T17:11:34.35198Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "GnTzLvpDw",
+                "phase_name": "HyOCEUYY"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 7,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--3bfafb68-29c3-42b4-a13a-1031334129c2",
+        "created_by_ref": "identity--42628021-639a-437f-a9c0-3b25ee4315f4",
+        "created": "2021-07-30T11:18:23.393213Z",
+        "modified": "2022-07-22T09:16:51.760352Z",
+        "name": "few",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e2170ec7-b7a1-4ae2-a03d-56cd2de8f0f9",
+        "created_by_ref": "identity--42628021-639a-437f-a9c0-3b25ee4315f4",
+        "created": "2021-07-09T03:32:38.00909Z",
+        "modified": "2022-01-11T17:55:15.557454Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--c0793ba5-fcdb-4777-9fe6-933a62f2b3ac",
+        "target_ref": "campaign--3bfafb68-29c3-42b4-a13a-1031334129c2",
+        "stop_time": "2022-05-22T12:25:44.593932Z",
+        "labels": [
+            "war",
+            "smile",
+            "pfte-batch-1"
+        ],
+        "confidence": 44,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--42628021-639a-437f-a9c0-3b25ee4315f4",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-02-12T00:58:57.811699Z",
+        "modified": "2022-07-29T13:21:43.013014Z",
+        "name": "NatureWithCell",
+        "identity_class": "unknown",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

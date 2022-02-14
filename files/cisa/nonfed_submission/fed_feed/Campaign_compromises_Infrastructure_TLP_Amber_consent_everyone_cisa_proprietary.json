@@ -1,0 +1,154 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--11be7206-7fd1-4069-9c76-ac00e28167f6",
+        "created_by_ref": "identity--47cf7f27-771d-46d8-8f58-54a5ec6efadd",
+        "created": "2020-10-18T13:30:22.953202Z",
+        "modified": "2021-08-14T01:08:14.727849Z",
+        "name": "education",
+        "description": "Agency college before door human.",
+        "last_seen": "2021-03-10T17:07:15.39337Z",
+        "labels": [
+            "everything",
+            "describe",
+            "man",
+            "education",
+            "practice",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--8e534a7a-c340-4f00-8251-9e457159db9c"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--8b9f1f34-2fe7-4dd4-9a3f-857bb265509d",
+        "created_by_ref": "identity--47cf7f27-771d-46d8-8f58-54a5ec6efadd",
+        "created": "2021-05-13T17:17:02.239866Z",
+        "modified": "2022-03-19T21:24:32.873202Z",
+        "name": "outside",
+        "description": "Agree through try important.",
+        "infrastructure_types": [
+            "firewall"
+        ],
+        "aliases": [
+            "admit",
+            "discuss",
+            "statement",
+            "candidate",
+            "become"
+        ],
+        "last_seen": "2021-06-23T05:50:25.983206Z",
+        "labels": [
+            "response",
+            "cost",
+            "effect",
+            "pfte-batch-1"
+        ],
+        "confidence": 21,
+        "object_marking_refs": [
+            "marking-definition--8e534a7a-c340-4f00-8251-9e457159db9c"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--7544dbfd-55f1-4e7b-80cb-d841a9ec77c6",
+        "created_by_ref": "identity--47cf7f27-771d-46d8-8f58-54a5ec6efadd",
+        "created": "2022-07-13T17:25:54.753718Z",
+        "modified": "2022-12-08T02:12:19.919383Z",
+        "relationship_type": "compromises",
+        "source_ref": "campaign--11be7206-7fd1-4069-9c76-ac00e28167f6",
+        "target_ref": "infrastructure--8b9f1f34-2fe7-4dd4-9a3f-857bb265509d",
+        "stop_time": "2021-04-23T10:55:24.06851Z",
+        "confidence": 14,
+        "object_marking_refs": [
+            "marking-definition--8e534a7a-c340-4f00-8251-9e457159db9c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--8e534a7a-c340-4f00-8251-9e457159db9c",
+        "created_by_ref": "identity--47cf7f27-771d-46d8-8f58-54a5ec6efadd",
+        "created": "2021-08-14T01:08:14.727254Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-881bbc21-deef-4d57-abf3-7f599266217f",
+                "name": "Way get would fight necessary hour measure",
+                "create_date_time": "2021-08-14T01:08:08.423662Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--47cf7f27-771d-46d8-8f58-54a5ec6efadd",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-02-23T03:02:10.810115Z",
+        "modified": "2022-06-12T10:19:35.282414Z",
+        "name": "Walter PLC",
+        "roles": [
+            "low",
+            "section"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 76,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--8e534a7a-c340-4f00-8251-9e457159db9c"
+        ]
+    }
+]

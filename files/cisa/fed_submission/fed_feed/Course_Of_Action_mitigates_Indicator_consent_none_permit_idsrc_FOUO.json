@@ -1,0 +1,183 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--7747f534-4033-410f-b4e1-1ee6912e7953",
+        "created_by_ref": "identity--ec90e646-1d33-4b56-b545-2700e5e02e6a",
+        "created": "2021-01-01T17:12:09.378387Z",
+        "modified": "2021-08-14T01:08:23.701255Z",
+        "name": "next",
+        "description": "Yeah interview form list game cold court action.",
+        "labels": [
+            "pattern",
+            "under",
+            "doctor",
+            "brother",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b20ba101-1c0c-4c4e-9d19-f1c86a30f36d"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--3146ddc5-845a-4697-ab1b-4525aeb74c89",
+        "created_by_ref": "identity--ec90e646-1d33-4b56-b545-2700e5e02e6a",
+        "created": "2020-12-01T20:59:13.462752Z",
+        "modified": "2021-08-14T01:08:23.701482Z",
+        "description": "Sort indicate break national beat.",
+        "pattern": "[url:value > 'https://brown.org/'] OR [email-addr:defanged = false] OR [mac-addr:value <= 'e9:1c:77:87:a5:d4'] REPEATS 4 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-06-16T11:06:10.657062Z",
+        "object_marking_refs": [
+            "marking-definition--b20ba101-1c0c-4c4e-9d19-f1c86a30f36d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1a9214ec-66ad-441c-bb20-642db86b2a91",
+        "created_by_ref": "identity--ec90e646-1d33-4b56-b545-2700e5e02e6a",
+        "created": "2022-07-11T00:15:50.705715Z",
+        "modified": "2023-01-09T21:55:51.707748Z",
+        "relationship_type": "mitigates",
+        "description": "More finish hope ahead will body stage too. Should project form old loss him possible. Miss above protect laugh church. House near which military PM science.",
+        "source_ref": "course-of-action--7747f534-4033-410f-b4e1-1ee6912e7953",
+        "target_ref": "indicator--3146ddc5-845a-4697-ab1b-4525aeb74c89",
+        "confidence": 65,
+        "external_references": [
+            {
+                "source_name": "lawyer",
+                "description": "Bill without including relate friend.",
+                "url": "http://www.kelly-peterson.com/",
+                "external_id": "GokKWcBuNp"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b20ba101-1c0c-4c4e-9d19-f1c86a30f36d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ec90e646-1d33-4b56-b545-2700e5e02e6a",
+        "created_by_ref": "identity--ec90e646-1d33-4b56-b545-2700e5e02e6a",
+        "created": "2020-12-18T04:40:10.343028Z",
+        "modified": "2021-11-17T14:31:53.971187Z",
+        "name": "Washington, Davis and Rivera",
+        "identity_class": "class",
+        "contact_information": "700 Stanley Lodge\nWilliamschester, KY 03802",
+        "confidence": 52,
+        "external_references": [
+            {
+                "source_name": "run",
+                "url": "https://www.nelson.com/",
+                "external_id": "MIPOcrZRmvTq"
+            },
+            {
+                "source_name": "piece",
+                "url": "https://www.foster-hernandez.com/",
+                "external_id": "yhSXWkhNmhzXqgnxx"
+            },
+            {
+                "source_name": "free",
+                "description": "Interesting main child later.",
+                "url": "https://bauer.com/",
+                "external_id": "revSytowccJNaavDtaVD"
+            },
+            {
+                "source_name": "education",
+                "description": "Left open field.",
+                "external_id": "hSHUMMYoMMQdxatNo"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b20ba101-1c0c-4c4e-9d19-f1c86a30f36d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b20ba101-1c0c-4c4e-9d19-f1c86a30f36d",
+        "created": "2021-08-14T01:08:23.700635Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1a59cf40-939d-4572-bc52-0472b77923dd",
+                "name": "Run main democratic",
+                "create_date_time": "2021-08-14T01:08:08.425934Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

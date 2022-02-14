@@ -1,0 +1,180 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--1f8b6c61-5820-43eb-980f-3dd44f2bac95",
+        "created_by_ref": "identity--ec46434a-f5ee-4193-9ae4-e854395980dc",
+        "created": "2021-12-09T00:02:09.372301Z",
+        "modified": "2022-10-23T07:18:34.203816Z",
+        "name": "operation",
+        "description": "Finally serve mind buy.",
+        "labels": [
+            "source",
+            "card",
+            "peace",
+            "civil",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--a9659668-a2e9-4c5d-a734-4078896646cc"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--53332e7a-439f-4c89-b24d-ae0f5c09046a",
+        "created_by_ref": "identity--ec46434a-f5ee-4193-9ae4-e854395980dc",
+        "created": "2021-06-19T06:58:43.985662Z",
+        "modified": "2021-12-14T00:41:13.389856Z",
+        "description": "Age run something control point executive recently.",
+        "pattern": "[windows-registry-key:key = 'xhCIliIGVaBMMjC'] START t'2021-08-14T22:49:10.96147Z' STOP t'2021-10-17T07:22:57.689591Z'",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-05-11T20:19:33.319127Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "slQoUhnUNK",
+                "phase_name": "fAXkEBEvy"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "MdDadgNxERhMeycr",
+                "phase_name": "TJpeANeCEgkI"
+            }
+        ],
+        "labels": [
+            "new",
+            "oil",
+            "cell",
+            "account",
+            "door",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--a9659668-a2e9-4c5d-a734-4078896646cc"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--5c374d0a-e7dd-4e29-9832-71dc79fbf36c",
+        "created_by_ref": "identity--ec46434a-f5ee-4193-9ae4-e854395980dc",
+        "created": "2022-06-22T12:09:09.203158Z",
+        "modified": "2023-06-16T14:23:04.651943Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--1f8b6c61-5820-43eb-980f-3dd44f2bac95",
+        "target_ref": "indicator--53332e7a-439f-4c89-b24d-ae0f5c09046a",
+        "start_time": "2020-10-13T14:00:33.076735Z",
+        "stop_time": "2021-08-23T21:56:20.118171Z",
+        "external_references": [
+            {
+                "source_name": "hold",
+                "description": "Tend morning scene sound.",
+                "url": "https://barnes.biz/",
+                "hashes": {
+                    "MD5": "3f9f68c1f145d538f86c5ce0c337367b",
+                    "SHA-1": "cff67f6b4839c65cf74f83365d71ed7cad03e301",
+                    "SHA-256": "2c92d3b644fc4e98e8bc7b9c5a5c776bfd483a3b829723f404b15fc34082c6c2",
+                    "SHA-512": "9621c6bed675937e849bd071118880f91d7f134b786069b0298981d50ee1762a6642ea17465b69e7bc1b73f66a377af936c97541fddc886172d710643c3b78ef",
+                    "SHA3-256": "f27ec10472b8b79361cb1c04e8caef05ab30ed37595e726869dba47a75522b80",
+                    "SHA3-512": "3f32669615c836dd6bed40af65c628e941697102f27e3798d5ec0d5fb745f6560cfc6f14846699ea9b658bbe36044fea7c2b1fc459b7cbf162a65d512a9c01d2"
+                },
+                "external_id": "ECCFmVYiZMDwLJkCt"
+            },
+            {
+                "source_name": "pattern",
+                "description": "Record game keep firm to.",
+                "external_id": "BHOLOpiOnlCBrrlbZya"
+            },
+            {
+                "source_name": "radio",
+                "url": "http://www.vasquez-johnson.com/",
+                "hashes": {
+                    "MD5": "866f6fbcebfc976f25beeea9aeb969eb",
+                    "SHA-1": "9f957fd4221157bfce3c303e542d160a6a020d31",
+                    "SHA-256": "69b44c9f2200aaa77fc80886f74bc55823bf26af93123ec1b82f7cea25b30d7b",
+                    "SHA-512": "0d5064b96198be97947903607fd6877e7229c62d2add468de6d161310b250a0c2bca06c8e9fbecf83bc8be73a221d951123b85f659a13712b2a5bf82eb998914",
+                    "SHA3-256": "b513d7047d1692bd05d2558242a38756048c34d85198ce5f912036bb32b177fa",
+                    "SHA3-512": "a96fe73047fd663f6c6e404c285d20e7c25dad2cca78d43d8195e9e281c55a5e823ec67e008b180a21d66ec770ca17890543c5c09208264a5e88cb2d8bdaecd5"
+                },
+                "external_id": "XshkBdMNglQhkgyfhB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a9659668-a2e9-4c5d-a734-4078896646cc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ec46434a-f5ee-4193-9ae4-e854395980dc",
+        "created_by_ref": "identity--ec46434a-f5ee-4193-9ae4-e854395980dc",
+        "created": "2022-01-05T16:46:55.55489Z",
+        "modified": "2022-07-10T13:04:11.911966Z",
+        "name": "Martin Group",
+        "description": "Switchable background analyzer",
+        "roles": [
+            "let",
+            "pretty"
+        ],
+        "sectors": [
+            "communications",
+            "defense",
+            "government-regional",
+            "utilities",
+            "telecommunications"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--a9659668-a2e9-4c5d-a734-4078896646cc"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--a9659668-a2e9-4c5d-a734-4078896646cc",
+        "created": "2021-08-14T01:08:24.027621Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a064a16e-64c9-426c-9535-98e263215e51",
+                "name": "Member population available under",
+                "create_date_time": "2021-08-14T01:08:08.430342Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

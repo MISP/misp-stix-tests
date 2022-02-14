@@ -1,0 +1,189 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--7d2881c9-2e4b-4386-bbf1-d4575d2dde33",
+        "created_by_ref": "identity--09af7031-6ece-4196-91ee-1f5f5c4402c9",
+        "created": "2022-07-11T16:05:47.176661Z",
+        "modified": "2023-05-05T10:46:39.931769Z",
+        "description": "Hospital authority huge loss.",
+        "pattern": "[windows-registry-key:key < 'OIjSyHNXxIguFSuUOwV']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-04-15T06:29:11.298697Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "rKSLjqSWUFpvXDDzG",
+                "phase_name": "BjbNxhqQwRQQOdYoZc"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "DHBKYieRJboBaGQR",
+                "phase_name": "tMfjxCQWiOaXvCelwP"
+            }
+        ],
+        "labels": [
+            "include",
+            "product",
+            "especially",
+            "pfte-batch-1"
+        ],
+        "confidence": 72,
+        "external_references": [
+            {
+                "source_name": "remember",
+                "description": "Bit owner top mission.",
+                "url": "http://www.walker.com/"
+            },
+            {
+                "source_name": "conference",
+                "url": "http://shaw.com/",
+                "external_id": "sIQzsGahANwKJvZnwMgf"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--e50d2196-7b9c-4700-81ec-9ac90927e996",
+        "created_by_ref": "identity--09af7031-6ece-4196-91ee-1f5f5c4402c9",
+        "created": "2021-06-22T05:27:16.59203Z",
+        "modified": "2021-12-25T14:56:27.533045Z",
+        "name": "through",
+        "aliases": [
+            "when",
+            "now",
+            "open"
+        ],
+        "last_seen": "2020-10-09T03:31:47.767117Z",
+        "sophistication": "strategic",
+        "primary_motivation": "coercion",
+        "secondary_motivations": [
+            "dominance",
+            "notoriety",
+            "accidental"
+        ],
+        "personal_motivations": [
+            "dominance",
+            "unpredictable",
+            "ideology",
+            "dominance",
+            "accidental"
+        ],
+        "labels": [
+            "less",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c6614d35-8aff-4ed5-bf78-4bf24d7a5701",
+        "created_by_ref": "identity--09af7031-6ece-4196-91ee-1f5f5c4402c9",
+        "created": "2020-12-20T11:01:12.595308Z",
+        "modified": "2021-08-14T01:08:33.654046Z",
+        "relationship_type": "indicates",
+        "description": "Benefit day whom technology. Itself seek truth institution structure upon behind.",
+        "source_ref": "indicator--7d2881c9-2e4b-4386-bbf1-d4575d2dde33",
+        "target_ref": "threat-actor--e50d2196-7b9c-4700-81ec-9ac90927e996",
+        "start_time": "2021-02-06T04:59:02.29527Z",
+        "labels": [
+            "yourself",
+            "dream",
+            "movement",
+            "off",
+            "pfte-batch-1"
+        ],
+        "confidence": 50,
+        "external_references": [
+            {
+                "source_name": "career",
+                "description": "Charge imagine surface step customer their.",
+                "hashes": {
+                    "MD5": "12d9bd4680516d467d3bea61947f78c2",
+                    "SHA-1": "ab8869676ab7984391ca37ae8277103924f84965",
+                    "SHA-256": "7e4b03902964f3ddefc61ee24904b7e4503c29ab5c28f0ef4e148a36080de97f",
+                    "SHA-512": "063c5e9473339a051fbb9d199185485cae2a91681edba5b13c028fd5a8ccf252b176d7158169afab88ff22eed711ae0f179d799d33302f8ccf4886db57e44ba2",
+                    "SHA3-256": "0551adc48715ad9f86416da540e44d4e7dc521b325d3251e744b35453db99ea5",
+                    "SHA3-512": "7f63bac981854536a571b6c9b8ea6819f3cc951c679d6af155c0e37c00185facedc9299e5586889207d1d576a17b1ec4342f06131cf7671ab2a600ab1963f145"
+                },
+                "external_id": "KsujavEOYGZcXPMGHOT"
+            },
+            {
+                "source_name": "pass",
+                "description": "Design eye build matter.",
+                "url": "http://www.king.biz/",
+                "external_id": "tQUCANQ"
+            },
+            {
+                "source_name": "everybody",
+                "description": "Purpose area art town.",
+                "url": "https://www.wallace.com/",
+                "hashes": {
+                    "MD5": "3fbe174abfe5c637095c0432710b7482",
+                    "SHA-1": "99ca3a90731221b46c06012af7c2646435388b9d",
+                    "SHA-256": "8399ab94d4627c6170a9cd1e96a027e6777151aa456e666f0051ac7db4bfc87c",
+                    "SHA-512": "c537df89a5af65f3fc2f2b83fa24b8d408ac6089d4e59d0aa07fbecb9f2cad9177943ae514fcf75f6f935b9bbd059255ca7a7d82bdbddf7a4bf8a726f3bfc265",
+                    "SHA3-256": "c132d847727ccc40c096f308e94e7df2c7272e460c72c6e8f1bd405b3383fded",
+                    "SHA3-512": "fbde4c4110fe6c2570237d32d2e7a193346dd312170d48e7d62e0c26e302ad95b63b19bc75080b330176f4c6c60a8235661e40753fb4e5c87800d1ce17f98c31"
+                }
+            },
+            {
+                "source_name": "leg",
+                "description": "Professor level behavior participant far effort.",
+                "hashes": {
+                    "MD5": "d371f368cefcf05f112675fc21d3b9ff",
+                    "SHA-1": "e594c7321c1057c43c3d5a2d5caa2db2dc9fc9d2",
+                    "SHA-256": "7ecc2719367e8f320d0906845d73ff5c3307a9c1b17342500f47937bba8aed9a",
+                    "SHA-512": "94ae41d035f734fa28c7823f26a058e151b8075151bbf05ecde826ee1df48b7173a4635cb7c1fad9739fbbc84b8adfa85b9648d118d5d489b8b9a5e249bf4ae5",
+                    "SHA3-256": "c3a9e4a9e69cfc0bc12fa24ae1772578b4fe6d8d6bfea7acd3c087f776219bff",
+                    "SHA3-512": "dafc59d9ff889cb51e42765111f0b2bd9ddcb264dc1bed9e1e0b92ef0cac1e02120fa8b49512556eaf75a00ec8fa9e6fd714fbffec8d9bbc2042bdf9224940ae"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--09af7031-6ece-4196-91ee-1f5f5c4402c9",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-10T08:28:06.714628Z",
+        "modified": "2022-07-09T05:09:01.338044Z",
+        "name": "Lawrence-Morgan",
+        "roles": [
+            "rate",
+            "firm"
+        ],
+        "identity_class": "unknown",
+        "sectors": [
+            "government",
+            "government-national"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 18,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

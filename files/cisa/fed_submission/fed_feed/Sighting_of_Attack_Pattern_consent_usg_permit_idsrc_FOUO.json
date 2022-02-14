@@ -1,0 +1,186 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--4ab716f7-d7fe-415c-aa22-f93b56f824eb",
+        "created_by_ref": "identity--3f7d718d-745e-42df-a03e-20c66a20ef8b",
+        "created": "2022-04-10T14:53:40.468468Z",
+        "modified": "2022-08-26T19:14:02.906051Z",
+        "name": "strong",
+        "aliases": [
+            "without",
+            "ok"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "FJmboPvDfRIbpH",
+                "phase_name": "kIpYrhnmXTPlzCMfLIK"
+            },
+            {
+                "kill_chain_name": "YWiyUvEdUbPSNLye",
+                "phase_name": "ZxIUPfr"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "confidence": 66,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "especially",
+                "description": "Live office tend write education.",
+                "hashes": {
+                    "MD5": "4d1dcb5a63466487bb4a966853d4b6f4",
+                    "SHA-1": "5ce9cd9fd4d13f4f6faa44f0a14e3f1e21bb9ee2",
+                    "SHA-256": "0ab18ec927b7bd4b5f3aa4a6c27717977dd13f6b58426a88a0b0066d34c73fbf",
+                    "SHA-512": "8583737177cc8942749dcc56e18f3480b5cfd8b0f6f2efdf8792ea0330242992e0b7b1b69ea47a7d27e82c9b5e76ddd4fad64eb21cdb6fe1696c58906fca0422",
+                    "SHA3-256": "bd619ee03937acded0aca64c2fb74a799aee5a085b23f557e1cb85abb4978eac",
+                    "SHA3-512": "3a1993e4693fce9235b631baf22a82ab5b9baad6f3f8bc329667a54a19f7c0d343115ac4bff14c2f3484474744dcfa82cea55029d65a655f328c11af1ee410f5"
+                },
+                "external_id": "IEfOkYT"
+            },
+            {
+                "source_name": "new",
+                "hashes": {
+                    "MD5": "4978d3beacbdb9f687048d2991f865ed",
+                    "SHA-1": "5ddf58f8dc27360394359aba195ad9d219704175",
+                    "SHA-256": "8584a3de0d83c3d94ecaa2f94f773bb5274260b58c4cbe3ca6b640e237647384",
+                    "SHA-512": "563e442443327c9a64ce219232cf25291bd4a76904f803d0a6c196b49ef2d7a9eeb8ab7362bfac4d9c1ded99afa264ef57a2ac8b1b7f8b9de109f674c2fc35be",
+                    "SHA3-256": "18e4afa74524709a9355dece07ba3f0bd1a3f4c57a09de2fe34046c6478f41da",
+                    "SHA3-512": "b95073d9abab71e80eda3e0ee18e52fe44a4a7d294bdd789c4379bacf0c2f5e26578e332350d2adc1fc0774d02fea6e1f2e515921cf343e9f833ec669905a0d5"
+                },
+                "external_id": "EgchmnCAZIMroTyPb"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d6d6de92-4103-4652-91b9-0b1c640a7adc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "sighting",
+        "spec_version": "2.1",
+        "id": "sighting--b3467d05-cccc-4315-9166-f4e4abedfdd4",
+        "created_by_ref": "identity--3f7d718d-745e-42df-a03e-20c66a20ef8b",
+        "created": "2021-03-31T05:03:07.234918Z",
+        "modified": "2021-08-14T01:09:41.453384Z",
+        "sighting_of_ref": "attack-pattern--4ab716f7-d7fe-415c-aa22-f93b56f824eb",
+        "confidence": 25,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d6d6de92-4103-4652-91b9-0b1c640a7adc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3f7d718d-745e-42df-a03e-20c66a20ef8b",
+        "created_by_ref": "identity--3f7d718d-745e-42df-a03e-20c66a20ef8b",
+        "created": "2020-11-01T22:42:53.155762Z",
+        "modified": "2021-08-14T01:09:41.453753Z",
+        "name": "Grant Ltd",
+        "description": "Reactive neutral product",
+        "confidence": 77,
+        "external_references": [
+            {
+                "source_name": "young",
+                "description": "Between old not student must manage without.",
+                "hashes": {
+                    "MD5": "985847f5c9a61e966897ec2d73721b17",
+                    "SHA-1": "4ee12e076b7df9f7ddbf5506618cab51727688f7",
+                    "SHA-256": "552b50ee50d028e22580abc250a3737dc806e658f93a3e79351a157a223f086e",
+                    "SHA-512": "735390ddd692112a8831bf803250f97268160543425ebb9a5babde1efb066d7afe98dcd4af49826bab985761a1b27911d5bca8c092c0063f5a7d09e8c912788a",
+                    "SHA3-256": "2f60771de87fa2b4c86bd356f78bdcadc7d401c50f61287e9c232afb2b70ea17",
+                    "SHA3-512": "31f5404e1a6c3d8f161480bb7ef20bdca8df5207bb4c94e7f40bbe4ea06f9e4da61a6a22d569fdf58b4b3da151ff0d6d89508d65877b1c99754a5dec856c9258"
+                },
+                "external_id": "BLhxUmwv"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d6d6de92-4103-4652-91b9-0b1c640a7adc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d6d6de92-4103-4652-91b9-0b1c640a7adc",
+        "created": "2021-08-14T01:09:41.452067Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-57e7d098-4c26-4a4d-bfaa-3ee9c5e47adc",
+                "name": "Customer hot subject fight customer",
+                "create_date_time": "2021-08-14T01:08:08.428617Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

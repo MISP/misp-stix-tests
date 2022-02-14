@@ -1,0 +1,286 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--df87bc3e-708e-4353-93ca-ebc41ff6f63a",
+        "created_by_ref": "identity--5d83cef3-9aac-4d12-883e-ef6527cf7213",
+        "created": "2021-07-28T19:57:44.63207Z",
+        "modified": "2021-09-10T19:29:35.879993Z",
+        "name": "mind",
+        "aliases": [
+            "senior",
+            "evening"
+        ],
+        "goals": [
+            "event",
+            "finally"
+        ],
+        "sophistication": "none",
+        "resource_level": "contest",
+        "secondary_motivations": [
+            "organizational-gain",
+            "organizational-gain",
+            "ideology",
+            "notoriety"
+        ],
+        "labels": [
+            "seek",
+            "already",
+            "hope",
+            "station",
+            "look",
+            "pfte-batch-1"
+        ],
+        "confidence": 25,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--1bc501f1-2add-46e8-9063-ca34c6971a68"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--bb5fdc7f-5d55-423b-a794-e78b93beed1a",
+        "created_by_ref": "identity--5d83cef3-9aac-4d12-883e-ef6527cf7213",
+        "created": "2022-05-04T02:59:21.099495Z",
+        "modified": "2022-06-03T04:01:05.735145Z",
+        "name": "job",
+        "description": "Performance place scene cultural American kid loss.",
+        "infrastructure_types": [
+            "control-system",
+            "hosting-malware"
+        ],
+        "aliases": [
+            "front"
+        ],
+        "confidence": 68,
+        "external_references": [
+            {
+                "source_name": "number",
+                "description": "Major should local gun.",
+                "url": "http://www.evans-carpenter.biz/",
+                "hashes": {
+                    "MD5": "5716d092dcdd2b8f905be6d453695a62",
+                    "SHA-1": "e64361a3eb0f7a7edd0f4c1352d5b653ae96831b",
+                    "SHA-256": "e2d6dab8cd6c0d4ec7ac1ca231a73981abe0239dab9011e12303a79d47edc26f",
+                    "SHA-512": "954e9d871271c49f978c94452ca7e0335fbddfc5ce52bcbf04599452ca0f3b57c12f6ff0bc21ec190a24250aa0cc0fa2d704445499ef6d072cf11774fb5ca582",
+                    "SHA3-256": "6ec70fdc2d0bcc788b8eb3a8389eb2274c10b393ca8883814c50d514d0e1f670",
+                    "SHA3-512": "4ea027be645588f179cca9cf9dd5c726fb12270d24cf1bf019618af777c51df8849d8f2a4144cbf570800929c2f80314ff3e0005a83308c8aefb80100e37fa45"
+                },
+                "external_id": "krziVtMCYDzJrogwrmw"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1bc501f1-2add-46e8-9063-ca34c6971a68"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1ec56238-f54e-4884-85c0-8cac0b99728e",
+        "created_by_ref": "identity--5d83cef3-9aac-4d12-883e-ef6527cf7213",
+        "created": "2021-05-11T12:21:34.425322Z",
+        "modified": "2022-02-20T09:54:38.55307Z",
+        "relationship_type": "compromises",
+        "source_ref": "threat-actor--df87bc3e-708e-4353-93ca-ebc41ff6f63a",
+        "target_ref": "infrastructure--bb5fdc7f-5d55-423b-a794-e78b93beed1a",
+        "stop_time": "2022-04-12T07:04:52.557738Z",
+        "labels": [
+            "scene",
+            "pfte-batch-1"
+        ],
+        "confidence": 19,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--1bc501f1-2add-46e8-9063-ca34c6971a68"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--9a650c18-63ee-42d2-a418-844d8c6a9b41",
+        "created_by_ref": "identity--5d83cef3-9aac-4d12-883e-ef6527cf7213",
+        "created": "2021-11-05T05:16:40.184843Z",
+        "modified": "2022-04-11T06:04:40.877523Z",
+        "opinion": "strongly-disagree",
+        "object_refs": [
+            "threat-actor--df87bc3e-708e-4353-93ca-ebc41ff6f63a",
+            "infrastructure--bb5fdc7f-5d55-423b-a794-e78b93beed1a",
+            "relationship--1ec56238-f54e-4884-85c0-8cac0b99728e"
+        ],
+        "external_references": [
+            {
+                "source_name": "ok",
+                "description": "Both where decide.",
+                "url": "http://www.meyers.com/",
+                "hashes": {
+                    "MD5": "7fc1ebd09bc9d8d6156f9be0de44b051",
+                    "SHA-1": "cae1633143e39087d5239512f2414620d492d3ef",
+                    "SHA-256": "8f8d46cf2da9e777297314733d02ea0ecd31837cdb765a0ddc21251ecc46e1a0",
+                    "SHA-512": "5e903d28c2a8643c695e86b7867c8ee0c857f0007a00a222ea6a93fe04f8fc0f008f2981e2da0a0c735392449801268f24638fff1d11e9935510273bf9bb3eb2",
+                    "SHA3-256": "33b0e8ea8ffa4e1a7189894bc3f31ba530f1829adec6746a99d13b571cab43fb",
+                    "SHA3-512": "7f800f53820e53652215536c69d64dfd69f8d43be2d51dd94e25c4decc0b0e6295066d482aae0e34368d7b7f160c4bfc0a8ea11bdc297d59b47e455d2fca153d"
+                }
+            },
+            {
+                "source_name": "produce",
+                "description": "Nice American recent plan college hold.",
+                "url": "http://www.craig.com/",
+                "hashes": {
+                    "MD5": "36f03d738b5425f7cd35ba4496023d98",
+                    "SHA-1": "7f62d2463ebcdbb96b85fb5a1ff0db882eb6058f",
+                    "SHA-256": "dfe5f6dcb924d85a8e2cb6c399f1fa6fe1807629c09da440c5db9b86297238cc",
+                    "SHA-512": "27aa61ffb30ba6183e9596b36588796806ec07d921e38991df923f02cca72ef862144a6347ddef5f8d4e1a6a8fdc3f92b50dfb4e8ae3d148c42ef2880f5c9540",
+                    "SHA3-256": "0212585b2a4b903e9429400c23a40ac9afb1174220600f625658d15e61ea8acf",
+                    "SHA3-512": "e7bfc27276a47c57d87fc409a390ca8a65c9412bbf444c39723abdadd8e54894352d37fac44ac9f0b3bf28994a6d19962a5905d7081fff2dfe733615dd10feb1"
+                },
+                "external_id": "tMerYRyyOxlXbRi"
+            },
+            {
+                "source_name": "state",
+                "description": "Accept author buy old.",
+                "url": "https://www.jones-marshall.org/",
+                "hashes": {
+                    "MD5": "1aae26876bd79d1fe39100f334074dae",
+                    "SHA-1": "aa034fec8ca47f01acaf2db85d95c6918b3f8c4a",
+                    "SHA-256": "d8a740de176dd471ab9154bcf8ff2c17e3407f4a782063aeb4c1da4f0afc3b38",
+                    "SHA-512": "30ce740a8561c0e0efb0b4b5925a6a939a91c0ccda2f92489c29d634f2d9d0d2443f07d6faea0b55067bed50926fb934946e4b09f64b1e5c7818a58f44b7e641",
+                    "SHA3-256": "9b7c864fd0b273543258cd9beea00628027a3afd2cf6ff9a400e9c6b9dc06418",
+                    "SHA3-512": "044264a030031e948b495fb24e0df627963f5342c928e94bbfe03a2f84c96219fb3fbe9b26a572fb8f2f0f6b9dd8e0ca198678c39596d6e1a16b5c7baf4570e8"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1bc501f1-2add-46e8-9063-ca34c6971a68"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--1bc501f1-2add-46e8-9063-ca34c6971a68",
+        "created_by_ref": "identity--5d83cef3-9aac-4d12-883e-ef6527cf7213",
+        "created": "2021-08-14T01:09:25.343534Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6f258483-31e6-4810-a3a3-83f9297fcea8",
+                "name": "Individual personal with know",
+                "create_date_time": "2021-08-14T01:08:08.419751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5d83cef3-9aac-4d12-883e-ef6527cf7213",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-02-13T02:51:13.614568Z",
+        "modified": "2022-09-19T05:15:17.255512Z",
+        "name": "EveryoneColdInstead",
+        "roles": [
+            "hit",
+            "skin",
+            "peace",
+            "by",
+            "finish"
+        ],
+        "sectors": [
+            "entertainment",
+            "non-profit",
+            "government-national"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "decade",
+                "description": "Soldier both individual easy class most.",
+                "url": "https://ramos.com/",
+                "external_id": "iWxJYpoOWlYwNrzGfm"
+            },
+            {
+                "source_name": "important",
+                "url": "http://mayer.com/",
+                "external_id": "GwVyv"
+            },
+            {
+                "source_name": "must",
+                "description": "Community because really.",
+                "hashes": {
+                    "MD5": "2d5b79008aa2a25efaad00cecd095e02",
+                    "SHA-1": "f31894e52ed84fd7e911cc6431513a98384f07f5",
+                    "SHA-256": "8f6edbfad5c380c85d929dac451db1ccbc5e0a1cbafa1b1a09de1bad5aa160f8",
+                    "SHA-512": "dd12fc02bed235f075afec9aaac42db7c00bdb8cafa31dce5d6c2958c4d4a72b8194afa41ae4a0f9750a16b79331c6c10135652dfa3dbc88c9f4f74da4af4810",
+                    "SHA3-256": "2c5ace93d08b59ec386fecfadf8612b1a383d5460dd780ae70f16bb2268a40b9",
+                    "SHA3-512": "7751efa3812d9ef4cc24d8b587b3736ddc69ee5bdc918bdc7e25ccdf99fd8b3e3cd2cb319674cfd1d2a463ed98e2f1990f8e0ba5d6b9c74aad8b9bd33cbd548b"
+                },
+                "external_id": "QiCpNJnAg"
+            },
+            {
+                "source_name": "deep",
+                "description": "Join TV push service.",
+                "url": "https://ramirez.com/",
+                "hashes": {
+                    "MD5": "60dd5014747006c2efd50f3fbe79d3c4",
+                    "SHA-1": "e739fba2f7a8d7fd284031c7b5bb408c19758ae3",
+                    "SHA-256": "5480775268a4713101958146d6f811282b6ead535db7ff1414d82311e2bd514b",
+                    "SHA-512": "57125db6964a400bdb5cc6bd7d0a671c8d86e0db39e904090d5af8a27359d12374b1879b715446a853c8e482c775a812d4fa45f6d9e18360834274857d7914a8",
+                    "SHA3-256": "47bd90496a166e48db7fd218a7d93fd176ff0e259211428deff7b5a03f55dc1c",
+                    "SHA3-512": "3cfe969aad1979ce2d220729c9e99a2c5be729cb3bdda4acfeb5908481b9234c9b08a5dfb8b7227a3006e526a7572dd433e2f8f00b5304ca733ba28c27f9f648"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1bc501f1-2add-46e8-9063-ca34c6971a68"
+        ]
+    }
+]

@@ -1,0 +1,183 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--7a419af3-d42a-4b23-a65e-cdeb54b32567",
+        "created_by_ref": "identity--2800d4d6-8b06-4b32-8285-bfdb8eaf922e",
+        "created": "2020-11-06T12:50:05.631592Z",
+        "modified": "2021-08-14T01:08:48.62961Z",
+        "name": "prevent",
+        "description": "Pm discover away teacher.",
+        "infrastructure_types": [
+            "reconnaissance"
+        ],
+        "aliases": [
+            "operation",
+            "skill"
+        ],
+        "first_seen": "2022-03-09T23:37:58.992597Z",
+        "object_marking_refs": [
+            "marking-definition--e4405811-6e38-43b1-9c5c-20ccd27a251b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--86ce9f64-91dc-488c-99ab-91e03cd4f55e",
+        "created_by_ref": "identity--2800d4d6-8b06-4b32-8285-bfdb8eaf922e",
+        "created": "2021-08-22T01:48:20.507628Z",
+        "modified": "2021-09-09T07:19:22.213719Z",
+        "name": "man",
+        "description": "Event soldier source single inside represent responsibility.",
+        "aliases": [
+            "really",
+            "safe",
+            "player",
+            "sense"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "BWvgqyfntYgukqUErJF",
+                "phase_name": "ZkWaJJMGBIHNOyQmmMIH"
+            },
+            {
+                "kill_chain_name": "iDUhG",
+                "phase_name": "HwegGIwiMDX"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "NXvYuNYcGNrF",
+                "phase_name": "OiwQUhYyUcQ"
+            },
+            {
+                "kill_chain_name": "BNRaToMpxriPA",
+                "phase_name": "SEjSRVFKYLN"
+            }
+        ],
+        "confidence": 7,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e4405811-6e38-43b1-9c5c-20ccd27a251b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--49e43a34-ee45-41ce-8c60-1c6b5de67ea9",
+        "created_by_ref": "identity--2800d4d6-8b06-4b32-8285-bfdb8eaf922e",
+        "created": "2022-06-13T03:49:12.738296Z",
+        "modified": "2023-01-01T08:54:30.556873Z",
+        "relationship_type": "hosts",
+        "source_ref": "infrastructure--7a419af3-d42a-4b23-a65e-cdeb54b32567",
+        "target_ref": "tool--86ce9f64-91dc-488c-99ab-91e03cd4f55e",
+        "start_time": "2022-07-27T02:55:20.202997Z",
+        "confidence": 95,
+        "object_marking_refs": [
+            "marking-definition--e4405811-6e38-43b1-9c5c-20ccd27a251b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2800d4d6-8b06-4b32-8285-bfdb8eaf922e",
+        "created_by_ref": "identity--2800d4d6-8b06-4b32-8285-bfdb8eaf922e",
+        "created": "2022-06-10T22:36:42.083571Z",
+        "modified": "2022-12-11T01:32:40.064384Z",
+        "name": "Yates-Potts",
+        "sectors": [
+            "utilities",
+            "telecommunications"
+        ],
+        "contact_information": "USCGC Douglas\nFPO AE 61004",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 62,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "catch",
+                "description": "Fine success skin build.",
+                "hashes": {
+                    "MD5": "01bcacc900fd2e81bfd1920f08c19a3d",
+                    "SHA-1": "cb5752b07bbd4900a329c29af017c8d7402be381",
+                    "SHA-256": "14c641df7e6a484b31a0387f612d188b54b72a9beb12d6ec661c31f38acfd125",
+                    "SHA-512": "2529052c3eb00f5af1b76265bddf39f4cc79f19023b6b8d2dca6612b8d59f4d0bb242e7af6c6154a3e0fb38e4bcaef0aee9b5ca4533db3250d63a9ca5993beea",
+                    "SHA3-256": "36b4d1dbc4d3abff12996ed4d5a52d82923a3f8cd898a6ab3a3ff0840353599e",
+                    "SHA3-512": "6f4b9c79d4aaf552e42eaa02d125370501a927c6e3ed887f67afcc3b79ade6fab87d627c877100c3df6e79b98eb08413b6d0574760b3dee42a7e30ba07d128b8"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e4405811-6e38-43b1-9c5c-20ccd27a251b"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--e4405811-6e38-43b1-9c5c-20ccd27a251b",
+        "created": "2021-08-14T01:08:48.62903Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e0c28f68-5570-434a-9764-3e8498f0a59a",
+                "name": "Serve much idea usually",
+                "create_date_time": "2021-08-14T01:08:08.432065Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,238 @@
+[
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--a60ad849-92a6-4838-bc9e-1f25cb96579e",
+        "created_by_ref": "identity--5c65cbc1-432a-4c44-89a1-75db56919257",
+        "created": "2020-10-19T01:48:37.30555Z",
+        "modified": "2021-08-14T01:09:40.751683Z",
+        "name": "south",
+        "tool_types": [
+            "information-gathering"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "tool_version": "ball",
+        "object_marking_refs": [
+            "marking-definition--b60de3f2-cbea-4ac1-a3ed-f764dc65cef4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--ab1d41e4-722d-458a-8ab0-5b2aaa113355",
+        "created_by_ref": "identity--5c65cbc1-432a-4c44-89a1-75db56919257",
+        "created": "2021-07-30T01:25:46.692111Z",
+        "modified": "2022-06-01T04:19:19.68387Z",
+        "latitude": -21.266552204973593,
+        "longitude": 93.83949273489242,
+        "administrative_area": "auGEBQA",
+        "city": "Danieltown",
+        "street_address": "0100 Fields Courts",
+        "postal_code": "25709",
+        "labels": [
+            "production",
+            "report",
+            "bag",
+            "page",
+            "a",
+            "pfte-batch-1"
+        ],
+        "confidence": 46,
+        "external_references": [
+            {
+                "source_name": "mother",
+                "description": "Different leg pull exactly.",
+                "url": "https://martinez-robinson.biz/"
+            },
+            {
+                "source_name": "not",
+                "description": "Alone fine type six.",
+                "hashes": {
+                    "MD5": "a1c8bac4887ca1f9b0888e187b2b4aa2",
+                    "SHA-1": "618533acb1595241115a077e03dfad9b8984e9a6",
+                    "SHA-256": "ae66c8b9789369e1bf4c3f36af002f5475d5785a28f1a408d58d5a7460a6f89f",
+                    "SHA-512": "c1c9c9fc433b986161bf0fc1d69e392b7c7c5f71e44c1d875c85318f6cf487d0e2fa8bb77d1dafafddc8e35c0968357f88dab0b570b319194d8711a164209c0e",
+                    "SHA3-256": "463ccd1d463526499f4e712d828472b715fa923f856adb0d886a25b51602b6eb",
+                    "SHA3-512": "da1b5443173993cfa93cafb80aa3d4b1310a5727fdafdf929f1a9ac2ddf9401fdfb2bb2836f304b2f3af0db6a8b4a34f8f0f75ef7b2a5b0daf6683127b11ad09"
+                }
+            },
+            {
+                "source_name": "current",
+                "url": "http://harris-berger.com/"
+            },
+            {
+                "source_name": "action",
+                "description": "Miss ball whose move reality rich.",
+                "url": "http://leach-leonard.com/",
+                "hashes": {
+                    "MD5": "63a49149bed0f0d2e574a8a35245faa0",
+                    "SHA-1": "893dfb09a42157f44c69fc09636243adfb84d301",
+                    "SHA-256": "022db0beb1c58c5a55a837f22086b66fe86aa6ed406a8b4122c37d8c079f6a04",
+                    "SHA-512": "f0cf8a301ebd2761afd828c92e1c39a7e26ead493125483596913bc3992bb6d4f73e8e466edf4080daba3289e42b7eef9372306e40ed36c24ae7cb9c1c75e888",
+                    "SHA3-256": "7842816122ae96977a0c8baee9fb264cb11a2d21abde5411c82717c20e329733",
+                    "SHA3-512": "42f8a0933c18c1070e277600a91b00709e37eb9dfb4d7a32161da14eeb33a0d3ec10b5a1539f67694453082a494ae9b5527bb4c03934bc57cf45468cd7f4ae98"
+                },
+                "external_id": "lMvBdYcunmuQqZQrFl"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b60de3f2-cbea-4ac1-a3ed-f764dc65cef4"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ff54614a-ae4d-4185-8e3b-43a94542fb48",
+        "created_by_ref": "identity--5c65cbc1-432a-4c44-89a1-75db56919257",
+        "created": "2021-07-12T04:51:10.984955Z",
+        "modified": "2022-06-23T19:56:59.49747Z",
+        "relationship_type": "targets",
+        "source_ref": "tool--a60ad849-92a6-4838-bc9e-1f25cb96579e",
+        "target_ref": "location--ab1d41e4-722d-458a-8ab0-5b2aaa113355",
+        "start_time": "2022-02-23T06:43:31.807522Z",
+        "stop_time": "2022-09-15T16:58:50.917869Z",
+        "confidence": 7,
+        "object_marking_refs": [
+            "marking-definition--b60de3f2-cbea-4ac1-a3ed-f764dc65cef4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5c65cbc1-432a-4c44-89a1-75db56919257",
+        "created_by_ref": "identity--5c65cbc1-432a-4c44-89a1-75db56919257",
+        "created": "2021-02-04T22:24:55.833962Z",
+        "modified": "2022-01-17T11:47:22.346154Z",
+        "name": "Gibson-Gray",
+        "identity_class": "unknown",
+        "confidence": 72,
+        "external_references": [
+            {
+                "source_name": "pattern",
+                "description": "Enjoy value year charge.",
+                "url": "https://www.holmes.info/",
+                "external_id": "gdLgzv"
+            },
+            {
+                "source_name": "at",
+                "url": "http://www.case.net/",
+                "hashes": {
+                    "MD5": "aaa2e2b4604b2ac3ddd30e9cf64e2349",
+                    "SHA-1": "3033ab4be066750886bb6536a8f746ed0a4a9f10",
+                    "SHA-256": "ad0850656dba4b37eb684745c84f8263a564812469ffc1146bb1c18b0bf86b26",
+                    "SHA-512": "71cc84dd40752ffe626a2f54b68f9203b3cdacb4b0e2c5eebf46e2aab893e7022f63c94cc48d7f5e989c4fe8c3c37b9ee699eb2e37d8ad80560d5a2a2932fde2",
+                    "SHA3-256": "46d807c15225bd99777c3cc92307c0e95409f2af6529eb9711173108b9574617",
+                    "SHA3-512": "6f30b115446f09eb623bfc1b003190e27f53cc7c956017edc131235ec78ea549d6b871d0bcee8002d96be6b98ac85d38905ac23becf93e40861352501d35328d"
+                },
+                "external_id": "QzPLX"
+            },
+            {
+                "source_name": "learn",
+                "description": "Few figure result increase question.",
+                "url": "https://www.sims.com/",
+                "hashes": {
+                    "MD5": "7835077444265e424c7bc23a2c45cd94",
+                    "SHA-1": "690f26bbe45122b7b765541fdafa7febc4b34ec1",
+                    "SHA-256": "2f3c81bde489a95fde50d595e63404d6c39dd9241a349cbcb2ee7c38fc50ea10",
+                    "SHA-512": "26cc00ca85f0c837cc9921cb6fb6bd2eb8d73f6caaaff1cb69323c7d68677f5428b9940ad0f54e984452d45533384f03d8d3f4fb167383860aa6d8471e1df228",
+                    "SHA3-256": "bcf34afd50321d49bcff91bfdc2c88cd377064b92e3ad33e1bf074d589ee32e7",
+                    "SHA3-512": "274501ffacb3b0238b7b2af297cb516e71fa7d15f075dbba493d3c1813f2893675bca655d59fce469e61fcacafffd311a3d5d705daff61e4a966c5165951532f"
+                },
+                "external_id": "vnLFcVtuN"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b60de3f2-cbea-4ac1-a3ed-f764dc65cef4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b60de3f2-cbea-4ac1-a3ed-f764dc65cef4",
+        "created": "2021-08-14T01:09:40.750952Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-147f852e-75ac-49e9-b9d2-55199760c488",
+                "name": "Yes might consider why south he",
+                "create_date_time": "2021-08-14T01:08:08.429077Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.428904Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

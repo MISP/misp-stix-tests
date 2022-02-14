@@ -1,0 +1,234 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--7fca6f69-1e57-4c4f-8389-bce8b5b52bf7",
+        "created_by_ref": "identity--8a260663-4984-4db2-96b2-d88ae30e6773",
+        "created": "2021-01-22T13:46:13.321147Z",
+        "modified": "2021-08-14T01:08:40.20391Z",
+        "name": "represent",
+        "infrastructure_types": [
+            "unknown",
+            "hosting-malware",
+            "staging",
+            "reconnaissance",
+            "control-system"
+        ],
+        "aliases": [
+            "degree",
+            "official",
+            "oil"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "HurFXScQbOrDQ",
+                "phase_name": "EcEdI"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "LFrjpDfuhKZfUld",
+                "phase_name": "KULkhMbHmNVYnK"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "HMqBHVACj",
+                "phase_name": "BaipjNhUmotLLKp"
+            }
+        ],
+        "first_seen": "2020-07-08T00:17:21.274502Z",
+        "last_seen": "2021-04-09T19:10:56.273843Z",
+        "labels": [
+            "very",
+            "pfte-batch-1"
+        ],
+        "confidence": 88,
+        "object_marking_refs": [
+            "marking-definition--59cfe0bb-f3df-4dc2-80cf-b1517c4dac4a"
+        ]
+    },
+    {
+        "type": "ipv6-addr",
+        "spec_version": "2.1",
+        "id": "ipv6-addr--66b399d4-a681-4753-9f6d-263bdf9164a8",
+        "value": "325:8e92:9d7:5cff:f80e:82f7:d831:8903",
+        "object_marking_refs": [
+            "marking-definition--59cfe0bb-f3df-4dc2-80cf-b1517c4dac4a"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--2ef29b7c-c666-4a89-b92c-b00e611e604f",
+        "created_by_ref": "identity--8a260663-4984-4db2-96b2-d88ae30e6773",
+        "created": "2021-01-31T09:04:38.930296Z",
+        "modified": "2021-11-06T23:38:44.455708Z",
+        "relationship_type": "communicates-with",
+        "description": "War article today effort marriage might own. Maintain stop television type although. Party ahead hotel last rise movement data might.",
+        "source_ref": "infrastructure--7fca6f69-1e57-4c4f-8389-bce8b5b52bf7",
+        "target_ref": "ipv6-addr--66b399d4-a681-4753-9f6d-263bdf9164a8",
+        "stop_time": "2022-04-07T15:15:07.595409Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "financial",
+                "url": "http://www.sims.net/",
+                "external_id": "jUSoCCMo"
+            },
+            {
+                "source_name": "defense",
+                "url": "http://www.dunn.com/"
+            },
+            {
+                "source_name": "be",
+                "description": "Threat chance official.",
+                "url": "https://www.alvarez.info/"
+            },
+            {
+                "source_name": "law",
+                "description": "Either agent relationship at resource serious without.",
+                "url": "http://www.stout.net/",
+                "external_id": "dsuCzqltsy"
+            },
+            {
+                "source_name": "risk",
+                "description": "Involve low speech.",
+                "external_id": "tLmKdJNFmOlJNlCpAwL"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--59cfe0bb-f3df-4dc2-80cf-b1517c4dac4a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--59cfe0bb-f3df-4dc2-80cf-b1517c4dac4a",
+        "created_by_ref": "identity--8a260663-4984-4db2-96b2-d88ae30e6773",
+        "created": "2021-08-14T01:08:40.203093Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-881bbc21-deef-4d57-abf3-7f599266217f",
+                "name": "Way get would fight necessary hour measure",
+                "create_date_time": "2021-08-14T01:08:08.423662Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8a260663-4984-4db2-96b2-d88ae30e6773",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-06-19T01:17:55.277216Z",
+        "modified": "2022-08-07T12:01:48.015781Z",
+        "name": "Tucker, Mendoza and Huber",
+        "roles": [
+            "account",
+            "quite"
+        ],
+        "identity_class": "organization",
+        "sectors": [
+            "entertainment",
+            "nuclear"
+        ],
+        "contact_information": "Unit 1068 Box 2235\nDPO AE 18890",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "important",
+                "description": "Natural like very student.",
+                "hashes": {
+                    "MD5": "13fce11ecff337fe94201f9f80e28033",
+                    "SHA-1": "03c6449522958f2f621ac777845cce21b9228807",
+                    "SHA-256": "e6c1ae4bdccd1625172bc59ef13f8118d82d123f11fc3381b358d855eb4fce05",
+                    "SHA-512": "9a1e00317fd2963b538dd90bea25ddb74a8a33f44bf8d19d0bb6fabbef5e851990127177b61e60f1aabaddda73ec4eaba7802c3d2d1a938df18856162279688e",
+                    "SHA3-256": "577dffbfccfd44cb3706cbdcc76bb5f07099720ffe18d308c89882dc2d5c019d",
+                    "SHA3-512": "964abf812fabadcab980882b3a63d78d285eee1237a4a4d5d0d8ada1fc2c718f4cd918d2bce94c669b46947c4e2edbf1b0e4a857f86fce077ec67f46079efb85"
+                },
+                "external_id": "pUxvMItpKpLRRwSIbI"
+            },
+            {
+                "source_name": "help",
+                "description": "Suffer mean against economy.",
+                "hashes": {
+                    "MD5": "3cfd54257245a66d6745b2c3c61c974f",
+                    "SHA-1": "37b3b3d2b384c322c8563bbc038c84adcfb9aab2",
+                    "SHA-256": "38332765cf40e1fcd86e778f0ae20375ad6217aee08cb7cd8657a775409e2468",
+                    "SHA-512": "3754051d3ba597ca214cfae9f4ecc75fec0801a0783c3884b521ffd18d0444259c51066ef35885dd8de42118c85fe4b9f9f0f8a256474896d6c286a7b31f3ada",
+                    "SHA3-256": "e7fc7d32829aa703313e5e719e8828b0b668540f34de8486129739458c29c675",
+                    "SHA3-512": "0a1b635c4247928cfbba516374dbb10c93b9af161eb284c17eeb16876c4fb4a96414c1fe7693c301610b4ac62c683c6206bd88a8a5e8f3e5ee14f430ab5e5481"
+                },
+                "external_id": "uWJmrEtKDUANnsdqs"
+            },
+            {
+                "source_name": "interesting",
+                "description": "Physical production wide contain eye.",
+                "url": "https://kelley-myers.biz/",
+                "external_id": "lPUHICUlrSgWttNUkBSH"
+            },
+            {
+                "source_name": "build",
+                "description": "Executive executive PM.",
+                "external_id": "rNYoaKqQsaYOVNdo"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--59cfe0bb-f3df-4dc2-80cf-b1517c4dac4a"
+        ]
+    }
+]

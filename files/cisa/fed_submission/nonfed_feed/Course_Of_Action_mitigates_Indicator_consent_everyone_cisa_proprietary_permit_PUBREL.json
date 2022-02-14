@@ -1,0 +1,159 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--9d63c8bd-6d3b-4c37-bfa8-9fe6ecefc7e6",
+        "created_by_ref": "identity--7c751406-1198-4689-90ce-a070e04a2598",
+        "created": "2021-04-20T15:25:33.454574Z",
+        "modified": "2022-02-02T09:33:19.497976Z",
+        "name": "owner",
+        "description": "Wish surface he travel cold.",
+        "labels": [
+            "boy",
+            "hour",
+            "sound",
+            "pfte-batch-1"
+        ],
+        "confidence": 19,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--5acde86d-61c0-4a09-b8cc-1054bdfe425a",
+        "created_by_ref": "identity--7c751406-1198-4689-90ce-a070e04a2598",
+        "created": "2021-02-04T09:22:14.869305Z",
+        "modified": "2022-01-22T09:00:02.624082Z",
+        "name": "such",
+        "description": "Business goal least increase.",
+        "indicator_types": [
+            "malicious-activity",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "[windows-registry-key:number_of_subkeys <= 7]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-04-18T14:29:51.088967Z",
+        "valid_until": "2021-04-01T08:56:35.669412Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "although",
+                "description": "Clearly boy enjoy stuff book take.",
+                "hashes": {
+                    "MD5": "f3a690caa37f590bf8dff8a00b1b059b",
+                    "SHA-1": "0bb97f60f42e31da18ee69dba5ed0d796d465b6c",
+                    "SHA-256": "9aef881785897791d966271148abbdbddbc78b2435b84f98a5101f7ea2b8c57b",
+                    "SHA-512": "64cfac389498c6e9c95cdb85584b6cc80221a6e069400f360bac5f591b0177977f45fea2b9b0cc274eb9d47ef90ade97fc55929c636c39e87630db83eb04032c",
+                    "SHA3-256": "09649aff78423bce9c5a188b4da0926a0a0aac3d978ac1607877df900b1c8a7b",
+                    "SHA3-512": "e990bb33d4edb21fa3f8b018aff772a6270591877924035cd07f6db9f924000b6ac4f2e2f82b8850caf7d185e57a9b437d0864ba35f9bc58691c180bd18bc240"
+                },
+                "external_id": "TchGucHZOpLENwensAok"
+            },
+            {
+                "source_name": "something",
+                "url": "https://www.lee.com/",
+                "external_id": "kzIOnBuqqPotPKKqn"
+            },
+            {
+                "source_name": "purpose",
+                "url": "https://www.singleton-davis.com/",
+                "hashes": {
+                    "MD5": "fff2177cef3f0e023e50fed0c24c1581",
+                    "SHA-1": "1cecf988300bbd4a24d06bcd0c0e74cae8a42b96",
+                    "SHA-256": "aad8457be60faa0521b544cdd4da49f0920f2eb3a73cb530219e0d5beea92409",
+                    "SHA-512": "7c5943ceac60664bfcdd92c67d08e481e960f6be69bbf48da742b8532954f4f5763fd6ebb5570ae6dc903d71a4b9c42f8a38f7f4a8a779983d3e474b373593d0",
+                    "SHA3-256": "8b523ccf369a7150df86069d61dcd81d08f60bdb0b8eabc94b7d04d7c50e58a1",
+                    "SHA3-512": "76762b52a1e92da8c60597c5e20bad47ed41fe20a44e79ba215683e4c09b93e89e19a639b474f5c01bc17d5fd17c4b52fbdf6b7c2c58213c86a2bb830ebc5047"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--056904ab-0168-46fb-b61e-abb2a9fc4544",
+        "created_by_ref": "identity--7c751406-1198-4689-90ce-a070e04a2598",
+        "created": "2022-08-03T21:23:33.148549Z",
+        "modified": "2022-11-03T04:21:09.813044Z",
+        "relationship_type": "mitigates",
+        "description": "Together body across drive.",
+        "source_ref": "course-of-action--9d63c8bd-6d3b-4c37-bfa8-9fe6ecefc7e6",
+        "target_ref": "indicator--5acde86d-61c0-4a09-b8cc-1054bdfe425a",
+        "start_time": "2021-08-28T08:29:23.319667Z",
+        "stop_time": "2021-10-01T23:22:44.902043Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "let",
+                "url": "http://peterson.com/",
+                "hashes": {
+                    "MD5": "c472bc5ca26f8380d2cbf8903be67d1d",
+                    "SHA-1": "18075902fb828e70654d15a1efeae12f935a09de",
+                    "SHA-256": "46585c1b9b1e9cd0b007bedff8e30626f3d5027bb705346109c479133fac766f",
+                    "SHA-512": "29ed3558e6bb774ec76a6f26293dd4d1aa65d750989d11f31930a68eb0a3cfabe17a84f52e82d2fec187c335fa630705f602b36c60e2b8b60ced33a2adba4b7c",
+                    "SHA3-256": "47296c5ee4d2de6d2b1201d38c506bf78484d4e5d78cee2c50598a06c3e8c998",
+                    "SHA3-512": "238e3fbe6cdea8fe6240d549463dc97668b67d0090a53eb8b21e2cfaf68617ae8b8b9592396e2e9ddebad8984af83ab368cfc3d395b7601ad4cab80117ca8f3f"
+                },
+                "external_id": "WZdXGJx"
+            },
+            {
+                "source_name": "news",
+                "url": "http://mcclain-sanchez.com/",
+                "hashes": {
+                    "MD5": "331f220349336208ac7b0129509b3125",
+                    "SHA-1": "6df5f66a234942a68520043399f24e6659fb6dd6",
+                    "SHA-256": "16adf946e99b6802d2738a75f68567590ba19decfa8b1297822225dee5f9fd6b",
+                    "SHA-512": "15180bf8c42cce72a2e971bbaf362960a358d64ed598437430243c291f4bb75c75d9232e18954b57ac08b91988826dc78d88fc88815d21f65efcfd1e3efba668",
+                    "SHA3-256": "f2c614dae609df04158089eada7d330d745645115de205fda7df8bda4e190d4c",
+                    "SHA3-512": "81185a70a15fbe686c84b0f86d4d0eabad8ea4c000491095ac48ba6eb03d266eaa6602c0ee53d238e9c0f084942c47102db938c0afdfa555953467d9fdf1ac09"
+                },
+                "external_id": "UkJwLukoKKjDFNAMNzxl"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7c751406-1198-4689-90ce-a070e04a2598",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-04T08:30:10.748523Z",
+        "modified": "2021-08-14T01:08:24.250837Z",
+        "name": "Brooks, Knox and Edwards",
+        "roles": [
+            "oil",
+            "improve",
+            "field"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "infrastructure",
+            "healthcare",
+            "pharmaceuticals",
+            "mining"
+        ],
+        "contact_information": "92142 Wright Union\nWilsonmouth, NV 55922",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

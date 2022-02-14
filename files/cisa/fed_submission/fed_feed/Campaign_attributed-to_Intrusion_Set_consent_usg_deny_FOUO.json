@@ -1,0 +1,153 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--11c59d60-b46d-47ce-886e-65088e176802",
+        "created_by_ref": "identity--d97657bd-d8ba-4224-80ff-58b3a1e9653d",
+        "created": "2021-08-05T04:50:20.794592Z",
+        "modified": "2022-02-26T00:07:25.24041Z",
+        "name": "speak",
+        "aliases": [
+            "reduce"
+        ],
+        "first_seen": "2021-02-09T15:45:03.844463Z",
+        "objective": "Environmental rule tell available always live skin.",
+        "labels": [
+            "they",
+            "treatment",
+            "feeling",
+            "social",
+            "pfte-batch-1"
+        ],
+        "confidence": 81,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--15765fb5-336a-4dce-b265-a3958abd6534"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--b5c79b18-5390-4fe3-a120-219ab164afaa",
+        "created_by_ref": "identity--d97657bd-d8ba-4224-80ff-58b3a1e9653d",
+        "created": "2022-03-30T05:17:58.306491Z",
+        "modified": "2022-09-22T22:46:20.243595Z",
+        "name": "figure",
+        "last_seen": "2021-12-17T04:42:09.360341Z",
+        "goals": [
+            "With husband participant special finish.",
+            "Food production not practice strategy language bar.",
+            "Drive world music sense poor worker."
+        ],
+        "resource_level": "contest",
+        "primary_motivation": "ideology",
+        "labels": [
+            "success",
+            "money",
+            "ball",
+            "director",
+            "pfte-batch-1"
+        ],
+        "confidence": 25,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--15765fb5-336a-4dce-b265-a3958abd6534"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--54d0edab-ac57-4c67-a962-a54e219953ff",
+        "created_by_ref": "identity--d97657bd-d8ba-4224-80ff-58b3a1e9653d",
+        "created": "2021-06-05T03:52:44.224976Z",
+        "modified": "2021-09-08T01:26:03.906411Z",
+        "relationship_type": "attributed-to",
+        "description": "Run call individual theory day evening. Stock care form project dog certain. Thought else happy everything let interesting meet building.",
+        "source_ref": "campaign--11c59d60-b46d-47ce-886e-65088e176802",
+        "target_ref": "intrusion-set--b5c79b18-5390-4fe3-a120-219ab164afaa",
+        "start_time": "2021-10-06T15:35:30.357107Z",
+        "stop_time": "2022-01-07T18:17:32.911456Z",
+        "confidence": 19,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--15765fb5-336a-4dce-b265-a3958abd6534"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d97657bd-d8ba-4224-80ff-58b3a1e9653d",
+        "created_by_ref": "identity--d97657bd-d8ba-4224-80ff-58b3a1e9653d",
+        "created": "2020-12-23T19:09:41.99985Z",
+        "modified": "2021-08-14T01:08:13.438572Z",
+        "name": "Barron, Ellis and Flores",
+        "description": "Mandatory modular projection",
+        "identity_class": "individual",
+        "contact_information": "3809 Stacy Overpass\nNew Tracy, VT 33689",
+        "confidence": 22,
+        "object_marking_refs": [
+            "marking-definition--15765fb5-336a-4dce-b265-a3958abd6534"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--15765fb5-336a-4dce-b265-a3958abd6534",
+        "created": "2021-08-14T01:08:13.437172Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a2bad07a-f4d3-4efb-a81b-2cf0c0637fc9",
+                "name": "Our concern loss resource wear",
+                "create_date_time": "2021-08-14T01:08:08.426882Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,195 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--c7ea8aca-45dc-4ca1-8076-bb84036d2974",
+        "created_by_ref": "identity--1ae5f22b-9171-49d9-ae03-bbc3f5874f75",
+        "created": "2022-04-25T10:13:27.886097Z",
+        "modified": "2022-10-11T16:19:51.795305Z",
+        "name": "brother",
+        "aliases": [
+            "stop",
+            "today",
+            "catch",
+            "while",
+            "lead"
+        ],
+        "last_seen": "2022-06-23T22:04:39.433533Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "those",
+                "description": "Company player perhaps difficult.",
+                "url": "https://www.mann.biz/"
+            },
+            {
+                "source_name": "do",
+                "description": "Interest total dinner city performance hope defense.",
+                "external_id": "kXUceD"
+            },
+            {
+                "source_name": "trial",
+                "url": "https://www.marquez-williams.biz/",
+                "external_id": "LjifOAraVRU"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--87194ad1-a11a-4cf9-8236-b7aefe5848f4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--b4899db0-3caa-4a07-95a7-d80ba5c1aa91",
+        "created_by_ref": "identity--1ae5f22b-9171-49d9-ae03-bbc3f5874f75",
+        "created": "2022-01-23T01:39:58.692758Z",
+        "modified": "2022-02-12T11:00:01.011112Z",
+        "name": "clearly",
+        "description": "Car from half trial animal concern more.",
+        "last_seen": "2020-11-01T23:36:55.828158Z",
+        "roles": [
+            "director",
+            "infrastructure-architect",
+            "independent"
+        ],
+        "goals": [
+            "four",
+            "manage",
+            "lay",
+            "check",
+            "magazine"
+        ],
+        "resource_level": "individual",
+        "primary_motivation": "revenge",
+        "secondary_motivations": [
+            "dominance",
+            "personal-satisfaction"
+        ],
+        "personal_motivations": [
+            "unpredictable",
+            "unpredictable",
+            "personal-gain",
+            "dominance",
+            "unpredictable"
+        ],
+        "confidence": 48,
+        "object_marking_refs": [
+            "marking-definition--87194ad1-a11a-4cf9-8236-b7aefe5848f4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--eeba3340-0262-4bd5-b9a2-4133f804f2b9",
+        "created_by_ref": "identity--1ae5f22b-9171-49d9-ae03-bbc3f5874f75",
+        "created": "2020-10-12T17:37:32.172945Z",
+        "modified": "2021-08-14T01:08:14.267877Z",
+        "relationship_type": "attributed-to",
+        "description": "Son size southern most. Position which through leave. Dark collection rate relationship focus.",
+        "source_ref": "campaign--c7ea8aca-45dc-4ca1-8076-bb84036d2974",
+        "target_ref": "threat-actor--b4899db0-3caa-4a07-95a7-d80ba5c1aa91",
+        "start_time": "2020-09-12T12:37:24.942768Z",
+        "object_marking_refs": [
+            "marking-definition--87194ad1-a11a-4cf9-8236-b7aefe5848f4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1ae5f22b-9171-49d9-ae03-bbc3f5874f75",
+        "created_by_ref": "identity--1ae5f22b-9171-49d9-ae03-bbc3f5874f75",
+        "created": "2020-09-25T09:25:39.219566Z",
+        "modified": "2021-08-14T01:08:14.268209Z",
+        "name": "Gutierrez, Williams and Guerrero",
+        "roles": [
+            "question",
+            "learn",
+            "range",
+            "particularly",
+            "risk"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 35,
+        "external_references": [
+            {
+                "source_name": "hit",
+                "description": "Likely collection agree save artist.",
+                "url": "https://brown.com/",
+                "external_id": "hqyJThMdwxbi"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--87194ad1-a11a-4cf9-8236-b7aefe5848f4"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--87194ad1-a11a-4cf9-8236-b7aefe5848f4",
+        "created": "2021-08-14T01:08:14.2665Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1b1f4ecf-83db-4fe9-8c22-38a5f88b6694",
+                "name": "Deal certainly rather appear present safe",
+                "create_date_time": "2021-08-14T01:08:08.429946Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.429783Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

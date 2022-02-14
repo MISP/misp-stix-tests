@@ -1,0 +1,196 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--9059a251-d64f-48ab-96fb-b469666899e8",
+        "created_by_ref": "identity--e1d76bdf-e50b-469b-abca-97b273286a2e",
+        "created": "2021-03-07T10:48:55.232457Z",
+        "modified": "2021-11-18T02:37:55.081095Z",
+        "name": "billion",
+        "resource_level": "team",
+        "confidence": 24,
+        "object_marking_refs": [
+            "marking-definition--4c151d7c-d398-40e9-9394-9e638da2c3bb"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--cfb243c4-43f0-41ee-b9ca-8d15fb4f3192",
+        "created_by_ref": "identity--e1d76bdf-e50b-469b-abca-97b273286a2e",
+        "created": "2022-07-24T23:00:59.308194Z",
+        "modified": "2023-06-18T07:12:53.260538Z",
+        "name": "song",
+        "infrastructure_types": [
+            "phishing"
+        ],
+        "aliases": [
+            "artist",
+            "truth"
+        ],
+        "confidence": 75,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--4c151d7c-d398-40e9-9394-9e638da2c3bb"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8926947e-2026-43cd-9a01-4ad072e872fc",
+        "created_by_ref": "identity--e1d76bdf-e50b-469b-abca-97b273286a2e",
+        "created": "2022-01-31T20:40:16.327991Z",
+        "modified": "2023-01-11T20:27:36.167305Z",
+        "relationship_type": "hosts",
+        "source_ref": "intrusion-set--9059a251-d64f-48ab-96fb-b469666899e8",
+        "target_ref": "infrastructure--cfb243c4-43f0-41ee-b9ca-8d15fb4f3192",
+        "labels": [
+            "play",
+            "half",
+            "already",
+            "plan",
+            "information",
+            "pfte-batch-1"
+        ],
+        "confidence": 88,
+        "external_references": [
+            {
+                "source_name": "much",
+                "url": "https://reid.biz/",
+                "hashes": {
+                    "MD5": "f1c40b6146a8b945db878d2e4a497b8a",
+                    "SHA-1": "011b0deb1ef4e65376467ebd56a4438669e96066",
+                    "SHA-256": "70c6cab768b8debb887acbfd20fd13685435c0aa4bebf9148be07b153858e971",
+                    "SHA-512": "44f2ef8533f479129782f65bfa09f95288ef38bc111c764a5f0749450d2365e2acd87e120e7935f20464266ad2e4461963b0c6a5c5b726571776dbd7741f76e0",
+                    "SHA3-256": "82dd67ff21c4e19a71354f373385f49f009d1b1dcf599f6e9b6897190125ffe1",
+                    "SHA3-512": "b0b0e5fabbc40becf0aead9dd8642b4705796c5a7e0a75a42bc80cb02d759561515ea37b9c49b7fb086d0dfbce109e48ae2fedce2054651e09ac14a9a211faeb"
+                },
+                "external_id": "OoKgYeojejwCbvrDSPd"
+            },
+            {
+                "source_name": "approach",
+                "description": "Mother top smile alone.",
+                "url": "https://romero.com/",
+                "hashes": {
+                    "MD5": "658c80495c72e56c41ecca691ca5df37",
+                    "SHA-1": "3e31216728dda47c734d3ea878947881adc1077a",
+                    "SHA-256": "27ab4368bcc108edcf1e02be4ad64ca36d5b5ae037c3000c6a4c76f33736bc6a",
+                    "SHA-512": "ad4437342f79e1ca29c791aa08ef03af1d937b1e6289b3b514099edc566023c083c966f63cbd5f9f5b9786ae6f00061126b66c88488b2a61a13adaf2364cbe03",
+                    "SHA3-256": "c502e29d39865468afe6a8e08abc9f00e49e93949adc66c2aa4f4c85cf7b7307",
+                    "SHA3-512": "c24e65574d315921d9de7b6fefd94366b43bbe9c19cfb28ccbc3d4d1e6169553304dc922b705011fc0138037f93f86ff696d303e93e3b85b2d9494988dbfd078"
+                },
+                "external_id": "bOWlieIqY"
+            },
+            {
+                "source_name": "nation",
+                "description": "Leave hear power speech.",
+                "url": "http://www.thomas.com/",
+                "hashes": {
+                    "MD5": "fca036f70a2c1d80f83b3fd81dcdd609",
+                    "SHA-1": "c4dcfd2de41031a2080626238167c98bd84b4a4f",
+                    "SHA-256": "35f9c71a642d83e5987ebcb8d9929e4a2abab1500ccb69b562d7d8484bb7eb7f",
+                    "SHA-512": "2d23e7e3d346a4e45e69bf552a9ae576d43328cd24058d144d3a04fb5863210a4081ed79e2277ce78f6f06ae4aed15b6fc0f49f32b9044b8791dafab087b14a1",
+                    "SHA3-256": "8660a001b497769290f7d02cea4c609a5733d2c407db1979a2108385d57cfb40",
+                    "SHA3-512": "4c987c9b0d3c80733ce9148a9c6d3b5be12d3a4a6b9a268064ad710d270ba6bbaf4e2e6f92b8e54932ee3b3560f74f58e2ea8ff2d9bf916c92ed7f6f2b10a871"
+                },
+                "external_id": "JSoJOh"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4c151d7c-d398-40e9-9394-9e638da2c3bb"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--4c151d7c-d398-40e9-9394-9e638da2c3bb",
+        "created_by_ref": "identity--e1d76bdf-e50b-469b-abca-97b273286a2e",
+        "created": "2021-08-14T01:08:53.049441Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-15d3e0eb-8dda-4b6b-a55d-5c6a8a6d490b",
+                "name": "Clearly industry family",
+                "create_date_time": "2021-08-14T01:08:08.420657Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e1d76bdf-e50b-469b-abca-97b273286a2e",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-11-22T15:57:37.739233Z",
+        "modified": "2021-08-14T01:08:53.051275Z",
+        "name": "Jones, Munoz and Hill",
+        "sectors": [
+            "communications",
+            "hospitality-leisure"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--4c151d7c-d398-40e9-9394-9e638da2c3bb"
+        ]
+    }
+]

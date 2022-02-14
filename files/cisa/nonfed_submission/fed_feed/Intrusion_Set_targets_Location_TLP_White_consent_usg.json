@@ -1,0 +1,209 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--ec3662d8-0fd8-4fd0-b22d-304944e5ba73",
+        "created_by_ref": "identity--5f397773-7e4b-4045-94c3-1c978406e01a",
+        "created": "2022-06-26T09:19:22.839975Z",
+        "modified": "2022-08-22T15:44:24.62636Z",
+        "name": "add",
+        "first_seen": "2020-06-23T12:19:45.10549Z",
+        "last_seen": "2020-10-17T15:51:08.565663Z",
+        "goals": [
+            "Sit it civil individual family try.",
+            "List edge any then art require heavy.",
+            "Instead wonder among business glass drive spring."
+        ],
+        "primary_motivation": "personal-satisfaction",
+        "secondary_motivations": [
+            "notoriety",
+            "personal-gain",
+            "notoriety",
+            "accidental"
+        ],
+        "labels": [
+            "big",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--b1110bcb-92be-4f43-b1a0-f556d6fe3662"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--46d564c5-4b24-42d5-acab-1f5187593567",
+        "created_by_ref": "identity--5f397773-7e4b-4045-94c3-1c978406e01a",
+        "created": "2021-06-23T23:20:36.921253Z",
+        "modified": "2021-12-07T20:11:50.857547Z",
+        "name": "WATFlMZVU",
+        "latitude": 89.93865055604374,
+        "longitude": -10.133312648455046,
+        "region": "southern-europe",
+        "administrative_area": "EkILTisFZIdZff",
+        "street_address": "352 Williams Harbors",
+        "labels": [
+            "see",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--b1110bcb-92be-4f43-b1a0-f556d6fe3662"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--639d4958-4af2-4e19-adbf-b5429bf2083d",
+        "created_by_ref": "identity--5f397773-7e4b-4045-94c3-1c978406e01a",
+        "created": "2021-01-09T22:22:47.839473Z",
+        "modified": "2021-08-14T01:08:56.127423Z",
+        "relationship_type": "targets",
+        "description": "Type full result pretty home. Phone war part mission seek. Congress voice article once civil special.",
+        "source_ref": "intrusion-set--ec3662d8-0fd8-4fd0-b22d-304944e5ba73",
+        "target_ref": "location--46d564c5-4b24-42d5-acab-1f5187593567",
+        "labels": [
+            "center",
+            "purpose",
+            "method",
+            "energy",
+            "yet",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b1110bcb-92be-4f43-b1a0-f556d6fe3662"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b1110bcb-92be-4f43-b1a0-f556d6fe3662",
+        "created_by_ref": "identity--5f397773-7e4b-4045-94c3-1c978406e01a",
+        "created": "2021-08-14T01:08:56.126277Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5f397773-7e4b-4045-94c3-1c978406e01a",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-13T07:06:13.741593Z",
+        "modified": "2021-12-25T03:18:55.162342Z",
+        "name": "Espinoza and Sons",
+        "description": "Secured radical contingency",
+        "roles": [
+            "sound",
+            "yard",
+            "same",
+            "total"
+        ],
+        "identity_class": "individual",
+        "contact_information": "USS Baker\nFPO AE 24499",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 97,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "reduce",
+                "description": "Nor discuss the protect site.",
+                "url": "http://johnson.com/",
+                "hashes": {
+                    "MD5": "6923030c64ccdfe690135d920a13b604",
+                    "SHA-1": "c74324227ee923e8eef5ca909fdb46ea8b1495b8",
+                    "SHA-256": "5e1180c1cb97227451c98c224a580e74ffeadc3cd3e4f2b478be63011f8970d7",
+                    "SHA-512": "f52618ab5bd24a5cbeb85fd36607d08362eff0f1ae23b3af756d6acd484d49b53f0844f8eea43c537971e94e37844f0e03b9ee11e3c0dfcf8a7d9bfafcc03e5f",
+                    "SHA3-256": "510c0ce8296d9dc0ad84b70549126d60ab08a1d22de3dac14de57f839360510c",
+                    "SHA3-512": "c4eae9b64c72264284b8a515ac5169876c21545dc5b042e6f89891d9618137ffcedf777cf847c06aee94b5c7155722af544e577fbf48b07743b85a767f5b587d"
+                },
+                "external_id": "PVliKtA"
+            },
+            {
+                "source_name": "imagine",
+                "url": "http://www.miller.biz/",
+                "external_id": "RAbRA"
+            },
+            {
+                "source_name": "worry",
+                "description": "Next newspaper even keep.",
+                "url": "https://www.hickman.biz/",
+                "external_id": "VHAIHtVbLL"
+            },
+            {
+                "source_name": "arm",
+                "url": "https://lee-thomas.com/",
+                "hashes": {
+                    "MD5": "3d08436ced93830762f83ea55d896d8f",
+                    "SHA-1": "b7260bbca155b09b000870feff383f230093826c",
+                    "SHA-256": "700db3e1b3efe25fe4112c155915617e19c5c2159ac22fca28d29fedfec1d5cb",
+                    "SHA-512": "a8023d1d6d317906290c85d433f022db6e6af74de7580d1d1d7642c84b2a87476e1a446ceac08b88c0020c06fbaba993489c2e468bae94d6e9b7e5a859f3ca74",
+                    "SHA3-256": "34ba9efe203cf5c92d1cd029448f88a76506641e81abc3facc3a9936d8c363a3",
+                    "SHA3-512": "2ae31a72dfdacd78d6d1cc1e91cba95ec5275cf5529f8bda652beceaef1762a04306e6ccfc5804ae711bfa281a6615dd8f7aad2fa07855eb9c03df9c1faa4752"
+                },
+                "external_id": "zfWKvbqTEbmAjrEM"
+            },
+            {
+                "source_name": "career",
+                "description": "Early wonder expert major today group watch nice.",
+                "hashes": {
+                    "MD5": "78d3e20958227c19a8c8cb9a55ab845a",
+                    "SHA-1": "4bdb2ec278ff98663fb9947b47d8c8fdf1d602d9",
+                    "SHA-256": "8f56af96a6dba08a6b703c92ad1a62caa09fae05bdab29cbfc5e5919d6454b36",
+                    "SHA-512": "0ae8c5c4dd992ac6eaad1599b33ddd5d96bc946ac6d052530b813f5849ff51fef2ecd087985ac8240a31b65fab7c38b7869eb95a8d31fd2f20244d481e377825",
+                    "SHA3-256": "936491ac962e0585daadea36561a7c20fd15dc0052bf9dde0e74400a63f31477",
+                    "SHA3-512": "f51ce72af3349bccf38c31e21b1aeb10f73b6611e452095c5e919e706d069879a00bd3ec5b846a47c348b52dd4ac8a56deb8cbf1972071e312b07e1bd1f2c082"
+                },
+                "external_id": "qokCQvruzVQcNYePnreZ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b1110bcb-92be-4f43-b1a0-f556d6fe3662"
+        ]
+    }
+]

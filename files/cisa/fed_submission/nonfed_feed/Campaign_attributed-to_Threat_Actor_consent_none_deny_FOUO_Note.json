@@ -1,0 +1,222 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--e3532390-fbf4-4a20-bbd2-739e90e38db3",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2022-01-12T17:44:45.56677Z",
+        "modified": "2022-07-20T06:23:42.540066Z",
+        "name": "choose",
+        "description": "Party respond leg science.",
+        "aliases": [
+            "clearly",
+            "deal",
+            "play"
+        ],
+        "last_seen": "2020-12-25T18:34:30.340313Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--c988d6d4-61ee-4696-8376-b602a931a905",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2021-08-27T05:47:44.646833Z",
+        "modified": "2022-05-15T17:12:55.058453Z",
+        "name": "trip",
+        "description": "Beat have fire husband change.",
+        "last_seen": "2020-11-10T14:18:49.030127Z",
+        "sophistication": "expert",
+        "resource_level": "organization",
+        "primary_motivation": "accidental",
+        "personal_motivations": [
+            "accidental",
+            "organizational-gain",
+            "coercion",
+            "revenge",
+            "dominance"
+        ],
+        "labels": [
+            "budget",
+            "half",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--45415d9a-712e-4181-8736-bf3605935022",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2022-02-19T13:12:36.070172Z",
+        "modified": "2022-05-11T16:25:23.826031Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "campaign--e3532390-fbf4-4a20-bbd2-739e90e38db3",
+        "target_ref": "threat-actor--c988d6d4-61ee-4696-8376-b602a931a905",
+        "stop_time": "2021-09-12T16:02:26.313497Z",
+        "labels": [
+            "pressure",
+            "which",
+            "draw",
+            "you",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--8b3338fb-2a4b-4a92-9dbf-f9ce57c442c6",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2022-03-24T14:50:46.323495Z",
+        "modified": "2022-06-27T12:49:52.000031Z",
+        "abstract": "Once ask apply nature. Effect bed continue public area hair prepare medical. Compare social parent so including often.",
+        "content": "Two movie dog director town set again.",
+        "object_refs": [
+            "campaign--e3532390-fbf4-4a20-bbd2-739e90e38db3",
+            "threat-actor--c988d6d4-61ee-4696-8376-b602a931a905",
+            "relationship--45415d9a-712e-4181-8736-bf3605935022"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 89,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "conference",
+                "hashes": {
+                    "MD5": "5b906478618ce2e89e77671c3c4709d1",
+                    "SHA-1": "dc85410386e26f6bd3e2e44080b7776ab39b3f8e",
+                    "SHA-256": "34e81ccbef7ec2b26328f896200cce226a4d73168c40d9bb5d004780c359944c",
+                    "SHA-512": "253ab0af0625f67ca75787698bb66f24128cf8c47341318885cb71ae8804b40f11f9f06f951e0bfa4a27d43e335ee2f3a905ff3b41177e082511d185dfec6e64",
+                    "SHA3-256": "864677359e9de2c6f755bd5a226ea32c2ab245b232dd86f9f71023dbef85b2e6",
+                    "SHA3-512": "4ae0d602c45c5e80ef727900914cfa3ae8953cc43bfe73ea33790246eb569bc5968d55a081d20e96be22742c4644f718d95cbaf58d6af7a0744c2709ff99554d"
+                },
+                "external_id": "nCQtWls"
+            },
+            {
+                "source_name": "chair",
+                "url": "https://manning.net/"
+            },
+            {
+                "source_name": "citizen",
+                "url": "https://jenkins.com/",
+                "external_id": "lKDLvmCWrvAE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-01-01T00:00:00.000Z",
+        "modified": "2020-01-01T00:00:00.000Z",
+        "name": "USA.USG",
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

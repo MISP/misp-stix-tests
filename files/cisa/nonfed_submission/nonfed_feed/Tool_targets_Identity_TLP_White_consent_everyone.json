@@ -1,0 +1,94 @@
+[
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--63ab1938-e713-4bab-b15b-7dd7ce3b7343",
+        "created_by_ref": "identity--6d71ed69-52da-4279-ad82-d2c1b062c83c",
+        "created": "2022-04-07T03:03:08.78166Z",
+        "modified": "2022-08-01T19:03:08.957274Z",
+        "name": "vote",
+        "tool_types": [
+            "network-capture",
+            "exploitation"
+        ],
+        "tool_version": "hair",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ff072226-23bf-4343-8841-812ec6b6ea9f",
+        "created_by_ref": "identity--6d71ed69-52da-4279-ad82-d2c1b062c83c",
+        "created": "2021-07-02T12:02:05.595356Z",
+        "modified": "2022-04-29T13:29:24.54759Z",
+        "name": "Gentry Group",
+        "identity_class": "individual",
+        "sectors": [
+            "government-public-services",
+            "aerospace",
+            "entertainment"
+        ],
+        "labels": [
+            "child",
+            "use",
+            "sure",
+            "speak",
+            "choose",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f6ccf1d2-0dee-4e92-9cc1-6a13e3f9c5a2",
+        "created_by_ref": "identity--6d71ed69-52da-4279-ad82-d2c1b062c83c",
+        "created": "2021-12-14T04:27:03.764219Z",
+        "modified": "2022-09-02T20:01:48.297813Z",
+        "relationship_type": "targets",
+        "description": "Especially simply build traditional ten might simply great. Go type say increase interesting forget.",
+        "source_ref": "tool--63ab1938-e713-4bab-b15b-7dd7ce3b7343",
+        "target_ref": "identity--ff072226-23bf-4343-8841-812ec6b6ea9f",
+        "stop_time": "2020-12-11T11:12:07.219445Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 80,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6d71ed69-52da-4279-ad82-d2c1b062c83c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-22T11:49:01.622628Z",
+        "modified": "2021-08-14T01:09:38.771623Z",
+        "name": "Green LLC",
+        "description": "Organized coherent complexity",
+        "roles": [
+            "glass",
+            "newspaper",
+            "fund",
+            "person",
+            "wide"
+        ],
+        "identity_class": "system",
+        "contact_information": "7022 Young Springs Apt. 822\nNorth Suzannemouth, MI 83786",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

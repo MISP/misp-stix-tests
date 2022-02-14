@@ -1,0 +1,209 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--e3daa92a-1e7a-4d7c-ace4-c7333f68174d",
+        "created_by_ref": "identity--ea6265c4-7294-4f24-aead-469a5db8f089",
+        "created": "2021-03-02T18:21:57.218449Z",
+        "modified": "2022-02-26T23:01:11.941367Z",
+        "name": "out",
+        "threat_actor_types": [
+            "competitor",
+            "spy",
+            "criminal",
+            "sensationalist"
+        ],
+        "roles": [
+            "director",
+            "director",
+            "director",
+            "agent",
+            "infrastructure-operator"
+        ],
+        "goals": [
+            "sure"
+        ],
+        "sophistication": "strategic",
+        "resource_level": "contest",
+        "personal_motivations": [
+            "dominance",
+            "ideology",
+            "unpredictable",
+            "organizational-gain"
+        ],
+        "confidence": 44,
+        "external_references": [
+            {
+                "source_name": "line",
+                "external_id": "SCOkPkywaGCwH"
+            },
+            {
+                "source_name": "be",
+                "description": "Tree since through occur even.",
+                "url": "https://baker.net/",
+                "external_id": "nkucHBwylLMZwHl"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7a34c786-1d07-4aef-946e-33cd2f3ed6b5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--9dc3d041-3fc7-42ff-a7ab-2ecb8f8b68db",
+        "created_by_ref": "identity--ea6265c4-7294-4f24-aead-469a5db8f089",
+        "created": "2020-10-17T12:45:38.85741Z",
+        "modified": "2021-09-01T06:45:12.951402Z",
+        "name": "art",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "west",
+                "description": "Kitchen growth heart wait star.",
+                "url": "https://www.williams-blake.com/",
+                "hashes": {
+                    "MD5": "31f77dd51db1f02abbcf8af165d0f276",
+                    "SHA-1": "977f2cc5495d48ec3c5c63622cd9107061ddc1c5",
+                    "SHA-256": "ecadf7bb02c18dd2e5a0c5f086776d84a55cc7549605cc63473238fc137904e9",
+                    "SHA-512": "e1a945ac13cc6fd94cb68adec5bf077c547d5f35f7a0cb49c67b62c2932e98f039b483c3fc98d5e53f403e9d5ce76978cd744dce4c10ce54dd317e9cfb3c60cb",
+                    "SHA3-256": "85641deec4ebefded438d83d6a6f82b9e86cb9ffb1dda4103b2ccaacd20300c5",
+                    "SHA3-512": "98db317030d3613a109c54ef2e7ad43df890ac27839b357579804e751d485f7ccddf704da9bb72e29cdcde88f476858ff585ae127cfae72519a271dfe36a61df"
+                },
+                "external_id": "RmImtvSFLVBNjKrCH"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7a34c786-1d07-4aef-946e-33cd2f3ed6b5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e5b1ecb9-1253-46e3-aca2-8258991fd006",
+        "created_by_ref": "identity--ea6265c4-7294-4f24-aead-469a5db8f089",
+        "created": "2022-07-15T03:19:40.702958Z",
+        "modified": "2022-11-06T04:07:26.890968Z",
+        "relationship_type": "uses",
+        "description": "Lot long major fine next read possible. Produce find concern east page tend main. Use seek wait end.",
+        "source_ref": "threat-actor--e3daa92a-1e7a-4d7c-ace4-c7333f68174d",
+        "target_ref": "attack-pattern--9dc3d041-3fc7-42ff-a7ab-2ecb8f8b68db",
+        "start_time": "2021-11-20T04:14:46.408931Z",
+        "labels": [
+            "thought",
+            "tough",
+            "control",
+            "myself",
+            "leave",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7a34c786-1d07-4aef-946e-33cd2f3ed6b5"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--7a34c786-1d07-4aef-946e-33cd2f3ed6b5",
+        "created_by_ref": "identity--ea6265c4-7294-4f24-aead-469a5db8f089",
+        "created": "2021-08-14T01:09:32.293449Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f98cddfd-8461-4143-a969-e6e230df21d4",
+                "name": "Word describe cold color",
+                "create_date_time": "2021-08-14T01:08:08.422252Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ea6265c4-7294-4f24-aead-469a5db8f089",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-14T21:34:44.902473Z",
+        "modified": "2022-03-14T10:24:52.436651Z",
+        "name": "Jones, Barnes and Thomas",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "answer",
+                "description": "Fill car see series.",
+                "url": "https://schmitt.com/",
+                "hashes": {
+                    "MD5": "6708f51d640f5c9a0aa3168b19f81e70",
+                    "SHA-1": "bb22a487e72f0eacb04e87f041f4c9466a03489d",
+                    "SHA-256": "a837d5fcbe2e7f68fe9103ec1fe62d8b31e9692eb7bb1e2c140a28ba2ed5ef9d",
+                    "SHA-512": "4479c66e257c8cf1fa516fe34a78fc763e6655687b3d52b5f24d18c1f725fe4a9870567a9ff2f359902f5149728b79632ac408929eebd344e90b12191c895241",
+                    "SHA3-256": "c8f0373cc6f6df4f4f772680d28709178a4dee0094e5e58a9d7f28a65c4b2166",
+                    "SHA3-512": "0162d998d555c205b047e6fb3fd67ac66972620918efb248f28cf154452fcfcaac968dfe5b5ec1b528a8e1d9d99ca83e0604919c30d77e234c593e52847ff15b"
+                }
+            },
+            {
+                "source_name": "huge",
+                "url": "http://mclaughlin.com/",
+                "hashes": {
+                    "MD5": "224a235125abacf8b738f91b92c9d9f4",
+                    "SHA-1": "c375f88bafb9cb60c9e47c75bf352b514ef6b2b3",
+                    "SHA-256": "44268765c29ae062125539861556e9a6abdca1fc8036cf06841f3252380f0a22",
+                    "SHA-512": "6e14eddb334dae9e011200fd8247813611ee8f1bc0c0d57d608c9d3bfb5a5c944453843066cb20bec75d51fc027b9d5a7bab9f0f4be8a90ebbf3fa06e97fc7c3",
+                    "SHA3-256": "006248e8fc65711c2a6601753cfede6bdd1fb08bcd028331e94e2f489abdec64",
+                    "SHA3-512": "91e9250d0e8eb574d85328ff7c990502dc876be37570966a3f7a10bf3a860613c84c4aeef97a9ff53516b7b04745408cd7844737d833f6c4307878cd5b2ed944"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7a34c786-1d07-4aef-946e-33cd2f3ed6b5"
+        ]
+    }
+]

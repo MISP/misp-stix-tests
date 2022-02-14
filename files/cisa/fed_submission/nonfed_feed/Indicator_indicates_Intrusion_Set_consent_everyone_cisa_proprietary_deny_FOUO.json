@@ -1,0 +1,172 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--84dcc870-83fd-453b-8121-d2c52cbdc7d8",
+        "created_by_ref": "identity--808ddfcc-1c95-40a2-9495-e89a367154c8",
+        "created": "2022-06-01T03:23:35.738644Z",
+        "modified": "2022-11-17T01:40:14.924711Z",
+        "name": "could",
+        "pattern": "[user-account:account_type > 'unix'] OR (([process:created_time >= t'2021-12-13T08:35:14.063929Z'] OR ([url:value < 'https://www.preston-levy.org/'])) WITHIN 3 SECONDS) REPEATS 2 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-09-12T18:01:23.687455Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 74,
+        "external_references": [
+            {
+                "source_name": "happy",
+                "url": "https://rodriguez-roberts.com/",
+                "hashes": {
+                    "MD5": "dbd3208f4132ea6a0f4b5537d77feb66",
+                    "SHA-1": "431abca19a58c9f6b8784d5764dbb2e9174bfa2b",
+                    "SHA-256": "559be3e5d305cf2a5f0db2aaa072cacbf0e42c665d66bdedafc9743640fba213",
+                    "SHA-512": "b550ef0211d4b7fec9e0aa4eac7f8944c4a70c67305a8fe133bc63cdb5c5badf2fd2fd701885eff3756966f024e9b62cbac22e12a3f71bc9ca706a159086b1a6",
+                    "SHA3-256": "7d179009feca318371e98b7aedd4adbb05d8518564dbbda34265e3bab26828b0",
+                    "SHA3-512": "ea1cd8af3e7ba0a3bc7950f9c7843ff5038231d70254c9e092a113b0fcc6680abc7998e64ebff95e79ccb83d8c6549969ca5aecdac42234c2f4228134496d747"
+                },
+                "external_id": "AliqZPsZVdlFVeCcGbJ"
+            },
+            {
+                "source_name": "real",
+                "description": "Unit seven apply.",
+                "url": "http://bishop.biz/",
+                "hashes": {
+                    "MD5": "f677dabd5bd4d4da3112def4d7abf774",
+                    "SHA-1": "4bc250b4fa8573a5602016d01d701d455857cf3b",
+                    "SHA-256": "3ae3719ad43f1c77026db6350a8a29de497b22db2cb62bd16a9fa2ff6ff1ebb8",
+                    "SHA-512": "0fe3041cf975a30ba23a027f21257ec4c7feaf22dc77b86dce86812dff3e2fd0accd11cf0606b788256bbd3b4c76037bc6d57d7bcf36c23b53b0d75b2ee4f70f",
+                    "SHA3-256": "8537a624f26833f0efc8a456d0cf2096e89a96e554142d5fa5522b441558b2f8",
+                    "SHA3-512": "7570789e2be7ec032ae3c4719b07717cd736d6308dcbb2bfc54f4685f35dd643aafb96d5a7401912cd05bf15cd4f60f0babef44dc52210a5a71396c58de796b8"
+                },
+                "external_id": "GfBSShPjUOoHoUE"
+            },
+            {
+                "source_name": "clearly",
+                "url": "http://johnson.org/",
+                "hashes": {
+                    "MD5": "4df52933b6b14388ad9458feea34b698",
+                    "SHA-1": "6bf01556dc020e6d90f712e4d1138fcb2530d272",
+                    "SHA-256": "855759bd5184bac1980b5a5e3fec5b66e31bd2376a4317adb0aa7f21bcd0b4d3",
+                    "SHA-512": "8717a5e8b1e48956eee0c256a9dd7f111f3dc2485607b1b22b3f1f43fbf6ec5471e1d90d816372870269e889c26380965467158676e967a74fd18905f124b333",
+                    "SHA3-256": "81fa86b7006c985ef8d2724ca38126643f9389c951db7507de66ea5caa1fac31",
+                    "SHA3-512": "97ea8b5dcc19d2e887abf7f9dde7fcdc10e7abf4ce2d9b81cbb898b794044e01914290703d136a611e3fdde61d6b05c7409f51c12d8f7a9ce941c48ab0686818"
+                },
+                "external_id": "mXeReLGCQpbdaCdsO"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--222bdf33-9667-442d-8787-a4207c91396c",
+        "created_by_ref": "identity--808ddfcc-1c95-40a2-9495-e89a367154c8",
+        "created": "2021-09-20T22:12:26.146223Z",
+        "modified": "2022-03-13T10:38:49.80947Z",
+        "name": "interview",
+        "description": "Music possible two enter.",
+        "aliases": [
+            "father",
+            "simple"
+        ],
+        "last_seen": "2021-11-26T01:04:26.604781Z",
+        "goals": [
+            "Beat stay able value nice perform low.",
+            "Keep draw oil.",
+            "Whatever physical strategy country nice."
+        ],
+        "resource_level": "government",
+        "primary_motivation": "notoriety",
+        "secondary_motivations": [
+            "accidental",
+            "notoriety",
+            "coercion",
+            "dominance",
+            "dominance"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 18,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1c49c35c-917d-4d38-a298-fa5363b19733",
+        "created_by_ref": "identity--808ddfcc-1c95-40a2-9495-e89a367154c8",
+        "created": "2022-06-16T11:25:29.808927Z",
+        "modified": "2023-05-09T05:34:33.701755Z",
+        "relationship_type": "indicates",
+        "description": "Word campaign activity ten rule activity before. Science large indicate man. Series upon indeed current behind.",
+        "source_ref": "indicator--84dcc870-83fd-453b-8121-d2c52cbdc7d8",
+        "target_ref": "intrusion-set--222bdf33-9667-442d-8787-a4207c91396c",
+        "stop_time": "2020-12-05T04:11:28.721772Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 94,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--808ddfcc-1c95-40a2-9495-e89a367154c8",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-03T20:23:30.445203Z",
+        "modified": "2022-05-15T13:16:54.920377Z",
+        "name": "DemocratBeAble",
+        "description": "Enhanced motivating Internet solution",
+        "sectors": [
+            "utilities",
+            "defense"
+        ],
+        "contact_information": "848 Washington Shoal\nEast Erikfurt, ID 47298",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "member",
+                "description": "Leave maintain indeed station actually administration every.",
+                "url": "https://www.johnson.com/",
+                "hashes": {
+                    "MD5": "c292754cde2ce2a4e392b5619cb17f29",
+                    "SHA-1": "8fdf14fbfb866cb0cad90f193708ce7aa057a8a1",
+                    "SHA-256": "4c7efa63ff8406a1800a5544b83d477aca61868875189d0e7bed48bbbda2a081",
+                    "SHA-512": "4d835f4db3747c5de5aaf29c8242bf85551adfaf10ae703a3b86871c87bc991b2919cc37f24d222efad43791e031863d88681b71e1556dab8b213b45a38727dc",
+                    "SHA3-256": "00d8e77117c85993f0de403becba709330c45159e823bb35b0a90ff5e136140c",
+                    "SHA3-512": "53f0439298cc7c0edcf1327ed02f613500625cc449ce6ca0068929decb84cc478c8062025c2ae49bd8de922762daec6cc30b50f53a0837afb538796bf411c827"
+                },
+                "external_id": "eHwrUFqriZw"
+            },
+            {
+                "source_name": "yes",
+                "url": "https://www.thomas.com/",
+                "hashes": {
+                    "MD5": "00195f9989e6e2833a16e57689752472",
+                    "SHA-1": "5d1fc2f3cea0a485efdc79002c392cffd45a42af",
+                    "SHA-256": "6c83e7b5a713734918a63907929a43b28e4d3a5d804e029176507885cda0ab86",
+                    "SHA-512": "e6e62e3335d73ef9012584ff6dbe662d9c973ff8fed81484e165a6c572cb71c00b60880da924eee868c34aaa3e56eefd7767819ceda2160a0379eabe7469ab03",
+                    "SHA3-256": "537c3776d04c0155c538f149dfca18a3b919f549d63156267a90d3d8786c3be4",
+                    "SHA3-512": "e8731c9e3a70318b4a66d8cf3936eccf73e9d5c0ab22723d448fd9e5c3cc340c4ebbfa8ddca9ca9224c9edc8a4239586f5cfeab2342c3be92f35b935315923db"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--8402b9f4-fb0b-4d01-b822-acccb9e39a88",
+        "created_by_ref": "identity--6ba085bf-0a9f-4648-91ee-ed8f1285158f",
+        "created": "2021-09-29T09:29:22.333728Z",
+        "modified": "2022-03-18T09:47:30.540196Z",
+        "name": "candidate",
+        "description": "Magazine picture TV.",
+        "pattern": "(((([autonomous-system:number <= 504]) OR [ipv6-addr:value >= '59aa:1081:960e:f2d6:9f99:5f10:7f86:3361' AND (((ipv6-addr:value > '46f5:e94f:c516:1277:812:4954:d511:18d1') AND ipv6-addr:value NOT = 'c566:967e:3a87:6934:7989:ad6c:4657:17a6') AND ipv6-addr:value < 'e1e4:4bfb:2be3:b8f8:fa6c:ef94:249:16d7')]) START t'2020-09-23T12:47:30.026124Z' STOP t'2022-06-20T07:52:32.327602Z'))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-07-21T16:56:09.117061Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--4483dd4f-cca4-4d4f-96b4-f5d1c15db0aa",
+        "created_by_ref": "identity--6ba085bf-0a9f-4648-91ee-ed8f1285158f",
+        "created": "2021-04-11T00:49:26.94597Z",
+        "modified": "2021-12-08T08:07:23.934434Z",
+        "name": "beat",
+        "description": "Account particularly Republican.",
+        "first_seen": "2021-09-10T07:01:49.256895Z",
+        "goals": [
+            "Car similar movement reduce life five.",
+            "Physical apply let model.",
+            "Think old child continue necessary."
+        ],
+        "resource_level": "team",
+        "secondary_motivations": [
+            "dominance",
+            "coercion",
+            "personal-satisfaction",
+            "notoriety",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "sport",
+            "work",
+            "value",
+            "take",
+            "house",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "send",
+                "description": "Various Congress less question visit become study.",
+                "url": "http://www.brown-robinson.com/",
+                "external_id": "vzGHroM"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--74b14ada-91cc-4a3b-8cfd-f47a76546b7b",
+        "created_by_ref": "identity--6ba085bf-0a9f-4648-91ee-ed8f1285158f",
+        "created": "2022-07-01T15:23:41.47536Z",
+        "modified": "2022-08-16T08:08:31.548146Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--8402b9f4-fb0b-4d01-b822-acccb9e39a88",
+        "target_ref": "intrusion-set--4483dd4f-cca4-4d4f-96b4-f5d1c15db0aa",
+        "start_time": "2022-04-18T06:02:50.375831Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 74,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "smile",
+                "description": "Director toward find be professor.",
+                "url": "https://young-stewart.com/",
+                "external_id": "OGseJmuMUKFvbiAq"
+            },
+            {
+                "source_name": "yourself",
+                "url": "http://wagner-washington.info/",
+                "hashes": {
+                    "MD5": "73f559b3dfa5484d3598da197f8522f8",
+                    "SHA-1": "01b344a26ef9cc7a55235683e6f3519f44ffe25f",
+                    "SHA-256": "40aef91b444f841bd4f5bb7cab4fa39f668ca44cbd814d3400a09ea25d651553",
+                    "SHA-512": "39491fb33eee688df94dd3b1308e42f5122a70591acdf41b79f939be3c824f237955ef3aefd005eb0985ed86790e80f90984627926f4266c44b55680230e6de7",
+                    "SHA3-256": "c41b12815ae25509de0f6b8b879d4803abeb21a5b2a86bde4736d44fbac4cf23",
+                    "SHA3-512": "cd0c9ecc9dff17b36f05fcd00f577c94cd93434d12d4aabb028ca7727e02f969516f460e4f75091546b89bef60a24f675fc32d326df03ff51513be8304662869"
+                },
+                "external_id": "WbzbKShhghZfvPpwkUgq"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6ba085bf-0a9f-4648-91ee-ed8f1285158f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-03-25T23:27:22.725972Z",
+        "modified": "2021-08-14T01:08:31.799945Z",
+        "name": "Davis, Santos and Gibson",
+        "roles": [
+            "PM"
+        ],
+        "contact_information": "21745 Steve Ports Suite 222\nEast William, PA 54289",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 4,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

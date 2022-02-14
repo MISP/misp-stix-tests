@@ -1,0 +1,214 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--f93329e7-77f4-4b3c-9481-e819914d294e",
+        "created_by_ref": "identity--a7333911-7bc5-4429-8b0d-0e08005710d7",
+        "created": "2020-10-05T07:36:29.059948Z",
+        "modified": "2021-08-14T01:09:29.284929Z",
+        "name": "prevent",
+        "aliases": [
+            "keep"
+        ],
+        "first_seen": "2021-01-08T00:18:34.170284Z",
+        "last_seen": "2021-02-26T09:00:34.698796Z",
+        "goals": [
+            "special"
+        ],
+        "sophistication": "advanced",
+        "primary_motivation": "coercion",
+        "labels": [
+            "degree",
+            "will",
+            "organization",
+            "record",
+            "pfte-batch-1"
+        ],
+        "confidence": 84,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--55397548-f7e5-4688-8258-030cc7c805bc"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--6baa5820-6c8a-492a-aaac-18e5346a9472",
+        "created_by_ref": "identity--a7333911-7bc5-4429-8b0d-0e08005710d7",
+        "created": "2020-08-29T02:46:11.713073Z",
+        "modified": "2021-08-20T15:29:56.564985Z",
+        "name": "xxPzerWuiCU",
+        "latitude": -80.16659233190116,
+        "longitude": -170.7901560393508,
+        "precision": 60.95372935415156,
+        "country": "Canada",
+        "administrative_area": "BSZuWwMtcqiNfUg",
+        "postal_code": "78739",
+        "labels": [
+            "art",
+            "significant",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "bag",
+                "description": "Tell should actually.",
+                "hashes": {
+                    "MD5": "30f5c4363f9275ecc794a1286ad03de4",
+                    "SHA-1": "161df73a2d9b0c220ac89e26500db25ce47b2d6f",
+                    "SHA-256": "aec42ecd0e2bad83d03afd203c8b47af260922a85c64b0737a28fd07f6a8e4fb",
+                    "SHA-512": "294c3b1b8f19ff7d1a722cd5cf2c97f806261f42b2d1bc96ca60ece5015ed5e4104e5c87e5d795a29b94ad4642839ce0ecffbd35c3f2f664b5310749cf035172",
+                    "SHA3-256": "ed50ed9ce6f631d847fd666a9e846534005b8baf440b6a31be0d941c7f5b09f4",
+                    "SHA3-512": "9ef5ca82903a1dbf54f2fade9554323a6dba816fc3b7d738c049f5d87050dd94376e2964752e9231445e81907cdbc92a6c98b184b1b8a39aa9a532161131a176"
+                },
+                "external_id": "enYRy"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--55397548-f7e5-4688-8258-030cc7c805bc"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--cfd684d9-30ed-4ee2-812f-229928ad227b",
+        "created_by_ref": "identity--a7333911-7bc5-4429-8b0d-0e08005710d7",
+        "created": "2021-04-12T23:33:21.574338Z",
+        "modified": "2022-03-05T16:29:29.313854Z",
+        "relationship_type": "located-at",
+        "source_ref": "threat-actor--f93329e7-77f4-4b3c-9481-e819914d294e",
+        "target_ref": "location--6baa5820-6c8a-492a-aaac-18e5346a9472",
+        "start_time": "2022-06-13T18:55:56.877232Z",
+        "labels": [
+            "economy",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "politics",
+                "description": "Actually whom continue good usually.",
+                "url": "http://hahn-jackson.com/",
+                "hashes": {
+                    "MD5": "a2ded8b9f3700603ca712ceaf4561994",
+                    "SHA-1": "4160474d136bf9fa12b72aada800be705e640d7d",
+                    "SHA-256": "01d2ac2023f5b0683197356edf83e4979243409be3881ecc9c0de20780a97c63",
+                    "SHA-512": "8dab02bfe13c93d6641abeaefd0760ad0c6fffca47ea8df5b442ab9afab61e31070b854fa893a18b05f7b39d3613164c09a51cfce5eba30e545aeac4cc171ad5",
+                    "SHA3-256": "f641e7599c495ed11559d9dd732a7f05c47a6c2f0fcb61972d483136a806b45c",
+                    "SHA3-512": "2a7dc8da72b9ce05ef1fcbe0c5a046a9102a2f558f8e1d74fbbd63c5eb7040e3d1da3f3e1e2d51f9f56847b1062d37d397d2e91923dea6af197de4fd0a598af9"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--55397548-f7e5-4688-8258-030cc7c805bc"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a7333911-7bc5-4429-8b0d-0e08005710d7",
+        "created_by_ref": "identity--a7333911-7bc5-4429-8b0d-0e08005710d7",
+        "created": "2022-07-24T21:55:54.426136Z",
+        "modified": "2023-07-08T19:00:18.592518Z",
+        "name": "French Group",
+        "identity_class": "individual",
+        "contact_information": "040 Robert Passage Apt. 937\nSouth Gailmouth, RI 08092",
+        "external_references": [
+            {
+                "source_name": "glass",
+                "description": "Interesting meet industry grow.",
+                "url": "http://www.gilmore-henry.com/",
+                "hashes": {
+                    "MD5": "1f663b1c4f249212085204b3ab3d56bd",
+                    "SHA-1": "fb9734e82ac382855b605c3a2bce71df20fd4d54",
+                    "SHA-256": "2f9239cdc4a79f7a5660ac4afd38b69db16b2d95ad007b2f21da8589451dcc80",
+                    "SHA-512": "eeb94a39874572e679be48e5c0691238825810459e5870a667a1b7310a49cefe1a9f9977164741bd0f4c53e78c1cbeb23a9ad0948cd811e1861fa00858d1593e",
+                    "SHA3-256": "5d845c3d4e6f3cf4428d7e0ac49b491b2f04bda9f46e86f663860b257a9b2f89",
+                    "SHA3-512": "7e1523cb33a20aaafeb383b6f2222b8974b24c2d53b5b6fc5d426e16e8280a7e9dc70a4f63868df414a2e743c36e7113f478618213d31962120d57dd879c8eb4"
+                },
+                "external_id": "lqNsnfqaaHi"
+            },
+            {
+                "source_name": "behind",
+                "description": "Kind per phone purpose here center want.",
+                "hashes": {
+                    "MD5": "c9e47de117df26f015cee8cbb6f326e3",
+                    "SHA-1": "0adaa37bade4729eb7fa8bafebe81169fbc524d2",
+                    "SHA-256": "f2be8a607b0d68f037f129f6862b67666f84e06f837d022acd59c783409af16f",
+                    "SHA-512": "8a52add1dba9c069aa7e65f0b740c5d0669e9d955c91393f178632581afd63053e3d021311c0d0b3f7858211459ab1e394c23117c3a6243c40b6ff8c12d4c7f0",
+                    "SHA3-256": "ff31935bcd92d47fbccf1dd75cfa26550f0648e72361ed505e763e0ecf7ce0e1",
+                    "SHA3-512": "ab032309bfd6235523dbef981947fc7f8dab189a737a4fab64229d6c376b794dadd43d1fa0fd422f122a881fdeaf6dd62cb0c22d8d7734d9c5395dd535661a40"
+                },
+                "external_id": "SwPgHhnsxQkNw"
+            },
+            {
+                "source_name": "send",
+                "external_id": "PJbkpwhqQF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--55397548-f7e5-4688-8258-030cc7c805bc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--55397548-f7e5-4688-8258-030cc7c805bc",
+        "created": "2021-08-14T01:09:29.284214Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

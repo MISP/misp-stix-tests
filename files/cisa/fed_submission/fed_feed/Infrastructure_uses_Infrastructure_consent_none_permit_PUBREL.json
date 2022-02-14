@@ -1,0 +1,170 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--6f667ab5-a8af-4a4d-9768-9b253aeba416",
+        "created_by_ref": "identity--bb99b302-f67e-47ff-86e2-481bf004241b",
+        "created": "2021-03-21T14:00:33.244224Z",
+        "modified": "2021-08-27T22:44:19.734694Z",
+        "name": "ready",
+        "description": "Scientist stay citizen mention shoulder summer record care.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "otezNRfvB",
+                "phase_name": "inYQcEVTwattACA"
+            },
+            {
+                "kill_chain_name": "GDDkG",
+                "phase_name": "xoEais"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "external_references": [
+            {
+                "source_name": "organization",
+                "url": "http://carter.org/",
+                "hashes": {
+                    "MD5": "e6273ba036d6ca4bbbe1c3f224efb1a4",
+                    "SHA-1": "f6f114aaca31cfbffb60559b971373d0f5bce39c",
+                    "SHA-256": "36e6b0643f5049ac95eec5be700ef03d1006bd76dcf913364ec8d69e0a3d9284",
+                    "SHA-512": "b7880106aec19a3c0662c6f2a088eb49708c150395f41014013abb0a3e4a17e626f825d465c1ee0a2a092f6de9639aab56f6cd12af629a4dd281aa7bba4524dd",
+                    "SHA3-256": "aa5d530970bed2ea9f71078494dd7e1c58458af8e9df4d0d32b81748e232975a",
+                    "SHA3-512": "64625d0e771b0ea741a70210bd365ea04fdffebf1300469045c3989fd6ca48903a9296b73aee00548dd70538336b75e60034638b21060e002d58515067291757"
+                },
+                "external_id": "XhFJubAelUMzaCBQrHzM"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c465aeb6-1138-45b4-a907-27220ee05b2e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--0b6322ec-ef7b-49d9-9a80-ec79148d8644",
+        "created_by_ref": "identity--bb99b302-f67e-47ff-86e2-481bf004241b",
+        "created": "2022-06-30T10:38:48.002713Z",
+        "modified": "2023-03-03T23:13:23.686087Z",
+        "name": "myself",
+        "infrastructure_types": [
+            "firewall",
+            "botnet",
+            "unknown",
+            "firewall",
+            "hosting-target-lists"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "UlkqSfITRGnbssB",
+                "phase_name": "WMporW"
+            },
+            {
+                "kill_chain_name": "RLOZEg",
+                "phase_name": "FEpRTlrFOXLk"
+            }
+        ],
+        "first_seen": "2022-03-01T11:59:33.397154Z",
+        "confidence": 40,
+        "object_marking_refs": [
+            "marking-definition--c465aeb6-1138-45b4-a907-27220ee05b2e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b9c17119-ccb7-4394-9e17-f5fe84368305",
+        "created_by_ref": "identity--bb99b302-f67e-47ff-86e2-481bf004241b",
+        "created": "2020-12-08T11:31:33.134777Z",
+        "modified": "2021-11-08T20:40:13.458906Z",
+        "relationship_type": "uses",
+        "source_ref": "infrastructure--6f667ab5-a8af-4a4d-9768-9b253aeba416",
+        "target_ref": "infrastructure--0b6322ec-ef7b-49d9-9a80-ec79148d8644",
+        "start_time": "2021-10-15T20:00:54.680962Z",
+        "stop_time": "2022-06-19T10:48:32.09639Z",
+        "labels": [
+            "mother",
+            "pfte-batch-1"
+        ],
+        "confidence": 34,
+        "object_marking_refs": [
+            "marking-definition--c465aeb6-1138-45b4-a907-27220ee05b2e"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--bb99b302-f67e-47ff-86e2-481bf004241b",
+        "created_by_ref": "identity--bb99b302-f67e-47ff-86e2-481bf004241b",
+        "created": "2021-07-19T23:27:39.1407Z",
+        "modified": "2022-01-09T21:52:48.133807Z",
+        "name": "Clark, Davis and Johnson",
+        "roles": [
+            "age",
+            "three"
+        ],
+        "identity_class": "group",
+        "contact_information": "2845 Nicole Mountains\nNorth Rebeccaland, LA 17046",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c465aeb6-1138-45b4-a907-27220ee05b2e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--c465aeb6-1138-45b4-a907-27220ee05b2e",
+        "created": "2021-08-14T01:08:50.68389Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fb4e63d-338f-4f0a-b771-dd937b9aaabe",
+                "name": "Human on join spring",
+                "create_date_time": "2021-08-14T01:08:08.425512Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.425314Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

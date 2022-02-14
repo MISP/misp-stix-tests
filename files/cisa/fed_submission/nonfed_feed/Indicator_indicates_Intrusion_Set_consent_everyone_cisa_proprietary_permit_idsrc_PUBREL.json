@@ -1,0 +1,146 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--1c563f9b-56d0-40eb-a7ca-19ea32c68971",
+        "created_by_ref": "identity--d5952e84-206f-465d-9a08-2ef6bfaf8090",
+        "created": "2020-09-10T12:29:50.229406Z",
+        "modified": "2021-09-05T16:14:22.972373Z",
+        "description": "Season first produce recent.",
+        "pattern": "(([ipv6-addr:value <= 'b06:5a57:5852:62e0:b5af:b1b8:d7eb:3214' OR (process:is_hidden = false)] WITHIN 10 SECONDS)) OR [url:defanged NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-02-12T02:08:26.974002Z",
+        "valid_until": "2021-01-22T04:32:41.134818Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "external_references": [
+            {
+                "source_name": "stuff",
+                "description": "Where project area owner.",
+                "url": "http://www.cohen-schwartz.com/",
+                "hashes": {
+                    "MD5": "5f5ae730dbe2caab04b56a074ce61669",
+                    "SHA-1": "fc2112ce5e70ccb11e759f9337439a8a698f3582",
+                    "SHA-256": "9c578dd2a6a65bc8847947e61064eba23dc61fb0c81d2e3dab2f834f69954545",
+                    "SHA-512": "05b7bf5e2db7ac22bed12d3e7997d31ce4fd4d319ebcff198a99a9ce81714c0003b25280650ee32a649e3c635b893b8522ae25d2cfe092db4234c941ca2dd046",
+                    "SHA3-256": "289f15c4e40ca659b05ffd668f9759a9ec37de93a5cdda9c22e2a63abcc99eff",
+                    "SHA3-512": "b292e8d265973d9e739c77174c662d76b213e2eac29187c638d7ffa20966a019f9eb2631b672968462119c833c7e5088bca442d49c52e262ea5c0a5087ab7f66"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--9f079799-f11b-471d-9b80-39a35fbcca00",
+        "created_by_ref": "identity--d5952e84-206f-465d-9a08-2ef6bfaf8090",
+        "created": "2021-04-06T04:49:31.419685Z",
+        "modified": "2021-12-31T02:04:29.557482Z",
+        "name": "address",
+        "description": "Statement tell lot recognize.",
+        "aliases": [
+            "although",
+            "outside",
+            "provide"
+        ],
+        "last_seen": "2021-05-11T15:00:05.023005Z",
+        "resource_level": "team",
+        "primary_motivation": "personal-gain",
+        "labels": [
+            "manager",
+            "new",
+            "smile",
+            "enough",
+            "set",
+            "pfte-batch-1"
+        ],
+        "confidence": 44,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--df86216c-ba5c-40cf-9108-eddc2df3cc33",
+        "created_by_ref": "identity--d5952e84-206f-465d-9a08-2ef6bfaf8090",
+        "created": "2022-07-04T15:56:37.388201Z",
+        "modified": "2023-06-21T02:17:22.873645Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--1c563f9b-56d0-40eb-a7ca-19ea32c68971",
+        "target_ref": "intrusion-set--9f079799-f11b-471d-9b80-39a35fbcca00",
+        "start_time": "2020-11-03T17:26:26.80593Z",
+        "stop_time": "2021-10-07T04:09:46.429636Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 40,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d5952e84-206f-465d-9a08-2ef6bfaf8090",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-17T23:11:19.872772Z",
+        "modified": "2021-11-15T18:27:06.219882Z",
+        "name": "Gilbert-Carr",
+        "description": "Horizontal radical time-frame",
+        "roles": [
+            "always",
+            "score",
+            "letter",
+            "watch",
+            "television"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "and",
+                "url": "http://www.olson.org/",
+                "external_id": "zRMMxzSsnqATOfDczL"
+            },
+            {
+                "source_name": "be",
+                "description": "Stop no hard hour number base.",
+                "external_id": "ksbQHkSFSRUIRkkhuX"
+            },
+            {
+                "source_name": "receive",
+                "description": "Trip reason card participant nice.",
+                "url": "http://riley.net/",
+                "external_id": "juDPqqyMVmDdAVSTS"
+            },
+            {
+                "source_name": "treat",
+                "description": "Consumer sell reveal recognize."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

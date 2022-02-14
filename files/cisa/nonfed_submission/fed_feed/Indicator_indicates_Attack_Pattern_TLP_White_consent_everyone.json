@@ -1,0 +1,192 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--d8a9f461-8600-41b6-8824-e3149f0909a3",
+        "created_by_ref": "identity--34429cec-2a28-4a27-8c20-12513127afb5",
+        "created": "2021-12-16T04:08:22.911865Z",
+        "modified": "2022-07-16T04:02:20.404223Z",
+        "name": "rule",
+        "description": "Store sound summer.",
+        "indicator_types": [
+            "unknown",
+            "unknown",
+            "malicious-activity",
+            "compromised"
+        ],
+        "pattern": "[user-account:defanged NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-01-03T17:25:03.773407Z",
+        "valid_until": "2022-03-31T01:17:57.530958Z",
+        "labels": [
+            "future",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--08690902-56ae-435a-bab7-a91879e95c5c"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--ca5a5fb9-b77a-41d4-bd64-553817f3975d",
+        "created_by_ref": "identity--34429cec-2a28-4a27-8c20-12513127afb5",
+        "created": "2021-02-13T16:11:03.938455Z",
+        "modified": "2021-08-14T01:08:27.563721Z",
+        "name": "fish",
+        "aliases": [
+            "across",
+            "sister",
+            "light"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "JfCdDiRWTKw",
+                "phase_name": "hccbXZJl"
+            },
+            {
+                "kill_chain_name": "ZTqTG",
+                "phase_name": "ngmpMfDqbiip"
+            },
+            {
+                "kill_chain_name": "ChGwJt",
+                "phase_name": "cmxCZYZv"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--08690902-56ae-435a-bab7-a91879e95c5c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ad4c3c59-3a3f-486e-8860-bcadf9229c69",
+        "created_by_ref": "identity--34429cec-2a28-4a27-8c20-12513127afb5",
+        "created": "2021-03-24T17:37:36.728037Z",
+        "modified": "2021-08-14T01:08:27.563971Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--d8a9f461-8600-41b6-8824-e3149f0909a3",
+        "target_ref": "attack-pattern--ca5a5fb9-b77a-41d4-bd64-553817f3975d",
+        "start_time": "2020-10-02T16:17:41.748329Z",
+        "object_marking_refs": [
+            "marking-definition--08690902-56ae-435a-bab7-a91879e95c5c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--08690902-56ae-435a-bab7-a91879e95c5c",
+        "created_by_ref": "identity--34429cec-2a28-4a27-8c20-12513127afb5",
+        "created": "2021-08-14T01:08:27.561975Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c8895e1e-4ecb-48a8-ba6f-5865a3a3066d",
+                "name": "Development get financial fill light",
+                "create_date_time": "2021-08-14T01:08:08.421416Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.421229Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--34429cec-2a28-4a27-8c20-12513127afb5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-12-15T18:51:58.174125Z",
+        "modified": "2022-07-23T20:58:01.312129Z",
+        "name": "Gonzalez-Crawford",
+        "roles": [
+            "a",
+            "like",
+            "good"
+        ],
+        "sectors": [
+            "transportation",
+            "education",
+            "transportation"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "security",
+                "description": "Per later affect evidence foot just detail.",
+                "url": "https://robertson.com/",
+                "external_id": "aMwrRCvkWhurvkQoVt"
+            },
+            {
+                "source_name": "recent",
+                "description": "Get role foreign those door painting.",
+                "url": "https://cohen-lopez.com/",
+                "external_id": "BwnQwYsWz"
+            },
+            {
+                "source_name": "heavy",
+                "hashes": {
+                    "MD5": "9335adf92b865f4927c8fa7cff42ce82",
+                    "SHA-1": "ff8b83b7547b185ac82876bbbebb78d8340ca868",
+                    "SHA-256": "7fc6eaff554ad03b2a886d35730d1736404a1cbb90f1ba5f448091fc6c2b9b41",
+                    "SHA-512": "909d78be05cfd036c93d602c9d1bef968740ede49187ae4f3507f88529b6d48f328f86942f3c8966368e8f130e2cc0be810dedf673751938500530959aa4472c",
+                    "SHA3-256": "57d37af6ac39abc8b1ff73c01f035ecc138102bb9ded7c24089a653c42fd6356",
+                    "SHA3-512": "ee81c3c9133880b80792c18c57f50a04d8ea4bb4842cce1c9060e6066164ceeaeb9874be87684a245520694e9c161f315583e9ecfde288ba03abdb582bd4b57d"
+                },
+                "external_id": "KfyvY"
+            },
+            {
+                "source_name": "suggest",
+                "description": "System far road.",
+                "external_id": "nfwLuOg"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--08690902-56ae-435a-bab7-a91879e95c5c"
+        ]
+    }
+]

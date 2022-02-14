@@ -1,0 +1,219 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--2ca5d801-b8f9-4d6f-bb36-5f22a131fb3d",
+        "created_by_ref": "identity--ddb2eae7-52d7-4d6f-900f-395fddda2fbd",
+        "created": "2022-08-11T05:44:14.911415Z",
+        "modified": "2022-09-29T09:28:51.428032Z",
+        "description": "South treatment seek around inside.",
+        "indicator_types": [
+            "unknown",
+            "unknown",
+            "anonymization",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "[network-traffic:defanged NOT = true] AND [x509-certificate:hashes.'SHA-1' NOT = 'c7380f3c337e4306460c5343d44ff9e9f84506e0'] WITHIN 5 SECONDS",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-10-04T16:37:56.982441Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "OxwDyqjNcK",
+                "phase_name": "tTejEfmrFaE"
+            }
+        ],
+        "confidence": 81,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "deal",
+                "external_id": "XMIBtFjZfwMWWgFeItu"
+            },
+            {
+                "source_name": "picture",
+                "description": "Pm do decide single activity sea.",
+                "external_id": "UMnTksUbHSAsGwfZkiU"
+            },
+            {
+                "source_name": "home",
+                "description": "Protect green employee watch federal.",
+                "external_id": "SKcDmHBGEiiGl"
+            },
+            {
+                "source_name": "happy",
+                "description": "That team down happy country set.",
+                "url": "http://www.arias.info/",
+                "hashes": {
+                    "MD5": "7d00b4d16a0306fe1e4df92137ea642e",
+                    "SHA-1": "d2399d039a2d12d00fb23e708b696a9172e6f58f",
+                    "SHA-256": "5a23dbf56307ebe91dbe278bf6c1229591c61be98538c94a4b39f45bf23c1053",
+                    "SHA-512": "adec70fb3672f1344fc57c743724178526eeafb3bb0c290a26d81f5dd399803805e2275bafe65246c3b860180e3d3de060bb3ce2818f9eac65a0225f3681d7b4",
+                    "SHA3-256": "1fc7669f08b313878a9349863a4c1984a0c73e8324c3c680a5a8986d2599ad4c",
+                    "SHA3-512": "72d84aeeadc376e1459d58a3d44f525fd782d5eb629313e68774a3082b18063430c4ff0fd5beca03d5262fbfc428bfcc842aa874ea4c16860cdd207d6a667a34"
+                },
+                "external_id": "QzGMMrKTyV"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1f1bd5bf-7f0f-4684-b87d-cf987ff4ac9a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "sighting",
+        "spec_version": "2.1",
+        "id": "sighting--50306c45-27ae-467e-bf62-c5fb7f3b2d16",
+        "created_by_ref": "identity--ddb2eae7-52d7-4d6f-900f-395fddda2fbd",
+        "created": "2021-10-29T01:39:14.302764Z",
+        "modified": "2022-06-07T22:42:31.19782Z",
+        "description": "Rule visit moment.",
+        "sighting_of_ref": "indicator--2ca5d801-b8f9-4d6f-bb36-5f22a131fb3d",
+        "external_references": [
+            {
+                "source_name": "option",
+                "description": "Push stage able evening chair late hundred pressure.",
+                "url": "http://www.jordan.org/",
+                "hashes": {
+                    "MD5": "6abbde80d758f8c0fdbdc1234fe3cd10",
+                    "SHA-1": "88561efa557e8e5ec5382a712f9b7b03e9f55feb",
+                    "SHA-256": "34404fa37a259b3627afd5d7bc147e70e8a0168da03aa6354f1235d2b0a92252",
+                    "SHA-512": "ed2d911515f3bb2d732045f2cd48ca09d0c2f75776fa69c371a4e5e8dba5a419bb136c193e6458b871dc25deeeb2b3bdc18355a1b1b4978bcf550c8a247385d0",
+                    "SHA3-256": "18ce6f0938dc240d288a351c327f1a24a60063c195f521eab67a8a626b470589",
+                    "SHA3-512": "595954b225340f7b106a3945be3c59eb762dbc58505d173e46cf976fdf8efbc5402f0d64138f374296532a0152f0e198e80d7afaca5120591daffefeb6ccbb22"
+                },
+                "external_id": "ZjnlxGE"
+            },
+            {
+                "source_name": "strong",
+                "url": "http://lewis.com/",
+                "external_id": "nMfOgCfPlk"
+            },
+            {
+                "source_name": "stay",
+                "url": "http://www.parker.com/",
+                "external_id": "AUxhNRoXcVqjRCnc"
+            },
+            {
+                "source_name": "have",
+                "description": "Number some talk gun significant look."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1f1bd5bf-7f0f-4684-b87d-cf987ff4ac9a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--1f1bd5bf-7f0f-4684-b87d-cf987ff4ac9a",
+        "created_by_ref": "identity--ddb2eae7-52d7-4d6f-900f-395fddda2fbd",
+        "created": "2021-08-14T01:09:41.076825Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2828523e-b28d-4046-9afc-51d22e18d79b",
+                "name": "Social price record ever reveal physical each",
+                "create_date_time": "2021-08-14T01:08:08.418751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.418527Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ddb2eae7-52d7-4d6f-900f-395fddda2fbd",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-24T08:47:20.021742Z",
+        "modified": "2023-07-11T18:45:48.944237Z",
+        "name": "TimeOpportunityAble",
+        "description": "Visionary tertiary productivity",
+        "roles": [
+            "positive",
+            "military",
+            "sport",
+            "local",
+            "purpose"
+        ],
+        "sectors": [
+            "agriculture",
+            "construction",
+            "water"
+        ],
+        "contact_information": "839 Montgomery Mews\nAyerschester, UT 85562",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "wish",
+                "description": "Explain minute son magazine view responsibility.",
+                "url": "https://www.williams.com/"
+            },
+            {
+                "source_name": "walk",
+                "description": "Lay book church compare.",
+                "url": "http://sawyer-guerrero.com/",
+                "hashes": {
+                    "MD5": "50e7fe567d7930ef574ddc033b16e6bb",
+                    "SHA-1": "f16cde77e137172328ae23fd74a0859529c38929",
+                    "SHA-256": "51d2f8471d478cb1834b740e754de5123c9bf762f6d1254bd30f885b0da878ce",
+                    "SHA-512": "74d15d775ec4a8e0bd2c14d79929b7be263fc3ff1603c4e99513853c659f2b7750e47dfef9c9cecee78ad2d310617fa5f64211bc815a7dffad54c9f8d8381a5e",
+                    "SHA3-256": "1ad2df66ae1ff4fac7aef9b05d9208d20a2c5bd4e3262f49d402cb9d5c1aac83",
+                    "SHA3-512": "beeba34d5e50632e859a16a665390143fe119e7f79cdc3627a1e93149091645ea00d2a9e4fecc0f60dd221aca7ee436799ba5d5559513dce3e3a923dfbc3ef38"
+                },
+                "external_id": "jIfCavxZnHpd"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1f1bd5bf-7f0f-4684-b87d-cf987ff4ac9a"
+        ]
+    }
+]

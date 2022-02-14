@@ -1,0 +1,122 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--46ac45d7-04f7-4400-b05f-1b9771a9bc58",
+        "created_by_ref": "identity--76c7bd0c-7148-4933-bf09-40e1d3f067ca",
+        "created": "2022-05-15T00:26:37.319992Z",
+        "modified": "2022-05-21T07:49:04.868335Z",
+        "name": "must",
+        "description": "Score onto rest rate study serious.",
+        "aliases": [
+            "traditional"
+        ],
+        "last_seen": "2021-01-09T17:33:58.245487Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 59,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--241dbe04-1952-49c9-bd74-c86b273aaebb",
+        "created_by_ref": "identity--76c7bd0c-7148-4933-bf09-40e1d3f067ca",
+        "created": "2021-04-04T07:38:53.249884Z",
+        "modified": "2021-12-09T21:24:57.834904Z",
+        "name": "oJRyrjieNVdjxJdDkX",
+        "description": "User-friendly real-time website",
+        "latitude": 72.69921798972365,
+        "longitude": -91.28321725750816,
+        "precision": 71.20454559269588,
+        "country": "Nauru",
+        "city": "Lake Kellymouth",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--91ef5d2d-d43d-46f0-84fd-40b1acff8e85",
+        "created_by_ref": "identity--76c7bd0c-7148-4933-bf09-40e1d3f067ca",
+        "created": "2021-07-05T23:22:02.276818Z",
+        "modified": "2022-07-05T20:34:37.92822Z",
+        "relationship_type": "targets",
+        "source_ref": "campaign--46ac45d7-04f7-4400-b05f-1b9771a9bc58",
+        "target_ref": "location--241dbe04-1952-49c9-bd74-c86b273aaebb",
+        "start_time": "2021-12-08T08:54:53.338753Z",
+        "stop_time": "2022-10-09T07:16:24.491172Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "national",
+                "url": "https://wheeler.com/",
+                "hashes": {
+                    "MD5": "7e39451122d434b0562780e04778b00b",
+                    "SHA-1": "be4bcec74f8204253b031ff0031745570cb2f5ae",
+                    "SHA-256": "7dcc222fc03694b480e7ac5772cc374a84976d0a6b72f1b7e36d406db8545e2c",
+                    "SHA-512": "a16a5771d56e263a98037ac119f2704fdb0328f3054e32835ec88ac8dd029d2deb0f727a1013d39c28d7cdac9a03826d893c87118540b92c13e773fdaad41021",
+                    "SHA3-256": "2b1346e2064027c870a269c354be37e657f13b0fe2034621bf9a476212e6632a",
+                    "SHA3-512": "094f6223fd235f3ee392922a3d1f50c7a9788d86937df84001158cc47f496fd3dc03f5a3d40a06bcc6d55c2bdb7918602bdb9bdd01d9d65b9cf13107e38bf708"
+                },
+                "external_id": "MELdf"
+            },
+            {
+                "source_name": "goal",
+                "description": "Early staff parent despite reason."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--76c7bd0c-7148-4933-bf09-40e1d3f067ca",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-03T13:21:52.467436Z",
+        "modified": "2022-02-03T21:49:13.497778Z",
+        "name": "Smith, Smith and Frazier",
+        "description": "Versatile full-range matrices",
+        "roles": [
+            "campaign"
+        ],
+        "contact_information": "984 Wolf Mount\nKevinfort, ND 18201",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 9,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "back",
+                "description": "Green something benefit long change entire.",
+                "url": "http://www.diaz.com/",
+                "hashes": {
+                    "MD5": "571fb6e96bf2c23322e21fe4559da497",
+                    "SHA-1": "783dad9b3255455350740ad849325d06a75add9c",
+                    "SHA-256": "3abce50ee3cb4df49c5b73efbc62f4f2310a26c54065a9d25a5574eba7758849",
+                    "SHA-512": "851ee37d40f87f9efb0748f917a1f87ba204b981bd57827ae9bcb3f7fc998af98a054aa33271b257c18d08df7bc4933f37f20581c4c715b25d49042f87d332ab",
+                    "SHA3-256": "db98de66563d446e103e110ace27231a4aeed4e8bc2194c96919ea6f74d084b7",
+                    "SHA3-512": "96dc076f225f7906fc489e9f4e105e47b97986478265a2a9bfcfb4dabc67a5a51c1178b0e9fc35da7e8cd58bd2e593fa41bb54418525b4719631ba4557b52954"
+                },
+                "external_id": "yLEeskZZlvsrkx"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

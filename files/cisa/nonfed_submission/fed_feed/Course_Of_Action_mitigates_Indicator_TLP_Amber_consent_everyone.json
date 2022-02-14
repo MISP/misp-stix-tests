@@ -1,0 +1,247 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--754f0e03-004c-47e0-989d-024d23dbe83c",
+        "created_by_ref": "identity--6ffa8a32-110a-4caf-8ac4-2fb954dcaca3",
+        "created": "2021-08-09T08:39:42.507933Z",
+        "modified": "2021-08-15T09:34:23.336532Z",
+        "name": "area",
+        "description": "Wall security movie easy great character maybe person.",
+        "external_references": [
+            {
+                "source_name": "view",
+                "hashes": {
+                    "MD5": "0afcdbdc54774e21c71721803c5f578f",
+                    "SHA-1": "87ff3eeec1773f0dab334e7e5c0607b0a837312f",
+                    "SHA-256": "7bb963d1b1720f5de60ed50788a9c06a7907fe6e059addfb1cd0417de39f9e0a",
+                    "SHA-512": "b4794e1a671539f9ca03a9bde7271ede679de8e674fb9de72b3ab614a20e72ca86eb848039183d27f057a8cc40e8a64aa67b87ab3c4b218f1578bac5b31d12a7",
+                    "SHA3-256": "b33c6d452be7fb615f9b34ba29c7308e5f3597777073863ea7169e4c393f2ccf",
+                    "SHA3-512": "037e4bbf68fb4060428dd70f96c9e78a8b1f6c95c73e4a341a73f5479218e71964cdf0033876b1afc321da2bfb46c328cec8df315f9549a61d3a1d8a46f16733"
+                },
+                "external_id": "HdSxQZjfDPCuNUDGKDIM"
+            },
+            {
+                "source_name": "it",
+                "description": "Method clear figure board forget.",
+                "url": "http://www.flores-watson.biz/",
+                "external_id": "YqauVQn"
+            },
+            {
+                "source_name": "list",
+                "external_id": "ixAERoUfa"
+            },
+            {
+                "source_name": "customer",
+                "url": "http://www.warren-holder.biz/",
+                "hashes": {
+                    "MD5": "65788ecd274ebf1e314e31c566898b8a",
+                    "SHA-1": "259cb5f870edcecc9a100171b244d2d01eacb558",
+                    "SHA-256": "56de9cf52c2eb01f6f32bfdc082862c9f6c02fdef72791733f33b69e16719677",
+                    "SHA-512": "657bb92f33f7c0b420a69750df8ffeef7d53e4fb7c7860c169af52982e05ea74466d318895a391d52cd3ff5b927ab245d4322490a77e0d9a9721989ba40d376d",
+                    "SHA3-256": "ce46308d788f1e489d6b6e28ddc0109a36f319832f8fc047a3870f07dafe2abc",
+                    "SHA3-512": "69897de8822d75da7b08bde62cca0d0c450bd063d80de7968694f87798ac0a9bc8248b57524ef42488f625350f014f96b3cbb9f270925986c024396791839b04"
+                },
+                "external_id": "ZwUUQROLWWZGkyOIW"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--47a791a8-bd13-4579-b11c-b361d179cc5d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--aae1b502-e387-461b-8a2a-e6243d05f565",
+        "created_by_ref": "identity--6ffa8a32-110a-4caf-8ac4-2fb954dcaca3",
+        "created": "2022-05-03T17:52:11.611735Z",
+        "modified": "2023-02-21T07:45:49.416341Z",
+        "indicator_types": [
+            "malicious-activity",
+            "anonymization",
+            "benign",
+            "unknown"
+        ],
+        "pattern": "[file:hashes.'SHA-256' > 'ff1796adf1813b58ca1cc2149499f6d4ea097522a11b411095654d4dfbf8cbdf']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-02-26T20:23:56.34975Z",
+        "confidence": 94,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "avoid",
+                "url": "http://lam.com/",
+                "hashes": {
+                    "MD5": "57ad5f9dc92d523736295cf3103c941d",
+                    "SHA-1": "051f6a67410d28cf556b44e2324716bcbd53a42f",
+                    "SHA-256": "e1c734b9c1800c1b589e53dd00cb3afed578028b08591438f730157dadc1fd75",
+                    "SHA-512": "95be9ce5b8e143929d7bdef5b333fbf277691e32b760d32633370fdaf26f1658adcac16370caa6fb6789b6cc33df7982c310f38701cbabdb366f522cce720d36",
+                    "SHA3-256": "c610c2996ee39795c308848fd578cbce1fbe17e6e0c5ad3e2c001d2fe4fd2d06",
+                    "SHA3-512": "48838f70f0ce7c8058330767e471ce38feccefda900a98c412ee381431585c62e8f173f37996f7f50f28af7a1df5e3fb182ced02731230065d02308c0da21b47"
+                },
+                "external_id": "MThtRC"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--47a791a8-bd13-4579-b11c-b361d179cc5d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--9f11a28f-850a-4b55-9961-6831a6269358",
+        "created_by_ref": "identity--6ffa8a32-110a-4caf-8ac4-2fb954dcaca3",
+        "created": "2021-11-01T18:06:17.97798Z",
+        "modified": "2022-02-11T01:48:56.336985Z",
+        "relationship_type": "mitigates",
+        "description": "Individual future thus inside. Author ago serve drive contain fight. Might provide within create.",
+        "source_ref": "course-of-action--754f0e03-004c-47e0-989d-024d23dbe83c",
+        "target_ref": "indicator--aae1b502-e387-461b-8a2a-e6243d05f565",
+        "start_time": "2020-08-24T21:39:39.96747Z",
+        "stop_time": "2021-04-10T07:10:59.123891Z",
+        "labels": [
+            "both",
+            "pfte-batch-1"
+        ],
+        "confidence": 56,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--47a791a8-bd13-4579-b11c-b361d179cc5d"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--47a791a8-bd13-4579-b11c-b361d179cc5d",
+        "created_by_ref": "identity--6ffa8a32-110a-4caf-8ac4-2fb954dcaca3",
+        "created": "2021-08-14T01:08:23.48896Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f98cddfd-8461-4143-a969-e6e230df21d4",
+                "name": "Word describe cold color",
+                "create_date_time": "2021-08-14T01:08:08.422252Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6ffa8a32-110a-4caf-8ac4-2fb954dcaca3",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-08-23T04:10:30.347038Z",
+        "modified": "2021-08-14T01:08:23.492155Z",
+        "name": "Tucker-Murphy",
+        "identity_class": "unknown",
+        "contact_information": "2581 Tara Groves Apt. 100\nRuizside, SD 43744",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 83,
+        "external_references": [
+            {
+                "source_name": "medical",
+                "url": "http://www.york.com/",
+                "hashes": {
+                    "MD5": "febff45962b2be813582d76245d91814",
+                    "SHA-1": "985bab9422d752236b2f03c171bc8ed51e68e933",
+                    "SHA-256": "e854d6693d5844a506f54effa0ce2a37b58ec633b9c73232072fa233598e8293",
+                    "SHA-512": "7baa3eeeb33fd748b92f087ff212603dc9ef8ad25301caadad4cd48ef711bd9f1afc2f4a9e9df59320c5702a1cd14d0239f8ec31eaff1b82b06fd000d1476183",
+                    "SHA3-256": "e7773d424cb15ae5e2fb912fa9633b82b3116851dd38963bdd7826824abed509",
+                    "SHA3-512": "e89e717e261aa27f5077a7f07bc7a7aed63e8914953faec21c633384c0e8596f3208bc66b27b658bb260e8ce4a012155db9c420bcff7970835c590693531c5b7"
+                },
+                "external_id": "HLOuGTz"
+            },
+            {
+                "source_name": "movement",
+                "description": "Look above second back share.",
+                "hashes": {
+                    "MD5": "9e12dee3824fac8783cb9041173bcdc1",
+                    "SHA-1": "c901fd5261ee4992afb9d2929249e7da82148f21",
+                    "SHA-256": "05ba4a7e35b2ed89c401bd1321252a2cad97cb53c276fb5db8754bfdf2b398bb",
+                    "SHA-512": "5a85d5e72d01fa0f004699e682ccf73fb9921f8e1242f9f8289ed6592018bcf28d5c88986a301ffa1c9d1301ac01c37d112c493faa75ff1489535928e569e7e6",
+                    "SHA3-256": "5a567943a58dcb9b92e4d2aef80652dadecaed00fa2974afc466635152c12ca2",
+                    "SHA3-512": "720076e9d9a324aaef9844f86673c70a8bc54c90b86a9834a998ac30ff2a225e6f6ba031f381bb6bc0c359fbc075931bb6cb449466cda3daa61638c6ed7379a6"
+                },
+                "external_id": "VDByiwho"
+            },
+            {
+                "source_name": "figure",
+                "url": "http://zhang.org/",
+                "hashes": {
+                    "MD5": "56c05687faa6bcd0d2fe1ac62e0f2ff2",
+                    "SHA-1": "81bf94f9d70ca99e78f23de2170ac206e6df6c33",
+                    "SHA-256": "71f79cf3f1701711d90fed878112cb89fda50c588469babd9ff545006077c36a",
+                    "SHA-512": "d43acbf87028f79fc51940f624805f5312407df2c05a29a06cdb1c92f5c080ff4c3b5a0e2855212c27c63eb708950ff0a45765668641f85716099cf8b4ef1173",
+                    "SHA3-256": "55f35717131b037adf451154847f63388e3764afe3b41b745b8611349efa5f54",
+                    "SHA3-512": "b598c6035fd20f36539c146e5dc2c52c882f3dc10ac190cf424b05d5bc8773faf1a2af7b8a513323aeb7af86f8776bf4d44e8b515fb7fdfa35c3b83ffbd06016"
+                },
+                "external_id": "fgpLiucRhqWTOhoGed"
+            },
+            {
+                "source_name": "impact",
+                "description": "Assume Republican performance.",
+                "hashes": {
+                    "MD5": "4bf42a2d55f98a0155c251247e5ba39a",
+                    "SHA-1": "7cf5ce084fa9ea15f5e9828b737f4cd83f1d1d69",
+                    "SHA-256": "5eb9eae34eb4f4c5b756270d8b7e07ba23fe622b9a9162fae2a42e7af7c5e1dc",
+                    "SHA-512": "8d8ae1abac2d8ca1fba5abe25490fcc791f5bb28fbcc5fada63a2b4ef2108734205f0cdbc9d50b43883cb5f387e8236faaf1204b3c723743a3c4cc525e3c4b18",
+                    "SHA3-256": "55ce059dbe1b1a07bc6deb2a0831e446a4e518e70723ec725c0b0f4104f2e50f",
+                    "SHA3-512": "750fd68c702444bfd7ed429583359742dc8d65c015c64bb20157554b9fe191aee69741d5aadf323be42a70f9f8c1670b14bbe856bf7f3b773e24697fba9541e2"
+                },
+                "external_id": "uzJxAIifkiEEEaMQy"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--47a791a8-bd13-4579-b11c-b361d179cc5d"
+        ]
+    }
+]

@@ -1,0 +1,99 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--692def6e-5706-4221-aee8-8bc95fb3fa50",
+        "created_by_ref": "identity--ca89f3dd-5614-4033-8b42-6c99477f6ef3",
+        "created": "2020-12-10T01:32:31.08879Z",
+        "modified": "2021-08-14T01:08:13.855909Z",
+        "name": "continue",
+        "last_seen": "2022-08-03T15:50:05.513935Z",
+        "objective": "Leader night throw big.",
+        "labels": [
+            "let",
+            "firm",
+            "either",
+            "and",
+            "rise",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--9b0f26f4-ea2c-4322-8375-05742d5c99ea",
+        "created_by_ref": "identity--ca89f3dd-5614-4033-8b42-6c99477f6ef3",
+        "created": "2022-07-30T09:49:44.789883Z",
+        "modified": "2023-07-05T00:20:55.990313Z",
+        "name": "dog",
+        "description": "Stand concern represent perform spring.",
+        "threat_actor_types": [
+            "crime-syndicate",
+            "hacker",
+            "unknown"
+        ],
+        "first_seen": "2020-12-18T14:40:30.466847Z",
+        "sophistication": "minimal",
+        "secondary_motivations": [
+            "revenge",
+            "notoriety"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 41,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d22ab784-1cb4-4de2-9e4d-b9e9e80217e4",
+        "created_by_ref": "identity--ca89f3dd-5614-4033-8b42-6c99477f6ef3",
+        "created": "2022-04-15T19:13:05.196706Z",
+        "modified": "2022-07-08T19:21:00.99997Z",
+        "relationship_type": "attributed-to",
+        "description": "Card wonder information hit difficult call. Floor this training outside.",
+        "source_ref": "campaign--692def6e-5706-4221-aee8-8bc95fb3fa50",
+        "target_ref": "threat-actor--9b0f26f4-ea2c-4322-8375-05742d5c99ea",
+        "start_time": "2022-04-12T09:18:51.547942Z",
+        "stop_time": "2023-02-09T22:27:23.113115Z",
+        "labels": [
+            "fine",
+            "parent",
+            "staff",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ca89f3dd-5614-4033-8b42-6c99477f6ef3",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-12-03T01:32:13.797354Z",
+        "modified": "2022-10-15T05:47:50.144884Z",
+        "name": "ManagerOtherWrite",
+        "description": "Re-contextualized systemic service-desk",
+        "roles": [
+            "responsibility",
+            "scientist",
+            "program"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 14,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

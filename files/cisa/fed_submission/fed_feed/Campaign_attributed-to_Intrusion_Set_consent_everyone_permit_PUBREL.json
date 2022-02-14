@@ -1,0 +1,129 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--beb49149-18b2-4a70-ada7-3207e1cae17d",
+        "created_by_ref": "identity--14c9724a-40c6-468d-84e4-ead384c31a45",
+        "created": "2020-10-07T05:57:55.867788Z",
+        "modified": "2021-08-14T01:08:13.624959Z",
+        "name": "total",
+        "description": "Later half effort.",
+        "aliases": [
+            "most"
+        ],
+        "last_seen": "2022-04-23T20:12:52.351219Z",
+        "confidence": 79,
+        "object_marking_refs": [
+            "marking-definition--35809924-df15-42f3-9a9b-15eeacbde338"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--a5259b97-4937-4519-a8d6-2f7458ba8059",
+        "created_by_ref": "identity--14c9724a-40c6-468d-84e4-ead384c31a45",
+        "created": "2022-08-01T14:41:39.21546Z",
+        "modified": "2022-09-10T01:38:34.006138Z",
+        "name": "himself",
+        "description": "Change take north actually first drug research.",
+        "last_seen": "2021-08-14T02:55:16.964752Z",
+        "goals": [
+            "Especially that force.",
+            "Will give quite amount table gun.",
+            "Next class charge total apply determine."
+        ],
+        "confidence": 65,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--35809924-df15-42f3-9a9b-15eeacbde338"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--5719ba2c-3bcb-43f1-93bc-f8a997b0e7ea",
+        "created_by_ref": "identity--14c9724a-40c6-468d-84e4-ead384c31a45",
+        "created": "2020-10-07T06:46:38.167816Z",
+        "modified": "2021-08-14T01:08:13.625504Z",
+        "relationship_type": "attributed-to",
+        "description": "Very board chair arrive source property. Miss sound red growth quality such would. After serious reflect her later think wind.",
+        "source_ref": "campaign--beb49149-18b2-4a70-ada7-3207e1cae17d",
+        "target_ref": "intrusion-set--a5259b97-4937-4519-a8d6-2f7458ba8059",
+        "confidence": 95,
+        "object_marking_refs": [
+            "marking-definition--35809924-df15-42f3-9a9b-15eeacbde338"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--14c9724a-40c6-468d-84e4-ead384c31a45",
+        "created_by_ref": "identity--14c9724a-40c6-468d-84e4-ead384c31a45",
+        "created": "2021-08-09T16:06:52.310165Z",
+        "modified": "2022-01-17T16:34:23.089774Z",
+        "name": "Lopez Ltd",
+        "roles": [
+            "side",
+            "most",
+            "management",
+            "environmental",
+            "size"
+        ],
+        "identity_class": "unknown",
+        "contact_information": "Unit 1375 Box 8705\nDPO AE 69974",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--35809924-df15-42f3-9a9b-15eeacbde338"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--35809924-df15-42f3-9a9b-15eeacbde338",
+        "created": "2021-08-14T01:08:13.624428Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3b921193-36b9-467a-b549-f06fd7a0147e",
+                "name": "Artist despite travel Mrs long fish",
+                "create_date_time": "2021-08-14T01:08:08.430789Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.430622Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

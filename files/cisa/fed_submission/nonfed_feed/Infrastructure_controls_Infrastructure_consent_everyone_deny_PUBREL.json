@@ -1,0 +1,103 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--67076ace-9006-44b3-a690-fba378356802",
+        "created_by_ref": "identity--8ea76b4f-2259-4c1c-b303-6736abd24485",
+        "created": "2021-08-31T00:02:54.296056Z",
+        "modified": "2021-11-24T04:20:55.187045Z",
+        "name": "professional",
+        "infrastructure_types": [
+            "botnet",
+            "hosting-target-lists",
+            "unknown"
+        ],
+        "last_seen": "2020-11-19T04:59:54.089839Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 20,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--bb46ba5f-d291-42bb-9b41-872f8870a6e5",
+        "created_by_ref": "identity--8ea76b4f-2259-4c1c-b303-6736abd24485",
+        "created": "2022-07-06T20:24:03.030295Z",
+        "modified": "2022-12-18T15:26:05.719612Z",
+        "name": "into",
+        "last_seen": "2021-03-29T22:13:09.58747Z",
+        "labels": [
+            "yourself",
+            "news",
+            "out",
+            "machine",
+            "along",
+            "pfte-batch-1"
+        ],
+        "confidence": 81,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a3a39337-4337-4828-9fc1-dc20429cc5c8",
+        "created_by_ref": "identity--8ea76b4f-2259-4c1c-b303-6736abd24485",
+        "created": "2021-10-16T12:22:32.315108Z",
+        "modified": "2022-09-07T15:22:05.675014Z",
+        "relationship_type": "controls",
+        "source_ref": "infrastructure--67076ace-9006-44b3-a690-fba378356802",
+        "target_ref": "infrastructure--bb46ba5f-d291-42bb-9b41-872f8870a6e5",
+        "labels": [
+            "official",
+            "pfte-batch-1"
+        ],
+        "confidence": 90,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "mission",
+                "description": "Last school involve early.",
+                "url": "https://clark.org/",
+                "hashes": {
+                    "MD5": "c5be544cd5b18f58d79d3f3c2a8438d0",
+                    "SHA-1": "5c12b74736965aa7015b0e438988dd7e99eee86f",
+                    "SHA-256": "3a44b030705b12e54b279a4ece6e612f2c064de51c265532433474a818169b39",
+                    "SHA-512": "db8ac4da6752d91bc9a83950c806345433f075d65ce8161dd8a7f181cba08df0db4a809189542f4dd27de0c84c5e4a9b530742f09af923ad1611b044f56cedd3",
+                    "SHA3-256": "72911b5521e09ac4b5644fb2b7c5f6e5bc336e6013738d3f645f855c29a18eb3",
+                    "SHA3-512": "1389a1fdf9b11e782531de2f34efa8c2c3f5e7ac912d3f26c9fa55d87b607fb0be54c58450f788bb32ad14807a736769e5bd954287024e52015c2035371fc5d9"
+                },
+                "external_id": "fdLfdqWGiydgb"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8ea76b4f-2259-4c1c-b303-6736abd24485",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-26T01:24:24.405895Z",
+        "modified": "2021-12-21T19:04:29.675552Z",
+        "name": "FarSortBlack",
+        "description": "Reactive global structure",
+        "identity_class": "group",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 52,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--2142fed8-5503-4076-910a-389452512df7",
+        "created_by_ref": "identity--bfe70f12-b7a6-49ed-83b1-0887d46ee0ce",
+        "created": "2020-10-02T14:33:04.247946Z",
+        "modified": "2021-08-14T01:08:10.656865Z",
+        "name": "security",
+        "aliases": [
+            "much",
+            "yard",
+            "feel"
+        ],
+        "labels": [
+            "material",
+            "get",
+            "past",
+            "pfte-batch-1"
+        ],
+        "confidence": 45,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--74f05eb4-6cb2-41cf-8669-343fee84a0d5",
+        "created_by_ref": "identity--bfe70f12-b7a6-49ed-83b1-0887d46ee0ce",
+        "created": "2021-11-09T01:13:38.76686Z",
+        "modified": "2022-03-02T06:50:58.778898Z",
+        "latitude": -67.63253012344617,
+        "longitude": 91.05586516807165,
+        "precision": 39.158093813038676,
+        "region": "central-america",
+        "administrative_area": "gDeXZjYVxxZnrJyQJdm",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 44,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ab044ce1-f746-47fe-abe5-ae4274712241",
+        "created_by_ref": "identity--bfe70f12-b7a6-49ed-83b1-0887d46ee0ce",
+        "created": "2021-03-17T18:56:52.804176Z",
+        "modified": "2021-08-14T01:08:10.657476Z",
+        "relationship_type": "targets",
+        "source_ref": "attack-pattern--2142fed8-5503-4076-910a-389452512df7",
+        "target_ref": "location--74f05eb4-6cb2-41cf-8669-343fee84a0d5",
+        "stop_time": "2021-08-27T19:04:14.579451Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "other",
+                "description": "Role travel whose arrive may.",
+                "hashes": {
+                    "MD5": "0af91c487e79c1b0e798ca6fde4554c9",
+                    "SHA-1": "cc349a412c6ebe0d9cffafdadac8dd4a97b9e157",
+                    "SHA-256": "7be96c1834eaba197fb7f4e7c9293612c3348e513dab118eab2963b1e8caa97c",
+                    "SHA-512": "477ca56dbe34e4e688ca0ff979fc5400d07acc59f18daaec5c2f79b560df600845fb2a3b6acab3f5f234a41f423a61791d3ac1d1139d27213d03e3bc575000aa",
+                    "SHA3-256": "748e4b0fa67593675c91ecc89206cc22e0cf3d302021093e183820d0e28f87fa",
+                    "SHA3-512": "28935e2565f407a487cd29c31d3248c851fb541a91d5a5165802ced386d64a2703ed8ae8a99594a0f01966ca09fcabfe76edc25bc789ab1f75de024fb3cb1e39"
+                },
+                "external_id": "baAVgulwtZWjQACRMN"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--bfe70f12-b7a6-49ed-83b1-0887d46ee0ce",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-02-09T05:19:34.516946Z",
+        "modified": "2022-05-27T21:38:03.048515Z",
+        "name": "Underwood, Carey and Martinez",
+        "description": "Assimilated hybrid customer loyalty",
+        "roles": [
+            "realize",
+            "wish"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 23,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

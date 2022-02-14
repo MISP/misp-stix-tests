@@ -1,0 +1,218 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--843f02e4-d99c-4264-8f86-4733c6a08749",
+        "created_by_ref": "identity--ab8218d5-d984-497c-8a2d-864b7e1ce183",
+        "created": "2020-12-25T15:09:44.206077Z",
+        "modified": "2021-08-14T01:08:36.232689Z",
+        "description": "Relationship event table rich prevent perform staff.",
+        "indicator_types": [
+            "compromised"
+        ],
+        "pattern": "([ipv6-addr:value < 'a170:bd9a:e90e:5e74:56ec:c2e6:1f50:7a5'] OR ([file:name < 'without.pptx'])) FOLLOWEDBY [process:created_time NOT = t'2021-04-25T13:09:17.861125Z'] FOLLOWEDBY [ipv6-addr:value >= 'ffd4:31fa:7fad:e88f:66e7:e627:bad2:6880']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-01-07T22:24:02.942922Z",
+        "confidence": 40,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--885b78e0-f334-4130-80e8-928565fe8434"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--822f072c-47fd-4e31-ad36-498d3063148a",
+        "created_by_ref": "identity--ab8218d5-d984-497c-8a2d-864b7e1ce183",
+        "created": "2020-09-27T18:25:51.100778Z",
+        "modified": "2021-08-14T01:08:36.235951Z",
+        "first_observed": "2020-09-14T19:03:57.274079Z",
+        "last_observed": "2021-02-24T16:27:35.726516Z",
+        "number_observed": 306554717,
+        "objects": {
+            "domain-name--5767ce13-ed8d-4b97-bfa6-57ea8881cf60": {
+                "type": "domain-name",
+                "spec_version": "2.1",
+                "id": "domain-name--5767ce13-ed8d-4b97-bfa6-57ea8881cf60",
+                "value": "rojas.com"
+            },
+            "network-traffic--3ae00de4-444c-466a-8352-c89e878c8a26": {
+                "type": "network-traffic",
+                "spec_version": "2.1",
+                "id": "network-traffic--3ae00de4-444c-466a-8352-c89e878c8a26",
+                "start": "2021-02-20T01:06:34.522201Z",
+                "src_ref": "domain-name--5767ce13-ed8d-4b97-bfa6-57ea8881cf60",
+                "dst_port": 33331,
+                "protocols": [
+                    "ipv4",
+                    "tcp",
+                    "http"
+                ],
+                "src_byte_count": 613243,
+                "dst_byte_count": 868533,
+                "src_packets": 967977,
+                "dst_packets": 252270
+            }
+        },
+        "object_marking_refs": [
+            "marking-definition--885b78e0-f334-4130-80e8-928565fe8434"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ec349568-bdc8-4b0d-aa3b-918a76bca577",
+        "created_by_ref": "identity--ab8218d5-d984-497c-8a2d-864b7e1ce183",
+        "created": "2021-02-22T09:30:13.17739Z",
+        "modified": "2021-08-14T01:08:36.236956Z",
+        "relationship_type": "based-on",
+        "source_ref": "indicator--843f02e4-d99c-4264-8f86-4733c6a08749",
+        "target_ref": "observed-data--822f072c-47fd-4e31-ad36-498d3063148a",
+        "stop_time": "2022-08-02T10:32:03.54569Z",
+        "confidence": 29,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--885b78e0-f334-4130-80e8-928565fe8434"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--885b78e0-f334-4130-80e8-928565fe8434",
+        "created_by_ref": "identity--ab8218d5-d984-497c-8a2d-864b7e1ce183",
+        "created": "2021-08-14T01:08:36.232008Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-15d3e0eb-8dda-4b6b-a55d-5c6a8a6d490b",
+                "name": "Clearly industry family",
+                "create_date_time": "2021-08-14T01:08:08.420657Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ab8218d5-d984-497c-8a2d-864b7e1ce183",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-19T17:10:56.937173Z",
+        "modified": "2021-08-14T01:08:36.237527Z",
+        "name": "Garcia-Schmidt",
+        "description": "Enterprise-wide regional definition",
+        "roles": [
+            "look",
+            "center",
+            "high"
+        ],
+        "sectors": [
+            "manufacturing",
+            "transportation",
+            "aerospace",
+            "non-profit",
+            "manufacturing"
+        ],
+        "contact_information": "3159 Jason Plain\nSimpsonberg, TX 82132",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 24,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "seem",
+                "description": "Baby officer reveal doctor.",
+                "url": "http://howard.com/"
+            },
+            {
+                "source_name": "try",
+                "url": "http://www.snyder.com/",
+                "hashes": {
+                    "MD5": "63c1450d395c782d4100bf6ca00da0d2",
+                    "SHA-1": "58c3eac026f1d4a0f29c6cf37d2401b770c5e536",
+                    "SHA-256": "953782e9964e946155c2cdbe977a624bfccc1a4d1261461a495923478668acaa",
+                    "SHA-512": "d07ec76f38126be8995453ebbb2ac4b2041014bd34793f49fe4890b96310c31baf57a45989615cf48422e223844284b480041d459271e3220339da0ec13296b7",
+                    "SHA3-256": "5fb97295b272ce018ba76211531c253612f0059e966ec71e59a50bdf4db1e3eb",
+                    "SHA3-512": "50c6873921048695f146eb8465e9f732d02264146c8d062e27595500d41c3dbde06dfdc93fde660971ad72ffc5c6ae5f3d839ced262691be7a891fc5330119d9"
+                },
+                "external_id": "DAKEAmmLjGHapfNRigOr"
+            },
+            {
+                "source_name": "religious",
+                "description": "Should newspaper community.",
+                "url": "http://newman-hernandez.com/",
+                "external_id": "fSWMIIdYIxEwnGFbNvRo"
+            },
+            {
+                "source_name": "lawyer",
+                "description": "Smile outside participant ground do southern door.",
+                "url": "https://www.smith.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--885b78e0-f334-4130-80e8-928565fe8434"
+        ]
+    }
+]

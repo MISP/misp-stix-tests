@@ -1,0 +1,185 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--ed4c1cf7-c612-43df-8a66-0ce052cc92bf",
+        "created_by_ref": "identity--5d20e9a4-a2cc-417e-b810-58926904191a",
+        "created": "2020-09-17T14:23:41.866454Z",
+        "modified": "2021-08-14T01:08:21.667271Z",
+        "name": "knowledge",
+        "confidence": 36,
+        "object_marking_refs": [
+            "marking-definition--077fd16c-a5a7-4397-9c25-e6b6f2af2542"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--768f7a65-0166-49c3-8229-67205bad93d8",
+        "created_by_ref": "identity--5d20e9a4-a2cc-417e-b810-58926904191a",
+        "created": "2021-02-09T16:55:43.718801Z",
+        "modified": "2021-08-14T01:08:21.667504Z",
+        "name": "resource",
+        "description": "Firm art matter ten.",
+        "indicator_types": [
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "[network-traffic:src_ref.value = 'black-mcgrath.com']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-06-20T01:31:57.750866Z",
+        "valid_until": "2020-11-12T17:30:06.409355Z",
+        "confidence": 5,
+        "object_marking_refs": [
+            "marking-definition--077fd16c-a5a7-4397-9c25-e6b6f2af2542"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--2a7da9e5-9581-4f10-90e2-08c6147b22a5",
+        "created_by_ref": "identity--5d20e9a4-a2cc-417e-b810-58926904191a",
+        "created": "2020-08-16T22:03:09.554834Z",
+        "modified": "2021-08-14T01:08:21.668511Z",
+        "relationship_type": "investigates",
+        "source_ref": "course-of-action--ed4c1cf7-c612-43df-8a66-0ce052cc92bf",
+        "target_ref": "indicator--768f7a65-0166-49c3-8229-67205bad93d8",
+        "start_time": "2020-12-05T06:31:40.493502Z",
+        "stop_time": "2021-09-25T05:02:17.294018Z",
+        "labels": [
+            "customer",
+            "discussion",
+            "defense",
+            "yet",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--077fd16c-a5a7-4397-9c25-e6b6f2af2542"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--077fd16c-a5a7-4397-9c25-e6b6f2af2542",
+        "created_by_ref": "identity--5d20e9a4-a2cc-417e-b810-58926904191a",
+        "created": "2021-08-14T01:08:21.666683Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f98cddfd-8461-4143-a969-e6e230df21d4",
+                "name": "Word describe cold color",
+                "create_date_time": "2021-08-14T01:08:08.422252Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5d20e9a4-a2cc-417e-b810-58926904191a",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-25T00:23:21.301711Z",
+        "modified": "2022-02-13T06:38:07.285487Z",
+        "name": "Mendez, Reed and Mora",
+        "description": "Fundamental stable monitoring",
+        "sectors": [
+            "water",
+            "water"
+        ],
+        "contact_information": "694 Matthew Inlet Apt. 947\nBrownfort, IL 67094",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 25,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "total",
+                "url": "https://www.smith.com/",
+                "hashes": {
+                    "MD5": "2a1424e620f67a429d307a97d7b9a1c3",
+                    "SHA-1": "53af624e6d444528c2abcb2dc7e27f95d3afb3e4",
+                    "SHA-256": "44e6bedbdc6d1333897da29b3ce889fb7674338bc92e2798315caf5433a547d5",
+                    "SHA-512": "292d25d41c540300c8841aefacb0c528836f339de168fc832caf5b36e7d52999815769c288e7afd88c2fa15a787bbda88cd9c0a945a61e7f5ac2ed04c9ada1c1",
+                    "SHA3-256": "cf3c98202741b96b93744981d2494aaeb305fc19148e1b8b43e00c5b12dc7fac",
+                    "SHA3-512": "f81dbb97c21a6775135dc705e25b3c7907d3a7330bdf85f66aa6a894d02749f9d0407652bfbe265a32d8ec6310587621afaff27d8fb095d8ad4398cfac5e2ec1"
+                }
+            },
+            {
+                "source_name": "quickly",
+                "description": "Work lose north somebody.",
+                "url": "https://tran.net/",
+                "external_id": "SfmcSHFSNzz"
+            },
+            {
+                "source_name": "rather",
+                "description": "Investment word reach there newspaper consumer finally.",
+                "url": "https://cole.com/",
+                "hashes": {
+                    "MD5": "e558703f4fae0c1cb7fac5edb4393916",
+                    "SHA-1": "d50f676432ab099a3f3d56088735f4f92de31d3b",
+                    "SHA-256": "16751368a9a33bcb7a427817b6258f47ef5f852cd81ca705fd3c7f7c48f12be8",
+                    "SHA-512": "d5356d1395ef02bb135a0fdcce34ce8f363a7256953d7e55c0d829477684b05bd7c35b9b41576daeadc37ddbf046eb04dad72c2459f15defabb5864046686cf2",
+                    "SHA3-256": "6b6b9d06c35a6675ed2e73bee75e4bf094b1ce74866e10675382ba7449291cd6",
+                    "SHA3-512": "33f3a38682d99fd5abe3abc1d09e6a052d98f20ec4984862472500e7c03889c9f5f0ca2e2bd84020d7bacd154106ba480ef588fc8e5c50db226d4cb7f66c4d17"
+                }
+            },
+            {
+                "source_name": "future",
+                "description": "Small white case.",
+                "url": "http://www.fields.com/",
+                "external_id": "DLNrjBpRkawp"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--077fd16c-a5a7-4397-9c25-e6b6f2af2542"
+        ]
+    }
+]

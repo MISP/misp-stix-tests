@@ -1,0 +1,150 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--88743f0c-38be-4dbb-9aa1-74783f2b0e92",
+        "created_by_ref": "identity--d8da5cfa-25c0-4b35-8602-b9b131f49a53",
+        "created": "2022-01-19T10:55:22.190679Z",
+        "modified": "2022-09-05T19:30:12.213502Z",
+        "name": "nice",
+        "first_seen": "2021-05-06T23:03:32.978479Z",
+        "sophistication": "innovator",
+        "primary_motivation": "accidental",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 65,
+        "external_references": [
+            {
+                "source_name": "become",
+                "url": "http://best.com/"
+            },
+            {
+                "source_name": "remain",
+                "hashes": {
+                    "MD5": "6a683e1fa94dddbb4204a52724dc6f54",
+                    "SHA-1": "35d6ef50dc979336fd9f61a5d6e9e560a4fffb79",
+                    "SHA-256": "784eab13a2eeec1ee019780aa00b57a3f16de960e340c3c8ac38c7c8c40dfe1d",
+                    "SHA-512": "b6d7b699ee98b2d227e4204d42a74c2c2efb9039108be298926cef0a36e9dc941f36d17e9a72937b7718b0553e3b721bea78e95e954d2d6148341edecf25157d",
+                    "SHA3-256": "c31ff5caac5822db8ee2e30c9c4e8f01c00df6d44ac5850940c0e43b6a85413d",
+                    "SHA3-512": "6aad60cd8cfab05c413b271de931f96c1080dad788434e47ed4af56786e864b022150e2f6a185649ac241ccbc1630f8ab85153229c733044e8ee3ca88f56872e"
+                },
+                "external_id": "olRAm"
+            },
+            {
+                "source_name": "picture",
+                "url": "http://www.crane.com/",
+                "hashes": {
+                    "MD5": "314a43100a558af305437ad85c9d151d",
+                    "SHA-1": "57c5aa178ebd19bddcc17fd8a17e06670ca893cb",
+                    "SHA-256": "c6860fb7fa5f89c8916056d7f816ef17d71acd4c11c30daf9b69cfc8ef33b59d",
+                    "SHA-512": "d5006b64c62aca22e37b8310cc0ee78b0870011ab44bf4d86122d9b9bf5e7f052a674842131cfc7395a60195f45989596b1ee86200cb750b27c572de08933103",
+                    "SHA3-256": "4cf273cc792db6df2f2f4ce9ec2c9778f0cbad91dc10906863b4703b60598c12",
+                    "SHA3-512": "4b13c276e2bd98a414a5b9ddc28dcdc0c8e3828d7ab64ac8346e01aec72385f04a1238d665a7bcbe19009b15f364e55f710a3a9373aa28b57dfc1b588706efb9"
+                },
+                "external_id": "nwocs"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--58ef7d8a-e3d2-4981-9c4e-eda8abf272f0",
+        "created_by_ref": "identity--d8da5cfa-25c0-4b35-8602-b9b131f49a53",
+        "created": "2021-11-21T23:50:14.865267Z",
+        "modified": "2022-06-08T04:13:13.582298Z",
+        "description": "Quality-focused bottom-line focus group",
+        "latitude": -12.475218274653145,
+        "longitude": -38.2892113810868,
+        "precision": 30.090729918761294,
+        "region": "southern-asia",
+        "administrative_area": "MKAGBKDMIBkBBsgMWOTp",
+        "street_address": "833 Kimberly Gardens",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 44,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3c70a462-f54f-48ac-a8f9-24b0d046b3d1",
+        "created_by_ref": "identity--d8da5cfa-25c0-4b35-8602-b9b131f49a53",
+        "created": "2021-12-19T18:08:26.099014Z",
+        "modified": "2022-05-27T09:57:40.989396Z",
+        "relationship_type": "located-at",
+        "description": "Issue suddenly those scene what. But well car.",
+        "source_ref": "threat-actor--88743f0c-38be-4dbb-9aa1-74783f2b0e92",
+        "target_ref": "location--58ef7d8a-e3d2-4981-9c4e-eda8abf272f0",
+        "start_time": "2021-01-18T13:05:07.511132Z",
+        "stop_time": "2021-12-23T06:51:18.147967Z",
+        "labels": [
+            "think",
+            "teacher",
+            "process",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "image",
+                "description": "Half board start large away bad.",
+                "external_id": "vMlJTvFOp"
+            },
+            {
+                "source_name": "attention",
+                "description": "Common but smile hit.",
+                "url": "https://www.gregory.biz/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d8da5cfa-25c0-4b35-8602-b9b131f49a53",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-17T18:33:09.941613Z",
+        "modified": "2022-12-12T06:26:55.032188Z",
+        "name": "Lee Inc",
+        "description": "Assimilated static interface",
+        "roles": [
+            "dark",
+            "event",
+            "half"
+        ],
+        "identity_class": "group",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 31,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "partner",
+                "description": "One court represent natural culture.",
+                "url": "http://moody.com/",
+                "hashes": {
+                    "MD5": "2b4592984244689d515fc6c7888b8ee1",
+                    "SHA-1": "e661984e509a1e33bf4504392ff98f4642b57e30",
+                    "SHA-256": "412a06bf5b720ea45b402141cbe3a844ddc2b9e53b3921446b6c28fffd389998",
+                    "SHA-512": "cdd6ac4a3338ef67846be4b80c8e42e243d05893ec5786f484c8f145b6cf2b1d8a8ae9cccf9df0ab2abeb462450731c458d7dea49f9fd1dbc1f3242c98bd0354",
+                    "SHA3-256": "e54a920a23927f21bfe865774b2b60bb09f7d221f33d83e43d31956376ab0b26",
+                    "SHA3-512": "bf60d4454f251d5d93e35fcec0f4a69cf903b9b0e3140b6289714f282a14e8110061cb8ef32f98ca3914234a27e8cc19c1ce974ffeb274561f8cb1cd32db7ccc"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

@@ -1,0 +1,241 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--cd8d6fc0-7ded-4cf1-8c32-f7f2cc9e06ed",
+        "created_by_ref": "identity--6920b604-e5b4-4283-80ca-628935b460e0",
+        "created": "2021-10-25T03:28:46.594654Z",
+        "modified": "2021-11-18T18:39:09.684758Z",
+        "name": "level",
+        "description": "Store simple knowledge ahead store value.",
+        "threat_actor_types": [
+            "activist",
+            "activist",
+            "nation-state",
+            "spy",
+            "insider-disgruntled"
+        ],
+        "aliases": [
+            "last"
+        ],
+        "last_seen": "2021-04-21T12:11:52.458529Z",
+        "goals": [
+            "moment",
+            "hand"
+        ],
+        "sophistication": "strategic",
+        "resource_level": "contest",
+        "primary_motivation": "ideology",
+        "secondary_motivations": [
+            "dominance",
+            "personal-gain",
+            "coercion",
+            "personal-gain",
+            "ideology"
+        ],
+        "labels": [
+            "rather",
+            "executive",
+            "pfte-batch-1"
+        ],
+        "confidence": 17,
+        "object_marking_refs": [
+            "marking-definition--9c2817a2-2131-4943-b6e2-5a26f81a6676"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--59e6f6a3-7445-48b1-af2d-ec5a3d385d94",
+        "created_by_ref": "identity--6920b604-e5b4-4283-80ca-628935b460e0",
+        "created": "2020-11-14T20:56:00.85209Z",
+        "modified": "2021-08-14T01:09:25.519671Z",
+        "name": "risk",
+        "description": "No shake like run indicate.",
+        "labels": [
+            "financial",
+            "else",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "let",
+                "url": "http://www.calderon.biz/",
+                "hashes": {
+                    "MD5": "4d3e4c69a742b330e78b2bc0284f17e7",
+                    "SHA-1": "77cb25dca548b369840ac096a7db386a8d746ac1",
+                    "SHA-256": "f59490c46437d00f532b07173cc8f684d06971105fea23afdca793305e5a68fe",
+                    "SHA-512": "9ec6b20ebd3fa223b6680daaa05374fda6047ca2c322e269736ceb88f57dfa3ec6b27e9cc5a74bd46e3173145c7972320c460799cc7eb83a3a55875cf9690a5d",
+                    "SHA3-256": "bfe3d355c64062780b9bb40efc68fdd0c8c9e868d1001e2e520a3a7971289fa9",
+                    "SHA3-512": "ed97bf7c0d2a8e95ec7d67b0a97c894e046bb7f82c8c4ac1397258294e872c61aa9f3e433d7baaf815a7ecfc28a6c5c8d599a6bdea95b066037a2de194aeab88"
+                },
+                "external_id": "iDZsPmLXkpbHmxsfhav"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9c2817a2-2131-4943-b6e2-5a26f81a6676"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d7dd3dba-1de5-4c68-a1b8-1f723e092941",
+        "created_by_ref": "identity--6920b604-e5b4-4283-80ca-628935b460e0",
+        "created": "2022-01-30T06:51:15.211059Z",
+        "modified": "2022-05-16T21:19:14.727168Z",
+        "relationship_type": "compromises",
+        "source_ref": "threat-actor--cd8d6fc0-7ded-4cf1-8c32-f7f2cc9e06ed",
+        "target_ref": "infrastructure--59e6f6a3-7445-48b1-af2d-ec5a3d385d94",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "throughout",
+                "url": "https://www.kramer.net/",
+                "hashes": {
+                    "MD5": "c3cb166dc99fe062ec5c6daafcbfee2a",
+                    "SHA-1": "8c6c6cd7c6db7c1b47dd5ecd944087fc0a6f4cdb",
+                    "SHA-256": "5dca2d448a8a2d7ab7dfdf246b7c5c573f71e778aebe857f00c752b9b68a1549",
+                    "SHA-512": "0471379aaa6a2c34c9f7d26a71edc2eb435e8e1c932271a61dc728c87f678add5d65eb89602568e86e7fda0651e48c3ef6ab2bc8994cc8d1d29f9b10ff0d610c",
+                    "SHA3-256": "d975f0c203e4deaef03d73c59a5ec3f7284c8979806019ed58681b989f69da06",
+                    "SHA3-512": "9ea99adc1ff9777615a1a1c8e83ad714fe7bdc9438f7297afd4004cf7a4f64be25dc03d077bb589b327dd84f62cd2a78ca060eb7e425bcfc0567957881b8d793"
+                },
+                "external_id": "qBLDVvsiJVOdSLge"
+            },
+            {
+                "source_name": "through",
+                "description": "Development Mrs to clearly defense account hand.",
+                "external_id": "QTWLSjMYRy"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9c2817a2-2131-4943-b6e2-5a26f81a6676"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--9c2817a2-2131-4943-b6e2-5a26f81a6676",
+        "created_by_ref": "identity--6920b604-e5b4-4283-80ca-628935b460e0",
+        "created": "2021-08-14T01:09:25.518458Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f217105b-ccd2-4cb0-893a-c1314d7d2d64",
+                "name": "Strategy land response sport over",
+                "create_date_time": "2021-08-14T01:08:08.422773Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.422466Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6920b604-e5b4-4283-80ca-628935b460e0",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-01-01T07:48:00.912375Z",
+        "modified": "2021-08-14T01:09:25.520625Z",
+        "name": "Webb LLC",
+        "roles": [
+            "general",
+            "open",
+            "option",
+            "someone"
+        ],
+        "contact_information": "090 Neal Rapid\nEast Bryanside, MN 96288",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 54,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "information",
+                "description": "Step source know.",
+                "external_id": "KxMXwEL"
+            },
+            {
+                "source_name": "special",
+                "description": "Interest can oil meeting shake.",
+                "external_id": "AvSetagarTExkcDm"
+            },
+            {
+                "source_name": "window",
+                "description": "Tv than still natural course end piece be.",
+                "hashes": {
+                    "MD5": "6ed7b6a6bd75108942e652ca1d6636dd",
+                    "SHA-1": "f7445ed5686a8f5b5ff1ffa906ab5f417bc09bb0",
+                    "SHA-256": "8c8059fe6b4c44be606932ddca4c49733c20c4917d2458a9e37f8bcd1e0e8f22",
+                    "SHA-512": "37a475e4a57c5e21f7dd033c80fea73a3c1f02bf7a0a824bca048d138f515fa78ad9cae4190df52b0df6960888de414d677aa8870ff65a83cc56993220c6e49a",
+                    "SHA3-256": "ed03b61e514b75842fa39abde334d4c6b421b95e99bddf8e01c1d0fc0a0ea57e",
+                    "SHA3-512": "28a514c68fecfc1baa52e5b05b0b7b9bbbc0ae3c7a05f5216cd38ba70254f1f3d0a281dbb0a213efbe0c4975f928cedd54ab268d1c9d5eb10fd073fe63a23d6d"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9c2817a2-2131-4943-b6e2-5a26f81a6676"
+        ]
+    }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--ec338092-7913-4f8a-854e-fac34182364f",
+        "created_by_ref": "identity--90279447-4401-4c05-b859-d9d334f55bdf",
+        "created": "2022-07-31T03:32:54.417818Z",
+        "modified": "2023-07-21T16:50:08.608444Z",
+        "name": "situation",
+        "description": "Item true and south think.",
+        "pattern": "(([email-message:is_multipart NOT = true]) OR [network-traffic:dst_byte_count < 253508]) AND [software:version >= '19'] AND [directory:path_enc < 'ISO-8859-6'] AND [email-message:defanged NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-07-22T05:36:33.491976Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--0105d0c5-a492-4761-94bf-f20c1f157741",
+        "created_by_ref": "identity--90279447-4401-4c05-b859-d9d334f55bdf",
+        "created": "2021-10-28T17:47:11.634529Z",
+        "modified": "2022-02-06T12:24:06.232202Z",
+        "first_observed": "2020-08-07T03:41:13.075754Z",
+        "last_observed": "2021-03-03T20:42:30.943185Z",
+        "number_observed": 652060585,
+        "objects": {
+            "user-account--b51bb07e-8d17-439d-97e1-0e010818882e": {
+                "type": "user-account",
+                "spec_version": "2.1",
+                "id": "user-account--b51bb07e-8d17-439d-97e1-0e010818882e",
+                "user_id": "delgadojanice",
+                "credential": "_82DpseNTj",
+                "account_login": "mcguirejonathan@yahoo.com",
+                "display_name": "Tiffany Chavez",
+                "can_escalate_privs": true,
+                "account_created": "2022-07-29T04:08:37.802961Z",
+                "account_expires": "2021-08-09T13:35:46.006922Z",
+                "account_last_login": "2021-11-08T13:16:57.607401Z"
+            }
+        },
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b8879668-0a54-4903-a13d-a1cf7431d22a",
+        "created_by_ref": "identity--90279447-4401-4c05-b859-d9d334f55bdf",
+        "created": "2021-04-17T10:38:16.875918Z",
+        "modified": "2021-08-30T09:55:55.177365Z",
+        "relationship_type": "based-on",
+        "description": "Then very action spend let trial. Clearly away enjoy article represent.",
+        "source_ref": "indicator--ec338092-7913-4f8a-854e-fac34182364f",
+        "target_ref": "observed-data--0105d0c5-a492-4761-94bf-f20c1f157741",
+        "start_time": "2021-10-13T21:36:04.599061Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 43,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--90279447-4401-4c05-b859-d9d334f55bdf",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-05T16:17:34.070381Z",
+        "modified": "2021-08-14T01:08:36.153575Z",
+        "name": "FineSideRace",
+        "description": "Fully-configurable empowering paradigm",
+        "roles": [
+            "person",
+            "later"
+        ],
+        "sectors": [
+            "government-national",
+            "technology",
+            "aerospace",
+            "utilities",
+            "hospitality-leisure"
+        ],
+        "contact_information": "04659 Miller Inlet\nPort Jocelyn, WV 19491",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 37,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

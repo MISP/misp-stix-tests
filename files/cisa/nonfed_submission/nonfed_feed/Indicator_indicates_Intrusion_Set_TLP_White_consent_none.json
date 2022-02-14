@@ -1,0 +1,132 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--d5bc1dfc-204d-49b2-9726-47e8cb4d0f0f",
+        "created_by_ref": "identity--a98a14a0-0bd6-4caf-9d81-fd8b42773fd2",
+        "created": "2022-06-20T23:33:45.114357Z",
+        "modified": "2023-04-21T22:31:14.768185Z",
+        "pattern": "[network-traffic:defanged = false OR (ipv4-addr:value < '48.10.212.119')]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-04-07T09:22:57.952014Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "fSvdXz",
+                "phase_name": "XtiWc"
+            }
+        ],
+        "labels": [
+            "today",
+            "drop",
+            "pfte-batch-1"
+        ],
+        "confidence": 88,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--11ef36ac-cda3-4e23-8a1c-8b1be1c3b5c9",
+        "created_by_ref": "identity--a98a14a0-0bd6-4caf-9d81-fd8b42773fd2",
+        "created": "2021-01-14T03:22:13.68079Z",
+        "modified": "2021-08-14T01:08:30.958414Z",
+        "name": "politics",
+        "first_seen": "2022-01-07T18:45:37.583559Z",
+        "goals": [
+            "Effort room table pretty seven wonder contain.",
+            "Clear natural success identify by treat.",
+            "Standard environmental child such recognize."
+        ],
+        "primary_motivation": "ideology",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 36,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b6318bc4-bc6e-4d18-9182-f2df174f6e88",
+        "created_by_ref": "identity--a98a14a0-0bd6-4caf-9d81-fd8b42773fd2",
+        "created": "2021-02-21T16:18:13.951756Z",
+        "modified": "2021-08-14T01:08:30.958966Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--d5bc1dfc-204d-49b2-9726-47e8cb4d0f0f",
+        "target_ref": "intrusion-set--11ef36ac-cda3-4e23-8a1c-8b1be1c3b5c9",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 61,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "almost",
+                "hashes": {
+                    "MD5": "e3bc2159b7c2ca412a06474cc9b89d17",
+                    "SHA-1": "ce82b24c6735ae9879243caa50f85cdcac3735e7",
+                    "SHA-256": "ad19a3dd6db2d6ede4f45b002b22cf75e979afa9271d11d5a44e9ac5fb2f5153",
+                    "SHA-512": "982d2bb5306efd8ad3f8150e6283b5d2685d6e2c79f0f016734fec7274e0bc3a7e46b62ad9a33c3ac2ed9fd866999bd086cd2f0bf170314e75672174ec7459e5",
+                    "SHA3-256": "4043f255105772a0f7b5c1136d1d6f7a5a84dbe6ac2db3272859263da5627de9",
+                    "SHA3-512": "957a30fae7f239093e3887e9b030363c263c48170c0109694770516559abddb888a3a81feacdd6d4497d91b09c60475a77bbb9d76e50945c6b16a5f8bdb94bb6"
+                },
+                "external_id": "sbIHlgmAydAlsUAhz"
+            },
+            {
+                "source_name": "billion",
+                "description": "Peace table situation meet fine top meeting.",
+                "url": "https://ware.com/",
+                "hashes": {
+                    "MD5": "9f90edeca47ed10c6e4ec12743d2d880",
+                    "SHA-1": "3a0f4d4307733de7ac11db7ed790c250fbbec07e",
+                    "SHA-256": "8a5547cc5143a9ec65424ea6e93842621a16e4b5ec6ed5eebff569396aff784e",
+                    "SHA-512": "201aaa59339b2e3c86fc93df97fe68acab6e25bc87620c041009f2947cd05fd3e19c8b32ae296b99622d0a759d5ec95b0984476c5ea1dab0b76810c901c1edc4",
+                    "SHA3-256": "2ecdcdbe27700b4dd1425825e5ab3fc45ddd12cebdba6518fcef822eb0875630",
+                    "SHA3-512": "764b780983632a1c8c962301110ad9799aef9bb2375ee008af4df97c1018ed45436f39642ee3001033e77bbc11c8d468cfe312c4ba27c8b1b9af36d229b36f71"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a98a14a0-0bd6-4caf-9d81-fd8b42773fd2",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-06-26T17:53:27.311822Z",
+        "modified": "2023-02-14T12:15:57.206548Z",
+        "name": "WaterTeachWestern",
+        "description": "Balanced demand-driven knowledge user",
+        "roles": [
+            "Mrs",
+            "true",
+            "interesting",
+            "Mrs",
+            "west"
+        ],
+        "identity_class": "organization",
+        "sectors": [
+            "nuclear",
+            "emergency-services",
+            "government-national",
+            "chemical"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 36,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

@@ -1,0 +1,235 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--a7de185b-6533-47c3-99e1-51eb78030168",
+        "created_by_ref": "identity--92e9e7ce-7421-4a57-ad5b-28406a3940d3",
+        "created": "2021-08-20T21:09:20.750873Z",
+        "modified": "2022-01-11T03:32:39.940239Z",
+        "name": "only",
+        "indicator_types": [
+            "attribution"
+        ],
+        "pattern": "(([(user-account:can_escalate_privs = false) AND user-account:is_privileged = false] START t'2021-04-18T00:44:22.706613Z' STOP t'2021-07-19T08:46:33.75737Z'))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-05-27T17:27:58.659713Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "miss",
+                "description": "Quickly society front rock meeting.",
+                "url": "https://roth.com/",
+                "hashes": {
+                    "MD5": "71ec822328547807f0b034886c3f5b50",
+                    "SHA-1": "fef8bc1475c28180c0c7bd37f4696a6a0b2a7936",
+                    "SHA-256": "f3cfec2038290980c412c761f06e10641e4f9a56d8c8e13665c893a596d196c5",
+                    "SHA-512": "12b59085778172e59e78b102e6081c28ec3e92e87cbd3b0a377f7d4e1dd9d7b29b64de2a1f29e06e64ba4a778a7cc10915e7a4aa82a78110b3f6de2e4b3fed49",
+                    "SHA3-256": "c3cbc54e2a9001e90d9488fb47c8e83008b83e3ee97aba8b7ca66184ea877419",
+                    "SHA3-512": "b521aa99268cfdb731478864ef66ff611bca1e57240c159d317f6be66fc1c0c6042d02698d03f19b9b16df3478e9f2ae496ef9e293d26d14b69ed69ce2f14bd4"
+                }
+            },
+            {
+                "source_name": "different",
+                "description": "Natural picture size bar girl.",
+                "url": "https://brown.org/",
+                "external_id": "dCbNERfkfYVCxkU"
+            },
+            {
+                "source_name": "really",
+                "url": "http://taylor.org/",
+                "hashes": {
+                    "MD5": "54774c6c66ecb9f693713a350c1e52a4",
+                    "SHA-1": "975f58dc00f772f75a05eb7bbbb8eee9b36f2759",
+                    "SHA-256": "559a7bec90bd64745876ddb7678d8230eaa3ae693f1f22e6530d47bba5b58576",
+                    "SHA-512": "ea474441a9d00e707cec81a54fd9655683464fc803c5eeb62758da4f07bcf7aad7ceda9857eab8076fe0e3759dee0af8c06f28765c5a119aa5479e2c725e902b",
+                    "SHA3-256": "1a1da6f412fd17ce1731bb7f7ce0d775a809bb7c1de6947da2abf773f800d118",
+                    "SHA3-512": "cfb2f4bcac844147180a11c73bb834bfcc5193b9cb26bff3045d22c0018bf90f6524b6722e3f32755e047525249681a65e7455131573db6f4967e9c01168810b"
+                },
+                "external_id": "xeTDhd"
+            },
+            {
+                "source_name": "civil",
+                "description": "Media pick fine really both.",
+                "external_id": "YOGhCyhZnIsY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e2d66481-a2f9-4349-96d6-4eed73909912"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--21474d9f-7214-43aa-b3f2-c9822620a2d9",
+        "created_by_ref": "identity--92e9e7ce-7421-4a57-ad5b-28406a3940d3",
+        "created": "2022-07-26T22:00:54.125357Z",
+        "modified": "2022-08-17T20:17:39.925376Z",
+        "name": "end",
+        "description": "Here meet pretty commercial.",
+        "tool_types": [
+            "network-capture",
+            "network-capture",
+            "credential-exploitation"
+        ],
+        "aliases": [
+            "who",
+            "view",
+            "where"
+        ],
+        "tool_version": "hotel",
+        "external_references": [
+            {
+                "source_name": "indicate",
+                "url": "https://www.martin.com/",
+                "external_id": "fooOIbOKEmHJdwY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e2d66481-a2f9-4349-96d6-4eed73909912"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--cb2a4731-89d8-4cfd-ae4e-49cf21f89db0",
+        "created_by_ref": "identity--92e9e7ce-7421-4a57-ad5b-28406a3940d3",
+        "created": "2022-05-11T07:07:21.669667Z",
+        "modified": "2023-02-25T04:24:47.730337Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--a7de185b-6533-47c3-99e1-51eb78030168",
+        "target_ref": "tool--21474d9f-7214-43aa-b3f2-c9822620a2d9",
+        "start_time": "2021-03-14T21:28:16.311762Z",
+        "stop_time": "2021-04-24T14:40:03.364611Z",
+        "confidence": 25,
+        "object_marking_refs": [
+            "marking-definition--e2d66481-a2f9-4349-96d6-4eed73909912"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--92e9e7ce-7421-4a57-ad5b-28406a3940d3",
+        "created_by_ref": "identity--92e9e7ce-7421-4a57-ad5b-28406a3940d3",
+        "created": "2020-12-17T13:17:53.182425Z",
+        "modified": "2021-12-06T09:37:55.43068Z",
+        "name": "Rodgers, Hudson and Mills",
+        "sectors": [
+            "education",
+            "transportation",
+            "energy",
+            "insurance",
+            "telecommunications"
+        ],
+        "contact_information": "96189 Bryan Lock\nPort Shanefort, MA 17980",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 52,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "difficult",
+                "description": "Admit smile detail change push.",
+                "hashes": {
+                    "MD5": "99024bb55ce145d4200bf6ea60bae947",
+                    "SHA-1": "fcd5a1e1d3b0a2dc12413940f1baa2c40e85c518",
+                    "SHA-256": "824232ab34a38b48f597fb8364d395c987dc07ee1f83b2234170d1dea5935e02",
+                    "SHA-512": "b0cbfac58f6e5e014ec7f119902b13fe1f1b087385890c8f598b1fb98ce6817d57c10f9862853e75483bebcbb8a5cbaa9eb8ffe5432445d20be8bb907fe2c7b2",
+                    "SHA3-256": "12cdb189ac966ba6e9dc5f1b7c8bc3a82c5dae3fd2ffed44d9f7fd75cb3df3c2",
+                    "SHA3-512": "1931b686fb03c3c01a16fae9abea48a1358b6361732bcafafcc2158656d723bad8860303a70eb5366bbe3172d320e1a9abd332e4d1f22f41ed7e29f9568eaa2e"
+                }
+            },
+            {
+                "source_name": "last",
+                "description": "Why onto age without realize run father.",
+                "url": "https://barnes-brown.info/",
+                "hashes": {
+                    "MD5": "3de0328e0d548746776becafb0d00594",
+                    "SHA-1": "44700fbd3f7a1417f2425f2540ea1a1d4753911a",
+                    "SHA-256": "d43ab3a3ba8117e696a9d83a36df17e9b5b286fd33b0a0c6a18d516ece9fa284",
+                    "SHA-512": "f6ec6c855e545313a3bbd19b165c81ea960f7de5b6197dbea857ce47d6ef97b378924494b87ab643e78adc3404db6d7f2982f1856db2ad866e12afe1c0e39cc7",
+                    "SHA3-256": "7530469a5a434483f27f4a8755f6f2b70418c124fc2220e500ada1960c19e994",
+                    "SHA3-512": "3f58747e6ed146573ed15313b3672ecbba5132f1928b15a6a420db07d290fc2a239695e453b174172238f7e778438060c81c89b0d42216573414372024dd6fc7"
+                },
+                "external_id": "PpUWvZLOpIAGShFcV"
+            },
+            {
+                "source_name": "authority",
+                "description": "Ask and near feel who four exactly.",
+                "external_id": "yFSFWXJncZeTNGyvNqY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e2d66481-a2f9-4349-96d6-4eed73909912"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--e2d66481-a2f9-4349-96d6-4eed73909912",
+        "created": "2021-08-14T01:08:35.50682Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1b1f4ecf-83db-4fe9-8c22-38a5f88b6694",
+                "name": "Deal certainly rather appear present safe",
+                "create_date_time": "2021-08-14T01:08:08.429946Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.429783Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

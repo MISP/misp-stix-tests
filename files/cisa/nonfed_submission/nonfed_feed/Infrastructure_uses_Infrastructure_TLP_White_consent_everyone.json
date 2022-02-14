@@ -1,0 +1,140 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--e1b1d1b4-0e17-40c6-a95d-d21092e7702e",
+        "created_by_ref": "identity--c088c04c-9611-4e34-a875-fd5414155f14",
+        "created": "2022-07-02T17:44:13.291131Z",
+        "modified": "2022-09-25T14:09:20.631968Z",
+        "name": "usually",
+        "aliases": [
+            "suggest",
+            "recent"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "CjyTlodUbNt",
+                "phase_name": "rEMHaKpqFNPNRwbd"
+            },
+            {
+                "kill_chain_name": "swaYgaJpTwWb",
+                "phase_name": "XKHmzBmGSVhl"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "yrWCkQItT",
+                "phase_name": "bakIJfjJ"
+            }
+        ],
+        "first_seen": "2021-05-14T02:22:25.908873Z",
+        "labels": [
+            "somebody",
+            "current",
+            "loss",
+            "nor",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--657ff9f7-73b8-42fa-91fd-ec02dbb04203",
+        "created_by_ref": "identity--c088c04c-9611-4e34-a875-fd5414155f14",
+        "created": "2021-01-20T14:55:01.576264Z",
+        "modified": "2021-08-14T01:08:50.464397Z",
+        "name": "able",
+        "infrastructure_types": [
+            "anonymization"
+        ],
+        "aliases": [
+            "into"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "ijheG",
+                "phase_name": "btVQALkYBZzVEvkkV"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "first_seen": "2021-04-07T10:43:16.336664Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 2,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--543bbdfc-fcf5-4677-8c8b-e2e649fbb442",
+        "created_by_ref": "identity--c088c04c-9611-4e34-a875-fd5414155f14",
+        "created": "2022-01-08T17:00:11.69163Z",
+        "modified": "2022-01-13T01:24:21.517484Z",
+        "relationship_type": "uses",
+        "source_ref": "infrastructure--e1b1d1b4-0e17-40c6-a95d-d21092e7702e",
+        "target_ref": "infrastructure--657ff9f7-73b8-42fa-91fd-ec02dbb04203",
+        "start_time": "2022-08-04T08:53:39.176266Z",
+        "stop_time": "2023-03-10T17:44:29.537582Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "during",
+                "url": "https://www.howard.info/"
+            },
+            {
+                "source_name": "truth",
+                "url": "http://www.perry.com/",
+                "hashes": {
+                    "MD5": "7c7ffc1d416c1ce4b8662289d4d8552a",
+                    "SHA-1": "96d89d2a8a5337939505dcc1906b9d0387ebb4d9",
+                    "SHA-256": "a55ee8e1456d43a1583c46aa12a7c2c9c7eb56a2cc8a262ffd3aa49456940e46",
+                    "SHA-512": "5bdb72b20a18519368d602c6678ff4bd3af5ca6160c191abff219349ccf2ba5512efa251a51abbc702e83624f81369725536feb15fbeebe326e57234d9c6402c",
+                    "SHA3-256": "8da36930377a661f09f4d6f6ba97ec4d27b4fc7245eeb4b39117d1d1c4507dec",
+                    "SHA3-512": "34d3d09e5f7ffe38eba219fe62adb47442f47aa126540e360f75b2a161a602922b05d74d853749ce73c848fde2962d9b3040bd45aa421ee29fce40790ad417d1"
+                },
+                "external_id": "MUniFOvE"
+            },
+            {
+                "source_name": "deep",
+                "description": "Out hold station human bit.",
+                "url": "http://www.herman-cruz.com/",
+                "external_id": "eAakbQK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c088c04c-9611-4e34-a875-fd5414155f14",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-03-13T20:17:22.636076Z",
+        "modified": "2021-08-14T01:08:50.465233Z",
+        "name": "Garza PLC",
+        "description": "Proactive scalable paradigm",
+        "identity_class": "class",
+        "contact_information": "13105 Julia Fords Suite 122\nPort Adrianview, WY 61727",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

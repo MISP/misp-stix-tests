@@ -1,0 +1,188 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--cb3d7bb0-004d-418f-8f6a-c30578a6a194",
+        "created_by_ref": "identity--09fad77e-8141-479f-8f74-c96f473644b1",
+        "created": "2021-08-15T00:02:02.733105Z",
+        "modified": "2022-05-20T14:48:53.242241Z",
+        "name": "us",
+        "description": "Degree understand research.",
+        "threat_actor_types": [
+            "spy",
+            "insider-disgruntled"
+        ],
+        "last_seen": "2021-08-30T07:29:25.498172Z",
+        "sophistication": "advanced",
+        "primary_motivation": "accidental",
+        "personal_motivations": [
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "lose",
+            "pfte-batch-1"
+        ],
+        "confidence": 77,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2967c327-1a8a-41e5-a557-a12a151c5184"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--4777a056-d41f-4e3f-b60d-c2beb08e258b",
+        "created_by_ref": "identity--09fad77e-8141-479f-8f74-c96f473644b1",
+        "created": "2022-07-08T22:07:50.059858Z",
+        "modified": "2023-04-11T01:28:25.604165Z",
+        "name": "ten",
+        "description": "Still hand final.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "vjiTYxLHjprGsT",
+                "phase_name": "wBWiT"
+            },
+            {
+                "kill_chain_name": "nvQGQwmrToMYaB",
+                "phase_name": "PqSdROFUVVQ"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "gBHXp",
+                "phase_name": "PZyAeXmvmwcDeRwmXsOj"
+            }
+        ],
+        "confidence": 90,
+        "external_references": [
+            {
+                "source_name": "law",
+                "description": "With opportunity after.",
+                "hashes": {
+                    "MD5": "e05395c05befb7278a7bcaeb38a7f113",
+                    "SHA-1": "379843e35c1f8c57bf895f200b98e44b8a6f8373",
+                    "SHA-256": "b3ac8b2be07a82f49decb8f2fd81df59280b3225926da1a40d4235941a60fa43",
+                    "SHA-512": "3c72f3dcf0577ee8c1138f4f58343f8e1e41c245faac25b1969f08af38aa8c99e35989bf47b0ee2e582a9f699f9f246c61d1e7b9d33165caf8df9ddcc58a2ca1",
+                    "SHA3-256": "1b49037be2b6262ef1948f2c34e1a1258416903d78f7974c4f23c5e858e4652d",
+                    "SHA3-512": "77033195c7b772dc34e6b6980d6ecb2140fe2028284857db8a5cb9d1ec8752219e859a2be9eb4d14aae07a9d5d4ee266a75503f66ab2d8740c33aaccce6c538e"
+                },
+                "external_id": "HOcRKpZyT"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2967c327-1a8a-41e5-a557-a12a151c5184"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ad3f7250-0981-4071-aba5-00ae6c4ba310",
+        "created_by_ref": "identity--09fad77e-8141-479f-8f74-c96f473644b1",
+        "created": "2020-09-04T20:25:17.044524Z",
+        "modified": "2021-08-14T01:09:32.124622Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--cb3d7bb0-004d-418f-8f6a-c30578a6a194",
+        "target_ref": "attack-pattern--4777a056-d41f-4e3f-b60d-c2beb08e258b",
+        "start_time": "2020-11-09T16:59:21.984453Z",
+        "labels": [
+            "black",
+            "structure",
+            "material",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2967c327-1a8a-41e5-a557-a12a151c5184"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2967c327-1a8a-41e5-a557-a12a151c5184",
+        "created_by_ref": "identity--09fad77e-8141-479f-8f74-c96f473644b1",
+        "created": "2021-08-14T01:09:32.123176Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2828523e-b28d-4046-9afc-51d22e18d79b",
+                "name": "Social price record ever reveal physical each",
+                "create_date_time": "2021-08-14T01:08:08.418751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.418527Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--09fad77e-8141-479f-8f74-c96f473644b1",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-23T14:38:49.719819Z",
+        "modified": "2022-01-05T14:24:38.089873Z",
+        "name": "SureHouseAdmit",
+        "description": "Open-architected 6thgeneration benchmark",
+        "roles": [
+            "week",
+            "wonder",
+            "couple",
+            "detail"
+        ],
+        "identity_class": "group",
+        "sectors": [
+            "telecommunications",
+            "entertainment",
+            "government",
+            "pharmaceuticals"
+        ],
+        "contact_information": "5371 White Hollow Suite 764\nMooremouth, UT 91339",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 93,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2967c327-1a8a-41e5-a557-a12a151c5184"
+        ]
+    }
+]

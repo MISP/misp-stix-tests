@@ -1,0 +1,183 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--7686e668-c074-48a8-a376-1c0c7a4d812a",
+        "created_by_ref": "identity--6c900ef6-15d0-475c-afb9-0a3ed45b7764",
+        "created": "2022-07-25T23:25:19.99545Z",
+        "modified": "2023-06-30T14:11:25.938567Z",
+        "name": "traditional",
+        "infrastructure_types": [
+            "routers-switches",
+            "hosting-target-lists"
+        ],
+        "aliases": [
+            "serve",
+            "owner",
+            "some"
+        ],
+        "confidence": 25,
+        "object_marking_refs": [
+            "marking-definition--71b61e0b-c9f0-4b85-b635-83d52e5effec"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--a043f3c4-90ec-4acb-93bc-3997b0b21e71",
+        "created_by_ref": "identity--6c900ef6-15d0-475c-afb9-0a3ed45b7764",
+        "created": "2021-01-03T00:55:31.830054Z",
+        "modified": "2021-08-14T01:08:42.019223Z",
+        "name": "entire",
+        "labels": [
+            "throughout",
+            "these",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "book",
+                "external_id": "KbhXwt"
+            },
+            {
+                "source_name": "TV",
+                "url": "http://herrera-rowland.info/",
+                "external_id": "eTvvEtndiTRcFcuzdK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--71b61e0b-c9f0-4b85-b635-83d52e5effec"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--0da48334-44b1-4a40-8d9d-e5479c9eda52",
+        "created_by_ref": "identity--6c900ef6-15d0-475c-afb9-0a3ed45b7764",
+        "created": "2021-08-11T05:19:30.215967Z",
+        "modified": "2022-08-06T20:56:39.222224Z",
+        "relationship_type": "consists-of",
+        "description": "Happen cost often use. Serve black politics foreign require operation.",
+        "source_ref": "infrastructure--7686e668-c074-48a8-a376-1c0c7a4d812a",
+        "target_ref": "infrastructure--a043f3c4-90ec-4acb-93bc-3997b0b21e71",
+        "start_time": "2021-12-22T13:47:33.899095Z",
+        "object_marking_refs": [
+            "marking-definition--71b61e0b-c9f0-4b85-b635-83d52e5effec"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--71b61e0b-c9f0-4b85-b635-83d52e5effec",
+        "created_by_ref": "identity--6c900ef6-15d0-475c-afb9-0a3ed45b7764",
+        "created": "2021-08-14T01:08:42.018142Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3d6ad3e0-0112-4a6d-8546-447c0e169799",
+                "name": "Space side determine future",
+                "create_date_time": "2021-08-14T01:08:08.419249Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6c900ef6-15d0-475c-afb9-0a3ed45b7764",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-01-28T05:46:47.866487Z",
+        "modified": "2022-12-12T10:03:41.504337Z",
+        "name": "ProbablyOftenInstitution",
+        "identity_class": "individual",
+        "sectors": [
+            "nuclear",
+            "mining",
+            "chemical",
+            "automotive"
+        ],
+        "contact_information": "8858 Chavez Inlet\nJulieshire, SD 47129",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "thousand",
+                "description": "Center during us pay.",
+                "url": "http://www.gonzalez.info/",
+                "hashes": {
+                    "MD5": "294e214865b03b516e1421760589b11a",
+                    "SHA-1": "1a5e121da3d925922e0a54d22905ed2f10d666ca",
+                    "SHA-256": "fbd6e3fcfe1dec0322aa40032c277b9fec8300601a2ecea1001adbf6e92daf2d",
+                    "SHA-512": "93f16e2c60634eee0f3e305bdcf84d9bd20875e2d048ea13d4fff3d5ec7e7af51c1973a06fa477d5c73bc99fb78914a9b38c45707ef4ac642b6181b790620972",
+                    "SHA3-256": "fe9f0564bee1b8e4c3281ecc1206f90a11f72aa4e2b1ba5d21c544c39244e872",
+                    "SHA3-512": "359d5d22f08d3f7a2da9b0353096ad596a0e1fb63cd5e505d419d9e66bafdd5ce426bfe113ce3c71cada7bf42b0cc847afd42987d0ff8cb49aaed20fcf5bd380"
+                },
+                "external_id": "ldBzodjPOrdB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--71b61e0b-c9f0-4b85-b635-83d52e5effec"
+        ]
+    }
+]

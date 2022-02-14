@@ -1,0 +1,165 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--41e1dae3-18da-4460-a046-fbaadecf866f",
+        "created_by_ref": "identity--07583437-4520-4f81-9f04-3f7c6a75b128",
+        "created": "2021-06-27T14:11:40.257856Z",
+        "modified": "2021-09-06T07:48:52.165383Z",
+        "name": "appear",
+        "description": "Area establish mind according bit successful.",
+        "first_seen": "2019-11-26T09:31:34.312782Z",
+        "last_seen": "2020-09-05T12:15:52.822162Z",
+        "roles": [
+            "infrastructure-architect"
+        ],
+        "sophistication": "minimal",
+        "personal_motivations": [
+            "notoriety",
+            "accidental",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 76,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--911bde9e-491e-49bf-8a4e-2cea8837ee39",
+        "created_by_ref": "identity--07583437-4520-4f81-9f04-3f7c6a75b128",
+        "created": "2021-02-04T19:53:48.95404Z",
+        "modified": "2021-10-26T19:25:33.624312Z",
+        "name": "choice",
+        "description": "Name design serious structure.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "first_seen": "2020-03-30T10:23:47.662725Z",
+        "last_seen": "2020-12-11T16:15:10.585895Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 29,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--edec81ae-fef6-4e70-9e66-d8c65c7896a2",
+        "created_by_ref": "identity--07583437-4520-4f81-9f04-3f7c6a75b128",
+        "created": "2021-12-22T23:24:12.257243Z",
+        "modified": "2022-08-25T10:44:31.100129Z",
+        "relationship_type": "owns",
+        "description": "Member still how age drop. Shake wind decide maintain.",
+        "source_ref": "threat-actor--41e1dae3-18da-4460-a046-fbaadecf866f",
+        "target_ref": "infrastructure--911bde9e-491e-49bf-8a4e-2cea8837ee39",
+        "start_time": "2022-03-08T21:49:14.118777Z",
+        "stop_time": "2023-01-12T09:24:31.64754Z",
+        "labels": [
+            "challenge",
+            "anyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "already",
+                "description": "Role modern interest entire to.",
+                "url": "http://www.blankenship.com/",
+                "hashes": {
+                    "MD5": "e843b687d74731799f3df820f6338436",
+                    "SHA-1": "0d466e16ccd2e200865f7e36c7d746c168cb9747",
+                    "SHA-256": "04b922594981930c6456f8f5559c42aa7af268ff45fc2c8f9e37131a4ffd9518",
+                    "SHA-512": "b7686e7896ba8c3bd307bcdea1e2c5abb0a71b309b5fa5bcd13ea02f938d8478e5186f66645b58244576df8e8aeb64c72478776ceed4d61ceeac62cc4a3d5667",
+                    "SHA3-256": "f772f873ba5c9cf181a8c576b8eb397755483d01c7782615aa6cc3576ac89d0d",
+                    "SHA3-512": "f12b1819e639aaa89f1befddc4463e91f30e631b7df2388935cea775e740b4c787c98da99932a58488a41666437c672577a3028e65132cad94968c2695a3a777"
+                },
+                "external_id": "sZKRLZXHknS"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--5db7cdf8-48b8-4395-9ad7-e17a4a488da6",
+        "created_by_ref": "identity--07583437-4520-4f81-9f04-3f7c6a75b128",
+        "created": "2022-01-04T06:51:00.183756Z",
+        "modified": "2022-07-20T15:39:59.520445Z",
+        "content": "Alone leave capital positive mouth light. Carry he act. Again more tell animal.",
+        "authors": [
+            "factor"
+        ],
+        "object_refs": [
+            "threat-actor--41e1dae3-18da-4460-a046-fbaadecf866f",
+            "infrastructure--911bde9e-491e-49bf-8a4e-2cea8837ee39",
+            "relationship--edec81ae-fef6-4e70-9e66-d8c65c7896a2"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--07583437-4520-4f81-9f04-3f7c6a75b128",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-05-08T03:32:36.881754Z",
+        "modified": "2023-02-18T17:40:42.265083Z",
+        "name": "Campbell LLC",
+        "description": "Versatile tangible emulation",
+        "roles": [
+            "commercial"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "energy",
+            "telecommunications",
+            "retail"
+        ],
+        "contact_information": "14532 Kimberly Inlet Apt. 392\nPamelaland, MO 26035",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 99,
+        "external_references": [
+            {
+                "source_name": "dinner",
+                "description": "Behavior study impact sell let choice.",
+                "hashes": {
+                    "MD5": "94342f28603f64085cc851595ce3c7e3",
+                    "SHA-1": "65ab27f575d8b13afcd9bc21e11e421b4d6d133b",
+                    "SHA-256": "b9c02a24e0ec42a7ab4aeccaa7605514397f8963086e6176f5b8a3cd9a72d663",
+                    "SHA-512": "d0013b9efc7f8b40f839696ba21ba62f55a683bb60e13e9adf81727e17d949f8b0b32ddf6101a616d8c3d3ec09f0cf7040ba885a1596acc649100f08b5e51d5f",
+                    "SHA3-256": "d9ad719c2af9814f3f25ca742b106b3ffd210b51523963bc8d551e794509ab62",
+                    "SHA3-512": "727f413a2811998add4a1e7e7dd5b2af945358a643ce0eacc8114d27ea16c419f86df54804dfe7db3fad03c2d03d5e4987063a643cda7fd6e362d6f500ce9cc2"
+                },
+                "external_id": "wHdOKthfb"
+            },
+            {
+                "source_name": "improve",
+                "description": "Detail effect bar draw prepare toward."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

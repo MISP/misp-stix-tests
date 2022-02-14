@@ -1,0 +1,173 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--73732c62-bb87-4f6e-aef3-a5fbc8d50ec8",
+        "created_by_ref": "identity--37a91d41-610d-4227-867c-f71fa752c0f6",
+        "created": "2022-01-14T10:17:06.109899Z",
+        "modified": "2022-07-18T19:28:46.895809Z",
+        "name": "firm",
+        "description": "Cause agreement someone herself may.",
+        "pattern": "([user-account:defanged NOT = false]) FOLLOWEDBY [process:created_time < t'2021-12-20T16:04:04.335652Z'] FOLLOWEDBY [url:value NOT = 'http://lawrence.info/' AND (url:value = 'http://www.cardenas-patterson.com/')]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-12-02T19:08:03.735689Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "RctcZXz",
+                "phase_name": "AFFubkxgpViZNVEED"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "confidence": 18,
+        "object_marking_refs": [
+            "marking-definition--d1768b3f-a92f-45d2-a10c-7d02dcf77c82"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--c6be1d8d-5aed-4d54-81fe-0f89c51be2f8",
+        "created_by_ref": "identity--37a91d41-610d-4227-867c-f71fa752c0f6",
+        "created": "2021-09-10T16:00:38.508769Z",
+        "modified": "2021-10-06T03:04:49.335208Z",
+        "name": "industry",
+        "first_seen": "2021-07-31T12:01:00.54502Z",
+        "last_seen": "2021-09-18T04:44:57.757178Z",
+        "objective": "Among candidate offer risk wide whatever suggest.",
+        "object_marking_refs": [
+            "marking-definition--d1768b3f-a92f-45d2-a10c-7d02dcf77c82"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e1ec825c-8665-4233-84f3-10127bedf4a4",
+        "created_by_ref": "identity--37a91d41-610d-4227-867c-f71fa752c0f6",
+        "created": "2021-12-29T23:04:50.279581Z",
+        "modified": "2022-09-08T20:12:01.049876Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--73732c62-bb87-4f6e-aef3-a5fbc8d50ec8",
+        "target_ref": "campaign--c6be1d8d-5aed-4d54-81fe-0f89c51be2f8",
+        "start_time": "2021-10-26T03:06:59.210859Z",
+        "stop_time": "2022-03-01T14:31:09.417673Z",
+        "labels": [
+            "factor",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--d1768b3f-a92f-45d2-a10c-7d02dcf77c82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--37a91d41-610d-4227-867c-f71fa752c0f6",
+        "created_by_ref": "identity--37a91d41-610d-4227-867c-f71fa752c0f6",
+        "created": "2022-04-04T08:44:16.841627Z",
+        "modified": "2023-01-17T08:55:46.39979Z",
+        "name": "Clark Group",
+        "identity_class": "system",
+        "sectors": [
+            "utilities",
+            "defense"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d1768b3f-a92f-45d2-a10c-7d02dcf77c82"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d1768b3f-a92f-45d2-a10c-7d02dcf77c82",
+        "created": "2021-08-14T01:08:29.31213Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-57e7d098-4c26-4a4d-bfaa-3ee9c5e47adc",
+                "name": "Customer hot subject fight customer",
+                "create_date_time": "2021-08-14T01:08:08.428617Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

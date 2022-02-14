@@ -1,0 +1,161 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--10b49684-188a-4cfd-83c1-9dfc0c90fabc",
+        "created_by_ref": "identity--adf7eb11-089b-4c5a-9132-543debc37bdf",
+        "created": "2021-12-06T13:19:29.996431Z",
+        "modified": "2021-12-12T07:22:45.466079Z",
+        "name": "through",
+        "description": "Above ever read.",
+        "aliases": [
+            "end",
+            "big",
+            "feel"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3965d3a8-3e09-4df8-98a9-66128bd1f106"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--46df3eb2-ca83-42e6-b027-04f54fadfbf3",
+        "created_by_ref": "identity--adf7eb11-089b-4c5a-9132-543debc37bdf",
+        "created": "2021-04-28T12:12:35.048862Z",
+        "modified": "2021-08-28T13:15:09.900127Z",
+        "name": "father",
+        "description": "Theory research feeling risk.",
+        "aliases": [
+            "ready"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "tool_version": "international",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3965d3a8-3e09-4df8-98a9-66128bd1f106"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a9647a1c-f268-4a26-95ad-51ce9f2d6447",
+        "created_by_ref": "identity--adf7eb11-089b-4c5a-9132-543debc37bdf",
+        "created": "2022-07-01T06:16:47.183362Z",
+        "modified": "2023-06-11T07:32:50.455784Z",
+        "relationship_type": "uses",
+        "description": "Receive various bad enjoy. Event officer rate her five hot grow.",
+        "source_ref": "campaign--10b49684-188a-4cfd-83c1-9dfc0c90fabc",
+        "target_ref": "tool--46df3eb2-ca83-42e6-b027-04f54fadfbf3",
+        "start_time": "2021-06-03T08:22:04.309764Z",
+        "labels": [
+            "learn",
+            "walk",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--3965d3a8-3e09-4df8-98a9-66128bd1f106"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--adf7eb11-089b-4c5a-9132-543debc37bdf",
+        "created_by_ref": "identity--adf7eb11-089b-4c5a-9132-543debc37bdf",
+        "created": "2021-12-03T17:03:23.883058Z",
+        "modified": "2022-11-15T05:40:46.017358Z",
+        "name": "Boone Inc",
+        "description": "Innovative leadingedge application",
+        "sectors": [
+            "agriculture",
+            "financial-services",
+            "education"
+        ],
+        "contact_information": "12362 Steve Pine\nHunterbury, WA 25007",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3965d3a8-3e09-4df8-98a9-66128bd1f106"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--3965d3a8-3e09-4df8-98a9-66128bd1f106",
+        "created": "2021-08-14T01:08:20.846515Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-44002952-ef1b-4819-85db-bdfcd1864e5e",
+                "name": "Free major nothing gun",
+                "create_date_time": "2021-08-14T01:08:08.424588Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.424412Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

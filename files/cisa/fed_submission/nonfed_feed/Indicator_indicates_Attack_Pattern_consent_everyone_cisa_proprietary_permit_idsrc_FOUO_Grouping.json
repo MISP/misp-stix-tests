@@ -1,0 +1,188 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--fef6ceea-817c-489e-a9e3-f6340f08c633",
+        "created_by_ref": "identity--cecb23d0-4741-406b-a244-95f046ca7082",
+        "created": "2022-05-12T14:51:44.912935Z",
+        "modified": "2022-12-23T20:56:28.509014Z",
+        "indicator_types": [
+            "unknown",
+            "unknown",
+            "attribution"
+        ],
+        "pattern": "((((([url:defanged = false] START t'2021-06-19T08:57:47.723792Z' STOP t'2022-07-24T22:02:17.853207Z') OR [mac-addr:value <= '16:ec:a7:36:6b:8c'] OR [user-account:account_expires NOT = t'2022-03-05T05:49:44.774124Z']) START t'2021-04-26T19:53:01.789665Z' STOP t'2021-09-08T18:30:03.130564Z') REPEATS 6 TIMES) OR [(mac-addr:defanged NOT = false) AND mac-addr:value > '20:cb:c1:73:09:e7'])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-07-19T11:10:10.084864Z",
+        "valid_until": "2022-05-01T22:20:53.44015Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "labels": [
+            "prove",
+            "view",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--b1580ee0-9a0f-48fe-8c47-09eafcb0a1f1",
+        "created_by_ref": "identity--cecb23d0-4741-406b-a244-95f046ca7082",
+        "created": "2021-07-24T01:43:08.146754Z",
+        "modified": "2022-05-10T00:37:23.19806Z",
+        "name": "work",
+        "description": "Tv much general every full.",
+        "aliases": [
+            "find",
+            "skin",
+            "current"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "Zzvpiflq",
+                "phase_name": "dOiwXuoaxXHqFPMMqK"
+            },
+            {
+                "kill_chain_name": "dHOeCZWKNy",
+                "phase_name": "BljAoZqBBugkYMRxvOVI"
+            }
+        ],
+        "labels": [
+            "page",
+            "receive",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8b9ed045-dd0b-43dd-802a-e3a00ae18992",
+        "created_by_ref": "identity--cecb23d0-4741-406b-a244-95f046ca7082",
+        "created": "2021-07-25T21:41:34.024732Z",
+        "modified": "2022-03-19T10:18:39.350735Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--fef6ceea-817c-489e-a9e3-f6340f08c633",
+        "target_ref": "attack-pattern--b1580ee0-9a0f-48fe-8c47-09eafcb0a1f1",
+        "labels": [
+            "address",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "social",
+                "description": "Raise crime serious oil.",
+                "external_id": "PLSqrqV"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--4195ac1f-9f7b-4aaa-b584-126070bbeac7",
+        "created_by_ref": "identity--cecb23d0-4741-406b-a244-95f046ca7082",
+        "created": "2022-07-28T03:12:27.656307Z",
+        "modified": "2022-12-19T20:48:35.707447Z",
+        "name": "room",
+        "description": "Form cause third relationship into.",
+        "context": "unspecified",
+        "object_refs": [
+            "indicator--fef6ceea-817c-489e-a9e3-f6340f08c633",
+            "attack-pattern--b1580ee0-9a0f-48fe-8c47-09eafcb0a1f1",
+            "relationship--8b9ed045-dd0b-43dd-802a-e3a00ae18992"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 94,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--cecb23d0-4741-406b-a244-95f046ca7082",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-11-30T03:57:10.730412Z",
+        "modified": "2021-08-28T01:52:06.56931Z",
+        "name": "Boyd-Jones",
+        "roles": [
+            "available"
+        ],
+        "identity_class": "organization",
+        "sectors": [
+            "government-local",
+            "government-national"
+        ],
+        "contact_information": "15067 Harry Junctions Suite 098\nMillershire, UT 42714",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 95,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "magazine",
+                "description": "Phone but only up.",
+                "url": "https://bowman.com/"
+            },
+            {
+                "source_name": "someone",
+                "description": "Measure treat last although first suddenly surface civil.",
+                "hashes": {
+                    "MD5": "7f762df74c4954aa562c1524f457101d",
+                    "SHA-1": "a7bdee95f304847961680617ed099c54e1577613",
+                    "SHA-256": "a4599cf9b26681fc873bf4e6eaaee7bbffc7e8420d47247f902b80e5f59fcef4",
+                    "SHA-512": "c3c7554f6584e93dab4a87c10b91a16405377952b5405aea011af68376056b3defe40215785cde639485a275c87ee4642c98a9e7397b04ba4065da230b92678a",
+                    "SHA3-256": "8995657dce2fac118fc61b66fd20be5613577b5c50a71c19c02b925cc5d646f5",
+                    "SHA3-512": "cc6dd344c48d61ae7cc169ae0288e5739dd655d6bc334b354915838ff4e5f8edb7e9598929b4624da494883a3a738bb079191f46e490472adb41f627565db7bf"
+                }
+            },
+            {
+                "source_name": "meet",
+                "description": "Firm down identify third clear.",
+                "url": "https://ayala.com/"
+            },
+            {
+                "source_name": "international",
+                "description": "Tv market late also nor until soldier.",
+                "external_id": "wEhBZeiuXqOjF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

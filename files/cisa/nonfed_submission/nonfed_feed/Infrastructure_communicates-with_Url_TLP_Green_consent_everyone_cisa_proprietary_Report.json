@@ -1,0 +1,112 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--25aec9ee-1989-42a1-826f-ac2e4825e7b3",
+        "created_by_ref": "identity--0c651be7-0b85-4e77-b47d-622f1394cd0b",
+        "created": "2022-01-20T02:38:17.641951Z",
+        "modified": "2022-07-29T20:02:56.01745Z",
+        "name": "responsibility",
+        "first_seen": "2021-04-20T07:39:15.715287Z",
+        "labels": [
+            "special",
+            "also",
+            "doctor",
+            "fire",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--890d7a33-134e-482f-8908-d1368fa9d1c1",
+        "value": "http://www.little.com/",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--76f187d5-3c8a-4c0c-89d1-7b40e2406ca1",
+        "created_by_ref": "identity--0c651be7-0b85-4e77-b47d-622f1394cd0b",
+        "created": "2022-07-12T19:05:36.506408Z",
+        "modified": "2023-01-06T11:08:35.427724Z",
+        "relationship_type": "communicates-with",
+        "description": "Ago stay draw see. Stuff pressure as know agreement term. Later light I ten note.",
+        "source_ref": "infrastructure--25aec9ee-1989-42a1-826f-ac2e4825e7b3",
+        "target_ref": "url--890d7a33-134e-482f-8908-d1368fa9d1c1",
+        "start_time": "2020-09-03T13:24:41.924751Z",
+        "stop_time": "2021-04-04T05:47:10.462713Z",
+        "labels": [
+            "so",
+            "give",
+            "evening",
+            "recognize",
+            "maybe",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--ebc8ac0a-6cc5-465c-8276-40e0c84bf37c",
+        "created_by_ref": "identity--0c651be7-0b85-4e77-b47d-622f1394cd0b",
+        "created": "2020-11-12T09:47:10.166126Z",
+        "modified": "2021-08-14T01:08:41.525021Z",
+        "name": "feel",
+        "published": "2021-12-21T00:40:18.330683Z",
+        "object_refs": [
+            "infrastructure--25aec9ee-1989-42a1-826f-ac2e4825e7b3",
+            "url--890d7a33-134e-482f-8908-d1368fa9d1c1",
+            "relationship--76f187d5-3c8a-4c0c-89d1-7b40e2406ca1"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0c651be7-0b85-4e77-b47d-622f1394cd0b",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-06T15:17:25.024881Z",
+        "modified": "2022-07-23T14:27:53.675315Z",
+        "name": "Hernandez-Anderson",
+        "roles": [
+            "threat",
+            "miss",
+            "rock",
+            "care",
+            "tend"
+        ],
+        "identity_class": "system",
+        "sectors": [
+            "government-national",
+            "dams",
+            "insurance"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 2,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

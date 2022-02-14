@@ -1,0 +1,223 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--ac5a25e3-f878-4170-a0ef-33314fe3ffff",
+        "created_by_ref": "identity--7d87de4f-40d6-49f5-9dfe-08ce14bcabb3",
+        "created": "2021-08-29T18:21:17.46694Z",
+        "modified": "2022-07-28T00:00:00.512266Z",
+        "name": "perform",
+        "description": "Can main significant evening.",
+        "threat_actor_types": [
+            "criminal",
+            "crime-syndicate",
+            "hacker",
+            "insider-disgruntled"
+        ],
+        "roles": [
+            "infrastructure-operator",
+            "infrastructure-operator",
+            "malware-author",
+            "sponsor",
+            "infrastructure-operator"
+        ],
+        "goals": [
+            "wear"
+        ],
+        "labels": [
+            "chair",
+            "trial",
+            "pfte-batch-1"
+        ],
+        "confidence": 84,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b69a2a91-10b2-419b-8fbb-cf36556b3001",
+        "created_by_ref": "identity--7d87de4f-40d6-49f5-9dfe-08ce14bcabb3",
+        "created": "2021-07-15T01:53:57.718629Z",
+        "modified": "2021-12-27T11:56:01.782881Z",
+        "name": "Williams Group",
+        "roles": [
+            "threat",
+            "court"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "agriculture"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 38,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "one",
+                "description": "Clearly eat forget where physical during.",
+                "external_id": "owIgGMH"
+            },
+            {
+                "source_name": "section",
+                "description": "Purpose turn success build perform statement.",
+                "url": "https://obrien.org/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f649db75-d653-406a-aa77-1c575e44abd8",
+        "created_by_ref": "identity--7d87de4f-40d6-49f5-9dfe-08ce14bcabb3",
+        "created": "2022-04-08T19:17:58.033906Z",
+        "modified": "2023-02-15T10:57:49.34586Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "threat-actor--ac5a25e3-f878-4170-a0ef-33314fe3ffff",
+        "target_ref": "identity--b69a2a91-10b2-419b-8fbb-cf36556b3001",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 14,
+        "external_references": [
+            {
+                "source_name": "care",
+                "description": "Crime wear there explain.",
+                "url": "https://www.benitez.com/",
+                "hashes": {
+                    "MD5": "9be433462d680d78c2601da3413083df",
+                    "SHA-1": "877ae88bc0531e7a4c585ea70f2335d9068d5f90",
+                    "SHA-256": "d2c443b6c45c0edd0cbc8e303b5e27794a7c3272f450e2e7a22788ff717ade22",
+                    "SHA-512": "ee46db1a3a058ffbdd071bd1ab2f912fc159a5ca9ae97549b24381a6138012b5ef1d20981d823c258540336842efcf6a7023fbbc82613c47d24df18d79a805c0",
+                    "SHA3-256": "998a125b516ba59b8847dd1158db107f2bfac198c7fc658d631789622aaea0b9",
+                    "SHA3-512": "0de57a2f6fa520091c24d8f8254e31f395268ec974c6c07012b268990c723be1560c764034b60e04f214f102cfa1f5f3f73b62142ab091aa95c16fa149f95bbd"
+                },
+                "external_id": "pqNZu"
+            },
+            {
+                "source_name": "child",
+                "hashes": {
+                    "MD5": "282f72a0171eeaa386e7a87775dcaef0",
+                    "SHA-1": "6333b83db5f13087a00929c48f320d2d811528aa",
+                    "SHA-256": "1f76744686111a1921f5a40635e18b3ee636e46f86833dc886735d7aa7e97548",
+                    "SHA-512": "9f55390fc4e946a4175f8efea26b1bd0127916d6d33be8a9ed40be26bc82438d3bf0f7bb60551eab7ac1c258ee59fbe78e03c5c06e45b183c6670a9233eee3df",
+                    "SHA3-256": "be4d9ecbeb5a1e6054227a43996a9df464c1c086e20f5fc20695a7a119c0e068",
+                    "SHA3-512": "92109fb26d7702b91bd8c97892534485bcf5d43b5895950c888481ea84627d2a4f3ed9873e1d4be48b3f5b558b8e93309257bd10643632d75ea18856589ac9f0"
+                },
+                "external_id": "OuFVbCcKAcrsGSuVxB"
+            },
+            {
+                "source_name": "edge",
+                "hashes": {
+                    "MD5": "5b62a1609c5a99b716fb4cab67b4f36e",
+                    "SHA-1": "3377186ce501681f494306f3cc4b5de84b28786b",
+                    "SHA-256": "6383ea45e996b1af6ee5eee3c3594cd7763830e6aefdbbacc32f3ea9363ed2be",
+                    "SHA-512": "0a75d50bf89153b1fa9355cec0c392f6c02277262e295c08b9c06fbcdf4d82189f2525c0b68b2b1a602e2e97842cda7a9c83985c0fa05b44e4f9409c2a5542e6",
+                    "SHA3-256": "580c701b07d23bdce0f5a80aa6cdbbd8180f2c5261344699da89996e40a9545b",
+                    "SHA3-512": "a9550c983fa88146fe7559173e5431c05523576830df6ca188de21da41426d189dee220c84601058aa3166972b0e9c945c196b8c63f8a5183802c8c8c9348556"
+                },
+                "external_id": "YVVMaPfbxIOrpHDr"
+            },
+            {
+                "source_name": "real",
+                "description": "Much dream gas while.",
+                "url": "http://martin-moore.com/",
+                "hashes": {
+                    "MD5": "12479284bac5b896a66dcf1fdeb9b23a",
+                    "SHA-1": "def88b110c82790da666fc19339f2827e362062b",
+                    "SHA-256": "c162e61956415571d63dc19a8593deba9c8584ab2eb79e59ea47258bd5cf1f8e",
+                    "SHA-512": "8218b1abc20117f5b42494e2f5f04865ef96e8ce6bc488e5b83b54073f4dc15d82de78c5354c690f640a9a2edc7c0317c740ce75f8520ba3d4788811030d1cbf",
+                    "SHA3-256": "0c96c728167bba1155a6e91e4a31c209b64c7b6c20e105fad219a55adc949faf",
+                    "SHA3-512": "c2d303b96e904d2e0d9e2017e949b31b44b10363156ec6d2c944fc0f2f26ff50242a298e8c0101d1086c925dc4c03ced93f4a55530dd95b87517ee7b7727e348"
+                },
+                "external_id": "vCubJFKinGODiECe"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7d87de4f-40d6-49f5-9dfe-08ce14bcabb3",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-24T17:21:54.949385Z",
+        "modified": "2022-04-09T15:28:55.860Z",
+        "name": "Thompson Inc",
+        "description": "Networked fault-tolerant analyzer",
+        "roles": [
+            "culture",
+            "old"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 77,
+        "external_references": [
+            {
+                "source_name": "drug",
+                "description": "Skin purpose ahead especially.",
+                "hashes": {
+                    "MD5": "11cad157d1d32c99844dc6f204b9f55b",
+                    "SHA-1": "da819a7888f2c0397fea24e95ae8512458acc761",
+                    "SHA-256": "a32909463e501aad11f7aeb2e49f770880916bf098b89f133c27c1a81d35888f",
+                    "SHA-512": "f4afa2939a227cc1534ddb6383fa1ac6273974fb498f6634fa0816d65393bf3f516a56c486834b748b87cc251e9d064ce21bf8de7f93c405cb7fcb46b27cb2bf",
+                    "SHA3-256": "8a90f7f92b267f04347743439d68cbd74e0eef73fa3897079a48685c02c2125c",
+                    "SHA3-512": "256c390986f0f3d1c36eb962da94f79ffb1828339c53f7c2a3cc993bdc8b0db4b6486d894c133579f6c6bd52aa8f47f5a5d10183ff446db54867d3b2d34e5202"
+                },
+                "external_id": "heerTjiQTfvQh"
+            },
+            {
+                "source_name": "specific",
+                "description": "Prove continue particular control.",
+                "url": "http://smith-jones.biz/",
+                "hashes": {
+                    "MD5": "20fecc57a292b089754932c28d45d521",
+                    "SHA-1": "e101815f3e387ca2788c6f848362e09832c83d8b",
+                    "SHA-256": "93b7d5f836ac05359e099a19cc6a197e121b015e6699ddbf7fa44a4ae7c72525",
+                    "SHA-512": "3342644916fd0b59747bef0cbb5aa7e4fac85c1b99775afecb763356b1b24a38ea550d6c38bf2593cbe21331ae08a107d62f61d369d43681a860e8ed9b5dad99",
+                    "SHA3-256": "12c3e9a8f9a9c956b2fc29ce0de38941920737b7d7b4d92b0b13b11e8eaab929",
+                    "SHA3-512": "84fc250e39efc20f85d306939b81efc460d9255f8c755723408cc79930ff00d7d2eade8f4f2562c5fb3305ad12f1a6cd4743accda3b062ec9d7351314b7e4b82"
+                }
+            },
+            {
+                "source_name": "such",
+                "description": "Mouth enough kind investment nearly.",
+                "hashes": {
+                    "MD5": "f164cb7d55409102b5d19dd47be9ac87",
+                    "SHA-1": "008772bf5a68eb47e62c1d57e74b7599c580aa03",
+                    "SHA-256": "73d57a7f0e734664e311f0124035582b77275d72a949e87faee28cd8202b201c",
+                    "SHA-512": "986278e7f04914bc786f1b683b736338b0ac8c91fac9a7a49b34386189bbf5fb1368e1786e4fe3dbfcf50ef72efa3c5dd24ede2aca762ce96c00305eaccfcce8",
+                    "SHA3-256": "9e01a542ccbbb1fb52e5432a259c125a5c2ca2302987e971971e2e37d350b6f1",
+                    "SHA3-512": "6596c608ed41a4fbe181411f34cd2fd8f3456b1e7785db1aef2f14efd449849d4c294958333a01bf462a6750a61cf273de148920a48b7c586bf2e24d1005b18f"
+                },
+                "external_id": "NMdRYj"
+            },
+            {
+                "source_name": "response",
+                "description": "However accept evidence two.",
+                "hashes": {
+                    "MD5": "c1d4654dded3f1b922843e7715b59085",
+                    "SHA-1": "f87a8958108779665ba89bff52ba02f9d8efd7a2",
+                    "SHA-256": "32be2bf7c20273ed70aea469bd8b0bf8061fb42c4565c763402944208b8ffeba",
+                    "SHA-512": "155344e6120ea3ac72da8266276f6565c7d80d9839fb7b03c03f7519c7be4c7b777c6fd40f9c724056b86d6779b2032b2930a6793963abd3cbf4b32be2ee8e9f",
+                    "SHA3-256": "489d009ab3343f450c47e1ed7ecf41cccd78469566d5d49285a0f338ad8b1ed8",
+                    "SHA3-512": "749a78f9177e4fbcbd85ee53d9ba4af116d6de9f5fa9968186cedd846736e083fa8dd1eafe1d3dde3ba1b5a058bbef8498a475f78be8e6330a1c62b9260b15a3"
+                },
+                "external_id": "VXHEeBHyF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--32cf2edc-b285-4d67-96a5-08b2bb6c1950",
+        "created_by_ref": "identity--4796c984-e788-4228-a015-895b12c65804",
+        "created": "2022-07-26T12:25:31.759758Z",
+        "modified": "2023-07-10T03:45:12.689227Z",
+        "name": "degree",
+        "description": "She smile stop court method tough.",
+        "first_seen": "2021-05-04T22:34:55.660083Z",
+        "last_seen": "2021-06-06T05:02:32.445863Z",
+        "labels": [
+            "article",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "if",
+                "url": "https://nelson.biz/",
+                "external_id": "oQTdgqjEWhrLC"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a7d76f6c-63f9-4147-9541-7267c5b1fd50"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--b5674319-8b76-4cf3-a2eb-1c16cf9d6cb1",
+        "created_by_ref": "identity--4796c984-e788-4228-a015-895b12c65804",
+        "created": "2022-07-04T14:30:09.79898Z",
+        "modified": "2023-04-13T09:47:40.969138Z",
+        "name": "south",
+        "description": "Water suddenly could.",
+        "infrastructure_types": [
+            "command-and-control",
+            "hosting-target-lists",
+            "botnet"
+        ],
+        "aliases": [
+            "main",
+            "job",
+            "figure",
+            "remain",
+            "a"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "VWgQyfZSgRcBQZHNYBfu",
+                "phase_name": "IrsVmqCKusGWezJwRVx"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "OAzTPe",
+                "phase_name": "uWASJpH"
+            },
+            {
+                "kill_chain_name": "ISKFevcuzuQLInID",
+                "phase_name": "GKhWwuzdWYuQ"
+            }
+        ],
+        "last_seen": "2021-12-12T22:13:55.660326Z",
+        "confidence": 95,
+        "object_marking_refs": [
+            "marking-definition--a7d76f6c-63f9-4147-9541-7267c5b1fd50"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--69533c25-24e6-4fd4-9c30-0c6ae8d51d74",
+        "created_by_ref": "identity--4796c984-e788-4228-a015-895b12c65804",
+        "created": "2022-07-08T18:32:09.308356Z",
+        "modified": "2023-03-06T16:26:43.776256Z",
+        "relationship_type": "hosts",
+        "description": "Science buy expert institution arrive never. Note seek enjoy individual ball. Artist along audience behind work good.",
+        "source_ref": "intrusion-set--32cf2edc-b285-4d67-96a5-08b2bb6c1950",
+        "target_ref": "infrastructure--b5674319-8b76-4cf3-a2eb-1c16cf9d6cb1",
+        "start_time": "2022-04-10T02:37:16.812187Z",
+        "labels": [
+            "could",
+            "company",
+            "by",
+            "realize",
+            "great",
+            "pfte-batch-1"
+        ],
+        "confidence": 7,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a7d76f6c-63f9-4147-9541-7267c5b1fd50"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--a7d76f6c-63f9-4147-9541-7267c5b1fd50",
+        "created_by_ref": "identity--4796c984-e788-4228-a015-895b12c65804",
+        "created": "2021-08-14T01:08:53.125128Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-cdad75a5-97a2-450d-bb1c-cac3b21b4823",
+                "name": "Continue half as create together strong",
+                "create_date_time": "2021-08-14T01:08:08.421874Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4796c984-e788-4228-a015-895b12c65804",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-01-24T15:28:48.887389Z",
+        "modified": "2022-01-12T03:16:05.558528Z",
+        "name": "Lucas-Lucero",
+        "identity_class": "group",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 40,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "why",
+                "description": "Myself road heavy responsibility clearly level heavy.",
+                "hashes": {
+                    "MD5": "eddea1da67bf69f45ce6ee26e34fe450",
+                    "SHA-1": "7d5fa0ea8dedd93fab0d9f369f82211486f4f69c",
+                    "SHA-256": "c0748dfc9c419780f9bcf15f25ce8749c018bc057bd5783eca49844fab2d7f55",
+                    "SHA-512": "efe1e51965c79451a7ff3d4032cfa182f99c242307e9327afb63a4b188acd1727e668308b652856d75b566e7e16431dad526fe8adce54c5a2ff00d5cdecabfae",
+                    "SHA3-256": "c2ad4113320eefb0ed731632fd5256def871a4da02d44910549ebd63166061d4",
+                    "SHA3-512": "6274a90cb8be725c3e1264e20e2ebe3dde252f08519703773331dbd90253a060eb261290f563eef2ef551ec71e06d081883016f85801a8cda618858d7a53dea4"
+                },
+                "external_id": "unaWFywnSHZ"
+            },
+            {
+                "source_name": "send",
+                "url": "http://yang.com/"
+            },
+            {
+                "source_name": "value",
+                "description": "Produce maintain scientist.",
+                "url": "https://www.manning-green.com/",
+                "hashes": {
+                    "MD5": "28d125c9a4983f0ad0e4e99908eec327",
+                    "SHA-1": "1ea2b81bb3aae2ad77ec9dda40493e35a09d40cd",
+                    "SHA-256": "0a8c68b0582f3bb38a6d333b205efa27f160afae0cc8a3d69c70cd476e66a6b2",
+                    "SHA-512": "3de6346c0360b392f5d629ee28a5eccbd4d0119eb2cce4ba74ce30846c1da7e72158efa0445113130969a54ab1ae2e7ec9cf5f8de56d7139d28516d7df53f4f2",
+                    "SHA3-256": "ab162373b2ecbb8eb9069bf4aaf3e33fc5c8806950514a57e85a61cb195a0836",
+                    "SHA3-512": "99bcc50652b56055c964aa7a232d00cfca9ff3f669eed82d9016a2e049933c2ced90ed6c4b426c6f06b07b58d3009256904db97eb29592fdad9fcc089a920cc8"
+                },
+                "external_id": "kjmkzhOMHwKNewyEBcVL"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a7d76f6c-63f9-4147-9541-7267c5b1fd50"
+        ]
+    }
+]

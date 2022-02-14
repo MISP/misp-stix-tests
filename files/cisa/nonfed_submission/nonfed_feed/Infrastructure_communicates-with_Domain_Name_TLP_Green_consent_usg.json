@@ -1,0 +1,92 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--202fef12-123e-4894-b78b-084259593fac",
+        "created_by_ref": "identity--353a96fc-cacd-4505-bf1e-1cefbd05fd19",
+        "created": "2021-10-24T09:37:24.19437Z",
+        "modified": "2021-11-10T17:00:51.840924Z",
+        "name": "hospital",
+        "description": "Office test free television real computer.",
+        "infrastructure_types": [
+            "firewall"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "first_seen": "2021-06-23T23:24:54.310783Z",
+        "last_seen": "2021-07-21T07:55:22.749901Z",
+        "labels": [
+            "purpose",
+            "training",
+            "various",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "domain-name",
+        "spec_version": "2.1",
+        "id": "domain-name--0b7a158d-1821-4fed-8c6e-c58f69d35965",
+        "value": "taylor.com",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ba551792-1bef-4141-8f43-e2d9c20c1a46",
+        "created_by_ref": "identity--353a96fc-cacd-4505-bf1e-1cefbd05fd19",
+        "created": "2021-04-11T04:36:08.036883Z",
+        "modified": "2021-08-14T01:08:40.7287Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--202fef12-123e-4894-b78b-084259593fac",
+        "target_ref": "domain-name--0b7a158d-1821-4fed-8c6e-c58f69d35965",
+        "start_time": "2022-03-31T10:44:59.653837Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 84,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--353a96fc-cacd-4505-bf1e-1cefbd05fd19",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-29T12:52:30.956358Z",
+        "modified": "2022-08-06T22:42:03.834604Z",
+        "name": "AwaySectionExist",
+        "description": "Open-architected empowering flexibility",
+        "roles": [
+            "reduce",
+            "from",
+            "certainly",
+            "young"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

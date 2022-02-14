@@ -1,0 +1,135 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--7d1bafa2-b131-41e9-9de6-cc0e462760b5",
+        "created_by_ref": "identity--c84444d1-c1aa-48d5-9dca-9f1717b16dca",
+        "created": "2020-09-03T13:11:05.11252Z",
+        "modified": "2021-08-14T01:08:57.579751Z",
+        "name": "keep",
+        "description": "Collection where quality room yourself per.",
+        "last_seen": "2021-11-29T04:35:46.198141Z",
+        "goals": [
+            "Compare together hope ten.",
+            "Culture movie open wall threat.",
+            "Town paper class common."
+        ],
+        "labels": [
+            "beyond",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--792aa903-51ae-49c1-9a1d-15d36ef40a29",
+        "created_by_ref": "identity--c84444d1-c1aa-48d5-9dca-9f1717b16dca",
+        "created": "2020-08-26T02:00:55.006381Z",
+        "modified": "2021-08-14T01:08:57.580015Z",
+        "name": "claim",
+        "aliases": [
+            "military"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--10232a4f-07eb-4ca3-bcc7-b438ff0d8f64",
+        "created_by_ref": "identity--c84444d1-c1aa-48d5-9dca-9f1717b16dca",
+        "created": "2021-05-04T04:44:31.984298Z",
+        "modified": "2021-10-04T13:14:18.751599Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7d1bafa2-b131-41e9-9de6-cc0e462760b5",
+        "target_ref": "attack-pattern--792aa903-51ae-49c1-9a1d-15d36ef40a29",
+        "labels": [
+            "themselves",
+            "compare",
+            "beautiful",
+            "provide",
+            "coach",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "thus",
+                "description": "Century note make vote.",
+                "url": "https://mills.org/",
+                "hashes": {
+                    "MD5": "6416aba45d38e392e91cf22681a18718",
+                    "SHA-1": "b0e79d9959ca33c51a34bee0abe170963b016496",
+                    "SHA-256": "b189c9e955fe75e80d1048a620220304d06080007833126c34c2d8b7cb749c2c",
+                    "SHA-512": "2fd91b1a92b2a89c5d940ed17cdb2702d96099c8b8647023dab7c6cd8f5a0f411c8ea74c66a662558c5755a60724d6b11528dfc5393539e2ca98a69a083e2434",
+                    "SHA3-256": "8c6ee66b7f529c8bddf83e82ab82a79afe8b702c6e61e59992de159004a37c01",
+                    "SHA3-512": "24a0a713c3e16aa17858492a03d764bd10aa645cdecd06a8b10a32883b882a3f1f330907bed97c67b5242472d4d297d1c5ca6cf14fce46437b4af42932518b65"
+                },
+                "external_id": "jAUJLWsHCTEBRFuA"
+            },
+            {
+                "source_name": "top",
+                "hashes": {
+                    "MD5": "da6c0f0cfc164e84ed8a7eefcfd174e4",
+                    "SHA-1": "43f8d95d02e6b0b297283f45c5b6ef452c17e9f1",
+                    "SHA-256": "a853808d52cd9ffa0c5bf83403d3d02bc903ec5990813cbe3313271f3f640fc7",
+                    "SHA-512": "5d1585437fa52a010ad267fa3ad83d13b442fab026f134944edd5d7a587a8ba0ef5e3f656689f7ed70b4ac022c07edd871a0b22668094c155be6b66fb8e4d0b1",
+                    "SHA3-256": "790f488e3b59a87fe7e27963d2384c17f0a0b5f7d2a2514e36072950c32667a6",
+                    "SHA3-512": "06dd8652a62c3bcafcf0646af9162bcfe771e14cc8b69d664bc7ae24ce6115d484fae7bb5539c9a39d8f480dea35b86eb0e2d119160ff38074a0dea0e9a77644"
+                },
+                "external_id": "oTbRUwPFnnmCTIwkFrH"
+            },
+            {
+                "source_name": "successful",
+                "description": "Religious responsibility discover.",
+                "hashes": {
+                    "MD5": "7e47db061364c6d175f0c7de542a6e00",
+                    "SHA-1": "ab8331db41143faf51a4dd345ea67fa2b394e3f0",
+                    "SHA-256": "d576a1e744063bdeb5b291ddf42d59ff2819a32380b9103b7cb83c73dcd0a335",
+                    "SHA-512": "c49f8bbb1a5a81209ae7290b69e29ecaa3730bb459c00bac26b53c0cd14e7ad59b39abd4ee641998a2b87a72879e264dd45e4792733c3f1158caa320073f78e8",
+                    "SHA3-256": "cfa024bc98e872c3f8372e1397faa88a078479b04ab319b93094a394ddcbf5c1",
+                    "SHA3-512": "3dd1f11a799f1a4dc6ae584f44d81c54f49bff723d1b025221572a31c1f3e09529675204218351f9f6ebe9c87dd046612a050b950109e19419552bd29b4774f5"
+                },
+                "external_id": "PTsIwWKHrXIvgm"
+            },
+            {
+                "source_name": "can",
+                "description": "Million will turn."
+            },
+            {
+                "source_name": "fear",
+                "url": "https://torres.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c84444d1-c1aa-48d5-9dca-9f1717b16dca",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-06T21:15:27.434846Z",
+        "modified": "2021-08-14T01:08:57.580976Z",
+        "name": "SomeHeFoot",
+        "description": "Robust analyzing array",
+        "contact_information": "196 Singleton Underpass\nWest Jodi, CO 31363",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 94,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

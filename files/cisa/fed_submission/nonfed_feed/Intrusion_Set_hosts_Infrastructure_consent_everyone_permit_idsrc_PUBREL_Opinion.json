@@ -1,0 +1,171 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--a52fb383-5e43-4d87-8e98-74766528f813",
+        "created_by_ref": "identity--0b19d0a3-8a63-49be-a1df-a1ee88020668",
+        "created": "2021-09-06T15:07:42.061148Z",
+        "modified": "2022-02-11T19:14:18.239302Z",
+        "name": "employee",
+        "aliases": [
+            "themselves"
+        ],
+        "last_seen": "2021-09-17T05:58:43.522092Z",
+        "primary_motivation": "dominance",
+        "secondary_motivations": [
+            "dominance",
+            "coercion"
+        ],
+        "labels": [
+            "you",
+            "open",
+            "administration",
+            "stock",
+            "nearly",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--5ca9bf07-9500-42b9-a77c-8f5ba771a72a",
+        "created_by_ref": "identity--0b19d0a3-8a63-49be-a1df-a1ee88020668",
+        "created": "2020-06-18T04:25:07.795026Z",
+        "modified": "2021-08-14T01:08:53.570986Z",
+        "name": "blood",
+        "infrastructure_types": [
+            "unknown",
+            "workstation"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "KsaFDDnfZUGatxTSbI",
+                "phase_name": "zFuloIjLyiCB"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "XugEqdomsfvDb",
+                "phase_name": "GfzrXPxsAoE"
+            }
+        ],
+        "first_seen": "2022-02-20T04:32:26.40315Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e79d1be3-8990-4770-98c1-b67797ce4bf3",
+        "created_by_ref": "identity--0b19d0a3-8a63-49be-a1df-a1ee88020668",
+        "created": "2021-03-27T15:09:35.772981Z",
+        "modified": "2021-08-14T01:08:53.571245Z",
+        "relationship_type": "hosts",
+        "source_ref": "intrusion-set--a52fb383-5e43-4d87-8e98-74766528f813",
+        "target_ref": "infrastructure--5ca9bf07-9500-42b9-a77c-8f5ba771a72a",
+        "labels": [
+            "total",
+            "pfte-batch-1"
+        ],
+        "confidence": 52,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--1de806da-fe52-41a0-89cd-c05e4e119cbe",
+        "created_by_ref": "identity--0b19d0a3-8a63-49be-a1df-a1ee88020668",
+        "created": "2022-04-21T12:00:22.636825Z",
+        "modified": "2022-12-12T07:43:06.752851Z",
+        "opinion": "strongly-disagree",
+        "object_refs": [
+            "intrusion-set--a52fb383-5e43-4d87-8e98-74766528f813",
+            "infrastructure--5ca9bf07-9500-42b9-a77c-8f5ba771a72a",
+            "relationship--e79d1be3-8990-4770-98c1-b67797ce4bf3"
+        ],
+        "labels": [
+            "act",
+            "report",
+            "pfte-batch-1"
+        ],
+        "confidence": 2,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "report",
+                "description": "Out all this land these animal.",
+                "url": "https://www.zamora.com/",
+                "hashes": {
+                    "MD5": "29c5da1b3dcd124bdd81493a4504bcda",
+                    "SHA-1": "7ae81a35fcb64813f96b79f0ca211ec21f46087e",
+                    "SHA-256": "eff187cbdeb81a1ceec541722c7c570da5f5c55ef9c1737be710fc69de3f1ca2",
+                    "SHA-512": "50b6273e05922c24f24f5436027c6254d892ac6c32dc42d503660a0016d33b5b629ad2beaa0dd0c722aa96cd40695d4b6bbf8e4078e66944f8b231695b83915a",
+                    "SHA3-256": "f9d6bd432c8af40387b70953fb49a6640c1d04c360c30c0b6f8673d76af37640",
+                    "SHA3-512": "ebf8e0c038c0364d359a8322223b495abe80ae77a57a6be183c632856b64ddfd0e4762b9abb9989091479f474aaba5a8b81d6d40034a9de933883783661c2868"
+                },
+                "external_id": "FRIJrcnbT"
+            },
+            {
+                "source_name": "rate",
+                "external_id": "ZlHMGjS"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0b19d0a3-8a63-49be-a1df-a1ee88020668",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-14T21:49:56.064064Z",
+        "modified": "2021-10-27T19:37:11.689108Z",
+        "name": "Swanson, Gomez and Alexander",
+        "sectors": [
+            "entertainment",
+            "nuclear",
+            "automotive",
+            "energy",
+            "manufacturing"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "family",
+                "description": "Box open listen interest early popular perform middle."
+            },
+            {
+                "source_name": "concern",
+                "description": "Dog information room baby wide finally.",
+                "url": "https://www.guerra.com/",
+                "external_id": "KUtLLESPwdxUCPP"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

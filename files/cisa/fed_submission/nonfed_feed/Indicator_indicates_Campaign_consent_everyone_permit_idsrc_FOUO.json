@@ -1,0 +1,89 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--bd7bc7d3-2195-480d-bf57-9b0fdba6e255",
+        "created_by_ref": "identity--6a31bec7-2d93-475a-9597-c32d13747b65",
+        "created": "2020-11-02T09:41:23.15618Z",
+        "modified": "2021-08-14T01:08:29.483478Z",
+        "description": "College marriage my.",
+        "pattern": "[mutex:defanged NOT = false AND mutex:name >= 'religious' AND (mutex:defanged = false)]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-02-20T02:40:08.367813Z",
+        "labels": [
+            "especially",
+            "entire",
+            "entire",
+            "family",
+            "none",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--57b70801-0d2f-450c-8e93-e54081dcf157",
+        "created_by_ref": "identity--6a31bec7-2d93-475a-9597-c32d13747b65",
+        "created": "2020-10-31T07:11:40.325142Z",
+        "modified": "2021-08-14T01:08:29.485202Z",
+        "name": "fear",
+        "first_seen": "2021-06-24T19:31:43.140512Z",
+        "objective": "Rest today break use.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--dd6ab485-4ae7-4923-a0be-5e5a5689d212",
+        "created_by_ref": "identity--6a31bec7-2d93-475a-9597-c32d13747b65",
+        "created": "2021-11-13T14:16:11.756328Z",
+        "modified": "2022-09-10T01:59:10.601363Z",
+        "relationship_type": "indicates",
+        "description": "Officer laugh war rich ground. Low deal major role guess may. Expect audience long officer yet somebody generation.",
+        "source_ref": "indicator--bd7bc7d3-2195-480d-bf57-9b0fdba6e255",
+        "target_ref": "campaign--57b70801-0d2f-450c-8e93-e54081dcf157",
+        "labels": [
+            "food",
+            "pfte-batch-1"
+        ],
+        "confidence": 41,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6a31bec7-2d93-475a-9597-c32d13747b65",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-05-06T17:45:34.479621Z",
+        "modified": "2021-08-14T01:08:29.487646Z",
+        "name": "Lucas-Day",
+        "identity_class": "individual",
+        "sectors": [
+            "construction",
+            "manufacturing",
+            "chemical"
+        ],
+        "contact_information": "983 Harris Path\nBreannatown, NH 27477",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

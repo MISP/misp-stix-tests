@@ -1,0 +1,226 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--aad257f6-b4d5-4916-b5e8-46a9a057e294",
+        "created_by_ref": "identity--315a3448-024c-4a12-bf40-e7744b22d7ba",
+        "created": "2021-03-31T02:50:34.958066Z",
+        "modified": "2022-02-02T13:31:42.240482Z",
+        "indicator_types": [
+            "unknown"
+        ],
+        "pattern": "([ipv4-addr:defanged NOT = false]) FOLLOWEDBY [software:cpe >= 'cpe:2.3:o:fedoraproject:fedora:29:*:*:*:*:*:*:*']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-07-08T09:06:32.461531Z",
+        "valid_until": "2021-10-22T03:25:58.84923Z",
+        "labels": [
+            "somebody",
+            "figure",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "one",
+                "description": "Building fine leader institution.",
+                "url": "http://www.hines.net/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0a959fa7-70e4-4fd9-acb2-6695a682b721"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--0e0d6e07-9c9b-4a70-92fe-76fe30098eb7",
+        "created_by_ref": "identity--315a3448-024c-4a12-bf40-e7744b22d7ba",
+        "created": "2022-02-15T03:39:53.701527Z",
+        "modified": "2022-08-06T13:08:24.206824Z",
+        "name": "energy",
+        "description": "Research surface phone official.",
+        "infrastructure_types": [
+            "reconnaissance",
+            "routers-switches",
+            "reconnaissance"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "foQrPelbKHWfN",
+                "phase_name": "cKrsBdQaWJAyB"
+            }
+        ],
+        "labels": [
+            "end",
+            "table",
+            "total",
+            "pfte-batch-1"
+        ],
+        "confidence": 90,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "again",
+                "description": "Last several detail true prove.",
+                "url": "https://bentley.com/",
+                "external_id": "rSEcIS"
+            },
+            {
+                "source_name": "west",
+                "external_id": "gHPVLHuJvCSLV"
+            },
+            {
+                "source_name": "police",
+                "description": "Day happen official short dinner marriage day factor.",
+                "url": "http://www.wong-mitchell.org/",
+                "hashes": {
+                    "MD5": "cc3bff8287a5e28d4a8ed6a7e41243c1",
+                    "SHA-1": "b7e8dfcc4e6e7dc79523820f24d25e81df2cbf86",
+                    "SHA-256": "f361ddb5f9275fd7a12f7a6c249f874e366def3b275b240df6b882639cbe5ded",
+                    "SHA-512": "1acf065c308806bc3eec314e9bffba1d3400d627bd718d29ea039b89e962ef8483d1e6dd49a3a38a9522642831ff6bb0db57e6281dd528225f56f52a051df564",
+                    "SHA3-256": "6762748008df24b04d3d589e39c51bb30359064e09a2e79679e82c23b99aa64f",
+                    "SHA3-512": "43d1f3503eeeb89212965232f561a3e88a73de70fa86d7b709f975c4d75b5329a7f7f28e30a405bdd014579a738f8b1b144d2f345da7084821c1319ee1bb64e3"
+                },
+                "external_id": "CCIBTmclXYgCt"
+            },
+            {
+                "source_name": "single",
+                "description": "Television sport major art effort.",
+                "url": "https://smith.biz/",
+                "hashes": {
+                    "MD5": "cfbfbccd56d22ede2080f13bd2c7f932",
+                    "SHA-1": "28634f0255e72bf8c39db7efff1c259ab6eee8d6",
+                    "SHA-256": "3dba6e92cd60c97c0136fd3e5b96b28a0976697432f3d4cb784a09ffde78307f",
+                    "SHA-512": "a2ad43730977351bf72cb15c08ee277af2d4d7565f0702a824a59186f99856a95b5bdd7f7ba904cc9f38bc5560254a039bd513e34b9c3fc298b958d20ce51c7d",
+                    "SHA3-256": "1cc10c4d9e5858081d8d9073a7cc973d6c91ee573e4f6d24601e8bc32698768d",
+                    "SHA3-512": "43a822440558c9d4296ee448ab1d8df5d5b0989839bfa8091bbad08a99adab6fc185ca8cd08272c3212efc76d8e30b7957562221f688e554baa04ac5b45726aa"
+                },
+                "external_id": "aBkioPlLTjbLMgyvLDNR"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0a959fa7-70e4-4fd9-acb2-6695a682b721"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b03ac7c1-4747-4159-a4c6-a2128488eaf5",
+        "created_by_ref": "identity--315a3448-024c-4a12-bf40-e7744b22d7ba",
+        "created": "2022-07-06T23:55:23.058626Z",
+        "modified": "2022-09-01T03:50:12.145636Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--aad257f6-b4d5-4916-b5e8-46a9a057e294",
+        "target_ref": "infrastructure--0e0d6e07-9c9b-4a70-92fe-76fe30098eb7",
+        "stop_time": "2021-09-20T04:53:13.637425Z",
+        "labels": [
+            "our",
+            "bring",
+            "reduce",
+            "example",
+            "pfte-batch-1"
+        ],
+        "confidence": 27,
+        "external_references": [
+            {
+                "source_name": "example",
+                "url": "https://www.perez.org/",
+                "hashes": {
+                    "MD5": "b164841cdc5eefe494d2f6f0055b030a",
+                    "SHA-1": "607918e6fd636934bcf7bb91332a4f489c77cbaf",
+                    "SHA-256": "76103617f7a34b53b90f14277b43ca3be455d72b88c089491d8790493cf45d9d",
+                    "SHA-512": "7ae14f04ce720ceffde8400dd117ac1f7cfd057b602b3824de721c1f914052008a19876a0c02687b14d4c98a78dfa77f31a03c02388ccdb4bc8a2a12d9f0b151",
+                    "SHA3-256": "db94d541e66423165ba9e9614418c441a398f0f27e7afa4cea091e705a16bdea",
+                    "SHA3-512": "59420d8354563f1e4e1869664684814cbfbf364aee1814a66a18dfb8d674ffe0b0d983a585bbf5ec4a4f84b511c73ab2350b90bdbae3ddc8f5f629698087dbd2"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0a959fa7-70e4-4fd9-acb2-6695a682b721"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--315a3448-024c-4a12-bf40-e7744b22d7ba",
+        "created_by_ref": "identity--315a3448-024c-4a12-bf40-e7744b22d7ba",
+        "created": "2020-10-08T19:18:24.853191Z",
+        "modified": "2021-08-14T01:08:30.384776Z",
+        "name": "Greene, Reyes and Lee",
+        "identity_class": "unknown",
+        "sectors": [
+            "emergency-services",
+            "emergency-services",
+            "utilities"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--0a959fa7-70e4-4fd9-acb2-6695a682b721"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--0a959fa7-70e4-4fd9-acb2-6695a682b721",
+        "created": "2021-08-14T01:08:30.381134Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

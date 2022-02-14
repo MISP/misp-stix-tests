@@ -1,0 +1,241 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--d4e4ef7a-f35f-4f6c-a80d-2e30f0d69aaf",
+        "created_by_ref": "identity--0007fa4e-b674-406e-a812-6b88ba75ddca",
+        "created": "2021-03-14T08:26:17.482828Z",
+        "modified": "2021-12-27T12:54:52.984633Z",
+        "name": "federal",
+        "threat_actor_types": [
+            "insider-disgruntled",
+            "criminal",
+            "insider-disgruntled"
+        ],
+        "aliases": [
+            "adult",
+            "political",
+            "some",
+            "open",
+            "home"
+        ],
+        "last_seen": "2020-08-24T17:28:02.996163Z",
+        "sophistication": "advanced",
+        "resource_level": "team",
+        "secondary_motivations": [
+            "ideology",
+            "unpredictable",
+            "personal-gain",
+            "revenge"
+        ],
+        "personal_motivations": [
+            "personal-gain",
+            "coercion"
+        ],
+        "labels": [
+            "course",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--379e9374-0452-4546-94c8-1bc4c50d8587"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--46b39157-29ef-4c8a-9507-d4f9b2cc05c5",
+        "created_by_ref": "identity--0007fa4e-b674-406e-a812-6b88ba75ddca",
+        "created": "2021-11-06T04:39:38.193253Z",
+        "modified": "2021-11-22T11:21:24.310519Z",
+        "name": "Dunlap, Burnett and Wheeler",
+        "sectors": [
+            "mining"
+        ],
+        "contact_information": "166 Ramsey Throughway\nPort Stephenborough, IN 31019",
+        "labels": [
+            "allow",
+            "series",
+            "might",
+            "number",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "hotel",
+                "hashes": {
+                    "MD5": "4f0bfcecce369c0eb5a9f3491dc1c750",
+                    "SHA-1": "f68d97aae068069b2a5f5db4a55b2399c7e45a32",
+                    "SHA-256": "ec181f9131b36c49c75a84eb5c8dd5d77169eda38233714c2210b902007f4eae",
+                    "SHA-512": "02b10e65e2cd6cad95a030922327740609013fbbc6dad2a08ab01a79401406882425d652b8a3f50483f0eef0f4a5a71223f1d80d3782343682a718b2c0a02138",
+                    "SHA3-256": "d892488c30a69c836fb3e9b29bc48a2a9719d51198ad667d5fef9e606a4ecb0f",
+                    "SHA3-512": "2c14fb11085655036f1552c81be3efc1de577e3af726daee0139143dfa49c8c1854bbfdc8012907dc20679d0beed4813fe9ca44e7de20260b80049b47be192fe"
+                },
+                "external_id": "PyERNsghVIYeNZiVxkSd"
+            },
+            {
+                "source_name": "together",
+                "url": "https://williams.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--379e9374-0452-4546-94c8-1bc4c50d8587"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b5206f66-1c0e-40e6-90ab-3df069f4dc94",
+        "created_by_ref": "identity--0007fa4e-b674-406e-a812-6b88ba75ddca",
+        "created": "2022-08-05T01:42:36.542035Z",
+        "modified": "2022-11-05T13:51:19.174152Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "threat-actor--d4e4ef7a-f35f-4f6c-a80d-2e30f0d69aaf",
+        "target_ref": "identity--46b39157-29ef-4c8a-9507-d4f9b2cc05c5",
+        "start_time": "2020-10-07T14:01:07.40532Z",
+        "stop_time": "2021-05-27T22:06:52.502598Z",
+        "labels": [
+            "firm",
+            "later",
+            "enjoy",
+            "administration",
+            "too",
+            "pfte-batch-1"
+        ],
+        "confidence": 71,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "use",
+                "external_id": "bqQZZKSOnKiuI"
+            },
+            {
+                "source_name": "share",
+                "description": "Either part important deal center clearly today on.",
+                "external_id": "HKgqvrSAiItkjFEKsigf"
+            },
+            {
+                "source_name": "run",
+                "description": "Forget politics easy story.",
+                "url": "http://www.kirk.com/",
+                "external_id": "VsPPVSUYrqRLBHYMo"
+            },
+            {
+                "source_name": "include",
+                "description": "Much cover best hotel chance.",
+                "url": "https://www.nelson.com/",
+                "hashes": {
+                    "MD5": "82ee8acf817a4cb69e7c33e8c8ca3fee",
+                    "SHA-1": "56a06ff57efcdea7fc69924b1fd0427e429f5fd4",
+                    "SHA-256": "68577293112a8c1b595b75f82995dcc52bdd85a5f21e7d113fb5a4d40aa4b615",
+                    "SHA-512": "a8d1c9e9b5d98bb417d8d451612517e30fe2315acc243032e65694fcab1aa2adb065d1d08860445fc50a637060fbbd4a41420fb0049b767c6ca588c8b15e9866",
+                    "SHA3-256": "942f80c52005ce21b29143e70d7bd5e67452e280605e35056003307066e4928d",
+                    "SHA3-512": "48590253bd41fe3bcb7b6caa9a5c5e4507b23f7b6d2468395a6eb62344c9fc61d6a3caa998586dc28a6b7072ab92824c64ca58fa84d112b8491d91c1273f9335"
+                },
+                "external_id": "aYJxHFxPpsAsHQGnP"
+            },
+            {
+                "source_name": "appear",
+                "description": "Environment learn herself but course impact.",
+                "url": "https://cummings.com/",
+                "external_id": "fJcTXrjxp"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--379e9374-0452-4546-94c8-1bc4c50d8587"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--379e9374-0452-4546-94c8-1bc4c50d8587",
+        "created_by_ref": "identity--0007fa4e-b674-406e-a812-6b88ba75ddca",
+        "created": "2021-08-14T01:09:24.481444Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6f258483-31e6-4810-a3a3-83f9297fcea8",
+                "name": "Individual personal with know",
+                "create_date_time": "2021-08-14T01:08:08.419751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0007fa4e-b674-406e-a812-6b88ba75ddca",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-09T04:36:38.940964Z",
+        "modified": "2021-08-14T01:09:24.483925Z",
+        "name": "ShakeGrowthPerhaps",
+        "description": "Cross-group optimal model",
+        "roles": [
+            "election",
+            "policy",
+            "ready"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "financial-services",
+            "nuclear",
+            "manufacturing",
+            "infrastructure"
+        ],
+        "contact_information": "730 Smith Walks\nAndersenmouth, MS 03986",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 25,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "look",
+                "external_id": "unTUOQQY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--379e9374-0452-4546-94c8-1bc4c50d8587"
+        ]
+    }
+]

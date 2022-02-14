@@ -1,0 +1,228 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--76ab15a7-38e2-48ec-af99-36ffc459f36f",
+        "created_by_ref": "identity--6f9fc7bd-0fdd-488f-9c9a-004a9e31fd32",
+        "created": "2020-11-30T23:48:20.115898Z",
+        "modified": "2021-08-14T01:08:30.260263Z",
+        "name": "author",
+        "pattern": "[ipv6-addr:defanged = false AND (ipv6-addr:defanged = false AND (ipv6-addr:value <= 'cbbb:ac35:b244:9832:554b:517:e1c:33de'))] REPEATS 7 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-09-05T09:32:23.044588Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "labels": [
+            "government",
+            "rich",
+            "personal",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "try",
+                "description": "Road should mind happen image civil commercial.",
+                "url": "http://arnold-martinez.com/",
+                "hashes": {
+                    "MD5": "588ec6e9faa02e05c0aeb426979a36e6",
+                    "SHA-1": "5da2ffabf57ab14cb114da8e2b0c4a49aadc9b77",
+                    "SHA-256": "1320a48b88cf6aa01e87e8e3c0fd76685a17453b73fb4efaa48c560cdcfb23ad",
+                    "SHA-512": "bde06acc4912971f91d999b81ba815f69b59c4d22e1daebe8e91c8283eb30847cfeb2a8d49f98052e931864f4bf61bced485bd75cc61b0c87e63a88729d25177",
+                    "SHA3-256": "c5346efe526a05b97059fd8ea64292fb3ce49f1a2aa1b41d8fa9e58722c6000e",
+                    "SHA3-512": "4f8c7fdcbc404dbf89ba7d8a5c8930c066524893fff0271d4abda1707402ade5a97b471642fb6f01337e67728db31568f084ef662e2bb6ec2fa0e80fec33b635"
+                },
+                "external_id": "FXQLcXkRSpdDAtsIA"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9f58e336-0a6f-44be-a43b-34cbe000aca2"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--fcdd1d10-e3b0-48d0-9e39-fca2e698fd92",
+        "created_by_ref": "identity--6f9fc7bd-0fdd-488f-9c9a-004a9e31fd32",
+        "created": "2022-02-09T13:48:12.539262Z",
+        "modified": "2022-12-05T01:44:08.170027Z",
+        "name": "commercial",
+        "description": "Treatment consumer bank I phone tonight public.",
+        "infrastructure_types": [
+            "command-and-control",
+            "staging",
+            "firewall",
+            "hosting-malware",
+            "phishing"
+        ],
+        "aliases": [
+            "house",
+            "he",
+            "check"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "itself",
+            "understand",
+            "military",
+            "treat",
+            "pfte-batch-1"
+        ],
+        "confidence": 25,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9f58e336-0a6f-44be-a43b-34cbe000aca2"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b59cdea5-6a77-4cd1-acd9-131070143813",
+        "created_by_ref": "identity--6f9fc7bd-0fdd-488f-9c9a-004a9e31fd32",
+        "created": "2020-09-20T18:14:24.3606Z",
+        "modified": "2021-08-14T01:08:30.26288Z",
+        "relationship_type": "indicates",
+        "description": "Seek think base. Office between compare every return time. Suggest soldier card see hospital.",
+        "source_ref": "indicator--76ab15a7-38e2-48ec-af99-36ffc459f36f",
+        "target_ref": "infrastructure--fcdd1d10-e3b0-48d0-9e39-fca2e698fd92",
+        "labels": [
+            "send",
+            "maintain",
+            "authority",
+            "pfte-batch-1"
+        ],
+        "confidence": 4,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "produce",
+                "description": "Future mouth read.",
+                "hashes": {
+                    "MD5": "fa70e27218d4b98d1a29c0b4d132c506",
+                    "SHA-1": "c9383e0b3c2d8710a29e692546b644017c641dcb",
+                    "SHA-256": "eae796c0645b50247fe252432c11be91b108a1aadc252b41f5174e93dd5a224a",
+                    "SHA-512": "e404eed154f12ce56e711d3343d2686a316bc59efadcd5f990ec208e1a236b8387c69bcce0be3014db5a58d74675c76ac4657963d9b5ebca50fb424b90fceff2",
+                    "SHA3-256": "12ad69e889ee179fbf41b0ea3ef17669c9a74fa99be0227360594f466564016d",
+                    "SHA3-512": "63dc31389c1bcd538e300c4f229526499ad7efc87ea3ea48d2ad83cf0479554048104417906459ba4e629eaf9b574e7f9824dcc937026e2b73eecdf73c3b28ce"
+                },
+                "external_id": "xgktPprkF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9f58e336-0a6f-44be-a43b-34cbe000aca2"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6f9fc7bd-0fdd-488f-9c9a-004a9e31fd32",
+        "created_by_ref": "identity--6f9fc7bd-0fdd-488f-9c9a-004a9e31fd32",
+        "created": "2022-06-25T17:04:13.043652Z",
+        "modified": "2022-12-14T05:24:14.867059Z",
+        "name": "Long, Walters and Newton",
+        "description": "Streamlined upward-trending model",
+        "contact_information": "6733 Atkinson Cape Suite 220\nDarrenmouth, HI 45809",
+        "external_references": [
+            {
+                "source_name": "certainly",
+                "description": "Outside their interesting decide.",
+                "url": "http://www.perry-pham.com/",
+                "hashes": {
+                    "MD5": "35f3e003caba54178c8ef2852e03a5f7",
+                    "SHA-1": "0d0d558c3a293cbcffc39ec4452a7a0a37d8378e",
+                    "SHA-256": "b86bf45155864d6cb69607bf7ad1cd379fdd716df86b9d0fc7b7ac151544ce7b",
+                    "SHA-512": "2d4efe22b5b3a993716868f9f7fe8187fe466341798aff4c05498fb9936544683e6f0321af6c88104de0be18306156ffc73160fc75153a382a64805bc21f48eb",
+                    "SHA3-256": "5e62c9d494ba4ac5854916a2153e33b67205535d688169357043afc731a7ed38",
+                    "SHA3-512": "6bbcaf52f72a13518ea64a4bf382c32e6b462c6db84395ec4f8b224143b7a19bfc8b3d449ae14432a6cde82819c76011a6255bc28cabdcc15dd4a8d6ebf68835"
+                }
+            },
+            {
+                "source_name": "into",
+                "hashes": {
+                    "MD5": "833319ffcddbabe64d8b5285b0ed52de",
+                    "SHA-1": "25f4fff961624112ab04c5e3c559fe69c525ce6a",
+                    "SHA-256": "33fb14a67996117321f53b8ec71e278366f0d4a0d5a377f56e3c6bd3c2ccfbb8",
+                    "SHA-512": "34c3df5702b778ab6cd6171f6f88584e6a3658878861f251b9a83b85eac5bcd9ac9490156c1ca46f96fc55b2f411cd0feab13c6c543f1d036c67ebaa193e800d",
+                    "SHA3-256": "03c16e40f2c4c23c18784276c79aa8684bc9d30d1474d2bca9dd0caf4ef2eb7f",
+                    "SHA3-512": "a6a31543e5d01a5bf272345bcecc8d280d16f987318e8c501cfbde366f7a968a5b870f169751130ffb3b3029bd1fcbc603916403546124827bc2c6a455432cad"
+                },
+                "external_id": "feuWizUXZMnILRa"
+            },
+            {
+                "source_name": "cup",
+                "description": "Government Mr it bank.",
+                "url": "http://www.jones.com/",
+                "hashes": {
+                    "MD5": "8d7ca194747a427fc4d414a4bc8f1d20",
+                    "SHA-1": "23168201fbe31209ab5eeb2713dc93b3b7ab1a17",
+                    "SHA-256": "8e6b3215c964abf16136ae90462cda3b31551ecba9b37f74dc96913e511df9b3",
+                    "SHA-512": "4b36303006580bcdecb4927389c8e0ad9f685e687c88c34fd393159217127739fbabd1d90f6b27a29a3e57c69d0c15aef3dad378ea351b0ddb22ba0aeb80a9a6",
+                    "SHA3-256": "145099e9a0394a8389f56c8c223cd8b487b7376eb2893310a8bf8784a91254f9",
+                    "SHA3-512": "f94f5d905e390afe2062cc693b32faa39b90a62a9c2733e223d2920dc26e2ea5e180f8d77fb3662fe8ddf7bb74c789ba69d08e3f0c472feb75f7e18b7de6d23c"
+                },
+                "external_id": "kyUjKLedabm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9f58e336-0a6f-44be-a43b-34cbe000aca2"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--9f58e336-0a6f-44be-a43b-34cbe000aca2",
+        "created": "2021-08-14T01:08:30.259588Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fb4e63d-338f-4f0a-b771-dd937b9aaabe",
+                "name": "Human on join spring",
+                "create_date_time": "2021-08-14T01:08:08.425512Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.425314Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,190 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--503168c6-9cd8-40bb-9789-7240921c7fd1",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2021-12-24T00:45:21.425271Z",
+        "modified": "2022-09-10T15:28:20.795384Z",
+        "name": "blue",
+        "description": "Body each bar discuss.",
+        "aliases": [
+            "should",
+            "security"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "UrHDNRVLHJxUrcOTeU",
+                "phase_name": "jrZMkEtvOjQTGQEKvz"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "labels": [
+            "best",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "media",
+                "description": "Have detail write key similar out.",
+                "hashes": {
+                    "MD5": "d71da0ec2ff0efcda52ad5e68e3489e0",
+                    "SHA-1": "9f0eeed67e6bb629e4d4609df46f42e9a55c8778",
+                    "SHA-256": "a32d39f93de1884fac635f7d87ef7a409a7253932ce0c59164070eac4228da72",
+                    "SHA-512": "3fbcf2b15ce65c95c817520edbda7178ef4aee7395824fa9404043ee89a4a954e56c3c723679d77bc2d527b578d11135348ae1af7179e7e698af728af5606ec8",
+                    "SHA3-256": "2fe658942c4b2f775a811cc31e9b883f062eceb96a63e0cc46c5cdad3255df81",
+                    "SHA3-512": "36cf2664c9420f6f61686d51926736df427b222c3a917cfd165b972e0136f12a53e26cc67a13553fd9ae9e48a69e55a3406bbf01f7ea492d3f5b44749ad2e5f3"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--e2c08aa9-d2b8-4cdf-8428-3dbe540b7c3f",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2022-02-16T21:35:14.212623Z",
+        "modified": "2023-01-28T23:17:48.682712Z",
+        "name": "look",
+        "aliases": [
+            "join"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "tool_version": "bit",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 14,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1d45cd94-4293-43f0-b9f3-679bdf2becb7",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2021-03-06T08:41:33.414879Z",
+        "modified": "2021-09-15T05:14:54.549318Z",
+        "relationship_type": "uses",
+        "description": "Interest leave live name story environmental organization. Theory explain enough. From assume bed candidate real individual action.",
+        "source_ref": "attack-pattern--503168c6-9cd8-40bb-9789-7240921c7fd1",
+        "target_ref": "tool--e2c08aa9-d2b8-4cdf-8428-3dbe540b7c3f",
+        "start_time": "2021-06-27T05:13:26.601734Z",
+        "labels": [
+            "security",
+            "south",
+            "strong",
+            "condition",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-01-01T00:00:00.000Z",
+        "modified": "2020-01-01T00:00:00.000Z",
+        "name": "USA.USG",
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

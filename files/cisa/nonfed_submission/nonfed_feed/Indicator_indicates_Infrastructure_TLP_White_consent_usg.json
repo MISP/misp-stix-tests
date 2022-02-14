@@ -1,0 +1,134 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--2ac3d469-9871-4fec-acd8-6a5b1e082ddc",
+        "created_by_ref": "identity--f59f6bbe-e296-4aba-80fc-f2f28a0d662c",
+        "created": "2021-01-31T07:55:34.721443Z",
+        "modified": "2021-08-14T01:08:29.855325Z",
+        "pattern": "(([email-addr:display_name <= 'Larry Savage' OR x509-certificate:validity_not_after > t'2021-12-25T15:05:35.537349Z' OR (mac-addr:value = '4a:6d:be:68:99:e3')]) OR [(windows-registry-key:key <= 'pkhpR') AND windows-registry-key:key < 'KWAdNnbYMlhiC'])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-05-07T18:31:28.324603Z",
+        "valid_until": "2022-01-30T11:25:04.742064Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 83,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "group",
+                "description": "Different capital lead.",
+                "url": "http://www.rose.com/"
+            },
+            {
+                "source_name": "specific",
+                "description": "Close foot camera agreement or prepare.",
+                "url": "http://www.cook.net/",
+                "hashes": {
+                    "MD5": "90b487f7a13032423a0b2fa106eb02ce",
+                    "SHA-1": "b7c6871578f95845fd4f961a847b8be9eb937cc8",
+                    "SHA-256": "267feecfd760d0365d5750c12b0d112f46224ac548104259bc53e9b82c1e3db7",
+                    "SHA-512": "9a43dbc6bd6a990415680e3552ce7d6a9ed9af32f71ad859478860499c9a5c235c84fb5c8ec585daa889a0c39c182986ae1e6a5d62dce09cf2fdb9de7ff854b3",
+                    "SHA3-256": "b7011bfd3287aff3c87671f0a9ba8835be5e1c331a46ce95140ad8703ad75e16",
+                    "SHA3-512": "f7cfdbcb774a29da3fb7ebcf9876fd029399a53d2166b8a4328997c581d275f0a6ec8e67ba9be684a9db7f9ec3cf56147a6e89bd2373e3dbdf8691870e793c44"
+                },
+                "external_id": "FTjAhJNQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--a36f176b-383f-4b2e-ab00-6de102e56b72",
+        "created_by_ref": "identity--f59f6bbe-e296-4aba-80fc-f2f28a0d662c",
+        "created": "2022-07-16T23:50:49.344113Z",
+        "modified": "2023-06-10T04:44:03.321512Z",
+        "name": "cost",
+        "description": "Medical scene list seek including surface.",
+        "aliases": [
+            "yet",
+            "black",
+            "or",
+            "end",
+            "note"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "iisKWKrsqU",
+                "phase_name": "DbffpsQidfYgTkCxRr"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "first_seen": "2022-01-18T04:03:56.11552Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e6a265b1-475e-45e2-b0ef-085d5fd901da",
+        "created_by_ref": "identity--f59f6bbe-e296-4aba-80fc-f2f28a0d662c",
+        "created": "2021-06-26T14:20:04.427619Z",
+        "modified": "2022-03-29T17:30:08.860124Z",
+        "relationship_type": "indicates",
+        "description": "Activity six reason hospital successful hit opportunity. Store capital material civil. Million city read consumer finish.",
+        "source_ref": "indicator--2ac3d469-9871-4fec-acd8-6a5b1e082ddc",
+        "target_ref": "infrastructure--a36f176b-383f-4b2e-ab00-6de102e56b72",
+        "start_time": "2022-03-06T10:24:34.816226Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 31,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f59f6bbe-e296-4aba-80fc-f2f28a0d662c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-29T02:12:52.59616Z",
+        "modified": "2023-04-08T07:23:11.219131Z",
+        "name": "FishSpaceAccount",
+        "roles": [
+            "wait",
+            "tend",
+            "develop"
+        ],
+        "identity_class": "class",
+        "contact_information": "60037 Amy Locks Suite 575\nJudithberg, NM 30944",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 51,
+        "external_references": [
+            {
+                "source_name": "method",
+                "description": "Ahead trial civil its which partner fight.",
+                "external_id": "rkMdm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

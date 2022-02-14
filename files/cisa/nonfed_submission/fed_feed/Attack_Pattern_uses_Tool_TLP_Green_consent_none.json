@@ -1,0 +1,176 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--2be50b9a-451a-467d-b800-2985f80a5506",
+        "created_by_ref": "identity--c7184db6-a9d5-48e1-bc27-eb3f54401780",
+        "created": "2021-06-03T04:02:49.664169Z",
+        "modified": "2022-02-02T12:21:11.85598Z",
+        "name": "consumer",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "zqrdgeWSc",
+                "phase_name": "TQYriXqj"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "him",
+            "deal",
+            "pfte-batch-1"
+        ],
+        "confidence": 76,
+        "object_marking_refs": [
+            "marking-definition--b673e6df-04f8-4bc6-a4e3-bca98961596a"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--3af7e97f-7169-40f8-9b49-294fefe1a525",
+        "created_by_ref": "identity--c7184db6-a9d5-48e1-bc27-eb3f54401780",
+        "created": "2022-07-26T22:53:44.276766Z",
+        "modified": "2023-02-25T20:15:59.869957Z",
+        "name": "heart",
+        "description": "Traditional follow space shake under.",
+        "aliases": [
+            "now",
+            "simple"
+        ],
+        "tool_version": "kind",
+        "confidence": 15,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b673e6df-04f8-4bc6-a4e3-bca98961596a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--7a51752b-6909-4103-b05c-a77ebee9c9af",
+        "created_by_ref": "identity--c7184db6-a9d5-48e1-bc27-eb3f54401780",
+        "created": "2020-11-15T14:26:34.769004Z",
+        "modified": "2021-08-14T01:08:12.358402Z",
+        "relationship_type": "uses",
+        "description": "Out industry bit social democratic. Ten investment reveal speech test.",
+        "source_ref": "attack-pattern--2be50b9a-451a-467d-b800-2985f80a5506",
+        "target_ref": "tool--3af7e97f-7169-40f8-9b49-294fefe1a525",
+        "stop_time": "2021-10-26T21:44:48.686228Z",
+        "labels": [
+            "character",
+            "population",
+            "adult",
+            "leg",
+            "pfte-batch-1"
+        ],
+        "confidence": 87,
+        "object_marking_refs": [
+            "marking-definition--b673e6df-04f8-4bc6-a4e3-bca98961596a"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b673e6df-04f8-4bc6-a4e3-bca98961596a",
+        "created_by_ref": "identity--c7184db6-a9d5-48e1-bc27-eb3f54401780",
+        "created": "2021-08-14T01:08:12.357128Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3d6ad3e0-0112-4a6d-8546-447c0e169799",
+                "name": "Space side determine future",
+                "create_date_time": "2021-08-14T01:08:08.419249Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c7184db6-a9d5-48e1-bc27-eb3f54401780",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-01-09T09:29:32.055499Z",
+        "modified": "2021-09-01T00:31:30.291139Z",
+        "name": "VeryColdWriter",
+        "roles": [
+            "few",
+            "crime"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "technology",
+            "manufacturing",
+            "retail"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 11,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b673e6df-04f8-4bc6-a4e3-bca98961596a"
+        ]
+    }
+]

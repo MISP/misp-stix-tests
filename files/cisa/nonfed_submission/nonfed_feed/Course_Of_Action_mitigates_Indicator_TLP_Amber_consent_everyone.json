@@ -1,0 +1,157 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--754f0e03-004c-47e0-989d-024d23dbe83c",
+        "created_by_ref": "identity--99ff92eb-28e9-446d-bbb4-cb802adf3134",
+        "created": "2021-08-09T08:39:42.507933Z",
+        "modified": "2021-08-15T09:34:23.336532Z",
+        "name": "area",
+        "description": "Wall security movie easy great character maybe person.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "view",
+                "hashes": {
+                    "MD5": "0afcdbdc54774e21c71721803c5f578f",
+                    "SHA-1": "87ff3eeec1773f0dab334e7e5c0607b0a837312f",
+                    "SHA-256": "7bb963d1b1720f5de60ed50788a9c06a7907fe6e059addfb1cd0417de39f9e0a",
+                    "SHA-512": "b4794e1a671539f9ca03a9bde7271ede679de8e674fb9de72b3ab614a20e72ca86eb848039183d27f057a8cc40e8a64aa67b87ab3c4b218f1578bac5b31d12a7",
+                    "SHA3-256": "b33c6d452be7fb615f9b34ba29c7308e5f3597777073863ea7169e4c393f2ccf",
+                    "SHA3-512": "037e4bbf68fb4060428dd70f96c9e78a8b1f6c95c73e4a341a73f5479218e71964cdf0033876b1afc321da2bfb46c328cec8df315f9549a61d3a1d8a46f16733"
+                },
+                "external_id": "HdSxQZjfDPCuNUDGKDIM"
+            },
+            {
+                "source_name": "it",
+                "description": "Method clear figure board forget.",
+                "url": "http://www.flores-watson.biz/",
+                "external_id": "YqauVQn"
+            },
+            {
+                "source_name": "list",
+                "external_id": "ixAERoUfa"
+            },
+            {
+                "source_name": "customer",
+                "url": "http://www.warren-holder.biz/",
+                "hashes": {
+                    "MD5": "65788ecd274ebf1e314e31c566898b8a",
+                    "SHA-1": "259cb5f870edcecc9a100171b244d2d01eacb558",
+                    "SHA-256": "56de9cf52c2eb01f6f32bfdc082862c9f6c02fdef72791733f33b69e16719677",
+                    "SHA-512": "657bb92f33f7c0b420a69750df8ffeef7d53e4fb7c7860c169af52982e05ea74466d318895a391d52cd3ff5b927ab245d4322490a77e0d9a9721989ba40d376d",
+                    "SHA3-256": "ce46308d788f1e489d6b6e28ddc0109a36f319832f8fc047a3870f07dafe2abc",
+                    "SHA3-512": "69897de8822d75da7b08bde62cca0d0c450bd063d80de7968694f87798ac0a9bc8248b57524ef42488f625350f014f96b3cbb9f270925986c024396791839b04"
+                },
+                "external_id": "ZwUUQROLWWZGkyOIW"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--aae1b502-e387-461b-8a2a-e6243d05f565",
+        "created_by_ref": "identity--99ff92eb-28e9-446d-bbb4-cb802adf3134",
+        "created": "2022-05-03T17:52:11.611735Z",
+        "modified": "2023-02-21T07:45:49.416341Z",
+        "indicator_types": [
+            "malicious-activity",
+            "anonymization",
+            "benign",
+            "unknown"
+        ],
+        "pattern": "[file:hashes.'SHA-256' > 'ff1796adf1813b58ca1cc2149499f6d4ea097522a11b411095654d4dfbf8cbdf']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-02-26T20:23:56.34975Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 94,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "avoid",
+                "url": "http://lam.com/",
+                "hashes": {
+                    "MD5": "57ad5f9dc92d523736295cf3103c941d",
+                    "SHA-1": "051f6a67410d28cf556b44e2324716bcbd53a42f",
+                    "SHA-256": "e1c734b9c1800c1b589e53dd00cb3afed578028b08591438f730157dadc1fd75",
+                    "SHA-512": "95be9ce5b8e143929d7bdef5b333fbf277691e32b760d32633370fdaf26f1658adcac16370caa6fb6789b6cc33df7982c310f38701cbabdb366f522cce720d36",
+                    "SHA3-256": "c610c2996ee39795c308848fd578cbce1fbe17e6e0c5ad3e2c001d2fe4fd2d06",
+                    "SHA3-512": "48838f70f0ce7c8058330767e471ce38feccefda900a98c412ee381431585c62e8f173f37996f7f50f28af7a1df5e3fb182ced02731230065d02308c0da21b47"
+                },
+                "external_id": "MThtRC"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--9f11a28f-850a-4b55-9961-6831a6269358",
+        "created_by_ref": "identity--99ff92eb-28e9-446d-bbb4-cb802adf3134",
+        "created": "2021-11-01T18:06:17.97798Z",
+        "modified": "2022-02-11T01:48:56.336985Z",
+        "relationship_type": "mitigates",
+        "description": "Individual future thus inside. Author ago serve drive contain fight. Might provide within create.",
+        "source_ref": "course-of-action--754f0e03-004c-47e0-989d-024d23dbe83c",
+        "target_ref": "indicator--aae1b502-e387-461b-8a2a-e6243d05f565",
+        "start_time": "2020-08-24T21:39:39.96747Z",
+        "stop_time": "2021-04-10T07:10:59.123891Z",
+        "labels": [
+            "both",
+            "pfte-batch-1"
+        ],
+        "confidence": 56,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--99ff92eb-28e9-446d-bbb4-cb802adf3134",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-17T21:21:57.750956Z",
+        "modified": "2022-07-21T16:34:42.30031Z",
+        "name": "Mckenzie, Jacobs and Ferguson",
+        "contact_information": "745 Patricia Stream\nLake Joseph, NH 93802",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "food",
+                "description": "Hit civil again even stand newspaper sense.",
+                "url": "https://www.pitts-schultz.com/"
+            },
+            {
+                "source_name": "major",
+                "external_id": "YLbpJfxekYrXdhgi"
+            },
+            {
+                "source_name": "go",
+                "description": "Treatment simple manager help away positive child debate."
+            },
+            {
+                "source_name": "scientist",
+                "url": "https://www.macdonald.biz/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

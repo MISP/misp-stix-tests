@@ -1,0 +1,172 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--c6f6c580-8ff1-4237-a5c7-030d3e508c23",
+        "created_by_ref": "identity--a33d47eb-b711-437f-a2a5-d8f238d2146b",
+        "created": "2021-11-07T18:31:34.557418Z",
+        "modified": "2022-08-24T04:56:09.017404Z",
+        "name": "kitchen",
+        "description": "Mouth best investment assume know bad.",
+        "objective": "Stop second make treatment.",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a44f9826-071a-4046-8bf7-f1182017eb8d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--a4dcd85a-c840-447c-a224-3a7eb5c530b7",
+        "created_by_ref": "identity--a33d47eb-b711-437f-a2a5-d8f238d2146b",
+        "created": "2020-09-13T12:25:56.995326Z",
+        "modified": "2021-08-14T01:08:14.251685Z",
+        "name": "catch",
+        "threat_actor_types": [
+            "insider-disgruntled",
+            "criminal",
+            "nation-state"
+        ],
+        "first_seen": "2022-01-06T13:34:55.18221Z",
+        "resource_level": "individual",
+        "personal_motivations": [
+            "unpredictable",
+            "notoriety",
+            "organizational-gain",
+            "personal-satisfaction"
+        ],
+        "object_marking_refs": [
+            "marking-definition--a44f9826-071a-4046-8bf7-f1182017eb8d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--144c5537-5420-4c39-abdb-2736792d5437",
+        "created_by_ref": "identity--a33d47eb-b711-437f-a2a5-d8f238d2146b",
+        "created": "2021-05-30T20:56:35.732497Z",
+        "modified": "2021-12-26T13:29:05.824622Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "campaign--c6f6c580-8ff1-4237-a5c7-030d3e508c23",
+        "target_ref": "threat-actor--a4dcd85a-c840-447c-a224-3a7eb5c530b7",
+        "confidence": 86,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a44f9826-071a-4046-8bf7-f1182017eb8d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a33d47eb-b711-437f-a2a5-d8f238d2146b",
+        "created_by_ref": "identity--a33d47eb-b711-437f-a2a5-d8f238d2146b",
+        "created": "2022-02-15T14:10:16.121384Z",
+        "modified": "2023-02-15T04:10:51.502975Z",
+        "name": "Glenn, Cruz and Zimmerman",
+        "description": "Balanced tertiary forecast",
+        "roles": [
+            "order",
+            "society"
+        ],
+        "contact_information": "543 Cook Fall Apt. 791\nArroyofurt, CT 78769",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "baby",
+                "description": "But small effort history card term including future.",
+                "url": "https://barr.org/",
+                "hashes": {
+                    "MD5": "d8ee04db58aa7f7374bbdec58ea5f4f5",
+                    "SHA-1": "5df11f506df2a1a5ca610ec03e62c766a4fd11ae",
+                    "SHA-256": "d20fbd36e4973a637b3e07243664553806c1ea490a793722a91375742a85146c",
+                    "SHA-512": "67a82729729799a8e29e1efc9f3d122636a4149fbde4eedd7757127d2547620033e7ffb10a973e6ad20162564b9c0601f605881b40327f0ec2d90062733571e9",
+                    "SHA3-256": "1bf657358f9713dd9412ce5c8b9454d525483cab2e8a233fdb01b21c24cce02f",
+                    "SHA3-512": "0d0192a12411c02ed275268c03dddcec2b76c3fa54a9c52ad7206a1bbf9e4079689cbb65364f4f4f45e3fbea61650bc96491241da3255f178ccb085aaef29e90"
+                }
+            },
+            {
+                "source_name": "care",
+                "description": "Reality know blue can accept police suffer.",
+                "hashes": {
+                    "MD5": "f83bfbb387703db4a24019f554729ddc",
+                    "SHA-1": "f85ee4474e75840a29a1dcd94ce9bd58462a501f",
+                    "SHA-256": "8f52018e86efffc629232ea65011cd455f219f6821eac93f8bdbf1dd68e305fd",
+                    "SHA-512": "740233086056ba33c579aca62eff398f804a6e47743baa85753db381984d42574b13dac2ff0f85face6fa49f498141b46d985d103b3eb63eb0a10c6799ac2864",
+                    "SHA3-256": "13aae6519dc89634fa961240f1f75e610fcdff46876707fe35a5a529b39c1234",
+                    "SHA3-512": "866a346dc8e0be36e7747118716d3f973c9a1e895cb9a7ae3d266e5c90c4fbd4bcf37da54f472f307c26f119585f853c964c5f7745d2ad45fb5cdb96fd74f3a8"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a44f9826-071a-4046-8bf7-f1182017eb8d"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--a44f9826-071a-4046-8bf7-f1182017eb8d",
+        "created": "2021-08-14T01:08:14.250822Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3af87523-f9f6-4d99-acfc-79560c4d2219",
+                "name": "Boy understand else sense give house travel already",
+                "create_date_time": "2021-08-14T01:08:08.429507Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

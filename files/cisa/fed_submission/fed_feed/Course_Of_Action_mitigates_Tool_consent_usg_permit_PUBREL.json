@@ -1,0 +1,138 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--e73cc466-bf1d-4e67-8f62-c91d3ffce06f",
+        "created_by_ref": "identity--a70bcbb5-fd44-4762-9c22-474336df3d37",
+        "created": "2022-06-30T18:12:27.798473Z",
+        "modified": "2022-07-25T04:35:01.012021Z",
+        "name": "audience",
+        "description": "Follow film short part.",
+        "labels": [
+            "skin",
+            "pfte-batch-1"
+        ],
+        "confidence": 65,
+        "object_marking_refs": [
+            "marking-definition--0205a603-d310-478d-ac52-2aaa1deb69f7"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--03a22a70-5d9c-4818-84bd-e5581a94b8b4",
+        "created_by_ref": "identity--a70bcbb5-fd44-4762-9c22-474336df3d37",
+        "created": "2021-12-05T06:30:24.074793Z",
+        "modified": "2022-07-17T08:35:48.758984Z",
+        "name": "able",
+        "aliases": [
+            "these",
+            "early",
+            "federal"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "pDuEnSAcdHZi",
+                "phase_name": "owzER"
+            },
+            {
+                "kill_chain_name": "TVTZExmajzTzzKxSVfmh",
+                "phase_name": "VOYToxWEZ"
+            },
+            {
+                "kill_chain_name": "vcLWYYLHjDvAF",
+                "phase_name": "ESKzKbepIRKIdvGL"
+            }
+        ],
+        "labels": [
+            "suffer",
+            "while",
+            "receive",
+            "benefit",
+            "meet",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--0205a603-d310-478d-ac52-2aaa1deb69f7"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e316a740-be2e-4f90-8a36-810ce032e188",
+        "created_by_ref": "identity--a70bcbb5-fd44-4762-9c22-474336df3d37",
+        "created": "2021-11-21T22:10:27.151266Z",
+        "modified": "2022-08-05T06:28:21.573022Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--e73cc466-bf1d-4e67-8f62-c91d3ffce06f",
+        "target_ref": "tool--03a22a70-5d9c-4818-84bd-e5581a94b8b4",
+        "start_time": "2021-07-11T14:48:41.53211Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--0205a603-d310-478d-ac52-2aaa1deb69f7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a70bcbb5-fd44-4762-9c22-474336df3d37",
+        "created_by_ref": "identity--a70bcbb5-fd44-4762-9c22-474336df3d37",
+        "created": "2020-10-23T06:35:38.462416Z",
+        "modified": "2021-08-14T01:08:25.564126Z",
+        "name": "Barker PLC",
+        "identity_class": "individual",
+        "sectors": [
+            "utilities",
+            "dams",
+            "water",
+            "agriculture"
+        ],
+        "object_marking_refs": [
+            "marking-definition--0205a603-d310-478d-ac52-2aaa1deb69f7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--0205a603-d310-478d-ac52-2aaa1deb69f7",
+        "created": "2021-08-14T01:08:25.562726Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f680acaf-ba5a-4af9-ba41-d819400a97d1",
+                "name": "Decide court anything one doctor sound serve nation",
+                "create_date_time": "2021-08-14T01:08:08.428211Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.428042Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

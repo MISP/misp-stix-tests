@@ -1,0 +1,185 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--32c7ef7d-de00-4df0-b713-13fef2cb522d",
+        "created_by_ref": "identity--424e9c93-784d-48a8-9bae-5eea81ef5d12",
+        "created": "2021-05-27T22:55:26.373255Z",
+        "modified": "2021-10-22T06:33:49.298141Z",
+        "name": "million",
+        "pattern": "[windows-registry-key:number_of_subkeys > 9] AND ([(url:value >= 'http://solis.com/') AND url:defanged NOT = false] REPEATS 4 TIMES) WITHIN 5 SECONDS",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-03-11T00:18:35.458811Z",
+        "valid_until": "2022-01-08T16:48:09.735455Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--4872a1a8-b3ec-42a0-afaf-7e94514db215",
+        "created_by_ref": "identity--424e9c93-784d-48a8-9bae-5eea81ef5d12",
+        "created": "2021-10-01T08:28:23.036984Z",
+        "modified": "2022-07-12T09:00:01.066257Z",
+        "name": "again",
+        "aliases": [
+            "to",
+            "rich",
+            "technology",
+            "drop",
+            "state"
+        ],
+        "goals": [
+            "we",
+            "particularly",
+            "traditional",
+            "market"
+        ],
+        "sophistication": "minimal",
+        "primary_motivation": "revenge",
+        "labels": [
+            "mean",
+            "various",
+            "board",
+            "spend",
+            "well",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "cold",
+                "description": "Morning most kitchen.",
+                "url": "https://castillo-garcia.com/",
+                "external_id": "KcEXBtzsfczhe"
+            },
+            {
+                "source_name": "listen",
+                "url": "http://www.fields-baker.com/",
+                "hashes": {
+                    "MD5": "a489f4fd8f8af43db31353b75b4cf71a",
+                    "SHA-1": "7d83b311ea6a4bd18d6c9c34a5aba3d4109fe6f4",
+                    "SHA-256": "41ef35c8dfced34b9950c7f65430efdff7eead6b3a1af70be8e003c190f163ab",
+                    "SHA-512": "30209023d17f72aacb0ae0b389132c7baea52e2516f45f5cf1134e6530fd1e47c57c1a47cf2f6f48604befcf7a200085d6501375278952219e7df595e4f88eed",
+                    "SHA3-256": "1e7c8d749493651fa3e47dbe37057043be09a49a05407176f550c9b8d579f9d6",
+                    "SHA3-512": "ab70581daac275085ea00edaacc7cf136d903eee61786f1f9a4d802ff514b9ebb3e231343a0dec6fdab4d1e14aa3cd26e4e67070999201fb89062496760abda1"
+                },
+                "external_id": "MRGTo"
+            },
+            {
+                "source_name": "especially",
+                "external_id": "lHRtsmVEHWCwR"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--88cd1d67-0d37-4811-8c5c-b61a2cc384f9",
+        "created_by_ref": "identity--424e9c93-784d-48a8-9bae-5eea81ef5d12",
+        "created": "2022-03-31T17:13:10.493726Z",
+        "modified": "2023-01-28T04:07:47.722335Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--32c7ef7d-de00-4df0-b713-13fef2cb522d",
+        "target_ref": "threat-actor--4872a1a8-b3ec-42a0-afaf-7e94514db215",
+        "stop_time": "2022-02-19T04:58:54.658775Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 14,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "various",
+                "url": "http://baker.com/",
+                "hashes": {
+                    "MD5": "d9f383584e3568eedee089afbfd2ad4c",
+                    "SHA-1": "7c5df627a2e7c3a03d0888e515706800a54f7fd2",
+                    "SHA-256": "ae206601364b2ab7c6135b1be3cdcf6d4870a98e119cfded564fcc406854da29",
+                    "SHA-512": "9d444abc4397ea9c63b9f1693a27195c23d4062e72123e9d0a6e10791ae74eac699da9c5f2c7a2346d78ccf3f52e405f77e2c67a00f68d5c5324a3bf0c880cfc",
+                    "SHA3-256": "3ed7cc0d9ca952319c025a487573b500d02b74f555398b7ec418e7383f55a414",
+                    "SHA3-512": "2824e0360dfc4add842a8d5e3adf34493f27e27a718fd5f7276c3648bf3fdd5d5491ef22736f3844a88b48fd06b4a1e822934dbba4b70b3e084f76ef48bfca71"
+                },
+                "external_id": "tWOExdA"
+            },
+            {
+                "source_name": "never",
+                "url": "http://mosley.com/",
+                "hashes": {
+                    "MD5": "d3fb899eaaf6aa518b1935b65b62b1cf",
+                    "SHA-1": "611eedf928d741490282e0ba3adfa0201feaeb6f",
+                    "SHA-256": "0d6898859c90f00ee22bbf9791a8db549ef8441224b65ee57e46b86b2437f89e",
+                    "SHA-512": "7a788e5cceb8d49245aff645c11d682944aa66674b09373a4b2e1e308c632d935dd188de6b5acef1e9b9f0007da63bfd7afdcbca4ff0f848608877f57ace7579",
+                    "SHA3-256": "1a8ba318e74175f48a27f32eb6963266f155bd3a6c99cef972c6acfbd27094d5",
+                    "SHA3-512": "903dd8551779c7c72d3b86c6dad57921d115ddede7772839e1733d9fc9cc34683a75db2db81695b46ba1302e94367e95172f4ffab9e110fc6aac0bf3775d7362"
+                }
+            },
+            {
+                "source_name": "or",
+                "url": "http://scott.com/",
+                "hashes": {
+                    "MD5": "10dde163af44ed761d300e8b4d22a6b0",
+                    "SHA-1": "09590d908aa421a83111891c887cac78e6d9c4ea",
+                    "SHA-256": "eca25e690d10cea425d65ca9821264d8b89bb0fc72ab5bf9946d828ca9a3eb36",
+                    "SHA-512": "055fcf424827ab27f539b9aeacf47601ca734e6c578ab8e0237c1ab9028d308e7848fbb55a78908aa8defae16b9e8ca00db6fa2d50ca049dea32379e01c37084",
+                    "SHA3-256": "435cc32567303c240d7b63f48f24399a7575d67ec3239381c66ed1494f5bac94",
+                    "SHA3-512": "047ab49d17ec7b7a3b9c96dec683e4b56d534c13089c6ac8c67911359dfe059f3db0195f33bc267e98d096a156c0c472e9bb07cb1879210491fa1cce3fd1ee49"
+                },
+                "external_id": "hkQogAbPvpAZEJMad"
+            },
+            {
+                "source_name": "writer",
+                "url": "https://perez.biz/",
+                "hashes": {
+                    "MD5": "ad12631fdde77160a48db517f63b69c9",
+                    "SHA-1": "31dafb22a5de14ccc37751fef82d1b3258502415",
+                    "SHA-256": "d1bae722963f211851c5a49fa9b46b4cba97e80764e5307b75880b8372e0adb9",
+                    "SHA-512": "b6daa2b3d9b83960cd0987075d0bf2b36a1d0d68cd4890e5a392c7db92f8b43c700f14ff6686a131860e27fc7aa3b28b63743c64fa6b8f4ab85cefbbd7e0b7d6",
+                    "SHA3-256": "26c1be064b446852c2c9bf678a3908d427333da9a4e1c044cc7e6e03d6c54dc5",
+                    "SHA3-512": "54c837775dacb110990202755552162bde74271194f9f9164646aab2d92556db662f8a5e55f3b70d694db67024644c046d109fd21ec1e3bb1b3b7d8f16bb6ecc"
+                }
+            },
+            {
+                "source_name": "fly",
+                "url": "https://acevedo.com/",
+                "external_id": "CBNpGfDDmqMRRWHITMxC"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--424e9c93-784d-48a8-9bae-5eea81ef5d12",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-05-28T05:11:37.012098Z",
+        "modified": "2022-11-29T09:47:24.190071Z",
+        "name": "OutsideQuicklySea",
+        "description": "Switchable global software",
+        "sectors": [
+            "entertainment",
+            "emergency-services",
+            "utilities"
+        ],
+        "contact_information": "215 Jennifer Overpass\nEast Tamaraborough, CO 22076",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 80,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

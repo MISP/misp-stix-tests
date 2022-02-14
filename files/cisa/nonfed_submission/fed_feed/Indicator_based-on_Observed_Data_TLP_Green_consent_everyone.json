@@ -1,0 +1,170 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--f6ef0bdb-7141-4194-ad6e-8a841a67d5c0",
+        "created_by_ref": "identity--0ee9d16e-29f6-41b0-809a-aaa96360fd94",
+        "created": "2021-12-27T06:56:38.352302Z",
+        "modified": "2022-04-17T13:38:55.278145Z",
+        "name": "perform",
+        "description": "Sometimes heavy while major light give them.",
+        "indicator_types": [
+            "anonymization",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "[(email-message:date > t'2020-08-23T07:14:46.765381Z') OR network-traffic:protocols[1] > 'tcp']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-10-14T10:46:05.42693Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "wYYkRWaoHdnxN",
+                "phase_name": "uZxLSfrbcEFD"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--dacc123d-3914-49da-bb74-c5fed803da91"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--e0ad17ea-b0ad-424a-943f-43069242997d",
+        "created_by_ref": "identity--0ee9d16e-29f6-41b0-809a-aaa96360fd94",
+        "created": "2020-08-20T09:41:36.485516Z",
+        "modified": "2021-08-14T01:08:36.433254Z",
+        "first_observed": "2020-09-24T13:01:33.394042Z",
+        "last_observed": "2020-11-07T08:55:24.94295Z",
+        "number_observed": 433022416,
+        "objects": {
+            "mac-addr--25399f21-b8b5-4b06-8e6d-da18daf1e379": {
+                "type": "mac-addr",
+                "spec_version": "2.1",
+                "id": "mac-addr--25399f21-b8b5-4b06-8e6d-da18daf1e379",
+                "value": "4d:92:5a:ff:69:59"
+            }
+        },
+        "labels": [
+            "he",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--dacc123d-3914-49da-bb74-c5fed803da91"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f88d9d6a-6018-4a08-ae94-88d5b3165906",
+        "created_by_ref": "identity--0ee9d16e-29f6-41b0-809a-aaa96360fd94",
+        "created": "2022-02-16T15:43:33.431641Z",
+        "modified": "2022-08-09T10:44:53.768555Z",
+        "relationship_type": "based-on",
+        "description": "Day Congress edge social. Story executive book area suddenly painting today. Law available whether tend.",
+        "source_ref": "indicator--f6ef0bdb-7141-4194-ad6e-8a841a67d5c0",
+        "target_ref": "observed-data--e0ad17ea-b0ad-424a-943f-43069242997d",
+        "labels": [
+            "bar",
+            "pfte-batch-1"
+        ],
+        "confidence": 8,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--dacc123d-3914-49da-bb74-c5fed803da91"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--dacc123d-3914-49da-bb74-c5fed803da91",
+        "created_by_ref": "identity--0ee9d16e-29f6-41b0-809a-aaa96360fd94",
+        "created": "2021-08-14T01:08:36.430813Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-cdad75a5-97a2-450d-bb1c-cac3b21b4823",
+                "name": "Continue half as create together strong",
+                "create_date_time": "2021-08-14T01:08:08.421874Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0ee9d16e-29f6-41b0-809a-aaa96360fd94",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2019-09-19T07:58:24.055204Z",
+        "modified": "2021-08-14T01:08:36.434032Z",
+        "name": "Brown-Merritt",
+        "description": "Future-proofed human-resource website",
+        "identity_class": "organization",
+        "contact_information": "1576 Williams Ferry\nSouth Brandonhaven, GA 31288",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--dacc123d-3914-49da-bb74-c5fed803da91"
+        ]
+    }
+]

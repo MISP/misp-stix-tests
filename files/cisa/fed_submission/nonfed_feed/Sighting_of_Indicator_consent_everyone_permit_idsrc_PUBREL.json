@@ -1,0 +1,118 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--03d91853-ebce-4dee-af45-79987395ec3b",
+        "created_by_ref": "identity--5e827c0c-69e1-4708-a4d2-40ae7d76f77f",
+        "created": "2021-10-30T09:42:03.477892Z",
+        "modified": "2022-03-12T11:21:00.313646Z",
+        "pattern": "[email-addr:display_name <= 'Lisa Martinez']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-10-02T00:34:39.174362Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "wzDERT",
+                "phase_name": "jvCGMHRMRJVLhs"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "GNlgAccgSdkyg",
+                "phase_name": "LjdVCksbGBqKQsH"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "labels": [
+            "what",
+            "feel",
+            "west",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "difficult",
+                "description": "Play somebody others note.",
+                "external_id": "ImtZJHIUPuuvxgV"
+            },
+            {
+                "source_name": "major",
+                "description": "Of to several.",
+                "url": "http://www.blake-clark.com/",
+                "hashes": {
+                    "MD5": "74ba37c530d94027f8d91b3a57f22af5",
+                    "SHA-1": "ffec4bdd4877d73744d4107314ca7671b42cedc8",
+                    "SHA-256": "baf265028e7e5aab5921adadd3ec9d5680b6062d16966c271831efb6ac91ec0b",
+                    "SHA-512": "83656afe42074f4c5ab11a5df7d97a15003877ba044118eab703bbdda3e7b559598437bdbe266a35b18e8b5f22477b2604d59b11bca7c63569f3e4575f8d2b96",
+                    "SHA3-256": "882dccf00480a90ecd954af875ed8ee0d191adb51e8aea457a950710016608fb",
+                    "SHA3-512": "eebba84ba13c3b0407ca6da27edaf2964be04542e9dbad732f97dd5c83b44c2e877560ddb01aa15a9f3c6061c1473843a71a6db26521af7fbf2366e28b2c96d9"
+                }
+            },
+            {
+                "source_name": "measure",
+                "description": "Threat age effort pay increase sense tonight.",
+                "url": "http://martinez-wood.com/",
+                "hashes": {
+                    "MD5": "f41c01b57b7a567113318d766befd469",
+                    "SHA-1": "0b5df68da142efb744f2ba8f57104b2815848a85",
+                    "SHA-256": "3c9c182f131783a3c0f7ef8bcfb884fe2fe339c6dffca9ff2c9a5d9ef610a946",
+                    "SHA-512": "073f9dc6c0552769a8e529429bd65908188cee1917378e382de549689acb7a0e1d447d5b4a1f5e9b2a27901a10f4d551fdb1e677d3563f64331a21a7fab43d4f",
+                    "SHA3-256": "97c25b6d6b657712b52f98de00e68c2999ddcf767e9449f8bf4b6ae37b398cb3",
+                    "SHA3-512": "636bc8ce76ea3bed3060838b9239c3c1be7db256b34104e9a35c4e331f5ccc19ea99bb2e1311eae1fd729f74e8cc8a68f031b32c7e6c21b7dd9bc5f2388bb1c2"
+                }
+            },
+            {
+                "source_name": "drop",
+                "description": "Letter movie sound enough she firm number.",
+                "external_id": "BYJrwvIM"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "sighting",
+        "spec_version": "2.1",
+        "id": "sighting--0a76c896-430a-4703-a1c2-d368f5ffaffc",
+        "created_by_ref": "identity--5e827c0c-69e1-4708-a4d2-40ae7d76f77f",
+        "created": "2022-05-22T02:51:53.416933Z",
+        "modified": "2022-09-24T12:08:14.812721Z",
+        "sighting_of_ref": "indicator--03d91853-ebce-4dee-af45-79987395ec3b",
+        "summary": true,
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 98,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5e827c0c-69e1-4708-a4d2-40ae7d76f77f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-03T16:05:53.495428Z",
+        "modified": "2022-01-27T03:13:58.415565Z",
+        "name": "Thompson-Hanson",
+        "description": "Team-oriented human-resource capability",
+        "identity_class": "unknown",
+        "contact_information": "1331 Steven Locks Apt. 172\nNew Natashashire, DE 73218",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

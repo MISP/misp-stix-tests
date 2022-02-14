@@ -1,0 +1,191 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--540c5060-fabb-4b78-9f47-200b89ffe202",
+        "created_by_ref": "identity--8dedca59-115f-4077-8d00-0e49eeaf1adc",
+        "created": "2022-03-13T10:28:37.306767Z",
+        "modified": "2022-10-10T14:09:11.020687Z",
+        "name": "agreement",
+        "infrastructure_types": [
+            "unknown",
+            "workstation"
+        ],
+        "confidence": 20,
+        "object_marking_refs": [
+            "marking-definition--578014ff-4d86-4c5c-bd51-042eed498bd4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "domain-name",
+        "spec_version": "2.1",
+        "id": "domain-name--98348c7f-fa7e-4c4b-89e0-e3270a2f75f8",
+        "value": "greene.com",
+        "object_marking_refs": [
+            "marking-definition--578014ff-4d86-4c5c-bd51-042eed498bd4"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--57e382a0-a230-413d-9359-aa667edfdae9",
+        "created_by_ref": "identity--8dedca59-115f-4077-8d00-0e49eeaf1adc",
+        "created": "2022-03-07T00:01:01.018492Z",
+        "modified": "2022-09-26T01:44:03.407866Z",
+        "relationship_type": "communicates-with",
+        "description": "Simple back here difference. Big play skill read reveal small exist between.",
+        "source_ref": "infrastructure--540c5060-fabb-4b78-9f47-200b89ffe202",
+        "target_ref": "domain-name--98348c7f-fa7e-4c4b-89e0-e3270a2f75f8",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--578014ff-4d86-4c5c-bd51-042eed498bd4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--578014ff-4d86-4c5c-bd51-042eed498bd4",
+        "created_by_ref": "identity--8dedca59-115f-4077-8d00-0e49eeaf1adc",
+        "created": "2021-08-14T01:08:40.665455Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2828523e-b28d-4046-9afc-51d22e18d79b",
+                "name": "Social price record ever reveal physical each",
+                "create_date_time": "2021-08-14T01:08:08.418751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.418527Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8dedca59-115f-4077-8d00-0e49eeaf1adc",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-15T09:04:31.314878Z",
+        "modified": "2023-02-12T17:03:24.663361Z",
+        "name": "FeelNothingTree",
+        "description": "Persistent systemic concept",
+        "roles": [
+            "experience",
+            "third",
+            "break",
+            "attention",
+            "thought"
+        ],
+        "sectors": [
+            "aerospace",
+            "non-profit",
+            "government-public-services"
+        ],
+        "contact_information": "Unit 0721 Box 2970\nDPO AA 38683",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 84,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "believe",
+                "external_id": "ZyrChZJ"
+            },
+            {
+                "source_name": "administration",
+                "url": "https://www.perez.com/",
+                "hashes": {
+                    "MD5": "e0f73cff23ba5d3393b0743a4ee518a9",
+                    "SHA-1": "0153317b0e167c3dfafbc0ac57d3568129ffa7d1",
+                    "SHA-256": "c9be92bedbf3f98bca6d3a00387ae1da8b431dece0f75b5785eb9d40f430ffd1",
+                    "SHA-512": "03d98d479509b322d092dd602e857c0297f58f4d3719235d5c483c0da9e7ea0cc69085361f1031a19ad41b697890ce1a1ffcb9b30aa69c11f44c4665ced91791",
+                    "SHA3-256": "04df458abdd9bd226e6897cd048df0ece3260df2160274b3b312a94cecfe4ee1",
+                    "SHA3-512": "cd7df9f6ff5d6f835deb03a40ea18937b4157b40b33ed459d11412b719c9faef7670d0b57d9fa97e0d958a46d6f3a972dbaf272a395fdf1649d0b4dd40912967"
+                }
+            },
+            {
+                "source_name": "teach",
+                "description": "Government feeling center sister.",
+                "hashes": {
+                    "MD5": "f105be5ab8bfa90f1424dde066592532",
+                    "SHA-1": "9f212c096974b05f3c871adb5f4653c902e67a5e",
+                    "SHA-256": "8949312bdc505bd20d098248454d96cb613a73d639802669cf82417ef9bcfa77",
+                    "SHA-512": "826924099908666caad16b7061d8e3753ff4c6777002b3056b75878864aeaff083c4cd49ed843c3af48123a7f8a11b8988487d9220cc2b22c33d2260cbe1ea7d",
+                    "SHA3-256": "2f45dc34cd1cf6ad4b90a38bfddb327407f5026e1446c8435ee4af0a3ec40ea3",
+                    "SHA3-512": "da4c09f3e5b3a798b38bab0970dcc9634f3c27e629e6ed7f010f2ba711054afdf0f4afa856c12c9767eeb40f0e081990f764603d8c24f79b2a4e8e359ab95b55"
+                },
+                "external_id": "pllSSfG"
+            },
+            {
+                "source_name": "prove",
+                "description": "Total type reason event other memory federal.",
+                "url": "https://www.palmer-diaz.org/",
+                "hashes": {
+                    "MD5": "a30adb70d91ff31e6cf76dc0293deaee",
+                    "SHA-1": "f19bcf24a1ca1d3be093332c6bd75b65825e4eef",
+                    "SHA-256": "72cf20dfd612229335d8727fb9f8335392bff58edbf41f27ec59547c3d17f3df",
+                    "SHA-512": "d20061a9f1fe78d4c1100c24e8c48ca30d305c0f91758c4168e6a068b605def9dc7de03a0673632529eefec8acfada1830c3fb265a5f9f13918f41ad0c5a80f3",
+                    "SHA3-256": "c1e51711b0755e0b9d7980d38cfd70d9b141b584f3d92290a1f7e4211709e16f",
+                    "SHA3-512": "539c66e5e77200b831ea9796a6d2228e89bd78db17096bff7408b30823e2606309ad17eb94af5eb7278f8df89e73fdf44b82f38bd09464481e07505405e8081c"
+                },
+                "external_id": "OBikKcpZJaiOKXPayogc"
+            },
+            {
+                "source_name": "ball",
+                "hashes": {
+                    "MD5": "9ed05828f4f0ef0a659ccff4f76b6ae7",
+                    "SHA-1": "ac7e76a6b28fefe1794fb45d26a06eea07535537",
+                    "SHA-256": "1c03870bd6d1c6de8157413646ea65f2fe6a58ba59be59008f6d2ff8cf7556dd",
+                    "SHA-512": "99abac622aafadddec3ea5b9b222fa1fcde3ed3d1617ffe510bfff82d120df27f84be88da7125e5e97fc3cae61049fa8c32fd27a923279c8d04fde7a1e9e04c6",
+                    "SHA3-256": "428a560f77131eb772067fc378cb5e0812516d3e28790b7b782712ee3d98c0c4",
+                    "SHA3-512": "d6bea99d49999fedcca817e382c6a80364068b1c75756e8e361bf13070ecf0900e5403addc37f6b6e5a80b8b6a4a42405be194fe2b52fc9cb1fa87e5c341377e"
+                },
+                "external_id": "zKhWllj"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--578014ff-4d86-4c5c-bd51-042eed498bd4"
+        ]
+    }
+]

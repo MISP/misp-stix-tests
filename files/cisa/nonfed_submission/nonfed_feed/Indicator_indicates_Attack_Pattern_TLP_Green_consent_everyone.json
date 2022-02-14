@@ -1,0 +1,201 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--88c742c7-bef6-4542-88b1-1338c4c39e4e",
+        "created_by_ref": "identity--34759eb1-e1ff-48be-9e60-a631c726359c",
+        "created": "2021-12-02T18:11:59.244518Z",
+        "modified": "2022-07-07T20:12:22.330452Z",
+        "indicator_types": [
+            "anonymization",
+            "unknown",
+            "anonymization",
+            "malicious-activity"
+        ],
+        "pattern": "([(network-traffic:end = t'2021-03-06T06:20:53.303966Z') OR mac-addr:value NOT = 'e9:c1:db:8d:f2:69' OR url:value = 'http://www.mcdonald-vargas.com/'])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-04-16T01:34:06.022702Z",
+        "valid_until": "2020-11-17T23:11:54.178579Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "rGyXKHhVOYAn",
+                "phase_name": "MgkbCMLvKzhWRnmZleVk"
+            },
+            {
+                "kill_chain_name": "fvnTDRXA",
+                "phase_name": "WmTeZFbYKbGKydJ"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "LnunIauDPuQBwSXpk",
+                "phase_name": "LpVslGTwZByZa"
+            },
+            {
+                "kill_chain_name": "nOADdXOzAQidMeQN",
+                "phase_name": "PSballPYJploexaegjla"
+            }
+        ],
+        "labels": [
+            "do",
+            "place",
+            "ask",
+            "course",
+            "arm",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--cbdd90b8-65f5-484a-9e01-ce1220fdd696",
+        "created_by_ref": "identity--34759eb1-e1ff-48be-9e60-a631c726359c",
+        "created": "2020-09-21T22:38:25.515764Z",
+        "modified": "2021-08-14T01:08:27.584365Z",
+        "name": "fight",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "sAKfBgBfoRDNgvMlc",
+                "phase_name": "TtLvOQl"
+            },
+            {
+                "kill_chain_name": "rRxsgARmDONy",
+                "phase_name": "nRMks"
+            },
+            {
+                "kill_chain_name": "czhegWQxDqdjTzH",
+                "phase_name": "lvtBTkYqMTp"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "glass",
+                "url": "https://www.knight.org/",
+                "hashes": {
+                    "MD5": "2cb7c4a9269cf5b93a2a8d27bff51d30",
+                    "SHA-1": "13b26f4e51708763a2afdb5d776af8cbaad75088",
+                    "SHA-256": "82b4eba2ced29f7eadd5ae4f513baf9e51e583c6a26799620471f37435149d7a",
+                    "SHA-512": "72d426d35216bc66fc136883f31f13be2c0ee9520f41bbd0439ea7a25a65e12ea28f5f9b61140e06148e7d0dc16e2ceda0fd99419b94a985869ff12faccf1d1c",
+                    "SHA3-256": "dce82404e456659d7eb3d3bca311962fce5565860b52f8e71fd30c904d1979cd",
+                    "SHA3-512": "95b6d67d64c5467ac9e7cb3dbbe2c25b70cf6456571200e29b280cece6a6bc53b48ccc35a219de19d0b2812c4be33af62b4fb96d6f99181033c1a3ae5f6f9a03"
+                }
+            },
+            {
+                "source_name": "animal",
+                "description": "Serious any card many up north.",
+                "external_id": "tbDytWy"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--0f455411-78a4-437f-a746-02a9bdd88d3a",
+        "created_by_ref": "identity--34759eb1-e1ff-48be-9e60-a631c726359c",
+        "created": "2021-06-12T09:44:14.285493Z",
+        "modified": "2021-08-14T01:08:27.584625Z",
+        "relationship_type": "indicates",
+        "description": "Ok but project single big public. Write they tree that campaign cup oil.",
+        "source_ref": "indicator--88c742c7-bef6-4542-88b1-1338c4c39e4e",
+        "target_ref": "attack-pattern--cbdd90b8-65f5-484a-9e01-ce1220fdd696",
+        "stop_time": "2022-07-11T03:07:41.441715Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 51,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--34759eb1-e1ff-48be-9e60-a631c726359c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-08-27T11:19:13.159278Z",
+        "modified": "2021-08-14T01:08:27.58536Z",
+        "name": "Davis and Sons",
+        "roles": [
+            "baby",
+            "thing",
+            "left",
+            "recent",
+            "article"
+        ],
+        "sectors": [
+            "transportation",
+            "defense",
+            "automotive",
+            "education"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "if",
+                "external_id": "vwrfjAhVpimlx"
+            },
+            {
+                "source_name": "hear",
+                "url": "http://woods.info/",
+                "hashes": {
+                    "MD5": "1b1f1bf37c0e8dd50c8f48be9f24c472",
+                    "SHA-1": "f07cfbd36f669fc77326061dbd5ba291e52baf9d",
+                    "SHA-256": "0cb7fa9ac5ffb2a78800dec0b21a00e527b3d3433939fcb68e27878170ee35d4",
+                    "SHA-512": "e14a8d3f0507848d8d60a6c05cb0102792421f4bf8cefd6bb54509794270f1f4c4c7b389e635cc18f8c43df721d65c525d79be9eed402dd30797af6388f22b55",
+                    "SHA3-256": "ea294685ac714b571f9efea36e9c3703d0171a12ab4b15e285e09cadaf6381f8",
+                    "SHA3-512": "b67545505fc22f6f084016f181919f9568b0eb8a96ab98d756fd321afb1ad3eeaf8a34364dc8b48b90af6c4e3720e9163449afbb4471518182e322dffde3c45b"
+                }
+            },
+            {
+                "source_name": "history",
+                "description": "Rest young decision outside cover.",
+                "hashes": {
+                    "MD5": "92ac39e203dabf9c559cf8b6792162cc",
+                    "SHA-1": "f31495ef0bb01312c1ea7ebcacba8d16f1017683",
+                    "SHA-256": "bdf21f75c35e407abfb1edaedfc2b5b5fa30601e08cc4d11fed5b1d0ebd044a1",
+                    "SHA-512": "d2a5a669c19e2bc317d4a20976f20dbf30b9940d3f548a23c40a89dc214341fbc36e824b331aec67ef9420eaca5d9ad3d59420bdf114d1c8afa3300705b33b13",
+                    "SHA3-256": "d71479be135de17321982d885cea7963aaf0de69f6e7dd38de4553787ad7d0a5",
+                    "SHA3-512": "a4c7e5643517e2498d1f77cd846704c2799aeee6d4d4caec8a63678fdd1b94703bd8727ef7a0c8b442840fd044620d9602bfecea274c4e89c9237414811c4eb0"
+                },
+                "external_id": "FKNcKfXsSxRc"
+            },
+            {
+                "source_name": "risk",
+                "description": "Music across range whom three news direction arrive.",
+                "external_id": "ZnNRQSgc"
+            },
+            {
+                "source_name": "attorney",
+                "description": "Short important training unit reach sea.",
+                "hashes": {
+                    "MD5": "14fd3e0a8e1b97acf051ad6f402ff4c5",
+                    "SHA-1": "8df90a6207259d174db5557d851ef3b2c457b7d4",
+                    "SHA-256": "df5d8bff2aef7fdae9f886cc7a64f5a61af7a42e34b19a354f99f335aafb513a",
+                    "SHA-512": "ccf8d72a757627fae105bf06b01cda9fffc716066cd354710731cf6876dfe7203a8d5e6fc917d140b5fe329c88406fff832ed30e38808025b2b9f9e279befe44",
+                    "SHA3-256": "a0f59f06730f17cae5ed241a2d145939dd0f37c6925674b1249e574e11577da6",
+                    "SHA3-512": "008cb71eced9de2e6cab81a77d9c37164a6e80d9ad53b9d99df883abb5f2635d1179636f40dbabe73cea58c6cd30da052fcce7a722b84fd1c3c832e7d657af77"
+                },
+                "external_id": "oyMewcQfyDWOJvQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

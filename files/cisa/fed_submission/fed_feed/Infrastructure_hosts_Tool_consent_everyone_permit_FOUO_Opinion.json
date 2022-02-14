@@ -1,0 +1,166 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--b962ce87-4d4f-4f5a-850a-feb6d39c00ca",
+        "created_by_ref": "identity--5265c434-39b4-41b4-93f7-97f73a338982",
+        "created": "2021-01-14T08:06:02.747432Z",
+        "modified": "2022-01-09T19:39:01.142344Z",
+        "name": "interview",
+        "description": "Training try management kind.",
+        "aliases": [
+            "stop",
+            "nature",
+            "mouth"
+        ],
+        "first_seen": "2020-10-14T16:02:12.454026Z",
+        "confidence": 38,
+        "object_marking_refs": [
+            "marking-definition--67d9d62b-65f1-4df0-9517-d8427813b123"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--fc60a239-87ae-4618-9060-29f214b89ed7",
+        "created_by_ref": "identity--5265c434-39b4-41b4-93f7-97f73a338982",
+        "created": "2021-04-22T13:31:39.735388Z",
+        "modified": "2021-08-14T01:08:48.534178Z",
+        "name": "for",
+        "tool_types": [
+            "denial-of-service",
+            "exploitation",
+            "exploitation",
+            "vulnerability-scanning",
+            "credential-exploitation"
+        ],
+        "labels": [
+            "leg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--67d9d62b-65f1-4df0-9517-d8427813b123"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--23126a5f-876f-4431-b3ec-36c327535a0f",
+        "created_by_ref": "identity--5265c434-39b4-41b4-93f7-97f73a338982",
+        "created": "2020-09-10T10:44:41.593616Z",
+        "modified": "2021-08-16T02:55:59.870971Z",
+        "relationship_type": "hosts",
+        "source_ref": "infrastructure--b962ce87-4d4f-4f5a-850a-feb6d39c00ca",
+        "target_ref": "tool--fc60a239-87ae-4618-9060-29f214b89ed7",
+        "labels": [
+            "instead",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--67d9d62b-65f1-4df0-9517-d8427813b123"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--8b8d245b-8c8d-447b-82fb-6cf0cf38657e",
+        "created_by_ref": "identity--5265c434-39b4-41b4-93f7-97f73a338982",
+        "created": "2022-04-21T11:31:59.835006Z",
+        "modified": "2022-06-19T12:59:39.645233Z",
+        "explanation": "Book red main though. New stage study would.",
+        "opinion": "strongly-agree",
+        "object_refs": [
+            "infrastructure--b962ce87-4d4f-4f5a-850a-feb6d39c00ca",
+            "tool--fc60a239-87ae-4618-9060-29f214b89ed7",
+            "relationship--23126a5f-876f-4431-b3ec-36c327535a0f"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "speak",
+                "url": "http://www.holmes.com/",
+                "hashes": {
+                    "MD5": "3a04f024e87f5ca446bc1ef91a4adbed",
+                    "SHA-1": "16a40a872e505c329046d3f102e5e3f14e94cff3",
+                    "SHA-256": "f2eddc8c3d9e1e086e254f0aa100abfbebac31c61db00e623e66afb2225b9a03",
+                    "SHA-512": "840559f76da7822d743275425c3b89a6b9c6b0c85f1644b83308d03b4d5a857f4fb10da538c01c3d95131707826c3e1bee5ca40c72a6a4f652c58627531224d8",
+                    "SHA3-256": "caa7ac7dfce2fb6f676e37a52b38d6c79108bbaee2a029d24fd42b7b488245e0",
+                    "SHA3-512": "51da753a5f1aa311cf523d61d49856aef0e24e922747e7e766cf1fa458d8cfe19ab2bb77d94e701e83f88488ce40c258b8e65c3a230156e548a34be2e3f6b30c"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--67d9d62b-65f1-4df0-9517-d8427813b123"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5265c434-39b4-41b4-93f7-97f73a338982",
+        "created_by_ref": "identity--5265c434-39b4-41b4-93f7-97f73a338982",
+        "created": "2022-07-21T18:16:49.150372Z",
+        "modified": "2022-12-24T04:51:41.639678Z",
+        "name": "Clark Ltd",
+        "description": "Future-proofed optimizing benchmark",
+        "roles": [
+            "to",
+            "wall",
+            "game"
+        ],
+        "sectors": [
+            "government-public-services",
+            "defense"
+        ],
+        "contact_information": "154 Yoder Mountain Apt. 700\nPerryport, IA 41722",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--67d9d62b-65f1-4df0-9517-d8427813b123"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--67d9d62b-65f1-4df0-9517-d8427813b123",
+        "created": "2021-08-14T01:08:48.533465Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a064a16e-64c9-426c-9535-98e263215e51",
+                "name": "Member population available under",
+                "create_date_time": "2021-08-14T01:08:08.430342Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

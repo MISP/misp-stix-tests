@@ -1,0 +1,142 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--d605d573-f62d-400d-9c50-e64d25e90adc",
+        "created_by_ref": "identity--36bc1b73-99d8-4acf-b3a9-cef281b85ccd",
+        "created": "2022-06-06T16:03:21.633057Z",
+        "modified": "2022-07-15T15:41:15.099842Z",
+        "name": "she",
+        "first_seen": "2020-09-25T23:37:26.579852Z",
+        "labels": [
+            "source",
+            "industry",
+            "front",
+            "pfte-batch-1"
+        ],
+        "confidence": 16,
+        "object_marking_refs": [
+            "marking-definition--0587a9f1-3c72-471b-8520-ddf36e8e889f"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--44cb2e3c-023c-42ec-bd5f-a4b23bb12889",
+        "created_by_ref": "identity--36bc1b73-99d8-4acf-b3a9-cef281b85ccd",
+        "created": "2021-09-28T13:25:52.92482Z",
+        "modified": "2021-10-06T22:40:50.336284Z",
+        "name": "sing",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "RxdJT",
+                "phase_name": "IzwtHP"
+            }
+        ],
+        "confidence": 63,
+        "external_references": [
+            {
+                "source_name": "me",
+                "description": "Wife into partner.",
+                "url": "http://hahn.biz/",
+                "external_id": "WEpkVRxkYLyCuVeX"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0587a9f1-3c72-471b-8520-ddf36e8e889f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--bb9e91ab-3492-46de-8c7b-6879383100a2",
+        "created_by_ref": "identity--36bc1b73-99d8-4acf-b3a9-cef281b85ccd",
+        "created": "2022-05-16T15:02:52.882443Z",
+        "modified": "2023-02-17T18:37:46.456083Z",
+        "relationship_type": "controls",
+        "description": "Form buy include art discussion require evidence. Only small American suffer until. Contain standard to century.",
+        "source_ref": "infrastructure--d605d573-f62d-400d-9c50-e64d25e90adc",
+        "target_ref": "infrastructure--44cb2e3c-023c-42ec-bd5f-a4b23bb12889",
+        "start_time": "2021-10-17T05:41:03.784671Z",
+        "labels": [
+            "protect",
+            "nearly",
+            "share",
+            "time",
+            "poor",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "simple",
+                "description": "Later hundred class above institution stand.",
+                "url": "https://martin.biz/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0587a9f1-3c72-471b-8520-ddf36e8e889f"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--36bc1b73-99d8-4acf-b3a9-cef281b85ccd",
+        "created_by_ref": "identity--36bc1b73-99d8-4acf-b3a9-cef281b85ccd",
+        "created": "2021-06-20T04:44:13.29656Z",
+        "modified": "2021-11-08T18:20:32.353496Z",
+        "name": "Choi-Hale",
+        "description": "Operative holistic moderator",
+        "roles": [
+            "nor"
+        ],
+        "identity_class": "group",
+        "contact_information": "238 Ashley Wall\nEast Jamesburgh, FL 71713",
+        "confidence": 32,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--0587a9f1-3c72-471b-8520-ddf36e8e889f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--0587a9f1-3c72-471b-8520-ddf36e8e889f",
+        "created": "2021-08-14T01:08:45.274744Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2214d9cf-0e77-4d0b-9826-dfff28324708",
+                "name": "Build while international maybe effect movie",
+                "create_date_time": "2021-08-14T01:08:08.427765Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

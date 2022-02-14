@@ -1,0 +1,200 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--79e623fe-395a-4f14-bd5d-e74bc93ea9d3",
+        "created_by_ref": "identity--b01064e8-0b7c-436e-b7e8-96c5b2ea24b8",
+        "created": "2021-04-03T21:11:42.955689Z",
+        "modified": "2021-08-14T01:08:09.828942Z",
+        "name": "fly",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "XsTTjpGu",
+                "phase_name": "uWmEHonCJgzXXgPZQPH"
+            },
+            {
+                "kill_chain_name": "UiGLaxfD",
+                "phase_name": "XDscMuVWhPUC"
+            }
+        ],
+        "confidence": 95,
+        "object_marking_refs": [
+            "marking-definition--123a98a9-cb2a-466c-9822-b3e11aaa9c2c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d6355be2-afae-47cc-b22d-ddb22127cc43",
+        "created_by_ref": "identity--b01064e8-0b7c-436e-b7e8-96c5b2ea24b8",
+        "created": "2021-07-20T12:35:44.541594Z",
+        "modified": "2021-10-10T13:24:12.029953Z",
+        "name": "Gibson-Morse",
+        "description": "Cross-group client-driven core",
+        "sectors": [
+            "infrastructure",
+            "telecommunications",
+            "chemical",
+            "pharmaceuticals"
+        ],
+        "external_references": [
+            {
+                "source_name": "general",
+                "description": "Together trip decide doctor around ever.",
+                "url": "http://www.wilson.com/",
+                "external_id": "UQcomLb"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--123a98a9-cb2a-466c-9822-b3e11aaa9c2c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--7470c075-9725-41a0-bb48-17274e7ac653",
+        "created_by_ref": "identity--b01064e8-0b7c-436e-b7e8-96c5b2ea24b8",
+        "created": "2020-09-21T21:42:11.473977Z",
+        "modified": "2021-08-14T01:08:09.82969Z",
+        "relationship_type": "targets",
+        "description": "Course me image. Another prepare cultural air. Spring far night never really.",
+        "source_ref": "attack-pattern--79e623fe-395a-4f14-bd5d-e74bc93ea9d3",
+        "target_ref": "identity--d6355be2-afae-47cc-b22d-ddb22127cc43",
+        "stop_time": "2020-10-30T03:27:35.190203Z",
+        "labels": [
+            "fight",
+            "result",
+            "pfte-batch-1"
+        ],
+        "confidence": 83,
+        "external_references": [
+            {
+                "source_name": "hard",
+                "url": "https://taylor.info/",
+                "external_id": "WSbcrcdKmfm"
+            },
+            {
+                "source_name": "enough",
+                "description": "Teacher scene analysis cold little maybe class toward.",
+                "url": "https://www.chambers-thompson.com/"
+            },
+            {
+                "source_name": "he",
+                "url": "http://www.gray.com/",
+                "external_id": "GzMUNCfSpTIq"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--123a98a9-cb2a-466c-9822-b3e11aaa9c2c"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b01064e8-0b7c-436e-b7e8-96c5b2ea24b8",
+        "created_by_ref": "identity--b01064e8-0b7c-436e-b7e8-96c5b2ea24b8",
+        "created": "2021-06-14T07:47:09.207602Z",
+        "modified": "2022-05-19T04:33:32.566258Z",
+        "name": "Maxwell LLC",
+        "description": "Decentralized methodical project",
+        "roles": [
+            "almost",
+            "feeling",
+            "laugh",
+            "message"
+        ],
+        "sectors": [
+            "hospitality-leisure",
+            "utilities",
+            "emergency-services"
+        ],
+        "object_marking_refs": [
+            "marking-definition--123a98a9-cb2a-466c-9822-b3e11aaa9c2c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--123a98a9-cb2a-466c-9822-b3e11aaa9c2c",
+        "created": "2021-08-14T01:08:09.828175Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-147f852e-75ac-49e9-b9d2-55199760c488",
+                "name": "Yes might consider why south he",
+                "create_date_time": "2021-08-14T01:08:08.429077Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.428904Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

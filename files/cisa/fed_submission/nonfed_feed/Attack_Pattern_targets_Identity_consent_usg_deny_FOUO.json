@@ -1,0 +1,153 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--7a26e976-63ec-411a-a1f0-e4e3176f3729",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2022-04-04T06:09:40.994999Z",
+        "modified": "2022-05-01T02:02:23.093836Z",
+        "name": "model",
+        "description": "Firm color happy result.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "cZzro",
+                "phase_name": "fArGXgzGzJCe"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "hsYBklJklwTrdh",
+                "phase_name": "YidlzgcUYdWewLplEl"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--73107284-59f2-415e-89fa-751cf0e92a74",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2021-03-12T06:58:17.15448Z",
+        "modified": "2021-08-14T01:08:09.739641Z",
+        "name": "Hammond, Adams and Daniels",
+        "identity_class": "unknown",
+        "sectors": [
+            "construction"
+        ],
+        "contact_information": "USNS Silva\nFPO AP 41004",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 22,
+        "external_references": [
+            {
+                "source_name": "anyone",
+                "external_id": "ykFkRWlLfvC"
+            },
+            {
+                "source_name": "involve",
+                "description": "Color push very today particular quickly over.",
+                "url": "http://www.johnson.com/"
+            },
+            {
+                "source_name": "especially",
+                "description": "Start second change option history.",
+                "hashes": {
+                    "MD5": "4869a01d9c9164cb5cd9abe94a1c059c",
+                    "SHA-1": "8b14da5f9a7bbdcee5b987bad622bbaa208d9484",
+                    "SHA-256": "cf7d81b87afae0289812582a72e459a29d6ba5cf2ac2eb42ba265a0ba0bd832f",
+                    "SHA-512": "8c7a278effec3682feff3180487cf304d09be9853159decac35ec24589304805ec4762b5badcef7a7cb566453eb28fae0d4e6eeeac932cfc7f50d31b2db25235",
+                    "SHA3-256": "aedd81b02f60617f022688ba49c0353ffe710a56df30389330f6f6d7bce3f66c",
+                    "SHA3-512": "632fd33858a9ac7e926df9949f6030e9a1a13de4a54ec3485aa524e366b9e564e60d7f9b14647565243a0028c166b6f59998c572fd415ba82f14997f71a99687"
+                }
+            },
+            {
+                "source_name": "manager",
+                "url": "http://www.mills.com/",
+                "hashes": {
+                    "MD5": "92d9441314ca431a0ecb9b3928d6d067",
+                    "SHA-1": "94859d1814af44c6a09dfd23baffaa1eb6011811",
+                    "SHA-256": "d7dab40bac711636476d9c8a624b62d16c714c735fcbf74710ebff8191b2d1d0",
+                    "SHA-512": "4a0171241282be26c877d733021b370bf649d6078db5cccb3d36c9e431f9c2f2522f7115f790a295effa4ccc62702afa4e17748d8be8de6d758f99b9f397511f",
+                    "SHA3-256": "57e745428baeced3f111c384b8b108f29cdcbfeacc006006dbd7f6bce36d37ae",
+                    "SHA3-512": "cdb787270334ab198790facb6d0c2039da11726abf8c94b98ab20b857bd5e746bd7217be0f3462d71259da008e3585f84add65b60cd3cae9e6c9f6a2f856f5ec"
+                },
+                "external_id": "xzLUnGZOnAgyDZzQ"
+            },
+            {
+                "source_name": "amount",
+                "url": "http://green.info/",
+                "external_id": "lQfOHIgmYdavcrnmtn"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ea0aa6de-525a-42cb-95ab-c26ec0c08d47",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2021-03-26T04:56:56.541593Z",
+        "modified": "2021-08-14T01:08:09.739891Z",
+        "relationship_type": "targets",
+        "source_ref": "attack-pattern--7a26e976-63ec-411a-a1f0-e4e3176f3729",
+        "target_ref": "identity--73107284-59f2-415e-89fa-751cf0e92a74",
+        "stop_time": "2021-05-31T09:48:32.450572Z",
+        "labels": [
+            "ball",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-01-01T00:00:00.000Z",
+        "modified": "2020-01-01T00:00:00.000Z",
+        "name": "USA.USG",
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

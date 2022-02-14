@@ -1,0 +1,222 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--5116bbd8-472b-4b0a-8a00-f8fb65a21e0a",
+        "created_by_ref": "identity--c925fbd4-770a-43b7-8d2c-65e44eac5ddc",
+        "created": "2021-07-23T18:08:04.994466Z",
+        "modified": "2022-06-17T05:38:42.273567Z",
+        "name": "data",
+        "description": "One industry pay scene care.",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--cf9cda6b-156b-449d-9b49-7ac125794df4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--77bfe2d4-386d-4d0b-8721-28d3932976ce",
+        "created_by_ref": "identity--c925fbd4-770a-43b7-8d2c-65e44eac5ddc",
+        "created": "2021-02-24T22:13:33.548169Z",
+        "modified": "2021-11-20T22:53:28.160023Z",
+        "description": "Avoid story why case.",
+        "pattern": "[url:value >= 'http://taylor-brown.com/']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-08-29T19:01:31.981641Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "HYhLBNyFlYkLFXli",
+                "phase_name": "RZvpYxBFlt"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--cf9cda6b-156b-449d-9b49-7ac125794df4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d13fe91a-9bf8-46d1-9b52-726301a4c65e",
+        "created_by_ref": "identity--c925fbd4-770a-43b7-8d2c-65e44eac5ddc",
+        "created": "2022-05-25T22:40:54.072775Z",
+        "modified": "2022-06-15T00:28:12.464244Z",
+        "relationship_type": "investigates",
+        "description": "Message simple better hear. Simply clearly reason society throw. Rate special sound southern term view.",
+        "source_ref": "course-of-action--5116bbd8-472b-4b0a-8a00-f8fb65a21e0a",
+        "target_ref": "indicator--77bfe2d4-386d-4d0b-8721-28d3932976ce",
+        "start_time": "2021-12-08T06:55:54.362455Z",
+        "stop_time": "2022-08-25T12:35:16.886159Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--cf9cda6b-156b-449d-9b49-7ac125794df4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c925fbd4-770a-43b7-8d2c-65e44eac5ddc",
+        "created_by_ref": "identity--c925fbd4-770a-43b7-8d2c-65e44eac5ddc",
+        "created": "2022-07-24T08:22:47.191942Z",
+        "modified": "2022-08-20T16:49:25.036178Z",
+        "name": "White-Rios",
+        "description": "Distributed asymmetric installation",
+        "external_references": [
+            {
+                "source_name": "true",
+                "url": "http://lopez-kelly.org/",
+                "hashes": {
+                    "MD5": "0d8e6b881713029c3ab93b33a00de882",
+                    "SHA-1": "5d9dfaa34dbdabf443edfe1b5c4c249bb9278c77",
+                    "SHA-256": "460b15c24583f03c1c75154738ed61cbc99511e3c975d6ef7cb0421e136c1a07",
+                    "SHA-512": "3583b944f42dc7cd7bd2e108593ac098945372d6ee4e1404eed2937f381db289e13660ead34bc5c7a4b21324580ba85c5d228fd18f19eaa48ca39e01e1ce48b6",
+                    "SHA3-256": "ab396d8b00957065607ca54078d703a896b1e2df09c2c6116b1b69f8f07c8c6f",
+                    "SHA3-512": "80bf0fa99765a10f8bed95bc6032cc1027e1c7c1f71af2762483c52009292f30d26d8e605a0f8759291846b50d8c8d578651c5090a84e9fe15de4653f3057e05"
+                }
+            },
+            {
+                "source_name": "eight",
+                "description": "Difficult finally public organization these put.",
+                "url": "https://horn.com/",
+                "hashes": {
+                    "MD5": "f1412fcff7296dff6d63ac2249990c8b",
+                    "SHA-1": "d64c3cdfe1d32f812f9270b45c16f8a9fc7527f7",
+                    "SHA-256": "738f7938b0b4579d5f1565d19253b38b2d223529de9acfc4f2875da01e838837",
+                    "SHA-512": "b2a20e3966df6e417f14ce81c069bcc2c46fc802681e6513fe62081abcaaa72f1ef060c2af82c10dc817a182f16de4c7fdca3600e165347c6b1ec459f583b5b1",
+                    "SHA3-256": "54ac689d4c45f18a197e4ca8f0fcae8dc04368f1f257a66215d6b5eb3691ee34",
+                    "SHA3-512": "83a1d8ac401f3d2dcb55787349cea5f5d7ec37297079b96f07cc50fddb821acb53f400f3837c67b2b2b887c888060bed7dc040c8480a09557610feabfb94997d"
+                },
+                "external_id": "xoswJargxsKpiwcOfGZl"
+            },
+            {
+                "source_name": "others",
+                "url": "https://robinson-baxter.biz/",
+                "external_id": "BnhDjKnRdWFGheNmHd"
+            },
+            {
+                "source_name": "star",
+                "description": "Unit free seven vote very focus.",
+                "url": "https://morse.com/",
+                "hashes": {
+                    "MD5": "e5d94f239d0763e9a1d45946f6c9c6bb",
+                    "SHA-1": "8b1fc0725206f3e8d3e2790e8ad3374a3589f1a5",
+                    "SHA-256": "a3f90743cdaa5f5b6c460ab7135dfbcb514e3a73bf9b7b0de4d92c5d1bce2128",
+                    "SHA-512": "4ffa8a568f208dff51e193476a5809849f8153eed150ab3326efddbe517ec6c58157acbb33b6eac5f64c303a56719a89076500e4596940537cf7d01c95f304d0",
+                    "SHA3-256": "e7aacebf693a4d1782129c4e4aff7c22920ffe7af3bedf9a6bb4bfe3381ba572",
+                    "SHA3-512": "255a4ce86a8f35390a494de3c71d478797e01ade86dff78fa54e535dc9d1c26e24afefa1500508edc1df0fa550b4621d53b065db39106eb4295537e5ef17b2c2"
+                },
+                "external_id": "wIVWceCD"
+            },
+            {
+                "source_name": "although",
+                "description": "Those by she paper husband year open.",
+                "url": "https://www.wright-johnson.info/",
+                "hashes": {
+                    "MD5": "45bcf370d6e248e9017826cceb9caf25",
+                    "SHA-1": "4ab2419136df3962c6bfb7dc49a52f8480f34cf3",
+                    "SHA-256": "8cad7efc874459a09fe1aa59394770b48f5cd5351ad57f367c6144d038684288",
+                    "SHA-512": "3c46cba7a4a5ed0a8b4a0bdd1346373712c4e9254a0d3c44f7bbc6767cf4c5e8d59dec4ada3263657725c2e11dbf50b3de2c1e2ef70c85bbcf69570595f7dd2c",
+                    "SHA3-256": "3144c7b2254a483e9ad0ef9f5a2c9349207ac07bfa6e47d2c511dfa37fb082c8",
+                    "SHA3-512": "8754b10a12276f57a1bcf2d17f1b87b3f17ee0fe76d52daf27b0fe98d1984df7702507621954a497e709ace0e986fdf9b4c636aca79caa4c94b54074f35b65a9"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--cf9cda6b-156b-449d-9b49-7ac125794df4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--cf9cda6b-156b-449d-9b49-7ac125794df4",
+        "created": "2021-08-14T01:08:22.105207Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-57e7d098-4c26-4a4d-bfaa-3ee9c5e47adc",
+                "name": "Customer hot subject fight customer",
+                "create_date_time": "2021-08-14T01:08:08.428617Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

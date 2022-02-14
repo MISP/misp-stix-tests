@@ -1,0 +1,191 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--18660618-923c-4115-aa32-042c272727ff",
+        "created_by_ref": "identity--cf1dae68-cd3b-4fd0-95d2-8dfb9d419681",
+        "created": "2022-02-02T08:26:36.141536Z",
+        "modified": "2022-03-16T08:25:12.832546Z",
+        "name": "night",
+        "infrastructure_types": [
+            "firewall"
+        ],
+        "aliases": [
+            "accept"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "last_seen": "2022-07-03T18:37:42.135052Z",
+        "labels": [
+            "how",
+            "along",
+            "high",
+            "beat",
+            "much",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--48d5114d-415b-4c81-9d4a-eaae09a3ced7"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--078df9b3-296f-45e5-b924-c500116c3d7f",
+        "created_by_ref": "identity--cf1dae68-cd3b-4fd0-95d2-8dfb9d419681",
+        "created": "2021-12-09T09:08:52.283487Z",
+        "modified": "2022-11-04T07:43:40.772157Z",
+        "first_observed": "2020-11-21T20:32:31.133867Z",
+        "last_observed": "2021-10-18T21:32:20.800205Z",
+        "number_observed": 721956036,
+        "objects": {
+            "x509-certificate--ab76667a-e7d3-404b-b3ce-4f3068b4a02f": {
+                "type": "x509-certificate",
+                "spec_version": "2.1",
+                "id": "x509-certificate--ab76667a-e7d3-404b-b3ce-4f3068b4a02f",
+                "is_self_signed": false,
+                "serial_number": "BrdlJfueTrWlUU",
+                "validity_not_after": "2021-01-05T23:22:42.926287Z",
+                "subject_public_key_algorithm": "across",
+                "subject_public_key_exponent": 36012
+            }
+        },
+        "labels": [
+            "understand",
+            "military",
+            "save",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--48d5114d-415b-4c81-9d4a-eaae09a3ced7"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--5dc60257-c75a-4b82-b05d-724ecdedc0be",
+        "created_by_ref": "identity--cf1dae68-cd3b-4fd0-95d2-8dfb9d419681",
+        "created": "2021-01-16T23:26:31.92284Z",
+        "modified": "2021-08-14T01:08:44.140489Z",
+        "relationship_type": "consists-of",
+        "description": "Amount American event water tough. Reach bit black baby.",
+        "source_ref": "infrastructure--18660618-923c-4115-aa32-042c272727ff",
+        "target_ref": "observed-data--078df9b3-296f-45e5-b924-c500116c3d7f",
+        "labels": [
+            "man",
+            "pfte-batch-1"
+        ],
+        "confidence": 69,
+        "object_marking_refs": [
+            "marking-definition--48d5114d-415b-4c81-9d4a-eaae09a3ced7"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--cf1dae68-cd3b-4fd0-95d2-8dfb9d419681",
+        "created_by_ref": "identity--cf1dae68-cd3b-4fd0-95d2-8dfb9d419681",
+        "created": "2021-08-31T15:08:57.314909Z",
+        "modified": "2022-07-21T03:40:49.621421Z",
+        "name": "Duncan-Gomez",
+        "roles": [
+            "very"
+        ],
+        "sectors": [
+            "pharmaceuticals"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--48d5114d-415b-4c81-9d4a-eaae09a3ced7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--48d5114d-415b-4c81-9d4a-eaae09a3ced7",
+        "created": "2021-08-14T01:08:44.138581Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-147f852e-75ac-49e9-b9d2-55199760c488",
+                "name": "Yes might consider why south he",
+                "create_date_time": "2021-08-14T01:08:08.429077Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.428904Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

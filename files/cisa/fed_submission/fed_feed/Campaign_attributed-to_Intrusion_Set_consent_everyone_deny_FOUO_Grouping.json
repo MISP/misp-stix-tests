@@ -1,0 +1,214 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--4941e8df-78ca-4bdd-86bc-356a1cf3ea3c",
+        "created_by_ref": "identity--dfd2608d-a3a2-424b-8183-5bb17fedb184",
+        "created": "2022-01-04T23:45:08.41563Z",
+        "modified": "2022-03-30T03:44:05.240003Z",
+        "name": "wear",
+        "description": "Keep have also less media.",
+        "first_seen": "2020-11-17T07:09:57.502558Z",
+        "last_seen": "2021-06-04T01:11:19.207446Z",
+        "labels": [
+            "tend",
+            "couple",
+            "pfte-batch-1"
+        ],
+        "confidence": 81,
+        "object_marking_refs": [
+            "marking-definition--99f886e8-756c-4b4c-b4b2-5c7d61a2967b"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--c3eb980e-9ca7-431b-8713-459cef0011a9",
+        "created_by_ref": "identity--dfd2608d-a3a2-424b-8183-5bb17fedb184",
+        "created": "2022-03-29T20:19:40.979612Z",
+        "modified": "2022-06-26T10:46:07.260973Z",
+        "name": "artist",
+        "description": "Idea fish pick standard.",
+        "aliases": [
+            "seek",
+            "process",
+            "operation",
+            "be"
+        ],
+        "resource_level": "individual",
+        "primary_motivation": "accidental",
+        "secondary_motivations": [
+            "notoriety",
+            "notoriety",
+            "coercion"
+        ],
+        "labels": [
+            "produce",
+            "his",
+            "reach",
+            "remain",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--99f886e8-756c-4b4c-b4b2-5c7d61a2967b"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--0e1d2d3d-0de5-4c66-94df-0245e9fa52a5",
+        "created_by_ref": "identity--dfd2608d-a3a2-424b-8183-5bb17fedb184",
+        "created": "2022-02-01T02:05:06.128502Z",
+        "modified": "2022-09-21T20:56:28.470505Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "campaign--4941e8df-78ca-4bdd-86bc-356a1cf3ea3c",
+        "target_ref": "intrusion-set--c3eb980e-9ca7-431b-8713-459cef0011a9",
+        "stop_time": "2020-11-24T07:53:58.119525Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--99f886e8-756c-4b4c-b4b2-5c7d61a2967b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--ef64a7f4-9e43-4b47-9cd8-f293e7af3e61",
+        "created_by_ref": "identity--dfd2608d-a3a2-424b-8183-5bb17fedb184",
+        "created": "2021-04-14T13:20:48.69728Z",
+        "modified": "2021-10-20T09:32:45.913216Z",
+        "description": "Learn girl maybe eat a star.",
+        "context": "malware-analysis",
+        "object_refs": [
+            "campaign--4941e8df-78ca-4bdd-86bc-356a1cf3ea3c",
+            "intrusion-set--c3eb980e-9ca7-431b-8713-459cef0011a9",
+            "relationship--0e1d2d3d-0de5-4c66-94df-0245e9fa52a5"
+        ],
+        "labels": [
+            "range",
+            "pfte-batch-1"
+        ],
+        "confidence": 36,
+        "object_marking_refs": [
+            "marking-definition--99f886e8-756c-4b4c-b4b2-5c7d61a2967b"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--dfd2608d-a3a2-424b-8183-5bb17fedb184",
+        "created_by_ref": "identity--dfd2608d-a3a2-424b-8183-5bb17fedb184",
+        "created": "2021-03-09T19:40:03.035426Z",
+        "modified": "2021-08-17T18:34:20.831289Z",
+        "name": "Wright, Small and Ross",
+        "roles": [
+            "growth",
+            "because",
+            "money",
+            "weight"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "idea",
+                "description": "Mention social nature magazine feel.",
+                "url": "http://www.adams.com/"
+            },
+            {
+                "source_name": "lot",
+                "url": "http://strickland.info/",
+                "hashes": {
+                    "MD5": "66855d490fb2a0eccf9a43287ccda000",
+                    "SHA-1": "137a05748b1f4b9eb6a14ceb9c92fcdccaa53f22",
+                    "SHA-256": "7ca3d2313e08e8e8c7c1d67a3f8a2bfe26fd72fad5ecee1331b09489aabf0ce5",
+                    "SHA-512": "f6b92e11f3a0381b8eca3aa75f66869a8e3ff204a09d2c40d54c37c4223d79127bbea783816a74e56568e430ece9105ead8554b48c9b96fc7b328dc127119478",
+                    "SHA3-256": "5abf43b33b26352a534537a5fc5484a7408215df84cd57ef6aec6ab5c8e1b7c0",
+                    "SHA3-512": "5619eec174e2078171e129c71884e41f5f226adc326361b1c6dbc0c5398c7175fa28d67606c73b89d50d793b31462d6c2e75be4d46736826df241feeb143c31a"
+                },
+                "external_id": "jOmmAdBItGYJd"
+            },
+            {
+                "source_name": "indicate",
+                "description": "Appear grow seem arm now upon two.",
+                "external_id": "wXvAOQTehDnZvQp"
+            },
+            {
+                "source_name": "save",
+                "url": "https://www.kim.biz/",
+                "hashes": {
+                    "MD5": "bd1bfa0a9fb7c59715d6b0a1933535c5",
+                    "SHA-1": "b28ee06eab07fe3463032c07b46cb96aa731371e",
+                    "SHA-256": "4a762669666894a293c5eda0c9c56c7a65b2b5c661b6b429a1900046ab93183f",
+                    "SHA-512": "d800afef40c161a874b01b1c2e1ca1fcfa9ae43276b9e2db2485060b9e1a004fb0c80ef327beeece1a2854b3d129bc45d54b28017bfa4930f1fcbd8e8daaef31",
+                    "SHA3-256": "6ee44cc1b29db27c0fb0c575334caca0554de4e5a0727718f4ac0b2f1f0d2729",
+                    "SHA3-512": "79dc3c06ffc4a862a9ecf9cc9364517de3df920b722ad6011cfc6f9c868b1edd6310d06b9a53af07071b9c81f89e3efcc231ac9c261ff20d127786e04fb1f0ea"
+                },
+                "external_id": "hkOUnifGelWwuhrcHh"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--99f886e8-756c-4b4c-b4b2-5c7d61a2967b"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--99f886e8-756c-4b4c-b4b2-5c7d61a2967b",
+        "created": "2021-08-14T01:08:13.558307Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3af87523-f9f6-4d99-acfc-79560c4d2219",
+                "name": "Boy understand else sense give house travel already",
+                "create_date_time": "2021-08-14T01:08:08.429507Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

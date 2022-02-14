@@ -1,0 +1,272 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--dc2b9e5b-83d5-437a-9b4f-c5d9c8fe41e8",
+        "created_by_ref": "identity--f7ff8f34-5690-40a8-b26e-daa1dd2612c7",
+        "created": "2022-05-10T06:30:10.197001Z",
+        "modified": "2023-02-10T14:26:09.860609Z",
+        "name": "lawyer",
+        "first_seen": "2020-08-26T01:19:54.22646Z",
+        "goals": [
+            "item",
+            "will",
+            "bag"
+        ],
+        "sophistication": "intermediate",
+        "primary_motivation": "coercion",
+        "personal_motivations": [
+            "revenge",
+            "personal-gain",
+            "accidental",
+            "notoriety",
+            "notoriety"
+        ],
+        "confidence": 78,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "political",
+                "description": "Machine research fact industry manager.",
+                "url": "https://cooper.com/",
+                "hashes": {
+                    "MD5": "b5340c4a38dc82de8dbc13aaac4c60d0",
+                    "SHA-1": "4c69424a596bc2e1f298eb25066716562902733a",
+                    "SHA-256": "acb37ff459180bcfb94a0986efc9c840b909f474f46a5d674d0951e3d8bb7961",
+                    "SHA-512": "f9280cc967846f415c6303e720fbe658652bf49bf9252a4658af698126bfc982c7ffec2c0557882c5f1b59567904def2e74db1c06f6abd7145c0e0495fea18cb",
+                    "SHA3-256": "895c7f709e4b4311e5ae1676a01a4c7d0318bf54306fe2080fa0f5f780eaa9f7",
+                    "SHA3-512": "4d7babbda0156d3790fed17ddffd3fb2eecd84337431b5a1f57fdac69b6bbf13ab69a8cdd833113d8eaebc550bcdf55938d805d75c74fb7682df3c33de1771cd"
+                }
+            },
+            {
+                "source_name": "grow",
+                "description": "Sense material type style.",
+                "url": "https://moore-spencer.com/",
+                "hashes": {
+                    "MD5": "57802ef86929ffa86da10c38e8f24482",
+                    "SHA-1": "b72dc07cbb9f361fc9f6a86d92e5015358c9f84d",
+                    "SHA-256": "718c304a535b7e2eb0ed191053b61a13907b34f56730f6cb5329c082d3c48b19",
+                    "SHA-512": "80eb8ba97f87768cf277c29b350bafdfe31dcc09306817ec50e9c7b9ee9478ae51c637282e44490cc5ddba2d04c7d22a3d0a151410daf1df368f648c0a96fc5d",
+                    "SHA3-256": "606eb13a440464f68e8b30224cc1a80992844552666dc28d97364f2e35f552c4",
+                    "SHA3-512": "a330acf0bf4dcbd3e23323a3b980130c49fc938ea10b901d47fc24ff25ab6c1eb4255e1d0a7c169072721e95ddb7da11dd23eb7273038c298cffdb17cdcbd4a4"
+                },
+                "external_id": "uaGEQWiGpVHy"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--dbdd918e-5e17-4d6e-94d5-abbc42fe75ea"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--85764e2d-b5fb-469c-9e43-a9d10824aed3",
+        "created_by_ref": "identity--f7ff8f34-5690-40a8-b26e-daa1dd2612c7",
+        "created": "2021-01-09T06:59:13.708386Z",
+        "modified": "2021-12-26T17:57:11.256715Z",
+        "name": "Johnson, Patrick and Daniels",
+        "description": "Team-oriented real-time standardization",
+        "identity_class": "unknown",
+        "sectors": [
+            "non-profit",
+            "aerospace"
+        ],
+        "confidence": 83,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "soon",
+                "description": "Be doctor central six information."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--dbdd918e-5e17-4d6e-94d5-abbc42fe75ea"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--25383161-c9e4-4dd0-8a48-e41f8ffb9661",
+        "created_by_ref": "identity--f7ff8f34-5690-40a8-b26e-daa1dd2612c7",
+        "created": "2022-04-10T12:12:29.845325Z",
+        "modified": "2023-01-09T05:42:36.5573Z",
+        "relationship_type": "impersonates",
+        "source_ref": "threat-actor--dc2b9e5b-83d5-437a-9b4f-c5d9c8fe41e8",
+        "target_ref": "identity--85764e2d-b5fb-469c-9e43-a9d10824aed3",
+        "start_time": "2021-08-15T02:55:37.658891Z",
+        "labels": [
+            "reality",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--dbdd918e-5e17-4d6e-94d5-abbc42fe75ea"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--f7a53654-036a-4f02-a8f3-7de07e48b4f3",
+        "created_by_ref": "identity--f7ff8f34-5690-40a8-b26e-daa1dd2612c7",
+        "created": "2021-10-28T16:58:08.42342Z",
+        "modified": "2021-11-05T02:20:50.854242Z",
+        "context": "unspecified",
+        "object_refs": [
+            "threat-actor--dc2b9e5b-83d5-437a-9b4f-c5d9c8fe41e8",
+            "identity--85764e2d-b5fb-469c-9e43-a9d10824aed3",
+            "relationship--25383161-c9e4-4dd0-8a48-e41f8ffb9661"
+        ],
+        "labels": [
+            "game",
+            "three",
+            "for",
+            "through",
+            "develop",
+            "pfte-batch-1"
+        ],
+        "confidence": 25,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--dbdd918e-5e17-4d6e-94d5-abbc42fe75ea"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f7ff8f34-5690-40a8-b26e-daa1dd2612c7",
+        "created_by_ref": "identity--f7ff8f34-5690-40a8-b26e-daa1dd2612c7",
+        "created": "2022-02-18T23:59:52.547552Z",
+        "modified": "2022-05-17T11:32:59.225158Z",
+        "name": "Chavez, Daniels and Wade",
+        "confidence": 47,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "people",
+                "url": "https://www.gray-martinez.com/",
+                "hashes": {
+                    "MD5": "a349ff123aeb442673932eb3209dd321",
+                    "SHA-1": "8b7d1542b5ba1da60c5711214b5b3c6aca83cf8e",
+                    "SHA-256": "4d07ab5a499636ebc219b78972542bd033d9ce1342a59a4ec462c45135891c06",
+                    "SHA-512": "5d6c218c22947248c90eec7c19d8a24bf5b39fb669fb31ca9465f09f2f1dbf636842a4ad759675577f980086bc48bb9c0a0a627fb28c15f2720564b5835eb875",
+                    "SHA3-256": "c2594dd8bc37763ecef4ba20a336294fae1bb57120cfe99d44cef088a95beb7c",
+                    "SHA3-512": "efbf7deecad3e28202712eb7aecf933cd9aab7cb337bd4b054cd6fe0a21502efe1b2b0d7eaeee6e106aced30d348f1c1c00e625606d46b0d2e09aa0040e57385"
+                }
+            },
+            {
+                "source_name": "sing",
+                "url": "https://webb.com/",
+                "hashes": {
+                    "MD5": "e52eaffe0dbede13aae66a44c6d2ffec",
+                    "SHA-1": "520cbf3c41bd9a2e57fe16b13ebd573073fd669c",
+                    "SHA-256": "ba22eba335db0fc65cb3789f4f8100555f942a2b4e26ebe07dfe59f59a2c0386",
+                    "SHA-512": "529f63299e7b99dec19a237414d8ec556e34a167802f8cd996d802a6cb8db63d94c6b81e536c73cf9f7ab83b6868896a98f1ece91c66b67fa43d640104d93e64",
+                    "SHA3-256": "85a42bca2430ae3e7dee7597b2c982c41ee823bd07871327fc477c1253487f7b",
+                    "SHA3-512": "c2773f8bf017b87d1a43f7990eb3b57de822cac39f10b5b78a96373200f87344a1d9e2902ba54c60e010dd31fe210bf22a09eb9a76552d8dc7cb36239536e262"
+                },
+                "external_id": "rRqjuL"
+            },
+            {
+                "source_name": "produce",
+                "url": "https://juarez-martin.com/",
+                "hashes": {
+                    "MD5": "2c5e275ef1103c8b94d38f133b7aeed8",
+                    "SHA-1": "ed5a12df4c6e753f2971c1bba412f2d7ceeaaba4",
+                    "SHA-256": "5a669e57ccee2a0a2ff7c0078ad0eeef46f0d271d6c551b06b488a46d252705d",
+                    "SHA-512": "3b52f84c431503712b360be0e7a731f313d1060130a75a256e461b1b24ed05b8deb7c787dad48496103f9de4dc9d1d1fe10d5ac9649ab719c0dc9dee6d3f9d05",
+                    "SHA3-256": "c1404f5a2f8bf7368c0b303463a2c94cdb3a260c71768e73654b0e604cee700a",
+                    "SHA3-512": "20ba56b956014c2508511a9198e3fa47ca00081513ada21fdaf616fc2d83373f10a9681ed0ae1388e1078c0d9d05c90ad2e0ef8dbd8edc25de3c59841fb323ee"
+                },
+                "external_id": "zyGqGnbQgCsfJ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--dbdd918e-5e17-4d6e-94d5-abbc42fe75ea"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--dbdd918e-5e17-4d6e-94d5-abbc42fe75ea",
+        "created": "2021-08-14T01:09:28.584332Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-147f852e-75ac-49e9-b9d2-55199760c488",
+                "name": "Yes might consider why south he",
+                "create_date_time": "2021-08-14T01:08:08.429077Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.428904Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

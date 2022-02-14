@@ -1,0 +1,215 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--7ee3da34-cfb9-4208-a1e7-c808f90374d6",
+        "created_by_ref": "identity--41336763-c550-420e-aa3f-c997efcbc91a",
+        "created": "2020-09-07T08:52:52.733482Z",
+        "modified": "2021-08-14T01:09:24.828567Z",
+        "name": "news",
+        "first_seen": "2021-06-23T03:15:25.512878Z",
+        "last_seen": "2022-06-17T17:43:46.467911Z",
+        "roles": [
+            "infrastructure-architect",
+            "infrastructure-operator",
+            "director"
+        ],
+        "goals": [
+            "set",
+            "increase"
+        ],
+        "resource_level": "team",
+        "primary_motivation": "revenge",
+        "labels": [
+            "other",
+            "trip",
+            "main",
+            "pfte-batch-1"
+        ],
+        "confidence": 79,
+        "external_references": [
+            {
+                "source_name": "order",
+                "description": "Very trip memory."
+            },
+            {
+                "source_name": "only",
+                "url": "https://crawford.com/",
+                "hashes": {
+                    "MD5": "a88801803fc1b5ef41486626f964d514",
+                    "SHA-1": "45e88a7ca32e6ef69fe2e2eda23d8cba6f8975f9",
+                    "SHA-256": "7e026019608eb400c2e99bccf17af122263d7475a5f29364b7b995e18bcef3f5",
+                    "SHA-512": "3b1e2cef2948d704c3d8cea80b021bf12ca37aca164f7aaa59f3007d95a5dfa02f6246848fa0be5f571d15bea4aa4905248285a8d9f59055161072b49f0004b7",
+                    "SHA3-256": "68626995f844d352189e9dd93d713a40cdacd9283ae438207ee700fac283657f",
+                    "SHA3-512": "bce33447232c732a80fc44cb409b8087cdeac78a37407f250449722cc9117091e81ef8204e73e519e9e45ed8f5685792e055055b94b4893a6c0ffdec94800870"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f5379109-aa9a-48ab-901f-697b97a336bc"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--bd2f830b-7f11-45f3-9ca0-31bbb961ae27",
+        "created_by_ref": "identity--41336763-c550-420e-aa3f-c997efcbc91a",
+        "created": "2021-05-13T20:33:28.879815Z",
+        "modified": "2022-05-01T11:08:14.53415Z",
+        "name": "Murphy-Wilson",
+        "contact_information": "8086 Armstrong Lodge\nWest Stephanie, DE 22561",
+        "confidence": 55,
+        "object_marking_refs": [
+            "marking-definition--f5379109-aa9a-48ab-901f-697b97a336bc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d6b812af-cf2a-461b-a626-8e0cd19d3ae1",
+        "created_by_ref": "identity--41336763-c550-420e-aa3f-c997efcbc91a",
+        "created": "2021-05-01T17:45:57.412772Z",
+        "modified": "2021-09-12T16:42:05.817177Z",
+        "relationship_type": "attributed-to",
+        "description": "Oil yard left run rate. Seven three several continue history. Speak the item listen.",
+        "source_ref": "threat-actor--7ee3da34-cfb9-4208-a1e7-c808f90374d6",
+        "target_ref": "identity--bd2f830b-7f11-45f3-9ca0-31bbb961ae27",
+        "labels": [
+            "available",
+            "standard",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f5379109-aa9a-48ab-901f-697b97a336bc"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--41336763-c550-420e-aa3f-c997efcbc91a",
+        "created_by_ref": "identity--41336763-c550-420e-aa3f-c997efcbc91a",
+        "created": "2021-06-14T08:53:45.305519Z",
+        "modified": "2021-08-14T01:09:24.829727Z",
+        "name": "Leon LLC",
+        "description": "Future-proofed executive emulation",
+        "contact_information": "0740 Patricia Hollow\nNew Rachel, MS 80605",
+        "external_references": [
+            {
+                "source_name": "letter",
+                "url": "http://hebert-moore.com/"
+            },
+            {
+                "source_name": "culture",
+                "url": "https://johnston.com/",
+                "hashes": {
+                    "MD5": "d6dd51f74429b28b30066d9e3708dc38",
+                    "SHA-1": "11b3a022a0575f588d3494a7644c67782e395e4c",
+                    "SHA-256": "2d30e82e292b2c9134bf451f6b5c8f1db345bdc4fda449c9b2213eccb21f2ba8",
+                    "SHA-512": "bbd7b45baacd329046768c9eca6708cc74bf4124b0358bd0b2cde32022f610f68421d003f2e753beb1b7a61def7e5eaceed31a4d2354e70ceed35922d8f0b4af",
+                    "SHA3-256": "48f1bccf1f3cb723643031d9854e4fbb310effd2c5c676d27c0036a54814c3a6",
+                    "SHA3-512": "2fc49348b18858c8a57c866109fd55e083f0631eb6f5c8a6cae643a89e6cf1110c96bdeb25ad29e5bc7bc6b76af8aeecc30e7e1006d5d2fcd8060f91292c2b92"
+                },
+                "external_id": "zQnZxXxKCxRARIP"
+            },
+            {
+                "source_name": "finish",
+                "description": "Discuss option wife.",
+                "hashes": {
+                    "MD5": "fb3ca7f87ab54f761c517bf8afc4da18",
+                    "SHA-1": "dfceb98317850c27f555b25050fb9a5e65cd046e",
+                    "SHA-256": "c5da4e5b578309bf1885ac2e6535e6cfae607df1191f257e793d8e4b6ef24bda",
+                    "SHA-512": "c760697418e4ef9dcef7a730b470283c6984d0d173ff5068afddaff83cccf17a0c09ffb08195b8aa2f2049737a6cc99e32818505cc82f7d7d753b0066bfde706",
+                    "SHA3-256": "6756a004daea5c93eb328c61464a88ea596a129b7b2b2ac908b920c9f33ba299",
+                    "SHA3-512": "d9be9e7ca728f03030e2356744ec211dee751b8d7ea3d911e1003cdf2907c1dc628896b92d8ac41c1bb352077cfe01b9d00aaaebdbfa3916f6db52d7bea89164"
+                },
+                "external_id": "jcPGTFQksLuftkDkfKyM"
+            },
+            {
+                "source_name": "lead",
+                "external_id": "PxsqtfeqmQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f5379109-aa9a-48ab-901f-697b97a336bc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--f5379109-aa9a-48ab-901f-697b97a336bc",
+        "created": "2021-08-14T01:09:24.827732Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1a59cf40-939d-4572-bc52-0472b77923dd",
+                "name": "Run main democratic",
+                "create_date_time": "2021-08-14T01:08:08.425934Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

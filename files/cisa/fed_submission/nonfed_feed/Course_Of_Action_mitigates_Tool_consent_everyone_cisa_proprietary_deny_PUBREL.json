@@ -1,0 +1,97 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--b89cd537-d7ae-4330-8165-59f34a6ee57c",
+        "created_by_ref": "identity--b265cf08-b98b-45e5-9d70-c87cd699c94c",
+        "created": "2020-08-19T08:03:32.207984Z",
+        "modified": "2021-08-14T01:08:25.775624Z",
+        "name": "everybody",
+        "labels": [
+            "specific",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--ab021999-bcf5-4fa7-8dad-96965b178299",
+        "created_by_ref": "identity--b265cf08-b98b-45e5-9d70-c87cd699c94c",
+        "created": "2022-01-16T11:34:10.015204Z",
+        "modified": "2022-08-19T05:35:38.967441Z",
+        "name": "hour",
+        "aliases": [
+            "action",
+            "deep"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mvMhBa",
+                "phase_name": "YvoxK"
+            },
+            {
+                "kill_chain_name": "dWZqEdXJwjoVFFt",
+                "phase_name": "zqBnTJgYUiPUubsfrKeV"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 96,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b11e5f67-15be-4baf-b712-f3574689cd7f",
+        "created_by_ref": "identity--b265cf08-b98b-45e5-9d70-c87cd699c94c",
+        "created": "2020-06-17T12:49:02.095728Z",
+        "modified": "2021-08-14T01:08:25.776223Z",
+        "relationship_type": "mitigates",
+        "description": "Spring well one chance. Civil center meet choose and player third.",
+        "source_ref": "course-of-action--b89cd537-d7ae-4330-8165-59f34a6ee57c",
+        "target_ref": "tool--ab021999-bcf5-4fa7-8dad-96965b178299",
+        "stop_time": "2022-06-15T22:27:30.598045Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b265cf08-b98b-45e5-9d70-c87cd699c94c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-22T01:27:59.811056Z",
+        "modified": "2021-08-14T01:08:25.778231Z",
+        "name": "PublicArtistBody",
+        "description": "Assimilated fault-tolerant info-mediaries",
+        "roles": [
+            "child",
+            "item",
+            "know"
+        ],
+        "contact_information": "PSC 5913, Box 2233\nAPO AE 90769",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 12,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

@@ -1,0 +1,218 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--b2179f60-1930-4cf1-8005-feefe396e699",
+        "created_by_ref": "identity--3deb1b95-01a0-4ed5-9b2b-0c54d57f6649",
+        "created": "2021-12-31T13:53:34.96188Z",
+        "modified": "2022-07-01T04:34:24.009517Z",
+        "description": "Dog agent together feeling.",
+        "pattern": "[ipv4-addr:value > '205.11.57.120'] OR ([user-account:account_created = t'2021-12-02T17:06:32.352593Z'] START t'2020-11-25T15:32:22.442876Z' STOP t'2021-11-21T23:17:51.657943Z') REPEATS 7 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-05-04T12:52:33.345304Z",
+        "valid_until": "2022-06-03T14:53:03.546915Z",
+        "confidence": 13,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--427ff5a7-856b-4f76-9120-6715c473e05a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--64905099-1483-417a-b0d5-b26e804f6fa4",
+        "created_by_ref": "identity--3deb1b95-01a0-4ed5-9b2b-0c54d57f6649",
+        "created": "2022-03-25T14:04:36.329572Z",
+        "modified": "2022-04-13T01:11:33.619659Z",
+        "name": "early",
+        "first_seen": "2020-10-15T13:08:17.067519Z",
+        "last_seen": "2021-08-16T17:25:02.585106Z",
+        "object_marking_refs": [
+            "marking-definition--427ff5a7-856b-4f76-9120-6715c473e05a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--25a80a98-9518-47d9-a7ac-d44045672597",
+        "created_by_ref": "identity--3deb1b95-01a0-4ed5-9b2b-0c54d57f6649",
+        "created": "2021-12-20T13:43:11.660091Z",
+        "modified": "2022-05-03T00:21:07.563875Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--b2179f60-1930-4cf1-8005-feefe396e699",
+        "target_ref": "campaign--64905099-1483-417a-b0d5-b26e804f6fa4",
+        "confidence": 31,
+        "object_marking_refs": [
+            "marking-definition--427ff5a7-856b-4f76-9120-6715c473e05a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--6c5dce92-5aeb-4972-b988-6d047ff1d09c",
+        "created_by_ref": "identity--3deb1b95-01a0-4ed5-9b2b-0c54d57f6649",
+        "created": "2021-05-08T02:09:03.738296Z",
+        "modified": "2022-03-30T06:31:02.023667Z",
+        "explanation": "Create amount off capital believe because energy. Pattern without policy security owner that better. Film miss letter.",
+        "authors": [
+            "east",
+            "near"
+        ],
+        "opinion": "neutral",
+        "object_refs": [
+            "indicator--b2179f60-1930-4cf1-8005-feefe396e699",
+            "campaign--64905099-1483-417a-b0d5-b26e804f6fa4",
+            "relationship--25a80a98-9518-47d9-a7ac-d44045672597"
+        ],
+        "labels": [
+            "talk",
+            "the",
+            "a",
+            "pfte-batch-1"
+        ],
+        "confidence": 48,
+        "external_references": [
+            {
+                "source_name": "air",
+                "url": "https://www.martinez-moyer.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--427ff5a7-856b-4f76-9120-6715c473e05a"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3deb1b95-01a0-4ed5-9b2b-0c54d57f6649",
+        "created_by_ref": "identity--3deb1b95-01a0-4ed5-9b2b-0c54d57f6649",
+        "created": "2021-07-30T17:23:08.22881Z",
+        "modified": "2021-10-12T00:09:36.701158Z",
+        "name": "Kim, Friedman and Bond",
+        "description": "Expanded foreground service-desk",
+        "roles": [
+            "life"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "telecommunications",
+            "infrastructure"
+        ],
+        "contact_information": "2802 Castaneda Ridges Apt. 490\nCarrillomouth, MI 08861",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 14,
+        "external_references": [
+            {
+                "source_name": "stage",
+                "description": "Base low anyone majority.",
+                "url": "https://cochran.com/",
+                "external_id": "hZRlVYVgtlUT"
+            },
+            {
+                "source_name": "kind",
+                "description": "Take among see guess choose point.",
+                "url": "http://pittman.info/",
+                "hashes": {
+                    "MD5": "e40e20da0cfaa9cac82eaef1f12c80a9",
+                    "SHA-1": "761fd9bcb4b82e71162a6d117a527a25db2bafd1",
+                    "SHA-256": "92c026474f21bc3801cbd6335198816f47e777208354d39c7df26e59500092d0",
+                    "SHA-512": "17c6a465803709e60bc36b02122d1bd8b3b94b09b6f041bf30e0f7beb2b1bb9af7335b6e2fab47901503e0624750422914298dff5ca0aad01b2446e718814dd6",
+                    "SHA3-256": "740749f0680e702302655cbce56f88e6e0c09e3442b6f53317b41501dfb609aa",
+                    "SHA3-512": "38a38dd9dc552db70e9aa5a18873019250a87137e6f2aa8da5f1d2f008909f9f484441fd1cb3549fa6304677bab8f0e7c86d6176c0cf5d7231745c387e5a6761"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--427ff5a7-856b-4f76-9120-6715c473e05a"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--427ff5a7-856b-4f76-9120-6715c473e05a",
+        "created": "2021-08-14T01:08:29.521756Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6d40bd19-4710-4b69-9440-86c8c2a858b4",
+                "name": "Purpose response respond always trouble later investment",
+                "create_date_time": "2021-08-14T01:08:08.431664Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.4315Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

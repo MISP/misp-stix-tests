@@ -1,0 +1,213 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--0099be70-b160-40fa-9de6-9204c8113dea",
+        "created_by_ref": "identity--5ceb2ac6-88c1-4bec-b306-40d81cbd506f",
+        "created": "2021-06-15T14:20:34.965582Z",
+        "modified": "2021-08-14T01:08:13.27888Z",
+        "name": "range",
+        "labels": [
+            "oil",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--4e4cf002-2652-4ff8-8f59-f881a170f4ed"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--08461f70-2713-48e8-a27e-5a830188f314",
+        "created_by_ref": "identity--5ceb2ac6-88c1-4bec-b306-40d81cbd506f",
+        "created": "2021-03-12T08:03:09.145682Z",
+        "modified": "2021-08-14T01:08:13.279127Z",
+        "name": "follow",
+        "description": "Break shake attack region sit face result.",
+        "aliases": [
+            "run",
+            "similar"
+        ],
+        "goals": [
+            "Add back tonight anyone subject attorney spring.",
+            "Suddenly hit control magazine practice it beat.",
+            "Else everybody page serious."
+        ],
+        "resource_level": "club",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--4e4cf002-2652-4ff8-8f59-f881a170f4ed"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--be65074a-66f5-4ab1-8028-3dd04439a2b2",
+        "created_by_ref": "identity--5ceb2ac6-88c1-4bec-b306-40d81cbd506f",
+        "created": "2022-04-05T23:19:25.801143Z",
+        "modified": "2022-10-30T20:19:57.424491Z",
+        "relationship_type": "attributed-to",
+        "description": "May owner never contain mission. Accept usually management bad scientist organization course.",
+        "source_ref": "campaign--0099be70-b160-40fa-9de6-9204c8113dea",
+        "target_ref": "intrusion-set--08461f70-2713-48e8-a27e-5a830188f314",
+        "labels": [
+            "red",
+            "others",
+            "beyond",
+            "ground",
+            "whom",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--4e4cf002-2652-4ff8-8f59-f881a170f4ed"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--4e4cf002-2652-4ff8-8f59-f881a170f4ed",
+        "created_by_ref": "identity--5ceb2ac6-88c1-4bec-b306-40d81cbd506f",
+        "created": "2021-08-14T01:08:13.27814Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f217105b-ccd2-4cb0-893a-c1314d7d2d64",
+                "name": "Strategy land response sport over",
+                "create_date_time": "2021-08-14T01:08:08.422773Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.422466Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5ceb2ac6-88c1-4bec-b306-40d81cbd506f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-04T19:54:24.878627Z",
+        "modified": "2021-08-14T01:08:13.28005Z",
+        "name": "Lyons PLC",
+        "sectors": [
+            "government-local",
+            "education",
+            "financial-services",
+            "government-regional",
+            "chemical"
+        ],
+        "contact_information": "Unit 5117 Box 3357\nDPO AA 27919",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 34,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "difference",
+                "url": "https://frazier.com/"
+            },
+            {
+                "source_name": "partner",
+                "url": "http://www.willis.com/",
+                "hashes": {
+                    "MD5": "1c9c5ee320ad2e0be4d0e204a8c5eccc",
+                    "SHA-1": "4774d144cdcb0b99f43949b119ba1e8b041681a8",
+                    "SHA-256": "2c5d745bfb09c7ed0cf61a14672fab795caba2c810dfe3b7da2a82762d5de83e",
+                    "SHA-512": "209d12d960e11907597eb43192abffcb61823d70192c956366d29381b51b405613cc20a6e5847eac799efa908d592f57e43d1bdd166eaf4b186772c409937e30",
+                    "SHA3-256": "9d0bfa987dad22587b5d80df94c2cdb23395974370cb77bb9196adc3e5d142b2",
+                    "SHA3-512": "b3dd951cd19d0e7909cf4fe1bb66cc173d3b730fd1382e407849dab46e6b1dcde3e92c9d6c92695067cb0aad9b217090455762d3e19fc7bb76c66721e53ebf52"
+                },
+                "external_id": "MjWVTGXvIGoESPW"
+            },
+            {
+                "source_name": "with",
+                "description": "While fund interview yet.",
+                "url": "http://smith-williams.com/",
+                "external_id": "PZRBcQaoTPMecDmvoDk"
+            },
+            {
+                "source_name": "travel",
+                "url": "http://www.novak-henderson.biz/",
+                "external_id": "XuCFXVFnuzMT"
+            },
+            {
+                "source_name": "behind",
+                "url": "https://www.wells.com/",
+                "hashes": {
+                    "MD5": "b4652e86e07e095490a4c27b31c6e0dd",
+                    "SHA-1": "205719d6ccd457d47f4135ecfe3f95ee29d2540e",
+                    "SHA-256": "4665ead28c6064adc27bc1049226c0b441ef9fa6721ace76cca5753aede3a379",
+                    "SHA-512": "e1e4efbd79bf99a92b17d018170798a5d904ed69ef0f79e5c24c3a062162f18ab35362c576222be6000e5a54efe6f78eeba81c94f0b85a9dfe10e7043fabaf73",
+                    "SHA3-256": "5f4b1822f0cbde1ff67ed8677151ddbcdd5c7df96398001cc527298e10dce65a",
+                    "SHA3-512": "9a60f44849f8cb44f3d5c07dd9e73a0b38840808f97e03c54b6786002d0c6c863c3a61addcaad7936bb34c3728bdf3e0ae77c07656fb472e8ab88236a4415744"
+                },
+                "external_id": "pZWDrywsBaXBNldlhqa"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4e4cf002-2652-4ff8-8f59-f881a170f4ed"
+        ]
+    }
+]

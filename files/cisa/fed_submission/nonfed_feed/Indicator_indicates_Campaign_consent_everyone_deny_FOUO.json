@@ -1,0 +1,115 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--b14efc9d-ebb6-4aa0-84cc-be8cc0456812",
+        "created_by_ref": "identity--994e3b26-7fb7-4405-aebd-1d892c963dea",
+        "created": "2021-09-24T11:49:47.603439Z",
+        "modified": "2022-04-20T05:18:51.200042Z",
+        "pattern": "[email-message:message_id <= 'dadams@sanchez.com']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-01-24T17:52:54.604349Z",
+        "valid_until": "2021-03-10T04:07:31.29802Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "yWUwxYpEJjJdbBS",
+                "phase_name": "fkVRnkNxlQJAImkXAp"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "labels": [
+            "full",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--376972c0-ce51-49f4-b480-2582245d19e3",
+        "created_by_ref": "identity--994e3b26-7fb7-4405-aebd-1d892c963dea",
+        "created": "2021-10-24T19:24:04.185897Z",
+        "modified": "2022-03-18T19:39:04.565909Z",
+        "name": "decade",
+        "last_seen": "2022-04-21T05:57:32.070754Z",
+        "labels": [
+            "goal",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "serious",
+                "description": "Street newspaper sign sell describe community.",
+                "url": "https://www.andrade.com/",
+                "hashes": {
+                    "MD5": "464e4886d5be15489eb768cf53ad8851",
+                    "SHA-1": "4e7c3f154c247faa996733c0a05d2a7ae7d41bce",
+                    "SHA-256": "d64cf9ee44ac7c8c8467b960ffe02f85f7a832e2abd95b5df0e4d43334dc978d",
+                    "SHA-512": "fc17ba090befb290ceeefbb4ee3037d200e6432163a34814d81fb82705a9b4dc2ebc2392ba8f01ed6a37785e46be8dad066ce1123d3a8c95a615b8a7fc80aeec",
+                    "SHA3-256": "3cafa47dc80fe680cb040095d579e95d8045ebc4d501a3d41aec01c2d4f4685a",
+                    "SHA3-512": "61b547ea3d34f3f3921f5bf2c1011c31cec5290fecbfdfce56fd2ac83861b1ebde821c3a19ccab00f60bbc186b0edd8311192b4000c176c1ae76b3c4425b4ced"
+                },
+                "external_id": "farEFAlTDfCDelm"
+            },
+            {
+                "source_name": "difficult",
+                "description": "Stage me cover where buy according.",
+                "url": "https://franklin.org/",
+                "external_id": "aAliDFBaCliFwD"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--77fa1ab7-07e1-47d1-a51f-1e255d972d4c",
+        "created_by_ref": "identity--994e3b26-7fb7-4405-aebd-1d892c963dea",
+        "created": "2020-11-17T05:42:24.621763Z",
+        "modified": "2021-08-14T01:08:29.358356Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--b14efc9d-ebb6-4aa0-84cc-be8cc0456812",
+        "target_ref": "campaign--376972c0-ce51-49f4-b480-2582245d19e3",
+        "stop_time": "2020-11-16T18:22:07.262903Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--994e3b26-7fb7-4405-aebd-1d892c963dea",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-25T09:07:36.611965Z",
+        "modified": "2021-08-14T01:08:29.361062Z",
+        "name": "DriveMaintainEarly",
+        "description": "Visionary stable matrix",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "walk",
+                "url": "http://jordan-peterson.org/",
+                "external_id": "rbhfmuZZPuoa"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

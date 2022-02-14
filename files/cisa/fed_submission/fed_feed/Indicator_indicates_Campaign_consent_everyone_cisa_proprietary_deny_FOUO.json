@@ -1,0 +1,321 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--6fb3f3a5-b6ee-41ae-817b-500a9ed4ee04",
+        "created_by_ref": "identity--6e60d02f-bfc0-428d-848f-86c0cfab9199",
+        "created": "2021-10-08T16:24:56.646147Z",
+        "modified": "2022-04-15T17:00:31.217128Z",
+        "name": "majority",
+        "indicator_types": [
+            "anomalous-activity",
+            "unknown"
+        ],
+        "pattern": "[windows-registry-key:defanged NOT = false] FOLLOWEDBY [email-addr:value = 'cindymadden@gmail.com'] FOLLOWEDBY [ipv6-addr:defanged = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-07-03T10:18:54.957432Z",
+        "valid_until": "2021-04-10T12:04:02.88951Z",
+        "confidence": 98,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "pick",
+                "url": "https://webb.com/",
+                "external_id": "IdsTEV"
+            },
+            {
+                "source_name": "break",
+                "description": "Girl away long dream lose near no.",
+                "url": "https://www.payne.com/",
+                "external_id": "dYEgoNjqhcchl"
+            },
+            {
+                "source_name": "weight",
+                "description": "Avoid significant reveal bar dinner during offer compare.",
+                "url": "http://www.hensley-smith.com/",
+                "external_id": "aHaBLGXP"
+            },
+            {
+                "source_name": "management",
+                "description": "Argue police just walk.",
+                "url": "http://www.sparks.org/",
+                "hashes": {
+                    "MD5": "146194179c4a3a04117011ff4a241db6",
+                    "SHA-1": "c457d40dce203475da4644f7c312874639711174",
+                    "SHA-256": "37ce5f6fe837631d23b1e2df70c895ea67c7df39f2661848a21cb845e09c29e0",
+                    "SHA-512": "995c87d4972431e848ce9a960fdf037350950688b4c85619ef41cc4f2c47661c7a925740236bb0a85c82463b91b8aa70bf0f5cee98b696203dc768e0f61edc37",
+                    "SHA3-256": "b78af94f0e8f90b41d8b687bf8f96340d3fc5edcae9f35d1403eb53768e08c62",
+                    "SHA3-512": "402d640d0b7cc34af4fc09af5cd2985273d9629841d1c03bd4a645fee124faa9ac6dbdb2d7761cfe60cbfbf79c538692198a43c7389054fcd04b3dcdd2a2cf8b"
+                },
+                "external_id": "grTOQxbQNLIzNYVF"
+            },
+            {
+                "source_name": "imagine",
+                "description": "Alone door indicate include drop would wonder since.",
+                "url": "https://taylor.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0c1068dc-15e6-4beb-960c-57cf93cb3cfc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--12500782-0296-4ad2-9a29-271b27290358",
+        "created_by_ref": "identity--6e60d02f-bfc0-428d-848f-86c0cfab9199",
+        "created": "2021-10-12T04:30:40.307246Z",
+        "modified": "2022-07-16T18:07:49.201122Z",
+        "name": "especially",
+        "labels": [
+            "firm",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "sort",
+                "url": "https://www.evans.info/",
+                "hashes": {
+                    "MD5": "853c9d1a1f68a0bceccfda23cdd24193",
+                    "SHA-1": "30fd93f58335a74a5e033b903844bbdb7fa0f29d",
+                    "SHA-256": "07b9b2d4f0e4a5fdc28defdd2f6804ee856340b13414fa3014a2c8cfa5d1640e",
+                    "SHA-512": "85926c9a9334dead57db2f6cf8f3278db4078aab56361ecf6eeb299bad441eb1c7ca4f527bbb52a0b3a13522bffd11419072d55a4a901719a63cf84bb9c9e37f",
+                    "SHA3-256": "3813ada53bac9e3b05b97be5b862a6efe09ed171175c4fc42a59f126738002b8",
+                    "SHA3-512": "6ccfd9dec5eb482220a1b7605e3dc7b5d3ba6f437db8f5b9dd43c7c83f62f0d17746e1d92dfdf28bdff81083fe78d4dd76c648ff34ea830ddbbc2cc516dc0a90"
+                }
+            },
+            {
+                "source_name": "appear",
+                "hashes": {
+                    "MD5": "4cde12dcbd3c0862d668ab424c3bd3b3",
+                    "SHA-1": "c8495a00f9f531b3463c1e1355f02599e9d0f2a7",
+                    "SHA-256": "768fb4a30e6e35816e6108ae92f83fa7b1b0af133c751e4611d1516b53d6871e",
+                    "SHA-512": "25bdfc00c99a02d88e346aa9678dca8effc31070fb13fa619c205bfa8fe7dffe5859e235882fb9b63c6811d59e1ae79d72b8ac5ad96edbe786467ef866d5ef4d",
+                    "SHA3-256": "e2f6aebe3ff27a2ebf1b4d8afb6fc7d65694112ace651110ab4b25f282558f81",
+                    "SHA3-512": "81e763874fa5b9958083246e99926c7e994ea88d3badcc57f9052e382d22286392825d13a4b486f47ca6b4f3440c97a9341f5f8280e2c133557b5570b58e283a"
+                },
+                "external_id": "ZGyeniIH"
+            },
+            {
+                "source_name": "key",
+                "description": "Much water scene senior.",
+                "hashes": {
+                    "MD5": "30f9b0b34d30398ff4f27b6f50a3f4c7",
+                    "SHA-1": "7cdb0ef6a5befe59536b09db90740b64838a7713",
+                    "SHA-256": "4d022a1df2f2ef19118a7278a1edfed9703e4a99c0a358ab83095fd6a62d08f0",
+                    "SHA-512": "38bfd2a96cd1865df7927b1a9612aaab6f1c45998a8c4cc7f459118fd4b83577633b4b9239cbbfd76ac6adcb09aa65e7c02ce05038f5acfb53567a5a652bcaab",
+                    "SHA3-256": "6e67bcb646c5f84d4b2fe4d89ca2f929f7f63d0ad643ceeca4fabd039b4db934",
+                    "SHA3-512": "5a1c5760c7f887734ef472c69d586723c0e8c270823b10fb65d34ce0528e33cbbbdec871c2b7d49b074ed86e320223c3e0d2f1cf4c880e40f59c4dba9ec82c70"
+                },
+                "external_id": "FFofwDAfmYsYA"
+            },
+            {
+                "source_name": "fire",
+                "description": "Key young animal view lead seem me.",
+                "hashes": {
+                    "MD5": "8bfc866e30e1548db8ab54c2f4e3ea68",
+                    "SHA-1": "40d92ee1c1bc75caa028b671ed1fc00a2842a38c",
+                    "SHA-256": "69df075f557bf6b1e5efb6ac5864f74e88cb3944875d818742f89fb291396807",
+                    "SHA-512": "630fcbc5c45500c8e281f5c389929ff18e1afe0a2ce5b840e62183c547fc6b3062b3982a4236346ab891659a4fa9503392bbefc927e34e0cc68f59edaef632a6",
+                    "SHA3-256": "0868ab960761f9d0ada9fe0f67654e477201503b7d7c2d52f3484390c66321df",
+                    "SHA3-512": "1165d535842568a169cc275c8b689d3180cc67515b821029ed044a979e458d72426e3398f2978c5e43b194ea7c8653e392707094b4b5d8a93414d4e0dfd24913"
+                },
+                "external_id": "NILsXmbsajaQmgalRzUy"
+            },
+            {
+                "source_name": "pretty",
+                "url": "http://www.roberts.biz/",
+                "hashes": {
+                    "MD5": "66487760de3fa8f8a81efd2a61e7e755",
+                    "SHA-1": "905aca2312a3ff151015d2249bb7d1120154bd8e",
+                    "SHA-256": "0f34c236663839210b1f4b3978ca253809a36ebde7a81255e8c2738f161b4e77",
+                    "SHA-512": "34384c50f2007c7ebbeff46677b22007176cffc5ae909c5d0ecf92d66c3f9b52912820e01d781947befb72ef6e929e917edd31b75b207d6860edc18e887ecef2",
+                    "SHA3-256": "6248a463d12fd83aa576778abd2022ed20aae4f7dbf818193578436f50630052",
+                    "SHA3-512": "eeee7afdf15a96fc02aa5f9b2ade83a0ee0da14173dc6dc27156dad690d075e4a77dba467d0f6854e9a0391c1180ae09d7bd73c50d7caa695e41294b5ac290cb"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0c1068dc-15e6-4beb-960c-57cf93cb3cfc"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d8e70bd6-dda6-4636-9923-73c8e49e1b19",
+        "created_by_ref": "identity--6e60d02f-bfc0-428d-848f-86c0cfab9199",
+        "created": "2021-11-22T04:32:49.89291Z",
+        "modified": "2022-08-25T01:37:47.239631Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--6fb3f3a5-b6ee-41ae-817b-500a9ed4ee04",
+        "target_ref": "campaign--12500782-0296-4ad2-9a29-271b27290358",
+        "stop_time": "2021-02-09T19:32:56.505633Z",
+        "labels": [
+            "machine",
+            "reduce",
+            "sea",
+            "town",
+            "between",
+            "pfte-batch-1"
+        ],
+        "confidence": 45,
+        "external_references": [
+            {
+                "source_name": "pretty",
+                "description": "Fine day argue usually body once drive camera.",
+                "url": "https://parker.com/",
+                "external_id": "gnZbb"
+            },
+            {
+                "source_name": "cold",
+                "description": "Stuff least indeed help.",
+                "url": "https://wagner.info/",
+                "external_id": "xpwqiTugKSGFElICfqI"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0c1068dc-15e6-4beb-960c-57cf93cb3cfc"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6e60d02f-bfc0-428d-848f-86c0cfab9199",
+        "created_by_ref": "identity--6e60d02f-bfc0-428d-848f-86c0cfab9199",
+        "created": "2022-01-03T18:26:18.047944Z",
+        "modified": "2022-07-08T11:12:10.18974Z",
+        "name": "Merritt Inc",
+        "description": "Compatible disintermediate solution",
+        "roles": [
+            "fill",
+            "teach"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "entertainment",
+            "government-local",
+            "government-national",
+            "water"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 67,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "computer",
+                "description": "It language key shake stop star night.",
+                "hashes": {
+                    "MD5": "d17d90908daae3129cd4bd156c2afccf",
+                    "SHA-1": "916290ece9d17b8e2f771258bb39fb42a13f34a4",
+                    "SHA-256": "95b3439104e411212ed8302bc198233e7b7a878ab2186b8954abd55eb997c1e7",
+                    "SHA-512": "1021c8908092759009e1415f8cfe6675739339e73423278e52130b1563fa9cb7b03e90ffbb3e3597667a2c390c00205f7a9627f909a0e66c31c0d958e3f51834",
+                    "SHA3-256": "cc944ddeb9a8eb45427e7dc60462f02201b61d194bb206a35ecba1757a327cd7",
+                    "SHA3-512": "644a4215932bb9c0110dfcbf0899be151879ff498a154f7a3d49f484526dbbadcda928ae1fe023f2d08a870b29a1340e9a7707413b7a8e8a3694db301f0aacc2"
+                },
+                "external_id": "XbOPlIMaeHQulZYAibQj"
+            },
+            {
+                "source_name": "near",
+                "description": "Degree important improve agree three his at media.",
+                "external_id": "nTMryag"
+            },
+            {
+                "source_name": "on",
+                "url": "https://anderson.com/",
+                "external_id": "WUIAjTWWEeN"
+            },
+            {
+                "source_name": "pay",
+                "description": "Wait morning according finish return put.",
+                "url": "https://collins-jackson.com/",
+                "hashes": {
+                    "MD5": "33870ac240cfd2495df07339b7cd6eeb",
+                    "SHA-1": "a515c6e1a518fb7049af46aa5f4dfdd279650683",
+                    "SHA-256": "52722cc93081a6f4f31036a2f5b99da3274b79ecb985542c44f2f6227bc09310",
+                    "SHA-512": "07361ecc5e56a3d73c34a5205d5e296cd1762d8f5889ced741fc64a43af8a437aca715f4cbdd34cebd8bb27c9e9f433e6d8811aef5fd58513320cd6f7d794e31",
+                    "SHA3-256": "4b1300c7d4ce060112f7499f4985e28dbec93e667c1399369afb88e50bba31d6",
+                    "SHA3-512": "505b8b2a2665d7c39663fa85781b28ef30352fab87de5a63babcc7e51f92ce78b4d68a099e9d2ad39fe27a1dea3f8fc415775db573344a44f9100125a563dd02"
+                },
+                "external_id": "XcOTar"
+            },
+            {
+                "source_name": "be",
+                "url": "https://www.curtis.org/",
+                "hashes": {
+                    "MD5": "4e1ac5fd606044ef5bfdfddb625d2d0c",
+                    "SHA-1": "0f85525182a98c20fc903f5398f6553b5f9cb1cd",
+                    "SHA-256": "64d1193a5f3b1067998863cb19c24d5846872494ee6d7c607540dc9437ce22c8",
+                    "SHA-512": "98069f2e3f55e4915469ee7c1464642845d7ee85cebc1d1a1ef804ac9dd19378885eb001463e84ff8e7e4adf0a66dd70c2f5021e40450a47bb5d99f76ce84760",
+                    "SHA3-256": "8519abd0f614a8a46b696928cb21335a241f1d5048a02ce1b28080d18b7ab893",
+                    "SHA3-512": "aca8cc430a40538b78f17d5e3a068ee93a0a7ff1d07b6ae9863b3f7ef7470f07a4077fd58e3539953e3d0c84e005484bc1584bf280938872bfef07a565acb82d"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0c1068dc-15e6-4beb-960c-57cf93cb3cfc"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--0c1068dc-15e6-4beb-960c-57cf93cb3cfc",
+        "created": "2021-08-14T01:08:29.562175Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e0c28f68-5570-434a-9764-3e8498f0a59a",
+                "name": "Serve much idea usually",
+                "create_date_time": "2021-08-14T01:08:08.432065Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

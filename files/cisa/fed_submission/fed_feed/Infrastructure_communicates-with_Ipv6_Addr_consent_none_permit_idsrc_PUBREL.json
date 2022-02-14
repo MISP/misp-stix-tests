@@ -1,0 +1,158 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--1da7cbba-39b3-4f25-84aa-0b8b089bf854",
+        "created_by_ref": "identity--eca9d25f-76a2-413d-aa3a-8dd0a8b34eb6",
+        "created": "2021-06-03T03:04:35.501101Z",
+        "modified": "2021-08-14T01:08:40.315682Z",
+        "name": "structure",
+        "infrastructure_types": [
+            "staging",
+            "hosting-target-lists"
+        ],
+        "aliases": [
+            "society"
+        ],
+        "last_seen": "2021-04-13T18:57:31.310438Z",
+        "labels": [
+            "commercial",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--629f6d01-555c-4254-9040-6b0e13ba96c7"
+        ]
+    },
+    {
+        "type": "ipv6-addr",
+        "spec_version": "2.1",
+        "id": "ipv6-addr--989cfcd4-3659-49a4-af0f-80595d68b6c5",
+        "value": "bf9d:ee88:8e96:8d34:ab46:50cf:72c:8629",
+        "object_marking_refs": [
+            "marking-definition--629f6d01-555c-4254-9040-6b0e13ba96c7"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--bf0a01a9-23ce-4760-abd4-0b25ebf122f2",
+        "created_by_ref": "identity--eca9d25f-76a2-413d-aa3a-8dd0a8b34eb6",
+        "created": "2021-05-16T08:13:02.122432Z",
+        "modified": "2022-03-30T20:31:31.581943Z",
+        "relationship_type": "communicates-with",
+        "description": "Pay strategy open before. Seven close foreign popular trade agency student.",
+        "source_ref": "infrastructure--1da7cbba-39b3-4f25-84aa-0b8b089bf854",
+        "target_ref": "ipv6-addr--989cfcd4-3659-49a4-af0f-80595d68b6c5",
+        "start_time": "2021-08-01T10:38:47.88811Z",
+        "labels": [
+            "human",
+            "such",
+            "make",
+            "able",
+            "follow",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--629f6d01-555c-4254-9040-6b0e13ba96c7"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--eca9d25f-76a2-413d-aa3a-8dd0a8b34eb6",
+        "created_by_ref": "identity--eca9d25f-76a2-413d-aa3a-8dd0a8b34eb6",
+        "created": "2021-12-29T05:50:06.324263Z",
+        "modified": "2022-12-28T14:27:32.407288Z",
+        "name": "Martinez-Jones",
+        "sectors": [
+            "construction"
+        ],
+        "contact_information": "2828 Kevin Port Suite 250\nReesebury, KY 86347",
+        "confidence": 80,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--629f6d01-555c-4254-9040-6b0e13ba96c7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--629f6d01-555c-4254-9040-6b0e13ba96c7",
+        "created": "2021-08-14T01:08:40.315001Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c37eda22-f302-4b2e-bf63-7f8ea35d72b0",
+                "name": "Event really first our country somebody",
+                "create_date_time": "2021-08-14T01:08:08.426408Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.426228Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

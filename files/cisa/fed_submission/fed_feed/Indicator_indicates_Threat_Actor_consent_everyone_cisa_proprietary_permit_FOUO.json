@@ -1,0 +1,248 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--2dddf75b-4a98-4b49-82eb-51dfa46b9880",
+        "created_by_ref": "identity--f981eb4a-ed18-41e1-9cf3-0e46f5e1d1b3",
+        "created": "2020-09-06T14:42:12.064639Z",
+        "modified": "2021-08-14T01:08:34.526673Z",
+        "indicator_types": [
+            "anonymization"
+        ],
+        "pattern": "([process:is_hidden = false]) OR [windows-registry-key:defanged NOT = false] START t'2021-08-16T21:43:29.776324Z' STOP t'2022-02-24T14:15:54.629707Z'",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-11-08T13:56:45.760143Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "attack",
+            "work",
+            "pfte-batch-1"
+        ],
+        "confidence": 68,
+        "object_marking_refs": [
+            "marking-definition--692fe246-27c0-4474-bca7-49d2506f6688"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--e28a4421-f414-4de5-9109-c5864cd74a21",
+        "created_by_ref": "identity--f981eb4a-ed18-41e1-9cf3-0e46f5e1d1b3",
+        "created": "2021-08-23T05:50:39.978731Z",
+        "modified": "2022-02-04T19:42:19.165753Z",
+        "name": "media",
+        "description": "Close between modern age movie manager fire.",
+        "first_seen": "2021-12-19T15:34:00.434416Z",
+        "last_seen": "2022-03-09T18:13:22.002686Z",
+        "roles": [
+            "agent",
+            "director",
+            "agent",
+            "infrastructure-architect"
+        ],
+        "resource_level": "government",
+        "primary_motivation": "revenge",
+        "labels": [
+            "study",
+            "yes",
+            "tax",
+            "reality",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--692fe246-27c0-4474-bca7-49d2506f6688"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--456ba600-00f5-4320-b293-8dda28a7b43e",
+        "created_by_ref": "identity--f981eb4a-ed18-41e1-9cf3-0e46f5e1d1b3",
+        "created": "2021-04-24T13:46:29.021973Z",
+        "modified": "2021-08-14T01:08:34.529312Z",
+        "relationship_type": "indicates",
+        "description": "Several sea anything onto health. North source kitchen just. Federal author personal fact wear.",
+        "source_ref": "indicator--2dddf75b-4a98-4b49-82eb-51dfa46b9880",
+        "target_ref": "threat-actor--e28a4421-f414-4de5-9109-c5864cd74a21",
+        "start_time": "2022-08-11T14:24:26.362876Z",
+        "stop_time": "2023-01-28T04:46:56.550734Z",
+        "labels": [
+            "already",
+            "her",
+            "yard",
+            "pfte-batch-1"
+        ],
+        "confidence": 74,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "particular",
+                "description": "Box chance know attorney.",
+                "url": "https://strickland-kim.biz/",
+                "hashes": {
+                    "MD5": "6d0c8a9a2584982152804bb3560d22b4",
+                    "SHA-1": "f1310519de3c395f029b681e87e9a7ae1eab2718",
+                    "SHA-256": "302d308c19fa9a6558473b757d56be92916c3eb7c14d2b25134bd6b60529f5c0",
+                    "SHA-512": "2aeacc45f39994b28230127bea957324f18b6b12e8de21c5b205387ce6045c40c0832a19250206c588b5748da8568246000ef1edec53d023b72ed17ee875a5be",
+                    "SHA3-256": "206d5f0aefc0d200a199f43ee44a1bab26188d732c82b9b96638110c7c30d5af",
+                    "SHA3-512": "cb4625ed3571918adf4206af39b58b218441b0b157a467b349c4257e4afdcadd89ed53037a12b02973971b342f6274c266d420d0d669bcad33c83ef717e7989d"
+                },
+                "external_id": "GXLIDmOSNRg"
+            },
+            {
+                "source_name": "thus",
+                "description": "Guess consumer the future.",
+                "url": "http://www.kelley.com/",
+                "hashes": {
+                    "MD5": "132d59ea6624b5b6f9634210d888acf5",
+                    "SHA-1": "213a86bbb20ef0efb5e95361d352c93bb4f1edff",
+                    "SHA-256": "734c0c1dbd9e5c2526601d84379064818ea12cc9c211f068af3e37c3b36d6051",
+                    "SHA-512": "3b94bbba9a3475b66fc2d597df6d261a63ca22b687a32ec9b123be6f3c0fb18437ad1af72b7a00992c4258381a1bb5aa680a770f03b665dff41f84839e4b9667",
+                    "SHA3-256": "34627c65db3ea655d0c24c85c547fc66dc9ec97171ce7fb880116ad45009bc7b",
+                    "SHA3-512": "de31c8c01d93d44ad6b600919cd6e70a7adb0f87516f643ab5e34b989fe9a24074f39d2cc968b77d02b9edbc87f370b8785b487d064745227165d920bf5067c0"
+                }
+            },
+            {
+                "source_name": "believe",
+                "description": "Design program but.",
+                "url": "https://campbell.net/",
+                "hashes": {
+                    "MD5": "708dc04decbdc7638e13b91b1137c5e8",
+                    "SHA-1": "dc058df64dc4dbb2a3358de0634fbfa3c406fcc1",
+                    "SHA-256": "14b1ce63a272edd6b1f1ec86847c4a44abc9d4e6a373859d22080a367e8eeb73",
+                    "SHA-512": "d565ef23f5fc89d6e32a7db13a76d4e9c958b50854afcf00c7a857050c203ba8d7a971cb41a2376c9f80b0271084a7eed0d098fb63c0ee35640fb89b255d13b3",
+                    "SHA3-256": "fe00cf8b79fcbd4e5d596d9ff399648e42e499d1b2e1f1c49a2ec1978bd3944d",
+                    "SHA3-512": "fd85f156943779b5ab35cb1f9be034ea44b80231721a89e45c29a2fce73b1f2ca934dcd1b1903fc89a5ef59aa8e5628bd5d0c96d2d756ab6a77b563fa366c79d"
+                },
+                "external_id": "cojDzBVzj"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--692fe246-27c0-4474-bca7-49d2506f6688"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f981eb4a-ed18-41e1-9cf3-0e46f5e1d1b3",
+        "created_by_ref": "identity--f981eb4a-ed18-41e1-9cf3-0e46f5e1d1b3",
+        "created": "2020-08-28T05:19:25.115118Z",
+        "modified": "2021-08-14T01:08:34.529947Z",
+        "name": "Mathews Group",
+        "description": "Cross-group hybrid software",
+        "roles": [
+            "heavy",
+            "new",
+            "star",
+            "site",
+            "often"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "automotive",
+            "construction",
+            "financial-services"
+        ],
+        "contact_information": "2939 Palmer Well Suite 308\nKimberlychester, IN 71959",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "ten",
+                "description": "Current standard teacher teach type week second common.",
+                "url": "https://decker-williams.com/",
+                "hashes": {
+                    "MD5": "f8330306a7db7da43f50e135015df896",
+                    "SHA-1": "751d46eb39367f77c9af8974f8b9ec43c8c30cf9",
+                    "SHA-256": "8e9228aceb3d3b6dbf6deb7fcd5da86e87ce1c959236b50cabde1e5a6c495b8f",
+                    "SHA-512": "069b6c0af7721b06ab0ca2f65d2e68950dd1cd9d7bc140312870a7cd79ae4786e5e54405cd652e8495d300a833e3cb1339d6bbf5580152f565a314f9dce72130",
+                    "SHA3-256": "f46eb00280123cede32d87f3a3c9d4ae6ac30fe4a8c44c2f20d3962a92a7fb21",
+                    "SHA3-512": "6bbd46cebb5b3aceefd7ba49f2a970c5d4da7517a1c4bf6f693d0e2b0d4917fa789d9e8be9ab42f46886e6cd09e5bef42de340983a0e7c1165eb1e3222737181"
+                }
+            },
+            {
+                "source_name": "you",
+                "description": "Involve why nice minute treatment.",
+                "url": "http://www.herrera.info/"
+            },
+            {
+                "source_name": "life",
+                "description": "Skin contain whose.",
+                "url": "http://rodriguez.com/",
+                "external_id": "NKnxkzvGTCDvkjP"
+            },
+            {
+                "source_name": "compare",
+                "url": "http://hill.com/",
+                "hashes": {
+                    "MD5": "640f728f12973b736423fcece4ff8848",
+                    "SHA-1": "97769087166528110a4e7b85cf60dd330a87e3b0",
+                    "SHA-256": "5aef1798ab10a5adb0838bfa393ba162a34f9e692fcad65bc90ce4a79b1e240d",
+                    "SHA-512": "1c37c0ea6ffa5005a717afff618ff2f5fcde36088e654a3bc3b43deba6990993196742f3119cbbcfa53d7aac6f6597ddd5abe934f6b583fda1c21890ce0f53c3",
+                    "SHA3-256": "2089232be9ab57d89887de53578b60b5fc25064df57c3860dcdaee7cf74fd4be",
+                    "SHA3-512": "571849982711aca7b86360f939e65a5cc41cdc645ed06105d89b2e8b8b0b1a82e5f60a4e9e9000479deea514b2a9ce184e384e0b5f3d39d32fb4361c853426a4"
+                },
+                "external_id": "NVHfeHCAWjqhxNCvdwl"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--692fe246-27c0-4474-bca7-49d2506f6688"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--692fe246-27c0-4474-bca7-49d2506f6688",
+        "created": "2021-08-14T01:08:34.526035Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-114c3c02-d336-4257-a679-8cbd2bcdae34",
+                "name": "Sort author none he account American industry worry",
+                "create_date_time": "2021-08-14T01:08:08.432919Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

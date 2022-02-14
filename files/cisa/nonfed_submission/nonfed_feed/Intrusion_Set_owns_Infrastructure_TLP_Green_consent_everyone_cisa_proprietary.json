@@ -1,0 +1,111 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--a04901f9-0723-4334-9dc5-b6f7b3bf7566",
+        "created_by_ref": "identity--b3ab4da6-3115-41ca-bcfe-47134e805407",
+        "created": "2021-04-25T05:51:00.93788Z",
+        "modified": "2021-11-23T05:00:42.26226Z",
+        "name": "center",
+        "resource_level": "team",
+        "secondary_motivations": [
+            "ideology",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "wear",
+            "better",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "rest",
+                "description": "Air concern growth.",
+                "url": "http://pham.net/",
+                "external_id": "ylvLKUIluJOfSliVf"
+            },
+            {
+                "source_name": "western",
+                "description": "Operation necessary hope.",
+                "hashes": {
+                    "MD5": "8ca64956bb7ed70a9e6901ee53a4eac8",
+                    "SHA-1": "c4c0cba52fe6593327f37f6274e9d31b5fdcdabb",
+                    "SHA-256": "459b2d1e69fd722b8c735feb7be14daef61770de7fad91a0429ede9f272a5f45",
+                    "SHA-512": "f2f9725ad7ba91cf90cb8d699b757eeb303d1678aea63b8f272e183e786f796935047b8b9c6394a6e814c0683a5a8973bbf7da00864c336a82d2f51b26973cde",
+                    "SHA3-256": "6c3fb37a42e0ba10671b02b470febf4acb07c40b6b15a181c33b86c2a901a33f",
+                    "SHA3-512": "d22668a2ab65db76857574567e17cae4a31d4daa527de9370b18489d931bd29ceb75d76eee7b9efed8ba2bd824334f1f94a20b38b630dd4edb42853844d731c0"
+                },
+                "external_id": "LdouVhZNz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--ca9a341e-f3a4-4301-bcd2-ea68b7785539",
+        "created_by_ref": "identity--b3ab4da6-3115-41ca-bcfe-47134e805407",
+        "created": "2021-10-07T06:29:57.696579Z",
+        "modified": "2022-09-06T10:27:42.803811Z",
+        "name": "make",
+        "infrastructure_types": [
+            "routers-switches",
+            "command-and-control",
+            "workstation",
+            "exfiltration"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 7,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--fc57be5d-e96c-4758-9324-bed6a0e9ad77",
+        "created_by_ref": "identity--b3ab4da6-3115-41ca-bcfe-47134e805407",
+        "created": "2020-10-29T11:27:40.347924Z",
+        "modified": "2021-08-14T01:08:53.968263Z",
+        "relationship_type": "owns",
+        "source_ref": "intrusion-set--a04901f9-0723-4334-9dc5-b6f7b3bf7566",
+        "target_ref": "infrastructure--ca9a341e-f3a4-4301-bcd2-ea68b7785539",
+        "start_time": "2021-05-23T16:52:40.412208Z",
+        "labels": [
+            "have",
+            "what",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b3ab4da6-3115-41ca-bcfe-47134e805407",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-02-23T23:16:37.789322Z",
+        "modified": "2022-11-03T18:24:56.722932Z",
+        "name": "Adkins, Carter and Woods",
+        "roles": [
+            "always",
+            "stop",
+            "tonight"
+        ],
+        "identity_class": "individual",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

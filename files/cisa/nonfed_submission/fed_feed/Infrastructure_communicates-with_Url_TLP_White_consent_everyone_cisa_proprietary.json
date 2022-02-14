@@ -1,0 +1,210 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--76979817-782d-4015-b3ff-9630591c5c5f",
+        "created_by_ref": "identity--db96f51f-01e4-4f94-b7ae-e632f59522e3",
+        "created": "2021-08-11T14:33:15.870566Z",
+        "modified": "2021-09-03T04:32:35.756257Z",
+        "name": "school",
+        "infrastructure_types": [
+            "exfiltration",
+            "anonymization",
+            "botnet"
+        ],
+        "aliases": [
+            "unit",
+            "subject",
+            "send",
+            "thousand"
+        ],
+        "labels": [
+            "ground",
+            "science",
+            "benefit",
+            "drug",
+            "pfte-batch-1"
+        ],
+        "confidence": 93,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--97ce6c57-d94e-4931-80ba-3c607b48650f"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--eb7f6e00-de19-49a6-bc48-f583a6e89171",
+        "value": "https://www.gray.com/",
+        "object_marking_refs": [
+            "marking-definition--97ce6c57-d94e-4931-80ba-3c607b48650f"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a043c5bd-3f6e-4452-9f86-243591b35884",
+        "created_by_ref": "identity--db96f51f-01e4-4f94-b7ae-e632f59522e3",
+        "created": "2021-09-13T12:32:01.26293Z",
+        "modified": "2022-07-19T09:14:53.289204Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--76979817-782d-4015-b3ff-9630591c5c5f",
+        "target_ref": "url--eb7f6e00-de19-49a6-bc48-f583a6e89171",
+        "start_time": "2022-07-10T02:07:14.166996Z",
+        "confidence": 33,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--97ce6c57-d94e-4931-80ba-3c607b48650f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--97ce6c57-d94e-4931-80ba-3c607b48650f",
+        "created_by_ref": "identity--db96f51f-01e4-4f94-b7ae-e632f59522e3",
+        "created": "2021-08-14T01:08:41.511769Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f217105b-ccd2-4cb0-893a-c1314d7d2d64",
+                "name": "Strategy land response sport over",
+                "create_date_time": "2021-08-14T01:08:08.422773Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.422466Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--db96f51f-01e4-4f94-b7ae-e632f59522e3",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-03T11:58:22.488261Z",
+        "modified": "2022-09-12T00:06:17.593228Z",
+        "name": "Cook, Yang and Alexander",
+        "description": "Public-key 6thgeneration hierarchy",
+        "roles": [
+            "member",
+            "second",
+            "wind"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "population",
+                "url": "http://clark.com/",
+                "hashes": {
+                    "MD5": "77d2014765a9a74761b2f3aceb25a285",
+                    "SHA-1": "27a34d274dbb16ba4ecdf5388f2a000925ca9469",
+                    "SHA-256": "5cd650b9d405cb5a7dd0857d7357b13d26dae32ca8d154b50e612d3bcf5d88ab",
+                    "SHA-512": "7262bde06af0ee4a277924650f9efa1c24e1cdb0a30f1c32e0eb5891c088894ecd81cf6be37e4ba2541c44af1f0d5be6c64daab21309daaefb6a312d218ae649",
+                    "SHA3-256": "170197bcdc7c16e74bc7fdbb0a61897eb81e91cc8642e845482f5e185b5c5e33",
+                    "SHA3-512": "32ada9b6519ec97f729240e9fcff45f5f5cf81909cae1375f343f095454242b80923e1944fb2c4758e7cb70c7d16f27974d9ab51a65bc9c3ddb6debf157e0bbb"
+                },
+                "external_id": "UEaberftS"
+            },
+            {
+                "source_name": "skill",
+                "external_id": "hbvcXmlvvDKySFEUSag"
+            },
+            {
+                "source_name": "quite",
+                "description": "Approach bring hospital animal capital city gun.",
+                "url": "https://bruce.info/",
+                "hashes": {
+                    "MD5": "761c5c4d4f490a7ce57dcecf20868385",
+                    "SHA-1": "8cd8716a115164cf4c49934f2e91887c287b18c3",
+                    "SHA-256": "afacd455455ddafd869fd99c6e22da8fdb2d4059e6c747e871d79147f60f4fba",
+                    "SHA-512": "d15b42f44d8be8d6e57609e65d8794674b9b4817709c678ec98893b598a2a6913d932c866de2c215e2e6b4208bbe79a02b9b5593841a2cfc820463a2a693f1b8",
+                    "SHA3-256": "ffb679ec5844bc32e2f57e3b8487df7de67ab9c92e226638bdbe40e1634a62af",
+                    "SHA3-512": "db0ba2098e6531f883cc88e5676e9a9ab7702ef6a7f79c655b0add224baf0e6ddad5507f756f086443a063de872fc0d9af6581c5b8e4b43304bad4d51c61ddc7"
+                }
+            },
+            {
+                "source_name": "gun",
+                "description": "Camera vote their hear crime world result.",
+                "url": "https://carr.com/"
+            },
+            {
+                "source_name": "summer",
+                "url": "http://freeman.net/",
+                "hashes": {
+                    "MD5": "603457616a2a9370ab9212ca3f6a5345",
+                    "SHA-1": "352e6860c55cb81357b6bc818052e7b2a9269f62",
+                    "SHA-256": "aca26c3ac13e0c4f888892148618df5c16c8053987f1fb80890626a051e140b9",
+                    "SHA-512": "ea15c154b010ce0a25f8c420bc6389dfa878a6f1b0afeebab88b3adcfc3a32ae19cd04358ef04a9fa66a33e34db64e5f7ea6a449cad1e018e591eb19b397e53e",
+                    "SHA3-256": "7d2534083fac396955dc0e91a1c36a9037a0cf283e940cf2a31e6ce8aae18265",
+                    "SHA3-512": "e7629cac8c01c738a33945842b528441b3e204f609a793108dcd66ead69452a316bf7cddd33edbf601078974dc0f506ee3015bdbbad238079b5b06e2bc2818e8"
+                },
+                "external_id": "jfnLEcGu"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--97ce6c57-d94e-4931-80ba-3c607b48650f"
+        ]
+    }
+]

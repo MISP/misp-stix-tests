@@ -1,0 +1,169 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--acd580af-b5d5-4393-a9a1-e68e0808799d",
+        "created_by_ref": "identity--f4867130-e18a-46a8-9744-a54d0054fc92",
+        "created": "2020-10-30T16:46:48.292239Z",
+        "modified": "2021-08-14T01:08:17.280063Z",
+        "name": "account",
+        "aliases": [
+            "half",
+            "before",
+            "cultural",
+            "expert",
+            "heart"
+        ],
+        "last_seen": "2020-08-20T06:06:16.679906Z",
+        "confidence": 100,
+        "object_marking_refs": [
+            "marking-definition--39e3c8eb-bedc-47c2-bf27-e3ccb3de843f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--afd729eb-ec55-48a5-a932-729a0f3baa4b",
+        "created_by_ref": "identity--f4867130-e18a-46a8-9744-a54d0054fc92",
+        "created": "2020-11-07T04:24:25.38752Z",
+        "modified": "2021-08-14T01:08:17.280319Z",
+        "latitude": 54.85459413821502,
+        "longitude": 25.365362979178087,
+        "region": "northern-america",
+        "city": "Underwoodchester",
+        "street_address": "6823 Brittany Plaza",
+        "postal_code": "74591",
+        "object_marking_refs": [
+            "marking-definition--39e3c8eb-bedc-47c2-bf27-e3ccb3de843f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a01b375d-c900-480f-bcdb-d3db214347ed",
+        "created_by_ref": "identity--f4867130-e18a-46a8-9744-a54d0054fc92",
+        "created": "2022-06-22T17:53:50.033946Z",
+        "modified": "2022-07-20T03:08:17.844379Z",
+        "relationship_type": "targets",
+        "source_ref": "campaign--acd580af-b5d5-4393-a9a1-e68e0808799d",
+        "target_ref": "location--afd729eb-ec55-48a5-a932-729a0f3baa4b",
+        "labels": [
+            "college",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "follow",
+                "description": "Message physical possible somebody their population reach art.",
+                "hashes": {
+                    "MD5": "16d01c04fd73da7259397d13a20191b7",
+                    "SHA-1": "78332e3d0e9b95ef3a948ae4a6cca6f621011e28",
+                    "SHA-256": "f6f5547583d621c5f33e40e97e3f8ddfd1aaa638baf66ee53f037b6e374241e1",
+                    "SHA-512": "5e6b46bd11d4479f4256232cd5dc9b71b13d25c62d804cae6dfd085c7e408f522bcd521f013f4666e43ac8c6958f4d45ca640f2846c0791d85b5165bdb733ba1",
+                    "SHA3-256": "70c4cb7a3d91d195c6a335ec4738f3c4c987a80ffa7c8582f89b69a80adcbf1b",
+                    "SHA3-512": "058b429d3d29b72f71a07e64a521e1507e8512f75be7b660db903e5e66d13b25a11f38ec6824dd1a1dd0a1c5ed04ed9862fb0a93527cb73c5a426e28f5190caa"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--39e3c8eb-bedc-47c2-bf27-e3ccb3de843f"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f4867130-e18a-46a8-9744-a54d0054fc92",
+        "created_by_ref": "identity--f4867130-e18a-46a8-9744-a54d0054fc92",
+        "created": "2021-05-10T00:40:09.576083Z",
+        "modified": "2021-08-14T01:08:17.28096Z",
+        "name": "Leon Ltd",
+        "description": "User-friendly national portal",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--39e3c8eb-bedc-47c2-bf27-e3ccb3de843f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--39e3c8eb-bedc-47c2-bf27-e3ccb3de843f",
+        "created": "2021-08-14T01:08:17.279431Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-57e7d098-4c26-4a4d-bfaa-3ee9c5e47adc",
+                "name": "Customer hot subject fight customer",
+                "create_date_time": "2021-08-14T01:08:08.428617Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

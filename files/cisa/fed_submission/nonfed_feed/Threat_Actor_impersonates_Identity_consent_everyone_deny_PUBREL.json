@@ -1,0 +1,191 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--8dc6e69c-9d37-4a86-9426-c9d383d06c2d",
+        "created_by_ref": "identity--8b17c83d-8bb1-4d79-9828-abcc319321dd",
+        "created": "2022-04-26T07:38:31.144315Z",
+        "modified": "2023-02-05T16:57:51.295275Z",
+        "name": "each",
+        "threat_actor_types": [
+            "activist",
+            "sensationalist"
+        ],
+        "last_seen": "2022-04-06T05:36:54.003071Z",
+        "roles": [
+            "director",
+            "sponsor",
+            "infrastructure-architect",
+            "malware-author",
+            "director"
+        ],
+        "sophistication": "strategic",
+        "secondary_motivations": [
+            "dominance",
+            "unpredictable",
+            "ideology",
+            "personal-gain",
+            "revenge"
+        ],
+        "personal_motivations": [
+            "unpredictable",
+            "notoriety",
+            "dominance",
+            "accidental"
+        ],
+        "labels": [
+            "mother",
+            "interest",
+            "wall",
+            "traditional",
+            "how",
+            "pfte-batch-1"
+        ],
+        "confidence": 12,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--77824e08-38df-4462-93cf-361003298a02",
+        "created_by_ref": "identity--8b17c83d-8bb1-4d79-9828-abcc319321dd",
+        "created": "2022-05-02T23:36:12.655314Z",
+        "modified": "2022-09-19T16:24:54.848604Z",
+        "name": "Roberts Ltd",
+        "description": "Seamless contextually-based policy",
+        "contact_information": "29742 Darrell Points\nPort James, OR 44849",
+        "labels": [
+            "effect",
+            "program",
+            "candidate",
+            "ever",
+            "pfte-batch-1"
+        ],
+        "confidence": 36,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--974b933e-3b2f-400f-8f71-c9230a2beed4",
+        "created_by_ref": "identity--8b17c83d-8bb1-4d79-9828-abcc319321dd",
+        "created": "2020-09-18T12:23:16.889966Z",
+        "modified": "2021-08-14T01:09:28.621124Z",
+        "relationship_type": "impersonates",
+        "source_ref": "threat-actor--8dc6e69c-9d37-4a86-9426-c9d383d06c2d",
+        "target_ref": "identity--77824e08-38df-4462-93cf-361003298a02",
+        "labels": [
+            "heavy",
+            "benefit",
+            "even",
+            "black",
+            "never",
+            "pfte-batch-1"
+        ],
+        "confidence": 93,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "across",
+                "description": "Provide industry and.",
+                "url": "http://douglas.com/"
+            },
+            {
+                "source_name": "early",
+                "description": "Thing represent language none small manage nature.",
+                "url": "http://thompson-hicks.com/",
+                "external_id": "UUpfsSGSeLQ"
+            },
+            {
+                "source_name": "interest",
+                "description": "Light feel some perform truth.",
+                "url": "https://wilson-jones.com/",
+                "external_id": "XDcOZhgNpQxboaYi"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8b17c83d-8bb1-4d79-9828-abcc319321dd",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-02-20T03:05:25.827517Z",
+        "modified": "2022-04-04T03:56:00.65809Z",
+        "name": "GenerationWhichPerformance",
+        "sectors": [
+            "government",
+            "dams",
+            "dams"
+        ],
+        "contact_information": "334 Holly Valley Apt. 559\nLake Fred, UT 57552",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "head",
+                "description": "Magazine popular common involve possible.",
+                "url": "https://ruiz.com/",
+                "hashes": {
+                    "MD5": "022676907998751d390fd76111d67f8b",
+                    "SHA-1": "fc064cdd73858b8922d3fffc1237714863f37729",
+                    "SHA-256": "1af0ac931e16a884a762aab690501f52623f92c73ebb0fc6f957b5718da76254",
+                    "SHA-512": "cc15be5c16228f2c0d704332ebf55e29cddd1a7ba0c3a7604311ab3395de828fa9315099446bd37f1962a75b62a70bb053e727c18dd6c440c17acde031bfc938",
+                    "SHA3-256": "3df9618e2eb07342f3b167ae50021e8022e6e36e2886a793bbc80efb5db220ba",
+                    "SHA3-512": "dff18d5785062d70a41de00b0d3715afa12aa28e9821dfb7ebc0b134f5dee529b5a12d0393e1e9a5aa5ef522f0269191fafbced5cae8c95c28a922a5303f3fcd"
+                },
+                "external_id": "IFoJCOjCIYTbFbjhXJVo"
+            },
+            {
+                "source_name": "marriage",
+                "description": "Form chance million.",
+                "url": "https://www.hicks-lee.info/",
+                "external_id": "iCvLyTURYhUAHGuO"
+            },
+            {
+                "source_name": "sometimes",
+                "description": "Sense stay toward organization ready actually as.",
+                "url": "https://holder-ibarra.com/",
+                "hashes": {
+                    "MD5": "fd30684f13fff107aab8aeb6d0a4dcd3",
+                    "SHA-1": "2cc0499d852d46ae1fabc602e13fd72beebfaa4f",
+                    "SHA-256": "95c3d5641bca40ee7154c4e6d20ade05efd3b7bf7a1a97a24c8e69d012f1bb58",
+                    "SHA-512": "765019803c0e5d53babdcb785ad8188c6e56b95c8273c09339c150ecb518e2953476c14b77a9ee9a09e18521d6ac0a60afa0cf64e4517a78e3b699b6f8424062",
+                    "SHA3-256": "f5981ae49576a33772002ca0cc95a667cee5c97ecb0a98590b7364aaf301d2ae",
+                    "SHA3-512": "ac9e7185422ff44a2bcb9c8092be9b8efafe56e896626340dc0567a7a4995263a506e525ac9aedc76431b401c9100e048d6880d44f9f17b06cc7046b159fcf84"
+                }
+            },
+            {
+                "source_name": "character",
+                "description": "Institution control worry.",
+                "external_id": "CXzAiEuVNMGNiAkbxFQT"
+            },
+            {
+                "source_name": "item",
+                "hashes": {
+                    "MD5": "fca02fe50d502c2f1786ffffb0bedae1",
+                    "SHA-1": "b2b1ad51d54c3879e21e58184e4eac02b2b086ae",
+                    "SHA-256": "e702c674e3836bdb25e10b86dac7f24c770500919678f1006ae942fa88d15e9a",
+                    "SHA-512": "ff185808e273f2fea25325bd41b9c9a657f00891c03233e939d689ce672e2f1429cbc831dfe063b91dcc34054f8934fa9211b5b64fc21e8b059c446ddf1fdfb6",
+                    "SHA3-256": "e65ee32568ba8ec3e93b57f186667573729c7e6fd3571a0886e1dd528d06a872",
+                    "SHA3-512": "567df61cbe7e04286a5e109ff32a57027523852f5063ab81ac7aea0b3c80c5623952b402432083910aa6ee441a5c615cdc0e40e5769766d97007ef13c02ac37e"
+                },
+                "external_id": "VotdejdJgXYCHRK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

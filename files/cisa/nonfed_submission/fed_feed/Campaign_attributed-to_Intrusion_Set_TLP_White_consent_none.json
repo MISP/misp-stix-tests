@@ -1,0 +1,157 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--866bf5b9-c023-4c48-ac32-03d62f10a8c3",
+        "created_by_ref": "identity--60569d03-a982-4ab1-a9f1-acabc1455892",
+        "created": "2021-12-30T14:06:13.98363Z",
+        "modified": "2022-12-20T01:18:39.720353Z",
+        "name": "story",
+        "description": "Me what must if industry easy.",
+        "aliases": [
+            "student",
+            "decide",
+            "west",
+            "push",
+            "in"
+        ],
+        "first_seen": "2020-10-12T06:48:05.853877Z",
+        "last_seen": "2021-05-01T21:33:10.026712Z",
+        "labels": [
+            "use",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--13b3d531-7b25-4236-a330-bd68ec8f838b"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--7c84d260-69c7-4fc2-b197-1e6bb30ea5b9",
+        "created_by_ref": "identity--60569d03-a982-4ab1-a9f1-acabc1455892",
+        "created": "2021-07-23T10:50:01.065104Z",
+        "modified": "2021-12-12T06:33:51.129538Z",
+        "name": "yourself",
+        "description": "Begin spend theory present do.",
+        "aliases": [
+            "job",
+            "go",
+            "fish"
+        ],
+        "resource_level": "individual",
+        "secondary_motivations": [
+            "personal-gain",
+            "dominance",
+            "ideology"
+        ],
+        "confidence": 26,
+        "object_marking_refs": [
+            "marking-definition--13b3d531-7b25-4236-a330-bd68ec8f838b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3a55f0cf-6489-47ce-98ea-372d96a1aed6",
+        "created_by_ref": "identity--60569d03-a982-4ab1-a9f1-acabc1455892",
+        "created": "2020-11-15T00:42:07.205734Z",
+        "modified": "2021-10-29T18:40:28.53856Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "campaign--866bf5b9-c023-4c48-ac32-03d62f10a8c3",
+        "target_ref": "intrusion-set--7c84d260-69c7-4fc2-b197-1e6bb30ea5b9",
+        "object_marking_refs": [
+            "marking-definition--13b3d531-7b25-4236-a330-bd68ec8f838b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--13b3d531-7b25-4236-a330-bd68ec8f838b",
+        "created_by_ref": "identity--60569d03-a982-4ab1-a9f1-acabc1455892",
+        "created": "2021-08-14T01:08:13.066026Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2828523e-b28d-4046-9afc-51d22e18d79b",
+                "name": "Social price record ever reveal physical each",
+                "create_date_time": "2021-08-14T01:08:08.418751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.418527Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--60569d03-a982-4ab1-a9f1-acabc1455892",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-08-19T00:22:36.639961Z",
+        "modified": "2022-04-09T06:26:50.437446Z",
+        "name": "AttentionBecomeMaybe",
+        "description": "Advanced uniform data-warehouse",
+        "identity_class": "organization",
+        "sectors": [
+            "government-regional",
+            "non-profit",
+            "manufacturing",
+            "government-regional",
+            "automotive"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "general",
+                "url": "https://ward-webb.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--13b3d531-7b25-4236-a330-bd68ec8f838b"
+        ]
+    }
+]

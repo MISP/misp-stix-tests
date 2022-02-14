@@ -1,0 +1,99 @@
+[
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--85b47767-526d-4711-ad31-1f81a7d1672a",
+        "created_by_ref": "identity--4165c26a-d323-41cf-b3db-bf4a7a7253f7",
+        "created": "2021-11-25T03:45:56.964455Z",
+        "modified": "2022-07-23T07:47:40.533911Z",
+        "name": "Brooks, Morrison and Martinez",
+        "roles": [
+            "guy",
+            "process"
+        ],
+        "identity_class": "individual",
+        "contact_information": "6994 Young Vista Apt. 934\nMedinamouth, NM 23344",
+        "labels": [
+            "in",
+            "without",
+            "body",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--da361a4a-1056-404f-bf79-be0b7710cd0d",
+        "created_by_ref": "identity--4165c26a-d323-41cf-b3db-bf4a7a7253f7",
+        "created": "2022-08-07T12:56:12.545245Z",
+        "modified": "2023-06-06T17:33:11.094315Z",
+        "name": "uexJZqf",
+        "description": "Adaptive client-server moderator",
+        "latitude": -38.52586613743692,
+        "longitude": 83.91712879826787,
+        "precision": 97.9616922570894,
+        "street_address": "27054 White Mission Apt. 907",
+        "postal_code": "20900",
+        "labels": [
+            "right",
+            "pfte-batch-1"
+        ],
+        "confidence": 65,
+        "external_references": [
+            {
+                "source_name": "soldier",
+                "url": "https://nelson.com/",
+                "external_id": "GMMpwXBFaHCf"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--49ccc086-1401-498a-bf9b-ef479af05445",
+        "created_by_ref": "identity--4165c26a-d323-41cf-b3db-bf4a7a7253f7",
+        "created": "2021-03-21T20:53:25.544836Z",
+        "modified": "2021-12-01T19:51:57.752125Z",
+        "relationship_type": "located-at",
+        "description": "News short new laugh professor himself.",
+        "source_ref": "identity--85b47767-526d-4711-ad31-1f81a7d1672a",
+        "target_ref": "location--da361a4a-1056-404f-bf79-be0b7710cd0d",
+        "stop_time": "2021-03-27T20:00:07.457669Z",
+        "labels": [
+            "close",
+            "point",
+            "develop",
+            "pfte-batch-1"
+        ],
+        "confidence": 14,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4165c26a-d323-41cf-b3db-bf4a7a7253f7",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-17T20:32:54.96806Z",
+        "modified": "2021-08-18T23:27:39.369218Z",
+        "name": "Floyd-Dunn",
+        "contact_information": "787 Emily Run Apt. 547\nDebbiechester, UT 60034",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 40,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

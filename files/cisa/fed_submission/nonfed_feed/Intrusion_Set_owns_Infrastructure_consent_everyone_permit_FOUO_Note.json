@@ -1,0 +1,136 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--120e80c2-96b8-4f0c-ade1-00417c7f929a",
+        "created_by_ref": "identity--092fb822-36c2-4e07-9342-2444bb042793",
+        "created": "2021-03-28T05:54:47.266937Z",
+        "modified": "2021-12-11T14:41:49.527848Z",
+        "name": "want",
+        "description": "Candidate start perhaps bag project add common raise.",
+        "primary_motivation": "personal-gain",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 24,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--8f271ca0-00a5-4a30-b039-078ab3f18a1d",
+        "created_by_ref": "identity--092fb822-36c2-4e07-9342-2444bb042793",
+        "created": "2020-10-25T00:39:42.619652Z",
+        "modified": "2021-08-14T01:08:54.265356Z",
+        "name": "road",
+        "aliases": [
+            "involve",
+            "city",
+            "then",
+            "stuff",
+            "start"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "first_seen": "2020-11-28T17:57:19.113411Z",
+        "last_seen": "2021-07-26T22:49:25.684389Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--957bd127-e0a3-4bad-8fdf-70856f119d46",
+        "created_by_ref": "identity--092fb822-36c2-4e07-9342-2444bb042793",
+        "created": "2021-02-17T04:58:01.525871Z",
+        "modified": "2021-12-09T22:29:11.690711Z",
+        "relationship_type": "owns",
+        "source_ref": "intrusion-set--120e80c2-96b8-4f0c-ade1-00417c7f929a",
+        "target_ref": "infrastructure--8f271ca0-00a5-4a30-b039-078ab3f18a1d",
+        "stop_time": "2022-04-21T18:51:07.585205Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 73,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--b1185afc-17e4-4125-9c83-9c73e62239a7",
+        "created_by_ref": "identity--092fb822-36c2-4e07-9342-2444bb042793",
+        "created": "2021-03-27T12:00:06.844987Z",
+        "modified": "2022-01-22T20:40:13.950151Z",
+        "content": "Heavy democratic staff relate happy over door. Stock inside ten parent certainly system material experience. Computer political appear.",
+        "authors": [
+            "team",
+            "enough",
+            "close",
+            "report",
+            "billion"
+        ],
+        "object_refs": [
+            "intrusion-set--120e80c2-96b8-4f0c-ade1-00417c7f929a",
+            "infrastructure--8f271ca0-00a5-4a30-b039-078ab3f18a1d",
+            "relationship--957bd127-e0a3-4bad-8fdf-70856f119d46"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 31,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--092fb822-36c2-4e07-9342-2444bb042793",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-08-15T07:35:18.371955Z",
+        "modified": "2022-03-12T06:57:12.670416Z",
+        "name": "Gilmore LLC",
+        "identity_class": "individual",
+        "sectors": [
+            "emergency-services",
+            "insurance",
+            "education"
+        ],
+        "contact_information": "8884 Mclean Forges\nNorth Alexis, IN 59105",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 85,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

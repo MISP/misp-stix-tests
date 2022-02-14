@@ -1,0 +1,217 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--70979582-7913-4181-b08a-77fa6085d1c7",
+        "created_by_ref": "identity--8d35d725-9bdd-4e02-95cd-6ccb682f379a",
+        "created": "2022-07-06T17:33:26.407471Z",
+        "modified": "2022-11-14T13:22:54.327363Z",
+        "name": "rule",
+        "description": "Other party training consumer second item nor report.",
+        "aliases": [
+            "far",
+            "seek",
+            "page"
+        ],
+        "first_seen": "2021-04-05T23:38:15.233489Z",
+        "goals": [
+            "Begin offer course reduce race put.",
+            "Old put final war.",
+            "Last run miss finally cut policy everyone."
+        ],
+        "labels": [
+            "address",
+            "provide",
+            "office",
+            "size",
+            "pfte-batch-1"
+        ],
+        "confidence": 4,
+        "object_marking_refs": [
+            "marking-definition--7aa253e2-2679-41fa-a6c9-b7af32437f1b"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--ed457563-8d32-452d-8907-877255ffcf0e",
+        "created_by_ref": "identity--8d35d725-9bdd-4e02-95cd-6ccb682f379a",
+        "created": "2021-05-09T18:58:43.522054Z",
+        "modified": "2022-04-04T15:11:41.903934Z",
+        "latitude": 89.42020452658102,
+        "longitude": -160.17938362945978,
+        "precision": 3.934589246617093,
+        "country": "Holy See (Vatican City State)",
+        "administrative_area": "yVVTqYX",
+        "city": "West Josephchester",
+        "postal_code": "39928",
+        "labels": [
+            "pick",
+            "political",
+            "pfte-batch-1"
+        ],
+        "confidence": 33,
+        "object_marking_refs": [
+            "marking-definition--7aa253e2-2679-41fa-a6c9-b7af32437f1b"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ac6c5a0c-b541-4114-ba7c-5324e686c865",
+        "created_by_ref": "identity--8d35d725-9bdd-4e02-95cd-6ccb682f379a",
+        "created": "2022-03-24T09:35:54.042563Z",
+        "modified": "2022-11-06T10:42:01.897862Z",
+        "relationship_type": "targets",
+        "source_ref": "intrusion-set--70979582-7913-4181-b08a-77fa6085d1c7",
+        "target_ref": "location--ed457563-8d32-452d-8907-877255ffcf0e",
+        "start_time": "2022-03-29T22:50:53.358978Z",
+        "stop_time": "2022-07-03T05:17:37.22095Z",
+        "labels": [
+            "thought",
+            "general",
+            "thing",
+            "civil",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7aa253e2-2679-41fa-a6c9-b7af32437f1b"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--7aa253e2-2679-41fa-a6c9-b7af32437f1b",
+        "created_by_ref": "identity--8d35d725-9bdd-4e02-95cd-6ccb682f379a",
+        "created": "2021-08-14T01:08:56.238817Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f217105b-ccd2-4cb0-893a-c1314d7d2d64",
+                "name": "Strategy land response sport over",
+                "create_date_time": "2021-08-14T01:08:08.422773Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.422466Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8d35d725-9bdd-4e02-95cd-6ccb682f379a",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-03-28T01:49:14.950388Z",
+        "modified": "2022-01-27T05:12:28.759902Z",
+        "name": "Warner Ltd",
+        "description": "Innovative exuding groupware",
+        "identity_class": "group",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "analysis",
+                "url": "http://white.com/",
+                "hashes": {
+                    "MD5": "b9f67a4a3d50be1a86b098ed0b0ac57a",
+                    "SHA-1": "093316d7e8818e1631ef83bbbaee617526950921",
+                    "SHA-256": "71fba43d515e09794f7350ea6944c6e3a39effc3deab2194f35ebd98f365059b",
+                    "SHA-512": "41a3586e419a468db61cc3ccbc322ea67b97d70222ad86db29dd121722f16b596c45e443cc918053aebad1477e53622926698ece120eef16072fa9449c739b14",
+                    "SHA3-256": "2a523cdcc321930dc714f6099f84596cc3f34e75fcb875e7f13af0f31efdd2b1",
+                    "SHA3-512": "acda08ed533cd857fca411d643aadf655ce6dc73643e8e040dfbdb8168146501de50b57ab72d584ee574f1089106b4b43e9d892d836bc9c5f845d4d555877fc9"
+                },
+                "external_id": "HfOOz"
+            },
+            {
+                "source_name": "movie",
+                "description": "Far senior stay film half customer then.",
+                "hashes": {
+                    "MD5": "aa5bd28e09ea4b0f23826e723ecab7b9",
+                    "SHA-1": "445c92565a5e026ce71f4f8490bfc96d1b0ea67c",
+                    "SHA-256": "836912eaea3d4088577cc7f919151e2e33d99de6512da290113bc5847fb8e0f3",
+                    "SHA-512": "88e9d74067ea52da28da653ed41d8a7493f11971278d46efaf53c339604612d0aa9bb31a4882a98dec55570fc53a538b2ed03c61f1774169b70c61cd03f71cb9",
+                    "SHA3-256": "af4a61b94d06b5230bfa268b39d6f922c8d756267aa9ffd00f8fcb486ab91ed0",
+                    "SHA3-512": "a70aeab12570ea6e095850301e8eeffea1ab084b4931418c2c65e7b9ecbc5846ba21b7df01e1c1a0b6173eab61189a08d33f7395997e4cfe97355a5ffc5e3ec4"
+                }
+            },
+            {
+                "source_name": "nor",
+                "description": "Sign full prepare free bad improve standard.",
+                "hashes": {
+                    "MD5": "8760f06eab36e8a294334e0c429c1689",
+                    "SHA-1": "1dc72ef91f44f942a62f3020c0c83529386005e0",
+                    "SHA-256": "cbf43c38569e4836cc183102b7ab56b4df3ac2de2b2276c9df94fc44653df522",
+                    "SHA-512": "577946d572d07cc02d526d5d46638d946c2c35397e16a053cc7d74bc8c89cb9462a3d04f4a8039b928242fcc8fd5c3ec8a9882ff234f3a4bed0cc65bbc2e2849",
+                    "SHA3-256": "718c95db128a2cf741d7394a9d1d53ac2d8b69e961b05461a3d31111e75005e9",
+                    "SHA3-512": "d7e8739cd6f1368687e7d026b59a54c5e22ba6373fe2c94f33a936f9c2442ec579fbd671607dce36b5e38ccde676381ed13ae4843a22b02a31dc58d5a3d6b969"
+                },
+                "external_id": "BiPBKMOUvScg"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7aa253e2-2679-41fa-a6c9-b7af32437f1b"
+        ]
+    }
+]

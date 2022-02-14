@@ -1,0 +1,190 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--9e2057e5-dd2a-46cf-ac04-0b1e6f23e6a8",
+        "created_by_ref": "identity--bdd25bd9-3a00-4d22-8554-8e270bde1bcb",
+        "created": "2022-01-03T03:23:27.643178Z",
+        "modified": "2022-11-01T02:06:24.353204Z",
+        "name": "heart",
+        "threat_actor_types": [
+            "insider-disgruntled",
+            "spy",
+            "activist",
+            "terrorist"
+        ],
+        "resource_level": "contest",
+        "secondary_motivations": [
+            "accidental",
+            "revenge"
+        ],
+        "personal_motivations": [
+            "unpredictable",
+            "notoriety",
+            "coercion"
+        ],
+        "labels": [
+            "police",
+            "population",
+            "minute",
+            "organization",
+            "pfte-batch-1"
+        ],
+        "confidence": 76,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--80efc627-e4b2-475e-b5f2-ef4798ac22c7"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--b1949598-fd51-454c-85c9-57bd8ac405d7",
+        "created_by_ref": "identity--bdd25bd9-3a00-4d22-8554-8e270bde1bcb",
+        "created": "2021-03-14T17:49:12.490366Z",
+        "modified": "2021-08-14T01:09:34.781798Z",
+        "name": "career",
+        "description": "American particularly eat.",
+        "tool_types": [
+            "denial-of-service",
+            "exploitation"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "tool_version": "enter",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "might",
+                "description": "Upon shoulder year just thus pressure itself drug.",
+                "url": "https://www.howe-evans.biz/",
+                "hashes": {
+                    "MD5": "b9c4b428c7e52bec9b8729e81c5e9664",
+                    "SHA-1": "28bca4428d98ef745fc822f926f354ccc06c64a1",
+                    "SHA-256": "0e990ddb9daa31d97f0d1406c54dec58d8d192121c6835e9345e174abdbc9a7d",
+                    "SHA-512": "b09f207a0d6a5ef34b967141a30c45f8b29c5ff2cd88e6434569890aeeea69ecab255b4b6b1802d63d18cf7f2ab7d3a2e3c80503be2e3a4107279742e2381f23",
+                    "SHA3-256": "57d80d04c042f91b73cffd638d534c68c8a0ad5d45332d2ac8cc77a8cb40dc0a",
+                    "SHA3-512": "8ec913e4c0dafce0eddf7883251001c7b1a2b222bb27a81203d0c3c6847e2a6542ca2872a96e7068d1b155feb1d12f2bc85fa76b90d2785961c3ae4e14a27878"
+                },
+                "external_id": "hkmFEVyiKdmKqfXQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--80efc627-e4b2-475e-b5f2-ef4798ac22c7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d0d703d2-daf4-4be6-844a-a689e1105dc3",
+        "created_by_ref": "identity--bdd25bd9-3a00-4d22-8554-8e270bde1bcb",
+        "created": "2021-09-11T03:31:36.102534Z",
+        "modified": "2022-04-15T22:28:02.620654Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--9e2057e5-dd2a-46cf-ac04-0b1e6f23e6a8",
+        "target_ref": "tool--b1949598-fd51-454c-85c9-57bd8ac405d7",
+        "start_time": "2020-08-25T05:34:08.81034Z",
+        "stop_time": "2021-05-02T05:33:02.329241Z",
+        "confidence": 65,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--80efc627-e4b2-475e-b5f2-ef4798ac22c7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--80efc627-e4b2-475e-b5f2-ef4798ac22c7",
+        "created_by_ref": "identity--bdd25bd9-3a00-4d22-8554-8e270bde1bcb",
+        "created": "2021-08-14T01:09:34.780689Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2a4a5944-494c-4a33-b0ba-c70e719ee1c8",
+                "name": "Room arrive pay often",
+                "create_date_time": "2021-08-14T01:08:08.421032Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--bdd25bd9-3a00-4d22-8554-8e270bde1bcb",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-03T14:05:35.490908Z",
+        "modified": "2022-12-01T04:58:05.815364Z",
+        "name": "Wolfe Group",
+        "sectors": [
+            "transportation",
+            "water",
+            "chemical",
+            "automotive",
+            "nuclear"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 40,
+        "external_references": [
+            {
+                "source_name": "memory",
+                "url": "http://oneal-white.com/",
+                "external_id": "LddFsUXwG"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--80efc627-e4b2-475e-b5f2-ef4798ac22c7"
+        ]
+    }
+]

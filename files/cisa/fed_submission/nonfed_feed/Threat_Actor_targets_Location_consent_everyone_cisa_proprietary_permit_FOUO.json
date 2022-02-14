@@ -1,0 +1,112 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--2eb71f5e-05e0-4a3a-90c0-b645fe50446d",
+        "created_by_ref": "identity--3bd731c8-95a6-4db1-b320-1064d8250b56",
+        "created": "2022-03-16T17:48:47.515864Z",
+        "modified": "2022-10-29T07:16:28.620554Z",
+        "name": "newspaper",
+        "first_seen": "2021-08-05T04:16:54.287433Z",
+        "last_seen": "2022-04-06T06:32:15.805839Z",
+        "goals": [
+            "thought",
+            "goal",
+            "focus"
+        ],
+        "primary_motivation": "unpredictable",
+        "personal_motivations": [
+            "notoriety",
+            "personal-satisfaction",
+            "personal-gain",
+            "ideology",
+            "ideology"
+        ],
+        "labels": [
+            "catch",
+            "produce",
+            "pfte-batch-1"
+        ],
+        "confidence": 95,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--42eeb502-8798-4af5-b17c-350a31071b59",
+        "created_by_ref": "identity--3bd731c8-95a6-4db1-b320-1064d8250b56",
+        "created": "2020-10-15T17:18:05.531426Z",
+        "modified": "2021-10-01T00:35:37.722099Z",
+        "name": "WesvTyRFFlh",
+        "description": "Exclusive system-worthy matrix",
+        "latitude": 72.1266406719574,
+        "longitude": 125.33124136387545,
+        "street_address": "4368 Howard Drive Suite 561",
+        "postal_code": "83575",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--0d205d10-66fc-436b-9cfd-597551430563",
+        "created_by_ref": "identity--3bd731c8-95a6-4db1-b320-1064d8250b56",
+        "created": "2022-03-27T16:10:13.754542Z",
+        "modified": "2022-05-20T00:25:01.685153Z",
+        "relationship_type": "targets",
+        "description": "Way these news walk interview term though.",
+        "source_ref": "threat-actor--2eb71f5e-05e0-4a3a-90c0-b645fe50446d",
+        "target_ref": "location--42eeb502-8798-4af5-b17c-350a31071b59",
+        "start_time": "2021-06-22T19:49:42.046116Z",
+        "labels": [
+            "friend",
+            "PM",
+            "pfte-batch-1"
+        ],
+        "confidence": 79,
+        "external_references": [
+            {
+                "source_name": "high",
+                "url": "https://www.luna.net/",
+                "external_id": "yVNREHg"
+            },
+            {
+                "source_name": "go",
+                "url": "http://ramos-cain.com/",
+                "external_id": "wVaepjwJEqkhrJgxIF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3bd731c8-95a6-4db1-b320-1064d8250b56",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-15T22:18:45.457326Z",
+        "modified": "2023-03-21T14:13:56.123579Z",
+        "name": "Glenn, Hernandez and Perez",
+        "description": "Exclusive bottom-line middleware",
+        "identity_class": "class",
+        "sectors": [
+            "energy",
+            "communications"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

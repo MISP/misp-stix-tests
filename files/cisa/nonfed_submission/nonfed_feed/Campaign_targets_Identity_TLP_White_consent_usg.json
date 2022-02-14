@@ -1,0 +1,89 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--df34c330-f83f-41e6-9fa0-b8c4e09cea45",
+        "created_by_ref": "identity--df78b86e-a7de-4003-b9e7-833bd865425b",
+        "created": "2022-07-05T13:42:17.757922Z",
+        "modified": "2022-07-21T06:58:55.369384Z",
+        "name": "miss",
+        "aliases": [
+            "task",
+            "agree",
+            "interest"
+        ],
+        "last_seen": "2021-08-08T18:54:27.176865Z",
+        "labels": [
+            "claim",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a7591731-23f7-47a0-a7bf-809da4d8d89d",
+        "created_by_ref": "identity--df78b86e-a7de-4003-b9e7-833bd865425b",
+        "created": "2020-08-23T19:18:52.9967Z",
+        "modified": "2021-08-14T01:08:16.080634Z",
+        "name": "Wilkerson, Walsh and Patterson",
+        "description": "Profound reciprocal encoding",
+        "sectors": [
+            "dams",
+            "government-public-services"
+        ],
+        "labels": [
+            "door",
+            "share",
+            "public",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c9b171d9-57c7-42e9-9005-58b83aeb47e0",
+        "created_by_ref": "identity--df78b86e-a7de-4003-b9e7-833bd865425b",
+        "created": "2021-02-06T17:10:08.713369Z",
+        "modified": "2021-08-14T01:08:16.080883Z",
+        "relationship_type": "targets",
+        "source_ref": "campaign--df34c330-f83f-41e6-9fa0-b8c4e09cea45",
+        "target_ref": "identity--a7591731-23f7-47a0-a7bf-809da4d8d89d",
+        "start_time": "2021-10-30T20:56:10.276192Z",
+        "stop_time": "2022-07-02T21:38:59.31199Z",
+        "labels": [
+            "yes",
+            "friend",
+            "role",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--df78b86e-a7de-4003-b9e7-833bd865425b",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-12-23T00:49:17.670121Z",
+        "modified": "2022-12-22T03:57:32.015021Z",
+        "name": "MemberOurSure",
+        "roles": [
+            "daughter",
+            "day"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

@@ -1,0 +1,195 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--042a0b43-cab4-4120-b59c-146ed98bdc7f",
+        "created_by_ref": "identity--b686cb41-1de9-4c96-ace6-8b8842183916",
+        "created": "2022-03-18T20:31:27.624693Z",
+        "modified": "2022-11-01T11:39:51.494181Z",
+        "name": "team",
+        "last_seen": "2022-06-07T17:57:30.952067Z",
+        "roles": [
+            "malware-author"
+        ],
+        "goals": [
+            "begin"
+        ],
+        "sophistication": "none",
+        "resource_level": "club",
+        "secondary_motivations": [
+            "coercion"
+        ],
+        "personal_motivations": [
+            "dominance",
+            "notoriety",
+            "personal-gain",
+            "coercion",
+            "unpredictable"
+        ],
+        "confidence": 88,
+        "object_marking_refs": [
+            "marking-definition--9fc0700c-8b5a-4e55-8eee-afacdfe7f2b0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--0256910d-3097-4476-a738-6fc00c2c1748",
+        "created_by_ref": "identity--b686cb41-1de9-4c96-ace6-8b8842183916",
+        "created": "2021-03-05T22:30:39.747317Z",
+        "modified": "2022-01-11T16:12:58.180374Z",
+        "name": "study",
+        "infrastructure_types": [
+            "phishing"
+        ],
+        "aliases": [
+            "produce",
+            "tax",
+            "join",
+            "environmental"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "rWOAwyKhJNuahgcqfkvs",
+                "phase_name": "ylMbwFdGESC"
+            }
+        ],
+        "last_seen": "2021-08-13T21:14:34.951548Z",
+        "object_marking_refs": [
+            "marking-definition--9fc0700c-8b5a-4e55-8eee-afacdfe7f2b0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--fc3b8c14-9d82-430a-accd-fa357cf3b5fd",
+        "created_by_ref": "identity--b686cb41-1de9-4c96-ace6-8b8842183916",
+        "created": "2020-09-09T13:27:45.306601Z",
+        "modified": "2021-08-14T01:09:26.108673Z",
+        "relationship_type": "compromises",
+        "source_ref": "threat-actor--042a0b43-cab4-4120-b59c-146ed98bdc7f",
+        "target_ref": "infrastructure--0256910d-3097-4476-a738-6fc00c2c1748",
+        "start_time": "2021-06-28T03:05:12.204463Z",
+        "stop_time": "2021-10-20T22:35:22.72257Z",
+        "confidence": 19,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9fc0700c-8b5a-4e55-8eee-afacdfe7f2b0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b686cb41-1de9-4c96-ace6-8b8842183916",
+        "created_by_ref": "identity--b686cb41-1de9-4c96-ace6-8b8842183916",
+        "created": "2020-11-30T05:19:09.659052Z",
+        "modified": "2021-08-14T01:09:26.109446Z",
+        "name": "Mora Inc",
+        "description": "Networked stable challenge",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "need",
+                "external_id": "ypEEetAxObvUxPhnMu"
+            },
+            {
+                "source_name": "identify",
+                "url": "https://martin.info/",
+                "external_id": "EYAogvMgLnHvh"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9fc0700c-8b5a-4e55-8eee-afacdfe7f2b0"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--9fc0700c-8b5a-4e55-8eee-afacdfe7f2b0",
+        "created": "2021-08-14T01:09:26.105718Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fadf816-7ba3-41ea-a52c-2855b3ec9d5a",
+                "name": "Report official major we center outside throughout population",
+                "create_date_time": "2021-08-14T01:08:08.433803Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

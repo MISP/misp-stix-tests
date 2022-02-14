@@ -1,0 +1,227 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--fdc361c3-ac53-47e8-b633-859723f201f1",
+        "created_by_ref": "identity--83a79f42-679f-4e50-8afb-0b68884d97aa",
+        "created": "2020-05-18T12:18:25.051646Z",
+        "modified": "2021-08-14T01:08:33.901494Z",
+        "name": "ok",
+        "indicator_types": [
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "[user-account:defanged = false] OR ([mac-addr:defanged NOT = false]) REPEATS 5 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-05-12T21:37:13.27934Z",
+        "valid_until": "2020-11-01T03:25:43.582574Z",
+        "object_marking_refs": [
+            "marking-definition--94d96674-9afe-4221-b2d5-3f3ff9cdf4a2"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--5c046667-ad19-467f-b899-ff999562c35b",
+        "created_by_ref": "identity--83a79f42-679f-4e50-8afb-0b68884d97aa",
+        "created": "2022-03-21T01:25:12.576494Z",
+        "modified": "2022-10-28T01:21:49.913967Z",
+        "name": "that",
+        "threat_actor_types": [
+            "spy"
+        ],
+        "aliases": [
+            "new",
+            "listen",
+            "easy"
+        ],
+        "first_seen": "2022-01-16T08:05:59.744965Z",
+        "roles": [
+            "independent",
+            "infrastructure-operator",
+            "independent",
+            "malware-author",
+            "director"
+        ],
+        "goals": [
+            "her",
+            "beat",
+            "admit",
+            "draw",
+            "article"
+        ],
+        "sophistication": "none",
+        "primary_motivation": "ideology",
+        "secondary_motivations": [
+            "ideology",
+            "revenge"
+        ],
+        "personal_motivations": [
+            "revenge",
+            "accidental",
+            "revenge"
+        ],
+        "confidence": 22,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "beyond",
+                "description": "Federal land near.",
+                "hashes": {
+                    "MD5": "27e3cb93407a954d41d53dc92ba4bc3e",
+                    "SHA-1": "ed8805bcf9cc71d13278424f9c270c72dbd72270",
+                    "SHA-256": "11a7c1172232789ad87e807fe5076d9815f495d42b6e4fa93ac97bcbeb23b182",
+                    "SHA-512": "f23dff5db17ab513524337fe9052b01e0de928b9f70f05cff973003e3015964226e5916558d156d82eea33c9193b6cac0c27f74665c1cfefb5dd45cd003fcf43",
+                    "SHA3-256": "1488917c54a275163f04aa7f38b3a921cc2b879e08798b09e6692e48a08a5bee",
+                    "SHA3-512": "f3327b915722285e530646252aba769350dfc83fc17d44d847faea6e91bb355165b9d06fccaf9799e8dbb4e0137d2e2908ce7bb6d7cce3dfe14a37b801852471"
+                },
+                "external_id": "EylccuyRfBDbND"
+            },
+            {
+                "source_name": "tree",
+                "hashes": {
+                    "MD5": "fb638ba6912eb735e3554c2924df006b",
+                    "SHA-1": "12744248b0e7b9253fadb14bc7cb864dd87dc408",
+                    "SHA-256": "450c9f43a62618521e63f98dc83f47412df0eb280474f3b21c1c89be4138c53a",
+                    "SHA-512": "045862cd780908ff783d82952e44cb476a47e9abd0d83e3cb3264766a0052cd89aa98a085c09b3ea0c2e6f00f9cd131169d0ea1e0ffa5b3597034fd52e6955f1",
+                    "SHA3-256": "c99b7c098d39b4c802cb16634645b80ff084d9894e087cb522fe95161830912f",
+                    "SHA3-512": "a73fd3a5fbcaebf92757bf105b501d482b8a773f0d3d44433a903b2ae5fd270510cc5ed24e0aa51a5520b6e909f9a3090c3b3c585a25947faa9423c1f60ee297"
+                },
+                "external_id": "ZpmwdySXSrMg"
+            },
+            {
+                "source_name": "under",
+                "description": "Paper campaign receive member late.",
+                "url": "http://www.hughes-espinoza.biz/",
+                "external_id": "fcTLxGd"
+            },
+            {
+                "source_name": "city",
+                "url": "https://www.watson-phelps.info/",
+                "hashes": {
+                    "MD5": "5e022e70796fe1a5459cc537154f1326",
+                    "SHA-1": "29c8e418d57727ae81d13394ef846e3fe58e9cc3",
+                    "SHA-256": "d41d0dc4e4b8ffa8abf55f33695421be0f8a0717204b033a2950cc03b603446d",
+                    "SHA-512": "a75091e0f61c1c8cdcb1044706e31d58ad1e1c8b7a3905bbe3e54226d1479c02f0d3daf0f94dbd1a6752db735e311c63773f814d330ac96de96f3205f7533db1",
+                    "SHA3-256": "a1100eb27d67f5d6cb2188b856d81ca0b8614d110fee54624ea14f9d0fc5a136",
+                    "SHA3-512": "1d453d63a349ec2cd4b76dbbe105e7522357aab563bdb901671deaf8725b0c1170c001ce76cb79f841a813918d24fde6cb23ec15bac2a68f2820febbf9ff6ec5"
+                },
+                "external_id": "FOWKApWxNcukm"
+            },
+            {
+                "source_name": "kind",
+                "url": "http://www.johnson.org/",
+                "external_id": "NuBjHiVOqXeNzTkX"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--94d96674-9afe-4221-b2d5-3f3ff9cdf4a2"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4664c317-b9e2-47f4-a16d-943d0c2f0c70",
+        "created_by_ref": "identity--83a79f42-679f-4e50-8afb-0b68884d97aa",
+        "created": "2021-10-25T20:24:19.432854Z",
+        "modified": "2022-01-29T04:02:16.120806Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--fdc361c3-ac53-47e8-b633-859723f201f1",
+        "target_ref": "threat-actor--5c046667-ad19-467f-b899-ff999562c35b",
+        "object_marking_refs": [
+            "marking-definition--94d96674-9afe-4221-b2d5-3f3ff9cdf4a2"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--83a79f42-679f-4e50-8afb-0b68884d97aa",
+        "created_by_ref": "identity--83a79f42-679f-4e50-8afb-0b68884d97aa",
+        "created": "2022-04-04T16:36:09.180299Z",
+        "modified": "2022-07-31T04:08:52.555731Z",
+        "name": "Owens, Barton and Ortega",
+        "roles": [
+            "state",
+            "pick",
+            "fact"
+        ],
+        "sectors": [
+            "energy",
+            "aerospace",
+            "energy",
+            "defense"
+        ],
+        "contact_information": "1803 Smith Islands\nEricberg, NV 72319",
+        "external_references": [
+            {
+                "source_name": "character",
+                "description": "Will respond memory east seek."
+            },
+            {
+                "source_name": "sister",
+                "description": "Exactly surface challenge else main soldier clear.",
+                "url": "http://www.smith-zimmerman.net/",
+                "hashes": {
+                    "MD5": "adc271e46213ce286c6348e7f38d880b",
+                    "SHA-1": "140f9b1ecceee32b302692645f4a28f261813ef6",
+                    "SHA-256": "8f03173106ab545b18eff75d28cc22f15ad81c1df73f87893cbe64382094589d",
+                    "SHA-512": "371c42fb9a432fce34897ceefa4ff57154c4b839fab5415e8bebae1e46f256d946ce5f147b8d90dc668a9b0595566a8d9c8cddc161cf5972dc4fea60c6361a75",
+                    "SHA3-256": "ae6b0a811c8289edf8e20a84d8b35b8d40741f80fccd0b42d4d9d5ab16bbcab6",
+                    "SHA3-512": "7d7ee543dd1d5dc9335fe3bd1ff0a0a5b802d4e65f5a2201a5fff096b9e949c689aa298646b9752d373e69416a738445f3421ad98d501c4c19bab9666bdddabd"
+                },
+                "external_id": "JwrvqeGZVUxsHmZelasz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--94d96674-9afe-4221-b2d5-3f3ff9cdf4a2"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--94d96674-9afe-4221-b2d5-3f3ff9cdf4a2",
+        "created": "2021-08-14T01:08:33.901019Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-54b25f01-6af2-45fd-9467-12811cc2be8c",
+                "name": "Help hit around teach",
+                "create_date_time": "2021-08-14T01:08:08.425022Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

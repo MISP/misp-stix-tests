@@ -1,0 +1,219 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--23129cad-fb39-4656-97e7-d47636797674",
+        "created_by_ref": "identity--7c023435-eb04-423b-bfec-7600eeb7aace",
+        "created": "2021-04-11T09:39:32.356559Z",
+        "modified": "2021-10-27T21:41:19.81047Z",
+        "name": "eight",
+        "threat_actor_types": [
+            "activist",
+            "criminal"
+        ],
+        "aliases": [
+            "article"
+        ],
+        "first_seen": "2021-08-04T09:48:53.576844Z",
+        "roles": [
+            "independent",
+            "independent",
+            "director",
+            "malware-author"
+        ],
+        "sophistication": "innovator",
+        "resource_level": "government",
+        "primary_motivation": "personal-gain",
+        "secondary_motivations": [
+            "organizational-gain"
+        ],
+        "personal_motivations": [
+            "notoriety",
+            "organizational-gain"
+        ],
+        "labels": [
+            "spend",
+            "help",
+            "young",
+            "pfte-batch-1"
+        ],
+        "confidence": 48,
+        "external_references": [
+            {
+                "source_name": "present",
+                "external_id": "fzfJiAnJUginzrflVW"
+            },
+            {
+                "source_name": "job",
+                "external_id": "eGcBMpSknNSBLqv"
+            },
+            {
+                "source_name": "yet",
+                "description": "Marriage in low for near interview.",
+                "external_id": "cvGlegYQwCysVn"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0a7e0b4f-cc1c-417b-a84f-41e3995ceb93"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--c43316cb-a699-4520-b9a5-6435a16fee7a",
+        "created_by_ref": "identity--7c023435-eb04-423b-bfec-7600eeb7aace",
+        "created": "2021-07-29T17:32:48.411027Z",
+        "modified": "2022-01-14T23:18:04.982002Z",
+        "name": "defense",
+        "infrastructure_types": [
+            "unknown",
+            "anonymization",
+            "staging"
+        ],
+        "aliases": [
+            "bad",
+            "general",
+            "society"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "VntulLBUuvfSlGt",
+                "phase_name": "amjKlAWtHzmXtDaoKQ"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "JHhuSUTbQ",
+                "phase_name": "BSfdiwP"
+            }
+        ],
+        "first_seen": "2021-10-09T12:37:48.985648Z",
+        "labels": [
+            "maintain",
+            "pfte-batch-1"
+        ],
+        "confidence": 90,
+        "object_marking_refs": [
+            "marking-definition--0a7e0b4f-cc1c-417b-a84f-41e3995ceb93"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f229ba81-e55d-4efb-9027-f5b96fa8f79e",
+        "created_by_ref": "identity--7c023435-eb04-423b-bfec-7600eeb7aace",
+        "created": "2021-08-16T18:37:35.272507Z",
+        "modified": "2022-08-04T14:00:44.938411Z",
+        "relationship_type": "compromises",
+        "source_ref": "threat-actor--23129cad-fb39-4656-97e7-d47636797674",
+        "target_ref": "infrastructure--c43316cb-a699-4520-b9a5-6435a16fee7a",
+        "stop_time": "2022-01-21T07:11:07.971209Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "boy",
+                "description": "Garden near consumer apply cover could.",
+                "external_id": "uFytgDmp"
+            },
+            {
+                "source_name": "choose",
+                "description": "Realize what purpose director.",
+                "external_id": "rsfbNaJbboBkB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0a7e0b4f-cc1c-417b-a84f-41e3995ceb93"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--434a8383-4084-4952-b1f4-fd0aa0c74033",
+        "created_by_ref": "identity--7c023435-eb04-423b-bfec-7600eeb7aace",
+        "created": "2020-10-15T19:49:49.025868Z",
+        "modified": "2021-08-14T01:09:25.622976Z",
+        "name": "past",
+        "description": "Election edge best happen stage a face if. General cup strategy speech action.",
+        "report_types": [
+            "threat-actor",
+            "threat-actor",
+            "campaign",
+            "indicator"
+        ],
+        "published": "2021-10-17T22:04:54.696541Z",
+        "object_refs": [
+            "threat-actor--23129cad-fb39-4656-97e7-d47636797674",
+            "infrastructure--c43316cb-a699-4520-b9a5-6435a16fee7a",
+            "relationship--f229ba81-e55d-4efb-9027-f5b96fa8f79e"
+        ],
+        "confidence": 59,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--0a7e0b4f-cc1c-417b-a84f-41e3995ceb93"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7c023435-eb04-423b-bfec-7600eeb7aace",
+        "created_by_ref": "identity--7c023435-eb04-423b-bfec-7600eeb7aace",
+        "created": "2021-12-25T12:04:41.143569Z",
+        "modified": "2022-01-28T16:50:42.311023Z",
+        "name": "Ryan-Grant",
+        "description": "Cross-group client-driven extranet",
+        "identity_class": "unknown",
+        "object_marking_refs": [
+            "marking-definition--0a7e0b4f-cc1c-417b-a84f-41e3995ceb93"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--0a7e0b4f-cc1c-417b-a84f-41e3995ceb93",
+        "created": "2021-08-14T01:09:25.621137Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-54b25f01-6af2-45fd-9467-12811cc2be8c",
+                "name": "Help hit around teach",
+                "create_date_time": "2021-08-14T01:08:08.425022Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

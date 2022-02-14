@@ -1,0 +1,115 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--2be50b9a-451a-467d-b800-2985f80a5506",
+        "created_by_ref": "identity--de050c7f-1119-4393-aa3e-efc678cbd3ac",
+        "created": "2021-06-03T04:02:49.664169Z",
+        "modified": "2022-02-02T12:21:11.85598Z",
+        "name": "consumer",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "zqrdgeWSc",
+                "phase_name": "TQYriXqj"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "him",
+            "deal",
+            "pfte-batch-1"
+        ],
+        "confidence": 76,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--3af7e97f-7169-40f8-9b49-294fefe1a525",
+        "created_by_ref": "identity--de050c7f-1119-4393-aa3e-efc678cbd3ac",
+        "created": "2022-07-26T22:53:44.276766Z",
+        "modified": "2023-02-25T20:15:59.869957Z",
+        "name": "heart",
+        "description": "Traditional follow space shake under.",
+        "aliases": [
+            "now",
+            "simple"
+        ],
+        "tool_version": "kind",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 15,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--7a51752b-6909-4103-b05c-a77ebee9c9af",
+        "created_by_ref": "identity--de050c7f-1119-4393-aa3e-efc678cbd3ac",
+        "created": "2020-11-15T14:26:34.769004Z",
+        "modified": "2021-08-14T01:08:12.352893Z",
+        "relationship_type": "uses",
+        "description": "Out industry bit social democratic. Ten investment reveal speech test.",
+        "source_ref": "attack-pattern--2be50b9a-451a-467d-b800-2985f80a5506",
+        "target_ref": "tool--3af7e97f-7169-40f8-9b49-294fefe1a525",
+        "stop_time": "2021-10-26T21:44:48.686228Z",
+        "labels": [
+            "character",
+            "population",
+            "adult",
+            "leg",
+            "pfte-batch-1"
+        ],
+        "confidence": 87,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--de050c7f-1119-4393-aa3e-efc678cbd3ac",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-12-15T02:14:56.944459Z",
+        "modified": "2022-11-17T07:49:57.479364Z",
+        "name": "AgainInvestmentTalk",
+        "description": "Networked bifurcated hardware",
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 49,
+        "external_references": [
+            {
+                "source_name": "off",
+                "description": "Indicate arm card kitchen everyone travel.",
+                "url": "http://www.taylor-roberts.biz/",
+                "hashes": {
+                    "MD5": "041ddfe48e4d5be7903af4612020d4c7",
+                    "SHA-1": "c36096833bf10d342af7986c6ef765a6d385338e",
+                    "SHA-256": "fad96e967f737a9120bc4f455b25fd10e007691a551d47ea9f1565316d9e7079",
+                    "SHA-512": "73f004a961ad6ae6e2233ab0f09269369156fdcc5f9d082fb2418bdc2cb37254e37e84391683b2cde1eaccf7a0b13b89b8fd174efbbf9831590931cf6464c4e9",
+                    "SHA3-256": "c82f6eb9014b0cd139639c9ad4b91a99f21424d00b07009c007539ba1cd785df",
+                    "SHA3-512": "65b860c9907d595db7d52339bd30f4dc46f5cfb130f3e99e7588bd162f598be2424af023d229cba98cc4a2ace7fa0d981db9b48858503a57f1568afd127a5fc1"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

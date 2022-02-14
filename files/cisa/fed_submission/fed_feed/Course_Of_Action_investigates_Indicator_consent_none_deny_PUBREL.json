@@ -1,0 +1,181 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--47bbe7b5-4205-42bc-b4d5-886da69e7df3",
+        "created_by_ref": "identity--156ead9d-6eae-494f-bb06-ab2ecfe0069a",
+        "created": "2021-01-16T01:56:43.235915Z",
+        "modified": "2021-08-14T01:08:21.86567Z",
+        "name": "thing",
+        "labels": [
+            "try",
+            "water",
+            "water",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "push",
+                "description": "Not for business green a law she.",
+                "url": "https://www.bruce.com/",
+                "hashes": {
+                    "MD5": "a46c90708a476a2d1115c5495b4a7f82",
+                    "SHA-1": "343fc486bb3a55fcdf7f91070a25c418c1d061aa",
+                    "SHA-256": "a08bb0b9681ab31b13d80c800a91f439b3723598e42c3ac67129e09c973b8166",
+                    "SHA-512": "06fbb3e62204f76631bb5ed476ddd8fd48b4cec92da28a8f7a534f0c1fcacf032afc8dc1b31fff1a242d0417aec02441b5d4efe3bb8b6a87f2826641235bd88a",
+                    "SHA3-256": "12e657391900b7248487f1dd2994f4b5667f63e592c2fb48ecfbaa672ed15f9c",
+                    "SHA3-512": "d0350a27ee149a84f8ce1c3c8956f7a17cd33e7f2d2f93cf053f8e38777538604b569116bf8997945cbcae9a6311d2770618758ced0aabd31be840e40fac9352"
+                }
+            },
+            {
+                "source_name": "until",
+                "description": "Base far that.",
+                "url": "http://lawson.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7581ab01-7059-468d-9c20-8df6812d0217"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--a1b60b59-479f-4037-8b6e-ee95f478241b",
+        "created_by_ref": "identity--156ead9d-6eae-494f-bb06-ab2ecfe0069a",
+        "created": "2021-12-18T18:08:11.893741Z",
+        "modified": "2022-06-06T11:10:22.330356Z",
+        "name": "time",
+        "description": "Choice describe hold ready while tax right.",
+        "indicator_types": [
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "[x509-certificate:validity_not_before >= t'2021-10-16T13:12:54.422691Z'] OR (([(url:value >= 'https://baker.biz/') OR url:defanged = false] AND [windows-registry-key:number_of_subkeys = 1 OR (mac-addr:defanged = false)]))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-02-01T12:22:04.17593Z",
+        "valid_until": "2022-03-23T03:01:20.419419Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "sIDWEi",
+                "phase_name": "eJzJaFnXZOatJgLk"
+            }
+        ],
+        "labels": [
+            "way",
+            "yet",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--7581ab01-7059-468d-9c20-8df6812d0217"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b8d2a431-40e0-4bc1-b6e0-94bf54defcc9",
+        "created_by_ref": "identity--156ead9d-6eae-494f-bb06-ab2ecfe0069a",
+        "created": "2021-01-03T21:05:40.665096Z",
+        "modified": "2021-08-14T01:08:21.869343Z",
+        "relationship_type": "investigates",
+        "source_ref": "course-of-action--47bbe7b5-4205-42bc-b4d5-886da69e7df3",
+        "target_ref": "indicator--a1b60b59-479f-4037-8b6e-ee95f478241b",
+        "stop_time": "2022-05-24T19:36:14.556345Z",
+        "labels": [
+            "force",
+            "service",
+            "work",
+            "economy",
+            "reach",
+            "pfte-batch-1"
+        ],
+        "confidence": 86,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7581ab01-7059-468d-9c20-8df6812d0217"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--156ead9d-6eae-494f-bb06-ab2ecfe0069a",
+        "created_by_ref": "identity--156ead9d-6eae-494f-bb06-ab2ecfe0069a",
+        "created": "2021-03-24T13:43:58.395808Z",
+        "modified": "2021-12-04T02:26:26.234676Z",
+        "name": "Roberts Inc",
+        "identity_class": "class",
+        "sectors": [
+            "transportation",
+            "commercial",
+            "transportation",
+            "education"
+        ],
+        "confidence": 31,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7581ab01-7059-468d-9c20-8df6812d0217"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--7581ab01-7059-468d-9c20-8df6812d0217",
+        "created": "2021-08-14T01:08:21.86484Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-44002952-ef1b-4819-85db-bdfcd1864e5e",
+                "name": "Free major nothing gun",
+                "create_date_time": "2021-08-14T01:08:08.424588Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.424412Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

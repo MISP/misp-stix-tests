@@ -1,0 +1,110 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--b42dc06e-008d-472d-81c1-bfc3dd484edd",
+        "created_by_ref": "identity--ffb8f4a3-71a9-4865-865e-22881025d623",
+        "created": "2022-01-12T14:30:23.754239Z",
+        "modified": "2022-12-07T17:00:00.444202Z",
+        "pattern": "([file:mime_type = 'image/svg+xml']) FOLLOWEDBY [ipv6-addr:value NOT = 'd43d:6da2:d42f:cdb:c4a7:2284:3cd2:cf80'] FOLLOWEDBY [user-account:account_created = t'2022-03-08T15:38:56.006201Z'] FOLLOWEDBY [mac-addr:defanged = false AND (mac-addr:value <= '81:1b:4f:94:90:fb')]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-07-17T15:24:18.872028Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 87,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--d4c3bfe0-7105-4853-8f2b-21a483efcc6d",
+        "created_by_ref": "identity--ffb8f4a3-71a9-4865-865e-22881025d623",
+        "created": "2021-02-02T06:01:48.409631Z",
+        "modified": "2021-08-14T01:08:33.788482Z",
+        "name": "most",
+        "description": "Enjoy need service sense.",
+        "threat_actor_types": [
+            "hacker",
+            "spy",
+            "competitor",
+            "nation-state"
+        ],
+        "first_seen": "2020-09-16T11:57:34.463411Z",
+        "roles": [
+            "malware-author",
+            "malware-author"
+        ],
+        "primary_motivation": "ideology",
+        "secondary_motivations": [
+            "coercion",
+            "unpredictable",
+            "revenge",
+            "notoriety"
+        ],
+        "personal_motivations": [
+            "personal-satisfaction",
+            "unpredictable"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e828342c-24a2-4d64-ae31-c66a12d39eed",
+        "created_by_ref": "identity--ffb8f4a3-71a9-4865-865e-22881025d623",
+        "created": "2020-12-31T04:32:10.024212Z",
+        "modified": "2021-11-30T11:19:09.975676Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--b42dc06e-008d-472d-81c1-bfc3dd484edd",
+        "target_ref": "threat-actor--d4c3bfe0-7105-4853-8f2b-21a483efcc6d",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 9,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ffb8f4a3-71a9-4865-865e-22881025d623",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-03-03T14:26:23.384281Z",
+        "modified": "2021-08-14T01:08:33.789116Z",
+        "name": "Turner LLC",
+        "description": "Stand-alone non-volatile attitude",
+        "roles": [
+            "bit",
+            "new",
+            "fly",
+            "type"
+        ],
+        "identity_class": "group",
+        "contact_information": "USS Lowe\nFPO AA 72068",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "maintain",
+                "url": "https://hall.com/",
+                "external_id": "Vvnoa"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

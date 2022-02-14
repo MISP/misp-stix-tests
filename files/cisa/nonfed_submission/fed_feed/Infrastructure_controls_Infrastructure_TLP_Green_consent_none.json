@@ -1,0 +1,187 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--c42a0e81-4b90-4c22-8701-fe0ba82e1b56",
+        "created_by_ref": "identity--cc69b81e-fb36-47da-a790-f266691e6929",
+        "created": "2021-05-29T05:34:53.642511Z",
+        "modified": "2021-11-06T21:34:19.55441Z",
+        "name": "item",
+        "infrastructure_types": [
+            "hosting-malware"
+        ],
+        "aliases": [
+            "system"
+        ],
+        "first_seen": "2022-05-24T23:46:52.129381Z",
+        "labels": [
+            "walk",
+            "trade",
+            "pfte-batch-1"
+        ],
+        "confidence": 85,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "sense",
+                "description": "Why too impact scene key.",
+                "url": "http://www.ferguson.com/",
+                "hashes": {
+                    "MD5": "cc0be651a7c7a8e58d68ac89d410787e",
+                    "SHA-1": "421140dfad6b615f94a74c82c5ebc886523bfeec",
+                    "SHA-256": "575a51b23239b35fe8f2c9305096179423e0ef8ba924ee195e8368d2b6894274",
+                    "SHA-512": "d0db4aa229e2eebbb7a98ae44114aeb8528645d4ff9d640ac307eae5708c8fbf21b36321478c9f0f9428e88cfa7245d3bf1ddab9978912a2f46f991bc3bee1d4",
+                    "SHA3-256": "7df1f7c0da9ab1afd05f69631777bc5684434cd262b50c1da09cfbb2afc147e5",
+                    "SHA3-512": "1e55c42dea22f169224a8c8e3aadfb10135bafff65cbc934c50e25eaa46370e4db2259a8ae2a7ce9fb23d9efed7069830790afe947b849216e865a00094ef188"
+                },
+                "external_id": "TwIkRorkvDkneKxPGbz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e8a3b6bb-ddc7-46e3-8ea2-3bb21c3dc493"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--81af7586-00de-479a-a452-2e3e45b6bbdd",
+        "created_by_ref": "identity--cc69b81e-fb36-47da-a790-f266691e6929",
+        "created": "2022-07-25T21:22:26.789167Z",
+        "modified": "2023-01-16T03:35:08.299335Z",
+        "name": "news",
+        "labels": [
+            "fear",
+            "less",
+            "relate",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--e8a3b6bb-ddc7-46e3-8ea2-3bb21c3dc493"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1b4aa8c6-a774-4ca9-9d12-0686bcf96253",
+        "created_by_ref": "identity--cc69b81e-fb36-47da-a790-f266691e6929",
+        "created": "2021-05-15T08:45:13.970673Z",
+        "modified": "2021-10-15T07:36:16.789334Z",
+        "relationship_type": "controls",
+        "description": "Mother doctor age partner me. Change guess call show sort pass.",
+        "source_ref": "infrastructure--c42a0e81-4b90-4c22-8701-fe0ba82e1b56",
+        "target_ref": "infrastructure--81af7586-00de-479a-a452-2e3e45b6bbdd",
+        "labels": [
+            "street",
+            "act",
+            "its",
+            "firm",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--e8a3b6bb-ddc7-46e3-8ea2-3bb21c3dc493"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--e8a3b6bb-ddc7-46e3-8ea2-3bb21c3dc493",
+        "created_by_ref": "identity--cc69b81e-fb36-47da-a790-f266691e6929",
+        "created": "2021-08-14T01:08:44.851915Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3d6ad3e0-0112-4a6d-8546-447c0e169799",
+                "name": "Space side determine future",
+                "create_date_time": "2021-08-14T01:08:08.419249Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--cc69b81e-fb36-47da-a790-f266691e6929",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-03T12:39:04.600271Z",
+        "modified": "2022-01-17T21:43:44.030417Z",
+        "name": "MainFindSpend",
+        "roles": [
+            "throw",
+            "fact"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "you",
+                "hashes": {
+                    "MD5": "ca1f8f9e30e6d6cd56324e26f3afbcfd",
+                    "SHA-1": "02de5a9fc14735a3df3e204f1ec606f6131a1525",
+                    "SHA-256": "8f0736e72dc3213d0458cbc47499bb314d39373777b4f56ff673eace3c075e7b",
+                    "SHA-512": "3bc0390138bfc0b8d4996fff804e8e9b833020d9f1582461820d3b8d97bba9632cbb7ffe41bc78d7b2c212e5f87108b06f18d11f823483eac1fbcb38844b3ad2",
+                    "SHA3-256": "aa2c8d1cf818a6cbb8df44e75f071b114408bf6793de0422ab1b9ec088ea33c6",
+                    "SHA3-512": "7642a66ff4453a79292a8efcd7fbb5237bfab2164990479ae37a513bce7b65ae4738f6a690b423042287746303df2da7ae557806618f4c878e49df44b8958107"
+                },
+                "external_id": "tOzcFuAxTklDWAdTPn"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e8a3b6bb-ddc7-46e3-8ea2-3bb21c3dc493"
+        ]
+    }
+]

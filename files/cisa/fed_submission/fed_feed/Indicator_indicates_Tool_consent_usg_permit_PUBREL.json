@@ -1,0 +1,208 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--c142e1cf-6027-482d-aa50-4bbff2110168",
+        "created_by_ref": "identity--23da9f68-7454-4ebb-8fb1-94b0e3fc830b",
+        "created": "2022-03-01T14:55:53.621364Z",
+        "modified": "2022-12-05T08:56:50.25991Z",
+        "description": "Remember not natural several.",
+        "indicator_types": [
+            "unknown",
+            "anomalous-activity",
+            "compromised",
+            "unknown",
+            "benign"
+        ],
+        "pattern": "[autonomous-system:rir = 'Munoz-Jackson'] START t'2021-05-06T17:25:13.537591Z' STOP t'2021-06-23T02:58:41.963398Z'",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2019-12-27T15:54:42.262549Z",
+        "valid_until": "2020-09-24T19:14:29.50743Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "KhkMLBaOnwyIgRTL",
+                "phase_name": "awmoXlhimJXXZBz"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "TbbDkiC",
+                "phase_name": "yTikdFoPNTHjrW"
+            },
+            {
+                "kill_chain_name": "DmiYndth",
+                "phase_name": "dASietXqrANtTi"
+            }
+        ],
+        "labels": [
+            "talk",
+            "court",
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "object_marking_refs": [
+            "marking-definition--1e89be69-7789-4127-b808-c9cd79416892"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--62d67bf0-4c56-4f41-9dba-c7177c4c1a55",
+        "created_by_ref": "identity--23da9f68-7454-4ebb-8fb1-94b0e3fc830b",
+        "created": "2020-08-28T15:15:40.042704Z",
+        "modified": "2021-08-14T01:08:35.371754Z",
+        "name": "interest",
+        "aliases": [
+            "money",
+            "card"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "MxNcyWiA",
+                "phase_name": "wjrMTsTjTFFVYnrcEx"
+            },
+            {
+                "kill_chain_name": "VJcCmOcuJvIdXee",
+                "phase_name": "sAHUhTvofFvrdKB"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "tool_version": "item",
+        "labels": [
+            "girl",
+            "thus",
+            "pfte-batch-1"
+        ],
+        "confidence": 8,
+        "external_references": [
+            {
+                "source_name": "call",
+                "description": "Information read item issue man huge race.",
+                "external_id": "mbdnKsxtDapHSTvodqy"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1e89be69-7789-4127-b808-c9cd79416892"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3aa9e9dd-a3a2-4f72-87b3-e47366e36c50",
+        "created_by_ref": "identity--23da9f68-7454-4ebb-8fb1-94b0e3fc830b",
+        "created": "2021-05-29T22:16:33.701032Z",
+        "modified": "2021-10-27T07:40:36.064768Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--c142e1cf-6027-482d-aa50-4bbff2110168",
+        "target_ref": "tool--62d67bf0-4c56-4f41-9dba-c7177c4c1a55",
+        "stop_time": "2020-10-06T22:52:46.109449Z",
+        "labels": [
+            "agree",
+            "sell",
+            "including",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "run",
+                "url": "http://www.cunningham.com/",
+                "hashes": {
+                    "MD5": "e5ac77422abd2a87510a364261333e52",
+                    "SHA-1": "77f6a1648c986956df825d2fc120ef57b5ffb2ab",
+                    "SHA-256": "498ba28305e2c21e59d4dd94aa6ac2800a1a4ddc53db286ffe081cf8a662dda6",
+                    "SHA-512": "d3b0385d42519769dd83f0b3e3d7500660d46a27979ebffe5369bad2dde7275edcfaa6a5d9f03f803b39ef23e0a63b98522e3ccbdace644aea71402be4c326c6",
+                    "SHA3-256": "27955634448a182698b20ca93367317407b481294a5b8fb2b3750818fd89afa0",
+                    "SHA3-512": "598c29d2b925bc437defca2c6ebed9006749637364c1d593612e794109d7bdd9f96727f06ad548b14e1dd9cfb669fb62b00ab51e4b0377ddf4fb3e80af12b9c5"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1e89be69-7789-4127-b808-c9cd79416892"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--23da9f68-7454-4ebb-8fb1-94b0e3fc830b",
+        "created_by_ref": "identity--23da9f68-7454-4ebb-8fb1-94b0e3fc830b",
+        "created": "2020-11-25T18:49:56.085951Z",
+        "modified": "2021-08-14T01:08:35.372519Z",
+        "name": "Hurst-Allen",
+        "roles": [
+            "type",
+            "down",
+            "star",
+            "yourself",
+            "boy"
+        ],
+        "identity_class": "group",
+        "confidence": 3,
+        "external_references": [
+            {
+                "source_name": "set",
+                "description": "Even door control.",
+                "url": "https://reynolds.info/",
+                "hashes": {
+                    "MD5": "3d7f5e023d230a4c79d3305536b1580f",
+                    "SHA-1": "ecdd86914c68b818a31aff37b3e5f0f49053a60d",
+                    "SHA-256": "126f6a29712e5b8978724554612c7e60e449aaa358e6d622aa98c45db86706be",
+                    "SHA-512": "992b16322032d0096abb83b676ddc60a1e85908f46542554b6147dfdcfa5d0bba661deeb925c235a46e1e80a0fa3d360ab077b643fe22ef619dff540e2a4ebfb",
+                    "SHA3-256": "f31fdad13ce123a87e47450bdc4f01b66711e98a40af02c7a638f6d18d8bee90",
+                    "SHA3-512": "ea6b31e89793ee0ce4d3e159086e2241f669959e9abf7ce557e38a04a21338df79a2477b5dfa9551fff3e2ae597b2585ce3e4df58f7e32082155f9b14409df1e"
+                },
+                "external_id": "erDjIY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1e89be69-7789-4127-b808-c9cd79416892"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--1e89be69-7789-4127-b808-c9cd79416892",
+        "created": "2021-08-14T01:08:35.369619Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f680acaf-ba5a-4af9-ba41-d819400a97d1",
+                "name": "Decide court anything one doctor sound serve nation",
+                "create_date_time": "2021-08-14T01:08:08.428211Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.428042Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

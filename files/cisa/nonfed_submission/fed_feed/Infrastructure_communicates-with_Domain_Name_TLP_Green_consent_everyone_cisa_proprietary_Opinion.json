@@ -1,0 +1,210 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--41d4a5c8-3c39-44cd-a0c8-21b855296e09",
+        "created_by_ref": "identity--7f9b4201-d5c6-4af9-9b30-cda1fc404bc4",
+        "created": "2021-10-01T11:48:51.558195Z",
+        "modified": "2022-08-24T04:41:17.987751Z",
+        "name": "may",
+        "description": "Chair star develop involve civil.",
+        "aliases": [
+            "paper"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "tEkBHO",
+                "phase_name": "RqUwhVBWCuzpku"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "score",
+            "future",
+            "near",
+            "from",
+            "pfte-batch-1"
+        ],
+        "confidence": 16,
+        "object_marking_refs": [
+            "marking-definition--d21e001c-6d04-4a08-b714-9056bbb566bf"
+        ]
+    },
+    {
+        "type": "domain-name",
+        "spec_version": "2.1",
+        "id": "domain-name--de704873-5299-4e8c-b88f-71f5c0ff70c1",
+        "value": "sawyer.com",
+        "object_marking_refs": [
+            "marking-definition--d21e001c-6d04-4a08-b714-9056bbb566bf"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--7fd261df-37b8-4b17-9783-fc6d564cb6a1",
+        "created_by_ref": "identity--7f9b4201-d5c6-4af9-9b30-cda1fc404bc4",
+        "created": "2021-01-26T17:22:53.590605Z",
+        "modified": "2021-08-14T01:08:40.86149Z",
+        "relationship_type": "communicates-with",
+        "description": "Address administration help score last quickly however. Majority especially law become.",
+        "source_ref": "infrastructure--41d4a5c8-3c39-44cd-a0c8-21b855296e09",
+        "target_ref": "domain-name--de704873-5299-4e8c-b88f-71f5c0ff70c1",
+        "start_time": "2020-08-20T12:01:41.05575Z",
+        "labels": [
+            "floor",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d21e001c-6d04-4a08-b714-9056bbb566bf"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--f8b8c488-891e-443b-8a32-589b35179766",
+        "created_by_ref": "identity--7f9b4201-d5c6-4af9-9b30-cda1fc404bc4",
+        "created": "2020-09-02T18:53:36.846032Z",
+        "modified": "2021-08-14T01:08:40.861771Z",
+        "explanation": "Career letter when need memory get. Enough over trip as attorney she. Close certainly market land happen discussion present sport.",
+        "authors": [
+            "chair",
+            "involve",
+            "across",
+            "someone",
+            "interview"
+        ],
+        "opinion": "disagree",
+        "object_refs": [
+            "infrastructure--41d4a5c8-3c39-44cd-a0c8-21b855296e09",
+            "domain-name--de704873-5299-4e8c-b88f-71f5c0ff70c1",
+            "relationship--7fd261df-37b8-4b17-9783-fc6d564cb6a1"
+        ],
+        "confidence": 72,
+        "object_marking_refs": [
+            "marking-definition--d21e001c-6d04-4a08-b714-9056bbb566bf"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d21e001c-6d04-4a08-b714-9056bbb566bf",
+        "created_by_ref": "identity--7f9b4201-d5c6-4af9-9b30-cda1fc404bc4",
+        "created": "2021-08-14T01:08:40.86045Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e665ae49-7536-4ce4-b3ac-ad9803b6185e",
+                "name": "Push teach indeed like accept",
+                "create_date_time": "2021-08-14T01:08:08.423274Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7f9b4201-d5c6-4af9-9b30-cda1fc404bc4",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-22T17:39:02.143072Z",
+        "modified": "2022-04-09T02:06:43.985653Z",
+        "name": "Dorsey, Clements and Davis",
+        "description": "Up-sized bottom-line groupware",
+        "roles": [
+            "drop",
+            "experience",
+            "tough"
+        ],
+        "contact_information": "2400 Patricia Crossroad\nAnthonyfurt, CO 15856",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "rock",
+                "description": "Goal wife black.",
+                "url": "http://www.harrison.net/",
+                "external_id": "HgEidiMGOQwMpWje"
+            },
+            {
+                "source_name": "give",
+                "description": "Trade quality generation trade.",
+                "url": "https://moody.org/",
+                "hashes": {
+                    "MD5": "1013821cc89b7d17692ecf4d86134be6",
+                    "SHA-1": "e6a9539bf3fb730096d52319c91784918b30b35c",
+                    "SHA-256": "346addf77f21f96da6e508562e87d6eb643de24a53e10993eb8090d1345a04ed",
+                    "SHA-512": "6c095240d92f2502dca8bf15ff59bec344488a034f88af226264320011ac8cea3888f5b9d123dc7ac3af668fbbff1d027492194a1ee9911cbe763fb9bf7c0b7c",
+                    "SHA3-256": "4ebdd5481b99ae6640e66166d64a594ba6c7f5399c041aa68fa40040165eb51d",
+                    "SHA3-512": "7795411ccf410509dc4c51441ec93b2fe66e82aa2202afe839ab75184677a4698dcd593bba93800d66ca37efd5d7c510b5d5e32ff51803f809e05a17b766574b"
+                },
+                "external_id": "wsTjCeo"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d21e001c-6d04-4a08-b714-9056bbb566bf"
+        ]
+    }
+]

@@ -1,0 +1,170 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--186a3a39-3234-466f-89a4-6eef3603b6d6",
+        "created_by_ref": "identity--e9f3bf56-31bb-40ca-bedf-0435347211ff",
+        "created": "2021-01-21T12:53:34.151547Z",
+        "modified": "2021-08-14T01:09:27.793714Z",
+        "name": "event",
+        "threat_actor_types": [
+            "criminal",
+            "unknown"
+        ],
+        "last_seen": "2022-02-01T07:56:27.933138Z",
+        "sophistication": "intermediate",
+        "resource_level": "individual",
+        "secondary_motivations": [
+            "accidental",
+            "coercion",
+            "coercion",
+            "personal-gain",
+            "unpredictable"
+        ],
+        "personal_motivations": [
+            "personal-gain",
+            "dominance",
+            "ideology",
+            "unpredictable",
+            "notoriety"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "physical",
+                "description": "Lot direction conference.",
+                "url": "http://www.parker.com/",
+                "external_id": "OwcJMPylHBgLbFrPYTY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--f2375bec-7436-4e14-9169-6490b7f5e87b",
+        "created_by_ref": "identity--e9f3bf56-31bb-40ca-bedf-0435347211ff",
+        "created": "2021-03-03T23:55:31.243651Z",
+        "modified": "2022-01-13T08:57:14.317384Z",
+        "name": "national",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "first_seen": "2019-10-07T19:19:53.750738Z",
+        "last_seen": "2020-10-05T23:26:50.673489Z",
+        "labels": [
+            "cover",
+            "number",
+            "pfte-batch-1"
+        ],
+        "confidence": 98,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "history",
+                "description": "Even institution however stuff voice.",
+                "url": "http://le-logan.com/",
+                "hashes": {
+                    "MD5": "616f573880bdd264584870f6c217db3d",
+                    "SHA-1": "857534991d57090f424f822adc0dbb11d328c9d9",
+                    "SHA-256": "1fb9faf4ce2db0329a1c10fc2b71cf3158021c42b1d4d2b57a2da4e248779971",
+                    "SHA-512": "e8c4d6ecc475c3bd96ddf94b2ac4b16ba886e7a81ee04fc9701125ae344be301dc7f1f192861d60810ec90db3dcd176df609067d58d06f372651b8421a5743fd",
+                    "SHA3-256": "ccfed3d06f677bd6277786c054ce46723db5ff749204eb8faca21d55a8309cff",
+                    "SHA3-512": "b393a4da9886a1bcbbc6df207041d64da0c22763259683fcc5f06d4ecef15611ab32e09c0246e5bba3aeecd2db6def2cd7785975e19e3befd2cd19df7e16f280"
+                }
+            },
+            {
+                "source_name": "anything",
+                "description": "Film site six hand seem success cover.",
+                "url": "http://www.silva.com/",
+                "external_id": "TkZfN"
+            },
+            {
+                "source_name": "receive",
+                "url": "http://curtis-pierce.com/",
+                "external_id": "ppAVUvIHwXQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--879916b8-85e1-4957-bef3-d26cfff6c05a",
+        "created_by_ref": "identity--e9f3bf56-31bb-40ca-bedf-0435347211ff",
+        "created": "2021-07-02T01:58:10.159202Z",
+        "modified": "2022-05-20T20:56:51.255467Z",
+        "relationship_type": "owns",
+        "source_ref": "threat-actor--186a3a39-3234-466f-89a4-6eef3603b6d6",
+        "target_ref": "infrastructure--f2375bec-7436-4e14-9169-6490b7f5e87b",
+        "stop_time": "2021-04-09T22:15:31.988785Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 69,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e9f3bf56-31bb-40ca-bedf-0435347211ff",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-01-23T13:37:41.91996Z",
+        "modified": "2022-07-13T03:56:50.913396Z",
+        "name": "Pierce and Sons",
+        "roles": [
+            "fact",
+            "sing",
+            "deep"
+        ],
+        "identity_class": "system",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 15,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "hospital",
+                "description": "Consumer drug on evidence purpose look.",
+                "hashes": {
+                    "MD5": "8d5d9b291127e53bf08bb84cfc284b4d",
+                    "SHA-1": "31b635323b9b3c6361879826adc3f3ff117dbaf1",
+                    "SHA-256": "6cced89deea33855a7ef48daf0b6815ea2071a6336832afa8b05d561968fe139",
+                    "SHA-512": "c2f57db0d2cb798b81819ed7dc18470658696b4d9a1ebfd906be29fbb69e09ec5575b44afac82202d9751f6e984fd54b23ab2065873d69fabc6c1665982968d6",
+                    "SHA3-256": "ef46c1071bee75a0a2d6f83045203c6d74535091180cab8a8c55d1734cfc9cf2",
+                    "SHA3-512": "9b9effc23767117ca59ae9189c18a80a677b9026d99db6f2d05edc173f8cb4f6480f9361d3724f1876250e893aac8e61d9bafd2705dba2f292de905246cb796c"
+                }
+            },
+            {
+                "source_name": "television",
+                "url": "http://www.gray.biz/",
+                "hashes": {
+                    "MD5": "766da6de15e370b7761b666d8eb7ead1",
+                    "SHA-1": "e7aae6b5392d1f60fec3d5cabde1c3a11dea6aab",
+                    "SHA-256": "9b78032f37bccb320a134dd56cbfcf37f95ec4b235b812a62dcd4167ae05668b",
+                    "SHA-512": "d8ae2a92216183d8bb5dcc8e7996a1192c12af87868181f36d080a04ef83b8e67e01ca49f65b06f5afddb14c6faab5ca99d06f308594a1cca6496fc90f5886fb",
+                    "SHA3-256": "433c1492f1eaec46853feb023311ff6c60b703d9a63fe6c70f9ab60c8352a252",
+                    "SHA3-512": "e72681220649bd3d24a7de7a578f405f161257ec48920ab51ffeb2af8b4baa71cfc64344e39a815ff49e056b78df97ee34276cb7044277b431da929f8a8a48fa"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

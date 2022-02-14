@@ -1,0 +1,135 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--8fb6bef9-c177-4d55-953c-42b4ed0411d6",
+        "created_by_ref": "identity--56d4d25b-27a1-4bf1-a14a-93a113b09263",
+        "created": "2022-06-13T04:02:58.45143Z",
+        "modified": "2023-01-19T21:16:01.441571Z",
+        "name": "have",
+        "description": "Action reach out record beyond.",
+        "pattern": "[mutex:defanged NOT = false AND mutex:name <= 'give' AND (mutex:defanged = false)] FOLLOWEDBY ([windows-registry-key:defanged NOT = false] REPEATS 2 TIMES)",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-02-10T08:16:26.82672Z",
+        "valid_until": "2021-02-04T00:26:10.627986Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 49,
+        "external_references": [
+            {
+                "source_name": "change",
+                "description": "Movie child blue to range.",
+                "external_id": "tOOhOUTHDeEFW"
+            },
+            {
+                "source_name": "yeah",
+                "description": "Nice eight even bank east success step old.",
+                "url": "https://kelley-hahn.com/",
+                "external_id": "CLGjjJcUe"
+            },
+            {
+                "source_name": "hear",
+                "description": "Center audience listen.",
+                "url": "http://www.roth.com/"
+            },
+            {
+                "source_name": "drop",
+                "description": "Mouth all picture wrong those.",
+                "url": "http://soto.biz/",
+                "external_id": "NiFZUhMWpVbInhVvzKZ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--ae318ca3-8e3e-4e0f-84ce-924a5234c4d8",
+        "created_by_ref": "identity--56d4d25b-27a1-4bf1-a14a-93a113b09263",
+        "created": "2022-02-16T04:56:59.883503Z",
+        "modified": "2022-10-17T05:44:02.226493Z",
+        "name": "beyond",
+        "description": "But feeling exist guy.",
+        "first_seen": "2021-08-14T19:15:12.038727Z",
+        "last_seen": "2022-06-22T00:59:47.132895Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 62,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1a6510f4-c523-4309-b521-db615e5b5b8b",
+        "created_by_ref": "identity--56d4d25b-27a1-4bf1-a14a-93a113b09263",
+        "created": "2020-11-22T20:45:59.853386Z",
+        "modified": "2021-08-14T01:08:28.630673Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--8fb6bef9-c177-4d55-953c-42b4ed0411d6",
+        "target_ref": "campaign--ae318ca3-8e3e-4e0f-84ce-924a5234c4d8",
+        "stop_time": "2022-04-13T10:40:23.194577Z",
+        "labels": [
+            "with",
+            "kid",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--56d4d25b-27a1-4bf1-a14a-93a113b09263",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-02T04:19:33.298865Z",
+        "modified": "2022-05-04T08:20:39.558934Z",
+        "name": "BelieveRateBed",
+        "roles": [
+            "start",
+            "you",
+            "condition"
+        ],
+        "sectors": [
+            "non-profit",
+            "government-public-services",
+            "commercial"
+        ],
+        "contact_information": "506 Olivia Fork Suite 257\nEast Breannastad, MS 13672",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 100,
+        "external_references": [
+            {
+                "source_name": "art",
+                "description": "Who subject next to."
+            },
+            {
+                "source_name": "energy",
+                "description": "Standard entire value.",
+                "url": "https://www.lewis.com/",
+                "hashes": {
+                    "MD5": "78f800710a8e97128a4731f65b590634",
+                    "SHA-1": "cdda57304436853667553a177b82b20cd0cc0f96",
+                    "SHA-256": "2afdd4c4463e0cc979397f00b89a7339c5486dd187c0faee97484ee19775feb0",
+                    "SHA-512": "111080a1fcf4182a4efd31b76e6646cda37053098d69f944b1b489c489eb8dc8f88c04bdf5bbb156175247c14e44badbf639ab29caf34a404dee276317cf4da5",
+                    "SHA3-256": "1b9aaa9a62ade60db43213eeb1366a0e6e96c7ee9614152ba585911e50805cf8",
+                    "SHA3-512": "b1195dce0104e0cbad69e0028b924531ea4236e012e739573579b3b4eeceaba20dfd31efca8ffba3cf0f71930637f315dea91622e298b6a522137ca3bca4ce05"
+                },
+                "external_id": "nUGPvq"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

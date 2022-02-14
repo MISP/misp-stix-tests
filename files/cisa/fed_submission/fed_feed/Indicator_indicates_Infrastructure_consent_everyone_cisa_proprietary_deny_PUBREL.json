@@ -1,0 +1,209 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--a294edf3-520f-4198-9559-254fe62f4f39",
+        "created_by_ref": "identity--c36c2409-5273-4446-9eb5-650f15cd2454",
+        "created": "2020-12-18T17:38:56.341889Z",
+        "modified": "2021-08-14T01:08:30.797448Z",
+        "name": "nice",
+        "pattern": "((([ipv6-addr:value < 'f839:8f2d:7f9:71cc:79c9:8239:8dcc:417f']) FOLLOWEDBY [mac-addr:defanged NOT = false AND (mac-addr:defanged = false)] WITHIN 7 SECONDS) OR [process:is_hidden NOT = true]) OR [software:vendor >= 'Bush-Gould']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-09-20T19:02:30.370972Z",
+        "valid_until": "2020-10-18T08:52:51.329533Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "gNBWDZezrVanvPsoWE",
+                "phase_name": "KEvaF"
+            }
+        ],
+        "external_references": [
+            {
+                "source_name": "those",
+                "description": "Hair happy history model manage.",
+                "hashes": {
+                    "MD5": "3544acf54b97ad079314f4006585a9a2",
+                    "SHA-1": "27acefa82c91c94a920301af882e25b8798c17a3",
+                    "SHA-256": "4e02ecd27c2cdcbef4a4a8afada50f2055c2f6f1ed4802cb6e266e87ebf2860d",
+                    "SHA-512": "654232bbe448d16e84c8115e5314f6997debd29192d6fba0b62010d904a87dbb49aa58c906690d060b1f8d73d0f8b422b1941edf1b4948182f96b46d8f1d8276",
+                    "SHA3-256": "7bdcb43cad63ae6f552b888cac575b8dda89bdf4e6860af89fce9fd708908b08",
+                    "SHA3-512": "0a76896666ffcd21806540087289582830e281d5ae5fe0747cac07c2df298d5ad618414acb9b9221d0a4ab3ec3143fd2c5b158f3a9cc6445847e362b62da8475"
+                },
+                "external_id": "XzkySxQG"
+            },
+            {
+                "source_name": "world",
+                "hashes": {
+                    "MD5": "077dd6de9c4857a269d582d7a621f7c6",
+                    "SHA-1": "79fe5d03be59712f396fdb8ab8dea4114e697236",
+                    "SHA-256": "b728236793ed2e58cfe461e29f125123cf52289655b45cef72cd856bf6587b61",
+                    "SHA-512": "d8a8421daee151e1a4e4574ed7dc15706171de4e674d90294a85a5018ab77248febb77ec8c791a6a2a2e871c0a2cd763c5bcaee4b26e44f856e573f548a5033f",
+                    "SHA3-256": "902d2c12e24edd65b8364451b6783a50a6a59ec6c9a55c3b32bf5c2394792dcf",
+                    "SHA3-512": "be189a678299c41fdceef2f3dac1e31f9e5fd36b041460fd6efc893604532cb5726f775b6e77f9de67424ad3d221b4b16139904074a80f1317504789e54540ec"
+                },
+                "external_id": "Aioyoj"
+            },
+            {
+                "source_name": "where",
+                "description": "Pay surface society week friend respond meet well.",
+                "url": "https://kelley.org/"
+            },
+            {
+                "source_name": "make",
+                "description": "Production memory thousand economy.",
+                "url": "https://baldwin.com/",
+                "external_id": "ouiqIGySKqKYOrjDEimt"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--cc5db63d-41bc-45de-a624-42f50f37f36b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--cff85a0e-45cd-4e43-86ef-c45977aefe4c",
+        "created_by_ref": "identity--c36c2409-5273-4446-9eb5-650f15cd2454",
+        "created": "2020-12-16T20:11:25.960785Z",
+        "modified": "2021-08-14T01:08:30.801302Z",
+        "name": "black",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "xKFUv",
+                "phase_name": "ECbicxfZBcW"
+            },
+            {
+                "kill_chain_name": "YWZVZlyOWdaRSgOkGLh",
+                "phase_name": "tbWJUOVGnZ"
+            }
+        ],
+        "first_seen": "2020-03-02T04:29:18.432966Z",
+        "last_seen": "2020-11-12T03:58:38.106927Z",
+        "confidence": 90,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--cc5db63d-41bc-45de-a624-42f50f37f36b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d36e27dd-a381-498e-b027-58cc6619bd8f",
+        "created_by_ref": "identity--c36c2409-5273-4446-9eb5-650f15cd2454",
+        "created": "2022-04-22T15:37:35.711353Z",
+        "modified": "2022-09-20T07:57:16.197333Z",
+        "relationship_type": "indicates",
+        "description": "Run future different part moment. Bank right out two contain tend be. Range especially history activity reduce. Mission exactly degree cell meet marriage.",
+        "source_ref": "indicator--a294edf3-520f-4198-9559-254fe62f4f39",
+        "target_ref": "infrastructure--cff85a0e-45cd-4e43-86ef-c45977aefe4c",
+        "start_time": "2022-04-05T22:33:47.698298Z",
+        "labels": [
+            "small",
+            "friend",
+            "American",
+            "along",
+            "exist",
+            "pfte-batch-1"
+        ],
+        "confidence": 35,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--cc5db63d-41bc-45de-a624-42f50f37f36b"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c36c2409-5273-4446-9eb5-650f15cd2454",
+        "created_by_ref": "identity--c36c2409-5273-4446-9eb5-650f15cd2454",
+        "created": "2021-07-26T07:42:40.136024Z",
+        "modified": "2021-11-22T18:32:58.308685Z",
+        "name": "Hicks, Gutierrez and Davis",
+        "sectors": [
+            "education"
+        ],
+        "contact_information": "8927 Isaiah Park\nBrianburgh, TN 07724",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 72,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--cc5db63d-41bc-45de-a624-42f50f37f36b"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--cc5db63d-41bc-45de-a624-42f50f37f36b",
+        "created": "2021-08-14T01:08:30.796276Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7114ed24-0991-4631-bb44-7704e6b690d1",
+                "name": "Traditional contain thing officer story",
+                "create_date_time": "2021-08-14T01:08:08.432511Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.432344Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

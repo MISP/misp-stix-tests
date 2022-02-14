@@ -1,0 +1,88 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--b6042519-925e-447c-9d60-0e07d432372a",
+        "created_by_ref": "identity--3b8899e0-ee6e-4ea7-9d07-45c1578eb897",
+        "created": "2021-10-23T06:46:36.316023Z",
+        "modified": "2022-07-31T08:48:14.741221Z",
+        "name": "professor",
+        "description": "Find bar stop mention every us.",
+        "first_seen": "2022-02-28T17:53:23.258886Z",
+        "last_seen": "2022-07-03T01:52:05.110598Z",
+        "labels": [
+            "thing",
+            "pfte-batch-1"
+        ],
+        "confidence": 56,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--975540ba-ff3a-44d6-a686-07e41cb25c89",
+        "value": "http://james.com/",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f68ba1c7-5314-451b-b922-519859706f27",
+        "created_by_ref": "identity--3b8899e0-ee6e-4ea7-9d07-45c1578eb897",
+        "created": "2020-09-05T18:04:14.225745Z",
+        "modified": "2021-08-14T01:08:41.488983Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--b6042519-925e-447c-9d60-0e07d432372a",
+        "target_ref": "url--975540ba-ff3a-44d6-a686-07e41cb25c89",
+        "start_time": "2021-12-31T20:52:30.383958Z",
+        "stop_time": "2022-11-26T08:04:21.058846Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "audience",
+                "description": "Seek teacher bed bed process number conference.",
+                "hashes": {
+                    "MD5": "a01496e5ba45614edeb7e98d38a9fb9d",
+                    "SHA-1": "c8da577ee06d6e7484bf5def829940e696581e0c",
+                    "SHA-256": "c6ce51f95bd63236f41e6d062711810d64490ff317d0e13c732ae44eebe10fbc",
+                    "SHA-512": "adce4ae22874ac22d222bb70c1d2697a39b93133ffb27a19e2f4b5e10adbc4e419b6c38f4499a751ec8c47b27ae21ddef9dbc027a461cd26855060e81e674d44",
+                    "SHA3-256": "9c448f94f6d67a4c994fd09b9a95cfbc930935dbf7be80cd4b6d496926074590",
+                    "SHA3-512": "da1b6b38e9f8fec17737114549f9bc74c42a6d2bfb1c7591f49e74fba0915b5c43159a8f5b626690cf0d22ee7e6913c962226c281702633b2c702b7da452403f"
+                },
+                "external_id": "EFBwUQopupXBuDVoTSKV"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3b8899e0-ee6e-4ea7-9d07-45c1578eb897",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-15T04:03:01.364164Z",
+        "modified": "2021-12-29T06:08:51.920822Z",
+        "name": "Rodriguez, Montgomery and Robinson",
+        "contact_information": "03032 Jonathan Cove\nWest Ericaburgh, PA 84513",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

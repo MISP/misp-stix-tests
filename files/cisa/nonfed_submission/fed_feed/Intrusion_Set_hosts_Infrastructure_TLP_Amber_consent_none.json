@@ -1,0 +1,221 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--1b0b5870-dc5b-4860-b216-a7405e19e182",
+        "created_by_ref": "identity--76485466-6ea1-4bdc-8a06-2a56ecaa70c8",
+        "created": "2021-03-14T11:08:41.387329Z",
+        "modified": "2021-08-14T01:08:53.014716Z",
+        "name": "skill",
+        "description": "Buy adult series turn program state economy.",
+        "goals": [
+            "Conference recognize door process leader place smile.",
+            "Notice nation fund anything Mr similar.",
+            "Perform little sense performance bit."
+        ],
+        "primary_motivation": "personal-satisfaction",
+        "labels": [
+            "property",
+            "color",
+            "thank",
+            "pfte-batch-1"
+        ],
+        "confidence": 39,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--0c320861-eb93-424f-b6c1-363957a46642"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--37c04eae-1a19-41fb-bab3-88790852eb64",
+        "created_by_ref": "identity--76485466-6ea1-4bdc-8a06-2a56ecaa70c8",
+        "created": "2021-11-15T22:45:50.962494Z",
+        "modified": "2021-12-14T00:22:06.182537Z",
+        "name": "discuss",
+        "description": "Book write whether key to human operation.",
+        "infrastructure_types": [
+            "hosting-malware",
+            "reconnaissance",
+            "workstation"
+        ],
+        "aliases": [
+            "option"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "bbYnlvMVdJ",
+                "phase_name": "kQFyeHbWkWbMxFf"
+            },
+            {
+                "kill_chain_name": "YQQjzRiAzwTrXokAMTL",
+                "phase_name": "yxVmpEdmNuOb"
+            },
+            {
+                "kill_chain_name": "pkqwYhgabCi",
+                "phase_name": "AkUcVjySsajbGwcj"
+            },
+            {
+                "kill_chain_name": "qUoodqbvetYbbdJNl",
+                "phase_name": "eVquEIZGLaYLCIwNPNti"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "last_seen": "2022-03-15T02:26:47.909756Z",
+        "labels": [
+            "recently",
+            "among",
+            "fact",
+            "forget",
+            "pfte-batch-1"
+        ],
+        "confidence": 12,
+        "object_marking_refs": [
+            "marking-definition--0c320861-eb93-424f-b6c1-363957a46642"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8368f410-3d34-4035-9609-934c9ca31a25",
+        "created_by_ref": "identity--76485466-6ea1-4bdc-8a06-2a56ecaa70c8",
+        "created": "2022-05-30T23:48:08.762742Z",
+        "modified": "2022-07-05T00:25:06.80654Z",
+        "relationship_type": "hosts",
+        "source_ref": "intrusion-set--1b0b5870-dc5b-4860-b216-a7405e19e182",
+        "target_ref": "infrastructure--37c04eae-1a19-41fb-bab3-88790852eb64",
+        "confidence": 42,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--0c320861-eb93-424f-b6c1-363957a46642"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--0c320861-eb93-424f-b6c1-363957a46642",
+        "created_by_ref": "identity--76485466-6ea1-4bdc-8a06-2a56ecaa70c8",
+        "created": "2021-08-14T01:08:53.014123Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6f258483-31e6-4810-a3a3-83f9297fcea8",
+                "name": "Individual personal with know",
+                "create_date_time": "2021-08-14T01:08:08.419751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--76485466-6ea1-4bdc-8a06-2a56ecaa70c8",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-30T14:13:58.910041Z",
+        "modified": "2021-08-14T01:08:53.016553Z",
+        "name": "FocusForgetStep",
+        "roles": [
+            "let",
+            "will"
+        ],
+        "identity_class": "organization",
+        "sectors": [
+            "infrastructure",
+            "mining"
+        ],
+        "contact_information": "828 Austin Freeway\nNew Rachel, AK 70780",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 9,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "reduce",
+                "description": "Tend fast possible I protect treat east standard.",
+                "external_id": "OcZmyKarJBJhG"
+            },
+            {
+                "source_name": "speech",
+                "description": "Fight together particularly foreign.",
+                "external_id": "iOMgQ"
+            },
+            {
+                "source_name": "word",
+                "description": "This space article.",
+                "url": "https://www.daniel-robinson.com/",
+                "hashes": {
+                    "MD5": "2657c22c264e85c74e9ce4852a978a10",
+                    "SHA-1": "28c85bfde62520e0052ca55e14601080cf68e4bb",
+                    "SHA-256": "0fd9d4b6166a78587fb3c5775414b515c19b23ef04c7b62381e9f389b8f778e1",
+                    "SHA-512": "6902fa8c48a9ff1b9d2a1ac98f80e7398972acfc788e04efa7989b46bc91ae73849685b9ad9ce8600c033c1a2aa977b66c3a91d5fbdc1da89d678322706b948d",
+                    "SHA3-256": "86049e98a19f71695e3f37bfdcd559f13a7b46e867c06fc5f086d4fb5bb4c8ec",
+                    "SHA3-512": "2ea627cde55f7658eee605b852f68a9141d4598829e9881e5af0bd92d020e4ccdf0f3d362f6a46590338a516f159294bc7b17d4fd8c7175283d24e041e56b00d"
+                }
+            },
+            {
+                "source_name": "education",
+                "description": "Chance night long help where play ten.",
+                "url": "https://ray.net/",
+                "hashes": {
+                    "MD5": "491adb72f4148ef577a7e7b930d81d91",
+                    "SHA-1": "9f52f829ad561e253b998b5d0c8828a9acc08d27",
+                    "SHA-256": "8de7367c550a9479298f9801b457c4d4b1f7cc4360a7f61dabae73920953fe9d",
+                    "SHA-512": "fcd0fa1d72433e404fd84da066e96925352792ad47df56d91256c5453777942ae469c63895029f196530af3c658b2e90360d3f381559cfe7a5cc20a6bf856131",
+                    "SHA3-256": "1404be336e36008ca4e834c8d19e12c9c61ec191ea78067eb34c110807df9b73",
+                    "SHA3-512": "94cbd5b9a7f343a88e9dbc59035ee03907a9ac0be7dfb8414d1c3e7b5a32a6eb5b25f2858fc61a4264f68813f650c5b7d6dc9cbeef4a41277b1ed970fcb7a20e"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0c320861-eb93-424f-b6c1-363957a46642"
+        ]
+    }
+]

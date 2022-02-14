@@ -1,0 +1,290 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--67156395-f14a-4248-8eb9-0eae9a1cd101",
+        "created_by_ref": "identity--cdfd0945-028d-4359-abb4-790cf66f7bbd",
+        "created": "2021-03-30T05:38:55.234049Z",
+        "modified": "2022-02-26T03:50:52.526323Z",
+        "name": "theory",
+        "last_seen": "2022-02-25T02:11:52.587056Z",
+        "roles": [
+            "agent",
+            "malware-author",
+            "sponsor",
+            "independent",
+            "director"
+        ],
+        "sophistication": "none",
+        "resource_level": "government",
+        "primary_motivation": "coercion",
+        "personal_motivations": [
+            "accidental",
+            "personal-satisfaction",
+            "organizational-gain",
+            "dominance",
+            "personal-gain"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "group",
+                "url": "https://www.duncan.com/",
+                "hashes": {
+                    "MD5": "2409c29eb316991f67f2b1426a34f5a4",
+                    "SHA-1": "de21d4bbc225ffc345527e858545d95d333a800c",
+                    "SHA-256": "5fae4775632b21de8cc7dd61013966634f3ecfa2f4a4d1e3e732e60a472fecc2",
+                    "SHA-512": "e9524cb9363edec72117ac9e720ab6bc490fb938794641df7af90bfff75ca660f97ac3845bc145ede84d92440a67fb97fb2807a744dec33caa41ac3d1759bcd0",
+                    "SHA3-256": "b9a79fc52f13957acc6c714cf752a1ea482fa15da07159a2d23210d50df95501",
+                    "SHA3-512": "3a9448944615e041fa02009f3555d859bfd397df24decc9ee28dd964d6a44376a51a0c52200e8e76c9627631917920955bd75e31bba9440ae7b7189889cd8308"
+                }
+            },
+            {
+                "source_name": "physical",
+                "description": "First report check Mr price pay available no.",
+                "url": "https://hernandez.com/",
+                "hashes": {
+                    "MD5": "ca112a6566c45af37153eeb5ec5f29be",
+                    "SHA-1": "f3db15452420f91e4233522079c6ec9e7a0f7f23",
+                    "SHA-256": "ad2b085b9712e982496139c690082f717ef4f46d4720e8b2467f48c8f1064f07",
+                    "SHA-512": "2c436f7ad8162b49927ffece360d6750325871ec0b2c739ce89326aa095d95b5b6284c4249d5fbd6c0842cf2e82f9ab22b79eb0f2c2147d70376f6b9fc2ac0e1",
+                    "SHA3-256": "a2c150ac30fe11f957164b1855999848f1627d7cc751857ebda8ec6f80b8dc35",
+                    "SHA3-512": "307057c5e437b81c8aa975b6f6c76a5b4fe59c594e1acaeebed23c4482db03635cb2d61d8ffdd984524d062ca813ab535a7fa286055ae8dc351745d4e59547a2"
+                },
+                "external_id": "zlYdZK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--44e1c9b1-59c3-40a1-a14a-9166c53539d5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--0ed771c6-221c-4182-84a8-dd3c9ad1e8e2",
+        "created_by_ref": "identity--cdfd0945-028d-4359-abb4-790cf66f7bbd",
+        "created": "2022-07-22T21:55:05.10018Z",
+        "modified": "2022-08-13T09:39:19.257857Z",
+        "latitude": 51.637488034815334,
+        "longitude": 105.04976104485951,
+        "precision": 50.75389313033744,
+        "region": "southern-africa",
+        "country": "Samoa",
+        "street_address": "751 Lowe Circle Suite 987",
+        "postal_code": "29903",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--44e1c9b1-59c3-40a1-a14a-9166c53539d5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f358fe9a-4f74-415e-a052-b4f234d406da",
+        "created_by_ref": "identity--cdfd0945-028d-4359-abb4-790cf66f7bbd",
+        "created": "2020-09-28T05:24:39.611081Z",
+        "modified": "2021-08-14T01:09:30.962437Z",
+        "relationship_type": "targets",
+        "description": "Mouth central evidence green foot. Student quickly account hear. Parent not hotel direction into.",
+        "source_ref": "threat-actor--67156395-f14a-4248-8eb9-0eae9a1cd101",
+        "target_ref": "location--0ed771c6-221c-4182-84a8-dd3c9ad1e8e2",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--44e1c9b1-59c3-40a1-a14a-9166c53539d5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--b2b157d7-e55e-4ba3-8cf4-431fb0c86e80",
+        "created_by_ref": "identity--cdfd0945-028d-4359-abb4-790cf66f7bbd",
+        "created": "2022-02-15T06:37:56.285262Z",
+        "modified": "2022-10-25T02:09:44.884544Z",
+        "name": "discuss",
+        "context": "unspecified",
+        "object_refs": [
+            "threat-actor--67156395-f14a-4248-8eb9-0eae9a1cd101",
+            "location--0ed771c6-221c-4182-84a8-dd3c9ad1e8e2",
+            "relationship--f358fe9a-4f74-415e-a052-b4f234d406da"
+        ],
+        "labels": [
+            "level",
+            "catch",
+            "pfte-batch-1"
+        ],
+        "confidence": 11,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "you",
+                "hashes": {
+                    "MD5": "9c00bc354b87eb8376a633655507e5b1",
+                    "SHA-1": "eb90bfbd34f7111be7125c84631be1b698e0a11e",
+                    "SHA-256": "33d82dbf8664e4ad60bc9db13c656a86a74ed3a66c2a560cb4c1031f84a907ce",
+                    "SHA-512": "cbda5428a5e734f46c37e3f1b441a36da80d2dddf7b33fd90cb54859f0362caf19029aebab7f221a5888924b77b8fbc6c5b3564ec8b518b249285f517b629beb",
+                    "SHA3-256": "c9aaf948b5e29f9bc7bb0e2932bc491daba1d0af5b01f6c6d8a30b9bcf6c0e5f",
+                    "SHA3-512": "2b811f6b7212547082c9680979492c2f94d1560aae87c38d1aa8892ee201b254c00479cba5a945d85cb037d22b7be52e5c468681a08825d7a76c3b7c4673278a"
+                },
+                "external_id": "ZTAchOSyqPaBOTEN"
+            },
+            {
+                "source_name": "involve",
+                "description": "Effort cover office by training language.",
+                "hashes": {
+                    "MD5": "51299238fc169773f80f72890c6ba4a7",
+                    "SHA-1": "e7d17cd0d207ea1cfb9bc384102115b2c19d2e74",
+                    "SHA-256": "5f297eaeb5ec2d1523866f99c94605391b7f16b818b1ed49f097a24f38ef6265",
+                    "SHA-512": "f40009de60c27a54dd7d7a38203d1e49d547f2b7c54c630f2f0d7fb2bd0915afc96476bb6907c071187255c028dd52a796949215a22b34220f09868bcc682d8a",
+                    "SHA3-256": "971cb6245446210fbf3f9693b3167a9aff47307785addad19fb73fb69b329e06",
+                    "SHA3-512": "87f99fb13c91d433aed693187f09ab7749996516bf39c5ced5c4d72ddda049349b261fe052f9f1cea0949472b128dec316f915dc10cc9e358f54742de1d1e158"
+                },
+                "external_id": "nODKuzx"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--44e1c9b1-59c3-40a1-a14a-9166c53539d5"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--cdfd0945-028d-4359-abb4-790cf66f7bbd",
+        "created_by_ref": "identity--cdfd0945-028d-4359-abb4-790cf66f7bbd",
+        "created": "2021-09-15T07:17:40.971093Z",
+        "modified": "2022-09-14T11:07:50.299239Z",
+        "name": "Smith LLC",
+        "roles": [
+            "national"
+        ],
+        "sectors": [
+            "insurance"
+        ],
+        "confidence": 12,
+        "external_references": [
+            {
+                "source_name": "cultural",
+                "description": "These when per art together bit.",
+                "hashes": {
+                    "MD5": "8e3418cfed70028e4cd62489a14b10c5",
+                    "SHA-1": "65489a67b177dd224e21f977d6684ed9f0bbcebc",
+                    "SHA-256": "6bb5899b0ccb491aa03bd4553a131cf4fb915fc2b3a82f375a13549641da7254",
+                    "SHA-512": "3f72a81ec4d1c847b806c135f6864662f6609e44090fe91703ac2a1f7d90aea45825182ab7fc8d055a43530153856e3425e130e1c3735a739092571a6478af5c",
+                    "SHA3-256": "4511cb6e993f3072631b0b0b7f45647f7e8921f3c9cc94ff30359a86cf8c1afd",
+                    "SHA3-512": "cafc396129f843254299cf339ca754eefea17f78a46b5af461a53a1a8b6d541de2902a341c929cef5b8b3277d5b33c3ff0612b28496df8a8740df8a008745667"
+                },
+                "external_id": "cTXywmEcEpNyrEx"
+            },
+            {
+                "source_name": "civil",
+                "description": "Outside certainly station citizen likely guy however interest.",
+                "url": "http://www.calderon-james.com/",
+                "hashes": {
+                    "MD5": "a3c729bbe0afe9b60b61565e8f149306",
+                    "SHA-1": "264155a6ed81665f14d66033b4ae78b7da795cff",
+                    "SHA-256": "68dcb64dd08e45b43717cc499205fa7125ca9e5ea4ebbbda6c96d41a5be7aece",
+                    "SHA-512": "96df0916aafdc4637a4d9143d415b5e99f2990552193ba8882372afed43b14cebb081616fce139eebbef46bf28a1a1e1ab26d6b87cc42c2abbd5093872ca6018",
+                    "SHA3-256": "8d80f06ea06c90a69ada8fed125af46a2fda9759d9fdaadae47365c7e589715f",
+                    "SHA3-512": "d735245cb8cd26c73d810e3c02787f3363d473a93ff06bce3b27c6eff6874fe4fa92f9fbfcedf41768d2744ac07e27303e72fd1638df0dd7506ea421ff6cbe87"
+                }
+            },
+            {
+                "source_name": "everybody",
+                "url": "http://www.hernandez.net/"
+            },
+            {
+                "source_name": "look",
+                "description": "Tend evening people.",
+                "url": "http://www.diaz.net/",
+                "external_id": "ozsUzdkZcl"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--44e1c9b1-59c3-40a1-a14a-9166c53539d5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--44e1c9b1-59c3-40a1-a14a-9166c53539d5",
+        "created": "2021-08-14T01:09:30.960468Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-57e7d098-4c26-4a4d-bfaa-3ee9c5e47adc",
+                "name": "Customer hot subject fight customer",
+                "create_date_time": "2021-08-14T01:08:08.428617Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

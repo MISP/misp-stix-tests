@@ -1,0 +1,317 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--618e03a4-f5c6-486e-8adf-bfbd92cfa330",
+        "created_by_ref": "identity--a00c6f16-ee2f-4411-9f94-396537f03c2e",
+        "created": "2021-04-21T03:40:31.766469Z",
+        "modified": "2021-12-17T15:26:59.700307Z",
+        "name": "argue",
+        "indicator_types": [
+            "unknown"
+        ],
+        "pattern": "[network-traffic:dst_byte_count <= 101193] FOLLOWEDBY [windows-registry-key:key <= 'hzBkMUoPgChv'] FOLLOWEDBY ([domain-name:value < 'walter.biz'] START t'2021-01-23T21:02:21.755971Z' STOP t'2021-11-01T21:50:23.798576Z')",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-03-15T00:15:17.131156Z",
+        "valid_until": "2021-02-12T15:50:09.534716Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "UpmLzHmRgdywbC",
+                "phase_name": "TRxCbdjsapuHbigkgK"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "labels": [
+            "year",
+            "offer",
+            "middle",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "image",
+                "description": "Week when summer attack.",
+                "url": "http://www.manning.com/",
+                "external_id": "VRVklsBUDhApZObr"
+            },
+            {
+                "source_name": "computer",
+                "external_id": "WxmijPF"
+            },
+            {
+                "source_name": "successful",
+                "description": "Service happy service tree tend.",
+                "url": "https://henderson.com/",
+                "hashes": {
+                    "MD5": "a41bdc3e7a10f4c5c8484eac20f3a1ea",
+                    "SHA-1": "73f2c04800fe22ab0063f759e3acdbffc9902326",
+                    "SHA-256": "cd911fed8d0529988e90b7b84e69f68338d391f42f792b56eede33b0d83f8d81",
+                    "SHA-512": "ff45cf766628346dbabe649ca268d0827169a931475f5ff3dec97c954c2fe059c313d81c1a074ce9b4387b2bc4e73563b902634975b1952b436d4e7c406ff53e",
+                    "SHA3-256": "96947126272a6ab7feb56f503d712315b871a61fcfb72d250389e9d3276cde0d",
+                    "SHA3-512": "faa6cbbfb7940919ac35a6b87c62dc1b1074aff0a3857f9360da00a44e90fb7d794817d3969a641483a83987b31825ab3b28fa61ddf95c11b83882dd4bb14dd9"
+                }
+            },
+            {
+                "source_name": "effect",
+                "url": "http://www.roberts.com/",
+                "hashes": {
+                    "MD5": "509f7e5b390d392e03dafb701596bce1",
+                    "SHA-1": "0a325425d24179200ff0ccef5e2f56d539d2d681",
+                    "SHA-256": "49f62f70f1ac7b8444bbbb4c1880c670f3f75bd2187c4fb7b55cde0bf8a6e7ed",
+                    "SHA-512": "143d0b5df7181433cf7357acecc3895a797e84971db1844f8971ae98efeeb485518c9d15146fd198fd5407d0f584fb999894f8e3e6ce32ee2bd3160f4d408401",
+                    "SHA3-256": "c04cbf6b8b42e367217d903f00ab88a0640fe0c1f3cb2e3a670c5314992f42c6",
+                    "SHA3-512": "fb9ed9b332770ab7d366bcd48d12bb55311d29cd65ef36738be461e9a6d29c51759a148454819f211b7c0c7112b487f571f94e75eaf5c0a48d168c7d0e985435"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c1810770-aa85-466c-b039-431b987d2cb1"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--7950c312-5dac-4939-b82b-2a524b95eb31",
+        "created_by_ref": "identity--a00c6f16-ee2f-4411-9f94-396537f03c2e",
+        "created": "2022-04-12T13:37:54.497534Z",
+        "modified": "2022-11-22T19:12:51.433431Z",
+        "name": "market",
+        "description": "Enjoy carry late writer weight part memory.",
+        "aliases": [
+            "science",
+            "hear"
+        ],
+        "last_seen": "2021-08-05T05:20:03.156555Z",
+        "goals": [
+            "quality",
+            "than",
+            "institution"
+        ],
+        "sophistication": "intermediate",
+        "primary_motivation": "revenge",
+        "labels": [
+            "building",
+            "claim",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "seven",
+                "description": "That speak north.",
+                "url": "https://castro.com/"
+            },
+            {
+                "source_name": "short",
+                "description": "About year stuff half why.",
+                "external_id": "KLdxXZaYpGMGUaVxmvvL"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c1810770-aa85-466c-b039-431b987d2cb1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--0515e8b0-e51e-4b51-9fcc-0161c8304f2b",
+        "created_by_ref": "identity--a00c6f16-ee2f-4411-9f94-396537f03c2e",
+        "created": "2020-10-26T12:32:58.761451Z",
+        "modified": "2021-08-14T01:08:34.422225Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--618e03a4-f5c6-486e-8adf-bfbd92cfa330",
+        "target_ref": "threat-actor--7950c312-5dac-4939-b82b-2a524b95eb31",
+        "stop_time": "2021-06-13T11:57:33.056354Z",
+        "labels": [
+            "low",
+            "job",
+            "open",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c1810770-aa85-466c-b039-431b987d2cb1"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--6a04de4e-4afc-4540-907e-cd8eb9638c9a",
+        "created_by_ref": "identity--a00c6f16-ee2f-4411-9f94-396537f03c2e",
+        "created": "2021-11-20T01:37:59.422232Z",
+        "modified": "2022-01-06T08:31:04.031564Z",
+        "content": "Sound number four trouble debate. Able fine board somebody. Coach people nothing international sea student. Pretty make take ball.",
+        "authors": [
+            "wall",
+            "never"
+        ],
+        "object_refs": [
+            "indicator--618e03a4-f5c6-486e-8adf-bfbd92cfa330",
+            "threat-actor--7950c312-5dac-4939-b82b-2a524b95eb31",
+            "relationship--0515e8b0-e51e-4b51-9fcc-0161c8304f2b"
+        ],
+        "confidence": 94,
+        "external_references": [
+            {
+                "source_name": "interview",
+                "description": "Single heavy research explain.",
+                "url": "http://smith.com/",
+                "hashes": {
+                    "MD5": "de7038e6927798409c4531989d602fa1",
+                    "SHA-1": "9d42844178ba1661fc48533462c06590ed0fc81b",
+                    "SHA-256": "298a9020eae73cf9957c484f5a44f98b5c5d31d2709bfea5c97389a2cb4a2337",
+                    "SHA-512": "c80e9f6bd4d1e94c5de48ce7eaf7544a664983e0d57c0317ac6f57504ddadb34741d01c62668d5d84299c0b46d0f4ff64cec09b5c19a86e2c763de094300911d",
+                    "SHA3-256": "3441de0e6dc5d8133a7c7e6a278bd6ce6e09bb8f70910af99d46cd8c44a5589c",
+                    "SHA3-512": "7916019bf68981ff85b9c55b78b7c4dcd82b9244815cae21dde44cf5ee2080723bbb62f946449ab72571c03b820202ed0281b768a9b4bb233c46a3457b2b46e8"
+                },
+                "external_id": "NFNLZZzHglbHXOOVQUOC"
+            },
+            {
+                "source_name": "throw",
+                "url": "http://www.jones.com/",
+                "hashes": {
+                    "MD5": "b079074f0277af25e3945d5b2c846612",
+                    "SHA-1": "b7c355d76013aad97b0f9bafc2948777a43344d2",
+                    "SHA-256": "c0d975deff32be4e0af33cccfb57eff283eb3a7059a865ea0ccc9ce47b57a370",
+                    "SHA-512": "487af587b34034b3725527753ae44d190f8bdf0a3cc0174d45ed57654cb57d82d479e59e5cdce353df5fe15e9d6f2e1659133d79c2ea7d91416c9d11d920a335",
+                    "SHA3-256": "f97d611bc95cec0829645554c8db49c9b00b650284ff538d64b92457d14f6b70",
+                    "SHA3-512": "fc76f67823eee5a6bbe0ebdd660ad6c11572f2edf6c2f34eb524fabb0a28a7fff7d8c737a0c1a946997388bf6e5dea633422922c56e99039d091e81006855ec9"
+                },
+                "external_id": "NpRvpZdMTAuFcgcne"
+            },
+            {
+                "source_name": "money",
+                "url": "https://www.chambers.com/",
+                "hashes": {
+                    "MD5": "bc650a3e96fda4c49e394a78fce0fd42",
+                    "SHA-1": "42e385c07c281c777c51f913f0a3d10b1da183b7",
+                    "SHA-256": "f66c278dd29c8c3bfda25cce3ef2f794d786cf2f28666dbdfc121745c8deb7a4",
+                    "SHA-512": "469a7e27053e890c662cf0026f9435344eac5f6f2f46e611ee7209ce588caedf2b79759672f5138a18c0daf02b80b457a92f88fcb0431c3fb14de2442309f43c",
+                    "SHA3-256": "70bf95c802d778615075cdb1a3d784bccbd4820a23711208fa52f9063e5cc41a",
+                    "SHA3-512": "84aecfe4dad25e75f1a3f6d235960bdfebabc7c2d7d93d1e3d7d84046ec2fa414fe1d575aa1e23edbd40b21ec1e277524e12f199349210159cc91e501f6acb9c"
+                }
+            },
+            {
+                "source_name": "true",
+                "external_id": "urmBghEykzNqmjs"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c1810770-aa85-466c-b039-431b987d2cb1"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a00c6f16-ee2f-4411-9f94-396537f03c2e",
+        "created_by_ref": "identity--a00c6f16-ee2f-4411-9f94-396537f03c2e",
+        "created": "2020-09-03T05:45:45.508059Z",
+        "modified": "2021-08-14T01:08:34.423164Z",
+        "name": "Guerrero Inc",
+        "roles": [
+            "simply",
+            "oil",
+            "responsibility",
+            "term",
+            "learn"
+        ],
+        "identity_class": "group",
+        "sectors": [
+            "automotive",
+            "agriculture",
+            "non-profit",
+            "aerospace",
+            "manufacturing"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--c1810770-aa85-466c-b039-431b987d2cb1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--c1810770-aa85-466c-b039-431b987d2cb1",
+        "created": "2021-08-14T01:08:34.417875Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6d40bd19-4710-4b69-9440-86c8c2a858b4",
+                "name": "Purpose response respond always trouble later investment",
+                "create_date_time": "2021-08-14T01:08:08.431664Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.4315Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

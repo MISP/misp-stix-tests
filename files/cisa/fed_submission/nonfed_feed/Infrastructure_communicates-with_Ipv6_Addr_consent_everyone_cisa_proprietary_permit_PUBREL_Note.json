@@ -1,0 +1,144 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--284fa2c5-8120-4be7-80cb-6606075b76b5",
+        "created_by_ref": "identity--dec2c860-9a3b-4889-8d6e-97b6d35d10d8",
+        "created": "2021-11-14T16:45:53.465185Z",
+        "modified": "2022-09-01T12:48:42.891438Z",
+        "name": "open",
+        "infrastructure_types": [
+            "hosting-target-lists",
+            "amplification",
+            "firewall",
+            "exfiltration",
+            "workstation"
+        ],
+        "last_seen": "2022-07-12T06:09:17.864537Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "ipv6-addr",
+        "spec_version": "2.1",
+        "id": "ipv6-addr--f61fe379-31f3-4e62-8b3d-835119c62570",
+        "value": "63f4:acac:a313:331b:7b51:bca6:583b:e49",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--9d652c45-8c65-4f66-96a8-5fb0fd3c1b3a",
+        "created_by_ref": "identity--dec2c860-9a3b-4889-8d6e-97b6d35d10d8",
+        "created": "2021-09-29T21:58:44.145452Z",
+        "modified": "2022-03-17T02:48:30.031037Z",
+        "relationship_type": "communicates-with",
+        "description": "Person kind practice believe national. Although hot poor former happy write. Natural result plan bring plant ability.",
+        "source_ref": "infrastructure--284fa2c5-8120-4be7-80cb-6606075b76b5",
+        "target_ref": "ipv6-addr--f61fe379-31f3-4e62-8b3d-835119c62570",
+        "start_time": "2022-07-27T23:08:01.283614Z",
+        "stop_time": "2022-09-21T01:28:46.405721Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--73c191ed-9f6e-4403-9bbd-fc6d9f26df68",
+        "created_by_ref": "identity--dec2c860-9a3b-4889-8d6e-97b6d35d10d8",
+        "created": "2021-12-09T17:21:56.45924Z",
+        "modified": "2022-09-26T16:39:35.034969Z",
+        "content": "Very arm continue time city community. Few particularly describe maybe bad well tree. Sing a continue thank occur.",
+        "authors": [
+            "subject",
+            "lose",
+            "sister",
+            "money",
+            "say"
+        ],
+        "object_refs": [
+            "infrastructure--284fa2c5-8120-4be7-80cb-6606075b76b5",
+            "ipv6-addr--f61fe379-31f3-4e62-8b3d-835119c62570",
+            "relationship--9d652c45-8c65-4f66-96a8-5fb0fd3c1b3a"
+        ],
+        "labels": [
+            "above",
+            "half",
+            "laugh",
+            "involve",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "tell",
+                "url": "http://hamilton-aguirre.com/",
+                "hashes": {
+                    "MD5": "adb6fd783965952cab8c33baff20f4c7",
+                    "SHA-1": "5f88bbe27c3419340a708450821393b1d054dae3",
+                    "SHA-256": "7908b89a1c99f05564d9d0fa09c8a639919e752f6e99d45d0ed6c276d107f935",
+                    "SHA-512": "b0b13e2dcae8a7f3bc1801ac94665c646c7e83694b2c38e877db78b5c263a8a5ab4eabc954510ac831bebe5e2a4a85e387a31ce28f7fde68e5bbf8a2ff1ab720",
+                    "SHA3-256": "3a9686eefd58dbe1f86ef579aba23f05fb77b3bb9accc80f25db472415391dd3",
+                    "SHA3-512": "c45a0c4ce6ab9ebaea5ab643b2ed1f1226d778b2ca35525ba78c43683556a5860a927f8557196f40e678004f5b4473eb2b9497da3af4017cb6619cf1df19c44e"
+                },
+                "external_id": "dvAATkk"
+            },
+            {
+                "source_name": "reduce",
+                "url": "http://www.gonzalez.com/",
+                "hashes": {
+                    "MD5": "ee9fd22ad3ccf55337bb93eb3708beee",
+                    "SHA-1": "78b6fa268e88ec3c27734eaf59681cc51d5bd5d7",
+                    "SHA-256": "f2a3afd32c87d1b9e0439ca0f146a7c96206ca5e83dc7eb9b0984a912b703ed1",
+                    "SHA-512": "419b1def3f9b5578964457f3d5bb7d6450b2bc42ace313cc8f9f3567688fb05eb1a6f6d134553928f44d77e4d62d4322e5cf22b370e774297e0eec0d3009ae4a",
+                    "SHA3-256": "46d3daca2302bb60d05ea15bff1898cf0552d870e114cd113f25f13eb6498ecd",
+                    "SHA3-512": "16c6504f46ff19ba822e8945d3bbef01429c0066472f2a7b49bf4bb1940f0144fa1a38b297a18118e8515110b82b22ca11510bf6024f013f10f3ee6b557c8006"
+                },
+                "external_id": "msIkgBTQNifB"
+            },
+            {
+                "source_name": "science",
+                "description": "Society everything sit stay.",
+                "external_id": "xiYUxTqARTJtVeKuBifb"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--dec2c860-9a3b-4889-8d6e-97b6d35d10d8",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-03-12T20:29:30.612085Z",
+        "modified": "2021-08-14T01:08:40.615808Z",
+        "name": "Jimenez, Dickerson and Pollard",
+        "sectors": [
+            "construction",
+            "entertainment"
+        ],
+        "contact_information": "004 Edward Lake\nDeborahborough, CA 96441",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

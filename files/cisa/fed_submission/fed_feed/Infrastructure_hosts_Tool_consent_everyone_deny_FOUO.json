@@ -1,0 +1,203 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--d9bcd0fa-541b-4320-a450-d85ce13e5257",
+        "created_by_ref": "identity--7eeee3bb-4682-4792-be1e-355fdd107218",
+        "created": "2020-11-24T02:54:36.659285Z",
+        "modified": "2021-08-14T01:08:48.491481Z",
+        "name": "statement",
+        "description": "Sell standard civil wind kid stop.",
+        "infrastructure_types": [
+            "unknown",
+            "reconnaissance",
+            "staging"
+        ],
+        "first_seen": "2021-05-27T08:48:16.339203Z",
+        "labels": [
+            "system",
+            "include",
+            "these",
+            "pfte-batch-1"
+        ],
+        "confidence": 15,
+        "object_marking_refs": [
+            "marking-definition--c67653fb-34d7-42eb-8208-14414094abdb"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--2bbff92d-646a-47b0-97f0-8277212e7b13",
+        "created_by_ref": "identity--7eeee3bb-4682-4792-be1e-355fdd107218",
+        "created": "2021-10-14T15:40:43.468201Z",
+        "modified": "2021-11-18T16:06:57.742099Z",
+        "name": "rock",
+        "description": "Fast security measure.",
+        "tool_types": [
+            "exploitation",
+            "information-gathering",
+            "network-capture",
+            "exploitation",
+            "denial-of-service"
+        ],
+        "tool_version": "how",
+        "confidence": 25,
+        "object_marking_refs": [
+            "marking-definition--c67653fb-34d7-42eb-8208-14414094abdb"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--07d88e1a-e4f6-4fc1-bc82-8f2e4ab89848",
+        "created_by_ref": "identity--7eeee3bb-4682-4792-be1e-355fdd107218",
+        "created": "2021-08-24T05:18:30.543227Z",
+        "modified": "2022-07-05T01:15:20.50419Z",
+        "relationship_type": "hosts",
+        "source_ref": "infrastructure--d9bcd0fa-541b-4320-a450-d85ce13e5257",
+        "target_ref": "tool--2bbff92d-646a-47b0-97f0-8277212e7b13",
+        "stop_time": "2022-05-23T00:36:08.302947Z",
+        "confidence": 60,
+        "external_references": [
+            {
+                "source_name": "another",
+                "description": "Fall across story player church.",
+                "url": "https://jackson.com/",
+                "hashes": {
+                    "MD5": "78758da76929be406a0178ed17cf641b",
+                    "SHA-1": "3679fdd75af0528dea5450be0e77fb03a8b20b25",
+                    "SHA-256": "a85393a2b4058b9301abfa06e0cc652894c4771d4b99eba8fc1a4c16b85e9098",
+                    "SHA-512": "3043c962218ce4942413e807602c11000d02a08d61eb507d4c5dfe8d85578cf4168ef0d8ce6f6a03541d09ea3d70c002cef604401a1c1d4e64ed2dd90490864f",
+                    "SHA3-256": "2f681aacbe063cdab4de19a53e3f04e20141d2937c4016205cdc4475e67c2b5e",
+                    "SHA3-512": "517ada089f3fe2acba937095f14a99ce50594bdfe3df677f1c9d83ad10462e251a46b93108442a0b423c6a8692ffed364b85cb5cd9eda98783d66e0877deff9f"
+                },
+                "external_id": "sbIxIqqbfZU"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c67653fb-34d7-42eb-8208-14414094abdb"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7eeee3bb-4682-4792-be1e-355fdd107218",
+        "created_by_ref": "identity--7eeee3bb-4682-4792-be1e-355fdd107218",
+        "created": "2022-04-29T07:30:21.045535Z",
+        "modified": "2022-07-06T18:11:08.264783Z",
+        "name": "Franklin, Garcia and Martinez",
+        "roles": [
+            "detail",
+            "quality",
+            "increase"
+        ],
+        "sectors": [
+            "nuclear",
+            "automotive"
+        ],
+        "contact_information": "13824 David Shore\nNelsonland, IA 83959",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 68,
+        "external_references": [
+            {
+                "source_name": "someone",
+                "description": "Top everyone son employee forward bank.",
+                "url": "https://schroeder.com/",
+                "hashes": {
+                    "MD5": "40bc5a08e3184183724411b307562b30",
+                    "SHA-1": "154ae64c99add0add0d6394bfd43c621897a9f4c",
+                    "SHA-256": "dd4be3cbd506eaf43eaf6e01d3c6362ec5af00b82d0d2058a93b96b39eb2140f",
+                    "SHA-512": "9ec5608e86dabdff12bd295534d8f5aae5ed6841b36b1129c2f69623a81ed85df6318e522112a978150c6388272e1ec005f97e2bfbf3165c954493849110323c",
+                    "SHA3-256": "30dec40df9521cb7e7d0a218b651ab41267bbf3402b8496d2a437eb017728feb",
+                    "SHA3-512": "a7c43820840cc8e1bb105a990ae00c0330a696c013e73a9dbc5e0bd61b8b038cd66f0a34e69679ee18059f0b2e050fbc88dd6e0da27c3c94d8c99c7e576b4554"
+                },
+                "external_id": "dwtyyXJoewlnC"
+            },
+            {
+                "source_name": "however",
+                "url": "https://lee.com/",
+                "hashes": {
+                    "MD5": "3ec7939431bf0791ae520d41e074d480",
+                    "SHA-1": "374438a01795d63348f971c15b6d7e7b83522c71",
+                    "SHA-256": "4b6fdc93cf70b5846cff8f817319367e9c4e467cd1d391fcf1fdd575049477cf",
+                    "SHA-512": "1603a9e6bbaa92e2b8f5e9562b62f8f2171712bf63256ce5d9f0489563aeb5450f82226fcf1be1dfadb472317abdf6b6ca6f895549e8951b4039fe8329e339d0",
+                    "SHA3-256": "061e730ddadc7bf2e2a60184689c7d7e38dfb8e8931d7ceb0305d1cae7ae1d3a",
+                    "SHA3-512": "39969a9ae323048e63fada621cf8546188646763ccc53a40a9437ab27a8347dc163e86a9d97b22f768636bf0edd62b9c641a9fd5f2989a3db1e54c62a4d76d1a"
+                }
+            },
+            {
+                "source_name": "sort",
+                "description": "Per stay chance federal speak mention remember drug.",
+                "external_id": "DoWEzbgRJnSUavCtw"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c67653fb-34d7-42eb-8208-14414094abdb"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--c67653fb-34d7-42eb-8208-14414094abdb",
+        "created": "2021-08-14T01:08:48.490856Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3af87523-f9f6-4d99-acfc-79560c4d2219",
+                "name": "Boy understand else sense give house travel already",
+                "create_date_time": "2021-08-14T01:08:08.429507Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

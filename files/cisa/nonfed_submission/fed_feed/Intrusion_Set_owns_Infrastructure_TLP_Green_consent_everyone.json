@@ -1,0 +1,179 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--b2263f74-7a50-45a8-94d2-b147cbd12ede",
+        "created_by_ref": "identity--052e0717-fb71-42c7-9b8f-59a74162afd5",
+        "created": "2020-10-06T22:06:57.464333Z",
+        "modified": "2021-08-14T01:08:53.927354Z",
+        "name": "weight",
+        "description": "Act everybody term under public almost able with.",
+        "first_seen": "2021-08-29T05:29:11.404418Z",
+        "last_seen": "2021-11-17T14:46:09.689693Z",
+        "primary_motivation": "ideology",
+        "secondary_motivations": [
+            "personal-satisfaction",
+            "dominance"
+        ],
+        "labels": [
+            "you",
+            "need",
+            "peace",
+            "pfte-batch-1"
+        ],
+        "confidence": 29,
+        "object_marking_refs": [
+            "marking-definition--9ec85353-ba8d-41c4-a1d9-900d70c82a88"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--681e23fd-46b0-479b-94e0-32358bb17e01",
+        "created_by_ref": "identity--052e0717-fb71-42c7-9b8f-59a74162afd5",
+        "created": "2021-08-17T12:12:31.780866Z",
+        "modified": "2021-12-18T03:23:00.646848Z",
+        "name": "hand",
+        "description": "Still including everybody home.",
+        "infrastructure_types": [
+            "phishing"
+        ],
+        "aliases": [
+            "dark",
+            "father",
+            "leg"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "KxxFiomtEPlb",
+                "phase_name": "cNdDHfY"
+            },
+            {
+                "kill_chain_name": "mPephmWbxbeorBY",
+                "phase_name": "xNQHXh"
+            }
+        ],
+        "first_seen": "2022-04-18T23:47:27.113794Z",
+        "confidence": 79,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9ec85353-ba8d-41c4-a1d9-900d70c82a88"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b3179176-4dde-4086-9389-b895ae9892bf",
+        "created_by_ref": "identity--052e0717-fb71-42c7-9b8f-59a74162afd5",
+        "created": "2021-11-16T02:46:03.372392Z",
+        "modified": "2022-11-05T18:26:01.195975Z",
+        "relationship_type": "owns",
+        "description": "Performance effort travel. Sure catch girl few prove from. Another perform stay notice score red.",
+        "source_ref": "intrusion-set--b2263f74-7a50-45a8-94d2-b147cbd12ede",
+        "target_ref": "infrastructure--681e23fd-46b0-479b-94e0-32358bb17e01",
+        "start_time": "2022-02-12T22:42:19.039012Z",
+        "confidence": 57,
+        "object_marking_refs": [
+            "marking-definition--9ec85353-ba8d-41c4-a1d9-900d70c82a88"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--9ec85353-ba8d-41c4-a1d9-900d70c82a88",
+        "created_by_ref": "identity--052e0717-fb71-42c7-9b8f-59a74162afd5",
+        "created": "2021-08-14T01:08:53.92657Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-cdad75a5-97a2-450d-bb1c-cac3b21b4823",
+                "name": "Continue half as create together strong",
+                "create_date_time": "2021-08-14T01:08:08.421874Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--052e0717-fb71-42c7-9b8f-59a74162afd5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-13T04:03:59.008601Z",
+        "modified": "2022-08-17T02:49:46.933679Z",
+        "name": "Nelson Ltd",
+        "roles": [
+            "themselves"
+        ],
+        "identity_class": "system",
+        "sectors": [
+            "emergency-services",
+            "non-profit",
+            "healthcare",
+            "aerospace"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--9ec85353-ba8d-41c4-a1d9-900d70c82a88"
+        ]
+    }
+]

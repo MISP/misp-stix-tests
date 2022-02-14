@@ -1,0 +1,268 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--5c827feb-3324-41da-9988-824b65342cde",
+        "created_by_ref": "identity--080a74ae-3044-478e-98d0-62830dec0a96",
+        "created": "2021-08-28T23:47:15.159202Z",
+        "modified": "2022-08-18T08:32:43.947664Z",
+        "name": "middle",
+        "pattern": "(([domain-name:defanged = false]) OR [domain-name:defanged NOT = false])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-09-25T14:18:10.172042Z",
+        "valid_until": "2022-05-12T00:29:45.379257Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "OZMcGgzraLbs",
+                "phase_name": "ktirrrAoKwCIbD"
+            }
+        ],
+        "confidence": 9,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "bill",
+                "description": "Evidence north others mention black chance employee.",
+                "url": "http://kim.com/"
+            },
+            {
+                "source_name": "such",
+                "url": "https://lucas.com/",
+                "hashes": {
+                    "MD5": "28aafe38022dc4e15a60297153d42b60",
+                    "SHA-1": "d49b0c9fd1f0cd73b4642e91884be7f4f571dff1",
+                    "SHA-256": "ee496d176a5dd6d4a2716fa6804ef692015eb09d31af4cdbe6309b4005403521",
+                    "SHA-512": "b2a56a87f02875736b54369cccc7b031ac03a91902315e4b1281455096fbe6a9007216e974f3c3130d1a1ba7efdbc37dfdfcd9fd53ad08eae4a54455015291ed",
+                    "SHA3-256": "d3dc5d649233fcd8bc120515676f5b1ba06f995f18042e81afc2b4d3d4f440c5",
+                    "SHA3-512": "5730834cc235fe08a5efe7cf68bf036dcad70357a98fbe535cbc6ec33692eba4ae30c315627c5473bb98ee51cd69b68ecb52963f331d0f9f1c96f44ca2c5fd89"
+                },
+                "external_id": "nhRGHaYEPdfyadKKvisb"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--07337d00-b3eb-4918-850c-bf82b2c8d0d1"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--f5b905ba-470d-41df-9318-08f0eedd2f29",
+        "created_by_ref": "identity--080a74ae-3044-478e-98d0-62830dec0a96",
+        "created": "2021-06-02T07:03:00.674061Z",
+        "modified": "2022-01-23T17:32:21.8134Z",
+        "name": "explain",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "ECuihOyz",
+                "phase_name": "JpGvmiVv"
+            }
+        ],
+        "labels": [
+            "sense",
+            "still",
+            "cost",
+            "by",
+            "sometimes",
+            "pfte-batch-1"
+        ],
+        "confidence": 5,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--07337d00-b3eb-4918-850c-bf82b2c8d0d1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e081bffc-7648-4cfd-8004-74088ea28bc7",
+        "created_by_ref": "identity--080a74ae-3044-478e-98d0-62830dec0a96",
+        "created": "2022-05-31T16:41:09.86756Z",
+        "modified": "2022-06-16T07:28:25.955535Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--5c827feb-3324-41da-9988-824b65342cde",
+        "target_ref": "attack-pattern--f5b905ba-470d-41df-9318-08f0eedd2f29",
+        "stop_time": "2022-06-07T03:28:31.953542Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "upon",
+                "description": "Manager hope before drop simple.",
+                "url": "http://villegas-booker.biz/",
+                "hashes": {
+                    "MD5": "f754aad698b5bc60a6fa066d0da82e21",
+                    "SHA-1": "40a8753ba2eb719cbf5b12258c3a7b1299942cdd",
+                    "SHA-256": "4da8dcde6e8dfbc7a67e14e72d1cdfce8abc7d4557e5fac683951909998f77ff",
+                    "SHA-512": "0c539de2453fad7d7ecae6f0db9f1717c0ec878a95a5b5f44780c18c0547dc2b3cbf03482a61d3e7d380b5c37f7fda95f098c6465e554327e1d0f0f1025b7890",
+                    "SHA3-256": "5b49172cc1c626da96514234d20c71d3c1b5ff6fab969de804e2871052ae4854",
+                    "SHA3-512": "7497134717aae5c597315d941681905e132258a5c751987d6acd427027840a97ffe59199c0051548e5cc78439f6a308d693619dd8e370a3c9146b66ca747eb23"
+                },
+                "external_id": "VgoxWruhjViGpAzX"
+            },
+            {
+                "source_name": "how",
+                "hashes": {
+                    "MD5": "61d30e437473d9d3a532190c79e117dc",
+                    "SHA-1": "b82388091809b0676c9a827a5459b310bca8cf7f",
+                    "SHA-256": "21ac7576fe39a8fffcc4b99f7125d7d1491ebf3909f0d1b7eaaca0b1424bbe05",
+                    "SHA-512": "72909f34a4d018ef79eaf65db55fd76120650d92c21b221e3a96542db81f9242fcb4a6f5ca87ebb8374960fb6bef64c052c61b5653a35b76e2647bd3f8b80470",
+                    "SHA3-256": "5d6336cc16c3e1cb3295926fa9a0b6a717cdb205cf5714c05c827cd7544c1c5c",
+                    "SHA3-512": "24a1246ddbd733f4bfa9271847b74fb90eadab65c10c0045e2ba61adeea32e2390a4b76cc8aca25ca12926049846ddfbb10a4c1d73f9dcc5fb8780c4b418d1c6"
+                },
+                "external_id": "kXHgvlDBo"
+            },
+            {
+                "source_name": "name",
+                "description": "Beat among themselves.",
+                "url": "http://hines.com/",
+                "external_id": "gFDnqXJhi"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--07337d00-b3eb-4918-850c-bf82b2c8d0d1"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--080a74ae-3044-478e-98d0-62830dec0a96",
+        "created_by_ref": "identity--080a74ae-3044-478e-98d0-62830dec0a96",
+        "created": "2021-12-22T06:37:47.759318Z",
+        "modified": "2022-04-12T00:18:25.875051Z",
+        "name": "Williams-Sanchez",
+        "identity_class": "individual",
+        "sectors": [
+            "mining",
+            "technology",
+            "infrastructure"
+        ],
+        "contact_information": "963 Maria Island Apt. 084\nKarenton, SD 91304",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "them",
+                "description": "Election network series high relate fund professor.",
+                "url": "https://rivera.com/",
+                "hashes": {
+                    "MD5": "c5764559aabab3b3dbb09eb15aa0077e",
+                    "SHA-1": "5dda57ec73c425b64c46264896c946e2fb809fa1",
+                    "SHA-256": "35ef65dfeafc568da6a5df3d47ca03bc93afed179a60edd8317569e720ff372c",
+                    "SHA-512": "9b9813573f0a2e86a8ad941f2eb15cd5ef1ea6e3119842e47e1c51b30a351168bea8c31676fbd11cc156d3d82ce1f3d5df26e51f0ef9ebfc9c38ff4c085595d2",
+                    "SHA3-256": "31d57a84dc21214d71eb9cdb29442a6fe1b57d3b48a6bc07d0962b5595145fe8",
+                    "SHA3-512": "166e6b3a3f79697fcfb1c1ca6db99aeb3c229dd4222eb2e8a904b8966a216b92be07a32c836ad37262eb04ad5aec0a84221b2883e53968e8a417900e9981dc03"
+                },
+                "external_id": "kmQsargUT"
+            },
+            {
+                "source_name": "run",
+                "url": "http://irwin-moody.org/",
+                "external_id": "xfLkHMkkZjUQrV"
+            },
+            {
+                "source_name": "according",
+                "description": "Feel owner why sea.",
+                "url": "http://www.graham.com/"
+            },
+            {
+                "source_name": "more",
+                "description": "Stop put necessary perhaps.",
+                "hashes": {
+                    "MD5": "05ea1dbf2a51fed1f7e357fdcddf3a96",
+                    "SHA-1": "bd4213beb72c3c8f770881710158a1e4df0b25d5",
+                    "SHA-256": "a709fcb6ea5c7599e964b30384eab6c2d99c4606d831adbfed9aeee6ad0ea686",
+                    "SHA-512": "3dae4bb08a9232d3029a2f6f882448b5e2f94e528587bf1419d9cfadbac743823eff1325cefde7aeb71774b6119e4a645b52b629152a9d93daaf40c14c4a1dda",
+                    "SHA3-256": "41cfabb15f991a517ef9ed6b2457c2fc630149c3a0f9b0f1df5a30ad85ef4067",
+                    "SHA3-512": "f5f683f5149feb54c4b69a8288683423411d73a351f1b0ac796634ad4c879e4e538255940ea3527a0aae51ab95a7786879f276e6164c5304e61b5a13b1ceb22c"
+                },
+                "external_id": "QfRnxpfuinnHtV"
+            },
+            {
+                "source_name": "sort",
+                "url": "https://smith-taylor.net/",
+                "hashes": {
+                    "MD5": "9cbda004fac65705958d1d03e43aa676",
+                    "SHA-1": "91a36a4f8ac77be5a0b5e0c1104f4610cc5c83d8",
+                    "SHA-256": "33d078f4f175dd3c8ae3c0acb5651766daeeb758c3b18a037c7604a3683d2e3a",
+                    "SHA-512": "b1c66d6b7c65a7e2ca7d76c96913099997391fcca78cabefa97bc0a74fb934d976101f201329191a1bfde016b0a9a350d0d1cf627ec009e9f53a77d8b61d0db7",
+                    "SHA3-256": "37d8040b6f5cc43e0c33d7a5407d316dacff446143ddab68a0cc9cac71c394dd",
+                    "SHA3-512": "8d8f5f59e24f474ffdc12e6d8a05bf7b1c9391dc4bee669d3fb119781699e1bec6162f8b384b9dd52f497e8e8f54ae1ca41ee1b2f805d5e7fbdfd204b13c5365"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--07337d00-b3eb-4918-850c-bf82b2c8d0d1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--07337d00-b3eb-4918-850c-bf82b2c8d0d1",
+        "created": "2021-08-14T01:08:28.341198Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e0c28f68-5570-434a-9764-3e8498f0a59a",
+                "name": "Serve much idea usually",
+                "create_date_time": "2021-08-14T01:08:08.432065Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

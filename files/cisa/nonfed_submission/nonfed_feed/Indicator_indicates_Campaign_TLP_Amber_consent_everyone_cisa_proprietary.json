@@ -1,0 +1,160 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--c53c7af3-764e-4fb5-a7d9-5c60d36f03ee",
+        "created_by_ref": "identity--e6f66286-f02c-4118-8767-70982353cda0",
+        "created": "2021-08-14T15:30:05.876082Z",
+        "modified": "2022-05-19T19:22:54.019869Z",
+        "indicator_types": [
+            "unknown",
+            "malicious-activity",
+            "benign",
+            "malicious-activity",
+            "unknown"
+        ],
+        "pattern": "[user-account:display_name NOT = 'Curtis Gutierrez']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-08-14T18:38:38.326097Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "bRBuG",
+                "phase_name": "tNHqqlLmWLkEUT"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "labels": [
+            "hand",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--d1086a81-6212-44d4-a5b6-5ff75d641036",
+        "created_by_ref": "identity--e6f66286-f02c-4118-8767-70982353cda0",
+        "created": "2021-05-14T12:22:17.146847Z",
+        "modified": "2022-01-07T00:08:14.566945Z",
+        "name": "city",
+        "first_seen": "2021-03-20T21:08:30.900266Z",
+        "last_seen": "2021-04-26T17:51:27.51994Z",
+        "labels": [
+            "prove",
+            "hotel",
+            "energy",
+            "president",
+            "road",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--2c3e8bba-379e-43f6-b990-cbc405d8c8fe",
+        "created_by_ref": "identity--e6f66286-f02c-4118-8767-70982353cda0",
+        "created": "2022-03-22T19:00:47.556523Z",
+        "modified": "2022-09-16T21:19:35.204009Z",
+        "relationship_type": "indicates",
+        "description": "Manager animal challenge market. Card a deep will never. Natural will population them.",
+        "source_ref": "indicator--c53c7af3-764e-4fb5-a7d9-5c60d36f03ee",
+        "target_ref": "campaign--d1086a81-6212-44d4-a5b6-5ff75d641036",
+        "start_time": "2021-09-26T04:58:00.748987Z",
+        "stop_time": "2021-11-21T22:34:47.856322Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "analysis",
+                "description": "Interesting page free.",
+                "hashes": {
+                    "MD5": "45e86798e70326d2b5c8b2be63ff20b7",
+                    "SHA-1": "171cdcd19302c3d334e0394bd51a8c7b58545d50",
+                    "SHA-256": "d09c39ce66b58652e3ebe07d16ddcfb6f4d7b8bf70703cb81ec02ac424581834",
+                    "SHA-512": "659371b846653bd2fd6e113fc2b705d362389e40b8a3e6ca232aea31d75342718996e6dbc1f93aed6bb74130bb1b74091e70e0118eeab908a31f9a36462e6327",
+                    "SHA3-256": "6e1d0b7cb3de6530b27de3d7c0bf9e24fdb85b8c6bf35d53d8fc0d707c4cd519",
+                    "SHA3-512": "995dd517a4ed5462b9c37d45cdf531181ba4dfc00a1a9e27f556d85452a90ceb9a2c3e23e83980cb14f4cbfaa01ebdc83908adde8201c011646ccebdd6a6895a"
+                },
+                "external_id": "gZrTasPMTbphzQdCSE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e6f66286-f02c-4118-8767-70982353cda0",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-11T02:39:11.633832Z",
+        "modified": "2021-08-14T01:08:28.941501Z",
+        "name": "Sanchez-Nichols",
+        "identity_class": "unknown",
+        "sectors": [
+            "entertainment",
+            "transportation",
+            "communications",
+            "nuclear"
+        ],
+        "contact_information": "20885 Baker Villages Apt. 771\nJohnsonville, VA 29685",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 97,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "industry",
+                "description": "Finish total paper upon assume.",
+                "url": "http://wolfe.com/"
+            },
+            {
+                "source_name": "where",
+                "external_id": "fvvuG"
+            },
+            {
+                "source_name": "impact",
+                "description": "Trial brother owner coach author east dark.",
+                "url": "http://www.norris-johnson.net/"
+            },
+            {
+                "source_name": "red",
+                "url": "http://www.campbell-pennington.net/",
+                "external_id": "QJQjiye"
+            },
+            {
+                "source_name": "cost",
+                "description": "Husband discuss it mention than.",
+                "url": "http://burton-flores.info/",
+                "hashes": {
+                    "MD5": "2a1a59cf6c8fe15cb25630ab162efa35",
+                    "SHA-1": "2b5857563fd60cc63c2afaf699b0ace979f6eff6",
+                    "SHA-256": "e9dfcfd311b661bc34d0ea0574aba250f54861976fee71594dcaa2e9bcdcd4ec",
+                    "SHA-512": "b6661dcd268fa55c5e9d672c8217c4048b5326aa404c31a7a6f07a8264a52363a7cf535a906352257c7bbb1be03adbe98fdb0a9bce9887679d7cf2742857eb24",
+                    "SHA3-256": "126d5e42fa73a8c728b7bdbec6e276925a616bcb8a242124bcf0085d50808391",
+                    "SHA3-512": "7dfed46536f45c51af2fa73dd95ea38b15db7e821522ac0b5bc81b451b89f01842007212106539fb28317eec6ca22d4c5af7a4898b7c6d2bb31cfc5c7f5fc5e4"
+                },
+                "external_id": "XdOpeZujmh"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

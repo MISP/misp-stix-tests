@@ -1,0 +1,236 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--46ddbe88-ca99-457b-a3a6-9911fe305f0b",
+        "created_by_ref": "identity--05a043ae-60a0-4376-9665-15b39fdba31f",
+        "created": "2022-01-02T00:06:20.846485Z",
+        "modified": "2022-08-03T00:35:51.664503Z",
+        "description": "Allow these role look suggest.",
+        "indicator_types": [
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "[domain-name:value < 'richardson.biz'] OR ([(domain-name:defanged = false) OR user-account:defanged NOT = false])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-06-15T10:51:45.551233Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "JjVRjfbYhP",
+                "phase_name": "VLNQoIqZl"
+            },
+            {
+                "kill_chain_name": "KJPqAAherJr",
+                "phase_name": "rHadiBXPT"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "external_references": [
+            {
+                "source_name": "include",
+                "hashes": {
+                    "MD5": "da78ed32966bc6bd7cd5eaad333cb5d9",
+                    "SHA-1": "32e288c89e20c68c8ddf792f1b4d56942605c9b9",
+                    "SHA-256": "1b30da2586f8420d9bae801a5e5d8e8ba01f7151126473c9944d8223407cf593",
+                    "SHA-512": "53d500a78112516ddfff087c5490716aa7206759d4ff51cfe36a4e26bf6c8d4d4c4dadaa0ce7ef5696d8282be26fffa72551f77e4bf4456ac3f14b0c947ce92c",
+                    "SHA3-256": "27a7aaf239c3907da3a675c1786c6cfd62266d72edbbb2b4cb50a06934a910d6",
+                    "SHA3-512": "fd4437eb11a6a6c90fbb9e3cf7b39a95f0858b1bace6ecf6b74abc93370b375f1d1f02bcf8c45e15f1c2f1a061f1e5357dc60574018299c1c38069a17150c85e"
+                },
+                "external_id": "POpJa"
+            },
+            {
+                "source_name": "himself",
+                "url": "http://porter.info/",
+                "external_id": "MDIrPHgvYcYlF"
+            },
+            {
+                "source_name": "well",
+                "url": "http://myers.com/",
+                "hashes": {
+                    "MD5": "a4f90fee875fe135aab14bc7bdb659e8",
+                    "SHA-1": "f7dd779589a6daaedb717277f536632a95bc8db2",
+                    "SHA-256": "0dafd1a0f3a91068342acb53a871369debe63098c201794ac680c8a328ad11c0",
+                    "SHA-512": "62551e356a6418f0f8af20623058f5a23510b00fba291692519e2ec0c1035afbd2da1a517dd8b14a5951a76989299b68956a07e2108812e887ed5864523d09ac",
+                    "SHA3-256": "b0a5d447a4a68129ed9f477bff95f173ead261622d27d523ea9ae0ae05538f73",
+                    "SHA3-512": "6dca6f69a193ac59095ada1270c290b533c27c41df8e885fc68f848b8c007dff909ab994c8dd279d128d277cef23d579ab5a2c2b8036eb4df28da1588d6ed796"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a45db865-e099-4fc0-8d2b-d56afbc19e43"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--aba3ed59-ebf9-4ab8-93cd-f9e745fa0b62",
+        "created_by_ref": "identity--05a043ae-60a0-4376-9665-15b39fdba31f",
+        "created": "2022-04-27T17:23:25.535065Z",
+        "modified": "2022-06-09T09:44:58.460526Z",
+        "first_observed": "2021-06-18T02:34:23.595732Z",
+        "last_observed": "2021-07-14T20:20:47.407081Z",
+        "number_observed": 208373823,
+        "objects": {
+            "domain-name--5cdfc6cc-5503-4da0-939d-37b130c5d62a": {
+                "type": "domain-name",
+                "spec_version": "2.1",
+                "id": "domain-name--5cdfc6cc-5503-4da0-939d-37b130c5d62a",
+                "value": "thomas.com"
+            }
+        },
+        "labels": [
+            "student",
+            "yet",
+            "talk",
+            "reason",
+            "well",
+            "pfte-batch-1"
+        ],
+        "confidence": 24,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "himself",
+                "description": "Nor throughout south trip speech until.",
+                "url": "http://beard.com/",
+                "external_id": "BQHiAWCxUIEgO"
+            },
+            {
+                "source_name": "production",
+                "hashes": {
+                    "MD5": "8d5546e32c4bc59ca428b0cbe17a40cb",
+                    "SHA-1": "ea2991edf96cefced4a770b2e01e694e31c0e52a",
+                    "SHA-256": "48c3a4b983c83751b63847319dbd21c7a673840cec4368c0cb63bf954599abfa",
+                    "SHA-512": "438713d66d044c0e5f0d8443888d874037a852bb1a898fb3ddcc3cfe689daf635acdfde8c254307cdad62659edc6a6610e4868bf4727221d6a9e24f6095f85be",
+                    "SHA3-256": "b15755ec80aad8e504b13911708672d2dd4c3b039a6a7fb35068565419e3b98f",
+                    "SHA3-512": "d68b82f12f399633c473acd8e20731d0b3ef0fe2788e044b54bd3bdbacbb8543bbebaf12649ea1e650e81808dbc5d63e11f69a0b406a999d9683b0221324bcbc"
+                },
+                "external_id": "yrxUBbKCJ"
+            },
+            {
+                "source_name": "which",
+                "description": "Politics arrive politics pick really situation investment.",
+                "hashes": {
+                    "MD5": "4098fc95639076e19d12966cbd071af8",
+                    "SHA-1": "219fb793274c0dbe02b0807368c3157bc0cbbf3c",
+                    "SHA-256": "52298fe8bf9a921fa7fcc882c99093c6204e013af8900be8e6f3dc0ccf6cf6db",
+                    "SHA-512": "a3fb2ffb25b0e9651723c0f4b0cbe9dedd8235b8333c52ee8a64c53c481f13f7c7a0d2e8807363c8d3012cbd3d42f1ff17e3410489118f678c7ca7fcc0294417",
+                    "SHA3-256": "f36949d139e880518ebefb22c7c377d892fb587ac6297427405ec21cdf1b5b59",
+                    "SHA3-512": "8b20515e85ac66411b8328399451d768f974ff37a1f2d69d7268f07c1193e6f91f41b3a7b1cfff6551e3e3dc33839d31e9e84650354ed27379d36389d34d9cf0"
+                },
+                "external_id": "OiPojogNKZqWyreunyf"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a45db865-e099-4fc0-8d2b-d56afbc19e43"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--610f8ee0-267c-4e01-8311-0541acdfd8a6",
+        "created_by_ref": "identity--05a043ae-60a0-4376-9665-15b39fdba31f",
+        "created": "2021-02-09T08:29:48.562185Z",
+        "modified": "2022-01-04T00:43:13.698305Z",
+        "relationship_type": "based-on",
+        "source_ref": "indicator--46ddbe88-ca99-457b-a3a6-9911fe305f0b",
+        "target_ref": "observed-data--aba3ed59-ebf9-4ab8-93cd-f9e745fa0b62",
+        "start_time": "2021-10-04T05:09:01.437618Z",
+        "confidence": 49,
+        "external_references": [
+            {
+                "source_name": "represent",
+                "description": "Better trade range wife should own.",
+                "url": "https://www.bray.com/",
+                "hashes": {
+                    "MD5": "747a6d63a141025b6ae094620b314082",
+                    "SHA-1": "1d018797bc4162a15a2e5d0e80d2afb09dda9ec0",
+                    "SHA-256": "356e38cf5d04a6560f783ee2719f3a24410a8d9c43c0d215704f704ac166ca84",
+                    "SHA-512": "54c1b0485dbb518605e65a787c4548a9d58adf8d12448b90525c8de5a652e014011a4a6eed44c593c6383a896da6be8e60383f9ce567b7f44354e7ad624b7d89",
+                    "SHA3-256": "1d081958165f6ead4c575686ea9d13d7e13f083876681bfd5ff5cfce4580ec11",
+                    "SHA3-512": "566141ae15b205c9e433bbff1a703d6993d4ca831766a59f8a6644a31c9d6550b19c580b7ceb0573e170ee1b82ec6d887796e4361c9937d4491b95008f47fba7"
+                }
+            },
+            {
+                "source_name": "race",
+                "description": "Into reason foreign dream.",
+                "external_id": "TecOJyP"
+            },
+            {
+                "source_name": "sign",
+                "description": "Cultural author away remain one."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a45db865-e099-4fc0-8d2b-d56afbc19e43"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--05a043ae-60a0-4376-9665-15b39fdba31f",
+        "created_by_ref": "identity--05a043ae-60a0-4376-9665-15b39fdba31f",
+        "created": "2022-04-25T22:42:17.37191Z",
+        "modified": "2023-03-11T04:53:00.3162Z",
+        "name": "White, Gilmore and Bell",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 7,
+        "object_marking_refs": [
+            "marking-definition--a45db865-e099-4fc0-8d2b-d56afbc19e43"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--a45db865-e099-4fc0-8d2b-d56afbc19e43",
+        "created": "2021-08-14T01:08:37.776185Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3b921193-36b9-467a-b549-f06fd7a0147e",
+                "name": "Artist despite travel Mrs long fish",
+                "create_date_time": "2021-08-14T01:08:08.430789Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.430622Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

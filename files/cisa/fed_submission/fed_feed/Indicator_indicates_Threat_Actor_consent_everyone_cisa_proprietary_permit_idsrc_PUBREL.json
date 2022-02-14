@@ -1,0 +1,242 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--77561509-8f15-4563-9a63-434f399e3641",
+        "created_by_ref": "identity--98720eda-12bf-4f9d-ad8a-164bb2a5c819",
+        "created": "2020-12-11T08:55:45.56316Z",
+        "modified": "2021-12-04T05:44:14.242353Z",
+        "name": "first",
+        "pattern": "[mac-addr:value >= 'c8:5a:d5:5c:e7:82']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-03-03T06:23:52.026544Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "CPTDMtwrmGkFvnR",
+                "phase_name": "HvsCCbJ"
+            },
+            {
+                "kill_chain_name": "RrnIlWllPNZjCPLDY",
+                "phase_name": "gWgrDLfT"
+            }
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--6e97e4e6-8575-4f90-9b2f-4a3f9882bc1b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--a92d2da8-0afc-4415-8529-cbcc4df96ffb",
+        "created_by_ref": "identity--98720eda-12bf-4f9d-ad8a-164bb2a5c819",
+        "created": "2022-06-16T11:52:27.975331Z",
+        "modified": "2022-07-25T13:12:55.092454Z",
+        "name": "happy",
+        "threat_actor_types": [
+            "crime-syndicate",
+            "competitor",
+            "sensationalist"
+        ],
+        "aliases": [
+            "policy"
+        ],
+        "last_seen": "2021-01-12T20:08:02.636339Z",
+        "roles": [
+            "infrastructure-architect",
+            "malware-author",
+            "sponsor",
+            "infrastructure-architect",
+            "agent"
+        ],
+        "goals": [
+            "picture"
+        ],
+        "sophistication": "strategic",
+        "primary_motivation": "ideology",
+        "secondary_motivations": [
+            "revenge",
+            "notoriety",
+            "unpredictable"
+        ],
+        "personal_motivations": [
+            "unpredictable",
+            "ideology",
+            "revenge",
+            "revenge",
+            "organizational-gain"
+        ],
+        "object_marking_refs": [
+            "marking-definition--6e97e4e6-8575-4f90-9b2f-4a3f9882bc1b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d9e9ca1c-adfb-4e28-b9a4-ac830ca32200",
+        "created_by_ref": "identity--98720eda-12bf-4f9d-ad8a-164bb2a5c819",
+        "created": "2022-03-06T06:05:18.55485Z",
+        "modified": "2023-03-05T12:18:32.109897Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--77561509-8f15-4563-9a63-434f399e3641",
+        "target_ref": "threat-actor--a92d2da8-0afc-4415-8529-cbcc4df96ffb",
+        "start_time": "2020-08-31T07:45:48.480716Z",
+        "confidence": 91,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--6e97e4e6-8575-4f90-9b2f-4a3f9882bc1b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--98720eda-12bf-4f9d-ad8a-164bb2a5c819",
+        "created_by_ref": "identity--98720eda-12bf-4f9d-ad8a-164bb2a5c819",
+        "created": "2021-07-14T06:59:51.554283Z",
+        "modified": "2022-01-20T00:38:32.010927Z",
+        "name": "Bennett, Wilson and Robinson",
+        "roles": [
+            "wonder",
+            "economic"
+        ],
+        "identity_class": "unknown",
+        "sectors": [
+            "chemical",
+            "insurance",
+            "retail"
+        ],
+        "contact_information": "536 Michael Port\nMillermouth, PA 97861",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 39,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "kitchen",
+                "description": "Every development bring company more threat buy.",
+                "url": "http://davidson.org/",
+                "hashes": {
+                    "MD5": "994c311b71748809ba54c7fdb84d4df0",
+                    "SHA-1": "4b5680628808acfb4e9fb04e072d4943b87c3407",
+                    "SHA-256": "c2889175652a0e72a454daf7644ea961ee3b53dc351a8036e97ed160becebda5",
+                    "SHA-512": "a9b6e56626c6e3074a077947371f32c7b46ac625380659fbc355b66d49dc26e310f6e2f320ac1f393877fd8cf6e24621aa470c9c0adf64a4aa19bdf4034d817f",
+                    "SHA3-256": "cd5fb5806e2d476f9731f5b737af84b98fa0fea382317d202461a39bfd5db91c",
+                    "SHA3-512": "b80f463b0db9a6315e4100794e9321af1635719504ff108d62e7ae0f6c9b96b5336e3572ee991e984a9eeafbabcbd6d69bf3a12a8b93b275f5acedf3e823a1d4"
+                },
+                "external_id": "cbweFg"
+            },
+            {
+                "source_name": "board",
+                "description": "Low letter safe day think health current assume.",
+                "url": "https://wilcox-cisneros.com/",
+                "hashes": {
+                    "MD5": "cee389353f7344e8e7cf55a4864162de",
+                    "SHA-1": "d5690c7998c6b268fb0b1dbc22ef4ec15c1d134c",
+                    "SHA-256": "65936099ab51c73799bd5a4b211b83ef00f6be3df0191720dfd20c596a4228f9",
+                    "SHA-512": "0c800111a60416808da821f6fe4ec9d9752970e02a69de76dc5d324c1dc93d91ff3024e3ca84e599575f54ceb5a92cfd3c4e1eea019eb9af665559e27a77efb7",
+                    "SHA3-256": "abec04aa0fefc40b05bb6d905c8956a2fcdd2d9178046ec601406315aed8c4db",
+                    "SHA3-512": "3aa0c8924fc84beaa780a13fecd129486db5b7555dbc70d300876727d13332f5268ada925354a8f60d8843f16e0ab5cf4ead1c9a32c22c1f0f5a9a123d3abbf8"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--6e97e4e6-8575-4f90-9b2f-4a3f9882bc1b"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--6e97e4e6-8575-4f90-9b2f-4a3f9882bc1b",
+        "created": "2021-08-14T01:08:34.616521Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-b6e02fdc-1bc2-4bf7-88bf-58ec1e8c0a26",
+                "name": "Eye set happy strong city way",
+                "create_date_time": "2021-08-14T01:08:08.434259Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.434092Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

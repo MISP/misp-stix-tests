@@ -1,0 +1,127 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--90fc86d3-d3fd-4e3a-b13d-f14b4c67d356",
+        "created_by_ref": "identity--ee775181-705e-4deb-b643-49558524366e",
+        "created": "2020-12-30T14:44:10.225938Z",
+        "modified": "2021-08-14T01:08:39.858226Z",
+        "name": "drop",
+        "labels": [
+            "building",
+            "sell",
+            "today",
+            "consumer",
+            "front",
+            "pfte-batch-1"
+        ],
+        "confidence": 68,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "ipv4-addr",
+        "spec_version": "2.1",
+        "id": "ipv4-addr--82a366ff-d8fa-45e8-acb2-2e6e01b3e5a3",
+        "value": "5.20.5.242",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--eed94773-6e1f-4943-887c-f19414c2207c",
+        "created_by_ref": "identity--ee775181-705e-4deb-b643-49558524366e",
+        "created": "2021-11-05T03:38:32.373722Z",
+        "modified": "2021-11-06T02:35:28.818214Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--90fc86d3-d3fd-4e3a-b13d-f14b4c67d356",
+        "target_ref": "ipv4-addr--82a366ff-d8fa-45e8-acb2-2e6e01b3e5a3",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "stay",
+                "url": "https://www.hart-weber.net/",
+                "hashes": {
+                    "MD5": "77e65b13e01e37bbca7d8aefc3e685f2",
+                    "SHA-1": "85291833247f8d8744d13857b655b231deeb7166",
+                    "SHA-256": "a21c5f76fd099660c8df8903f7cce89adc8cba3fb2da9bf1e66803595027aa37",
+                    "SHA-512": "acdd33b9a07a4f8d925f759a27c77b5accc77ec10e465b8d09b5fdf873bf57059f785675306c3e1c2e16ba356045231a8a59a56f230a8e9d0ffc620218b44663",
+                    "SHA3-256": "fd5b06594518bf4a4d69b19e571e0b39e1268f7189f216a724392d4fdab8ed9f",
+                    "SHA3-512": "474bab3d2d755195d089663e2f719441556bc63bf546b696631d6c22528802d0e36850189e22b4bbdb277287e058ecb8f50d4322bddc73bfb971f88f95e64e86"
+                },
+                "external_id": "dMPsHIZlnWMbHPG"
+            },
+            {
+                "source_name": "with",
+                "description": "Whose area example also moment eight.",
+                "url": "https://smith.org/",
+                "hashes": {
+                    "MD5": "117946c3e3129075e731c09406a5036a",
+                    "SHA-1": "275afe785bd183c8833043c983db01221dc75665",
+                    "SHA-256": "389cd98a2180d448d303a2904ef739bba0ec469ff9840fc826946bc3fa44cbc8",
+                    "SHA-512": "5bd7b80112fdabcdda803dbea115329abf216a8f5f5a929d3b0b89866c5057a94972916e97d4e489a11836b025f9ed3d55e77d7b1494592b9513a22c68bd5f18",
+                    "SHA3-256": "ed68c4c67c088b324af6ab16eafba9ca39eb44378228649bcd803eacf13ea496",
+                    "SHA3-512": "7de2f3c1a6a1485c09114de8dfccdc7fe87760984b45ca9852f427c610bc84385cb602517a82bd23b057a7b7c2269deb22170ede2257ffaac49b110bf4d46093"
+                },
+                "external_id": "mwymdQYD"
+            },
+            {
+                "source_name": "his",
+                "description": "Responsibility view up wind outside material.",
+                "url": "https://www.santana.com/",
+                "external_id": "mlVrWXumbp"
+            },
+            {
+                "source_name": "over",
+                "description": "Tv candidate else.",
+                "hashes": {
+                    "MD5": "26184905b0f873d32fda8084ec9686aa",
+                    "SHA-1": "01216085918ef6faa51c9f8f82552d542d086170",
+                    "SHA-256": "129559b0d1b07916a520d327cdb274ea110e0a084ef6d83d17a8797f3dd4eed9",
+                    "SHA-512": "42ba96c17d425c676bceacffc2722d668ec6da86451d2cf21bd28d35f95abc05d439e30a97497f16d7752ff381e41856461df8acd5ee3a689f59fa0d6ed87457",
+                    "SHA3-256": "3130cc692f067eae9b51727190aedf1c76a8612ab5b4b70154e1754b785d02c3",
+                    "SHA3-512": "fff1dfe9fdebaeef6d7e21d38082ccde7641f940dc63d6b3e9f4643b6a897b3da88a2bec530b2972453a5f4ccca4cd81c887252ed2dd0f12a7950bf45ed085a1"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ee775181-705e-4deb-b643-49558524366e",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-01-15T19:51:21.521888Z",
+        "modified": "2022-08-14T11:18:59.418488Z",
+        "name": "RecognizeLifeBetween",
+        "description": "Organized maximized infrastructure",
+        "roles": [
+            "street",
+            "her",
+            "part",
+            "dream"
+        ],
+        "sectors": [
+            "defense"
+        ],
+        "contact_information": "08129 Campbell Ports\nEast Kayla, SC 04175",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

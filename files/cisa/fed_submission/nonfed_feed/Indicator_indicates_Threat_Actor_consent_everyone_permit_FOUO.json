@@ -1,0 +1,229 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--6c17f7ae-536c-4d64-aa67-cadb33e3897a",
+        "created_by_ref": "identity--b1b6937e-c210-4e15-a864-5fc27080e845",
+        "created": "2022-01-11T09:26:30.012841Z",
+        "modified": "2022-10-20T13:50:09.016303Z",
+        "indicator_types": [
+            "compromised",
+            "anomalous-activity",
+            "malicious-activity"
+        ],
+        "pattern": "[process:pid = 57515] FOLLOWEDBY [domain-name:value NOT = 'howard-townsend.biz'] FOLLOWEDBY [email-addr:display_name < 'Richard Watts'] FOLLOWEDBY [process:defanged NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-03-26T10:17:43.113025Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 95,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "evening",
+                "url": "http://www.shannon.biz/",
+                "hashes": {
+                    "MD5": "07adb4d4fd67ae15749b264c13b64d7f",
+                    "SHA-1": "86419772fc1fddad57bc1a2a55e4556396612df4",
+                    "SHA-256": "5198e115e1fc1d91962516c881a188dde104eba5061784ddb07d87d85ae4c2cb",
+                    "SHA-512": "c2fc685f652d5b38467598573ae1ac23d1d18b392d742837d97d28be1f4b1cbf31e8fea3443cca0b3df9b963b5e97aab3c3aee78c6f17f2e122bd3ac6958b418",
+                    "SHA3-256": "2115b4cbd8e19b7bb3afa1f6003348d57866b8ac50ce8e1c798647c3177cc905",
+                    "SHA3-512": "f4a2b7ff59a605c67728a5c189a2979864aeff4c3387722f033fcd2f13b0bc34faf1ffa446eff20be9e7ae7d7c41d5bd8a20fba086e286fc0656e00d987214c3"
+                }
+            },
+            {
+                "source_name": "project",
+                "description": "Resource under chance well activity.",
+                "external_id": "QdbDYcHRYxmNHpVUIs"
+            },
+            {
+                "source_name": "bad",
+                "url": "http://bradley.biz/"
+            },
+            {
+                "source_name": "tend",
+                "url": "https://hogan-rojas.net/",
+                "hashes": {
+                    "MD5": "a05bfd2fa91c7db9d034c4328539b250",
+                    "SHA-1": "e3cfa96c9b856dd2e10ef92987d995f01d06767d",
+                    "SHA-256": "f5e32d3392989d8ad170ce9136b075d76e250784d643486886b022f6ac61f84a",
+                    "SHA-512": "7f648b7e6dd943e5c072649709e22c324b15d8a8140af46fa4f7ee5ba319d678043ee6bfe31a5cf1d644dd2cc1b6ece27a18519d3cf0da53e8431890cf936470",
+                    "SHA3-256": "3a3ad133dc069492ab788d0106f5eba0c7c41b7e7963c0cdd90714a606803591",
+                    "SHA3-512": "54f566a0a3e171cff6c1264cf2072afde6f1e7d660faa100cd15d12d0608250e321ed6cbe023839c8f4a5121a480f0b8e5ad99ba4f7371d9f7b14d9866f7b420"
+                },
+                "external_id": "GYhIy"
+            },
+            {
+                "source_name": "citizen",
+                "description": "Building prove international back grow unit my cover.",
+                "url": "http://www.willis-johnson.com/",
+                "external_id": "cCAzMFZdsToOSNGAxF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--05c752f5-ae0e-45dd-b7c3-88ed21997b3c",
+        "created_by_ref": "identity--b1b6937e-c210-4e15-a864-5fc27080e845",
+        "created": "2020-09-09T15:27:40.060967Z",
+        "modified": "2021-08-14T01:08:34.279865Z",
+        "name": "address",
+        "description": "Answer fill really human reveal type month.",
+        "aliases": [
+            "marriage",
+            "part",
+            "doctor",
+            "activity",
+            "seat"
+        ],
+        "first_seen": "2022-01-03T22:18:24.582126Z",
+        "roles": [
+            "malware-author",
+            "director",
+            "independent",
+            "independent"
+        ],
+        "goals": [
+            "color",
+            "likely"
+        ],
+        "sophistication": "intermediate",
+        "resource_level": "contest",
+        "primary_motivation": "accidental",
+        "personal_motivations": [
+            "organizational-gain"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 65,
+        "external_references": [
+            {
+                "source_name": "reflect",
+                "url": "https://www.collins.biz/",
+                "hashes": {
+                    "MD5": "49c49582d2c5e600a017a2f7e90f3edd",
+                    "SHA-1": "a4fc9ec6e231b5822dde11eba77a6f0f7afeba2e",
+                    "SHA-256": "9cdc1779882a74de71d61e6c6490bc90377decf80b1ba036ab6fec3826d77c1a",
+                    "SHA-512": "38099df22930ec8c0f4d0d5eb28f65880d889d9f838f8297b15c312de8fcaa41efbae36df00efc0a5eadcb2f72ac93bb45e2201fac2da4093f5ba984f4299681",
+                    "SHA3-256": "b672d4c7f3c68338b89a384aa0ca3f692d30c1b9f990ce9d97247e2cb57562ff",
+                    "SHA3-512": "ec2214086947c47cc10fd3caec71f90ebbfca2323cba36632d2f9011dba798ca63dbaf7fe8dcb4e68a273f09dea682a7b322fcf4deb1140ab3d5040eab04860a"
+                },
+                "external_id": "SfvJktaQhySFNEhb"
+            },
+            {
+                "source_name": "nearly",
+                "description": "Doctor industry phone executive during day.",
+                "external_id": "tgfODJocuoNxxxVwS"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--9ef8fc12-1c18-473f-987a-b62202912d65",
+        "created_by_ref": "identity--b1b6937e-c210-4e15-a864-5fc27080e845",
+        "created": "2020-09-25T08:22:21.665721Z",
+        "modified": "2021-08-14T01:08:34.280619Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--6c17f7ae-536c-4d64-aa67-cadb33e3897a",
+        "target_ref": "threat-actor--05c752f5-ae0e-45dd-b7c3-88ed21997b3c",
+        "start_time": "2021-12-13T04:08:57.257853Z",
+        "stop_time": "2022-10-17T12:05:30.415608Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 21,
+        "external_references": [
+            {
+                "source_name": "black",
+                "description": "Trip involve thousand every.",
+                "hashes": {
+                    "MD5": "f886301adf0c3873b62bdfb633432232",
+                    "SHA-1": "7c00a7f9aed07b94386fe051ba629caa578d05c6",
+                    "SHA-256": "b34661a191bcb4ae281f98c27bc8acb50bbae3ffe9893a8f274434a84f3e8496",
+                    "SHA-512": "b93ed27d3153b5cca5514e6ab2038d62d6501c4c991fd87d09d3dc304783259a006f126420ee68b82bae9051e5d24af705afe56fb8e007b00828077392112e82",
+                    "SHA3-256": "ddb90492e763f8acadfc10c3476b8ba468effd27ce8701367d762568a0c616ce",
+                    "SHA3-512": "ca05ab32450b28e50d28b471a18d6dc103e4f3e2b9f5f03e077f557996ea180f2f7f6b91d4d15b86490f15b64507132f1cb5681f403171056d678ca56290b614"
+                },
+                "external_id": "ONukrtUdBEbsDhhmAD"
+            },
+            {
+                "source_name": "city",
+                "description": "Threat bar take list alone full.",
+                "hashes": {
+                    "MD5": "12e4421308833a3201bbc04775cf3114",
+                    "SHA-1": "e6bf51036623dc4188c33b8ea0909a96050da067",
+                    "SHA-256": "ff2415ef92558f874d36d348d7dc6e8eb064f8c27aeb89a41d94812aca78302e",
+                    "SHA-512": "e0c15293a43e9abe634f393d19eca5cbea42e2c010917773ff2e2cd99cae5f653ca466d8224f12072a74e12f5f8da3da3af6bb80f6b0b2db6e307685378cd1b5",
+                    "SHA3-256": "caef5e190be83706e30396ea68de21b4bdfdcd648a2611c90ccc3c284eef1d01",
+                    "SHA3-512": "defb7d51df0477ff9f8b7b7ca598336c502b0d38ada02867487f950c7b057c9400ce07e30d187dd20151ca9e86f0658f979dbb43a64e7862cd04f45294afd353"
+                },
+                "external_id": "ygHhhyEJB"
+            },
+            {
+                "source_name": "from",
+                "description": "Office argue collection center guy for interest.",
+                "url": "https://www.brewer.biz/",
+                "external_id": "peuEFVszGFKbDAJez"
+            },
+            {
+                "source_name": "suggest",
+                "description": "Fire get little write can.",
+                "url": "https://martin.com/",
+                "hashes": {
+                    "MD5": "d220a9e35eb2346e91a3c587a2e9b7ed",
+                    "SHA-1": "83b3f50d244c82ce228c473d992d9367145e7fd2",
+                    "SHA-256": "45e6a2cc9e095d74d24b539f796eecbdc6f52ab1003e834293cfbea15dd36956",
+                    "SHA-512": "5a5666bcb792deb221d88221d2cd3ee07fdc4f261d3c6643a51d28b6104ceec896e1148fb979599bdb42838860386c96be3f0c63949037f44a39536f03c61474",
+                    "SHA3-256": "d1e5bf377741014c974241d4cbe3e34fada6a77b22e77f3315bdd0438b086a90",
+                    "SHA3-512": "e755a691c0d0f2334bb3adfed0a14b23536250ae721860cc4cb5636ff04d4f4c512e7499a5eef716bf901b05e4c7ef6643ea7ba57bdfd4846fcc3f9736e74cb5"
+                },
+                "external_id": "VQBPuLOgrFiDmJldA"
+            },
+            {
+                "source_name": "main",
+                "description": "Anyone successful natural have material.",
+                "url": "https://www.mercer.com/",
+                "external_id": "QxZXMAbgBAFbz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b1b6937e-c210-4e15-a864-5fc27080e845",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-17T01:49:12.523494Z",
+        "modified": "2021-10-03T15:05:21.515374Z",
+        "name": "Sandoval, Pittman and Jones",
+        "description": "Re-contextualized zero-defect system engine",
+        "roles": [
+            "hope",
+            "particularly",
+            "probably"
+        ],
+        "identity_class": "group",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 49,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

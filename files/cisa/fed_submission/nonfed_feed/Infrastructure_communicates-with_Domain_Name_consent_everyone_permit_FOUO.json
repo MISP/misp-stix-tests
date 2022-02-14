@@ -1,0 +1,137 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--b1683939-0956-4144-ae01-fc32c5f074fb",
+        "created_by_ref": "identity--e0aba912-5fe0-4c57-945b-48150172484a",
+        "created": "2021-11-12T21:12:18.34511Z",
+        "modified": "2022-09-12T07:52:46.819145Z",
+        "name": "what",
+        "infrastructure_types": [
+            "staging",
+            "hosting-malware"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "KYTlmPovhLoQrly",
+                "phase_name": "SGAUkDrhdIhAM"
+            },
+            {
+                "kill_chain_name": "WqtwFwhqfRXaKaG",
+                "phase_name": "IAqOwRHRVLs"
+            },
+            {
+                "kill_chain_name": "JOoAYpCpYhvkPTl",
+                "phase_name": "QvWQDxscQOeipjv"
+            },
+            {
+                "kill_chain_name": "nyonWxUVpRowMBSi",
+                "phase_name": "gkmSOOxbPquMTbo"
+            },
+            {
+                "kill_chain_name": "oawfDsZIGuCfVHHqdS",
+                "phase_name": "fzxlH"
+            }
+        ],
+        "first_seen": "2021-09-10T02:43:40.66939Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "be",
+                "url": "http://www.mccullough.com/",
+                "external_id": "BwNOMmqwr"
+            },
+            {
+                "source_name": "food",
+                "description": "Leave trade piece decade long relate rate statement.",
+                "external_id": "kPEhySZreZJQmHWAFvU"
+            },
+            {
+                "source_name": "question",
+                "url": "http://gonzalez.com/",
+                "hashes": {
+                    "MD5": "f3edcc6b3701ed854d9e51a6fd0b3520",
+                    "SHA-1": "6dc02310e8feabcda64b4c1b14d459e2096ef1c7",
+                    "SHA-256": "bb9d897d3db15e1db99cf303adf846ee406b0e149c1bcdd1d89660d88d945692",
+                    "SHA-512": "6fca16636764af3993880c7d2d4a013819d5e91471ffe8fa16513ad9e3ff64cbca7bf8aedefc9ea04a0510104de32f3bd11fc67f8aa6405a9fe7755ba2ec6520",
+                    "SHA3-256": "2f3171b05ca697166b8cc0923b636fadc5f2206642386346ae2f5ed3098723e6",
+                    "SHA3-512": "ceb4f7b2eb9cfa8d5cd5a84702ccdf36f740e7d2cb7f8ff1880218db1d6f4e28bcf299c57c74ffd81611ccbe4ca67a3eeb231c3a4295d19ab647890349a8e36f"
+                }
+            },
+            {
+                "source_name": "necessary",
+                "description": "If cut argue outside debate hotel.",
+                "hashes": {
+                    "MD5": "7ac41a9108af9313dca15c280394d525",
+                    "SHA-1": "f57e5ab3e77476f64cfd80836673afcb97b74d1a",
+                    "SHA-256": "24e87da2270433c0eec753ab7d74a0527e95cbf89585c25a3129291bad9c0731",
+                    "SHA-512": "3b0fef620debbf4f31b525541be7870ca7aa8c79de39c430d2b4819dd3ef83571b651c5695481b8f62639ae5e727ae960140545fc20518c254994f99d701cdcd",
+                    "SHA3-256": "cb6e562d3df12b9789cb80831c33032248a4d06c3bed868bfa5f2b632ed03f0c",
+                    "SHA3-512": "f889a460f9c17c0d08c8ea644e6f99f73f495d6354e553a4d626df0a2aae97410d2d50e9ac80e76f140e49c68167c51777b40c4eb6be3fccc5a5cb6c972c57c6"
+                },
+                "external_id": "asYpYIorRzzKmCR"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "domain-name",
+        "spec_version": "2.1",
+        "id": "domain-name--a64fe60e-6d5b-4fa7-9679-4f83e4e875c6",
+        "value": "robertson.net",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--23920bd0-7d6b-4061-8618-643135d066cb",
+        "created_by_ref": "identity--e0aba912-5fe0-4c57-945b-48150172484a",
+        "created": "2021-02-05T13:50:39.64791Z",
+        "modified": "2021-08-14T01:08:41.11829Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--b1683939-0956-4144-ae01-fc32c5f074fb",
+        "target_ref": "domain-name--a64fe60e-6d5b-4fa7-9679-4f83e4e875c6",
+        "start_time": "2021-07-20T08:37:45.510697Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e0aba912-5fe0-4c57-945b-48150172484a",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-08T03:04:22.168411Z",
+        "modified": "2021-08-14T01:08:41.120692Z",
+        "name": "Watson-Mitchell",
+        "roles": [
+            "that",
+            "point",
+            "stage"
+        ],
+        "identity_class": "unknown",
+        "contact_information": "905 Donald Drives\nPort Michaelport, CT 14508",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 25,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

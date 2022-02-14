@@ -1,0 +1,126 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--df2758f3-efa2-457a-bc76-1fd48f579949",
+        "created_by_ref": "identity--540c2774-3065-42f2-92a3-c46c212d3483",
+        "created": "2021-07-25T02:05:24.307091Z",
+        "modified": "2021-08-14T01:09:25.412436Z",
+        "name": "think",
+        "first_seen": "2020-11-09T01:12:45.493929Z",
+        "goals": [
+            "box",
+            "security"
+        ],
+        "sophistication": "expert",
+        "resource_level": "organization",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--5c2a227d-497d-4080-a5b9-c140fcca7384",
+        "created_by_ref": "identity--540c2774-3065-42f2-92a3-c46c212d3483",
+        "created": "2021-01-12T13:23:40.630348Z",
+        "modified": "2021-08-14T01:09:25.413027Z",
+        "name": "interest",
+        "aliases": [
+            "dream"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "first_seen": "2021-10-29T19:12:07.225458Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 5,
+        "external_references": [
+            {
+                "source_name": "true",
+                "description": "Organization guy feel itself international inside interview.",
+                "hashes": {
+                    "MD5": "264c55e68e12d136cbf7fd53078d7a24",
+                    "SHA-1": "7b52cfc7cad0e7a06c86baec266f9aefc7f14e86",
+                    "SHA-256": "58fd409ca390932a6d66cd877e00a834e79aa9b31aa90cbe49c74e28a5dc5aaf",
+                    "SHA-512": "d74f7ad91de85b448ffd8e759034f2e6d945b427549037a77871b4fbc8215bc268d336952e30df02544dbf7529e70e2dfb056139baeb972afe9afab214408ff1",
+                    "SHA3-256": "46e124f98bd8febeefb245f4036075d0a5bdfdc9993a77d3b1a9139ed050cfd4",
+                    "SHA3-512": "ae5733ab2f04209e0fc8b264c32fea178da610188e2257c9bc389e26afe81bbe1a068877edc980df779de05ac66f64aa2b13a60d7b0f7f9e7a40bf4efbcdb893"
+                },
+                "external_id": "IDXrH"
+            },
+            {
+                "source_name": "star",
+                "description": "Every effect start who still rich culture make.",
+                "url": "https://www.diaz-lopez.com/",
+                "external_id": "sXgmiaYrHDuREY"
+            },
+            {
+                "source_name": "effort",
+                "description": "Want law and defense than goal month quite.",
+                "url": "http://www.nelson.org/",
+                "external_id": "PNYeSwFQmAfIAbQtM"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--80fd08bd-67d0-424b-bfe3-f164d22a0028",
+        "created_by_ref": "identity--540c2774-3065-42f2-92a3-c46c212d3483",
+        "created": "2021-11-13T20:31:48.949289Z",
+        "modified": "2022-06-03T19:30:10.090643Z",
+        "relationship_type": "compromises",
+        "source_ref": "threat-actor--df2758f3-efa2-457a-bc76-1fd48f579949",
+        "target_ref": "infrastructure--5c2a227d-497d-4080-a5b9-c140fcca7384",
+        "start_time": "2021-02-06T18:28:45.913894Z",
+        "stop_time": "2021-12-16T16:32:56.852997Z",
+        "labels": [
+            "visit",
+            "firm",
+            "reduce",
+            "notice",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--540c2774-3065-42f2-92a3-c46c212d3483",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2019-12-22T03:32:10.106137Z",
+        "modified": "2021-08-14T01:09:25.413592Z",
+        "name": "LosePresidentToward",
+        "description": "Ameliorated directional knowledge user",
+        "identity_class": "class",
+        "sectors": [
+            "aerospace",
+            "transportation",
+            "mining",
+            "mining",
+            "water"
+        ],
+        "contact_information": "98563 David Well Apt. 579\nPort Nicoleborough, WV 10361",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

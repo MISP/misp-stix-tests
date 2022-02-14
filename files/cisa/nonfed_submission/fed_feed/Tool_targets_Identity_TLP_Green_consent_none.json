@@ -1,0 +1,175 @@
+[
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--b6e494db-f917-4f24-8354-6444f0c0ad9d",
+        "created_by_ref": "identity--73660a3b-15e6-45fa-80fb-6f5e6f394b1a",
+        "created": "2021-09-05T09:01:16.176912Z",
+        "modified": "2021-12-06T11:42:37.972208Z",
+        "name": "fill",
+        "description": "Color themselves baby truth ago statement.",
+        "aliases": [
+            "most",
+            "wear",
+            "professional",
+            "there",
+            "thought"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "poJIiW",
+                "phase_name": "hVAtNYJPQKUrKDhRfBO"
+            },
+            {
+                "kill_chain_name": "NvOfvlqm",
+                "phase_name": "RHWefExCYwl"
+            },
+            {
+                "kill_chain_name": "NKUIRlDwNjsBwOZNwG",
+                "phase_name": "VeRjR"
+            }
+        ],
+        "confidence": 92,
+        "object_marking_refs": [
+            "marking-definition--4a0286df-7cb7-4222-b39a-48e70ce872e7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--86a809bb-0222-4f7c-acf2-f0ea7f45cc50",
+        "created_by_ref": "identity--73660a3b-15e6-45fa-80fb-6f5e6f394b1a",
+        "created": "2021-04-28T15:07:52.179871Z",
+        "modified": "2022-03-12T14:47:16.116522Z",
+        "name": "Sandoval, Haynes and Williams",
+        "description": "Profit-focused background emulation",
+        "confidence": 3,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--4a0286df-7cb7-4222-b39a-48e70ce872e7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--dcbb4591-7829-41fc-909f-6c81120c51da",
+        "created_by_ref": "identity--73660a3b-15e6-45fa-80fb-6f5e6f394b1a",
+        "created": "2021-12-03T10:46:21.950746Z",
+        "modified": "2022-02-18T01:07:29.105581Z",
+        "relationship_type": "targets",
+        "description": "Boy keep try skill rise top technology. Discussion husband born short affect relationship. Interview word car economic everyone follow section.",
+        "source_ref": "tool--b6e494db-f917-4f24-8354-6444f0c0ad9d",
+        "target_ref": "identity--86a809bb-0222-4f7c-acf2-f0ea7f45cc50",
+        "stop_time": "2021-11-10T19:22:28.467721Z",
+        "labels": [
+            "too",
+            "pfte-batch-1"
+        ],
+        "confidence": 7,
+        "object_marking_refs": [
+            "marking-definition--4a0286df-7cb7-4222-b39a-48e70ce872e7"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--4a0286df-7cb7-4222-b39a-48e70ce872e7",
+        "created_by_ref": "identity--73660a3b-15e6-45fa-80fb-6f5e6f394b1a",
+        "created": "2021-08-14T01:09:38.676245Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3d6ad3e0-0112-4a6d-8546-447c0e169799",
+                "name": "Space side determine future",
+                "create_date_time": "2021-08-14T01:08:08.419249Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--73660a3b-15e6-45fa-80fb-6f5e6f394b1a",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-04-25T17:15:58.972738Z",
+        "modified": "2023-04-19T01:54:33.008182Z",
+        "name": "SimpleRockPresent",
+        "roles": [
+            "allow",
+            "social",
+            "through"
+        ],
+        "sectors": [
+            "water",
+            "manufacturing",
+            "insurance",
+            "insurance"
+        ],
+        "contact_information": "2339 Nichols Brooks\nNorth Kimhaven, ME 38144",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 98,
+        "object_marking_refs": [
+            "marking-definition--4a0286df-7cb7-4222-b39a-48e70ce872e7"
+        ]
+    }
+]

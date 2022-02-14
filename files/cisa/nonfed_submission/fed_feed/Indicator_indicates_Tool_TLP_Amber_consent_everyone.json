@@ -1,0 +1,268 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--6925f0d6-7679-48bc-9ee5-57923a0b4746",
+        "created_by_ref": "identity--a1e3182a-7ba0-4262-8fd0-1843dd29b069",
+        "created": "2022-04-05T16:39:18.327226Z",
+        "modified": "2023-01-26T21:40:10.825921Z",
+        "name": "will",
+        "description": "Parent paper cultural cover new raise special.",
+        "pattern": "[file:mtime >= t'2021-12-16T04:30:30.504597Z'] AND [x509-certificate:is_self_signed NOT = true AND ((x509-certificate:defanged NOT = false) AND x509-certificate:signature_algorithm <= 'perhaps')] AND [mac-addr:value NOT = '3f:97:2e:37:b3:6e']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-10-04T20:36:14.964607Z",
+        "valid_until": "2022-06-15T12:30:27.928503Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "vlxdbaFhBXHohqEveFzk",
+                "phase_name": "FdMCydOutjoiHwRNNx"
+            }
+        ],
+        "labels": [
+            "condition",
+            "race",
+            "subject",
+            "pfte-batch-1"
+        ],
+        "confidence": 79,
+        "object_marking_refs": [
+            "marking-definition--97c0105b-93a3-4a5d-8729-3ea539630888"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--c63b9e56-4dee-4456-a855-08e2e38ed597",
+        "created_by_ref": "identity--a1e3182a-7ba0-4262-8fd0-1843dd29b069",
+        "created": "2022-03-15T06:25:53.692268Z",
+        "modified": "2022-07-07T17:48:55.226845Z",
+        "name": "he",
+        "tool_types": [
+            "denial-of-service",
+            "information-gathering",
+            "network-capture",
+            "vulnerability-scanning"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "tool_version": "vote",
+        "labels": [
+            "only",
+            "point",
+            "nearly",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--97c0105b-93a3-4a5d-8729-3ea539630888"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--5be3280a-6e29-4fde-9fcc-97001d6be918",
+        "created_by_ref": "identity--a1e3182a-7ba0-4262-8fd0-1843dd29b069",
+        "created": "2021-08-16T09:44:11.78224Z",
+        "modified": "2022-04-15T18:01:26.017527Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--6925f0d6-7679-48bc-9ee5-57923a0b4746",
+        "target_ref": "tool--c63b9e56-4dee-4456-a855-08e2e38ed597",
+        "stop_time": "2022-07-08T15:59:51.866467Z",
+        "labels": [
+            "hot",
+            "bring",
+            "pfte-batch-1"
+        ],
+        "confidence": 92,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "imagine",
+                "description": "Force rest this ground decide know.",
+                "url": "https://www.pierce.org/",
+                "hashes": {
+                    "MD5": "fbc4a56e23e88789ce3fbe05e1dc0183",
+                    "SHA-1": "e79f6ef7cd384f6d13a42509bae458339ee1316e",
+                    "SHA-256": "58684ec0fc3f003fb169b4efbf5205480afd8afad94973e3fb20080ee2ac3c5b",
+                    "SHA-512": "d830e7af9704345f231f8bf6474e4fab006e5cc5a0da34e929cf81532fc0e60ac23be8ea14a6e6e02562fbab4007622be0a4a9e1539b568a5f84d981b2a9b1d4",
+                    "SHA3-256": "29c18eb6585296bba386f799ca57037d641bec46cd9747b69ee41b1dd7599be0",
+                    "SHA3-512": "79e2d92a038dfa83b8c67c183516c28465d5a215b154bb6c9c2108a703c95615a4bc8c94d1fd5b49978ce5b85b65ed106f0de71296519f03825fb52a8211d435"
+                },
+                "external_id": "jFMnvnzybJeu"
+            },
+            {
+                "source_name": "rich",
+                "description": "Under wish herself role foreign old soon.",
+                "url": "http://brown.com/",
+                "hashes": {
+                    "MD5": "36c4a33b46fad4176feaeb06518d20e5",
+                    "SHA-1": "c685423c88283ead30cddc754ec4bf7beecd71bf",
+                    "SHA-256": "ebb6c3ed94e28767a98e32c73fa710841a9081fb95728f5bf043769db881d46e",
+                    "SHA-512": "5d5efefc7969f1917cd8fbc22a47577fabad99b76b113fe7de70cfb222914e8ce5a1c735b77e7dc4db4d693d7a912b3897d703f28b6666127728094adbce45e4",
+                    "SHA3-256": "c24ae9db51d1dc610ba77ba0277fe08a65dd3853aaa5b5838a03034b0b6d53d3",
+                    "SHA3-512": "06b1a79a7ea23fc8fc1a86a7e62140c0b7b253e78973dc59dd512136f4a78e73ce77d5d11bde37323cab27262dffb1a6793241f5cba59793ee16d22a0c8ef486"
+                },
+                "external_id": "yGOuvmitm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--97c0105b-93a3-4a5d-8729-3ea539630888"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--97c0105b-93a3-4a5d-8729-3ea539630888",
+        "created_by_ref": "identity--a1e3182a-7ba0-4262-8fd0-1843dd29b069",
+        "created": "2021-08-14T01:08:34.942419Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f98cddfd-8461-4143-a969-e6e230df21d4",
+                "name": "Word describe cold color",
+                "create_date_time": "2021-08-14T01:08:08.422252Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a1e3182a-7ba0-4262-8fd0-1843dd29b069",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-03T19:20:19.880793Z",
+        "modified": "2022-07-30T12:45:04.304938Z",
+        "name": "Woodard, Brooks and Novak",
+        "description": "Extended background framework",
+        "sectors": [
+            "retail",
+            "government-local",
+            "pharmaceuticals",
+            "infrastructure",
+            "technology"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 13,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "property",
+                "description": "Church big instead relate ahead peace.",
+                "url": "http://www.rose-bell.com/",
+                "hashes": {
+                    "MD5": "5484851af08ddf392cefa7bdf22eacff",
+                    "SHA-1": "90cd826c266204da425da4a993387499de02d9ee",
+                    "SHA-256": "e9623a2cbe782525191add8b4b5a6786f64c63f2d2746d236f6bbc0a94b6790d",
+                    "SHA-512": "a788db028a1def9dcaf22503cdb9b75cf2fc770ec6a1ad04521848ce921f610693abd1220f0b690d68eb4bfe7355002b2e3ae6730e2931efc964aa2a9033c352",
+                    "SHA3-256": "6d377dda1dfbf5a141eddfc5f23bc98fb1d3b748e06738eb1e067d1ad945c24d",
+                    "SHA3-512": "72305e7bd0fdd7ba19018c27af1aa8840a64dc031339b36ebb4842b82c33dcd2630b60592f29b9d75c21109dad83db63379265cff41439582985f9006ec15298"
+                },
+                "external_id": "vFvXdi"
+            },
+            {
+                "source_name": "sit",
+                "description": "Dark huge now green dark.",
+                "url": "http://rivera-lopez.org/",
+                "hashes": {
+                    "MD5": "1ec09cd322f501d4c0d2873569e8f409",
+                    "SHA-1": "60859a3713ab2caf15538fd05d0a32bde254a843",
+                    "SHA-256": "978adf10bc411a648bd1828f9bcee5b8d5d59cb501aba5e5e87e4b19a109ff63",
+                    "SHA-512": "c93a4a1d398f5477c09a2f2666ef3e719050239ef96eb564abb06c8e835307acd3231ffc10a5e54ed55fb0e49dfa3d095569635a3fac737c3606a97f563dd8a0",
+                    "SHA3-256": "e60eb7c96e282e072f67288c37b334d7bb666eda615e081f8382618dd4a30c0b",
+                    "SHA3-512": "d93eb57851c7fa3bf632b434233f7b8de73dadbcebfdf4f71a965814a54f58c6e5b8a02eec83efaeed1c32359534d5d409bf95a90d1313f093897e80bfd7c335"
+                },
+                "external_id": "FEsgKlyWueTAS"
+            },
+            {
+                "source_name": "discover",
+                "url": "https://walker.com/",
+                "hashes": {
+                    "MD5": "1d496b431d5c17f15fa5bb18e6a818c2",
+                    "SHA-1": "1c74d29fb968dfc2df72ab910470a2854cd7ed13",
+                    "SHA-256": "a5b5adcd0c6696530037f99a03ba78dd7fc44624ad0efd9d099175d42ad05b62",
+                    "SHA-512": "c09907fc5102897cca5c491dd969798e7f7046e375ba43c20d18e5853ccf39f4595311cf33668baf7e676f3da943a677e87f9b4a9152dc9b15168f292bdfc207",
+                    "SHA3-256": "48cd3cfdfd1344d0738b97231c4f9faa08a54e5e998bc16587ddcc64c7e738e4",
+                    "SHA3-512": "1fa142982185acb9d3822c2c5d140f328aa97a8d9ce552f5380878d55714ef3901766d3aabcedcc3d003e51e92da8346feb4d497ee0709fdefb7d4ea4e8ba758"
+                },
+                "external_id": "SqjIGWvfzEFA"
+            },
+            {
+                "source_name": "stay",
+                "description": "Eye million free modern brother forget.",
+                "url": "https://www.martin.com/",
+                "hashes": {
+                    "MD5": "fb42cf6bd1b497f25b3ddf2fd1afa274",
+                    "SHA-1": "63cc6ee187ab93c032b20e7e02d188b864548a69",
+                    "SHA-256": "9916cdb806a3bf06d3391df56f184e0926e5d2175f9fa404f9eb568fe1846221",
+                    "SHA-512": "1325dc15d114486d9c5a18070730931cb6716bf8aa1d39ba3bf58d0179cf5ea8d79553fcdd1bc880fa536307ec9760ad7b798c6fff12e6eaa93ac5e6f233a3ad",
+                    "SHA3-256": "d12755178a4dd1884daf1221f2e54f7423238b022949db28d7a3f4b4930c0bef",
+                    "SHA3-512": "eeb0c67c59ce0a25b5f4c06b493f5a38679c9251d298f0daaed5f3a68b0749adeed8747e85f3d2ee663500eba0ad1f36d839e00f55559d1c251d5e25799136a3"
+                },
+                "external_id": "QbwHQ"
+            },
+            {
+                "source_name": "certainly",
+                "description": "Late card his be leg hundred late.",
+                "external_id": "UUHSILQZ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--97c0105b-93a3-4a5d-8729-3ea539630888"
+        ]
+    }
+]

@@ -1,0 +1,131 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--ffae11a6-0c65-4706-b379-ea5803230a4c",
+        "created_by_ref": "identity--66be5014-9353-4b04-bd39-f18756ae2bf8",
+        "created": "2022-06-28T02:54:43.939186Z",
+        "modified": "2022-08-10T16:18:13.292925Z",
+        "name": "available",
+        "description": "Research stage pull drug.",
+        "labels": [
+            "include",
+            "attorney",
+            "life",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--5060e66f-778c-4f30-95da-f0586033cff4",
+        "created_by_ref": "identity--66be5014-9353-4b04-bd39-f18756ae2bf8",
+        "created": "2021-01-28T15:30:26.32722Z",
+        "modified": "2021-08-14T01:08:21.335036Z",
+        "name": "style",
+        "description": "Yet hundred respond.",
+        "indicator_types": [
+            "compromised",
+            "anomalous-activity"
+        ],
+        "pattern": "[x509-certificate:subject_public_key_algorithm < 'place'] FOLLOWEDBY [(software:version >= '11') OR process:is_hidden NOT = true] FOLLOWEDBY [directory:path_enc >= 'ISO-8859-3'] FOLLOWEDBY [file:size <= 687979]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-05-21T07:47:44.421912Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 99,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "often",
+                "url": "http://www.wheeler.com/",
+                "external_id": "cNdOJBmHh"
+            },
+            {
+                "source_name": "billion",
+                "description": "Story girl director themselves present hope research they.",
+                "hashes": {
+                    "MD5": "1c320978052b740033669e8139749a3c",
+                    "SHA-1": "5348e7ce34a62dddd5a46c520270536c7cf0f986",
+                    "SHA-256": "ade443b23e74fb56e5378c0741f073dee91389f561925e0f230591a75943d0a9",
+                    "SHA-512": "531fb6c23cd9da2a6fa6f1616fbaa98941df569fc56aaff46b3a22a2d7d93f0565914a461a312262626a6960c25b5cd425a230f30d003b8a46e5cc82e0e66f46",
+                    "SHA3-256": "a631a1bcf5c80a1e9f376273988e1e44f9ca0b780ebaa9ebfd5d93487da8f72d",
+                    "SHA3-512": "18f0e2af4cd64599b9abf28ee10dd9f02181581abf422989eda5f3a6fbe1095081e3b7d869ef6c995605f3dfbc022f01e06f2fc5852e0c9b1175db98d21fbf7b"
+                },
+                "external_id": "fUqquOHdVk"
+            },
+            {
+                "source_name": "happy",
+                "description": "Cup must mind Democrat.",
+                "external_id": "wCwAWdJuckNJILTDUE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--2d52b74a-8d00-4887-93d3-8721909f8b95",
+        "created_by_ref": "identity--66be5014-9353-4b04-bd39-f18756ae2bf8",
+        "created": "2020-12-30T23:35:25.094302Z",
+        "modified": "2021-08-14T01:08:21.338199Z",
+        "relationship_type": "investigates",
+        "description": "Control or president fund director. Story professional general experience. Safe from final about public.",
+        "source_ref": "course-of-action--ffae11a6-0c65-4706-b379-ea5803230a4c",
+        "target_ref": "indicator--5060e66f-778c-4f30-95da-f0586033cff4",
+        "start_time": "2020-09-22T20:01:27.633856Z",
+        "stop_time": "2020-11-20T04:26:22.327419Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--66be5014-9353-4b04-bd39-f18756ae2bf8",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-01-06T18:11:52.619985Z",
+        "modified": "2022-02-26T16:22:36.150829Z",
+        "name": "NearlyInstitutionFather",
+        "sectors": [
+            "entertainment",
+            "education",
+            "emergency-services",
+            "utilities",
+            "pharmaceuticals"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 34,
+        "external_references": [
+            {
+                "source_name": "sometimes",
+                "description": "Hold bad clear response need.",
+                "external_id": "YXeQTsHHZQRQjwyu"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

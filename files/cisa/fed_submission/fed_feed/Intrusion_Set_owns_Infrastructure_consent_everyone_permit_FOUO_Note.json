@@ -1,0 +1,198 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--120e80c2-96b8-4f0c-ade1-00417c7f929a",
+        "created_by_ref": "identity--a12268f6-b7bd-49a8-811e-492f2fd60df6",
+        "created": "2021-03-28T05:54:47.266937Z",
+        "modified": "2021-12-11T14:41:49.527848Z",
+        "name": "want",
+        "description": "Candidate start perhaps bag project add common raise.",
+        "primary_motivation": "personal-gain",
+        "confidence": 24,
+        "object_marking_refs": [
+            "marking-definition--b55e439b-4338-4105-991b-161d082fb0fd"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--8f271ca0-00a5-4a30-b039-078ab3f18a1d",
+        "created_by_ref": "identity--a12268f6-b7bd-49a8-811e-492f2fd60df6",
+        "created": "2020-10-25T00:39:42.619652Z",
+        "modified": "2021-08-14T01:08:54.27484Z",
+        "name": "road",
+        "aliases": [
+            "involve",
+            "city",
+            "then",
+            "stuff",
+            "start"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "first_seen": "2020-11-28T17:57:19.113411Z",
+        "last_seen": "2021-07-26T22:49:25.684389Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b55e439b-4338-4105-991b-161d082fb0fd"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--957bd127-e0a3-4bad-8fdf-70856f119d46",
+        "created_by_ref": "identity--a12268f6-b7bd-49a8-811e-492f2fd60df6",
+        "created": "2021-02-17T04:58:01.525871Z",
+        "modified": "2021-12-09T22:29:11.690711Z",
+        "relationship_type": "owns",
+        "source_ref": "intrusion-set--120e80c2-96b8-4f0c-ade1-00417c7f929a",
+        "target_ref": "infrastructure--8f271ca0-00a5-4a30-b039-078ab3f18a1d",
+        "stop_time": "2022-04-21T18:51:07.585205Z",
+        "confidence": 73,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b55e439b-4338-4105-991b-161d082fb0fd"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--b1185afc-17e4-4125-9c83-9c73e62239a7",
+        "created_by_ref": "identity--a12268f6-b7bd-49a8-811e-492f2fd60df6",
+        "created": "2021-03-27T12:00:06.844987Z",
+        "modified": "2022-01-22T20:40:13.950151Z",
+        "content": "Heavy democratic staff relate happy over door. Stock inside ten parent certainly system material experience. Computer political appear.",
+        "authors": [
+            "team",
+            "enough",
+            "close",
+            "report",
+            "billion"
+        ],
+        "object_refs": [
+            "intrusion-set--120e80c2-96b8-4f0c-ade1-00417c7f929a",
+            "infrastructure--8f271ca0-00a5-4a30-b039-078ab3f18a1d",
+            "relationship--957bd127-e0a3-4bad-8fdf-70856f119d46"
+        ],
+        "confidence": 31,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b55e439b-4338-4105-991b-161d082fb0fd"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a12268f6-b7bd-49a8-811e-492f2fd60df6",
+        "created_by_ref": "identity--a12268f6-b7bd-49a8-811e-492f2fd60df6",
+        "created": "2021-07-31T12:21:06.732067Z",
+        "modified": "2022-03-06T06:12:45.716079Z",
+        "name": "Mclaughlin-Klein",
+        "description": "Fully-configurable heuristic firmware",
+        "contact_information": "5791 Turner Vista\nPort Megan, LA 22081",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 52,
+        "external_references": [
+            {
+                "source_name": "country",
+                "description": "Lot million visit program fact well.",
+                "hashes": {
+                    "MD5": "6999b0dee3bb0330486344cf5dcfaced",
+                    "SHA-1": "a75741c510e4b401dcfb1c4cd6ebe33d37939b95",
+                    "SHA-256": "44604e6e572db939ac86224a186a7d1f922afac5a5bc5c3d3947a48e2f1ea44a",
+                    "SHA-512": "213cd45d739e35cf72a287602f805c13f8bff42cf52bffe66bc26b88ee6dd9fc8ea0b2daeea163a32a4e1eebfce258fbf7202b79d4e1ce95e2e75d0ff45c462e",
+                    "SHA3-256": "a513cc0fb6af9ce2514049a8b53273b726b2c6a7923d8a467087959ddabfb730",
+                    "SHA3-512": "86a0d8b6b88e70ad6bdd2ec472bfb52600aa8df645da92b4881f25ed9040a82ef21dc8be0344ba78ee6939861c6ab37fa885dddeb884234b94b4509598d0797d"
+                }
+            },
+            {
+                "source_name": "window",
+                "url": "https://meyer.org/",
+                "hashes": {
+                    "MD5": "05cc57b0092ade36d51e03ccd9b845c0",
+                    "SHA-1": "2b821c93a8061a4086668fd95d5077595d85c99c",
+                    "SHA-256": "e826c43cb04c87e9a86e70d4a26587b859e46832c768e96ba10daa6d55b9b149",
+                    "SHA-512": "00960fb6f8a520ce0ee452579073a44b1e7232c35601a112eab9f9d19457865fec8863f187f7bb2e522dcff3380f8dd4a671bd729c51cbbc84862bad3ff19da9",
+                    "SHA3-256": "5a2deb252ccf0cda0f6e616b77825c70b579f819dfb143977551167a077b9c97",
+                    "SHA3-512": "479561879f236d619b162309c70500c75116748eebf163ddbad0eee64a8639ea6fad25d2a90ab9dae30a259b0242148a5008c575ab98d41bf9981322de2202f0"
+                },
+                "external_id": "nloIEAZPiZoCD"
+            },
+            {
+                "source_name": "offer",
+                "url": "https://www.taylor.com/",
+                "external_id": "HZOicWQfXZoKfM"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b55e439b-4338-4105-991b-161d082fb0fd"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b55e439b-4338-4105-991b-161d082fb0fd",
+        "created": "2021-08-14T01:08:54.273927Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a064a16e-64c9-426c-9535-98e263215e51",
+                "name": "Member population available under",
+                "create_date_time": "2021-08-14T01:08:08.430342Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

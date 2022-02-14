@@ -1,0 +1,142 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--05f057de-baf3-430e-bf49-1a0fa53ff382",
+        "created_by_ref": "identity--8f080e9a-f432-4f59-83a2-7719d4a9db75",
+        "created": "2021-03-29T12:48:41.654988Z",
+        "modified": "2021-08-14T01:08:25.664753Z",
+        "name": "site",
+        "confidence": 68,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--cd9bc9da-c260-4842-8ac8-1e753e6a483a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--12f0de62-cbc3-4616-995c-cd6b9dfe816e",
+        "created_by_ref": "identity--8f080e9a-f432-4f59-83a2-7719d4a9db75",
+        "created": "2021-09-19T18:00:12.745875Z",
+        "modified": "2022-05-17T06:58:44.922479Z",
+        "name": "side",
+        "tool_types": [
+            "remote-access",
+            "exploitation",
+            "denial-of-service"
+        ],
+        "aliases": [
+            "imagine",
+            "director"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "KwbFeiFMlXwbS",
+                "phase_name": "cjkTs"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "confidence": 93,
+        "object_marking_refs": [
+            "marking-definition--cd9bc9da-c260-4842-8ac8-1e753e6a483a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a1bafab4-9aaf-41c8-82ee-0ca7ae909616",
+        "created_by_ref": "identity--8f080e9a-f432-4f59-83a2-7719d4a9db75",
+        "created": "2021-11-23T12:02:10.167935Z",
+        "modified": "2022-02-12T11:43:46.599269Z",
+        "relationship_type": "mitigates",
+        "description": "Instead worker ask idea. Surface full ten school happy force meet. Us popular we notice surface.",
+        "source_ref": "course-of-action--05f057de-baf3-430e-bf49-1a0fa53ff382",
+        "target_ref": "tool--12f0de62-cbc3-4616-995c-cd6b9dfe816e",
+        "start_time": "2021-07-24T03:26:04.362362Z",
+        "stop_time": "2021-08-19T09:00:27.208131Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--cd9bc9da-c260-4842-8ac8-1e753e6a483a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8f080e9a-f432-4f59-83a2-7719d4a9db75",
+        "created_by_ref": "identity--8f080e9a-f432-4f59-83a2-7719d4a9db75",
+        "created": "2021-03-20T23:31:27.211879Z",
+        "modified": "2021-08-14T01:08:25.665667Z",
+        "name": "Hill, Leonard and Edwards",
+        "description": "Programmable human-resource firmware",
+        "roles": [
+            "possible",
+            "lead",
+            "ever"
+        ],
+        "identity_class": "organization",
+        "sectors": [
+            "government-local",
+            "aerospace",
+            "education"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--cd9bc9da-c260-4842-8ac8-1e753e6a483a"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--cd9bc9da-c260-4842-8ac8-1e753e6a483a",
+        "created": "2021-08-14T01:08:25.664289Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a064a16e-64c9-426c-9535-98e263215e51",
+                "name": "Member population available under",
+                "create_date_time": "2021-08-14T01:08:08.430342Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

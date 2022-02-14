@@ -1,0 +1,180 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--8037339b-ca5d-4b61-82aa-1026593d99ad",
+        "created_by_ref": "identity--edcc252f-ca6f-4bb4-b937-3f73a34deddb",
+        "created": "2020-11-16T02:16:14.764305Z",
+        "modified": "2021-08-14T01:09:28.961768Z",
+        "name": "edge",
+        "aliases": [
+            "live"
+        ],
+        "first_seen": "2020-12-17T12:03:30.385128Z",
+        "roles": [
+            "agent",
+            "director",
+            "independent",
+            "infrastructure-operator"
+        ],
+        "goals": [
+            "administration",
+            "community",
+            "will",
+            "subject"
+        ],
+        "resource_level": "individual",
+        "primary_motivation": "unpredictable",
+        "secondary_motivations": [
+            "accidental",
+            "unpredictable"
+        ],
+        "object_marking_refs": [
+            "marking-definition--e46fa9ae-801b-46bd-9b37-fa8e1f1fef0e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--de1a0eb5-bcdb-42cd-8234-ff1535f40e3a",
+        "created_by_ref": "identity--edcc252f-ca6f-4bb4-b937-3f73a34deddb",
+        "created": "2022-07-01T18:33:41.079004Z",
+        "modified": "2022-08-15T01:42:19.942016Z",
+        "description": "Seamless neutral complexity",
+        "latitude": -13.627134354384737,
+        "longitude": 35.09743246221524,
+        "region": "latin-america-caribbean",
+        "country": "South Africa",
+        "city": "Kellerbury",
+        "labels": [
+            "see",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--e46fa9ae-801b-46bd-9b37-fa8e1f1fef0e"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3e31c8fc-2863-4b71-8290-bd350eafbd36",
+        "created_by_ref": "identity--edcc252f-ca6f-4bb4-b937-3f73a34deddb",
+        "created": "2021-08-03T05:01:07.706387Z",
+        "modified": "2021-10-27T01:18:27.342261Z",
+        "relationship_type": "located-at",
+        "source_ref": "threat-actor--8037339b-ca5d-4b61-82aa-1026593d99ad",
+        "target_ref": "location--de1a0eb5-bcdb-42cd-8234-ff1535f40e3a",
+        "start_time": "2022-04-13T20:54:29.363194Z",
+        "labels": [
+            "thousand",
+            "simple",
+            "far",
+            "space",
+            "edge",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--e46fa9ae-801b-46bd-9b37-fa8e1f1fef0e"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--e46fa9ae-801b-46bd-9b37-fa8e1f1fef0e",
+        "created_by_ref": "identity--edcc252f-ca6f-4bb4-b937-3f73a34deddb",
+        "created": "2021-08-14T01:09:28.960724Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-15d3e0eb-8dda-4b6b-a55d-5c6a8a6d490b",
+                "name": "Clearly industry family",
+                "create_date_time": "2021-08-14T01:08:08.420657Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--edcc252f-ca6f-4bb4-b937-3f73a34deddb",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-04-15T07:20:07.018868Z",
+        "modified": "2022-12-17T09:41:41.560707Z",
+        "name": "Pearson-Robertson",
+        "roles": [
+            "other",
+            "foreign",
+            "appear",
+            "range"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "mining",
+            "non-profit",
+            "entertainment",
+            "insurance"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 93,
+        "object_marking_refs": [
+            "marking-definition--e46fa9ae-801b-46bd-9b37-fa8e1f1fef0e"
+        ]
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--a6c86efd-48c1-477d-8da7-c20714a668b2",
+        "created_by_ref": "identity--8a0d2c9b-203a-4230-82e2-eab92cec9eca",
+        "created": "2021-05-22T12:31:00.589803Z",
+        "modified": "2021-08-14T01:08:40.976456Z",
+        "name": "at",
+        "aliases": [
+            "for",
+            "deal"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "first_seen": "2022-07-16T21:47:21.896026Z",
+        "labels": [
+            "one",
+            "the",
+            "home",
+            "oil",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--65e36e94-6260-4de4-87d0-097ff6f51a5d"
+        ]
+    },
+    {
+        "type": "domain-name",
+        "spec_version": "2.1",
+        "id": "domain-name--5e2a4235-e2c4-47a4-a9a0-9fff467eca58",
+        "value": "garcia.com",
+        "object_marking_refs": [
+            "marking-definition--65e36e94-6260-4de4-87d0-097ff6f51a5d"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e0d0aa15-3487-45fc-a28d-6c47cf7fad3f",
+        "created_by_ref": "identity--8a0d2c9b-203a-4230-82e2-eab92cec9eca",
+        "created": "2021-12-06T08:24:09.629595Z",
+        "modified": "2022-03-09T00:40:55.824935Z",
+        "relationship_type": "communicates-with",
+        "description": "Pick significant rich clear. Company education they could space expect. Difficult law cut character late.",
+        "source_ref": "infrastructure--a6c86efd-48c1-477d-8da7-c20714a668b2",
+        "target_ref": "domain-name--5e2a4235-e2c4-47a4-a9a0-9fff467eca58",
+        "start_time": "2021-10-14T17:25:40.612716Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--65e36e94-6260-4de4-87d0-097ff6f51a5d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--33b13066-e002-4bed-9417-8711509c6bfc",
+        "created_by_ref": "identity--8a0d2c9b-203a-4230-82e2-eab92cec9eca",
+        "created": "2022-07-31T04:39:00.655788Z",
+        "modified": "2023-02-27T11:26:30.625791Z",
+        "content": "Throughout change human respond involve image. Seek remember trouble hot commercial.",
+        "authors": [
+            "ten"
+        ],
+        "object_refs": [
+            "infrastructure--a6c86efd-48c1-477d-8da7-c20714a668b2",
+            "domain-name--5e2a4235-e2c4-47a4-a9a0-9fff467eca58",
+            "relationship--e0d0aa15-3487-45fc-a28d-6c47cf7fad3f"
+        ],
+        "confidence": 68,
+        "object_marking_refs": [
+            "marking-definition--65e36e94-6260-4de4-87d0-097ff6f51a5d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8a0d2c9b-203a-4230-82e2-eab92cec9eca",
+        "created_by_ref": "identity--8a0d2c9b-203a-4230-82e2-eab92cec9eca",
+        "created": "2022-04-01T14:57:56.597445Z",
+        "modified": "2023-01-26T10:49:33.830525Z",
+        "name": "Cantu-Graham",
+        "description": "Business-focused non-volatile protocol",
+        "roles": [
+            "again",
+            "alone",
+            "too",
+            "pretty"
+        ],
+        "identity_class": "unknown",
+        "confidence": 76,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--65e36e94-6260-4de4-87d0-097ff6f51a5d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--65e36e94-6260-4de4-87d0-097ff6f51a5d",
+        "created": "2021-08-14T01:08:40.975557Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c37eda22-f302-4b2e-bf63-7f8ea35d72b0",
+                "name": "Event really first our country somebody",
+                "create_date_time": "2021-08-14T01:08:08.426408Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.426228Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,209 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--3ad0a3d7-d069-44d3-8cd7-14ba03c8fc0e",
+        "created_by_ref": "identity--094b44d5-e58f-410e-86a7-c03aff1d2e8e",
+        "created": "2020-12-06T10:46:02.990799Z",
+        "modified": "2021-08-14T01:08:37.625275Z",
+        "indicator_types": [
+            "unknown"
+        ],
+        "pattern": "(([mac-addr:defanged = false]) OR [file:defanged NOT = true] OR [file:mime_type NOT = 'text/cmd']) FOLLOWEDBY [(ipv4-addr:defanged = false) AND ipv4-addr:defanged = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-06-19T15:55:31.28964Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "KpTFfru",
+                "phase_name": "rCzSFETgvivfLSDgi"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "labels": [
+            "action",
+            "after",
+            "rule",
+            "pfte-batch-1"
+        ],
+        "confidence": 81,
+        "external_references": [
+            {
+                "source_name": "site",
+                "description": "Create social two drug own least wrong what.",
+                "url": "https://hernandez.com/",
+                "hashes": {
+                    "MD5": "f47bd33d23cca1c067b6ccb04d34166f",
+                    "SHA-1": "44784a98c03ccf3911f4907304fb4f705442eb13",
+                    "SHA-256": "a1a34bf5937bc33d91b2e0e8b754fa55a4452dfae808978bb60ebaa300399bd9",
+                    "SHA-512": "ed08275ba4344a946b47f93aa0c2d3404be6ac313db7aa60dd7dab31a6201cdf0dd09b938e2635ee9ed39d387662d7e82cd965c7915dee17ee9b540789f83830",
+                    "SHA3-256": "655ba9277aac17441fbc2bda0d847064ca2b53d214df0f5a1b80a5fef2f9dc75",
+                    "SHA3-512": "4380bef22afe60d89aa77f9c2f4dc910437709b38e623ef2c94c9793ca4d296bc06aa0ed4fb26a22a0faa342cee789870afae9df2f19df4c3d36778d04b39c35"
+                }
+            },
+            {
+                "source_name": "two",
+                "description": "Cell rich six best.",
+                "url": "http://www.hood.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "windows-registry-key",
+        "spec_version": "2.1",
+        "id": "windows-registry-key--4cb7eff9-a799-5dd7-9178-e588786a008a",
+        "key": "hkey_local_machine\\rICzQaSLpWfkDhrx",
+        "values": [
+            {
+                "name": "face",
+                "data": "ZklDeJUspF",
+                "data_type": "REG_SZ"
+            },
+            {
+                "name": "determine",
+                "data": "GdBVZrh"
+            },
+            {
+                "data": "xLfwnSnau",
+                "data_type": "REG_SZ"
+            },
+            {
+                "name": "pressure",
+                "data": "rytsPAmvixSfQ"
+            }
+        ],
+        "modified_time": "2021-11-06T06:40:52.420044Z",
+        "number_of_subkeys": 6
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--153a24e4-35f1-4a40-9417-bb4d513b3061",
+        "created_by_ref": "identity--58a674c3-f590-4e90-8d9f-c06bfca4ba1a",
+        "created": "2021-10-11T15:30:56.446037Z",
+        "modified": "2022-01-15T21:15:40.358033Z",
+        "first_observed": "2021-08-29T04:50:51.654121Z",
+        "last_observed": "2022-04-14T04:18:32.355629Z",
+        "number_observed": 937796080,
+        "object_refs": [
+            "windows-registry-key--4cb7eff9-a799-5dd7-9178-e588786a008a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 33,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "care",
+                "description": "Concern onto expect sure feel should.",
+                "url": "http://www.preston-hodge.com/"
+            },
+            {
+                "source_name": "range",
+                "url": "http://hill-white.net/",
+                "hashes": {
+                    "MD5": "e03cfd8e698c18434c1596932fda40c7",
+                    "SHA-1": "c04ec082c42257909158da1137295b254bd67904",
+                    "SHA-256": "9d3eca08389855ad8aecf27a9c9fafc005df4022bd8488098c600dba4764ed9e",
+                    "SHA-512": "701e0ea2b7a64155aa040a74cfa97921e1e6095e01c23fb726c986a2d4b7d618248e4fbe33b6404a270206226b87bcef1416d2aa4df92181f13c92387fc49283",
+                    "SHA3-256": "c5fd6a6025b975f0d6b60f49c4895030e717105b8476af0f53aed67e31e852fe",
+                    "SHA3-512": "3aa378eeb8531b211df622eaf137a1d22d21b4568e3f8145bdf901ce0314473b771bce65b557082c2f730f721324be31e2b761ecdd90fc394de42586cedbcae3"
+                }
+            },
+            {
+                "source_name": "citizen",
+                "url": "https://hobbs.biz/",
+                "external_id": "fvpvaUfDm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ba3a1cd8-be1a-473c-bbb6-d9b157eedc16",
+        "created_by_ref": "identity--094b44d5-e58f-410e-86a7-c03aff1d2e8e",
+        "created": "2020-11-03T04:40:48.393132Z",
+        "modified": "2021-08-14T01:08:37.630243Z",
+        "relationship_type": "based-on",
+        "description": "Want lay by you. Summer while lead what officer word interview expert.",
+        "source_ref": "indicator--3ad0a3d7-d069-44d3-8cd7-14ba03c8fc0e",
+        "target_ref": "observed-data--153a24e4-35f1-4a40-9417-bb4d513b3061",
+        "labels": [
+            "phone",
+            "card",
+            "pfte-batch-1"
+        ],
+        "confidence": 12,
+        "external_references": [
+            {
+                "source_name": "play",
+                "description": "Record course then moment film.",
+                "url": "https://www.juarez.info/",
+                "external_id": "hCLUdXWRKmkNeJd"
+            },
+            {
+                "source_name": "here",
+                "description": "Tough high recognize middle trouble.",
+                "url": "http://thompson-garrett.net/"
+            },
+            {
+                "source_name": "present",
+                "url": "https://suarez.net/",
+                "external_id": "mxKMgeCWtMhxDGHlxCas"
+            },
+            {
+                "source_name": "natural",
+                "external_id": "nAEfKuuJrnKjSI"
+            },
+            {
+                "source_name": "off",
+                "description": "No several no ability push including her office.",
+                "url": "http://graham-ponce.info/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--58a674c3-f590-4e90-8d9f-c06bfca4ba1a",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-02-10T16:23:45.778337Z",
+        "modified": "2022-04-29T21:50:55.680833Z",
+        "name": "RealSendWife",
+        "roles": [
+            "along",
+            "table"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "dams",
+            "automotive"
+        ],
+        "contact_information": "007 Gail Ports\nPerryberg, VA 14162",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 97,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

@@ -1,0 +1,151 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--57e38630-3707-418f-83dc-eae9a05d6595",
+        "created_by_ref": "identity--4f13a2fd-d565-4500-8d4f-68ecb667a353",
+        "created": "2022-01-22T12:08:45.025297Z",
+        "modified": "2022-06-20T21:13:40.640155Z",
+        "name": "itself",
+        "description": "School soldier big significant peace to.",
+        "aliases": [
+            "would",
+            "direction"
+        ],
+        "last_seen": "2021-04-15T15:42:58.577889Z",
+        "confidence": 25,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--30fcbe26-d2d2-4f42-b7ef-dd2f228b7d60"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--15d9de89-e540-42b0-8c77-854034e33eae",
+        "created_by_ref": "identity--4f13a2fd-d565-4500-8d4f-68ecb667a353",
+        "created": "2021-10-14T03:19:29.652345Z",
+        "modified": "2022-05-26T23:30:47.829733Z",
+        "description": "Centralized clear-thinking approach",
+        "latitude": 41.917023160783316,
+        "longitude": 110.08151800111864,
+        "precision": 47.2393937940651,
+        "country": "Myanmar",
+        "administrative_area": "tquqJV",
+        "city": "Garyville",
+        "street_address": "51664 Adams Points",
+        "postal_code": "46598",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--30fcbe26-d2d2-4f42-b7ef-dd2f228b7d60"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--91552635-14e9-4959-9138-e2c8403b3f45",
+        "created_by_ref": "identity--4f13a2fd-d565-4500-8d4f-68ecb667a353",
+        "created": "2022-04-06T20:08:08.908542Z",
+        "modified": "2022-09-11T16:32:08.593923Z",
+        "relationship_type": "targets",
+        "source_ref": "campaign--57e38630-3707-418f-83dc-eae9a05d6595",
+        "target_ref": "location--15d9de89-e540-42b0-8c77-854034e33eae",
+        "confidence": 24,
+        "object_marking_refs": [
+            "marking-definition--30fcbe26-d2d2-4f42-b7ef-dd2f228b7d60"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4f13a2fd-d565-4500-8d4f-68ecb667a353",
+        "created_by_ref": "identity--4f13a2fd-d565-4500-8d4f-68ecb667a353",
+        "created": "2021-03-17T15:03:43.106692Z",
+        "modified": "2021-08-14T01:08:17.471029Z",
+        "name": "Davis, White and Lewis",
+        "description": "Ergonomic fault-tolerant intranet",
+        "roles": [
+            "step",
+            "story",
+            "history"
+        ],
+        "sectors": [
+            "government-local"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 8,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "prevent",
+                "description": "Certainly wait there alone."
+            },
+            {
+                "source_name": "talk",
+                "url": "http://www.ford.net/",
+                "external_id": "jaQaP"
+            },
+            {
+                "source_name": "item",
+                "description": "About organization dream.",
+                "url": "https://lindsey-black.biz/",
+                "external_id": "PwTXfnCAth"
+            },
+            {
+                "source_name": "only",
+                "description": "With become end possible language relationship.",
+                "url": "https://hughes-king.info/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--30fcbe26-d2d2-4f42-b7ef-dd2f228b7d60"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--30fcbe26-d2d2-4f42-b7ef-dd2f228b7d60",
+        "created": "2021-08-14T01:08:17.469518Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-114c3c02-d336-4257-a679-8cbd2bcdae34",
+                "name": "Sort author none he account American industry worry",
+                "create_date_time": "2021-08-14T01:08:08.432919Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

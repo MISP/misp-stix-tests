@@ -1,0 +1,194 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--64056a61-8f51-43ec-96a6-8ae3e39eab87",
+        "created_by_ref": "identity--d7736fec-9ca0-4765-b88e-4c0eec1dfff2",
+        "created": "2022-03-30T21:39:57.586549Z",
+        "modified": "2023-01-31T02:55:27.590059Z",
+        "name": "knowledge",
+        "last_seen": "2021-02-09T08:07:58.515176Z",
+        "goals": [
+            "Option who create manager.",
+            "Exactly song development form tax teach.",
+            "Exist fire major reduce."
+        ],
+        "primary_motivation": "notoriety",
+        "secondary_motivations": [
+            "dominance",
+            "revenge",
+            "personal-gain",
+            "unpredictable",
+            "personal-gain"
+        ],
+        "confidence": 34,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--4ec00ca7-b8c8-4885-9b73-439a9f83469d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7e10e6dc-e1b4-4ae9-9aa8-974ce9cb0b56",
+        "created_by_ref": "identity--d7736fec-9ca0-4765-b88e-4c0eec1dfff2",
+        "created": "2021-11-21T17:04:33.808403Z",
+        "modified": "2022-01-18T03:14:35.519335Z",
+        "name": "Berg-Anderson",
+        "roles": [
+            "only",
+            "when",
+            "effort"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "chemical"
+        ],
+        "labels": [
+            "process",
+            "pfte-batch-1"
+        ],
+        "confidence": 86,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "wife",
+                "description": "Know visit them require.",
+                "url": "http://www.jimenez-martinez.com/",
+                "external_id": "yMrgEBFzWPDnQpO"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4ec00ca7-b8c8-4885-9b73-439a9f83469d"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--6fba9d48-8191-4ade-a22c-1540001ffa68",
+        "created_by_ref": "identity--d7736fec-9ca0-4765-b88e-4c0eec1dfff2",
+        "created": "2021-01-30T18:49:50.872852Z",
+        "modified": "2021-08-22T01:36:23.656015Z",
+        "relationship_type": "targets",
+        "description": "Drive by result clear wish use. National level apply.",
+        "source_ref": "intrusion-set--64056a61-8f51-43ec-96a6-8ae3e39eab87",
+        "target_ref": "identity--7e10e6dc-e1b4-4ae9-9aa8-974ce9cb0b56",
+        "start_time": "2021-11-05T23:27:22.951657Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--4ec00ca7-b8c8-4885-9b73-439a9f83469d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d7736fec-9ca0-4765-b88e-4c0eec1dfff2",
+        "created_by_ref": "identity--d7736fec-9ca0-4765-b88e-4c0eec1dfff2",
+        "created": "2020-09-26T16:21:06.78827Z",
+        "modified": "2021-08-14T01:08:56.032515Z",
+        "name": "Calhoun, Merritt and Thompson",
+        "description": "Configurable dedicated capability",
+        "roles": [
+            "staff",
+            "two",
+            "record",
+            "protect",
+            "technology"
+        ],
+        "identity_class": "system",
+        "sectors": [
+            "utilities",
+            "government-regional",
+            "dams",
+            "government",
+            "energy"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 40,
+        "object_marking_refs": [
+            "marking-definition--4ec00ca7-b8c8-4885-9b73-439a9f83469d"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--4ec00ca7-b8c8-4885-9b73-439a9f83469d",
+        "created": "2021-08-14T01:08:56.031011Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fadf816-7ba3-41ea-a52c-2855b3ec9d5a",
+                "name": "Report official major we center outside throughout population",
+                "create_date_time": "2021-08-14T01:08:08.433803Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,154 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--9362a5b4-253e-49ad-ab63-6d4bbc9e062d",
+        "created_by_ref": "identity--8b97c624-b9c3-40e5-9aeb-5cdb25ee7614",
+        "created": "2022-06-03T04:07:46.602754Z",
+        "modified": "2022-10-17T06:22:01.215705Z",
+        "name": "pay",
+        "last_seen": "2021-12-18T23:02:58.78101Z",
+        "goals": [
+            "Money difficult story politics.",
+            "Student recently can mean.",
+            "Without man economic establish order."
+        ],
+        "secondary_motivations": [
+            "personal-gain",
+            "ideology",
+            "revenge",
+            "unpredictable"
+        ],
+        "labels": [
+            "now",
+            "side",
+            "city",
+            "us",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "green",
+                "description": "What report lawyer week.",
+                "url": "http://wood-flores.biz/",
+                "hashes": {
+                    "MD5": "d24382e9eda0cca8aeee8fbaabb0c38a",
+                    "SHA-1": "0168d286be5ec5d77c31e69a4269a69775db5777",
+                    "SHA-256": "c767aae64bd872a7218f5cd5fc3e2bf803f7f687d982cb3bf0ccfe61330bc6d1",
+                    "SHA-512": "8bae87894d6e56bb5e17aa03f1e3ff44ff73fee614f64c978437ed328c3eb4e26689bf00dc37c8a380f8f360788508c801b98561993850f93c882e960c6511f2",
+                    "SHA3-256": "8a453cfdeb7c111a81c4bb210e8680ccc932c8783cbb2d97e0af3674297258f1",
+                    "SHA3-512": "47cd01af3c7c455372bdd73ab54489855c968750898dc664d63b2bc8d863cbe85eb48409641f1adad4ac20915d085905def1d3dbdf81e350adf69796d5d167b6"
+                }
+            },
+            {
+                "source_name": "question",
+                "description": "Way section stay paper."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--e027baff-0308-48b3-96b8-269acd337a86",
+        "created_by_ref": "identity--8b97c624-b9c3-40e5-9aeb-5cdb25ee7614",
+        "created": "2021-10-22T11:15:38.385178Z",
+        "modified": "2022-04-05T03:49:38.45254Z",
+        "name": "affect",
+        "threat_actor_types": [
+            "insider-disgruntled",
+            "nation-state"
+        ],
+        "aliases": [
+            "with",
+            "beyond",
+            "five",
+            "worker",
+            "speak"
+        ],
+        "first_seen": "2020-09-17T23:09:06.271128Z",
+        "goals": [
+            "none",
+            "movement",
+            "best",
+            "trouble"
+        ],
+        "resource_level": "contest",
+        "secondary_motivations": [
+            "coercion",
+            "revenge",
+            "personal-gain",
+            "dominance"
+        ],
+        "personal_motivations": [
+            "notoriety",
+            "dominance",
+            "notoriety"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 74,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--eadca140-6de0-4d7b-958f-8041dc25147c",
+        "created_by_ref": "identity--8b97c624-b9c3-40e5-9aeb-5cdb25ee7614",
+        "created": "2022-07-30T19:38:04.213766Z",
+        "modified": "2023-02-01T02:42:02.062762Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "intrusion-set--9362a5b4-253e-49ad-ab63-6d4bbc9e062d",
+        "target_ref": "threat-actor--e027baff-0308-48b3-96b8-269acd337a86",
+        "start_time": "2021-04-09T23:36:15.104226Z",
+        "labels": [
+            "full",
+            "feeling",
+            "at",
+            "huge",
+            "course",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "might",
+                "url": "http://turner-robinson.info/",
+                "external_id": "ZFQiQaYiaEkYxPubFJHV"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8b97c624-b9c3-40e5-9aeb-5cdb25ee7614",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-03T12:44:35.113351Z",
+        "modified": "2022-05-17T14:02:10.400687Z",
+        "name": "Thomas, Henry and Poole",
+        "identity_class": "individual",
+        "sectors": [
+            "telecommunications",
+            "technology",
+            "government-regional",
+            "transportation"
+        ],
+        "contact_information": "208 Mendoza Mount\nMarkchester, WI 54586",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

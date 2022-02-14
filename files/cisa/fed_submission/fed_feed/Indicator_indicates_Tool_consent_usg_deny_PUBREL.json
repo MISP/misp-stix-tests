@@ -1,0 +1,177 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--7479cf4b-5e58-4404-98c2-fd0845e65e19",
+        "created_by_ref": "identity--1d2025a9-0a35-4524-8fe3-53f88e2037d2",
+        "created": "2021-05-22T18:16:03.995687Z",
+        "modified": "2021-09-15T11:17:32.085182Z",
+        "indicator_types": [
+            "compromised",
+            "compromised"
+        ],
+        "pattern": "[email-addr:defanged NOT = false OR process:defanged NOT = false OR (mac-addr:defanged = false)]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-02-06T06:41:23.027609Z",
+        "valid_until": "2020-08-20T07:22:26.529401Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "JbKZTlUAnZtJOgex",
+                "phase_name": "CaociIfNyazhlBhK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d7dc1ccb-3c51-459b-be2a-3ed40de84fd1"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--7888e891-1e98-4387-a4cd-17cdfe19a5dc",
+        "created_by_ref": "identity--1d2025a9-0a35-4524-8fe3-53f88e2037d2",
+        "created": "2021-07-01T10:21:43.917443Z",
+        "modified": "2021-12-31T08:36:47.644713Z",
+        "name": "decision",
+        "description": "Us rich whole after rest protect different.",
+        "tool_types": [
+            "network-capture",
+            "vulnerability-scanning",
+            "vulnerability-scanning",
+            "denial-of-service",
+            "information-gathering"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "ClwMAPf",
+                "phase_name": "LrgFxPcotQopcKDKAFI"
+            },
+            {
+                "kill_chain_name": "PrwTmDJUqPNHGNtPwBe",
+                "phase_name": "UvYRbdd"
+            }
+        ],
+        "labels": [
+            "toward",
+            "attention",
+            "local",
+            "involve",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--d7dc1ccb-3c51-459b-be2a-3ed40de84fd1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--247b9594-41d6-42ac-aaf2-d92cdc344e3e",
+        "created_by_ref": "identity--1d2025a9-0a35-4524-8fe3-53f88e2037d2",
+        "created": "2021-08-30T04:54:41.078759Z",
+        "modified": "2021-11-21T13:48:51.533639Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--7479cf4b-5e58-4404-98c2-fd0845e65e19",
+        "target_ref": "tool--7888e891-1e98-4387-a4cd-17cdfe19a5dc",
+        "stop_time": "2020-12-18T02:57:45.762351Z",
+        "confidence": 68,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d7dc1ccb-3c51-459b-be2a-3ed40de84fd1"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1d2025a9-0a35-4524-8fe3-53f88e2037d2",
+        "created_by_ref": "identity--1d2025a9-0a35-4524-8fe3-53f88e2037d2",
+        "created": "2022-03-05T03:23:01.262273Z",
+        "modified": "2022-09-28T19:37:32.581752Z",
+        "name": "Smith Inc",
+        "description": "Polarized optimal initiative",
+        "identity_class": "organization",
+        "confidence": 32,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d7dc1ccb-3c51-459b-be2a-3ed40de84fd1"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d7dc1ccb-3c51-459b-be2a-3ed40de84fd1",
+        "created": "2021-08-14T01:08:35.328045Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

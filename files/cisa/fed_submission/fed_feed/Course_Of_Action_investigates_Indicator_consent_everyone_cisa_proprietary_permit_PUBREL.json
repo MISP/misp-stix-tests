@@ -1,0 +1,178 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--f20e03a5-f7e2-4c3a-89c5-91f3145e3924",
+        "created_by_ref": "identity--716e1ff5-cdbd-4897-bba5-f92e111e8e4e",
+        "created": "2022-04-18T06:47:29.545397Z",
+        "modified": "2023-03-11T06:22:25.879598Z",
+        "name": "guess",
+        "confidence": 37,
+        "object_marking_refs": [
+            "marking-definition--5be68b48-41db-4a0c-92c1-8eb74b2df7e3"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--3d549186-36b4-43d2-a4e7-be9dbf7f92de",
+        "created_by_ref": "identity--716e1ff5-cdbd-4897-bba5-f92e111e8e4e",
+        "created": "2021-07-28T13:44:35.912492Z",
+        "modified": "2022-02-28T22:14:28.412969Z",
+        "name": "wish",
+        "indicator_types": [
+            "attribution",
+            "malicious-activity",
+            "unknown",
+            "anonymization"
+        ],
+        "pattern": "[email-message:received_lines[0] < 'WgXnr']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-04-04T01:43:14.81878Z",
+        "valid_until": "2021-05-04T20:28:33.640351Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "uRJndaEFvRfQUrRbMmso",
+                "phase_name": "ovPDUbRcpiZLvC"
+            },
+            {
+                "kill_chain_name": "csLwqBwwrLgyPHBVWoK",
+                "phase_name": "iDVVS"
+            },
+            {
+                "kill_chain_name": "SFrzzBiPoRGrSbg",
+                "phase_name": "UDrXA"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--5be68b48-41db-4a0c-92c1-8eb74b2df7e3"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c97c3abc-2c08-4660-8ab0-e7c4dc8a69d4",
+        "created_by_ref": "identity--716e1ff5-cdbd-4897-bba5-f92e111e8e4e",
+        "created": "2021-12-29T02:02:58.149851Z",
+        "modified": "2022-08-07T03:55:31.258171Z",
+        "relationship_type": "investigates",
+        "description": "Much all animal with produce. Want ago eye sometimes.",
+        "source_ref": "course-of-action--f20e03a5-f7e2-4c3a-89c5-91f3145e3924",
+        "target_ref": "indicator--3d549186-36b4-43d2-a4e7-be9dbf7f92de",
+        "labels": [
+            "church",
+            "line",
+            "drop",
+            "fill",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--5be68b48-41db-4a0c-92c1-8eb74b2df7e3"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--716e1ff5-cdbd-4897-bba5-f92e111e8e4e",
+        "created_by_ref": "identity--716e1ff5-cdbd-4897-bba5-f92e111e8e4e",
+        "created": "2020-09-25T03:13:57.219701Z",
+        "modified": "2021-08-14T01:08:22.455474Z",
+        "name": "Barnes-Cordova",
+        "roles": [
+            "buy",
+            "market",
+            "center"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 56,
+        "external_references": [
+            {
+                "source_name": "Mr",
+                "description": "This one even loss.",
+                "hashes": {
+                    "MD5": "115e301ec74c61f9b918eaaf58394a83",
+                    "SHA-1": "c46ed2edaa64b9d65a2b695f589750e226e59d3c",
+                    "SHA-256": "ad5d0460c9f6ad97faab96a276326e106d5906d3c82ed69496ea38b1afcad57c",
+                    "SHA-512": "8b1dbe36b7b5556a4646cf365c6410583597a3764ab1deecf663131920010df710f51e9069a88cf43fbe99c0dbdc0306f012e228ebbe67f97555503f1f8e21d9",
+                    "SHA3-256": "f28b83762144a56e8b7fc9b7c64144cf2de2698ac84185e6a537b810e9d73fd8",
+                    "SHA3-512": "0897034b9590c4e4b5fb69c31e1a19c59419e68d2d119bf96a5cd224c4f7257ea769df1b8f15765ef7b262745268bea2f631e0527e69badbcf7c6a4ec2fc99d7"
+                }
+            },
+            {
+                "source_name": "upon",
+                "description": "Wall doctor attention many.",
+                "url": "https://snyder-dixon.net/",
+                "external_id": "AVRQKt"
+            },
+            {
+                "source_name": "since",
+                "description": "Goal summer may occur skill food.",
+                "url": "https://www.davis-smith.org/",
+                "hashes": {
+                    "MD5": "3652dd3083c9f6cf944ddefe3e21242d",
+                    "SHA-1": "1e855839315cfa17dfba97ff463f280e172eadce",
+                    "SHA-256": "d0be38e20a7ba76fac37999daee6e8c7f412db9310d5dd234b42ec85d9d8c9cf",
+                    "SHA-512": "9daf7bee2a8bbe1f6f813613bbb29f06cad2f4d96797ef11d46a721744fbee590332b6c23de652d586aa5711b36c789188f8c360e1c00f727864519a22eb40c1",
+                    "SHA3-256": "88729454e888d58d91f461ff9e981fce63aef4a8a11577c94d968b7812d444a6",
+                    "SHA3-512": "b5e23c935210e0ee46bf15506b3419a68b8697b7252de7fc2f09ca1967edac3da42aa9469d2b9f742414308e6e4eb5cdabcc7c1d0f28224d46ac1aabbf121aae"
+                }
+            },
+            {
+                "source_name": "knowledge",
+                "description": "Go national challenge system game name."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--5be68b48-41db-4a0c-92c1-8eb74b2df7e3"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--5be68b48-41db-4a0c-92c1-8eb74b2df7e3",
+        "created": "2021-08-14T01:08:22.452983Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-716f5d31-4760-4ed1-b8df-6b76bb19bd34",
+                "name": "Wife plan yourself training yet rich",
+                "create_date_time": "2021-08-14T01:08:08.43336Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.433196Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

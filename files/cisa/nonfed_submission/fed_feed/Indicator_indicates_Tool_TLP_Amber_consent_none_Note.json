@@ -1,0 +1,262 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--75a71b33-5605-440c-ad38-3925b6cedbeb",
+        "created_by_ref": "identity--0c8de75a-7bb4-4ab8-a793-81bc2c877b6e",
+        "created": "2021-06-18T11:47:18.948129Z",
+        "modified": "2021-10-14T11:22:31.042434Z",
+        "description": "Think employee east.",
+        "pattern": "[(windows-registry-key:key < 'iVbVR') OR network-traffic:protocols[1] <= 'tcp']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-07-12T13:42:21.967027Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "KuHzVErNHgrmFUDfbd",
+                "phase_name": "zWYwlAEASeo"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "confidence": 27,
+        "external_references": [
+            {
+                "source_name": "technology",
+                "external_id": "RFpRLT"
+            },
+            {
+                "source_name": "appear",
+                "url": "https://www.moore.info/"
+            },
+            {
+                "source_name": "car",
+                "description": "Pass research into always chance professional shake.",
+                "hashes": {
+                    "MD5": "188c02823ab79ad1f3abb7fd9d163933",
+                    "SHA-1": "3eb03a90d27c644947cfd44a7129d7a8262b616d",
+                    "SHA-256": "74cce7e99402bbb277a8160011671a59a737a4b9df5fc0d4fb6e95722d9390a7",
+                    "SHA-512": "c7e5a6509f908b7e4524581bfbf34bca9b3348c8e91519a725bb0a16ff303270ef627f1b9f815006ad75ff112c12d535554acd32c601f4c62b1371a8a3ba4fed",
+                    "SHA3-256": "bdd49af22b0277abe979e299176f64f1da66dc971a723b5eeef6cb95d9294518",
+                    "SHA3-512": "34d25efcc0191a90435a153a3e8b06c55820e23e267c3b52dae7c294abe3b44134f38efb13083e6ce0ee898e7c58e63d8ac87ea0093c4513536a11d2f9e88363"
+                }
+            },
+            {
+                "source_name": "matter",
+                "description": "For design station hit fear prove rest.",
+                "hashes": {
+                    "MD5": "c9b8b4241113e0d915a2f5c481c66a9d",
+                    "SHA-1": "200c57bb230323dab30c7abf65ffca7eff05de79",
+                    "SHA-256": "4f7876b9be8fa902f5f1fd33ef8c56a953317e3336490d441be4b3570cdacb23",
+                    "SHA-512": "2bf4deadd60131f462906cfb1ccc346819736757e5e87143da1a8be6709e586e49b56dad14291916d31db2accf11715755f1f477689e18b0d223c992d63bab1c",
+                    "SHA3-256": "87d5e65e31ea429c4600d6c84cee3d89965e2bd9cfa6dd28cd0f7852c7222d71",
+                    "SHA3-512": "76235a193b988f4fae7813368cd151b78c1f61e369822268447bd855d44ba3b1779e4d6f07c9b380aabac0c6e8336033da50c10e677e96751e64c221e565e8c4"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1bd715ca-ae5a-41dc-8e4f-34844cb4c8bc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--6c84ac0b-ce47-428c-b4e4-eee526997b37",
+        "created_by_ref": "identity--0c8de75a-7bb4-4ab8-a793-81bc2c877b6e",
+        "created": "2021-11-04T13:13:54.499438Z",
+        "modified": "2022-05-29T19:26:59.259003Z",
+        "name": "how",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mWGuU",
+                "phase_name": "ywkTUtZiJWoBOvfdK"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "labels": [
+            "sometimes",
+            "reach",
+            "final",
+            "film",
+            "behavior",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--1bd715ca-ae5a-41dc-8e4f-34844cb4c8bc"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e9d00eac-ffe2-4c97-9579-4e01b6406e67",
+        "created_by_ref": "identity--0c8de75a-7bb4-4ab8-a793-81bc2c877b6e",
+        "created": "2022-04-15T18:28:50.482867Z",
+        "modified": "2023-01-05T05:25:06.475334Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--75a71b33-5605-440c-ad38-3925b6cedbeb",
+        "target_ref": "tool--6c84ac0b-ce47-428c-b4e4-eee526997b37",
+        "start_time": "2021-04-23T23:04:38.196452Z",
+        "stop_time": "2021-11-28T11:07:31.652264Z",
+        "labels": [
+            "control",
+            "class",
+            "information",
+            "attention",
+            "particular",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--1bd715ca-ae5a-41dc-8e4f-34844cb4c8bc"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--320732ed-f8fe-4198-a880-725bcc095134",
+        "created_by_ref": "identity--0c8de75a-7bb4-4ab8-a793-81bc2c877b6e",
+        "created": "2021-01-05T16:31:12.38733Z",
+        "modified": "2021-11-10T07:22:27.357292Z",
+        "abstract": "Nothing participant father food third face hour. Son will war son I require join.",
+        "content": "Wrong billion cut field term agency. Voice level never national fear. President scene could newspaper establish.",
+        "object_refs": [
+            "indicator--75a71b33-5605-440c-ad38-3925b6cedbeb",
+            "tool--6c84ac0b-ce47-428c-b4e4-eee526997b37",
+            "relationship--e9d00eac-ffe2-4c97-9579-4e01b6406e67"
+        ],
+        "external_references": [
+            {
+                "source_name": "stand",
+                "description": "Direction produce lose.",
+                "hashes": {
+                    "MD5": "3413825c5916a45d699faef7921a9b9e",
+                    "SHA-1": "b8fca78323def44121b56f63e4cbbea34bbc07a5",
+                    "SHA-256": "872c9ce1a42f41b10029ed2a5d5c946d1e188396f189cda525c43d133391151d",
+                    "SHA-512": "3f59bef39d9f49735a1c27ae0720e078877ec321bf3573fe372af5a491e7bd06791573907128bc8b1c4410895c1fa9698679731a12e0e21477fb3e85ad9c000c",
+                    "SHA3-256": "956538131ac65b46695e5c4d3efb038ee8ee2da3fdff2968887261a06a592990",
+                    "SHA3-512": "ce9b5b12e5ca1707f05308e28a43630df9086b38a004d673b713878030cb0c92cb846b9868d41b149f705bb4649bdf0b7d672e5f55ede9719ddcc523c113acd1"
+                }
+            },
+            {
+                "source_name": "all",
+                "description": "Identify poor cover.",
+                "external_id": "WwurcEJeCCDcLTn"
+            },
+            {
+                "source_name": "someone",
+                "description": "Campaign project success different build manage everything set.",
+                "url": "http://www.hayes.info/",
+                "hashes": {
+                    "MD5": "f59d63ff5f2603ad9a1c71cdca18dc94",
+                    "SHA-1": "8ce907ef6b05b4f2acb9c13d725f8a85d1d52207",
+                    "SHA-256": "330fbcfe6855c3b851426cabebb569ecc3960d50863122dd3b340cdc42208d1d",
+                    "SHA-512": "b13d52799d441b7da0e2a4f6f55d24e8efacbfed7cdb9eec5eb4e6365f1942a73597fb6962cf059d651d8d3c48a5341a8ec28a12b91b838de653aadbbbfe555c",
+                    "SHA3-256": "b8145467d72537eee9d8cd7d3e737719829e7186ea3589b4f0b6e088af90a74f",
+                    "SHA3-512": "b9cec09cde30d06ec2339ec69f396d0557bd135a5f342044f2ec21f6d18842cdf7af2f3d2f8feeca23c97bf0340009ca4d144977bb7dc3c8fc246b34c725f4cd"
+                },
+                "external_id": "ebrZBiX"
+            },
+            {
+                "source_name": "since",
+                "description": "Culture accept say better although send majority.",
+                "external_id": "QDYFONgJwGC"
+            },
+            {
+                "source_name": "impact",
+                "url": "http://hernandez-jones.com/",
+                "external_id": "zTABjGZRzvecyVD"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1bd715ca-ae5a-41dc-8e4f-34844cb4c8bc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--1bd715ca-ae5a-41dc-8e4f-34844cb4c8bc",
+        "created_by_ref": "identity--0c8de75a-7bb4-4ab8-a793-81bc2c877b6e",
+        "created": "2021-08-14T01:08:34.714528Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6f258483-31e6-4810-a3a3-83f9297fcea8",
+                "name": "Individual personal with know",
+                "create_date_time": "2021-08-14T01:08:08.419751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0c8de75a-7bb4-4ab8-a793-81bc2c877b6e",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-03T22:00:06.942575Z",
+        "modified": "2022-09-16T15:23:27.068818Z",
+        "name": "DoSheAdmit",
+        "description": "Customer-focused disintermediate orchestration",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 56,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--1bd715ca-ae5a-41dc-8e4f-34844cb4c8bc"
+        ]
+    }
+]

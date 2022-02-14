@@ -1,0 +1,96 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--9bfd4d53-eedd-4ee4-81c2-226b1674007a",
+        "created_by_ref": "identity--76c4b250-b39c-47f6-b416-ab3ec5460b90",
+        "created": "2022-03-08T14:41:55.586223Z",
+        "modified": "2022-10-31T19:22:05.737741Z",
+        "name": "suffer",
+        "description": "Bar expect billion maybe man.",
+        "aliases": [
+            "month",
+            "oil",
+            "accept",
+            "social",
+            "consumer"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ca06f84c-edbc-43cb-8e5d-a1c33e035512",
+        "created_by_ref": "identity--76c4b250-b39c-47f6-b416-ab3ec5460b90",
+        "created": "2021-08-02T07:51:11.290532Z",
+        "modified": "2022-05-31T05:30:56.741577Z",
+        "name": "Stevens-Morgan",
+        "sectors": [
+            "nuclear",
+            "defense",
+            "hospitality-leisure"
+        ],
+        "contact_information": "79668 Knight Square Apt. 173\nKatherinechester, PA 06550",
+        "labels": [
+            "also",
+            "employee",
+            "little",
+            "pfte-batch-1"
+        ],
+        "confidence": 46,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--cfcf55c5-6d5e-497f-b875-62f5d10ac4a2",
+        "created_by_ref": "identity--76c4b250-b39c-47f6-b416-ab3ec5460b90",
+        "created": "2020-09-23T14:13:01.858089Z",
+        "modified": "2021-08-14T01:08:09.902335Z",
+        "relationship_type": "targets",
+        "source_ref": "attack-pattern--9bfd4d53-eedd-4ee4-81c2-226b1674007a",
+        "target_ref": "identity--ca06f84c-edbc-43cb-8e5d-a1c33e035512",
+        "stop_time": "2020-10-06T10:55:03.539094Z",
+        "labels": [
+            "source",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--76c4b250-b39c-47f6-b416-ab3ec5460b90",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-26T06:11:08.552382Z",
+        "modified": "2022-05-14T23:44:57.209089Z",
+        "name": "Miles-Cameron",
+        "description": "Decentralized fault-tolerant benchmark",
+        "sectors": [
+            "insurance",
+            "entertainment",
+            "government-regional",
+            "pharmaceuticals"
+        ],
+        "contact_information": "Unit 5640 Box 7766\nDPO AA 85015",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 81,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

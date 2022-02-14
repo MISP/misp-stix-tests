@@ -1,0 +1,84 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--b76fdc99-de68-400e-87e0-23b5dfe02cc5",
+        "created_by_ref": "identity--c1e36940-7b3d-4a31-b20d-1d4c89c1f40f",
+        "created": "2021-04-05T00:50:45.687964Z",
+        "modified": "2021-08-14T01:08:22.352678Z",
+        "name": "way",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 89,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--84088810-32b5-4087-9308-8859cc769ac9",
+        "created_by_ref": "identity--c1e36940-7b3d-4a31-b20d-1d4c89c1f40f",
+        "created": "2022-01-07T12:02:35.63114Z",
+        "modified": "2022-11-11T12:42:37.135309Z",
+        "name": "may",
+        "description": "Media happy then worker space case property.",
+        "pattern": "([(file:size <= 723316) OR software:name > 'IdcHX'] FOLLOWEDBY [software:swid > 'org.fedoraproject.Fedora-29']) FOLLOWEDBY [process:defanged NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-06-09T21:15:45.689264Z",
+        "valid_until": "2020-08-18T19:55:35.982165Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--65228bf8-2839-4654-8e1c-7e52dc05e29f",
+        "created_by_ref": "identity--c1e36940-7b3d-4a31-b20d-1d4c89c1f40f",
+        "created": "2020-09-21T00:25:41.155095Z",
+        "modified": "2021-08-15T12:22:52.492021Z",
+        "relationship_type": "investigates",
+        "description": "Management dog season perform. Represent cultural late likely development. Natural reach story trial treatment necessary very name.",
+        "source_ref": "course-of-action--b76fdc99-de68-400e-87e0-23b5dfe02cc5",
+        "target_ref": "indicator--84088810-32b5-4087-9308-8859cc769ac9",
+        "start_time": "2021-08-05T10:25:07.975341Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 5,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c1e36940-7b3d-4a31-b20d-1d4c89c1f40f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-15T21:07:48.288654Z",
+        "modified": "2021-08-14T01:08:22.357698Z",
+        "name": "WeekNoticeRun",
+        "roles": [
+            "better",
+            "even",
+            "million"
+        ],
+        "identity_class": "unknown",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 69,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

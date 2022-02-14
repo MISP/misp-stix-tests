@@ -1,0 +1,165 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--012bc52f-552c-4c12-bcd3-67e5a0aac5ce",
+        "created_by_ref": "identity--4b0f92a8-d275-4256-ad0e-842c592fa813",
+        "created": "2022-07-02T06:01:27.96081Z",
+        "modified": "2022-11-01T07:57:35.369567Z",
+        "name": "rich",
+        "description": "Scene despite game suffer PM family.",
+        "aliases": [
+            "opportunity",
+            "foreign",
+            "right",
+            "dinner",
+            "assume"
+        ],
+        "sophistication": "strategic",
+        "secondary_motivations": [
+            "ideology",
+            "personal-satisfaction",
+            "unpredictable",
+            "accidental"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b21e73ea-58f5-4caf-9974-38aaaf11609a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--86ef8c31-9a16-41fb-8f49-1007ee18b910",
+        "created_by_ref": "identity--4b0f92a8-d275-4256-ad0e-842c592fa813",
+        "created": "2022-05-29T09:11:15.117866Z",
+        "modified": "2023-01-09T21:29:02.405838Z",
+        "name": "glass",
+        "infrastructure_types": [
+            "reconnaissance",
+            "hosting-malware"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "HxIVRytC",
+                "phase_name": "LJwxGnsfW"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "last_seen": "2022-01-20T18:55:26.204775Z",
+        "confidence": 66,
+        "object_marking_refs": [
+            "marking-definition--b21e73ea-58f5-4caf-9974-38aaaf11609a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--30f377a3-d29d-4f8c-b3d1-f6c0899b2421",
+        "created_by_ref": "identity--4b0f92a8-d275-4256-ad0e-842c592fa813",
+        "created": "2020-11-16T12:13:45.709253Z",
+        "modified": "2021-08-14T01:09:26.603058Z",
+        "relationship_type": "hosts",
+        "description": "Range Republican physical total blood ground born artist. Group care much spend organization. Start face fill hospital prepare recognize.",
+        "source_ref": "threat-actor--012bc52f-552c-4c12-bcd3-67e5a0aac5ce",
+        "target_ref": "infrastructure--86ef8c31-9a16-41fb-8f49-1007ee18b910",
+        "labels": [
+            "man",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--b21e73ea-58f5-4caf-9974-38aaaf11609a"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4b0f92a8-d275-4256-ad0e-842c592fa813",
+        "created_by_ref": "identity--4b0f92a8-d275-4256-ad0e-842c592fa813",
+        "created": "2021-04-04T18:12:55.399097Z",
+        "modified": "2021-08-14T01:09:26.603353Z",
+        "name": "Johnson Group",
+        "confidence": 93,
+        "object_marking_refs": [
+            "marking-definition--b21e73ea-58f5-4caf-9974-38aaaf11609a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b21e73ea-58f5-4caf-9974-38aaaf11609a",
+        "created": "2021-08-14T01:09:26.601509Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

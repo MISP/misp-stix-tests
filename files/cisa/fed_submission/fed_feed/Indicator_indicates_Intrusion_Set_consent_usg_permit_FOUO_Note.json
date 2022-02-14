@@ -1,0 +1,190 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--9f23b47c-807b-4bce-95f3-bcf8463d144d",
+        "created_by_ref": "identity--4898e7ed-2cbe-4009-8414-0ea3791630fb",
+        "created": "2021-11-04T14:42:03.031942Z",
+        "modified": "2022-06-21T09:51:45.922293Z",
+        "indicator_types": [
+            "malicious-activity",
+            "anomalous-activity"
+        ],
+        "pattern": "[mutex:name <= 'accept']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-01-20T06:25:53.174374Z",
+        "valid_until": "2022-03-04T01:26:14.654157Z",
+        "labels": [
+            "something",
+            "woman",
+            "talk",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "stuff",
+                "url": "https://mccarty.com/",
+                "hashes": {
+                    "MD5": "e33610004256c6703a25066e60fca322",
+                    "SHA-1": "132983a0fe6b21f1f0b6734c98a28d24fbe6a0e8",
+                    "SHA-256": "e439128bd41f5c94f5e615bebf42e183e324a9af1d5e3c5a5fb3b70acb092b4e",
+                    "SHA-512": "0cb4297d1783c65ca1673d9c21bfeff6cb8cb18a7caef82540472d8db657306d0673641bd6d116fe30923f2d4bb487a18c9d99694bd959e8f8bf801aa704a5e3",
+                    "SHA3-256": "2d4facbabea1315965923c1a5bdbee4e53f253f882b84088d40855e93cc5c2e7",
+                    "SHA3-512": "3e6eb9a49ccb6b773132d656a71e8e7e25e6a545490fd283d6c873148a22ff803f00923584b68d609bb6c676b52034c54712352b87cbf6fbc06e6f62e3b5cc31"
+                },
+                "external_id": "PYaeL"
+            },
+            {
+                "source_name": "out",
+                "external_id": "HcjREiWMoarSxsYIvDY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--986c4888-0f85-4bda-83ed-513f670a9e53"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--e3b822d7-6003-43b2-bf22-a5b39111dd77",
+        "created_by_ref": "identity--4898e7ed-2cbe-4009-8414-0ea3791630fb",
+        "created": "2022-05-02T17:15:39.336527Z",
+        "modified": "2023-04-11T12:29:28.488295Z",
+        "name": "education",
+        "description": "Expect Mrs image step.",
+        "last_seen": "2022-05-30T04:17:35.330375Z",
+        "resource_level": "contest",
+        "secondary_motivations": [
+            "accidental",
+            "coercion",
+            "accidental",
+            "revenge"
+        ],
+        "labels": [
+            "local",
+            "usually",
+            "building",
+            "around",
+            "section",
+            "pfte-batch-1"
+        ],
+        "confidence": 96,
+        "object_marking_refs": [
+            "marking-definition--986c4888-0f85-4bda-83ed-513f670a9e53"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f7c80e9f-4170-4596-9995-7dcfce2a939d",
+        "created_by_ref": "identity--4898e7ed-2cbe-4009-8414-0ea3791630fb",
+        "created": "2021-06-23T23:13:16.647102Z",
+        "modified": "2021-12-12T03:31:17.272662Z",
+        "relationship_type": "indicates",
+        "description": "By themselves information production physical.",
+        "source_ref": "indicator--9f23b47c-807b-4bce-95f3-bcf8463d144d",
+        "target_ref": "intrusion-set--e3b822d7-6003-43b2-bf22-a5b39111dd77",
+        "start_time": "2021-04-20T21:19:41.811908Z",
+        "stop_time": "2022-02-28T01:32:26.845438Z",
+        "confidence": 46,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--986c4888-0f85-4bda-83ed-513f670a9e53"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--ab6b0539-59c1-4f6f-960e-45b56dee96bd",
+        "created_by_ref": "identity--4898e7ed-2cbe-4009-8414-0ea3791630fb",
+        "created": "2020-12-16T20:51:55.240361Z",
+        "modified": "2021-08-14T01:08:31.61644Z",
+        "content": "Morning raise race. Area car give why firm series poor.",
+        "authors": [
+            "act",
+            "yes",
+            "just",
+            "end"
+        ],
+        "object_refs": [
+            "indicator--9f23b47c-807b-4bce-95f3-bcf8463d144d",
+            "intrusion-set--e3b822d7-6003-43b2-bf22-a5b39111dd77",
+            "relationship--f7c80e9f-4170-4596-9995-7dcfce2a939d"
+        ],
+        "confidence": 51,
+        "object_marking_refs": [
+            "marking-definition--986c4888-0f85-4bda-83ed-513f670a9e53"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4898e7ed-2cbe-4009-8414-0ea3791630fb",
+        "created_by_ref": "identity--4898e7ed-2cbe-4009-8414-0ea3791630fb",
+        "created": "2022-03-29T21:37:55.542986Z",
+        "modified": "2022-04-22T18:56:54.398194Z",
+        "name": "Ramirez-Mccarty",
+        "description": "Reduced tangible hub",
+        "roles": [
+            "when",
+            "full",
+            "beat",
+            "next",
+            "appear"
+        ],
+        "sectors": [
+            "education",
+            "defense"
+        ],
+        "confidence": 13,
+        "object_marking_refs": [
+            "marking-definition--986c4888-0f85-4bda-83ed-513f670a9e53"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--986c4888-0f85-4bda-83ed-513f670a9e53",
+        "created": "2021-08-14T01:08:31.614239Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2214d9cf-0e77-4d0b-9826-dfff28324708",
+                "name": "Build while international maybe effect movie",
+                "create_date_time": "2021-08-14T01:08:08.427765Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

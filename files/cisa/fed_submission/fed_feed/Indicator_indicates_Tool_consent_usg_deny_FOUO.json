@@ -1,0 +1,211 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--23447d1b-2f01-415d-a7c7-dd19794f2710",
+        "created_by_ref": "identity--fe080a09-f06e-4e58-a676-e4997ec55a62",
+        "created": "2022-01-24T09:45:45.339577Z",
+        "modified": "2022-12-17T09:53:12.536891Z",
+        "description": "You change could me day.",
+        "pattern": "[email-addr:value >= 'sbenjamin@yahoo.com'] AND [autonomous-system:number < -807] AND ((((([file:defanged NOT = false]) FOLLOWEDBY [file:mime_type NOT = 'multipart/encrypted']))) OR [windows-registry-key:values[0].data_type <= 'REG_SZ'])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-02-07T14:57:04.083208Z",
+        "valid_until": "2022-03-05T23:24:57.91179Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "WaEQF",
+                "phase_name": "jYynmYSmqT"
+            },
+            {
+                "kill_chain_name": "kynoUhKJFrpWj",
+                "phase_name": "TSGUIIEucMcc"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "labels": [
+            "walk",
+            "since",
+            "those",
+            "middle",
+            "pfte-batch-1"
+        ],
+        "confidence": 95,
+        "external_references": [
+            {
+                "source_name": "produce",
+                "description": "Including goal task instead.",
+                "url": "http://www.butler.net/",
+                "hashes": {
+                    "MD5": "c2a4a7c99612ab392167028870664bc7",
+                    "SHA-1": "5c3fa251617864f8d440beac17da2809a9bf3821",
+                    "SHA-256": "4dd8da5c2caaebfc5423f11109b4547b638c39de540804e6eecc049aa7d4c4f0",
+                    "SHA-512": "b1e566deb6c8c78e3dbd53a0293ac323dbeb3d861705001e69e522b4b78f371e4ed62c510232c05e65acfa68293630b708040e9717dfd74e86df2ebb963cd5ca",
+                    "SHA3-256": "3d195515bc9cc49ed2577f69a0783a1aa4b1e816e0bc432a913915ab181333f4",
+                    "SHA3-512": "14125e07f6ad3370410f1e9e111aab6fce2bb8f0a0ebef268a50ef38a12069e81dd70ee5add14b446a9c957e4231273eadab748a450776ff3b4266c638a59ed9"
+                },
+                "external_id": "hNOqLl"
+            },
+            {
+                "source_name": "institution",
+                "description": "Teacher old whole early care federal where."
+            },
+            {
+                "source_name": "exist",
+                "description": "Onto safe heavy actually.",
+                "url": "https://williams-joseph.com/",
+                "external_id": "UMwrdUewHOkfafLRgUw"
+            },
+            {
+                "source_name": "west",
+                "url": "https://www.payne-berger.biz/",
+                "hashes": {
+                    "MD5": "00f2380d61071dc26557fc4d3843209a",
+                    "SHA-1": "6d678c286cdc6624a41b94995f9d4de7bcfb90b9",
+                    "SHA-256": "43fc103e2f3ca9b6408d6eac88fdae9f8a4f19b1f60ed92109deb00bfb012b7d",
+                    "SHA-512": "c5c8d9d62808548ffacba9278be7b722f02f7f67233f79dd6e93cb3db9a61e4ad57c513bcbe66eb0bcf1c571330e11eece0f4829fa665d9b5fb1ff09c7c3ea9b",
+                    "SHA3-256": "ebb88f025a529e2fe441c0d9d8f430411e23028ae5e0411b239cc37b626a8c50",
+                    "SHA3-512": "bf106e4e1ec4ef9920b7950e2374a84603d6b856382f12c2000857a51664dd10c7924c675b8a49a92bd586f7e86a39fe2c4c69e63160047f12306587803c0353"
+                },
+                "external_id": "qovqjtC"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--772d6700-3943-4887-a97d-5dd31f681b9c"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--b0bbd7f2-3650-48e7-9d57-6c1d02ba829a",
+        "created_by_ref": "identity--fe080a09-f06e-4e58-a676-e4997ec55a62",
+        "created": "2021-11-18T02:10:29.475596Z",
+        "modified": "2021-11-20T12:16:20.984294Z",
+        "name": "her",
+        "tool_types": [
+            "credential-exploitation"
+        ],
+        "aliases": [
+            "type",
+            "happen"
+        ],
+        "tool_version": "lot",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--772d6700-3943-4887-a97d-5dd31f681b9c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--cef6de0d-8a71-4c7a-8fcf-be3005c637bb",
+        "created_by_ref": "identity--fe080a09-f06e-4e58-a676-e4997ec55a62",
+        "created": "2022-03-02T00:59:38.445195Z",
+        "modified": "2022-10-12T11:24:10.197508Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--23447d1b-2f01-415d-a7c7-dd19794f2710",
+        "target_ref": "tool--b0bbd7f2-3650-48e7-9d57-6c1d02ba829a",
+        "confidence": 82,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--772d6700-3943-4887-a97d-5dd31f681b9c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--fe080a09-f06e-4e58-a676-e4997ec55a62",
+        "created_by_ref": "identity--fe080a09-f06e-4e58-a676-e4997ec55a62",
+        "created": "2022-01-10T03:54:14.559186Z",
+        "modified": "2022-02-26T12:02:50.274825Z",
+        "name": "Stewart, Ryan and Newman",
+        "description": "Visionary executive paradigm",
+        "roles": [
+            "sign",
+            "into"
+        ],
+        "identity_class": "organization",
+        "sectors": [
+            "insurance",
+            "chemical",
+            "government-regional",
+            "non-profit",
+            "pharmaceuticals"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--772d6700-3943-4887-a97d-5dd31f681b9c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--772d6700-3943-4887-a97d-5dd31f681b9c",
+        "created": "2021-08-14T01:08:35.30174Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a2bad07a-f4d3-4efb-a81b-2cf0c0637fc9",
+                "name": "Our concern loss resource wear",
+                "create_date_time": "2021-08-14T01:08:08.426882Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

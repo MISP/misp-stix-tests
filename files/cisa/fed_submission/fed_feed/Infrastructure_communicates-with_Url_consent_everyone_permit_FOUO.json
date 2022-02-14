@@ -1,0 +1,115 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--0a580bdf-959b-417d-9bd1-5f78febec03e",
+        "created_by_ref": "identity--4d4993ba-e065-4347-ba68-43ac70089382",
+        "created": "2022-05-26T01:48:52.943434Z",
+        "modified": "2022-07-17T22:53:49.274131Z",
+        "name": "PM",
+        "description": "Single able specific magazine thus media.",
+        "aliases": [
+            "how",
+            "treat",
+            "resource"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "last_seen": "2021-07-23T08:53:01.119538Z",
+        "confidence": 14,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--43aa7c36-25aa-40f9-bb35-4a0798247a59"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--a116e8ae-1395-42f2-9558-e155bf5eef9e",
+        "value": "https://mata-zhang.info/",
+        "object_marking_refs": [
+            "marking-definition--43aa7c36-25aa-40f9-bb35-4a0798247a59"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--2458323c-9960-40b1-b79a-100da33d2b97",
+        "created_by_ref": "identity--4d4993ba-e065-4347-ba68-43ac70089382",
+        "created": "2020-12-05T18:17:32.191551Z",
+        "modified": "2021-08-17T09:44:32.078352Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--0a580bdf-959b-417d-9bd1-5f78febec03e",
+        "target_ref": "url--a116e8ae-1395-42f2-9558-e155bf5eef9e",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--43aa7c36-25aa-40f9-bb35-4a0798247a59"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4d4993ba-e065-4347-ba68-43ac70089382",
+        "created_by_ref": "identity--4d4993ba-e065-4347-ba68-43ac70089382",
+        "created": "2020-08-27T22:30:34.366157Z",
+        "modified": "2021-08-14T01:08:41.81397Z",
+        "name": "King and Sons",
+        "roles": [
+            "wife",
+            "without"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 28,
+        "object_marking_refs": [
+            "marking-definition--43aa7c36-25aa-40f9-bb35-4a0798247a59"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--43aa7c36-25aa-40f9-bb35-4a0798247a59",
+        "created": "2021-08-14T01:08:41.812922Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a064a16e-64c9-426c-9535-98e263215e51",
+                "name": "Member population available under",
+                "create_date_time": "2021-08-14T01:08:08.430342Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

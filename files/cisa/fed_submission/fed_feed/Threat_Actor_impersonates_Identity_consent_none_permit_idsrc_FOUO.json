@@ -1,0 +1,211 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--4c451e30-9464-4979-9e78-fa2c71c2c876",
+        "created_by_ref": "identity--f24cafd6-c715-42c6-a413-3f91893f2619",
+        "created": "2021-06-15T20:30:21.251321Z",
+        "modified": "2021-08-14T01:09:28.444524Z",
+        "name": "goal",
+        "aliases": [
+            "address",
+            "organization",
+            "guy",
+            "true"
+        ],
+        "first_seen": "2020-09-17T13:39:44.097525Z",
+        "goals": [
+            "work",
+            "medical"
+        ],
+        "labels": [
+            "let",
+            "treat",
+            "may",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "fine",
+                "description": "Guy political describe second worry.",
+                "url": "https://www.robinson-smith.biz/"
+            },
+            {
+                "source_name": "discuss",
+                "hashes": {
+                    "MD5": "100ab8e4659bd0a58849924bf3dc75f0",
+                    "SHA-1": "bac3d7f56a196baf6f453c4f6abc78bebbc4b149",
+                    "SHA-256": "cd2580b8edeec50564f7d38f1b87ead4c2411b217eb3563438649aa9ff8b98d0",
+                    "SHA-512": "83765f238c668bb774996adb8f0573c7f0ee4dc5cb41488432f80e18eb705fe7f5a18232c9712c7cde40339fc799df64608eb91a938ebdf85b0fb2c7d17f359a",
+                    "SHA3-256": "7d7e777213538ec34163fa9181c535906be3aa0d08f7a3be6c0f085199782403",
+                    "SHA3-512": "982cfe0c37bd4614e75488e6d8b4094a88423b1f7e9cdedcd774c93f8d0cec5512e6d7f62046010f58588a364e59e28c9b46bc410e31dcb4319c1a9ee6a73799"
+                },
+                "external_id": "SBuFURcxkPtkqxXk"
+            },
+            {
+                "source_name": "example",
+                "description": "Stuff realize special service small subject respond.",
+                "hashes": {
+                    "MD5": "014a91637b76f59af9948923eb7b829f",
+                    "SHA-1": "5cdd3b086019a028576d0281286e9c41d3e1df74",
+                    "SHA-256": "2eaf7be3821d8690244ace74660d2b4cd8759141e866422b03fa17a43374c4f5",
+                    "SHA-512": "344b54aa17c4659d7fd27f989bfc492e53f5c9e87b2372728a4e2ac0bc420c2d82d2544cddfb482e202958e989a4846ca790132e3d69b4f8d46d2dd5846973d0",
+                    "SHA3-256": "9919595b4328b1b1ce9a355f4eddee502c5f61e8c29e64d7bea0a05595b7e28b",
+                    "SHA3-512": "7df50b5cbdc8675dc6ade061f5757a61fcd85b9f459092a6655ec04d83a2eb34d606a8bfadae4df5061389478ee0ad6d82f1a9124a73e13666ad97944d2cfc91"
+                }
+            },
+            {
+                "source_name": "table",
+                "description": "Everybody hand move account production this southern popular."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c21cc13e-c1c0-4d44-85ae-65ce9a0231fc"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0d618e74-846e-4985-9b77-b0b9eec9c9b5",
+        "created_by_ref": "identity--f24cafd6-c715-42c6-a413-3f91893f2619",
+        "created": "2022-03-12T21:42:13.735489Z",
+        "modified": "2023-02-09T19:05:31.514394Z",
+        "name": "Rich PLC",
+        "roles": [
+            "he",
+            "organization",
+            "political"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "commercial",
+            "education",
+            "automotive",
+            "education"
+        ],
+        "contact_information": "PSC 3992, Box 3425\nAPO AE 33484",
+        "confidence": 63,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c21cc13e-c1c0-4d44-85ae-65ce9a0231fc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--25b0647b-dd31-4598-a2aa-f2a135805c4a",
+        "created_by_ref": "identity--f24cafd6-c715-42c6-a413-3f91893f2619",
+        "created": "2021-12-19T16:12:48.831755Z",
+        "modified": "2022-02-12T02:30:31.894961Z",
+        "relationship_type": "impersonates",
+        "source_ref": "threat-actor--4c451e30-9464-4979-9e78-fa2c71c2c876",
+        "target_ref": "identity--0d618e74-846e-4985-9b77-b0b9eec9c9b5",
+        "labels": [
+            "focus",
+            "drug",
+            "pfte-batch-1"
+        ],
+        "confidence": 21,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c21cc13e-c1c0-4d44-85ae-65ce9a0231fc"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f24cafd6-c715-42c6-a413-3f91893f2619",
+        "created_by_ref": "identity--f24cafd6-c715-42c6-a413-3f91893f2619",
+        "created": "2021-01-31T21:32:22.991061Z",
+        "modified": "2021-08-14T01:09:28.445416Z",
+        "name": "Alvarado Inc",
+        "external_references": [
+            {
+                "source_name": "body",
+                "url": "http://www.acevedo.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c21cc13e-c1c0-4d44-85ae-65ce9a0231fc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--c21cc13e-c1c0-4d44-85ae-65ce9a0231fc",
+        "created": "2021-08-14T01:09:28.443497Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1a59cf40-939d-4572-bc52-0472b77923dd",
+                "name": "Run main democratic",
+                "create_date_time": "2021-08-14T01:08:08.425934Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

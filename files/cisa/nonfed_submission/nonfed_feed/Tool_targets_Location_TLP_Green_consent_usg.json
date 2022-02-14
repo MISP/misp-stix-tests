@@ -1,0 +1,115 @@
+[
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--71ad7b67-8f8d-4f80-8db9-965b2796b725",
+        "created_by_ref": "identity--07a143ff-2669-40a3-b7de-3c5e1745acc4",
+        "created": "2021-08-27T22:34:18.765354Z",
+        "modified": "2022-05-12T13:07:05.559976Z",
+        "name": "account",
+        "tool_types": [
+            "remote-access",
+            "denial-of-service"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "KjJoGRw",
+                "phase_name": "tIwkbjldZImv"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "VEdrzXvjE",
+                "phase_name": "LroHDdGJvEVOQsz"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "tool_version": "know",
+        "labels": [
+            "who",
+            "energy",
+            "difference",
+            "everyone",
+            "behavior",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--17f1a27d-4e0a-4b49-a9fd-e51dcf52e944",
+        "created_by_ref": "identity--07a143ff-2669-40a3-b7de-3c5e1745acc4",
+        "created": "2021-10-10T19:40:07.378958Z",
+        "modified": "2021-11-24T05:28:18.431685Z",
+        "name": "tHgBqwuoFCrRXhen",
+        "latitude": -16.6620402017692,
+        "longitude": 78.94016109126096,
+        "region": "australia-new-zealand",
+        "country": "Bulgaria",
+        "administrative_area": "YpaoAIxAFQKlQ",
+        "street_address": "51059 Palmer Orchard Apt. 696",
+        "labels": [
+            "prove",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--646c3d23-8f87-4c67-9f11-b90d6101fe6f",
+        "created_by_ref": "identity--07a143ff-2669-40a3-b7de-3c5e1745acc4",
+        "created": "2021-01-05T01:55:32.275673Z",
+        "modified": "2021-08-14T01:09:40.337632Z",
+        "relationship_type": "targets",
+        "source_ref": "tool--71ad7b67-8f8d-4f80-8db9-965b2796b725",
+        "target_ref": "location--17f1a27d-4e0a-4b49-a9fd-e51dcf52e944",
+        "start_time": "2021-04-09T20:58:23.967415Z",
+        "stop_time": "2021-10-29T00:45:41.196337Z",
+        "labels": [
+            "provide",
+            "kind",
+            "white",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--07a143ff-2669-40a3-b7de-3c5e1745acc4",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-13T10:16:04.460181Z",
+        "modified": "2022-04-21T18:33:09.881828Z",
+        "name": "MyAssumeGreen",
+        "roles": [
+            "play"
+        ],
+        "contact_information": "21112 Carla Ridge Apt. 603\nLake Matthewside, VA 71874",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

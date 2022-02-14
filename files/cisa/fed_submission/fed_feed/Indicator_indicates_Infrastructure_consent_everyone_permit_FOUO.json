@@ -1,0 +1,227 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--4f449a14-3727-4a1c-aa04-7e05faeaecfa",
+        "created_by_ref": "identity--3c712dca-984c-4218-8db0-b01f2cb1eca1",
+        "created": "2022-05-28T11:10:50.787214Z",
+        "modified": "2022-06-01T01:16:55.951518Z",
+        "name": "realize",
+        "description": "Summer since agreement bill religious.",
+        "indicator_types": [
+            "anomalous-activity",
+            "compromised",
+            "attribution",
+            "malicious-activity",
+            "unknown"
+        ],
+        "pattern": "[user-account:account_last_login >= t'2021-10-02T14:20:02.310499Z'] FOLLOWEDBY ([ipv4-addr:value NOT = '202.125.130.124']) START t'2021-09-06T11:19:17.248798Z' STOP t'2022-07-18T11:27:00.744362Z'",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-11-07T22:37:10.283542Z",
+        "valid_until": "2022-06-23T18:07:11.905607Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "IhnsnjkF",
+                "phase_name": "kJfxMnmZrrHwEfS"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "HOpBprAHHIFpjyRVdui",
+                "phase_name": "YDgQVpwnlsl"
+            }
+        ],
+        "labels": [
+            "old",
+            "pfte-batch-1"
+        ],
+        "confidence": 42,
+        "external_references": [
+            {
+                "source_name": "something",
+                "description": "Suggest future property score.",
+                "hashes": {
+                    "MD5": "8d40077d0f7f244546e7d29b29e1f255",
+                    "SHA-1": "1466aa273b81fa1d25e50b6085d81d4db668645a",
+                    "SHA-256": "728833d579d834baba006aa0bf9c416f0ec5bc3dde570a02e6f0dce3e2151143",
+                    "SHA-512": "70435f48b346d3ac56e4311f40930a9af732035ad4fdad5ea3372156b91118bada7dbb49b4c86bc821a1adf767e49d8f1f049827a5a85bca369d774f6379e66c",
+                    "SHA3-256": "f78ff4dcad6cd290664ef49b61f04f38e09098ef55cb60676b7bfdce33e1f047",
+                    "SHA3-512": "a8125be0b7f486f2a5c5b45ae1c782874f90f52eab287c6a90d6a4dd4512037866228bd339b7a34318ea927ba4c764f9556dc5361695ef011758ffa6f87f75e6"
+                },
+                "external_id": "kDONFewhRaMNa"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--cc77777a-dd74-409b-915e-8196161c872c"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--6bcd5dfd-adf5-468c-b1c5-e0831eed1784",
+        "created_by_ref": "identity--3c712dca-984c-4218-8db0-b01f2cb1eca1",
+        "created": "2021-01-18T16:34:31.132334Z",
+        "modified": "2022-01-05T16:46:18.339244Z",
+        "name": "recent",
+        "infrastructure_types": [
+            "botnet",
+            "command-and-control",
+            "exfiltration"
+        ],
+        "aliases": [
+            "magazine",
+            "whose",
+            "share"
+        ],
+        "first_seen": "2022-07-01T05:40:56.423813Z",
+        "last_seen": "2022-08-03T22:15:28.03364Z",
+        "confidence": 47,
+        "external_references": [
+            {
+                "source_name": "accept",
+                "description": "Process deal but other raise listen between agree.",
+                "external_id": "hpAEadBrNTSF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--cc77777a-dd74-409b-915e-8196161c872c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--73dc736b-cd14-401c-9e39-092259f6ee11",
+        "created_by_ref": "identity--3c712dca-984c-4218-8db0-b01f2cb1eca1",
+        "created": "2021-01-12T21:28:13.906736Z",
+        "modified": "2021-08-14T01:08:30.613682Z",
+        "relationship_type": "indicates",
+        "description": "Ago who statement light notice lawyer. Executive pull be speech.",
+        "source_ref": "indicator--4f449a14-3727-4a1c-aa04-7e05faeaecfa",
+        "target_ref": "infrastructure--6bcd5dfd-adf5-468c-b1c5-e0831eed1784",
+        "labels": [
+            "our",
+            "fill",
+            "mind",
+            "role",
+            "pfte-batch-1"
+        ],
+        "confidence": 99,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "bit",
+                "description": "Certain company only well push cup help.",
+                "hashes": {
+                    "MD5": "4514acbc78677e150889d0623fc3c847",
+                    "SHA-1": "027e96f14e13191c6421d7f8609735be7e3acfed",
+                    "SHA-256": "876aee95b9124bf9cdfc58665bd9fb4ca3fac3aea15ada298bad9255300600bc",
+                    "SHA-512": "fbdc6f625dff6750ed46959ce322c84859eac1f36f8551ec454dc0d1dbf5ea00560b09e4875682945f2599f1b456a64200f9534f1f17bc1f4ab8991ef4924624",
+                    "SHA3-256": "d89cd5d3fc3a047a99c9f71ab2813e60da97f0036b6006adf9011ac1e7428a42",
+                    "SHA3-512": "218413ff7338c2a7d9db596629b53b671399e5c5fa000769b51fe1332f3f215fc6b128a15db014890fba52f9b0aab4656131e76c23a78606a682da07efca2bc4"
+                },
+                "external_id": "jZtRpwFZXjHzsIXBoiZ"
+            },
+            {
+                "source_name": "adult",
+                "description": "Wait difficult team off manager."
+            },
+            {
+                "source_name": "hit",
+                "description": "Choice he play anyone.",
+                "hashes": {
+                    "MD5": "a30d1704b99e401c0df2e07cf6bdb322",
+                    "SHA-1": "b6ed11419305df61468ba69e843b042d2e801b81",
+                    "SHA-256": "40d236eb2ac02a0133c7606ecca018659968fbd9fb4abc04c761c2e28269bbe3",
+                    "SHA-512": "67f521193736ca0cea37a24dfa164b0679abd30f6ca265e2d8b043df1f6ec13e1d77f719076cd1fad36c4f211b520bed9c49e11a99d67e32107e1cd1ad16aaa9",
+                    "SHA3-256": "9b629d505d2ac6f138c8db88d2e159d7eea714a21cb90c8c297d63aa947c90a5",
+                    "SHA3-512": "86335acc8bc022732ca07933d9aa94d0130cf55215064d2678ada7cd057dd36c52ae50970f0cf3ecaa9abe09ebd5c45dc2f13ee46f9ebb2d74989c02cc17fb9d"
+                }
+            },
+            {
+                "source_name": "deep",
+                "description": "Small site store economic pick position fear.",
+                "url": "https://www.howard.biz/"
+            },
+            {
+                "source_name": "establish",
+                "description": "Late office half sound though fine quite less.",
+                "url": "https://www.hess.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--cc77777a-dd74-409b-915e-8196161c872c"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3c712dca-984c-4218-8db0-b01f2cb1eca1",
+        "created_by_ref": "identity--3c712dca-984c-4218-8db0-b01f2cb1eca1",
+        "created": "2021-04-25T22:14:55.326422Z",
+        "modified": "2021-12-16T18:43:03.613396Z",
+        "name": "Reed-Mason",
+        "sectors": [
+            "nuclear",
+            "commercial",
+            "emergency-services"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--cc77777a-dd74-409b-915e-8196161c872c"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--cc77777a-dd74-409b-915e-8196161c872c",
+        "created": "2021-08-14T01:08:30.609989Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a064a16e-64c9-426c-9535-98e263215e51",
+                "name": "Member population available under",
+                "create_date_time": "2021-08-14T01:08:08.430342Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

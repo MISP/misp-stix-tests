@@ -1,0 +1,222 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--a04901f9-0723-4334-9dc5-b6f7b3bf7566",
+        "created_by_ref": "identity--d05e6c31-f5d8-48f8-ac6b-867f96282ab0",
+        "created": "2021-04-25T05:51:00.93788Z",
+        "modified": "2021-11-23T05:00:42.26226Z",
+        "name": "center",
+        "resource_level": "team",
+        "secondary_motivations": [
+            "ideology",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "wear",
+            "better",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "rest",
+                "description": "Air concern growth.",
+                "url": "http://pham.net/",
+                "external_id": "ylvLKUIluJOfSliVf"
+            },
+            {
+                "source_name": "western",
+                "description": "Operation necessary hope.",
+                "hashes": {
+                    "MD5": "8ca64956bb7ed70a9e6901ee53a4eac8",
+                    "SHA-1": "c4c0cba52fe6593327f37f6274e9d31b5fdcdabb",
+                    "SHA-256": "459b2d1e69fd722b8c735feb7be14daef61770de7fad91a0429ede9f272a5f45",
+                    "SHA-512": "f2f9725ad7ba91cf90cb8d699b757eeb303d1678aea63b8f272e183e786f796935047b8b9c6394a6e814c0683a5a8973bbf7da00864c336a82d2f51b26973cde",
+                    "SHA3-256": "6c3fb37a42e0ba10671b02b470febf4acb07c40b6b15a181c33b86c2a901a33f",
+                    "SHA3-512": "d22668a2ab65db76857574567e17cae4a31d4daa527de9370b18489d931bd29ceb75d76eee7b9efed8ba2bd824334f1f94a20b38b630dd4edb42853844d731c0"
+                },
+                "external_id": "LdouVhZNz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7e84d58a-d624-4001-8046-30c4a0b4fd71"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--ca9a341e-f3a4-4301-bcd2-ea68b7785539",
+        "created_by_ref": "identity--d05e6c31-f5d8-48f8-ac6b-867f96282ab0",
+        "created": "2021-10-07T06:29:57.696579Z",
+        "modified": "2022-09-06T10:27:42.803811Z",
+        "name": "make",
+        "infrastructure_types": [
+            "routers-switches",
+            "command-and-control",
+            "workstation",
+            "exfiltration"
+        ],
+        "confidence": 7,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7e84d58a-d624-4001-8046-30c4a0b4fd71"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--fc57be5d-e96c-4758-9324-bed6a0e9ad77",
+        "created_by_ref": "identity--d05e6c31-f5d8-48f8-ac6b-867f96282ab0",
+        "created": "2020-10-29T11:27:40.347924Z",
+        "modified": "2021-08-14T01:08:53.975031Z",
+        "relationship_type": "owns",
+        "source_ref": "intrusion-set--a04901f9-0723-4334-9dc5-b6f7b3bf7566",
+        "target_ref": "infrastructure--ca9a341e-f3a4-4301-bcd2-ea68b7785539",
+        "start_time": "2021-05-23T16:52:40.412208Z",
+        "labels": [
+            "have",
+            "what",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--7e84d58a-d624-4001-8046-30c4a0b4fd71"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--7e84d58a-d624-4001-8046-30c4a0b4fd71",
+        "created_by_ref": "identity--d05e6c31-f5d8-48f8-ac6b-867f96282ab0",
+        "created": "2021-08-14T01:08:53.973643Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e665ae49-7536-4ce4-b3ac-ad9803b6185e",
+                "name": "Push teach indeed like accept",
+                "create_date_time": "2021-08-14T01:08:08.423274Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d05e6c31-f5d8-48f8-ac6b-867f96282ab0",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-26T21:29:44.507239Z",
+        "modified": "2022-08-23T14:49:16.667031Z",
+        "name": "Miller-Harris",
+        "roles": [
+            "herself",
+            "science",
+            "likely",
+            "believe",
+            "where"
+        ],
+        "sectors": [
+            "automotive",
+            "automotive"
+        ],
+        "contact_information": "PSC 0377, Box 8690\nAPO AP 58090",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 96,
+        "external_references": [
+            {
+                "source_name": "policy",
+                "description": "Rather program easy month.",
+                "url": "http://www.williams.info/",
+                "hashes": {
+                    "MD5": "ab8506c3b4a5441508473277d9a49e35",
+                    "SHA-1": "b2045d8a7fbf538c2f0c883fbfb2bd28c904ce1c",
+                    "SHA-256": "a7aff1a0474f4c25aea976834b3bb6581214bbb5dca6c8014d88b45b1f324fa2",
+                    "SHA-512": "b560db44e969f263308313cc35d6abc6dce220424f68764b5d2323a495c6373fbb21c87c9c7a43fc5c972e3d893385ddb843a86bcb4e6805852d7b92452f6720",
+                    "SHA3-256": "479ca7dae71f8f4aa458bc6db6d28a180d6326aba2cca85bdde304e244b4d031",
+                    "SHA3-512": "97bd11113cc8c3c4339eaa0e429b6d3feda7ad9025b703b333df9bcaff26ad408b86a5777fae03b5b2f449cc09cd346dc0c040b151459476ccaa99922780b7bd"
+                },
+                "external_id": "boDgO"
+            },
+            {
+                "source_name": "task",
+                "description": "Lose special federal father feeling similar why investment.",
+                "external_id": "UAnyuoMGNDlz"
+            },
+            {
+                "source_name": "cause",
+                "description": "Begin teach information arrive certain.",
+                "url": "http://www.collier-barton.info/",
+                "hashes": {
+                    "MD5": "b9a1a2053cc1d647ddf307317048b712",
+                    "SHA-1": "2bb5b889991a67372aae46514b2ec00c3076b30c",
+                    "SHA-256": "33c8387e783c75580a777e275a98c20e838fcf364b493229f52abb07601ddbd1",
+                    "SHA-512": "02b55939620b6b0c414d372b3c232b15b35879eb2f10f8959018073f1c10dd442e8e9e03fadd1f2eea47fc196a3b04d7049934c6e2ec278756a92da5eb8af7e5",
+                    "SHA3-256": "87a7c74e762e2c29c1ee8bc8b77dbc4680074eac042c9b67e0a771ac47f01bd5",
+                    "SHA3-512": "61cd263fe2696dd85a6340c54bf22e8585083a49e6fc5b5498dbcd9c0a0b5b014338904982d3acb4e02d96f886d33c8485cf9d4a1bbe6c143d0ae423e2e13301"
+                },
+                "external_id": "rDvTZuHLGW"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7e84d58a-d624-4001-8046-30c4a0b4fd71"
+        ]
+    }
+]

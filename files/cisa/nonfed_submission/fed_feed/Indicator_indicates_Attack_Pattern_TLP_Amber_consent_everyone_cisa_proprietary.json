@@ -1,0 +1,213 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--82d5e043-ee5a-4e09-a41c-de0e6a88c02d",
+        "created_by_ref": "identity--8521772b-4882-4012-b867-7b28fb1c8c15",
+        "created": "2022-01-17T02:30:33.36951Z",
+        "modified": "2022-09-06T23:47:17.683247Z",
+        "indicator_types": [
+            "anomalous-activity",
+            "compromised"
+        ],
+        "pattern": "[autonomous-system:defanged NOT = false] FOLLOWEDBY [ipv6-addr:value > '28f8:e2b6:6b88:e261:3767:47cb:bd99:68c2']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-04-06T06:46:04.732817Z",
+        "valid_until": "2021-09-23T14:02:45.690956Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "confidence": 74,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "between",
+                "description": "Then on he shoulder forget end news wide.",
+                "hashes": {
+                    "MD5": "2abc0dec6082557828c7f39a3098954a",
+                    "SHA-1": "8165912dc993cc33d449411a2c82fb9c15bb741e",
+                    "SHA-256": "958177a48f5b20eb3e0155d2b53f03970c7479a819aecc5442002e1b40ae4022",
+                    "SHA-512": "58cb6b765b4950b403ee7cb340e6c890d20212519ce0c700c68d8f7268f9e0de55dabdf0db87ed5837cfd977a462434c7f05d9837a8d01957df82b35aeba60de",
+                    "SHA3-256": "2cceba97c18b72375b823bcd57a988969b950527104ef3553e95ef60586cef03",
+                    "SHA3-512": "c176b4af0663b4ef8878d5ce3ce9790048a71aca1d1aa49f494029ee68e2b68036c25bd617494881751f1fdf4f2addbcb60fd7808a1c85c340450e3a75b7fc47"
+                },
+                "external_id": "UdDUR"
+            },
+            {
+                "source_name": "health",
+                "description": "Key compare letter soldier east.",
+                "url": "http://www.johnson.com/",
+                "hashes": {
+                    "MD5": "2c2d23997bbae7c02288244a4630e32b",
+                    "SHA-1": "7e82b2b2ddb6842f49d738979e707415338b8a5e",
+                    "SHA-256": "292c9f454aa515f49b05ca320058e5bd20ff16e18a4f2bfef6eb5868e646f31d",
+                    "SHA-512": "9de80602020715872256a67b68f651101c1f3874f31ef8d592522ffbdbd4cf6a958799453f3c6f4ce4a589dc81384a6c320845bde78fdecc7a26836827489c4a",
+                    "SHA3-256": "8a6f2dcfa7bedae1543423e85fba5c4f5a64a21439ba16c284d91db4db9e3fba",
+                    "SHA3-512": "185d5c18ea432bd167a10567acd1cec35460daeab9cde7b4330e39e1ce5d300b5a79952ba086fc76d5b02dfc852330f2d972404a672c203f09de96fd69a22c47"
+                }
+            },
+            {
+                "source_name": "accept",
+                "description": "Ask trade begin law.",
+                "hashes": {
+                    "MD5": "84f2fd6400a6bd60be620a20a077829a",
+                    "SHA-1": "cd66c99ab5692ce9d5ef911ad54c2f484f0845ed",
+                    "SHA-256": "63868d1c6d5a4a15631f22ae42c53287d5d2b7351c77c25b2cf4dfde10a24d91",
+                    "SHA-512": "7d249ec65373a5a009a2f2e8a79b2598daf3280c0bc863777e145ca3804f04724c89f4494a28045bbaaff3479d752fad5d6ae2708b23c7f166d21cb41174e623",
+                    "SHA3-256": "4b9fca98ef6bf07950d021a92acbfd8db1d41e83bd1d57134560cf30c745ef18",
+                    "SHA3-512": "03c74775efc9d711741250c21b9fd03a6b4e7ef3df216a0fc019c2fa5969aea04f831996532e640a5324f0a8042d909b0155566caad467bb8ad6db6052960e51"
+                },
+                "external_id": "bZkkggssdwCqhLCT"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--6efda696-d513-404e-ae9a-80758c16d3d3"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--a04a2e42-5b90-49c1-a81b-09697d44ad4f",
+        "created_by_ref": "identity--8521772b-4882-4012-b867-7b28fb1c8c15",
+        "created": "2021-08-30T08:35:39.337723Z",
+        "modified": "2022-08-14T13:54:30.207137Z",
+        "name": "stop",
+        "description": "Hold issue if action reason choose.",
+        "aliases": [
+            "compare",
+            "property",
+            "issue"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "JiKSIiuIAjogfXpkbR",
+                "phase_name": "ggGPgTEyDgEwULqO"
+            },
+            {
+                "kill_chain_name": "DToKBjzZvsHqgws",
+                "phase_name": "JYLnNbLytfkvKVAcKe"
+            },
+            {
+                "kill_chain_name": "DcrDrsl",
+                "phase_name": "xcvoQQ"
+            }
+        ],
+        "labels": [
+            "authority",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--6efda696-d513-404e-ae9a-80758c16d3d3"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--eab3dab9-f770-4f66-9eff-d497ddf627bb",
+        "created_by_ref": "identity--8521772b-4882-4012-b867-7b28fb1c8c15",
+        "created": "2021-05-13T00:40:13.086098Z",
+        "modified": "2021-09-21T21:36:15.165744Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--82d5e043-ee5a-4e09-a41c-de0e6a88c02d",
+        "target_ref": "attack-pattern--a04a2e42-5b90-49c1-a81b-09697d44ad4f",
+        "start_time": "2021-05-22T15:21:16.580516Z",
+        "stop_time": "2021-06-27T08:10:35.167142Z",
+        "object_marking_refs": [
+            "marking-definition--6efda696-d513-404e-ae9a-80758c16d3d3"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--6efda696-d513-404e-ae9a-80758c16d3d3",
+        "created_by_ref": "identity--8521772b-4882-4012-b867-7b28fb1c8c15",
+        "created": "2021-08-14T01:08:27.754026Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-881bbc21-deef-4d57-abf3-7f599266217f",
+                "name": "Way get would fight necessary hour measure",
+                "create_date_time": "2021-08-14T01:08:08.423662Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8521772b-4882-4012-b867-7b28fb1c8c15",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-30T15:47:06.247192Z",
+        "modified": "2022-09-04T23:27:01.283867Z",
+        "name": "Collier, Wilkins and Jones",
+        "description": "Fully-configurable zero administration website",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--6efda696-d513-404e-ae9a-80758c16d3d3"
+        ]
+    }
+]

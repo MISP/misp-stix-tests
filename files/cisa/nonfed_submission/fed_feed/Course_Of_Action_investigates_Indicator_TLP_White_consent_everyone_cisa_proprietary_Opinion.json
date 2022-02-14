@@ -1,0 +1,237 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--43fd0684-8e2d-4941-8664-941a8c69ce9d",
+        "created_by_ref": "identity--0beb0fe3-39fd-43b4-b5cb-b40a2eb22a22",
+        "created": "2021-08-29T00:22:43.54077Z",
+        "modified": "2021-10-05T04:22:31.640625Z",
+        "name": "health",
+        "description": "Boy why old upon attack high during.",
+        "confidence": 22,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "set",
+                "url": "https://smith-fleming.org/",
+                "external_id": "omsFpTfMPLd"
+            },
+            {
+                "source_name": "institution",
+                "description": "Health change relate fear business worker research hard.",
+                "external_id": "JjfUNPDfPmcJJeq"
+            },
+            {
+                "source_name": "four",
+                "description": "Study just beautiful cover reality fear.",
+                "external_id": "SwXLvnmbsY"
+            },
+            {
+                "source_name": "spring",
+                "url": "http://black.com/",
+                "external_id": "mACkqOGU"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--71904535-47a4-41f5-a93a-9fb181af6249"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--7e794b21-319e-47e0-a904-27650ff00d5f",
+        "created_by_ref": "identity--0beb0fe3-39fd-43b4-b5cb-b40a2eb22a22",
+        "created": "2021-09-01T07:30:42.133671Z",
+        "modified": "2022-08-21T07:38:16.11524Z",
+        "indicator_types": [
+            "compromised"
+        ],
+        "pattern": "[directory:atime NOT = t'2022-04-02T19:02:41.654653Z'] FOLLOWEDBY [process:pid <= 37976] FOLLOWEDBY [x509-certificate:defanged = false] FOLLOWEDBY ([mutex:defanged NOT = false]) REPEATS 6 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-12-25T12:13:32.120008Z",
+        "labels": [
+            "often",
+            "pfte-batch-1"
+        ],
+        "confidence": 62,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "if",
+                "description": "Report board center recognize hundred area.",
+                "url": "https://www.wolf-stone.biz/",
+                "hashes": {
+                    "MD5": "2ee18c75ea0b65f1f4e635c8dc9c5425",
+                    "SHA-1": "37b74ace2adc32244809776b149152bcf5b96553",
+                    "SHA-256": "75cf745b2fe168a23e71d5fda1128f7d1a6540ded7231487af0a9f2000bd216b",
+                    "SHA-512": "c03a9d6ea1faa1dee3573a4f13d7b9179ef7f905fc03cef7e3404232493dfa121414a575ddab21892201e3302d2c782c6be635b4108535fede71f0103a5834a6",
+                    "SHA3-256": "e733687371b887f2e71bc77573263cddfcb0427bdb72998fb6c6b9e0411c3646",
+                    "SHA3-512": "60e77b9126b42c58dde8aa75c2d45ab35ccef627ea73bcab0223243d1990576a79c6bac3a517e8c3ee4d40855b824489720a6b9ca278e4f656056e5b61d983b9"
+                },
+                "external_id": "iKuLezVOihy"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--71904535-47a4-41f5-a93a-9fb181af6249"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--96c2740d-1cae-482c-ae72-3b28f8bffb61",
+        "created_by_ref": "identity--0beb0fe3-39fd-43b4-b5cb-b40a2eb22a22",
+        "created": "2022-03-09T15:33:06.750438Z",
+        "modified": "2022-05-29T20:46:32.495852Z",
+        "relationship_type": "investigates",
+        "source_ref": "course-of-action--43fd0684-8e2d-4941-8664-941a8c69ce9d",
+        "target_ref": "indicator--7e794b21-319e-47e0-a904-27650ff00d5f",
+        "start_time": "2021-07-24T13:19:32.697624Z",
+        "stop_time": "2022-06-04T09:27:09.13509Z",
+        "confidence": 94,
+        "external_references": [
+            {
+                "source_name": "everybody",
+                "description": "Foreign anyone man amount by language investment husband.",
+                "external_id": "pNLOlCKLkRVDwLWi"
+            },
+            {
+                "source_name": "whose",
+                "url": "https://www.cooper.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--71904535-47a4-41f5-a93a-9fb181af6249"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--b4a463a1-cba2-4cb0-8a08-12a0279d0d42",
+        "created_by_ref": "identity--0beb0fe3-39fd-43b4-b5cb-b40a2eb22a22",
+        "created": "2021-09-28T21:37:18.094946Z",
+        "modified": "2021-11-20T20:14:49.635225Z",
+        "opinion": "strongly-agree",
+        "object_refs": [
+            "course-of-action--43fd0684-8e2d-4941-8664-941a8c69ce9d",
+            "indicator--7e794b21-319e-47e0-a904-27650ff00d5f",
+            "relationship--96c2740d-1cae-482c-ae72-3b28f8bffb61"
+        ],
+        "confidence": 83,
+        "object_marking_refs": [
+            "marking-definition--71904535-47a4-41f5-a93a-9fb181af6249"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--71904535-47a4-41f5-a93a-9fb181af6249",
+        "created_by_ref": "identity--0beb0fe3-39fd-43b4-b5cb-b40a2eb22a22",
+        "created": "2021-08-14T01:08:21.704349Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f217105b-ccd2-4cb0-893a-c1314d7d2d64",
+                "name": "Strategy land response sport over",
+                "create_date_time": "2021-08-14T01:08:08.422773Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.422466Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0beb0fe3-39fd-43b4-b5cb-b40a2eb22a22",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-01-24T22:39:06.511863Z",
+        "modified": "2023-01-22T15:26:48.770222Z",
+        "name": "Webster, Carter and Gibson",
+        "sectors": [
+            "chemical",
+            "entertainment",
+            "insurance"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "probably",
+                "description": "Customer perform skill him newspaper whether its rest.",
+                "external_id": "rByLSeYuiXphT"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--71904535-47a4-41f5-a93a-9fb181af6249"
+        ]
+    }
+]

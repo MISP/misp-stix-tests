@@ -1,0 +1,133 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--653b629c-b208-4c60-a8aa-85e715675cb7",
+        "created_by_ref": "identity--224b1de9-b0bf-4e46-9df7-4201bcffe9bd",
+        "created": "2021-12-06T07:19:13.839145Z",
+        "modified": "2022-10-18T23:15:11.822138Z",
+        "name": "activity",
+        "description": "Leader ready on like any sense.",
+        "infrastructure_types": [
+            "botnet"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "JhTKyLUCUzzz",
+                "phase_name": "RrnwxhZWbbEWxexOr"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "first_seen": "2020-07-12T13:53:17.359305Z",
+        "last_seen": "2020-12-30T17:11:28.661138Z",
+        "labels": [
+            "miss",
+            "law",
+            "pfte-batch-1"
+        ],
+        "confidence": 99,
+        "external_references": [
+            {
+                "source_name": "rock",
+                "description": "Left show meet write bill community.",
+                "url": "https://tucker.biz/",
+                "external_id": "ZKYxEdio"
+            },
+            {
+                "source_name": "life",
+                "description": "Sign both improve set building.",
+                "url": "https://www.hurst.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--1a945c81-e221-46f8-ad16-eca6911d825a",
+        "created_by_ref": "identity--224b1de9-b0bf-4e46-9df7-4201bcffe9bd",
+        "created": "2021-06-01T14:35:55.349466Z",
+        "modified": "2021-09-03T01:59:41.9392Z",
+        "first_observed": "2019-12-27T11:28:58.605114Z",
+        "last_observed": "2020-09-30T06:24:54.593079Z",
+        "number_observed": 818486921,
+        "objects": {
+            "ipv4-addr--c904f877-c6c6-46c6-a6db-44802e6a1d77": {
+                "type": "ipv4-addr",
+                "spec_version": "2.1",
+                "id": "ipv4-addr--c904f877-c6c6-46c6-a6db-44802e6a1d77",
+                "value": "203.132.218.40"
+            }
+        },
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 1,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--68013e9e-9b9b-47ef-a8ce-5c02eaf611af",
+        "created_by_ref": "identity--224b1de9-b0bf-4e46-9df7-4201bcffe9bd",
+        "created": "2021-05-23T19:14:10.970235Z",
+        "modified": "2022-01-27T03:14:32.101093Z",
+        "relationship_type": "consists-of",
+        "source_ref": "infrastructure--653b629c-b208-4c60-a8aa-85e715675cb7",
+        "target_ref": "observed-data--1a945c81-e221-46f8-ad16-eca6911d825a",
+        "start_time": "2021-03-02T12:17:56.865894Z",
+        "stop_time": "2021-05-10T09:03:14.529965Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "everything",
+                "url": "https://www.lopez.org/",
+                "external_id": "nXdAXkHMnqh"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--224b1de9-b0bf-4e46-9df7-4201bcffe9bd",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-18T15:14:03.106116Z",
+        "modified": "2021-08-14T01:08:44.184261Z",
+        "name": "SameNumberArgue",
+        "sectors": [
+            "automotive",
+            "transportation",
+            "emergency-services",
+            "hospitality-leisure",
+            "agriculture"
+        ],
+        "contact_information": "640 Michael Drive\nPort Williamchester, MT 20453",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 51,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

@@ -1,0 +1,173 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--77fd0819-1d7e-4b4a-b506-665fe31da22d",
+        "created_by_ref": "identity--e14f25b0-63fc-48ec-8b3d-5c6e55e14653",
+        "created": "2022-07-13T06:55:27.964309Z",
+        "modified": "2023-05-01T15:23:48.878019Z",
+        "name": "push",
+        "description": "Prevent word option minute six billion reach.",
+        "pattern": "[ipv4-addr:value NOT = '3.237.229.161'] OR ((([mutex:defanged NOT = false] FOLLOWEDBY [(mac-addr:defanged = false) AND mac-addr:defanged = false] WITHIN 2 SECONDS) AND [url:defanged = false]) START t'2021-01-22T13:34:21.878726Z' STOP t'2021-10-19T06:21:40.066921Z')",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-04-16T02:12:15.08961Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "IUuvfQzr",
+                "phase_name": "wXfSlGftakUj"
+            },
+            {
+                "kill_chain_name": "BqsvPv",
+                "phase_name": "TZlGNvjlxmsfIJnoCZm"
+            },
+            {
+                "kill_chain_name": "ZZYAvAiucUGUVYGbiv",
+                "phase_name": "sbbgPmxpjgrYjtWPMah"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--cc6763b6-43e8-4b80-9497-1d1370752dab",
+        "created_by_ref": "identity--e14f25b0-63fc-48ec-8b3d-5c6e55e14653",
+        "created": "2022-02-27T16:48:02.847868Z",
+        "modified": "2022-07-11T06:11:14.510392Z",
+        "name": "visit",
+        "tool_types": [
+            "unknown",
+            "credential-exploitation"
+        ],
+        "aliases": [
+            "long",
+            "huge",
+            "rest"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "director",
+                "hashes": {
+                    "MD5": "49dea24d6037b53176a9aa3a98d18488",
+                    "SHA-1": "97585427a9a7bb6bb40760b34a8c4a0fa441ce5a",
+                    "SHA-256": "bf50c73f964853744b5225cfbe5d5acc2973c205b407dd70af65cea178e82386",
+                    "SHA-512": "c8c525430849cfadd2ef052d0682b79a2e6946492e52e92d7a7dd4da04d2e2fc491959041adecae8b21582a13216754e0ff195fa1da7b412837a8b905e97ea6d",
+                    "SHA3-256": "3b90caec62e73b9b1bffda44725c73d9692ce8c4598308688a72156123e4be32",
+                    "SHA3-512": "a488170a60a58ffac0f25ee42f0a93798900107521603520f7e879eb4cc9e3ced325c88635d647000896af734dc6878bc0f8097cfec56d8a390d353efb60396c"
+                },
+                "external_id": "gXdIG"
+            },
+            {
+                "source_name": "kind",
+                "description": "Possible institution require rest pay.",
+                "url": "http://stewart.com/",
+                "hashes": {
+                    "MD5": "37ece0d267cf1d73689c45459566172b",
+                    "SHA-1": "708596e14412a03563ec0b5e8531a30a7a0d5760",
+                    "SHA-256": "95c133f8309e82c8887ff71f43f8d2f96411c5691c26093c64e5bd91b538ab86",
+                    "SHA-512": "a0fce080047425f268acd40a845c7374b5b660152fd3a006e4317a4ba5d1af2886242988fe3c3f4c2c0f989090c395f5da2203d6c9ab377d8de3f6ace2ea4836",
+                    "SHA3-256": "da92e67a9322eaf5b6eb41e54c79ab7165f1ad9f95606959cf6ba3df35eff70a",
+                    "SHA3-512": "3bce9e880aab52c612107770bd2fb0ccabcee0fa5f1365ad660a6c4578f24447d3580b409cc520659b6599caa6f84817ea764c6ab08f321b8870a7efda848834"
+                },
+                "external_id": "rnVmaW"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c73e89a4-1645-42ef-8538-2daf611df589",
+        "created_by_ref": "identity--e14f25b0-63fc-48ec-8b3d-5c6e55e14653",
+        "created": "2021-08-18T23:14:02.741231Z",
+        "modified": "2022-06-24T12:09:17.447336Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--77fd0819-1d7e-4b4a-b506-665fe31da22d",
+        "target_ref": "tool--cc6763b6-43e8-4b80-9497-1d1370752dab",
+        "start_time": "2020-10-09T00:30:27.477442Z",
+        "stop_time": "2021-06-22T15:53:39.236328Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e14f25b0-63fc-48ec-8b3d-5c6e55e14653",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-09T08:56:50.130868Z",
+        "modified": "2021-11-25T10:44:32.600552Z",
+        "name": "Shaw, Haas and Howard",
+        "description": "Automated tertiary algorithm",
+        "identity_class": "system",
+        "contact_information": "7872 Fowler Oval\nEast Matthew, VA 98587",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 31,
+        "external_references": [
+            {
+                "source_name": "conference",
+                "description": "Actually budget no floor draw let by."
+            },
+            {
+                "source_name": "focus",
+                "description": "Present hand politics doctor whatever.",
+                "hashes": {
+                    "MD5": "9671940de2d75e4526f83aa90ce854e8",
+                    "SHA-1": "ca5bc9ee8821c963b5d87f301d8e3325725904f8",
+                    "SHA-256": "2a5442e8c4b27c3d3a51ae794a8aed886ccee95e38853a8e79e99589a14f5134",
+                    "SHA-512": "d58f2e8e1908f164895c3b998686378fe9db9c6b6620c37c5bd82deaa960b3fdeb33cc1bfc422e04cd5cd9ad8954df097efba7e7a4acc18171dd2fc12d4c9cbe",
+                    "SHA3-256": "c0ec17a7f4f8ae50da617a0e8f651a1a43f9cf6443b9af78086db4f3f2c3418f",
+                    "SHA3-512": "fd8d7ae1fc92effe3cc727189ce0fb4b03babfa6069ff25988b564ae0c73d3b204ebe55e2433efdd991d8af1c24e735e0f8400a01e6411007bec40051ce755fb"
+                },
+                "external_id": "VUdCJlVGHfdrbo"
+            },
+            {
+                "source_name": "opportunity",
+                "description": "Speech perform ability.",
+                "hashes": {
+                    "MD5": "ef1ca061e47a5dca526dfc0329a13989",
+                    "SHA-1": "83b37ec3353c2240c9927aaac2fbca9acd8d5a99",
+                    "SHA-256": "a289db6fa5bc0a887698e3abc55489b11684e0d8e980bfa3de7bcbe8b5e28da1",
+                    "SHA-512": "12c31b52fea0af43c72ad1a13f65dde9abf9d3261957b95f43cf2be6fd55b579c6bec027711054d0e97af5f09fb4915471f4f725cd4ecf489dafeb97c38d1cba",
+                    "SHA3-256": "9602e5a37a6f3d1e2ffcc7b1625d8aa45e624329f9108ff135c8d06cfe670ade",
+                    "SHA3-512": "1610919ea84a230ebad534364796c8fd247e2d9dd06082af69e2ba13a17808fe0765428d4e15bac3b44f65759938532212080dbe436b7a71470b5d54b228d18f"
+                },
+                "external_id": "DLQBXPmWNVyiTpElKfEH"
+            },
+            {
+                "source_name": "particular",
+                "description": "Major computer toward market environment finish.",
+                "external_id": "QQFnhZEU"
+            },
+            {
+                "source_name": "reach",
+                "description": "Pressure so enough perform lose most admit."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

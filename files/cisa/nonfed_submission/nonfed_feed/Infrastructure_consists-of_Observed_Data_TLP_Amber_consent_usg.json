@@ -1,0 +1,127 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--bd9c54da-a502-4e92-8640-9e2713d08161",
+        "created_by_ref": "identity--aed26c37-0843-4268-bd0e-153695222b57",
+        "created": "2021-12-06T09:48:03.737013Z",
+        "modified": "2022-09-26T18:55:17.324776Z",
+        "name": "military",
+        "description": "Begin third bank so free begin decide.",
+        "labels": [
+            "often",
+            "pull",
+            "pfte-batch-1"
+        ],
+        "confidence": 69,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--5daa2f0e-1f45-4337-b8b6-53fd0b2d9f16",
+        "created_by_ref": "identity--aed26c37-0843-4268-bd0e-153695222b57",
+        "created": "2021-12-21T23:20:13.888495Z",
+        "modified": "2022-06-02T05:20:47.485529Z",
+        "first_observed": "2021-10-23T19:15:10.382738Z",
+        "last_observed": "2021-11-12T02:48:38.631588Z",
+        "number_observed": 660306105,
+        "objects": {
+            "autonomous-system--63f8e68a-8b00-451a-8986-421fad69f4d2": {
+                "type": "autonomous-system",
+                "spec_version": "2.1",
+                "id": "autonomous-system--63f8e68a-8b00-451a-8986-421fad69f4d2",
+                "number": 429
+            }
+        },
+        "labels": [
+            "feeling",
+            "movie",
+            "and",
+            "technology",
+            "pfte-batch-1"
+        ],
+        "confidence": 2,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "scientist",
+                "description": "Almost technology major there.",
+                "url": "https://www.smith-griffin.com/",
+                "hashes": {
+                    "MD5": "1c72707be5bd4ac7d6103292d5ff33be",
+                    "SHA-1": "e0671e71b633d44b17899a465d925f7675e4be34",
+                    "SHA-256": "e48176c9a71d91b24de2d836cd3ced7e3452c745c8a20c4ecc263e5eab810d79",
+                    "SHA-512": "cdce039b3d168de3e26023252bb10e33fb53226eba5e69da844f45dab5eab7b36d73593fc7b29f56bdc62c28e539452dbb0af3fb9eaa91d6dbadd93db9d2abe4",
+                    "SHA3-256": "bd666d86d165779380c077aaee0167d447b88dc1c8b64df1b2c90ed130356c03",
+                    "SHA3-512": "e09757e1f126dc71b741ad14699f7f586c93ab23058999da757824074d8fb137ec50898b40164869cf128847bd651ad94e237eaef8625be1b8632448134aff52"
+                },
+                "external_id": "dcEZvbtuQ"
+            },
+            {
+                "source_name": "control",
+                "description": "Significant product chance agent goal community film.",
+                "url": "https://barnes.com/",
+                "hashes": {
+                    "MD5": "dc8a86f4ea5e28483f814fd3a2af801b",
+                    "SHA-1": "89e69b1dc59b6433b26967a277509494a096ae95",
+                    "SHA-256": "d082104daeaaa98ddaee80af9f69b01717b1708ea9c318e363aeeafa3eb51069",
+                    "SHA-512": "8717ec2d696828c7912b21fba35e89c267e9d3c47c07de973a556c80949a5b0d21c1043c77a448ce60cae738789611cdda09e7b16a534af48c295291a4e600e9",
+                    "SHA3-256": "40b6fe352b035778009e7bf91431888c77c7a82daf7c96dfe85d9a290becaaf2",
+                    "SHA3-512": "b6826f318abb074432520551c2cf6e84ba48d76ef49b49b62ff7e7e515a0797cc55c0366d6a92f71cb5759754cdb0acecaf52338d7ff692262f006fcdfa0a0f5"
+                },
+                "external_id": "sCfBJILGgbO"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--961c8c1f-b555-4489-ad88-2e03bf16e833",
+        "created_by_ref": "identity--aed26c37-0843-4268-bd0e-153695222b57",
+        "created": "2021-04-26T08:14:18.521962Z",
+        "modified": "2021-08-14T01:08:43.14287Z",
+        "relationship_type": "consists-of",
+        "source_ref": "infrastructure--bd9c54da-a502-4e92-8640-9e2713d08161",
+        "target_ref": "observed-data--5daa2f0e-1f45-4337-b8b6-53fd0b2d9f16",
+        "labels": [
+            "treatment",
+            "responsibility",
+            "then",
+            "beyond",
+            "pfte-batch-1"
+        ],
+        "confidence": 90,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--aed26c37-0843-4268-bd0e-153695222b57",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-22T06:08:03.410578Z",
+        "modified": "2021-12-23T23:09:41.556592Z",
+        "name": "ModelBigPhone",
+        "roles": [
+            "herself"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 89,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

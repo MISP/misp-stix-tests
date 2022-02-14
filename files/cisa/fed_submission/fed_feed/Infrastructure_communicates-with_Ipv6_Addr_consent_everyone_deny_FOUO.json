@@ -1,0 +1,141 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--d7013bad-b74e-42f3-9158-270bf312aa4a",
+        "created_by_ref": "identity--2d5d617f-a76a-44a8-93b6-03c4e5274c79",
+        "created": "2020-10-17T18:01:17.849172Z",
+        "modified": "2021-08-14T01:08:40.436997Z",
+        "name": "collection",
+        "description": "Day heavy maintain mean rest could certainly.",
+        "infrastructure_types": [
+            "reconnaissance",
+            "workstation",
+            "firewall",
+            "anonymization",
+            "botnet"
+        ],
+        "first_seen": "2022-06-12T19:05:29.706136Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "effort",
+                "url": "https://castillo-clark.com/"
+            },
+            {
+                "source_name": "under",
+                "url": "https://lane-valdez.biz/",
+                "external_id": "pzdEQFfaOY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--56d229f5-b5cd-4b40-9533-6578fe292253"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "ipv6-addr",
+        "spec_version": "2.1",
+        "id": "ipv6-addr--99d98367-e9e5-4b86-975e-a4d700789534",
+        "value": "3ed:9de:3c4:a782:94c3:e650:e5fb:cf36",
+        "object_marking_refs": [
+            "marking-definition--56d229f5-b5cd-4b40-9533-6578fe292253"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f87d9f92-d976-4b84-82fe-e2f4e2a3765d",
+        "created_by_ref": "identity--2d5d617f-a76a-44a8-93b6-03c4e5274c79",
+        "created": "2022-04-22T14:03:54.182075Z",
+        "modified": "2023-02-25T18:01:18.937196Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--d7013bad-b74e-42f3-9158-270bf312aa4a",
+        "target_ref": "ipv6-addr--99d98367-e9e5-4b86-975e-a4d700789534",
+        "start_time": "2021-10-19T07:30:55.65033Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--56d229f5-b5cd-4b40-9533-6578fe292253"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2d5d617f-a76a-44a8-93b6-03c4e5274c79",
+        "created_by_ref": "identity--2d5d617f-a76a-44a8-93b6-03c4e5274c79",
+        "created": "2022-07-06T19:23:40.789153Z",
+        "modified": "2023-06-05T21:12:15.816938Z",
+        "name": "Smith, Davis and Davis",
+        "identity_class": "group",
+        "contact_information": "Unit 3812 Box 1502\nDPO AA 96773",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 16,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--56d229f5-b5cd-4b40-9533-6578fe292253"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--56d229f5-b5cd-4b40-9533-6578fe292253",
+        "created": "2021-08-14T01:08:40.436268Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3af87523-f9f6-4d99-acfc-79560c4d2219",
+                "name": "Boy understand else sense give house travel already",
+                "create_date_time": "2021-08-14T01:08:08.429507Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

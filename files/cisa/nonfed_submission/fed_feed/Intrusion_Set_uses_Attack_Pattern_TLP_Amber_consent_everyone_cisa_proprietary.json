@@ -1,0 +1,186 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--ad79e223-bf8a-4ce1-86d6-6b0bc83c5257",
+        "created_by_ref": "identity--6b07b0be-4455-42fe-a3f8-adf8d36d2a5a",
+        "created": "2021-01-16T04:35:35.352887Z",
+        "modified": "2021-08-14T01:08:57.721539Z",
+        "name": "popular",
+        "aliases": [
+            "shoulder",
+            "each",
+            "determine"
+        ],
+        "resource_level": "team",
+        "primary_motivation": "personal-satisfaction",
+        "secondary_motivations": [
+            "accidental",
+            "ideology"
+        ],
+        "labels": [
+            "or",
+            "where",
+            "push",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9b869c0a-6cca-46f4-a3fa-c1412970bf96"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--c41f8031-4730-4690-a7de-a2641b94ab2f",
+        "created_by_ref": "identity--6b07b0be-4455-42fe-a3f8-adf8d36d2a5a",
+        "created": "2021-05-17T17:03:08.848959Z",
+        "modified": "2021-08-14T01:08:57.721815Z",
+        "name": "mind",
+        "aliases": [
+            "summer",
+            "feeling",
+            "bring"
+        ],
+        "labels": [
+            "result",
+            "audience",
+            "act",
+            "risk",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--9b869c0a-6cca-46f4-a3fa-c1412970bf96"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b2724977-e9f2-4b0e-a34f-ac7b1e71bfe7",
+        "created_by_ref": "identity--6b07b0be-4455-42fe-a3f8-adf8d36d2a5a",
+        "created": "2020-10-08T01:40:05.992578Z",
+        "modified": "2021-08-14T01:08:57.722065Z",
+        "relationship_type": "uses",
+        "description": "Size national medical help trip how if. Without health money door three. Not green suffer allow.",
+        "source_ref": "intrusion-set--ad79e223-bf8a-4ce1-86d6-6b0bc83c5257",
+        "target_ref": "attack-pattern--c41f8031-4730-4690-a7de-a2641b94ab2f",
+        "confidence": 71,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9b869c0a-6cca-46f4-a3fa-c1412970bf96"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--9b869c0a-6cca-46f4-a3fa-c1412970bf96",
+        "created_by_ref": "identity--6b07b0be-4455-42fe-a3f8-adf8d36d2a5a",
+        "created": "2021-08-14T01:08:57.720905Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-881bbc21-deef-4d57-abf3-7f599266217f",
+                "name": "Way get would fight necessary hour measure",
+                "create_date_time": "2021-08-14T01:08:08.423662Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6b07b0be-4455-42fe-a3f8-adf8d36d2a5a",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-11-08T03:55:22.190955Z",
+        "modified": "2021-11-06T00:13:58.436394Z",
+        "name": "Wilson LLC",
+        "roles": [
+            "well",
+            "bar"
+        ],
+        "identity_class": "unknown",
+        "sectors": [
+            "automotive",
+            "insurance",
+            "education",
+            "infrastructure",
+            "manufacturing"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "law",
+                "hashes": {
+                    "MD5": "d53ae88b38a2c76f772eeca65a8e2f44",
+                    "SHA-1": "8e6d3d8b7d655b0ea17425d0e2787f652dcf59b3",
+                    "SHA-256": "b1245bcc5420533f7ce9a0956ee56f1ab07fa8a09e837ac699ef23dbb632ba00",
+                    "SHA-512": "6f393f3297e425fb0a657f15db91814da91c0f3079ad46f1991938c048198a34d4bb5a15858614bc837f56c33fb0c2caafa96ae6011773802dd7beb0143f0ac4",
+                    "SHA3-256": "49c0ce053ed5633ce85929811931b1018e3961a5f96f45e5ba8a79de1395cfd4",
+                    "SHA3-512": "486346862b9a78a151f3460e0939c08123e7fecf2e1a7943b7ebdb0e1aa16c25a88ad507ff85fd7408f2dce1ca057a9ad63b12ee3b35a5103a4f6a33ac17afb7"
+                },
+                "external_id": "yyYkJhVHhhzHCoxfxhh"
+            },
+            {
+                "source_name": "him",
+                "description": "Law task care but green effect inside.",
+                "url": "http://mercado-watson.com/"
+            },
+            {
+                "source_name": "beautiful",
+                "description": "Herself benefit despite quickly feeling politics institution couple.",
+                "url": "https://www.murphy-smith.info/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9b869c0a-6cca-46f4-a3fa-c1412970bf96"
+        ]
+    }
+]

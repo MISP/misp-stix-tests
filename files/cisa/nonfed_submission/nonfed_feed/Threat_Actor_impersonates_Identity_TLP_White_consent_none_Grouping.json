@@ -1,0 +1,189 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--331c516f-fefe-40bb-bbec-c68f92f5f3d8",
+        "created_by_ref": "identity--0ef60f75-385c-4cba-98ad-455a794f1841",
+        "created": "2021-07-01T01:31:18.817579Z",
+        "modified": "2021-08-14T01:09:28.053051Z",
+        "name": "good",
+        "aliases": [
+            "now",
+            "member",
+            "bed",
+            "service"
+        ],
+        "last_seen": "2021-11-15T06:04:26.566686Z",
+        "roles": [
+            "infrastructure-architect",
+            "infrastructure-operator",
+            "director",
+            "infrastructure-architect"
+        ],
+        "sophistication": "innovator",
+        "resource_level": "individual",
+        "primary_motivation": "accidental",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5da48986-4464-439b-944d-90539ec5c8d6",
+        "created_by_ref": "identity--0ef60f75-385c-4cba-98ad-455a794f1841",
+        "created": "2022-02-16T06:58:50.842567Z",
+        "modified": "2022-05-17T10:33:39.25025Z",
+        "name": "Kennedy-Baldwin",
+        "sectors": [
+            "aerospace",
+            "agriculture",
+            "pharmaceuticals",
+            "automotive"
+        ],
+        "labels": [
+            "sure",
+            "mission",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a0705ba5-67bc-47c5-a8f2-d3dcdfd5afb0",
+        "created_by_ref": "identity--0ef60f75-385c-4cba-98ad-455a794f1841",
+        "created": "2022-04-18T17:21:41.273021Z",
+        "modified": "2022-10-14T18:10:34.573449Z",
+        "relationship_type": "impersonates",
+        "description": "Drug several act. Produce house mother later just. Bring nearly style board.",
+        "source_ref": "threat-actor--331c516f-fefe-40bb-bbec-c68f92f5f3d8",
+        "target_ref": "identity--5da48986-4464-439b-944d-90539ec5c8d6",
+        "labels": [
+            "bit",
+            "character",
+            "somebody",
+            "yet",
+            "pfte-batch-1"
+        ],
+        "confidence": 84,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "face",
+                "description": "Step thus floor compare garden movie avoid upon."
+            },
+            {
+                "source_name": "actually",
+                "description": "Present project ball audience perform according.",
+                "hashes": {
+                    "MD5": "24a91ef2cd1977ecf2ac82ede3eb0bd5",
+                    "SHA-1": "0b21ebece05f481dd37138a09762b51aed39c1dd",
+                    "SHA-256": "1c0a8019594f8ce5047441992bf41de2308fde06917336131a8b17c8a1557050",
+                    "SHA-512": "e30faedc8135d00f449138ea275fe87baa62a0e00e5ba3c944badb2e445c4aa90fc99fa9b0a8612010db999522cd76921b9e77e748f94e6dab6381752d16a906",
+                    "SHA3-256": "42eb86011261e16a3b17e8e2f1bd44bc2e9bd19dc8228f860ce0b8ee92f985e4",
+                    "SHA3-512": "4813676aa67e4333a6bab44bbff5d2af53fa147bb844e3f7fb1351b4fcd8cf43c6001bbb4b9945c66c30c24a876254320a6ca054f57bc87d241dbf056abcfa02"
+                }
+            },
+            {
+                "source_name": "give",
+                "description": "Dinner base nor.",
+                "external_id": "vbcXeEJGKUHGTiMG"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--91fb0bc8-6cec-4d2b-98ed-c297a257780c",
+        "created_by_ref": "identity--0ef60f75-385c-4cba-98ad-455a794f1841",
+        "created": "2021-02-22T15:05:21.767267Z",
+        "modified": "2022-02-15T09:53:17.139805Z",
+        "context": "unspecified",
+        "object_refs": [
+            "threat-actor--331c516f-fefe-40bb-bbec-c68f92f5f3d8",
+            "identity--5da48986-4464-439b-944d-90539ec5c8d6",
+            "relationship--a0705ba5-67bc-47c5-a8f2-d3dcdfd5afb0"
+        ],
+        "labels": [
+            "six",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "lose",
+                "url": "https://morgan.net/",
+                "hashes": {
+                    "MD5": "aec5ae9cfdd4a52b1cc8c9c0145a736d",
+                    "SHA-1": "d97cb8270caa6552acefe1a6764b0adf3a512758",
+                    "SHA-256": "714470c4b47aaf170f7ca05a9314f80e5249b8d406fcb8902a510f3f01d70b52",
+                    "SHA-512": "859e06c337f57f6ed1c2a3694a53fc24c467aa074ee7c7ff46634d1662078e6db225cc4cd3d155938532ac9750e665013e8921ffcb54f2a420716e9a1293d6ee",
+                    "SHA3-256": "ba00f61c916640fcc725338c7135619207fd4dec1c4590c8463a8a98c2c3e3c6",
+                    "SHA3-512": "2399f14cb9598e068726f294c7370ecf36c7f83382cfc9a71b91f54b69213a63ee42d8267177120c458e29aa7ba406b678d84132d471862083b86406488e51ce"
+                }
+            },
+            {
+                "source_name": "require",
+                "description": "Party success win manager test.",
+                "external_id": "ejiEhwkFVP"
+            },
+            {
+                "source_name": "three",
+                "url": "https://www.freeman.net/"
+            },
+            {
+                "source_name": "need",
+                "description": "Maintain rate pattern top.",
+                "hashes": {
+                    "MD5": "fcdc58332b605aa20406f059e1034110",
+                    "SHA-1": "45ee58972cc9466b585d1ea485f4477ca41cb47e",
+                    "SHA-256": "fede1222c9332600cae4863a76d4b6615fb1805c7dba7946a4885411471bcc38",
+                    "SHA-512": "3be36c246ba87df06bd598c6ddb8c82200e4059f6dffadc1569dd92a8b9eb4baf97e11f8387627596f0b54eb772c703f61eb034736db9d73352f8ebf2526db5d",
+                    "SHA3-256": "d1669d9100155c934c8b4119532eb6a4f64bef6b86908a04b9b5107bd114bc66",
+                    "SHA3-512": "f017d0d4117c426618b80e1027e86814c1f981b25afcddf40706571b8d9e0753124dfcb6a3c38c9096f51ce4c0b4f32f3837f1140603ccfb5b60a131c3e72c02"
+                },
+                "external_id": "PyfUXGbIzMHNO"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0ef60f75-385c-4cba-98ad-455a794f1841",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-05T09:34:40.503738Z",
+        "modified": "2022-05-26T01:38:29.642666Z",
+        "name": "EffortSeasonTeach",
+        "description": "User-friendly multi-state product",
+        "roles": [
+            "item",
+            "available"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "automotive",
+            "defense"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

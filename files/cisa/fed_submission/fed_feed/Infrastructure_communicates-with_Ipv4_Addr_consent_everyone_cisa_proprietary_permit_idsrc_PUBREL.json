@@ -1,0 +1,200 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--e425ce85-f0ce-4bb3-a7d6-1eb7c8dbd110",
+        "created_by_ref": "identity--05331ce7-3256-4711-be8e-09a5e8d15283",
+        "created": "2020-07-05T02:58:22.768113Z",
+        "modified": "2021-08-14T01:08:39.951949Z",
+        "name": "politics",
+        "infrastructure_types": [
+            "amplification"
+        ],
+        "aliases": [
+            "pretty",
+            "west",
+            "rich",
+            "not"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "kzYHHWqJSjQUpZ",
+                "phase_name": "JmwqemKYkwBVcDXXnf"
+            },
+            {
+                "kill_chain_name": "jReqjYFSGgdoGzO",
+                "phase_name": "LBURRhM"
+            },
+            {
+                "kill_chain_name": "jzEPiFJUVdY",
+                "phase_name": "YkigrQchdxlFt"
+            },
+            {
+                "kill_chain_name": "ZIIdGWPbtrMHuwutKev",
+                "phase_name": "nwRCeVkKNTnyOEhR"
+            },
+            {
+                "kill_chain_name": "CucmrMcednsekENGOZvs",
+                "phase_name": "vuTacSyvcLySydCpFuA"
+            }
+        ],
+        "first_seen": "2021-04-20T05:04:26.82265Z",
+        "last_seen": "2021-06-08T12:50:52.309217Z",
+        "object_marking_refs": [
+            "marking-definition--79092fdd-f73e-4cc2-bfde-e8cba92b76ff"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "ipv4-addr",
+        "spec_version": "2.1",
+        "id": "ipv4-addr--649b4313-7396-46fb-9717-58440c9c6f0b",
+        "value": "175.44.204.64",
+        "object_marking_refs": [
+            "marking-definition--79092fdd-f73e-4cc2-bfde-e8cba92b76ff"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--287ae20a-b57f-4169-b4f3-7e6c3a20d8d4",
+        "created_by_ref": "identity--05331ce7-3256-4711-be8e-09a5e8d15283",
+        "created": "2022-01-14T05:38:26.958046Z",
+        "modified": "2022-04-21T01:32:13.51055Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--e425ce85-f0ce-4bb3-a7d6-1eb7c8dbd110",
+        "target_ref": "ipv4-addr--649b4313-7396-46fb-9717-58440c9c6f0b",
+        "start_time": "2021-10-13T14:48:04.55823Z",
+        "labels": [
+            "cultural",
+            "foot",
+            "provide",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "issue",
+                "description": "Able have manage star who lawyer.",
+                "hashes": {
+                    "MD5": "6ea4257a686800bbeca0682df3bd487a",
+                    "SHA-1": "93726c93d9f81a97f3548bd2f905174c6ba7019a",
+                    "SHA-256": "51de05cc0aeb1a23bf4f1929a9bfa25607246f28f179fba97c4c6bc5067cf633",
+                    "SHA-512": "a6ab3343df5fc490e72a17b32fd2e74808b0e2df2988a1e4e2fe69eee3b0d816557c8c3c82f44a0e3817e9d1cf2fd35228e3c4eee8608e9f50e5a6e59832a4cf",
+                    "SHA3-256": "341b1855cbc0472b7b7f4e023ab7e807dcdfe9c9af0613a83335b845d10dae5e",
+                    "SHA3-512": "26ef50938c3688dfe5907edf6596bb2ff646bcd8ea3e6f3fadc3fe51ce32f11b2a57443a13eea31aa4560ecea052f85815efcadc8e6647d466d8541d2c97a183"
+                },
+                "external_id": "MXLfeNnIJjaFKdHEjpxJ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--79092fdd-f73e-4cc2-bfde-e8cba92b76ff"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--05331ce7-3256-4711-be8e-09a5e8d15283",
+        "created_by_ref": "identity--05331ce7-3256-4711-be8e-09a5e8d15283",
+        "created": "2020-08-27T01:24:14.477278Z",
+        "modified": "2021-08-14T01:08:39.952648Z",
+        "name": "Cruz, Santana and Lee",
+        "roles": [
+            "adult",
+            "painting"
+        ],
+        "identity_class": "group",
+        "sectors": [
+            "entertainment",
+            "government-public-services",
+            "manufacturing",
+            "government-regional"
+        ],
+        "contact_information": "305 David Run Apt. 310\nSchultzland, ND 21441",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--79092fdd-f73e-4cc2-bfde-e8cba92b76ff"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--79092fdd-f73e-4cc2-bfde-e8cba92b76ff",
+        "created": "2021-08-14T01:08:39.951018Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-b6e02fdc-1bc2-4bf7-88bf-58ec1e8c0a26",
+                "name": "Eye set happy strong city way",
+                "create_date_time": "2021-08-14T01:08:08.434259Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.434092Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

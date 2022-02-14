@@ -1,0 +1,179 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--a3ac18e9-5000-44cc-8e30-b9fde77543e9",
+        "created_by_ref": "identity--09e8c0fe-b41d-4f56-8b88-87eb1b5a96e4",
+        "created": "2022-04-12T12:51:30.505482Z",
+        "modified": "2023-01-04T07:27:39.203261Z",
+        "name": "everybody",
+        "description": "Effect remember institution ask.",
+        "labels": [
+            "whole",
+            "letter",
+            "join",
+            "pfte-batch-1"
+        ],
+        "confidence": 15,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e98b73a5-8fd0-44c4-acf8-61bda47cfa1e"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--ee0371a4-bc79-4215-bb12-68097b011485",
+        "created_by_ref": "identity--09e8c0fe-b41d-4f56-8b88-87eb1b5a96e4",
+        "created": "2022-05-29T02:47:24.495524Z",
+        "modified": "2022-10-05T09:49:31.925762Z",
+        "name": "practice",
+        "description": "Face form bad again of product center.",
+        "first_seen": "2021-04-28T03:38:27.036595Z",
+        "resource_level": "team",
+        "confidence": 56,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e98b73a5-8fd0-44c4-acf8-61bda47cfa1e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f7c1c2b3-8b4e-4fbf-985a-a633c895677e",
+        "created_by_ref": "identity--09e8c0fe-b41d-4f56-8b88-87eb1b5a96e4",
+        "created": "2020-10-21T03:03:27.068193Z",
+        "modified": "2021-08-14T01:08:13.313612Z",
+        "relationship_type": "attributed-to",
+        "description": "Contain common game easy. Heavy investment nice and arm computer election over.",
+        "source_ref": "campaign--a3ac18e9-5000-44cc-8e30-b9fde77543e9",
+        "target_ref": "intrusion-set--ee0371a4-bc79-4215-bb12-68097b011485",
+        "start_time": "2021-10-26T10:16:20.100482Z",
+        "stop_time": "2022-08-20T15:08:22.377115Z",
+        "labels": [
+            "huge",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e98b73a5-8fd0-44c4-acf8-61bda47cfa1e"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--e98b73a5-8fd0-44c4-acf8-61bda47cfa1e",
+        "created_by_ref": "identity--09e8c0fe-b41d-4f56-8b88-87eb1b5a96e4",
+        "created": "2021-08-14T01:08:13.312503Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-881bbc21-deef-4d57-abf3-7f599266217f",
+                "name": "Way get would fight necessary hour measure",
+                "create_date_time": "2021-08-14T01:08:08.423662Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--09e8c0fe-b41d-4f56-8b88-87eb1b5a96e4",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-02-26T01:23:48.000052Z",
+        "modified": "2022-12-29T20:36:49.647259Z",
+        "name": "Gutierrez and Sons",
+        "description": "Proactive context-sensitive collaboration",
+        "roles": [
+            "just",
+            "same",
+            "hit",
+            "media"
+        ],
+        "identity_class": "organization",
+        "contact_information": "590 Nelson Radial\nMosleyton, IN 97690",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 39,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "build",
+                "url": "https://jones.biz/",
+                "external_id": "YbJHDSYLfbvuDHVIH"
+            },
+            {
+                "source_name": "address",
+                "description": "Suggest agent occur improve military Republican.",
+                "url": "https://romero.net/"
+            },
+            {
+                "source_name": "they",
+                "description": "Capital suggest probably agent.",
+                "external_id": "IVjPBvqPhbKqyTCtz"
+            },
+            {
+                "source_name": "condition",
+                "hashes": {
+                    "MD5": "04767ea813631a8b306a507c685cfbb8",
+                    "SHA-1": "e676310a558dcc268072721374cbd4710941ccb2",
+                    "SHA-256": "0ea4d94fb045e5175d2d438d295e35f8c16e41d7797f9c6ddcb88d5ba4468170",
+                    "SHA-512": "adcd9c81d35480fe95855449e6c0199c3863c30e623472fa01d6f4a7d0f330364a491a568eb37d7d0fc50fc1dc61285ce9e8e43659553e7edeff256293cc197b",
+                    "SHA3-256": "d6f30f216aec4eb5b783afd04c543f5aa263611af2874c24ea3e7336637688f2",
+                    "SHA3-512": "d53dd8d00ef911cb8eeaab16f29eafc216691ea0856e3bacc068dcf3ead80fad86130842f17db9328e0aff51d3eb276103a7f4122b14176fce55bac3e3099449"
+                },
+                "external_id": "XAASDdxH"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e98b73a5-8fd0-44c4-acf8-61bda47cfa1e"
+        ]
+    }
+]

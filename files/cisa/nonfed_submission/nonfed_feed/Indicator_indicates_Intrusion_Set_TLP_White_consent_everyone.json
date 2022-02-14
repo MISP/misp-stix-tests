@@ -1,0 +1,209 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--bdeccaac-197a-4269-bd16-25dbd7509a2d",
+        "created_by_ref": "identity--1e088e48-e58f-4c36-8692-0ca2e66766ca",
+        "created": "2022-07-31T05:40:11.078226Z",
+        "modified": "2022-09-07T08:59:20.737004Z",
+        "name": "every",
+        "indicator_types": [
+            "compromised"
+        ],
+        "pattern": "[mac-addr:defanged NOT = false OR software:name < 'JWSdkhWyooYNVLEMXPR' OR mutex:name <= 'visit' OR (mac-addr:defanged NOT = false)] OR [process:is_hidden NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-07-30T05:07:49.805368Z",
+        "valid_until": "2021-01-14T18:31:07.636295Z",
+        "labels": [
+            "figure",
+            "against",
+            "foot",
+            "pfte-batch-1"
+        ],
+        "confidence": 7,
+        "external_references": [
+            {
+                "source_name": "difficult",
+                "description": "Century research senior energy day.",
+                "url": "https://villegas.biz/",
+                "external_id": "VwIigH"
+            },
+            {
+                "source_name": "present",
+                "description": "Section arrive perhaps will.",
+                "url": "https://www.weaver.org/"
+            },
+            {
+                "source_name": "cup",
+                "description": "Structure detail what edge lawyer thought environment.",
+                "hashes": {
+                    "MD5": "baf7cf48c4b553754855f0dc04742087",
+                    "SHA-1": "f71f8e6d0183750613bdf7edcf710495be9d7182",
+                    "SHA-256": "3801cccc58b1c0a480f3af202ef8c7e4cbc8c32d2cca3f31a61fe067a7edb99a",
+                    "SHA-512": "fbc2044a42db179cd5e1a35978d4926d33e24c43958382e6976c512e9894b5d77e8fc8f770ece627ccd9c25989ee5c12893f7a43c38fe7a83369bd25520fbae0",
+                    "SHA3-256": "b406aa9ff169572c167f3c998f2354628bab9af7746b810f8a198df0a79b84ea",
+                    "SHA3-512": "c1b17b507cff20b5ecd2f1ef798ac4e4c7721d37880393ceec054ae26ccfff1faade99986ad1ed9ef40b542c96d2ff44cfb84a61e63b4ecbe9d2e79017144c93"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--9acc0e10-ea18-4ec8-8b07-a1ffccf945b6",
+        "created_by_ref": "identity--1e088e48-e58f-4c36-8692-0ca2e66766ca",
+        "created": "2021-01-07T14:03:43.019907Z",
+        "modified": "2021-12-12T03:44:19.523799Z",
+        "name": "thank",
+        "first_seen": "2022-01-25T12:16:43.020293Z",
+        "last_seen": "2022-07-05T09:53:09.397315Z",
+        "goals": [
+            "Three population floor office.",
+            "Democratic onto challenge news third maintain.",
+            "Peace decade team east."
+        ],
+        "primary_motivation": "notoriety",
+        "labels": [
+            "director",
+            "pfte-batch-1"
+        ],
+        "confidence": 42,
+        "external_references": [
+            {
+                "source_name": "good",
+                "description": "Option hospital play home economic center model.",
+                "url": "https://adams.com/",
+                "hashes": {
+                    "MD5": "a91786d90b2ce2d2ea39672f8f39ab9c",
+                    "SHA-1": "7a297dc06586aabb21457b5dfa93b1e54fa87482",
+                    "SHA-256": "8cb1ef030e280207f855b36c318d3e183d29b8548d6f18649ceeea5ca6fed27f",
+                    "SHA-512": "09e807c311ccbba98e08dc6e0ff91e019aa3ae0422bb601e7fd7f2fc6b907f24f16a781a75466a9615693a71eca974f900ae012f00976fb87a8b5cf346066d18",
+                    "SHA3-256": "ee1d490b4c2c7dbcb710f110dc4603a0b00522368d7db5dcd11cd13943be644b",
+                    "SHA3-512": "ef4659d4fc08ca8b1367be0a27cc14fbddd47c07bf8c955ea554b24dd4cc179a0ef1a91774ef3066eeb345c9f213259ac57f84ebab931edf000ec4a30d10b96d"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1d17a7b7-0ae1-4b91-92a4-1819407ed534",
+        "created_by_ref": "identity--1e088e48-e58f-4c36-8692-0ca2e66766ca",
+        "created": "2022-01-20T04:55:18.085489Z",
+        "modified": "2022-02-23T02:29:41.900311Z",
+        "relationship_type": "indicates",
+        "description": "Reveal physical worry allow. Use school hold several car.",
+        "source_ref": "indicator--bdeccaac-197a-4269-bd16-25dbd7509a2d",
+        "target_ref": "intrusion-set--9acc0e10-ea18-4ec8-8b07-a1ffccf945b6",
+        "start_time": "2020-08-23T03:06:04.390703Z",
+        "stop_time": "2021-05-25T07:45:00.253505Z",
+        "labels": [
+            "picture",
+            "whom",
+            "often",
+            "every",
+            "her",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "scene",
+                "external_id": "tqlrNPGNhZsGWLOJy"
+            },
+            {
+                "source_name": "able",
+                "description": "Again power road age only peace grow why."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1e088e48-e58f-4c36-8692-0ca2e66766ca",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-24T18:11:48.415426Z",
+        "modified": "2021-08-14T01:08:31.180333Z",
+        "name": "Martinez PLC",
+        "identity_class": "organization",
+        "sectors": [
+            "chemical",
+            "construction"
+        ],
+        "contact_information": "300 Lisa Port\nJuarezberg, OK 21067",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "attention",
+                "hashes": {
+                    "MD5": "77a4740b480143c66fa3bf22872a5ee9",
+                    "SHA-1": "7d90ff25258eef73276bb9fe396f72eb601c2902",
+                    "SHA-256": "4cf2192690b1d8b65dc5f731f8452e6f1d31c49162075c2f572fdc49f1ee4c84",
+                    "SHA-512": "65101a26c99cecb7c7883fa296096f55905f474cdfa52d491aa2a250c2d2197979300855e3f6456e21d41ff4a02002daa85d90a3d9a6927b6e37d3758694cee6",
+                    "SHA3-256": "e3746f4f5df93be141e3e5412c184289b7d63c9fa7e5ab52dde0a9e4e9e6f0b4",
+                    "SHA3-512": "703b19f7a130aeb240a9afa2fec1975d78d4c07d45bdabc364084d126c82982c3cbcea92270088ac1a11099d083d5567162622b8daeab4bc606eec258e7a4ca3"
+                },
+                "external_id": "eDcwlreBNMkRsWLpPUI"
+            },
+            {
+                "source_name": "politics",
+                "description": "Culture reveal find society there because state.",
+                "url": "https://pace.com/"
+            },
+            {
+                "source_name": "mind",
+                "description": "Himself size list citizen stage next.",
+                "url": "https://www.welch-little.com/",
+                "hashes": {
+                    "MD5": "3dee8e5d68aa7658b7ba4ced31211c98",
+                    "SHA-1": "6e1609958ad2c151e7566c3454b51adc773c2997",
+                    "SHA-256": "49915de0257eaaab08d459b1a222514278b70620fe517dec479869cd6f4b6eb0",
+                    "SHA-512": "d23a34f7325ccea236846c0ae98d79d61ad8ed09d4933b35a9c0607339ee5200673cd350601cec64753dd26a9ee9f673d0b59638a66959ee774a4e5a1e90c5d4",
+                    "SHA3-256": "0987f4f4babcd3a28a457528d35654647bf6c4bfceb3d8dddfa7139bac22aaf7",
+                    "SHA3-512": "35569dabcec6384dfde83d6e90ecca4a4ffd1fe9e46526d2f2cbe9a557a9f4f200a78d26bf1b5190ecefbcadf81c638abdd042ca239c63355bb2f98876eb7d6a"
+                }
+            },
+            {
+                "source_name": "especially",
+                "url": "http://www.boyer.biz/",
+                "hashes": {
+                    "MD5": "d35b94c025be75f623f21b8fd9ecc4a3",
+                    "SHA-1": "f133a032468cc458501ddd126939c94ef50348c4",
+                    "SHA-256": "3584b22b26eae6fd1dfcac7e9fe76dbe80256226353f9a7ee13f1a144f46ba7b",
+                    "SHA-512": "7a2a0dd4ccd3c3c6ab5bcdc0dfd0a9eb742b315b9ba51b1df52077668739ce1cd68c02b8a656290a401f0dace8dd4d908c3af2377eac796123886218c8e8671e",
+                    "SHA3-256": "ec0dbfb0268ab25171f192113c98c14ee612a694be854e6dd326bf7ab47ff0ae",
+                    "SHA3-512": "d8b3871780de4b8ed0f5f0eb9d5b9459a875c1e7dc54828574c8c9549a228a1b0d042b27af3a635655521a49b62017b4e577669b205443791e7f3f2d7132935d"
+                }
+            },
+            {
+                "source_name": "everybody",
+                "description": "Property bed he something realize turn.",
+                "hashes": {
+                    "MD5": "d3bc02e70cb3bc0aa2aa2b66e8a71a7f",
+                    "SHA-1": "80b5ec1d9c2ce95351d4db239f666cecc4a43275",
+                    "SHA-256": "b0ad52f6fe55e94ffb09700041f1f18978c7f7beb6eae170819a85ff94fa233d",
+                    "SHA-512": "f3cdc050bf580e8543334b1832f22c6b4f35dd97f365c8ff41562776c4a8a24e4c8bd07811378d54473c4e655a7b65948d350ea261c12e6571370865cf77bf60",
+                    "SHA3-256": "8012c8b3cb9efc42f8099af586aec772b9fbd322ea37f557155f077e8ef6fdc9",
+                    "SHA3-512": "f35f39a2340fb7d1c415f5173f3d10e5a232687b2f62d39cc5b3c847ba7921361111f04f87c2e61a8c44dced3c085d17947b49931fc35d016134fcd06ee7b4da"
+                },
+                "external_id": "OtBnkzWRfIjF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

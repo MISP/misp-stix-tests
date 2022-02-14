@@ -1,0 +1,138 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--35fbc739-e701-4163-838d-1234be9b9d6a",
+        "created_by_ref": "identity--86c77448-0078-4d67-b316-1938ac715aaf",
+        "created": "2021-05-11T10:10:10.011154Z",
+        "modified": "2021-08-14T01:08:53.498406Z",
+        "name": "break",
+        "description": "Fire site just stand minute.",
+        "aliases": [
+            "big",
+            "office"
+        ],
+        "goals": [
+            "Himself ten nor.",
+            "Could hard born someone tree son.",
+            "Entire unit go many him computer your military."
+        ],
+        "resource_level": "club",
+        "primary_motivation": "coercion",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 78,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--750b546c-9147-4632-94a8-c40e7bab380d",
+        "created_by_ref": "identity--86c77448-0078-4d67-b316-1938ac715aaf",
+        "created": "2021-03-29T15:01:50.008936Z",
+        "modified": "2021-08-14T01:08:53.498678Z",
+        "name": "form",
+        "infrastructure_types": [
+            "staging",
+            "anonymization",
+            "routers-switches",
+            "staging"
+        ],
+        "last_seen": "2021-04-04T00:32:16.644829Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--66ad6d0d-34d7-4b53-9f69-a059e6691947",
+        "created_by_ref": "identity--86c77448-0078-4d67-b316-1938ac715aaf",
+        "created": "2021-07-18T17:14:20.30023Z",
+        "modified": "2022-04-10T22:25:34.080781Z",
+        "relationship_type": "hosts",
+        "source_ref": "intrusion-set--35fbc739-e701-4163-838d-1234be9b9d6a",
+        "target_ref": "infrastructure--750b546c-9147-4632-94a8-c40e7bab380d",
+        "start_time": "2020-08-17T18:09:29.421757Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 23,
+        "external_references": [
+            {
+                "source_name": "half",
+                "description": "Heart bill people music trial enjoy southern.",
+                "url": "http://www.mcbride-estrada.com/",
+                "hashes": {
+                    "MD5": "52d92e6b860af8ecc037722d27b146f1",
+                    "SHA-1": "31873458c4c02a063004754ed82a2f58467b8c40",
+                    "SHA-256": "a147f7f174a5f279fb1300d41e9134b3846dd0f11b3b88b482bf43c1d3cd9cdd",
+                    "SHA-512": "1a227a4f445752a4f7fe3a8e8f512c4fc081c572663c237524ef679d8eeaa4bf2d9fdf2296eb819e079fda9723e411a6b6c970a848308f5809d8848f853eb6e5",
+                    "SHA3-256": "20b1415879fab63da2cf407e07d203eb8eeef788011452c9ca299e48d649b3ed",
+                    "SHA3-512": "0fee13f8000f6cf8db175aa6284fc8d3a0a9566988d8d6372cd965ddb81cbf5ca1fd267d5ef6411477ac21d7bee021915721a7a79e106a58e0f3903a38429b2f"
+                },
+                "external_id": "xNuBDl"
+            },
+            {
+                "source_name": "drug",
+                "url": "https://www.washington.com/",
+                "external_id": "lwYpqjXA"
+            },
+            {
+                "source_name": "whatever",
+                "description": "Perform stock meeting.",
+                "hashes": {
+                    "MD5": "1d86b341073192f5c0c001146415c52c",
+                    "SHA-1": "b9db16877df1d5726f39fec63000e00b7a94ee94",
+                    "SHA-256": "db56f8a74b3dc68cf8533e2424dac203a1d351ec732c00bb196bfdcb6b9a72df",
+                    "SHA-512": "eb739526f5c156343fa6ebc320f3254790485acb570086dff917e95410a3e4ef802dc044a300202790fc4c02e27bfc84ab5483a709c0886ad4323f6b07e558ec",
+                    "SHA3-256": "1639cd4dff5025721a1a9087c0c1b848c7d9402a1a6f9cf8a1e366d0c88b212f",
+                    "SHA3-512": "ac8a4fadc31b20d24a96a549762a0abe9d135d40471eb69f0ee64448ba7ba3bcda981cbda57306cbde42297fce41c6ddec7e40aa66662bf52ceb28e18d68aaa8"
+                },
+                "external_id": "CYohvAbVOdJzHPQH"
+            },
+            {
+                "source_name": "force",
+                "description": "Exactly performance toward.",
+                "url": "https://johnson-keller.com/",
+                "external_id": "wliGUNareRTSZDzT"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--86c77448-0078-4d67-b316-1938ac715aaf",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-02-21T23:33:16.156428Z",
+        "modified": "2022-02-23T18:46:10.480001Z",
+        "name": "Daniels-Hunter",
+        "description": "Balanced disintermediate installation",
+        "roles": [
+            "nearly",
+            "middle",
+            "type",
+            "court",
+            "pull"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 90,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--d7738ce5-c33e-4b0e-8847-36d0841d9d06",
+        "created_by_ref": "identity--a91b9129-4469-4bf7-848c-68b2b0a79c0a",
+        "created": "2022-07-25T16:10:27.312412Z",
+        "modified": "2022-12-16T23:00:58.5993Z",
+        "name": "general",
+        "pattern": "(([software:version <= '15' OR (software:version NOT = '13')]) REPEATS 8 TIMES) AND [url:value >= 'http://www.rich-johnson.com/' OR (network-traffic:src_byte_count = 1004699)]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-11-15T11:58:48.672533Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "sfehxA",
+                "phase_name": "MpYxHi"
+            },
+            {
+                "kill_chain_name": "iAhbGKyevejaUFHYOh",
+                "phase_name": "lyTxJRDXlpT"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "labels": [
+            "difference",
+            "government",
+            "how",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--7a254ebc-819f-4336-9f46-7b42808afea6"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--ba68472b-04f9-441b-998b-e37c4392d812",
+        "created_by_ref": "identity--a91b9129-4469-4bf7-848c-68b2b0a79c0a",
+        "created": "2022-03-03T01:26:31.692757Z",
+        "modified": "2022-11-27T21:42:32.204354Z",
+        "name": "economic",
+        "last_seen": "2020-09-05T08:06:29.719153Z",
+        "secondary_motivations": [
+            "unpredictable",
+            "ideology",
+            "dominance",
+            "notoriety"
+        ],
+        "labels": [
+            "end",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7a254ebc-819f-4336-9f46-7b42808afea6"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d5576cdd-0b12-4bd0-8631-91e54ddbd457",
+        "created_by_ref": "identity--a91b9129-4469-4bf7-848c-68b2b0a79c0a",
+        "created": "2021-06-11T01:11:31.775367Z",
+        "modified": "2021-10-02T13:05:17.657921Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--d7738ce5-c33e-4b0e-8847-36d0841d9d06",
+        "target_ref": "intrusion-set--ba68472b-04f9-441b-998b-e37c4392d812",
+        "start_time": "2021-12-15T19:09:39.843544Z",
+        "stop_time": "2022-11-12T09:09:29.155395Z",
+        "labels": [
+            "today",
+            "until",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "family",
+                "url": "http://www.palmer-price.biz/",
+                "external_id": "MXRxWAQLDFR"
+            },
+            {
+                "source_name": "among",
+                "url": "https://herrera.info/",
+                "external_id": "JmrCWOAMhdLOjgOGb"
+            },
+            {
+                "source_name": "politics",
+                "description": "Watch direction successful finish."
+            },
+            {
+                "source_name": "rock",
+                "description": "Out item use design wear try suffer support.",
+                "url": "https://www.white.com/",
+                "hashes": {
+                    "MD5": "06be5b1e83a83a555c5b143278a81701",
+                    "SHA-1": "efa2e90de24a2ab29756e8d6f4c37b6506318414",
+                    "SHA-256": "a51497f78e0c0421cf699d5550d586ee37e895a8a88e88dbe4eef57163922278",
+                    "SHA-512": "1434d4f0a35eaf20255f2a05110ce4d1f6cf8534f492e80855a2918706aa7a1d88866d9c717a41e44fe0c68cafca1d28703df1be9a6503b61e4b527713437c7c",
+                    "SHA3-256": "e7e6a089785df02543924b8f23d94ec256764eba5e1f0595565ed445d18aec95",
+                    "SHA3-512": "358ae53dc4a4d0cab702ed6050e8ec6b45961f8d20f58b069ad3f28989eb29b497f72d89a4f0b5ab23ef7bb5b6d881b8379474dbb9627a213c76269dc61b7b63"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7a254ebc-819f-4336-9f46-7b42808afea6"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--7a254ebc-819f-4336-9f46-7b42808afea6",
+        "created_by_ref": "identity--a91b9129-4469-4bf7-848c-68b2b0a79c0a",
+        "created": "2021-08-14T01:08:31.363773Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-881bbc21-deef-4d57-abf3-7f599266217f",
+                "name": "Way get would fight necessary hour measure",
+                "create_date_time": "2021-08-14T01:08:08.423662Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a91b9129-4469-4bf7-848c-68b2b0a79c0a",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-18T19:50:26.822136Z",
+        "modified": "2021-08-14T01:08:31.368374Z",
+        "name": "Reed, Mullins and Martinez",
+        "description": "Public-key explicit paradigm",
+        "roles": [
+            "moment",
+            "few"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "mining"
+        ],
+        "contact_information": "310 Roger Fall\nNorth Alexander, UT 21517",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 20,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7a254ebc-819f-4336-9f46-7b42808afea6"
+        ]
+    }
+]

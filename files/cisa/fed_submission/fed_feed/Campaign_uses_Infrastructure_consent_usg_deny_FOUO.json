@@ -1,0 +1,247 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--8e5f5e38-0211-4f22-b809-42c22c0c34ae",
+        "created_by_ref": "identity--d185fc70-1dc6-4b50-a5e8-527f4bdd461c",
+        "created": "2021-04-10T07:52:08.778733Z",
+        "modified": "2021-08-20T09:38:01.561752Z",
+        "name": "outside",
+        "description": "Whose soldier soon camera.",
+        "aliases": [
+            "step",
+            "force"
+        ],
+        "last_seen": "2022-07-16T07:59:26.91417Z",
+        "confidence": 75,
+        "external_references": [
+            {
+                "source_name": "international",
+                "external_id": "jVOjPWmKQExCQTi"
+            },
+            {
+                "source_name": "peace",
+                "description": "Care check standard suffer.",
+                "url": "http://sandoval-porter.org/",
+                "hashes": {
+                    "MD5": "bb1f3d66d1d9e7d3e5ab5ceade2158da",
+                    "SHA-1": "b99397f248fc64ade335154e81f6b7d2b69f746a",
+                    "SHA-256": "5e1facb83180182f1dc705e37ecccae6746c47275d5f687435e0880066a0e121",
+                    "SHA-512": "40db3fa96ae501c2a4fdb8cf6bcd5b575d935f8bc331db106d1bce432aafa71196c0fff9059a15ef1c7fc273edf469a001bde1a213f85861a51c1c973a9a7cf1",
+                    "SHA3-256": "af44c1bbcd7d06f320bd8c891a7fc430c570918311d1a35e249c607f2a7a1f5a",
+                    "SHA3-512": "34e107b2d4363325923cd2346fbc7f7fc8e3aacb888cb1ff96daf80dd933022c448b3db0b27d5b3cd1a6f88459e244db58dee6e65a5da57914bba12fccf7490c"
+                },
+                "external_id": "aMFTfZZwbRuSAtChW"
+            },
+            {
+                "source_name": "house",
+                "url": "http://williams.com/",
+                "hashes": {
+                    "MD5": "5e4f83973230a7915133fd769be8b1d3",
+                    "SHA-1": "41b40f976047ad458ef17dc3d39fd0809d94ee5e",
+                    "SHA-256": "f45acc5f6feda535f387c6033c1ccfbdc28c6df5d919c3a22374180e1a21d39c",
+                    "SHA-512": "846d40f831e7c55566de33e967f59bc1f2acf5435344caeb18469aabe366e5dba5ef5f16a6ae09ac207db99c8342cac900b69509a6f8fcf345e54a76f0f4f543",
+                    "SHA3-256": "f5fca1bc0bbdb8f181b857ea11c6b59c944f4b2eab17046c8c6bed7997e9fafd",
+                    "SHA3-512": "149bc291a6b4baabb0af9bae5f3d6a5593c165a04456214190be1a31817d6ebe2673f10f708f9b4aced1d3480edfd33fd5e5d863c2140805635b79ae9fa8873f"
+                },
+                "external_id": "UsFghWuFezrWwuFZu"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--817b31e4-07ca-4a45-8ff8-be215704e7e7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--6b92ef41-238c-46eb-9c6b-a6612ca82e96",
+        "created_by_ref": "identity--d185fc70-1dc6-4b50-a5e8-527f4bdd461c",
+        "created": "2021-02-14T08:18:36.877171Z",
+        "modified": "2021-08-14T01:08:19.412275Z",
+        "name": "agree",
+        "infrastructure_types": [
+            "command-and-control",
+            "workstation",
+            "firewall",
+            "amplification",
+            "staging"
+        ],
+        "aliases": [
+            "draw",
+            "model",
+            "number"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "wXbjPxJqAbnWrq",
+                "phase_name": "BUdQzEDflgfHEWHRfZGp"
+            }
+        ],
+        "confidence": 91,
+        "object_marking_refs": [
+            "marking-definition--817b31e4-07ca-4a45-8ff8-be215704e7e7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--839a0703-cc1a-49d1-bf70-a0fde86cee7a",
+        "created_by_ref": "identity--d185fc70-1dc6-4b50-a5e8-527f4bdd461c",
+        "created": "2020-07-06T02:50:21.576213Z",
+        "modified": "2021-08-14T01:08:19.412533Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--8e5f5e38-0211-4f22-b809-42c22c0c34ae",
+        "target_ref": "infrastructure--6b92ef41-238c-46eb-9c6b-a6612ca82e96",
+        "stop_time": "2022-04-30T20:25:56.24029Z",
+        "object_marking_refs": [
+            "marking-definition--817b31e4-07ca-4a45-8ff8-be215704e7e7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d185fc70-1dc6-4b50-a5e8-527f4bdd461c",
+        "created_by_ref": "identity--d185fc70-1dc6-4b50-a5e8-527f4bdd461c",
+        "created": "2022-01-18T15:46:19.426349Z",
+        "modified": "2022-08-10T00:56:10.618723Z",
+        "name": "Higgins LLC",
+        "roles": [
+            "road",
+            "represent",
+            "several",
+            "clearly",
+            "throw"
+        ],
+        "identity_class": "class",
+        "contact_information": "59844 Melendez Crest Suite 682\nNorth Tonyaton, CA 10760",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "fish",
+                "description": "End dog customer why support.",
+                "url": "https://peterson.com/",
+                "hashes": {
+                    "MD5": "096e95847d5cc5e154f0a6de0bf48127",
+                    "SHA-1": "7da3ef15cc47cdcbc7dd55f782dd4cdf4fe86814",
+                    "SHA-256": "7a04d783cd64b25b157362202d5a4d2c1d710fed6925525992478cde52eb4604",
+                    "SHA-512": "b5952155eddb15fba3db9709cdbb009c4c9464472ca5df54043c234a836c6bac885b674b048ba190658bbd0b62a97f12f0d73dc9343bda9a193911dd0dc08576",
+                    "SHA3-256": "2d22ab32dddf62317b05688792b6f05defaf2245063bbac54abd8ca81c43e07b",
+                    "SHA3-512": "d7acca445e67f4dc79738d2c56ee3fbafd0e10ddd1ca9cc2427de9faaea95c188b7f9edab37da490f2999ed990ea7de2679d2bb787a45d34c9e1d150176eae98"
+                }
+            },
+            {
+                "source_name": "benefit",
+                "description": "West within factor particular series different simple per.",
+                "url": "http://miller.com/",
+                "hashes": {
+                    "MD5": "12422c5f8d1dbc5cd566aa7af72232be",
+                    "SHA-1": "324f22656447a590858cd5c1b6418635b16db431",
+                    "SHA-256": "68874e5c36bdd76b2dc2bcff482841a1a1ddfd6d1bf5c0a0ebea5848eaa2b857",
+                    "SHA-512": "bf26113c2592773bc95059c24d90138a96f6264f365ed488fc613f3e2aa9465b3c16da65be78ce825fdb497d60760161241682e7f21e64d769b096403dea060f",
+                    "SHA3-256": "2cdf7df844221a161d61e157f780f137fa50829b5fae2958b2531805d8fdd003",
+                    "SHA3-512": "0d7f3084d5205ea11af6b873bd42875e2d6450c57311c0470775ecdbd664a2ffb2652aaf62a4ed87f095049bd54cb76442ab080f3f2c3ffa6bb27ce5d0df1e94"
+                },
+                "external_id": "pSfeyQepaYvMXQuTde"
+            },
+            {
+                "source_name": "indeed",
+                "description": "Activity wish very purpose enough defense onto.",
+                "url": "http://holland.org/",
+                "hashes": {
+                    "MD5": "4706f1127c105bb168ab1e15cdd757bb",
+                    "SHA-1": "f6f02603710744d68adab7be22375812ef1e6158",
+                    "SHA-256": "6e99857d83c022f29a8081af998d461cf11394258e5e6391b4f4f4ab7a440390",
+                    "SHA-512": "20bff813b38c51ac87a3c06e547d4a7a5bbe4cc0901a43795a36aa360d46002f606e49217b9798434da77e638bb385760fd05439f5a1e4d8fd50d27d1e3c3d9c",
+                    "SHA3-256": "c20a002434c7b6b59c651ca5a563b6a23e36a7a8fbbca7dac3ac197aa5e6ab7e",
+                    "SHA3-512": "5a8fb5a16625fad00c2bab66786490364efd33244a2102f7041a1270988cc39af4015c6356ad7b59530b27e554ae9d27ca6443ec14184f500c3ff046c62bb8e8"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--817b31e4-07ca-4a45-8ff8-be215704e7e7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--817b31e4-07ca-4a45-8ff8-be215704e7e7",
+        "created": "2021-08-14T01:08:19.410932Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a2bad07a-f4d3-4efb-a81b-2cf0c0637fc9",
+                "name": "Our concern loss resource wear",
+                "create_date_time": "2021-08-14T01:08:08.426882Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,219 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--0900cc63-dc66-473b-8a89-f8335da13b0d",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2021-10-02T05:50:23.740868Z",
+        "modified": "2022-09-27T18:27:32.857803Z",
+        "name": "floor",
+        "aliases": [
+            "court"
+        ],
+        "first_seen": "2022-02-21T07:55:18.291944Z",
+        "labels": [
+            "someone",
+            "pfte-batch-1"
+        ],
+        "confidence": 68,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--0fb949e1-900e-4daa-9106-d8ee50bacf7b",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2020-11-21T01:03:01.69353Z",
+        "modified": "2021-08-14T01:08:14.131486Z",
+        "name": "war",
+        "threat_actor_types": [
+            "terrorist",
+            "terrorist",
+            "insider-accidental",
+            "hacker"
+        ],
+        "aliases": [
+            "a",
+            "spring",
+            "sound"
+        ],
+        "last_seen": "2021-12-06T02:42:20.936653Z",
+        "roles": [
+            "malware-author",
+            "independent",
+            "malware-author"
+        ],
+        "sophistication": "expert",
+        "secondary_motivations": [
+            "ideology"
+        ],
+        "personal_motivations": [
+            "personal-satisfaction",
+            "organizational-gain"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 9,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--2e50db27-ca64-4496-9e66-8406baf9c185",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2020-08-04T01:47:26.927202Z",
+        "modified": "2021-08-14T01:08:14.131767Z",
+        "relationship_type": "attributed-to",
+        "description": "Be car level range. Couple red street sport those husband decide. Party clearly cell share sometimes result piece.",
+        "source_ref": "campaign--0900cc63-dc66-473b-8a89-f8335da13b0d",
+        "target_ref": "threat-actor--0fb949e1-900e-4daa-9106-d8ee50bacf7b",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--2e659180-8007-4865-a5f5-b2248609ac91",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2021-02-21T07:03:48.546708Z",
+        "modified": "2021-08-14T01:08:14.132024Z",
+        "abstract": "Each doctor administration building action surface general. Chance group necessary budget reach part.",
+        "content": "Laugh weight writer sound close some. List for box think while society produce relate.",
+        "authors": [
+            "stay",
+            "Democrat",
+            "go",
+            "just",
+            "each"
+        ],
+        "object_refs": [
+            "campaign--0900cc63-dc66-473b-8a89-f8335da13b0d",
+            "threat-actor--0fb949e1-900e-4daa-9106-d8ee50bacf7b",
+            "relationship--2e50db27-ca64-4496-9e66-8406baf9c185"
+        ],
+        "labels": [
+            "region",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-01-01T00:00:00.000Z",
+        "modified": "2020-01-01T00:00:00.000Z",
+        "name": "USA.USG",
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

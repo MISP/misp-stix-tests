@@ -1,0 +1,136 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--f72038bc-41b6-43d0-b2a9-cba8b7ed1db1",
+        "created_by_ref": "identity--6fe90f1a-9bc8-4a49-a86e-3c4991b76c0e",
+        "created": "2020-10-25T11:46:47.796171Z",
+        "modified": "2021-08-14T01:08:40.589337Z",
+        "name": "participant",
+        "description": "Republican present whatever candidate.",
+        "infrastructure_types": [
+            "routers-switches",
+            "firewall"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "first_seen": "2021-01-14T03:19:59.574816Z",
+        "last_seen": "2021-08-13T08:24:00.127939Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "able",
+                "description": "Relationship light water stuff week own.",
+                "url": "http://www.hughes-wheeler.net/",
+                "external_id": "TyoqCHh"
+            },
+            {
+                "source_name": "explain",
+                "description": "Course other food present modern partner focus.",
+                "url": "http://perez.com/",
+                "hashes": {
+                    "MD5": "8b533714f83105d62ec9b3efe4b4ec4b",
+                    "SHA-1": "4587a119732c2a26be4725cc3d833aed9dbd86e9",
+                    "SHA-256": "9c0dba0332f96b9d1e719431660fd3bb07a73ae675e23f665c4e262a1e1184ab",
+                    "SHA-512": "866c2f06750731262fe573d67a894ba182a4d3e80d9c384c7b0d6ba642d0a347a410b9c325f602dde5de523e727abf6a7bb171d5d64ad1af08fd626b26876b83",
+                    "SHA3-256": "c4e2f02e16cdacf8326459b473e318864cca9592055d0904f8df90afe5c231ed",
+                    "SHA3-512": "1bac4a6d848b5c3e51fb38b72037abbdacfb0de4c48a68b568f1ee289f3b2b35e7296f3fff8c90c3550f5b7b68e6689ce3ae3a40b6159fea6a97c49bf4c8392c"
+                },
+                "external_id": "KQFUOukO"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "ipv6-addr",
+        "spec_version": "2.1",
+        "id": "ipv6-addr--eb80a734-dc37-4f81-96f7-a36a63e92326",
+        "value": "2577:7b9b:8714:cb:b18c:66a7:63f4:ddf4",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e8d9296d-5bae-4395-9777-09072e922350",
+        "created_by_ref": "identity--6fe90f1a-9bc8-4a49-a86e-3c4991b76c0e",
+        "created": "2020-11-10T03:44:25.36657Z",
+        "modified": "2021-08-14T01:08:40.5898Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--f72038bc-41b6-43d0-b2a9-cba8b7ed1db1",
+        "target_ref": "ipv6-addr--eb80a734-dc37-4f81-96f7-a36a63e92326",
+        "stop_time": "2022-03-07T19:31:13.587724Z",
+        "labels": [
+            "trial",
+            "arm",
+            "those",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "official",
+                "url": "http://www.miller.com/",
+                "hashes": {
+                    "MD5": "5b2dee293ec3f1e1b7294e74d84c1cde",
+                    "SHA-1": "83190674e5f7c64294f80ba6a352366d1216fbf2",
+                    "SHA-256": "d0793ebcd855b9128f8224c9b22e40a73b85b5dc4e87367fad928d5d5828108c",
+                    "SHA-512": "5331f3875ddfc2531e0909dd2b9096cf41280e5d7d14292ceb3d1a8df771a4bef0b5b2cb019a04016a7c1f4f6b33f53d9e54de2f0fbca8fde31066c575a161eb",
+                    "SHA3-256": "de3ea553cb88f9fd764455139b72d08f8a6ac14db2244dc6f03b01e4ef2386f5",
+                    "SHA3-512": "1ed0d0f24a2f7070fd04c33ea2d4ffbcb8a308232ffaae7e4e592e36bb89a3b7ff5b5ea7a6d7c03c834433118a6f38a891833a216f63f86f8ab4374b1573844d"
+                }
+            },
+            {
+                "source_name": "wide",
+                "description": "Arm indicate house skill.",
+                "url": "http://www.gonzalez-miller.org/",
+                "external_id": "KRsPuOFcGxoYBDH"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6fe90f1a-9bc8-4a49-a86e-3c4991b76c0e",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-08-15T04:59:15.822207Z",
+        "modified": "2021-09-04T07:25:24.141624Z",
+        "name": "Schmidt PLC",
+        "sectors": [
+            "government-public-services",
+            "automotive",
+            "entertainment"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 23,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

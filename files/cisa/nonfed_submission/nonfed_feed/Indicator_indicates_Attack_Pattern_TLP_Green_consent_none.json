@@ -1,0 +1,117 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--039c682a-ab62-4f93-b118-c404f3885242",
+        "created_by_ref": "identity--b4cd1fdb-1317-4f3f-9fd6-ba42d8c6a84f",
+        "created": "2021-08-04T22:25:35.862444Z",
+        "modified": "2022-06-27T05:06:12.886653Z",
+        "name": "child",
+        "description": "Truth cut space marriage various.",
+        "indicator_types": [
+            "unknown",
+            "anonymization",
+            "anonymization",
+            "unknown"
+        ],
+        "pattern": "[domain-name:value >= 'stephens.com']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-06-25T14:28:44.112582Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "hKOmhzE",
+                "phase_name": "rUBrtFAsZXoWd"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "YyaWACHLhfzueiEzzUnE",
+                "phase_name": "rMaUUHJwRjTmuEw"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "finish",
+                "description": "Ready simply cultural real wrong side.",
+                "url": "https://www.brown.info/",
+                "external_id": "CDFZBFeXkXAptiQgGn"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--aa65eafd-3090-4ca3-a41a-9fb0ec36255a",
+        "created_by_ref": "identity--b4cd1fdb-1317-4f3f-9fd6-ba42d8c6a84f",
+        "created": "2021-05-30T18:49:43.830413Z",
+        "modified": "2021-08-28T07:42:21.937992Z",
+        "name": "long",
+        "description": "Least employee together happy treat last enter son.",
+        "labels": [
+            "sit",
+            "pfte-batch-1"
+        ],
+        "confidence": 90,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--9ab9982f-0c5f-4561-b936-173c167f7068",
+        "created_by_ref": "identity--b4cd1fdb-1317-4f3f-9fd6-ba42d8c6a84f",
+        "created": "2021-11-22T03:57:58.933955Z",
+        "modified": "2022-05-31T23:05:41.446847Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--039c682a-ab62-4f93-b118-c404f3885242",
+        "target_ref": "attack-pattern--aa65eafd-3090-4ca3-a41a-9fb0ec36255a",
+        "start_time": "2022-03-30T20:22:45.215857Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 21,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b4cd1fdb-1317-4f3f-9fd6-ba42d8c6a84f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-06-16T14:24:13.536349Z",
+        "modified": "2022-07-20T00:04:26.543634Z",
+        "name": "BabyLookAgo",
+        "roles": [
+            "hope",
+            "although"
+        ],
+        "identity_class": "unknown",
+        "sectors": [
+            "manufacturing"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

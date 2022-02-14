@@ -1,0 +1,139 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--963d19c5-f5e8-47ef-b7bb-94e384cc682d",
+        "created_by_ref": "identity--127ae5fa-12f7-4e04-a823-3f762746ef88",
+        "created": "2021-02-07T19:30:22.297613Z",
+        "modified": "2021-10-16T16:31:51.916312Z",
+        "name": "including",
+        "aliases": [
+            "early"
+        ],
+        "last_seen": "2022-01-14T12:46:06.423044Z",
+        "goals": [
+            "Firm receive international score.",
+            "Major remember put morning news admit memory.",
+            "American right once trade."
+        ],
+        "resource_level": "government",
+        "secondary_motivations": [
+            "dominance"
+        ],
+        "labels": [
+            "less",
+            "side",
+            "pfte-batch-1"
+        ],
+        "confidence": 44,
+        "object_marking_refs": [
+            "marking-definition--a0bbf2a6-ba1d-404b-a1ee-bc8baa373054"
+        ]
+    },
+    {
+        "type": "sighting",
+        "spec_version": "2.1",
+        "id": "sighting--8045bb51-aa47-434e-9390-8a7158ac848f",
+        "created_by_ref": "identity--127ae5fa-12f7-4e04-a823-3f762746ef88",
+        "created": "2022-04-21T15:10:19.923991Z",
+        "modified": "2022-08-31T13:38:55.063647Z",
+        "first_seen": "2022-02-27T22:54:39.909808Z",
+        "last_seen": "2022-03-26T23:06:21.471577Z",
+        "sighting_of_ref": "intrusion-set--963d19c5-f5e8-47ef-b7bb-94e384cc682d",
+        "labels": [
+            "each",
+            "cover",
+            "pfte-batch-1"
+        ],
+        "confidence": 73,
+        "object_marking_refs": [
+            "marking-definition--a0bbf2a6-ba1d-404b-a1ee-bc8baa373054"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--a0bbf2a6-ba1d-404b-a1ee-bc8baa373054",
+        "created_by_ref": "identity--127ae5fa-12f7-4e04-a823-3f762746ef88",
+        "created": "2021-08-14T01:09:41.288549Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-881bbc21-deef-4d57-abf3-7f599266217f",
+                "name": "Way get would fight necessary hour measure",
+                "create_date_time": "2021-08-14T01:08:08.423662Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--127ae5fa-12f7-4e04-a823-3f762746ef88",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-04-27T11:54:44.562787Z",
+        "modified": "2022-11-29T16:16:48.66127Z",
+        "name": "Thomas PLC",
+        "description": "Exclusive exuding migration",
+        "roles": [
+            "computer",
+            "chance",
+            "different"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "government-national",
+            "aerospace"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a0bbf2a6-ba1d-404b-a1ee-bc8baa373054"
+        ]
+    }
+]

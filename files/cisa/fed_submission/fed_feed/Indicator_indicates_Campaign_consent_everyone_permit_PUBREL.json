@@ -1,0 +1,220 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--2a434d75-3ef6-4a96-bf32-ee0f0464cd41",
+        "created_by_ref": "identity--18360fe9-0110-4337-87fa-06bd2a0f3732",
+        "created": "2022-02-11T07:55:14.859761Z",
+        "modified": "2023-01-18T19:38:23.496597Z",
+        "indicator_types": [
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "(([file:defanged = true] AND [mac-addr:defanged NOT = false]))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-09-05T09:01:03.594628Z",
+        "valid_until": "2022-05-06T14:15:48.468892Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "UmAzJyd",
+                "phase_name": "WgGgHSyOIZLhxlLQaq"
+            },
+            {
+                "kill_chain_name": "TDMiOqTwBmFVPIEBk",
+                "phase_name": "hKbfwVwNUjl"
+            }
+        ],
+        "labels": [
+            "suddenly",
+            "door",
+            "capital",
+            "woman",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "success",
+                "description": "Set girl employee along candidate.",
+                "url": "http://lee-walker.org/",
+                "external_id": "vnofz"
+            },
+            {
+                "source_name": "last",
+                "url": "https://rose.com/"
+            },
+            {
+                "source_name": "can",
+                "description": "Himself large expect religious hotel although to.",
+                "url": "https://marquez-meyer.org/",
+                "external_id": "hsilWn"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--631a949c-399c-492f-902b-582255d6d1a8"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--bc4e70e6-5627-4b1d-9295-dea33c236767",
+        "created_by_ref": "identity--18360fe9-0110-4337-87fa-06bd2a0f3732",
+        "created": "2022-03-23T13:13:57.492456Z",
+        "modified": "2023-01-11T10:35:20.858642Z",
+        "name": "painting",
+        "description": "Forget very later concern any plan.",
+        "objective": "This far behind play color use.",
+        "confidence": 97,
+        "external_references": [
+            {
+                "source_name": "sister",
+                "description": "Brother true sense far.",
+                "url": "https://www.daniels.net/",
+                "external_id": "SybhOJ"
+            },
+            {
+                "source_name": "war",
+                "description": "Present ready manager because talk degree early hold.",
+                "external_id": "dwkzJMNxfFog"
+            },
+            {
+                "source_name": "white",
+                "description": "Condition college institution set.",
+                "url": "http://www.pugh.net/"
+            },
+            {
+                "source_name": "land",
+                "url": "http://www.bright-long.com/",
+                "hashes": {
+                    "MD5": "2d2bee841191a926f46821695b6b54e9",
+                    "SHA-1": "de3b9ecd067f6935b3f31448b50a99fa8d9081ed",
+                    "SHA-256": "f26e2afa4ddfbc1d21d85db1d4dc418bc419b11fd660beecdb7a1e544d63126d",
+                    "SHA-512": "1e2d3279764ba16fd3f0099f687109793af03bc9e46bb17ed0b811e3fbd0fa1539f3e712b32e6a870f628ed7a9d764f5ca7f28a7a13820341346a8168fd787f7",
+                    "SHA3-256": "c3792209a92af4bbcbb4fd3ce42a250a4fda804698e59da7770fa9e399d34b77",
+                    "SHA3-512": "b6c5d9f77c7669600778b07a473219bc05fc981dd1eca4eece0121d1fcf68146c04ca559a7d2e46c32048f31f05dea628f7302c74ac3bf92ee8b1f3bf84c82c9"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--631a949c-399c-492f-902b-582255d6d1a8"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ac428da3-2832-4368-8c90-46a1bdf12a4a",
+        "created_by_ref": "identity--18360fe9-0110-4337-87fa-06bd2a0f3732",
+        "created": "2022-04-10T17:03:00.927521Z",
+        "modified": "2022-11-12T11:06:22.858069Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--2a434d75-3ef6-4a96-bf32-ee0f0464cd41",
+        "target_ref": "campaign--bc4e70e6-5627-4b1d-9295-dea33c236767",
+        "start_time": "2022-02-24T07:05:45.191608Z",
+        "confidence": 93,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "provide",
+                "description": "Church million believe east nature pay.",
+                "external_id": "MblhpdDShPiCpujvgOjG"
+            },
+            {
+                "source_name": "social",
+                "description": "Listen education thus sit old another strong add.",
+                "url": "http://harris.com/",
+                "hashes": {
+                    "MD5": "acbe5b973eefdb8992f33f76c8ae0769",
+                    "SHA-1": "d44dc2c0153bdf20753e991e36d736102a0b366e",
+                    "SHA-256": "761e23db8cc15e0423c53180530363d76f7f73b296e5ac3befc1f1b28c59c33c",
+                    "SHA-512": "1625de77def6de3fd59a365a208eaf596d8896eb578f89bbfc4045c36ea4509c0cf3a0011a4a352fdbd23d85179ee6eaf0039e303f076ac342141f1bea50109c",
+                    "SHA3-256": "f14840c7161cadd7f7044f80e1ebc79b4532ab6cb2e4c86d6c32f4db89cea6d7",
+                    "SHA3-512": "0dad59395d80bae9a870315c4a597964df62df5f9a52e02838ca90283b0f8f8106dd0230b2c8797ffb5a74338f4327ae1fa1525162b883467fe3f5d6ee763fb0"
+                },
+                "external_id": "dBuOvYOBYOs"
+            },
+            {
+                "source_name": "rest",
+                "url": "https://holt.org/",
+                "external_id": "vykIkbMxc"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--631a949c-399c-492f-902b-582255d6d1a8"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--18360fe9-0110-4337-87fa-06bd2a0f3732",
+        "created_by_ref": "identity--18360fe9-0110-4337-87fa-06bd2a0f3732",
+        "created": "2022-05-15T17:17:49.168437Z",
+        "modified": "2022-11-20T20:11:01.480Z",
+        "name": "Ortiz-Green",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 47,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--631a949c-399c-492f-902b-582255d6d1a8"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--631a949c-399c-492f-902b-582255d6d1a8",
+        "created": "2021-08-14T01:08:29.469045Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3b921193-36b9-467a-b549-f06fd7a0147e",
+                "name": "Artist despite travel Mrs long fish",
+                "create_date_time": "2021-08-14T01:08:08.430789Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.430622Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

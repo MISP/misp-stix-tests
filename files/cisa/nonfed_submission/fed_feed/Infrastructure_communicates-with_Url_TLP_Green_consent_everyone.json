@@ -1,0 +1,236 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--328eb2a9-1d01-4fed-ab1f-b600badd8996",
+        "created_by_ref": "identity--743951a1-eb5c-4903-90af-e5681f3e4f97",
+        "created": "2022-01-05T00:27:19.160773Z",
+        "modified": "2022-05-03T12:12:10.998128Z",
+        "name": "method",
+        "infrastructure_types": [
+            "routers-switches"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "first_seen": "2021-03-16T09:55:51.881544Z",
+        "labels": [
+            "five",
+            "child",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "practice",
+                "description": "Month Congress near home difference standard without some.",
+                "hashes": {
+                    "MD5": "d214afbb2767f0af8ac312f3a02e317e",
+                    "SHA-1": "d24187b7a7116f4a2fa52f6f9196ee33bb00ddd3",
+                    "SHA-256": "9da03a2b5a884be90b6d59d5108fb3a7383fa61087414d8d6fb90007230f1d95",
+                    "SHA-512": "578d7c29588f8c50d7fb9f9fe67fc4ab12cc14d3871ca637b34023baf4ddefc3eb837dba0693b2a98a2852b0943fa69c62bc052bb0ca7b34eee284583f40d0bb",
+                    "SHA3-256": "ce394cb0c64b1584bddf6ee8632b0fe384071674ac9087e4d966365a9aa50346",
+                    "SHA3-512": "2771baf4c9049170de9275eb96ab6d6c0505c63cb5fa87c8ae1a8edc95e4c857b9f457c199abe9f836ee88b223a3ee1dd307781d46762b4c7a36761ed3354c05"
+                },
+                "external_id": "NYnDLUOMGBioZxwcGH"
+            },
+            {
+                "source_name": "mind",
+                "url": "https://www.moses-flores.com/",
+                "external_id": "JSgThkINzdMqLMvyCKeX"
+            },
+            {
+                "source_name": "although",
+                "description": "Election establish term for follow book medical.",
+                "hashes": {
+                    "MD5": "bcf40e1556d90a20ee5a67ee42ce0539",
+                    "SHA-1": "95b7ca22df7aa90f3263bb03f1ea9cc0197e15aa",
+                    "SHA-256": "7c9eedf0efd6f2cd90d3b763627aa3dcd3987eb7dba5637476e59c38e4d78470",
+                    "SHA-512": "d54d2e598ebe3cc9e00953a4cf69987404d899c67a317a4da92ad63adce5c4a5cb26b01fcf9cd0fe4a03b37025de31728e6755e6c0fca4b8c7f628b2bb110a3a",
+                    "SHA3-256": "a899ac818f477154f6a64a4a9da68bfab6c4d1b6bd218a10608809a0b84b6167",
+                    "SHA3-512": "34c10f818af2b4d3c90a3f6dce8d981a318523b92c1d09cde07fbc99fd8dba166c4df12e84b6c46ce9a713353395420b89d9b85b8df08705e2483fdfbfcf63fb"
+                },
+                "external_id": "cGFjfB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e812cf8b-93f1-4c44-9cd4-ba48b7b7d0a7"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--aee1d6ac-c4b5-4af1-81bd-4a142464bf00",
+        "value": "http://gregory-cisneros.com/",
+        "object_marking_refs": [
+            "marking-definition--e812cf8b-93f1-4c44-9cd4-ba48b7b7d0a7"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--40fbf387-b456-4878-ad22-66935a79b961",
+        "created_by_ref": "identity--743951a1-eb5c-4903-90af-e5681f3e4f97",
+        "created": "2021-09-20T06:20:49.910168Z",
+        "modified": "2021-11-08T17:28:01.856028Z",
+        "relationship_type": "communicates-with",
+        "description": "Seven information he look white as speech. Hour note strong nearly new floor. Of sense increase.",
+        "source_ref": "infrastructure--328eb2a9-1d01-4fed-ab1f-b600badd8996",
+        "target_ref": "url--aee1d6ac-c4b5-4af1-81bd-4a142464bf00",
+        "start_time": "2022-03-19T21:20:50.922543Z",
+        "labels": [
+            "board",
+            "left",
+            "early",
+            "pfte-batch-1"
+        ],
+        "confidence": 1,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e812cf8b-93f1-4c44-9cd4-ba48b7b7d0a7"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--e812cf8b-93f1-4c44-9cd4-ba48b7b7d0a7",
+        "created_by_ref": "identity--743951a1-eb5c-4903-90af-e5681f3e4f97",
+        "created": "2021-08-14T01:08:41.476761Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-cdad75a5-97a2-450d-bb1c-cac3b21b4823",
+                "name": "Continue half as create together strong",
+                "create_date_time": "2021-08-14T01:08:08.421874Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--743951a1-eb5c-4903-90af-e5681f3e4f97",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-06-20T21:15:19.201226Z",
+        "modified": "2023-01-08T19:24:20.467496Z",
+        "name": "Collins, Bishop and Harrison",
+        "identity_class": "class",
+        "sectors": [
+            "pharmaceuticals",
+            "energy",
+            "technology",
+            "pharmaceuticals"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 99,
+        "external_references": [
+            {
+                "source_name": "least",
+                "description": "Difference really statement buy mention.",
+                "url": "http://powell.biz/",
+                "external_id": "fBocCLwp"
+            },
+            {
+                "source_name": "treat",
+                "url": "http://www.russell.biz/",
+                "hashes": {
+                    "MD5": "f55023e72548edee75ac8ac37e31a761",
+                    "SHA-1": "6ec2164be62a63bceeb11fc11b596e9737923131",
+                    "SHA-256": "eaa43a6d1536226cb7f3e3bddcb77147d8e2a01c62d7cdfeca9d9de6356e34d8",
+                    "SHA-512": "b63c0610ac0f10063f6a15ef2f25f2602060f45b43be82c07e43c41b4609bb169bee226012c48e5ae10c6f8f67551d4894b134d93a8fbf62f53efa08d23d29f5",
+                    "SHA3-256": "f01e23a4cfb80fe3defbbd42727548102dc6ec46e836f5fcdcc73f74c6563dfb",
+                    "SHA3-512": "673627e91f920d286545a213426d598c7184899084268fa94c1cc70b59bf07d2cc5b3030256e5ad9395af2ab3f6ebb03ea664eb67b4510d2e2eaa72c4d53f85d"
+                }
+            },
+            {
+                "source_name": "ahead",
+                "description": "Expect itself parent tree sometimes.",
+                "hashes": {
+                    "MD5": "3a332bc114afa9d5727eb39ef55cc942",
+                    "SHA-1": "b0b1aff2e9a3f16f80f247865db3bda89f585d65",
+                    "SHA-256": "420397d9ed86a6e408f3f736d5534c6728eb73b6d5133552de4cba6ecd2fb3bc",
+                    "SHA-512": "d7304c642f7c782bf6fcc08ef334cf8a25fb2055153b850797e5b67c7393b754d590d809242ddf295c44fafe6fa1b92e4890d82701474a17d34c12b680c84b7f",
+                    "SHA3-256": "d04ab0e8ee2db603f60cd1ab36c8d9dd963d3cb67d09bf64e9c9a373da0ffc92",
+                    "SHA3-512": "044fbaf8c65e7b58bd5b6ed232b032e11b1baf920b724775aebe1304dfa5739d5b81f0f3dacf0ccbafd97af81f46d50ec24a06827d7aa0ac98c1a48e0a892433"
+                },
+                "external_id": "bzyKgu"
+            },
+            {
+                "source_name": "this",
+                "description": "Camera seek none opportunity.",
+                "hashes": {
+                    "MD5": "68d87b80a3ebcce6b9752a318392119f",
+                    "SHA-1": "d77e61823ccc8f1a144e8e1a8074fa9c6a6f9e60",
+                    "SHA-256": "f1e20fa32da6bc22622dc20d67849f7abd763239b927fefeb331ae69c5ddb94a",
+                    "SHA-512": "82e0fb2fab38c6b54a9837a343e69b9ce8c03503e18f2f7e97acaf839fed122ff771cbd9aff1f5667ff57fc8a1f35f8142ebbf44764e6092a84b014eed51c5df",
+                    "SHA3-256": "f940ffd6e896bd5ff6e2eaf9500801e0a031907f4dd9a3939d86527f783aa4a6",
+                    "SHA3-512": "b36271b663dce05e9a1a38ba7b30cf3a741699b09f7bc10a5038f0d99900c139e83755481c6448f45838aa6cd3e30f141248910d61e6e7432321e72b360b3cfc"
+                },
+                "external_id": "rmkWkGvBis"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e812cf8b-93f1-4c44-9cd4-ba48b7b7d0a7"
+        ]
+    }
+]

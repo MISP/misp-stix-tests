@@ -1,0 +1,157 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--cbce2980-07b1-4e6c-8d89-4e3516445b97",
+        "created_by_ref": "identity--d7aaf73b-a1ef-4c13-bc70-8f9f56bff734",
+        "created": "2021-10-13T03:47:15.54016Z",
+        "modified": "2022-06-13T23:20:51.621976Z",
+        "name": "room",
+        "indicator_types": [
+            "malicious-activity",
+            "unknown",
+            "anomalous-activity",
+            "unknown"
+        ],
+        "pattern": "[url:value <= 'https://ferguson.biz/' AND url:defanged = false AND (url:value >= 'https://www.townsend-cortez.biz/')] FOLLOWEDBY [software:cpe = 'cpe:2.3:o:fedoraproject:fedora:29:*:*:*:*:*:*:*']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-04-11T05:21:27.562913Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "confidence": 43,
+        "object_marking_refs": [
+            "marking-definition--54fc0c32-6cac-41a5-a6d3-1f5109831349"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--323ff979-a77e-4599-8251-3c3e8b14c766",
+        "created_by_ref": "identity--d7aaf73b-a1ef-4c13-bc70-8f9f56bff734",
+        "created": "2022-02-05T04:14:51.677158Z",
+        "modified": "2022-08-04T05:31:33.84386Z",
+        "name": "machine",
+        "last_seen": "2022-07-29T07:38:44.668093Z",
+        "objective": "I push about soon.",
+        "confidence": 55,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--54fc0c32-6cac-41a5-a6d3-1f5109831349"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b6d8539c-b735-45ff-9a2e-5797cf008993",
+        "created_by_ref": "identity--d7aaf73b-a1ef-4c13-bc70-8f9f56bff734",
+        "created": "2021-06-12T17:49:05.680481Z",
+        "modified": "2021-09-15T10:28:37.137613Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--cbce2980-07b1-4e6c-8d89-4e3516445b97",
+        "target_ref": "campaign--323ff979-a77e-4599-8251-3c3e8b14c766",
+        "start_time": "2021-11-11T05:51:00.922619Z",
+        "stop_time": "2022-06-24T20:04:56.599198Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--54fc0c32-6cac-41a5-a6d3-1f5109831349"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d7aaf73b-a1ef-4c13-bc70-8f9f56bff734",
+        "created_by_ref": "identity--d7aaf73b-a1ef-4c13-bc70-8f9f56bff734",
+        "created": "2021-01-12T02:50:50.88363Z",
+        "modified": "2022-01-04T11:30:08.617863Z",
+        "name": "Hodges Group",
+        "description": "Vision-oriented context-sensitive alliance",
+        "identity_class": "system",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "church",
+                "description": "Past trade either interest offer court never democratic.",
+                "external_id": "EeQfFDmUWgWgZUZ"
+            },
+            {
+                "source_name": "maybe",
+                "description": "Establish plant pay interview."
+            },
+            {
+                "source_name": "our",
+                "description": "Large around least painting writer particularly those."
+            },
+            {
+                "source_name": "despite",
+                "description": "Foot source phone particular order piece.",
+                "url": "http://smith.net/",
+                "hashes": {
+                    "MD5": "6ccaa54f33349279fdb952b0347d2eb5",
+                    "SHA-1": "f93cc3bdb73532be12f15f3d4232b24ac5e1a03f",
+                    "SHA-256": "5c242f974fb3b331917fe7cb781b12e468dec68fe62ad8ad26e976448de35807",
+                    "SHA-512": "3e4908218bddf010d4c0a724f064bdc2a542b47cb27d688a0ff2dfd2129100a6b542cfb5a3aeaa3f37ff36c8b58bc8f338bb9f9a2ba257ca088789784fed02ea",
+                    "SHA3-256": "2373fbebeb75683728af25536bb9d5537d7e14c1db8d3805d5fe49106ef1c51b",
+                    "SHA3-512": "6b398f51f7786b01b9bc83d8fe1f7902856896670b4cb6cf70dccbbb50fa23fd205a06ca0eec7586a59e536924e628c59014be242ebe6b4e645509fee575f174"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--54fc0c32-6cac-41a5-a6d3-1f5109831349"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--54fc0c32-6cac-41a5-a6d3-1f5109831349",
+        "created": "2021-08-14T01:08:29.666418Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-716f5d31-4760-4ed1-b8df-6b76bb19bd34",
+                "name": "Wife plan yourself training yet rich",
+                "create_date_time": "2021-08-14T01:08:08.43336Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.433196Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

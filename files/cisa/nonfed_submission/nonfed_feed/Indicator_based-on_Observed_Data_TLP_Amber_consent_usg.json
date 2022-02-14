@@ -1,0 +1,132 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--a2f97a50-f99d-4d71-9b98-62e747b466c0",
+        "created_by_ref": "identity--789fa614-cc74-44c0-8213-9ef899bea665",
+        "created": "2022-05-09T18:20:23.856314Z",
+        "modified": "2022-07-18T10:41:45.626937Z",
+        "name": "commercial",
+        "description": "Those growth meeting enter such growth choice.",
+        "pattern": "[(ipv6-addr:value < 'f677:95d0:91e9:aed9:7a51:5887:7acd:faab') AND ipv6-addr:value = 'c5e8:2e6b:3891:c6e8:30ce:a7b0:c895:71e9'] AND [ipv6-addr:value = '36be:52a:e795:2bb4:fd3:d423:3fff:e7ce']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-03-13T00:21:01.964475Z",
+        "valid_until": "2022-03-09T15:51:07.545816Z",
+        "labels": [
+            "watch",
+            "pfte-batch-1"
+        ],
+        "confidence": 93,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--7a8e8321-3f65-4a62-b0c7-37cdd5b45d3f",
+        "created_by_ref": "identity--789fa614-cc74-44c0-8213-9ef899bea665",
+        "created": "2021-06-14T00:49:52.813721Z",
+        "modified": "2022-03-07T03:58:14.193679Z",
+        "first_observed": "2021-03-18T07:51:35.902412Z",
+        "last_observed": "2021-06-27T16:02:22.338561Z",
+        "number_observed": 99501565,
+        "objects": {
+            "email-message--8d3400e8-19cc-4d5a-b074-f5223bb7daf4": {
+                "type": "email-message",
+                "spec_version": "2.1",
+                "id": "email-message--8d3400e8-19cc-4d5a-b074-f5223bb7daf4",
+                "is_multipart": true,
+                "content_type": "message/partial"
+            }
+        },
+        "labels": [
+            "nearly",
+            "reveal",
+            "behavior",
+            "movie",
+            "pfte-batch-1"
+        ],
+        "confidence": 80,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--dbb866c3-a47b-44bf-a073-076db167a6cd",
+        "created_by_ref": "identity--789fa614-cc74-44c0-8213-9ef899bea665",
+        "created": "2022-05-04T10:29:19.955162Z",
+        "modified": "2022-08-16T23:00:03.192435Z",
+        "relationship_type": "based-on",
+        "source_ref": "indicator--a2f97a50-f99d-4d71-9b98-62e747b466c0",
+        "target_ref": "observed-data--7a8e8321-3f65-4a62-b0c7-37cdd5b45d3f",
+        "start_time": "2021-01-22T09:23:24.639317Z",
+        "stop_time": "2021-10-07T07:43:00.165455Z",
+        "labels": [
+            "firm",
+            "pfte-batch-1"
+        ],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "morning",
+                "description": "Attack father out wait without tough.",
+                "hashes": {
+                    "MD5": "d732d7273c16fd2f3fc04ca74c2dfc35",
+                    "SHA-1": "92a8596f443a7e9be240ab0e0df567ee518d0f9a",
+                    "SHA-256": "83a72fb74e7f29d533ef3d6e1e761d61fc5870fd3b8808b34aff8cb67d0054e3",
+                    "SHA-512": "87850791ddc6827eee1eebe1193022551e5b8298dde62f789a4859b6070d38ba683807493e9332f642dd939bfcea99f55936d743c6fccb0ad4e047d04a20475a",
+                    "SHA3-256": "7bdd4ef6158d47ecd0180f2d107441fb41cac2830f23b0d896936ecb7fd99de2",
+                    "SHA3-512": "29719e308ce4fc7908d5cee33a6ef9eb2425e67df6c4c5d0fcaa4cb076b3cf97e4d54a5888d4cf6b2a408b4728c3259e9a346d0424e92460899cc3a7abb1bb46"
+                },
+                "external_id": "heKEUUIuUyxjGYxZjQO"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--789fa614-cc74-44c0-8213-9ef899bea665",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-31T16:42:19.193891Z",
+        "modified": "2021-08-14T01:08:36.289322Z",
+        "name": "SpeechShakePeace",
+        "description": "Inverse fault-tolerant time-frame",
+        "roles": [
+            "policy",
+            "future",
+            "degree",
+            "heart",
+            "he"
+        ],
+        "sectors": [
+            "government-public-services",
+            "retail",
+            "government-regional",
+            "chemical",
+            "communications"
+        ],
+        "contact_information": "97242 Espinoza Junction\nChenfurt, ND 91821",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 90,
+        "external_references": [
+            {
+                "source_name": "its",
+                "external_id": "HvEKLN"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

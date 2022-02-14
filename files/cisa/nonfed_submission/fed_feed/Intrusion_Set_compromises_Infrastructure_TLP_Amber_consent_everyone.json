@@ -1,0 +1,187 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--59b6a9f9-59fe-4577-97c5-365fe79bc3bb",
+        "created_by_ref": "identity--d864e326-0d57-4bce-937f-77ca020d729c",
+        "created": "2020-08-20T13:52:47.650146Z",
+        "modified": "2021-08-14T01:08:52.295618Z",
+        "name": "evidence",
+        "aliases": [
+            "little",
+            "half",
+            "citizen",
+            "theory"
+        ],
+        "first_seen": "2020-11-02T09:25:58.181536Z",
+        "last_seen": "2021-05-26T10:59:43.699365Z",
+        "goals": [
+            "Manager bad left or charge wife fear company.",
+            "Walk per detail feeling customer born.",
+            "Wonder position everyone performance."
+        ],
+        "object_marking_refs": [
+            "marking-definition--439ef363-82e3-48e2-a74e-3e42aa211e7f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--2cfe8417-d6f8-480b-b8ab-32aa4313ca82",
+        "created_by_ref": "identity--d864e326-0d57-4bce-937f-77ca020d729c",
+        "created": "2022-07-15T10:36:51.976811Z",
+        "modified": "2023-05-01T02:05:12.560223Z",
+        "name": "rule",
+        "description": "Scientist technology set serious.",
+        "infrastructure_types": [
+            "phishing",
+            "exfiltration",
+            "firewall",
+            "workstation"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "fOcJFJZCBNSD",
+                "phase_name": "UYOsZziyBtTdKT"
+            }
+        ],
+        "first_seen": "2021-11-14T03:44:59.344776Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--439ef363-82e3-48e2-a74e-3e42aa211e7f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--badd84a8-ce59-4726-a75a-1f4675dbd1fd",
+        "created_by_ref": "identity--d864e326-0d57-4bce-937f-77ca020d729c",
+        "created": "2021-04-25T13:57:21.401318Z",
+        "modified": "2021-12-04T14:03:51.459092Z",
+        "relationship_type": "compromises",
+        "description": "Major majority series site. Rate really system value.",
+        "source_ref": "intrusion-set--59b6a9f9-59fe-4577-97c5-365fe79bc3bb",
+        "target_ref": "infrastructure--2cfe8417-d6f8-480b-b8ab-32aa4313ca82",
+        "start_time": "2020-11-02T09:09:22.437143Z",
+        "stop_time": "2021-03-25T16:19:12.402435Z",
+        "labels": [
+            "understand",
+            "consumer",
+            "common",
+            "pfte-batch-1"
+        ],
+        "confidence": 90,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--439ef363-82e3-48e2-a74e-3e42aa211e7f"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--439ef363-82e3-48e2-a74e-3e42aa211e7f",
+        "created_by_ref": "identity--d864e326-0d57-4bce-937f-77ca020d729c",
+        "created": "2021-08-14T01:08:52.294967Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f98cddfd-8461-4143-a969-e6e230df21d4",
+                "name": "Word describe cold color",
+                "create_date_time": "2021-08-14T01:08:08.422252Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d864e326-0d57-4bce-937f-77ca020d729c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-21T21:42:32.250038Z",
+        "modified": "2021-09-24T18:25:22.820727Z",
+        "name": "Ruiz and Sons",
+        "identity_class": "group",
+        "sectors": [
+            "commercial",
+            "emergency-services",
+            "nuclear",
+            "chemical"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 41,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "garden",
+                "description": "Range PM degree beat ahead know two.",
+                "url": "https://www.adkins.com/",
+                "hashes": {
+                    "MD5": "118b2714d2cdb42ee0f8e9b0e6541109",
+                    "SHA-1": "b471369956463a766428e9bdac3cd4f2b1ea81e5",
+                    "SHA-256": "54ed2ad0d83ee9adebcc1bdc56936588f8fa1aa758d5263c7b6253c90f156d99",
+                    "SHA-512": "de07155037f4243ff0617ab8b732be12cdbd4956f41ffd54e53854dfe56002532b8f77d0ed07fe33c6bd1ab727138cb3ff29cd74064313e30a3175a0f5aaf063",
+                    "SHA3-256": "31ceb297e541021ef5cb58e180500a36bf744888f46256333e72e70a9376d11a",
+                    "SHA3-512": "4e72af7dc5be8d5cb04dbbe52b548e1e447378461babe49a339875a072b7414400c63376d0bd9943920a120f9a1d4b93b756681616ad0fdfdf9b72369b709a1d"
+                },
+                "external_id": "XsPpzAOOc"
+            },
+            {
+                "source_name": "care",
+                "description": "Later thought brother though important.",
+                "url": "https://www.hansen-johnson.org/",
+                "external_id": "kHodqBysyifqVmmB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--439ef363-82e3-48e2-a74e-3e42aa211e7f"
+        ]
+    }
+]

@@ -1,0 +1,147 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--4059cd52-2b48-437e-b455-4a43c74cae1e",
+        "created_by_ref": "identity--a9de68d3-7d2b-4721-a978-e4732356d074",
+        "created": "2021-07-07T23:04:54.979977Z",
+        "modified": "2021-10-29T15:02:35.331566Z",
+        "name": "just",
+        "description": "Color discuss safe add.",
+        "first_seen": "2020-06-07T22:00:33.156316Z",
+        "last_seen": "2020-12-08T08:00:43.828096Z",
+        "objective": "He everyone knowledge sound live indicate reality.",
+        "confidence": 49,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9ad1eb7e-6c2d-41d4-905f-2b9ab9ae4017"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--8b9de0ed-20f5-4b28-9ca9-908b92da6a5b",
+        "created_by_ref": "identity--a9de68d3-7d2b-4721-a978-e4732356d074",
+        "created": "2021-01-27T11:36:01.83673Z",
+        "modified": "2021-12-03T13:02:11.214701Z",
+        "name": "buy",
+        "first_seen": "2021-05-13T23:28:12.427498Z",
+        "last_seen": "2022-04-05T01:21:57.615497Z",
+        "object_marking_refs": [
+            "marking-definition--9ad1eb7e-6c2d-41d4-905f-2b9ab9ae4017"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--cc15e5bb-3be8-4c42-bcd8-748a81d8a16c",
+        "created_by_ref": "identity--a9de68d3-7d2b-4721-a978-e4732356d074",
+        "created": "2020-10-19T14:14:03.301256Z",
+        "modified": "2021-09-29T10:34:23.426251Z",
+        "relationship_type": "compromises",
+        "description": "Sing night policy music what imagine too. Draw glass move me hear western land box.",
+        "source_ref": "campaign--4059cd52-2b48-437e-b455-4a43c74cae1e",
+        "target_ref": "infrastructure--8b9de0ed-20f5-4b28-9ca9-908b92da6a5b",
+        "stop_time": "2020-08-30T00:42:24.599621Z",
+        "object_marking_refs": [
+            "marking-definition--9ad1eb7e-6c2d-41d4-905f-2b9ab9ae4017"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--9ad1eb7e-6c2d-41d4-905f-2b9ab9ae4017",
+        "created_by_ref": "identity--a9de68d3-7d2b-4721-a978-e4732356d074",
+        "created": "2021-08-14T01:08:14.527051Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3d6ad3e0-0112-4a6d-8546-447c0e169799",
+                "name": "Space side determine future",
+                "create_date_time": "2021-08-14T01:08:08.419249Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a9de68d3-7d2b-4721-a978-e4732356d074",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-28T22:45:32.500531Z",
+        "modified": "2021-08-14T01:08:14.528643Z",
+        "name": "HimselfMoneyHuge",
+        "description": "Digitized 5thgeneration throughput",
+        "identity_class": "unknown",
+        "contact_information": "5291 Hughes Lock\nRomeromouth, NH 05984",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 32,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9ad1eb7e-6c2d-41d4-905f-2b9ab9ae4017"
+        ]
+    }
+]

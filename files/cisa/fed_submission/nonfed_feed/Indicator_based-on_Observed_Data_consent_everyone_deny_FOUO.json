@@ -1,0 +1,139 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--954a8028-6e4c-4633-8c76-e3194dda1aca",
+        "created_by_ref": "identity--eea0c914-5bed-4684-ae01-f65890e8b372",
+        "created": "2021-07-23T14:00:24.456807Z",
+        "modified": "2022-07-03T16:38:01.411978Z",
+        "description": "Far then hear event position live wind order.",
+        "pattern": "[(ipv6-addr:defanged = false) AND ipv6-addr:defanged = false] AND ([process:cwd = '/fish/me.html' OR (mutex:defanged = false)] START t'2021-01-28T04:07:29.177036Z' STOP t'2021-07-28T21:30:42.917358Z')",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-11-28T09:19:04.968227Z",
+        "valid_until": "2022-04-30T13:29:19.449218Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 1,
+        "external_references": [
+            {
+                "source_name": "wrong",
+                "description": "Suggest start hospital step.",
+                "url": "https://www.kane.com/",
+                "external_id": "DpShowyWTVJDwm"
+            },
+            {
+                "source_name": "side",
+                "description": "Together involve produce event space base open.",
+                "url": "https://anderson-mcintosh.net/",
+                "external_id": "rZrLSCmmoiTjLt"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--94818aaa-0179-48a9-a69d-8ef2ce4dd867",
+        "created_by_ref": "identity--eea0c914-5bed-4684-ae01-f65890e8b372",
+        "created": "2022-02-14T11:19:20.236938Z",
+        "modified": "2022-05-10T18:55:21.586089Z",
+        "first_observed": "2020-05-10T06:04:29.696271Z",
+        "last_observed": "2020-10-08T13:33:14.94329Z",
+        "number_observed": 565745336,
+        "objects": {
+            "mac-addr--f53ef1e7-2dc1-45b8-9538-26ed77ebe74d": {
+                "type": "mac-addr",
+                "spec_version": "2.1",
+                "id": "mac-addr--f53ef1e7-2dc1-45b8-9538-26ed77ebe74d",
+                "value": "0f:5f:df:ec:57:69"
+            }
+        },
+        "labels": [
+            "two",
+            "information",
+            "though",
+            "little",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--253765fe-c0d5-4c9b-99e0-32e249ea9280",
+        "created_by_ref": "identity--eea0c914-5bed-4684-ae01-f65890e8b372",
+        "created": "2022-07-08T04:13:58.908711Z",
+        "modified": "2022-12-06T13:07:41.336094Z",
+        "relationship_type": "based-on",
+        "source_ref": "indicator--954a8028-6e4c-4633-8c76-e3194dda1aca",
+        "target_ref": "observed-data--94818aaa-0179-48a9-a69d-8ef2ce4dd867",
+        "labels": [
+            "bar",
+            "decade",
+            "quality",
+            "say",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "she",
+                "description": "Do movie head first everyone front.",
+                "url": "https://johnson-brown.com/",
+                "external_id": "KzydMSjXaQ"
+            },
+            {
+                "source_name": "care",
+                "url": "https://mclean.net/",
+                "hashes": {
+                    "MD5": "5f21ef8c7f8871012633b529cd31cf4a",
+                    "SHA-1": "c58b2ca19e5acd8bb4f7edd7943c0ff7dfd26772",
+                    "SHA-256": "8d4a21faf004f46d705bbb4a6732c4688f1eebe30e6fb20a20feca43d6e7b56c",
+                    "SHA-512": "491207a5d9481b7ca120e52bad7edda0c6c029c4dc205674cb77064031fe3d0233c294b9a1a2a50155dfd79335965988c682cbec8a80f21fa831792594959be2",
+                    "SHA3-256": "520afc6920366708de079feb6c11b07193533e4360d4a09dd5cf6e1ccc81649c",
+                    "SHA3-512": "d74ac8e8d42a104aea037efed12e65dec2525419edd9ec3d188094d95cc201c59fe13a2d8550b2277399563bfee89667d29ec5bc7ab8ae95a451385cd4e7109d"
+                },
+                "external_id": "nnzkoXAtEQDbkAFZN"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--eea0c914-5bed-4684-ae01-f65890e8b372",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-03-08T07:12:40.144034Z",
+        "modified": "2021-08-14T01:08:37.562168Z",
+        "name": "AFeelingBrother",
+        "description": "Re-contextualized radical adapter",
+        "roles": [
+            "challenge",
+            "goal",
+            "even",
+            "ready",
+            "continue"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

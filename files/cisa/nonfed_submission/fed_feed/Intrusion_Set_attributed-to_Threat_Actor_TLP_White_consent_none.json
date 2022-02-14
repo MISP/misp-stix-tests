@@ -1,0 +1,230 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--552d9846-e3d5-498a-9452-67f00e9b9d86",
+        "created_by_ref": "identity--07f2fa81-19ce-4112-a93b-86744a4aafbe",
+        "created": "2022-06-16T01:40:01.826441Z",
+        "modified": "2023-02-13T20:50:36.05012Z",
+        "name": "peace",
+        "description": "Alone middle address open.",
+        "last_seen": "2021-05-30T16:19:31.266933Z",
+        "primary_motivation": "personal-gain",
+        "secondary_motivations": [
+            "unpredictable",
+            "accidental",
+            "unpredictable",
+            "revenge",
+            "organizational-gain"
+        ],
+        "confidence": 76,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--0b9e25f9-e7e5-4ea9-8bb5-fb5decdbd511"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--5bab0674-09e5-46e7-ba1f-f1e192ca62aa",
+        "created_by_ref": "identity--07f2fa81-19ce-4112-a93b-86744a4aafbe",
+        "created": "2022-07-23T05:44:33.556171Z",
+        "modified": "2022-07-23T17:09:33.831539Z",
+        "name": "agreement",
+        "first_seen": "2022-06-28T16:26:45.521385Z",
+        "last_seen": "2022-11-15T00:48:08.426055Z",
+        "roles": [
+            "malware-author"
+        ],
+        "goals": [
+            "government"
+        ],
+        "resource_level": "organization",
+        "object_marking_refs": [
+            "marking-definition--0b9e25f9-e7e5-4ea9-8bb5-fb5decdbd511"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--de3ad823-d359-4121-974c-93b4b0326825",
+        "created_by_ref": "identity--07f2fa81-19ce-4112-a93b-86744a4aafbe",
+        "created": "2021-07-16T13:53:38.202793Z",
+        "modified": "2022-03-20T06:15:52.591857Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "intrusion-set--552d9846-e3d5-498a-9452-67f00e9b9d86",
+        "target_ref": "threat-actor--5bab0674-09e5-46e7-ba1f-f1e192ca62aa",
+        "labels": [
+            "exactly",
+            "pfte-batch-1"
+        ],
+        "confidence": 90,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "teach",
+                "description": "Perhaps letter movement seek live.",
+                "url": "http://edwards-hood.com/",
+                "hashes": {
+                    "MD5": "17fd0e875e9c92ef9d36c6537e23ecd6",
+                    "SHA-1": "4b8691d37f76a65eba163f504a2b1c898d39bedc",
+                    "SHA-256": "9bba2cea448a453614627da8a7c6e7c53b8c45216ef14c4829f57598a07763b4",
+                    "SHA-512": "00674ad9302ba86cb0c9a5739c52cfdeb5319d79ab5a7d5566e165e59084ad4c5bd3759652272d7c4afc5e0a9806fea9c981bedb2ab79771d1b99852bbef00f9",
+                    "SHA3-256": "f9ff00f2680521e3d577c224318250ac63524c891b6406501d738ecde957a8b1",
+                    "SHA3-512": "e162930222f668754b21c544eb5f9162af36869d3fbe71e5d30a962bc6703351dbd1cfb70121e8a12173b34f9bd2562028bab22bbd595ac657a4d604f537e636"
+                },
+                "external_id": "nngzSMLJPeEgxAdC"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0b9e25f9-e7e5-4ea9-8bb5-fb5decdbd511"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--0b9e25f9-e7e5-4ea9-8bb5-fb5decdbd511",
+        "created_by_ref": "identity--07f2fa81-19ce-4112-a93b-86744a4aafbe",
+        "created": "2021-08-14T01:08:51.203757Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2828523e-b28d-4046-9afc-51d22e18d79b",
+                "name": "Social price record ever reveal physical each",
+                "create_date_time": "2021-08-14T01:08:08.418751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.418527Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--07f2fa81-19ce-4112-a93b-86744a4aafbe",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-04-15T17:00:46.689978Z",
+        "modified": "2022-12-10T00:29:06.075939Z",
+        "name": "InformationRequireShort",
+        "description": "Phased reciprocal definition",
+        "roles": [
+            "yourself"
+        ],
+        "sectors": [
+            "construction",
+            "telecommunications",
+            "government"
+        ],
+        "contact_information": "689 Tammy Courts\nNorth Josefurt, OH 57477",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 62,
+        "external_references": [
+            {
+                "source_name": "occur",
+                "description": "Worry air maintain range watch important suggest own.",
+                "url": "http://www.rose.org/",
+                "hashes": {
+                    "MD5": "d202b432c76202549a1f8f1878977add",
+                    "SHA-1": "b9e851a2cc8134f90912a6264b3012536266ab5c",
+                    "SHA-256": "77b4d964c6febb25ff016d5a034efec9cc91afab5b74aa3561bf779722d61e58",
+                    "SHA-512": "5beeb18560e6f46d940a8ba27e0f47a5679c6770569503a2ee6f4bc17e8f1f3eb3df63d369ac6f90dcc902504bda3cb66ce2d8fc70939862fa2a9a9018378c4b",
+                    "SHA3-256": "ab002afbcd26f7fd41cacc2ae752297c69de3fc2929dfa63fe9065670e609dfe",
+                    "SHA3-512": "85f6f86dd5bee24d373ddd81fc644d4cb83b774be7761b1b497b52905a78da7c6531cef652da6b21a711c005ead9122adffd8f1943fb0d813fc2ae45bbe1c5ef"
+                },
+                "external_id": "AFqnxudVQByZMdqvs"
+            },
+            {
+                "source_name": "director",
+                "description": "Job view seven money need director.",
+                "url": "http://evans-villarreal.com/",
+                "external_id": "ZvafGvAYdmmaAp"
+            },
+            {
+                "source_name": "situation",
+                "description": "Girl yes certainly know administration.",
+                "url": "http://www.schultz.biz/",
+                "hashes": {
+                    "MD5": "b8e4b358de2001ad6c789ddeb34c5fa8",
+                    "SHA-1": "c12afd3a851ddf094741568a06d5ef7e58d7c92a",
+                    "SHA-256": "ddec4f76ffab0d22d4433b740fd34c5a6ee2ceff69ce9a9f7ee05a9ccda66a30",
+                    "SHA-512": "8f7776d0ac09b54507e09dfabdbdba158e53cdd796f857f6e5b5d8a6f5733c93d14bdb08865417395578bc6ec8fea45b7b5d5e6c79f52044aa3422af19925e02",
+                    "SHA3-256": "cd7a0a608eda7091160ed5ed4adc3bd15ff2e1bec56dd8f9d0231c8ad15cccae",
+                    "SHA3-512": "b4831034c742d6793bf61b82b4b8c053b14a494c305f23c7e135112488d40bdcb943827c5799092d9c4b47005c34ae6dbe4fb28bc077d7f0b5cedf7e2b72c880"
+                }
+            },
+            {
+                "source_name": "hair",
+                "description": "Reality development memory together.",
+                "url": "https://mayo.net/",
+                "hashes": {
+                    "MD5": "93f1f632dd27d0f5b57c1797bf9b0b6b",
+                    "SHA-1": "ae2677786b48a45779428fc55ddb7108d28e3e7c",
+                    "SHA-256": "82553e3f1bf10ee36c1b9f5a92f8c50c078dd023c259af6237ba4693e0046f56",
+                    "SHA-512": "b3882619cac6dde5c375034ca7d9a5a71275f797cfe528ddfff3abb1e15b0ff2471e567cd697f2d9011618ae142a1ced56063a763309337bb65cceda68e8207a",
+                    "SHA3-256": "922f138893a84a689c5bb5aaad2ea594bfcd388312bc4b6659e867043e5d4f90",
+                    "SHA3-512": "8646a6d6253b4056f92b8e9a8ddf7ced863b003d7ab7ce7c101b6377cf9500795d174fc7bc8497ba83457a717f22b08044941b8dd7105c093e295570302117b6"
+                },
+                "external_id": "kuXKZFRAVQnxX"
+            },
+            {
+                "source_name": "single",
+                "description": "Wall car model arrive these stage.",
+                "url": "http://www.hobbs.com/",
+                "hashes": {
+                    "MD5": "440b9dbc333e97f48a098efa928f9b75",
+                    "SHA-1": "956dbf9f549bb62afc42ef3bb33291cea810aae2",
+                    "SHA-256": "ee8128c228f6653ba9f39f2fe4ccab6de1abd7845ce27d67fba13ed3373415ee",
+                    "SHA-512": "dcdb1ef1f46f31659d21ee4e4b50beed8a8c585e71ff33affbfbe353c42c8e66d7ab55da5b4da42c9df8646d506d2fb7964ea180f28051e254939ef17552ed3b",
+                    "SHA3-256": "c7034be78b74f7021e988924e9f225bab96f23dbb8a70bf6dc97ddd4b6b1a9a5",
+                    "SHA3-512": "aad555fc97c6334b33a808a05698a2b30d8a174f84709d6d5059d19a331675aad693e15b89c95f12997868ba37651af578c9f397540bc4541a41b71049d0bfd6"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0b9e25f9-e7e5-4ea9-8bb5-fb5decdbd511"
+        ]
+    }
+]

@@ -1,0 +1,213 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--79eca09b-0b6e-43db-a1b1-e7f73b1bccec",
+        "created_by_ref": "identity--7f08a532-7b70-40a8-bebf-cacdef40d529",
+        "created": "2021-10-12T16:49:58.074795Z",
+        "modified": "2022-07-04T06:01:53.458328Z",
+        "indicator_types": [
+            "anomalous-activity",
+            "unknown",
+            "anonymization",
+            "anonymization",
+            "compromised"
+        ],
+        "pattern": "([network-traffic:src_byte_count > 972149] OR [software:name > 'tzUjgzECUmlDrj'] OR [domain-name:value NOT = 'drake-henry.info'] OR (([autonomous-system:number = -220] OR [autonomous-system:rir >= 'Tapia, Nelson and Williams']) REPEATS 5 TIMES))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-01-14T11:32:01.127935Z",
+        "valid_until": "2021-08-12T21:53:49.68335Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--25e34783-e49a-4d31-9cfe-3cc3188db9b5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--fb6333dd-d5b6-4059-91d9-2f3ede13d475",
+        "created_by_ref": "identity--7f08a532-7b70-40a8-bebf-cacdef40d529",
+        "created": "2022-02-13T07:05:08.754724Z",
+        "modified": "2022-03-06T04:22:34.83991Z",
+        "name": "activity",
+        "description": "Day enjoy two them direction leg.",
+        "aliases": [
+            "car",
+            "half",
+            "push",
+            "order"
+        ],
+        "last_seen": "2022-07-14T17:48:34.531376Z",
+        "objective": "Various community various different sense race.",
+        "labels": [
+            "water",
+            "school",
+            "debate",
+            "pfte-batch-1"
+        ],
+        "confidence": 94,
+        "object_marking_refs": [
+            "marking-definition--25e34783-e49a-4d31-9cfe-3cc3188db9b5"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--2194da3b-c45b-47dd-ac58-6cf603d6611a",
+        "created_by_ref": "identity--7f08a532-7b70-40a8-bebf-cacdef40d529",
+        "created": "2021-11-06T01:25:41.427794Z",
+        "modified": "2022-04-30T01:01:12.569712Z",
+        "relationship_type": "indicates",
+        "description": "Customer across cultural moment walk might. Billion situation space.",
+        "source_ref": "indicator--79eca09b-0b6e-43db-a1b1-e7f73b1bccec",
+        "target_ref": "campaign--fb6333dd-d5b6-4059-91d9-2f3ede13d475",
+        "stop_time": "2021-12-15T02:06:59.742403Z",
+        "confidence": 82,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "develop",
+                "description": "Trip son able.",
+                "url": "https://daniels.org/",
+                "hashes": {
+                    "MD5": "08446ee621faa8af0927e06f8b206a55",
+                    "SHA-1": "7ed8ff00730511ac274d1744adff38ad952d3634",
+                    "SHA-256": "c278526caa2504fe8efdc0d90e23ee2209b432ae959d9d6d08364df580ce1ed1",
+                    "SHA-512": "106f6887fdb218f65d61b072fcdc1a3dfa2ebd38b71144957eb64daf6b582896d0324f5f55262d1ec321909a93a7309dbd3b2c673346ae6ee78211878668318d",
+                    "SHA3-256": "4e980e4866f28c67d0611df26c0691dbd9dc346a54bad8dd0a1eb628e1424799",
+                    "SHA3-512": "81a82412fd844865f96de324dfc1244bd9f5e1ef0ed2bdbd9f6153527c0cb6e6aa69e5835e274b78742f9bf66e2a5ae7cefc20b4257a1cdff244ec9cebcef432"
+                },
+                "external_id": "usdfwlIaIl"
+            },
+            {
+                "source_name": "state",
+                "description": "By population form eat."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--25e34783-e49a-4d31-9cfe-3cc3188db9b5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--0d17b425-8ec9-48f5-aa47-d786f0859ab6",
+        "created_by_ref": "identity--7f08a532-7b70-40a8-bebf-cacdef40d529",
+        "created": "2021-05-18T02:47:52.652819Z",
+        "modified": "2021-11-16T13:23:28.809315Z",
+        "context": "suspicious-activity",
+        "object_refs": [
+            "indicator--79eca09b-0b6e-43db-a1b1-e7f73b1bccec",
+            "campaign--fb6333dd-d5b6-4059-91d9-2f3ede13d475",
+            "relationship--2194da3b-c45b-47dd-ac58-6cf603d6611a"
+        ],
+        "labels": [
+            "paper",
+            "research",
+            "very",
+            "that",
+            "pfte-batch-1"
+        ],
+        "confidence": 98,
+        "external_references": [
+            {
+                "source_name": "grow",
+                "url": "http://johnston-patterson.org/",
+                "hashes": {
+                    "MD5": "6fe8c9a76967d2e5f0ffb53cc1721945",
+                    "SHA-1": "a7c2b5f5420f72eaee715da3d90d6371acc7eb47",
+                    "SHA-256": "36f9b34de4cd1e55d723d8bfaa2d27efe19eeeb1bd9eba39cb83b441bf231c55",
+                    "SHA-512": "dcd83cc867472edc7beae05eababc45a851190c675f2f50638e58474adfbbe853e06a66f587fd0891b128d364735bdb91b3b50d9ff718c7329ef4b9d23b99783",
+                    "SHA3-256": "59547fb848727d6c8b428bb962ae414596d3dbf70c118b536c0d358d8327d006",
+                    "SHA3-512": "d938abd22d1f6517d25b6bc917f5593ed9ba9e6e0befd2d9f9f8e6f989b01e4e1faff3d7824fa95fd39faac28d4c7435fe96ed72a0a26233a21b45c20c1ee448"
+                }
+            },
+            {
+                "source_name": "high",
+                "url": "http://www.reid.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--25e34783-e49a-4d31-9cfe-3cc3188db9b5"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7f08a532-7b70-40a8-bebf-cacdef40d529",
+        "created_by_ref": "identity--7f08a532-7b70-40a8-bebf-cacdef40d529",
+        "created": "2022-06-21T06:10:02.450741Z",
+        "modified": "2023-01-26T11:08:37.128592Z",
+        "name": "Wilson Group",
+        "contact_information": "88556 Rodriguez Wells Suite 306\nMeganhaven, NV 83733",
+        "confidence": 65,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "shake",
+                "description": "Hard seek resource sit economy.",
+                "url": "http://www.johnson-chavez.com/",
+                "hashes": {
+                    "MD5": "ceac81be152bfbf1019c497ac71b2ec2",
+                    "SHA-1": "f3e902f20060d5fa75b086947d3ca414db7f8264",
+                    "SHA-256": "0fc782cac0761799155414a43fc7305b4026203f8276fad220d0e6c6c5695170",
+                    "SHA-512": "6c98df095c27782abaf58c21d1b4d955c437b7276d51eb7f62d07d9dac96582ec1e33f684ca797737c5bc64d3cc0a431e57fd8e39aa2d6acfec58373fcc0c9da",
+                    "SHA3-256": "a778f965ca6101c71776569ce8676f291eaf8048fa4338d31633a0136769da99",
+                    "SHA3-512": "3d0d3581b295f023b80b76025aee56736089c570739dce8f47204b00a19d7910541673fab136b62d786964bb676bff4a09b9fbe8cbc40a2eac972e6f51fe8d16"
+                },
+                "external_id": "wQrAG"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--25e34783-e49a-4d31-9cfe-3cc3188db9b5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--25e34783-e49a-4d31-9cfe-3cc3188db9b5",
+        "created": "2021-08-14T01:08:29.070707Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fb4e63d-338f-4f0a-b771-dd937b9aaabe",
+                "name": "Human on join spring",
+                "create_date_time": "2021-08-14T01:08:08.425512Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.425314Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

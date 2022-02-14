@@ -1,0 +1,189 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--b42dc06e-008d-472d-81c1-bfc3dd484edd",
+        "created_by_ref": "identity--0d687b01-b0ac-41fa-b058-3d1f81295985",
+        "created": "2022-01-12T14:30:23.754239Z",
+        "modified": "2022-12-07T17:00:00.444202Z",
+        "pattern": "([file:mime_type = 'image/svg+xml']) FOLLOWEDBY [ipv6-addr:value NOT = 'd43d:6da2:d42f:cdb:c4a7:2284:3cd2:cf80'] FOLLOWEDBY [user-account:account_created = t'2022-03-08T15:38:56.006201Z'] FOLLOWEDBY [mac-addr:defanged = false AND (mac-addr:value <= '81:1b:4f:94:90:fb')]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-07-17T15:24:18.872028Z",
+        "confidence": 87,
+        "object_marking_refs": [
+            "marking-definition--fc361d42-645b-45a6-9cbe-34aa001ebe81"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--d4c3bfe0-7105-4853-8f2b-21a483efcc6d",
+        "created_by_ref": "identity--0d687b01-b0ac-41fa-b058-3d1f81295985",
+        "created": "2021-02-02T06:01:48.409631Z",
+        "modified": "2021-08-14T01:08:33.800977Z",
+        "name": "most",
+        "description": "Enjoy need service sense.",
+        "threat_actor_types": [
+            "hacker",
+            "spy",
+            "competitor",
+            "nation-state"
+        ],
+        "first_seen": "2020-09-16T11:57:34.463411Z",
+        "roles": [
+            "malware-author",
+            "malware-author"
+        ],
+        "primary_motivation": "ideology",
+        "secondary_motivations": [
+            "coercion",
+            "unpredictable",
+            "revenge",
+            "notoriety"
+        ],
+        "personal_motivations": [
+            "personal-satisfaction",
+            "unpredictable"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fc361d42-645b-45a6-9cbe-34aa001ebe81"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e828342c-24a2-4d64-ae31-c66a12d39eed",
+        "created_by_ref": "identity--0d687b01-b0ac-41fa-b058-3d1f81295985",
+        "created": "2020-12-31T04:32:10.024212Z",
+        "modified": "2021-11-30T11:19:09.975676Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--b42dc06e-008d-472d-81c1-bfc3dd484edd",
+        "target_ref": "threat-actor--d4c3bfe0-7105-4853-8f2b-21a483efcc6d",
+        "confidence": 9,
+        "object_marking_refs": [
+            "marking-definition--fc361d42-645b-45a6-9cbe-34aa001ebe81"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--fc361d42-645b-45a6-9cbe-34aa001ebe81",
+        "created_by_ref": "identity--0d687b01-b0ac-41fa-b058-3d1f81295985",
+        "created": "2021-08-14T01:08:33.796901Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e665ae49-7536-4ce4-b3ac-ad9803b6185e",
+                "name": "Push teach indeed like accept",
+                "create_date_time": "2021-08-14T01:08:08.423274Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0d687b01-b0ac-41fa-b058-3d1f81295985",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-12-26T05:40:12.947846Z",
+        "modified": "2022-03-09T07:35:02.050492Z",
+        "name": "Santiago and Sons",
+        "description": "Inverse responsive superstructure",
+        "sectors": [
+            "manufacturing",
+            "dams"
+        ],
+        "contact_information": "13457 Kimberly Loaf Suite 834\nNorth Nancyhaven, OK 76726",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "image",
+                "url": "http://www.ward.com/",
+                "hashes": {
+                    "MD5": "5d7838d9a08e3c9f87e3faa67416dc5d",
+                    "SHA-1": "080425816fc415a5513b791e8aed190a1b24f3ac",
+                    "SHA-256": "7326e79bb359a9635b7e3d5cb6a5d604f0431053807c31354f511c8c2da3f3d5",
+                    "SHA-512": "8030f5b5843409a8089feeea238542bad676c8c82f9cb6af1438ff9c03259ec56620f195b175ab917cf1f53bb31ee955d3d60009036aceb2b2edb79986b00d30",
+                    "SHA3-256": "8d64e34617d367e82c3e55b712e9e5ab1970701c185b2aace26586898d5d6e4a",
+                    "SHA3-512": "3f9891e9f219ee79c86f144f5d99c1ff94081afe17b69df69560d7fa3cfe29f268fdae9a483bf5262d4d78ca07a6a16d007fe20022cd55f542929c8d2cef7c0b"
+                }
+            },
+            {
+                "source_name": "series",
+                "description": "Fish enter huge matter cut.",
+                "external_id": "IZUKWxhIXNUDFBsZDT"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fc361d42-645b-45a6-9cbe-34aa001ebe81"
+        ]
+    }
+]

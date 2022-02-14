@@ -1,0 +1,235 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--3002ac62-b875-4477-9d8b-504f8bd107e4",
+        "created_by_ref": "identity--5af1bb1d-18ee-410e-bd54-291bd0ec42c7",
+        "created": "2021-07-02T00:50:33.620136Z",
+        "modified": "2022-02-08T23:39:45.568834Z",
+        "name": "second",
+        "pattern": "([x509-certificate:subject = 'house']) FOLLOWEDBY [file:hashes.'SHA3-512' = 'b40e5246f1d7799d9de2dc286d0ae8c901991343b141b41ef7735579cd29bac565d284c070c5eeba0a6eda4c4a51dc005e3107dfcdfce98f62179850a0f24205'] FOLLOWEDBY [(user-account:user_id >= 'lori29') OR email-addr:value < 'andrewschristian@miller.info']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-10-06T19:33:39.396385Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "QcfdicezqRGNWyuuUq",
+                "phase_name": "wIpQcLcZXct"
+            },
+            {
+                "kill_chain_name": "XjMFWENxKQFUreNOicq",
+                "phase_name": "deSliJpLh"
+            }
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--086da474-e50c-49d0-93e2-ed60ab44fcfc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--fc376cf6-8ccc-4ba5-b855-39f3f63d78b0",
+        "created_by_ref": "identity--5af1bb1d-18ee-410e-bd54-291bd0ec42c7",
+        "created": "2021-08-26T22:58:19.51286Z",
+        "modified": "2022-01-03T18:05:29.948682Z",
+        "name": "thus",
+        "description": "Clear specific nation various evidence environment nor.",
+        "threat_actor_types": [
+            "competitor",
+            "insider-accidental",
+            "nation-state",
+            "insider-accidental"
+        ],
+        "first_seen": "2020-10-12T10:31:36.158697Z",
+        "goals": [
+            "grow"
+        ],
+        "resource_level": "government",
+        "primary_motivation": "dominance",
+        "labels": [
+            "such",
+            "fine",
+            "accept",
+            "assume",
+            "international",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "day",
+                "description": "Station accept treatment film all scientist.",
+                "hashes": {
+                    "MD5": "51933e89135c327551a9d76a0edb0256",
+                    "SHA-1": "37db309723476d5d198e9143b02a6a252c543bc3",
+                    "SHA-256": "712b328ee68a0f97d21707bc1b6e76fb5386a054fedc8d904dbf996cd74a8c23",
+                    "SHA-512": "4074a8dffa85b2287751682cf9b41c634a354986f53dfd75417a1b1acb3f13534c6e320ad1f475925125e0ada83bf179e883b0aab9a555a9bff261c09a468886",
+                    "SHA3-256": "635082e205d656f7b49ddfe454e44537ecb2d5b519e26572b85d852edd9eda27",
+                    "SHA3-512": "837ab0ea54a623b0b5f94df8e731cf5a583560be7235d5c04fbd6b5573182e0441a602580d5cc60171521ea2249c8fd182312740081e954bd2a6d2f6e5147b0f"
+                },
+                "external_id": "QgOhcvJefdvTLxPmqW"
+            },
+            {
+                "source_name": "other",
+                "url": "http://www.williams.com/",
+                "hashes": {
+                    "MD5": "43357e57c5e7572cb73f767bfb1a6713",
+                    "SHA-1": "c7465662c4efd299b4a7e15af6b420cac00e4fe6",
+                    "SHA-256": "30bbe7db11011333b19922269e6503b4ddd3f555ce2b45ba2fae31599e8da509",
+                    "SHA-512": "971bf15b39d04e30490a638fbb3a415235e87f72fe63c68e754185777685da0d37367a8d45ebf438df7cb9caecd42be8a5bf7618e3aaa00dba7bdcd637ab805f",
+                    "SHA3-256": "4de2977d5a574b78edd631aa51f64008996efcb653eda2f27a339235f8ca2eeb",
+                    "SHA3-512": "7c52872fef9d8ecca074f433d951babf0e29cb12132504f93f5f99e5dd06ba3a2872aaa38c178576f6932329b87b4177bb1c15f9e2eb7341ae35f89a656346d2"
+                },
+                "external_id": "UrXrrCPLCv"
+            },
+            {
+                "source_name": "office",
+                "description": "Any everybody oil campaign able.",
+                "url": "http://pham-murray.com/",
+                "external_id": "GWBhFVe"
+            },
+            {
+                "source_name": "feeling",
+                "description": "Middle personal single enough she audience cultural.",
+                "url": "http://bryant-figueroa.com/"
+            },
+            {
+                "source_name": "power",
+                "description": "Because audience management forward him develop until.",
+                "url": "http://kelly-carroll.biz/",
+                "external_id": "dLUik"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--086da474-e50c-49d0-93e2-ed60ab44fcfc"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--24699ece-ff81-4ffb-bdfa-3a0a8c116a2c",
+        "created_by_ref": "identity--5af1bb1d-18ee-410e-bd54-291bd0ec42c7",
+        "created": "2021-04-14T23:22:00.803488Z",
+        "modified": "2021-12-18T10:09:45.902426Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--3002ac62-b875-4477-9d8b-504f8bd107e4",
+        "target_ref": "threat-actor--fc376cf6-8ccc-4ba5-b855-39f3f63d78b0",
+        "stop_time": "2021-11-25T23:52:10.109759Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "light",
+                "description": "Across account letter which save police sing possible.",
+                "url": "http://www.smith.com/",
+                "hashes": {
+                    "MD5": "a6488320a369ae2c83a0a49b872cdbb5",
+                    "SHA-1": "9a5c95e242fdcff8cb3cbb0dbe48b095d2be46ae",
+                    "SHA-256": "a288f6b0594352f40a6a52b643973d7b03bb01b5a7c8a3a7662729b23cde1b3d",
+                    "SHA-512": "5d807adc0c77095d94a94fbf8e3096510d82ca802b65d9900c358aa41454492488ef13a43750d946b3a7f6b0a5a92716ba84abd58550e1519518ceff8d250788",
+                    "SHA3-256": "b95993e26d57de7e85eaa5f68773713a3aecb019908fb4e1d34a30ca0587fb1b",
+                    "SHA3-512": "2aa6469de36bea0fdbcdc306d1c1ac3a4cc148c3abd98b6457b23e2d6183ce5eebc5796deef8180c9d8c2233d7d11a1cfad4a525acadd4838b6993d495439891"
+                },
+                "external_id": "PZFAiTnmORwonpreZruI"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--086da474-e50c-49d0-93e2-ed60ab44fcfc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--086da474-e50c-49d0-93e2-ed60ab44fcfc",
+        "created_by_ref": "identity--5af1bb1d-18ee-410e-bd54-291bd0ec42c7",
+        "created": "2021-08-14T01:08:33.590037Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-15d3e0eb-8dda-4b6b-a55d-5c6a8a6d490b",
+                "name": "Clearly industry family",
+                "create_date_time": "2021-08-14T01:08:08.420657Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5af1bb1d-18ee-410e-bd54-291bd0ec42c7",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-01-16T01:00:41.251128Z",
+        "modified": "2022-10-07T14:51:31.673445Z",
+        "name": "Robbins, Smith and Acosta",
+        "description": "Self-enabling scalable workforce",
+        "roles": [
+            "hot",
+            "work"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--086da474-e50c-49d0-93e2-ed60ab44fcfc"
+        ]
+    }
+]

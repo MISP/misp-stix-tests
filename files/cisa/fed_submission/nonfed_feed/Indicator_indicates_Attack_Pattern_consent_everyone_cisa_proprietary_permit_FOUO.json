@@ -1,0 +1,155 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--41467bbd-025a-4746-a702-6ce9041a32d9",
+        "created_by_ref": "identity--1ac9ae8a-c0fb-4d69-aee8-674011e98095",
+        "created": "2022-04-25T04:21:27.537487Z",
+        "modified": "2023-01-29T20:40:45.800118Z",
+        "indicator_types": [
+            "benign",
+            "unknown"
+        ],
+        "pattern": "[ipv6-addr:defanged NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-06-06T11:24:46.049186Z",
+        "valid_until": "2020-11-28T12:37:56.19416Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 86,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--b965099c-22e1-43f1-9be7-8e8f21292542",
+        "created_by_ref": "identity--1ac9ae8a-c0fb-4d69-aee8-674011e98095",
+        "created": "2021-04-11T23:30:23.048806Z",
+        "modified": "2021-08-21T10:48:56.93838Z",
+        "name": "central",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "aZxmRrzWJk",
+                "phase_name": "CZbeWIkWAXedC"
+            }
+        ],
+        "labels": [
+            "international",
+            "office",
+            "push",
+            "pfte-batch-1"
+        ],
+        "confidence": 48,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--6421dc4a-cdb3-4e69-8846-db9e3de5c8be",
+        "created_by_ref": "identity--1ac9ae8a-c0fb-4d69-aee8-674011e98095",
+        "created": "2021-07-18T02:11:09.043583Z",
+        "modified": "2022-02-22T21:04:29.07929Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--41467bbd-025a-4746-a702-6ce9041a32d9",
+        "target_ref": "attack-pattern--b965099c-22e1-43f1-9be7-8e8f21292542",
+        "start_time": "2021-09-11T11:57:29.825368Z",
+        "labels": [
+            "in",
+            "both",
+            "choose",
+            "pfte-batch-1"
+        ],
+        "confidence": 86,
+        "external_references": [
+            {
+                "source_name": "pick",
+                "url": "http://yu.com/",
+                "hashes": {
+                    "MD5": "5e6684512f6f0242fb4beab883e4d20f",
+                    "SHA-1": "b2f4f992433007a88362608ae6b20054e1c0cc52",
+                    "SHA-256": "4816af3e40f9ed8979c105af79fc889d1aa11d9fcfe33405e237217d71647d04",
+                    "SHA-512": "337af73039c6f2a6b9cc9af4e357d09417990f6f122526e075b3ddf193981b43be0fd4be5f177c8207f7ec240f633fdedbea9a77ee2ed005500ad115c51aac8b",
+                    "SHA3-256": "f6a1fa8917cc5744b7ce572b9531a7191efb5d6c5c6b37f919b2529992e9952f",
+                    "SHA3-512": "66e97b8bc78bcd1cc0b1f9c0b63f19f71f6b19535213ecdb63b3831423da8625d2302a8d995957f889780d10cdb09114e03fa41586d41515580ab7713b660077"
+                },
+                "external_id": "MpvUo"
+            },
+            {
+                "source_name": "food",
+                "description": "Child professional forward series our add issue lay.",
+                "url": "http://roberts.net/",
+                "hashes": {
+                    "MD5": "3cc8c2459d5d9b31627fce9c139a7fe3",
+                    "SHA-1": "265f4944db2ed8c58f37a73213329cc7912a9ac3",
+                    "SHA-256": "4214cdb35a1f6b0373cd0ead5eca0ac2e0cc9deba666d5ea963e8dbd338e4246",
+                    "SHA-512": "a06feefea9fc4efc94d583702d16278b9d1096bff75cf19a98a6ed96d18711f9a1a715e8570891abac3156f7043778a70d6ff0f8e2678e2aee825989272ef10e",
+                    "SHA3-256": "c0586969be92b192ee92616b67e40b35d0b96b1e7d5eee57687f110c137eb3d7",
+                    "SHA3-512": "d619ac57d336e18f9e265a68840c84b268e2de81cd43ac0992694a456464f34ae047e7af6260834ed6d3e8043a8873bafd18aca43868f5cb39b311b2dfb56d53"
+                },
+                "external_id": "CxiNFvxqpBHCqlHpA"
+            },
+            {
+                "source_name": "movement",
+                "description": "Truth new against.",
+                "url": "http://meyer.net/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1ac9ae8a-c0fb-4d69-aee8-674011e98095",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-04-24T16:40:17.937613Z",
+        "modified": "2022-07-29T07:22:29.767856Z",
+        "name": "Mccarthy Ltd",
+        "roles": [
+            "color"
+        ],
+        "identity_class": "unknown",
+        "sectors": [
+            "energy",
+            "defense",
+            "technology",
+            "utilities"
+        ],
+        "contact_information": "63298 Livingston Lane\nEdwinborough, CO 79340",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "think",
+                "description": "Today outside PM black well up culture.",
+                "url": "https://little.com/",
+                "hashes": {
+                    "MD5": "4d3876cadb311302f35a5711e8730981",
+                    "SHA-1": "d245ed76a75bf1bc02f13c0347d584a6b1ef2d55",
+                    "SHA-256": "cb16d63b3a6c99295c8df8a4aeb1f65f29fe4d6fe9e06469993f4c0c266c7c2f",
+                    "SHA-512": "926c2f78ae92b3b9d6377d935effc5e5d394760dd63bdc565fb7960d776b8c52f88511b5a768b37fa85d93d192762d2de734b7146e107a11bd0553f11879503a",
+                    "SHA3-256": "0170ceab35a57e0d6d5e476932cde5b65c1b5079be43c9421a81f41cd4ee0279",
+                    "SHA3-512": "6e7f98812fbf69cd59c5cae59306c27a4865e24732ddda229b20375719dcf3230ee3e4a28a38eb05c4204798cee08c80c8a8dd310074f23e5fb1b4009b8000a0"
+                },
+                "external_id": "aUMNFxxjvA"
+            },
+            {
+                "source_name": "security",
+                "url": "https://smith.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

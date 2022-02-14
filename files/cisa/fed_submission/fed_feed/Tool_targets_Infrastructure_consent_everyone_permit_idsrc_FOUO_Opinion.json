@@ -1,0 +1,237 @@
+[
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--d078665a-51d5-432a-a163-7b3974cef70d",
+        "created_by_ref": "identity--b3668dde-1b4b-4568-b0e7-c991c2aa1978",
+        "created": "2022-02-01T22:11:26.897393Z",
+        "modified": "2022-04-03T05:00:22.758852Z",
+        "name": "near",
+        "description": "Account stop owner role include.",
+        "tool_types": [
+            "information-gathering",
+            "unknown"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lOFbPskO",
+                "phase_name": "kUHxNdxuyPaI"
+            },
+            {
+                "kill_chain_name": "jBMVJIduIWilnDRJ",
+                "phase_name": "CsSkUxTjvd"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "tool_version": "camera",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7bb771f7-f230-45bc-8187-ffb3d1dffdfb"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--6010fb18-be17-46f9-b32f-3b6578dbb516",
+        "created_by_ref": "identity--b3668dde-1b4b-4568-b0e7-c991c2aa1978",
+        "created": "2022-02-25T04:27:38.264145Z",
+        "modified": "2022-08-16T12:48:23.352077Z",
+        "name": "world",
+        "description": "Early something light conference if money like.",
+        "infrastructure_types": [
+            "phishing",
+            "unknown",
+            "exfiltration"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "confidence": 30,
+        "external_references": [
+            {
+                "source_name": "just",
+                "description": "Collection option make money from research item.",
+                "hashes": {
+                    "MD5": "4346c24cf49774fc77f2f551ec04cfef",
+                    "SHA-1": "93ea302152ca44582f91699c8c3259bf55fa87f7",
+                    "SHA-256": "9f26c591624b74e3e0d000d75bdc2df53cc432373dbd241f0eb606e1b792ec78",
+                    "SHA-512": "917f431cf25ac2def3140715e5d84cd4960646b7715ed27bce5d497abefe77b5e8654e1753525426dfdf7c747c7106049e3d4264b4c0cf937f1f378f1ffdd8a8",
+                    "SHA3-256": "fa04b8b35a0a8f99e087cb7dc3c5a0f8d25054aafaaf0e19a64b520c798d763f",
+                    "SHA3-512": "f2f4f2479737a456289678af96ba1be67f31f44ce8e777f41243fa5c9ad4a8e0d4877450007a475b84d3e038f89ad8ed2addc3abcab34b3db429403f44846e3a"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7bb771f7-f230-45bc-8187-ffb3d1dffdfb"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c06744e1-5e4d-44ee-a2da-cb0aea3f35e4",
+        "created_by_ref": "identity--b3668dde-1b4b-4568-b0e7-c991c2aa1978",
+        "created": "2021-02-04T00:48:52.887789Z",
+        "modified": "2022-01-31T18:16:17.378403Z",
+        "relationship_type": "targets",
+        "source_ref": "tool--d078665a-51d5-432a-a163-7b3974cef70d",
+        "target_ref": "infrastructure--6010fb18-be17-46f9-b32f-3b6578dbb516",
+        "labels": [
+            "market",
+            "involve",
+            "military",
+            "among",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7bb771f7-f230-45bc-8187-ffb3d1dffdfb"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--13901915-f7eb-42a2-8dc6-36bb4e17c393",
+        "created_by_ref": "identity--b3668dde-1b4b-4568-b0e7-c991c2aa1978",
+        "created": "2022-03-22T12:44:19.75041Z",
+        "modified": "2022-12-07T10:51:16.698809Z",
+        "opinion": "strongly-agree",
+        "object_refs": [
+            "tool--d078665a-51d5-432a-a163-7b3974cef70d",
+            "infrastructure--6010fb18-be17-46f9-b32f-3b6578dbb516",
+            "relationship--c06744e1-5e4d-44ee-a2da-cb0aea3f35e4"
+        ],
+        "external_references": [
+            {
+                "source_name": "suffer",
+                "url": "https://www.lopez.info/",
+                "hashes": {
+                    "MD5": "f26bc2ed9eae6ab8900aec487aa34445",
+                    "SHA-1": "bcea82d16d74423a5d615a09bd1c1901d9166057",
+                    "SHA-256": "5560b5fdcf5e5fb714d76f671a315934d17973ac60362227533d1b6d5661a414",
+                    "SHA-512": "7b1901f99e8abf1e712c06899081601f53501d4fbb9ef8810b24255fb80288af5dd9d986407048d81962e08558d87833cecb9aed6c460040a084bf61a88041cf",
+                    "SHA3-256": "2dc839fe6c1e5512b23f6ac9ef1fa9d4d3782b4391a41d984243d81c9888b11b",
+                    "SHA3-512": "08de2340e5dcc09c10a690f91369e57c7505fa804b11dc9f5303eacf1da3580c21df54eb0ccbf7dacd46a7e9640c86b35ed684e1c67f176103c549eca1e2e392"
+                },
+                "external_id": "ykWmAe"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7bb771f7-f230-45bc-8187-ffb3d1dffdfb"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b3668dde-1b4b-4568-b0e7-c991c2aa1978",
+        "created_by_ref": "identity--b3668dde-1b4b-4568-b0e7-c991c2aa1978",
+        "created": "2021-07-26T16:17:56.924444Z",
+        "modified": "2021-11-02T03:44:53.848458Z",
+        "name": "Brock, Pratt and Crane",
+        "description": "User-centric static matrix",
+        "roles": [
+            "recently",
+            "fly",
+            "exactly"
+        ],
+        "identity_class": "group",
+        "sectors": [
+            "government-local"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 28,
+        "object_marking_refs": [
+            "marking-definition--7bb771f7-f230-45bc-8187-ffb3d1dffdfb"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--7bb771f7-f230-45bc-8187-ffb3d1dffdfb",
+        "created": "2021-08-14T01:09:40.065056Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f97bfbf2-c194-4d73-b792-b989c4ea0ab5",
+                "name": "Focus develop ago various",
+                "create_date_time": "2021-08-14T01:08:08.431216Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

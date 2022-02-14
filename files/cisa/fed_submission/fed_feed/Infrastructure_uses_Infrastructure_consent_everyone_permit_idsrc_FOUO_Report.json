@@ -1,0 +1,305 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--8f7bdd27-7958-4295-9838-fe6948f9f7d1",
+        "created_by_ref": "identity--7f72f236-63d6-4cd2-a7e1-19b0551e828f",
+        "created": "2022-05-22T15:01:54.852818Z",
+        "modified": "2023-03-26T05:07:13.754187Z",
+        "name": "serve",
+        "aliases": [
+            "myself",
+            "cost",
+            "part",
+            "cell",
+            "picture"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "xEsbvmDoGgHMCaAWRg",
+                "phase_name": "DzFZMXBopUrJxIbKdRi"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "tVDZGpJUEUEWpdkVkK",
+                "phase_name": "AqrXkXTEKmhx"
+            },
+            {
+                "kill_chain_name": "zcxSdOkySQVmXlS",
+                "phase_name": "UfEtJzBMxYWngBvECptQ"
+            }
+        ],
+        "first_seen": "2022-07-30T17:49:07.903446Z",
+        "labels": [
+            "might",
+            "successful",
+            "into",
+            "he",
+            "example",
+            "pfte-batch-1"
+        ],
+        "confidence": 27,
+        "external_references": [
+            {
+                "source_name": "party",
+                "external_id": "BkbQMRmK"
+            },
+            {
+                "source_name": "moment",
+                "description": "Tend should wrong.",
+                "url": "https://berry.com/",
+                "hashes": {
+                    "MD5": "ddba21bc2e9e54ae579b5c10b5eb2fdc",
+                    "SHA-1": "00a5a1223d8d80dad68349b850bee0b0257279bf",
+                    "SHA-256": "ed11b49964870cfcc2361c759d27960c9c9b8f0deb2bc741814033c82294c756",
+                    "SHA-512": "70d2f035b75c7a215e222b58beb4b6834161d4697a04a1ad912d40872c79fd91bfd45979798266ee9ff2a30cebf0f5ca9eef902a38c25f299f932a38aa727818",
+                    "SHA3-256": "e2d86fb0358cee9244cf62b9b6ffdc0c1fc3e7f86861cc5cdff83f1e089edceb",
+                    "SHA3-512": "7cc45e2fc54350623d9fe4b0075b845a9cbe2688260546378678e65e9742a097aa1a60288d06f53bb2749e3beae16d50d3d5fa7ad2c6dbe2dfc275236cdb7a27"
+                }
+            },
+            {
+                "source_name": "most",
+                "description": "Goal amount rest threat miss among majority play.",
+                "url": "http://nunez.biz/",
+                "external_id": "cyFJDu"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8c64866e-4be7-45ed-b689-6a6f95586033"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--0df4b89b-2885-4b1c-a86a-e0ccef1aea59",
+        "created_by_ref": "identity--7f72f236-63d6-4cd2-a7e1-19b0551e828f",
+        "created": "2020-10-15T03:51:06.265425Z",
+        "modified": "2021-08-22T18:23:01.141521Z",
+        "name": "accept",
+        "infrastructure_types": [
+            "reconnaissance",
+            "reconnaissance",
+            "exfiltration"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "orvdyyxyzPIqpagU",
+                "phase_name": "PpfLLsDtzcQk"
+            },
+            {
+                "kill_chain_name": "mTpMoADCquNbSP",
+                "phase_name": "vSTDHtXbQj"
+            }
+        ],
+        "first_seen": "2021-02-10T16:08:07.463636Z",
+        "last_seen": "2021-03-01T13:26:16.961826Z",
+        "confidence": 75,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--8c64866e-4be7-45ed-b689-6a6f95586033"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--87ce5345-7931-49c9-ba0d-3556ec6b917c",
+        "created_by_ref": "identity--7f72f236-63d6-4cd2-a7e1-19b0551e828f",
+        "created": "2021-06-09T21:33:49.367301Z",
+        "modified": "2022-04-26T21:08:01.156255Z",
+        "relationship_type": "uses",
+        "source_ref": "infrastructure--8f7bdd27-7958-4295-9838-fe6948f9f7d1",
+        "target_ref": "infrastructure--0df4b89b-2885-4b1c-a86a-e0ccef1aea59",
+        "start_time": "2020-12-09T17:13:01.354933Z",
+        "confidence": 87,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--8c64866e-4be7-45ed-b689-6a6f95586033"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--6e4c88ae-bdf8-408f-b0ce-8859c83d5bd2",
+        "created_by_ref": "identity--7f72f236-63d6-4cd2-a7e1-19b0551e828f",
+        "created": "2022-07-22T06:30:24.218199Z",
+        "modified": "2022-08-06T19:05:33.218871Z",
+        "name": "then",
+        "description": "Town development do here. Hot sea green turn to authority. Speech stuff agree official despite memory possible.",
+        "published": "2021-05-26T07:18:05.500213Z",
+        "object_refs": [
+            "infrastructure--8f7bdd27-7958-4295-9838-fe6948f9f7d1",
+            "infrastructure--0df4b89b-2885-4b1c-a86a-e0ccef1aea59",
+            "relationship--87ce5345-7931-49c9-ba0d-3556ec6b917c"
+        ],
+        "external_references": [
+            {
+                "source_name": "reveal",
+                "url": "https://www.rivera.com/"
+            },
+            {
+                "source_name": "interview",
+                "description": "High word view include technology will.",
+                "external_id": "OneJcXfvYjlAVjgB"
+            },
+            {
+                "source_name": "prevent",
+                "description": "Security great glass sort note become.",
+                "external_id": "plCQUIRqOn"
+            },
+            {
+                "source_name": "case",
+                "description": "According off professor citizen TV into audience.",
+                "url": "http://lucas-hartman.org/"
+            },
+            {
+                "source_name": "memory",
+                "description": "Everybody get story radio officer morning.",
+                "hashes": {
+                    "MD5": "b13ab8fef1ef982063c4c7c08717b1f4",
+                    "SHA-1": "08455556df64187a4bbd4ef39400d00ac333e8e3",
+                    "SHA-256": "d84ec6cca993aa0874e3df0b5bd67ee03b14dcd83599584b7cdec3cc914135ae",
+                    "SHA-512": "1acd3a8edf8464ce7322d5debd45d332d3c0a9d03b93b512e7514c8328ea2b1732ea8fe69fea0f4ef562814d4c7ee9f817d7cd43549600a2d038fd9ce639c89a",
+                    "SHA3-256": "4a5cc3d8dc294d6c02ddaabfbe965dd0abcec3458913df0aa894f0f5895ce87b",
+                    "SHA3-512": "64fdae1f55f09ee614ceb7cacf203102e96ee0f1c1a9d995e06d678583459fa8f5c3988420f02d34bfca59f3d1fa9859745bcb434dc788b53ed31a0296262a22"
+                },
+                "external_id": "mGSzdRi"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8c64866e-4be7-45ed-b689-6a6f95586033"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7f72f236-63d6-4cd2-a7e1-19b0551e828f",
+        "created_by_ref": "identity--7f72f236-63d6-4cd2-a7e1-19b0551e828f",
+        "created": "2022-06-30T01:13:30.401353Z",
+        "modified": "2022-11-04T07:44:56.371745Z",
+        "name": "Campbell-Sosa",
+        "identity_class": "organization",
+        "sectors": [
+            "mining"
+        ],
+        "contact_information": "32048 Jones Spring\nVickiemouth, NM 26640",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 60,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "all",
+                "description": "Employee south then meet road box.",
+                "url": "http://smith.com/",
+                "external_id": "XhgyQOrVqXDgNl"
+            },
+            {
+                "source_name": "various",
+                "description": "Serve company five social issue computer million.",
+                "url": "https://soto.biz/"
+            },
+            {
+                "source_name": "know",
+                "description": "Want risk debate suggest."
+            },
+            {
+                "source_name": "project",
+                "description": "Girl will parent sure fire."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8c64866e-4be7-45ed-b689-6a6f95586033"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--8c64866e-4be7-45ed-b689-6a6f95586033",
+        "created": "2021-08-14T01:08:51.006653Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f97bfbf2-c194-4d73-b792-b989c4ea0ab5",
+                "name": "Focus develop ago various",
+                "create_date_time": "2021-08-14T01:08:08.431216Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,204 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--898f6ce8-0100-4016-b362-00573290281e",
+        "created_by_ref": "identity--239e37d0-67b4-4320-b698-41e1b88fccbb",
+        "created": "2022-03-31T05:05:41.400556Z",
+        "modified": "2023-03-13T11:48:34.746722Z",
+        "description": "Although woman will finally.",
+        "indicator_types": [
+            "benign",
+            "compromised",
+            "unknown"
+        ],
+        "pattern": "[directory:path >= '/speech/table.mp3' AND directory:path_enc <= 'Big5' AND (directory:defanged NOT = false)] AND ([windows-registry-key:key <= 'geEiljBdEbrIjo'] OR ([software:defanged NOT = false] WITHIN 10 SECONDS))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-10-08T01:55:02.997847Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "CKeUXbWVuI",
+                "phase_name": "WGFGWB"
+            },
+            {
+                "kill_chain_name": "GbzoFCFOwDAWlVt",
+                "phase_name": "WCpQdbzEXJzfvLYAlfC"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "yard",
+                "description": "He major future fire.",
+                "url": "https://www.greene.com/",
+                "external_id": "SXgEOKLjfZNGoMWeKlh"
+            },
+            {
+                "source_name": "kind",
+                "url": "http://www.mcdaniel.com/",
+                "hashes": {
+                    "MD5": "7eedbdeb54f3eee920057a71fbf910cd",
+                    "SHA-1": "41db554b194e91ec3926a323dda40fb14dec78d7",
+                    "SHA-256": "46d0c87365fb87cc3bf20a90ec9db2c77fb53c74da8458bcd0839af0bc36e111",
+                    "SHA-512": "740589827560883f68c935b49bc1a71d6083d61fa196dec570447a2507cec7e52eb9b754063e78a22e406596b5400e577456a82be0615a76c28aa97ad25c518b",
+                    "SHA3-256": "5a9d8dd7e0f0d12618c6ec7551435b76364df3f5c5634d679a559536a4545bfe",
+                    "SHA3-512": "7ac69004ec84edb6d3befc06842fc8bbf18be62b74ce271e07652bbd00eec7a51320c35c700e83dcaaddce543ae6813fc7ff3296cd9d3d9de8c05a9e1c44b5b4"
+                },
+                "external_id": "yrROHyG"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--86d9aab5-b4d3-4e68-a7c8-53eefccce0c2",
+        "created_by_ref": "identity--239e37d0-67b4-4320-b698-41e1b88fccbb",
+        "created": "2022-03-24T11:01:50.502813Z",
+        "modified": "2022-04-16T02:52:52.922138Z",
+        "name": "over",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lsATGBLGvhgxs",
+                "phase_name": "WuYqrzQWCfmnj"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "bLjxRHG",
+                "phase_name": "PTprUiaYW"
+            },
+            {
+                "kill_chain_name": "nTWfmyceaiILyOHtHAu",
+                "phase_name": "MtDvttxJXfujlz"
+            }
+        ],
+        "tool_version": "senior",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--5631592d-d21d-402a-b4b2-9dbca0dabb53",
+        "created_by_ref": "identity--239e37d0-67b4-4320-b698-41e1b88fccbb",
+        "created": "2020-11-28T10:52:39.97949Z",
+        "modified": "2021-08-14T01:08:34.88974Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--898f6ce8-0100-4016-b362-00573290281e",
+        "target_ref": "tool--86d9aab5-b4d3-4e68-a7c8-53eefccce0c2",
+        "stop_time": "2022-06-21T15:02:10.7116Z",
+        "labels": [
+            "face",
+            "pretty",
+            "which",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "hold",
+                "description": "Respond organization bring follow.",
+                "url": "http://www.robinson.net/",
+                "hashes": {
+                    "MD5": "47945a8eff4162b4f98c5acd6c5e6987",
+                    "SHA-1": "e8fae45b96245f2c6b24f1ad3ec52640150ceae0",
+                    "SHA-256": "376359c08dc4edba6452942ef6f63b5eefded7e06c2688c65e84f4074aa8bb07",
+                    "SHA-512": "2f05197bc691e2ba1e45123e6ee6fe378010e58f2898b9ca7210888d3763022f7198332eda3bbb7f2a9118fbb87f3fa3382f90826b85d5695b4a4fa0968cf092",
+                    "SHA3-256": "f7d56693a30e8aaa18fde12dcf81e11ef79e3be45247cb2c5d3ac5b1ea7e7f57",
+                    "SHA3-512": "6642cc5005fb26d8ab6762b283ac159ae8ed86284fd84de3a48a25f6ac4ce00b5e275b697675844e1ed5709d5438827506dc5e8395f666efe93ba4303e9eebe9"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--239e37d0-67b4-4320-b698-41e1b88fccbb",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-03T06:49:47.932804Z",
+        "modified": "2021-09-04T09:25:27.681629Z",
+        "name": "Sharp and Sons",
+        "roles": [
+            "fine"
+        ],
+        "identity_class": "organization",
+        "sectors": [
+            "dams",
+            "energy"
+        ],
+        "contact_information": "8739 Stanley Oval Suite 539\nPort Kelly, CO 45137",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "me",
+                "url": "http://wright.net/",
+                "hashes": {
+                    "MD5": "7132133a601da5e53cab82b27a1d50e2",
+                    "SHA-1": "0ec4ec2cc565e47e09b0d66d8b1727f96e79e05e",
+                    "SHA-256": "ed0215a530e68ac9fbe3cfccb940558543e10efb6bb9201ecf7c5f1ea12bec9c",
+                    "SHA-512": "7c6eb5edf84f29c7c745942188e3173d717a0f1d48df1abfa6380a57588019fba3e4808996f7cac8b5910ecaac27861af97251630d590eff263f932d718cdd9b",
+                    "SHA3-256": "e80101dbf6f5094db7749d5c9594df2d7b9657544f7a4fad4369eda4101dc39f",
+                    "SHA3-512": "04f6162512e4cee8a28d7be4d27080b4eaf29c801edaa7cde9d4f1d3cbac25beaab6cffd827af2d10c68737c841ddf640858b8827801c40f28f04be9b68017e9"
+                },
+                "external_id": "JXaaOcurvyRSrRlvxW"
+            },
+            {
+                "source_name": "cold",
+                "description": "Source house popular such either last would.",
+                "hashes": {
+                    "MD5": "6617c4ca1ae5683fce46980a8a48179c",
+                    "SHA-1": "3e66981e4ee9c6a8bee4024eb05d29dab1e26d84",
+                    "SHA-256": "a7942a822d9dd001e02afd5d26278e178de67c5d4fcb8b2c347809badf9d4d99",
+                    "SHA-512": "ba27062c4d1229ae37136a9443c6e1d1db22bf8024dfa3d2905ea8cc9356f4b409275fada730a5a209da03bb8dab16f5831c34cf064f05ce78a88f73ea11018d",
+                    "SHA3-256": "754e70257e4e36566ceb385aa3f0aa4bf67542ad018cef7323f10ab6dd7acf97",
+                    "SHA3-512": "2c786d34e30f8b683f2ee4653e4bc6ea6515a9f1b58aa124a4f97e3f8848753c3f4a289ff4c80c692fed53fd45b4e91c295b5522bf5458cfa55d6ebb36c84ce1"
+                },
+                "external_id": "rFoHbCNvEOcTXzxw"
+            },
+            {
+                "source_name": "care",
+                "url": "https://smith-brooks.info/",
+                "hashes": {
+                    "MD5": "55e33019a6f1f60a19d762e21174f129",
+                    "SHA-1": "963482f2d4a87650876b2340fba9ecc31034b617",
+                    "SHA-256": "a5d6ccbffba3a2597807b87a9cff07c4920e9b52e44c4a8b8dbb3caef1f34d51",
+                    "SHA-512": "da236f53b7f495348bf2712965315e3e31c8fee7ede2584dce1338947d99617e2cfbb216d3064195451da395fbbc269bd6bbbcd670790a9bbee1f46b7b5a24bf",
+                    "SHA3-256": "ee8d6c70d8cba1ccf759ce0c3a85032dda1728f240e805d3c917b210210cc1cf",
+                    "SHA3-512": "53f9242b385ab701ce6e0e1e534c796b97dc0beb4febc5b800c39617aa4f72fdc469315b0e70e33409e3658151c18594ad6393121f49afa1d4a79c522a34ebb6"
+                },
+                "external_id": "pJOTejImuhVZGzxJRw"
+            },
+            {
+                "source_name": "size",
+                "url": "http://munoz-burton.com/"
+            },
+            {
+                "source_name": "commercial",
+                "external_id": "VEGLbkReXPlCFsDHEfBx"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

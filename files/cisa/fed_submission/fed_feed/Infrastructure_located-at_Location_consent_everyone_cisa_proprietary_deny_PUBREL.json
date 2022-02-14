@@ -1,0 +1,207 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--688a4491-fb48-479f-98c4-680b04340f50",
+        "created_by_ref": "identity--3aa6ad27-30f8-4839-93fa-242ebcc32154",
+        "created": "2021-10-12T00:24:51.779629Z",
+        "modified": "2022-02-16T06:31:17.860988Z",
+        "name": "stay",
+        "infrastructure_types": [
+            "control-system",
+            "hosting-target-lists",
+            "routers-switches"
+        ],
+        "aliases": [
+            "discover"
+        ],
+        "object_marking_refs": [
+            "marking-definition--948d1198-6779-47cf-824a-ad0d4edb86ca"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--e8f418df-687f-4fd4-9e5f-573a7e34a865",
+        "created_by_ref": "identity--3aa6ad27-30f8-4839-93fa-242ebcc32154",
+        "created": "2022-03-16T06:43:11.265725Z",
+        "modified": "2023-01-20T16:46:26.361307Z",
+        "description": "Intuitive interactive encryption",
+        "latitude": -46.835281455666745,
+        "longitude": -14.628520409545729,
+        "country": "Montenegro",
+        "city": "Mendezville",
+        "labels": [
+            "decade",
+            "type",
+            "public",
+            "arrive",
+            "course",
+            "pfte-batch-1"
+        ],
+        "confidence": 89,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "look",
+                "description": "Bring four by window guy agree record.",
+                "url": "https://miller.com/",
+                "external_id": "TVwPnbdmK"
+            },
+            {
+                "source_name": "way",
+                "description": "Could energy traditional kind also born everybody.",
+                "external_id": "qlYqNSdHzyZ"
+            },
+            {
+                "source_name": "quickly",
+                "description": "Market own mother official wear include.",
+                "url": "https://www.little.com/",
+                "external_id": "ZAWelu"
+            },
+            {
+                "source_name": "message",
+                "url": "http://phillips.info/",
+                "hashes": {
+                    "MD5": "fe63c958fec76de3a151cc6146c92815",
+                    "SHA-1": "985c721993debc6462c93620a63f59ff10576ece",
+                    "SHA-256": "ae95022cac6155b770202989b5371c0fc226031d59648be908c5f47010c485fe",
+                    "SHA-512": "9f3cce011263b56987dff93d57800e0c1ddb30056d7c780b6d61635eaa1f84a45494a82448488f55317caa5ce456c36fb1c25d5be1d39e779ddb8034689c9e8a",
+                    "SHA3-256": "ada2d12d28da3d4a9dad1934531be5c0870f98907d14b8e9ea26bbbe3e660da2",
+                    "SHA3-512": "54fc0ad7997db215ab9faaf6a7d2e1138d7610524fa1252b855fbf8e5f1faeea59546ff35d1a80dd24fbd72b9af908b613f24c68a2650a1edb76d442634df556"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--948d1198-6779-47cf-824a-ad0d4edb86ca"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--6ab9c2b9-f066-4295-b872-908296147376",
+        "created_by_ref": "identity--3aa6ad27-30f8-4839-93fa-242ebcc32154",
+        "created": "2020-11-06T07:50:20.083367Z",
+        "modified": "2021-08-14T01:08:50.219034Z",
+        "relationship_type": "located-at",
+        "source_ref": "infrastructure--688a4491-fb48-479f-98c4-680b04340f50",
+        "target_ref": "location--e8f418df-687f-4fd4-9e5f-573a7e34a865",
+        "start_time": "2022-07-10T08:33:47.475451Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--948d1198-6779-47cf-824a-ad0d4edb86ca"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3aa6ad27-30f8-4839-93fa-242ebcc32154",
+        "created_by_ref": "identity--3aa6ad27-30f8-4839-93fa-242ebcc32154",
+        "created": "2022-07-15T09:40:42.042548Z",
+        "modified": "2023-05-03T02:56:44.195454Z",
+        "name": "Roy LLC",
+        "description": "Secured upward-trending implementation",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "and",
+                "description": "Model wish growth room.",
+                "url": "http://www.hines.biz/",
+                "hashes": {
+                    "MD5": "a6cec228069b0d30f252fe83362afe75",
+                    "SHA-1": "222d40935bffe8665aa010f7d326c12f8de70cf2",
+                    "SHA-256": "7c9439f3dd5f2a2e4fc93c13f5d439715b1f823bd2b912c4e260abb82bc3e7eb",
+                    "SHA-512": "d905b823d444bacb2305673c0a9d6e72f36d1b543c24c09f7f7b4c607591f7c9642958275e4482877f82544c55a40cb1e9c003af8b65a488936f35b1d1e158ae",
+                    "SHA3-256": "9fba49138e26f81e088216c429507181f69471717765c78e6c26eaf1cde46901",
+                    "SHA3-512": "ddd2dbbfba8f7794b960ff71b4525401beb287563247d6d85001c2f7c87a23fea69126472651d1493ea81d756835f3684703f8dc998cfe7d812701f36976e92f"
+                },
+                "external_id": "BopLZSGJQ"
+            },
+            {
+                "source_name": "same",
+                "description": "Easy college guy natural here kid.",
+                "url": "https://davenport.org/",
+                "hashes": {
+                    "MD5": "4e28eb09d4765f40e3dc77d281ef72d3",
+                    "SHA-1": "289ef6d2abcb3e898ca4c2edffd6294ae96b5aca",
+                    "SHA-256": "5d7bc7de7ac2830dccfe0fc4e1dd834606af493bd713c2d0a7b234c6b8e842ad",
+                    "SHA-512": "64e0283860837389130bcffd1d2a3e5f9af8da1390961bdf42422cb6bfbdf20a49f7c9902c80df64ac5e4f852563a4266aa919b41352f22bc99b3f70c7dbf9a5",
+                    "SHA3-256": "a96ac2cfa61b574bdf625128017034776f7b5d65e2609b2b3abce9f38595ba46",
+                    "SHA3-512": "1b3941ae57ca9193658be94448e6683168a1e450a1be9e1497ade54c3f7fb86b90ee7e82eeac92dfd093228ba0e46b31e1b55e5ef71f649474f0320fcbc6b1a3"
+                },
+                "external_id": "niGehjeaLNlhPtmJ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--948d1198-6779-47cf-824a-ad0d4edb86ca"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--948d1198-6779-47cf-824a-ad0d4edb86ca",
+        "created": "2021-08-14T01:08:50.217528Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7114ed24-0991-4631-bb44-7704e6b690d1",
+                "name": "Traditional contain thing officer story",
+                "create_date_time": "2021-08-14T01:08:08.432511Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.432344Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

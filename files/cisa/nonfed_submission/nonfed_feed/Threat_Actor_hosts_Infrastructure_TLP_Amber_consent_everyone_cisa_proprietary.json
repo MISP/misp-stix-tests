@@ -1,0 +1,189 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--c553f1b4-ed90-4b6c-9df2-132957e1784d",
+        "created_by_ref": "identity--75270de9-a0b8-45f8-990e-1977b0b73d84",
+        "created": "2021-01-20T23:25:59.923689Z",
+        "modified": "2021-08-14T01:09:26.43251Z",
+        "name": "trade",
+        "description": "Agree risk adult last.",
+        "threat_actor_types": [
+            "crime-syndicate",
+            "nation-state",
+            "hacker"
+        ],
+        "primary_motivation": "accidental",
+        "personal_motivations": [
+            "accidental"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 32,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "also",
+                "description": "Drive draw generation left minute.",
+                "external_id": "oOcZYQwfZvWupzCd"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--ca9e998d-7be1-4f41-b882-8d85438649de",
+        "created_by_ref": "identity--75270de9-a0b8-45f8-990e-1977b0b73d84",
+        "created": "2021-07-26T21:06:12.012469Z",
+        "modified": "2021-10-30T08:22:29.808322Z",
+        "name": "pattern",
+        "infrastructure_types": [
+            "reconnaissance",
+            "botnet",
+            "botnet",
+            "workstation"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "BzLgqKiwkzhpgfbinzIU",
+                "phase_name": "KlzoLBqcmkYswDs"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "first_seen": "2020-04-25T07:10:53.962665Z",
+        "last_seen": "2020-08-16T11:09:23.271031Z",
+        "labels": [
+            "power",
+            "on",
+            "machine",
+            "pfte-batch-1"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4896e82f-3524-4047-a5cd-fb3c3b372d58",
+        "created_by_ref": "identity--75270de9-a0b8-45f8-990e-1977b0b73d84",
+        "created": "2021-08-04T02:39:19.813243Z",
+        "modified": "2021-08-14T01:09:26.433842Z",
+        "relationship_type": "hosts",
+        "source_ref": "threat-actor--c553f1b4-ed90-4b6c-9df2-132957e1784d",
+        "target_ref": "infrastructure--ca9e998d-7be1-4f41-b882-8d85438649de",
+        "labels": [
+            "series",
+            "pattern",
+            "talk",
+            "myself",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "democratic",
+                "description": "Mr their clearly remember watch without.",
+                "external_id": "GEjVZYY"
+            },
+            {
+                "source_name": "good",
+                "description": "Paper end check summer think friend.",
+                "url": "http://www.ritter.com/",
+                "hashes": {
+                    "MD5": "c303ef28d6553fabf203ef22a67de594",
+                    "SHA-1": "114bc1093c4464a21f559f53b62f608e4cce6222",
+                    "SHA-256": "57de599a2bfb45d6876526d799c1e9250f14d1c006fff1184f81cfd5f381094d",
+                    "SHA-512": "08c4de52a1e204e0bff7774abf6d9f75738dfce4a9a113ae04e2a6592ab43e6d2694898c2899c083b687622495b52c20db0a8babc5e6e5001fb53a10ecb3ca2e",
+                    "SHA3-256": "772dae3cb5489e3154aecd025d53ab420b9940292c28a108c84b25433864a9e1",
+                    "SHA3-512": "3db56980f45b4ed66b6c67f0bbe1d7acde03b40e9a42efdd7e91d585f90e6b68d6f0f2b9fc08be42792a976ec19beab2f514e4256e34315e4708197e11be65a5"
+                },
+                "external_id": "LbILlpKfIrHXaW"
+            },
+            {
+                "source_name": "their",
+                "description": "Trial modern put few we away high newspaper.",
+                "url": "https://davis-johnson.com/"
+            },
+            {
+                "source_name": "fly",
+                "description": "Any never service full trip head station.",
+                "external_id": "WQoIfMjfPKBylfe"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--75270de9-a0b8-45f8-990e-1977b0b73d84",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-09T08:02:47.637508Z",
+        "modified": "2021-08-14T01:09:26.434482Z",
+        "name": "Massey-Lee",
+        "description": "Assimilated systematic capability",
+        "identity_class": "organization",
+        "contact_information": "63889 Amanda Ford Suite 679\nSimpsonfurt, IN 26867",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 34,
+        "external_references": [
+            {
+                "source_name": "camera",
+                "description": "Or more plan evidence fly.",
+                "url": "http://www.sullivan-jones.com/"
+            },
+            {
+                "source_name": "step",
+                "description": "Very less understand present may particular."
+            },
+            {
+                "source_name": "hit",
+                "url": "http://www.andersen.com/",
+                "hashes": {
+                    "MD5": "b22d95dd1fd897a87dcf295ace7cf2b6",
+                    "SHA-1": "bbdd2c04f837631a6244767304c25788d75816da",
+                    "SHA-256": "7a283bd36490eff789fcd2c9ffa58e781ac2fe3aa3579cfc7fa0a546f5d8e46f",
+                    "SHA-512": "16ed4e5c8ec94282523ebc852b762a8fa69e8a2c4cf28909b5a655f5c8e6775a906350f44a128b5452e52be081a688df7ab5a0b7615f1bc632be25d875152aff",
+                    "SHA3-256": "33031d57a705d752a1d54e7a65d4c1440be4867d9c7b863d5c7ab144d8d8ca65",
+                    "SHA3-512": "dc4d33c1136e3ffafb9bfd689f6e978c8d24d8c02926c08842092aae6ddec2ba3bdb7a6da0e013cf6f7b80c39ca4d0636814740838b26d6cbadbdc2351c8c07b"
+                },
+                "external_id": "DuleaZQFtLytV"
+            },
+            {
+                "source_name": "employee",
+                "description": "Miss this ground later site.",
+                "external_id": "iBZEhY"
+            },
+            {
+                "source_name": "policy",
+                "description": "Result good toward his why.",
+                "url": "http://www.andrade.org/",
+                "external_id": "uqyugR"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

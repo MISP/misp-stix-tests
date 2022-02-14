@@ -1,0 +1,295 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--e8e1e935-2fdc-4072-9dd4-64c3bbe1657a",
+        "created_by_ref": "identity--88f68d60-8b5c-4eed-b2bf-7084bc56c190",
+        "created": "2022-01-12T20:28:10.265072Z",
+        "modified": "2022-05-18T21:19:03.342183Z",
+        "name": "shake",
+        "threat_actor_types": [
+            "crime-syndicate"
+        ],
+        "last_seen": "2022-02-23T14:01:16.4745Z",
+        "roles": [
+            "infrastructure-operator",
+            "infrastructure-operator",
+            "infrastructure-architect",
+            "infrastructure-operator"
+        ],
+        "goals": [
+            "economic"
+        ],
+        "sophistication": "strategic",
+        "resource_level": "contest",
+        "secondary_motivations": [
+            "unpredictable",
+            "unpredictable",
+            "coercion",
+            "accidental",
+            "personal-gain"
+        ],
+        "personal_motivations": [
+            "coercion",
+            "ideology",
+            "dominance"
+        ],
+        "labels": [
+            "sometimes",
+            "air",
+            "fly",
+            "pretty",
+            "pfte-batch-1"
+        ],
+        "confidence": 10,
+        "external_references": [
+            {
+                "source_name": "citizen",
+                "url": "https://gibbs.com/"
+            },
+            {
+                "source_name": "lead",
+                "url": "https://mason.info/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9650fcd6-b234-4bbe-b9e9-2f7891e4f843"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--b3e11a3f-3f4b-4ba1-b8ff-7678a129faeb",
+        "created_by_ref": "identity--88f68d60-8b5c-4eed-b2bf-7084bc56c190",
+        "created": "2022-02-27T04:04:20.75827Z",
+        "modified": "2022-03-03T12:51:16.551468Z",
+        "name": "tNrugwhUyCfBtNpZ",
+        "latitude": 27.60755401534631,
+        "longitude": -103.56572275584875,
+        "precision": 23.342939099662818,
+        "country": "Mexico",
+        "city": "Ruizfort",
+        "labels": [
+            "form",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--9650fcd6-b234-4bbe-b9e9-2f7891e4f843"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--319a17c0-b605-4f50-b341-18f223820e98",
+        "created_by_ref": "identity--88f68d60-8b5c-4eed-b2bf-7084bc56c190",
+        "created": "2020-11-23T21:41:13.477684Z",
+        "modified": "2021-08-24T00:29:45.336184Z",
+        "relationship_type": "located-at",
+        "description": "Those though human contain. Movie TV Congress wear wife anything account.",
+        "source_ref": "threat-actor--e8e1e935-2fdc-4072-9dd4-64c3bbe1657a",
+        "target_ref": "location--b3e11a3f-3f4b-4ba1-b8ff-7678a129faeb",
+        "start_time": "2021-05-22T17:07:59.745094Z",
+        "labels": [
+            "spring",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9650fcd6-b234-4bbe-b9e9-2f7891e4f843"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--212566aa-8bd3-4c61-a680-2f1bfb2f774a",
+        "created_by_ref": "identity--88f68d60-8b5c-4eed-b2bf-7084bc56c190",
+        "created": "2020-09-13T10:57:15.983232Z",
+        "modified": "2021-08-14T01:09:29.346792Z",
+        "name": "morning",
+        "context": "suspicious-activity",
+        "object_refs": [
+            "threat-actor--e8e1e935-2fdc-4072-9dd4-64c3bbe1657a",
+            "location--b3e11a3f-3f4b-4ba1-b8ff-7678a129faeb",
+            "relationship--319a17c0-b605-4f50-b341-18f223820e98"
+        ],
+        "labels": [
+            "kitchen",
+            "official",
+            "type",
+            "beat",
+            "not",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "of",
+                "description": "Democratic page TV too.",
+                "url": "https://kelly.com/"
+            },
+            {
+                "source_name": "put",
+                "hashes": {
+                    "MD5": "d4bb3f9ae6fec25624b21169c8dd5aaa",
+                    "SHA-1": "e8705519745edcd08685e2b283270e47eb68148b",
+                    "SHA-256": "c9e43b2ecc40ef4960d20e10da3e53a0138e6ee28cac7de76f93d50c00e7199f",
+                    "SHA-512": "a10797449ec3762c4a4753590dc4935281415010e822095c0c10b9894e26b11008eb92f9c42119ea4ffcb81335fbe7b1f71ed77f73d9f1583be430c4f74ffa1a",
+                    "SHA3-256": "4c8e5dd24ac876dbf29b3b1dd3b6d7e760f463b96e0018a97c7451ae1ee2a4a7",
+                    "SHA3-512": "1ed8fc2ce7f5acc566bd38e9cbea087f62d7c18d1df32022cbb9d94fd38ce90d07fd2ed19fb7177fca52ed0ef8acccb4a0385dce09fa32e9f080439fad29cbb0"
+                },
+                "external_id": "luBCugIB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9650fcd6-b234-4bbe-b9e9-2f7891e4f843"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--88f68d60-8b5c-4eed-b2bf-7084bc56c190",
+        "created_by_ref": "identity--88f68d60-8b5c-4eed-b2bf-7084bc56c190",
+        "created": "2020-12-30T22:11:17.152471Z",
+        "modified": "2021-08-14T01:09:29.347461Z",
+        "name": "Ochoa Ltd",
+        "description": "Assimilated regional migration",
+        "roles": [
+            "guess",
+            "couple"
+        ],
+        "sectors": [
+            "technology",
+            "technology",
+            "healthcare",
+            "communications",
+            "chemical"
+        ],
+        "confidence": 23,
+        "external_references": [
+            {
+                "source_name": "church",
+                "description": "Body young hundred walk couple hope law.",
+                "external_id": "rNCLcqoHebGQ"
+            },
+            {
+                "source_name": "build",
+                "url": "http://murphy.com/",
+                "hashes": {
+                    "MD5": "b46096f52c120ecdcd1eeee8f0e2b73f",
+                    "SHA-1": "19ad0f2e5b579f1afb57cf8e5451ff6e357738ee",
+                    "SHA-256": "36f5378bbcc1757cf8879de9e938a9afd1b9f1fc8553910aa1794b3459da9947",
+                    "SHA-512": "23b6e22db21a8ab7f5cf9149dd89bded37b80d80bf7c785d914584cc44b161c9ab7f06033906089bf18b5fda1cd1ad51140c0e05fc027cadf2f0c656f361b650",
+                    "SHA3-256": "9733cf77f00cf3c50515d1bdac2e43864ba1cb9d36e52d826bfd55b06b4981d2",
+                    "SHA3-512": "1ca56a51a25652368f12271ba120eff7c9bc1be9d27b05065df3b053cb471e7c264acefa9a81df529d11f6474c6f2a9ea9a2510287bf12db80cac8849d12f434"
+                },
+                "external_id": "ytFpsjXzQyDmZ"
+            },
+            {
+                "source_name": "later",
+                "description": "Factor feel trouble question increase.",
+                "url": "http://grant.com/",
+                "hashes": {
+                    "MD5": "1a7e0feb0508ed411664044dd11825d4",
+                    "SHA-1": "c9ea2aab5df160364fef750d97f05fb02a58575f",
+                    "SHA-256": "2e5fbdb1233712374ffba2c95495f2d7b0146e2b0ea542b18f8b2284a1811cc8",
+                    "SHA-512": "23a33522e1c16724b482a6af36be9174d81b91adf89c957a614b0ebab25cb380dd6aed6236747980c000fce2ea64955ed8fc25a89855ab53c283ece8c696e68b",
+                    "SHA3-256": "6e3a0ad29debe502dafbc6968ba6133378d1f5c787fb5dda422fd7d6a8dc919b",
+                    "SHA3-512": "9baf1c6c6caca93af468aa9af70812f62ece15292f40dc28c1dcbd2c1c1cd3babc9868f35beffb80376685f9dee72e900e0afed85ec79f44ceabef3cf0643434"
+                },
+                "external_id": "pRANLaXQY"
+            },
+            {
+                "source_name": "attorney",
+                "url": "http://www.acevedo.biz/",
+                "hashes": {
+                    "MD5": "dc45d6c5795598259cbb0594e0d9392c",
+                    "SHA-1": "75789fc48ab57a2c698a1a4361d0d6e092e7c78f",
+                    "SHA-256": "11819ffcd222094fec454638acfab875b3a2d8854531f0b6f0348f71cf562f6c",
+                    "SHA-512": "a4907573f153a00f30b5ca1813ff3c2b3f7a01213b84197dd59c7a7abd1fa14e93c9b7cf5c3974b2a4c648a2106613424428f8df829670b77abcf41815af5e3c",
+                    "SHA3-256": "306c0d8eff1026ea861c4cefe75c6e1d747083cf894cbd485a07dfdd54111dd0",
+                    "SHA3-512": "951b1b2a6920573d4982f27ab0d0f058e6a58bd1e78720de688996aeb44e2561e95cd69c580d21843af69c79a638df86898abe115bdc9e29533e084d8921be2f"
+                },
+                "external_id": "zBcHUWWW"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9650fcd6-b234-4bbe-b9e9-2f7891e4f843"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--9650fcd6-b234-4bbe-b9e9-2f7891e4f843",
+        "created": "2021-08-14T01:09:29.344899Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-57e7d098-4c26-4a4d-bfaa-3ee9c5e47adc",
+                "name": "Customer hot subject fight customer",
+                "create_date_time": "2021-08-14T01:08:08.428617Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

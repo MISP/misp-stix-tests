@@ -1,0 +1,123 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--688a4491-fb48-479f-98c4-680b04340f50",
+        "created_by_ref": "identity--437fc8e2-4887-4463-9b66-0428f2ca8adc",
+        "created": "2021-10-12T00:24:51.779629Z",
+        "modified": "2022-02-16T06:31:17.860988Z",
+        "name": "stay",
+        "infrastructure_types": [
+            "control-system",
+            "hosting-target-lists",
+            "routers-switches"
+        ],
+        "aliases": [
+            "discover"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--e8f418df-687f-4fd4-9e5f-573a7e34a865",
+        "created_by_ref": "identity--437fc8e2-4887-4463-9b66-0428f2ca8adc",
+        "created": "2022-03-16T06:43:11.265725Z",
+        "modified": "2023-01-20T16:46:26.361307Z",
+        "description": "Intuitive interactive encryption",
+        "latitude": -46.835281455666745,
+        "longitude": -14.628520409545729,
+        "country": "Montenegro",
+        "city": "Mendezville",
+        "labels": [
+            "decade",
+            "type",
+            "public",
+            "arrive",
+            "course",
+            "pfte-batch-1"
+        ],
+        "confidence": 89,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "look",
+                "description": "Bring four by window guy agree record.",
+                "url": "https://miller.com/",
+                "external_id": "TVwPnbdmK"
+            },
+            {
+                "source_name": "way",
+                "description": "Could energy traditional kind also born everybody.",
+                "external_id": "qlYqNSdHzyZ"
+            },
+            {
+                "source_name": "quickly",
+                "description": "Market own mother official wear include.",
+                "url": "https://www.little.com/",
+                "external_id": "ZAWelu"
+            },
+            {
+                "source_name": "message",
+                "url": "http://phillips.info/",
+                "hashes": {
+                    "MD5": "fe63c958fec76de3a151cc6146c92815",
+                    "SHA-1": "985c721993debc6462c93620a63f59ff10576ece",
+                    "SHA-256": "ae95022cac6155b770202989b5371c0fc226031d59648be908c5f47010c485fe",
+                    "SHA-512": "9f3cce011263b56987dff93d57800e0c1ddb30056d7c780b6d61635eaa1f84a45494a82448488f55317caa5ce456c36fb1c25d5be1d39e779ddb8034689c9e8a",
+                    "SHA3-256": "ada2d12d28da3d4a9dad1934531be5c0870f98907d14b8e9ea26bbbe3e660da2",
+                    "SHA3-512": "54fc0ad7997db215ab9faaf6a7d2e1138d7610524fa1252b855fbf8e5f1faeea59546ff35d1a80dd24fbd72b9af908b613f24c68a2650a1edb76d442634df556"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--6ab9c2b9-f066-4295-b872-908296147376",
+        "created_by_ref": "identity--437fc8e2-4887-4463-9b66-0428f2ca8adc",
+        "created": "2020-11-06T07:50:20.083367Z",
+        "modified": "2021-08-14T01:08:50.209801Z",
+        "relationship_type": "located-at",
+        "source_ref": "infrastructure--688a4491-fb48-479f-98c4-680b04340f50",
+        "target_ref": "location--e8f418df-687f-4fd4-9e5f-573a7e34a865",
+        "start_time": "2022-07-10T08:33:47.475451Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--437fc8e2-4887-4463-9b66-0428f2ca8adc",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-28T16:44:52.55723Z",
+        "modified": "2022-03-05T21:32:40.779081Z",
+        "name": "ChanceBedDiscover",
+        "sectors": [
+            "technology",
+            "government-national",
+            "education"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

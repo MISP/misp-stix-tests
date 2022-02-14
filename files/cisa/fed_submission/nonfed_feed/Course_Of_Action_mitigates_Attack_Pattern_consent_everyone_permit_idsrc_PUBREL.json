@@ -1,0 +1,182 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--0aeb0166-eefe-4332-be14-74d5606c5ba2",
+        "created_by_ref": "identity--b074357c-f29f-4aec-acc1-0dae1ef3f4fe",
+        "created": "2020-10-09T12:39:46.863369Z",
+        "modified": "2021-08-14T01:08:23.109702Z",
+        "name": "laugh",
+        "labels": [
+            "ready",
+            "by",
+            "commercial",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--49f6db82-8b39-467b-82d3-202aa0508dde",
+        "created_by_ref": "identity--b074357c-f29f-4aec-acc1-0dae1ef3f4fe",
+        "created": "2021-07-12T08:03:39.485487Z",
+        "modified": "2022-05-26T06:12:49.256125Z",
+        "name": "general",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "EAGGzXcJovJy",
+                "phase_name": "vuLsAZRDrDQsEo"
+            },
+            {
+                "kill_chain_name": "TRofn",
+                "phase_name": "dzgebzS"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 95,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--549920cb-ae43-4257-81ec-32bae0f0526f",
+        "created_by_ref": "identity--b074357c-f29f-4aec-acc1-0dae1ef3f4fe",
+        "created": "2021-02-07T08:47:32.812196Z",
+        "modified": "2021-10-06T00:19:18.892684Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--0aeb0166-eefe-4332-be14-74d5606c5ba2",
+        "target_ref": "attack-pattern--49f6db82-8b39-467b-82d3-202aa0508dde",
+        "stop_time": "2020-12-11T19:18:47.439117Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 45,
+        "external_references": [
+            {
+                "source_name": "guess",
+                "url": "http://smith.com/",
+                "external_id": "TvgtjoWMmvYh"
+            },
+            {
+                "source_name": "attack",
+                "description": "From morning here whatever.",
+                "external_id": "SpOadnuvYHtjP"
+            },
+            {
+                "source_name": "despite",
+                "description": "Born factor later project when.",
+                "url": "https://www.turner.com/",
+                "hashes": {
+                    "MD5": "ee87d711aeb6bf925a64c5dd645494bc",
+                    "SHA-1": "db10cfbe6243afa5b3cad52a7ab3e7626e39045b",
+                    "SHA-256": "6f6e94e424bc0c28fad9ea06b4ddd55ced0f09f5f0d978dce6ddb0ba58f35a26",
+                    "SHA-512": "08aeaae5f3ce396c3eadc58ac786d142b916024a24b7b177236c709c53f127b7e72af60bdd6ed75671e4d114edb1dd744ef744ff022d35095e2564b30265ff8f",
+                    "SHA3-256": "3e484c9d1113fca9eb9a88cfb725c4af0f637c0efd06ba18fa4a8a08cdbe9c78",
+                    "SHA3-512": "28ef208131e314e5d7e0c3fa0f8947bbeaec07e36ff1b95e3313bccd5738867e80ba809eb5915eaf08c5ff196948dce93a295651013d1557a81b0b7bff6487ed"
+                },
+                "external_id": "WEwyvYvZuHmJU"
+            },
+            {
+                "source_name": "order",
+                "description": "Do area worry ahead force event account.",
+                "url": "http://wong.com/",
+                "external_id": "iGPrlJvOijhXUYOAqf"
+            },
+            {
+                "source_name": "she",
+                "external_id": "OcmREkXk"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b074357c-f29f-4aec-acc1-0dae1ef3f4fe",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-05T19:27:40.34297Z",
+        "modified": "2021-08-14T01:08:23.115138Z",
+        "name": "Lopez-Silva",
+        "description": "Pre-emptive clear-thinking open system",
+        "roles": [
+            "dinner",
+            "order",
+            "success",
+            "huge"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 32,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "range",
+                "description": "No usually century here thus loss sign.",
+                "external_id": "TzxRqwFGRSiMMcKlGwn"
+            },
+            {
+                "source_name": "measure",
+                "description": "People way any.",
+                "url": "http://www.adkins.com/",
+                "hashes": {
+                    "MD5": "5de7a84b342c1747f9929d609b324778",
+                    "SHA-1": "bc2fd056535e534835f1e0876030ea408ec7137b",
+                    "SHA-256": "d2439f1794179101f9620a1c256d1dfeeac274cffd0f5022f913be98ed21a5d1",
+                    "SHA-512": "8be961f5946ae2d0ccd48ca172ef6cce6ccd5127de3f590e9b153de78e55732689a0427647e11b8ef54037b88b986c07c923c6b6813e2e9fb3246e2c8103e803",
+                    "SHA3-256": "945f9a1758fb28adbe9d5029eb30f7bfd19866d1c6677ce2e3a38bb6e0a28a30",
+                    "SHA3-512": "4f1c25b907dbc0ec8318af97cf666634af68cdf412fb1a85d3896ba571e408d79ed3519e573ed4daf2e3146ff9902af9e9926e39050eab1471db6a7aede2636c"
+                }
+            },
+            {
+                "source_name": "water",
+                "url": "https://www.roberts.org/",
+                "external_id": "RMlYkRBNok"
+            },
+            {
+                "source_name": "someone",
+                "description": "Individual address war play either myself should.",
+                "url": "http://www.smith.com/",
+                "hashes": {
+                    "MD5": "e383ae36302e3bb0e81fe37482d7846f",
+                    "SHA-1": "d0da9c5c7630b49db1819bf80738d2720004df9b",
+                    "SHA-256": "6e0b6db404d7688ff1b41e8ec1ee35e72f43006de7bd27ed4507bdd3c95b8d91",
+                    "SHA-512": "97e23d7c35882f48c2c2812361e475e20f6859b9adc8d8db0c5a51d727f826a1ed3ba4ebf3f4dc041fe875081e626570855e74a67d8dfaf31b757f7921ee2001",
+                    "SHA3-256": "da267aa0ae8d7a01ba2c87bf3d21c01695918ca03676470495a7254dc87f6e45",
+                    "SHA3-512": "2ca287628e526681e0353c6c77ed2bbd40a42b74d63a6acf366e3400e63b22ab3735a8feb0574f5eacfcf20339380887bf46e610ad5af2a8f6aaf3dfb5528362"
+                },
+                "external_id": "XfixDtEAClHTZyJ"
+            },
+            {
+                "source_name": "fight",
+                "url": "https://allen-johnson.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

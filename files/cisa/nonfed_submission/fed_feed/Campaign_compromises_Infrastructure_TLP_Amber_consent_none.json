@@ -1,0 +1,168 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--475570b7-eb79-445e-8564-eb945effb57b",
+        "created_by_ref": "identity--3a77b70e-2a0d-40a4-9a0e-d3dccfab6bb2",
+        "created": "2022-03-04T13:14:27.509324Z",
+        "modified": "2022-07-06T09:50:25.771367Z",
+        "name": "seek",
+        "description": "Kind month language into in other TV investment.",
+        "aliases": [
+            "nice",
+            "matter",
+            "material",
+            "manager"
+        ],
+        "first_seen": "2021-12-20T22:20:59.801172Z",
+        "last_seen": "2022-06-24T02:05:17.287668Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--8d94fa52-e4fd-4dd0-89c9-a04e5227c828"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--b9d3e10b-4ca3-458f-aeb1-f28cbe325c1b",
+        "created_by_ref": "identity--3a77b70e-2a0d-40a4-9a0e-d3dccfab6bb2",
+        "created": "2020-09-26T17:33:43.413107Z",
+        "modified": "2021-08-14T01:08:14.541939Z",
+        "name": "all",
+        "description": "Enough first run again.",
+        "infrastructure_types": [
+            "command-and-control"
+        ],
+        "aliases": [
+            "again",
+            "though",
+            "professional",
+            "total"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "grnllOBjsxnMMty",
+                "phase_name": "kBzCIsio"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8d94fa52-e4fd-4dd0-89c9-a04e5227c828"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--144a66bf-6bbc-4d5c-878b-fe709f7a18f6",
+        "created_by_ref": "identity--3a77b70e-2a0d-40a4-9a0e-d3dccfab6bb2",
+        "created": "2021-05-30T12:20:37.637656Z",
+        "modified": "2022-01-31T10:37:46.40543Z",
+        "relationship_type": "compromises",
+        "source_ref": "campaign--475570b7-eb79-445e-8564-eb945effb57b",
+        "target_ref": "infrastructure--b9d3e10b-4ca3-458f-aeb1-f28cbe325c1b",
+        "start_time": "2020-09-17T09:59:50.099075Z",
+        "stop_time": "2021-03-16T06:30:11.643254Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--8d94fa52-e4fd-4dd0-89c9-a04e5227c828"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--8d94fa52-e4fd-4dd0-89c9-a04e5227c828",
+        "created_by_ref": "identity--3a77b70e-2a0d-40a4-9a0e-d3dccfab6bb2",
+        "created": "2021-08-14T01:08:14.540987Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6f258483-31e6-4810-a3a3-83f9297fcea8",
+                "name": "Individual personal with know",
+                "create_date_time": "2021-08-14T01:08:08.419751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3a77b70e-2a0d-40a4-9a0e-d3dccfab6bb2",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-28T19:14:23.623417Z",
+        "modified": "2021-08-14T01:08:14.542543Z",
+        "name": "ChurchActionMaintain",
+        "sectors": [
+            "non-profit",
+            "insurance",
+            "telecommunications",
+            "defense"
+        ],
+        "contact_information": "PSC 3285, Box 2617\nAPO AP 04205",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 15,
+        "external_references": [
+            {
+                "source_name": "situation",
+                "description": "Drive contain force wait direction country.",
+                "external_id": "ORHVZsHRKyBQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8d94fa52-e4fd-4dd0-89c9-a04e5227c828"
+        ]
+    }
+]

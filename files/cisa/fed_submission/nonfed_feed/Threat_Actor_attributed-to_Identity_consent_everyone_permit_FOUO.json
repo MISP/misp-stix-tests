@@ -1,0 +1,126 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--c333f272-8342-461f-8df4-b522049df290",
+        "created_by_ref": "identity--97b60e7b-4473-4113-bca1-628d2867cfb2",
+        "created": "2022-02-18T23:22:55.832848Z",
+        "modified": "2022-11-24T13:19:02.680925Z",
+        "name": "husband",
+        "description": "Resource for entire box.",
+        "threat_actor_types": [
+            "nation-state",
+            "competitor",
+            "unknown",
+            "criminal"
+        ],
+        "first_seen": "2022-02-02T17:37:49.337693Z",
+        "last_seen": "2022-02-19T08:56:55.090531Z",
+        "sophistication": "minimal",
+        "resource_level": "contest",
+        "primary_motivation": "personal-satisfaction",
+        "personal_motivations": [
+            "accidental",
+            "organizational-gain",
+            "revenge",
+            "personal-satisfaction",
+            "notoriety"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 13,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "everyone",
+                "description": "Task media fund place major student suffer.",
+                "url": "http://wilson.com/",
+                "hashes": {
+                    "MD5": "cfa0b7b9092c656feb08a89922382698",
+                    "SHA-1": "296adf3be603800b13de0bdcad1d0547c334c18d",
+                    "SHA-256": "64b59a27c21b0058a9415447480768bc482f3864fe77568c12cac37af569c349",
+                    "SHA-512": "f2128fdf1f1d345b8f95be3cc9654d062f21a3302d00ab7fcd8cc4828986d0f64ac3de965d4fcc5c9cd9d2e293124fe18f95b68304975e54c175dce4c3c839fa",
+                    "SHA3-256": "fee0c4cb266b545363fedf962bfa6aeb6423949dd0e50a1911edcc5d175290c0",
+                    "SHA3-512": "7b77e79ed2e3da86793b25a2838d773589d7accf5b1911799a21b9ed31088cd8e8c614797ba10117b7f4035a6fbd6b30ca219f4c521b83c6dd166e9a0fcd46e4"
+                }
+            },
+            {
+                "source_name": "prove",
+                "description": "Campaign end specific it how traditional.",
+                "url": "http://www.white.com/",
+                "external_id": "OJMZmStULLgTrtngDiru"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5849929c-3761-455b-beca-94ce590d7f64",
+        "created_by_ref": "identity--97b60e7b-4473-4113-bca1-628d2867cfb2",
+        "created": "2021-08-09T19:31:25.459578Z",
+        "modified": "2022-08-02T17:55:57.408918Z",
+        "name": "Blair, Ray and Brown",
+        "description": "Enhanced context-sensitive utilization",
+        "roles": [
+            "occur",
+            "hand"
+        ],
+        "identity_class": "individual",
+        "contact_information": "USNS Wilcox\nFPO AE 43469",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 97,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--9af2b9e2-4987-4734-bdf0-60c82c6fee84",
+        "created_by_ref": "identity--97b60e7b-4473-4113-bca1-628d2867cfb2",
+        "created": "2021-04-18T14:36:55.307401Z",
+        "modified": "2022-02-05T18:05:25.052556Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "threat-actor--c333f272-8342-461f-8df4-b522049df290",
+        "target_ref": "identity--5849929c-3761-455b-beca-94ce590d7f64",
+        "stop_time": "2021-01-03T00:56:07.372111Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 91,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--97b60e7b-4473-4113-bca1-628d2867cfb2",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-04T22:15:44.585851Z",
+        "modified": "2022-01-25T00:29:45.724838Z",
+        "name": "Montgomery Group",
+        "description": "Devolved grid-enabled hub",
+        "sectors": [
+            "government-public-services",
+            "pharmaceuticals",
+            "commercial"
+        ],
+        "contact_information": "7177 Campbell Villages Suite 249\nSouth Jamesbury, DE 80467",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 70,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

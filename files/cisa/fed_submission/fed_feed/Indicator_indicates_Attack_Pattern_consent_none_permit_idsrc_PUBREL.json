@@ -1,0 +1,256 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--57631b26-3e8d-4ec0-ba96-eb27c923c635",
+        "created_by_ref": "identity--79bb79e6-d04f-4820-bac1-128bb3b01bd5",
+        "created": "2022-02-20T15:51:50.24484Z",
+        "modified": "2022-09-26T14:27:02.991876Z",
+        "name": "respond",
+        "indicator_types": [
+            "malicious-activity",
+            "unknown"
+        ],
+        "pattern": "(([email-message:defanged = false]) OR [user-account:display_name < 'Rebecca Wilson']) WITHIN 5 SECONDS",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-12-05T01:25:46.687818Z",
+        "labels": [
+            "positive",
+            "this",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "identify",
+                "url": "http://www.myers-ward.com/",
+                "hashes": {
+                    "MD5": "6371cdec0b02d01c8c6de65efeb4d71f",
+                    "SHA-1": "26ce75c2321fd4cf1df229b4240b6079f14b6883",
+                    "SHA-256": "a2d6da28a25e43e35d0a76f802bca1a27a375e519137ef320933ea15f6369f63",
+                    "SHA-512": "1f1f997198f38d599e9855aabfb3b8abba6d35b90d80bb0e9a5217d21e6e66e3d8f8de121a78bf8aa6b92eb33b0bc98b27b1d5464140e7bb1ee47265106d1696",
+                    "SHA3-256": "6d60b706e983f6bba3659c875ee36e2d9d89ef00c21886b7d9687a361ef26f11",
+                    "SHA3-512": "cf2f9f7fa17c47f5aa38481aa52bfb454e92a500ae16c49ea645f64f1de8719d7de0d6982bb9b42955ecbac10541177fc740a2bd47c80e8d52043862ce99e9b6"
+                }
+            },
+            {
+                "source_name": "during",
+                "description": "Help start note evidence stock world."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--509ac1a3-071b-4333-8e76-58a50c6f3722"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--b13c4628-848e-44ec-a79e-0198ad6d5b85",
+        "created_by_ref": "identity--79bb79e6-d04f-4820-bac1-128bb3b01bd5",
+        "created": "2022-04-07T23:38:06.969769Z",
+        "modified": "2022-06-29T05:02:38.252034Z",
+        "name": "throw",
+        "confidence": 19,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "couple",
+                "description": "Involve wear usually worry nothing measure two.",
+                "url": "https://www.wallace.com/",
+                "external_id": "JAoXPUUs"
+            },
+            {
+                "source_name": "company",
+                "description": "Community beautiful even experience use expect.",
+                "url": "http://parker.com/",
+                "hashes": {
+                    "MD5": "950192b0ea1b226e9a802f5df0c697f0",
+                    "SHA-1": "aef12701cfc7491d52edc864524f1d4c9677e486",
+                    "SHA-256": "1f918826fa9caa6a0c5273ccb812a62e99d41697fc74df7953215ecefa19b440",
+                    "SHA-512": "8472c251263cbcd43385dbed6632ab8bddcd4ee4c646cad5fc7967a80d0f0650423bf49f599f7d0bc7a5465d5fe8cb01d58521ba68476bbb4ce54d5e4ae71e00",
+                    "SHA3-256": "6ab9dfc2bbd7df467af282dd7a3f9e196ae8e69343e8f31a6a99dd8187128fa0",
+                    "SHA3-512": "7eb3a5904448e824e8e84cf6c9820b2779cf0f0e3e6f9232a36201b46c6e403d8fc2f1b57b9da1593565f70214598e39fd7a7b9aa22bf58dad8159e2f1188897"
+                },
+                "external_id": "vzbKJscltT"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--509ac1a3-071b-4333-8e76-58a50c6f3722"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--6150054b-359f-4858-8efe-e3d581235bde",
+        "created_by_ref": "identity--79bb79e6-d04f-4820-bac1-128bb3b01bd5",
+        "created": "2022-02-03T13:19:30.789506Z",
+        "modified": "2022-07-28T02:24:10.362896Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--57631b26-3e8d-4ec0-ba96-eb27c923c635",
+        "target_ref": "attack-pattern--b13c4628-848e-44ec-a79e-0198ad6d5b85",
+        "confidence": 30,
+        "external_references": [
+            {
+                "source_name": "down",
+                "description": "Plant receive support everybody thus sit item here.",
+                "url": "http://www.rios-bennett.net/",
+                "external_id": "YnQztm"
+            },
+            {
+                "source_name": "stop",
+                "description": "Strong ok remain fine wonder.",
+                "url": "https://torres.com/",
+                "external_id": "xIQTrUToipB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--509ac1a3-071b-4333-8e76-58a50c6f3722"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--79bb79e6-d04f-4820-bac1-128bb3b01bd5",
+        "created_by_ref": "identity--79bb79e6-d04f-4820-bac1-128bb3b01bd5",
+        "created": "2020-09-27T07:58:11.431687Z",
+        "modified": "2021-08-14T01:08:27.944331Z",
+        "name": "Wilson Ltd",
+        "roles": [
+            "activity",
+            "right",
+            "crime"
+        ],
+        "confidence": 72,
+        "external_references": [
+            {
+                "source_name": "skin",
+                "external_id": "xVZurmPexWj"
+            },
+            {
+                "source_name": "represent",
+                "url": "http://www.alvarez-stone.net/",
+                "external_id": "HMHgvba"
+            },
+            {
+                "source_name": "him",
+                "hashes": {
+                    "MD5": "f1b1db055f87c0a579753deef862529b",
+                    "SHA-1": "ea4ea0124c034779dc40450eb377dcf260c3cdab",
+                    "SHA-256": "77653b7fc50c1b1c9404d64f62c79b0c912c83a1b00a2d4aef898f4bbe17053c",
+                    "SHA-512": "4dbd9c9358901377b36a64b41e04ee268c9b54e1dc73a34fb744a8fbf818bff30f94f142c7357b3ec3f9d64ed347ab27fa4d504f1b098cb7d427dff3de4133b5",
+                    "SHA3-256": "654cafa8b8ea610dd824560c78935ff86998538bdf373cfde79e81ec47eb5651",
+                    "SHA3-512": "2f79db903f8e459510ae875857306c3c4896b3f33eef5bbadbef75f5c0eac5c7ec34d3aa7aa984e91d3d825a3025bdd8aa59625e21002d79f699de972465ca12"
+                },
+                "external_id": "LbrfgKeSovcYQTTia"
+            },
+            {
+                "source_name": "else",
+                "description": "Interest great teach cultural agree.",
+                "url": "https://www.gonzalez.com/"
+            },
+            {
+                "source_name": "political",
+                "description": "Over wear add dog project.",
+                "url": "https://www.morrison.biz/",
+                "hashes": {
+                    "MD5": "2d3fc8894c97c43352b9ec0f0e325031",
+                    "SHA-1": "be9077d95df26a9dd8af2ab84bfd8ef2464ebfc6",
+                    "SHA-256": "99e531d02757e31c2616333471ed920fb5a163d36024caa7301eca94f70d5d66",
+                    "SHA-512": "6e406076e716d1441395d9fa06a98066f3e88a2a1ebeef00a8ad623176141725b615edb1ab6ebbf560cb5a308640c8dad448b927099d22d7ffc52876d0b40c9a",
+                    "SHA3-256": "3b3e1551128e61c172e20f96b8f53ddd6e159b80145c52daa55dc03cf151c7a8",
+                    "SHA3-512": "45ea485410d045ff8925115653e15e308e1b9965200f78761106bc9cd76579f94ae72562a78aaac85213ba7771e142d5609b7bc1a8c399679a58b16982750183"
+                },
+                "external_id": "BpBbPWpTZebx"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--509ac1a3-071b-4333-8e76-58a50c6f3722"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--509ac1a3-071b-4333-8e76-58a50c6f3722",
+        "created": "2021-08-14T01:08:27.939796Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c37eda22-f302-4b2e-bf63-7f8ea35d72b0",
+                "name": "Event really first our country somebody",
+                "create_date_time": "2021-08-14T01:08:08.426408Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.426228Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

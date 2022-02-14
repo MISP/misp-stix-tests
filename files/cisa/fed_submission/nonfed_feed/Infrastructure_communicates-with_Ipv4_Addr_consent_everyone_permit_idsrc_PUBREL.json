@@ -1,0 +1,97 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--2832c696-d482-44f4-8d8c-c492a24681de",
+        "created_by_ref": "identity--d3e69ca0-66a0-4927-84fd-245a7d765406",
+        "created": "2020-10-06T06:51:29.441778Z",
+        "modified": "2021-08-14T01:08:39.826853Z",
+        "name": "everyone",
+        "infrastructure_types": [
+            "reconnaissance",
+            "anonymization",
+            "control-system",
+            "staging"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "rahYvoaNPfuwezydG",
+                "phase_name": "bwSONNUocQRlsrP"
+            },
+            {
+                "kill_chain_name": "sTRjQooqmZBl",
+                "phase_name": "qcGnFnteEr"
+            }
+        ],
+        "first_seen": "2020-06-22T13:43:13.610074Z",
+        "last_seen": "2021-04-05T02:40:51.623388Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 42,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "ipv4-addr",
+        "spec_version": "2.1",
+        "id": "ipv4-addr--473b11e8-9340-44e8-b4f0-b2cd234d5988",
+        "value": "130.126.203.247",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1420b02c-d69a-46d7-bd68-dc590e5fa329",
+        "created_by_ref": "identity--d3e69ca0-66a0-4927-84fd-245a7d765406",
+        "created": "2021-05-04T13:46:44.814546Z",
+        "modified": "2021-08-24T07:51:14.594071Z",
+        "relationship_type": "communicates-with",
+        "description": "Reveal once southern fly. Share issue turn ahead some most.",
+        "source_ref": "infrastructure--2832c696-d482-44f4-8d8c-c492a24681de",
+        "target_ref": "ipv4-addr--473b11e8-9340-44e8-b4f0-b2cd234d5988",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 95,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d3e69ca0-66a0-4927-84fd-245a7d765406",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-14T14:40:58.051436Z",
+        "modified": "2022-01-17T17:20:24.146963Z",
+        "name": "Nunez, Clark and Franklin",
+        "description": "Business-focused optimal array",
+        "roles": [
+            "artist"
+        ],
+        "identity_class": "class",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 87,
+        "external_references": [
+            {
+                "source_name": "feel",
+                "url": "https://www.marshall-robinson.net/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

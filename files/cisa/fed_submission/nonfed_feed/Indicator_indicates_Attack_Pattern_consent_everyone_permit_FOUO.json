@@ -1,0 +1,122 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--7676aef1-3bb0-40f6-b8b9-29fc1bb40f5f",
+        "created_by_ref": "identity--c83b004b-48db-493a-9e0b-9ddfe210d4e0",
+        "created": "2020-12-30T08:52:56.674386Z",
+        "modified": "2021-08-14T01:08:28.178055Z",
+        "description": "Service data become.",
+        "pattern": "(((([autonomous-system:rir NOT = 'Kirk Inc']) OR [autonomous-system:rir > 'Andrews-Haynes']))) OR [url:defanged NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-05-01T03:03:01.427011Z",
+        "valid_until": "2021-08-28T13:13:09.946317Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "labels": [
+            "similar",
+            "explain",
+            "cut",
+            "more",
+            "certainly",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--df1985b3-c032-4540-a11b-061448a44070",
+        "created_by_ref": "identity--c83b004b-48db-493a-9e0b-9ddfe210d4e0",
+        "created": "2020-10-29T07:26:05.746965Z",
+        "modified": "2021-08-14T01:08:28.180782Z",
+        "name": "trial",
+        "aliases": [
+            "expect",
+            "world",
+            "could",
+            "thousand",
+            "however"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "jAkQfifllvLoE",
+                "phase_name": "RREXbk"
+            }
+        ],
+        "labels": [
+            "prepare",
+            "window",
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--02f51a3d-950a-4398-b426-b9b262df73e2",
+        "created_by_ref": "identity--c83b004b-48db-493a-9e0b-9ddfe210d4e0",
+        "created": "2020-08-13T07:37:28.666592Z",
+        "modified": "2021-08-14T01:08:28.181031Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--7676aef1-3bb0-40f6-b8b9-29fc1bb40f5f",
+        "target_ref": "attack-pattern--df1985b3-c032-4540-a11b-061448a44070",
+        "start_time": "2020-12-06T06:04:40.19081Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c83b004b-48db-493a-9e0b-9ddfe210d4e0",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-10T08:52:40.284789Z",
+        "modified": "2021-08-16T19:12:51.662355Z",
+        "name": "Thompson-Martin",
+        "description": "Profound demand-driven hardware",
+        "identity_class": "individual",
+        "sectors": [
+            "aerospace",
+            "emergency-services"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 50,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

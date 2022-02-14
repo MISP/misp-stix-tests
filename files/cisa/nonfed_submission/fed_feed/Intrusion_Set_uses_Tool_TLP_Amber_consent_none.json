@@ -1,0 +1,200 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--176871c0-16e2-4182-ba64-1e135be627cc",
+        "created_by_ref": "identity--97f86410-3b92-4c20-b741-02281fe69641",
+        "created": "2021-06-10T08:00:06.493747Z",
+        "modified": "2021-12-01T10:01:18.569252Z",
+        "name": "window",
+        "aliases": [
+            "view",
+            "allow",
+            "open",
+            "tree",
+            "many"
+        ],
+        "first_seen": "2020-04-18T14:32:22.363829Z",
+        "last_seen": "2021-02-07T08:50:35.103298Z",
+        "goals": [
+            "State almost value product.",
+            "Agree bring west activity here.",
+            "Service different book education."
+        ],
+        "resource_level": "team",
+        "primary_motivation": "coercion",
+        "confidence": 91,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--4be452a0-7413-4e3d-a743-118847d8cb53"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--a327c40f-f5c2-4911-9ff9-bdbc1e591d5d",
+        "created_by_ref": "identity--97f86410-3b92-4c20-b741-02281fe69641",
+        "created": "2022-05-28T00:16:43.733802Z",
+        "modified": "2022-07-17T06:45:29.761749Z",
+        "name": "building",
+        "description": "Finally others risk research behind commercial both expert.",
+        "aliases": [
+            "short"
+        ],
+        "labels": [
+            "these",
+            "action",
+            "everybody",
+            "wait",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "wind",
+                "description": "Arrive director sure capital social.",
+                "hashes": {
+                    "MD5": "912a067271655432d9057e13993df127",
+                    "SHA-1": "f69d134077381179f37106b3c06c5bdb83fb2854",
+                    "SHA-256": "12bfb2d91b19485d313ec424b60f5bd64ea7c70fc01c468a2e3e88fafa05bcd1",
+                    "SHA-512": "7abbd3c34da80c9757a3cb165c0b87c7a5714b6476351668edb945670af536e4ba5e10afb1f3aeab01b4bc1a02a5179c07aaf76c3c5d2c10166ed6ee9cab722c",
+                    "SHA3-256": "28585b930991a6544554a0b7f237fbc9f39ce4e1eae1ead923cdf2beb4e35154",
+                    "SHA3-512": "dfdc7caa7ad04f68cffaad6d488a479c056c5d8e9350d79b7ccb674e420d4e7d902ee025d262c849eeebedac1fe6129517267f85748c01303a0af757adbea5d5"
+                },
+                "external_id": "IFwwa"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4be452a0-7413-4e3d-a743-118847d8cb53"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--30f5ce01-80b8-4844-b495-708ce6fe71af",
+        "created_by_ref": "identity--97f86410-3b92-4c20-b741-02281fe69641",
+        "created": "2022-06-03T12:05:19.434878Z",
+        "modified": "2022-10-22T02:54:12.185305Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--176871c0-16e2-4182-ba64-1e135be627cc",
+        "target_ref": "tool--a327c40f-f5c2-4911-9ff9-bdbc1e591d5d",
+        "confidence": 93,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--4be452a0-7413-4e3d-a743-118847d8cb53"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--4be452a0-7413-4e3d-a743-118847d8cb53",
+        "created_by_ref": "identity--97f86410-3b92-4c20-b741-02281fe69641",
+        "created": "2021-08-14T01:08:59.904445Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6f258483-31e6-4810-a3a3-83f9297fcea8",
+                "name": "Individual personal with know",
+                "create_date_time": "2021-08-14T01:08:08.419751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--97f86410-3b92-4c20-b741-02281fe69641",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-24T10:52:13.101218Z",
+        "modified": "2021-10-29T05:56:33.858464Z",
+        "name": "NecessaryOverEffort",
+        "description": "Phased national policy",
+        "identity_class": "unknown",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "process",
+                "description": "Rise during blood which like fast trip.",
+                "external_id": "GNsonGoAGJIdxFIXJTW"
+            },
+            {
+                "source_name": "wide",
+                "description": "Sound doctor science save choice value rise.",
+                "url": "http://www.ferguson-gallegos.com/",
+                "hashes": {
+                    "MD5": "614cad984bb6313e134157b7fafc64e5",
+                    "SHA-1": "6b172e53949df993a02674c99b66a22b93e482a3",
+                    "SHA-256": "d76b24fdb3227cdd8e74dedbca7c071bbfda4bdf87a93a6ad36405797786d2d3",
+                    "SHA-512": "f517fbc76ac9a486b2992f45ea65ae3c6f61a500b2cf4907f2cb88c7e7723669bf33b2691a8e5104be133d92f75248ede8dd047d006c1a0cfd88d6f79c50a5fd",
+                    "SHA3-256": "d6727e1cb7c0306595e702e8be6ca813d98b7c5283224d2b38c4f002ce3e577d",
+                    "SHA3-512": "cf4b9628abda8e69aec8d761431e25495a88a9857728c96a9fdc7578458fc70db70640a6a415fa05c5577254f51e56edede817c67de56542a4eb15e1d774f124"
+                },
+                "external_id": "CaESl"
+            },
+            {
+                "source_name": "soldier",
+                "description": "Tell middle picture especially hear.",
+                "hashes": {
+                    "MD5": "9442b11038aa9bbc923e2401b5a9ad7d",
+                    "SHA-1": "79f9c62c1b98d093ef51a4ba204bb6f587c32767",
+                    "SHA-256": "b4cd7cb99e56fdf71906fd3a936373a6c700054a5d3b58e2455a791fa08a2be6",
+                    "SHA-512": "17c42352f9d9579131ac1a672432491d32496047aca1ba943c1b758e74a81b5197a7371a9edce5aa217bb5fc7ce9fa86b321173c76b0953aaae1273526a98f52",
+                    "SHA3-256": "476bc0ce0a543a0d984371c2492a056e752c8a9a1d37b77300e7ea61b9997472",
+                    "SHA3-512": "f680f31c6ce1951888785f1a274c1901611df1d9ef69a6a08da3bf11682a1e3c57984fa5d5a6b22bd5669f18d1ba49f46df5fb61a34dd5cc8ce002855b0a28c0"
+                },
+                "external_id": "BrSunBURlvYVBm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4be452a0-7413-4e3d-a743-118847d8cb53"
+        ]
+    }
+]

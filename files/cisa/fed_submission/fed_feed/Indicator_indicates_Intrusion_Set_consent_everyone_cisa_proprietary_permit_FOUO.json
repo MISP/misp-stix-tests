@@ -1,0 +1,215 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--e24401e8-0e9f-4e51-86dc-37be9c248548",
+        "created_by_ref": "identity--054cf3ac-ac98-4c21-b8c0-73b28517d1be",
+        "created": "2022-07-13T21:27:31.139081Z",
+        "modified": "2023-01-26T08:22:40.074873Z",
+        "name": "question",
+        "indicator_types": [
+            "anonymization",
+            "anomalous-activity"
+        ],
+        "pattern": "([autonomous-system:rir > 'Harris Ltd'] AND ([mac-addr:value NOT = '1e:55:b2:31:fa:b9'])) OR [windows-registry-key:defanged NOT = false OR (email-message:defanged = false)]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-05-24T08:10:40.8982Z",
+        "valid_until": "2020-11-28T04:18:41.497243Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "gdFhSBrdt",
+                "phase_name": "fwaOjGdqC"
+            }
+        ],
+        "confidence": 8,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fd3796c0-d0e7-470f-9dee-9c407276609d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--4dd425d6-9de0-4072-b018-25dc52ced992",
+        "created_by_ref": "identity--054cf3ac-ac98-4c21-b8c0-73b28517d1be",
+        "created": "2021-11-17T16:28:09.324589Z",
+        "modified": "2022-03-27T13:35:44.906991Z",
+        "name": "decision",
+        "description": "Share operation value office occur more.",
+        "first_seen": "2021-05-13T02:08:51.939089Z",
+        "goals": [
+            "Democratic off country school.",
+            "Interest way usually early.",
+            "Cultural thus agent age ready."
+        ],
+        "resource_level": "government",
+        "primary_motivation": "coercion",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "happy",
+                "description": "Several state itself candidate oil west.",
+                "url": "https://russell-meyer.com/",
+                "hashes": {
+                    "MD5": "2e203950034147bd60581e91c267e607",
+                    "SHA-1": "6a3d36de1ff03cf4a1ec939ab8f84cc0f93c9f48",
+                    "SHA-256": "725d6d5a174977ef1d8362b9a6a62e73e75f511ccfbcf86f050fc0ce4df29b65",
+                    "SHA-512": "577a7939433b29d9859bbe4b265792312f4d05055331a127478c843043eb9fe5d9c3221b5e3f9ba906409255429073b1506cec2a6556af7058f463e95276e561",
+                    "SHA3-256": "dba5089ae380542d7b8d99b9367a30b237e2ebd2e5fcc0d28f4d4748455b0b66",
+                    "SHA3-512": "655e7003f43b131668aa80989a11339affc261e96e25dc48104f67a4e70afb1f01b83a0968f18aea02d795c20f76b38559f7ec4c3da3ca1cfd6620855fd2f9c1"
+                },
+                "external_id": "cgiejAeLIezsYB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fd3796c0-d0e7-470f-9dee-9c407276609d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--94a06754-c96f-45c4-9bc9-24f8728c972a",
+        "created_by_ref": "identity--054cf3ac-ac98-4c21-b8c0-73b28517d1be",
+        "created": "2021-09-14T04:20:05.766786Z",
+        "modified": "2022-06-18T12:35:54.148882Z",
+        "relationship_type": "indicates",
+        "description": "Sign eye own board century section. Mouth character sea do. Gun identify short debate condition family.",
+        "source_ref": "indicator--e24401e8-0e9f-4e51-86dc-37be9c248548",
+        "target_ref": "intrusion-set--4dd425d6-9de0-4072-b018-25dc52ced992",
+        "start_time": "2021-03-31T13:13:37.857115Z",
+        "labels": [
+            "world",
+            "pfte-batch-1"
+        ],
+        "confidence": 12,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "officer",
+                "description": "American similar operation fact thank.",
+                "url": "https://www.ashley-rivera.com/",
+                "external_id": "bsrJlP"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fd3796c0-d0e7-470f-9dee-9c407276609d"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--054cf3ac-ac98-4c21-b8c0-73b28517d1be",
+        "created_by_ref": "identity--054cf3ac-ac98-4c21-b8c0-73b28517d1be",
+        "created": "2021-01-25T18:10:54.451003Z",
+        "modified": "2021-08-14T01:08:32.030808Z",
+        "name": "Strong, Hatfield and Nunez",
+        "roles": [
+            "alone"
+        ],
+        "identity_class": "unknown",
+        "sectors": [
+            "insurance",
+            "infrastructure",
+            "government-public-services",
+            "government-regional"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 14,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "enough",
+                "description": "Law stage current.",
+                "url": "http://poole-pacheco.com/",
+                "hashes": {
+                    "MD5": "c971bdf735ba0ae8fdb31ce4fb9498f3",
+                    "SHA-1": "f2e5055b33c01412a9b5eba311b9ae15717df7fb",
+                    "SHA-256": "b175214a3a1b19efdc691946420d57a8404cc89de8f2a11ffa2843869e5c1946",
+                    "SHA-512": "d3d1ff2cd25f78b9cfd57f587b6d1ef9b8e745d10d87ce9a8f081e37c15246322183a3599c5172ba645a86090cdc66033fe24de7092494d813a506f0f912d5a0",
+                    "SHA3-256": "3031451d6508dfb7a176ba8e6461160ae903e5ae72b4ad0ed1ae535adf23b192",
+                    "SHA3-512": "c8198aa3b9fba6ce4b92203629a12955ffb796576c85672a6ed4226a40b95200a79578d4988571d0dd598bd0430c88e9a5369bfb5134bf298b42eabcb82d95c5"
+                },
+                "external_id": "sdtHOhjaDzBl"
+            },
+            {
+                "source_name": "participant",
+                "description": "Work executive under front.",
+                "hashes": {
+                    "MD5": "9690d990fd200594b368ff58f3fb1069",
+                    "SHA-1": "0868abff978d9d27266ef358d4d8e53c9477570c",
+                    "SHA-256": "6f8aed04ad849322cf22df014cee1d2f6eb98e8876fc886ded893a81b468d718",
+                    "SHA-512": "2792097dda3cbd609acaeead81527faf40e97306e9d864e98e8dfae54299a0e64bd045f35f51fced412b2cb0311bbaad6a040fa99595552ee6019eabb347d8ed",
+                    "SHA3-256": "8678c9943332792cd2851c0e632c74f32173a970197d0bbb4655fb6e55104b1a",
+                    "SHA3-512": "5bef9d6453c398683049c7c9d5552ae8ed7e6b52c9c03a0f85c8f5ad17854b8dffe2ac788e261ffb0aa2efdc8878edec2815a86723f704b4d9ffa5b2d8a64ef2"
+                },
+                "external_id": "vWguAJPnnvA"
+            },
+            {
+                "source_name": "at",
+                "description": "State blue worker attorney it half stuff."
+            },
+            {
+                "source_name": "trip",
+                "description": "She and just second once.",
+                "url": "https://www.cook.net/",
+                "hashes": {
+                    "MD5": "911c6716deccf2393f02fc78c68c54df",
+                    "SHA-1": "fb9e919eef7c73703996fcf1500929c6adefb7d4",
+                    "SHA-256": "17b7f4a14d08609dd9d19195380b98a3b49cd912b81fc717279d44b2b0538390",
+                    "SHA-512": "8cbbfbc08ff1c97490bf39b55775ed29c42b8a298d143fc7d79fc0bc891e789c315cc7b88c43b7d103a51e6689abfd577525a6a0451f8ff823029f507a74845e",
+                    "SHA3-256": "74e3f1dc6b0bc477c01afd06d251d5fc81640776c48bf6de7522896ada930d62",
+                    "SHA3-512": "fab9bdcb78cf0580369683d575169f5fb6b605665ccd04b16678877edb3dc7b809022030d19d7efb5c08071169daedfe018a4db95db8f041b2b8caad697917fa"
+                },
+                "external_id": "FrODx"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fd3796c0-d0e7-470f-9dee-9c407276609d"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--fd3796c0-d0e7-470f-9dee-9c407276609d",
+        "created": "2021-08-14T01:08:32.026223Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-114c3c02-d336-4257-a679-8cbd2bcdae34",
+                "name": "Sort author none he account American industry worry",
+                "create_date_time": "2021-08-14T01:08:08.432919Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

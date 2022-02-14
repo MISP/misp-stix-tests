@@ -1,0 +1,161 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--bd7bc7d3-2195-480d-bf57-9b0fdba6e255",
+        "created_by_ref": "identity--3d8b3928-fcca-4fc1-a363-d03ba288812d",
+        "created": "2020-11-02T09:41:23.15618Z",
+        "modified": "2021-08-14T01:08:29.493757Z",
+        "description": "College marriage my.",
+        "pattern": "[mutex:defanged NOT = false AND mutex:name >= 'religious' AND (mutex:defanged = false)]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-02-20T02:40:08.367813Z",
+        "labels": [
+            "especially",
+            "entire",
+            "entire",
+            "family",
+            "none",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--5a279499-bee9-4f7b-a27d-4c89700edd07"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--57b70801-0d2f-450c-8e93-e54081dcf157",
+        "created_by_ref": "identity--3d8b3928-fcca-4fc1-a363-d03ba288812d",
+        "created": "2020-10-31T07:11:40.325142Z",
+        "modified": "2021-08-14T01:08:29.495455Z",
+        "name": "fear",
+        "first_seen": "2021-06-24T19:31:43.140512Z",
+        "objective": "Rest today break use.",
+        "confidence": 58,
+        "object_marking_refs": [
+            "marking-definition--5a279499-bee9-4f7b-a27d-4c89700edd07"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--dd6ab485-4ae7-4923-a0be-5e5a5689d212",
+        "created_by_ref": "identity--3d8b3928-fcca-4fc1-a363-d03ba288812d",
+        "created": "2021-11-13T14:16:11.756328Z",
+        "modified": "2022-09-10T01:59:10.601363Z",
+        "relationship_type": "indicates",
+        "description": "Officer laugh war rich ground. Low deal major role guess may. Expect audience long officer yet somebody generation.",
+        "source_ref": "indicator--bd7bc7d3-2195-480d-bf57-9b0fdba6e255",
+        "target_ref": "campaign--57b70801-0d2f-450c-8e93-e54081dcf157",
+        "labels": [
+            "food",
+            "pfte-batch-1"
+        ],
+        "confidence": 41,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--5a279499-bee9-4f7b-a27d-4c89700edd07"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3d8b3928-fcca-4fc1-a363-d03ba288812d",
+        "created_by_ref": "identity--3d8b3928-fcca-4fc1-a363-d03ba288812d",
+        "created": "2022-02-17T23:32:38.471097Z",
+        "modified": "2022-12-13T22:31:05.190588Z",
+        "name": "Williams-Proctor",
+        "sectors": [
+            "transportation"
+        ],
+        "contact_information": "4995 Angela Radial\nCarterport, KS 09747",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 96,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--5a279499-bee9-4f7b-a27d-4c89700edd07"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--5a279499-bee9-4f7b-a27d-4c89700edd07",
+        "created": "2021-08-14T01:08:29.493009Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f97bfbf2-c194-4d73-b792-b989c4ea0ab5",
+                "name": "Focus develop ago various",
+                "create_date_time": "2021-08-14T01:08:08.431216Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

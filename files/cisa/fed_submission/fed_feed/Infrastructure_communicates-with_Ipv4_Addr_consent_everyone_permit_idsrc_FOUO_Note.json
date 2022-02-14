@@ -1,0 +1,240 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--450a816a-eff7-4bb4-9209-8aed2b1691bc",
+        "created_by_ref": "identity--1f464170-8867-4464-a967-fab6e8f06b95",
+        "created": "2020-11-21T12:38:16.345369Z",
+        "modified": "2021-08-14T01:08:39.818939Z",
+        "name": "yard",
+        "description": "Once full born cold form unit study place.",
+        "infrastructure_types": [
+            "staging"
+        ],
+        "labels": [
+            "forget",
+            "pfte-batch-1"
+        ],
+        "confidence": 72,
+        "external_references": [
+            {
+                "source_name": "point",
+                "url": "https://www.hunt.com/",
+                "hashes": {
+                    "MD5": "2890c48d2d5c3826b72d20f5b8476943",
+                    "SHA-1": "7b5f4ec0c490f5bdb2a3c6f2203036f6991d8232",
+                    "SHA-256": "0474577d140e40064345389e3f5a0e41b5d12a3ec3767fbf1317caed82e924fd",
+                    "SHA-512": "c7b22f69751e063a7417f2baba1dcdaf01a8c4505629e028ce20840106e7856547499992e37c978a543e8960144a7cc7085ddfcf21a1b7769321aa27d2cbd6d8",
+                    "SHA3-256": "9650c05bf4fa41075508d8b710f163c63f49c6b6d46c9d6b542c71c77d89a5a2",
+                    "SHA3-512": "0898a1d0561a147c3a59d27d8cd44b96b59c09d87b029271d3caefc0e03ebf75f1ac1e5d12af0c45499ebfcf0e6bc277ce61b62dff43ecfddd52b529b73121be"
+                },
+                "external_id": "CBBdaxIe"
+            },
+            {
+                "source_name": "feel",
+                "url": "http://hall.com/",
+                "hashes": {
+                    "MD5": "b1240dd4d1c8db6022f1749088c88c68",
+                    "SHA-1": "7db1db8dd6435356bdecb4dac6c61d4fbb6a27aa",
+                    "SHA-256": "8ab623994f0ce5aa14791cfa46c977141de5f885f55cbb159b4c085c8e36936c",
+                    "SHA-512": "3ea9d2f5f48f980ec3719d17ebb80075de5f8c3850c82c04e97bda611d89132d238adcd188a4838fdc1e6e4b98902ea5d17cd647afaf7a6cdcbeda3648661df2",
+                    "SHA3-256": "04106a8b45e25ae7ed127531545ada5fc598ee7d83bb8469260a77f20a6dcf46",
+                    "SHA3-512": "7a0e8567c2986d843ef1e4ab94614c966b6f3dadee5c11c9912081b18ce5ae159bd7bbda8d000f265b255e224bc176d0b27b125a7c6cb83063a319d69af9ad51"
+                },
+                "external_id": "cjMyJvLAeogfGAvujlqx"
+            },
+            {
+                "source_name": "bring",
+                "description": "Wonder word necessary account administration similar family.",
+                "external_id": "NAdvBVKvvLP"
+            },
+            {
+                "source_name": "team",
+                "url": "http://www.mullen.com/",
+                "external_id": "UrUwGrTQPspPbph"
+            },
+            {
+                "source_name": "personal",
+                "description": "Nothing down score relate risk.",
+                "url": "http://sims.org/",
+                "hashes": {
+                    "MD5": "0a7aeaa41c5cb6c5342ed5ab2b8d9aa8",
+                    "SHA-1": "98112e8a81531601a92a420001a47ec93277f422",
+                    "SHA-256": "d8cfa541db84ae18cf2e7162ab5820564c1c75806ef0cdf0784e24260b19c954",
+                    "SHA-512": "4771d1deb78c53e81e111f2a05dc0707f91c8e1ad4bec9da262b8700e0d3265f0f531ccd20c3925622884f2a8affde8a175165afd576da83b067827eef8ffc0e",
+                    "SHA3-256": "84e1224b7966c9b94f813e4875bc00da1b9670298437df4521821d2cb5b0fb2c",
+                    "SHA3-512": "822558c7394581e837d47e771d7137e56075e656c01c5df1feb22b710f3c91f9978ce830e6c1507294dea20114e54063ba8cb32ce388b7866f124405ba8fc93c"
+                },
+                "external_id": "POeTUMpLQrluBVZp"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ec85e226-607b-490c-9129-278670cdceac"
+        ]
+    },
+    {
+        "type": "ipv4-addr",
+        "spec_version": "2.1",
+        "id": "ipv4-addr--770e3c3a-d47e-49c5-b1da-71fbea3cfcc0",
+        "value": "216.238.60.120",
+        "object_marking_refs": [
+            "marking-definition--ec85e226-607b-490c-9129-278670cdceac"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--6c99a4c8-3f09-4c71-8b65-48a05c67b044",
+        "created_by_ref": "identity--1f464170-8867-4464-a967-fab6e8f06b95",
+        "created": "2020-04-13T14:23:21.010126Z",
+        "modified": "2021-08-14T01:08:39.819221Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--450a816a-eff7-4bb4-9209-8aed2b1691bc",
+        "target_ref": "ipv4-addr--770e3c3a-d47e-49c5-b1da-71fbea3cfcc0",
+        "start_time": "2021-03-03T10:53:17.987078Z",
+        "stop_time": "2021-12-21T13:32:57.306737Z",
+        "object_marking_refs": [
+            "marking-definition--ec85e226-607b-490c-9129-278670cdceac"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--2b903299-72e0-47b1-8d18-0cf9bb3603e2",
+        "created_by_ref": "identity--1f464170-8867-4464-a967-fab6e8f06b95",
+        "created": "2022-07-17T15:25:58.827137Z",
+        "modified": "2022-08-01T01:44:49.183518Z",
+        "abstract": "Most accept southern class nature. Will pressure believe war remain movie.",
+        "content": "Here simply huge television parent activity. Always here type strong none face system. Deal protect worker last.",
+        "authors": [
+            "money",
+            "again"
+        ],
+        "object_refs": [
+            "infrastructure--450a816a-eff7-4bb4-9209-8aed2b1691bc",
+            "ipv4-addr--770e3c3a-d47e-49c5-b1da-71fbea3cfcc0",
+            "relationship--6c99a4c8-3f09-4c71-8b65-48a05c67b044"
+        ],
+        "confidence": 48,
+        "object_marking_refs": [
+            "marking-definition--ec85e226-607b-490c-9129-278670cdceac"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1f464170-8867-4464-a967-fab6e8f06b95",
+        "created_by_ref": "identity--1f464170-8867-4464-a967-fab6e8f06b95",
+        "created": "2022-08-05T09:32:05.559513Z",
+        "modified": "2023-03-11T02:39:10.83843Z",
+        "name": "Jones Ltd",
+        "roles": [
+            "result",
+            "seat",
+            "performance",
+            "hair",
+            "sign"
+        ],
+        "identity_class": "organization",
+        "sectors": [
+            "government-regional",
+            "government-national",
+            "healthcare",
+            "government-regional"
+        ],
+        "contact_information": "985 Martin Ways Suite 353\nLake Jennifer, IL 61868",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "two",
+                "external_id": "GKtogYTmFQVPFYjkDFf"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ec85e226-607b-490c-9129-278670cdceac"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--ec85e226-607b-490c-9129-278670cdceac",
+        "created": "2021-08-14T01:08:39.81787Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f97bfbf2-c194-4d73-b792-b989c4ea0ab5",
+                "name": "Focus develop ago various",
+                "create_date_time": "2021-08-14T01:08:08.431216Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

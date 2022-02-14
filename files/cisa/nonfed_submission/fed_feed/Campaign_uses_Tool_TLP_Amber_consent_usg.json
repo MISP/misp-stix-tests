@@ -1,0 +1,154 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--1705f79e-e4d6-40dc-acd5-79e93681e3ea",
+        "created_by_ref": "identity--07847cad-5091-4411-b4f1-1829be199786",
+        "created": "2022-03-02T06:52:13.613065Z",
+        "modified": "2022-09-19T23:25:58.885705Z",
+        "name": "edge",
+        "aliases": [
+            "at",
+            "each"
+        ],
+        "last_seen": "2021-07-25T03:26:53.696714Z",
+        "objective": "Series without decade new position.",
+        "labels": [
+            "account",
+            "then",
+            "trade",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--e580b9e3-308a-4257-9568-e779f0312e3e"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--18861596-7d57-4121-8f0d-055104f7a42e",
+        "created_by_ref": "identity--07847cad-5091-4411-b4f1-1829be199786",
+        "created": "2021-10-29T13:54:10.142983Z",
+        "modified": "2021-12-23T00:34:30.444726Z",
+        "name": "town",
+        "description": "Future story fund community send music must.",
+        "tool_types": [
+            "exploitation",
+            "remote-access",
+            "network-capture",
+            "information-gathering"
+        ],
+        "labels": [
+            "provide",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--e580b9e3-308a-4257-9568-e779f0312e3e"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--844af7d8-1346-4ff7-b541-4c7af9ef1055",
+        "created_by_ref": "identity--07847cad-5091-4411-b4f1-1829be199786",
+        "created": "2022-06-23T06:33:48.994629Z",
+        "modified": "2022-11-20T18:01:18.129653Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--1705f79e-e4d6-40dc-acd5-79e93681e3ea",
+        "target_ref": "tool--18861596-7d57-4121-8f0d-055104f7a42e",
+        "start_time": "2020-09-04T06:41:11.094658Z",
+        "stop_time": "2021-02-04T15:59:15.825184Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e580b9e3-308a-4257-9568-e779f0312e3e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--e580b9e3-308a-4257-9568-e779f0312e3e",
+        "created_by_ref": "identity--07847cad-5091-4411-b4f1-1829be199786",
+        "created": "2021-08-14T01:08:20.702706Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2a4a5944-494c-4a33-b0ba-c70e719ee1c8",
+                "name": "Room arrive pay often",
+                "create_date_time": "2021-08-14T01:08:08.421032Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--07847cad-5091-4411-b4f1-1829be199786",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-03-19T08:07:58.355043Z",
+        "modified": "2021-10-13T12:39:28.732823Z",
+        "name": "Simmons-Moore",
+        "roles": [
+            "account",
+            "listen"
+        ],
+        "identity_class": "unknown",
+        "sectors": [
+            "education"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "role",
+                "url": "http://www.myers-thomas.info/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e580b9e3-308a-4257-9568-e779f0312e3e"
+        ]
+    }
+]

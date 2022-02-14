@@ -1,0 +1,88 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--90c64a1b-af56-4a13-8998-9ff2b6ab50af",
+        "created_by_ref": "identity--ce1e0136-7971-40d3-abe7-abb5a783ddbc",
+        "created": "2020-11-11T08:44:15.689145Z",
+        "modified": "2021-08-14T01:08:23.365298Z",
+        "name": "indeed",
+        "labels": [
+            "million",
+            "film",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--0400b8af-3627-4408-ba6b-9bb8dabfae7b",
+        "created_by_ref": "identity--ce1e0136-7971-40d3-abe7-abb5a783ddbc",
+        "created": "2021-08-01T10:01:11.538428Z",
+        "modified": "2022-03-16T14:09:44.224553Z",
+        "description": "Consumer those foreign red religious defense concern all.",
+        "pattern": "[autonomous-system:number < -799] OR [process:is_hidden = false] START t'2021-05-09T07:53:18.114738Z' STOP t'2021-08-22T04:58:39.173164Z'",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-05-07T14:23:15.893379Z",
+        "labels": [
+            "wonder",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "air",
+                "external_id": "sVUBZ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--7ac6d15c-60a7-451f-a2b5-408bdf7abd54",
+        "created_by_ref": "identity--ce1e0136-7971-40d3-abe7-abb5a783ddbc",
+        "created": "2021-01-11T03:00:38.407842Z",
+        "modified": "2021-08-14T01:08:23.367304Z",
+        "relationship_type": "mitigates",
+        "description": "Group left plan trip.",
+        "source_ref": "course-of-action--90c64a1b-af56-4a13-8998-9ff2b6ab50af",
+        "target_ref": "indicator--0400b8af-3627-4408-ba6b-9bb8dabfae7b",
+        "labels": [
+            "benefit",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ce1e0136-7971-40d3-abe7-abb5a783ddbc",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-25T01:33:37.523998Z",
+        "modified": "2022-02-09T16:41:40.780048Z",
+        "name": "BoyEffortMake",
+        "roles": [
+            "like",
+            "movement",
+            "pass"
+        ],
+        "contact_information": "1527 Joseph Vista Apt. 955\nEast Sallyhaven, IA 97634",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

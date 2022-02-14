@@ -1,0 +1,175 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--146ec246-fa11-4a19-874b-d703da6a9648",
+        "created_by_ref": "identity--427cbe06-af21-444c-8ead-36b75d0d3c84",
+        "created": "2022-03-11T17:10:57.794046Z",
+        "modified": "2022-04-11T04:55:09.455735Z",
+        "name": "every",
+        "description": "Side street help change see.",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fc50e461-929c-435d-b9a3-c93cc98cbaaf"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--93b60da1-97c3-40b1-b6e8-469e2f704926",
+        "created_by_ref": "identity--427cbe06-af21-444c-8ead-36b75d0d3c84",
+        "created": "2022-06-27T14:35:44.917804Z",
+        "modified": "2022-09-14T13:56:58.46388Z",
+        "name": "no",
+        "description": "Available fire hour property those animal.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "CruPMjnbPDunbDIP",
+                "phase_name": "UzmHJC"
+            }
+        ],
+        "labels": [
+            "here",
+            "tree",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fc50e461-929c-435d-b9a3-c93cc98cbaaf"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1de2e015-efd2-4938-8971-0fcfa3e475c0",
+        "created_by_ref": "identity--427cbe06-af21-444c-8ead-36b75d0d3c84",
+        "created": "2022-07-28T07:17:21.668545Z",
+        "modified": "2022-08-12T20:59:44.879336Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--146ec246-fa11-4a19-874b-d703da6a9648",
+        "target_ref": "attack-pattern--93b60da1-97c3-40b1-b6e8-469e2f704926",
+        "start_time": "2021-09-13T00:18:27.996034Z",
+        "stop_time": "2021-11-08T15:38:33.487785Z",
+        "confidence": 3,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fc50e461-929c-435d-b9a3-c93cc98cbaaf"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--25650d43-7d7e-4349-9f1d-9bbe95e970f9",
+        "created_by_ref": "identity--427cbe06-af21-444c-8ead-36b75d0d3c84",
+        "created": "2021-11-10T07:49:02.563431Z",
+        "modified": "2021-11-27T04:53:02.306153Z",
+        "content": "Certain grow fear attention child. Answer eye campaign mission size safe.",
+        "authors": [
+            "hard",
+            "drug",
+            "one"
+        ],
+        "object_refs": [
+            "course-of-action--146ec246-fa11-4a19-874b-d703da6a9648",
+            "attack-pattern--93b60da1-97c3-40b1-b6e8-469e2f704926",
+            "relationship--1de2e015-efd2-4938-8971-0fcfa3e475c0"
+        ],
+        "confidence": 24,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fc50e461-929c-435d-b9a3-c93cc98cbaaf"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--427cbe06-af21-444c-8ead-36b75d0d3c84",
+        "created_by_ref": "identity--427cbe06-af21-444c-8ead-36b75d0d3c84",
+        "created": "2021-05-21T13:37:37.471134Z",
+        "modified": "2021-08-14T01:08:22.910552Z",
+        "name": "Ross, Weber and Walker",
+        "roles": [
+            "control",
+            "alone",
+            "on",
+            "catch"
+        ],
+        "sectors": [
+            "government-local"
+        ],
+        "confidence": 31,
+        "object_marking_refs": [
+            "marking-definition--fc50e461-929c-435d-b9a3-c93cc98cbaaf"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--fc50e461-929c-435d-b9a3-c93cc98cbaaf",
+        "created": "2021-08-14T01:08:22.908876Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

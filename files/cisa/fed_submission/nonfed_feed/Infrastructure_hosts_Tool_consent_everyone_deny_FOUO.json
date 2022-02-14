@@ -1,0 +1,110 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--d9bcd0fa-541b-4320-a450-d85ce13e5257",
+        "created_by_ref": "identity--7caee6d0-ecf4-41a9-996d-97075f58dde5",
+        "created": "2020-11-24T02:54:36.659285Z",
+        "modified": "2021-08-14T01:08:48.482735Z",
+        "name": "statement",
+        "description": "Sell standard civil wind kid stop.",
+        "infrastructure_types": [
+            "unknown",
+            "reconnaissance",
+            "staging"
+        ],
+        "first_seen": "2021-05-27T08:48:16.339203Z",
+        "labels": [
+            "system",
+            "include",
+            "these",
+            "pfte-batch-1"
+        ],
+        "confidence": 15,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--2bbff92d-646a-47b0-97f0-8277212e7b13",
+        "created_by_ref": "identity--7caee6d0-ecf4-41a9-996d-97075f58dde5",
+        "created": "2021-10-14T15:40:43.468201Z",
+        "modified": "2021-11-18T16:06:57.742099Z",
+        "name": "rock",
+        "description": "Fast security measure.",
+        "tool_types": [
+            "exploitation",
+            "information-gathering",
+            "network-capture",
+            "exploitation",
+            "denial-of-service"
+        ],
+        "tool_version": "how",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 25,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--07d88e1a-e4f6-4fc1-bc82-8f2e4ab89848",
+        "created_by_ref": "identity--7caee6d0-ecf4-41a9-996d-97075f58dde5",
+        "created": "2021-08-24T05:18:30.543227Z",
+        "modified": "2022-07-05T01:15:20.50419Z",
+        "relationship_type": "hosts",
+        "source_ref": "infrastructure--d9bcd0fa-541b-4320-a450-d85ce13e5257",
+        "target_ref": "tool--2bbff92d-646a-47b0-97f0-8277212e7b13",
+        "stop_time": "2022-05-23T00:36:08.302947Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 60,
+        "external_references": [
+            {
+                "source_name": "another",
+                "description": "Fall across story player church.",
+                "url": "https://jackson.com/",
+                "hashes": {
+                    "MD5": "78758da76929be406a0178ed17cf641b",
+                    "SHA-1": "3679fdd75af0528dea5450be0e77fb03a8b20b25",
+                    "SHA-256": "a85393a2b4058b9301abfa06e0cc652894c4771d4b99eba8fc1a4c16b85e9098",
+                    "SHA-512": "3043c962218ce4942413e807602c11000d02a08d61eb507d4c5dfe8d85578cf4168ef0d8ce6f6a03541d09ea3d70c002cef604401a1c1d4e64ed2dd90490864f",
+                    "SHA3-256": "2f681aacbe063cdab4de19a53e3f04e20141d2937c4016205cdc4475e67c2b5e",
+                    "SHA3-512": "517ada089f3fe2acba937095f14a99ce50594bdfe3df677f1c9d83ad10462e251a46b93108442a0b423c6a8692ffed364b85cb5cd9eda98783d66e0877deff9f"
+                },
+                "external_id": "sbIxIqqbfZU"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7caee6d0-ecf4-41a9-996d-97075f58dde5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-13T13:44:07.005892Z",
+        "modified": "2021-08-15T03:19:14.356766Z",
+        "name": "CentralGroupDoor",
+        "identity_class": "individual",
+        "sectors": [
+            "mining",
+            "defense"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

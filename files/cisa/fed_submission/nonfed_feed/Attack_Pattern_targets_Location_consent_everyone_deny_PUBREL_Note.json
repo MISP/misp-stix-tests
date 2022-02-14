@@ -1,0 +1,184 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--c9239966-5fd3-4fc1-acf7-712bf0d0599c",
+        "created_by_ref": "identity--1ffaa8ea-e54c-49bc-828a-ed855e48def9",
+        "created": "2022-05-27T01:24:25.414375Z",
+        "modified": "2023-01-28T12:19:11.508585Z",
+        "name": "lawyer",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "HHFMSaTEPhrUadTTI",
+                "phase_name": "BFwfWostXqipPS"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "xRGudEzGkx",
+                "phase_name": "iIcHsCGKNLKgbFiAbU"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--57bdbcee-0f60-4d9b-bed8-d16779fc62fa",
+        "created_by_ref": "identity--1ffaa8ea-e54c-49bc-828a-ed855e48def9",
+        "created": "2021-10-10T23:03:12.582878Z",
+        "modified": "2021-12-13T20:53:28.928652Z",
+        "name": "CJAHQYejlo",
+        "latitude": -65.48896647057725,
+        "longitude": -10.052099454754028,
+        "country": "Cocos (Keeling) Islands",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a12d32a9-b8ef-4edb-8e6c-bf72cf5d72b7",
+        "created_by_ref": "identity--1ffaa8ea-e54c-49bc-828a-ed855e48def9",
+        "created": "2020-10-31T18:12:46.897856Z",
+        "modified": "2021-08-14T01:08:10.594432Z",
+        "relationship_type": "targets",
+        "source_ref": "attack-pattern--c9239966-5fd3-4fc1-acf7-712bf0d0599c",
+        "target_ref": "location--57bdbcee-0f60-4d9b-bed8-d16779fc62fa",
+        "start_time": "2022-05-20T05:28:00.737445Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--b95cbac0-39b8-49ab-995d-9bd18d26513d",
+        "created_by_ref": "identity--1ffaa8ea-e54c-49bc-828a-ed855e48def9",
+        "created": "2022-03-23T16:25:47.34042Z",
+        "modified": "2022-07-19T20:54:15.983349Z",
+        "content": "Important Democrat activity cell some summer site. Again fall road oil dark onto affect.",
+        "authors": [
+            "shake",
+            "view"
+        ],
+        "object_refs": [
+            "attack-pattern--c9239966-5fd3-4fc1-acf7-712bf0d0599c",
+            "location--57bdbcee-0f60-4d9b-bed8-d16779fc62fa",
+            "relationship--a12d32a9-b8ef-4edb-8e6c-bf72cf5d72b7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 55,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "provide",
+                "url": "https://www.davidson-miller.org/",
+                "external_id": "MTBcaT"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1ffaa8ea-e54c-49bc-828a-ed855e48def9",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-20T23:15:56.31258Z",
+        "modified": "2021-10-11T06:44:33.88766Z",
+        "name": "AlthoughRichWrite",
+        "sectors": [
+            "government-public-services",
+            "nuclear",
+            "pharmaceuticals"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "include",
+                "description": "Finally sit consumer.",
+                "hashes": {
+                    "MD5": "90ea6313a44269e5a511ef4d72ce0737",
+                    "SHA-1": "1f363bdef1a237d255977d59d34f9d95b9e26e31",
+                    "SHA-256": "bdf9512e4a1fa40f1a8eef94debb120430ff0083bf2be13b5b34b5f48a417401",
+                    "SHA-512": "e62859c1040f404f4e150bd1a2ea152caad6e53bab361fa0f54a0fdcc05dbc29d53b6b5aa43ce364c3bd1f3c3742a72d411f34c46f53004063416577bfba3a69",
+                    "SHA3-256": "dc5d4d75cf82dc88b1ab91242d45fa562afe052d8b7a39929ddd8e32e20cfc96",
+                    "SHA3-512": "14225bd3ba88eee5b90787b922b3fa9ed0d3bba6e675e6c8e4b9b4b61fa2e3d217a9a0dd2e699ab1c52b38b542011c0d0f7e75a63560bd746187b208c4bc670f"
+                },
+                "external_id": "EJFSHdbXH"
+            },
+            {
+                "source_name": "they",
+                "description": "School environmental pretty nature collection quite.",
+                "hashes": {
+                    "MD5": "58b2fd96149a13d4a17090a45464887d",
+                    "SHA-1": "03d1f79dd42c0d59257f728998b7b6dfae57e7a8",
+                    "SHA-256": "2f1c4cfd46d743b8d76b2d7170f3d3b324264f9c388969ab10869cacefd0b8cf",
+                    "SHA-512": "f05302c2c017fd8fe14a8fe2d57781155e04c385a230b47feb70d477e0ad360ce0cdab3060d465549cab9a8f03cc8c7a0deb2393af525cfbb253a7681de76fe9",
+                    "SHA3-256": "28414e3f1ce3c14daa1d4eaef19a99f6ecae445cc25a90ffbad440ae845b3ee6",
+                    "SHA3-512": "67e85f9dc1b5ae19d253c80218b78332601571609d3ebb21427309df92ec8c6b4e7361bc408e1afe4d84e55bb05c1f581e8a8b8eba8c7ae64469ea5bdd2a84cb"
+                },
+                "external_id": "oHvAjhhiNP"
+            },
+            {
+                "source_name": "return",
+                "url": "http://www.charles-mays.com/",
+                "hashes": {
+                    "MD5": "15511eed62872a26aba5dba7bb31e363",
+                    "SHA-1": "dbed1e2b23467dc7454008ff787cda2ce5bcbaff",
+                    "SHA-256": "907e7a4c0a06f420562189dab10545f24b61a11e67c5a64bb6d0aa05594f6d62",
+                    "SHA-512": "6d97d1713cd7a2f28a598476464ce0ca19c545e0bce31d2f1c671778215af6cf06e7f30d8c98d39b96dd8bf2544201e3c7cee2a1e30d5ce3ccda5be753b86eb3",
+                    "SHA3-256": "46a54ad50f3681e2e746b3deebebecbdcb8347cad13def46145f5bfbc42c9e16",
+                    "SHA3-512": "668facbc5534135a77f579ec9727bc3b704bdc8ab49deca827069a037d2d1b56b8e9e9678643eb02963742b9c82648cbc9c4cc34459c5e71b34afd954156ac2b"
+                },
+                "external_id": "nJxevfGeFqxHZj"
+            },
+            {
+                "source_name": "mind",
+                "hashes": {
+                    "MD5": "99f272821ed330f7ed9f5d7d392347bd",
+                    "SHA-1": "dd3e13a9788c3870ad39afa74e2e9756a0bedc2b",
+                    "SHA-256": "a6a47981518441d522f44317ce201cdd2c0727932b8b5ec67edcca65e4932370",
+                    "SHA-512": "4eedfbe214fb737508d7f172bef582b1c2c5c8922296c00732539333407345de8c7bd429e8dfa040d58617231767a098f722e75e708ea5a07944b455ac795aa9",
+                    "SHA3-256": "873975d7758d7361760ce904493001c5daa42cd1cfcf80c386dce0eb8ea0845f",
+                    "SHA3-512": "4310281e95308ecba5ccd192be7811a7b35e2ffd3aeade567bd5208054bfeac97ff546609e2589605a07495b2b1d2b421defb935814363ada1bdc61cada3cced"
+                },
+                "external_id": "pHCQbhnVkaFaznLQMTk"
+            },
+            {
+                "source_name": "whatever",
+                "description": "Mother remain relate within product."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

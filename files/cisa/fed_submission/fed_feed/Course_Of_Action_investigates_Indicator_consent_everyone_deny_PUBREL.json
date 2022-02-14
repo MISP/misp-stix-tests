@@ -1,0 +1,165 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--23a38752-bdb9-468e-aa0c-e1bf024afb35",
+        "created_by_ref": "identity--ce90704a-4a54-4431-9e2f-ba2f180d403b",
+        "created": "2021-01-13T17:29:15.266651Z",
+        "modified": "2021-08-14T01:08:22.206744Z",
+        "name": "understand",
+        "labels": [
+            "believe",
+            "establish",
+            "tonight",
+            "administration",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--b3376468-67e2-4fc1-b544-488e2e0c3fc0"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--0f26a3fb-8d29-46db-ae6b-09ce6d2a1a12",
+        "created_by_ref": "identity--ce90704a-4a54-4431-9e2f-ba2f180d403b",
+        "created": "2021-09-15T12:30:40.504025Z",
+        "modified": "2022-06-24T15:53:54.990271Z",
+        "name": "boy",
+        "pattern": "([mutex:defanged = false] OR [process:pid < 27331] OR ((([mac-addr:defanged = false] AND ([software:name <= 'ttlnvVLIXEXlqtzyGvz']))))) FOLLOWEDBY [domain-name:value < 'jackson-johns.org']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-09-17T17:05:59.993378Z",
+        "valid_until": "2020-12-07T00:20:46.165361Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "WFmyUzhkucd",
+                "phase_name": "ikplvCQrUWGxta"
+            },
+            {
+                "kill_chain_name": "AAOmKjQPF",
+                "phase_name": "RLzdcyutUAIgY"
+            }
+        ],
+        "confidence": 68,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b3376468-67e2-4fc1-b544-488e2e0c3fc0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f758da2b-cba7-4c4d-9d69-38db2f1cafc6",
+        "created_by_ref": "identity--ce90704a-4a54-4431-9e2f-ba2f180d403b",
+        "created": "2022-01-25T14:44:28.863226Z",
+        "modified": "2022-08-22T08:54:58.197245Z",
+        "relationship_type": "investigates",
+        "description": "Maybe fact stand collection. Phone accept always simple special make. Your personal letter sound probably sound manage.",
+        "source_ref": "course-of-action--23a38752-bdb9-468e-aa0c-e1bf024afb35",
+        "target_ref": "indicator--0f26a3fb-8d29-46db-ae6b-09ce6d2a1a12",
+        "start_time": "2022-07-07T11:46:19.762488Z",
+        "stop_time": "2022-12-24T11:23:11.392012Z",
+        "confidence": 60,
+        "object_marking_refs": [
+            "marking-definition--b3376468-67e2-4fc1-b544-488e2e0c3fc0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ce90704a-4a54-4431-9e2f-ba2f180d403b",
+        "created_by_ref": "identity--ce90704a-4a54-4431-9e2f-ba2f180d403b",
+        "created": "2020-09-19T14:46:02.565789Z",
+        "modified": "2021-08-14T01:08:22.211135Z",
+        "name": "Turner, Smith and Navarro",
+        "contact_information": "4885 Ethan Alley\nWest Glennside, VA 43992",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "external_references": [
+            {
+                "source_name": "alone",
+                "url": "https://www.webb.com/",
+                "hashes": {
+                    "MD5": "567728331eccca4150540f494f892032",
+                    "SHA-1": "8896d898504985ea3823a27fef43059a8d268b9f",
+                    "SHA-256": "c74db928776fef8bc2b190f168128d3db3042923f3e5c09915631f77a7aa47d7",
+                    "SHA-512": "c3f15164a3c110689b4f320c5e840f8c591716d56fba262acbc541339fd48963aa02eb85aabaf1a84c968c703d8b15321f9e6f68e4a13fcffc909e9c483f0d91",
+                    "SHA3-256": "a8f669b5c58f24190b6d946d3c7a8eec2c53cb62437884c52970b09b51febfae",
+                    "SHA3-512": "9dce94b8957238fcf2435209995c913bc64d33b58c9346fab7932f44597ac90806ed2162d393b87a277af2eedf42c5dcc167889b6649dfbbff183887e9468fbd"
+                },
+                "external_id": "XJcbceRKtSqu"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b3376468-67e2-4fc1-b544-488e2e0c3fc0"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b3376468-67e2-4fc1-b544-488e2e0c3fc0",
+        "created": "2021-08-14T01:08:22.206103Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1b1f4ecf-83db-4fe9-8c22-38a5f88b6694",
+                "name": "Deal certainly rather appear present safe",
+                "create_date_time": "2021-08-14T01:08:08.429946Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.429783Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,154 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--d5ae444e-548a-4d79-9a24-06c28e65c143",
+        "created_by_ref": "identity--ed28fe75-b63d-4639-be26-0dc45c9a55ac",
+        "created": "2020-06-13T06:23:06.715051Z",
+        "modified": "2021-08-14T01:08:12.92798Z",
+        "name": "building",
+        "object_marking_refs": [
+            "marking-definition--c6ad471e-3293-407f-b1f1-3c6cbbb7a70a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--f9f30479-afaa-4723-a6e0-51091fff56c3",
+        "created_by_ref": "identity--ed28fe75-b63d-4639-be26-0dc45c9a55ac",
+        "created": "2021-10-26T08:04:25.733855Z",
+        "modified": "2022-01-28T14:27:27.781302Z",
+        "name": "education",
+        "tool_version": "religious",
+        "confidence": 90,
+        "external_references": [
+            {
+                "source_name": "while",
+                "description": "Statement lay girl concern safe hotel enough speak.",
+                "hashes": {
+                    "MD5": "dc77c99b5709504f533789c7ea5dbca6",
+                    "SHA-1": "2b75380961a7fc281f205c27375bb9844724b5f1",
+                    "SHA-256": "5cb23e697b04cb7f53e3bf86de8d39a2dbb3cf5972948327247ea4b2426a9fd7",
+                    "SHA-512": "83ca19a9c45110cebaa3ff6ed03c3141c96756bc0b9c24160a771c700045720b5f0e41e09588d442a572046fda4df13b5ad06b937b93be7dee977289bf64504b",
+                    "SHA3-256": "df1a951c8be20633bce7165ce043ab1fbb8d44538653f559b0d7636e29a8c541",
+                    "SHA3-512": "373be3fce8dde8b383878377eab7db7ae2b0a206fbdd787a9266dc3a755bca39278d722ab293d587a325c7d73a83e034ea8f5ba346dd469d503212795b2d7de5"
+                },
+                "external_id": "kccPNptpQawld"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c6ad471e-3293-407f-b1f1-3c6cbbb7a70a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--21df2702-195c-4706-a82f-6148b99c2ae9",
+        "created_by_ref": "identity--ed28fe75-b63d-4639-be26-0dc45c9a55ac",
+        "created": "2021-06-26T02:16:14.269496Z",
+        "modified": "2021-08-14T01:08:12.928567Z",
+        "relationship_type": "uses",
+        "description": "Eight that politics its thousand across. Home deal owner line former civil mind. Movie shake include politics country professor admit.",
+        "source_ref": "attack-pattern--d5ae444e-548a-4d79-9a24-06c28e65c143",
+        "target_ref": "tool--f9f30479-afaa-4723-a6e0-51091fff56c3",
+        "start_time": "2021-10-11T11:07:19.844491Z",
+        "stop_time": "2022-06-13T06:24:19.608196Z",
+        "confidence": 18,
+        "object_marking_refs": [
+            "marking-definition--c6ad471e-3293-407f-b1f1-3c6cbbb7a70a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ed28fe75-b63d-4639-be26-0dc45c9a55ac",
+        "created_by_ref": "identity--ed28fe75-b63d-4639-be26-0dc45c9a55ac",
+        "created": "2020-09-13T11:34:59.369927Z",
+        "modified": "2021-08-14T01:08:12.928844Z",
+        "name": "Mitchell-Duarte",
+        "description": "Total homogeneous leverage",
+        "roles": [
+            "degree",
+            "cut",
+            "finish",
+            "notice"
+        ],
+        "sectors": [
+            "defense",
+            "manufacturing"
+        ],
+        "contact_information": "9822 Andrew Haven\nLake Amber, ID 21256",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c6ad471e-3293-407f-b1f1-3c6cbbb7a70a"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--c6ad471e-3293-407f-b1f1-3c6cbbb7a70a",
+        "created": "2021-08-14T01:08:12.927409Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e0c28f68-5570-434a-9764-3e8498f0a59a",
+                "name": "Serve much idea usually",
+                "create_date_time": "2021-08-14T01:08:08.432065Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

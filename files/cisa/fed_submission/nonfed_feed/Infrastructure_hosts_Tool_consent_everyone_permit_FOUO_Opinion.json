@@ -1,0 +1,156 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--b962ce87-4d4f-4f5a-850a-feb6d39c00ca",
+        "created_by_ref": "identity--e5ad6e1d-4b9b-44dd-8c83-29a055323673",
+        "created": "2021-01-14T08:06:02.747432Z",
+        "modified": "2022-01-09T19:39:01.142344Z",
+        "name": "interview",
+        "description": "Training try management kind.",
+        "aliases": [
+            "stop",
+            "nature",
+            "mouth"
+        ],
+        "first_seen": "2020-10-14T16:02:12.454026Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 38,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--fc60a239-87ae-4618-9060-29f214b89ed7",
+        "created_by_ref": "identity--e5ad6e1d-4b9b-44dd-8c83-29a055323673",
+        "created": "2021-04-22T13:31:39.735388Z",
+        "modified": "2021-08-14T01:08:48.524491Z",
+        "name": "for",
+        "tool_types": [
+            "denial-of-service",
+            "exploitation",
+            "exploitation",
+            "vulnerability-scanning",
+            "credential-exploitation"
+        ],
+        "labels": [
+            "leg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--23126a5f-876f-4431-b3ec-36c327535a0f",
+        "created_by_ref": "identity--e5ad6e1d-4b9b-44dd-8c83-29a055323673",
+        "created": "2020-09-10T10:44:41.593616Z",
+        "modified": "2021-08-16T02:55:59.870971Z",
+        "relationship_type": "hosts",
+        "source_ref": "infrastructure--b962ce87-4d4f-4f5a-850a-feb6d39c00ca",
+        "target_ref": "tool--fc60a239-87ae-4618-9060-29f214b89ed7",
+        "labels": [
+            "instead",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--8b8d245b-8c8d-447b-82fb-6cf0cf38657e",
+        "created_by_ref": "identity--e5ad6e1d-4b9b-44dd-8c83-29a055323673",
+        "created": "2022-04-21T11:31:59.835006Z",
+        "modified": "2022-06-19T12:59:39.645233Z",
+        "explanation": "Book red main though. New stage study would.",
+        "opinion": "strongly-agree",
+        "object_refs": [
+            "infrastructure--b962ce87-4d4f-4f5a-850a-feb6d39c00ca",
+            "tool--fc60a239-87ae-4618-9060-29f214b89ed7",
+            "relationship--23126a5f-876f-4431-b3ec-36c327535a0f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "speak",
+                "url": "http://www.holmes.com/",
+                "hashes": {
+                    "MD5": "3a04f024e87f5ca446bc1ef91a4adbed",
+                    "SHA-1": "16a40a872e505c329046d3f102e5e3f14e94cff3",
+                    "SHA-256": "f2eddc8c3d9e1e086e254f0aa100abfbebac31c61db00e623e66afb2225b9a03",
+                    "SHA-512": "840559f76da7822d743275425c3b89a6b9c6b0c85f1644b83308d03b4d5a857f4fb10da538c01c3d95131707826c3e1bee5ca40c72a6a4f652c58627531224d8",
+                    "SHA3-256": "caa7ac7dfce2fb6f676e37a52b38d6c79108bbaee2a029d24fd42b7b488245e0",
+                    "SHA3-512": "51da753a5f1aa311cf523d61d49856aef0e24e922747e7e766cf1fa458d8cfe19ab2bb77d94e701e83f88488ce40c258b8e65c3a230156e548a34be2e3f6b30c"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e5ad6e1d-4b9b-44dd-8c83-29a055323673",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-17T23:23:04.967656Z",
+        "modified": "2021-08-14T01:08:48.528527Z",
+        "name": "Simon Group",
+        "roles": [
+            "between",
+            "thought"
+        ],
+        "sectors": [
+            "emergency-services",
+            "retail",
+            "hospitality-leisure",
+            "healthcare",
+            "insurance"
+        ],
+        "contact_information": "9718 Stewart Field Suite 479\nGreenton, AK 18769",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "final",
+                "url": "https://jones.com/",
+                "external_id": "fVZiDZXnMlrCAqpSmGeB"
+            },
+            {
+                "source_name": "quality",
+                "description": "Range firm growth.",
+                "url": "http://www.daniel-miller.com/",
+                "hashes": {
+                    "MD5": "e0efd31c361f197a831f7b6456d7b186",
+                    "SHA-1": "f5c60f37e77d70c457e83e3ab52f585c94e9b9ca",
+                    "SHA-256": "9a3e34eefc31eb8e82622f6ce3feed3ee988b10b5ef2ca67c50266b6a5ddf8c1",
+                    "SHA-512": "d87b3736d9e48e2471661761e62cc5add138e4e703273045b6ce0b084eb3bcc19e5e2d93e9e663606c640f01e3e223ae29953a93bd76ecb525dbbbe151ea410b",
+                    "SHA3-256": "7890d962dabcdebfbf2dcdcfecbc892063d52f1545fb5d06725c2f787463f43d",
+                    "SHA3-512": "1eaa90c5c1df9120172eb21e7391f1dfe8b5190e74c31d294096b6c398db3a4a333a6e0ddbef8509cd53d40ebdc0aaf1126eedad8c9886fea8d2626a4e694f2b"
+                },
+                "external_id": "wprOUZzTTNdHjmjnQn"
+            },
+            {
+                "source_name": "activity",
+                "external_id": "ZYeczfFPgCVBIF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

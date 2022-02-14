@@ -1,0 +1,110 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--41dcbb16-8288-4327-a0c3-e6e4a41227e2",
+        "created_by_ref": "identity--a247e191-54ba-47b5-b506-cf479372d485",
+        "created": "2021-03-17T00:45:15.31577Z",
+        "modified": "2021-08-14T01:08:41.278669Z",
+        "name": "nation",
+        "description": "Charge western form course.",
+        "aliases": [
+            "audience",
+            "coach",
+            "believe"
+        ],
+        "first_seen": "2021-02-12T00:10:49.08319Z",
+        "last_seen": "2021-07-19T00:30:58.71834Z",
+        "labels": [
+            "stay",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "domain-name",
+        "spec_version": "2.1",
+        "id": "domain-name--94431f11-60e4-4fea-8031-c118c98dabc6",
+        "value": "wood.com",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--46c90b92-3305-4b95-8236-f971d9c66723",
+        "created_by_ref": "identity--a247e191-54ba-47b5-b506-cf479372d485",
+        "created": "2021-01-09T20:14:49.282496Z",
+        "modified": "2021-08-14T01:08:41.278971Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--41dcbb16-8288-4327-a0c3-e6e4a41227e2",
+        "target_ref": "domain-name--94431f11-60e4-4fea-8031-c118c98dabc6",
+        "start_time": "2021-12-05T18:24:35.85068Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 33,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a247e191-54ba-47b5-b506-cf479372d485",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-01-06T13:04:25.237088Z",
+        "modified": "2022-12-10T05:32:55.229738Z",
+        "name": "Gibson, Henderson and Vazquez",
+        "roles": [
+            "race",
+            "actually",
+            "poor",
+            "left",
+            "better"
+        ],
+        "sectors": [
+            "insurance",
+            "government-national",
+            "emergency-services",
+            "financial-services",
+            "dams"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 39,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "success",
+                "url": "http://petty-kidd.com/",
+                "hashes": {
+                    "MD5": "d41385d460d6394f8ddc260cbcaca177",
+                    "SHA-1": "e1d224bb7cc21ec2b09fa0509d0c4cf17363faed",
+                    "SHA-256": "0223237f9de808cf00f734df11b100a806a16827695ae6c66f865a38b28bd35c",
+                    "SHA-512": "1a620c31ea86176efb097a49dd85c9b22b2b4af103369f04a90eb3fdfe18256b5a118d3ffd5825fb13e7e1a490bf43a555a9d5dc41beb52201475f84d27789ee",
+                    "SHA3-256": "879be84157f4b2b7ae59290ed53064a39aeed8b4a4fa056345bb361084fea429",
+                    "SHA3-512": "39e04f776ead29ee990deba20cf2d1c5e1fec2b050d4111348c7c951fd80cea219aa8b03e557f2f269a8f5cd4005628a04d34bdb22ae79a363df513ee4559e8b"
+                }
+            },
+            {
+                "source_name": "hit",
+                "description": "Describe drug white pay thing worry.",
+                "external_id": "KboJndWOpmbxaTkp"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

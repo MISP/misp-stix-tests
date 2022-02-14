@@ -1,0 +1,218 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--6f8118e4-0005-4d4c-8a51-81aefc33cdb9",
+        "created_by_ref": "identity--2c794995-5549-4222-98a7-966f697a65b4",
+        "created": "2021-08-27T02:31:02.003487Z",
+        "modified": "2022-05-02T02:45:02.251253Z",
+        "name": "listen",
+        "description": "Scene general reason official employee.",
+        "indicator_types": [
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "[user-account:account_type = 'radius']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-08-28T22:11:57.813792Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "TjNNqSTrWyZT",
+                "phase_name": "PESNDAzjERBhKxXVw"
+            },
+            {
+                "kill_chain_name": "HdlNcFdFoNrhHVqzj",
+                "phase_name": "kXvCS"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "labels": [
+            "within",
+            "according",
+            "increase",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "could",
+                "description": "Professional table best.",
+                "url": "http://simpson.biz/",
+                "external_id": "LRYyFxEERsxzn"
+            },
+            {
+                "source_name": "cost",
+                "description": "Model vote out in production to open.",
+                "url": "https://www.hernandez.com/",
+                "hashes": {
+                    "MD5": "a83d4f2472431b16ff5d05b2c4009a21",
+                    "SHA-1": "f30697798b5e86ea913643b6c4324a0ec801f4dd",
+                    "SHA-256": "8495ba96fec8bda5aed2f0f8d55fd506a6fe1be14decd2e24c85e4fb9ffb3d7f",
+                    "SHA-512": "9b55e4da823067cf003f9ad27ee625fac7ed3ad319ea8297091e0d516a75b4728ed9a70684a3f1cde9704090191b30f7c3b0677872f3a2736d37d02fe02d1d64",
+                    "SHA3-256": "46dd114cab348feb22a7923aa228396bb3d914b04a7924d13a243f5c07be4e9f",
+                    "SHA3-512": "bfca8afc81a4c495c7fe89c449440454451fdfd22e38d5560420d0093734c4c9f03d133e6bf977b5de3eca838f9a03daf285b9a383945eb3b6e160d4283a667b"
+                },
+                "external_id": "mCjoROoRkf"
+            },
+            {
+                "source_name": "compare",
+                "description": "Billion event including available quickly kind popular.",
+                "url": "http://www.boyd.biz/",
+                "hashes": {
+                    "MD5": "0b21ce0bb2c202b6d032747e5990fd29",
+                    "SHA-1": "13f392d3d716a3d0444a40a4f45e12e5fce00beb",
+                    "SHA-256": "e90e668e791f4b5d00e2854feea5c66b1927ba22e1fec407bc91093db84241bd",
+                    "SHA-512": "9b94de6166f325b967fcdbbe6ad2d45fa6deb84d35d02b861cdd4273cf4e27cea601a916f7865769a4720cfc56a68165f19ffef45a8626f19980491edd05beb8",
+                    "SHA3-256": "05b62339ae4e34d3cca5574b1ea44c89dc513a60b85c3e9e27481d131d34954f",
+                    "SHA3-512": "15d128a8448118d808c27310e45e0c4c3c136f84570c056139ad090943b8faccb84f0539cbefe6240aaf67e324d17e52f2cf7e67b5d5995e085e47688936c4c5"
+                },
+                "external_id": "ZsyUKjp"
+            },
+            {
+                "source_name": "general",
+                "description": "Hope body new himself possible such.",
+                "url": "http://www.hayes.net/"
+            },
+            {
+                "source_name": "same",
+                "url": "http://bishop.info/",
+                "hashes": {
+                    "MD5": "57da22a7a94cf86a1ccc48346a94e396",
+                    "SHA-1": "b3e4b5810fb350b2468173f4353055fdc9c63496",
+                    "SHA-256": "662433bf05e8c8f6823169898c7915adc73a30f0b684c06208f4ecfcccfecca7",
+                    "SHA-512": "b616f22c7e2dd6a3705dab14db91f0ab87b0558a7e7bfb5126213a0c87a83442e709c62bcce61f54c473ee1be3e7e819b3cd01743c1da2ac0ec76041c78eedee",
+                    "SHA3-256": "ebebd7e28ee80d331fca47b93fea026cb2c30f6903810a9662f6c3593bb56ed8",
+                    "SHA3-512": "24c055d89cf2b889664ec8c251415cc275510308b9d70d29b405a4d313efaece195d41f3b35ff823529a2875647100b682b4c7c2cfd16c3753c159a97bc99cc2"
+                },
+                "external_id": "wPswhIvFIeurYu"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--3421e74b-fd77-47f1-a42e-bbb8c21fba64"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--0a0cff7d-ea3f-4a28-9a69-061b07acefdd",
+        "created_by_ref": "identity--2c794995-5549-4222-98a7-966f697a65b4",
+        "created": "2021-03-02T07:26:20.562329Z",
+        "modified": "2021-12-07T18:12:56.506789Z",
+        "first_observed": "2021-04-03T09:41:00.880633Z",
+        "last_observed": "2022-03-30T11:58:54.435711Z",
+        "number_observed": 135110021,
+        "objects": {
+            "directory--5149624f-2e01-4af3-9221-64fd41244dce": {
+                "type": "directory",
+                "spec_version": "2.1",
+                "id": "directory--5149624f-2e01-4af3-9221-64fd41244dce",
+                "path": "/people/just.avi",
+                "ctime": "2020-10-27T23:26:11.717232Z",
+                "atime": "2021-09-14T08:26:50.471902Z"
+            }
+        },
+        "confidence": 63,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3421e74b-fd77-47f1-a42e-bbb8c21fba64"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f2f7c2d9-ebae-46c6-82ce-7a3bce0c90ec",
+        "created_by_ref": "identity--2c794995-5549-4222-98a7-966f697a65b4",
+        "created": "2021-12-04T14:30:17.637423Z",
+        "modified": "2022-10-01T11:26:10.398591Z",
+        "relationship_type": "based-on",
+        "source_ref": "indicator--6f8118e4-0005-4d4c-8a51-81aefc33cdb9",
+        "target_ref": "observed-data--0a0cff7d-ea3f-4a28-9a69-061b07acefdd",
+        "labels": [
+            "shake",
+            "change",
+            "majority",
+            "trial",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3421e74b-fd77-47f1-a42e-bbb8c21fba64"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2c794995-5549-4222-98a7-966f697a65b4",
+        "created_by_ref": "identity--2c794995-5549-4222-98a7-966f697a65b4",
+        "created": "2022-07-18T04:24:14.202808Z",
+        "modified": "2023-01-30T08:34:51.916265Z",
+        "name": "Wilson and Sons",
+        "description": "Re-engineered systematic moratorium",
+        "identity_class": "class",
+        "sectors": [
+            "government",
+            "hospitality-leisure",
+            "energy"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3421e74b-fd77-47f1-a42e-bbb8c21fba64"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--3421e74b-fd77-47f1-a42e-bbb8c21fba64",
+        "created": "2021-08-14T01:08:38.210573Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-716f5d31-4760-4ed1-b8df-6b76bb19bd34",
+                "name": "Wife plan yourself training yet rich",
+                "create_date_time": "2021-08-14T01:08:08.43336Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.433196Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

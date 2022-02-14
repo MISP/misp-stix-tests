@@ -1,0 +1,173 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--fd54a89a-834c-4884-8520-6c13b3b73ed0",
+        "created_by_ref": "identity--3e0c9f5c-3095-47e8-99ff-26a5a54472e3",
+        "created": "2022-01-17T18:29:44.297419Z",
+        "modified": "2022-07-16T16:39:26.529108Z",
+        "name": "pattern",
+        "aliases": [
+            "onto",
+            "put",
+            "study",
+            "feeling"
+        ],
+        "last_seen": "2021-09-07T02:04:13.43595Z",
+        "resource_level": "club",
+        "labels": [
+            "science",
+            "quality",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--48f7b179-ab0b-4944-8cce-905e1ff6b0da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0e905df6-5335-4fc3-a505-f395c7bf2849",
+        "created_by_ref": "identity--3e0c9f5c-3095-47e8-99ff-26a5a54472e3",
+        "created": "2021-10-14T08:10:20.825402Z",
+        "modified": "2022-03-15T04:09:29.466175Z",
+        "name": "Oneal, Fox and Cunningham",
+        "sectors": [
+            "government-national",
+            "infrastructure",
+            "defense",
+            "pharmaceuticals",
+            "government-public-services"
+        ],
+        "contact_information": "716 Morse Courts\nEast Michaelville, AZ 57957",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--48f7b179-ab0b-4944-8cce-905e1ff6b0da"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3ae4f592-03c2-412f-a35b-078dfc9389e0",
+        "created_by_ref": "identity--3e0c9f5c-3095-47e8-99ff-26a5a54472e3",
+        "created": "2021-07-22T13:26:10.599859Z",
+        "modified": "2022-06-16T01:07:39.665599Z",
+        "relationship_type": "targets",
+        "source_ref": "intrusion-set--fd54a89a-834c-4884-8520-6c13b3b73ed0",
+        "target_ref": "identity--0e905df6-5335-4fc3-a505-f395c7bf2849",
+        "start_time": "2021-12-03T10:03:33.198823Z",
+        "stop_time": "2022-01-06T14:56:57.776376Z",
+        "confidence": 15,
+        "external_references": [
+            {
+                "source_name": "call",
+                "description": "A effect seven guess like.",
+                "url": "https://moss.com/",
+                "external_id": "IprzIwbISB"
+            },
+            {
+                "source_name": "perform",
+                "description": "Drive public light evening hundred.",
+                "hashes": {
+                    "MD5": "63c71a2cb94996948d0b0be00ebfe06a",
+                    "SHA-1": "576f2b6c934367bc554fd6dc46c43accf51b9712",
+                    "SHA-256": "4448ac8c6ad586d705b490fde5efe76ac4b6b4558b1df8b9306a95b03d8cd238",
+                    "SHA-512": "18694bf57e2c30b7b23249183e4725a69f34da7aa12ec666b3bf53c3fa9c3dd50c3e6a9fe1bf2189995fed23a6818a94c74f2284082427f6ef01cbc689d57a19",
+                    "SHA3-256": "05cadc23549bfa22600744e9b667f62f67d632ca2f48df93a8baed362998c150",
+                    "SHA3-512": "adb9eb0b38eebec08cb2e0c539cda5eddfcfdd75dce68ea29e92647693fe417616206fa339d69ed2ec560202d2e7c9141170b293fecdd8c666df56a2e0711264"
+                },
+                "external_id": "YMAfYTkqbzaN"
+            },
+            {
+                "source_name": "thank",
+                "description": "Soon understand set next why.",
+                "url": "http://morgan-lee.com/"
+            },
+            {
+                "source_name": "number",
+                "external_id": "jLTzKpLgS"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--48f7b179-ab0b-4944-8cce-905e1ff6b0da"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--48f7b179-ab0b-4944-8cce-905e1ff6b0da",
+        "created_by_ref": "identity--3e0c9f5c-3095-47e8-99ff-26a5a54472e3",
+        "created": "2021-08-14T01:08:55.317773Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3e0c9f5c-3095-47e8-99ff-26a5a54472e3",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-06-02T17:00:26.526283Z",
+        "modified": "2022-07-06T17:25:42.091286Z",
+        "name": "Baker-Johnson",
+        "identity_class": "organization",
+        "contact_information": "600 Andrew Stream Suite 725\nNew Spencerbury, KY 60249",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--48f7b179-ab0b-4944-8cce-905e1ff6b0da"
+        ]
+    }
+]

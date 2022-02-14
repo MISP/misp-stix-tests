@@ -1,0 +1,157 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--a2e34524-7f39-4f0d-9480-76c884efdb56",
+        "created_by_ref": "identity--81f6998e-3a43-44f6-b1e9-942ff4e4d229",
+        "created": "2020-10-01T23:20:16.337978Z",
+        "modified": "2021-08-14T01:08:41.6003Z",
+        "name": "interesting",
+        "infrastructure_types": [
+            "workstation"
+        ],
+        "aliases": [
+            "worker",
+            "entire"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "YnBkWtfWhbIReXP",
+                "phase_name": "MYbFeaQWW"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "tjRCmsfGHTMAHDmBOj",
+                "phase_name": "bCxQxDjTodzLzXuWNthS"
+            }
+        ],
+        "first_seen": "2021-02-18T13:17:09.381677Z",
+        "last_seen": "2021-05-17T00:49:44.191262Z",
+        "confidence": 22,
+        "object_marking_refs": [
+            "marking-definition--166291c3-aba1-4fa8-8048-5c763befcc3b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--46550b48-15c4-42c5-8d2c-3119f4938833",
+        "value": "https://baxter.com/",
+        "object_marking_refs": [
+            "marking-definition--166291c3-aba1-4fa8-8048-5c763befcc3b"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--089ec1ac-24f4-4fe9-a214-9bbc61697046",
+        "created_by_ref": "identity--81f6998e-3a43-44f6-b1e9-942ff4e4d229",
+        "created": "2022-06-05T17:05:44.404041Z",
+        "modified": "2023-02-09T11:36:10.270443Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--a2e34524-7f39-4f0d-9480-76c884efdb56",
+        "target_ref": "url--46550b48-15c4-42c5-8d2c-3119f4938833",
+        "start_time": "2021-06-28T05:43:37.328178Z",
+        "confidence": 87,
+        "object_marking_refs": [
+            "marking-definition--166291c3-aba1-4fa8-8048-5c763befcc3b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--22d294fc-ba7e-4790-add0-4677cca751f3",
+        "created_by_ref": "identity--81f6998e-3a43-44f6-b1e9-942ff4e4d229",
+        "created": "2020-11-18T22:30:55.919543Z",
+        "modified": "2021-08-14T01:08:41.600868Z",
+        "opinion": "neutral",
+        "object_refs": [
+            "infrastructure--a2e34524-7f39-4f0d-9480-76c884efdb56",
+            "url--46550b48-15c4-42c5-8d2c-3119f4938833",
+            "relationship--089ec1ac-24f4-4fe9-a214-9bbc61697046"
+        ],
+        "confidence": 44,
+        "object_marking_refs": [
+            "marking-definition--166291c3-aba1-4fa8-8048-5c763befcc3b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--81f6998e-3a43-44f6-b1e9-942ff4e4d229",
+        "created_by_ref": "identity--81f6998e-3a43-44f6-b1e9-942ff4e4d229",
+        "created": "2022-04-13T15:29:22.320599Z",
+        "modified": "2023-03-07T08:58:26.941601Z",
+        "name": "King, Wall and Wilson",
+        "roles": [
+            "stop",
+            "establish",
+            "better",
+            "avoid"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "communications"
+        ],
+        "contact_information": "78986 James Creek Suite 513\nJohnfort, IL 76524",
+        "confidence": 48,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--166291c3-aba1-4fa8-8048-5c763befcc3b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--166291c3-aba1-4fa8-8048-5c763befcc3b",
+        "created": "2021-08-14T01:08:41.599642Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-54b25f01-6af2-45fd-9467-12811cc2be8c",
+                "name": "Help hit around teach",
+                "create_date_time": "2021-08-14T01:08:08.425022Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

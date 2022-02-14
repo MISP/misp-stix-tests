@@ -1,0 +1,110 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--b544b1b3-ddee-4358-b75b-f4d9b024f73d",
+        "created_by_ref": "identity--2ca70a6c-ce7c-4f9c-ae90-0386aa9ecff3",
+        "created": "2022-04-28T22:20:35.270991Z",
+        "modified": "2022-09-17T22:28:34.90063Z",
+        "name": "play",
+        "description": "Final enjoy test.",
+        "threat_actor_types": [
+            "hacker",
+            "nation-state",
+            "crime-syndicate"
+        ],
+        "aliases": [
+            "bill"
+        ],
+        "first_seen": "2021-05-11T02:38:25.112642Z",
+        "roles": [
+            "infrastructure-architect",
+            "independent"
+        ],
+        "goals": [
+            "east",
+            "fish",
+            "Mrs"
+        ],
+        "sophistication": "expert",
+        "resource_level": "government",
+        "primary_motivation": "notoriety",
+        "personal_motivations": [
+            "ideology"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--35962c0d-6149-438c-9001-9c354c40bf99",
+        "created_by_ref": "identity--2ca70a6c-ce7c-4f9c-ae90-0386aa9ecff3",
+        "created": "2022-07-23T16:40:32.860413Z",
+        "modified": "2022-08-31T21:12:46.071038Z",
+        "description": "Decentralized intermediate forecast",
+        "latitude": -60.89965661621282,
+        "longitude": 27.437520780824826,
+        "precision": 69.30718494287103,
+        "country": "Bahamas",
+        "administrative_area": "XaVysKMCxZab",
+        "city": "New Justin",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--bdc1cf4b-6e7b-4da9-992e-23ef60bdac24",
+        "created_by_ref": "identity--2ca70a6c-ce7c-4f9c-ae90-0386aa9ecff3",
+        "created": "2022-04-17T04:04:15.418766Z",
+        "modified": "2022-12-27T12:49:50.097618Z",
+        "relationship_type": "located-at",
+        "source_ref": "threat-actor--b544b1b3-ddee-4358-b75b-f4d9b024f73d",
+        "target_ref": "location--35962c0d-6149-438c-9001-9c354c40bf99",
+        "start_time": "2021-09-19T00:13:53.66276Z",
+        "stop_time": "2022-03-31T02:33:57.73202Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 92,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2ca70a6c-ce7c-4f9c-ae90-0386aa9ecff3",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-31T04:53:51.440625Z",
+        "modified": "2022-04-29T03:11:41.830888Z",
+        "name": "Mclean, Jimenez and Alvarez",
+        "description": "Open-source empowering open system",
+        "identity_class": "organization",
+        "sectors": [
+            "government-public-services",
+            "education",
+            "emergency-services",
+            "infrastructure"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

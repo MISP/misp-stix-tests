@@ -1,0 +1,249 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--82bcf107-d16d-42ec-a1e6-e20526276710",
+        "created_by_ref": "identity--91ff0a33-1bff-4b1a-b989-016409f57bdb",
+        "created": "2022-01-27T20:29:12.021085Z",
+        "modified": "2022-09-12T12:40:44.468319Z",
+        "name": "stage",
+        "aliases": [
+            "several"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "HIKLLkgRvqbJXZQLcwn",
+                "phase_name": "jRkesVobR"
+            },
+            {
+                "kill_chain_name": "XDQUPzFIayXRi",
+                "phase_name": "gYCdS"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "first_seen": "2021-04-23T06:55:43.213888Z",
+        "last_seen": "2021-08-07T04:10:51.40086Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2221b6c3-befe-42f6-8186-aac52b136017"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--fbf104eb-22d7-46c3-be67-ebc0eca575ff",
+        "created_by_ref": "identity--91ff0a33-1bff-4b1a-b989-016409f57bdb",
+        "created": "2022-03-13T19:58:19.98554Z",
+        "modified": "2022-09-08T22:34:50.944476Z",
+        "name": "require",
+        "description": "Imagine discussion cause note rule.",
+        "labels": [
+            "activity",
+            "without",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "very",
+                "url": "https://www.wilson-rojas.com/",
+                "hashes": {
+                    "MD5": "51326afb8051f34f9933c0016f4deb9e",
+                    "SHA-1": "f8891c2e6499bdd322c98fce097ec1b96b7bbc31",
+                    "SHA-256": "dad92767123e52b91f2b74b5aecfe51bd495879045d3c9a8f4f25d0e4dbd0996",
+                    "SHA-512": "f21275016ba99bebb9af86e6ed66579126edbda78fbd6f71d0198f3a7b35d10f514b687b6e3f5a199a102f9db4092defb05b781737bc2289df9a38dd88543b35",
+                    "SHA3-256": "f1b2577226077a3ae41a3e87c4b55a9517165ea391be77aba0bb41b0bbcddb04",
+                    "SHA3-512": "646f42bbecbf38f4624a8adab06d46a57a8b84cbbd8138c060e915b4b0c8b229a6f7446943bd91522033a05343e80311fad83b9c3c5deb6bf459cc3534cb411b"
+                },
+                "external_id": "TPHxdGNkMGZ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2221b6c3-befe-42f6-8186-aac52b136017"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--49c14bac-19f9-422f-a0a2-72c8178aced3",
+        "created_by_ref": "identity--91ff0a33-1bff-4b1a-b989-016409f57bdb",
+        "created": "2022-05-02T06:10:45.30452Z",
+        "modified": "2022-11-08T22:58:43.268503Z",
+        "relationship_type": "uses",
+        "source_ref": "infrastructure--82bcf107-d16d-42ec-a1e6-e20526276710",
+        "target_ref": "infrastructure--fbf104eb-22d7-46c3-be67-ebc0eca575ff",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "personal",
+                "description": "Indeed two require call.",
+                "url": "https://savage.com/",
+                "hashes": {
+                    "MD5": "ecde5eda75d5b7052b58357ca41dd821",
+                    "SHA-1": "d9acea2aea74d5ce530eb485fcfd467031e5deb0",
+                    "SHA-256": "cd0cd14f5d89ae47370e680750d1ff9f32585f658affb26077f23e93d81ac3ba",
+                    "SHA-512": "0ba12957de3550fa470ed6e8cde38f66fea9708a0dda679a448092bebaad52f3b57c6acbd390ec49bb1e2e172ef7ba25bccfa4c6e822ce51233d55e121d0cb1c",
+                    "SHA3-256": "df5d4afc66d784677b02114cf5a619418dfd33dc4be11094b02e136a0bc6db0d",
+                    "SHA3-512": "782f2f24057838e30f966515bf04dec712ff2b7a8414ed3a703178b382b73a8259ea51ff91b0455faaa8470576ac4a3720b3c1ac073aaf3f764ddb3669dbdca3"
+                },
+                "external_id": "xcPhCiKNa"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2221b6c3-befe-42f6-8186-aac52b136017"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--91ff0a33-1bff-4b1a-b989-016409f57bdb",
+        "created_by_ref": "identity--91ff0a33-1bff-4b1a-b989-016409f57bdb",
+        "created": "2021-12-17T16:23:12.306077Z",
+        "modified": "2022-03-07T21:26:53.448819Z",
+        "name": "Robinson Inc",
+        "roles": [
+            "anyone",
+            "certain",
+            "staff",
+            "read"
+        ],
+        "sectors": [
+            "dams"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 17,
+        "external_references": [
+            {
+                "source_name": "man",
+                "url": "http://www.green.com/",
+                "hashes": {
+                    "MD5": "787c30c8c02645895992c63c1541e69c",
+                    "SHA-1": "97edbd29df798f2eda9f02d15c560e8ee5502b9b",
+                    "SHA-256": "4a964f4b49cf1be45488056240619cf7325c20a6ac0dd05bf4f84462ab9c1a68",
+                    "SHA-512": "9af5cd57ee8a36200e9fb93eb1e0b614889cbd9c39808354629cc0a3c18fbd7c6ade79e4e5bafdf97f837b6174026692139316c7b9423d6e25595b4913a36f50",
+                    "SHA3-256": "bf5011f4a400616e3958bfe15ee192b97d54e0f8fbf8a32350a9ff2da62df790",
+                    "SHA3-512": "85ca5b5fb9389f0ecf861593144e8524e07ed0bbcaa24d8bdfcae87cc14e3c427388797dcf66464fcf95be13fb132e22364ec8e1c06b01c65664a1049b1e3d7a"
+                },
+                "external_id": "IwtrBaOBzKMNaIKmdym"
+            },
+            {
+                "source_name": "theory",
+                "description": "Fish response word step my.",
+                "url": "http://contreras.info/",
+                "hashes": {
+                    "MD5": "6d7cc218804ce98a6035f0708ea4c88a",
+                    "SHA-1": "5244d62a956783ebffe44afbf40fe028dca5fa84",
+                    "SHA-256": "8d9314479b6d5a70b7ae0eba0b546cb88e69faf9abb12d2bcae39a9700c78470",
+                    "SHA-512": "3ce4dc16cb65829aa2c92be9931d8eee72f5d0bd76b7291e90bff82c14edeb61d1c69fa266958f12b75440a7f71b30c69b52b956b63d4bcf916583462f0dd8ab",
+                    "SHA3-256": "22f6aea0a4794722e726a8b51614b20755040e10004b5ab79e163acbb31857c0",
+                    "SHA3-512": "351bb09857848e71b2f90d154b9fb22b40c58fee79c105047c08b800b6af76480cb68553348ad5ef1ebaa710295c299ba925a033478af51ae3b27524d55ffae7"
+                },
+                "external_id": "alqjrycjKDbepWHKAn"
+            },
+            {
+                "source_name": "pattern",
+                "description": "Name information read party.",
+                "url": "http://smith.com/",
+                "hashes": {
+                    "MD5": "675e855fdd5739a3e301ed3ab10fed75",
+                    "SHA-1": "264d6138c68283a4a5e6ba96a6dca273bec608d9",
+                    "SHA-256": "85d9337deaf317af9d8736423d87d14f2edfdf5bb792b2b8805abf95061ff8ac",
+                    "SHA-512": "a5c48526038b432ccfe90dd5c8b18c4d5f57415d3c80c95b2bb6854573e3c1055388d8eefa51bc8504cc9031f98181bb2f6f424266c2edca9cffbaeae26f2743",
+                    "SHA3-256": "d0b862f35936e04bd699b801617a3d62ca8938305994a83a728594e64f1b05d2",
+                    "SHA3-512": "c6ed3ab93b4b91c45cc62ece969ab27ff0236c4826504c13dbf390093779bddd4e0599bbd284c9fd73b2af4427a2cafb41b0c7aa731629f608fa3f1b9ddf8b80"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2221b6c3-befe-42f6-8186-aac52b136017"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2221b6c3-befe-42f6-8186-aac52b136017",
+        "created": "2021-08-14T01:08:51.032142Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6d40bd19-4710-4b69-9440-86c8c2a858b4",
+                "name": "Purpose response respond always trouble later investment",
+                "create_date_time": "2021-08-14T01:08:08.431664Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.4315Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

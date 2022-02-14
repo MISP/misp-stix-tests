@@ -1,0 +1,184 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--827f38b2-93f3-4689-8687-590b78382507",
+        "created_by_ref": "identity--a64f4249-c3e1-4f23-869f-2fe9c94b79c3",
+        "created": "2021-09-27T10:34:39.451334Z",
+        "modified": "2022-02-11T23:16:38.873175Z",
+        "name": "room",
+        "description": "Everyone ball meeting book leave.",
+        "last_seen": "2022-03-25T15:21:12.00314Z",
+        "objective": "Task just away spring thing service.",
+        "confidence": 84,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--4a71837b-12c2-4b82-b3fc-ba8b02fb3171"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--c825bda5-08b4-49fc-b657-11b306df0dba",
+        "created_by_ref": "identity--a64f4249-c3e1-4f23-869f-2fe9c94b79c3",
+        "created": "2020-11-11T07:42:44.590228Z",
+        "modified": "2021-10-27T20:01:16.740352Z",
+        "name": "perhaps",
+        "infrastructure_types": [
+            "control-system"
+        ],
+        "aliases": [
+            "walk",
+            "world",
+            "energy",
+            "here"
+        ],
+        "first_seen": "2021-08-22T07:30:30.646687Z",
+        "last_seen": "2022-07-27T03:03:47.963598Z",
+        "labels": [
+            "represent",
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "city",
+                "description": "Address radio stand data both try establish build.",
+                "url": "http://schroeder.info/",
+                "external_id": "JbLZkMRK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4a71837b-12c2-4b82-b3fc-ba8b02fb3171"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--27fc027e-c104-406a-af94-8d751bd52c1b",
+        "created_by_ref": "identity--a64f4249-c3e1-4f23-869f-2fe9c94b79c3",
+        "created": "2022-04-07T23:47:37.16474Z",
+        "modified": "2022-08-13T18:40:15.785957Z",
+        "relationship_type": "compromises",
+        "source_ref": "campaign--827f38b2-93f3-4689-8687-590b78382507",
+        "target_ref": "infrastructure--c825bda5-08b4-49fc-b657-11b306df0dba",
+        "stop_time": "2022-04-30T01:10:50.040002Z",
+        "confidence": 11,
+        "object_marking_refs": [
+            "marking-definition--4a71837b-12c2-4b82-b3fc-ba8b02fb3171"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--baf4c60a-9ac8-453f-a435-c1f5f6e4178d",
+        "created_by_ref": "identity--a64f4249-c3e1-4f23-869f-2fe9c94b79c3",
+        "created": "2020-08-25T09:59:17.670749Z",
+        "modified": "2021-08-14T01:08:14.896315Z",
+        "name": "hard",
+        "report_types": [
+            "attack-pattern",
+            "identity",
+            "campaign",
+            "vulnerability",
+            "campaign"
+        ],
+        "published": "2022-07-05T14:13:45.188617Z",
+        "object_refs": [
+            "campaign--827f38b2-93f3-4689-8687-590b78382507",
+            "infrastructure--c825bda5-08b4-49fc-b657-11b306df0dba",
+            "relationship--27fc027e-c104-406a-af94-8d751bd52c1b"
+        ],
+        "labels": [
+            "break",
+            "understand",
+            "finish",
+            "pretty",
+            "pfte-batch-1"
+        ],
+        "confidence": 100,
+        "external_references": [
+            {
+                "source_name": "floor",
+                "url": "https://mills.com/",
+                "hashes": {
+                    "MD5": "282e06a3179fcbf27b60e7a77517ef2a",
+                    "SHA-1": "1fe0465d56e0039c92f8dd978ba5b02ad750d4ef",
+                    "SHA-256": "5d970229789689abc064db9780d61b8c99bd1bfcedbb4443383827720c5f86a2",
+                    "SHA-512": "9d0639191154fd22e70d739538a1f6d2c952a3ec2621bc1c04e5aa5ab2e5e870d0c18a6bfbb3ef170a10a306483b1a77327efa055be6d924801f1b3911a44c2b",
+                    "SHA3-256": "302de063466d0b938c482f30d5ea064d4d74fa9ee3faa8c47f19eeaeffa945ec",
+                    "SHA3-512": "9fa2d96e0cddc1b76fd83cb5590ba2bdca24ee09af820ec79e1b60146be0ddc54bf01039b457d49a56762e4cfafee188e9d0538e0fab4690f54cf0f2eeddc998"
+                },
+                "external_id": "hVAZvnZBDZuGTBsMV"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4a71837b-12c2-4b82-b3fc-ba8b02fb3171"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a64f4249-c3e1-4f23-869f-2fe9c94b79c3",
+        "created_by_ref": "identity--a64f4249-c3e1-4f23-869f-2fe9c94b79c3",
+        "created": "2022-06-27T05:44:15.310021Z",
+        "modified": "2023-01-01T18:42:26.569305Z",
+        "name": "Moses, Williams and Fletcher",
+        "description": "Advanced solution-oriented functionalities",
+        "identity_class": "group",
+        "sectors": [
+            "water"
+        ],
+        "contact_information": "8405 Johns Mission Apt. 064\nNorth Brianburgh, TN 26907",
+        "confidence": 51,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--4a71837b-12c2-4b82-b3fc-ba8b02fb3171"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--4a71837b-12c2-4b82-b3fc-ba8b02fb3171",
+        "created": "2021-08-14T01:08:14.894812Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2214d9cf-0e77-4d0b-9826-dfff28324708",
+                "name": "Build while international maybe effect movie",
+                "create_date_time": "2021-08-14T01:08:08.427765Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,240 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--1d33d546-0ceb-4c14-80c9-98209db818c8",
+        "created_by_ref": "identity--7eba8eb2-2fd0-4b6c-9d2a-c9b4bb448852",
+        "created": "2021-01-22T16:15:47.954568Z",
+        "modified": "2022-01-05T11:29:44.907586Z",
+        "description": "Idea economic identify military.",
+        "indicator_types": [
+            "malicious-activity",
+            "unknown",
+            "anomalous-activity"
+        ],
+        "pattern": "[mac-addr:value < '87:9e:75:b2:1c:81'] OR ([ipv6-addr:value = '5057:dff4:b462:d16d:cae3:ca87:6872:8381'] OR ([ipv6-addr:defanged = false]))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-07-24T19:07:31.904998Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "address",
+                "url": "http://martinez-white.com/",
+                "hashes": {
+                    "MD5": "7323156132f1a25d0a8b17fae7494f1a",
+                    "SHA-1": "9432ebb4b6de70c802506659cef1e875360fe1b4",
+                    "SHA-256": "a818a1a59ed13eeccecf1eb52eb5c3d17f6af7ea46245730165707131dda9a16",
+                    "SHA-512": "2ff2bfb83470e5a55e1de0ae3edce32265f8a1e5530c19008611b0fc9508a0adee2bce94a68edbaadc0f00c16b5568886227bd416f2ff2e4f8dc821329d6960f",
+                    "SHA3-256": "706cc5ca5d3658ce1d6b8f436f315ab6236c25ce84ca02245fa439cebee670b8",
+                    "SHA3-512": "fd0b911667adbea9599fc3e8033022e8a89cb752469a10585f5e05da6ae119d3e2f8110c4c6962d99f6cbb4194a9ffa2662cd7aeb982e2fdbfeb302f34c33df5"
+                },
+                "external_id": "wXbcDVZNfkTaanQyX"
+            },
+            {
+                "source_name": "off",
+                "url": "http://www.french-watkins.biz/",
+                "external_id": "hyglScz"
+            },
+            {
+                "source_name": "none",
+                "description": "City say outside likely agree fire specific.",
+                "external_id": "fcyhhIzmKcFhEUg"
+            },
+            {
+                "source_name": "see",
+                "description": "Fine tend summer work pressure throw Mrs.",
+                "url": "http://howell.com/",
+                "hashes": {
+                    "MD5": "298677238b42c51614acd76c89e3b838",
+                    "SHA-1": "1f9d988ed221db3af589289933b45ed8cd83e9a0",
+                    "SHA-256": "ac5460f313edefc96191f36ed585f76dbd739bb474ddba61fe78c517a8b6d9e5",
+                    "SHA-512": "b53344f105b076091f3942a16d8d64b3a02515f3c9ef9f21ccb85b861383f376b16e51bd1e263cd5467ff8e0058e191d50700097a2912fc60a7e136e45faa0a7",
+                    "SHA3-256": "2b27a13e8f3df0da306f39cce83324dade4bcb49035b60f972ede2b5bfa5ab32",
+                    "SHA3-512": "43d16c85be89a5d80f2ec4e42389cb761dc92cd264e162fdb2f9765e5dda908414900dfeab664c87152cc75a7a5fec0bfe17b6351954a13906c1bf9c99003d00"
+                },
+                "external_id": "nDZcncQmMK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0cb72d2b-2252-41dc-9248-cd6b17a886df"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--a4c780b0-7cc6-4529-9328-da512be4ef1e",
+        "created_by_ref": "identity--7eba8eb2-2fd0-4b6c-9d2a-c9b4bb448852",
+        "created": "2020-08-18T07:23:15.067866Z",
+        "modified": "2021-08-14T01:08:27.672494Z",
+        "name": "recent",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "labels": [
+            "measure",
+            "water",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "huge",
+                "description": "Radio this series design woman million man kid.",
+                "url": "https://www.dominguez.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0cb72d2b-2252-41dc-9248-cd6b17a886df"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f3648146-4acb-4868-adfb-42e6d5437063",
+        "created_by_ref": "identity--7eba8eb2-2fd0-4b6c-9d2a-c9b4bb448852",
+        "created": "2021-06-07T21:41:59.070114Z",
+        "modified": "2022-04-29T01:28:35.714193Z",
+        "relationship_type": "indicates",
+        "description": "Agreement teacher everyone seek. Over establish civil edge.",
+        "source_ref": "indicator--1d33d546-0ceb-4c14-80c9-98209db818c8",
+        "target_ref": "attack-pattern--a4c780b0-7cc6-4529-9328-da512be4ef1e",
+        "start_time": "2021-06-07T14:58:30.746156Z",
+        "stop_time": "2021-07-11T12:36:14.156957Z",
+        "object_marking_refs": [
+            "marking-definition--0cb72d2b-2252-41dc-9248-cd6b17a886df"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--4e570b10-0088-41c4-a56f-373f47a83e70",
+        "created_by_ref": "identity--7eba8eb2-2fd0-4b6c-9d2a-c9b4bb448852",
+        "created": "2022-04-18T05:06:35.085927Z",
+        "modified": "2022-11-25T21:34:49.060563Z",
+        "name": "factor",
+        "context": "suspicious-activity",
+        "object_refs": [
+            "indicator--1d33d546-0ceb-4c14-80c9-98209db818c8",
+            "attack-pattern--a4c780b0-7cc6-4529-9328-da512be4ef1e",
+            "relationship--f3648146-4acb-4868-adfb-42e6d5437063"
+        ],
+        "labels": [
+            "if",
+            "run",
+            "alone",
+            "walk",
+            "agree",
+            "pfte-batch-1"
+        ],
+        "confidence": 12,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--0cb72d2b-2252-41dc-9248-cd6b17a886df"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--0cb72d2b-2252-41dc-9248-cd6b17a886df",
+        "created_by_ref": "identity--7eba8eb2-2fd0-4b6c-9d2a-c9b4bb448852",
+        "created": "2021-08-14T01:08:27.668724Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f217105b-ccd2-4cb0-893a-c1314d7d2d64",
+                "name": "Strategy land response sport over",
+                "create_date_time": "2021-08-14T01:08:08.422773Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.422466Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7eba8eb2-2fd0-4b6c-9d2a-c9b4bb448852",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-19T20:38:36.66218Z",
+        "modified": "2021-09-06T11:44:32.282122Z",
+        "name": "Baker-Jackson",
+        "sectors": [
+            "technology"
+        ],
+        "contact_information": "251 Brooks Prairie Apt. 947\nPort Stephenhaven, IN 99364",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--0cb72d2b-2252-41dc-9248-cd6b17a886df"
+        ]
+    }
+]

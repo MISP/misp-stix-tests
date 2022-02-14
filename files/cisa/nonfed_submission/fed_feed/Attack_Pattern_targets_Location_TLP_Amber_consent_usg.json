@@ -1,0 +1,215 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--f4ed02f8-042e-4294-b685-583337e4bcfd",
+        "created_by_ref": "identity--c101b4ec-30a3-4284-818e-8722da604a54",
+        "created": "2021-03-05T22:20:28.554387Z",
+        "modified": "2021-09-13T16:25:02.26086Z",
+        "name": "white",
+        "description": "Half sign different record.",
+        "labels": [
+            "me",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c6c48c9f-9892-4393-b7d0-0392baf92f36"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--f451e1b8-ec7f-4743-83c2-f9761f106df4",
+        "created_by_ref": "identity--c101b4ec-30a3-4284-818e-8722da604a54",
+        "created": "2021-03-17T06:27:45.999025Z",
+        "modified": "2021-08-14T01:08:10.181134Z",
+        "name": "DnuYutcGc",
+        "latitude": -2.928678588050886,
+        "longitude": -153.84004044454443,
+        "region": "polynesia",
+        "street_address": "36215 Kathleen Drive Apt. 367",
+        "confidence": 59,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "save",
+                "url": "http://www.gonzalez-davila.com/",
+                "hashes": {
+                    "MD5": "e235a30841c77a25e3d38708c1f49f78",
+                    "SHA-1": "c372ef2dcd8667fd2165ee17a2934fecbe23eebb",
+                    "SHA-256": "4dd28824d6617a0b78d65514db6556236f444c6a3f3cc82418c9f8f89d09e92c",
+                    "SHA-512": "0e46b70b269336db8872c6afad4d4fdf9564d4884b0408cf9d938ef80e5bf244e29ba13583341e422c6cc4de71976884e193511d12bc303c4f517cd97c9c818a",
+                    "SHA3-256": "86c064fe51de7d30cfd462f7671405cd3569992380e96461f680af06b61bd888",
+                    "SHA3-512": "7887f90402200a99ea1bc676a281883b9b821446146de749127be105db5e63d6eeb8f2d027742e84b50a222fb3e501cf99dcd7f7e904a27f90fd928d01e37f30"
+                }
+            },
+            {
+                "source_name": "hospital",
+                "url": "https://david-johnston.com/",
+                "hashes": {
+                    "MD5": "fc31bd193777b9a0552e472504c5b858",
+                    "SHA-1": "25ec1f3e6167d9b61370774d09a7b9f3544a348d",
+                    "SHA-256": "b29ab6c77627c9fbce286fe47a0c8df319164d1a74ef9eab22fc59180530d820",
+                    "SHA-512": "5fde1bbced06c13fe5137a2f51eaa9abd17241668f6d1bf00312a136724dd53cec72d37c837a76324a2f6306259c8d058ce93f53000a40a353c0f6aa2df08ad7",
+                    "SHA3-256": "62bc854255a0849a8f98de8b88d5b013c5ffcbc6e75ee544e98186779eae09dd",
+                    "SHA3-512": "94bc3483da73c34204f236d6c76e73830bb6efe969c32845074f8a96c0a6d1838554d3fc24cafe0f0ca6e53ca452d3dc903a0403490e2bd2076d0761647cbbdf"
+                },
+                "external_id": "CWZcoxiNwj"
+            },
+            {
+                "source_name": "no",
+                "external_id": "RWoTVHvIKOU"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c6c48c9f-9892-4393-b7d0-0392baf92f36"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--db0054f2-9010-49fc-987a-fda7f0c30c8e",
+        "created_by_ref": "identity--c101b4ec-30a3-4284-818e-8722da604a54",
+        "created": "2022-03-12T22:39:15.668287Z",
+        "modified": "2022-06-29T00:30:02.702867Z",
+        "relationship_type": "targets",
+        "source_ref": "attack-pattern--f4ed02f8-042e-4294-b685-583337e4bcfd",
+        "target_ref": "location--f451e1b8-ec7f-4743-83c2-f9761f106df4",
+        "start_time": "2022-04-29T18:21:20.466897Z",
+        "confidence": 44,
+        "external_references": [
+            {
+                "source_name": "authority",
+                "description": "Operation movement suddenly least difference natural to.",
+                "url": "http://keller.com/",
+                "external_id": "jKTglCQhKOI"
+            },
+            {
+                "source_name": "future",
+                "hashes": {
+                    "MD5": "ac8e0203dd352ed9c588cc2b35624289",
+                    "SHA-1": "17ad92f2806156ea6915426e89c5a3675cff2a73",
+                    "SHA-256": "b3bbe5c224833ac769a3932cf62406bdf6db6f3641e754fe1a6961f35188dad8",
+                    "SHA-512": "4986a1fda2e62e5b2d7bdc592d7ca9224245042a44782f689666f9d40eb27241631f5c171da29350c6efad781e8bef83f87f452491102b3257d78950ce297c1f",
+                    "SHA3-256": "906bcd2977fa3280110614ed5ee4c7492a80cc143b0718f2896af13e544d9a09",
+                    "SHA3-512": "d34d1b7699b0f6d91b5b58ae651d46b3a46f81bee1968395b2c027e7aa2b94398525b094f988349d0ae57182fdfee771b2bb32ab45663d978e807bc0324f7660"
+                },
+                "external_id": "NeCIoZMOjd"
+            },
+            {
+                "source_name": "science",
+                "hashes": {
+                    "MD5": "b52fb60afaf828179849cbc4c44faa92",
+                    "SHA-1": "57c83dd05088a8c27c2b6ec8ec61df6ce1cf9808",
+                    "SHA-256": "2155ee0628ffc0994b5c66d8f0c2fb2120e9cfca012c0950349b1e04da5e98cf",
+                    "SHA-512": "56bedd01406509ef6fefc78f9a7e90947ebb6f516bcd32a69b0e60d293332417f54a569e53b6bfbc6c4152bfb641f666d19d30892e0792ffc5ed712d8a4bddc3",
+                    "SHA3-256": "e3b1c73fb0bf686e0593a0183203db68316669544cd786d217d8719b610e084d",
+                    "SHA3-512": "428e890d79955e98537b3e81b000aeef822ef5f67d442fdd44d84ab99ad55a4b15b419f6f7dab7780bfb7965d6206206044e5f47c4ade58413962f846c7f0089"
+                },
+                "external_id": "RaPUfPjeBfnU"
+            },
+            {
+                "source_name": "positive",
+                "url": "https://knight.com/",
+                "external_id": "iOfkHdlmRUyWsOKbcglV"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c6c48c9f-9892-4393-b7d0-0392baf92f36"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--c6c48c9f-9892-4393-b7d0-0392baf92f36",
+        "created_by_ref": "identity--c101b4ec-30a3-4284-818e-8722da604a54",
+        "created": "2021-08-14T01:08:10.180043Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2a4a5944-494c-4a33-b0ba-c70e719ee1c8",
+                "name": "Room arrive pay often",
+                "create_date_time": "2021-08-14T01:08:08.421032Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c101b4ec-30a3-4284-818e-8722da604a54",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-15T00:05:49.378103Z",
+        "modified": "2021-08-14T01:08:10.182023Z",
+        "name": "Bolton, Medina and Ross",
+        "description": "Universal content-based framework",
+        "roles": [
+            "responsibility",
+            "just"
+        ],
+        "identity_class": "group",
+        "sectors": [
+            "mining",
+            "education",
+            "water",
+            "retail",
+            "non-profit"
+        ],
+        "contact_information": "PSC 6683, Box 2811\nAPO AE 11696",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 12,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c6c48c9f-9892-4393-b7d0-0392baf92f36"
+        ]
+    }
+]

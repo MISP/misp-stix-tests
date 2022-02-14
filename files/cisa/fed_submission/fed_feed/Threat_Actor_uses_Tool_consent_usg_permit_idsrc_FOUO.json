@@ -1,0 +1,242 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--15ae0452-7a1f-4ff8-a4c2-95aba7560d76",
+        "created_by_ref": "identity--ed7eed67-adef-4a0c-890d-bc73b79ef835",
+        "created": "2021-09-03T18:26:32.481797Z",
+        "modified": "2021-12-08T17:49:43.286424Z",
+        "name": "remain",
+        "threat_actor_types": [
+            "spy",
+            "activist",
+            "criminal"
+        ],
+        "first_seen": "2020-05-26T19:13:18.6603Z",
+        "last_seen": "2020-08-18T09:10:17.889012Z",
+        "goals": [
+            "near",
+            "start"
+        ],
+        "sophistication": "advanced",
+        "primary_motivation": "accidental",
+        "secondary_motivations": [
+            "ideology",
+            "accidental",
+            "personal-gain",
+            "revenge"
+        ],
+        "personal_motivations": [
+            "unpredictable"
+        ],
+        "confidence": 25,
+        "object_marking_refs": [
+            "marking-definition--0d6dde40-1c73-4a69-839d-d876f4fbbf90"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--14c7aa3c-1ae3-434d-b518-fd6a8ffda103",
+        "created_by_ref": "identity--ed7eed67-adef-4a0c-890d-bc73b79ef835",
+        "created": "2021-06-18T00:32:27.156429Z",
+        "modified": "2021-11-27T21:20:51.828737Z",
+        "name": "late",
+        "aliases": [
+            "book",
+            "rise"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "soldier",
+                "description": "Shake yet design field.",
+                "url": "https://martin.com/"
+            },
+            {
+                "source_name": "response",
+                "url": "https://smith.net/",
+                "hashes": {
+                    "MD5": "c0eff2d9e147a2e9ac9dfc165b29f285",
+                    "SHA-1": "72417c1f9fc86df18d0bdd6574309dc61d965aec",
+                    "SHA-256": "efc6bc07a356f4e894cbed48397651acd5d97b7e42d0ab617a60097b49442875",
+                    "SHA-512": "99e37a7ec331605ffb5b6cd96646bfd3337ea0ef47f5e52c5fb8c94b127e5cfd62b53b85739f788940ded51e43f6f01f51346b213e983fed48a000615bdae628",
+                    "SHA3-256": "9c6dc3e3702078563ed71a2516c6812f0aa42a3d7b136dd1904a34953cff151d",
+                    "SHA3-512": "6684ab7c2adc8c5808bf21daaea3d8fb49e372cb8781e00dba986c88a879f8405de68eea1a5e2b6090d06536346b4ea8c64895ac46eb8f0e390fd14e88e7e927"
+                },
+                "external_id": "KCrRjdTCriQzibpVRlD"
+            },
+            {
+                "source_name": "stage",
+                "external_id": "imBpOGdYT"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0d6dde40-1c73-4a69-839d-d876f4fbbf90"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--059f52b5-5a0a-413f-a9e8-e553cd549d7c",
+        "created_by_ref": "identity--ed7eed67-adef-4a0c-890d-bc73b79ef835",
+        "created": "2022-02-21T07:54:02.303476Z",
+        "modified": "2022-11-24T21:47:06.22894Z",
+        "relationship_type": "uses",
+        "description": "Bill until guess meet society.",
+        "source_ref": "threat-actor--15ae0452-7a1f-4ff8-a4c2-95aba7560d76",
+        "target_ref": "tool--14c7aa3c-1ae3-434d-b518-fd6a8ffda103",
+        "start_time": "2021-08-27T20:32:22.387546Z",
+        "confidence": 60,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "education",
+                "description": "Alone her these save.",
+                "url": "http://bailey-barker.com/",
+                "hashes": {
+                    "MD5": "f8eaee492a62bb5c4615f54d2eaf55a6",
+                    "SHA-1": "5f8c6d5fa70110e48e658fb006ea424bcbbb6ec0",
+                    "SHA-256": "ea1af65744c8cd0347fdfa9bcac96ff6833183c89d95440732ad1aa525211a46",
+                    "SHA-512": "5963116f445dd597f60141a7368fcb922ccf0c156be713b4d40618778d7ac138c65dcb515b320ae638b36888a72e1400ca16f3292b6250790e5eb9406f246983",
+                    "SHA3-256": "a7c97f2e855c72ef74d4a7e149002a2273e8c96d8c8a498fc27293c9154ce610",
+                    "SHA3-512": "c1b67ee2b94352b773d421cdee05da5ff05f80ea94e37d959d57ad65d4ed0956e70001c85b5f79c79c357b32926534f6f4fb4cd5b44bae7fee66917864536ccc"
+                },
+                "external_id": "qidSXvGkVMPaJQzoj"
+            },
+            {
+                "source_name": "opportunity",
+                "description": "Yes quickly movement up television.",
+                "url": "https://www.johnston.com/",
+                "hashes": {
+                    "MD5": "3e630bc2983266bc143c8ee183721508",
+                    "SHA-1": "1f5e7820d071dc42573f8ac9fd8d76ed1dc056b5",
+                    "SHA-256": "5cd1e8fcbfe771e00bba500f4b650a3da060150d863620145ab42ad2a588837a",
+                    "SHA-512": "b1c3c2e57286c971592360549200383650596efbf6290e32a46e1b0428d7e3144a569f77cf43058ea2b79e3de7a3b0dacfbb00feb669529665b725ec3080e810",
+                    "SHA3-256": "f2824dff78c03ff2518f0128884d8b9c6d63fa4f0bfde8a35fea18e9a38c37a1",
+                    "SHA3-512": "fdd10c60b3ec1b44a0e89673827174df987a62d4c22a0e40769abaa92da6856970ea977b65eab98955be5450739b92aa857ca73a8ca592a2227e55e7f5a0d902"
+                },
+                "external_id": "sWxdpV"
+            },
+            {
+                "source_name": "machine",
+                "description": "Group analysis ok win tree understand painting friend.",
+                "url": "https://www.gilbert.com/",
+                "hashes": {
+                    "MD5": "16614f0c1f24d78221aea4717e6b1d3e",
+                    "SHA-1": "405fd3bf101132ba2d81ab5e2e37a5642e6d2399",
+                    "SHA-256": "b43656523a64ac68dabbd076dbb483fdea36f3befc51406b23c42b172825c65e",
+                    "SHA-512": "fbc969b5578e0ade7f5081e114e6f1b1d6f36ebc5862175979f83dc9fb600a96aeffc78a5e8835f15ebbd0f547a9b0afeb27d71c858bcaf7d3745c2f9a2c026b",
+                    "SHA3-256": "5b3de9efa65b50da944a00dcdd0add5e10d18f298ddd266bf598da8a74a93b0c",
+                    "SHA3-512": "0bf61691e50f9359db009b4e9892a18e9f0ce5b5334130c40a4f23fda1cd0415af3c6e788a7772165d059fc03006d3df4b10262bc6a5b2fe3dcaeb69777b1b70"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0d6dde40-1c73-4a69-839d-d876f4fbbf90"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ed7eed67-adef-4a0c-890d-bc73b79ef835",
+        "created_by_ref": "identity--ed7eed67-adef-4a0c-890d-bc73b79ef835",
+        "created": "2021-08-28T08:19:38.667397Z",
+        "modified": "2022-02-03T02:38:38.985792Z",
+        "name": "Vasquez, Smith and Clarke",
+        "roles": [
+            "lose",
+            "unit",
+            "Congress"
+        ],
+        "identity_class": "individual",
+        "object_marking_refs": [
+            "marking-definition--0d6dde40-1c73-4a69-839d-d876f4fbbf90"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--0d6dde40-1c73-4a69-839d-d876f4fbbf90",
+        "created": "2021-08-14T01:09:35.177184Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-57e7d098-4c26-4a4d-bfaa-3ee9c5e47adc",
+                "name": "Customer hot subject fight customer",
+                "create_date_time": "2021-08-14T01:08:08.428617Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

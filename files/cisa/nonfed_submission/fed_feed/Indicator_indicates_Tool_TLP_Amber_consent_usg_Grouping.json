@@ -1,0 +1,285 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--185a968f-5905-46f3-8cb3-4d23391f3f28",
+        "created_by_ref": "identity--6bafd36a-1ca2-479e-a484-deb18b248a4f",
+        "created": "2021-11-20T14:19:22.660514Z",
+        "modified": "2022-01-16T00:29:26.314237Z",
+        "description": "Event hour who building serve.",
+        "indicator_types": [
+            "unknown"
+        ],
+        "pattern": "[domain-name:defanged = false AND (domain-name:defanged = false)] OR ([email-addr:defanged = false])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-07-14T18:57:40.154475Z",
+        "valid_until": "2022-03-16T12:46:38.471902Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "labels": [
+            "only",
+            "pfte-batch-1"
+        ],
+        "confidence": 66,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "strong",
+                "description": "Not ready especially move walk.",
+                "hashes": {
+                    "MD5": "b8b8a26dde6346ded79ab204d28e9ff7",
+                    "SHA-1": "e34738eb33c5868fa142743890d9e46f803a7aa4",
+                    "SHA-256": "db2fdfebed0e0068ea9377ce4de354b5a6fb210cea1f9c1556cb0aba20c4355e",
+                    "SHA-512": "cfdcc2c0162ea762221108516a060e465b72455cfd3df7fb78fd5c9908633404fffe52c5052262b301314f33603c2398f66e791b295bc9af4ac28d277b0d6552",
+                    "SHA3-256": "ac0d808876b280c92f901b12fd83cb31d2e7e89f7071aa02be18fcb54d4efcb7",
+                    "SHA3-512": "868bcc5d2f8852c4c1f3124c0a3ab5c932181da6a5ff9e001275865908b1b0567285b528bb2ba29729d26db3b51747b144a91a657e7fc9a1b936d386d8a36cbe"
+                },
+                "external_id": "zMkoTotNQhmUixxmht"
+            },
+            {
+                "source_name": "ever",
+                "description": "Dream possible alone call prepare.",
+                "url": "http://martinez.com/",
+                "hashes": {
+                    "MD5": "5969bd9cd45dda53132e11af967b2d92",
+                    "SHA-1": "81ea51f99b30d4059a319eede8e916a2b99eeb93",
+                    "SHA-256": "86d19046e75867fa6fd95d20442355c8711196b594f2e9ef95d5a41b7bad8ed0",
+                    "SHA-512": "4533492b28b7d7a4bc59e5ed33ab82143a6bcdf72d443b4a83aba862bc382b4909ca2204394e950260419281adaf73bce7f5abd2b491af94dc8af3a55420ea4b",
+                    "SHA3-256": "48f6284941239f0ce51411cd0611716979364c83a6f8fb33b9b5474749c0c5f5",
+                    "SHA3-512": "4c2e431269a57aa18d7160e2cd8149a2fabd4d773e872730886fc18fd9f644e58a0116d8504ebf689616a3bbcd445ec1c010eeeb629529e5a302ad60690862b4"
+                },
+                "external_id": "WGohNBNgBBLweFaPM"
+            },
+            {
+                "source_name": "thank",
+                "description": "Education career small.",
+                "url": "http://peterson.com/",
+                "hashes": {
+                    "MD5": "194100bda9c65ba6178be3f156a09aa9",
+                    "SHA-1": "17d8af629faff60360c3c9bafbd121025e7c48ed",
+                    "SHA-256": "1efd06f4756618ea0faeb3db68c54ba94bca5cdb69e9c82b4cb27d652a6083db",
+                    "SHA-512": "1e71c5320ef7f03fd15be5d1ed5d1e3718ba8dd26b310b29002b303ddeef68f7a6057a95c2df24ce491a3b047061ba8ad714061c41ff8679567fc8e6f4a34da6",
+                    "SHA3-256": "6dabc631a10207e9f0caa36f3a60ed102d5e8008159579d0c54c6bdebcd851f0",
+                    "SHA3-512": "69c5877c4647d287fc002584532013c0dec105541199b97361787fb8dcb19389f5bd7354ff27ae7ac71a8483bf39834c897942ef32ef7a71e45c77acc6c0360a"
+                },
+                "external_id": "ZnpBTLdYfiafLf"
+            },
+            {
+                "source_name": "various",
+                "description": "Quickly sing technology exactly.",
+                "url": "https://henry.com/",
+                "hashes": {
+                    "MD5": "c034093504c258805decf3119620f5ca",
+                    "SHA-1": "897a1fa29b3f73d0f524efaab1c3f350d5a3099c",
+                    "SHA-256": "f1d722c7309f4ae7ccaeea1df4c9a83282170a9244fadba0eff695c9e5f5b46b",
+                    "SHA-512": "ca15590b04d69d5e100b30bb8b22906240f84affaf3a7739ca306999e1f2afe637b8bbe2cda5813f6f36b29ab90288fa1f7b2b9a384ea4f67339a70118c54ad8",
+                    "SHA3-256": "cafc73a33d8f42b89856c7167dd50973ad5ea81eced0dec32f74a30b5f5a13f3",
+                    "SHA3-512": "a9eb2abc511241ce0af66f566f88dcd67cff4dda3cbdd073fbea5b2aee65ee80bfda553959ae7a9b2eb60d883f64d653559ac812eb79143c9c9fce5359c18b6a"
+                },
+                "external_id": "pVZDyOGUjfNZoUqxYqtR"
+            },
+            {
+                "source_name": "face",
+                "description": "Our reveal century common real visit population.",
+                "url": "http://www.chandler-mcdonald.biz/",
+                "hashes": {
+                    "MD5": "284ffb638c63daf88e7f454eb54187f8",
+                    "SHA-1": "28232f58f3aae95b35cd485a62cb4bc53ecd0939",
+                    "SHA-256": "5487575205ad5c4167604ddfa03b793d8fa541d56f8ab1b28e291c180b4c4f31",
+                    "SHA-512": "0bb443c4a1b4178a179baf9ca65751bbb5c94c4da89c7b60737e284f8db7ddaf22de5f1909e39b28ca3cddba04f5a57a7914a5db673d615e5032d7a3df5f0b75",
+                    "SHA3-256": "a5707112e8b9b85fd3b418efdcd8938614545a67d55e0c2da5c20bcc342ca627",
+                    "SHA3-512": "0c9cf457c9cbb1c6a317fe37b2c8b462b0be208ea88a7a0824596da0348dac3da698e7e3478047af319e8f01ef5d7f39e3ac62a67b28b5d970e1adbb207ba1f2"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ca71c7c4-73f0-4185-8bc5-eba6f03bc24c"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--e24ea5d6-a303-4163-83d2-b437bac81ecb",
+        "created_by_ref": "identity--6bafd36a-1ca2-479e-a484-deb18b248a4f",
+        "created": "2021-08-20T03:55:26.692144Z",
+        "modified": "2022-06-26T16:26:25.307445Z",
+        "name": "place",
+        "description": "Picture watch cell blue candidate worry budget.",
+        "tool_types": [
+            "information-gathering",
+            "denial-of-service",
+            "network-capture",
+            "vulnerability-scanning",
+            "information-gathering"
+        ],
+        "aliases": [
+            "day",
+            "statement",
+            "none",
+            "movie",
+            "far"
+        ],
+        "labels": [
+            "record",
+            "scene",
+            "pfte-batch-1"
+        ],
+        "confidence": 29,
+        "object_marking_refs": [
+            "marking-definition--ca71c7c4-73f0-4185-8bc5-eba6f03bc24c"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--6bd6b822-2172-475d-9318-cfb0e779c97a",
+        "created_by_ref": "identity--6bafd36a-1ca2-479e-a484-deb18b248a4f",
+        "created": "2020-11-02T07:25:03.254048Z",
+        "modified": "2021-09-30T03:26:45.77213Z",
+        "relationship_type": "indicates",
+        "description": "Sometimes significant finally lose. Prepare computer those visit stock send.",
+        "source_ref": "indicator--185a968f-5905-46f3-8cb3-4d23391f3f28",
+        "target_ref": "tool--e24ea5d6-a303-4163-83d2-b437bac81ecb",
+        "stop_time": "2021-07-05T04:23:51.826955Z",
+        "labels": [
+            "number",
+            "throw",
+            "always",
+            "wrong",
+            "plant",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ca71c7c4-73f0-4185-8bc5-eba6f03bc24c"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--7d975d88-8e74-4346-9c3e-e018097d69e8",
+        "created_by_ref": "identity--6bafd36a-1ca2-479e-a484-deb18b248a4f",
+        "created": "2021-04-27T20:24:39.408266Z",
+        "modified": "2021-08-14T01:08:34.816382Z",
+        "context": "unspecified",
+        "object_refs": [
+            "indicator--185a968f-5905-46f3-8cb3-4d23391f3f28",
+            "tool--e24ea5d6-a303-4163-83d2-b437bac81ecb",
+            "relationship--6bd6b822-2172-475d-9318-cfb0e779c97a"
+        ],
+        "labels": [
+            "class",
+            "mother",
+            "term",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--ca71c7c4-73f0-4185-8bc5-eba6f03bc24c"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--ca71c7c4-73f0-4185-8bc5-eba6f03bc24c",
+        "created_by_ref": "identity--6bafd36a-1ca2-479e-a484-deb18b248a4f",
+        "created": "2021-08-14T01:08:34.812251Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2a4a5944-494c-4a33-b0ba-c70e719ee1c8",
+                "name": "Room arrive pay often",
+                "create_date_time": "2021-08-14T01:08:08.421032Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6bafd36a-1ca2-479e-a484-deb18b248a4f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-05-02T07:55:07.962361Z",
+        "modified": "2022-08-03T02:06:04.080326Z",
+        "name": "Hamilton-Harris",
+        "roles": [
+            "former",
+            "improve",
+            "bring"
+        ],
+        "sectors": [
+            "financial-services",
+            "telecommunications",
+            "healthcare",
+            "infrastructure"
+        ],
+        "contact_information": "9804 Holmes Light\nAngelatown, WV 70708",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 55,
+        "object_marking_refs": [
+            "marking-definition--ca71c7c4-73f0-4185-8bc5-eba6f03bc24c"
+        ]
+    }
+]

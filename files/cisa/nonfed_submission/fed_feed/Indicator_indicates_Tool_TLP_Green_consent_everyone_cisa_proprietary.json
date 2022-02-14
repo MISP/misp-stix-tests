@@ -1,0 +1,233 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--77fd0819-1d7e-4b4a-b506-665fe31da22d",
+        "created_by_ref": "identity--eab9ff28-8f9b-4849-a0cf-a38920ad81c8",
+        "created": "2022-07-13T06:55:27.964309Z",
+        "modified": "2023-05-01T15:23:48.878019Z",
+        "name": "push",
+        "description": "Prevent word option minute six billion reach.",
+        "pattern": "[ipv4-addr:value NOT = '3.237.229.161'] OR ((([mutex:defanged NOT = false] FOLLOWEDBY [(mac-addr:defanged = false) AND mac-addr:defanged = false] WITHIN 2 SECONDS) AND [url:defanged = false]) START t'2021-01-22T13:34:21.878726Z' STOP t'2021-10-19T06:21:40.066921Z')",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-04-16T02:12:15.08961Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "IUuvfQzr",
+                "phase_name": "wXfSlGftakUj"
+            },
+            {
+                "kill_chain_name": "BqsvPv",
+                "phase_name": "TZlGNvjlxmsfIJnoCZm"
+            },
+            {
+                "kill_chain_name": "ZZYAvAiucUGUVYGbiv",
+                "phase_name": "sbbgPmxpjgrYjtWPMah"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7d7f3253-b1cd-40d1-906f-320a5883305f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--cc6763b6-43e8-4b80-9497-1d1370752dab",
+        "created_by_ref": "identity--eab9ff28-8f9b-4849-a0cf-a38920ad81c8",
+        "created": "2022-02-27T16:48:02.847868Z",
+        "modified": "2022-07-11T06:11:14.510392Z",
+        "name": "visit",
+        "tool_types": [
+            "unknown",
+            "credential-exploitation"
+        ],
+        "aliases": [
+            "long",
+            "huge",
+            "rest"
+        ],
+        "external_references": [
+            {
+                "source_name": "director",
+                "hashes": {
+                    "MD5": "49dea24d6037b53176a9aa3a98d18488",
+                    "SHA-1": "97585427a9a7bb6bb40760b34a8c4a0fa441ce5a",
+                    "SHA-256": "bf50c73f964853744b5225cfbe5d5acc2973c205b407dd70af65cea178e82386",
+                    "SHA-512": "c8c525430849cfadd2ef052d0682b79a2e6946492e52e92d7a7dd4da04d2e2fc491959041adecae8b21582a13216754e0ff195fa1da7b412837a8b905e97ea6d",
+                    "SHA3-256": "3b90caec62e73b9b1bffda44725c73d9692ce8c4598308688a72156123e4be32",
+                    "SHA3-512": "a488170a60a58ffac0f25ee42f0a93798900107521603520f7e879eb4cc9e3ced325c88635d647000896af734dc6878bc0f8097cfec56d8a390d353efb60396c"
+                },
+                "external_id": "gXdIG"
+            },
+            {
+                "source_name": "kind",
+                "description": "Possible institution require rest pay.",
+                "url": "http://stewart.com/",
+                "hashes": {
+                    "MD5": "37ece0d267cf1d73689c45459566172b",
+                    "SHA-1": "708596e14412a03563ec0b5e8531a30a7a0d5760",
+                    "SHA-256": "95c133f8309e82c8887ff71f43f8d2f96411c5691c26093c64e5bd91b538ab86",
+                    "SHA-512": "a0fce080047425f268acd40a845c7374b5b660152fd3a006e4317a4ba5d1af2886242988fe3c3f4c2c0f989090c395f5da2203d6c9ab377d8de3f6ace2ea4836",
+                    "SHA3-256": "da92e67a9322eaf5b6eb41e54c79ab7165f1ad9f95606959cf6ba3df35eff70a",
+                    "SHA3-512": "3bce9e880aab52c612107770bd2fb0ccabcee0fa5f1365ad660a6c4578f24447d3580b409cc520659b6599caa6f84817ea764c6ab08f321b8870a7efda848834"
+                },
+                "external_id": "rnVmaW"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7d7f3253-b1cd-40d1-906f-320a5883305f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c73e89a4-1645-42ef-8538-2daf611df589",
+        "created_by_ref": "identity--eab9ff28-8f9b-4849-a0cf-a38920ad81c8",
+        "created": "2021-08-18T23:14:02.741231Z",
+        "modified": "2022-06-24T12:09:17.447336Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--77fd0819-1d7e-4b4a-b506-665fe31da22d",
+        "target_ref": "tool--cc6763b6-43e8-4b80-9497-1d1370752dab",
+        "start_time": "2020-10-09T00:30:27.477442Z",
+        "stop_time": "2021-06-22T15:53:39.236328Z",
+        "object_marking_refs": [
+            "marking-definition--7d7f3253-b1cd-40d1-906f-320a5883305f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--7d7f3253-b1cd-40d1-906f-320a5883305f",
+        "created_by_ref": "identity--eab9ff28-8f9b-4849-a0cf-a38920ad81c8",
+        "created": "2021-08-14T01:08:35.032412Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e665ae49-7536-4ce4-b3ac-ad9803b6185e",
+                "name": "Push teach indeed like accept",
+                "create_date_time": "2021-08-14T01:08:08.423274Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--eab9ff28-8f9b-4849-a0cf-a38920ad81c8",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-18T23:04:03.30628Z",
+        "modified": "2021-08-14T01:08:35.038466Z",
+        "name": "Davis-Weaver",
+        "description": "Integrated next generation function",
+        "identity_class": "unknown",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "when",
+                "description": "Dog edge appear century court.",
+                "url": "https://www.shepard.com/",
+                "external_id": "XcYYnZOvvDGE"
+            },
+            {
+                "source_name": "key",
+                "hashes": {
+                    "MD5": "27bfec4e3a2b93de120cbddfc6d14724",
+                    "SHA-1": "3f3f5366f6ee48395f287a5b4a83d55d5ce468d0",
+                    "SHA-256": "24c6a1bdb9ed869c9cf0ce8fa54056153c1abbbeb3b7740d822e90e5a0418a70",
+                    "SHA-512": "0a91e7eeaed186f5acf78e5a5827e58a7a5f7c636b4b83834e6de70d04822a948c7cf38307edc625e61836d6033173b223b7bcfd05c4d72275fd4ecb6f0de92c",
+                    "SHA3-256": "8bd8614905ed2ae594b992ea6e6b60bf28d6dc0c88965d97b86743e7cb09774a",
+                    "SHA3-512": "66b01808ab97f4bcac5f49780c0a7336f73d38bce105e2e49df4c837f242c57daa5b3a3bc3a2dce17b6b0067ad74228a8894379270778ec6d4ff958f101dd41d"
+                },
+                "external_id": "dAOnywHNWCEIWLjx"
+            },
+            {
+                "source_name": "authority",
+                "description": "Paper effect seek.",
+                "url": "http://bauer.biz/",
+                "hashes": {
+                    "MD5": "7243ffa6771945ff08cb56747c9a09f0",
+                    "SHA-1": "ffa96715a9a1a4c954565792d7d76441f050bcc0",
+                    "SHA-256": "39e10ac0743f9339f2955ea79f7f2010e070aec3c457f91af30a62802ecdc93b",
+                    "SHA-512": "c1b7a4bfceff40bc2ccdd5ab5940df644d9ce9b0605acdc1c290d5756abf672238c7227447f0bbc5b569ead4c4b5e81134a5f84cd946a36481f6d44e83be6d7f",
+                    "SHA3-256": "e2e87ff346b894cef720d4dd38e8b437b8602172a468cd95aa513898e1062aec",
+                    "SHA3-512": "6efa749e3a5e7d9e4ccf8419bfba9f340af5f5bf376117879ab0127baf5ab89824d8b05455635b530414b3409df7768256544528dc16d2b99269f03ddc5664d6"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7d7f3253-b1cd-40d1-906f-320a5883305f"
+        ]
+    }
+]

@@ -1,0 +1,197 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--c03276ad-1f1b-4187-8a6b-205db11e2d29",
+        "created_by_ref": "identity--132916ba-7682-4d23-bcae-b3b7017c02e1",
+        "created": "2022-06-04T08:01:35.707992Z",
+        "modified": "2023-05-16T16:49:40.577885Z",
+        "name": "chair",
+        "description": "Size election report deep important.",
+        "aliases": [
+            "game",
+            "school",
+            "raise"
+        ],
+        "resource_level": "individual",
+        "primary_motivation": "unpredictable",
+        "secondary_motivations": [
+            "notoriety"
+        ],
+        "labels": [
+            "structure",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--d24ee662-4216-462c-aa26-e363828720e4"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--7e023d8f-0c47-4da7-93a3-5ea20b55a0ec",
+        "created_by_ref": "identity--132916ba-7682-4d23-bcae-b3b7017c02e1",
+        "created": "2021-06-02T18:34:22.260808Z",
+        "modified": "2021-11-13T15:10:37.087587Z",
+        "name": "then",
+        "aliases": [
+            "culture",
+            "Republican",
+            "capital",
+            "situation"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d24ee662-4216-462c-aa26-e363828720e4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--39cd20a0-8138-44f1-89a4-77ca7ddfea21",
+        "created_by_ref": "identity--132916ba-7682-4d23-bcae-b3b7017c02e1",
+        "created": "2021-08-11T01:15:34.918499Z",
+        "modified": "2021-12-07T23:23:49.08266Z",
+        "relationship_type": "owns",
+        "source_ref": "intrusion-set--c03276ad-1f1b-4187-8a6b-205db11e2d29",
+        "target_ref": "infrastructure--7e023d8f-0c47-4da7-93a3-5ea20b55a0ec",
+        "confidence": 76,
+        "object_marking_refs": [
+            "marking-definition--d24ee662-4216-462c-aa26-e363828720e4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--72cfba95-eb1a-4edc-a19c-bc91458fe304",
+        "created_by_ref": "identity--132916ba-7682-4d23-bcae-b3b7017c02e1",
+        "created": "2021-10-04T21:00:39.80618Z",
+        "modified": "2021-12-22T01:25:07.335038Z",
+        "name": "far",
+        "published": "2020-08-21T10:06:55.22889Z",
+        "object_refs": [
+            "intrusion-set--c03276ad-1f1b-4187-8a6b-205db11e2d29",
+            "infrastructure--7e023d8f-0c47-4da7-93a3-5ea20b55a0ec",
+            "relationship--39cd20a0-8138-44f1-89a4-77ca7ddfea21"
+        ],
+        "labels": [
+            "seat",
+            "effect",
+            "political",
+            "explain",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d24ee662-4216-462c-aa26-e363828720e4"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d24ee662-4216-462c-aa26-e363828720e4",
+        "created_by_ref": "identity--132916ba-7682-4d23-bcae-b3b7017c02e1",
+        "created": "2021-08-14T01:08:53.957291Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f217105b-ccd2-4cb0-893a-c1314d7d2d64",
+                "name": "Strategy land response sport over",
+                "create_date_time": "2021-08-14T01:08:08.422773Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.422466Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--132916ba-7682-4d23-bcae-b3b7017c02e1",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-08T14:15:06.858019Z",
+        "modified": "2021-12-16T08:25:32.81919Z",
+        "name": "Collins, Thompson and Howard",
+        "description": "Grass-roots high-level instruction set",
+        "identity_class": "class",
+        "sectors": [
+            "communications",
+            "mining",
+            "insurance",
+            "government-regional",
+            "government"
+        ],
+        "contact_information": "4665 Hickman Springs Suite 080\nEast Nicholas, UT 23820",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 3,
+        "object_marking_refs": [
+            "marking-definition--d24ee662-4216-462c-aa26-e363828720e4"
+        ]
+    }
+]

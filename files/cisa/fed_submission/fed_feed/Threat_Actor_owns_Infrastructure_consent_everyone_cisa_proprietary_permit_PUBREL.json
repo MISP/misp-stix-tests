@@ -1,0 +1,168 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--9569b28d-355b-4140-bc7d-690cbc5953e9",
+        "created_by_ref": "identity--1e4e983c-cadf-4749-843d-faf1c7c1f176",
+        "created": "2020-09-04T00:32:57.659557Z",
+        "modified": "2021-08-14T01:09:27.99999Z",
+        "name": "not",
+        "threat_actor_types": [
+            "criminal"
+        ],
+        "first_seen": "2021-08-27T03:34:47.717836Z",
+        "sophistication": "intermediate",
+        "primary_motivation": "organizational-gain",
+        "labels": [
+            "since",
+            "pfte-batch-1"
+        ],
+        "confidence": 89,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--28103fb7-2e3c-4ed8-8f13-aa09102708f6"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--05b330cc-9c5e-464c-b1bd-f218d9b52cc1",
+        "created_by_ref": "identity--1e4e983c-cadf-4749-843d-faf1c7c1f176",
+        "created": "2022-01-07T23:21:37.270633Z",
+        "modified": "2022-06-09T17:00:09.989993Z",
+        "name": "fall",
+        "infrastructure_types": [
+            "phishing",
+            "anonymization"
+        ],
+        "aliases": [
+            "machine"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "BrkGsoyWFfilMeEGC",
+                "phase_name": "GDknomCZhOmzxtavWQx"
+            },
+            {
+                "kill_chain_name": "GMRvYnREPOizmim",
+                "phase_name": "iCmOEIKOONPN"
+            }
+        ],
+        "first_seen": "2020-02-23T06:38:23.39267Z",
+        "last_seen": "2020-11-14T20:56:58.546638Z",
+        "labels": [
+            "loss",
+            "or",
+            "appear",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--28103fb7-2e3c-4ed8-8f13-aa09102708f6"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--7ad2fcf7-d3a3-4b1b-845b-4e02720b0ad1",
+        "created_by_ref": "identity--1e4e983c-cadf-4749-843d-faf1c7c1f176",
+        "created": "2021-05-27T10:22:50.715069Z",
+        "modified": "2021-08-30T01:20:50.207961Z",
+        "relationship_type": "owns",
+        "description": "My along player focus house behind single.",
+        "source_ref": "threat-actor--9569b28d-355b-4140-bc7d-690cbc5953e9",
+        "target_ref": "infrastructure--05b330cc-9c5e-464c-b1bd-f218d9b52cc1",
+        "start_time": "2020-10-20T01:57:30.04609Z",
+        "labels": [
+            "check",
+            "war",
+            "natural",
+            "pfte-batch-1"
+        ],
+        "confidence": 21,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "money",
+                "description": "Society international improve forward.",
+                "hashes": {
+                    "MD5": "01044e4d2cefdf5f4d6c397bdf16c8cc",
+                    "SHA-1": "13cec34cd0f0c6d37fd06f2d2ba4e35fa8960b39",
+                    "SHA-256": "1a80b6ee1407ab3f01f852038379ebb8d14c46afd29c6f9d7c87ca5a5b98c457",
+                    "SHA-512": "672c4e083aa1b997d29bb41872f7cf367690128addc8296f8cfdbc7098f6f88156b7598b3be484d84cc7ff8ef4f4ed6604d83215844361a9a338cb0144125d60",
+                    "SHA3-256": "083fc2c0c323b497c766382f51306199f0f68e518367b16912dc0bd1219bce64",
+                    "SHA3-512": "29551b69edb574315bc2bf64d9419d6c7fa26d61a59afad5154783c90bd752d2132c16278949140f5e0f398852632c95c0e55e70bf1131eb381657547f7889d1"
+                },
+                "external_id": "kiUNRYEUCfKfYVatZJD"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--28103fb7-2e3c-4ed8-8f13-aa09102708f6"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1e4e983c-cadf-4749-843d-faf1c7c1f176",
+        "created_by_ref": "identity--1e4e983c-cadf-4749-843d-faf1c7c1f176",
+        "created": "2021-07-29T01:07:04.923703Z",
+        "modified": "2021-10-11T19:02:38.900167Z",
+        "name": "Morris Group",
+        "roles": [
+            "position",
+            "scientist"
+        ],
+        "sectors": [
+            "emergency-services",
+            "water",
+            "healthcare",
+            "agriculture"
+        ],
+        "contact_information": "556 Allison Vista Suite 866\nLake Kristinbury, CT 55564",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--28103fb7-2e3c-4ed8-8f13-aa09102708f6"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--28103fb7-2e3c-4ed8-8f13-aa09102708f6",
+        "created": "2021-08-14T01:09:27.99944Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-716f5d31-4760-4ed1-b8df-6b76bb19bd34",
+                "name": "Wife plan yourself training yet rich",
+                "create_date_time": "2021-08-14T01:08:08.43336Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.433196Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

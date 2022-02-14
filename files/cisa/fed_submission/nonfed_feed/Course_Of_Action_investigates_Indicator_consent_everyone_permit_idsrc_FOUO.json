@@ -1,0 +1,205 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--f07996e8-0f57-49c5-87ae-acd214850935",
+        "created_by_ref": "identity--1347be27-7105-4e7c-9ed8-4155cfec616c",
+        "created": "2021-07-19T09:40:22.790656Z",
+        "modified": "2021-10-05T14:43:27.777793Z",
+        "name": "able",
+        "labels": [
+            "even",
+            "Republican",
+            "significant",
+            "no",
+            "time",
+            "pfte-batch-1"
+        ],
+        "confidence": 96,
+        "external_references": [
+            {
+                "source_name": "expert",
+                "description": "Both wonder mind beautiful discover serve life.",
+                "external_id": "iWKxgHAmBgAF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--47d54b11-9a03-4df4-8c02-2bb950388bd5",
+        "created_by_ref": "identity--1347be27-7105-4e7c-9ed8-4155cfec616c",
+        "created": "2021-07-17T17:39:55.087629Z",
+        "modified": "2022-02-21T11:59:08.786593Z",
+        "indicator_types": [
+            "compromised"
+        ],
+        "pattern": "[autonomous-system:number <= -172]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-07-19T12:15:19.442336Z",
+        "valid_until": "2022-04-13T23:48:05.715772Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "FRYyrjPBq",
+                "phase_name": "xndxHLXneqckcp"
+            },
+            {
+                "kill_chain_name": "dVvlJMljUVFKXiy",
+                "phase_name": "kkQgcvej"
+            },
+            {
+                "kill_chain_name": "dBcsvxsIuhcuZYuVrV",
+                "phase_name": "lZBgUCMZujytn"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 43,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--31a4504c-0496-4cb9-aa18-098422927832",
+        "created_by_ref": "identity--1347be27-7105-4e7c-9ed8-4155cfec616c",
+        "created": "2022-03-28T03:23:45.778359Z",
+        "modified": "2023-03-22T00:16:55.576238Z",
+        "relationship_type": "investigates",
+        "source_ref": "course-of-action--f07996e8-0f57-49c5-87ae-acd214850935",
+        "target_ref": "indicator--47d54b11-9a03-4df4-8c02-2bb950388bd5",
+        "stop_time": "2022-05-14T22:14:44.997736Z",
+        "labels": [
+            "wish",
+            "we",
+            "nothing",
+            "sometimes",
+            "level",
+            "pfte-batch-1"
+        ],
+        "confidence": 93,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "party",
+                "description": "For peace unit popular crime television special.",
+                "url": "https://www.lewis.com/",
+                "external_id": "LhJTKHKfhKZwglNLrpnT"
+            },
+            {
+                "source_name": "bank",
+                "description": "Describe character may fast soldier first lot simply.",
+                "url": "https://www.willis-phillips.com/",
+                "hashes": {
+                    "MD5": "69df80bac70f86daa96b28972934d735",
+                    "SHA-1": "52c4e898d4883bfd49f2e5b5f2eb60bbc8ec8f98",
+                    "SHA-256": "b30f4aa34b43e90733c50a9c61be364551067ae9c3535d9d0592752efe996d9e",
+                    "SHA-512": "2c57ec9d787e3c1c5f9bea49292892f6bb82e18e2e559d506286288b9fb313cb8c74f894d77da8391699eedd0a6244206c8bf5ff197558cfe45be96f8d6b702d",
+                    "SHA3-256": "c016980837510ddf0cff0cb7e3153df4758d5370871c52b0a67f29a93e036b8c",
+                    "SHA3-512": "565b7a394c3fab37777cd6e5f7572d3fb21cac7f4a77e243799625b8b8576bd8e13ef0ef04bf54b336da5fa1afd4cefb2c5e4f8a9dac23678dc8be6d80477c09"
+                },
+                "external_id": "DlxfWLPUfC"
+            },
+            {
+                "source_name": "even",
+                "external_id": "ZUPBXgk"
+            },
+            {
+                "source_name": "stop",
+                "description": "Bill try hospital each go sure.",
+                "url": "http://gonzalez-wilson.info/",
+                "hashes": {
+                    "MD5": "a59fa35e986bb6b4fa70d5b36149a5b7",
+                    "SHA-1": "c2d6fde272ea8153bdc31e91e8df8126c2110f3e",
+                    "SHA-256": "012a477a40846d2d6b7fff7367bcda59b0ece2bf369b99de61a3a5269096b9ee",
+                    "SHA-512": "6b534cf22a30ad03397d7abbe6b156ae9206f8cd1a4ef137cee0eb2d5ea17b811ac55c0a5883b11adb699eac7b88d79be86fe84438e1f9a7406aa3d43d5d99b2",
+                    "SHA3-256": "4f9d3ae98ae79b24c27cb38e2074b953c9db02a05c33d0d0e75a42b2209e6940",
+                    "SHA3-512": "dc6ff9dd9155782b36bf5aac4dee3c8f20d1018ab1722204f26abd0b3055d8d0a0956d9985b5aacc5480b038b6812e9841cbbb81a74005b3cb00975689d96eb2"
+                },
+                "external_id": "LvMNOvunVKmIQKhjkUuU"
+            },
+            {
+                "source_name": "bit",
+                "description": "Say sit something I high technology in.",
+                "url": "https://wang.com/",
+                "hashes": {
+                    "MD5": "2314dd7b49f3908d1f247f307c881150",
+                    "SHA-1": "67c824723d4a1a3152855386e7694725cba0e58b",
+                    "SHA-256": "fa470d977e4d6c8e459d58da7fc3d1409fb2eff4dc73403d9b4ccf772ebd0ba2",
+                    "SHA-512": "535e7a022b80d973d6960b8bf7ac5847365ec4fe5eb5b6183cb038f411de5f7493d5ee1a75375157b68c573ee22ca53db34a5cc8e795d129a06fddc3975dd2ef",
+                    "SHA3-256": "fd27b3eb1a413ed3b528cf91353960f0d2c1054249f28ebe6c453e6065295be5",
+                    "SHA3-512": "01840f6e5d1065bca53669bb866a9e0175cc59886a516ad70cf79ae2b7220d567df6c08468dc99b77e677b1ae8ec5b7774957fcb29e452aaf16962f5ecc5c706"
+                },
+                "external_id": "ycKIkiAUg"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1347be27-7105-4e7c-9ed8-4155cfec616c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-11-22T10:54:48.56246Z",
+        "modified": "2021-08-14T01:08:22.282675Z",
+        "name": "Grimes Ltd",
+        "description": "Advanced motivating database",
+        "roles": [
+            "then",
+            "thank",
+            "true",
+            "stage",
+            "never"
+        ],
+        "identity_class": "unknown",
+        "sectors": [
+            "pharmaceuticals"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 52,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "popular",
+                "description": "Public factor military sing over how.",
+                "url": "http://santos.info/"
+            },
+            {
+                "source_name": "owner",
+                "description": "Lay how pick join model.",
+                "hashes": {
+                    "MD5": "58751689936f0c70522a665f3aed75b3",
+                    "SHA-1": "146de32bafc1ec44cdda35daa9bca5de0fc0e89d",
+                    "SHA-256": "6b0d39489300738f640c292dee57df008d18cfc9442d6e6b9562c8b5ab7ee405",
+                    "SHA-512": "7369409b10464efee108fe93495b6efac2cac15e38efda2c925fa142be72a62f5d47d45a443e9d8934224433d829f3645ce2a67e482195c0587317ccdcd881bb",
+                    "SHA3-256": "ea25d3b3a0c1880e5c6d1043e68a13ae42091693c73f986ae746c32eb365f9b3",
+                    "SHA3-512": "91586dbee623caaaab09255e3157c8913e76eda311f1bef7512036bf50970af72c4834e02e3948918ea5e9a4314121e7d6e43c20af106baf70c08e840a16cfde"
+                },
+                "external_id": "sFnLWDV"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

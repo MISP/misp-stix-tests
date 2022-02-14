@@ -1,0 +1,98 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--ab8883bd-800c-4e9a-bdf3-533d11bb45d1",
+        "created_by_ref": "identity--1e36dabf-4141-46be-8ae3-c3e8950f2035",
+        "created": "2021-07-25T20:37:03.422574Z",
+        "modified": "2022-04-01T02:25:50.69071Z",
+        "name": "with",
+        "description": "Upon ten others radio certainly.",
+        "infrastructure_types": [
+            "control-system"
+        ],
+        "first_seen": "2020-08-15T09:33:08.734695Z",
+        "last_seen": "2021-02-02T00:40:49.317274Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 3,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--efd8ff8c-9b85-49ef-a28d-c4a4d9e99653",
+        "created_by_ref": "identity--1e36dabf-4141-46be-8ae3-c3e8950f2035",
+        "created": "2021-12-31T23:30:59.142561Z",
+        "modified": "2022-12-31T05:48:54.04098Z",
+        "first_observed": "2021-01-22T21:09:38.003493Z",
+        "last_observed": "2021-08-13T06:15:06.429878Z",
+        "number_observed": 547442240,
+        "objects": {
+            "mutex--a071b1c8-734d-4f40-a387-8794ea599b97": {
+                "type": "mutex",
+                "spec_version": "2.1",
+                "id": "mutex--a071b1c8-734d-4f40-a387-8794ea599b97",
+                "name": "technology"
+            }
+        },
+        "labels": [
+            "project",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--76c97a69-72c9-4093-8933-3699799548a6",
+        "created_by_ref": "identity--1e36dabf-4141-46be-8ae3-c3e8950f2035",
+        "created": "2022-03-13T18:06:35.997356Z",
+        "modified": "2022-11-17T23:00:48.507293Z",
+        "relationship_type": "consists-of",
+        "description": "Nor end film year past financial. Dark identify rather each. Movie common garden successful.",
+        "source_ref": "infrastructure--ab8883bd-800c-4e9a-bdf3-533d11bb45d1",
+        "target_ref": "observed-data--efd8ff8c-9b85-49ef-a28d-c4a4d9e99653",
+        "start_time": "2021-11-24T11:08:59.784217Z",
+        "stop_time": "2022-03-26T04:29:06.741791Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1e36dabf-4141-46be-8ae3-c3e8950f2035",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-04-16T17:41:04.487016Z",
+        "modified": "2022-11-07T07:11:16.300251Z",
+        "name": "Lopez, Gentry and Mitchell",
+        "roles": [
+            "per"
+        ],
+        "sectors": [
+            "financial-services",
+            "emergency-services",
+            "financial-services"
+        ],
+        "contact_information": "17798 Cervantes Heights\nNorth Carolynland, WA 98101",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

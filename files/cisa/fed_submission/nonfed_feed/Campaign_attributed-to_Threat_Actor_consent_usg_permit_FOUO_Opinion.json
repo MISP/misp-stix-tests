@@ -1,0 +1,235 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--854e9e04-603a-4dc9-b32a-7af8a9eb6e8d",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2022-01-27T20:17:40.909641Z",
+        "modified": "2022-03-09T00:06:38.734641Z",
+        "name": "letter",
+        "description": "Operation Democrat local behind.",
+        "first_seen": "2021-12-04T14:23:42.116397Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 17,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--6ef8d489-d1f2-4f9b-8e22-3eee4d518fd2",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2021-09-10T18:18:11.918069Z",
+        "modified": "2022-03-12T14:21:36.592629Z",
+        "name": "consumer",
+        "first_seen": "2020-11-19T08:46:33.046998Z",
+        "last_seen": "2020-12-18T05:51:40.011851Z",
+        "roles": [
+            "independent",
+            "infrastructure-operator",
+            "agent",
+            "infrastructure-architect",
+            "independent"
+        ],
+        "goals": [
+            "be"
+        ],
+        "primary_motivation": "dominance",
+        "secondary_motivations": [
+            "personal-gain"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 80,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e6237329-a9af-42ed-a2a1-1f5c0c03abec",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2020-11-30T16:43:36.746487Z",
+        "modified": "2021-08-14T01:08:14.165189Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "campaign--854e9e04-603a-4dc9-b32a-7af8a9eb6e8d",
+        "target_ref": "threat-actor--6ef8d489-d1f2-4f9b-8e22-3eee4d518fd2",
+        "start_time": "2022-01-02T03:49:46.341009Z",
+        "stop_time": "2022-09-03T11:56:11.246169Z",
+        "labels": [
+            "thank",
+            "thing",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "herself",
+                "description": "Investment indicate sign go.",
+                "hashes": {
+                    "MD5": "22e38584b56201795057c6743ec8e947",
+                    "SHA-1": "cc326fc77aaebd2154cb3ce1331655cd8d1fd702",
+                    "SHA-256": "4707ca9ae12f10c7e3e3c579c2fe6f9fd9728ca5fc281a8d4b70c9c2ce9c588b",
+                    "SHA-512": "9be68662a55c2b94c7959e88cb199b8edb71e46016d26f4ae345f09df9678ce5f09f09ead76cfcec9797de93af02b11f0406b044da315eb8847d542db9d07ca6",
+                    "SHA3-256": "e0254949c55371a9208bc9a2694b4f83e0188fc0427467f344d7edd847cb6770",
+                    "SHA3-512": "6df2b3dbe57d8327833b58756360d587260137f6be4b42068b38ece0ae45cf60d9c7dc57f35da8c851194d7ea1ff77be8b6e44b4c1eceff3da32d5a1f2e2fdd7"
+                },
+                "external_id": "YUZhdsY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--b62ca837-2a80-4015-94dc-544e52fd3a21",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2020-12-08T18:33:23.91996Z",
+        "modified": "2021-08-14T01:08:14.165583Z",
+        "authors": [
+            "break"
+        ],
+        "opinion": "agree",
+        "object_refs": [
+            "campaign--854e9e04-603a-4dc9-b32a-7af8a9eb6e8d",
+            "threat-actor--6ef8d489-d1f2-4f9b-8e22-3eee4d518fd2",
+            "relationship--e6237329-a9af-42ed-a2a1-1f5c0c03abec"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "short",
+                "description": "Rather notice even reach toward easy feeling.",
+                "url": "https://www.simmons-ramirez.com/",
+                "hashes": {
+                    "MD5": "f3e47c825820e38bc97c412b1d2b84ad",
+                    "SHA-1": "dd8b16f6315d08dc2dada32c009d52dce1906f95",
+                    "SHA-256": "8e856c71954116bca3b3c7d8ec9a3d7c9cd962ae3bb649fb006abc77f2512f72",
+                    "SHA-512": "32df5e1f53ace0f4f1118614791b417dc323f7d305f4f3c34ba177210c422b0d00ec2d84c15c34d7ce2dd0c655a33c0495115bae0eb9848b261eb592e2d0d79c",
+                    "SHA3-256": "e7689fa96de8e58696df0942fcba8cf6307e75404d6cc5e7456100d1b3e21e26",
+                    "SHA3-512": "a2d2dd6c942caea2348585a7de17d68781b007e0aaae7e05c5f9f716f612a754b93431062947c27186ad7b8dad0340e3f5ca93ff92f1dde9365df2f429048a9a"
+                },
+                "external_id": "NzIjQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-01-01T00:00:00.000Z",
+        "modified": "2020-01-01T00:00:00.000Z",
+        "name": "USA.USG",
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

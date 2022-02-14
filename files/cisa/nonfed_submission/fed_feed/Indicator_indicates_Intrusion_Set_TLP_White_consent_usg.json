@@ -1,0 +1,193 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--82c7df90-89a2-4eb3-bc37-8e00fa8ff4e2",
+        "created_by_ref": "identity--99d8281e-faa3-4e05-9940-45f4ecc9577d",
+        "created": "2022-02-14T20:19:53.556075Z",
+        "modified": "2022-09-22T11:31:50.428301Z",
+        "pattern": "[(ipv4-addr:value >= '145.237.85.157' OR (domain-name:value > 'reese.info')) OR domain-name:defanged = false] FOLLOWEDBY [autonomous-system:defanged NOT = false] WITHIN 1 SECONDS",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-07-19T15:18:23.908304Z",
+        "labels": [
+            "animal",
+            "only",
+            "camera",
+            "pfte-batch-1"
+        ],
+        "confidence": 92,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "dark",
+                "url": "http://www.parker.com/",
+                "hashes": {
+                    "MD5": "cf7fbf7f76d7298ea96bc127714a07a7",
+                    "SHA-1": "be6553a3afb4d05cb732894f093f7eab87ea33d3",
+                    "SHA-256": "983ca85f536f944b192b930f3a767257814257c15681d596f2db99ce5493d8f8",
+                    "SHA-512": "7815e9953059eb8a69998a02319d37bd0a232838c00a0a1fb504bee93d1752970b019b2a89a4cde417f82bc6b312e2f1f79f0c8f656a7b9b6ecf8f925a8a63ce",
+                    "SHA3-256": "b336c5a5f67d1474fee3dea8fea1a37dc968ea42f0e291e898e4343170ad7030",
+                    "SHA3-512": "2455c76227300f12e1b2077466ea14409ca12186daa5ad9f30479dc9f5cf8e884b5cf00bb5034eba937983e956f33bbbf08699446e1f33a0d216dcd7d01153be"
+                },
+                "external_id": "llIJEQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b7b4f3c7-a5f4-4a7d-a053-fda0cb1a0c7d"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--f75c6e3b-c8c9-42f1-b105-d1856f68d019",
+        "created_by_ref": "identity--99d8281e-faa3-4e05-9940-45f4ecc9577d",
+        "created": "2022-05-23T14:28:41.733791Z",
+        "modified": "2022-08-24T09:02:40.924044Z",
+        "name": "already",
+        "description": "Game article person program.",
+        "aliases": [
+            "site"
+        ],
+        "first_seen": "2021-11-08T14:52:20.602163Z",
+        "last_seen": "2021-12-09T22:38:34.317825Z",
+        "goals": [
+            "Store vote maybe old ability it.",
+            "Sure decide rest feel.",
+            "Clearly miss upon scene carry."
+        ],
+        "resource_level": "contest",
+        "primary_motivation": "coercion",
+        "external_references": [
+            {
+                "source_name": "method",
+                "description": "Road their outside yes.",
+                "url": "http://www.martin.biz/",
+                "external_id": "KLcUIuggBQk"
+            },
+            {
+                "source_name": "create",
+                "description": "Team action as Democrat social able.",
+                "external_id": "ErrAfvjseuUS"
+            },
+            {
+                "source_name": "figure",
+                "url": "https://www.thompson.com/",
+                "hashes": {
+                    "MD5": "a5d7861941c4af8d9e2954fae1ef5c4b",
+                    "SHA-1": "317bc0be7921cd1c44d06cb76b8a13962b1ee059",
+                    "SHA-256": "4ac321c417ceca4ede28638639c8380bc06911325af95884b111b7efb3023722",
+                    "SHA-512": "0db1cdcd1d81f6bd4862d988877797e0c3995212b0b3daee4b8d9c24ce79d7e098d247b9648b98f7cd1bc3506ddc36047de8c28076047d8b0dac44fc056987ba",
+                    "SHA3-256": "ce78ddab206844f281de592031dc8e7d3bd334c667ac750a555175e3c2144b38",
+                    "SHA3-512": "affeb4019bce5837e80fd33bb960466bd3452096d877c56254ad682605dcb8a1acf6960c3ac345aa4682a17836c22e5c12cbae676b71bd8d1d3182183eb9fd9c"
+                }
+            },
+            {
+                "source_name": "interview",
+                "description": "Staff number impact avoid without relate skill tell."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b7b4f3c7-a5f4-4a7d-a053-fda0cb1a0c7d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1dd920b5-28ef-417e-aa0a-915aeea05832",
+        "created_by_ref": "identity--99d8281e-faa3-4e05-9940-45f4ecc9577d",
+        "created": "2022-05-04T15:54:08.189872Z",
+        "modified": "2023-01-11T00:11:01.274626Z",
+        "relationship_type": "indicates",
+        "description": "Recent central term. Get share listen last.",
+        "source_ref": "indicator--82c7df90-89a2-4eb3-bc37-8e00fa8ff4e2",
+        "target_ref": "intrusion-set--f75c6e3b-c8c9-42f1-b105-d1856f68d019",
+        "start_time": "2021-08-10T10:42:10.369235Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b7b4f3c7-a5f4-4a7d-a053-fda0cb1a0c7d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b7b4f3c7-a5f4-4a7d-a053-fda0cb1a0c7d",
+        "created_by_ref": "identity--99d8281e-faa3-4e05-9940-45f4ecc9577d",
+        "created": "2021-08-14T01:08:31.084799Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--99d8281e-faa3-4e05-9940-45f4ecc9577d",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-06-28T22:26:14.393097Z",
+        "modified": "2023-06-11T21:55:16.020276Z",
+        "name": "Moore Inc",
+        "roles": [
+            "wife",
+            "follow",
+            "happen"
+        ],
+        "contact_information": "32623 Amy Mission Suite 588\nSouth Natalieshire, SD 83900",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 31,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b7b4f3c7-a5f4-4a7d-a053-fda0cb1a0c7d"
+        ]
+    }
+]

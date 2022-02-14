@@ -1,0 +1,219 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--da9393f7-f824-4668-8b97-68876d0035c6",
+        "created_by_ref": "identity--af7ab94e-8ef9-4556-9c7e-e64d9c4efb69",
+        "created": "2022-03-10T16:52:56.449852Z",
+        "modified": "2022-08-06T10:18:08.122671Z",
+        "description": "From tend hope miss push nearly program when.",
+        "indicator_types": [
+            "unknown",
+            "benign",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "([((user-account:display_name <= 'David Graham') AND user-account:can_escalate_privs NOT = true) OR x509-certificate:subject_public_key_algorithm >= 'yourself'] OR [email-addr:defanged NOT = false OR (network-traffic:protocols[0] >= 'ipv4')]) REPEATS 2 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-04-01T11:50:42.088614Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "GiOtwbirwgOF",
+                "phase_name": "ObaBEK"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 39,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "over",
+                "url": "https://campos.com/",
+                "hashes": {
+                    "MD5": "d3f132f792f92c7a679529b478010b10",
+                    "SHA-1": "06d3589f04ab91b62f9b03e75307a03573678208",
+                    "SHA-256": "5694981cc84e45aca646bdaa2d214989bde6d10370b1c70e497a30ad27817f78",
+                    "SHA-512": "b6636befed6911ce5a798528b888ee9ffdcfc4dec87157fe4cf96e0ae5d9a772d752e4b999a9cdf25df964556f8ce4d33729c556474425508d98fc2dc5582655",
+                    "SHA3-256": "d58b6d50564864b6a138536af5beef410584e588c46e77ab1f716951a738f2bc",
+                    "SHA3-512": "8c2993e66afa2062c642d6d54aa412c51a63c3995dea98c02212f93f164a01a7e116f5144cbe6efca7f28ba64dcf6c5383ad7fa89c232a81040a4abb6ba28417"
+                },
+                "external_id": "rZCOdCTQt"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--eec8a11b-e7a8-47d7-96c1-2d150f9ad489",
+        "created_by_ref": "identity--af7ab94e-8ef9-4556-9c7e-e64d9c4efb69",
+        "created": "2022-07-20T10:29:16.177995Z",
+        "modified": "2022-12-19T14:16:01.474597Z",
+        "name": "time",
+        "description": "Race sell discussion win employee.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "VbFBfAMTLEybq",
+                "phase_name": "gLYrWcB"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 98,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "white",
+                "url": "https://www.kramer-decker.com/",
+                "external_id": "jTExYHeCaEtDWxxDnE"
+            },
+            {
+                "source_name": "director",
+                "url": "http://www.hawkins.com/",
+                "external_id": "zMiLaGyiAVkCPUxCT"
+            },
+            {
+                "source_name": "marriage",
+                "description": "Discussion even turn current eat necessary sing."
+            },
+            {
+                "source_name": "who",
+                "external_id": "dNolZoNWnkErkToRmSwS"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--9f1f345d-1db6-406c-a4f6-3da42aa5fa6e",
+        "created_by_ref": "identity--af7ab94e-8ef9-4556-9c7e-e64d9c4efb69",
+        "created": "2021-06-02T23:37:43.487302Z",
+        "modified": "2021-11-06T18:41:32.792831Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--da9393f7-f824-4668-8b97-68876d0035c6",
+        "target_ref": "attack-pattern--eec8a11b-e7a8-47d7-96c1-2d150f9ad489",
+        "start_time": "2020-11-13T19:38:47.923436Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 73,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "believe",
+                "description": "Member phone into."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--05980e64-b052-4a25-9948-6d9cd0940185",
+        "created_by_ref": "identity--af7ab94e-8ef9-4556-9c7e-e64d9c4efb69",
+        "created": "2021-02-21T23:33:28.604718Z",
+        "modified": "2021-08-19T18:04:45.004001Z",
+        "abstract": "Begin purpose film involve hospital. Plant employee turn instead drive network itself. Quite fund worker prevent wish notice those.",
+        "content": "Politics beyond six. Standard much former politics wife.",
+        "authors": [
+            "leg"
+        ],
+        "object_refs": [
+            "indicator--da9393f7-f824-4668-8b97-68876d0035c6",
+            "attack-pattern--eec8a11b-e7a8-47d7-96c1-2d150f9ad489",
+            "relationship--9f1f345d-1db6-406c-a4f6-3da42aa5fa6e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "rule",
+                "url": "https://monroe.com/",
+                "external_id": "jQzjdttmDUQlePiBY"
+            },
+            {
+                "source_name": "democratic",
+                "description": "Keep sometimes respond follow bit very after around.",
+                "url": "https://gibbs.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--af7ab94e-8ef9-4556-9c7e-e64d9c4efb69",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-06-18T01:37:48.698646Z",
+        "modified": "2023-02-11T07:55:32.492504Z",
+        "name": "PeopleYoungReally",
+        "description": "Stand-alone static adapter",
+        "sectors": [
+            "infrastructure"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 36,
+        "external_references": [
+            {
+                "source_name": "explain",
+                "url": "http://coleman.org/",
+                "hashes": {
+                    "MD5": "bdcab0f27cba606bcb8031f44112c96b",
+                    "SHA-1": "2a3ecbd42931fa5c977ff13846cbae61bfddc996",
+                    "SHA-256": "5defcfece71f11fbb203adc2949ec60d2095cbe125e7529f52d585a837451fa3",
+                    "SHA-512": "f8825c17bc65fe77dc3f4cc32ee2bb55e92a99489dfffccfb25dee27cac714e199f70931b17648c8e93c5f634964ee3dd7ea53bce650e8befc1115581b9f1300",
+                    "SHA3-256": "3ffcb390f445e14ce7599654f5c3c3fa6a90bba0e56d5695fb6cfdeb192e1670",
+                    "SHA3-512": "4f995569781b188b1f4d2b1d07fbb204d620d673aee5ddece2dad2845ac5104a7217aba977a22df2c85aad7a4d071e2d239cf321f1243fb7c0b8ee2578fd1949"
+                },
+                "external_id": "qKgHbeLiM"
+            },
+            {
+                "source_name": "fish",
+                "description": "Concern analysis owner share company movie grow.",
+                "url": "https://www.barker-jones.com/",
+                "external_id": "hoiroJjdPuWClm"
+            },
+            {
+                "source_name": "charge",
+                "description": "Daughter statement trouble condition season true."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

@@ -1,0 +1,257 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--8596c691-8a84-4005-a943-faaefa437538",
+        "created_by_ref": "identity--3158a586-99d0-4a84-a208-7b8245b7533c",
+        "created": "2022-07-07T11:16:34.740324Z",
+        "modified": "2023-01-15T09:27:26.45626Z",
+        "name": "moment",
+        "aliases": [
+            "if",
+            "drop",
+            "health"
+        ],
+        "first_seen": "2022-02-21T16:47:18.883286Z",
+        "labels": [
+            "morning",
+            "occur",
+            "two",
+            "food",
+            "physical",
+            "pfte-batch-1"
+        ],
+        "confidence": 86,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "seat",
+                "hashes": {
+                    "MD5": "091b792db0aae66857af64969a2bfbe6",
+                    "SHA-1": "b52521ccf21e73768467abc776f7d9ea72200602",
+                    "SHA-256": "30fd9215c0635edd610fc0fc1d469806a1c0f2a37558b76f416da9ada109f73e",
+                    "SHA-512": "2b5163e28747d98eed6cc11308176e1f4c9eac707686326e6b4a8eef299a51c37a0af9e9967879a2a16e9ac28207a4070667844cc61c215ed7f2736b5363864b",
+                    "SHA3-256": "c97bfa79f7cfdf31310359a47044ff9c34ed9ee1e02e43f893d58d66b03733b7",
+                    "SHA3-512": "b3af0a17318d0d1fbcd14c08bd1fa1405ae29cafa07f754f964b64cc030610a9c80fee04173bc70ec747995118bfd14a6680af6013df55e70d2a19681148a5e4"
+                },
+                "external_id": "YnKpndPGyGNVIfQSU"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--46f77b40-a6a3-4e78-a7d8-bdc767a2faf1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--1676e02e-6aa4-4b5c-8a75-0055f0acb140",
+        "created_by_ref": "identity--3158a586-99d0-4a84-a208-7b8245b7533c",
+        "created": "2020-11-25T19:10:45.51113Z",
+        "modified": "2021-08-14T01:08:18.824599Z",
+        "name": "operation",
+        "description": "Beat relate size town too board sea.",
+        "aliases": [
+            "course",
+            "long",
+            "foreign",
+            "spend"
+        ],
+        "labels": [
+            "pick",
+            "program",
+            "painting",
+            "pfte-batch-1"
+        ],
+        "confidence": 14,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--46f77b40-a6a3-4e78-a7d8-bdc767a2faf1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--09a74677-839a-4c2e-9051-4148d36dab3a",
+        "created_by_ref": "identity--3158a586-99d0-4a84-a208-7b8245b7533c",
+        "created": "2022-07-21T03:55:18.155716Z",
+        "modified": "2023-03-14T15:53:59.575671Z",
+        "relationship_type": "uses",
+        "description": "Across response general short threat. Arrive attorney wind water fish difficult seat.",
+        "source_ref": "campaign--8596c691-8a84-4005-a943-faaefa437538",
+        "target_ref": "attack-pattern--1676e02e-6aa4-4b5c-8a75-0055f0acb140",
+        "labels": [
+            "without",
+            "over",
+            "fish",
+            "radio",
+            "fish",
+            "pfte-batch-1"
+        ],
+        "confidence": 69,
+        "object_marking_refs": [
+            "marking-definition--46f77b40-a6a3-4e78-a7d8-bdc767a2faf1"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--fba57436-cfa8-4aef-92ab-accdb74f9624",
+        "created_by_ref": "identity--3158a586-99d0-4a84-a208-7b8245b7533c",
+        "created": "2020-12-28T03:30:24.26023Z",
+        "modified": "2021-08-14T01:08:18.825531Z",
+        "name": "relationship",
+        "description": "Protect join all court.",
+        "context": "suspicious-activity",
+        "object_refs": [
+            "campaign--8596c691-8a84-4005-a943-faaefa437538",
+            "attack-pattern--1676e02e-6aa4-4b5c-8a75-0055f0acb140",
+            "relationship--09a74677-839a-4c2e-9051-4148d36dab3a"
+        ],
+        "labels": [
+            "development",
+            "argue",
+            "someone",
+            "success",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "must",
+                "description": "Animal key all pull.",
+                "url": "https://www.jones.biz/"
+            },
+            {
+                "source_name": "improve",
+                "url": "http://www.oliver.org/",
+                "hashes": {
+                    "MD5": "a013bb859137bd0ef8cadcc48743d685",
+                    "SHA-1": "6dc95c3cbb4eead296f47c0a6fa087243b4fe682",
+                    "SHA-256": "7815bfa8e75b65a5147590420b28c5027f81637fc0de83aac00045b83b94e90b",
+                    "SHA-512": "56b19d72589fba8ce629cf605f4fa1c2111b96295f66de0a21fc88aef74c9bc6b3c33f5b46fab9fe4e3e6009374e2e957fdbc67f6205d7a075cc2f2d38305003",
+                    "SHA3-256": "3e77972a32c4e252de1d2305fa8191085475c63d4ecc475d48514b4d6d96b2e6",
+                    "SHA3-512": "e4313a1b65ad3f0db952af175ce2ef4b41b2e536c036b0bf2e8ea2415c8aa2be1b60844f609dce3f29555c42043e579d3b9e093f4845805f327ca17d1682daea"
+                },
+                "external_id": "MJmOJDFCIbKYKySn"
+            },
+            {
+                "source_name": "professional",
+                "url": "http://jensen-anderson.com/"
+            },
+            {
+                "source_name": "old",
+                "description": "Ago too Democrat else hot.",
+                "url": "https://snyder.org/",
+                "hashes": {
+                    "MD5": "4d23ca7cf7b0e422539a1dc238e0ac1c",
+                    "SHA-1": "2b091ec6d9a406711fddd30609f5d909719f0dc7",
+                    "SHA-256": "b6278bdfd4ef5a64924472cefbcbab3bddcef5a1deacd14a67d5f8b06859060d",
+                    "SHA-512": "a33f273621e5aba6e5a8ac9e8f4a06b3761cc5c8c27114f9c7e824bcf1f92a380ac91fc27fdd1fcfb8b8dc2e465adec0d6f4f1b2ea6ce2c2b22e1ef5fd12ab32",
+                    "SHA3-256": "27d810b560d986956ba3d43cf6bd7e9d258e02ef302762b9916d72319bf69c5c",
+                    "SHA3-512": "1669b9f53b01652f247ad7f5f6dc185a67336f732924299c3249bebd380f098fb7eee4bf52902a84abc4e69f8d2d289e5a4341779d5cb32acbe75d50c68f2bc7"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--46f77b40-a6a3-4e78-a7d8-bdc767a2faf1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3158a586-99d0-4a84-a208-7b8245b7533c",
+        "created_by_ref": "identity--3158a586-99d0-4a84-a208-7b8245b7533c",
+        "created": "2022-01-15T19:14:52.676929Z",
+        "modified": "2022-07-24T09:24:30.490225Z",
+        "name": "Stanton, Lee and Wright",
+        "description": "Adaptive full-range encryption",
+        "roles": [
+            "check"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "education",
+            "government"
+        ],
+        "contact_information": "PSC 4142, Box 8430\nAPO AA 47234",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--46f77b40-a6a3-4e78-a7d8-bdc767a2faf1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--46f77b40-a6a3-4e78-a7d8-bdc767a2faf1",
+        "created": "2021-08-14T01:08:18.823591Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f97bfbf2-c194-4d73-b792-b989c4ea0ab5",
+                "name": "Focus develop ago various",
+                "create_date_time": "2021-08-14T01:08:08.431216Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

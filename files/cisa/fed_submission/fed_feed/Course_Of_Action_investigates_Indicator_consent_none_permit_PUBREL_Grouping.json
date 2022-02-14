@@ -1,0 +1,192 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--1cf5e7b4-12fa-4b1a-9044-b00704d7059c",
+        "created_by_ref": "identity--dbe5b8d1-7fe0-4bec-b5b1-8dcbeb7b2879",
+        "created": "2021-01-12T06:46:49.168651Z",
+        "modified": "2022-01-08T08:26:18.549143Z",
+        "name": "trip",
+        "description": "Western spend son area baby form.",
+        "external_references": [
+            {
+                "source_name": "until",
+                "description": "Maintain early describe walk measure training ground.",
+                "url": "http://marshall.com/",
+                "hashes": {
+                    "MD5": "df8ccb4ae9bfb548975502f046181e50",
+                    "SHA-1": "cc72e352b19b68be3cac1cb6feae43096768db12",
+                    "SHA-256": "ecd7c82e650a665cf0c5b50421aafa7beaa834fe3482b1709d49c10fe0206bbc",
+                    "SHA-512": "ab8e15b19d60956dde76e5b8e80abe15ca53b086189745c33a784f6a33f9a06527f969a14d8d4cbbbea5417dc1ce69ab10dbb156770cc9fddec04914a59f8784",
+                    "SHA3-256": "d636fef9ff097ca68783dcffe8f1ab685b18bc8acc2deb2d8ec827c711edc1f5",
+                    "SHA3-512": "5e7b247e16ab75bb0821ccf64d40e2b68f48cfb242cd94c0682d57a222daa1e10c97ff5ba327cb3727952e117a1ba77ac3ca6ff2158f7f79e4de44547013a32d"
+                },
+                "external_id": "FzXpNsJjvaIDf"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--da4f7162-ce1c-4172-9693-45efd33a5ea7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--2dd1d338-5fec-4263-aab7-c52dc6b64568",
+        "created_by_ref": "identity--dbe5b8d1-7fe0-4bec-b5b1-8dcbeb7b2879",
+        "created": "2022-04-25T14:57:00.263684Z",
+        "modified": "2022-07-05T16:46:33.028573Z",
+        "name": "place",
+        "description": "Scene garden side.",
+        "indicator_types": [
+            "unknown"
+        ],
+        "pattern": "[ipv4-addr:value <= '18.89.22.225']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-06-10T19:45:18.956417Z",
+        "valid_until": "2022-01-17T13:43:45.243198Z",
+        "labels": [
+            "condition",
+            "guy",
+            "exist",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "firm",
+                "description": "Raise everybody together role.",
+                "hashes": {
+                    "MD5": "33448e2dc12fcb99396832769b82fbb4",
+                    "SHA-1": "2190f60a67c2c794919b788532b66383f369e8e5",
+                    "SHA-256": "6e4c513b73399eef5380948acda3da6f54f7c5e00eb4a0335fe17f9c9eb308cb",
+                    "SHA-512": "081cc578001b994f75eefc038c5d040890d154cbabdd260ea186a72a676731afea471bb3b4787d00f6d1011bb26c3ccef6be52393c1666142491d488f25b2962",
+                    "SHA3-256": "9a2634d2a1962084e8d1d350a363967edc1e152ca4f61f616a54a877f2c52e27",
+                    "SHA3-512": "9c5c11a6581a9e2e68ba5fd2dc807af0ca16028d74b5a9d4824d25b984129bbc1104317a663f5b1eee5f7aa179f14efef7c7fa68a2c3310a4aed44fa22879f40"
+                },
+                "external_id": "BmshZyjohOUE"
+            },
+            {
+                "source_name": "around",
+                "description": "Those me require young.",
+                "url": "http://nelson.biz/"
+            },
+            {
+                "source_name": "control",
+                "url": "http://quinn.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--da4f7162-ce1c-4172-9693-45efd33a5ea7"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--173e6884-bbdc-45a6-b8b0-6b2295a489e6",
+        "created_by_ref": "identity--dbe5b8d1-7fe0-4bec-b5b1-8dcbeb7b2879",
+        "created": "2022-01-16T06:23:33.140938Z",
+        "modified": "2022-02-08T22:09:42.69482Z",
+        "relationship_type": "investigates",
+        "source_ref": "course-of-action--1cf5e7b4-12fa-4b1a-9044-b00704d7059c",
+        "target_ref": "indicator--2dd1d338-5fec-4263-aab7-c52dc6b64568",
+        "stop_time": "2022-04-25T02:05:46.720714Z",
+        "labels": [
+            "rate",
+            "pfte-batch-1"
+        ],
+        "confidence": 59,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--da4f7162-ce1c-4172-9693-45efd33a5ea7"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--752bc19b-f70d-4055-94fe-747aeba49028",
+        "created_by_ref": "identity--dbe5b8d1-7fe0-4bec-b5b1-8dcbeb7b2879",
+        "created": "2021-03-28T07:33:27.967115Z",
+        "modified": "2022-03-16T13:05:23.19041Z",
+        "context": "unspecified",
+        "object_refs": [
+            "course-of-action--1cf5e7b4-12fa-4b1a-9044-b00704d7059c",
+            "indicator--2dd1d338-5fec-4263-aab7-c52dc6b64568",
+            "relationship--173e6884-bbdc-45a6-b8b0-6b2295a489e6"
+        ],
+        "labels": [
+            "different",
+            "worker",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--da4f7162-ce1c-4172-9693-45efd33a5ea7"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--dbe5b8d1-7fe0-4bec-b5b1-8dcbeb7b2879",
+        "created_by_ref": "identity--dbe5b8d1-7fe0-4bec-b5b1-8dcbeb7b2879",
+        "created": "2021-02-03T12:26:00.094352Z",
+        "modified": "2021-08-14T01:08:21.917581Z",
+        "name": "Smith-Warren",
+        "description": "Seamless eco-centric installation",
+        "identity_class": "class",
+        "sectors": [
+            "automotive",
+            "education",
+            "defense",
+            "hospitality-leisure"
+        ],
+        "confidence": 56,
+        "object_marking_refs": [
+            "marking-definition--da4f7162-ce1c-4172-9693-45efd33a5ea7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--da4f7162-ce1c-4172-9693-45efd33a5ea7",
+        "created": "2021-08-14T01:08:21.914856Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fb4e63d-338f-4f0a-b771-dd937b9aaabe",
+                "name": "Human on join spring",
+                "create_date_time": "2021-08-14T01:08:08.425512Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.425314Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

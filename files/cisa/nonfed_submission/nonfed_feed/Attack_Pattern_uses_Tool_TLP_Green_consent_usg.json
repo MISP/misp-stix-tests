@@ -1,0 +1,172 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--69735db4-07cc-4e2b-9e23-0b385682df4c",
+        "created_by_ref": "identity--352683d5-1612-4b9a-bfc8-6ab27fc6d9bf",
+        "created": "2020-08-26T15:41:46.670457Z",
+        "modified": "2021-08-14T01:08:12.411721Z",
+        "name": "fund",
+        "aliases": [
+            "beat",
+            "all"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "labels": [
+            "other",
+            "result",
+            "close",
+            "pfte-batch-1"
+        ],
+        "confidence": 96,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--424a1fd0-1080-47bf-9df4-e3b1dad94b69",
+        "created_by_ref": "identity--352683d5-1612-4b9a-bfc8-6ab27fc6d9bf",
+        "created": "2020-08-23T04:13:14.050723Z",
+        "modified": "2021-08-14T01:08:12.412127Z",
+        "name": "wife",
+        "tool_types": [
+            "remote-access",
+            "information-gathering",
+            "unknown",
+            "denial-of-service",
+            "credential-exploitation"
+        ],
+        "aliases": [
+            "rather",
+            "save",
+            "too",
+            "ok",
+            "result"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "TmHHpw",
+                "phase_name": "CJYkSQdHrAtBGxvdLJb"
+            },
+            {
+                "kill_chain_name": "AhtvvkDCjexdyXYYOEe",
+                "phase_name": "kmkysVSdYzVAxkUJTtL"
+            }
+        ],
+        "tool_version": "long",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 22,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8c7e76d6-a014-4c07-a92d-5c06ff24d6d9",
+        "created_by_ref": "identity--352683d5-1612-4b9a-bfc8-6ab27fc6d9bf",
+        "created": "2021-07-23T05:30:11.859516Z",
+        "modified": "2022-03-25T15:35:10.485042Z",
+        "relationship_type": "uses",
+        "source_ref": "attack-pattern--69735db4-07cc-4e2b-9e23-0b385682df4c",
+        "target_ref": "tool--424a1fd0-1080-47bf-9df4-e3b1dad94b69",
+        "stop_time": "2022-08-13T21:25:58.297505Z",
+        "labels": [
+            "hear",
+            "mind",
+            "hear",
+            "region",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "piece",
+                "description": "Half including not evening him later.",
+                "hashes": {
+                    "MD5": "915cb51b81c618c567514ac68cc61479",
+                    "SHA-1": "9e6dedc93da40ef8f0b4d78ef67ce9a365b92e74",
+                    "SHA-256": "707a6300fc1ec465b859fc8cb46adcf537dfd87a9db445bf30cb7a151f09ea87",
+                    "SHA-512": "56857d16a595ef491ecc2a03f7b98901f2cf251b8d5a10ee82c4548a5b22c82ec42129e1c77b54a8a6b92a5ff650b3f7fcb93c026e402a1bcec5f734d736fe47",
+                    "SHA3-256": "1e7d0471dfad6eaa791485f8f89d426d64f8ed9c7fa9e7d0b4f42782d112f004",
+                    "SHA3-512": "5b8ae6cbded1b7d788109e0401c8f73e751550ae98d4403bb2ff3a7f13f8aa3514d8952669e64ba260ec8bb630a73f9a6731169b21417bc668efc668fb4f294e"
+                }
+            },
+            {
+                "source_name": "eye",
+                "description": "Special join during between lawyer continue per.",
+                "hashes": {
+                    "MD5": "082767caade175a58ac5ac6c399c9f1d",
+                    "SHA-1": "385d1759eef44a688d324e121a75e6ebceb63a56",
+                    "SHA-256": "67416dbdd7ee6b91a8cfed04d0c06481152491ec2e35bda9eb43819db8ae0166",
+                    "SHA-512": "04a0902e105f3d1c80fca4943833d98975fc9c6102c4e7413f8dcc3f23f1eb6148704c3317bf0072ac73559da602151ab79e8bd694237bb50d78626733b4a816",
+                    "SHA3-256": "d7a6080a5ad9e7c7a2777a2a20cb107516418040b0ab7d523d68ce2fdd98c3f7",
+                    "SHA3-512": "f65f69ad2612403e44caa8ff10ebd924cf560362f1033282d9c08bbc9c1eca2d3fde20d4be393d39ff210fe0811db2cf0e9ed25fb539b261ab2fe23b7632c476"
+                }
+            },
+            {
+                "source_name": "physical",
+                "description": "Include color pull serve who cut.",
+                "url": "http://www.west.org/",
+                "hashes": {
+                    "MD5": "e0ceff96f314110723b21f90e222919c",
+                    "SHA-1": "a85d7e658b4fac28711bbddf579edc29cc589a79",
+                    "SHA-256": "ee87ed878941d81ca40b87269fc5c265729c1104a909989d83532f0d6817da37",
+                    "SHA-512": "49c11307763c087b97c76f82ed554a788aa1fe5c033baaa6b3ce47331781b080304d014e2ddbc79f90bffe0136b91738946cd4700d2d6952eb2b4b12443b4b2b",
+                    "SHA3-256": "724e54ebb409e5ebef5021eb9d419152419fdc813b399fdc796a9aed5971659c",
+                    "SHA3-512": "c5dac4a655f1d553fe00e71beb42a2c1ab593a5fa312e9c94dd3c3b97669a663def9618bd0ee0b0a01904d7aa91cf7ef1168f4ecc6b2ebe4e7f7e8e23db34ec8"
+                },
+                "external_id": "zUOhJlHWimBayNB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--352683d5-1612-4b9a-bfc8-6ab27fc6d9bf",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-05T06:54:01.309397Z",
+        "modified": "2021-08-14T01:08:12.413073Z",
+        "name": "BenefitEverHusband",
+        "roles": [
+            "charge",
+            "why",
+            "bank",
+            "seek"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "emergency-services",
+            "insurance"
+        ],
+        "contact_information": "2846 Jensen River Suite 083\nPoolemouth, LA 57925",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

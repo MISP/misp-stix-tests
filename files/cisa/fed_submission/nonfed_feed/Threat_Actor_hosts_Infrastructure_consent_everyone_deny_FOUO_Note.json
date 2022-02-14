@@ -1,0 +1,183 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--c4094bc7-9f11-4939-b4b2-10f8b9e0f4ca",
+        "created_by_ref": "identity--de0a4157-ad17-435d-8ed1-3e2fa7a2da91",
+        "created": "2022-07-28T04:33:43.393815Z",
+        "modified": "2023-07-02T21:49:56.646001Z",
+        "name": "run",
+        "first_seen": "2021-12-26T15:43:45.604108Z",
+        "last_seen": "2022-05-25T12:03:50.600539Z",
+        "roles": [
+            "infrastructure-architect",
+            "agent",
+            "infrastructure-architect",
+            "infrastructure-operator"
+        ],
+        "resource_level": "team",
+        "secondary_motivations": [
+            "organizational-gain",
+            "organizational-gain",
+            "personal-satisfaction",
+            "coercion"
+        ],
+        "personal_motivations": [
+            "unpredictable",
+            "accidental",
+            "unpredictable"
+        ],
+        "labels": [
+            "sport",
+            "always",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--3c4976ac-34d9-4150-90d4-b98a3d1b472d",
+        "created_by_ref": "identity--de0a4157-ad17-435d-8ed1-3e2fa7a2da91",
+        "created": "2022-06-12T01:00:33.047426Z",
+        "modified": "2023-05-05T01:49:16.366688Z",
+        "name": "quickly",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mvVcyiw",
+                "phase_name": "TzfDANjLIDpK"
+            }
+        ],
+        "first_seen": "2021-05-13T18:58:44.67518Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 93,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--2e758fb4-d32f-44c8-9663-481ece388ea8",
+        "created_by_ref": "identity--de0a4157-ad17-435d-8ed1-3e2fa7a2da91",
+        "created": "2022-03-05T14:51:50.232184Z",
+        "modified": "2022-12-02T14:54:19.887886Z",
+        "relationship_type": "hosts",
+        "source_ref": "threat-actor--c4094bc7-9f11-4939-b4b2-10f8b9e0f4ca",
+        "target_ref": "infrastructure--3c4976ac-34d9-4150-90d4-b98a3d1b472d",
+        "start_time": "2022-05-21T18:10:39.497786Z",
+        "stop_time": "2022-12-13T14:24:15.109782Z",
+        "labels": [
+            "model",
+            "check",
+            "pfte-batch-1"
+        ],
+        "confidence": 98,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--995b35e2-d3ba-4930-b8a5-117d79566a2e",
+        "created_by_ref": "identity--de0a4157-ad17-435d-8ed1-3e2fa7a2da91",
+        "created": "2022-03-25T23:38:35.067722Z",
+        "modified": "2022-05-31T11:14:47.821289Z",
+        "abstract": "Community smile still admit want citizen treatment hundred. Safe evidence within necessary foot executive source.",
+        "content": "Have building job attack catch Mrs. Anyone field through traditional. Market allow who. Pattern similar team culture from.",
+        "object_refs": [
+            "threat-actor--c4094bc7-9f11-4939-b4b2-10f8b9e0f4ca",
+            "infrastructure--3c4976ac-34d9-4150-90d4-b98a3d1b472d",
+            "relationship--2e758fb4-d32f-44c8-9663-481ece388ea8"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 11,
+        "external_references": [
+            {
+                "source_name": "answer",
+                "url": "http://www.martinez.com/",
+                "external_id": "HbUKGyTaBXWct"
+            },
+            {
+                "source_name": "happen",
+                "url": "http://mullins.org/"
+            },
+            {
+                "source_name": "any",
+                "description": "Hotel them cost yet present hear reality.",
+                "url": "https://house-jones.net/",
+                "external_id": "nTNexiFil"
+            },
+            {
+                "source_name": "mention",
+                "description": "Finish remember accept type after.",
+                "url": "http://gregory.com/",
+                "hashes": {
+                    "MD5": "8a8a7b398a44028a19e8bfc199df25ba",
+                    "SHA-1": "fbb6264f70b60d62bfd8e33735e5cab085d162c7",
+                    "SHA-256": "b1cff4644fb711687d7781a058fafc83952e5eca5c4fb3ae22287e62f790abf1",
+                    "SHA-512": "e3a3021baad1d20c7249256e6381acfd816432aae771078f40d290fc5d661f8df79bab198e73e70ad5646527b9b6445c6b0d14b3132585130a2e08fa7e460e70",
+                    "SHA3-256": "62b158c3fd2871601e03c440479993aecc67da4a5e69dac358be615aab1350d5",
+                    "SHA3-512": "f5f7c034cbbc6aabb9c500064b1cb156cb53f5ad660356de4c2a769f75f126b66b883d59777c7b45fb9dcda57d015d42c16079cb0f8a2035d320610e263678d2"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--de0a4157-ad17-435d-8ed1-3e2fa7a2da91",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-03T11:40:30.157907Z",
+        "modified": "2022-03-05T17:00:36.516308Z",
+        "name": "BoyCustomerWhere",
+        "roles": [
+            "as",
+            "responsibility",
+            "without",
+            "full",
+            "good"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "automotive",
+            "government-national",
+            "emergency-services",
+            "government-regional"
+        ],
+        "contact_information": "30321 Terry Park\nSouth Elizabeth, MA 86362",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 66,
+        "external_references": [
+            {
+                "source_name": "place",
+                "description": "Keep lose spend forget three behind specific list.",
+                "url": "https://www.johnson.net/",
+                "hashes": {
+                    "MD5": "ff9b7a6c5b78f29de4458da76a39eae9",
+                    "SHA-1": "fcd78ad9907bd9c2828b73ad42eaf1059d42ff95",
+                    "SHA-256": "af46fd5b8e0b3285e82351042786d89f9e5fea7edece61e0cd26ee3ed9879ad4",
+                    "SHA-512": "4e42bbf9e2381c981af68301a1a4f429f164e876331cbe89b593598b3730b27c99199e1ef11790b5281b4758e2de107155f8a950369ca0d1af8bf344d4a75ca4",
+                    "SHA3-256": "6243d079941130964360f11a065ee1061cd416a4001dc0547ff1dcaea88d1712",
+                    "SHA3-512": "7e2bd842eeaf642653d2201af79cc779792256f68feade41899eea04b0068912f62e898a38e5335ba06232c3418e4a03415b9d696a51dcfc2197e5eaf67d3199"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

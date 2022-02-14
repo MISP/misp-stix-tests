@@ -1,0 +1,178 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--01e4d6b1-d2b8-4935-af44-a25a8892e28f",
+        "created_by_ref": "identity--cedbfe63-fc59-4c56-a4fc-0af4ae1ddc8f",
+        "created": "2022-07-07T00:07:59.669573Z",
+        "modified": "2023-05-07T08:46:07.121036Z",
+        "indicator_types": [
+            "malicious-activity",
+            "anonymization",
+            "malicious-activity",
+            "anonymization"
+        ],
+        "pattern": "[ipv6-addr:value = '4783:65b6:4337:fecb:52fb:3aa6:90b:1829']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-10-22T20:39:06.805284Z",
+        "labels": [
+            "sister",
+            "language",
+            "pfte-batch-1"
+        ],
+        "confidence": 43,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "know",
+                "url": "http://joseph-morgan.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--8a40356a-e75f-45ce-aeb4-fea799b6e225",
+        "created_by_ref": "identity--cedbfe63-fc59-4c56-a4fc-0af4ae1ddc8f",
+        "created": "2021-08-05T19:25:40.398435Z",
+        "modified": "2021-09-14T10:32:58.594165Z",
+        "name": "ever",
+        "aliases": [
+            "participant"
+        ],
+        "first_seen": "2021-06-14T14:22:38.512031Z",
+        "last_seen": "2022-04-14T03:07:05.381628Z",
+        "labels": [
+            "music",
+            "exactly",
+            "position",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4e532c54-0ae2-4100-9e8e-a4aab42a284e",
+        "created_by_ref": "identity--cedbfe63-fc59-4c56-a4fc-0af4ae1ddc8f",
+        "created": "2021-05-04T11:27:49.991968Z",
+        "modified": "2021-08-31T04:45:34.592792Z",
+        "relationship_type": "indicates",
+        "description": "Hold become notice another cell scene recently. Series bring nor main project little.",
+        "source_ref": "indicator--01e4d6b1-d2b8-4935-af44-a25a8892e28f",
+        "target_ref": "campaign--8a40356a-e75f-45ce-aeb4-fea799b6e225",
+        "stop_time": "2021-11-08T06:08:02.745075Z",
+        "labels": [
+            "ahead",
+            "pfte-batch-1"
+        ],
+        "confidence": 5,
+        "external_references": [
+            {
+                "source_name": "scientist",
+                "url": "https://buck-daniels.org/",
+                "external_id": "QIZYPanZs"
+            },
+            {
+                "source_name": "number",
+                "url": "http://smith-davila.com/",
+                "hashes": {
+                    "MD5": "21f1396b22977674aa1c31c5d0d56793",
+                    "SHA-1": "fa86e0d31525b6b18c08f6790007c6f8033868c4",
+                    "SHA-256": "ba6b08c9e4ada6fc2d2bc4a13ab398ec59ca64ecae3dfb4997f4f5eb12e87afd",
+                    "SHA-512": "d3dce60aafe01b05d27f15666b2ec9377527742b5e2d3541200a9b56fe6397de90fe7ea2559cbf3caf6d52a1b8521d45f2f0686ce9a8afbf09b9c699bce482f4",
+                    "SHA3-256": "4ddd0e58578a7192af7b5cb4075cbc4f1da9c930fbe5be5962423f729249db2e",
+                    "SHA3-512": "cdf9bf5939ec6b8a9c1d1a271d363b5c7e64f0c6d357db28c90c3586b827dd99279ba719401b05aaf8adbb6a44db9eb213cd1cc960f51549335839d0b449cb1f"
+                }
+            },
+            {
+                "source_name": "include",
+                "description": "Sure phone way sign.",
+                "external_id": "ubPkdDQWXNAcpFl"
+            },
+            {
+                "source_name": "decide",
+                "description": "Still professional their.",
+                "hashes": {
+                    "MD5": "77bcffec32bcc1b8c962ea7898589ec2",
+                    "SHA-1": "c8f5a6f912dac055ac0ee7dcbd0a3297a3420a49",
+                    "SHA-256": "3212927a8957ce02c0858279380e5caef63cfd01abf81e5be765bb2d53a0e521",
+                    "SHA-512": "00aa5ed7aaa7964af490b04fc21c88c31a9ed4bbd07a4aa7af8e127aa92a761602fa876634656362c6ba9a1a97742873465364874416198a8d78e4d6c1e082fd",
+                    "SHA3-256": "1ebb9b8947e21c3a186104a0cb45ccb4a5b0e26e718c75b2a9c1fe03a539e330",
+                    "SHA3-512": "74643e40815b853f13fb1e62a24f4fd35a75761cade653a94ad1852fd92478b1025f37a14f4dbe8044b08eacb4bd93757f69bd975f46b10d8136ff7fc90b29c1"
+                },
+                "external_id": "fnnZrKtnbUNvTHF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--cedbfe63-fc59-4c56-a4fc-0af4ae1ddc8f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-18T18:30:28.694956Z",
+        "modified": "2021-08-14T01:08:29.418694Z",
+        "name": "Grimes-Santos",
+        "roles": [
+            "drug"
+        ],
+        "sectors": [
+            "technology",
+            "technology",
+            "pharmaceuticals",
+            "nuclear",
+            "emergency-services"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 64,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "big",
+                "description": "Best worry shoulder."
+            },
+            {
+                "source_name": "well",
+                "external_id": "EvTjfoMJFD"
+            },
+            {
+                "source_name": "writer",
+                "external_id": "vtqTUL"
+            },
+            {
+                "source_name": "president",
+                "description": "Kid wait section push.",
+                "url": "http://www.peterson.net/",
+                "external_id": "OnMYwYAcFrLW"
+            },
+            {
+                "source_name": "keep",
+                "description": "Computer service ago three drive.",
+                "url": "http://becker.biz/",
+                "hashes": {
+                    "MD5": "991103f109d920a519a30b2e329c1f1c",
+                    "SHA-1": "2c33456e2e2caead71e2f89c45aff06075225221",
+                    "SHA-256": "67da4575d3986ce76def1f0bd97ba9bdf20d16fa951a2adf9748d8cb4664839c",
+                    "SHA-512": "96943ee3a52b8f532b1057052084fcae541e83870e0d0a32c57c24933456f11811d41bcf537c53e585554268fa6825cde859564362b901dc1458595f1b43a9d2",
+                    "SHA3-256": "50f212dd5ede836f7a07379c709c2b783b09848d26a6a7444526d984cf95814c",
+                    "SHA3-512": "778d8223fcce845d5818271bc22984e325cf348e7222782a3e45169ea240e868b2e98f93151dc8436fefdc1ac63df99ba8091a72833f443d803336c1a7e2ed57"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

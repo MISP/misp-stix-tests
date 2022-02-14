@@ -1,0 +1,151 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--cd409e01-efae-4ee9-8ed3-e5275a6fa546",
+        "created_by_ref": "identity--b3efa9b1-7560-4a7d-a30b-d9b6ea64c885",
+        "created": "2022-02-21T16:23:40.720868Z",
+        "modified": "2022-04-12T22:45:22.80968Z",
+        "name": "task",
+        "description": "Specific commercial teach today close.",
+        "last_seen": "2021-10-08T09:16:06.331413Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2b6fb883-c278-4dd8-bd11-df3a680c7297"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--6eafdb0b-f2b1-43f6-a82b-b96904be4835",
+        "created_by_ref": "identity--b3efa9b1-7560-4a7d-a30b-d9b6ea64c885",
+        "created": "2021-10-02T09:44:05.893867Z",
+        "modified": "2022-05-18T18:20:27.793792Z",
+        "name": "ZERKgIyHdtrCsDa",
+        "description": "Future-proofed upward-trending matrices",
+        "latitude": 32.07692471003352,
+        "longitude": 146.57257739227276,
+        "precision": 53.08635240936857,
+        "region": "southern-asia",
+        "country": "Comoros",
+        "administrative_area": "tqJTkXMc",
+        "city": "West Matthew",
+        "postal_code": "34763",
+        "confidence": 26,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2b6fb883-c278-4dd8-bd11-df3a680c7297"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--cfc93f46-7060-4fa3-a4be-da01612c38d8",
+        "created_by_ref": "identity--b3efa9b1-7560-4a7d-a30b-d9b6ea64c885",
+        "created": "2022-01-08T15:45:02.681999Z",
+        "modified": "2022-03-24T09:21:20.610388Z",
+        "relationship_type": "originates-from",
+        "source_ref": "campaign--cd409e01-efae-4ee9-8ed3-e5275a6fa546",
+        "target_ref": "location--6eafdb0b-f2b1-43f6-a82b-b96904be4835",
+        "start_time": "2022-01-22T14:24:10.626139Z",
+        "stop_time": "2022-07-21T09:16:51.834098Z",
+        "labels": [
+            "anything",
+            "Mrs",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--2b6fb883-c278-4dd8-bd11-df3a680c7297"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b3efa9b1-7560-4a7d-a30b-d9b6ea64c885",
+        "created_by_ref": "identity--b3efa9b1-7560-4a7d-a30b-d9b6ea64c885",
+        "created": "2020-08-26T08:38:00.38247Z",
+        "modified": "2021-08-14T01:08:15.672196Z",
+        "name": "Rowe-Nguyen",
+        "description": "Sharable attitude-oriented hub",
+        "roles": [
+            "build",
+            "debate",
+            "become",
+            "debate"
+        ],
+        "identity_class": "organization",
+        "contact_information": "989 David Rest\nShaneshire, RI 18397",
+        "confidence": 36,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2b6fb883-c278-4dd8-bd11-df3a680c7297"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2b6fb883-c278-4dd8-bd11-df3a680c7297",
+        "created": "2021-08-14T01:08:15.670751Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

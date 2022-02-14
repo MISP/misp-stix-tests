@@ -1,0 +1,186 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--f59ed4dd-710b-4f26-8571-bb553500d47c",
+        "created_by_ref": "identity--34f2c156-aa10-4fd2-bb9d-54d89f936885",
+        "created": "2022-05-24T13:57:24.008022Z",
+        "modified": "2023-02-19T03:59:06.684102Z",
+        "name": "bill",
+        "aliases": [
+            "remain",
+            "win",
+            "staff",
+            "blood"
+        ],
+        "last_seen": "2020-09-15T22:30:50.251678Z",
+        "roles": [
+            "infrastructure-architect",
+            "independent",
+            "agent",
+            "infrastructure-architect"
+        ],
+        "resource_level": "individual",
+        "secondary_motivations": [
+            "notoriety"
+        ],
+        "personal_motivations": [
+            "coercion",
+            "unpredictable",
+            "ideology"
+        ],
+        "labels": [
+            "especially",
+            "edge",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "choose",
+                "description": "Group magazine provide administration.",
+                "url": "http://russo.net/",
+                "hashes": {
+                    "MD5": "1d41993dcb7387114e8c7fefdfacccdc",
+                    "SHA-1": "26c395d37283d57e55377785bf4d490d36a00a6c",
+                    "SHA-256": "f69391d2f7b5a6460eb0af27881c41881aade0685ff7433883ca417c72a01194",
+                    "SHA-512": "03004996dca2ae09dc1083391a9306bfb66f8fde1b6ad8335f8d42754c47800ce304fb8b00686ba7f68c83ec460052e8a949afc0991d5970fcc3db8e396a65b3",
+                    "SHA3-256": "5c21b51429f330a2e400c5fbe6df216c7f5cac3f92d68f4f1fa46314f2770596",
+                    "SHA3-512": "6197c08b7d506718fe6b2cc8329587d30c4d5357eaff3e8616cdd679febe36eaa8483f20fb619f9cb0c6c9d2a1848edd1982b090157863ac18c8be0d09e47486"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7a33673e-43ec-44ad-b513-77f5873f07a3"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--e537da68-312f-4ec1-ab8f-6903b64d1b19",
+        "created_by_ref": "identity--34f2c156-aa10-4fd2-bb9d-54d89f936885",
+        "created": "2022-03-02T13:34:20.392076Z",
+        "modified": "2022-06-29T01:22:44.666501Z",
+        "name": "my",
+        "description": "Power either assume rock agreement.",
+        "aliases": [
+            "threat"
+        ],
+        "first_seen": "2021-06-05T20:19:15.75665Z",
+        "labels": [
+            "what",
+            "pfte-batch-1"
+        ],
+        "confidence": 98,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7a33673e-43ec-44ad-b513-77f5873f07a3"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--406fb342-a044-472b-8e7c-6fa8ac4cc218",
+        "created_by_ref": "identity--34f2c156-aa10-4fd2-bb9d-54d89f936885",
+        "created": "2021-05-03T03:31:17.532092Z",
+        "modified": "2022-04-20T02:58:29.733542Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--f59ed4dd-710b-4f26-8571-bb553500d47c",
+        "target_ref": "infrastructure--e537da68-312f-4ec1-ab8f-6903b64d1b19",
+        "start_time": "2022-06-13T19:20:04.203299Z",
+        "confidence": 25,
+        "external_references": [
+            {
+                "source_name": "miss",
+                "url": "https://www.garcia.com/",
+                "hashes": {
+                    "MD5": "0ae546f4294c8c20ba00872d44ef665b",
+                    "SHA-1": "cbd0f0a53d316f9b1a8d42cb1f55ea372c0f094f",
+                    "SHA-256": "8130d1d2840358de024eaec57e645b2d1b24101185bb711bedbb467036917898",
+                    "SHA-512": "f3afea79e4ac2c92ccded399b14f8f25391b48918cc6972ffa9bbb9cfc27d66412508d27fac9a66ad93eff43e0055a09c47139c4090f9cf895dd0d8eb27983e5",
+                    "SHA3-256": "a3c3e6e840a549a9cd07dacd621d3e7e5a190a91fe836715924b77a61753433c",
+                    "SHA3-512": "78074bbec96c3e1567b42daf03c1ad64272f47d3e1c1f659c97747ce21464a6123c2f53bd51ff4d10f7911ac60d3772fca00d510762b7fff9f61787cfa4ae5aa"
+                },
+                "external_id": "AtCTlZNtzyaoXI"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7a33673e-43ec-44ad-b513-77f5873f07a3"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--7a33673e-43ec-44ad-b513-77f5873f07a3",
+        "created_by_ref": "identity--34f2c156-aa10-4fd2-bb9d-54d89f936885",
+        "created": "2021-08-14T01:09:33.061423Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--34f2c156-aa10-4fd2-bb9d-54d89f936885",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-05-05T21:39:13.590238Z",
+        "modified": "2022-05-31T18:14:31.65652Z",
+        "name": "Ellison-Hall",
+        "description": "Polarized mission-critical complexity",
+        "identity_class": "organization",
+        "sectors": [
+            "government-national"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--7a33673e-43ec-44ad-b513-77f5873f07a3"
+        ]
+    }
+]

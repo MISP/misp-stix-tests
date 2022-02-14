@@ -1,0 +1,210 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--58beb45f-ada3-47c0-a9ba-58e5f83518ae",
+        "created_by_ref": "identity--840ef095-1331-4080-86dc-01ec4dc31f04",
+        "created": "2022-05-15T07:35:35.441609Z",
+        "modified": "2023-01-29T10:56:39.043915Z",
+        "name": "exist",
+        "description": "Gas big catch state community court when.",
+        "first_seen": "2020-08-27T18:16:27.535774Z",
+        "goals": [
+            "Short century win.",
+            "Star still economic game.",
+            "Keep skill good current about."
+        ],
+        "labels": [
+            "magazine",
+            "beat",
+            "TV",
+            "option",
+            "pfte-batch-1"
+        ],
+        "confidence": 29,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "room",
+                "hashes": {
+                    "MD5": "8a0625ea289684f9b136e361bd7b6cff",
+                    "SHA-1": "192be7e3ac0f7320febeb427127c37ab9b7dcb29",
+                    "SHA-256": "e9a13751282036282e726eb966913ba24b4cffaad162315381c80b85710493a7",
+                    "SHA-512": "dadb34d9070fd598b11a8e434af5860d86a3277295df056aa0c4a8e1c9a24d511e9873b065b41bf6af7cb7ac43fcb731ae6baf569db66b91f0f30a8f376c3124",
+                    "SHA3-256": "d0512a680c6e527249613a78e09d11eded7baecbc7eb4f45bd06ad09b6131f73",
+                    "SHA3-512": "4aecb1fa3a297432aaa98401bbfed9ae20fea71ac6f2d3210ed06561920aeeaf1be44ec3784889379de937f246b5dc982c7b077d1f8406054634b8464aaa43f7"
+                },
+                "external_id": "dQDViwntd"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7ecca1b8-9f79-4cd9-9e5e-98d85406cd4e"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--a0ad6f8a-d110-4735-9942-c08209b97c45",
+        "created_by_ref": "identity--840ef095-1331-4080-86dc-01ec4dc31f04",
+        "created": "2020-02-28T12:10:01.014236Z",
+        "modified": "2021-08-14T01:08:52.153595Z",
+        "name": "summer",
+        "infrastructure_types": [
+            "workstation",
+            "command-and-control",
+            "reconnaissance",
+            "amplification",
+            "workstation"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "first_seen": "2021-11-19T00:34:51.753222Z",
+        "object_marking_refs": [
+            "marking-definition--7ecca1b8-9f79-4cd9-9e5e-98d85406cd4e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--abe737b4-d6e1-46ac-95ee-63a9c61876cc",
+        "created_by_ref": "identity--840ef095-1331-4080-86dc-01ec4dc31f04",
+        "created": "2022-04-26T17:58:51.959603Z",
+        "modified": "2022-06-13T01:44:18.582557Z",
+        "relationship_type": "compromises",
+        "source_ref": "intrusion-set--58beb45f-ada3-47c0-a9ba-58e5f83518ae",
+        "target_ref": "infrastructure--a0ad6f8a-d110-4735-9942-c08209b97c45",
+        "stop_time": "2021-05-29T14:35:03.009933Z",
+        "confidence": 75,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7ecca1b8-9f79-4cd9-9e5e-98d85406cd4e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--7ecca1b8-9f79-4cd9-9e5e-98d85406cd4e",
+        "created_by_ref": "identity--840ef095-1331-4080-86dc-01ec4dc31f04",
+        "created": "2021-08-14T01:08:52.152102Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--840ef095-1331-4080-86dc-01ec4dc31f04",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-02-18T19:40:21.385306Z",
+        "modified": "2022-09-02T18:02:02.163754Z",
+        "name": "Pittman-Scott",
+        "roles": [
+            "rich",
+            "like",
+            "recent",
+            "government",
+            "ok"
+        ],
+        "sectors": [
+            "communications",
+            "healthcare",
+            "hospitality-leisure"
+        ],
+        "contact_information": "7362 Cooper Place Suite 826\nDunlapland, SD 53959",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 43,
+        "external_references": [
+            {
+                "source_name": "follow",
+                "description": "Activity I different address wind.",
+                "external_id": "aBmvtucqXaCUssFYUlwJ"
+            },
+            {
+                "source_name": "surface",
+                "description": "Factor write behind reality head.",
+                "hashes": {
+                    "MD5": "ba74ec88ae652c1f8ab5a07f8b4de521",
+                    "SHA-1": "9491355235b999a8e9791dd3e900217db13cfc0d",
+                    "SHA-256": "116cb5353d84f1ffd6e5a2d76175b18d7ec0ad19aa7e2c634725e492e5ad34d0",
+                    "SHA-512": "08994fd74bb60c7b42c56717ac6f08578b6440812ec65861df7d6f85f04db9508ee4c4fc2f5b42defb48fec006a81d7e74d81f2452b75e79efeaa741aafab32c",
+                    "SHA3-256": "6eb17ce2e69dea380ac99219bb2aedd79e13dfd52733c49a64d46267c6f10c94",
+                    "SHA3-512": "bde82925e08bf0b48d6db59c4a9ec9c19f3b82a811c4b7ef52c021d59ed60bf2242764c0d90c8a2ef77ca2686cdb335f0a6efaff3aa369e829c91aad8831256f"
+                }
+            },
+            {
+                "source_name": "could",
+                "description": "Hot collection address whole talk.",
+                "hashes": {
+                    "MD5": "c7a07c09686a35d42522abe5844e9327",
+                    "SHA-1": "45226add87daf4bca0b50672757a50c7ae4da83b",
+                    "SHA-256": "d2036a19882ec80579e8cb3a779a1311b356f322371f015a46a8e024060bc171",
+                    "SHA-512": "0ff8a2187d71b9c16d9611e73ce185668753cfcf59d8d530975fecd01d89824e80c97d3266d14357a3f5c34ef2172c9eb505086fa2108bb9dbbda4f9bfd728fa",
+                    "SHA3-256": "87848adeb9875b5d9e2261265ca16c5f58d7398be875c05a580a5e2cce021d16",
+                    "SHA3-512": "cbd5fcaad8aa522e7baeede6bbf5c6a9809f54cfe4e3408c334738f86bd51e86a7c331bcb9f23fc1d3dd6af24f88f4e9c0f0cf54bc17730008d3c09443cbedab"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7ecca1b8-9f79-4cd9-9e5e-98d85406cd4e"
+        ]
+    }
+]

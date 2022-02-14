@@ -1,0 +1,182 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--36d50037-97f8-48ce-bdac-b031d03c66a3",
+        "created_by_ref": "identity--1468ddd0-aec4-4aee-b38c-e85618ab5eff",
+        "created": "2022-06-19T16:37:37.853338Z",
+        "modified": "2022-09-01T00:00:50.703703Z",
+        "name": "near",
+        "first_seen": "2021-09-27T14:21:45.648799Z",
+        "primary_motivation": "accidental",
+        "labels": [
+            "my",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--ac1b5736-da43-40b3-a627-1238b39b60c1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3301a265-f0eb-4f82-9135-dac6316bd019",
+        "created_by_ref": "identity--1468ddd0-aec4-4aee-b38c-e85618ab5eff",
+        "created": "2020-10-04T13:46:26.213087Z",
+        "modified": "2021-09-27T09:57:02.729328Z",
+        "name": "Lopez, Moody and Lozano",
+        "description": "Managed multi-tasking moderator",
+        "roles": [
+            "know",
+            "or"
+        ],
+        "identity_class": "organization",
+        "contact_information": "845 Peters Burgs\nRowlandtown, HI 81895",
+        "confidence": 33,
+        "object_marking_refs": [
+            "marking-definition--ac1b5736-da43-40b3-a627-1238b39b60c1"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--17d7a7c6-d9f7-4e03-b9ee-825dbb349968",
+        "created_by_ref": "identity--1468ddd0-aec4-4aee-b38c-e85618ab5eff",
+        "created": "2020-09-01T22:24:15.828297Z",
+        "modified": "2021-08-14T01:08:55.626699Z",
+        "relationship_type": "targets",
+        "description": "For occur dark protect let shake.",
+        "source_ref": "intrusion-set--36d50037-97f8-48ce-bdac-b031d03c66a3",
+        "target_ref": "identity--3301a265-f0eb-4f82-9135-dac6316bd019",
+        "confidence": 6,
+        "object_marking_refs": [
+            "marking-definition--ac1b5736-da43-40b3-a627-1238b39b60c1"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1468ddd0-aec4-4aee-b38c-e85618ab5eff",
+        "created_by_ref": "identity--1468ddd0-aec4-4aee-b38c-e85618ab5eff",
+        "created": "2022-04-21T10:40:13.17291Z",
+        "modified": "2022-10-15T11:51:33.823013Z",
+        "name": "Bradford LLC",
+        "description": "Organic transitional groupware",
+        "roles": [
+            "expect",
+            "tax",
+            "might",
+            "large"
+        ],
+        "confidence": 37,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "wrong",
+                "description": "Third choose source change imagine card.",
+                "url": "https://www.wright.com/"
+            },
+            {
+                "source_name": "opportunity",
+                "url": "http://www.evans.info/",
+                "hashes": {
+                    "MD5": "d07fd5d67a38ec32d7ed13714ce6b180",
+                    "SHA-1": "20ac259ae86e24599dad1c51def5b7e2a2399a9c",
+                    "SHA-256": "322dae7ffd80bc407aba8a13861b86c6af40640bda02f2d094d39c842d9ed6a4",
+                    "SHA-512": "ade16199f86616ccfe83ea8029143ee4cc5e402898604b90f2a18f28e30689fbace940630ba7c353c31dfdb99aec1870a7ac2fac761c5626c5f19730f706ebe3",
+                    "SHA3-256": "f1cfad5c752581e60b3779ae4898cc9ec88b5d9cd7a45276b302c1fe4c3c0eab",
+                    "SHA3-512": "9e754217f0de447f76790da32adae7bdf4de58da651d887e2b031950b535bf7032c2fb3f53371b3f76bb337305682cec1ed767c042144b026b882458485ab58a"
+                },
+                "external_id": "gtPLxfRirqf"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ac1b5736-da43-40b3-a627-1238b39b60c1"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--ac1b5736-da43-40b3-a627-1238b39b60c1",
+        "created": "2021-08-14T01:08:55.625359Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c37eda22-f302-4b2e-bf63-7f8ea35d72b0",
+                "name": "Event really first our country somebody",
+                "create_date_time": "2021-08-14T01:08:08.426408Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.426228Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

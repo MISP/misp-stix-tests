@@ -1,0 +1,180 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--1308f6bd-67b5-41ea-b05f-e567a5de7b9d",
+        "created_by_ref": "identity--deaf32bd-8f31-411f-a631-dcc8439c57ef",
+        "created": "2019-11-16T04:03:36.830943Z",
+        "modified": "2021-08-14T01:08:24.168841Z",
+        "name": "answer",
+        "description": "Official people lay beat environmental activity.",
+        "object_marking_refs": [
+            "marking-definition--2c2e441f-8b72-4f5c-9cd6-3c1f3c10cf5a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--f6cc6563-66c9-48f4-a44a-4a3656f720a6",
+        "created_by_ref": "identity--deaf32bd-8f31-411f-a631-dcc8439c57ef",
+        "created": "2021-06-03T04:04:33.186629Z",
+        "modified": "2021-08-14T01:08:24.169203Z",
+        "name": "although",
+        "description": "Seem product keep election quality arm.",
+        "indicator_types": [
+            "attribution",
+            "malicious-activity"
+        ],
+        "pattern": "([software:name = 'fGlWrTyQIL' OR (x509-certificate:validity_not_before NOT = t'2021-11-12T02:03:45.809569Z')] AND ((([ipv6-addr:defanged NOT = false]) FOLLOWEDBY [autonomous-system:name >= 'Nelson Inc']) START t'2021-02-19T12:33:54.014352Z' STOP t'2021-10-09T05:15:19.922783Z')) FOLLOWEDBY [mac-addr:defanged NOT = false] WITHIN 10 SECONDS",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-01-23T21:03:45.479644Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "labels": [
+            "shake",
+            "pfte-batch-1"
+        ],
+        "confidence": 16,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2c2e441f-8b72-4f5c-9cd6-3c1f3c10cf5a"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--da8e8059-ba19-4c6a-a625-746a38277f40",
+        "created_by_ref": "identity--deaf32bd-8f31-411f-a631-dcc8439c57ef",
+        "created": "2021-05-14T20:29:45.06202Z",
+        "modified": "2021-08-14T01:08:24.173516Z",
+        "relationship_type": "mitigates",
+        "description": "Learn number region out dark court. Claim behavior forget political protect.",
+        "source_ref": "course-of-action--1308f6bd-67b5-41ea-b05f-e567a5de7b9d",
+        "target_ref": "indicator--f6cc6563-66c9-48f4-a44a-4a3656f720a6",
+        "stop_time": "2020-08-30T08:59:26.878299Z",
+        "labels": [
+            "against",
+            "add",
+            "cost",
+            "PM",
+            "edge",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2c2e441f-8b72-4f5c-9cd6-3c1f3c10cf5a"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--232adaa2-6cf5-4079-b874-08e0df74a280",
+        "created_by_ref": "identity--deaf32bd-8f31-411f-a631-dcc8439c57ef",
+        "created": "2021-03-12T09:25:48.040817Z",
+        "modified": "2021-12-11T10:02:20.467572Z",
+        "name": "scene",
+        "context": "unspecified",
+        "object_refs": [
+            "course-of-action--1308f6bd-67b5-41ea-b05f-e567a5de7b9d",
+            "indicator--f6cc6563-66c9-48f4-a44a-4a3656f720a6",
+            "relationship--da8e8059-ba19-4c6a-a625-746a38277f40"
+        ],
+        "labels": [
+            "matter",
+            "time",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2c2e441f-8b72-4f5c-9cd6-3c1f3c10cf5a"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--deaf32bd-8f31-411f-a631-dcc8439c57ef",
+        "created_by_ref": "identity--deaf32bd-8f31-411f-a631-dcc8439c57ef",
+        "created": "2022-05-06T02:16:40.920486Z",
+        "modified": "2022-07-18T10:28:21.510599Z",
+        "name": "Solis, Blevins and White",
+        "contact_information": "92576 Bright Points Suite 790\nLake Wendyview, ID 57805",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--2c2e441f-8b72-4f5c-9cd6-3c1f3c10cf5a"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2c2e441f-8b72-4f5c-9cd6-3c1f3c10cf5a",
+        "created": "2021-08-14T01:08:24.168261Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e0c28f68-5570-434a-9764-3e8498f0a59a",
+                "name": "Serve much idea usually",
+                "create_date_time": "2021-08-14T01:08:08.432065Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

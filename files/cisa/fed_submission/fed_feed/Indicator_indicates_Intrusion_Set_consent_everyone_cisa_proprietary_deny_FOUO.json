@@ -1,0 +1,193 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--84dcc870-83fd-453b-8121-d2c52cbdc7d8",
+        "created_by_ref": "identity--43a9e4e1-73ec-421f-a90a-1840ab558d1e",
+        "created": "2022-06-01T03:23:35.738644Z",
+        "modified": "2022-11-17T01:40:14.924711Z",
+        "name": "could",
+        "pattern": "[user-account:account_type > 'unix'] OR (([process:created_time >= t'2021-12-13T08:35:14.063929Z'] OR ([url:value < 'https://www.preston-levy.org/'])) WITHIN 3 SECONDS) REPEATS 2 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-09-12T18:01:23.687455Z",
+        "confidence": 74,
+        "external_references": [
+            {
+                "source_name": "happy",
+                "url": "https://rodriguez-roberts.com/",
+                "hashes": {
+                    "MD5": "dbd3208f4132ea6a0f4b5537d77feb66",
+                    "SHA-1": "431abca19a58c9f6b8784d5764dbb2e9174bfa2b",
+                    "SHA-256": "559be3e5d305cf2a5f0db2aaa072cacbf0e42c665d66bdedafc9743640fba213",
+                    "SHA-512": "b550ef0211d4b7fec9e0aa4eac7f8944c4a70c67305a8fe133bc63cdb5c5badf2fd2fd701885eff3756966f024e9b62cbac22e12a3f71bc9ca706a159086b1a6",
+                    "SHA3-256": "7d179009feca318371e98b7aedd4adbb05d8518564dbbda34265e3bab26828b0",
+                    "SHA3-512": "ea1cd8af3e7ba0a3bc7950f9c7843ff5038231d70254c9e092a113b0fcc6680abc7998e64ebff95e79ccb83d8c6549969ca5aecdac42234c2f4228134496d747"
+                },
+                "external_id": "AliqZPsZVdlFVeCcGbJ"
+            },
+            {
+                "source_name": "real",
+                "description": "Unit seven apply.",
+                "url": "http://bishop.biz/",
+                "hashes": {
+                    "MD5": "f677dabd5bd4d4da3112def4d7abf774",
+                    "SHA-1": "4bc250b4fa8573a5602016d01d701d455857cf3b",
+                    "SHA-256": "3ae3719ad43f1c77026db6350a8a29de497b22db2cb62bd16a9fa2ff6ff1ebb8",
+                    "SHA-512": "0fe3041cf975a30ba23a027f21257ec4c7feaf22dc77b86dce86812dff3e2fd0accd11cf0606b788256bbd3b4c76037bc6d57d7bcf36c23b53b0d75b2ee4f70f",
+                    "SHA3-256": "8537a624f26833f0efc8a456d0cf2096e89a96e554142d5fa5522b441558b2f8",
+                    "SHA3-512": "7570789e2be7ec032ae3c4719b07717cd736d6308dcbb2bfc54f4685f35dd643aafb96d5a7401912cd05bf15cd4f60f0babef44dc52210a5a71396c58de796b8"
+                },
+                "external_id": "GfBSShPjUOoHoUE"
+            },
+            {
+                "source_name": "clearly",
+                "url": "http://johnson.org/",
+                "hashes": {
+                    "MD5": "4df52933b6b14388ad9458feea34b698",
+                    "SHA-1": "6bf01556dc020e6d90f712e4d1138fcb2530d272",
+                    "SHA-256": "855759bd5184bac1980b5a5e3fec5b66e31bd2376a4317adb0aa7f21bcd0b4d3",
+                    "SHA-512": "8717a5e8b1e48956eee0c256a9dd7f111f3dc2485607b1b22b3f1f43fbf6ec5471e1d90d816372870269e889c26380965467158676e967a74fd18905f124b333",
+                    "SHA3-256": "81fa86b7006c985ef8d2724ca38126643f9389c951db7507de66ea5caa1fac31",
+                    "SHA3-512": "97ea8b5dcc19d2e887abf7f9dde7fcdc10e7abf4ce2d9b81cbb898b794044e01914290703d136a611e3fdde61d6b05c7409f51c12d8f7a9ce941c48ab0686818"
+                },
+                "external_id": "mXeReLGCQpbdaCdsO"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1573e349-2bd4-4e03-9d65-4f41d2c0a3cd"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--222bdf33-9667-442d-8787-a4207c91396c",
+        "created_by_ref": "identity--43a9e4e1-73ec-421f-a90a-1840ab558d1e",
+        "created": "2021-09-20T22:12:26.146223Z",
+        "modified": "2022-03-13T10:38:49.80947Z",
+        "name": "interview",
+        "description": "Music possible two enter.",
+        "aliases": [
+            "father",
+            "simple"
+        ],
+        "last_seen": "2021-11-26T01:04:26.604781Z",
+        "goals": [
+            "Beat stay able value nice perform low.",
+            "Keep draw oil.",
+            "Whatever physical strategy country nice."
+        ],
+        "resource_level": "government",
+        "primary_motivation": "notoriety",
+        "secondary_motivations": [
+            "accidental",
+            "notoriety",
+            "coercion",
+            "dominance",
+            "dominance"
+        ],
+        "confidence": 18,
+        "object_marking_refs": [
+            "marking-definition--1573e349-2bd4-4e03-9d65-4f41d2c0a3cd"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1c49c35c-917d-4d38-a298-fa5363b19733",
+        "created_by_ref": "identity--43a9e4e1-73ec-421f-a90a-1840ab558d1e",
+        "created": "2022-06-16T11:25:29.808927Z",
+        "modified": "2023-05-09T05:34:33.701755Z",
+        "relationship_type": "indicates",
+        "description": "Word campaign activity ten rule activity before. Science large indicate man. Series upon indeed current behind.",
+        "source_ref": "indicator--84dcc870-83fd-453b-8121-d2c52cbdc7d8",
+        "target_ref": "intrusion-set--222bdf33-9667-442d-8787-a4207c91396c",
+        "stop_time": "2020-12-05T04:11:28.721772Z",
+        "confidence": 94,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--1573e349-2bd4-4e03-9d65-4f41d2c0a3cd"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--43a9e4e1-73ec-421f-a90a-1840ab558d1e",
+        "created_by_ref": "identity--43a9e4e1-73ec-421f-a90a-1840ab558d1e",
+        "created": "2020-12-22T17:26:47.099474Z",
+        "modified": "2021-08-14T01:08:31.971103Z",
+        "name": "Patel, Taylor and Smith",
+        "description": "Programmable content-based service-desk",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--1573e349-2bd4-4e03-9d65-4f41d2c0a3cd"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--1573e349-2bd4-4e03-9d65-4f41d2c0a3cd",
+        "created": "2021-08-14T01:08:31.966764Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e0c28f68-5570-434a-9764-3e8498f0a59a",
+                "name": "Serve much idea usually",
+                "create_date_time": "2021-08-14T01:08:08.432065Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

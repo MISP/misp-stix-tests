@@ -1,0 +1,243 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--8328842a-13de-4464-a155-d602372a2f0d",
+        "created_by_ref": "identity--5554f241-c2d5-4968-8777-597ef2f78a56",
+        "created": "2021-02-05T23:55:02.42175Z",
+        "modified": "2021-11-14T14:20:10.177114Z",
+        "name": "military",
+        "threat_actor_types": [
+            "hacker",
+            "sensationalist",
+            "insider-disgruntled",
+            "terrorist",
+            "sensationalist"
+        ],
+        "first_seen": "2022-05-30T12:54:08.187432Z",
+        "roles": [
+            "infrastructure-operator",
+            "director",
+            "infrastructure-architect",
+            "infrastructure-operator",
+            "malware-author"
+        ],
+        "goals": [
+            "dream",
+            "else",
+            "image",
+            "stock",
+            "over"
+        ],
+        "sophistication": "strategic",
+        "resource_level": "individual",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--c3f4ba9d-fea5-4f92-9b33-a8c4a4e7250c",
+        "created_by_ref": "identity--5554f241-c2d5-4968-8777-597ef2f78a56",
+        "created": "2021-10-20T06:44:18.41018Z",
+        "modified": "2022-06-10T21:07:53.706796Z",
+        "name": "together",
+        "description": "Next later dark foreign determine hard note.",
+        "infrastructure_types": [
+            "workstation",
+            "control-system"
+        ],
+        "aliases": [
+            "war",
+            "simple",
+            "house",
+            "third"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "TDuBrNYtxO",
+                "phase_name": "JwmvxkcEi"
+            }
+        ],
+        "first_seen": "2020-12-12T07:35:53.479535Z",
+        "last_seen": "2021-10-06T21:18:48.956139Z",
+        "labels": [
+            "college",
+            "she",
+            "look",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--546abe72-da0d-4a29-904a-627c3ea76b15",
+        "created_by_ref": "identity--5554f241-c2d5-4968-8777-597ef2f78a56",
+        "created": "2021-12-19T14:42:09.832157Z",
+        "modified": "2022-07-27T01:33:28.705723Z",
+        "relationship_type": "hosts",
+        "source_ref": "threat-actor--8328842a-13de-4464-a155-d602372a2f0d",
+        "target_ref": "infrastructure--c3f4ba9d-fea5-4f92-9b33-a8c4a4e7250c",
+        "start_time": "2022-04-24T10:26:56.946282Z",
+        "stop_time": "2022-08-28T15:41:49.483625Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "population",
+                "description": "Blue bill face industry.",
+                "url": "https://gibbs.biz/",
+                "hashes": {
+                    "MD5": "e6a1133f383e9e844e272dd52d337550",
+                    "SHA-1": "63b59e7996e4eebbea48746a533a31556b0a884c",
+                    "SHA-256": "cce26f581f1a0226351dd356b815a5a2a3f5423231e5a3a0270efb15e344e5b8",
+                    "SHA-512": "9b0ca16b2066f1d4577577b69f82db1ca0e250b4e953e13c1e1ac4fd9d8df527fa1380431edf5e9db6fa0d526fed8e29a3814a79e260a7291de4f304024576b1",
+                    "SHA3-256": "a993c9fb12ff3488bee63ce41dacdcdfbd3bd7e26dc7a0110508b0a8a2fbf099",
+                    "SHA3-512": "d849ab106ae5d11a957973f975f36f10ca11b3d23f78c5b6cd995c14e4763cb889a96e1a40db70df494041042315fde6b347934751a82adf7599e2275f3118a5"
+                },
+                "external_id": "MhzGoGtEGhqym"
+            },
+            {
+                "source_name": "benefit",
+                "description": "Box technology street million.",
+                "hashes": {
+                    "MD5": "ec6bdce7e6467fb6e34b35aa1c02b90d",
+                    "SHA-1": "6e85012ab92f5c06dfd0c4ed34b9f15f2a4e39ee",
+                    "SHA-256": "1a1197652a526b3139e720ad80336d56ce8d19c4417de96c172b596458622b9f",
+                    "SHA-512": "3b087dd5467213d16c2f08888e915d6ac8f8c41d42f6618aa43f97ca53402b56296cf879ee501eedeb9a87b89bcec4d0ce483898d60939dcd6083ddbd9dc4911",
+                    "SHA3-256": "6f555099491fc7abf89d798362bf1a2c67294b0e96c3e1f0f573cd585334af11",
+                    "SHA3-512": "fc51566b110cf1e66e1880be61acd987c2e1b3046a6c6a075e8a4b10467f47e1afe46f90cd4b5087c6f9457301683191a0ce44a3deeeff1430103768f5900f4c"
+                },
+                "external_id": "MrWkGjSxPpaNdHhVKMlf"
+            },
+            {
+                "source_name": "produce",
+                "description": "Peace some performance east method capital.",
+                "url": "http://clark.com/",
+                "hashes": {
+                    "MD5": "3d66bb4a24880e0ddd66688e33baad62",
+                    "SHA-1": "68ea30918000abe5a8d871d3b3050a5b539141ac",
+                    "SHA-256": "f840a092a8a56b62c85d86fc0fea13db17f359a0c8a8a79798bb5fe4a6f3a2cb",
+                    "SHA-512": "8ef1e13120cec684de848de6849e3ad59feb55c73450bef8e331829608f9936176f6c92fa7aa21edd6410a09e9a2ff55d27f1f1f4bc1aabee81f265573b9e753",
+                    "SHA3-256": "af7b30f6801195f05e543ec394ad5a371f788ce3f950823a6afd4f795a5ca151",
+                    "SHA3-512": "191b412471cfe6757a8a6defb040b4895011c8ede9258a74c93cd38e5cf61469fce5117cf83c9a9770cc84f963575c0755a304767ee228f3710c96063d658c06"
+                },
+                "external_id": "rquHQsQvho"
+            },
+            {
+                "source_name": "but",
+                "description": "Long finally everyone because follow a left reason.",
+                "url": "http://www.sims.com/"
+            },
+            {
+                "source_name": "the",
+                "url": "http://www.mcgee.com/",
+                "hashes": {
+                    "MD5": "84f35a19d382fd44bcf39fbaa0d81a07",
+                    "SHA-1": "fbc91c95477e172366004705eba7f8b1a20064c2",
+                    "SHA-256": "8ea8bc9946229d07c5d904b0486239c0420e1219c874cb77f051e8ac6a92a18b",
+                    "SHA-512": "873486ffa86147be749c0cf7e5c4ead699a6429bcf4abdb6d096ab69178f82f1c58422374a18ad7a1780110791bac4b3be55372e8ebb46a7524b7736fb340f3e",
+                    "SHA3-256": "2844f5e0837fb0409639b79554b8dd3d1910a2b7e458c2d05c64eaeff8ef43c1",
+                    "SHA3-512": "055754afb872627a8acd0f7654367ebb5cfe6477d25bfd04753252d0848a800c805297599330a096c98504089cf14cb019c43487dc7f3d2b0721f300ad90b306"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--facbf2c5-e865-42e8-b5bd-53ca7581c0c0",
+        "created_by_ref": "identity--5554f241-c2d5-4968-8777-597ef2f78a56",
+        "created": "2020-10-31T10:41:09.617063Z",
+        "modified": "2021-08-14T01:09:26.815962Z",
+        "name": "shoulder",
+        "description": "More billion even thing whatever manage moment. Able interesting carry discuss house. Face fact marriage sing western.",
+        "published": "2021-01-15T16:09:12.976759Z",
+        "object_refs": [
+            "threat-actor--8328842a-13de-4464-a155-d602372a2f0d",
+            "infrastructure--c3f4ba9d-fea5-4f92-9b33-a8c4a4e7250c",
+            "relationship--546abe72-da0d-4a29-904a-627c3ea76b15"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 63,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "parent",
+                "description": "Green meet game one scientist simply.",
+                "url": "https://www.morris.org/",
+                "hashes": {
+                    "MD5": "e55ba63ff917e5cab0d0fc8228171e62",
+                    "SHA-1": "96d700767203ca99f0a2cb6a5a68274d746d0ca5",
+                    "SHA-256": "f1175ffced1bd0f1e93f1773e49580b36c4f988aa1517c239cca9b8aa4c71494",
+                    "SHA-512": "542db3a49e8a462b516239345d65264c01d2e012550fc68687fb5555041b973d9ff1f856f1480b4442ec5a8e12803ccb7617cf6cf752f23909cd78ba88a1b231",
+                    "SHA3-256": "a5e9d10a40d7f1d099ab2fe9b9e75952407017f656bb080c4de19f8a275787f9",
+                    "SHA3-512": "7b5c8787c7f3fe2e0aab6eea1be9eb55fd170d1c2eb1b5b3f79ec3ee38ea9429823955427fc6f222c4ea60a5e7a708895cf31f02d165de954e4d0d91e681687d"
+                },
+                "external_id": "AJHZltjPGdSynFGmN"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5554f241-c2d5-4968-8777-597ef2f78a56",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-23T09:49:22.506605Z",
+        "modified": "2021-08-14T01:09:26.821246Z",
+        "name": "Jones PLC",
+        "description": "Multi-layered value-added algorithm",
+        "identity_class": "unknown",
+        "sectors": [
+            "manufacturing",
+            "chemical"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 20,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "decision",
+                "description": "Any bit cup arm ten.",
+                "external_id": "oOSLdFt"
+            },
+            {
+                "source_name": "cover",
+                "description": "Doctor former such wonder positive.",
+                "hashes": {
+                    "MD5": "fe4f10f05977917aaac7c72b54c5c86f",
+                    "SHA-1": "d3844035d268fc0f9fc400662557d1b4bc079e7d",
+                    "SHA-256": "f392529f9ab61c0114e07f25025e42dc2be99c9d86b282b54a6568708308df61",
+                    "SHA-512": "72f3b56aa09751b2219bf4efb70bd6fccc7fe7781f0eec26e258875a04b35f1d5fa0e88fa462746c88eec00f4ce6924aa08090332ca3f0e1313a114a5c6d04ca",
+                    "SHA3-256": "5347eea41f6ef9b89d09bb46a9f81d8341bbd4a7ca67660db40641eb49b715d6",
+                    "SHA3-512": "52c6f2c15afb7bfcb0ce8c4f6e7d119a700c92bf35e73ab54426e867e2990a7dbead18b41b739628ad02363fbb6e762c4208af2c16e2c4bf9f90cd14cdb38657"
+                },
+                "external_id": "WLFMscqMNGtEacX"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

@@ -1,0 +1,172 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--cd8d6fc0-7ded-4cf1-8c32-f7f2cc9e06ed",
+        "created_by_ref": "identity--a33e680f-d122-4e6e-8346-e2645901598c",
+        "created": "2021-10-25T03:28:46.594654Z",
+        "modified": "2021-11-18T18:39:09.684758Z",
+        "name": "level",
+        "description": "Store simple knowledge ahead store value.",
+        "threat_actor_types": [
+            "activist",
+            "activist",
+            "nation-state",
+            "spy",
+            "insider-disgruntled"
+        ],
+        "aliases": [
+            "last"
+        ],
+        "last_seen": "2021-04-21T12:11:52.458529Z",
+        "goals": [
+            "moment",
+            "hand"
+        ],
+        "sophistication": "strategic",
+        "resource_level": "contest",
+        "primary_motivation": "ideology",
+        "secondary_motivations": [
+            "dominance",
+            "personal-gain",
+            "coercion",
+            "personal-gain",
+            "ideology"
+        ],
+        "labels": [
+            "rather",
+            "executive",
+            "pfte-batch-1"
+        ],
+        "confidence": 17,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--59e6f6a3-7445-48b1-af2d-ec5a3d385d94",
+        "created_by_ref": "identity--a33e680f-d122-4e6e-8346-e2645901598c",
+        "created": "2020-11-14T20:56:00.85209Z",
+        "modified": "2021-08-14T01:09:25.511149Z",
+        "name": "risk",
+        "description": "No shake like run indicate.",
+        "labels": [
+            "financial",
+            "else",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "let",
+                "url": "http://www.calderon.biz/",
+                "hashes": {
+                    "MD5": "4d3e4c69a742b330e78b2bc0284f17e7",
+                    "SHA-1": "77cb25dca548b369840ac096a7db386a8d746ac1",
+                    "SHA-256": "f59490c46437d00f532b07173cc8f684d06971105fea23afdca793305e5a68fe",
+                    "SHA-512": "9ec6b20ebd3fa223b6680daaa05374fda6047ca2c322e269736ceb88f57dfa3ec6b27e9cc5a74bd46e3173145c7972320c460799cc7eb83a3a55875cf9690a5d",
+                    "SHA3-256": "bfe3d355c64062780b9bb40efc68fdd0c8c9e868d1001e2e520a3a7971289fa9",
+                    "SHA3-512": "ed97bf7c0d2a8e95ec7d67b0a97c894e046bb7f82c8c4ac1397258294e872c61aa9f3e433d7baaf815a7ecfc28a6c5c8d599a6bdea95b066037a2de194aeab88"
+                },
+                "external_id": "iDZsPmLXkpbHmxsfhav"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d7dd3dba-1de5-4c68-a1b8-1f723e092941",
+        "created_by_ref": "identity--a33e680f-d122-4e6e-8346-e2645901598c",
+        "created": "2022-01-30T06:51:15.211059Z",
+        "modified": "2022-05-16T21:19:14.727168Z",
+        "relationship_type": "compromises",
+        "source_ref": "threat-actor--cd8d6fc0-7ded-4cf1-8c32-f7f2cc9e06ed",
+        "target_ref": "infrastructure--59e6f6a3-7445-48b1-af2d-ec5a3d385d94",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "throughout",
+                "url": "https://www.kramer.net/",
+                "hashes": {
+                    "MD5": "c3cb166dc99fe062ec5c6daafcbfee2a",
+                    "SHA-1": "8c6c6cd7c6db7c1b47dd5ecd944087fc0a6f4cdb",
+                    "SHA-256": "5dca2d448a8a2d7ab7dfdf246b7c5c573f71e778aebe857f00c752b9b68a1549",
+                    "SHA-512": "0471379aaa6a2c34c9f7d26a71edc2eb435e8e1c932271a61dc728c87f678add5d65eb89602568e86e7fda0651e48c3ef6ab2bc8994cc8d1d29f9b10ff0d610c",
+                    "SHA3-256": "d975f0c203e4deaef03d73c59a5ec3f7284c8979806019ed58681b989f69da06",
+                    "SHA3-512": "9ea99adc1ff9777615a1a1c8e83ad714fe7bdc9438f7297afd4004cf7a4f64be25dc03d077bb589b327dd84f62cd2a78ca060eb7e425bcfc0567957881b8d793"
+                },
+                "external_id": "qBLDVvsiJVOdSLge"
+            },
+            {
+                "source_name": "through",
+                "description": "Development Mrs to clearly defense account hand.",
+                "external_id": "QTWLSjMYRy"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a33e680f-d122-4e6e-8346-e2645901598c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-26T11:35:57.724757Z",
+        "modified": "2021-08-14T01:09:25.512223Z",
+        "name": "Lawrence Group",
+        "roles": [
+            "else",
+            "well"
+        ],
+        "contact_information": "625 James Isle Apt. 000\nNew Brian, OR 79560",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "decide",
+                "url": "http://www.white-anderson.biz/"
+            },
+            {
+                "source_name": "full",
+                "description": "Affect audience position should sit support age.",
+                "url": "http://www.smith.info/"
+            },
+            {
+                "source_name": "in",
+                "external_id": "JlbacgWFxovExTNB"
+            },
+            {
+                "source_name": "feeling",
+                "description": "Attention society nearly anything.",
+                "url": "http://kemp.com/",
+                "external_id": "FrzGsNFJBTDCYKvSnWNc"
+            },
+            {
+                "source_name": "read",
+                "description": "Their ten stock report sing professional argue.",
+                "hashes": {
+                    "MD5": "2df031c75fba36021d57d022d399786d",
+                    "SHA-1": "661b05c3e36df85b553d393c56c0f2a5ea2eca82",
+                    "SHA-256": "796173ad04f375f4524f3121856f6751670802b0b78167a2254012a4f2b1fd35",
+                    "SHA-512": "1bc106b32155b5daa8448cea67eee2f317801420698582fd4a810bdbf4be73763c950e31ea9d08cc8eaa1723bdefbdf7709302a8161572f32b3151559bc47421",
+                    "SHA3-256": "173161cf25918938a00bc6ea29b0e136a0670d6b2de976775cc7612cb8f85665",
+                    "SHA3-512": "dc6938c245f8beda92fb07ad1307dbc556bd45b0b0b8d7a1f4144740a0d204bde4c5329597a542962e73a0475a6d8ca6962a22db819dca91c5bb48e83747ff4a"
+                },
+                "external_id": "ZAwxYtvMrNjHowxKyCN"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

@@ -1,0 +1,185 @@
+[
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--33e8599c-1dfe-4c14-bbda-e7397aa82fbd",
+        "created_by_ref": "identity--15fcc207-7682-4faf-a947-ec6d1c667519",
+        "created": "2022-03-27T02:49:57.249722Z",
+        "modified": "2022-07-18T17:25:19.572746Z",
+        "name": "system",
+        "tool_types": [
+            "information-gathering"
+        ],
+        "aliases": [
+            "house",
+            "discover",
+            "store",
+            "top"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "tool_version": "seem",
+        "labels": [
+            "myself",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2e1817a9-5af1-46a0-958a-d229b5fa7cfc"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--735dcaae-a07d-478e-9397-460c24f0913a",
+        "created_by_ref": "identity--15fcc207-7682-4faf-a947-ec6d1c667519",
+        "created": "2021-09-07T09:12:56.693945Z",
+        "modified": "2022-06-03T04:32:26.988471Z",
+        "name": "back",
+        "first_seen": "2020-07-28T20:27:16.916743Z",
+        "last_seen": "2020-11-09T16:26:59.10886Z",
+        "labels": [
+            "provide",
+            "thing",
+            "material",
+            "part",
+            "out",
+            "pfte-batch-1"
+        ],
+        "confidence": 47,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2e1817a9-5af1-46a0-958a-d229b5fa7cfc"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4964f676-5f5b-42b9-9f86-cba3e1a1c4ea",
+        "created_by_ref": "identity--15fcc207-7682-4faf-a947-ec6d1c667519",
+        "created": "2022-03-10T03:48:01.272603Z",
+        "modified": "2022-10-15T20:14:33.292066Z",
+        "relationship_type": "targets",
+        "description": "Mission eye anything tree daughter. Together run until third.",
+        "source_ref": "tool--33e8599c-1dfe-4c14-bbda-e7397aa82fbd",
+        "target_ref": "infrastructure--735dcaae-a07d-478e-9397-460c24f0913a",
+        "start_time": "2022-06-15T14:58:20.003867Z",
+        "stop_time": "2022-07-27T05:13:41.416821Z",
+        "external_references": [
+            {
+                "source_name": "police",
+                "url": "https://gardner.com/",
+                "hashes": {
+                    "MD5": "c1d12f5b06c14da4fd18b68458540712",
+                    "SHA-1": "801c158af5bda394a42ea0169a11b023acd1ab6d",
+                    "SHA-256": "b329511f1c701a6c0ec9b5b15fd2a7bb1bf3650eaa17cad07d4dc9644d8e9fa0",
+                    "SHA-512": "c749af737f2cda6a0ea6f03a082120ddd1b632e7b26d28a94cb8c475983d7f78908f6062087020a9af115f3015f628658795c74d191cd8837424040b080976c3",
+                    "SHA3-256": "92cf7ae02e6000b8c5ce0ad1a0f1a1144293497b9e15353325a2eafc770ab0dc",
+                    "SHA3-512": "98caef1fa0cb9f2e05fc1e1a4158b1ee70df5afe3b10996e780c9e4ca2c0bfa5904c444e81f6daa6cc2b93700a4c58bfa88699bf788df1b320dc7306878f8bf1"
+                },
+                "external_id": "WspQiiEMwIsDTNQIVE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2e1817a9-5af1-46a0-958a-d229b5fa7cfc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--15fcc207-7682-4faf-a947-ec6d1c667519",
+        "created_by_ref": "identity--15fcc207-7682-4faf-a947-ec6d1c667519",
+        "created": "2021-12-22T16:03:13.776659Z",
+        "modified": "2022-01-09T18:02:58.57142Z",
+        "name": "Hernandez, Sparks and Lyons",
+        "description": "Total intermediate portal",
+        "identity_class": "group",
+        "sectors": [
+            "agriculture",
+            "pharmaceuticals",
+            "government-regional",
+            "government-public-services",
+            "automotive"
+        ],
+        "object_marking_refs": [
+            "marking-definition--2e1817a9-5af1-46a0-958a-d229b5fa7cfc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2e1817a9-5af1-46a0-958a-d229b5fa7cfc",
+        "created": "2021-08-14T01:09:39.700996Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1946efc8-a2e0-46a4-bb9a-691cbe16f041",
+                "name": "Home politics letter yes consider",
+                "create_date_time": "2021-08-14T01:08:08.424111Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

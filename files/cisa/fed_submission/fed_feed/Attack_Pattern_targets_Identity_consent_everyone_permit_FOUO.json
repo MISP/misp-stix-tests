@@ -1,0 +1,149 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--ab50378d-8f08-487b-89e8-02a2909a9fd7",
+        "created_by_ref": "identity--06d57154-1640-4d21-ad19-3d9dd69418c5",
+        "created": "2022-01-03T13:21:33.003476Z",
+        "modified": "2022-07-09T04:27:15.332185Z",
+        "name": "four",
+        "description": "Single form moment right future fish gun.",
+        "aliases": [
+            "nature",
+            "senior",
+            "might"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "jVJPFydEErIph",
+                "phase_name": "lXnmQCXVSZwlRMs"
+            }
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "major",
+                "url": "https://mcguire.biz/",
+                "external_id": "czDbEqzzGBXqEORIgS"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--04d77897-4e8a-40c1-8b54-799f8c16ae12"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--932ec60b-386f-4ef8-a0d9-2f41a16dbd7b",
+        "created_by_ref": "identity--06d57154-1640-4d21-ad19-3d9dd69418c5",
+        "created": "2021-01-03T15:45:51.762116Z",
+        "modified": "2021-10-29T19:02:51.942155Z",
+        "name": "Crosby, Heath and Villarreal",
+        "description": "Cloned reciprocal capability",
+        "sectors": [
+            "infrastructure",
+            "commercial",
+            "communications"
+        ],
+        "labels": [
+            "quickly",
+            "whole",
+            "lawyer",
+            "gas",
+            "nation",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "sign",
+                "description": "Partner wall reach heart best decision song.",
+                "url": "https://patterson.org/",
+                "external_id": "rjunddZUARUZBACG"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--04d77897-4e8a-40c1-8b54-799f8c16ae12"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--fac6916a-dd97-40a8-ae48-78a8383e18f1",
+        "created_by_ref": "identity--06d57154-1640-4d21-ad19-3d9dd69418c5",
+        "created": "2020-11-09T00:32:54.711823Z",
+        "modified": "2021-08-14T01:08:09.88314Z",
+        "relationship_type": "targets",
+        "source_ref": "attack-pattern--ab50378d-8f08-487b-89e8-02a2909a9fd7",
+        "target_ref": "identity--932ec60b-386f-4ef8-a0d9-2f41a16dbd7b",
+        "stop_time": "2021-08-31T11:54:41.847435Z",
+        "confidence": 55,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--04d77897-4e8a-40c1-8b54-799f8c16ae12"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--06d57154-1640-4d21-ad19-3d9dd69418c5",
+        "created_by_ref": "identity--06d57154-1640-4d21-ad19-3d9dd69418c5",
+        "created": "2022-01-06T17:15:55.696344Z",
+        "modified": "2022-07-10T04:18:13.642025Z",
+        "name": "Nelson and Sons",
+        "description": "Managed regional complexity",
+        "roles": [
+            "leader",
+            "lose"
+        ],
+        "identity_class": "individual",
+        "contact_information": "621 Davis Prairie\nWolfstad, MS 73446",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--04d77897-4e8a-40c1-8b54-799f8c16ae12"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--04d77897-4e8a-40c1-8b54-799f8c16ae12",
+        "created": "2021-08-14T01:08:09.881968Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a064a16e-64c9-426c-9535-98e263215e51",
+                "name": "Member population available under",
+                "create_date_time": "2021-08-14T01:08:08.430342Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

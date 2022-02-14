@@ -1,0 +1,158 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--3bfd44fb-4c90-4a73-828b-9a49210e59ec",
+        "created_by_ref": "identity--a8e591ef-c161-42b6-8051-fa81cdf0cef5",
+        "created": "2021-10-02T19:15:00.468224Z",
+        "modified": "2022-09-16T09:04:15.823209Z",
+        "name": "design",
+        "aliases": [
+            "whole",
+            "others",
+            "amount",
+            "determine",
+            "later"
+        ],
+        "first_seen": "2020-03-13T23:33:05.487468Z",
+        "last_seen": "2020-12-17T12:00:36.840743Z",
+        "goals": [
+            "need",
+            "hit",
+            "police",
+            "impact"
+        ],
+        "sophistication": "innovator",
+        "primary_motivation": "ideology",
+        "personal_motivations": [
+            "ideology",
+            "coercion",
+            "organizational-gain",
+            "ideology",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "unit",
+            "wind",
+            "firm",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--a23a3239-ca8a-493c-8135-1e906c305f9b",
+        "created_by_ref": "identity--a8e591ef-c161-42b6-8051-fa81cdf0cef5",
+        "created": "2020-11-27T10:30:34.935215Z",
+        "modified": "2021-08-14T01:09:33.623888Z",
+        "name": "building",
+        "description": "Measure recognize result free pattern year.",
+        "aliases": [
+            "let",
+            "door",
+            "resource"
+        ],
+        "first_seen": "2020-08-20T20:59:00.134426Z",
+        "last_seen": "2021-02-19T07:23:47.29811Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 46,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--090bb158-d08e-49c6-be4f-4ed18be9627e",
+        "created_by_ref": "identity--a8e591ef-c161-42b6-8051-fa81cdf0cef5",
+        "created": "2021-03-21T14:55:25.87378Z",
+        "modified": "2021-08-14T01:09:33.624623Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--3bfd44fb-4c90-4a73-828b-9a49210e59ec",
+        "target_ref": "infrastructure--a23a3239-ca8a-493c-8135-1e906c305f9b",
+        "labels": [
+            "how",
+            "occur",
+            "on",
+            "available",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "night",
+                "description": "Although here difficult.",
+                "hashes": {
+                    "MD5": "5c8d78f875d859bc29cb7fc93a2b0756",
+                    "SHA-1": "55a9604c92dff83e3b5cd109d5f108ba96e7789c",
+                    "SHA-256": "d5d4af76a9204771c681aa2af21aa9d42e960ccd20027fc2d43ed58e085cac4a",
+                    "SHA-512": "c8939f56107cb4bc11150bcac22bad79fa766704e423e6b0a0a3588956db63eef675b80858b94b6f3b80e371c7ee1a1d4261ce5f65a83ffc1ba81845a2171726",
+                    "SHA3-256": "71f7902c38bb0727d3e7a7ea5a0c1a3e9722f32d6a3797d47cff8f1f18c65851",
+                    "SHA3-512": "ff691aae20638601454894fccd0ea177d33e35a70f265de60ea52b110d953d0d4d495b4b9a187a1428dd172d430ca3569cc11aa3cf96cbbd2197f1b49abe8e30"
+                },
+                "external_id": "KhOFuccgEJdlDLA"
+            },
+            {
+                "source_name": "your",
+                "description": "Star gun year effect line.",
+                "external_id": "nqCClQUpOJTndUQDpN"
+            },
+            {
+                "source_name": "but",
+                "url": "http://www.carlson-lopez.com/",
+                "hashes": {
+                    "MD5": "e6752a92ce8165dd22661e1d9bd2b9d3",
+                    "SHA-1": "f4c1bdc1390924edad291a3b2960bef37a41b7e3",
+                    "SHA-256": "2c5fce4f18b9bfb873cec21c710d2398b4f0f1c20061f1f30a563e4b96e2b1db",
+                    "SHA-512": "7b45a8b093057127d8220e2e7e7311f882650fb51d00c2a99f72f0f114d94703231afe8abdf7f5f31f8684923acdbae5a95b56013d831157276e42b50ca5db9b",
+                    "SHA3-256": "173b6703156659a3df998afa883152ff4102706e8d6ada7c6ceba41a4e1cf219",
+                    "SHA3-512": "fe05e0e2564aaec004e92ae445c67ae74bea0b12d951f7a5a0ca78a05afd17b627a2bac7e96852aacd126f5b01e2023edcc119b2b453e06b0a80f01079de570c"
+                },
+                "external_id": "AIPShfojLbdmjYtvjVEB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a8e591ef-c161-42b6-8051-fa81cdf0cef5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-11T22:32:26.114246Z",
+        "modified": "2021-08-14T01:09:33.627458Z",
+        "name": "Bell-Martin",
+        "sectors": [
+            "nuclear",
+            "insurance"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "provide",
+                "description": "Decide get provide main kid you.",
+                "hashes": {
+                    "MD5": "d3529889e012f168b5ff11fcaa3b6de6",
+                    "SHA-1": "733cf0b1c809ff41a8c002d3e5a8caa3f9d8c9e1",
+                    "SHA-256": "46839b8462971276bb8e59f769c54c32dda960bab10726fb24c67852538f26c0",
+                    "SHA-512": "9a0e9b555135bd94efd97a2c254d4ba04b7c5e72770fdaa51eeeaae37f146e68a8fc23f3685669a3183bbe28596f2415db85a82150885f207caa5dab89bc3446",
+                    "SHA3-256": "6897f215bfe6aec72aa5d3ef54f7616eb8030c4cf76fdecc817d5a146d6963da",
+                    "SHA3-512": "f6bf2fd4cb4934bdd52d7773c56fb56fb7a6f9f6a9b35b6ccb5a088bb0d09b7cde8f18c30605c0d0a4af23fd1961f55ecdd6ec8f449785897c77f5803d083abb"
+                },
+                "external_id": "JbiYzlEqA"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

@@ -1,0 +1,148 @@
+[
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--0d3dae7a-f136-44f8-a192-481d7b82cf9c",
+        "created_by_ref": "identity--1b20817d-815d-4bc0-b657-a0aac0ab8307",
+        "created": "2020-10-06T20:18:15.248334Z",
+        "modified": "2021-08-14T01:09:39.773308Z",
+        "name": "when",
+        "tool_version": "last",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "evidence",
+                "url": "http://campbell-anderson.com/",
+                "hashes": {
+                    "MD5": "1045d222ce24aa385a3bc2c16ca38308",
+                    "SHA-1": "aa09c7e8f0ec75cfd7924b54d4208a5af18fd82e",
+                    "SHA-256": "aec0233338a911d6321d44af24a814b9f5332cbaa3ffae01984aa57166b3ffaf",
+                    "SHA-512": "a279f221a76aa2ad8bc8ec367e0dc0ba752c1b349524e99bf10c8039bbcc9a2271a07dcd20ce4364ade04c176a37345a46baebaf668e176b4d2baddfe5702b1c",
+                    "SHA3-256": "e546d63e2dbee725e6ecbaba47b4c329c295f879bc9856c397879908f81ab203",
+                    "SHA3-512": "c2883603da5f49f1f5a7c5eadaef27cb694c791a28015bd462ad9e11557b3072678c68302d148cf17289ab591b493cb234c7ec6b65a8c86e5a1fb116c3321b72"
+                },
+                "external_id": "xvdKcwNKnrnUKRPKFzl"
+            },
+            {
+                "source_name": "whether",
+                "url": "https://dixon.com/",
+                "hashes": {
+                    "MD5": "93b98339182493de4356461b4afa36b9",
+                    "SHA-1": "b493705fba379efe46deb5c864a16d3fd2fb6e35",
+                    "SHA-256": "6aa73e43b8f209214757ba021da4aa2819d818df9c9fc17c1d80539a50e7a5e1",
+                    "SHA-512": "783ff7c32cb808f025c304a10b0a8ec575e0f13fb6cecf16a14d5ac58345d6999b4f3d071aef06300396237d3a5bfcd4cbbdccb77dc3213dd903bb8b7d1a151d",
+                    "SHA3-256": "379e06f965877b92ab95fde991b816ae32f51649e6e2d18fd4b24ad03fa765f8",
+                    "SHA3-512": "efef6e71fce47cf4227536fcc2434a3b32d0a83854a209f94c3396c93866017f89da61440615668aafaa23d612c3120b5ebbc14f94f5b9472bbdaddc0c9a7054"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b44b9f82-6452-41d0-a3f1-142488c4823c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--873ca642-1d94-40d1-b902-f9ffcdc27fae",
+        "created_by_ref": "identity--1b20817d-815d-4bc0-b657-a0aac0ab8307",
+        "created": "2022-03-05T09:05:55.072174Z",
+        "modified": "2022-08-28T20:13:50.330491Z",
+        "name": "create",
+        "description": "Doctor everybody station democratic politics man field.",
+        "confidence": 11,
+        "external_references": [
+            {
+                "source_name": "discover",
+                "description": "Will each wish know.",
+                "hashes": {
+                    "MD5": "5444930dba292b2db45c6b6d3143cd7c",
+                    "SHA-1": "5a5cc0fd76aa7b7f71e2e85595f6fdfbd4f3a2fa",
+                    "SHA-256": "77f0510df8700be62386fbaa2dde297ad723be5e8053e9fefc16f1f701962b1b",
+                    "SHA-512": "67d97651e1f34c43dc948595260590a237f37356a4c727e023e9352118a9f941a2735d3b996825d1b6d3cf27181ee300c03283c2a8a59956be266ff1b6502827",
+                    "SHA3-256": "f9348daeeac06aed95f4eae37b8a56d73835a86bbde179f6f8d9aef47cf8209b",
+                    "SHA3-512": "77e69a42f16af71dc5159d3ada269fb8b8c5c33a2745772de08efc7e30be83ea8684c1cb8aae515acb8bbc485346d0b13827c06e7ccf0b69accaccbe95c7ce9f"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b44b9f82-6452-41d0-a3f1-142488c4823c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c5eecd20-4049-4330-a5dc-0e2376760be0",
+        "created_by_ref": "identity--1b20817d-815d-4bc0-b657-a0aac0ab8307",
+        "created": "2021-11-08T18:41:08.503259Z",
+        "modified": "2022-03-31T09:49:25.189716Z",
+        "relationship_type": "targets",
+        "source_ref": "tool--0d3dae7a-f136-44f8-a192-481d7b82cf9c",
+        "target_ref": "infrastructure--873ca642-1d94-40d1-b902-f9ffcdc27fae",
+        "object_marking_refs": [
+            "marking-definition--b44b9f82-6452-41d0-a3f1-142488c4823c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1b20817d-815d-4bc0-b657-a0aac0ab8307",
+        "created_by_ref": "identity--1b20817d-815d-4bc0-b657-a0aac0ab8307",
+        "created": "2021-03-01T06:22:03.419512Z",
+        "modified": "2022-02-17T21:49:11.306732Z",
+        "name": "Smith, Hardy and Johnson",
+        "identity_class": "individual",
+        "object_marking_refs": [
+            "marking-definition--b44b9f82-6452-41d0-a3f1-142488c4823c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b44b9f82-6452-41d0-a3f1-142488c4823c",
+        "created": "2021-08-14T01:09:39.772527Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fb4e63d-338f-4f0a-b771-dd937b9aaabe",
+                "name": "Human on join spring",
+                "create_date_time": "2021-08-14T01:08:08.425512Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.425314Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

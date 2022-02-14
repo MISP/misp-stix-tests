@@ -1,0 +1,160 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--6d71b578-7de9-4098-bd8b-c8a9f8d14871",
+        "created_by_ref": "identity--9e931219-c05b-45ed-bd42-04bc891fef34",
+        "created": "2020-09-22T03:30:04.666885Z",
+        "modified": "2021-08-17T08:24:46.867551Z",
+        "name": "dinner",
+        "description": "Though push measure professional including media should.",
+        "aliases": [
+            "school",
+            "pick"
+        ],
+        "first_seen": "2020-09-20T21:51:36.376771Z",
+        "last_seen": "2020-10-02T17:17:39.634897Z",
+        "primary_motivation": "organizational-gain",
+        "secondary_motivations": [
+            "accidental",
+            "personal-satisfaction",
+            "coercion"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3d12bb4e-b54f-4d78-9a0d-6435a542986d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--8f9f3b83-a88f-4cb7-a9dd-f240cbb841b7",
+        "created_by_ref": "identity--9e931219-c05b-45ed-bd42-04bc891fef34",
+        "created": "2022-05-27T04:32:09.466333Z",
+        "modified": "2022-08-31T20:58:08.218929Z",
+        "name": "year",
+        "description": "Simply simply reduce director save way.",
+        "infrastructure_types": [
+            "botnet",
+            "firewall",
+            "exfiltration",
+            "amplification",
+            "hosting-target-lists"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "LCXzzwuxfNLzjhDb",
+                "phase_name": "ZaxGniUGSDntkDLpRXvj"
+            }
+        ],
+        "first_seen": "2021-02-15T08:38:19.577346Z",
+        "labels": [
+            "play",
+            "direction",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3d12bb4e-b54f-4d78-9a0d-6435a542986d"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e667043c-5183-41fd-a319-573eb03dfd98",
+        "created_by_ref": "identity--9e931219-c05b-45ed-bd42-04bc891fef34",
+        "created": "2021-01-10T07:48:42.002038Z",
+        "modified": "2021-08-14T01:08:53.034175Z",
+        "relationship_type": "hosts",
+        "source_ref": "intrusion-set--6d71b578-7de9-4098-bd8b-c8a9f8d14871",
+        "target_ref": "infrastructure--8f9f3b83-a88f-4cb7-a9dd-f240cbb841b7",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3d12bb4e-b54f-4d78-9a0d-6435a542986d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--3d12bb4e-b54f-4d78-9a0d-6435a542986d",
+        "created_by_ref": "identity--9e931219-c05b-45ed-bd42-04bc891fef34",
+        "created": "2021-08-14T01:08:53.032925Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--9e931219-c05b-45ed-bd42-04bc891fef34",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-14T18:40:59.555554Z",
+        "modified": "2021-08-14T01:08:53.034431Z",
+        "name": "Cain Inc",
+        "sectors": [
+            "energy",
+            "telecommunications",
+            "chemical"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3d12bb4e-b54f-4d78-9a0d-6435a542986d"
+        ]
+    }
+]

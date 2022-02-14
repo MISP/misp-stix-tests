@@ -1,0 +1,184 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--4363c855-0044-4d33-a701-967e3c06dec8",
+        "created_by_ref": "identity--a2c7db3f-bf42-495f-8a5d-c15f67fd965c",
+        "created": "2022-02-26T07:35:12.652099Z",
+        "modified": "2022-05-25T01:37:57.651218Z",
+        "name": "yard",
+        "description": "For anyone course sure.",
+        "external_references": [
+            {
+                "source_name": "high",
+                "url": "https://www.lindsey.org/"
+            },
+            {
+                "source_name": "deal",
+                "description": "Program build really.",
+                "url": "https://lyons.com/",
+                "external_id": "rrisAmWLXkJsLVkVv"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--5b951a20-ea6d-4f94-a020-0da468763543"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--12505cb3-e086-4592-9b5c-3c8f10428d82",
+        "created_by_ref": "identity--a2c7db3f-bf42-495f-8a5d-c15f67fd965c",
+        "created": "2022-08-08T19:09:40.456648Z",
+        "modified": "2022-10-11T08:18:59.341117Z",
+        "name": "Rodriguez-Allen",
+        "description": "Automated empowering access",
+        "identity_class": "individual",
+        "sectors": [
+            "retail",
+            "infrastructure",
+            "government-national",
+            "entertainment"
+        ],
+        "contact_information": "846 Steve Mountain\nMoorefurt, MA 50889",
+        "labels": [
+            "represent",
+            "manage",
+            "design",
+            "pfte-batch-1"
+        ],
+        "confidence": 42,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--5b951a20-ea6d-4f94-a020-0da468763543"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4ac7ce5a-0af8-46ca-a875-e68a05f7dc8a",
+        "created_by_ref": "identity--a2c7db3f-bf42-495f-8a5d-c15f67fd965c",
+        "created": "2021-09-24T13:42:10.584231Z",
+        "modified": "2022-04-16T14:20:54.296961Z",
+        "relationship_type": "targets",
+        "source_ref": "attack-pattern--4363c855-0044-4d33-a701-967e3c06dec8",
+        "target_ref": "identity--12505cb3-e086-4592-9b5c-3c8f10428d82",
+        "start_time": "2022-03-12T19:04:42.321703Z",
+        "stop_time": "2022-07-12T00:18:56.038084Z",
+        "confidence": 76,
+        "object_marking_refs": [
+            "marking-definition--5b951a20-ea6d-4f94-a020-0da468763543"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--5b951a20-ea6d-4f94-a020-0da468763543",
+        "created_by_ref": "identity--a2c7db3f-bf42-495f-8a5d-c15f67fd965c",
+        "created": "2021-08-14T01:08:09.361154Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2828523e-b28d-4046-9afc-51d22e18d79b",
+                "name": "Social price record ever reveal physical each",
+                "create_date_time": "2021-08-14T01:08:08.418751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.418527Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a2c7db3f-bf42-495f-8a5d-c15f67fd965c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-19T03:10:42.026025Z",
+        "modified": "2021-10-16T15:46:57.444491Z",
+        "name": "DifficultOutsideProvide",
+        "contact_information": "32603 Carlos Canyon\nCodyborough, NC 37376",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "expect",
+                "description": "Political whose hold.",
+                "url": "https://crane.com/",
+                "hashes": {
+                    "MD5": "070db8b8df2947556067b8ccec5c4c40",
+                    "SHA-1": "b15edb5821d7ea6df38ca4b17c05d3a02fd88f92",
+                    "SHA-256": "a3c2177177b0ef4fe6c5f44ebe8707717dc4eeb375f3e74056d5bf508e97b818",
+                    "SHA-512": "9799687ee584cd031c9e2f8f6fb3bcb5f6d60a7a0e12bfa4a0da0c9a6802783546553e905dd0ee2619627e7f4295720f179639fd59249938a683842b00ce3007",
+                    "SHA3-256": "5f52bb2934b1d13ec6637c87cc5362d48d633ec3544e66d7ecca430e7d82805b",
+                    "SHA3-512": "5955f3877c02c49034610155f50939af72a86fc67adc0e83967b01dd3d77e5511d17d5ed11ade7e3af31ba84572dcbafdb0bcfd40f9c299e9aa94fd17f532023"
+                },
+                "external_id": "KseDqQifmiVmGH"
+            },
+            {
+                "source_name": "cultural",
+                "url": "http://holloway-lowery.com/",
+                "external_id": "JszizuSzvzwTuHYQb"
+            },
+            {
+                "source_name": "item",
+                "description": "Fear oil show eye address."
+            },
+            {
+                "source_name": "do",
+                "description": "Catch exactly product send both meeting party.",
+                "external_id": "oxWVssPOaKxkGvf"
+            },
+            {
+                "source_name": "control",
+                "description": "Sell good town happy house.",
+                "url": "http://www.kim.info/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--5b951a20-ea6d-4f94-a020-0da468763543"
+        ]
+    }
+]

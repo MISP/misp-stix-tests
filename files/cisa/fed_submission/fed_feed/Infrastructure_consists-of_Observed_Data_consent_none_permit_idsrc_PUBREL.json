@@ -1,0 +1,263 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--5b15c640-e8a4-4ac7-9514-ed517727cc09",
+        "created_by_ref": "identity--fad9caf9-5370-40c4-8f8d-403fe8628841",
+        "created": "2022-07-17T05:57:19.271766Z",
+        "modified": "2023-02-22T09:58:19.039715Z",
+        "name": "spend",
+        "description": "Drive simply protect history feel.",
+        "infrastructure_types": [
+            "command-and-control",
+            "anonymization",
+            "hosting-malware"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--6934f8c4-4cfc-4545-9b82-609cd46c45e1"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--c8f23207-5566-4565-a8d2-ea60b774f2fe",
+        "created_by_ref": "identity--fad9caf9-5370-40c4-8f8d-403fe8628841",
+        "created": "2020-11-11T22:49:01.97531Z",
+        "modified": "2021-08-14T01:08:43.825309Z",
+        "first_observed": "2021-02-20T13:07:10.867476Z",
+        "last_observed": "2021-05-25T04:49:46.866981Z",
+        "number_observed": 413417764,
+        "objects": {
+            "autonomous-system--25b33d3a-449a-44d5-ba04-6faeb95301ce": {
+                "type": "autonomous-system",
+                "spec_version": "2.1",
+                "id": "autonomous-system--25b33d3a-449a-44d5-ba04-6faeb95301ce",
+                "number": 380
+            }
+        },
+        "confidence": 78,
+        "external_references": [
+            {
+                "source_name": "she",
+                "description": "Example set cup often myself point including.",
+                "external_id": "DocBSTvAqipviLtMz"
+            },
+            {
+                "source_name": "night",
+                "url": "http://parker.com/",
+                "external_id": "SQgbhOFnJOMCmzVteR"
+            },
+            {
+                "source_name": "system",
+                "description": "Sing action month hour officer public morning.",
+                "hashes": {
+                    "MD5": "31052efdd81a372ae62046dfc4dfd2d1",
+                    "SHA-1": "a27e35aa28c4d2af6253d54038222b90822d240a",
+                    "SHA-256": "bbf8110d483210b3217b0b64ec5d6c0169b645e1c46b829a2d1ae273142f6e42",
+                    "SHA-512": "3f959ad1a0d824630a21946640e2b0ce988d1051bc326ec868be6bd97d020398f705603f19da034e7f86d2179cf7895bc938fce2cb69482c6948e82a4c2d555e",
+                    "SHA3-256": "32119cc388d547d38d083263c2d6163b97ca34abebc1633c5d0a4a4527ec8e80",
+                    "SHA3-512": "b1f3640dbee15869ad6a4bf3f4bb03a5c7a7a853c91b47cee63f71e34b7f9095b947ad5b0b03546af7aff71cf238db89c99ec5c471142bb60e7e4cd164e40198"
+                },
+                "external_id": "GyvORNXod"
+            },
+            {
+                "source_name": "establish",
+                "url": "http://jones.org/",
+                "hashes": {
+                    "MD5": "d740d6749fbd152e8577b71789199b65",
+                    "SHA-1": "2fde4d2914368df7f69382deaa5857ba7c4c9a58",
+                    "SHA-256": "2feb570c857d922223fc81b32b8ca0c774097690a3a7c6a2e0c9d904335a560f",
+                    "SHA-512": "a8c67149ecf742cf70812b3f15129b25113f4b42f25ecbb60a2c9cb65c242b2824152202141f392d9a78afbfaf7121daf86f974e34192161719f902d505c1545",
+                    "SHA3-256": "cbb252edc7c99cf42b15a9a838225c8b170e0ad7d43ecbef0b1af5f3186d210b",
+                    "SHA3-512": "59817e39793e09880a0b7082c8b805452e4e8bc03e6527a0328989ec22cede91ca05ab2dbe6d712bf5fea6ef4ae450cd1eac2a308b3b75a7bec82d6adbde7f03"
+                }
+            },
+            {
+                "source_name": "first",
+                "external_id": "WOwoLwrCJVMEpGKzRKCQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--6934f8c4-4cfc-4545-9b82-609cd46c45e1"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--9e3ed494-0435-426b-811c-2a6a4a35db1e",
+        "created_by_ref": "identity--fad9caf9-5370-40c4-8f8d-403fe8628841",
+        "created": "2021-11-19T11:12:07.748027Z",
+        "modified": "2022-07-23T19:14:33.153886Z",
+        "relationship_type": "consists-of",
+        "source_ref": "infrastructure--5b15c640-e8a4-4ac7-9514-ed517727cc09",
+        "target_ref": "observed-data--c8f23207-5566-4565-a8d2-ea60b774f2fe",
+        "stop_time": "2020-11-10T19:05:46.160221Z",
+        "labels": [
+            "here",
+            "discuss",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "project",
+                "description": "Realize authority Mrs today teacher explain west stay.",
+                "hashes": {
+                    "MD5": "3acf20e7694cd9d878b102381f8bb7f3",
+                    "SHA-1": "d5482e7507f353e91ed28717e96a340c96e0818b",
+                    "SHA-256": "1185615b9f49a0ef560c08523d9b19877e114b4da306f6f2a8944409c32e2987",
+                    "SHA-512": "d99467656a0a0db9ddea059c572c4918aacc5316d11b3f4e95653de681ecb4b0e2915d991f2b94dd9ed45d40a8087f9728c1e46158a9ca2aafdd73f1961d5771",
+                    "SHA3-256": "d5a9512d0cf7f9180606faeef7c7f6710bdf096116f95c3aa72a1728069aac00",
+                    "SHA3-512": "bf3fcd15e56045b37807cc3cbc26c25c99d39b98913aeda4cff1193af805982f8baf0243e7bdeaabbb2342b333cc9dc6d7837278dfe55928855d8bc0bf9e1ec6"
+                }
+            },
+            {
+                "source_name": "suffer",
+                "description": "Specific support certain.",
+                "url": "http://rodriguez.com/",
+                "hashes": {
+                    "MD5": "6b848ac4403f56b2da1a838cae00638c",
+                    "SHA-1": "c9764612032bfb9ac8e947f8d9e352564041ff48",
+                    "SHA-256": "2b283a93114e949d8701d5eec0ae3945856b91670a90e8436c3bffbe2e9d7e61",
+                    "SHA-512": "38ad9844abe4a8372f87674460c3c1eed487fb5d1f1b44a2265968a964713fb766d7fccd3cc2a23e4fd8c0d4f9a1e80383aa78dcf23612f369295e0f6adb915a",
+                    "SHA3-256": "06732c8db3a103d5ebba421617b635c72272ebb5d1306302b2560b23b9c9cfc0",
+                    "SHA3-512": "d015347cbc338a27a7448a7c5c816afca484278d874c3fa0e97122d9e231ff99f86169e1c773d1598729eb65728470be2cf0c28705c2724e9772cd07ddab420e"
+                },
+                "external_id": "DPrrtXcOGKBQnPe"
+            },
+            {
+                "source_name": "spend",
+                "external_id": "YmkgCEiARLdzByVWZqd"
+            },
+            {
+                "source_name": "thing",
+                "description": "Page education hand.",
+                "external_id": "HyCZqDHkkffkUHY"
+            },
+            {
+                "source_name": "mean",
+                "description": "Page night benefit identify.",
+                "url": "https://jacobs-anderson.net/",
+                "external_id": "LeVUjivTMox"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--6934f8c4-4cfc-4545-9b82-609cd46c45e1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--fad9caf9-5370-40c4-8f8d-403fe8628841",
+        "created_by_ref": "identity--fad9caf9-5370-40c4-8f8d-403fe8628841",
+        "created": "2021-08-04T02:08:45.83509Z",
+        "modified": "2022-03-07T23:37:31.041414Z",
+        "name": "White-Mccormick",
+        "roles": [
+            "camera",
+            "soldier",
+            "organization"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "healthcare",
+            "dams",
+            "utilities"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--6934f8c4-4cfc-4545-9b82-609cd46c45e1"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--6934f8c4-4cfc-4545-9b82-609cd46c45e1",
+        "created": "2021-08-14T01:08:43.823785Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c37eda22-f302-4b2e-bf63-7f8ea35d72b0",
+                "name": "Event really first our country somebody",
+                "create_date_time": "2021-08-14T01:08:08.426408Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.426228Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,177 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--24377afe-6da4-4842-9bc0-d440eb26cce0",
+        "created_by_ref": "identity--77079914-fd4a-4497-b85e-9e15434f3378",
+        "created": "2022-08-05T10:26:15.669914Z",
+        "modified": "2022-10-05T20:02:12.156942Z",
+        "name": "yet",
+        "aliases": [
+            "benefit",
+            "they"
+        ],
+        "confidence": 51,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b22c4745-f8a1-45fe-9c48-c4e24360c0e6"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--ed470995-6b39-4a5f-9205-75e231297c91",
+        "created_by_ref": "identity--77079914-fd4a-4497-b85e-9e15434f3378",
+        "created": "2021-07-02T21:32:21.473255Z",
+        "modified": "2021-08-14T01:08:10.242176Z",
+        "name": "SXbqYrIHftmWJy",
+        "description": "User-friendly grid-enabled alliance",
+        "latitude": 57.71749471220019,
+        "longitude": -117.86870538962367,
+        "precision": 69.30995773673733,
+        "region": "northern-america",
+        "city": "Justinbury",
+        "street_address": "8137 Melanie Unions",
+        "object_marking_refs": [
+            "marking-definition--b22c4745-f8a1-45fe-9c48-c4e24360c0e6"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--6281ab3e-2ffa-4c2d-8af8-631ac2ba9722",
+        "created_by_ref": "identity--77079914-fd4a-4497-b85e-9e15434f3378",
+        "created": "2021-03-04T17:39:23.704808Z",
+        "modified": "2021-12-11T05:40:13.003022Z",
+        "relationship_type": "targets",
+        "source_ref": "attack-pattern--24377afe-6da4-4842-9bc0-d440eb26cce0",
+        "target_ref": "location--ed470995-6b39-4a5f-9205-75e231297c91",
+        "labels": [
+            "play",
+            "during",
+            "moment",
+            "about",
+            "surface",
+            "pfte-batch-1"
+        ],
+        "confidence": 63,
+        "object_marking_refs": [
+            "marking-definition--b22c4745-f8a1-45fe-9c48-c4e24360c0e6"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b22c4745-f8a1-45fe-9c48-c4e24360c0e6",
+        "created_by_ref": "identity--77079914-fd4a-4497-b85e-9e15434f3378",
+        "created": "2021-08-14T01:08:10.241352Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f98cddfd-8461-4143-a969-e6e230df21d4",
+                "name": "Word describe cold color",
+                "create_date_time": "2021-08-14T01:08:08.422252Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--77079914-fd4a-4497-b85e-9e15434f3378",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-09T18:44:44.108352Z",
+        "modified": "2021-08-14T01:08:10.242998Z",
+        "name": "Garcia-Oliver",
+        "description": "Distributed leadingedge standardization",
+        "sectors": [
+            "dams",
+            "construction",
+            "pharmaceuticals",
+            "aerospace",
+            "government-public-services"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 11,
+        "external_references": [
+            {
+                "source_name": "simply",
+                "description": "If soon cold little choose.",
+                "external_id": "gFORP"
+            },
+            {
+                "source_name": "now",
+                "description": "Agreement to professional card nothing help."
+            },
+            {
+                "source_name": "man",
+                "url": "https://pennington-thompson.com/",
+                "external_id": "aIrKnRuIDTVnyyM"
+            },
+            {
+                "source_name": "officer",
+                "description": "Serve process teacher buy task somebody.",
+                "hashes": {
+                    "MD5": "afb7c3a3840dd3bf646437472b733ac1",
+                    "SHA-1": "b040a432611121b6db79379d0b73592260c955bf",
+                    "SHA-256": "5c64aeff69bc4a1a6932494792af59f88a4937be66394775b7469fdf94db2c72",
+                    "SHA-512": "3e05f87f7f2b74b89fcbcdba9d9d913ea1da796e5f4cef5acef92816e9879b7a41b52de6fc27f43bdf0a13c42236263de953d4a2b54be9a004df936de6b4a54a",
+                    "SHA3-256": "c34bc053edd21027126347eea795d815414419af07bfba8b3ca9a05199bf1cc6",
+                    "SHA3-512": "38cb4a4e21c653e95fb31df8825d11b7e3825e046df5cda35869c21258c5922901a18bbfeb0ba1e3a0ee7914f26bdb9d9a8f4da5a0333edf7fdeda9db89182e9"
+                },
+                "external_id": "GKWPwiTEgsWRIvfCoXYH"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b22c4745-f8a1-45fe-9c48-c4e24360c0e6"
+        ]
+    }
+]

@@ -1,0 +1,141 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--173ccb50-6f92-4cb3-9cb2-20cd75af5001",
+        "created_by_ref": "identity--28756fff-8031-4ffd-aa94-26b55bcbefe2",
+        "created": "2021-01-05T00:57:35.21198Z",
+        "modified": "2021-11-06T08:33:12.449197Z",
+        "name": "past",
+        "description": "Which from what plan rate area much cup.",
+        "first_seen": "2021-04-19T23:00:37.052323Z",
+        "labels": [
+            "member",
+            "since",
+            "toward",
+            "goal",
+            "various",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--957e8a31-a05d-4ca2-b914-4e3963bc847e"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--acfc89cc-adac-4f36-980f-3b7e4252751e",
+        "value": "https://garrett.com/",
+        "object_marking_refs": [
+            "marking-definition--957e8a31-a05d-4ca2-b914-4e3963bc847e"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--9f29df88-0ff7-40bc-b0f1-7b10faecb98f",
+        "created_by_ref": "identity--28756fff-8031-4ffd-aa94-26b55bcbefe2",
+        "created": "2020-11-13T01:53:09.680609Z",
+        "modified": "2021-08-14T01:08:41.95937Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--173ccb50-6f92-4cb3-9cb2-20cd75af5001",
+        "target_ref": "url--acfc89cc-adac-4f36-980f-3b7e4252751e",
+        "object_marking_refs": [
+            "marking-definition--957e8a31-a05d-4ca2-b914-4e3963bc847e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--28756fff-8031-4ffd-aa94-26b55bcbefe2",
+        "created_by_ref": "identity--28756fff-8031-4ffd-aa94-26b55bcbefe2",
+        "created": "2020-12-11T04:28:55.629426Z",
+        "modified": "2021-10-04T10:33:09.266817Z",
+        "name": "Tran, Butler and Pham",
+        "identity_class": "system",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 74,
+        "object_marking_refs": [
+            "marking-definition--957e8a31-a05d-4ca2-b914-4e3963bc847e"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--957e8a31-a05d-4ca2-b914-4e3963bc847e",
+        "created": "2021-08-14T01:08:41.958442Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fadf816-7ba3-41ea-a52c-2855b3ec9d5a",
+                "name": "Report official major we center outside throughout population",
+                "create_date_time": "2021-08-14T01:08:08.433803Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

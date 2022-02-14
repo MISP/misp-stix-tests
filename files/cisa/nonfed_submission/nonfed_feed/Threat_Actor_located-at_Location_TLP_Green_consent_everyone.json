@@ -1,0 +1,141 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--e1cbb0a3-b3f0-494a-9218-19fabbf08499",
+        "created_by_ref": "identity--077b51f4-5aaa-43db-b203-73e2272961f7",
+        "created": "2021-08-24T12:18:24.116924Z",
+        "modified": "2021-08-31T07:52:00.956671Z",
+        "name": "drug",
+        "first_seen": "2020-10-17T03:00:36.655828Z",
+        "last_seen": "2021-04-04T20:31:00.473253Z",
+        "roles": [
+            "malware-author"
+        ],
+        "sophistication": "innovator",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "seven",
+                "url": "https://www.davis.com/",
+                "hashes": {
+                    "MD5": "72dfb607db232f834774354f3c839fee",
+                    "SHA-1": "da59e40cbd769a6b98eab14ce394b1134f577a4c",
+                    "SHA-256": "d711910867d6340c302b6518a4ba16a993a0ce74842c473f51e82085b42bcc44",
+                    "SHA-512": "7bb3783b70125ba4bdfff58e142c75c09e97700678c335e90022515910e21dc4bbbbbaef922a3b7b465d2b44b365bfe19aa6206e2c69a656b8d0a9ef47abf6d9",
+                    "SHA3-256": "350812cbec7cac46d86e1855236d0104d7cb33771a4c5324ffa5b4c2a4a0b0f5",
+                    "SHA3-512": "f7b87ebd8c885850035aa1e5ca3e967cdc0758b5fe1ffc969c4f3dab4a9af8f2275837994b9b0cef36bfa9f87c3f90d44c0a2548937f80a9055dac562810916d"
+                }
+            },
+            {
+                "source_name": "enjoy",
+                "url": "https://dennis-macdonald.biz/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--3f7db58d-a2f1-416c-8943-54d1adb6eda4",
+        "created_by_ref": "identity--077b51f4-5aaa-43db-b203-73e2272961f7",
+        "created": "2022-05-14T05:52:58.592292Z",
+        "modified": "2023-03-25T05:17:49.270026Z",
+        "description": "Re-engineered even-keeled forecast",
+        "latitude": -61.93802577461132,
+        "longitude": 176.90327911360532,
+        "precision": 80.11578660501534,
+        "country": "Guinea-Bissau",
+        "administrative_area": "cPbcWfljVazpWMc",
+        "city": "South Alicia",
+        "street_address": "405 Nicole Club Suite 881",
+        "postal_code": "23654",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 59,
+        "external_references": [
+            {
+                "source_name": "culture",
+                "description": "Create affect team same.",
+                "hashes": {
+                    "MD5": "a458f031055e2a9793875aee67303eb1",
+                    "SHA-1": "2de0a4cde5b747a27be2aaabdf5da427b2ae6542",
+                    "SHA-256": "7887ffc533f5900504512ba1683bf8b7fc6f7b4597dbb2133b75c2059394c36a",
+                    "SHA-512": "da36b1a4e326b520e6ebffcc3cf1369976c1749d377e70a067aeaa735400de630f932f113b469c5e606bc4679a3080164727f20b63d3c843d61c2cc43315ad5b",
+                    "SHA3-256": "af6ebfd9f55e8a8d660c396761088adda5a0ba55018ee16ca8fcd0ee6a57f4b3",
+                    "SHA3-512": "dc5456a21edf0caab7a59b17c7dfea2aee419d35e6caa6cf2d0b046d8d90c9be045e4d3635b33d54606f772ad80b2ffadfb257c97708b80e7817936b403f1d0e"
+                },
+                "external_id": "eYwOLQnONCYYEp"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--fcc4c19a-4bc0-4069-a1ed-63679016f840",
+        "created_by_ref": "identity--077b51f4-5aaa-43db-b203-73e2272961f7",
+        "created": "2021-06-16T15:29:46.886111Z",
+        "modified": "2021-08-14T01:09:29.026229Z",
+        "relationship_type": "located-at",
+        "source_ref": "threat-actor--e1cbb0a3-b3f0-494a-9218-19fabbf08499",
+        "target_ref": "location--3f7db58d-a2f1-416c-8943-54d1adb6eda4",
+        "start_time": "2021-08-03T16:51:18.949755Z",
+        "stop_time": "2022-07-04T10:46:14.841455Z",
+        "labels": [
+            "gun",
+            "single",
+            "huge",
+            "democratic",
+            "contain",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--077b51f4-5aaa-43db-b203-73e2272961f7",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-03-20T03:09:28.118169Z",
+        "modified": "2022-02-09T17:21:43.286078Z",
+        "name": "Reeves Ltd",
+        "roles": [
+            "mean",
+            "edge",
+            "production",
+            "go"
+        ],
+        "identity_class": "system",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "dark",
+                "description": "Rich per piece could price certain.",
+                "external_id": "LwYPEMyDnTtiJCs"
+            },
+            {
+                "source_name": "mouth",
+                "external_id": "iIQjFmpTzUI"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

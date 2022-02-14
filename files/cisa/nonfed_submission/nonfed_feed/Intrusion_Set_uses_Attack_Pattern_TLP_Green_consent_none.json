@@ -1,0 +1,136 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--72ae2794-23ac-407b-a4ca-9174724704a0",
+        "created_by_ref": "identity--89a52ca9-1ede-48d8-b1e1-bc1e1c869eab",
+        "created": "2021-12-08T22:35:39.720793Z",
+        "modified": "2022-01-16T10:30:34.439314Z",
+        "name": "really",
+        "first_seen": "2020-07-23T22:10:36.033441Z",
+        "last_seen": "2021-02-28T01:22:09.944041Z",
+        "resource_level": "government",
+        "secondary_motivations": [
+            "coercion",
+            "ideology",
+            "ideology",
+            "ideology"
+        ],
+        "labels": [
+            "age",
+            "able",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--0c383eb9-d5f4-4dfc-aa54-d926d31a313d",
+        "created_by_ref": "identity--89a52ca9-1ede-48d8-b1e1-bc1e1c869eab",
+        "created": "2021-06-30T14:39:41.329669Z",
+        "modified": "2021-11-21T06:46:13.75278Z",
+        "name": "decide",
+        "description": "Price dark happen thousand financial lot.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 65,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--45dc7ee3-93db-47bd-9588-076562d26f90",
+        "created_by_ref": "identity--89a52ca9-1ede-48d8-b1e1-bc1e1c869eab",
+        "created": "2021-05-07T16:20:03.83144Z",
+        "modified": "2022-03-28T03:25:03.601909Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--72ae2794-23ac-407b-a4ca-9174724704a0",
+        "target_ref": "attack-pattern--0c383eb9-d5f4-4dfc-aa54-d926d31a313d",
+        "start_time": "2022-02-26T23:16:14.251996Z",
+        "stop_time": "2022-12-03T05:22:22.117665Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 26,
+        "external_references": [
+            {
+                "source_name": "north",
+                "url": "http://www.kelley-sharp.com/",
+                "external_id": "VilXxatgLnQaLVIoo"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--89a52ca9-1ede-48d8-b1e1-bc1e1c869eab",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-11-21T19:58:48.927505Z",
+        "modified": "2021-10-02T21:07:24.238736Z",
+        "name": "PeopleLiveGreen",
+        "description": "Team-oriented tangible capability",
+        "identity_class": "organization",
+        "contact_information": "7682 Taylor Skyway\nNew Jamiemouth, FL 24354",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "mention",
+                "description": "Side piece ground type reason friend.",
+                "hashes": {
+                    "MD5": "eb67d23440f73c8b685b778bb98be15b",
+                    "SHA-1": "77d1377ee5e04e6dfa7151bec46629ec474bd590",
+                    "SHA-256": "b624b27e53422d9d105d692944197814d2659b50686e3f28ac63bc680c9cfec1",
+                    "SHA-512": "f3ebf5463d4f2e59a26c011d0876e8f173079a5b53cc803a35a1bcf0e061be92d3500cbafa9dfa43835a6b44e9cc2c805a728d15e7f4b90e802fb403f5316ce5",
+                    "SHA3-256": "f6167cc4a75e993cd28f4934c5b1059b120cfbc48850baadfdc0c218c4980bcd",
+                    "SHA3-512": "cda4b0be8c6aaa25ea888815df72fdf324a8488efbea99e077be8bd0f1fa9d1c37a8d48b1c71bde019bfd9809cafbd803a57a169a1feeb80547ac59cba9058ed"
+                }
+            },
+            {
+                "source_name": "thousand",
+                "url": "http://reyes.info/",
+                "hashes": {
+                    "MD5": "597a4fc953a48208370761221ed0681a",
+                    "SHA-1": "27a97a0c2fe31036e39b9b42c30d7cb4a5bcd527",
+                    "SHA-256": "3a565e0813a170650aa583c318d742a5eaafc055af984c94d25600f38b38f324",
+                    "SHA-512": "0c482d03b134bfddc37799f309f993c68bc36d0c19c3be2cd8812bd4489a324694d08a99c4dece81d1ff7f99241c1a44c383a67c381cd238d52e56238ff5a13b",
+                    "SHA3-256": "1b1ab1a3f16b97d3fa523891b05e72a8bd78cd959d1cecc32019be22dfad8da3",
+                    "SHA3-512": "2f6a9ef32e6d585b40cf213aa01557add4e6ca53718bde8c3e5c707315be3e9bfd1d26efe954f3072e311c90df9d297d0171f7b89d6a9ba24cf754ecd320fe0a"
+                },
+                "external_id": "YhxRzncPOGeHojw"
+            },
+            {
+                "source_name": "art",
+                "description": "Language possible another sea prepare herself.",
+                "url": "https://www.fuller.com/",
+                "hashes": {
+                    "MD5": "056979fbdfc45c246a404e9d9fad8317",
+                    "SHA-1": "4944209a0aeecd945231f7c9e224d117ae86c958",
+                    "SHA-256": "9460170bcc699069d1c3a137bcab3e116b65917c71514bfe490aff697856c061",
+                    "SHA-512": "e62393fa8e4a1e9f2941964a8e549b428689dab7ff0c09513f65a3de4ea9eab678c5cb04d644fad6e3ebeac36f01890a3d79b11cb33428f1fc91a1702e54863d",
+                    "SHA3-256": "6768679e884f76fa48e8dcf2ea4780ad41e2a87ad88720921208181e35f6f5d7",
+                    "SHA3-512": "aa36ec5627829ffe2506fc011d12bd71a9d034c13bf5b107ca53bdc6f665572c9c5da60f6e454d2130675d7b931282cf51d501f1a7a6fb19ad788378447f39ce"
+                }
+            },
+            {
+                "source_name": "move",
+                "description": "West hold hit yes knowledge.",
+                "url": "https://www.mendoza.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

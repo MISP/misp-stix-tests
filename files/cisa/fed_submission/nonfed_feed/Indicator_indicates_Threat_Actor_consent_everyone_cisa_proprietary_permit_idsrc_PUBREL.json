@@ -1,0 +1,157 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--77561509-8f15-4563-9a63-434f399e3641",
+        "created_by_ref": "identity--5d34bbba-6e47-474c-a06a-c597259b2b01",
+        "created": "2020-12-11T08:55:45.56316Z",
+        "modified": "2021-12-04T05:44:14.242353Z",
+        "name": "first",
+        "pattern": "[mac-addr:value >= 'c8:5a:d5:5c:e7:82']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-03-03T06:23:52.026544Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "CPTDMtwrmGkFvnR",
+                "phase_name": "HvsCCbJ"
+            },
+            {
+                "kill_chain_name": "RrnIlWllPNZjCPLDY",
+                "phase_name": "gWgrDLfT"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--a92d2da8-0afc-4415-8529-cbcc4df96ffb",
+        "created_by_ref": "identity--5d34bbba-6e47-474c-a06a-c597259b2b01",
+        "created": "2022-06-16T11:52:27.975331Z",
+        "modified": "2022-07-25T13:12:55.092454Z",
+        "name": "happy",
+        "threat_actor_types": [
+            "crime-syndicate",
+            "competitor",
+            "sensationalist"
+        ],
+        "aliases": [
+            "policy"
+        ],
+        "last_seen": "2021-01-12T20:08:02.636339Z",
+        "roles": [
+            "infrastructure-architect",
+            "malware-author",
+            "sponsor",
+            "infrastructure-architect",
+            "agent"
+        ],
+        "goals": [
+            "picture"
+        ],
+        "sophistication": "strategic",
+        "primary_motivation": "ideology",
+        "secondary_motivations": [
+            "revenge",
+            "notoriety",
+            "unpredictable"
+        ],
+        "personal_motivations": [
+            "unpredictable",
+            "ideology",
+            "revenge",
+            "revenge",
+            "organizational-gain"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d9e9ca1c-adfb-4e28-b9a4-ac830ca32200",
+        "created_by_ref": "identity--5d34bbba-6e47-474c-a06a-c597259b2b01",
+        "created": "2022-03-06T06:05:18.55485Z",
+        "modified": "2023-03-05T12:18:32.109897Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--77561509-8f15-4563-9a63-434f399e3641",
+        "target_ref": "threat-actor--a92d2da8-0afc-4415-8529-cbcc4df96ffb",
+        "start_time": "2020-08-31T07:45:48.480716Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 91,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5d34bbba-6e47-474c-a06a-c597259b2b01",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-30T07:45:52.043813Z",
+        "modified": "2022-06-23T21:18:15.876959Z",
+        "name": "Smith PLC",
+        "description": "User-friendly reciprocal leverage",
+        "roles": [
+            "which",
+            "development",
+            "role"
+        ],
+        "sectors": [
+            "agriculture",
+            "pharmaceuticals",
+            "non-profit",
+            "energy"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 76,
+        "external_references": [
+            {
+                "source_name": "drop",
+                "url": "https://jarvis.org/",
+                "external_id": "RehVYbiy"
+            },
+            {
+                "source_name": "everybody",
+                "description": "Current loss decide campaign music note.",
+                "hashes": {
+                    "MD5": "2aaac8426b59dc3108ad1260fc8f41fa",
+                    "SHA-1": "fe048080a49db9f10d6046633f1b108f1807e7de",
+                    "SHA-256": "20786ca97aa6682bc8853287fcee8ca88536b951557fc9da9306179740498d69",
+                    "SHA-512": "748ce41c7e68ae6574cfafbf49cf351686dba6d34fe4bad7da343397a49d0087eeb5a8944d358401156a9ff3456397a52ab04b4de08bca614f34ab1fae68b212",
+                    "SHA3-256": "d794963bc5e0b8e43d0ac9de0f46635faed2a20a2d7ca0440762849b0b6d16c6",
+                    "SHA3-512": "cfc6121d69097fd31277d3e80980c034613a5caf791839e54ee9da1b63ef5430ff29168a35dce5934fc80245bcb3a660099995276053327523110aaf7b34b0dd"
+                },
+                "external_id": "JMXIVVXdSXDuwYaKzgOG"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

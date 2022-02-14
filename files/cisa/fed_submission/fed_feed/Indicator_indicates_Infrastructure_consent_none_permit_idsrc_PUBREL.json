@@ -1,0 +1,198 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--f739828c-6e6d-4290-81a1-d14c093e781e",
+        "created_by_ref": "identity--22760c48-fd97-4f93-94cf-85d834a03ae6",
+        "created": "2021-07-03T14:23:45.407146Z",
+        "modified": "2022-06-03T12:18:07.04509Z",
+        "name": "high",
+        "description": "Tonight all really five else beautiful argue.",
+        "indicator_types": [
+            "compromised",
+            "benign",
+            "malicious-activity",
+            "malicious-activity"
+        ],
+        "pattern": "[process:created_time >= t'2020-09-13T15:25:11.445973Z'] AND [email-addr:value >= 'imitchell@hotmail.com']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-05-14T10:16:12.565285Z",
+        "labels": [
+            "new",
+            "red",
+            "parent",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--1ac22ad6-ff0b-41d2-887f-da07f1bf25a4"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--ac5481ad-2a9e-42f6-9a76-81c9d2bb30d7",
+        "created_by_ref": "identity--22760c48-fd97-4f93-94cf-85d834a03ae6",
+        "created": "2022-04-12T23:16:33.416404Z",
+        "modified": "2022-07-06T06:27:27.634615Z",
+        "name": "let",
+        "infrastructure_types": [
+            "anonymization",
+            "reconnaissance"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "NUYnTlQbTf",
+                "phase_name": "peRDDoRtDemgdAXDhL"
+            },
+            {
+                "kill_chain_name": "BKDFhvIhcep",
+                "phase_name": "ZiwHiAHNbtJyL"
+            }
+        ],
+        "first_seen": "2022-03-01T07:18:58.743854Z",
+        "last_seen": "2022-03-30T07:35:56.603021Z",
+        "confidence": 47,
+        "external_references": [
+            {
+                "source_name": "work",
+                "url": "https://www.diaz.biz/",
+                "hashes": {
+                    "MD5": "515d3eab5258c954bc96fcc43ec1d537",
+                    "SHA-1": "afff1992698d7dc8f8ebde020ff764f19b273761",
+                    "SHA-256": "baed7da15f9629d9d015e7b42eef7daa05ce4b8cc8b253f31235c59c85389947",
+                    "SHA-512": "9447ed5e63b42ebff84a1b4a58c3099a5c86391a5380661b53637a9a48d5105af184d83d93fda8b87513e62df794fa006173e98d960a38ff5dae8ee21a254a16",
+                    "SHA3-256": "7d1fa23eb424208fb15c2c045704faf518211e37f30e091b830db1fc0af29f87",
+                    "SHA3-512": "81c39b67e621b3a5499a4fc894fb694aa8a5f0c1c42412294960d5e914ca842af7682841d02f547a3f23b1b3d325b247d1061102a65a61fb29ed1135e58ad365"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1ac22ad6-ff0b-41d2-887f-da07f1bf25a4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--33f617b4-e586-428e-ad13-2a2d3e14dcb6",
+        "created_by_ref": "identity--22760c48-fd97-4f93-94cf-85d834a03ae6",
+        "created": "2022-06-19T17:25:02.728306Z",
+        "modified": "2023-05-14T16:44:40.957228Z",
+        "relationship_type": "indicates",
+        "description": "Pass begin face between popular condition state. Democrat live force small usually contain. Industry direction ago prevent my parent.",
+        "source_ref": "indicator--f739828c-6e6d-4290-81a1-d14c093e781e",
+        "target_ref": "infrastructure--ac5481ad-2a9e-42f6-9a76-81c9d2bb30d7",
+        "start_time": "2020-11-27T09:40:46.353854Z",
+        "labels": [
+            "various",
+            "know",
+            "capital",
+            "each",
+            "by",
+            "pfte-batch-1"
+        ],
+        "confidence": 70,
+        "object_marking_refs": [
+            "marking-definition--1ac22ad6-ff0b-41d2-887f-da07f1bf25a4"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--22760c48-fd97-4f93-94cf-85d834a03ae6",
+        "created_by_ref": "identity--22760c48-fd97-4f93-94cf-85d834a03ae6",
+        "created": "2022-08-03T20:45:42.624205Z",
+        "modified": "2023-07-29T20:42:50.869941Z",
+        "name": "King-Rollins",
+        "identity_class": "individual",
+        "contact_information": "644 David Mall\nArnoldfurt, MD 10670",
+        "confidence": 73,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--1ac22ad6-ff0b-41d2-887f-da07f1bf25a4"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--1ac22ad6-ff0b-41d2-887f-da07f1bf25a4",
+        "created": "2021-08-14T01:08:30.320296Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c37eda22-f302-4b2e-bf63-7f8ea35d72b0",
+                "name": "Event really first our country somebody",
+                "create_date_time": "2021-08-14T01:08:08.426408Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.426228Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

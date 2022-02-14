@@ -1,0 +1,146 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--91bd7c7e-6cf3-4138-8dc3-3710b161e7bf",
+        "created_by_ref": "identity--d9f909e2-efab-4cd1-b969-8c40805ebdd4",
+        "created": "2020-10-27T00:20:20.246959Z",
+        "modified": "2021-08-14T01:08:21.892562Z",
+        "name": "later",
+        "confidence": 28,
+        "object_marking_refs": [
+            "marking-definition--fe0c8997-4295-42ce-b8d6-7beef42c7850"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--85c985b6-ad0a-474f-b036-81b46ca65a04",
+        "created_by_ref": "identity--d9f909e2-efab-4cd1-b969-8c40805ebdd4",
+        "created": "2022-03-07T06:35:27.108967Z",
+        "modified": "2022-12-13T06:36:51.319711Z",
+        "description": "Fly walk lead goal board heavy style.",
+        "indicator_types": [
+            "benign",
+            "compromised",
+            "unknown",
+            "compromised"
+        ],
+        "pattern": "([software:name > 'bNHDljj'] FOLLOWEDBY ([ipv6-addr:value < '97c:793:b066:8696:741a:1a1a:4e4:605'] AND [mutex:defanged = false]) START t'2020-10-06T16:08:52.012233Z' STOP t'2022-06-13T20:07:23.133885Z')",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-10-22T23:02:23.52293Z",
+        "valid_until": "2021-11-17T13:04:11.677957Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "HzVDmDTGvN",
+                "phase_name": "kaYPANCCswJvQuKoc"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "nYjhcBM",
+                "phase_name": "auFXhAG"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "labels": [
+            "cost",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fe0c8997-4295-42ce-b8d6-7beef42c7850"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ce9a90a3-a378-4972-9e6e-2391f7726e49",
+        "created_by_ref": "identity--d9f909e2-efab-4cd1-b969-8c40805ebdd4",
+        "created": "2022-02-08T05:13:24.353221Z",
+        "modified": "2022-07-15T03:33:33.209892Z",
+        "relationship_type": "investigates",
+        "source_ref": "course-of-action--91bd7c7e-6cf3-4138-8dc3-3710b161e7bf",
+        "target_ref": "indicator--85c985b6-ad0a-474f-b036-81b46ca65a04",
+        "start_time": "2021-08-29T17:34:22.804682Z",
+        "stop_time": "2022-05-09T00:58:58.504105Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fe0c8997-4295-42ce-b8d6-7beef42c7850"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d9f909e2-efab-4cd1-b969-8c40805ebdd4",
+        "created_by_ref": "identity--d9f909e2-efab-4cd1-b969-8c40805ebdd4",
+        "created": "2021-06-26T14:12:06.992285Z",
+        "modified": "2022-03-22T19:09:59.23808Z",
+        "name": "Henderson-Macias",
+        "roles": [
+            "later",
+            "attack",
+            "body"
+        ],
+        "identity_class": "system",
+        "contact_information": "5364 Brett Center\nNorth William, IL 03819",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fe0c8997-4295-42ce-b8d6-7beef42c7850"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--fe0c8997-4295-42ce-b8d6-7beef42c7850",
+        "created": "2021-08-14T01:08:21.89211Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-54b25f01-6af2-45fd-9467-12811cc2be8c",
+                "name": "Help hit around teach",
+                "create_date_time": "2021-08-14T01:08:08.425022Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

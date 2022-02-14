@@ -1,0 +1,190 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--cf72654b-cf9d-4031-a91d-8694ea3055ee",
+        "created_by_ref": "identity--0298e9e6-f1a7-4ca5-aaa3-2d06e383f32a",
+        "created": "2022-04-03T22:59:30.394502Z",
+        "modified": "2022-06-04T02:27:40.520657Z",
+        "name": "door",
+        "infrastructure_types": [
+            "reconnaissance"
+        ],
+        "aliases": [
+            "dream",
+            "project"
+        ],
+        "labels": [
+            "listen",
+            "inside",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f21e23e0-b5b1-409d-9005-6eeb921f11da"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--706855d0-0ca9-4a8e-a92a-0b5112505730",
+        "created_by_ref": "identity--0298e9e6-f1a7-4ca5-aaa3-2d06e383f32a",
+        "created": "2022-07-06T10:33:53.296527Z",
+        "modified": "2022-10-28T13:48:22.564479Z",
+        "name": "material",
+        "aliases": [
+            "if",
+            "give"
+        ],
+        "first_seen": "2020-11-30T01:13:02.109226Z",
+        "labels": [
+            "without",
+            "pfte-batch-1"
+        ],
+        "confidence": 18,
+        "object_marking_refs": [
+            "marking-definition--f21e23e0-b5b1-409d-9005-6eeb921f11da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--fed637ed-7a5b-45e8-acfe-808648b0e325",
+        "created_by_ref": "identity--0298e9e6-f1a7-4ca5-aaa3-2d06e383f32a",
+        "created": "2021-03-10T17:09:13.51713Z",
+        "modified": "2021-08-14T01:08:45.503555Z",
+        "relationship_type": "controls",
+        "source_ref": "infrastructure--cf72654b-cf9d-4031-a91d-8694ea3055ee",
+        "target_ref": "infrastructure--706855d0-0ca9-4a8e-a92a-0b5112505730",
+        "labels": [
+            "teach",
+            "mother",
+            "ever",
+            "various",
+            "my",
+            "pfte-batch-1"
+        ],
+        "confidence": 79,
+        "object_marking_refs": [
+            "marking-definition--f21e23e0-b5b1-409d-9005-6eeb921f11da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0298e9e6-f1a7-4ca5-aaa3-2d06e383f32a",
+        "created_by_ref": "identity--0298e9e6-f1a7-4ca5-aaa3-2d06e383f32a",
+        "created": "2021-04-04T19:50:12.744585Z",
+        "modified": "2021-08-14T01:08:45.504096Z",
+        "name": "Robertson LLC",
+        "roles": [
+            "list",
+            "class",
+            "charge",
+            "let",
+            "draw"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "agriculture",
+            "insurance",
+            "automotive",
+            "commercial"
+        ],
+        "contact_information": "68078 Bailey Field Suite 156\nJohnstonhaven, AK 13430",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "pick",
+                "url": "http://collins.com/",
+                "external_id": "aygUnEHzLEYcoqKVesGV"
+            },
+            {
+                "source_name": "around",
+                "url": "https://cooper.com/",
+                "hashes": {
+                    "MD5": "57ae23b1c25314411cd492a60cf78698",
+                    "SHA-1": "4169d8527ecf394ae3fa472296d09e60459f5667",
+                    "SHA-256": "9d75a6bd8b1cccbde17db2b81b09363a02a95bf5009de46dc4c9f3483976bbd1",
+                    "SHA-512": "6453e899b0dc34c80e0482b4e30b1cfbe0bb50a1618b014ce20168a1e275b04646dd6ff65c516f7c876e8b9df692e4dcd0e79650ee02fe5f9eee71758ca5806b",
+                    "SHA3-256": "b38e5ec1548b4cb7167898cd5076744156cfbcb7b71240ae6fa15ae115083d07",
+                    "SHA3-512": "cab20ef39326dd767f7606278b6d890dcd73810caeea052ebd61e1728faeb26963506abcffea0f453b61172eb3b211fca9ef86ac25987db0a5afe62e57dbbf81"
+                },
+                "external_id": "zBggDsmrwLLNXrU"
+            },
+            {
+                "source_name": "dream",
+                "description": "Agency house style family attorney until bed involve.",
+                "hashes": {
+                    "MD5": "175dc96d2171df64d9030b66b25778da",
+                    "SHA-1": "89691f2497dfbf01930fc0efb761c500f917ac5a",
+                    "SHA-256": "984f5840f6ccb1139e3bd0f5b024722feb75a4c0c1cc27df575df4f7db56a95c",
+                    "SHA-512": "e997ce852f24475908ce7ae96f14b14bfc1c530c1ce54bf6b51716230225f5e7501a8c10c7a92b89e23aefe30fdaae9a0c7854c77c10ebb1dbe9bfeca375d25d",
+                    "SHA3-256": "6fec6e001294479861f5ad778dffa213cb5de2d5a8fbca404a3b30ca9b9633a0",
+                    "SHA3-512": "d040db1ebddadcdb5dee54898b03db2604cf59f071295938ef063834c8b6386b3b25a66458a7074c2e428f41b0dca0e2e63770ad6034ccebb51f1f72b2a5b6af"
+                },
+                "external_id": "copICoTsORltEOllCv"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f21e23e0-b5b1-409d-9005-6eeb921f11da"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--f21e23e0-b5b1-409d-9005-6eeb921f11da",
+        "created": "2021-08-14T01:08:45.502461Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e0c28f68-5570-434a-9764-3e8498f0a59a",
+                "name": "Serve much idea usually",
+                "create_date_time": "2021-08-14T01:08:08.432065Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

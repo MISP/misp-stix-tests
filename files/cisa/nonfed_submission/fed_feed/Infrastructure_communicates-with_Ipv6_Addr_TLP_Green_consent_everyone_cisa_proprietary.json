@@ -1,0 +1,171 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--bbef5cba-d6da-45fe-af09-5f2106474566",
+        "created_by_ref": "identity--85b044e2-8a22-4be0-978f-1a9666e623f0",
+        "created": "2022-04-28T06:11:33.201178Z",
+        "modified": "2022-07-19T15:59:38.392222Z",
+        "name": "hit",
+        "description": "Performance both a keep live reveal stage.",
+        "aliases": [
+            "ground"
+        ],
+        "first_seen": "2020-06-14T10:12:08.921528Z",
+        "last_seen": "2021-06-06T10:22:25.324931Z",
+        "labels": [
+            "challenge",
+            "rise",
+            "show",
+            "pfte-batch-1"
+        ],
+        "confidence": 7,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--dfbebbb6-c8c4-4892-acdf-807b9ae384c3"
+        ]
+    },
+    {
+        "type": "ipv6-addr",
+        "spec_version": "2.1",
+        "id": "ipv6-addr--6bc6aa72-0422-4438-b13f-2ff32344e758",
+        "value": "20ba:538:591f:a953:fad8:79ad:7e39:4cec",
+        "object_marking_refs": [
+            "marking-definition--dfbebbb6-c8c4-4892-acdf-807b9ae384c3"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--fc6162de-00a9-4714-9e46-b0f65477a553",
+        "created_by_ref": "identity--85b044e2-8a22-4be0-978f-1a9666e623f0",
+        "created": "2021-07-15T23:23:51.190923Z",
+        "modified": "2021-09-23T11:18:55.382953Z",
+        "relationship_type": "communicates-with",
+        "description": "Forward list foreign north next again agency. Medical sense nearly and. Develop majority audience stuff quality.",
+        "source_ref": "infrastructure--bbef5cba-d6da-45fe-af09-5f2106474566",
+        "target_ref": "ipv6-addr--6bc6aa72-0422-4438-b13f-2ff32344e758",
+        "start_time": "2020-11-10T06:50:19.035638Z",
+        "stop_time": "2020-11-15T21:18:10.154919Z",
+        "confidence": 57,
+        "object_marking_refs": [
+            "marking-definition--dfbebbb6-c8c4-4892-acdf-807b9ae384c3"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--dfbebbb6-c8c4-4892-acdf-807b9ae384c3",
+        "created_by_ref": "identity--85b044e2-8a22-4be0-978f-1a9666e623f0",
+        "created": "2021-08-14T01:08:40.182112Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e665ae49-7536-4ce4-b3ac-ad9803b6185e",
+                "name": "Push teach indeed like accept",
+                "create_date_time": "2021-08-14T01:08:08.423274Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--85b044e2-8a22-4be0-978f-1a9666e623f0",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-08T17:41:14.588862Z",
+        "modified": "2022-02-14T12:40:27.117803Z",
+        "name": "Clark-Booth",
+        "sectors": [
+            "defense",
+            "defense",
+            "dams",
+            "aerospace",
+            "commercial"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "rest",
+                "description": "Rock wonder morning son budget miss course.",
+                "url": "http://www.cooper.com/",
+                "hashes": {
+                    "MD5": "10d763e7927ca00fb431b59b38438d49",
+                    "SHA-1": "1bf2696dea84a905dad20aeec86e59eb7a9c531d",
+                    "SHA-256": "53178b75ebab32183b2b534dd15f77c5d00254e1ff52e27e0d82dee70192e6ff",
+                    "SHA-512": "9ce239cecc4d86d3b14df8dcb2a10f1e7e8f220c52156c3d44246e0a63bf43ed0c990d45bd3088a8d62103899a798c6f4ac5483388e651e923b24d9b4eb6edcf",
+                    "SHA3-256": "63d85ec37c36095fcff80fb07eaf72656171b637d7683cf6ad1d31433befb5ab",
+                    "SHA3-512": "7739555f199a1b5841e926666ad9b416f9387ae6024f24c645f03fc532688b0f02f56447b528dfb415fae0f603babe08b2c5afcd2ef0d3d863955e9171806801"
+                }
+            },
+            {
+                "source_name": "attorney",
+                "description": "Pretty increase enjoy."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--dfbebbb6-c8c4-4892-acdf-807b9ae384c3"
+        ]
+    }
+]

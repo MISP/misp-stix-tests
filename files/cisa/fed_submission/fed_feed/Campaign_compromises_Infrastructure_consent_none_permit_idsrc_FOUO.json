@@ -1,0 +1,172 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--5b1661ab-94e1-479e-a934-3fcd0abf1189",
+        "created_by_ref": "identity--1341dfcf-b09e-4d0e-a47d-8754a3bb3d42",
+        "created": "2021-05-01T12:04:15.284804Z",
+        "modified": "2021-08-14T01:08:14.820795Z",
+        "name": "theory",
+        "aliases": [
+            "trade",
+            "record",
+            "manager",
+            "garden",
+            "social"
+        ],
+        "first_seen": "2021-06-04T05:16:58.404378Z",
+        "last_seen": "2022-02-19T04:34:07.625152Z",
+        "objective": "Notice may bag million thing.",
+        "labels": [
+            "laugh",
+            "pfte-batch-1"
+        ],
+        "confidence": 64,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e238a275-d21b-42ba-b7ff-d1413c032073"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--06ffdd6b-f379-45f2-a1e6-27d67dc4bf4a",
+        "created_by_ref": "identity--1341dfcf-b09e-4d0e-a47d-8754a3bb3d42",
+        "created": "2021-05-26T04:25:49.75025Z",
+        "modified": "2021-08-14T01:08:14.821063Z",
+        "name": "health",
+        "aliases": [
+            "firm",
+            "sea",
+            "serve",
+            "approach",
+            "community"
+        ],
+        "first_seen": "2020-09-18T01:29:30.233867Z",
+        "confidence": 86,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e238a275-d21b-42ba-b7ff-d1413c032073"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b7e5cf1e-2c77-43b8-aeab-aa52e94b69f9",
+        "created_by_ref": "identity--1341dfcf-b09e-4d0e-a47d-8754a3bb3d42",
+        "created": "2021-06-24T14:29:17.175698Z",
+        "modified": "2021-11-10T13:19:49.500549Z",
+        "relationship_type": "compromises",
+        "description": "Participant purpose art.",
+        "source_ref": "campaign--5b1661ab-94e1-479e-a934-3fcd0abf1189",
+        "target_ref": "infrastructure--06ffdd6b-f379-45f2-a1e6-27d67dc4bf4a",
+        "stop_time": "2022-06-04T01:13:50.23815Z",
+        "confidence": 84,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e238a275-d21b-42ba-b7ff-d1413c032073"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1341dfcf-b09e-4d0e-a47d-8754a3bb3d42",
+        "created_by_ref": "identity--1341dfcf-b09e-4d0e-a47d-8754a3bb3d42",
+        "created": "2021-02-27T13:30:50.384338Z",
+        "modified": "2021-12-03T13:13:05.032201Z",
+        "name": "Davis, White and Nelson",
+        "description": "Re-engineered logistical infrastructure",
+        "roles": [
+            "four",
+            "dinner"
+        ],
+        "identity_class": "unknown",
+        "confidence": 6,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e238a275-d21b-42ba-b7ff-d1413c032073"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--e238a275-d21b-42ba-b7ff-d1413c032073",
+        "created": "2021-08-14T01:08:14.820146Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1a59cf40-939d-4572-bc52-0472b77923dd",
+                "name": "Run main democratic",
+                "create_date_time": "2021-08-14T01:08:08.425934Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

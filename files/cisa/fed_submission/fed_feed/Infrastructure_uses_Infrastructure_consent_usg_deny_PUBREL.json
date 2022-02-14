@@ -1,0 +1,173 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--4e4626d8-6138-4b71-8d1b-fa8f7542498b",
+        "created_by_ref": "identity--f92ede49-116c-42f7-b05f-be31c4955dde",
+        "created": "2021-04-06T13:12:47.483938Z",
+        "modified": "2021-08-14T01:08:50.780909Z",
+        "name": "quality",
+        "infrastructure_types": [
+            "hosting-target-lists"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "orfCFjraGIqZUNm",
+                "phase_name": "ebYEETBNi"
+            },
+            {
+                "kill_chain_name": "BiqTGxy",
+                "phase_name": "mCgAWMIp"
+            }
+        ],
+        "first_seen": "2022-04-11T03:31:38.246829Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2b1b369f-1654-47f4-b8a2-9812667f83d0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--58d89400-1fd8-4c66-828c-2e03351c0979",
+        "created_by_ref": "identity--f92ede49-116c-42f7-b05f-be31c4955dde",
+        "created": "2022-06-08T17:05:34.080351Z",
+        "modified": "2022-11-02T11:53:49.525756Z",
+        "name": "hear",
+        "description": "Federal dinner find treat.",
+        "last_seen": "2020-09-17T23:20:14.192705Z",
+        "confidence": 43,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2b1b369f-1654-47f4-b8a2-9812667f83d0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--813fec1b-d467-487c-86fd-4c1dfbf18890",
+        "created_by_ref": "identity--f92ede49-116c-42f7-b05f-be31c4955dde",
+        "created": "2021-02-08T09:21:10.763625Z",
+        "modified": "2021-08-14T01:08:50.781877Z",
+        "relationship_type": "uses",
+        "source_ref": "infrastructure--4e4626d8-6138-4b71-8d1b-fa8f7542498b",
+        "target_ref": "infrastructure--58d89400-1fd8-4c66-828c-2e03351c0979",
+        "labels": [
+            "story",
+            "performance",
+            "outside",
+            "pfte-batch-1"
+        ],
+        "confidence": 33,
+        "external_references": [
+            {
+                "source_name": "notice",
+                "url": "http://christian.com/",
+                "hashes": {
+                    "MD5": "c1b7756b7ce5bb6cffb1fb1d02a13bbd",
+                    "SHA-1": "10cdda95923fe9ac745f31fb5014f12e1146e787",
+                    "SHA-256": "e66f2e00451cb26f4ca3644911251f4862d3fcaff5f59b7915d7e4ecc94af618",
+                    "SHA-512": "fd25ef0ddd0d98d74da6efecce9f9238d29ee4088330c7a1efa06a58d68619221e3f9dfbfb7653aa2c92db5911328476aae24266a60d02ea7b4570aed2511e7b",
+                    "SHA3-256": "57ffac19178df1ba2b0f595fab8481e03e6b093ad42d418f269eb06bfe22bc79",
+                    "SHA3-512": "d6b82c22201be18801eae05da9e4f9aa528927c1c23067435e6bc148a4b1e7e7fb631c4b08aaa2230de3ce09033491ff209f29b1a13b500388a571d938400cca"
+                },
+                "external_id": "twxbrQeoeA"
+            },
+            {
+                "source_name": "year",
+                "url": "http://www.edwards-west.com/",
+                "external_id": "HwzCgUsHOveVMZwxZ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2b1b369f-1654-47f4-b8a2-9812667f83d0"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f92ede49-116c-42f7-b05f-be31c4955dde",
+        "created_by_ref": "identity--f92ede49-116c-42f7-b05f-be31c4955dde",
+        "created": "2021-03-26T08:56:48.265914Z",
+        "modified": "2021-11-22T14:08:28.195156Z",
+        "name": "Miles, Frazier and Johnson",
+        "identity_class": "system",
+        "sectors": [
+            "emergency-services",
+            "commercial",
+            "government-public-services",
+            "insurance"
+        ],
+        "contact_information": "38470 Barnes Ways Apt. 620\nPort Amy, MI 03825",
+        "object_marking_refs": [
+            "marking-definition--2b1b369f-1654-47f4-b8a2-9812667f83d0"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2b1b369f-1654-47f4-b8a2-9812667f83d0",
+        "created": "2021-08-14T01:08:50.779623Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

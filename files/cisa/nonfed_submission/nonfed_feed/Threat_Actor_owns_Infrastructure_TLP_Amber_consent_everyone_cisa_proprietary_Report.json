@@ -1,0 +1,181 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--5fe55771-a251-4e61-87b2-174b053bba8d",
+        "created_by_ref": "identity--407392e9-253b-48fa-ab1b-ae606285f3d9",
+        "created": "2021-10-31T05:43:43.262504Z",
+        "modified": "2021-12-21T23:55:25.603014Z",
+        "name": "still",
+        "sophistication": "minimal",
+        "primary_motivation": "organizational-gain",
+        "personal_motivations": [
+            "personal-satisfaction",
+            "ideology"
+        ],
+        "labels": [
+            "fire",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--102b3101-bcd9-4fe3-abd1-354458238331",
+        "created_by_ref": "identity--407392e9-253b-48fa-ab1b-ae606285f3d9",
+        "created": "2021-11-29T00:47:54.536972Z",
+        "modified": "2022-08-03T09:18:00.030747Z",
+        "name": "couple",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "recent",
+                "url": "http://tran.com/"
+            },
+            {
+                "source_name": "cold",
+                "hashes": {
+                    "MD5": "0ded291d1c704fa15cd3c8f132bcd8f2",
+                    "SHA-1": "ab7fc8f3a8ba8402ed1492ac9a54841d49a1655a",
+                    "SHA-256": "b0302ea3c1f74f22dd1a0c68adbd90bc598690408a362a82f92722e8dd060485",
+                    "SHA-512": "83543673ae02a8a1d1294fb5bfcd7f1ff86acb6aa7c95c7ee2dcdac4991b886d4287b4cb88dff636b93f328cfc37c0eaa8e4a31a171707620e37fe7ccea7b0f6",
+                    "SHA3-256": "5edd04c3067f8d7bba38fa1125e1256354019ce8e6ca239c11a77ddbb3fb2c45",
+                    "SHA3-512": "23502405cad067a497633948a72028916c6fd470664af5afb4c9cec68346c90e75e579bd3d54f2502b399549407aa070024aab8fb6ca2a5e59403867a52da7d6"
+                },
+                "external_id": "iXDOFK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--45790bb5-76fd-4452-9a60-764045ac18c2",
+        "created_by_ref": "identity--407392e9-253b-48fa-ab1b-ae606285f3d9",
+        "created": "2021-07-08T13:37:50.883049Z",
+        "modified": "2021-11-09T02:20:34.187714Z",
+        "relationship_type": "owns",
+        "source_ref": "threat-actor--5fe55771-a251-4e61-87b2-174b053bba8d",
+        "target_ref": "infrastructure--102b3101-bcd9-4fe3-abd1-354458238331",
+        "labels": [
+            "central",
+            "already",
+            "north",
+            "if",
+            "size",
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--30d74d8b-bc28-4917-866c-7f1428a61b51",
+        "created_by_ref": "identity--407392e9-253b-48fa-ab1b-ae606285f3d9",
+        "created": "2022-05-08T10:00:52.802351Z",
+        "modified": "2022-09-06T01:28:31.230986Z",
+        "name": "main",
+        "published": "2020-10-06T18:01:03.619972Z",
+        "object_refs": [
+            "threat-actor--5fe55771-a251-4e61-87b2-174b053bba8d",
+            "infrastructure--102b3101-bcd9-4fe3-abd1-354458238331",
+            "relationship--45790bb5-76fd-4452-9a60-764045ac18c2"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--407392e9-253b-48fa-ab1b-ae606285f3d9",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-08-05T04:06:13.442923Z",
+        "modified": "2023-03-25T13:13:49.283381Z",
+        "name": "Adams-Myers",
+        "identity_class": "system",
+        "contact_information": "USCGC Krause\nFPO AP 40557",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 39,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "win",
+                "description": "Song skin and want risk resource plant.",
+                "hashes": {
+                    "MD5": "7e5be3a0e858154d8044e49f601847a0",
+                    "SHA-1": "dd3eb6b66dfa8fb842b47c3ddc3bcb25f34c5851",
+                    "SHA-256": "93882d9df2804b2ee57005c6e6335258b175629ae6127a54b7c353480ea3c268",
+                    "SHA-512": "fb3f88bfa6434c831f68855a52c415d254d6516d229f30b67a922e1fd3f2a8b3255e34383ea7bea939f8f5bfa57e4454f87d020000b052e0cc2d40f10c9a00ea",
+                    "SHA3-256": "2e73680053943331e7af274f564d131e71e76c64faeb52ba84fa64206eea6ef7",
+                    "SHA3-512": "d5d5a20b649b73b6283a4cc773a8edd729ed4242cb8da0e0522dfd3348dafdd02d86e95cc953730c76938ffa84df50461e65fe7615686011c3509e40b20743b8"
+                }
+            },
+            {
+                "source_name": "kitchen",
+                "description": "Minute world none many.",
+                "url": "https://www.shaffer-johnson.org/",
+                "hashes": {
+                    "MD5": "2cebedb6b4ad217d4d8baba5b6bf1651",
+                    "SHA-1": "66daa9dea3dd193d5dba82a2cb4d624f2aea97d0",
+                    "SHA-256": "12be757b4e39849f3429c862a25355415b4e651ba4461e5d8bd8ca4a4ba5ca84",
+                    "SHA-512": "bffeda6b50e6401c12205854408d5bc7df017a1762060bf7910c062a4d3c03a387f5a9f3b2bfb4ac098a725ae17bf7948d0392d0cf21ad8157d558b044f34985",
+                    "SHA3-256": "c84c2895181700e06ad7217be17f425af03aac20a9f0be60ad6468bd1f05a5b3",
+                    "SHA3-512": "be9d63226a4cd943d2216d2454733dd74d2a61ea4b68b7a69cc6dc2961520a65b0ac37c8436e77cd9aefcf60d33f039db48ded6995cf7360b9d6f21ef282e90d"
+                }
+            },
+            {
+                "source_name": "likely",
+                "url": "https://sanchez.com/",
+                "external_id": "GOGwuYQICLR"
+            },
+            {
+                "source_name": "receive",
+                "hashes": {
+                    "MD5": "60d50052a33272c795ce139b08e26e52",
+                    "SHA-1": "64412b513a6db4323c6df546377acdff36db357c",
+                    "SHA-256": "511734470cd247557dae0b67d83cfb66ec5f0ccb27b553153a700e5b2400440e",
+                    "SHA-512": "589d9b4be63609ea82a6aa1c84286c90ee3478ba5c8e11e995640268cc7c7b74bf594d8aa1d44c458ac445b5776b4e2b367c6dbdea2c3940ca3c89d8502c74fa",
+                    "SHA3-256": "a656c4e01c332925cea90521acd70f66cb0571a55e77a8db7ca81432901f6e0b",
+                    "SHA3-512": "d806c4fc2d03816e9486593ca7ab42a468a710b1add31ac6bb38a112f2bd2572ff4d21504f834e09d5328466be64a52e30cff9ce923d4d5a2783b85a9bf87d38"
+                },
+                "external_id": "VkdoFMomLq"
+            },
+            {
+                "source_name": "as",
+                "url": "http://www.wright.net/",
+                "hashes": {
+                    "MD5": "c3f6e05c544ce950f6e894d66c082898",
+                    "SHA-1": "760df9e69e1fc7088b066f8abf286f11da4d5cbf",
+                    "SHA-256": "9406b44794be849b0eb860e6dea9dbdb925d85b3ee2e3d54753a164120838db3",
+                    "SHA-512": "1bfb97eebaf2750efc49a507e73ff13d034df7175c585529bfe98403de951b7e5caba9024d8b4b9e3b69de4b0a0c278bc26aefdc97e66263c71ac44a40c8f381",
+                    "SHA3-256": "f3045006cacb214797977ad2e499dc956a033965f69149f6176ea609a26c749a",
+                    "SHA3-512": "543d927a65bbc4078805f9438e158c0125dbab71795247c91c9bbb4b35c73ac370a10afda8e54ceca6a27214a758a5e95f20188d2d600429fc7657e2633fee60"
+                },
+                "external_id": "mFuVqKjsAxKTt"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

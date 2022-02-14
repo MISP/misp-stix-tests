@@ -1,0 +1,198 @@
+[
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--029319f7-e020-4dca-b222-6c219e76c936",
+        "created_by_ref": "identity--0eda20cd-f5a9-4bd9-8764-30f2f9046039",
+        "created": "2020-09-03T09:24:16.526962Z",
+        "modified": "2021-08-14T01:09:40.141116Z",
+        "name": "TV",
+        "description": "Every set determine.",
+        "tool_types": [
+            "unknown",
+            "exploitation",
+            "vulnerability-scanning"
+        ],
+        "aliases": [
+            "hundred",
+            "particularly"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "labels": [
+            "any",
+            "pfte-batch-1"
+        ],
+        "confidence": 31,
+        "object_marking_refs": [
+            "marking-definition--8d599ef7-481b-42c1-b1f7-6860a5e02cc2"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--6b4baf66-d2c0-4d72-a6c0-705843128591",
+        "created_by_ref": "identity--0eda20cd-f5a9-4bd9-8764-30f2f9046039",
+        "created": "2021-10-28T22:37:27.435923Z",
+        "modified": "2022-01-19T12:59:43.726294Z",
+        "name": "where",
+        "description": "Minute story population at write the choice.",
+        "aliases": [
+            "focus"
+        ],
+        "last_seen": "2022-06-02T22:32:56.07335Z",
+        "external_references": [
+            {
+                "source_name": "hundred",
+                "description": "Partner reason main final ago.",
+                "url": "https://thomas.com/"
+            },
+            {
+                "source_name": "according",
+                "url": "http://dean.com/",
+                "hashes": {
+                    "MD5": "173ef26742d4d1f28f9c578878dcfc32",
+                    "SHA-1": "f70378a5e24614a28df4f662ded08283ff34629b",
+                    "SHA-256": "b74f8fb06fd8378ead56870dc7c2f3dd3ea6b84afdb4ec78411a13762a2a3d9e",
+                    "SHA-512": "1147a6cc72286f12b51e69108b63e356b4a6ce22e86572856e87dc8e5034c1eae7a0b79944b8d49d10b9f64b144705f6b3ea1dd6d184ae24ade88edcfb6c6751",
+                    "SHA3-256": "4cf992b83d633cb91bc55df658f56f11e6dbaaadcba6112a4b1fab4b288acba2",
+                    "SHA3-512": "50d47096b48d6b4d3edfd60c01e133e354e33c4b042b6cdf6fd4f7dcd4be007ebf4c70d64860fd8da3dd1d2d53feda87642e56e3e05248c821d4c8704c075269"
+                },
+                "external_id": "fCvVIuBgoWvhYAPd"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8d599ef7-481b-42c1-b1f7-6860a5e02cc2"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--116b505d-8d53-451a-9d85-3b78ad9b8d50",
+        "created_by_ref": "identity--0eda20cd-f5a9-4bd9-8764-30f2f9046039",
+        "created": "2022-03-09T19:48:59.092206Z",
+        "modified": "2022-05-16T18:46:42.540659Z",
+        "relationship_type": "targets",
+        "source_ref": "tool--029319f7-e020-4dca-b222-6c219e76c936",
+        "target_ref": "infrastructure--6b4baf66-d2c0-4d72-a6c0-705843128591",
+        "stop_time": "2022-03-19T21:37:48.427726Z",
+        "confidence": 16,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "determine",
+                "description": "Notice party hour watch.",
+                "hashes": {
+                    "MD5": "e84462fac15d05a76e50deb8c54e3edf",
+                    "SHA-1": "8f83c9d25668624412a4971797b082b5091942ea",
+                    "SHA-256": "d8b0fca95963bb8075f056206dd573fa5a3e93cd02591d256d84b7ac9b6263be",
+                    "SHA-512": "9c4bbafc5b46a74026bf47f4e0796c26f5a101a964068be783c0967017dc302c157a2e79f024def3e0e2626d155be61a1a82bea33cf2691d872485854596fe21",
+                    "SHA3-256": "551dc8a2495e4aa911d758a7697f3be0a70a72844c89f1d3dd73e381d5ec28cd",
+                    "SHA3-512": "9883ca427bf8e93b86999384355f7f50362324e59b1999bfa87dd7dbea8d33bc9faa3c2c93cc99466617e4afd28443f5e61cc924360e4456eca0694e65e54786"
+                },
+                "external_id": "oNvQgvDpluIrRuFJF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8d599ef7-481b-42c1-b1f7-6860a5e02cc2"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0eda20cd-f5a9-4bd9-8764-30f2f9046039",
+        "created_by_ref": "identity--0eda20cd-f5a9-4bd9-8764-30f2f9046039",
+        "created": "2021-03-23T13:01:48.785553Z",
+        "modified": "2021-10-17T16:07:33.292731Z",
+        "name": "Woods LLC",
+        "description": "Open-source dynamic moderator",
+        "roles": [
+            "environment",
+            "even",
+            "range",
+            "fire"
+        ],
+        "identity_class": "organization",
+        "contact_information": "462 Garcia Mountain Suite 435\nWalkerland, MA 67333",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 93,
+        "object_marking_refs": [
+            "marking-definition--8d599ef7-481b-42c1-b1f7-6860a5e02cc2"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--8d599ef7-481b-42c1-b1f7-6860a5e02cc2",
+        "created": "2021-08-14T01:09:40.140385Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7114ed24-0991-4631-bb44-7704e6b690d1",
+                "name": "Traditional contain thing officer story",
+                "create_date_time": "2021-08-14T01:08:08.432511Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.432344Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

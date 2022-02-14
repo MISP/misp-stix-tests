@@ -1,0 +1,202 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--1f056cfe-b752-46f5-97c5-da02698c260c",
+        "created_by_ref": "identity--03ee56ff-bde0-495f-9d65-cbbbf98a155f",
+        "created": "2020-10-28T09:28:50.329899Z",
+        "modified": "2021-08-14T01:08:31.719273Z",
+        "pattern": "[process:defanged = false] OR [file:name NOT = 'skin.jpeg'] OR ([domain-name:defanged = false])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-05-31T11:01:15.709276Z",
+        "valid_until": "2020-11-14T05:31:59.028174Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--56afaa42-e5df-4630-9a5d-b1c1c1fe9ddc",
+        "created_by_ref": "identity--03ee56ff-bde0-495f-9d65-cbbbf98a155f",
+        "created": "2021-10-18T11:25:48.662817Z",
+        "modified": "2021-12-06T18:55:35.28612Z",
+        "name": "nor",
+        "aliases": [
+            "teacher",
+            "dog"
+        ],
+        "labels": [
+            "ever",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "off",
+                "external_id": "jmdukliHbolo"
+            },
+            {
+                "source_name": "per",
+                "description": "Weight rest yeah when great something daughter.",
+                "url": "http://www.faulkner.com/",
+                "hashes": {
+                    "MD5": "2942863b3b026d3eb7b80898d841f4c0",
+                    "SHA-1": "2f684c466c74f5fa1ba58c6d420a509d769e18e0",
+                    "SHA-256": "37dcf18c2d0a765e694ca18b159163e825d23612fe730890a6adffc2413c92f2",
+                    "SHA-512": "b3b0144ceeedad64b5190be7f51e7c2decbaf11e2c98b3ea8f5fe109cef9e1a402e4a1fc9d41b4fc910a7705db6344428735ddae5573686be2b05c737223cf64",
+                    "SHA3-256": "cff48f3997fd039999020a0923ab23d27bbc7abc439b65fbce2d8a6525661c03",
+                    "SHA3-512": "1672299e565c20427758202a04616cdf722aef2f4783c3d095365d54fd00c534f5c3c00ba4e786ca20c099b17f7cc6f2b044f2bb218dcb0cdd4ef46ad7a06fa9"
+                }
+            },
+            {
+                "source_name": "carry",
+                "description": "Investment really entire name human step center form.",
+                "hashes": {
+                    "MD5": "73454445cb1b11a7513017600d5afbf2",
+                    "SHA-1": "bf0ec6c2a7a8c5f11a938cc25115bcb6b5d206b6",
+                    "SHA-256": "a45b2ddc14aeffeab88937f8d645697ee4abf131e76dd1d258affac4989016d2",
+                    "SHA-512": "5e100e3cba3b4bb96a5f228b133ba47cda98f1191aa6831f561a1af957db5ccabc2e709e60ec53da41b97de734d58707d44d1813b0e277b5850f8d741b982033",
+                    "SHA3-256": "db880f2ce29d97e445db9253cbc45fc138f509d8c60a04c8dadc2cb1d5fed7c2",
+                    "SHA3-512": "1a555943b3930b0e0849131d7f7a2ff1c09c30e10586721d88dd523c797a1c895d52b0b9777cd814229670d789daf0f6cc35ba11532e12bdf4534e18589a1388"
+                },
+                "external_id": "NJmNVYvEItcqROXhx"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f5e5c787-dc95-47fb-a1ca-8a1dc300dd3f",
+        "created_by_ref": "identity--03ee56ff-bde0-495f-9d65-cbbbf98a155f",
+        "created": "2022-06-03T00:19:48.608842Z",
+        "modified": "2022-12-31T18:55:00.830127Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--1f056cfe-b752-46f5-97c5-da02698c260c",
+        "target_ref": "intrusion-set--56afaa42-e5df-4630-9a5d-b1c1c1fe9ddc",
+        "stop_time": "2021-02-01T21:18:52.321061Z",
+        "labels": [
+            "story",
+            "seven",
+            "staff",
+            "lay",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "say",
+                "description": "War choice improve.",
+                "url": "https://henderson.com/",
+                "hashes": {
+                    "MD5": "23c6f7921d0436ba46e60b0f1f31223b",
+                    "SHA-1": "f5c997af30d908834cc00cda003409143d1b9679",
+                    "SHA-256": "82d8e299e8be141aaf3c3e712f9c0343d1baf6cb36a98c10cbfc56ffa6be68cd",
+                    "SHA-512": "f0ac60b2819ca4a365a824a01ed07b0a1b1ac7b5fdbf88113e6910969a6e33b8a2c242fe016869c191867b49edc7c395ab9ab3cadfbc2bde1e358f4105aa8adf",
+                    "SHA3-256": "3298235e70f814e918479ab3636c4ab3ba5a9f560abb025c641eae18ec6060ec",
+                    "SHA3-512": "fda2f83bcff5126ebefe451887534b5eb13b799e2dea962ee6dcb12237d26a2bf0eef96bff3e9d7006b2a8bd00d9cfd58f6bfd5caf2b75b39542a9b7d0217338"
+                }
+            },
+            {
+                "source_name": "very",
+                "description": "Kind various ok once.",
+                "url": "https://www.delgado-schmidt.com/",
+                "external_id": "XYRwWNMKoMjtyugzrDOE"
+            },
+            {
+                "source_name": "light",
+                "description": "Seven fear policy between should fall all."
+            },
+            {
+                "source_name": "follow",
+                "description": "Land stop former enter."
+            },
+            {
+                "source_name": "give",
+                "description": "Political read argue environmental author.",
+                "url": "https://campbell.com/",
+                "hashes": {
+                    "MD5": "4ec008bbc2ddbc7a03cdc90727a70d7a",
+                    "SHA-1": "df020a25e8bd87165a3bb23560fce9f3a7fe7f9a",
+                    "SHA-256": "a958dc6609d849a84c1da043a68b6b885d20e6843d2aecf2ba9fb89774ab1315",
+                    "SHA-512": "821964f3f764171be446d8fbb029c4b86a3c71e8739cd65d94ee3e63e67daeaa4789c035549108fefeec352616e33a542b5d3833b462a080fb852abc23a110c7",
+                    "SHA3-256": "b559ef3f31b4a55bca3cd241247b85611d10fcd603b9f6aa45bc1de56801cc77",
+                    "SHA3-512": "3b135fc708525d17a33c2b633c9b20f56712dbcda99e442e07ca885df5a8309588bdfc36c5a9d01aac24859e1a5c96e9a2ac7e3c747d1263f6f2f967fe5a816f"
+                },
+                "external_id": "ZtCvEbjNKehvURP"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--03ee56ff-bde0-495f-9d65-cbbbf98a155f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-20T04:06:22.487166Z",
+        "modified": "2021-08-14T01:08:31.726584Z",
+        "name": "SomeoneEmployeeTogether",
+        "description": "Innovative foreground workforce",
+        "sectors": [
+            "infrastructure",
+            "emergency-services",
+            "mining",
+            "nuclear"
+        ],
+        "contact_information": "USS Rubio\nFPO AE 32015",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "practice",
+                "url": "https://kirby.org/",
+                "external_id": "foIyAzkC"
+            },
+            {
+                "source_name": "international",
+                "description": "Read buy amount agency style write.",
+                "external_id": "uCJdYNoPZrpc"
+            },
+            {
+                "source_name": "gun",
+                "description": "Town step law.",
+                "url": "https://www.palmer.biz/",
+                "external_id": "DEGyliGXbqtutvCHwfl"
+            },
+            {
+                "source_name": "open",
+                "description": "Rock over group body year.",
+                "url": "http://www.preston.com/",
+                "hashes": {
+                    "MD5": "7b9a1748ec3843fcccbb8d18e94a067d",
+                    "SHA-1": "f4f6d9aa2329765c1fc048527bcf8ecb988336ae",
+                    "SHA-256": "e83794355210c340d06d95eb656e6d05cecbd5755cf69f57e5a6a86b7b08bfee",
+                    "SHA-512": "456ef72f5b0d914a6890400131c92369dc0e4b98864993380421dc97a14fa98654b95813684f76c989b5ad1c03f300699be28981c4517adddb7470f3e6982dd4",
+                    "SHA3-256": "65bfe01e0d6c4430f842a6d1f81fa25b7f6ab270f9f32cdf0bd7581447e00626",
+                    "SHA3-512": "6ccd80d807d40c25dc0786854b56bc01971a876e5eee5be27f62295e260a94dc1ddfb975b4bf1af22e71b49c10e4edf5deacef7e7c9063d4a5431dd86a13c8fb"
+                },
+                "external_id": "jjLgXtpehOdl"
+            },
+            {
+                "source_name": "wear",
+                "description": "Power own discuss when them past budget.",
+                "url": "http://www.porter-nielsen.info/",
+                "external_id": "KtSQfj"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

@@ -1,0 +1,302 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--d9c6360e-8edb-4e03-b7c5-a860d02a5512",
+        "created_by_ref": "identity--4152f696-91d9-4f3e-b900-6ed80787b451",
+        "created": "2021-01-14T12:56:08.417901Z",
+        "modified": "2021-08-14T01:08:37.134538Z",
+        "pattern": "([(x509-certificate:subject < 'others') OR user-account:account_login <= 'alyssacrane@trujillo-wilkerson.biz'] OR [user-account:user_id <= 'nicholas87']) OR [autonomous-system:name >= 'Stewart-Knight']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-03-27T02:54:13.628486Z",
+        "valid_until": "2021-09-22T23:26:54.334243Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "confidence": 33,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fe668679-2b1e-4552-892e-8750eb484ff9"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--33bdd9a5-9f5b-4013-8ac7-2cfb7f45fb8f",
+        "created_by_ref": "identity--4152f696-91d9-4f3e-b900-6ed80787b451",
+        "created": "2022-06-13T00:23:23.33165Z",
+        "modified": "2022-10-31T19:53:03.43082Z",
+        "first_observed": "2021-08-25T05:27:00.747646Z",
+        "last_observed": "2022-08-09T16:24:57.705982Z",
+        "number_observed": 493058576,
+        "objects": {
+            "file--8d012dc8-89b8-46c5-8c27-54a0e601f34e": {
+                "type": "file",
+                "spec_version": "2.1",
+                "id": "file--8d012dc8-89b8-46c5-8c27-54a0e601f34e",
+                "hashes": {
+                    "MD5": "3782f8bdcecb914b17b5b62a317f6dd2",
+                    "SHA-1": "6e245bd90b997cae728c9735299a9bd5e7e9ae84",
+                    "SHA-256": "f96990e30e34386d27d67a6bfbd014fb4e970cc1853658e688a381e7b39b1ce9",
+                    "SHA-512": "5fc7f3cbd0869cf509efea793d70e679c7dab6051c668165844133d1a14da37554f467bdbd678826b80dc3840871624fe92aa3559b793a354ba353213d8932a9",
+                    "SHA3-256": "8f94eb836a3820e1e1743f88dff190ad6a97182d82606224bb4972f33a55cac8",
+                    "SHA3-512": "2d08e808133c950e7b8858b43865b548931d27e38ab70e251404cb9cc7e1eb67ecb05148da7800b7cb4bfdc5fcf1db8449a6594accd9e9eaca8de96bebe9c459"
+                },
+                "ctime": "2020-12-25T07:43:37.578425Z",
+                "atime": "2022-01-19T22:44:06.590669Z"
+            }
+        },
+        "labels": [
+            "whole",
+            "over",
+            "among",
+            "agreement",
+            "smile",
+            "pfte-batch-1"
+        ],
+        "confidence": 86,
+        "object_marking_refs": [
+            "marking-definition--fe668679-2b1e-4552-892e-8750eb484ff9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e39d58a3-7fe5-4ba6-8de2-80f556e04c04",
+        "created_by_ref": "identity--4152f696-91d9-4f3e-b900-6ed80787b451",
+        "created": "2021-05-05T19:24:43.571832Z",
+        "modified": "2021-08-14T01:08:37.138883Z",
+        "relationship_type": "based-on",
+        "description": "Technology real without finish technology hand carry. Top whatever investment threat general.",
+        "source_ref": "indicator--d9c6360e-8edb-4e03-b7c5-a860d02a5512",
+        "target_ref": "observed-data--33bdd9a5-9f5b-4013-8ac7-2cfb7f45fb8f",
+        "start_time": "2020-10-18T03:38:21.801986Z",
+        "stop_time": "2021-05-16T18:01:16.168385Z",
+        "confidence": 60,
+        "external_references": [
+            {
+                "source_name": "class",
+                "description": "Music pay whom set check television wife.",
+                "url": "https://payne-jones.info/",
+                "hashes": {
+                    "MD5": "edd82de9f837ee479ea1914ae7e77a04",
+                    "SHA-1": "2c1115f3e596b13138f96aae3074cfd67630ad9a",
+                    "SHA-256": "16369174b543dcabe786e4fa98cb542c5983a959db5c11a05f0f68301b85f393",
+                    "SHA-512": "697458a5b852b9152ea87f7934f025bdd5ceb65f7f5e655a53d8a7b4f93e20c2293cf2f202a16ac16acb134268bb816ba361c975349aae9b6642198dc9aa9d24",
+                    "SHA3-256": "daa2a36d14ffdbc54a1f26491c4dfda51a37cea1b7054451e9f3fcd272e334ae",
+                    "SHA3-512": "bcfc21c22347d836c4f89c82cdc87f061defeae12d2ee587d85897f80d21495e6fbf5e3f80f8a38372264a0b04db314b44f41acf12f3768e13c11aff276105ee"
+                }
+            },
+            {
+                "source_name": "ask",
+                "description": "Result huge take situation voice against.",
+                "hashes": {
+                    "MD5": "d257334d959a9a87334aacc007fc1e76",
+                    "SHA-1": "2c2f9112014c66bfe134e901af031ab3e1c54a10",
+                    "SHA-256": "a36cfc7e9c035149cc68caca380a6def44647a809f94461cbfdc3dca6f7a89e5",
+                    "SHA-512": "9b248ee166901414b40d067e440b0ad182e3d04f320677e7d0c07f8eff6d4539a4e8e60ef43d21a847a261b9c3f5b0c75f55af484c4aa517fec5249675b48ff1",
+                    "SHA3-256": "92bcabef4e80f780d66f9b2e267997c2f6bbde32a2af92861cbe26a6501d2405",
+                    "SHA3-512": "11edf8fb09af1448400681b2ed4358d5aff9445078815959428f9feeb0db3b1a3b4682c30160cf4b887caecf0ef983f7c0ab19e8e9e8d20aa74838c1bec31f64"
+                },
+                "external_id": "GVYDBeWNBhaRZb"
+            },
+            {
+                "source_name": "event",
+                "description": "Itself government manager our face.",
+                "url": "http://www.ramos.com/",
+                "hashes": {
+                    "MD5": "4a8cb9d160d120f18b2af05c7202c470",
+                    "SHA-1": "fceb2d1f6cd258c20d84dd8011c915697f41db2d",
+                    "SHA-256": "872407de7474810f3e12234f4ba8c24224e28ba6bfe6617c4ad0ecf8340d5dde",
+                    "SHA-512": "98d62feb58b2bd855ae7787a4891f3b745a3ba8b56e492d125b1a4fc06e1d5c9b597c4491f34fdce0a7455f47b3ed2b6e7073454730420468e4d2e8b8f3dfd94",
+                    "SHA3-256": "0b39de0115e3fa126f6000d22db22fb6a09c6da19021af3d1e9d99b1f0c1c504",
+                    "SHA3-512": "1abba1c806f3177d2ffd0ba5a8c8272d72792ed2b0301dca937c67af9c2b731ccbb938bec3b8cbb57a9075c4c991fd896643c8e5efe9e3b5b335b261733c0b28"
+                }
+            },
+            {
+                "source_name": "live",
+                "url": "http://www.lee-lynch.net/",
+                "hashes": {
+                    "MD5": "15c50cb92617c978d76e0e7295fa3b14",
+                    "SHA-1": "321442e6cc8a0ebbe02146aeb3db157af94e8ec4",
+                    "SHA-256": "8b88e796d05869a45d630ac12d0b9fa62e3da86d64c0515cbf97f6b0c51fe478",
+                    "SHA-512": "c66580eb10aa717267013100969956e4cac627119c98663251d95e36faef1ba719b813d886c14503f7d2f75ec335ed35861cefec96fde92a080e7760c94fa2ab",
+                    "SHA3-256": "8c3b6bdd39088daa1cdfebf3a7025b6d3673bd531e4883665775ed7d2b28d715",
+                    "SHA3-512": "9130759a4d87dc25f31072ada316bd550fb13cfb764676384b2a132fb1d7326cd26040ed772f7ea170d29a5dfe5bf25c7d253a5490bbc312c77a3579f6b8c3b5"
+                }
+            },
+            {
+                "source_name": "four",
+                "url": "https://www.peterson-clay.biz/",
+                "hashes": {
+                    "MD5": "253bc96c87577dc63dd860dfc3badb4d",
+                    "SHA-1": "0c4dd678f47764f3922827420b0a35fe9fcc7e1a",
+                    "SHA-256": "352f88e299aa82e26755793a6ec1bde96bf065ceb8d0dd521d091ff9a94db5ce",
+                    "SHA-512": "24211a814693390cfe3dddfa19daf2a6ae17f1b995a76c853bd4d0bd2cd54183fae6c1b6b46745c83f37a28fa682f05a5aea5e8d209e4c7342127f1be9c210b9",
+                    "SHA3-256": "45a9ab2f8ec43eca15be5b69578b6eef0b6dc4149b95684eebde8ceb9d63f0df",
+                    "SHA3-512": "2e14e05485a67acddf0488546e0eb1ad9b322c54f2c9066ed115cacd2d20e74d36f71bc1decf651672622be659b0e8bb5306e1fbd40ddab36700a6ed68e43525"
+                },
+                "external_id": "SsscCwa"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fe668679-2b1e-4552-892e-8750eb484ff9"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4152f696-91d9-4f3e-b900-6ed80787b451",
+        "created_by_ref": "identity--4152f696-91d9-4f3e-b900-6ed80787b451",
+        "created": "2021-12-28T00:13:16.635843Z",
+        "modified": "2022-09-16T18:13:41.128655Z",
+        "name": "Allen, Ramirez and Gregory",
+        "description": "Open-architected bottom-line attitude",
+        "roles": [
+            "along",
+            "she"
+        ],
+        "external_references": [
+            {
+                "source_name": "few",
+                "url": "http://www.gentry.com/",
+                "external_id": "awedQDofLpdJK"
+            },
+            {
+                "source_name": "impact",
+                "description": "Body most surface form.",
+                "url": "https://www.lozano.com/",
+                "hashes": {
+                    "MD5": "367d506defa30f82acdd134c92318b6b",
+                    "SHA-1": "7f95453e1b51341e129cfdba2569e43dcac697e7",
+                    "SHA-256": "529433f1f3791bc0e1f56f8b7c4649c7ed50ae34c3c8155b15a20fdf84aac8dc",
+                    "SHA-512": "d61f17f4698ef253804c8d1d4a8fd44e8fa01f8af1ac97c04fa1cabfb8eedf6f09d47405b5a0abdd5523df06ab58394218ee12d1773b671b6efe4dfc6599fd1d",
+                    "SHA3-256": "7a3fa0493c58ec188061124b8b8907a7523644d5292d5a591d2c64153908c9dc",
+                    "SHA3-512": "e5d9efd67158481a977f0c0f11efd6cdd7c0507a0aa1fb85f39cba6053831c7f9b33202878457d281ce576dffaf89d2cfa8a457c01e60cfcbaa54eda74cdd38a"
+                },
+                "external_id": "DcjOm"
+            },
+            {
+                "source_name": "view",
+                "hashes": {
+                    "MD5": "a637b6ea453d3940dfe2ecefe6a79983",
+                    "SHA-1": "2a3b421068f22138cda2bf74fd53395bb43361a7",
+                    "SHA-256": "3e8b2087a58f4cf03c52f2044e01577f23c63ecfe940a9cd7bebb1fcf67d5c1f",
+                    "SHA-512": "f912b9d4ab7614b41a3ed551a6bb903a50bce4e3ddb32f6946c088f4815e58cf7b6b44aa6af8383ee0166f09de6e9529fb97b31d3e2aa0be4574021afe0d58c4",
+                    "SHA3-256": "12b2edbc633a23372072b015c0020d1def9a6a4b56d4716c01f6ba3011cb7725",
+                    "SHA3-512": "2869f90f9661782fc5c853edc4228d681efa0f1db84c55703ed7425ab68dd205c93070f25bcedb81c5358b25ee5fdde229311d025e303398884a4c28d909119b"
+                },
+                "external_id": "vdSlTpshKefBQJRDGAZO"
+            },
+            {
+                "source_name": "next",
+                "url": "https://salinas.com/",
+                "external_id": "NbSeeuVGbud"
+            },
+            {
+                "source_name": "together",
+                "description": "Financial far cause sort prevent another where south.",
+                "hashes": {
+                    "MD5": "3264c6398498fdcc3b90482694bf6a00",
+                    "SHA-1": "da83473560f71331911e7badd5dba543e959c6d9",
+                    "SHA-256": "284cb57084378a775842777bd8cc98fdf58f792db8b7b6ef77e4c49734ce35f7",
+                    "SHA-512": "bef0854ea93c3f8f4cf36d65b4c2820c26e4a535e88e15dc540ef5423e6830d37d180a10b949238d43a21220bdad0d65e968eb58f8e988c8fd3bc0c30eddcd0f",
+                    "SHA3-256": "ee81d255200269e31773d33ece5c3e36c2ec468bad9c963e141a06e325239ebc",
+                    "SHA3-512": "6eaa4502e1f2d52ebb4d7102a0ff0c2722d562d739954628cb4855288ec5d4dccbcd084dcfb9ae0ba8ed8a7f09b59e42f5a2c0a8aa8b45fff42b58f8baeeaaf4"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fe668679-2b1e-4552-892e-8750eb484ff9"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--fe668679-2b1e-4552-892e-8750eb484ff9",
+        "created": "2021-08-14T01:08:37.133777Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c37eda22-f302-4b2e-bf63-7f8ea35d72b0",
+                "name": "Event really first our country somebody",
+                "create_date_time": "2021-08-14T01:08:08.426408Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.426228Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

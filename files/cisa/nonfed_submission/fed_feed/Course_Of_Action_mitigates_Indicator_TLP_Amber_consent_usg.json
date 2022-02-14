@@ -1,0 +1,200 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--0dd781b3-9d43-4d9b-9905-e7a96832a817",
+        "created_by_ref": "identity--e18c448e-f56c-461e-af04-26e6bda54630",
+        "created": "2020-11-22T17:16:16.724569Z",
+        "modified": "2021-08-14T01:08:23.40329Z",
+        "name": "bar",
+        "description": "Old black help through imagine resource.",
+        "external_references": [
+            {
+                "source_name": "although",
+                "description": "Effect manage public less mission plant south."
+            },
+            {
+                "source_name": "gas",
+                "url": "https://nguyen-cook.com/",
+                "hashes": {
+                    "MD5": "a9e4a9d499a2a819ebd31887a1baf14a",
+                    "SHA-1": "057408cb947859320b2914c9e9e09281584124f1",
+                    "SHA-256": "82b409527aa6fa5662e625c55453a671c247c52f5a4d5071651cfbcaa21db28e",
+                    "SHA-512": "ee3fc3f2e6400124aa170be0638f91596b6c820f885a3d18ad135cdf474972d3ce43aaee209776dcf435b5995d89cf81b1d8ee4e973c496decde7d81557b8de6",
+                    "SHA3-256": "72e6f57e27bc25f71f7ad8e6e04ec1705a1141b4a47d5aa2adaef32996cc6415",
+                    "SHA3-512": "f0c134471a65a7984383b8caed2bb91fec2f127ea1801dea2bf9cdd9e9255e170f3648e4fa5a16ee0b731bdbd324f76da8726a88e54272e080a1058225fdf832"
+                },
+                "external_id": "FmJYEHARH"
+            },
+            {
+                "source_name": "two",
+                "description": "Else though heavy he appear.",
+                "url": "http://www.white.com/",
+                "external_id": "GWLHecSIN"
+            },
+            {
+                "source_name": "serious",
+                "description": "Story tree skill race black become present.",
+                "url": "http://www.davis.com/",
+                "hashes": {
+                    "MD5": "778c80ac0ba8a5c40b68463716ea886e",
+                    "SHA-1": "b8269609c9894ada84dc5250a8182a96b5d79c88",
+                    "SHA-256": "de07e040513336c6485502000d91cecff2cc81483c4c7676344f803b48bd06d7",
+                    "SHA-512": "03307dd477a7728898240d907b733f0bfd05eca117d948621702b7a1b04bb9e5e79df70abfbeecc6c44f96bbf408bb7a943edfce75f83c3b99fbb85df5759496",
+                    "SHA3-256": "52131254f5b22ea23e70cc39fb903893b15064b5b59e29feb56b529e5fd7f4ae",
+                    "SHA3-512": "0510ed55c984e332f9c58e666a612ebbe318e0167c907738aadf575bed9db2fdd36aae338bdd997f9a9d6e10754b684b6c91b1380079e73cb9b393deae780d48"
+                },
+                "external_id": "KULgQcUynrJayUJZ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e0226d32-fb65-40ad-a111-14df479775bb"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--9f295ff0-8cef-42da-88eb-aee06ecb91f8",
+        "created_by_ref": "identity--e18c448e-f56c-461e-af04-26e6bda54630",
+        "created": "2022-03-09T19:58:59.777293Z",
+        "modified": "2022-10-31T19:07:41.844576Z",
+        "name": "allow",
+        "description": "Assume interest agreement human body.",
+        "indicator_types": [
+            "unknown",
+            "benign",
+            "anonymization",
+            "unknown"
+        ],
+        "pattern": "([mutex:defanged NOT = false]) AND [windows-registry-key:number_of_subkeys >= 0] WITHIN 5 SECONDS",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-10-01T00:36:34.856148Z",
+        "valid_until": "2022-02-23T23:02:05.11799Z",
+        "labels": [
+            "either",
+            "above",
+            "individual",
+            "pfte-batch-1"
+        ],
+        "confidence": 56,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e0226d32-fb65-40ad-a111-14df479775bb"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8985c4ef-9f78-4cb2-9c03-714c84142876",
+        "created_by_ref": "identity--e18c448e-f56c-461e-af04-26e6bda54630",
+        "created": "2021-03-27T04:51:51.842752Z",
+        "modified": "2021-08-14T01:08:23.405538Z",
+        "relationship_type": "mitigates",
+        "description": "Right operation cost officer out discussion opportunity. Mother simple weight education then add.",
+        "source_ref": "course-of-action--0dd781b3-9d43-4d9b-9905-e7a96832a817",
+        "target_ref": "indicator--9f295ff0-8cef-42da-88eb-aee06ecb91f8",
+        "stop_time": "2021-08-10T01:22:49.347933Z",
+        "external_references": [
+            {
+                "source_name": "add",
+                "description": "Measure represent media.",
+                "external_id": "sfjdB"
+            },
+            {
+                "source_name": "government",
+                "url": "https://www.cannon.net/",
+                "hashes": {
+                    "MD5": "4abe3a11c7fa413f8905794b78918817",
+                    "SHA-1": "785f940c86fa06fb3b6774c0ae4110487cbc06e4",
+                    "SHA-256": "8362826b9ff2f33390718becbbf9f5a61cac932533e3de98c0a1f9ece6dad9d0",
+                    "SHA-512": "abcf8533f33c76f60f8dbc3d24ed31ce5fbbc351cdbd2f89b79c84b81e30a66084865eac9ec5d3488b0b6fee4807c1791e89b0aab92b96966b7f6532bdb1b8f1",
+                    "SHA3-256": "bd1f9946021d8355a9250fe889e666a9235b78049f819184df62b6b8248b6383",
+                    "SHA3-512": "9f60bbc59b21bad208e67f3cd07e2f563c2191bc55f1d3310f1bd436c3e85f49bb3cb3ad5c80deab07b504a4853ed1834a92600de8981f4ff542a0a177ea3e9b"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e0226d32-fb65-40ad-a111-14df479775bb"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--e0226d32-fb65-40ad-a111-14df479775bb",
+        "created_by_ref": "identity--e18c448e-f56c-461e-af04-26e6bda54630",
+        "created": "2021-08-14T01:08:23.40236Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2a4a5944-494c-4a33-b0ba-c70e719ee1c8",
+                "name": "Room arrive pay often",
+                "create_date_time": "2021-08-14T01:08:08.421032Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e18c448e-f56c-461e-af04-26e6bda54630",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-04-08T12:25:25.655589Z",
+        "modified": "2023-03-23T21:41:53.724997Z",
+        "name": "Ward-Garcia",
+        "identity_class": "system",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e0226d32-fb65-40ad-a111-14df479775bb"
+        ]
+    }
+]

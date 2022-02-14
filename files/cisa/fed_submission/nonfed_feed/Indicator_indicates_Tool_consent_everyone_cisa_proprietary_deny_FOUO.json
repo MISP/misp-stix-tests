@@ -1,0 +1,171 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--a569df29-6516-4cc4-823e-08f47a3188fd",
+        "created_by_ref": "identity--bca862b3-b7fa-4f1f-989f-c561014b3531",
+        "created": "2021-06-06T13:24:15.863896Z",
+        "modified": "2022-04-16T09:15:40.715474Z",
+        "name": "adult",
+        "description": "Network music remain environmental participant.",
+        "indicator_types": [
+            "compromised",
+            "compromised",
+            "anomalous-activity"
+        ],
+        "pattern": "[ipv6-addr:value = 'dbce:5e86:204a:3e24:4fdc:e76c:bd68:d0ef'] AND [directory:defanged NOT = false] AND ([(mutex:defanged = false) AND mutex:defanged NOT = false]) REPEATS 8 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-08-19T01:16:32.847948Z",
+        "valid_until": "2020-10-16T19:22:18.920465Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "labels": [
+            "sense",
+            "modern",
+            "most",
+            "pfte-batch-1"
+        ],
+        "confidence": 97,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "class",
+                "description": "Common growth prepare yourself us turn.",
+                "url": "http://yu.net/",
+                "external_id": "QTGpk"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--c888958a-89fe-40f3-b3f0-f272e5e8e66d",
+        "created_by_ref": "identity--bca862b3-b7fa-4f1f-989f-c561014b3531",
+        "created": "2021-03-11T13:39:05.663657Z",
+        "modified": "2021-08-14T01:08:35.650745Z",
+        "name": "decade",
+        "tool_types": [
+            "credential-exploitation",
+            "exploitation",
+            "unknown",
+            "denial-of-service"
+        ],
+        "tool_version": "appear",
+        "labels": [
+            "general",
+            "people",
+            "drive",
+            "when",
+            "police",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--6a6fccbb-f522-4763-96a5-7ff3c7a15fc6",
+        "created_by_ref": "identity--bca862b3-b7fa-4f1f-989f-c561014b3531",
+        "created": "2022-01-21T17:15:06.385556Z",
+        "modified": "2022-08-29T20:51:13.916716Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--a569df29-6516-4cc4-823e-08f47a3188fd",
+        "target_ref": "tool--c888958a-89fe-40f3-b3f0-f272e5e8e66d",
+        "start_time": "2021-04-22T06:59:59.908023Z",
+        "stop_time": "2021-08-22T05:49:40.061625Z",
+        "labels": [
+            "once",
+            "fast",
+            "pattern",
+            "exist",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "if",
+                "description": "First ready eight reduce series.",
+                "external_id": "IFDPOkHJLWrAghbYwHGY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--bca862b3-b7fa-4f1f-989f-c561014b3531",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-08-06T17:14:28.755112Z",
+        "modified": "2021-08-17T13:56:00.948478Z",
+        "name": "TreeNoteAble",
+        "identity_class": "class",
+        "contact_information": "657 Lester Junction\nNorth John, OK 98008",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "break",
+                "description": "Military Mrs where per crime happen.",
+                "url": "https://bailey.biz/",
+                "hashes": {
+                    "MD5": "150148d9a0cfc5e7852982b86e590e47",
+                    "SHA-1": "2c7930d4c0f522f26de8e70801ed15813d57fc4e",
+                    "SHA-256": "8e80ee17cf03ce6513cdefaf8146e32f714d6de8505f90c8e999112e8b661db1",
+                    "SHA-512": "23e2d6a1553947814a295fec00a630b39b4c23127333f091791344572bf181214d47584ba23f987c79a48ccc002ffcb7feaf4c1c024e165e0308afc9696ed9d1",
+                    "SHA3-256": "8b55c3b63856f1457ee9fd14b69fb451010ef8e9895936587baf8118fe53b434",
+                    "SHA3-512": "676a3bae6e6985ba8d9c1af94468b4b9c3d303216a0b86039e0ddebcb6e9b96b363e234788c3a28d0f680e7fa6ddcbe2440705c1e7008717c1a82b40b6b937e8"
+                },
+                "external_id": "pvPMVoQiBgnQlLUsGNar"
+            },
+            {
+                "source_name": "huge",
+                "description": "Place pressure child natural expert little maybe.",
+                "url": "https://leon.com/",
+                "external_id": "uiTUJAvRtcGQaMzSt"
+            },
+            {
+                "source_name": "onto",
+                "description": "Much million term daughter president thus long.",
+                "external_id": "pnUNHrUrSgjlmZr"
+            },
+            {
+                "source_name": "thing",
+                "external_id": "bqasboBowItKtwyMFtdA"
+            },
+            {
+                "source_name": "value",
+                "url": "http://williams.com/",
+                "hashes": {
+                    "MD5": "26ab4159473394fb82a9f4c99f7389c5",
+                    "SHA-1": "1afd2dfa95dd16063b3ff8850c9b971e5af3ded8",
+                    "SHA-256": "33d5d2e8775ba53c75ce77e98b1531be8e36133aab3a1ef28e1f6d52eab1eaee",
+                    "SHA-512": "170773870a00d01de527cefb6e94691ae79b7453a300a81ebb165900a5420065cee8d8588e8c3ae2d261a27d930c9cacc26afdeecf192f8cf43a66a5f095b99c",
+                    "SHA3-256": "6dd0a3f0603da2d5f35c2ea07db5441c20aaf621059d04181b11a996524fc1a3",
+                    "SHA3-512": "37b62f92451bbd756265b9b20ac528ff31931af7162c36c1e169f71de2cc6c877d456ba4b6365fd0dbdcb9566b61f5a47eb70a208c9ce57b1724cf6372771d14"
+                },
+                "external_id": "idoSlIaLIeEuvAQP"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

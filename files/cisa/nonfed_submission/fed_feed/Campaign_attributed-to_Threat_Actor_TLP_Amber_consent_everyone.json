@@ -1,0 +1,199 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--ab1db0a8-bfb1-4f28-b128-0c767b175450",
+        "created_by_ref": "identity--fa4b9e3c-c49d-4aec-b9b5-4c16942b5d2c",
+        "created": "2021-08-29T23:40:18.930374Z",
+        "modified": "2021-12-22T04:22:26.518268Z",
+        "name": "money",
+        "aliases": [
+            "response",
+            "sit",
+            "head"
+        ],
+        "first_seen": "2021-01-29T04:57:57.719244Z",
+        "labels": [
+            "seem",
+            "unit",
+            "wonder",
+            "a",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--995c86a3-2db5-4807-ba6c-73418b0521f5"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--bad935fc-ded8-40be-9e16-e230e61bd0df",
+        "created_by_ref": "identity--fa4b9e3c-c49d-4aec-b9b5-4c16942b5d2c",
+        "created": "2020-09-11T09:54:34.205777Z",
+        "modified": "2021-08-14T01:08:13.957531Z",
+        "name": "series",
+        "description": "Particularly lawyer join.",
+        "threat_actor_types": [
+            "activist",
+            "activist",
+            "spy"
+        ],
+        "aliases": [
+            "score",
+            "gun",
+            "role",
+            "think"
+        ],
+        "last_seen": "2022-05-18T05:30:36.948871Z",
+        "secondary_motivations": [
+            "dominance",
+            "unpredictable"
+        ],
+        "confidence": 12,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "effort",
+                "external_id": "raSjY"
+            },
+            {
+                "source_name": "institution",
+                "url": "http://www.little.com/",
+                "external_id": "eQthVOreHNYn"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--995c86a3-2db5-4807-ba6c-73418b0521f5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b6f622ba-f029-4e28-8d1b-642ec719a9e4",
+        "created_by_ref": "identity--fa4b9e3c-c49d-4aec-b9b5-4c16942b5d2c",
+        "created": "2021-10-13T22:33:53.41758Z",
+        "modified": "2022-09-28T20:43:22.504773Z",
+        "relationship_type": "attributed-to",
+        "description": "Result current Congress over exist. Political simple firm ten. Respond population here worker PM property.",
+        "source_ref": "campaign--ab1db0a8-bfb1-4f28-b128-0c767b175450",
+        "target_ref": "threat-actor--bad935fc-ded8-40be-9e16-e230e61bd0df",
+        "labels": [
+            "box",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--995c86a3-2db5-4807-ba6c-73418b0521f5"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--995c86a3-2db5-4807-ba6c-73418b0521f5",
+        "created_by_ref": "identity--fa4b9e3c-c49d-4aec-b9b5-4c16942b5d2c",
+        "created": "2021-08-14T01:08:13.956549Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f98cddfd-8461-4143-a969-e6e230df21d4",
+                "name": "Word describe cold color",
+                "create_date_time": "2021-08-14T01:08:08.422252Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--fa4b9e3c-c49d-4aec-b9b5-4c16942b5d2c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-01-09T06:12:18.9324Z",
+        "modified": "2021-10-24T02:11:28.832846Z",
+        "name": "Bryant LLC",
+        "description": "Grass-roots disintermediate function",
+        "roles": [
+            "remember",
+            "record",
+            "debate",
+            "media"
+        ],
+        "contact_information": "3799 Travis Crescent\nSouth Michelle, ND 71647",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 48,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "chair",
+                "external_id": "AqXMvLsToX"
+            },
+            {
+                "source_name": "clearly",
+                "description": "Point skin short soon may.",
+                "hashes": {
+                    "MD5": "b50c0218a2ae82129767c782fb839257",
+                    "SHA-1": "da15d42e996c3e3b1fb96e383a34b5f346b8752f",
+                    "SHA-256": "4d6e448e89097b24461f700214c9ee3c97876ca8b57b6bfc6d1f3a10583568c8",
+                    "SHA-512": "dcf04d6fd0e2c3323b6fa8019ec836a08c81366dc1ba6545ce978ebd08c1f9ee2d4e7a5fe56cdb8ecf84fa5df86236a4ac96ceea17bea40cb9f56d2ddceef7f1",
+                    "SHA3-256": "d828c8421ca004271b457931f5bf395c5e27c60ce81a8236d49c5df05970f477",
+                    "SHA3-512": "1672ebaf528de560bb8f2c495b905e8430307a0c1a18ca5298872a37a5f5f7f1fe565355adb49b06e98231885eb604cf2142dfda677cce04706ddb4ccf073dc8"
+                },
+                "external_id": "lderU"
+            },
+            {
+                "source_name": "teach",
+                "description": "Civil chance time probably project truth letter.",
+                "url": "http://www.tran.info/",
+                "external_id": "gdUyxHVPTU"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--995c86a3-2db5-4807-ba6c-73418b0521f5"
+        ]
+    }
+]

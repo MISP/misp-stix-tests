@@ -1,0 +1,213 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--32174030-a9ba-446a-9042-98744af07a70",
+        "created_by_ref": "identity--4401e10b-96b4-4a54-b0f6-eaefbf9308e5",
+        "created": "2021-07-28T09:19:34.693259Z",
+        "modified": "2021-12-25T17:53:05.165356Z",
+        "name": "check",
+        "threat_actor_types": [
+            "insider-disgruntled",
+            "hacker",
+            "competitor",
+            "nation-state"
+        ],
+        "aliases": [
+            "ball",
+            "movement",
+            "these",
+            "low",
+            "cup"
+        ],
+        "first_seen": "2021-04-03T02:46:32.443726Z",
+        "last_seen": "2021-11-13T12:24:58.478287Z",
+        "sophistication": "innovator",
+        "resource_level": "contest",
+        "secondary_motivations": [
+            "accidental"
+        ],
+        "personal_motivations": [
+            "revenge",
+            "personal-satisfaction",
+            "dominance"
+        ],
+        "labels": [
+            "not",
+            "might",
+            "majority",
+            "street",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9feb83d8-5aa2-4be0-98ac-eaf138c6418a"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--56fab5b5-2ad0-4e19-80ad-ccc3c81f0f54",
+        "created_by_ref": "identity--4401e10b-96b4-4a54-b0f6-eaefbf9308e5",
+        "created": "2021-06-21T01:58:06.465287Z",
+        "modified": "2021-09-21T17:48:15.477613Z",
+        "name": "Jones and Sons",
+        "identity_class": "unknown",
+        "sectors": [
+            "transportation",
+            "non-profit"
+        ],
+        "contact_information": "7391 Eric Circle Suite 552\nSarahview, CO 95538",
+        "labels": [
+            "rise",
+            "kind",
+            "difficult",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--9feb83d8-5aa2-4be0-98ac-eaf138c6418a"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--2602ff8b-1a32-4f6c-80af-50e751fb74ae",
+        "created_by_ref": "identity--4401e10b-96b4-4a54-b0f6-eaefbf9308e5",
+        "created": "2021-08-06T11:32:47.133326Z",
+        "modified": "2022-07-08T03:17:52.721908Z",
+        "relationship_type": "targets",
+        "description": "Try same different country area fear region. Leave significant how accept brother glass. Animal population stand.",
+        "source_ref": "threat-actor--32174030-a9ba-446a-9042-98744af07a70",
+        "target_ref": "identity--56fab5b5-2ad0-4e19-80ad-ccc3c81f0f54",
+        "start_time": "2022-02-20T19:50:58.984602Z",
+        "stop_time": "2022-10-23T07:29:20.668992Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9feb83d8-5aa2-4be0-98ac-eaf138c6418a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--9feb83d8-5aa2-4be0-98ac-eaf138c6418a",
+        "created_by_ref": "identity--4401e10b-96b4-4a54-b0f6-eaefbf9308e5",
+        "created": "2021-08-14T01:09:29.83859Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-cdad75a5-97a2-450d-bb1c-cac3b21b4823",
+                "name": "Continue half as create together strong",
+                "create_date_time": "2021-08-14T01:08:08.421874Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4401e10b-96b4-4a54-b0f6-eaefbf9308e5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-05-12T22:38:24.564931Z",
+        "modified": "2022-10-21T19:04:15.788935Z",
+        "name": "Brown, Riddle and Jones",
+        "contact_information": "76184 Jones Course Apt. 392\nWest David, SC 10843",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "resource",
+                "description": "Industry national although.",
+                "url": "https://www.casey.com/",
+                "hashes": {
+                    "MD5": "dd510f15995a8dbc9537a9f322e9dc3c",
+                    "SHA-1": "a4b2089462d6cb6a11483d0b6d636d52994dda1f",
+                    "SHA-256": "ab6f1a06fe6551a49759a2b443a2c6cb5d21918a697bc6e2428cc74bde0cd8d6",
+                    "SHA-512": "0b3cd6a8b190ec941b9871c9e93bb197caa02f830c5688ffcfac6ea4a469beb02e4867ea4c2e00eef4e87c6a0913e43a2a50d73b68bc828273f57203348d0e5b",
+                    "SHA3-256": "9183078bc71dad5a8e96a9990ce4d8b3bfe385fd18063b1b91e3723daf996c08",
+                    "SHA3-512": "b78b75fef750b25b4e49c11aabf65073b967f9051ea4e36a9b5fb9e1ab9d04a7150c7013013ae7cca687508f949db437314cb3f22726b231623d2da8a233af9f"
+                }
+            },
+            {
+                "source_name": "health",
+                "description": "Of they forward real say space."
+            },
+            {
+                "source_name": "political",
+                "url": "http://www.wagner.com/",
+                "external_id": "jJAWBOlw"
+            },
+            {
+                "source_name": "national",
+                "description": "Real thank respond participant though.",
+                "hashes": {
+                    "MD5": "22c5b8280b35e8dabca8a00342483c7b",
+                    "SHA-1": "052bde58ecec19d4ab4d94856595c0fdc92e982a",
+                    "SHA-256": "dd0a1ce71d3b2896ae7002d35dbbef1a25238942bd224a1c17108e81f9b8d926",
+                    "SHA-512": "53c4f672c1fd9fbbd7ef62896701bbff3fac4bb8709b09f8b4e93cbccb2ccb422a77fcdb073eceec80581027188936fa48b8ab90ba0152b3a2c5d775f42c06a0",
+                    "SHA3-256": "c4e72aad9370adc410bb12cf0ee0a1b682fc13f4123ab5f06cf434a8da4cd5b4",
+                    "SHA3-512": "bb619b76ad505ae02a17e68f809b77044f9cb97a0135a2bc037ca9e5de4a86f78805b3b98a4a29af7bfe9693fd87b3d969aa4cb80564dc60baf3efd7a5f2f89c"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9feb83d8-5aa2-4be0-98ac-eaf138c6418a"
+        ]
+    }
+]

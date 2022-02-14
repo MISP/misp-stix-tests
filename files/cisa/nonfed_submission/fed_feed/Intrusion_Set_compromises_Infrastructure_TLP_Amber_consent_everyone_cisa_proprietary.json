@@ -1,0 +1,181 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--bc13b6b7-3502-4640-847c-e08ea74d90bb",
+        "created_by_ref": "identity--37973cda-7778-4126-940d-32cad1a44c9e",
+        "created": "2021-10-18T05:06:17.307724Z",
+        "modified": "2022-01-07T20:04:14.181702Z",
+        "name": "environment",
+        "first_seen": "2021-11-04T01:55:55.567011Z",
+        "goals": [
+            "Again middle item after entire.",
+            "Our court board.",
+            "Second effect responsibility there pick."
+        ],
+        "primary_motivation": "revenge",
+        "secondary_motivations": [
+            "personal-satisfaction",
+            "unpredictable",
+            "ideology",
+            "accidental",
+            "notoriety"
+        ],
+        "confidence": 59,
+        "object_marking_refs": [
+            "marking-definition--763c7cae-1388-4e68-91ab-4b623dd15783"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--9e923eec-bf80-4e2f-b091-a5227b6bd0d4",
+        "created_by_ref": "identity--37973cda-7778-4126-940d-32cad1a44c9e",
+        "created": "2021-01-25T03:26:19.157393Z",
+        "modified": "2021-08-14T01:08:52.3639Z",
+        "name": "white",
+        "infrastructure_types": [
+            "botnet",
+            "control-system"
+        ],
+        "aliases": [
+            "he",
+            "today"
+        ],
+        "first_seen": "2021-03-14T20:47:07.953613Z",
+        "labels": [
+            "south",
+            "skill",
+            "surface",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--763c7cae-1388-4e68-91ab-4b623dd15783"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--12487690-2750-4657-9b45-f0533e2be593",
+        "created_by_ref": "identity--37973cda-7778-4126-940d-32cad1a44c9e",
+        "created": "2020-08-17T18:20:05.017836Z",
+        "modified": "2021-08-14T01:08:52.364367Z",
+        "relationship_type": "compromises",
+        "source_ref": "intrusion-set--bc13b6b7-3502-4640-847c-e08ea74d90bb",
+        "target_ref": "infrastructure--9e923eec-bf80-4e2f-b091-a5227b6bd0d4",
+        "stop_time": "2021-11-05T06:34:19.223842Z",
+        "labels": [
+            "clearly",
+            "watch",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "find",
+                "description": "Kind mission our station so.",
+                "url": "https://reed-robinson.com/",
+                "hashes": {
+                    "MD5": "a4c29a82b3bde37b2c216ff51b753f80",
+                    "SHA-1": "25698d5ced7c8fa7953204c9585cf94a5e829f48",
+                    "SHA-256": "7091479fd0ee4b147218ee251e155f90086b3d6cdafc0a7af4589fb5ff7b6938",
+                    "SHA-512": "ab48abad8cf26efd5034398b9582e9ffafeeded4bf538e660ed49361f5ebf6773d1d85208f9a54b6103ad1673a0308c3dd559e6c734e275173566761ea7ca3d5",
+                    "SHA3-256": "505ad06e82214ab761798625d17d53cef74353c9901300923b5cedd48c8610c3",
+                    "SHA3-512": "8cbdf745e3e744ec78121f120b76d74b1b80c20e2fcb9be0266f35a2983c32bdaf37fd8ad7b1929190a86881c09e2e8402242eabe107d13f5c92ec0aae3b8561"
+                }
+            },
+            {
+                "source_name": "leave",
+                "description": "Than keep business suffer country.",
+                "url": "http://estrada.biz/",
+                "external_id": "ZhEUlItOFrbjVidoG"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--763c7cae-1388-4e68-91ab-4b623dd15783"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--763c7cae-1388-4e68-91ab-4b623dd15783",
+        "created_by_ref": "identity--37973cda-7778-4126-940d-32cad1a44c9e",
+        "created": "2021-08-14T01:08:52.362958Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-881bbc21-deef-4d57-abf3-7f599266217f",
+                "name": "Way get would fight necessary hour measure",
+                "create_date_time": "2021-08-14T01:08:08.423662Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--37973cda-7778-4126-940d-32cad1a44c9e",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-09T12:47:24.722148Z",
+        "modified": "2021-12-19T00:56:42.879441Z",
+        "name": "Campbell Ltd",
+        "sectors": [
+            "retail"
+        ],
+        "contact_information": "759 Jay Mission Suite 036\nMillerhaven, MT 33519",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 79,
+        "object_marking_refs": [
+            "marking-definition--763c7cae-1388-4e68-91ab-4b623dd15783"
+        ]
+    }
+]

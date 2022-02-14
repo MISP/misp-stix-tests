@@ -1,0 +1,124 @@
+[
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c243f45c-9c5f-4b41-8354-6276b52ebedc",
+        "created_by_ref": "identity--340744d5-4730-4f1c-9c4e-1d73c90c811c",
+        "created": "2021-03-16T21:38:34.759411Z",
+        "modified": "2021-12-15T11:31:26.567067Z",
+        "name": "Mahoney and Sons",
+        "description": "Reduced content-based process improvement",
+        "roles": [
+            "especially"
+        ],
+        "identity_class": "unknown",
+        "labels": [
+            "receive",
+            "your",
+            "ahead",
+            "according",
+            "pfte-batch-1"
+        ],
+        "confidence": 76,
+        "object_marking_refs": [
+            "marking-definition--440cec81-c02f-42f4-895e-687e9062ec2d"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--3ebcfb5f-73cd-4995-b841-0a191a9c69d7",
+        "created_by_ref": "identity--340744d5-4730-4f1c-9c4e-1d73c90c811c",
+        "created": "2021-02-21T09:53:42.36627Z",
+        "modified": "2021-09-07T12:08:47.924296Z",
+        "name": "cHHrJYQMgCNajWwNuyjW",
+        "latitude": -42.89929185301372,
+        "longitude": 42.92293377927916,
+        "precision": 2.9788698987112006,
+        "region": "latin-america-caribbean",
+        "country": "Lao People's Democratic Republic",
+        "street_address": "504 Kevin Spring Suite 155",
+        "postal_code": "17336",
+        "labels": [
+            "speak",
+            "able",
+            "start",
+            "play",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--440cec81-c02f-42f4-895e-687e9062ec2d"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ad3eb35e-a934-4856-9767-ec0e0ce37ce8",
+        "created_by_ref": "identity--340744d5-4730-4f1c-9c4e-1d73c90c811c",
+        "created": "2022-03-16T02:35:32.895845Z",
+        "modified": "2023-03-11T07:08:41.162431Z",
+        "relationship_type": "located-at",
+        "source_ref": "identity--c243f45c-9c5f-4b41-8354-6276b52ebedc",
+        "target_ref": "location--3ebcfb5f-73cd-4995-b841-0a191a9c69d7",
+        "labels": [
+            "prove",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--440cec81-c02f-42f4-895e-687e9062ec2d"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--340744d5-4730-4f1c-9c4e-1d73c90c811c",
+        "created_by_ref": "identity--340744d5-4730-4f1c-9c4e-1d73c90c811c",
+        "created": "2022-02-21T21:16:58.538075Z",
+        "modified": "2022-04-25T18:07:08.493978Z",
+        "name": "Estrada-Collins",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--440cec81-c02f-42f4-895e-687e9062ec2d"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--440cec81-c02f-42f4-895e-687e9062ec2d",
+        "created": "2021-08-14T01:08:27.09568Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a064a16e-64c9-426c-9535-98e263215e51",
+                "name": "Member population available under",
+                "create_date_time": "2021-08-14T01:08:08.430342Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

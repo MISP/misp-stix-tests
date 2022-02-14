@@ -1,0 +1,172 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--ced9363a-d930-4e8a-b844-ecbb095eb0d0",
+        "created_by_ref": "identity--b610d1c6-14a6-458b-afe5-5c0c9cfbbea0",
+        "created": "2021-01-09T12:05:19.48329Z",
+        "modified": "2021-08-14T01:08:21.73044Z",
+        "name": "save",
+        "labels": [
+            "play",
+            "garden",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "material",
+                "description": "Nearly him interview prepare impact statement trial.",
+                "url": "http://www.mccoy-howell.net/",
+                "external_id": "EDAINlyGp"
+            },
+            {
+                "source_name": "friend",
+                "description": "Hand nature require role face prove food.",
+                "url": "http://payne.com/",
+                "external_id": "SCyhlNpgwPrO"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--a61f671f-9bbb-48b7-855a-ecfbf2c5c37b",
+        "created_by_ref": "identity--b610d1c6-14a6-458b-afe5-5c0c9cfbbea0",
+        "created": "2020-12-20T04:53:47.43904Z",
+        "modified": "2021-09-22T02:44:34.298161Z",
+        "name": "production",
+        "indicator_types": [
+            "unknown",
+            "anomalous-activity",
+            "malicious-activity",
+            "benign",
+            "unknown"
+        ],
+        "pattern": "(([(email-message:content_type >= 'message/rfc822') OR process:defanged NOT = false]) AND [windows-registry-key:modified_time >= t'2021-06-10T17:29:46.998937Z'] AND [software:swid >= 'org.fedoraproject.Fedora-29']) REPEATS 7 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-10-23T00:44:19.467102Z",
+        "valid_until": "2021-07-30T15:16:06.540655Z",
+        "labels": [
+            "indicate",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "evening",
+                "description": "Film beyond enjoy interview.",
+                "url": "https://www.gates.org/",
+                "external_id": "NWgIilqciSDujXOZ"
+            },
+            {
+                "source_name": "also",
+                "description": "Catch unit research poor party.",
+                "url": "https://combs-walker.biz/"
+            },
+            {
+                "source_name": "avoid",
+                "description": "Dark before buy series.",
+                "hashes": {
+                    "MD5": "e1d0ee4852f1f9648a04a19818dda684",
+                    "SHA-1": "bb0e81176d046cc122af8affc86cab9b88a9e9c6",
+                    "SHA-256": "4784ef28e944790feaee9c50cfa0dcb50917957a4442c404765e115cf0f449e1",
+                    "SHA-512": "fea697fb44125bb4e6f2234a1ffe65416d8a134ec5f419b9def19c30d629b4b88ca4642abcc33bcc26ab18324fcba638217f990c2797d70a829d723568d29e95",
+                    "SHA3-256": "9de0ce930e1cefec3c7af22965f9e9837644c5a8b8f22d7f9ba3f04b56dd6fc7",
+                    "SHA3-512": "bbb136e9a9b12293483f66d29c7c008ea1634a63e5508821cfe3718f605e56db2e9136471fe67d6dd289cee26e2dd760640438bee2c04148410209b74bda7718"
+                },
+                "external_id": "QOpmJbzrvny"
+            },
+            {
+                "source_name": "environment",
+                "description": "Citizen hard majority as.",
+                "url": "http://www.lee.com/",
+                "hashes": {
+                    "MD5": "ac8f1bfc7ad69d6020d9b61f14a33c16",
+                    "SHA-1": "05f4db1e0e4da0a934374c62026224b3061e2de5",
+                    "SHA-256": "40c826fd07ea54df3d0be9d19acdf1d74142f9f07f74e419a031d0cd4ea54ee9",
+                    "SHA-512": "a1d8e11c6f8df18066b29e7cfc7ae058985db9f2363901f521073c6fbae53acb5b733ce062e959f27d28f77f885dfcbf5d52e3158e6c18a7f740d41d038c2978",
+                    "SHA3-256": "d3d9666f6ec8ee966ef0a2edbab8687f971008a7641ae80cec1e3d0cce7fb06a",
+                    "SHA3-512": "47446e17e2ae8afd45ef61aa9cd9a80eeb0f036cb2cfeac04ddcc283b272a71f675822ef48f6da5f1f09ee2fb34a913676faa89ff627b895551fc465a84da683"
+                },
+                "external_id": "krKqCGZajy"
+            },
+            {
+                "source_name": "trouble",
+                "description": "Painting learn notice range career program unit.",
+                "url": "http://kelly.com/",
+                "external_id": "ZHTeo"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--81e9a5c1-016e-4f0e-bfd5-5f98be5a9e0d",
+        "created_by_ref": "identity--b610d1c6-14a6-458b-afe5-5c0c9cfbbea0",
+        "created": "2020-11-01T14:54:44.411686Z",
+        "modified": "2021-08-14T01:08:21.73432Z",
+        "relationship_type": "investigates",
+        "description": "Yard catch north big. Live off high. Pattern hospital hospital attorney protect.",
+        "source_ref": "course-of-action--ced9363a-d930-4e8a-b844-ecbb095eb0d0",
+        "target_ref": "indicator--a61f671f-9bbb-48b7-855a-ecfbf2c5c37b",
+        "start_time": "2020-09-28T03:34:53.416818Z",
+        "stop_time": "2021-01-06T02:01:48.098587Z",
+        "labels": [
+            "back",
+            "commercial",
+            "new",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "goal",
+                "description": "Range heart remember.",
+                "hashes": {
+                    "MD5": "1d11c3bc50cee0fcfaf9b2b02c48469b",
+                    "SHA-1": "e03a5b56ddd5b1eba1dcac081af7c7a097f57e1f",
+                    "SHA-256": "e9a9b474d8aade1ae62bb0b02472d46b11222eedac7bd84fb48b215ac9b38579",
+                    "SHA-512": "87d74a34f6138c1e3740c7ea5c06b7282012a0602b8c58f24e509b34a67951a454b6ab81e3b2cba7bff702f1e26b1ca27e2c82a7c4b35d8887ccd9319df05eda",
+                    "SHA3-256": "9f7c6df8a8eeaef690710f2d2bb68d957f909be06fb180a2e4e27c1a93401361",
+                    "SHA3-512": "e720eb2870d093ab342d6e13bd653b3ff096f07eee738126e29824d0403979fd8b2846ccdb892a543ee31becbf3e0a8fd2a61a899fe6417702583db05a967598"
+                },
+                "external_id": "QmPjvhQhawxhnygbLv"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b610d1c6-14a6-458b-afe5-5c0c9cfbbea0",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-30T02:31:32.625106Z",
+        "modified": "2022-10-29T23:02:56.164684Z",
+        "name": "Martinez-Lynch",
+        "description": "Programmable cohesive project",
+        "roles": [
+            "four",
+            "none",
+            "character"
+        ],
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 20,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

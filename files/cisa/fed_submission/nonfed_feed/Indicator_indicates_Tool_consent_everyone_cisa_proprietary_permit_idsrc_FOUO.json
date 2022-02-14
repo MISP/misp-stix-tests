@@ -1,0 +1,106 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--e930c729-c4ef-483d-b2e7-cf9219ead063",
+        "created_by_ref": "identity--12f4b9ef-e2dd-4b57-a0bc-2acec82d39a2",
+        "created": "2021-03-21T23:51:50.22405Z",
+        "modified": "2021-08-14T01:08:35.802778Z",
+        "pattern": "[(windows-registry-key:number_of_subkeys <= 0) AND windows-registry-key:key <= 'gvAWtiMOyLfdFlkOcv'] OR [ipv4-addr:value >= '118.134.184.124'] OR [(domain-name:value NOT = 'smith.com') AND domain-name:value >= 'williams.com']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-12-04T19:05:04.394155Z",
+        "labels": [
+            "radio",
+            "miss",
+            "treatment",
+            "prepare",
+            "pfte-batch-1"
+        ],
+        "confidence": 47,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "reflect",
+                "description": "Nothing approach guess finally offer positive although line.",
+                "url": "http://horne.info/",
+                "hashes": {
+                    "MD5": "caf1adfa479ddcb36b595925b43abd64",
+                    "SHA-1": "cc30439a4fa11478e45746c9b88ed20af7635d2c",
+                    "SHA-256": "3e2441de04dd517fb0dd138f2d077aac4562f392b46fe8f64e9ac97f7004d44a",
+                    "SHA-512": "9705ae50404e9c183962419a77338cb4b92ec6c15fdd71d4d3c5c0e5fd61a433670720b60b71fe5db006c99003f2bd8985c80ff258faf66fdd9b89c637e929b2",
+                    "SHA3-256": "ebaf9bef11428c09503bfa9d9abaf0bcdc462a7780446b0fe9e28be9c69e97b8",
+                    "SHA3-512": "9162d9e87bd3fe5d7ff59152a3848fef227ab304309d508978fa4e2e9da8eb80fbb80f4b308b881d964654295ed2653ff01c0dbac6e325f351d838b54a96a49f"
+                },
+                "external_id": "lGsdkImckkUjaWaHAnv"
+            },
+            {
+                "source_name": "thus",
+                "description": "Section eight industry community fast another customer."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--6ebe01c5-ca88-4a88-86cd-5f2e0e51b349",
+        "created_by_ref": "identity--12f4b9ef-e2dd-4b57-a0bc-2acec82d39a2",
+        "created": "2021-10-12T23:18:26.408344Z",
+        "modified": "2022-09-22T18:49:50.426862Z",
+        "name": "budget",
+        "tool_types": [
+            "remote-access",
+            "network-capture",
+            "unknown"
+        ],
+        "tool_version": "difference",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 66,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a8ff22a6-ac95-4f25-9794-4e0cc53a8c52",
+        "created_by_ref": "identity--12f4b9ef-e2dd-4b57-a0bc-2acec82d39a2",
+        "created": "2021-09-24T16:31:10.018291Z",
+        "modified": "2021-11-19T12:49:05.049324Z",
+        "relationship_type": "indicates",
+        "description": "Open admit each to. Thousand outside individual. Politics name source Mrs build factor walk.",
+        "source_ref": "indicator--e930c729-c4ef-483d-b2e7-cf9219ead063",
+        "target_ref": "tool--6ebe01c5-ca88-4a88-86cd-5f2e0e51b349",
+        "start_time": "2022-05-24T22:10:44.129595Z",
+        "stop_time": "2023-03-16T08:33:29.571469Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--12f4b9ef-e2dd-4b57-a0bc-2acec82d39a2",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-12-15T08:49:20.120255Z",
+        "modified": "2022-08-05T20:22:00.945875Z",
+        "name": "Schultz-Bradley",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

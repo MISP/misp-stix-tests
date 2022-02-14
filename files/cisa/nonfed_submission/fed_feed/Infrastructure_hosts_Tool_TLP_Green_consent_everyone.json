@@ -1,0 +1,218 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--f790c4e7-48e5-44fc-bfd6-00df303b10ed",
+        "created_by_ref": "identity--1db5807f-998a-4a43-beef-88ef4493f76f",
+        "created": "2022-07-22T22:08:58.175391Z",
+        "modified": "2023-07-18T12:55:36.258591Z",
+        "name": "rich",
+        "infrastructure_types": [
+            "botnet",
+            "botnet",
+            "anonymization"
+        ],
+        "aliases": [
+            "concern"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "kDFnHoyxOMtnxeuAO",
+                "phase_name": "xlRsitwJESWfiea"
+            },
+            {
+                "kill_chain_name": "fxYcF",
+                "phase_name": "prGDRXILcsLbpEHrACCE"
+            },
+            {
+                "kill_chain_name": "csBKnWnvuGSw",
+                "phase_name": "FlhRmQhmVIA"
+            },
+            {
+                "kill_chain_name": "mqdhvmrkDzI",
+                "phase_name": "JXNoQQqv"
+            }
+        ],
+        "confidence": 63,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3f4b7b4f-39bd-45ed-8d65-c3ac8650dd12"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--8ffad704-c7fc-43b2-a6e4-23790d5bf2d9",
+        "created_by_ref": "identity--1db5807f-998a-4a43-beef-88ef4493f76f",
+        "created": "2021-06-26T09:53:54.514308Z",
+        "modified": "2022-04-16T15:25:27.807994Z",
+        "name": "audience",
+        "tool_types": [
+            "denial-of-service",
+            "information-gathering",
+            "network-capture",
+            "information-gathering"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "IdbyDxKGYDZBmPJraqlz",
+                "phase_name": "bzXsJCQJ"
+            },
+            {
+                "kill_chain_name": "wCebi",
+                "phase_name": "lJEdWXXtLCfggFMclDir"
+            }
+        ],
+        "labels": [
+            "top",
+            "them",
+            "ball",
+            "pfte-batch-1"
+        ],
+        "confidence": 41,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "guess",
+                "description": "Fight arm message seek hold pass sea trade."
+            },
+            {
+                "source_name": "keep",
+                "description": "Appear dog least responsibility.",
+                "url": "http://morgan.info/",
+                "external_id": "pfWaNVXPcjhc"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--3f4b7b4f-39bd-45ed-8d65-c3ac8650dd12"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1f0b3092-7d77-4513-8d0f-ce6b49a9bc08",
+        "created_by_ref": "identity--1db5807f-998a-4a43-beef-88ef4493f76f",
+        "created": "2022-04-20T11:44:56.478673Z",
+        "modified": "2022-05-22T23:25:57.614954Z",
+        "relationship_type": "hosts",
+        "source_ref": "infrastructure--f790c4e7-48e5-44fc-bfd6-00df303b10ed",
+        "target_ref": "tool--8ffad704-c7fc-43b2-a6e4-23790d5bf2d9",
+        "start_time": "2020-11-17T17:17:08.542696Z",
+        "stop_time": "2021-10-25T20:15:47.252052Z",
+        "labels": [
+            "finally",
+            "dinner",
+            "approach",
+            "hot",
+            "fund",
+            "pfte-batch-1"
+        ],
+        "confidence": 6,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--3f4b7b4f-39bd-45ed-8d65-c3ac8650dd12"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--3f4b7b4f-39bd-45ed-8d65-c3ac8650dd12",
+        "created_by_ref": "identity--1db5807f-998a-4a43-beef-88ef4493f76f",
+        "created": "2021-08-14T01:08:48.173179Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-cdad75a5-97a2-450d-bb1c-cac3b21b4823",
+                "name": "Continue half as create together strong",
+                "create_date_time": "2021-08-14T01:08:08.421874Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1db5807f-998a-4a43-beef-88ef4493f76f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-08T05:49:30.974722Z",
+        "modified": "2021-08-14T01:08:48.175075Z",
+        "name": "Mitchell Ltd",
+        "description": "Programmable regional moderator",
+        "roles": [
+            "second"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "government-regional",
+            "infrastructure",
+            "commercial"
+        ],
+        "contact_information": "207 Black Island Suite 955\nCindyshire, MT 43978",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 32,
+        "object_marking_refs": [
+            "marking-definition--3f4b7b4f-39bd-45ed-8d65-c3ac8650dd12"
+        ]
+    }
+]

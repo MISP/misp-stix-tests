@@ -1,0 +1,108 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--552d9846-e3d5-498a-9452-67f00e9b9d86",
+        "created_by_ref": "identity--23f6fb02-74a3-4b3c-a47b-205fea0a9ac2",
+        "created": "2022-06-16T01:40:01.826441Z",
+        "modified": "2023-02-13T20:50:36.05012Z",
+        "name": "peace",
+        "description": "Alone middle address open.",
+        "last_seen": "2021-05-30T16:19:31.266933Z",
+        "primary_motivation": "personal-gain",
+        "secondary_motivations": [
+            "unpredictable",
+            "accidental",
+            "unpredictable",
+            "revenge",
+            "organizational-gain"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 76,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--5bab0674-09e5-46e7-ba1f-f1e192ca62aa",
+        "created_by_ref": "identity--23f6fb02-74a3-4b3c-a47b-205fea0a9ac2",
+        "created": "2022-07-23T05:44:33.556171Z",
+        "modified": "2022-07-23T17:09:33.831539Z",
+        "name": "agreement",
+        "first_seen": "2022-06-28T16:26:45.521385Z",
+        "last_seen": "2022-11-15T00:48:08.426055Z",
+        "roles": [
+            "malware-author"
+        ],
+        "goals": [
+            "government"
+        ],
+        "resource_level": "organization",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--de3ad823-d359-4121-974c-93b4b0326825",
+        "created_by_ref": "identity--23f6fb02-74a3-4b3c-a47b-205fea0a9ac2",
+        "created": "2021-07-16T13:53:38.202793Z",
+        "modified": "2022-03-20T06:15:52.591857Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "intrusion-set--552d9846-e3d5-498a-9452-67f00e9b9d86",
+        "target_ref": "threat-actor--5bab0674-09e5-46e7-ba1f-f1e192ca62aa",
+        "labels": [
+            "exactly",
+            "pfte-batch-1"
+        ],
+        "confidence": 90,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "teach",
+                "description": "Perhaps letter movement seek live.",
+                "url": "http://edwards-hood.com/",
+                "hashes": {
+                    "MD5": "17fd0e875e9c92ef9d36c6537e23ecd6",
+                    "SHA-1": "4b8691d37f76a65eba163f504a2b1c898d39bedc",
+                    "SHA-256": "9bba2cea448a453614627da8a7c6e7c53b8c45216ef14c4829f57598a07763b4",
+                    "SHA-512": "00674ad9302ba86cb0c9a5739c52cfdeb5319d79ab5a7d5566e165e59084ad4c5bd3759652272d7c4afc5e0a9806fea9c981bedb2ab79771d1b99852bbef00f9",
+                    "SHA3-256": "f9ff00f2680521e3d577c224318250ac63524c891b6406501d738ecde957a8b1",
+                    "SHA3-512": "e162930222f668754b21c544eb5f9162af36869d3fbe71e5d30a962bc6703351dbd1cfb70121e8a12173b34f9bd2562028bab22bbd595ac657a4d604f537e636"
+                },
+                "external_id": "nngzSMLJPeEgxAdC"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--23f6fb02-74a3-4b3c-a47b-205fea0a9ac2",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-01-04T06:37:50.67995Z",
+        "modified": "2023-01-03T22:35:35.725022Z",
+        "name": "DevelopUnderEnough",
+        "description": "Customizable hybrid hardware",
+        "contact_information": "06588 Johnson Hollow\nWest Cassandra, MD 87183",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 71,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

@@ -1,0 +1,125 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--00c44025-66cc-4bfd-8207-e8cca1b27c3f",
+        "created_by_ref": "identity--a69aa5d0-3255-4f0f-9328-71288528b61e",
+        "created": "2021-06-16T18:54:52.457613Z",
+        "modified": "2022-03-26T16:51:28.195452Z",
+        "name": "watch",
+        "description": "Now plant book stage Republican.",
+        "indicator_types": [
+            "anomalous-activity",
+            "unknown",
+            "benign",
+            "unknown"
+        ],
+        "pattern": "(([process:pid >= 58862]) AND [user-account:account_expires >= t'2021-11-07T09:25:40.66553Z' AND (user-account:is_disabled = true)] REPEATS 3 TIMES) OR [email-addr:value > 'grayjamie@gmail.com'] START t'2020-09-14T14:21:40.700239Z' STOP t'2021-05-21T14:50:37.416677Z'",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-07-24T22:16:19.759274Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "XijOsiqpRYYUGX",
+                "phase_name": "WWTECAu"
+            },
+            {
+                "kill_chain_name": "TttivMlln",
+                "phase_name": "roeFmroJVmauAJtlj"
+            }
+        ],
+        "labels": [
+            "ball",
+            "Congress",
+            "pfte-batch-1"
+        ],
+        "confidence": 40,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--4c5c555c-b66e-483e-8f00-4639a892cf60",
+        "created_by_ref": "identity--a69aa5d0-3255-4f0f-9328-71288528b61e",
+        "created": "2022-06-14T15:17:26.710514Z",
+        "modified": "2022-08-20T15:34:42.146725Z",
+        "name": "again",
+        "description": "Do class without budget.",
+        "infrastructure_types": [
+            "botnet",
+            "workstation",
+            "amplification",
+            "anonymization",
+            "routers-switches"
+        ],
+        "first_seen": "2021-06-15T21:32:37.243668Z",
+        "last_seen": "2022-03-13T15:25:08.095063Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 72,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8f7ec5ad-ccf6-4d08-b1ce-8ab5764541a2",
+        "created_by_ref": "identity--a69aa5d0-3255-4f0f-9328-71288528b61e",
+        "created": "2022-01-09T20:43:54.621689Z",
+        "modified": "2022-05-04T12:28:41.68137Z",
+        "relationship_type": "indicates",
+        "description": "For language hand not test human. Energy month support break discussion space talk.",
+        "source_ref": "indicator--00c44025-66cc-4bfd-8207-e8cca1b27c3f",
+        "target_ref": "infrastructure--4c5c555c-b66e-483e-8f00-4639a892cf60",
+        "stop_time": "2022-05-29T13:57:45.680378Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 8,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a69aa5d0-3255-4f0f-9328-71288528b61e",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-26T02:02:57.843946Z",
+        "modified": "2022-04-12T04:53:17.580387Z",
+        "name": "Harris Inc",
+        "description": "Multi-layered user-facing installation",
+        "roles": [
+            "word"
+        ],
+        "sectors": [
+            "pharmaceuticals"
+        ],
+        "contact_information": "1988 Leslie Cliffs\nNew Jeffreyburgh, IL 26778",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 34,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

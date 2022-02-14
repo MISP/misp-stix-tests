@@ -1,0 +1,104 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--76979817-782d-4015-b3ff-9630591c5c5f",
+        "created_by_ref": "identity--0f41c8ca-a0cc-4f8e-b52a-8ea5595ab840",
+        "created": "2021-08-11T14:33:15.870566Z",
+        "modified": "2021-09-03T04:32:35.756257Z",
+        "name": "school",
+        "infrastructure_types": [
+            "exfiltration",
+            "anonymization",
+            "botnet"
+        ],
+        "aliases": [
+            "unit",
+            "subject",
+            "send",
+            "thousand"
+        ],
+        "labels": [
+            "ground",
+            "science",
+            "benefit",
+            "drug",
+            "pfte-batch-1"
+        ],
+        "confidence": 93,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--eb7f6e00-de19-49a6-bc48-f583a6e89171",
+        "value": "https://www.gray.com/",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a043c5bd-3f6e-4452-9f86-243591b35884",
+        "created_by_ref": "identity--0f41c8ca-a0cc-4f8e-b52a-8ea5595ab840",
+        "created": "2021-09-13T12:32:01.26293Z",
+        "modified": "2022-07-19T09:14:53.289204Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--76979817-782d-4015-b3ff-9630591c5c5f",
+        "target_ref": "url--eb7f6e00-de19-49a6-bc48-f583a6e89171",
+        "start_time": "2022-07-10T02:07:14.166996Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 33,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0f41c8ca-a0cc-4f8e-b52a-8ea5595ab840",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-05-06T13:33:22.137787Z",
+        "modified": "2023-03-23T19:35:35.217606Z",
+        "name": "Rose PLC",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "shoulder",
+                "url": "http://martinez.com/",
+                "external_id": "LoRfEEDkPuCI"
+            },
+            {
+                "source_name": "smile",
+                "description": "Baby seven foreign western threat serious."
+            },
+            {
+                "source_name": "reason",
+                "description": "Herself top last project choice agent.",
+                "url": "https://mercer-martinez.com/"
+            },
+            {
+                "source_name": "soldier",
+                "description": "Trial wrong daughter data leg maybe despite.",
+                "url": "http://cobb-morgan.com/",
+                "external_id": "IrATApGkVbskn"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

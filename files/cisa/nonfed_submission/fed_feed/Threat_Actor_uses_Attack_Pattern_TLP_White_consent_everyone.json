@@ -1,0 +1,262 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--efad6107-57cb-488e-86cb-e46e1f9428e9",
+        "created_by_ref": "identity--006e1595-8595-4452-97fd-58407fabcf3f",
+        "created": "2022-06-06T00:38:10.218607Z",
+        "modified": "2022-11-06T21:27:52.740204Z",
+        "name": "letter",
+        "threat_actor_types": [
+            "crime-syndicate",
+            "insider-accidental",
+            "insider-disgruntled",
+            "terrorist",
+            "insider-accidental"
+        ],
+        "first_seen": "2021-03-27T23:45:19.763275Z",
+        "last_seen": "2021-10-23T13:31:32.401695Z",
+        "roles": [
+            "agent"
+        ],
+        "goals": [
+            "southern",
+            "whether",
+            "significant",
+            "meeting"
+        ],
+        "sophistication": "intermediate",
+        "personal_motivations": [
+            "ideology",
+            "ideology",
+            "organizational-gain",
+            "ideology",
+            "dominance"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "vote",
+                "url": "http://green-rogers.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--86ad1786-7d22-4e8f-948e-8bd1e9763adc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--38e386d9-c486-40c1-a61d-634d65bad5c7",
+        "created_by_ref": "identity--006e1595-8595-4452-97fd-58407fabcf3f",
+        "created": "2021-07-07T04:45:43.557611Z",
+        "modified": "2021-11-14T22:53:02.174772Z",
+        "name": "protect",
+        "aliases": [
+            "either",
+            "full",
+            "surface"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "BzMsxopxZVvxGLCHqr",
+                "phase_name": "iuReB"
+            }
+        ],
+        "labels": [
+            "region",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "dog",
+                "url": "https://bradford.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--86ad1786-7d22-4e8f-948e-8bd1e9763adc"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b535535c-e538-488b-a7f5-0b4279aa7dce",
+        "created_by_ref": "identity--006e1595-8595-4452-97fd-58407fabcf3f",
+        "created": "2022-03-03T11:17:08.068051Z",
+        "modified": "2023-01-16T10:07:18.752837Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--efad6107-57cb-488e-86cb-e46e1f9428e9",
+        "target_ref": "attack-pattern--38e386d9-c486-40c1-a61d-634d65bad5c7",
+        "start_time": "2021-02-28T10:39:23.607022Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "yourself",
+                "description": "During computer whatever.",
+                "url": "https://rose.com/",
+                "external_id": "nRAJttsrLpLnMEgiDi"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--86ad1786-7d22-4e8f-948e-8bd1e9763adc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--86ad1786-7d22-4e8f-948e-8bd1e9763adc",
+        "created_by_ref": "identity--006e1595-8595-4452-97fd-58407fabcf3f",
+        "created": "2021-08-14T01:09:32.253846Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c8895e1e-4ecb-48a8-ba6f-5865a3a3066d",
+                "name": "Development get financial fill light",
+                "create_date_time": "2021-08-14T01:08:08.421416Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.421229Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--006e1595-8595-4452-97fd-58407fabcf3f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-14T20:39:13.843654Z",
+        "modified": "2021-09-01T14:41:25.5056Z",
+        "name": "Mills, Sawyer and Rodriguez",
+        "roles": [
+            "hotel",
+            "ability"
+        ],
+        "sectors": [
+            "automotive",
+            "pharmaceuticals",
+            "energy",
+            "insurance",
+            "financial-services"
+        ],
+        "contact_information": "99884 Reyes Square\nNorth Elizabethtown, CA 29735",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 61,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "respond",
+                "description": "Society writer cut shoulder.",
+                "url": "http://www.taylor-gonzalez.com/",
+                "hashes": {
+                    "MD5": "2d079be1c138e2f0d30e99cea75bb0a0",
+                    "SHA-1": "d81e8c531db2969a0625dfc0ce7817a8e7cfe64c",
+                    "SHA-256": "bfdd04f0d9e329a1d3501371ce32bfac5003280dd7bc3c22027da29667aa43ea",
+                    "SHA-512": "326f1523fb6d292d11660e9547ac8f883dc48fb67c4c6bb1173c05d61c3d0014965459b4ae284b805b103c07ecd474b56c71ab962b3911fc62cc19f6ecd77e2a",
+                    "SHA3-256": "9260993f5c33410da87ec12861e7e98b9466a9f32103db17de5ac5aed6fffbbe",
+                    "SHA3-512": "61fc2879f74b351cc3361eb4f74084ddf070843b86e1894b5ffc247f7262b0b367912ab3b9d284060a4ea4ee927710ca80c9400ec2f3d6c57bdc13ac666a7825"
+                },
+                "external_id": "bkRXmMXOmAeaspp"
+            },
+            {
+                "source_name": "heavy",
+                "hashes": {
+                    "MD5": "b26cfbd7890d7eb026fe40f77a83d8a0",
+                    "SHA-1": "6ccba747bc3a444ac90eab4617d4afbd70346447",
+                    "SHA-256": "286aa0b8f8ce8a46d67a3af654fc4d3d0a27be9be1151e2ca267334d8496ce26",
+                    "SHA-512": "c80ac1ec89f24adb43cd89bedc120851777ec49ede83388f564acc11ce436b32644f036c0e6e839d2d6bfbcf35720ed676f07732b811abc4ffa28d807fff3597",
+                    "SHA3-256": "5c56121f24504ff602f1067fd51bacc332afe6a736ed58e40c1b4edb106144bf",
+                    "SHA3-512": "e8d737ef9f83ea0f81338d8661725fd94edcbd3631f92d0f76f4da05b5fd38b1ee712414fcb1d2a68dfe5f5626f03ae501cbfca9c9355a97683be85e5c7235d9"
+                },
+                "external_id": "UugruiqSokJDZMwnVl"
+            },
+            {
+                "source_name": "send",
+                "description": "Person if save benefit social.",
+                "url": "https://www.hull.com/",
+                "hashes": {
+                    "MD5": "24322b1b62780b6d7dc9f977a6762ab6",
+                    "SHA-1": "051847724cba445930d48dce5650ffa54a6b7165",
+                    "SHA-256": "85c627cf28b52bf00fd5e0347d9b5ea643577e95184df2b8b3d4f83e342c1f82",
+                    "SHA-512": "779dddc3e3647b61b472acc226b03d76abb0f5ea4cf9c57fe307c9244f95274bca29c016d3a14db208e2984c9511fa22016a29f7f7e64cdb35162381feb4aea0",
+                    "SHA3-256": "b9dd02cc34acc20b51650929a48950b585592a57284b3a9c4b290176d2600a32",
+                    "SHA3-512": "f43202bbedbdbb724a1daf63cd3928460597954312398ec3b90913d54bb166eecd70084ac92ce535d7bc47c0812dde1b59ce34ae9c69455ee394188f33fd55b7"
+                },
+                "external_id": "bivuBtCgeDDnArFDVHf"
+            },
+            {
+                "source_name": "relate",
+                "description": "Better cover such picture nearly really study.",
+                "url": "https://jones-carter.org/",
+                "hashes": {
+                    "MD5": "8e1e96512185b2c7d73cae50de9afa54",
+                    "SHA-1": "ca8f1d09b91a09fbe1e148108ddc6176c5846c91",
+                    "SHA-256": "611fad6a6e32fc36f29d0ed4c1ddd3531414d181364d1b709361877c6485756e",
+                    "SHA-512": "81a7042809342ef287c6436262c38eddc98eea445b6ff8c5dc1df83242c52ea1d095903f150032266fd86acfb450a48b530b41303201e5bf9efc352d5a458715",
+                    "SHA3-256": "bb02a57e1f8e6a7ba1603bad5bf592a9158daa04f19a03301146f236003c0f98",
+                    "SHA3-512": "d494c6ad2c5189d2d5d17508d8ffd183ae86f8c3b02dffd7483bd233dd029589f383277c6eea0d676928acdfe6acf523062f29aa98027d151ae4bd59c64ba257"
+                },
+                "external_id": "LRLJEGLiuBw"
+            },
+            {
+                "source_name": "health",
+                "description": "Stage any former project agent.",
+                "url": "https://www.blackwell-brown.com/",
+                "hashes": {
+                    "MD5": "d4e283c166f7231fba34aaf1b1dd81da",
+                    "SHA-1": "b1174cbbe69631138ee672e84f2407a917f9ee32",
+                    "SHA-256": "2382ada5fc0b7705fd56e7ef6c3dc28bec2aa8900af446d2c002bda7ca453ee5",
+                    "SHA-512": "4cc0dcb06e136582e983df5c6acf31ea66855073d941802cc799a1012ba3efb2d893cdd375249732ba48c417c0f508379de8c844a2b2564a8bfe0e322e54f31d",
+                    "SHA3-256": "63974aa3c0f63593ec67f691270dd26c66f25058f671bd8049fcaa54947c640e",
+                    "SHA3-512": "3f5535be083be73692eba26074d25d440b879384cc0cf02af53359b2f7392ed783eb29e2ee56de84a5289bc589fee0a92fa6afd3d4210fc03db2d47b1a2ba3b6"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--86ad1786-7d22-4e8f-948e-8bd1e9763adc"
+        ]
+    }
+]

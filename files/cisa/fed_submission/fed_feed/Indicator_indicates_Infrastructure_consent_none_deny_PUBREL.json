@@ -1,0 +1,282 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--25d9bce6-b144-40a9-b73c-66e51a84804d",
+        "created_by_ref": "identity--9408ae35-5313-45b8-9e06-7276ee725259",
+        "created": "2022-02-12T09:18:18.900131Z",
+        "modified": "2022-03-03T22:32:43.933412Z",
+        "description": "Participant security face cost information matter choice policy.",
+        "indicator_types": [
+            "anomalous-activity",
+            "compromised",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "[network-traffic:src_port > 16330 AND ((network-traffic:defanged = false) AND network-traffic:src_port <= 58057)] AND ([process:is_hidden = false] REPEATS 7 TIMES)",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-09-04T19:47:58.292299Z",
+        "confidence": 19,
+        "external_references": [
+            {
+                "source_name": "until",
+                "description": "Three as section order analysis.",
+                "url": "http://www.smith-collins.com/",
+                "external_id": "JrLTqEBYOHfsDoYCeVxO"
+            },
+            {
+                "source_name": "product",
+                "description": "Enjoy lot quite war.",
+                "url": "https://webb.info/",
+                "hashes": {
+                    "MD5": "f978ee264dac30e993cdfe2f100b3a99",
+                    "SHA-1": "ef6b7a14aa1fcc5844dc0213aa6128950ee59a8b",
+                    "SHA-256": "91b99af9035753cbe203d3c53eeb260e64d7535bc1c00f5055ddbc0353a35a08",
+                    "SHA-512": "15df57a369c08a1562672444592aed7132e71e20bb4e68539d4b3c0d9770d3ee99efc4979618257e4d6762a8f5abb8ab338a5c644cd79a9592de02c2251a796b",
+                    "SHA3-256": "e16958875103aab523065ed4aea5eb6561b0132353cb6fc97358f77865a76dc3",
+                    "SHA3-512": "151824ab0fa054b496f10d36be6d853f624eef510899d1d6f8e29491300ee817218bbad2d5c321e1a0376cfe9f181bf60cfb48c2485db3fb69505c48ab13f8e0"
+                }
+            },
+            {
+                "source_name": "moment",
+                "description": "Side education office back need camera test.",
+                "url": "https://taylor.com/",
+                "hashes": {
+                    "MD5": "a7b378325b942a22b2347b9e4d63ceb3",
+                    "SHA-1": "77dcae6176081c4620c1d285610290bf1be75fca",
+                    "SHA-256": "7e812c5e3118521620458bcee630b8d87af768e4c8c3c7468e4bb77f87195129",
+                    "SHA-512": "31ad8eba497faf04dd7ba9c0bcc5d63d5b78aa2c8ce5178f6bec0b255fd261c76ff910e7a53b27e857af914c6e1e3c43444a79c51e2e46959135da5c2e63a561",
+                    "SHA3-256": "ca70548f4a70711da2f0e7f7c029828d13f965ffa811b561121e4791f6d0ccfa",
+                    "SHA3-512": "9907475fe80008c5db65639bb1b669ef2ecc0382ccff8da0ca7e6e72a1c55d4792f17a9c48bf98bbc4f6c7f804a3b4a0e2c9b358926d962c3055483dc2799328"
+                },
+                "external_id": "TETKPEy"
+            },
+            {
+                "source_name": "focus",
+                "description": "Live second some director collection.",
+                "url": "https://www.ramirez.info/",
+                "hashes": {
+                    "MD5": "6d829ab97ce050bfaf566f594a6c6169",
+                    "SHA-1": "a26466866cef429ca41feb3cfdf591a2d81fe1f8",
+                    "SHA-256": "901cb70062282be539eabada985b36504fd69839c382f854f0a2828c161ad1a7",
+                    "SHA-512": "e106ba062b1902ac3d4476985b5aa7bb051f1217f0393b5134d938f1d416b438eeb769187d52558d1a4dfafb352a1476f24439c94c6ed05509ddecd8933f3569",
+                    "SHA3-256": "9310d14c2135333f2df15c9396ae221caef733803d0fa92907e7c0589b96f5d4",
+                    "SHA3-512": "a4980358dab130a95fe99495f16eb810128661c8252229b9240b8190fdfd12543023c6c9dba125c5dc483a9b78219b51e7429753e1b57ec000766e93836892fa"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4713516c-9a49-41e6-8c57-c17337e74a3c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--1d92bce8-242b-4427-82a3-54f9a3249f9f",
+        "created_by_ref": "identity--9408ae35-5313-45b8-9e06-7276ee725259",
+        "created": "2022-04-01T05:24:04.80848Z",
+        "modified": "2022-11-04T09:46:46.431652Z",
+        "name": "network",
+        "infrastructure_types": [
+            "unknown",
+            "routers-switches",
+            "exfiltration"
+        ],
+        "external_references": [
+            {
+                "source_name": "bank",
+                "url": "http://hall.net/",
+                "hashes": {
+                    "MD5": "3acd71028881a9e7f692db04cc49f972",
+                    "SHA-1": "0217e391b43eb73934a8228dc76f7eb65a2b8830",
+                    "SHA-256": "9ae0c4e6ef26bc46ffc09b28e2e0d632db77915d68369195fb796d99ffd84566",
+                    "SHA-512": "a993a0f8134de04c4bca26db33d56597d995034e94b21a415d07a6c3cb73b57e36f1d70adabce98b61b828652534693687ab05ccad7915beee078c02099456d5",
+                    "SHA3-256": "e977bd18d1595530a3bbcdcb133db25624564f0eccef474f41bbd88a0350c709",
+                    "SHA3-512": "d81ceb98812b471190e6ef57f046e848e9f0fc6f4b7283130481778c61e50d91327804623859063bcbe2ecd28d70adb02748081149796b21e81a562486340f1d"
+                },
+                "external_id": "lCbMaIDw"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4713516c-9a49-41e6-8c57-c17337e74a3c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d9a35142-5d25-4d03-84f7-1d69bc335918",
+        "created_by_ref": "identity--9408ae35-5313-45b8-9e06-7276ee725259",
+        "created": "2021-06-07T21:35:22.456836Z",
+        "modified": "2021-09-20T01:30:02.495566Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--25d9bce6-b144-40a9-b73c-66e51a84804d",
+        "target_ref": "infrastructure--1d92bce8-242b-4427-82a3-54f9a3249f9f",
+        "start_time": "2022-06-17T06:26:45.268685Z",
+        "stop_time": "2022-12-04T13:36:59.917109Z",
+        "external_references": [
+            {
+                "source_name": "player",
+                "url": "http://www.barnes.com/",
+                "hashes": {
+                    "MD5": "6d6ae7c57d54af1a3f1ff56cb8d2c3cb",
+                    "SHA-1": "0f9f9ba1ed252749cc5ffb6bb37ed1ad7dfaa243",
+                    "SHA-256": "1fad738e520e31b0b689e68ec89d352f8472cb17ac155ccb0a4b0d1ee6489c80",
+                    "SHA-512": "b6a9c5e8ad4e3de7d5ab8efc23b130d8fa9c5cf51c4d1ed090d6de5bff428dd0daceb959d605116f3e3c75e88ede65f9140579b5b56e04602c44f1fc68c84c37",
+                    "SHA3-256": "194058a895d3d220521fbe8feb43a0a54a0d7356b0a2b344422bb1ae4bfb8f6c",
+                    "SHA3-512": "95377f8f09fedb8742a2db43a4dc31c9ff697b454b96b51dcd611ca87374c0f497db70891538d06d973e51e05ce707514b4fd25db1894c4aa23864c60dac619f"
+                }
+            },
+            {
+                "source_name": "continue",
+                "description": "Mother free no hard.",
+                "url": "https://www.rodriguez-yu.com/",
+                "external_id": "DdTLpreu"
+            },
+            {
+                "source_name": "technology",
+                "description": "New white want Mrs consider mother among.",
+                "url": "https://www.hunt-payne.com/",
+                "external_id": "OZLczdAsOtm"
+            },
+            {
+                "source_name": "score",
+                "description": "Final table leg himself carry wind.",
+                "url": "https://gutierrez-hansen.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4713516c-9a49-41e6-8c57-c17337e74a3c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--9408ae35-5313-45b8-9e06-7276ee725259",
+        "created_by_ref": "identity--9408ae35-5313-45b8-9e06-7276ee725259",
+        "created": "2021-03-05T12:36:15.635896Z",
+        "modified": "2021-12-15T09:25:45.811853Z",
+        "name": "Leonard-Nguyen",
+        "description": "Multi-channeled optimal forecast",
+        "roles": [
+            "learn",
+            "I",
+            "participant",
+            "lose"
+        ],
+        "sectors": [
+            "pharmaceuticals",
+            "hospitality-leisure",
+            "government-local",
+            "construction"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "simple",
+                "description": "Generation page Congress identify environment popular.",
+                "url": "https://www.graham-baker.com/"
+            },
+            {
+                "source_name": "medical",
+                "description": "Return task lay respond.",
+                "url": "http://www.valdez.com/"
+            },
+            {
+                "source_name": "become",
+                "url": "https://www.flynn.info/",
+                "external_id": "HNGfq"
+            },
+            {
+                "source_name": "audience",
+                "description": "Continue per option.",
+                "external_id": "GkRQbSOQpGpHkTWn"
+            },
+            {
+                "source_name": "road",
+                "hashes": {
+                    "MD5": "bebd117b38774ad3cf076bc60412abf5",
+                    "SHA-1": "e749050d59272a3c166b6ce849967c1aca20370c",
+                    "SHA-256": "a31505cc06a57a775009279b186bb8101d4e05c97b598394e685b9ff00956854",
+                    "SHA-512": "d78f039f5ef7c215abed0dbba6c887d2f7c6fa88ea346f808accde5cfb6fd482bad105c99864ab96a3e52c75252fcb65507bc094e6358e8bf7d7862b29c7c761",
+                    "SHA3-256": "b2d9f599ca2ec7181b39d486e16efc7830ebb4afbe362b061d0bbddd59e04002",
+                    "SHA3-512": "f57b714f0660382639237eb79f5edb80067fcc622400a5489a16e1e30240ae97003f55b9166a8f9246e165c4e3f899f12f158e4f8ffbbf6d4aff1223eda63f15"
+                },
+                "external_id": "jDbSAUxFYBrJEIvVlSh"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4713516c-9a49-41e6-8c57-c17337e74a3c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--4713516c-9a49-41e6-8c57-c17337e74a3c",
+        "created": "2021-08-14T01:08:30.200238Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-44002952-ef1b-4819-85db-bdfcd1864e5e",
+                "name": "Free major nothing gun",
+                "create_date_time": "2021-08-14T01:08:08.424588Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.424412Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

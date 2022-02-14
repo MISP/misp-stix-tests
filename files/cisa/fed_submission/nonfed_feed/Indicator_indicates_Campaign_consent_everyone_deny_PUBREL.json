@@ -1,0 +1,179 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--695bc0e1-7a0c-4cb8-a176-29c6ce753a4c",
+        "created_by_ref": "identity--285efe1c-f3d8-4a67-86c7-ec0333d7dfaf",
+        "created": "2020-11-02T16:16:58.048441Z",
+        "modified": "2021-08-14T01:08:29.382808Z",
+        "description": "Everyone the rule sometimes treatment raise.",
+        "indicator_types": [
+            "unknown",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "([user-account:account_last_login < t'2021-06-20T13:23:31.987531Z'] AND ([network-traffic:dst_port > 46312]))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-01-25T13:43:09.220309Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "SiNZCptp",
+                "phase_name": "AGsXjWopyUfgxRXhxwQA"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "qgfJeLqtbEtTvVYvYMc",
+                "phase_name": "lFerjWGOrUGfCUBuzM"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "labels": [
+            "newspaper",
+            "increase",
+            "case",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--9005cba3-cc0a-434e-acc0-9a1e39ebeccc",
+        "created_by_ref": "identity--285efe1c-f3d8-4a67-86c7-ec0333d7dfaf",
+        "created": "2022-02-17T21:50:20.481143Z",
+        "modified": "2022-02-24T15:26:55.216328Z",
+        "name": "structure",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 15,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ef63e10c-d811-4b9e-845e-92309e7fde3c",
+        "created_by_ref": "identity--285efe1c-f3d8-4a67-86c7-ec0333d7dfaf",
+        "created": "2022-03-16T16:50:20.177043Z",
+        "modified": "2023-02-10T22:30:18.616554Z",
+        "relationship_type": "indicates",
+        "description": "Practice official energy American. Best best great yourself real ahead. Same day hot risk campaign arm.",
+        "source_ref": "indicator--695bc0e1-7a0c-4cb8-a176-29c6ce753a4c",
+        "target_ref": "campaign--9005cba3-cc0a-434e-acc0-9a1e39ebeccc",
+        "start_time": "2021-07-15T22:34:20.041216Z",
+        "stop_time": "2021-11-02T20:35:28.991356Z",
+        "labels": [
+            "mention",
+            "color",
+            "response",
+            "read",
+            "feel",
+            "pfte-batch-1"
+        ],
+        "confidence": 16,
+        "external_references": [
+            {
+                "source_name": "seat",
+                "description": "First story under clearly less writer begin.",
+                "url": "https://fernandez.com/",
+                "hashes": {
+                    "MD5": "14ad72152e69d373e6f62be3b7ce428c",
+                    "SHA-1": "3737284d7ba4ad5fd4799575ddaa4410eb7579e5",
+                    "SHA-256": "fa1291823707fbc51464380af967d5460c0c5d87d7665c8e93149474a8577096",
+                    "SHA-512": "ceb5ad7403a9d21fa4ae2258fe6fec2712570eb8a29affe3293f0e6d9f03f51de45b366b80524bf44da8982ba727850b5ae1ea28de1e4e44835f88f84534b4ad",
+                    "SHA3-256": "3698bb489e94d8f8e7b1bd7624a4e0d9c950f537f2b08db97d2ad11224c9f059",
+                    "SHA3-512": "b44b2ada573c87b698a8636354aea3e3a11f7bc2218c95ae8a96eb57ffeb2496cb2073776b0dff546bf9a91b099bd10cee78d887e9528585cab089560819d2f2"
+                },
+                "external_id": "jJtEpNjZcYN"
+            },
+            {
+                "source_name": "fish",
+                "url": "https://www.morris-wolf.com/",
+                "hashes": {
+                    "MD5": "a2ecd608762575e093faf7634d9ea5db",
+                    "SHA-1": "8882a28eb61e1ac4669ed093f4ae9a73f26ef67e",
+                    "SHA-256": "261cce2d439aacec6b76b06c192f165a330265cd776e350c1bf3485b8404113e",
+                    "SHA-512": "12f24986555aad88b0f7cfb59d17cecbb85fa127c193adc41b62a3c7f2b4fdb3f793177f68d6ea408e6f210312fec77a00908026db36d45f73bb71d50789757d",
+                    "SHA3-256": "f5ed1209be282de18048960a57b90b1328db80cda5dceb3d7a2df5966a3edafc",
+                    "SHA3-512": "fbe5189dc1b90f502ea5e80a679a9a050cd1c097059b3e4e1c96d2c9548c97d8a2c0ad6bc0df4c17a11bb1b73f844c65561c22513b7c2a446791ad312ce7e59c"
+                },
+                "external_id": "cgYBq"
+            },
+            {
+                "source_name": "keep",
+                "description": "I deal or take affect.",
+                "hashes": {
+                    "MD5": "fe8cfc08e95b6717e453e90e90b00fc6",
+                    "SHA-1": "2f21493cea86008141b1fc6fdc74be8d14e2a43f",
+                    "SHA-256": "790d3caba6185f701fb92a1f65ac5d45ae2a6a522ef75a272b2c77bef19b4ae9",
+                    "SHA-512": "733840617a266bfac2ca0472eec72a162682f2286c53b6f85c415c871f8711cc2cf703bf6279b9456dcacf8a78ccca16556ddcb60696c45902726ac176cc9f01",
+                    "SHA3-256": "ff631b29012c27f3748d6d25df721ef2afd80b73fa104e2ff22042a4852e38f9",
+                    "SHA3-512": "59dff808157c18e4d0bdf27055513bacfd05ddeed7508e26806d63decb0a61867b306d5da4099de8385fdf8ad6922918d1f19cf7fb654cbd7a99bf00056f5530"
+                }
+            },
+            {
+                "source_name": "human",
+                "url": "http://www.pennington-lopez.com/"
+            },
+            {
+                "source_name": "reduce",
+                "external_id": "bMspIfXvpsSXUqMPh"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--285efe1c-f3d8-4a67-86c7-ec0333d7dfaf",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-08-03T16:57:43.262287Z",
+        "modified": "2022-03-26T10:21:44.868845Z",
+        "name": "TheirMouthLoss",
+        "description": "Synergized optimal parallelism",
+        "contact_information": "004 White Union Suite 043\nJonesbury, ME 10290",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "cover",
+                "url": "https://garcia.com/",
+                "external_id": "LwpANwrwzsRxR"
+            },
+            {
+                "source_name": "fire",
+                "description": "Themselves rich across.",
+                "url": "https://www.hernandez.com/"
+            },
+            {
+                "source_name": "and",
+                "description": "Coach food television.",
+                "url": "http://hart.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

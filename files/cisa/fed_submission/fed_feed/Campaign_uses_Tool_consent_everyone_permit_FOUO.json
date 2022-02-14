@@ -1,0 +1,183 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--1ed8b53e-7547-47ee-82ea-b50c59226097",
+        "created_by_ref": "identity--ce091f31-387a-42d0-b3cf-621d9c5d416e",
+        "created": "2021-09-27T05:05:31.013458Z",
+        "modified": "2022-06-21T11:01:32.557619Z",
+        "name": "player",
+        "description": "Pull bar go long.",
+        "aliases": [
+            "check"
+        ],
+        "last_seen": "2020-09-05T21:08:03.079193Z",
+        "objective": "Read into simply loss.",
+        "labels": [
+            "beyond",
+            "hour",
+            "pfte-batch-1"
+        ],
+        "confidence": 54,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f9bc1e04-8a86-468f-ad09-d219f96cd4c2"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--0ee50a62-2fd5-4808-8a0f-e3a5c9f65d71",
+        "created_by_ref": "identity--ce091f31-387a-42d0-b3cf-621d9c5d416e",
+        "created": "2021-06-20T16:20:02.709221Z",
+        "modified": "2021-11-11T13:24:37.541054Z",
+        "name": "outside",
+        "tool_version": "he",
+        "labels": [
+            "wide",
+            "hear",
+            "chance",
+            "pfte-batch-1"
+        ],
+        "confidence": 33,
+        "external_references": [
+            {
+                "source_name": "source",
+                "description": "Seem guy security off sea material.",
+                "external_id": "EmNOPLDiCBSKIKkGFDFF"
+            },
+            {
+                "source_name": "their",
+                "url": "http://www.cook.org/",
+                "external_id": "zoRWbGZQsUBrmpPp"
+            },
+            {
+                "source_name": "husband",
+                "description": "Protect nation administration party.",
+                "external_id": "rENPKByTSdGxi"
+            },
+            {
+                "source_name": "thing",
+                "url": "https://thompson-jacobs.org/",
+                "external_id": "DSZLhyYNLXXTBopOYd"
+            },
+            {
+                "source_name": "perform",
+                "description": "Our sure stay born.",
+                "external_id": "CXsRjIYAmonqclUR"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f9bc1e04-8a86-468f-ad09-d219f96cd4c2"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--530f0718-9b5e-4338-ba19-733d29c074d9",
+        "created_by_ref": "identity--ce091f31-387a-42d0-b3cf-621d9c5d416e",
+        "created": "2021-01-03T06:21:35.884357Z",
+        "modified": "2021-11-17T04:43:36.555853Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--1ed8b53e-7547-47ee-82ea-b50c59226097",
+        "target_ref": "tool--0ee50a62-2fd5-4808-8a0f-e3a5c9f65d71",
+        "stop_time": "2022-06-20T06:55:11.932731Z",
+        "labels": [
+            "eight",
+            "positive",
+            "actually",
+            "firm",
+            "pfte-batch-1"
+        ],
+        "confidence": 51,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f9bc1e04-8a86-468f-ad09-d219f96cd4c2"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ce091f31-387a-42d0-b3cf-621d9c5d416e",
+        "created_by_ref": "identity--ce091f31-387a-42d0-b3cf-621d9c5d416e",
+        "created": "2022-05-31T01:26:39.533414Z",
+        "modified": "2022-11-03T03:26:45.074687Z",
+        "name": "Riley Ltd",
+        "description": "Down-sized neutral software",
+        "roles": [
+            "generation"
+        ],
+        "sectors": [
+            "insurance"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "themselves",
+                "description": "Take morning value report painting design design.",
+                "url": "http://rice.info/",
+                "external_id": "nRiRHQBpYZxqJYrB"
+            },
+            {
+                "source_name": "word",
+                "description": "When agree matter walk.",
+                "url": "http://smith.net/",
+                "external_id": "MbnWxguF"
+            },
+            {
+                "source_name": "health",
+                "url": "https://pena-moyer.com/",
+                "hashes": {
+                    "MD5": "d9f1053d57c261e69624992236deda58",
+                    "SHA-1": "92f9e729e9cbd7671551603f95d3f3cd9c95ddb1",
+                    "SHA-256": "8e228ca5e6fca0a66358859df8d73e4d1f5bdeca96c2f668fceec98fc0e69c0a",
+                    "SHA-512": "6a2ae8088a58b7e97e34c7ba33d1210827009014921ff459bcfc8a9b8b55cff182d230248b818aeeface9dc3bab5727812fcc5d9f2528e6584e7c7511c26b4e4",
+                    "SHA3-256": "c8bf5c4f758f1015272cc8ca38b6171f8076c470c12185d649c48b39ecfec578",
+                    "SHA3-512": "2399fe3b8c451247152063756734ccfec07cd3e4f7bff2455cdba7f18d340a67567e8c3cb268fd323ee2ff0a0db11bdd9b05de8e52f1a592eee04ba5f5dfc39a"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f9bc1e04-8a86-468f-ad09-d219f96cd4c2"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--f9bc1e04-8a86-468f-ad09-d219f96cd4c2",
+        "created": "2021-08-14T01:08:21.108077Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a064a16e-64c9-426c-9535-98e263215e51",
+                "name": "Member population available under",
+                "create_date_time": "2021-08-14T01:08:08.430342Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

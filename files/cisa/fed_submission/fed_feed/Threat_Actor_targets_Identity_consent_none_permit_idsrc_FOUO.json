@@ -1,0 +1,203 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--cbc0b4b0-e296-4530-9105-564ba0791064",
+        "created_by_ref": "identity--6e1201e1-af81-43bf-bc4c-471aec31266e",
+        "created": "2022-08-08T15:44:52.820861Z",
+        "modified": "2023-03-12T18:27:15.599569Z",
+        "name": "alone",
+        "first_seen": "2021-10-06T03:05:41.928747Z",
+        "primary_motivation": "revenge",
+        "labels": [
+            "security",
+            "improve",
+            "learn",
+            "pfte-batch-1"
+        ],
+        "confidence": 39,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ff65ddb0-b016-44eb-9abd-53303db29cc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--be303728-688c-41dc-a108-4b0446f2b231",
+        "created_by_ref": "identity--6e1201e1-af81-43bf-bc4c-471aec31266e",
+        "created": "2021-11-30T21:46:22.731302Z",
+        "modified": "2022-02-12T19:13:05.252816Z",
+        "name": "Bates, Peterson and Cooper",
+        "description": "User-friendly uniform website",
+        "roles": [
+            "during",
+            "rather",
+            "rule",
+            "agree",
+            "dog"
+        ],
+        "identity_class": "organization",
+        "contact_information": "681 Kimberly Camp\nNorth Kevin, GA 95966",
+        "labels": [
+            "stand",
+            "also",
+            "until",
+            "fear",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "quality",
+                "description": "Study thought series country ready commercial.",
+                "url": "http://www.mueller-melendez.com/",
+                "external_id": "bQxWh"
+            },
+            {
+                "source_name": "discuss",
+                "description": "Officer pick anyone pressure floor blood."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ff65ddb0-b016-44eb-9abd-53303db29cc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e0e79275-4e7a-4abf-b7fe-f8e0c6d5a6f9",
+        "created_by_ref": "identity--6e1201e1-af81-43bf-bc4c-471aec31266e",
+        "created": "2021-07-23T06:44:40.809209Z",
+        "modified": "2021-12-30T09:42:09.958874Z",
+        "relationship_type": "targets",
+        "description": "Activity attention class save fill story information national. House us energy song sure.",
+        "source_ref": "threat-actor--cbc0b4b0-e296-4530-9105-564ba0791064",
+        "target_ref": "identity--be303728-688c-41dc-a108-4b0446f2b231",
+        "start_time": "2021-01-29T20:57:13.029071Z",
+        "external_references": [
+            {
+                "source_name": "task",
+                "url": "http://patterson.com/"
+            },
+            {
+                "source_name": "may",
+                "description": "Significant action human modern.",
+                "url": "http://carlson-ingram.com/",
+                "hashes": {
+                    "MD5": "66ac4301cfa33d54a01e88caaaff08f6",
+                    "SHA-1": "2ba95fe0235f74c386c271a39a1e6869fbf913b6",
+                    "SHA-256": "1b4ea237b0417f34b167b89e8b0cc28df10aedb7ed7a4a90ba618975f0bcdc13",
+                    "SHA-512": "44edada0110ba417cb8f0ceb1f25c21b7db60d60e54f7fbfb488f5df908ef0c4f4859ddba741ab23b6a838311195ab2fbc23221dadb8cc5b2ee868192e9276a8",
+                    "SHA3-256": "6347080031d3a2134d3d28af564bb3f117778d2398b081aef76cc63638eb1635",
+                    "SHA3-512": "3e4e86e51ab373ec6bd764f548f36d7bf0a820bede48ebac8320a2a8b444e5fb5f2fdc5a3133a4898c2107b325c64f3a6667f014a302e6e32624c64130c3ba24"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ff65ddb0-b016-44eb-9abd-53303db29cc9"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6e1201e1-af81-43bf-bc4c-471aec31266e",
+        "created_by_ref": "identity--6e1201e1-af81-43bf-bc4c-471aec31266e",
+        "created": "2022-07-21T06:49:28.828939Z",
+        "modified": "2022-10-19T23:19:57.213192Z",
+        "name": "Young and Sons",
+        "description": "Profound intangible monitoring",
+        "roles": [
+            "challenge"
+        ],
+        "identity_class": "organization",
+        "sectors": [
+            "government-national"
+        ],
+        "contact_information": "3486 Lutz Lock Suite 840\nSouth Roy, NE 30046",
+        "confidence": 24,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ff65ddb0-b016-44eb-9abd-53303db29cc9"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--ff65ddb0-b016-44eb-9abd-53303db29cc9",
+        "created": "2021-08-14T01:09:30.03276Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1a59cf40-939d-4572-bc52-0472b77923dd",
+                "name": "Run main democratic",
+                "create_date_time": "2021-08-14T01:08:08.425934Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

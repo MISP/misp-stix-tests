@@ -1,0 +1,105 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--52319484-9f76-4bd3-a110-e092035993e4",
+        "created_by_ref": "identity--4a05f8a7-f9bb-4374-9190-023b0a3dc158",
+        "created": "2020-10-18T14:59:17.979074Z",
+        "modified": "2021-08-14T01:09:25.970955Z",
+        "name": "election",
+        "last_seen": "2021-03-23T04:20:00.815432Z",
+        "goals": [
+            "create",
+            "other",
+            "argue",
+            "control",
+            "school"
+        ],
+        "primary_motivation": "revenge",
+        "personal_motivations": [
+            "unpredictable",
+            "ideology",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--5a088cb2-b0d6-488e-a650-e089e7a96840",
+        "created_by_ref": "identity--4a05f8a7-f9bb-4374-9190-023b0a3dc158",
+        "created": "2021-10-02T10:45:15.691868Z",
+        "modified": "2022-01-26T06:33:59.680535Z",
+        "name": "could",
+        "description": "Property special father very by.",
+        "infrastructure_types": [
+            "exfiltration",
+            "control-system",
+            "firewall",
+            "hosting-target-lists",
+            "amplification"
+        ],
+        "aliases": [
+            "politics",
+            "walk",
+            "check",
+            "hear"
+        ],
+        "first_seen": "2021-09-13T09:04:26.505756Z",
+        "last_seen": "2022-05-06T20:36:05.172738Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--101fc131-3bee-4313-b9f5-2ea554ad912a",
+        "created_by_ref": "identity--4a05f8a7-f9bb-4374-9190-023b0a3dc158",
+        "created": "2021-08-21T05:02:24.328785Z",
+        "modified": "2021-11-15T08:25:25.892499Z",
+        "relationship_type": "compromises",
+        "description": "Player organization environmental. Local rather much news pick.",
+        "source_ref": "threat-actor--52319484-9f76-4bd3-a110-e092035993e4",
+        "target_ref": "infrastructure--5a088cb2-b0d6-488e-a650-e089e7a96840",
+        "start_time": "2022-08-14T01:09:15.041802Z",
+        "stop_time": "2023-06-19T13:25:07.059763Z",
+        "labels": [
+            "another",
+            "fine",
+            "success",
+            "pfte-batch-1"
+        ],
+        "confidence": 55,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4a05f8a7-f9bb-4374-9190-023b0a3dc158",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-06T16:21:20.593795Z",
+        "modified": "2022-05-05T10:16:25.459711Z",
+        "name": "Jones, Bishop and Carter",
+        "contact_information": "3357 Carroll Locks Suite 796\nLake Christinaborough, MD 62653",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 36,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

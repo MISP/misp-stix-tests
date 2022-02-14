@@ -1,0 +1,251 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--bbbed761-5bb7-433a-a7cc-ca837013ad2f",
+        "created_by_ref": "identity--ceb74c1e-0f43-433e-955a-a22c59b1fec1",
+        "created": "2021-05-22T12:50:07.244482Z",
+        "modified": "2021-11-06T15:43:41.539144Z",
+        "name": "involve",
+        "infrastructure_types": [
+            "workstation",
+            "control-system",
+            "exfiltration",
+            "control-system",
+            "hosting-target-lists"
+        ],
+        "aliases": [
+            "house",
+            "gas",
+            "coach"
+        ],
+        "first_seen": "2020-07-29T18:40:24.693315Z",
+        "last_seen": "2021-05-04T13:07:10.667965Z",
+        "labels": [
+            "couple",
+            "beyond",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a05c93f7-5403-40b2-91ca-e71f3291da58"
+        ]
+    },
+    {
+        "type": "ipv6-addr",
+        "spec_version": "2.1",
+        "id": "ipv6-addr--51c79a2d-9192-4986-87cd-b6f988e04363",
+        "value": "c1bf:553d:edfa:934a:1473:aa36:f1b7:2d47",
+        "object_marking_refs": [
+            "marking-definition--a05c93f7-5403-40b2-91ca-e71f3291da58"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--57417221-a855-4995-b742-16a5df1f1f55",
+        "created_by_ref": "identity--ceb74c1e-0f43-433e-955a-a22c59b1fec1",
+        "created": "2022-01-26T00:30:29.601449Z",
+        "modified": "2022-08-30T00:21:48.717422Z",
+        "relationship_type": "communicates-with",
+        "description": "Figure add kid space. Rather activity wind first.",
+        "source_ref": "infrastructure--bbbed761-5bb7-433a-a7cc-ca837013ad2f",
+        "target_ref": "ipv6-addr--51c79a2d-9192-4986-87cd-b6f988e04363",
+        "stop_time": "2021-11-25T16:33:31.048706Z",
+        "confidence": 8,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a05c93f7-5403-40b2-91ca-e71f3291da58"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--7f7cef09-bdc3-4869-9ae5-ae443747056a",
+        "created_by_ref": "identity--ceb74c1e-0f43-433e-955a-a22c59b1fec1",
+        "created": "2021-03-30T08:00:59.763065Z",
+        "modified": "2022-02-18T05:48:00.820376Z",
+        "explanation": "Figure it knowledge type they we. Watch magazine language law food contain baby nothing. Spring standard your glass.",
+        "opinion": "strongly-disagree",
+        "object_refs": [
+            "infrastructure--bbbed761-5bb7-433a-a7cc-ca837013ad2f",
+            "ipv6-addr--51c79a2d-9192-4986-87cd-b6f988e04363",
+            "relationship--57417221-a855-4995-b742-16a5df1f1f55"
+        ],
+        "confidence": 41,
+        "external_references": [
+            {
+                "source_name": "Congress",
+                "external_id": "uKSsnNYgJAMKqcNlDG"
+            },
+            {
+                "source_name": "carry",
+                "url": "https://cardenas-garcia.info/",
+                "hashes": {
+                    "MD5": "4c0ff42f7b2577ca7a96f1a2cac40a13",
+                    "SHA-1": "704994206168cc7303a11b0601a34799450c2cec",
+                    "SHA-256": "d2d7176d196006f534bfdeb82c0447097a567b2bb7b7d55a49f6ea03272898e6",
+                    "SHA-512": "250de28b1b7af5464e69b0d82d9dc05412bd4a0b9fd471ad7a32264f0e5777816012322e01e4825d665d9ab61a6a87cac492508ba3a619b4a3408691a445b96a",
+                    "SHA3-256": "6c14c68b5ba01b0130eeaf9c1546e7774664fd74becfae96853ed084433373c3",
+                    "SHA3-512": "971c37acbc8395063b74de07b051eea239aae452e170d8b787a07020d57049fc6c416e27ce1e7759a5f1c7427fdd80cfbd298d3cf188d5ee267a63885058b1a4"
+                },
+                "external_id": "YAqyJStFiVLbckDzOa"
+            },
+            {
+                "source_name": "share",
+                "url": "http://warren.info/",
+                "hashes": {
+                    "MD5": "08a2c6517cf186b035e0f0ded746a763",
+                    "SHA-1": "8cfebf8a33bb043e489b46e619b7a3a5a79cc795",
+                    "SHA-256": "208943202ae67991e66f8b7dcb845ea4795f05479ec92f4af6a8b08a05d2b707",
+                    "SHA-512": "c8dcc532b4d997c71985de86e158b3bca5e524efcecdd034b63aad3c4f10b440d55bc9255ce71abcf3f2252f385532ce71a1cda457eb9b64a037e181f89a9d2b",
+                    "SHA3-256": "97ec562540754711937d11bb18dd1e1c6af6467f8cda9c8ff06a69386b50287f",
+                    "SHA3-512": "ff52a7eb29a5317c09a3efbd49976b994fffee21868c8633edbe3d1608e0c253df11605c12bcc8c39e39d5299749fbe711ce19371a2fc6140b02f61a01e21d71"
+                },
+                "external_id": "aXrhTyQ"
+            },
+            {
+                "source_name": "history",
+                "description": "Home man bill agency yes nearly.",
+                "url": "http://www.johnson.info/",
+                "hashes": {
+                    "MD5": "43afea6cb0c5a036bc32a7fcbdba0a83",
+                    "SHA-1": "9a1239cd691c3afa73bb29626a1cf206e6044af4",
+                    "SHA-256": "501c225afa5e87945c33866b68e70f449eba749ca75cf2a4c025874d3d89b775",
+                    "SHA-512": "d2641ca74aefb90c0b080127d1b6b4fcbd0a60322b173e74950c79a464b6fdc163a56cfabd2587851e824946baec9432c17bdad5087d4b66dfe9069382934cd7",
+                    "SHA3-256": "4a2bdc0077c53f9b6d47c36759523f06607443360392016b9acfeab07a95200f",
+                    "SHA3-512": "55149b8d663c19d2f9531aa7e9fb6fb47a201cae6a23c2474955305f4a4edbb4835724b29dd173be5299881a85cec8b0bcb7aa0a5ebd565f90b26c9d3fbdd539"
+                },
+                "external_id": "NbvdVAyJU"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a05c93f7-5403-40b2-91ca-e71f3291da58"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ceb74c1e-0f43-433e-955a-a22c59b1fec1",
+        "created_by_ref": "identity--ceb74c1e-0f43-433e-955a-a22c59b1fec1",
+        "created": "2021-12-07T09:24:31.406003Z",
+        "modified": "2022-10-02T06:35:13.968702Z",
+        "name": "Garza-Mckenzie",
+        "description": "Seamless 6thgeneration core",
+        "roles": [
+            "claim",
+            "return",
+            "bank"
+        ],
+        "identity_class": "unknown",
+        "sectors": [
+            "retail",
+            "mining"
+        ],
+        "contact_information": "2589 Cunningham Land\nWhiteton, ID 34557",
+        "external_references": [
+            {
+                "source_name": "move",
+                "description": "Draw indeed here same actually.",
+                "hashes": {
+                    "MD5": "90fcddd798903d74c3b74e32d5891d8c",
+                    "SHA-1": "9a7271bf3676951b5b63fc1bca50d4fa25100416",
+                    "SHA-256": "fe08c3297cd71de28d86f7d12fcde9fcf4a345fe2cd6420a84b3ab93345ac078",
+                    "SHA-512": "c9474d9886029b61b69837695b432bfc3f054b47cc2abf48b3381c90e4db02d388f3d8c57c4074345938102cde1f03abf9df3327a5ae15753a75ad63b62a9613",
+                    "SHA3-256": "c9eb358ef39bdebe27f7720ff3c9f500a24169410852c2f486cef0fa6ddf2043",
+                    "SHA3-512": "5e339f05b9a14747ac4b500768d56f14ea7d5d88da2a28dcd0f701b0d3dbd90db97506b62a60ed99d2032fc798e1625f9bb2b859943c714ce059159c277d7a07"
+                },
+                "external_id": "pxddmPHrmFZpVDfLeKYL"
+            },
+            {
+                "source_name": "section",
+                "description": "Speak never civil minute.",
+                "hashes": {
+                    "MD5": "2be7769a471e313ac3aaaa76e3cc0fd4",
+                    "SHA-1": "89dc960e7d6859ac0a60bc413ecd853f9810f4da",
+                    "SHA-256": "8f95dc53ecdddabdad4e637a21611df72d81ed88615f096d234a021ea5c3798e",
+                    "SHA-512": "be13b6c1d4e1071987c277aad644d51bd1ef8910418cdb2751a64fbca9706b520451c95777600cef08bbe6ea702176e301aadc82ad2508a694985a648e7920d5",
+                    "SHA3-256": "0ccf874f98dc0fef9d40850e3267eb251e6cb2772f88da77d642f92d5185d619",
+                    "SHA3-512": "df7671441aa8e4cf60970a4c0dcec410f02ef03fe0fe2e2cd2612514a7c046f0da7368653aa60076d28acefd0da8ac81a02568174bc9c469ded89a26acfbbb48"
+                },
+                "external_id": "YdkplZCz"
+            },
+            {
+                "source_name": "change",
+                "hashes": {
+                    "MD5": "56fe84fc683b2ac63896f86a9ad7ba56",
+                    "SHA-1": "cdc08210bdda9ab5e3ffb781401b69fd88ee30d6",
+                    "SHA-256": "3a6dd7fab4231b10a31caf1be05fc5b20fec7d5f98d623114e274b84d266fd09",
+                    "SHA-512": "471144b47eeb13bb76a2cdd1828e943039e86aa5382255b63e5a9d212010810f7238fa02b8beb48492d9cc1f0fd81e1f9ffa929a081b356857f4d8322a48f58c",
+                    "SHA3-256": "2e0d5eafe8c8268b680ce8d4f589a9e0baa2650dffaf5558ca78ce1d26494e75",
+                    "SHA3-512": "14b538b657ea0f0671589e753520ea8fb21dc1263bfd4ff3752e8b7322bd3d4ca4a2c5750575f3c57d49b3ea6c547c7f88d7e8d22e2f0b0185c7a794e07fe857"
+                },
+                "external_id": "dPVRhsMqGC"
+            },
+            {
+                "source_name": "still",
+                "description": "Suddenly understand fill arrive fine question just.",
+                "hashes": {
+                    "MD5": "81b6f6f250f61997c9ba26d8c01fdd4d",
+                    "SHA-1": "2b4071b1183d26bcdd8b91f73130b6f78f7324b3",
+                    "SHA-256": "81f4a81abb2797bc766c4f49606a4b6a347638706c89816c2a465e02f0e3ed81",
+                    "SHA-512": "67db64feff54a4dd862958aa1ffdc60db6d174724d65c37fae2a4678503912af532d587b3111c7c7b8d157eb53c95c43563d102336ae93789e7c31d41ffce227",
+                    "SHA3-256": "b76413da795b09479a2cf429f1a270f6340122e3285ce4ccdb573d98f29163e4",
+                    "SHA3-512": "36f877c61c8c3d084dd410d4347d7b20dfdbc2e232b65cce840e82e1c94c025bfdd5a5cb1f5ca311bdefc82b8083447787fad184a57c7dc1f2da62a26757d19b"
+                }
+            },
+            {
+                "source_name": "may",
+                "description": "Former final power onto.",
+                "external_id": "HmOILfrZbmvFEsxzGr"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a05c93f7-5403-40b2-91ca-e71f3291da58"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--a05c93f7-5403-40b2-91ca-e71f3291da58",
+        "created": "2021-08-14T01:08:40.267484Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-54b25f01-6af2-45fd-9467-12811cc2be8c",
+                "name": "Help hit around teach",
+                "create_date_time": "2021-08-14T01:08:08.425022Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

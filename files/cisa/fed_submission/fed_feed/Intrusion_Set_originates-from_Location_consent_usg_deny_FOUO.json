@@ -1,0 +1,150 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--21b6ffa0-33e8-465d-a77e-8eb15f989dfe",
+        "created_by_ref": "identity--b6afde8a-a851-40e0-9465-86362f39f619",
+        "created": "2021-08-05T00:46:52.146129Z",
+        "modified": "2022-07-22T17:54:24.267421Z",
+        "name": "which",
+        "description": "Drug save here produce organization she.",
+        "aliases": [
+            "president",
+            "state",
+            "region"
+        ],
+        "resource_level": "club",
+        "labels": [
+            "step",
+            "explain",
+            "pfte-batch-1"
+        ],
+        "confidence": 4,
+        "object_marking_refs": [
+            "marking-definition--b6af63db-65b4-42c5-8b80-25fc6fa2ae48"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--b7823c7e-5919-482a-a73c-46a116218c45",
+        "created_by_ref": "identity--b6afde8a-a851-40e0-9465-86362f39f619",
+        "created": "2021-08-23T12:12:46.460904Z",
+        "modified": "2022-08-02T17:57:56.799232Z",
+        "latitude": 65.87562811197341,
+        "longitude": 94.88654955995872,
+        "precision": 26.318825087858134,
+        "postal_code": "91744",
+        "confidence": 79,
+        "object_marking_refs": [
+            "marking-definition--b6af63db-65b4-42c5-8b80-25fc6fa2ae48"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--9d110fff-63a3-40c2-b117-5b69de843803",
+        "created_by_ref": "identity--b6afde8a-a851-40e0-9465-86362f39f619",
+        "created": "2022-05-02T05:42:39.71215Z",
+        "modified": "2022-09-28T21:36:04.558962Z",
+        "relationship_type": "originates-from",
+        "source_ref": "intrusion-set--21b6ffa0-33e8-465d-a77e-8eb15f989dfe",
+        "target_ref": "location--b7823c7e-5919-482a-a73c-46a116218c45",
+        "start_time": "2021-05-09T11:08:31.738192Z",
+        "labels": [
+            "clearly",
+            "memory",
+            "likely",
+            "they",
+            "hold",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--b6af63db-65b4-42c5-8b80-25fc6fa2ae48"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b6afde8a-a851-40e0-9465-86362f39f619",
+        "created_by_ref": "identity--b6afde8a-a851-40e0-9465-86362f39f619",
+        "created": "2021-03-23T13:13:21.565944Z",
+        "modified": "2021-11-13T05:40:21.37848Z",
+        "name": "James-Davis",
+        "description": "Expanded dedicated encoding",
+        "roles": [
+            "field",
+            "occur"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "financial-services"
+        ],
+        "contact_information": "2952 Adam Ville Apt. 802\nBrettton, VA 35821",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b6af63db-65b4-42c5-8b80-25fc6fa2ae48"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b6af63db-65b4-42c5-8b80-25fc6fa2ae48",
+        "created": "2021-08-14T01:08:54.864556Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a2bad07a-f4d3-4efb-a81b-2cf0c0637fc9",
+                "name": "Our concern loss resource wear",
+                "create_date_time": "2021-08-14T01:08:08.426882Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,206 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--13500baf-3cf4-4787-96ea-9d2a873feeac",
+        "created_by_ref": "identity--bf733e1f-66b7-410e-a6a0-50dfa41f23a3",
+        "created": "2020-08-26T12:58:51.88131Z",
+        "modified": "2021-08-14T01:08:16.907239Z",
+        "name": "poor",
+        "description": "Speak charge teach.",
+        "first_seen": "2022-08-03T20:54:07.405459Z",
+        "object_marking_refs": [
+            "marking-definition--73d7030e-a464-4eec-bddc-e425428127c9"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--aa9ca241-2f49-4d57-b112-d3eb126bd2f7",
+        "created_by_ref": "identity--bf733e1f-66b7-410e-a6a0-50dfa41f23a3",
+        "created": "2022-04-16T11:26:26.641763Z",
+        "modified": "2022-12-29T13:24:36.444794Z",
+        "name": "mkiuKtx",
+        "description": "Organized bifurcated architecture",
+        "latitude": 66.74096883069242,
+        "longitude": -17.35075946608194,
+        "region": "eastern-africa",
+        "country": "Germany",
+        "administrative_area": "VYzEX",
+        "street_address": "769 Anthony Fork Apt. 636",
+        "postal_code": "12325",
+        "confidence": 82,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--73d7030e-a464-4eec-bddc-e425428127c9"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a6b9bfbe-5c54-4645-8486-7d189e28c17a",
+        "created_by_ref": "identity--bf733e1f-66b7-410e-a6a0-50dfa41f23a3",
+        "created": "2022-01-01T17:59:32.264752Z",
+        "modified": "2022-07-10T11:37:03.523171Z",
+        "relationship_type": "targets",
+        "source_ref": "campaign--13500baf-3cf4-4787-96ea-9d2a873feeac",
+        "target_ref": "location--aa9ca241-2f49-4d57-b112-d3eb126bd2f7",
+        "stop_time": "2021-01-18T16:03:45.672464Z",
+        "labels": [
+            "instead",
+            "pfte-batch-1"
+        ],
+        "confidence": 59,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "news",
+                "description": "Mean heart challenge example certainly rock herself.",
+                "hashes": {
+                    "MD5": "325eda555bd8e41fe6eae4c86ec6dd9f",
+                    "SHA-1": "228900da5fa40c80043e451eb044fbe3f4a289bc",
+                    "SHA-256": "92a17c1d80144fd56ab4ccf5810b12024866292fa524c2474a31eb1a007a9c90",
+                    "SHA-512": "c30af88dd807c294da821fc06849fffa8c41b86b5c04aa913850e9d5d9c2182822ebdec516cebd08d95eb02ab7fc7b50a4f4a7e978aac72550c289920c322ce7",
+                    "SHA3-256": "ad63db062ce5c7a7ca8db91d46ea47480efd9bc16e866583ed173643caacde7b",
+                    "SHA3-512": "044389440918ac42d80f3ae0d8960528fcc375f0937b36a12215c210308c2287997aabf7537e815b5b3d103a301a0de8520616c52a9f6785408d121e8b0bb4d9"
+                }
+            },
+            {
+                "source_name": "activity",
+                "description": "Ability total final effect city great hour.",
+                "url": "https://www.wright.info/",
+                "external_id": "jTICEslFtqRqWz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--73d7030e-a464-4eec-bddc-e425428127c9"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--7167bc4c-d067-4208-8ab4-76241d867196",
+        "created_by_ref": "identity--bf733e1f-66b7-410e-a6a0-50dfa41f23a3",
+        "created": "2021-06-18T12:32:46.586152Z",
+        "modified": "2022-01-27T15:18:10.843521Z",
+        "opinion": "strongly-agree",
+        "object_refs": [
+            "campaign--13500baf-3cf4-4787-96ea-9d2a873feeac",
+            "location--aa9ca241-2f49-4d57-b112-d3eb126bd2f7",
+            "relationship--a6b9bfbe-5c54-4645-8486-7d189e28c17a"
+        ],
+        "labels": [
+            "democratic",
+            "describe",
+            "consumer",
+            "instead",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "standard",
+                "url": "https://hall-cruz.org/",
+                "external_id": "iGxSniZXLLeu"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--73d7030e-a464-4eec-bddc-e425428127c9"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--73d7030e-a464-4eec-bddc-e425428127c9",
+        "created_by_ref": "identity--bf733e1f-66b7-410e-a6a0-50dfa41f23a3",
+        "created": "2021-08-14T01:08:16.906541Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-15d3e0eb-8dda-4b6b-a55d-5c6a8a6d490b",
+                "name": "Clearly industry family",
+                "create_date_time": "2021-08-14T01:08:08.420657Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--bf733e1f-66b7-410e-a6a0-50dfa41f23a3",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-01-07T06:08:49.864844Z",
+        "modified": "2021-08-14T01:08:16.908577Z",
+        "name": "Lopez-Hernandez",
+        "description": "Upgradable intermediate concept",
+        "identity_class": "group",
+        "sectors": [
+            "communications"
+        ],
+        "contact_information": "PSC 4892, Box 2712\nAPO AA 40152",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--73d7030e-a464-4eec-bddc-e425428127c9"
+        ]
+    }
+]

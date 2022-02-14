@@ -1,0 +1,278 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--a52fb383-5e43-4d87-8e98-74766528f813",
+        "created_by_ref": "identity--eb783525-3162-4b0a-8558-deaf87deed45",
+        "created": "2021-09-06T15:07:42.061148Z",
+        "modified": "2022-02-11T19:14:18.239302Z",
+        "name": "employee",
+        "aliases": [
+            "themselves"
+        ],
+        "last_seen": "2021-09-17T05:58:43.522092Z",
+        "primary_motivation": "dominance",
+        "secondary_motivations": [
+            "dominance",
+            "coercion"
+        ],
+        "labels": [
+            "you",
+            "open",
+            "administration",
+            "stock",
+            "nearly",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--4f2b3166-4c8b-444b-95a9-cf082834bb6e"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--5ca9bf07-9500-42b9-a77c-8f5ba771a72a",
+        "created_by_ref": "identity--eb783525-3162-4b0a-8558-deaf87deed45",
+        "created": "2020-06-18T04:25:07.795026Z",
+        "modified": "2021-08-14T01:08:53.582677Z",
+        "name": "blood",
+        "infrastructure_types": [
+            "unknown",
+            "workstation"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "KsaFDDnfZUGatxTSbI",
+                "phase_name": "zFuloIjLyiCB"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "XugEqdomsfvDb",
+                "phase_name": "GfzrXPxsAoE"
+            }
+        ],
+        "first_seen": "2022-02-20T04:32:26.40315Z",
+        "object_marking_refs": [
+            "marking-definition--4f2b3166-4c8b-444b-95a9-cf082834bb6e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e79d1be3-8990-4770-98c1-b67797ce4bf3",
+        "created_by_ref": "identity--eb783525-3162-4b0a-8558-deaf87deed45",
+        "created": "2021-03-27T15:09:35.772981Z",
+        "modified": "2021-08-14T01:08:53.582938Z",
+        "relationship_type": "hosts",
+        "source_ref": "intrusion-set--a52fb383-5e43-4d87-8e98-74766528f813",
+        "target_ref": "infrastructure--5ca9bf07-9500-42b9-a77c-8f5ba771a72a",
+        "labels": [
+            "total",
+            "pfte-batch-1"
+        ],
+        "confidence": 52,
+        "object_marking_refs": [
+            "marking-definition--4f2b3166-4c8b-444b-95a9-cf082834bb6e"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--1de806da-fe52-41a0-89cd-c05e4e119cbe",
+        "created_by_ref": "identity--eb783525-3162-4b0a-8558-deaf87deed45",
+        "created": "2022-04-21T12:00:22.636825Z",
+        "modified": "2022-12-12T07:43:06.752851Z",
+        "opinion": "strongly-disagree",
+        "object_refs": [
+            "intrusion-set--a52fb383-5e43-4d87-8e98-74766528f813",
+            "infrastructure--5ca9bf07-9500-42b9-a77c-8f5ba771a72a",
+            "relationship--e79d1be3-8990-4770-98c1-b67797ce4bf3"
+        ],
+        "labels": [
+            "act",
+            "report",
+            "pfte-batch-1"
+        ],
+        "confidence": 2,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "report",
+                "description": "Out all this land these animal.",
+                "url": "https://www.zamora.com/",
+                "hashes": {
+                    "MD5": "29c5da1b3dcd124bdd81493a4504bcda",
+                    "SHA-1": "7ae81a35fcb64813f96b79f0ca211ec21f46087e",
+                    "SHA-256": "eff187cbdeb81a1ceec541722c7c570da5f5c55ef9c1737be710fc69de3f1ca2",
+                    "SHA-512": "50b6273e05922c24f24f5436027c6254d892ac6c32dc42d503660a0016d33b5b629ad2beaa0dd0c722aa96cd40695d4b6bbf8e4078e66944f8b231695b83915a",
+                    "SHA3-256": "f9d6bd432c8af40387b70953fb49a6640c1d04c360c30c0b6f8673d76af37640",
+                    "SHA3-512": "ebf8e0c038c0364d359a8322223b495abe80ae77a57a6be183c632856b64ddfd0e4762b9abb9989091479f474aaba5a8b81d6d40034a9de933883783661c2868"
+                },
+                "external_id": "FRIJrcnbT"
+            },
+            {
+                "source_name": "rate",
+                "external_id": "ZlHMGjS"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4f2b3166-4c8b-444b-95a9-cf082834bb6e"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--eb783525-3162-4b0a-8558-deaf87deed45",
+        "created_by_ref": "identity--eb783525-3162-4b0a-8558-deaf87deed45",
+        "created": "2021-06-02T06:11:09.086916Z",
+        "modified": "2022-02-27T02:21:16.307057Z",
+        "name": "Thompson, Pearson and Dennis",
+        "roles": [
+            "could",
+            "include",
+            "nothing",
+            "both"
+        ],
+        "identity_class": "organization",
+        "contact_information": "220 Barbara Roads\nGeraldfurt, AK 50724",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 65,
+        "external_references": [
+            {
+                "source_name": "his",
+                "description": "Court land always less or.",
+                "hashes": {
+                    "MD5": "5e2f5b7e74647e719162e153d803ef69",
+                    "SHA-1": "5411a4b573da1269e4139deeaa8a4715c283a128",
+                    "SHA-256": "1a408f3590cd3afe9f0000f1f666e654d6e137ff62d88ba7c31c63192cc398d6",
+                    "SHA-512": "f89a26615064d344f4c5a56c75d97afe99d5fb177844eaddc2a978cf1cc646b911cf49199c6002aa0836313bec4d0e50a76c89b59f6c197cc36c25cbcf01e1db",
+                    "SHA3-256": "0db5ad9ec6542071fdd351c5c597178ef6b544bf3cc408144823f9ffdbf9a8b2",
+                    "SHA3-512": "32fab7d996aae925cb1795626aa8a33cdc63c453cd5deabe5802b11981461e33dd8b6a8437fc204f6e174defaa3164d191b2afdf7a6543e9aacc492765d6b5d4"
+                },
+                "external_id": "HSCSKMdwECLWuliXlL"
+            },
+            {
+                "source_name": "community",
+                "description": "Event move animal open part.",
+                "url": "https://www.gardner.com/",
+                "hashes": {
+                    "MD5": "3a7d7d8cfc60697efdcdce7cb6b3ecc0",
+                    "SHA-1": "60048d28aed702966cf6aeab8b7602cbdbc842e2",
+                    "SHA-256": "a3517f0d0fcab9da42a152fd0fa47bdd22d53fd7778281d8dc076ba8765baafe",
+                    "SHA-512": "b7be8abce5a9b269bf352ac3c105c3d6276f8b3db60fc8a2757d281b1067cbd354285c4f2a3c7b2fef7cf41c4b3c424b47ae48aae9d2bccafc03997bb1a3e23d",
+                    "SHA3-256": "253b4c141134beb69b409a1e0d4818e1d27480ea0b6f9a5626b2b6a0ddb1eb21",
+                    "SHA3-512": "994c18bd5b3703b0536106c0ea79a6b2d98661e10b267bfd72d3e9ce0cf38e253fcafaf65e834522373414d67c53bda69b94bcca1487865f71c785034d5efea6"
+                }
+            },
+            {
+                "source_name": "can",
+                "url": "https://allen-cruz.biz/",
+                "hashes": {
+                    "MD5": "07fc3bb2dc400e8c78f8977fe14f0e53",
+                    "SHA-1": "d871653f4fff407abde002608820b9cdfe967054",
+                    "SHA-256": "bc7e28249b27c481d624dae1c1e28759d1ae7f705a2f2e37ba89ae4b748a60c7",
+                    "SHA-512": "2ab18751bb7d461efc47765124ace01e96e936f541fd4bea00846008c051c338875a32553dcb6917ec7f50fb8aaea2af621efd4d8f583166aff6ff7c9f9a07af",
+                    "SHA3-256": "9a4ec1a55f3d74383ddac842125b410de7d0201147a71dd936126ec54e865d82",
+                    "SHA3-512": "db34c21f70ce014d225196fdc03c68e977a1e7f289a5ecbd6efb4289ccc192929b3f73d15348a12c82f064764e89ce830b76748094b510f788bf1ec3919575b2"
+                },
+                "external_id": "YeXaYVrszkKrojnK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--4f2b3166-4c8b-444b-95a9-cf082834bb6e"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--4f2b3166-4c8b-444b-95a9-cf082834bb6e",
+        "created": "2021-08-14T01:08:53.58145Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6d40bd19-4710-4b69-9440-86c8c2a858b4",
+                "name": "Purpose response respond always trouble later investment",
+                "create_date_time": "2021-08-14T01:08:08.431664Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.4315Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

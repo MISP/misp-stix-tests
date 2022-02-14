@@ -1,0 +1,178 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--d850b26b-f73e-4088-9c19-1394aae19eda",
+        "created_by_ref": "identity--d43044c1-bf95-473a-a97b-aab1183d92a4",
+        "created": "2021-07-19T15:47:03.841326Z",
+        "modified": "2022-01-07T16:33:42.715291Z",
+        "name": "away",
+        "threat_actor_types": [
+            "crime-syndicate",
+            "nation-state"
+        ],
+        "roles": [
+            "independent",
+            "malware-author",
+            "infrastructure-operator",
+            "sponsor"
+        ],
+        "secondary_motivations": [
+            "accidental",
+            "ideology",
+            "personal-satisfaction",
+            "coercion"
+        ],
+        "personal_motivations": [
+            "personal-gain"
+        ],
+        "confidence": 27,
+        "object_marking_refs": [
+            "marking-definition--2d0b0fc8-6fcd-4c55-8b9b-c4d0a13241cc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--33d178d9-8d51-43f3-927b-76dae79be8d9",
+        "created_by_ref": "identity--d43044c1-bf95-473a-a97b-aab1183d92a4",
+        "created": "2021-09-14T17:00:28.654742Z",
+        "modified": "2021-10-26T21:27:47.824056Z",
+        "name": "Cook and Sons",
+        "identity_class": "organization",
+        "confidence": 85,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2d0b0fc8-6fcd-4c55-8b9b-c4d0a13241cc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--08070403-59c0-40c4-8937-2c7f5428606e",
+        "created_by_ref": "identity--d43044c1-bf95-473a-a97b-aab1183d92a4",
+        "created": "2022-01-13T08:40:46.994037Z",
+        "modified": "2022-02-27T16:28:50.400535Z",
+        "relationship_type": "targets",
+        "description": "Model tax large financial history. Month talk mother contain become campaign.",
+        "source_ref": "threat-actor--d850b26b-f73e-4088-9c19-1394aae19eda",
+        "target_ref": "identity--33d178d9-8d51-43f3-927b-76dae79be8d9",
+        "stop_time": "2021-10-14T19:17:20.396227Z",
+        "object_marking_refs": [
+            "marking-definition--2d0b0fc8-6fcd-4c55-8b9b-c4d0a13241cc"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d43044c1-bf95-473a-a97b-aab1183d92a4",
+        "created_by_ref": "identity--d43044c1-bf95-473a-a97b-aab1183d92a4",
+        "created": "2022-02-27T13:30:46.426049Z",
+        "modified": "2022-04-13T23:29:44.410305Z",
+        "name": "Villarreal-Keller",
+        "roles": [
+            "show",
+            "pay",
+            "attorney",
+            "yard"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "social",
+                "url": "https://hernandez-jackson.biz/",
+                "hashes": {
+                    "MD5": "cc995dd0fb8ec5bb815d2355ebebaa21",
+                    "SHA-1": "7908159135ba98686bbc585458b1d483998422f0",
+                    "SHA-256": "ed37ecfed7beccabe452efafe5d8028d8fd7118a174ccaa8c5d2b4bc582fda40",
+                    "SHA-512": "717f4da2e48050c8200ff60eb4f5c04a08b772ebb527658f704a29b5d5af52fea83dbf80616d27ae5df2779c485453f2d89984641013b542038db64ef15082b2",
+                    "SHA3-256": "9a0616f94e6af835b5a22b8d5173d2cf594584497f03400b59ba467980734c30",
+                    "SHA3-512": "f2705d821d66e139364b85e4439e001f13ecf10e3a0d9db8539811806952c2ae3caca91724f17f3312b6ff9777f4602362b332c06a1cde781f6341c1fb8ccd1b"
+                },
+                "external_id": "lKOcvNkmHqywLP"
+            },
+            {
+                "source_name": "available",
+                "description": "Dinner kid various type.",
+                "external_id": "TQRCwK"
+            },
+            {
+                "source_name": "before",
+                "url": "http://www.walker.com/",
+                "hashes": {
+                    "MD5": "f8a593597def2546bc718f7922d159b8",
+                    "SHA-1": "e4d2e25892525f14da6054ce04e7c420abcb9c8d",
+                    "SHA-256": "6ca9d0b13b7b79b1b99e84f7af09ec8919a540ef35481da99f28fe236b56c8ba",
+                    "SHA-512": "a44544a7697db2dc56e5f3d937e748054fdf2d07a5726d5a04172d3add409c133c01869eef1f78516335338fda675a6978d79e21908457cb45ca77417dace07a",
+                    "SHA3-256": "28269c878a1bd1e57dd738472d26d59d27092f76a46e6e33e10c89c33940e5f6",
+                    "SHA3-512": "240e931bf6b395f17bb0f94ba12b410e008b569808238f6d6246bc9b6baa7b991f9cc81082465aec38dafa42f67c947e07e8129ad4265d52394c39ec621b23ba"
+                },
+                "external_id": "sQiRFVztaWZQBMsElnn"
+            },
+            {
+                "source_name": "those",
+                "url": "http://www.smith.biz/",
+                "hashes": {
+                    "MD5": "b4b42eb000d008d1d6b4f5d64687ac7c",
+                    "SHA-1": "4df6c7bbcf3724eb1b9593b6faa24349f6f414b3",
+                    "SHA-256": "fdc6e2a27f94d9d0cdb17b3920ce487982d651148d77ea6088f12db17ceda9d4",
+                    "SHA-512": "98774096bc58cb0812bf02c361133dcfee7e66fcadba70f945077fe383c40d93f0058c9bb1b5ff4156a2be28a66a55cbe4ea70a063fb20fe1e30d026af1c75f4",
+                    "SHA3-256": "bf83dd8fdbe673b96bc46e6318d71333fa177df9c67c26a8925b37ec0a71c5b1",
+                    "SHA3-512": "a63bf1982e76e1f94674e8bf90703454c7e5b343a22ea37c433a51fae38057c9555a3454b1597a2c98251c97c0aacada73b41fd01c5c21b263c33a7114c535d9"
+                },
+                "external_id": "nAAPusy"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2d0b0fc8-6fcd-4c55-8b9b-c4d0a13241cc"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2d0b0fc8-6fcd-4c55-8b9b-c4d0a13241cc",
+        "created": "2021-08-14T01:09:30.376458Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-114c3c02-d336-4257-a679-8cbd2bcdae34",
+                "name": "Sort author none he account American industry worry",
+                "create_date_time": "2021-08-14T01:08:08.432919Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

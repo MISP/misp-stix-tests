@@ -1,0 +1,93 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--3a315834-475b-427c-8aaf-a2098aada032",
+        "created_by_ref": "identity--d3b9ed84-6690-417b-ac19-d4188d2b34a5",
+        "created": "2021-08-31T00:18:36.730189Z",
+        "modified": "2021-12-07T16:03:34.694458Z",
+        "name": "call",
+        "description": "Forward experience suggest dream along remain land.",
+        "labels": [
+            "store",
+            "second",
+            "walk",
+            "six",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--11187d13-df14-4bd7-bc63-edebb980709c",
+        "created_by_ref": "identity--d3b9ed84-6690-417b-ac19-d4188d2b34a5",
+        "created": "2022-08-12T08:47:23.271415Z",
+        "modified": "2023-02-17T04:42:06.384965Z",
+        "description": "Read call environment very media trouble up.",
+        "pattern": "[(domain-name:value NOT = 'miller-morton.com') OR directory:ctime < t'2020-11-26T14:25:11.139419Z' OR autonomous-system:rir >= 'Martinez LLC'] OR [url:defanged = false] OR [windows-registry-key:defanged NOT = false] REPEATS 1 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-07-30T00:49:45.439686Z",
+        "labels": [
+            "figure",
+            "share",
+            "young",
+            "relate",
+            "discover",
+            "pfte-batch-1"
+        ],
+        "confidence": 32,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f27d1e79-95e1-4fb6-ba7b-2917138c67d8",
+        "created_by_ref": "identity--d3b9ed84-6690-417b-ac19-d4188d2b34a5",
+        "created": "2021-02-23T09:36:18.210572Z",
+        "modified": "2021-12-03T13:29:25.78033Z",
+        "relationship_type": "mitigates",
+        "description": "Throw middle material member physical she full provide. Experience energy war deep. Give early interest represent century star realize.",
+        "source_ref": "course-of-action--3a315834-475b-427c-8aaf-a2098aada032",
+        "target_ref": "indicator--11187d13-df14-4bd7-bc63-edebb980709c",
+        "start_time": "2021-06-05T01:35:07.760952Z",
+        "labels": [
+            "author",
+            "political",
+            "expert",
+            "no",
+            "simply",
+            "pfte-batch-1"
+        ],
+        "confidence": 55,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d3b9ed84-6690-417b-ac19-d4188d2b34a5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-05-02T10:31:03.739265Z",
+        "modified": "2022-08-04T12:55:34.161561Z",
+        "name": "FinalEdgeEvening",
+        "description": "Profit-focused systematic emulation",
+        "identity_class": "class",
+        "contact_information": "8942 Harrington Park\nThomasstad, MT 76871",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

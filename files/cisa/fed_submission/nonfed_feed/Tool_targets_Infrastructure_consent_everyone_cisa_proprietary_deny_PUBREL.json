@@ -1,0 +1,138 @@
+[
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--029319f7-e020-4dca-b222-6c219e76c936",
+        "created_by_ref": "identity--520d6c16-f23e-4cd9-bfc5-ced3d025bdee",
+        "created": "2020-09-03T09:24:16.526962Z",
+        "modified": "2021-08-14T01:09:40.132556Z",
+        "name": "TV",
+        "description": "Every set determine.",
+        "tool_types": [
+            "unknown",
+            "exploitation",
+            "vulnerability-scanning"
+        ],
+        "aliases": [
+            "hundred",
+            "particularly"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "labels": [
+            "any",
+            "pfte-batch-1"
+        ],
+        "confidence": 31,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--6b4baf66-d2c0-4d72-a6c0-705843128591",
+        "created_by_ref": "identity--520d6c16-f23e-4cd9-bfc5-ced3d025bdee",
+        "created": "2021-10-28T22:37:27.435923Z",
+        "modified": "2022-01-19T12:59:43.726294Z",
+        "name": "where",
+        "description": "Minute story population at write the choice.",
+        "aliases": [
+            "focus"
+        ],
+        "last_seen": "2022-06-02T22:32:56.07335Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "hundred",
+                "description": "Partner reason main final ago.",
+                "url": "https://thomas.com/"
+            },
+            {
+                "source_name": "according",
+                "url": "http://dean.com/",
+                "hashes": {
+                    "MD5": "173ef26742d4d1f28f9c578878dcfc32",
+                    "SHA-1": "f70378a5e24614a28df4f662ded08283ff34629b",
+                    "SHA-256": "b74f8fb06fd8378ead56870dc7c2f3dd3ea6b84afdb4ec78411a13762a2a3d9e",
+                    "SHA-512": "1147a6cc72286f12b51e69108b63e356b4a6ce22e86572856e87dc8e5034c1eae7a0b79944b8d49d10b9f64b144705f6b3ea1dd6d184ae24ade88edcfb6c6751",
+                    "SHA3-256": "4cf992b83d633cb91bc55df658f56f11e6dbaaadcba6112a4b1fab4b288acba2",
+                    "SHA3-512": "50d47096b48d6b4d3edfd60c01e133e354e33c4b042b6cdf6fd4f7dcd4be007ebf4c70d64860fd8da3dd1d2d53feda87642e56e3e05248c821d4c8704c075269"
+                },
+                "external_id": "fCvVIuBgoWvhYAPd"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--116b505d-8d53-451a-9d85-3b78ad9b8d50",
+        "created_by_ref": "identity--520d6c16-f23e-4cd9-bfc5-ced3d025bdee",
+        "created": "2022-03-09T19:48:59.092206Z",
+        "modified": "2022-05-16T18:46:42.540659Z",
+        "relationship_type": "targets",
+        "source_ref": "tool--029319f7-e020-4dca-b222-6c219e76c936",
+        "target_ref": "infrastructure--6b4baf66-d2c0-4d72-a6c0-705843128591",
+        "stop_time": "2022-03-19T21:37:48.427726Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 16,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "determine",
+                "description": "Notice party hour watch.",
+                "hashes": {
+                    "MD5": "e84462fac15d05a76e50deb8c54e3edf",
+                    "SHA-1": "8f83c9d25668624412a4971797b082b5091942ea",
+                    "SHA-256": "d8b0fca95963bb8075f056206dd573fa5a3e93cd02591d256d84b7ac9b6263be",
+                    "SHA-512": "9c4bbafc5b46a74026bf47f4e0796c26f5a101a964068be783c0967017dc302c157a2e79f024def3e0e2626d155be61a1a82bea33cf2691d872485854596fe21",
+                    "SHA3-256": "551dc8a2495e4aa911d758a7697f3be0a70a72844c89f1d3dd73e381d5ec28cd",
+                    "SHA3-512": "9883ca427bf8e93b86999384355f7f50362324e59b1999bfa87dd7dbea8d33bc9faa3c2c93cc99466617e4afd28443f5e61cc924360e4456eca0694e65e54786"
+                },
+                "external_id": "oNvQgvDpluIrRuFJF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--520d6c16-f23e-4cd9-bfc5-ced3d025bdee",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-08-13T18:40:19.314118Z",
+        "modified": "2023-01-16T03:20:49.256301Z",
+        "name": "AnyoneKnowledgeListen",
+        "description": "Vision-oriented composite utilization",
+        "roles": [
+            "simply",
+            "particular",
+            "world"
+        ],
+        "identity_class": "unknown",
+        "contact_information": "10733 Tiffany Via Apt. 701\nPort Natasha, NC 61081",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

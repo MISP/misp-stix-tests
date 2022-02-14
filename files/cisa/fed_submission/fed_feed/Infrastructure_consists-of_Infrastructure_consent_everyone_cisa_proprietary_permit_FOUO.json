@@ -1,0 +1,147 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--cbc4aba6-8824-4a4b-93a1-8363be8e72e9",
+        "created_by_ref": "identity--c615668f-f589-4f3d-b391-bb7d6a6339cb",
+        "created": "2020-11-26T22:28:45.367314Z",
+        "modified": "2021-08-14T01:08:42.72301Z",
+        "name": "commercial",
+        "aliases": [
+            "charge",
+            "red",
+            "involve"
+        ],
+        "first_seen": "2022-01-13T14:27:22.492728Z",
+        "object_marking_refs": [
+            "marking-definition--5cfbf1c6-edd8-4edd-9a28-9c5dfe050b4d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--16670e52-4e5d-467c-8afa-70e0281a3a0a",
+        "created_by_ref": "identity--c615668f-f589-4f3d-b391-bb7d6a6339cb",
+        "created": "2022-03-23T10:38:49.803099Z",
+        "modified": "2022-08-10T09:41:01.611994Z",
+        "name": "for",
+        "infrastructure_types": [
+            "hosting-malware",
+            "reconnaissance"
+        ],
+        "aliases": [
+            "interest",
+            "he",
+            "any"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "NUWrtAdqYTpBJEexNkVR",
+                "phase_name": "vrmRUiEN"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "first_seen": "2022-05-03T12:25:42.35321Z",
+        "labels": [
+            "for",
+            "near",
+            "in",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--5cfbf1c6-edd8-4edd-9a28-9c5dfe050b4d"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--7ad4a622-00d1-46f3-93cf-5cf75ad50894",
+        "created_by_ref": "identity--c615668f-f589-4f3d-b391-bb7d6a6339cb",
+        "created": "2021-03-01T03:37:04.566303Z",
+        "modified": "2021-08-14T09:14:13.152668Z",
+        "relationship_type": "consists-of",
+        "description": "Many would author thank. Small kitchen fall reflect serve. Much capital relationship choose everyone.",
+        "source_ref": "infrastructure--cbc4aba6-8824-4a4b-93a1-8363be8e72e9",
+        "target_ref": "infrastructure--16670e52-4e5d-467c-8afa-70e0281a3a0a",
+        "start_time": "2020-08-23T07:24:40.958765Z",
+        "stop_time": "2020-11-02T01:24:48.732145Z",
+        "confidence": 45,
+        "object_marking_refs": [
+            "marking-definition--5cfbf1c6-edd8-4edd-9a28-9c5dfe050b4d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c615668f-f589-4f3d-b391-bb7d6a6339cb",
+        "created_by_ref": "identity--c615668f-f589-4f3d-b391-bb7d6a6339cb",
+        "created": "2020-11-11T02:52:25.018488Z",
+        "modified": "2021-10-20T14:14:15.101795Z",
+        "name": "Jones PLC",
+        "description": "Reverse-engineered background circuit",
+        "identity_class": "system",
+        "sectors": [
+            "education",
+            "automotive",
+            "education",
+            "manufacturing"
+        ],
+        "contact_information": "44687 Scott Ways\nElizabethstad, SC 69490",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--5cfbf1c6-edd8-4edd-9a28-9c5dfe050b4d"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--5cfbf1c6-edd8-4edd-9a28-9c5dfe050b4d",
+        "created": "2021-08-14T01:08:42.722561Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-114c3c02-d336-4257-a679-8cbd2bcdae34",
+                "name": "Sort author none he account American industry worry",
+                "create_date_time": "2021-08-14T01:08:08.432919Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

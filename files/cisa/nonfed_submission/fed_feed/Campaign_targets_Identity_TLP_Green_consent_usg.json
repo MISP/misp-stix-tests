@@ -1,0 +1,180 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--7986a8e8-d253-4e80-bde3-0ebbba27b479",
+        "created_by_ref": "identity--8ebd16c2-89c2-4d2d-bded-57a8c518447d",
+        "created": "2022-04-06T16:20:40.046393Z",
+        "modified": "2023-01-31T17:15:37.904443Z",
+        "name": "save",
+        "description": "Piece he rise likely.",
+        "aliases": [
+            "relationship",
+            "should",
+            "improve",
+            "system",
+            "year"
+        ],
+        "first_seen": "2022-05-13T08:10:31.255119Z",
+        "last_seen": "2022-06-24T18:54:31.647623Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--5c1cc4c8-0fdb-4c16-ba7d-b7991928a325"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f18ab9b2-fdfc-45bf-9063-6b6a21c874a6",
+        "created_by_ref": "identity--8ebd16c2-89c2-4d2d-bded-57a8c518447d",
+        "created": "2021-01-19T15:44:40.506746Z",
+        "modified": "2021-08-14T01:08:16.101953Z",
+        "name": "Smith PLC",
+        "description": "Total global frame",
+        "roles": [
+            "eye"
+        ],
+        "sectors": [
+            "technology",
+            "nuclear",
+            "insurance"
+        ],
+        "external_references": [
+            {
+                "source_name": "second",
+                "description": "Case perform glass challenge.",
+                "url": "http://nguyen-crawford.com/"
+            },
+            {
+                "source_name": "head",
+                "external_id": "bGgdZyNBJhRlx"
+            },
+            {
+                "source_name": "my",
+                "description": "Card to more interest purpose decide.",
+                "external_id": "aHhcgHWSt"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--5c1cc4c8-0fdb-4c16-ba7d-b7991928a325"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4a4db11d-702e-4a78-bee8-a16798cef43a",
+        "created_by_ref": "identity--8ebd16c2-89c2-4d2d-bded-57a8c518447d",
+        "created": "2021-11-12T13:59:18.397473Z",
+        "modified": "2022-01-15T15:33:15.130651Z",
+        "relationship_type": "targets",
+        "source_ref": "campaign--7986a8e8-d253-4e80-bde3-0ebbba27b479",
+        "target_ref": "identity--f18ab9b2-fdfc-45bf-9063-6b6a21c874a6",
+        "labels": [
+            "technology",
+            "name",
+            "black",
+            "Mr",
+            "begin",
+            "pfte-batch-1"
+        ],
+        "confidence": 50,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--5c1cc4c8-0fdb-4c16-ba7d-b7991928a325"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--5c1cc4c8-0fdb-4c16-ba7d-b7991928a325",
+        "created_by_ref": "identity--8ebd16c2-89c2-4d2d-bded-57a8c518447d",
+        "created": "2021-08-14T01:08:16.100815Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-15d3e0eb-8dda-4b6b-a55d-5c6a8a6d490b",
+                "name": "Clearly industry family",
+                "create_date_time": "2021-08-14T01:08:08.420657Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8ebd16c2-89c2-4d2d-bded-57a8c518447d",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-15T01:15:27.045539Z",
+        "modified": "2021-12-22T16:51:36.675122Z",
+        "name": "Beard-Barnes",
+        "sectors": [
+            "government-regional"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 1,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--5c1cc4c8-0fdb-4c16-ba7d-b7991928a325"
+        ]
+    }
+]

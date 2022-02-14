@@ -1,0 +1,199 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--b3e33497-de08-430b-bfb8-05206044439a",
+        "created_by_ref": "identity--5bfe3393-8492-47c0-9182-9fe45aac2a84",
+        "created": "2021-03-12T15:53:55.515853Z",
+        "modified": "2021-08-14T01:08:13.29726Z",
+        "name": "nice",
+        "description": "Even rate participant.",
+        "last_seen": "2021-12-19T02:50:22.480996Z",
+        "objective": "Stock cut laugh station plant cover it.",
+        "labels": [
+            "necessary",
+            "hold",
+            "close",
+            "score",
+            "already",
+            "pfte-batch-1"
+        ],
+        "confidence": 67,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e004112c-740c-4c18-8ccb-101f1c94d97f"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--ef1029d6-534b-4b0d-9be9-74ad10695f01",
+        "created_by_ref": "identity--5bfe3393-8492-47c0-9182-9fe45aac2a84",
+        "created": "2020-12-17T11:57:29.192695Z",
+        "modified": "2021-08-14T01:08:13.297519Z",
+        "name": "authority",
+        "first_seen": "2021-10-25T20:31:04.915887Z",
+        "primary_motivation": "dominance",
+        "secondary_motivations": [
+            "ideology"
+        ],
+        "labels": [
+            "fast",
+            "election",
+            "pfte-batch-1"
+        ],
+        "confidence": 29,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e004112c-740c-4c18-8ccb-101f1c94d97f"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4bcc7504-0129-478f-90e0-48931acb0091",
+        "created_by_ref": "identity--5bfe3393-8492-47c0-9182-9fe45aac2a84",
+        "created": "2021-02-10T00:39:20.844517Z",
+        "modified": "2021-08-14T01:08:13.297787Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "campaign--b3e33497-de08-430b-bfb8-05206044439a",
+        "target_ref": "intrusion-set--ef1029d6-534b-4b0d-9be9-74ad10695f01",
+        "start_time": "2021-05-22T08:41:07.106588Z",
+        "stop_time": "2021-12-03T15:47:18.17359Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e004112c-740c-4c18-8ccb-101f1c94d97f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--e004112c-740c-4c18-8ccb-101f1c94d97f",
+        "created_by_ref": "identity--5bfe3393-8492-47c0-9182-9fe45aac2a84",
+        "created": "2021-08-14T01:08:13.296577Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e665ae49-7536-4ce4-b3ac-ad9803b6185e",
+                "name": "Push teach indeed like accept",
+                "create_date_time": "2021-08-14T01:08:08.423274Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5bfe3393-8492-47c0-9182-9fe45aac2a84",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-03T20:54:48.398755Z",
+        "modified": "2022-06-09T13:59:06.363995Z",
+        "name": "Donaldson Group",
+        "description": "Seamless optimal matrices",
+        "roles": [
+            "likely"
+        ],
+        "sectors": [
+            "water"
+        ],
+        "contact_information": "259 William Hills\nNorth Jill, OH 61628",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "away",
+                "description": "Field little style significant discover.",
+                "url": "https://www.neal.com/",
+                "hashes": {
+                    "MD5": "18c1962bb3c16908a877e9833864a509",
+                    "SHA-1": "4a24ff6ed772f2b23252c082a245dd6b9659aa7a",
+                    "SHA-256": "e80644bcdb6e38e831b2d29af3ef9a3b6cfba35b69de60d0f0122905a683c641",
+                    "SHA-512": "1efa34596ff2f1836f5bb992f811a8e691002a2b9fa7a023eaddd8bcebffc83000e4e196a8ab55f612ed1e19c568e340b1b471d20331de23bc8018b3e8c75fa2",
+                    "SHA3-256": "746474271dd784a648eb80cfc0eda01dd07d514f32ba7c3522d96642115d532f",
+                    "SHA3-512": "b64958a74488e67d443865bbd1a2c14b5101346794fd3067853bf9095da93dc8a50377539fe5762adcc64d459f108a301f7e1a7b8d7d1cdae9fb356a01020853"
+                },
+                "external_id": "DsnZcPVbrBCCSBJ"
+            },
+            {
+                "source_name": "of",
+                "hashes": {
+                    "MD5": "21a09a0a80cbadb35766fd0a49617d3b",
+                    "SHA-1": "3854a835b63f46969504b1ba0c51a5d595a7ba80",
+                    "SHA-256": "5b26db24598bd93d9f3247d087ca63b54a03afffd6c8310ea3c7ed378d530e9e",
+                    "SHA-512": "3c62f4ae89a27f0731fc569a8634db66095c31e8a330d572eaea6245ee8dea9e2198d65b4d7871fae968c456280d967543a67896b170d872b25286362d9d9ed2",
+                    "SHA3-256": "95f3a3caed63a57a2687a765f0f3da14cd43b268e606dff529b542a7eef034c0",
+                    "SHA3-512": "fb94e667bb4992ab339fc98fecc363f79524fc0c7d1319c8e457d7959619e375537a0d72293b54c87f57e676afa433bb2d7753b0aef254eccef6da3e99daa823"
+                },
+                "external_id": "MvkezkKTszfIPBiqXimO"
+            },
+            {
+                "source_name": "effect",
+                "description": "Never debate main wide management use.",
+                "external_id": "fOnArfeg"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e004112c-740c-4c18-8ccb-101f1c94d97f"
+        ]
+    }
+]

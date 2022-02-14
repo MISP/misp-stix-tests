@@ -1,0 +1,207 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--927a6876-c353-4d59-a611-22e57c466192",
+        "created_by_ref": "identity--64ddc6c9-4ce5-4fd4-bbb5-1e723eb1de46",
+        "created": "2021-10-10T13:12:40.148192Z",
+        "modified": "2022-04-02T01:37:05.000167Z",
+        "name": "phone",
+        "aliases": [
+            "both"
+        ],
+        "first_seen": "2020-11-27T21:32:41.71025Z",
+        "last_seen": "2021-03-18T02:00:21.925148Z",
+        "resource_level": "team",
+        "labels": [
+            "wear",
+            "current",
+            "reduce",
+            "culture",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--458c40a5-ced8-462d-8635-e49c4d96de12",
+        "created_by_ref": "identity--64ddc6c9-4ce5-4fd4-bbb5-1e723eb1de46",
+        "created": "2020-08-23T00:17:41.921673Z",
+        "modified": "2021-08-14T01:08:58.170544Z",
+        "name": "player",
+        "aliases": [
+            "someone",
+            "staff",
+            "woman",
+            "set"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "SNuColg",
+                "phase_name": "OuITZfnOAcgrCXT"
+            },
+            {
+                "kill_chain_name": "zGBCh",
+                "phase_name": "hYmTqjZKAakliFYYw"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 82,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "season",
+                "url": "http://santiago-day.info/",
+                "hashes": {
+                    "MD5": "5384e4d877df8c4cc7ab79d45914868e",
+                    "SHA-1": "f6a08b3940c720ae289e7dcf22a21716463dc964",
+                    "SHA-256": "435ee1ac5bb7d3e5e7bdb9fae950833e787cc10abd83d8651e422894f07ad48d",
+                    "SHA-512": "35979db83844a647ea951e8c229efbdc0d7aa0f5dd115211a5513e62135388e68baa1460ce05e641e463105769c8dad911b6ec01ffb3497c8a67daa3ad0728a0",
+                    "SHA3-256": "c23e3f86dcb4b932732243eb7fab13d786db5fd749652f02049e79e58b3366e1",
+                    "SHA3-512": "6ec0cb409f2993c76575ea938f862e8f1ff678c46ddc2b1bf8ee765635b2ef92c9f7e691c36f717b167b48d1a779f5c2c21cc44243a0898ad56af29bdbce3a2c"
+                },
+                "external_id": "YWXkoBIkDIbsFLrhwOFp"
+            },
+            {
+                "source_name": "gun",
+                "url": "http://www.ford-johnson.net/"
+            },
+            {
+                "source_name": "safe",
+                "description": "Include cause left town.",
+                "external_id": "ZxLewDbSuYoPnJk"
+            },
+            {
+                "source_name": "system",
+                "description": "Stay page draw big order kid just who.",
+                "hashes": {
+                    "MD5": "a5ba05d3657b4eba71e8fb3da147d31a",
+                    "SHA-1": "beab6944b437e70bb7837cdfe2ac3dece997d3cd",
+                    "SHA-256": "88e136f193c74f04922664fdc8d622e2df5d662bec8659390c3c0c497ecb0197",
+                    "SHA-512": "a836975b2dccf8e13e11b51cf68a60054d358d57674fdc4ba89876082c54f8183b72165a2604b3b1dde8f8166e782bf06e0b13aed3329898060e8e3f788c5089",
+                    "SHA3-256": "eb4a410978388ec302bce29af77e13025da4c0c12ce41e0a3aed35bf7df8f148",
+                    "SHA3-512": "9fc99fde1fe77c95d7266576e6fde03f7221406d0fbf5b4cb92203578327298ab65d79cdfbd5e61dd368b07981003a4c9746dfbd241790757fbd71ef00b63ec1"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--0ac098e9-1b8d-428c-982e-ce8497e4dfd0",
+        "created_by_ref": "identity--64ddc6c9-4ce5-4fd4-bbb5-1e723eb1de46",
+        "created": "2022-07-09T09:33:09.244614Z",
+        "modified": "2022-12-19T12:32:14.334877Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--927a6876-c353-4d59-a611-22e57c466192",
+        "target_ref": "attack-pattern--458c40a5-ced8-462d-8635-e49c4d96de12",
+        "stop_time": "2021-11-08T12:06:43.149503Z",
+        "labels": [
+            "professor",
+            "pressure",
+            "guess",
+            "staff",
+            "cause",
+            "pfte-batch-1"
+        ],
+        "confidence": 10,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "base",
+                "description": "Note worker first state.",
+                "url": "http://www.ortiz-hardy.info/",
+                "hashes": {
+                    "MD5": "e49153615986a574d67db02eaf5ae081",
+                    "SHA-1": "1f4f2f76bb0c5cf8bcad3ad96b6573e67fd6ced0",
+                    "SHA-256": "42213300d16399037d1517b6bbd6a1f8905bc30bb3cb234038e4095a96c0ec12",
+                    "SHA-512": "4d1c5f6a8b32f356078997caf1636f76eb58e1f0de91e0b50e2f73aa54e7124fe5c3ade67c0a9902cf6262085be8053559cd1cdd5da26bfaa400c5282923b3a5",
+                    "SHA3-256": "23652acfe8863afdf85b25ef7b9183144c179f0b8fa274dae3dbbc9063fd7982",
+                    "SHA3-512": "40095b718a192a8b00173a3b45bb4309d83dc540d2d4defd06cd9ed0ac6dbcbede7c3ec28786cd8ab3dbecdb7a8982df9a39ce15114062dcb9d2263d8b79ca76"
+                }
+            },
+            {
+                "source_name": "page",
+                "description": "State explain measure scene however agree.",
+                "url": "https://www.willis.com/",
+                "hashes": {
+                    "MD5": "656a83821525d231aaa7eeb357d0281c",
+                    "SHA-1": "df76d9a503c17140816335866a55eb87674ded75",
+                    "SHA-256": "59203ae2ec26036942d959cd2e59375894f2cb06bcf97a7f62c7344b125c4785",
+                    "SHA-512": "77e24814a5d8ee8d5e4bf3a88d5dc1cf9c876bc4f05df02944922631f83274cd1a9bdcc0c2fc5df028529d8a3bbefab25405945d76264374d58c05e4112be351",
+                    "SHA3-256": "59708bf684dd2840bed486922328af1f30b1735622fa8d0364d359274621b9c8",
+                    "SHA3-512": "5000383fd25644d7c7abd47447459c4530200e3250698da1b2d21ff02d86adbfacdcca8c5153cc271a38a5ffe901fb9db647de11c65c3eb2a7edbdb0632fa7be"
+                },
+                "external_id": "cCQtdiFhwCFcefLvkoo"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--64ddc6c9-4ce5-4fd4-bbb5-1e723eb1de46",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-17T06:40:03.647302Z",
+        "modified": "2022-03-29T08:44:56.901089Z",
+        "name": "Foster Group",
+        "roles": [
+            "eat"
+        ],
+        "sectors": [
+            "entertainment",
+            "construction"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 34,
+        "external_references": [
+            {
+                "source_name": "school",
+                "description": "Still response light interview east threat human.",
+                "url": "https://meyer-alexander.com/",
+                "hashes": {
+                    "MD5": "3cab6e743a3b8d8348dc41dd8b136850",
+                    "SHA-1": "ddb41f19d76dc325eab074b1f4c3400619873b64",
+                    "SHA-256": "ecfa093f12aaa49abdc06ad6fe17e8ffa84f513e04a42db984a5530d02f3a48c",
+                    "SHA-512": "4997f0c2754458bed6717cea9f03a66b8eb762eaa95db2f1ab1afbd7189994869e4697cec0ba7a773ca69abc581fb1001ab3ce927f321c9dc267c6f3f810732c",
+                    "SHA3-256": "fba4c4c7e294b1021fc89107f8077ba22e32040d6d99625edb653cc20027b9a4",
+                    "SHA3-512": "0655c19913889921cba6bb344ec0996b362f058d34fb694cd615574e52a41a34affaa6df46c45e91cca478781cafb7610bb1f138ad63c15a489fdf6d225d6a38"
+                },
+                "external_id": "sVlSAUkB"
+            },
+            {
+                "source_name": "according",
+                "url": "http://www.tucker-ferrell.org/",
+                "hashes": {
+                    "MD5": "3926105f45b1f37f0dabe4b2b33351f1",
+                    "SHA-1": "aab7835a565ed0248221ab1de22ca6e3a4a8a3cd",
+                    "SHA-256": "df6e73581d4a7d5b05863d03f5bb03e5626c1e983468409de5cb0bf46f2e2db2",
+                    "SHA-512": "aec44b1322895863d154f23775ca909376769818366ef52ab658157f7a13c1aad30e54c2a1eb5ba056da02e1c8fa7218a6902b915936072f0061ca00960df5d3",
+                    "SHA3-256": "372b6b30031de31ef5b2f18c9f065f58229dc7bb3dab23156ce7cff4d0b5b2f2",
+                    "SHA3-512": "29f87b63a112617558cfcee190ff8ad2361e9cb98019339d74d09cfb40a30ba4c7381de63db17f6afce3c51015027b55d3e0fb11f298b0aea9cae55de5c0ed54"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

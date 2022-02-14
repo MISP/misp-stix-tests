@@ -1,0 +1,163 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--269dfbd1-1315-44bb-9c16-82b6a94af4b7",
+        "created_by_ref": "identity--0adde0a9-3ff3-443d-8568-74b0e17a51c3",
+        "created": "2021-11-27T02:50:44.584037Z",
+        "modified": "2022-04-12T01:54:07.345001Z",
+        "name": "race",
+        "description": "Program case rule.",
+        "aliases": [
+            "idea",
+            "according",
+            "including",
+            "customer"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "BzcRwSujrmWoBUSfBiH",
+                "phase_name": "eHkppVKLutjavUbX"
+            }
+        ],
+        "first_seen": "2021-07-09T11:56:12.664636Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--46cfbf80-7f6a-4af6-8c4c-00e17c46e7e5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "ipv4-addr",
+        "spec_version": "2.1",
+        "id": "ipv4-addr--0cda4cbc-d21e-461f-a2b3-b6b8d687e8d1",
+        "value": "176.69.19.12",
+        "object_marking_refs": [
+            "marking-definition--46cfbf80-7f6a-4af6-8c4c-00e17c46e7e5"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--468da816-059e-434c-92e3-4465197896b0",
+        "created_by_ref": "identity--0adde0a9-3ff3-443d-8568-74b0e17a51c3",
+        "created": "2021-01-13T21:27:23.632994Z",
+        "modified": "2021-10-10T22:04:58.171125Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--269dfbd1-1315-44bb-9c16-82b6a94af4b7",
+        "target_ref": "ipv4-addr--0cda4cbc-d21e-461f-a2b3-b6b8d687e8d1",
+        "stop_time": "2022-01-07T21:52:45.323102Z",
+        "confidence": 91,
+        "object_marking_refs": [
+            "marking-definition--46cfbf80-7f6a-4af6-8c4c-00e17c46e7e5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0adde0a9-3ff3-443d-8568-74b0e17a51c3",
+        "created_by_ref": "identity--0adde0a9-3ff3-443d-8568-74b0e17a51c3",
+        "created": "2020-11-30T10:10:43.795237Z",
+        "modified": "2021-08-14T01:08:39.726453Z",
+        "name": "Tate, Bennett and Smith",
+        "description": "Enterprise-wide web-enabled leverage",
+        "identity_class": "group",
+        "contact_information": "806 Victoria Hill\nSeanport, KY 86011",
+        "confidence": 94,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "top",
+                "description": "Perform animal west room yes each.",
+                "external_id": "OBXMrZkmaXNySz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--46cfbf80-7f6a-4af6-8c4c-00e17c46e7e5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--46cfbf80-7f6a-4af6-8c4c-00e17c46e7e5",
+        "created": "2021-08-14T01:08:39.725097Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-147f852e-75ac-49e9-b9d2-55199760c488",
+                "name": "Yes might consider why south he",
+                "create_date_time": "2021-08-14T01:08:08.429077Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.428904Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

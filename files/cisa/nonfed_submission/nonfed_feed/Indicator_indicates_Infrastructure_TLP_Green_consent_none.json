@@ -1,0 +1,151 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--49587265-dd93-4880-a5b7-62eb698c545c",
+        "created_by_ref": "identity--5a055d08-e81d-4f27-8a5b-029699c15eb7",
+        "created": "2021-03-21T12:54:42.730973Z",
+        "modified": "2021-09-17T04:17:42.698782Z",
+        "name": "sell",
+        "pattern": "([mac-addr:defanged NOT = false OR (email-message:is_multipart = false)] AND [email-message:message_id < 'manndawn@anderson.com'] AND (([x509-certificate:defanged = false] FOLLOWEDBY [email-message:date = t'2022-08-11T16:49:05.703463Z']) WITHIN 6 SECONDS)) REPEATS 10 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-03-08T05:09:06.145149Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "MIjlfWV",
+                "phase_name": "cpPRqjT"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 91,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "common",
+                "description": "Able think line area school.",
+                "hashes": {
+                    "MD5": "6c39f7eeab2c7257635860600a0b4cec",
+                    "SHA-1": "4dd2b2f6ae1ee17ca4f07489a208c98aafd2e3d8",
+                    "SHA-256": "881b1c1237176a410cbc8330b3cd5e4d5f95adeb8c471d667c6f2db71886ead8",
+                    "SHA-512": "340800553c8c9b7b88eb93b3427d15f98fadbcb2644c476e11b01495bdc5f04b022ecdd52ac5ef07fb75c010bf486902ec97f6b3011f8d37edcedb1956b85c48",
+                    "SHA3-256": "24116c4088b9e00433fe03048bfb2f2414856d549c24835201710397a00597c2",
+                    "SHA3-512": "65c3a06226a7502c1bee548a656eb0ac43a7cf5f873b8798d80874ac71ec7881ed10c04c90368b86bd2133a3cf24fe983a918a35e14157546305ff9b240483ac"
+                },
+                "external_id": "fjZCBHHAuKLGaoWpr"
+            },
+            {
+                "source_name": "watch",
+                "url": "http://www.roberts-ray.com/",
+                "external_id": "ELFuQUDKsLzvbwgYcAZe"
+            },
+            {
+                "source_name": "around",
+                "description": "Meet though poor approach yard make.",
+                "url": "http://www.nichols.com/",
+                "external_id": "TqFnEmrLGHZU"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--05367266-7516-4865-99ed-301f162cc318",
+        "created_by_ref": "identity--5a055d08-e81d-4f27-8a5b-029699c15eb7",
+        "created": "2022-03-25T14:18:48.869994Z",
+        "modified": "2023-03-23T21:00:13.671887Z",
+        "name": "difficult",
+        "aliases": [
+            "light"
+        ],
+        "last_seen": "2021-11-16T10:31:27.27294Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d46196e8-13c1-4de5-93b5-90892ce34e64",
+        "created_by_ref": "identity--5a055d08-e81d-4f27-8a5b-029699c15eb7",
+        "created": "2020-12-04T10:10:34.715884Z",
+        "modified": "2021-08-14T01:08:29.786477Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--49587265-dd93-4880-a5b7-62eb698c545c",
+        "target_ref": "infrastructure--05367266-7516-4865-99ed-301f162cc318",
+        "start_time": "2022-06-08T07:08:14.811391Z",
+        "stop_time": "2023-05-25T16:03:53.43613Z",
+        "labels": [
+            "ready",
+            "skill",
+            "spring",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "business",
+                "url": "https://green.com/",
+                "hashes": {
+                    "MD5": "51a3e6488d849a89ab4cd66c18a063d4",
+                    "SHA-1": "b5ca565fe8860960926872ac547efeee7bd76410",
+                    "SHA-256": "c015b73f8f3b369d536bb40ca263e981347d0ab4f9e74f222654cb88014c562e",
+                    "SHA-512": "05c5d3264289d9f37cf5c3a34ac4f8cc813092aa45d760c2e7e750dd1b48b5e88b6ed86501180d6257cbbf509a909c4e5d7c5396999a8caf27cc86419ca507e6",
+                    "SHA3-256": "b85105961667fe385dc48ad1880800242260685c7b288f8805770334bc5fafc8",
+                    "SHA3-512": "e8a0ba40245fcbfff71dddc516586e71831f8c9af46b443ef0aee4ee7b6982a646983e19f99d3c2f82a5ecc593061846adcc0dc7ad09ca48b70b685e73acde00"
+                },
+                "external_id": "BqcdeRysjEJ"
+            },
+            {
+                "source_name": "feel",
+                "description": "During surface life drop accept give spring.",
+                "external_id": "XIagPUMitzCQpRLZagwA"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5a055d08-e81d-4f27-8a5b-029699c15eb7",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-30T10:35:10.313831Z",
+        "modified": "2021-12-14T01:35:13.770538Z",
+        "name": "HugeSportOpen",
+        "description": "Business-focused discrete framework",
+        "identity_class": "individual",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 33,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "share",
+                "url": "http://jones-allison.biz/",
+                "hashes": {
+                    "MD5": "6695885c197b48b480c9e488ad0103b8",
+                    "SHA-1": "749af26fa970a177e86561ebf48819025e8c8140",
+                    "SHA-256": "fd22846da343295259514dedb65fe5c985d36acc519cce148a1326520ff4e57e",
+                    "SHA-512": "536ca5d3f8e58493b3e1c19dad26fa2d3e6bc8179a3b1dcd388365df3f2388a19693965a20a28f1eab4780e480c5c0a8b4b2dad06748833e417531fe56e5eed0",
+                    "SHA3-256": "3de626be689c8803c0e755bd13470c8246208eddc263dbaef4edea77a9ad9376",
+                    "SHA3-512": "e7836a49d7a33d8f9e8b9af1366d447e4d21bab1f55e0fea3257fd180f91ac8895c6696601493571580ab5d993ddb058c1b39bdecc909828d10d771ef5fc6ab6"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

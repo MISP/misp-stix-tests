@@ -1,0 +1,203 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--f349cf09-2272-4653-bfe3-1da450aba526",
+        "created_by_ref": "identity--af9e9e11-3df1-4cc5-85d8-82f4f9fc486d",
+        "created": "2020-12-11T11:02:12.268546Z",
+        "modified": "2021-08-14T01:09:34.795247Z",
+        "name": "west",
+        "aliases": [
+            "thousand",
+            "learn",
+            "attack",
+            "bring"
+        ],
+        "last_seen": "2022-08-07T23:16:17.239849Z",
+        "roles": [
+            "malware-author",
+            "independent",
+            "agent",
+            "independent"
+        ],
+        "goals": [
+            "organization",
+            "seven"
+        ],
+        "secondary_motivations": [
+            "personal-gain"
+        ],
+        "labels": [
+            "soon",
+            "pfte-batch-1"
+        ],
+        "confidence": 21,
+        "external_references": [
+            {
+                "source_name": "city",
+                "description": "Power she challenge well.",
+                "url": "https://www.williamson.net/"
+            },
+            {
+                "source_name": "ask",
+                "description": "Score shoulder exist ground.",
+                "url": "http://torres-berg.com/",
+                "hashes": {
+                    "MD5": "015e6f5a237e11dd3f05a6adb6bba919",
+                    "SHA-1": "b5e1be8b67961293c9072912d143719f3faee40e",
+                    "SHA-256": "cd0362e529675d0d4f869cc1f0014af669cdfaed1f53c8a291e0c79e19c56f60",
+                    "SHA-512": "c316021c7166a40bb514c39650e7559321d2fc5ae8923a2f8aa542f237992cceb63803b0aaf6e75c980e92d3ec3a0d903dd90543868958e16a935bd7b19dd325",
+                    "SHA3-256": "4fb30ea00e328ca0dbb3dbbd0cc7bed09fac380a9cf6272699c5c5920cc8029c",
+                    "SHA3-512": "3f74b790063b0c51fc11962d667bb73e1976241c2aefb43dfbaccff33872998f4e0bdb189628e73e3d5788f6e1b44d629920c0272c133be59046313cfb1ed50e"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--136ed372-62d2-493c-b2d8-55e71dec95c2",
+        "created_by_ref": "identity--af9e9e11-3df1-4cc5-85d8-82f4f9fc486d",
+        "created": "2020-12-11T20:58:43.94967Z",
+        "modified": "2021-08-14T01:09:34.795686Z",
+        "name": "computer",
+        "tool_types": [
+            "information-gathering",
+            "remote-access",
+            "credential-exploitation",
+            "network-capture",
+            "denial-of-service"
+        ],
+        "aliases": [
+            "small",
+            "return"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "uHEAOdKqdM",
+                "phase_name": "QqlWzALfiEpDLinWajgj"
+            },
+            {
+                "kill_chain_name": "HVJwYgbGbDnWZpT",
+                "phase_name": "eiuGr"
+            }
+        ],
+        "tool_version": "who",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d69c6f50-c4b3-4d15-9ed5-a1cbc67cb578",
+        "created_by_ref": "identity--af9e9e11-3df1-4cc5-85d8-82f4f9fc486d",
+        "created": "2022-03-18T13:58:09.797387Z",
+        "modified": "2023-01-13T02:41:17.366218Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--f349cf09-2272-4653-bfe3-1da450aba526",
+        "target_ref": "tool--136ed372-62d2-493c-b2d8-55e71dec95c2",
+        "start_time": "2022-06-08T20:13:37.44721Z",
+        "labels": [
+            "admit",
+            "consider",
+            "theory",
+            "pfte-batch-1"
+        ],
+        "confidence": 41,
+        "external_references": [
+            {
+                "source_name": "trouble",
+                "url": "http://mcclain.com/"
+            },
+            {
+                "source_name": "wife",
+                "description": "Lay picture past foot.",
+                "hashes": {
+                    "MD5": "3a96fbf00f6bc74b3ae3cfa9717150d0",
+                    "SHA-1": "4a6aaff0df405573c5b2ab4d9f22933fedf53c12",
+                    "SHA-256": "cbcb75920f7774cf7b45c53f5165687f3708b2a70d855b119e2e84291ca14f94",
+                    "SHA-512": "44f64fcfd69fcea6722b87bbb3ab2d4e217d1d8cab63883a685400547db8ba475df3edffea5b42e5a2fd6ee850145767818e26288174934153503de6cafb5f90",
+                    "SHA3-256": "b6f203a2538eb7649324120134469e310ce595097e2da719cd398490d82fd2c2",
+                    "SHA3-512": "a7d1baf27f22a65747cdb707458668aafd5072ac2b733c8cf25f649f033e421ccbd3972e34c75f8368aba03f8c7cb697c4b918ee56ab13405f81e719f1ae7413"
+                },
+                "external_id": "VBvbeZIf"
+            },
+            {
+                "source_name": "case",
+                "description": "Community term receive brother art response time."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--af9e9e11-3df1-4cc5-85d8-82f4f9fc486d",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-02-15T12:45:02.441696Z",
+        "modified": "2022-12-09T04:17:43.737615Z",
+        "name": "Wagner Inc",
+        "description": "Object-based optimizing intranet",
+        "roles": [
+            "vote"
+        ],
+        "sectors": [
+            "nuclear",
+            "manufacturing",
+            "chemical",
+            "education",
+            "government"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "whole",
+                "url": "https://evans.biz/",
+                "hashes": {
+                    "MD5": "341200240cc042075772181f0f2e6625",
+                    "SHA-1": "d173fea0e8623be762815780f83019010cfeea7f",
+                    "SHA-256": "bc51f45ad34a2bbd51e83e07c075fbe207c73a89b57ef85cd64c55459bb18f96",
+                    "SHA-512": "f32fb080796a65d5830dd34310451c6951f382099b3da62d2041c55095e7aee684f54e190dfdcd82f1ec8f757480da8d7f5925d256ed040a9a707cab93a8fd69",
+                    "SHA3-256": "2b7e5dca7df65d9d6e5f8d47448e11bbdf0112c68ef9745b469cd53eb598fb32",
+                    "SHA3-512": "31b38bd3b177e517326849db769faabccf1edbd3a2a4ec8262aa3bc2098105acb28fb8e945c1aa89a66359c65573d589a286aad632742d9f9a0534a97e3f2c9b"
+                },
+                "external_id": "efnjxETT"
+            },
+            {
+                "source_name": "mouth",
+                "description": "Money bar section.",
+                "hashes": {
+                    "MD5": "3b20a3b91902f484694bbf1ace3b4cd4",
+                    "SHA-1": "71019773ea7e77d1988435ca3a69dad84e960d7d",
+                    "SHA-256": "43478f5c90cb2268fa6ad6d34cb682cfa5106ba7560439c9057ecb92e821f56a",
+                    "SHA-512": "5024e3fa6d97f88dd76a4bd9ed5176bb549e971cbe218ec4640a36afd453c65b69137792c7ad0fb76802760a4fe91dd52d6a2e53a362594eb99b98841b5ef855",
+                    "SHA3-256": "4e1c91d3353afcbc328fe897712dee31e6591863d2d6232329bedda00e7eb035",
+                    "SHA3-512": "61c7df25a804de2aa5294d61a7650c7153a31c71ad1466a44c7a75c2cf5c8f74f8100b7d1327aba08a5a3c52e2e4f031aaa1bdfb46293cfe6993f3ba33cdee13"
+                },
+                "external_id": "jaSDzZWnM"
+            },
+            {
+                "source_name": "strategy",
+                "description": "Option everybody ground work conference wife interview.",
+                "url": "https://www.dunn.biz/",
+                "external_id": "CKBcHursUeqU"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

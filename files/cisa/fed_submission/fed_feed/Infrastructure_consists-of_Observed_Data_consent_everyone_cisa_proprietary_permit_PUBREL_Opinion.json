@@ -1,0 +1,213 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--85d4dd8c-d16a-48b9-938e-a6ae762e3cd1",
+        "created_by_ref": "identity--df4e4578-8a1b-4e25-9939-ddde848de001",
+        "created": "2022-07-04T02:14:58.643315Z",
+        "modified": "2022-07-29T20:20:36.355353Z",
+        "name": "trip",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "first_seen": "2022-05-02T10:47:45.656691Z",
+        "labels": [
+            "build",
+            "myself",
+            "road",
+            "sort",
+            "child",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f75609a8-e7c2-4ceb-9040-d987e8066061"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--f78a0656-820d-44f8-85f4-975a3aba303c",
+        "created_by_ref": "identity--df4e4578-8a1b-4e25-9939-ddde848de001",
+        "created": "2021-02-16T14:10:48.952184Z",
+        "modified": "2021-08-14T01:08:44.691425Z",
+        "first_observed": "2021-07-09T18:17:45.388618Z",
+        "last_observed": "2021-09-11T01:33:36.769767Z",
+        "number_observed": 197342392,
+        "objects": {
+            "directory--99bdc172-fc91-40de-bc46-55c8ec8bc220": {
+                "type": "directory",
+                "spec_version": "2.1",
+                "id": "directory--99bdc172-fc91-40de-bc46-55c8ec8bc220",
+                "path": "/his/will.tiff",
+                "mtime": "2022-06-04T06:43:13.574198Z"
+            }
+        },
+        "labels": [
+            "able",
+            "two",
+            "several",
+            "pfte-batch-1"
+        ],
+        "confidence": 47,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f75609a8-e7c2-4ceb-9040-d987e8066061"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--60f1ec6c-d8fe-4825-ade1-798e3445c455",
+        "created_by_ref": "identity--df4e4578-8a1b-4e25-9939-ddde848de001",
+        "created": "2022-04-17T12:05:47.417829Z",
+        "modified": "2022-07-15T12:34:16.581613Z",
+        "relationship_type": "consists-of",
+        "source_ref": "infrastructure--85d4dd8c-d16a-48b9-938e-a6ae762e3cd1",
+        "target_ref": "observed-data--f78a0656-820d-44f8-85f4-975a3aba303c",
+        "start_time": "2021-11-03T00:37:25.23558Z",
+        "external_references": [
+            {
+                "source_name": "reach",
+                "description": "Soon hit morning positive majority important.",
+                "url": "https://www.hill.com/"
+            },
+            {
+                "source_name": "sport",
+                "description": "Read quality during project article manage in.",
+                "external_id": "VOoEajSrqmi"
+            },
+            {
+                "source_name": "vote",
+                "description": "Than against store program.",
+                "url": "http://taylor.com/",
+                "hashes": {
+                    "MD5": "0ebd6dbe202eeacaee41f47a6f068b48",
+                    "SHA-1": "4783a5b7e074e963587dce6d5c195d7bf8c48063",
+                    "SHA-256": "a86ea8e66939530bf67f5a80d372a412453fdc9d45d1318fc519926349b6e4b5",
+                    "SHA-512": "51104fb5a1bf0579b965e1848b72ab133eeb2bc86271f4f458f46aa2a455a34ad26588267200fc1abf795c08f364628ba3404f0f9bc0fa378f8f3e409f835b95",
+                    "SHA3-256": "fb332aa3471bda55c7650fc57967a32d2fe3ee4d150f80feac07b66531b3c745",
+                    "SHA3-512": "b81843769bd939750d2cae4e507c02a2bafd6e7786023de4ab042568026409307f6f3c21ce3186ea2f50f7d42eab2d803f9ba51d14cc1761dece9b00e7651603"
+                },
+                "external_id": "HWRpVcDywzZPWdccQn"
+            },
+            {
+                "source_name": "star",
+                "description": "Including once sense film class.",
+                "url": "http://www.schaefer-gregory.com/",
+                "external_id": "maXplZwmuFaKzu"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f75609a8-e7c2-4ceb-9040-d987e8066061"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--e427bc9d-aa08-4666-9a0b-8abc179d637c",
+        "created_by_ref": "identity--df4e4578-8a1b-4e25-9939-ddde848de001",
+        "created": "2020-10-06T07:02:13.54389Z",
+        "modified": "2021-08-14T15:21:54.738581Z",
+        "authors": [
+            "computer",
+            "fast",
+            "study",
+            "series"
+        ],
+        "opinion": "strongly-disagree",
+        "object_refs": [
+            "infrastructure--85d4dd8c-d16a-48b9-938e-a6ae762e3cd1",
+            "observed-data--f78a0656-820d-44f8-85f4-975a3aba303c",
+            "relationship--60f1ec6c-d8fe-4825-ade1-798e3445c455"
+        ],
+        "confidence": 16,
+        "object_marking_refs": [
+            "marking-definition--f75609a8-e7c2-4ceb-9040-d987e8066061"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--df4e4578-8a1b-4e25-9939-ddde848de001",
+        "created_by_ref": "identity--df4e4578-8a1b-4e25-9939-ddde848de001",
+        "created": "2021-11-01T14:55:53.119864Z",
+        "modified": "2022-10-24T06:40:41.031953Z",
+        "name": "Wiggins-Smith",
+        "sectors": [
+            "defense",
+            "government",
+            "commercial"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 40,
+        "external_references": [
+            {
+                "source_name": "black",
+                "description": "Everybody bag most too over miss force drop.",
+                "url": "http://www.owens.com/",
+                "hashes": {
+                    "MD5": "e62c511a9f2cd576fef74e849ba7fa6d",
+                    "SHA-1": "273d850da46f0e387b892632c3e0eb8be41e3eef",
+                    "SHA-256": "a340258f686ad0f70eebca5d82d4a23f662cb09ef25a63b7e993ccb5c1fbd57a",
+                    "SHA-512": "40708790c7b4b0be2878705c3ae5634af6e1954f77ff4e9e4aa1984447a601b128e209e70fe232393f95a963e5136854ac6cac9febeeea1b816d1645de478aea",
+                    "SHA3-256": "f1363dd1bf185b3ee6106182f4237ff7cc944db7a2b6ffdc316f4f2f88024d27",
+                    "SHA3-512": "fe4eaf24cd5573f741b5967b7e57fb5c19ce4bee4e1006d98729f27ec93549aad933b6ee82aaebdcd1914706c71543097976b7f572c63e223e3c74b97debad61"
+                },
+                "external_id": "rpWugVL"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f75609a8-e7c2-4ceb-9040-d987e8066061"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--f75609a8-e7c2-4ceb-9040-d987e8066061",
+        "created": "2021-08-14T01:08:44.69039Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-716f5d31-4760-4ed1-b8df-6b76bb19bd34",
+                "name": "Wife plan yourself training yet rich",
+                "create_date_time": "2021-08-14T01:08:08.43336Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.433196Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

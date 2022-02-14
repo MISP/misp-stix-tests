@@ -1,0 +1,159 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--85d4dd8c-d16a-48b9-938e-a6ae762e3cd1",
+        "created_by_ref": "identity--306ec578-62d2-4fa8-88df-797e3602b54d",
+        "created": "2022-07-04T02:14:58.643315Z",
+        "modified": "2022-07-29T20:20:36.355353Z",
+        "name": "trip",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "first_seen": "2022-05-02T10:47:45.656691Z",
+        "labels": [
+            "build",
+            "myself",
+            "road",
+            "sort",
+            "child",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--f78a0656-820d-44f8-85f4-975a3aba303c",
+        "created_by_ref": "identity--306ec578-62d2-4fa8-88df-797e3602b54d",
+        "created": "2021-02-16T14:10:48.952184Z",
+        "modified": "2021-08-14T01:08:44.681299Z",
+        "first_observed": "2021-07-09T18:17:45.388618Z",
+        "last_observed": "2021-09-11T01:33:36.769767Z",
+        "number_observed": 197342392,
+        "objects": {
+            "directory--99bdc172-fc91-40de-bc46-55c8ec8bc220": {
+                "type": "directory",
+                "spec_version": "2.1",
+                "id": "directory--99bdc172-fc91-40de-bc46-55c8ec8bc220",
+                "path": "/his/will.tiff",
+                "mtime": "2022-06-04T06:43:13.574198Z"
+            }
+        },
+        "labels": [
+            "able",
+            "two",
+            "several",
+            "pfte-batch-1"
+        ],
+        "confidence": 47,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--60f1ec6c-d8fe-4825-ade1-798e3445c455",
+        "created_by_ref": "identity--306ec578-62d2-4fa8-88df-797e3602b54d",
+        "created": "2022-04-17T12:05:47.417829Z",
+        "modified": "2022-07-15T12:34:16.581613Z",
+        "relationship_type": "consists-of",
+        "source_ref": "infrastructure--85d4dd8c-d16a-48b9-938e-a6ae762e3cd1",
+        "target_ref": "observed-data--f78a0656-820d-44f8-85f4-975a3aba303c",
+        "start_time": "2021-11-03T00:37:25.23558Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "reach",
+                "description": "Soon hit morning positive majority important.",
+                "url": "https://www.hill.com/"
+            },
+            {
+                "source_name": "sport",
+                "description": "Read quality during project article manage in.",
+                "external_id": "VOoEajSrqmi"
+            },
+            {
+                "source_name": "vote",
+                "description": "Than against store program.",
+                "url": "http://taylor.com/",
+                "hashes": {
+                    "MD5": "0ebd6dbe202eeacaee41f47a6f068b48",
+                    "SHA-1": "4783a5b7e074e963587dce6d5c195d7bf8c48063",
+                    "SHA-256": "a86ea8e66939530bf67f5a80d372a412453fdc9d45d1318fc519926349b6e4b5",
+                    "SHA-512": "51104fb5a1bf0579b965e1848b72ab133eeb2bc86271f4f458f46aa2a455a34ad26588267200fc1abf795c08f364628ba3404f0f9bc0fa378f8f3e409f835b95",
+                    "SHA3-256": "fb332aa3471bda55c7650fc57967a32d2fe3ee4d150f80feac07b66531b3c745",
+                    "SHA3-512": "b81843769bd939750d2cae4e507c02a2bafd6e7786023de4ab042568026409307f6f3c21ce3186ea2f50f7d42eab2d803f9ba51d14cc1761dece9b00e7651603"
+                },
+                "external_id": "HWRpVcDywzZPWdccQn"
+            },
+            {
+                "source_name": "star",
+                "description": "Including once sense film class.",
+                "url": "http://www.schaefer-gregory.com/",
+                "external_id": "maXplZwmuFaKzu"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--e427bc9d-aa08-4666-9a0b-8abc179d637c",
+        "created_by_ref": "identity--306ec578-62d2-4fa8-88df-797e3602b54d",
+        "created": "2020-10-06T07:02:13.54389Z",
+        "modified": "2021-08-14T15:21:54.738581Z",
+        "authors": [
+            "computer",
+            "fast",
+            "study",
+            "series"
+        ],
+        "opinion": "strongly-disagree",
+        "object_refs": [
+            "infrastructure--85d4dd8c-d16a-48b9-938e-a6ae762e3cd1",
+            "observed-data--f78a0656-820d-44f8-85f4-975a3aba303c",
+            "relationship--60f1ec6c-d8fe-4825-ade1-798e3445c455"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 16,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--306ec578-62d2-4fa8-88df-797e3602b54d",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-04T16:48:54.877408Z",
+        "modified": "2022-02-28T12:52:06.797112Z",
+        "name": "Nunez LLC",
+        "description": "Digitized executive frame",
+        "identity_class": "individual",
+        "sectors": [
+            "dams",
+            "government"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

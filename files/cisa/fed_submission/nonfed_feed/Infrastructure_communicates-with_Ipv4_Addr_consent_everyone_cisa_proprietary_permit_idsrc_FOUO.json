@@ -1,0 +1,90 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--c0d6976b-b420-43af-9d54-d7d5a73a3db1",
+        "created_by_ref": "identity--30f97fb8-d542-4e2f-ab2b-af0b63b66ab6",
+        "created": "2021-06-15T19:46:29.879302Z",
+        "modified": "2022-02-19T10:51:08.472298Z",
+        "name": "draw",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mzPrxJhDUGhpdmfgPuI",
+                "phase_name": "rBDauJXF"
+            },
+            {
+                "kill_chain_name": "IxHhtZulXZxUiARx",
+                "phase_name": "queIinDWGPjCtVYm"
+            },
+            {
+                "kill_chain_name": "QQgriwJpep",
+                "phase_name": "xegHdmehOrkVxO"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "first_seen": "2020-03-18T14:54:12.786052Z",
+        "last_seen": "2020-09-09T02:30:05.392204Z",
+        "labels": [
+            "soon",
+            "writer",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "ipv4-addr",
+        "spec_version": "2.1",
+        "id": "ipv4-addr--e126364f-abcc-413b-8f26-ea8b1227ab43",
+        "value": "73.115.251.249",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3adcf8f6-c0a1-4e55-9674-73308a62b493",
+        "created_by_ref": "identity--30f97fb8-d542-4e2f-ab2b-af0b63b66ab6",
+        "created": "2021-08-30T11:51:33.846276Z",
+        "modified": "2021-10-05T17:31:41.391904Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--c0d6976b-b420-43af-9d54-d7d5a73a3db1",
+        "target_ref": "ipv4-addr--e126364f-abcc-413b-8f26-ea8b1227ab43",
+        "start_time": "2021-02-06T20:42:36.662159Z",
+        "labels": [
+            "consumer",
+            "store",
+            "pfte-batch-1"
+        ],
+        "confidence": 64,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--30f97fb8-d542-4e2f-ab2b-af0b63b66ab6",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-29T21:14:08.976418Z",
+        "modified": "2021-12-24T04:30:56.883413Z",
+        "name": "Olsen Ltd",
+        "identity_class": "organization",
+        "contact_information": "65135 Joseph Terrace Suite 137\nSherylport, IA 80490",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

@@ -1,0 +1,184 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--21fc747a-a006-4aa3-857a-833e388d18dd",
+        "created_by_ref": "identity--ca28a002-6444-4978-a35d-4bce67962d5e",
+        "created": "2020-11-22T23:32:24.409814Z",
+        "modified": "2021-08-14T01:08:49.685089Z",
+        "name": "bar",
+        "infrastructure_types": [
+            "phishing",
+            "phishing",
+            "command-and-control",
+            "exfiltration",
+            "anonymization"
+        ],
+        "first_seen": "2022-06-22T00:13:23.965734Z",
+        "labels": [
+            "later",
+            "group",
+            "maybe",
+            "war",
+            "pfte-batch-1"
+        ],
+        "confidence": 4,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--47d3ff49-41c5-48a5-8f32-be384ae3f514"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--bce54302-3379-47ec-8d93-a3c1e6786f76",
+        "created_by_ref": "identity--ca28a002-6444-4978-a35d-4bce67962d5e",
+        "created": "2022-01-06T03:24:45.876832Z",
+        "modified": "2022-09-18T14:54:09.200333Z",
+        "name": "huFaOOYYj",
+        "latitude": 39.711005167677854,
+        "longitude": -76.05677409185667,
+        "precision": 90.6190927940651,
+        "region": "eastern-africa",
+        "country": "Mayotte",
+        "street_address": "5222 Frye Cliff",
+        "postal_code": "45650",
+        "labels": [
+            "table",
+            "glass",
+            "leader",
+            "black",
+            "pressure",
+            "pfte-batch-1"
+        ],
+        "confidence": 9,
+        "external_references": [
+            {
+                "source_name": "participant",
+                "url": "http://www.huynh.com/",
+                "external_id": "aAVEQCHr"
+            },
+            {
+                "source_name": "society",
+                "description": "Main product could worry response.",
+                "hashes": {
+                    "MD5": "77370f8b8dfc215058a1f3144c264bae",
+                    "SHA-1": "53857ed8e2a7af80068412bdadcac915e0c49ee7",
+                    "SHA-256": "304558f7ae422613cf427a2e59697e6600a87c1a8a7c0b9fff1a00a136d32923",
+                    "SHA-512": "3669deea123ed700883ff802126ac522686ddbc655f52fda90458e1dbcc8721dfff426ef608bfe812d966b79e6a2bc601b9ce715f7a78aa988c5d83b42a9503d",
+                    "SHA3-256": "400436c9c743b1aaacc7505c57e79f2a322ae6c8a88037955bcee402f62d3012",
+                    "SHA3-512": "749c6a3216f96272e11ece2a1868ddaf83aa48b0f3acaa8b90207708637cd1b12f365ce54021e852d052f49298f7291e18295cd4b29e0518f29a8fc14cbe4d07"
+                },
+                "external_id": "SuAvl"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--47d3ff49-41c5-48a5-8f32-be384ae3f514"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b549217c-664e-41e2-8d7f-47dedb20603e",
+        "created_by_ref": "identity--ca28a002-6444-4978-a35d-4bce67962d5e",
+        "created": "2020-10-10T13:58:23.159497Z",
+        "modified": "2021-08-14T01:08:49.685817Z",
+        "relationship_type": "located-at",
+        "source_ref": "infrastructure--21fc747a-a006-4aa3-857a-833e388d18dd",
+        "target_ref": "location--bce54302-3379-47ec-8d93-a3c1e6786f76",
+        "start_time": "2020-12-20T19:11:01.653403Z",
+        "labels": [
+            "way",
+            "teach",
+            "food",
+            "above",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--47d3ff49-41c5-48a5-8f32-be384ae3f514"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--47d3ff49-41c5-48a5-8f32-be384ae3f514",
+        "created_by_ref": "identity--ca28a002-6444-4978-a35d-4bce67962d5e",
+        "created": "2021-08-14T01:08:49.684486Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c8895e1e-4ecb-48a8-ba6f-5865a3a3066d",
+                "name": "Development get financial fill light",
+                "create_date_time": "2021-08-14T01:08:08.421416Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.421229Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ca28a002-6444-4978-a35d-4bce67962d5e",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-11-06T17:30:54.055101Z",
+        "modified": "2021-08-14T01:08:49.686092Z",
+        "name": "Grimes, Jacobson and Johnson",
+        "roles": [
+            "image",
+            "point",
+            "foreign",
+            "TV",
+            "word"
+        ],
+        "sectors": [
+            "defense",
+            "government-regional",
+            "construction"
+        ],
+        "contact_information": "157 Hardin Walks Suite 599\nStephaniefurt, DE 99580",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 12,
+        "object_marking_refs": [
+            "marking-definition--47d3ff49-41c5-48a5-8f32-be384ae3f514"
+        ]
+    }
+]

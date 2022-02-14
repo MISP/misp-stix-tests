@@ -1,0 +1,188 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--1907ec7b-2c16-4660-846f-7fa126d865a4",
+        "created_by_ref": "identity--b0a4532d-6f50-474e-8993-0c0397085c4b",
+        "created": "2022-01-03T15:21:48.773524Z",
+        "modified": "2022-09-02T05:07:14.621012Z",
+        "name": "season",
+        "description": "Of audience success focus member food push tell.",
+        "pattern": "([process:cwd > '/like/base.wav'] OR [email-message:date > t'2021-04-07T08:54:12.102019Z'] OR [directory:defanged = false] OR [mutex:name >= 'stop'] WITHIN 6 SECONDS) OR [mac-addr:value = '1f:e3:3f:71:ff:d9']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-04-25T02:01:54.057786Z",
+        "valid_until": "2021-02-15T19:40:47.979329Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "qvkOuZhWW",
+                "phase_name": "nBWVKa"
+            },
+            {
+                "kill_chain_name": "WWDnXyAN",
+                "phase_name": "zFYOZYZNYtvExgU"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "NMyqiXIzBPLySVoOKzim",
+                "phase_name": "RAKRNSeHNVaEzfFfXXgn"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "labels": [
+            "through",
+            "pfte-batch-1"
+        ],
+        "confidence": 60,
+        "object_marking_refs": [
+            "marking-definition--00db61ba-d724-4cc4-ac94-fbb420a6a293"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--a4678663-045c-43c7-8da4-6a28653d5a5e",
+        "created_by_ref": "identity--b0a4532d-6f50-474e-8993-0c0397085c4b",
+        "created": "2020-10-06T07:30:33.203322Z",
+        "modified": "2021-08-14T01:08:29.347066Z",
+        "name": "style",
+        "description": "According Democrat major.",
+        "first_seen": "2021-09-07T01:09:17.801132Z",
+        "labels": [
+            "ready",
+            "top",
+            "scene",
+            "friend",
+            "head",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--00db61ba-d724-4cc4-ac94-fbb420a6a293"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--25f69943-8d33-4468-8252-f04bce60b1af",
+        "created_by_ref": "identity--b0a4532d-6f50-474e-8993-0c0397085c4b",
+        "created": "2021-12-27T14:47:12.76897Z",
+        "modified": "2022-06-11T05:21:52.514374Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--1907ec7b-2c16-4660-846f-7fa126d865a4",
+        "target_ref": "campaign--a4678663-045c-43c7-8da4-6a28653d5a5e",
+        "start_time": "2021-02-21T05:06:34.542709Z",
+        "stop_time": "2021-05-10T21:16:13.809198Z",
+        "confidence": 40,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--00db61ba-d724-4cc4-ac94-fbb420a6a293"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b0a4532d-6f50-474e-8993-0c0397085c4b",
+        "created_by_ref": "identity--b0a4532d-6f50-474e-8993-0c0397085c4b",
+        "created": "2022-07-31T09:55:29.732692Z",
+        "modified": "2022-10-07T20:00:48.114515Z",
+        "name": "Aguilar, Bean and Wilson",
+        "roles": [
+            "language"
+        ],
+        "identity_class": "system",
+        "confidence": 69,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--00db61ba-d724-4cc4-ac94-fbb420a6a293"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--00db61ba-d724-4cc4-ac94-fbb420a6a293",
+        "created": "2021-08-14T01:08:29.342695Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-147f852e-75ac-49e9-b9d2-55199760c488",
+                "name": "Yes might consider why south he",
+                "create_date_time": "2021-08-14T01:08:08.429077Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.428904Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,175 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--0d136db9-e0e1-4722-bedf-0c13f060b336",
+        "created_by_ref": "identity--ca637870-2c3e-43f0-9232-2c2a419b5a9d",
+        "created": "2021-01-23T07:35:42.923882Z",
+        "modified": "2021-11-15T13:42:45.907873Z",
+        "name": "age",
+        "description": "War buy without eight power huge.",
+        "labels": [
+            "time",
+            "recognize",
+            "throughout",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--eaa110da-b90b-47c9-9b67-058914649cd5"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--59514ba9-a8ca-476b-abca-b06b40c8676d",
+        "created_by_ref": "identity--ca637870-2c3e-43f0-9232-2c2a419b5a9d",
+        "created": "2021-01-12T19:54:27.158099Z",
+        "modified": "2021-08-14T01:08:24.232928Z",
+        "name": "simply",
+        "pattern": "[user-account:account_first_login = t'2020-10-22T11:38:37.935916Z'] AND ([email-addr:value > 'hallbetty@gmail.com']) START t'2021-07-13T00:57:24.502941Z' STOP t'2021-09-07T01:50:32.010109Z'",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-01-11T10:04:07.265596Z",
+        "labels": [
+            "audience",
+            "amount",
+            "pfte-batch-1"
+        ],
+        "confidence": 82,
+        "external_references": [
+            {
+                "source_name": "tax",
+                "description": "Our hair great describe beyond beyond laugh.",
+                "url": "http://lopez.com/",
+                "hashes": {
+                    "MD5": "49c73e0b4e0debe6aee9c129f4d528a1",
+                    "SHA-1": "3c4bc423069ccc2e8b68e1f14041b02e90e73ecc",
+                    "SHA-256": "ada072eb177e99cd9584352b59d6583d9e03db997257691fdb11e264f1488905",
+                    "SHA-512": "46220babd1d57b869b48a8db945ce51d01c771ef8062126d23995573a5120c98581431fadef004ec243f2825a477a5f4cbe52ba09f4dfe7669a3a804269138a9",
+                    "SHA3-256": "7450d4fe728e6c8541c847ddfef8760707749e2a73339bf6af3ccc10ca861a3c",
+                    "SHA3-512": "4981043589fd294029c7126a1c453724d8bcf85c959e1d5ca4312699c250c366fa5675e7f4b81fe862f6551636bd1f860c788d593dbd7bedc94347e4f58fd88f"
+                },
+                "external_id": "XoaOHZ"
+            },
+            {
+                "source_name": "may",
+                "description": "Seven trip fight its.",
+                "url": "http://www.hanson.com/",
+                "hashes": {
+                    "MD5": "7857718c4641458cee4827b0163a8d05",
+                    "SHA-1": "991da2e6d4022bd854a41ad556792bb6c99e7516",
+                    "SHA-256": "dffb6da1f321b3c444cc3291367e17a5cb78d30b6c56c6b294ea7ca199738519",
+                    "SHA-512": "c1c59c431ce18fd255de8dddfd37a1b644c68f1a520d53e8e300ed5a28a12d030bddf9bce10a1c09cf8786ce15dc1550cbdf0eec87eb6add8b5c18848c4cea0a",
+                    "SHA3-256": "0144ca6d501db4452eda8ceb8c49068745e624d80e50da11a3844fa8c4d4be8f",
+                    "SHA3-512": "1d915bc68c4e88248ea474292826ac5fd6b2828dbdb4b610a3acb048a6a5bf45f0da7fcae8bf5fd551662de394d929830860753593294790ea77c78e1bf99c5f"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--eaa110da-b90b-47c9-9b67-058914649cd5"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c41d04eb-8017-49b6-9485-193df1dd7f0a",
+        "created_by_ref": "identity--ca637870-2c3e-43f0-9232-2c2a419b5a9d",
+        "created": "2022-06-26T14:16:27.791272Z",
+        "modified": "2023-02-26T08:46:07.412908Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--0d136db9-e0e1-4722-bedf-0c13f060b336",
+        "target_ref": "indicator--59514ba9-a8ca-476b-abca-b06b40c8676d",
+        "start_time": "2021-08-27T09:02:19.960676Z",
+        "stop_time": "2022-07-31T13:51:15.1651Z",
+        "confidence": 64,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--eaa110da-b90b-47c9-9b67-058914649cd5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ca637870-2c3e-43f0-9232-2c2a419b5a9d",
+        "created_by_ref": "identity--ca637870-2c3e-43f0-9232-2c2a419b5a9d",
+        "created": "2021-05-18T00:27:07.934586Z",
+        "modified": "2021-08-14T01:08:24.235894Z",
+        "name": "Flores, Kline and Stephens",
+        "roles": [
+            "public",
+            "when",
+            "power"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "appear",
+                "description": "Business young five order.",
+                "url": "https://www.white.org/",
+                "external_id": "tQpOFHx"
+            },
+            {
+                "source_name": "poor",
+                "description": "Road finally manager around out.",
+                "url": "https://winters-cohen.com/",
+                "hashes": {
+                    "MD5": "d11f3498d754b6a8a0f49981a28c7de0",
+                    "SHA-1": "4f2ed8b4379eec5d847ac868c9514cffd7b1bc15",
+                    "SHA-256": "891db93c710e61f493df984e9ef0075be5ab844d734e588a38dd98fb183bf138",
+                    "SHA-512": "73dbe6a9294f77e6840c41894354126ed7d97b9302404a2b17acc99e75a18b3260302fe9508895d8234bc1529b5e4cc8d9d345c0e18aa9cf624928edf291f998",
+                    "SHA3-256": "2e26f3e6186a2a05bbc3039d19a03f9f2784f96614a8d36886313365ba3f8749",
+                    "SHA3-512": "89aa04ceadd7b46b779e660daac7312929eb53dfc1b23437e231957bb01d48c40204b4cb59a22796835b8995edf84e66aa75e718bec483e105e842c594f94ac5"
+                },
+                "external_id": "zlGPcOdwGwg"
+            },
+            {
+                "source_name": "condition",
+                "external_id": "trlWqysvRL"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--eaa110da-b90b-47c9-9b67-058914649cd5"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--eaa110da-b90b-47c9-9b67-058914649cd5",
+        "created": "2021-08-14T01:08:24.23194Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-114c3c02-d336-4257-a679-8cbd2bcdae34",
+                "name": "Sort author none he account American industry worry",
+                "create_date_time": "2021-08-14T01:08:08.432919Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

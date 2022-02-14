@@ -1,0 +1,199 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--6f1e97f6-84c7-49f6-a197-f1c79ef74f94",
+        "created_by_ref": "identity--084d2625-2b3b-4485-88d9-a740a5485a84",
+        "created": "2020-12-01T00:29:13.632623Z",
+        "modified": "2021-08-14T01:09:27.00018Z",
+        "name": "check",
+        "aliases": [
+            "ten",
+            "participant",
+            "open",
+            "thank"
+        ],
+        "first_seen": "2021-06-16T21:19:00.881012Z",
+        "roles": [
+            "malware-author",
+            "independent",
+            "agent"
+        ],
+        "resource_level": "contest",
+        "primary_motivation": "coercion",
+        "personal_motivations": [
+            "personal-gain",
+            "dominance",
+            "organizational-gain",
+            "coercion"
+        ],
+        "confidence": 78,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--0f46bcdd-1c1e-4420-86f8-daf61e9856d6"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--1a7e2b3e-40bf-40d9-9d7d-5a3b9ceb1054",
+        "created_by_ref": "identity--084d2625-2b3b-4485-88d9-a740a5485a84",
+        "created": "2021-05-12T01:06:31.105986Z",
+        "modified": "2022-01-02T13:01:47.566439Z",
+        "name": "single",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "first_seen": "2020-08-13T13:09:59.797648Z",
+        "last_seen": "2020-09-05T17:31:15.882714Z",
+        "confidence": 76,
+        "external_references": [
+            {
+                "source_name": "notice",
+                "external_id": "rqvnnTQd"
+            },
+            {
+                "source_name": "tax",
+                "description": "General east factor road professional catch.",
+                "external_id": "dsadYixCdZqdntfmID"
+            },
+            {
+                "source_name": "senior",
+                "external_id": "JnOelHmCEqswBHWRhov"
+            },
+            {
+                "source_name": "sort",
+                "description": "Me floor really."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0f46bcdd-1c1e-4420-86f8-daf61e9856d6"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--48035294-fe83-4b1b-a497-a110583d305c",
+        "created_by_ref": "identity--084d2625-2b3b-4485-88d9-a740a5485a84",
+        "created": "2021-03-14T17:28:30.360296Z",
+        "modified": "2022-03-05T13:35:36.896727Z",
+        "relationship_type": "hosts",
+        "description": "Want exactly machine as. Special the outside support minute. Amount us new born live.",
+        "source_ref": "threat-actor--6f1e97f6-84c7-49f6-a197-f1c79ef74f94",
+        "target_ref": "infrastructure--1a7e2b3e-40bf-40d9-9d7d-5a3b9ceb1054",
+        "start_time": "2022-05-19T14:28:39.538603Z",
+        "stop_time": "2022-09-03T03:21:56.46809Z",
+        "labels": [
+            "wide",
+            "military",
+            "something",
+            "measure",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--0f46bcdd-1c1e-4420-86f8-daf61e9856d6"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--084d2625-2b3b-4485-88d9-a740a5485a84",
+        "created_by_ref": "identity--084d2625-2b3b-4485-88d9-a740a5485a84",
+        "created": "2020-09-17T23:01:30.352437Z",
+        "modified": "2021-08-14T01:09:27.003338Z",
+        "name": "Roberts PLC",
+        "sectors": [
+            "agriculture",
+            "non-profit"
+        ],
+        "contact_information": "8751 Jeffrey Islands Apt. 765\nWest Jodiside, LA 96209",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 19,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "character",
+                "url": "http://mercer.net/",
+                "hashes": {
+                    "MD5": "aedca2ec4f00e454a4eb4b1c39ac17d5",
+                    "SHA-1": "9b6c7da10027b039deecb8f350ca60cd73d762f8",
+                    "SHA-256": "38fbfcc02bb8e5e88e766a5f871e89b462407a859494249366950d2c89485bc1",
+                    "SHA-512": "48c65c8a70bd5e23c5b14510459ef8926602d933f7207f4898ad14ad921d2eec968b15acfeff7c10b944f99564c4ee3e21e3d47fd8cacd222eedc3431fe63246",
+                    "SHA3-256": "483de6778501f4ddd0d26a19aaad8b1ce5cdcbf0492b22ab840e7860e85cceec",
+                    "SHA3-512": "480eacc76d66f4271fcd1f946b7ce3c0c15dfd225234c3776d73cb117f1a3717f97bb1be09e99ad4437dbbac22e7bfd87a4c65a30a83f02124fb3d233c445e49"
+                }
+            },
+            {
+                "source_name": "various",
+                "external_id": "wSxRBndATuS"
+            },
+            {
+                "source_name": "see",
+                "url": "https://palmer.biz/",
+                "hashes": {
+                    "MD5": "5cafc14c12235e84507ab5476aeb3ebf",
+                    "SHA-1": "49164e37fead3432b5f41ba4a69a1e9d574b58f9",
+                    "SHA-256": "770414a9897f23dd594bcf9eadb68cc679c0f27940d63e16093a252fb6ee041d",
+                    "SHA-512": "53f4f3989623649513d77ec657c63b537a364d1fc4371732895a3e3125785a39d05f18ccf40db714fa8bed945a88823bdd68a580221b47ec60e5b21f032ac122",
+                    "SHA3-256": "9a1d2a2c19ed8f6efbe87aa7cad119733a11da3c272c74f86ebddd53ec80a95e",
+                    "SHA3-512": "5882c4e1bfb1bee628b5da0010f8a5fe7bbc68ea9c19b83cc1bf720b040f21a366ca13e20ac027d043fa30f78c3788bebdf297f599833f07ad047adb9e48dd64"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0f46bcdd-1c1e-4420-86f8-daf61e9856d6"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--0f46bcdd-1c1e-4420-86f8-daf61e9856d6",
+        "created": "2021-08-14T01:09:26.999506Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-114c3c02-d336-4257-a679-8cbd2bcdae34",
+                "name": "Sort author none he account American industry worry",
+                "create_date_time": "2021-08-14T01:08:08.432919Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

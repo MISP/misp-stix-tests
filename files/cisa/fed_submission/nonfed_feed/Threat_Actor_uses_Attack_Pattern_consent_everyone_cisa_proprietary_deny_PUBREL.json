@@ -1,0 +1,145 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--3be20475-ad1d-42d4-8ac6-36ecef5588a0",
+        "created_by_ref": "identity--d8e6f73f-2d10-45a7-affa-95c1ec37ff6c",
+        "created": "2022-06-01T01:25:41.511881Z",
+        "modified": "2023-01-25T11:01:11.079349Z",
+        "name": "place",
+        "description": "Century trip sit art guess.",
+        "threat_actor_types": [
+            "insider-disgruntled"
+        ],
+        "aliases": [
+            "market",
+            "our",
+            "occur"
+        ],
+        "first_seen": "2021-03-12T13:38:36.014707Z",
+        "last_seen": "2021-10-22T19:31:33.792703Z",
+        "roles": [
+            "malware-author",
+            "infrastructure-operator",
+            "director",
+            "sponsor"
+        ],
+        "resource_level": "individual",
+        "primary_motivation": "personal-satisfaction",
+        "labels": [
+            "wish",
+            "in",
+            "notice",
+            "majority",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--47de9af2-ae05-45aa-9abf-ffe1e0e1bb37",
+        "created_by_ref": "identity--d8e6f73f-2d10-45a7-affa-95c1ec37ff6c",
+        "created": "2022-01-11T14:27:01.318426Z",
+        "modified": "2022-10-30T09:00:10.374936Z",
+        "name": "may",
+        "description": "International business main truth manage.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "site",
+                "description": "My business dream mother church.",
+                "hashes": {
+                    "MD5": "a63ccbc34a7d65facb343507fff81376",
+                    "SHA-1": "d31c0228c04b86752506e8524927c4098f464b69",
+                    "SHA-256": "a2ec9b1fbd89e855730dd8b2e173fdb10f841f62f981de918ca1d1b6aa92bdbb",
+                    "SHA-512": "2378e613bc31009f256d08c6014c81df887204bd6310bdf62d40a7368f29c31ea5cd3dc0f55310d9198c78e61c4baa3bad14099ff5dc733294f03ae18ad79d64",
+                    "SHA3-256": "b08c5d60a910844634fecc9d9b131bd3eb44e449d6574b4eda51219f50db55f9",
+                    "SHA3-512": "951da0f67ebb2d545bc5fdcdf9f4b8262739c02f4f2289e6c1786915774d13dda52ef00d7c86ebea70d19404bdb6b215d8e8041816d1410c09c95d091fc8f66a"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--6bf32fa1-3703-4a1f-b3b4-99dfff7c218d",
+        "created_by_ref": "identity--d8e6f73f-2d10-45a7-affa-95c1ec37ff6c",
+        "created": "2021-06-06T03:11:44.381858Z",
+        "modified": "2021-08-14T01:09:32.871452Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--3be20475-ad1d-42d4-8ac6-36ecef5588a0",
+        "target_ref": "attack-pattern--47de9af2-ae05-45aa-9abf-ffe1e0e1bb37",
+        "stop_time": "2021-03-06T18:30:06.990348Z",
+        "labels": [
+            "kid",
+            "another",
+            "which",
+            "music",
+            "activity",
+            "pfte-batch-1"
+        ],
+        "confidence": 29,
+        "external_references": [
+            {
+                "source_name": "man",
+                "description": "Beat great town north however still account world.",
+                "hashes": {
+                    "MD5": "ed4959e3cd00d05e37d7c3d4f994732d",
+                    "SHA-1": "208defe7bfefdfa191c0ed848160f8b9c189890a",
+                    "SHA-256": "e0a328153df887e0bc72b88c14cab6c59fb480820730145d136f0994bbdc12de",
+                    "SHA-512": "353b7e3962c14a4bdd053a7ac673faa638e757575567cc1c3c3dfcda94515e9f429c852e6f6a24a96d609ff7013e6e72a52b6b14b1c409b7b8e5fa9e4cbc7acc",
+                    "SHA3-256": "5c0c2a43d7731d607cbc238e7525c2391b46c18ec418153fdffc1622b12bedd3",
+                    "SHA3-512": "21e5f992aac4a3a2599c7f61792e368e2f5f2aa5644f786f459e6972543351c9c60c37ea1391360e9a3bda5c314fac34275806ccdc382b16e014c33c22a16aac"
+                },
+                "external_id": "ZrjaGapvHwhyMOvFiVeH"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d8e6f73f-2d10-45a7-affa-95c1ec37ff6c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-18T04:50:55.986449Z",
+        "modified": "2022-01-19T11:32:54.628914Z",
+        "name": "FinancialKidBlue",
+        "roles": [
+            "write",
+            "reality",
+            "effort",
+            "same",
+            "responsibility"
+        ],
+        "identity_class": "system",
+        "contact_information": "308 Bernard Turnpike\nAlexanderton, IA 08853",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 99,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "base",
+                "description": "Skin take mean.",
+                "url": "https://mcdonald.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

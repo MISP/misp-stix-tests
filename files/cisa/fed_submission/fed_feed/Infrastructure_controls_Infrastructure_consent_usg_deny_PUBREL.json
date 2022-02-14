@@ -1,0 +1,200 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--785d46c6-2ead-4ad3-b596-f21ec8877c2b",
+        "created_by_ref": "identity--beefa488-4508-4d67-a0e5-be06dce71b76",
+        "created": "2022-03-02T19:12:50.220493Z",
+        "modified": "2023-01-05T09:55:16.028058Z",
+        "name": "subject",
+        "description": "Rest happy there leave.",
+        "infrastructure_types": [
+            "amplification",
+            "unknown",
+            "phishing",
+            "staging"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "fTmcPOkaGDAATWn",
+                "phase_name": "FtXyGTrMoF"
+            },
+            {
+                "kill_chain_name": "IVJhrkFkLRCjWQuqvMA",
+                "phase_name": "bjjVygJKmqcqRbAIXA"
+            },
+            {
+                "kill_chain_name": "zuftaLpHvVFsLoUgq",
+                "phase_name": "EwyyTSxLMfw"
+            },
+            {
+                "kill_chain_name": "SrJdsY",
+                "phase_name": "YovUouCWv"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "first_seen": "2021-01-20T14:17:55.031759Z",
+        "labels": [
+            "surface",
+            "garden",
+            "pfte-batch-1"
+        ],
+        "confidence": 82,
+        "object_marking_refs": [
+            "marking-definition--eb11eeae-42f7-4343-a63c-5d597069ef73"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--fbf2b73b-0fde-49e5-aa7b-96da6a1ea986",
+        "created_by_ref": "identity--beefa488-4508-4d67-a0e5-be06dce71b76",
+        "created": "2020-10-22T21:15:38.62264Z",
+        "modified": "2021-09-08T08:12:42.722226Z",
+        "name": "result",
+        "description": "Fast economy international message change.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "IuiCwxhHjCBIw",
+                "phase_name": "VPzoBAAJgIrvUGl"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "iYMNWfNcySUfCJhdIyYR",
+                "phase_name": "mnAYoYGVj"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "first_seen": "2022-01-24T23:18:15.343576Z",
+        "labels": [
+            "not",
+            "realize",
+            "pfte-batch-1"
+        ],
+        "confidence": 93,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--eb11eeae-42f7-4343-a63c-5d597069ef73"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--5abe2b24-244a-4253-8d3b-5054978adf21",
+        "created_by_ref": "identity--beefa488-4508-4d67-a0e5-be06dce71b76",
+        "created": "2020-09-14T20:23:57.232737Z",
+        "modified": "2021-08-14T01:08:45.262261Z",
+        "relationship_type": "controls",
+        "source_ref": "infrastructure--785d46c6-2ead-4ad3-b596-f21ec8877c2b",
+        "target_ref": "infrastructure--fbf2b73b-0fde-49e5-aa7b-96da6a1ea986",
+        "stop_time": "2021-06-26T19:22:48.39914Z",
+        "external_references": [
+            {
+                "source_name": "rule",
+                "url": "http://www.rhodes.com/",
+                "hashes": {
+                    "MD5": "d94359f4cb81bbe913bb638c745b6ca6",
+                    "SHA-1": "5441dcc142347ec6133d3ed486d7865d37d28235",
+                    "SHA-256": "f8b10ee023b9fd58afac5f5235cd3a8a861dccacb0cc21f4349840c831901f7f",
+                    "SHA-512": "27d130e6e5c6c9bf6a2f4e6fc0b7ccfdb2a7156363d7e1bd6834b2c5f8857a97351988915d70dd958a6cc7f7a62bb4a5e26efa4c1ba611a6214352100a6f6b20",
+                    "SHA3-256": "d504ecbe417286abcad983659163d53778c2b956fc36c5f59abf73873abf435e",
+                    "SHA3-512": "00938b4f16de3d1f51ce558f71854414d0d77eed73ade4bc31aced0c80fcd7d8b14c2312995d0077c35f58a473c146ba46f1339c25aa206b76c9f417b26674ac"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--eb11eeae-42f7-4343-a63c-5d597069ef73"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--beefa488-4508-4d67-a0e5-be06dce71b76",
+        "created_by_ref": "identity--beefa488-4508-4d67-a0e5-be06dce71b76",
+        "created": "2022-07-02T00:14:31.446889Z",
+        "modified": "2023-05-03T19:13:09.036418Z",
+        "name": "Hampton Group",
+        "contact_information": "131 Bowers Mews Suite 734\nSouth Stacystad, NC 23151",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--eb11eeae-42f7-4343-a63c-5d597069ef73"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--eb11eeae-42f7-4343-a63c-5d597069ef73",
+        "created": "2021-08-14T01:08:45.260306Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

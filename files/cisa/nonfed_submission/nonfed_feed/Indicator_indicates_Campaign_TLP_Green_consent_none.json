@@ -1,0 +1,215 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--8ea3464d-d2a7-4eb9-8a19-3d3991c3351e",
+        "created_by_ref": "identity--4f3b94b5-ac53-4606-925a-15d5e748c5be",
+        "created": "2021-05-06T03:11:02.193751Z",
+        "modified": "2021-08-14T01:08:28.59149Z",
+        "name": "onto",
+        "description": "Trip again type season.",
+        "indicator_types": [
+            "anonymization",
+            "unknown",
+            "unknown",
+            "anomalous-activity",
+            "malicious-activity"
+        ],
+        "pattern": "[(ipv4-addr:defanged = false) AND ipv4-addr:value < '138.184.75.253' AND ipv4-addr:defanged NOT = false] REPEATS 9 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-02-19T15:17:07.404469Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "media",
+                "description": "Garden offer investment ground skin police.",
+                "hashes": {
+                    "MD5": "20da451ec91b632af3346f9d10b106b1",
+                    "SHA-1": "5d1b0b248e4d81cf16463186e779c57b3db36130",
+                    "SHA-256": "3aef4a9939abd5d38d28add92206809e9b5d56892fbdff35bd9aac5f37c5dbe0",
+                    "SHA-512": "786a50bdc1d431d3030b48f2ff92efb8b47027d23dcc5561b87c111e89eeed934f7380000b351e90df3c5206f533d274b0e04c3ef21ef72de7bc8e68cea64da8",
+                    "SHA3-256": "843bc17a7c2fbd837a213e24d235e70f84af250c3011e04eae74ee546d3a90a1",
+                    "SHA3-512": "5b4c98058401a229c309b85bb508b912a4ddc1f07308e9719f388a4566fa0fd17ac8e39d055a32c78d579508561b0e257a13f382d54c864f15e6596b6454d8e6"
+                }
+            },
+            {
+                "source_name": "risk",
+                "description": "New politics area authority.",
+                "external_id": "LtZJboKLwVLOj"
+            },
+            {
+                "source_name": "live",
+                "description": "Value other her current eye inside.",
+                "hashes": {
+                    "MD5": "fbf81a83966c736e02272d6f9a442838",
+                    "SHA-1": "d3e43b66fc9062e201503518b25ad164b21d1286",
+                    "SHA-256": "295f29c8f4be88299023b020852b366f413c301af4e5ed551c5178acf05317f2",
+                    "SHA-512": "5aac41e4820183e46644db577ffb2abe424c4336e30e78c5433294628c0547d0a2b1a1e1f5047e25bd7c2b9861f2f83a1c464d977f99027104e094abb5e5f799",
+                    "SHA3-256": "e1ff46809d0468c85440e22ab92e3c436c1253d7b23e5430919f23d9d627049b",
+                    "SHA3-512": "6c5a1a970295d23ce340d1ed8e9051a8d8bce56aefce23979b3dfc981d300fc054b97a6bd1cc932c01f4031f8f86bd08988d5c3b2377ae7ac792104db340d448"
+                },
+                "external_id": "zGYrsRcnUvCokxwDj"
+            },
+            {
+                "source_name": "population",
+                "description": "Population ten short."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--bf713d8f-a207-49ca-89e6-78234b575218",
+        "created_by_ref": "identity--4f3b94b5-ac53-4606-925a-15d5e748c5be",
+        "created": "2021-06-24T19:06:10.667525Z",
+        "modified": "2022-06-15T20:33:43.137871Z",
+        "name": "guy",
+        "aliases": [
+            "than",
+            "career",
+            "speech",
+            "mention"
+        ],
+        "labels": [
+            "shoulder",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1b22652a-5e42-4026-bc5c-f60c0dfb2d7a",
+        "created_by_ref": "identity--4f3b94b5-ac53-4606-925a-15d5e748c5be",
+        "created": "2021-05-19T19:21:59.994805Z",
+        "modified": "2021-11-01T07:28:38.172956Z",
+        "relationship_type": "indicates",
+        "description": "Successful human science firm unit. Send process reach system vote human.",
+        "source_ref": "indicator--8ea3464d-d2a7-4eb9-8a19-3d3991c3351e",
+        "target_ref": "campaign--bf713d8f-a207-49ca-89e6-78234b575218",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "write",
+                "description": "Paper one watch of what people more around.",
+                "hashes": {
+                    "MD5": "f37d509553ffe2b68fdbac835eb104bd",
+                    "SHA-1": "afe8ae975b101061593be1b6ffd5272e6e1e67c2",
+                    "SHA-256": "9784fdb1ebcf0bc335a7bd3870f23b0388741c3a3fc7aab4dbcad0c2ee5c2147",
+                    "SHA-512": "3e0ec325ebc7b6c6114cb75c816035aa4e3d3f5e6f44042d22d5543555c3b309f756e503fdafa0f1a39afce985efb0599339dfb0ac852ed0cec3280ad34abc24",
+                    "SHA3-256": "42aebee13ce5d33d4285e238547c25f06a30e1f5f1ddc4a8c80e66d395a5476d",
+                    "SHA3-512": "e833c39bb75223f285c65ea28cf594e9b91f7a73364866a736c5b402340a72356773478c7c695279e4c98a0911eb345b076e1dd760337f860f947ab9dd8dc3e3"
+                },
+                "external_id": "dJjlIKPETrhKXgSA"
+            },
+            {
+                "source_name": "car",
+                "description": "Hotel share such keep foot."
+            },
+            {
+                "source_name": "heart",
+                "description": "Age enough argue.",
+                "url": "https://www.hinton-lee.info/",
+                "hashes": {
+                    "MD5": "4fc17d6ffcf7d77171945f005caf5cce",
+                    "SHA-1": "748bd503fc65a68e6e68134f1ff033a910c22630",
+                    "SHA-256": "0726f036abd87273cba4fde238f319976973b01bae3eabf61e5ad246618de802",
+                    "SHA-512": "9ae8e75bdd45465042cbe4708840c7abc140867a782ed5758624177576c6600fd687d0a64a06f9b4f50559c20e0964fa5151776bb6762df09c08b7498758a4b8",
+                    "SHA3-256": "76a47c598f8417641492ff05ce4ff5aa8a0f31a2e641954ce2ef7d89555bcbf5",
+                    "SHA3-512": "3a06c314552dcf53e170d4295ca12b9a5354197cf38c7fb3f49b6796abf731c7c54182824b27dd1f3c54729c778500c7f42baf8fa52f16059ed2bf3418106094"
+                },
+                "external_id": "RItTjUnDMjSSYdSia"
+            },
+            {
+                "source_name": "film",
+                "description": "One hair you appear economic real.",
+                "url": "https://www.santana-barron.com/",
+                "hashes": {
+                    "MD5": "e86af380f431c010ee37fe5035133b1d",
+                    "SHA-1": "c076bdfff178a342be22c9122b68676f17a74c8a",
+                    "SHA-256": "1d97c43a051cb9dea56591eaa993c88584b4df74dda1691a0e28cffd2fa34002",
+                    "SHA-512": "ccbfc1d82909d3617f74e70b3d9d1eee9dbc798774fe1f24d1688f11c3c124c27bf9ea330379483952cc33d66dbc3d7e94c8a6dd8430fa14a38e7f3950c3c0b0",
+                    "SHA3-256": "c27b48324a764bc9237aaacf0ed3ac0572857b22f0b45855e9c76b43535d9983",
+                    "SHA3-512": "06e8f6bf07c05ceedd830783c80d57a93060b6fb695dbf85df679ac5647a668380385329894b2099848ff20b6c3e2352c48ea8d4092e898d62eccac012b95357"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4f3b94b5-ac53-4606-925a-15d5e748c5be",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-01-25T02:50:53.957971Z",
+        "modified": "2021-08-14T01:08:28.594895Z",
+        "name": "CommonSeemAuthor",
+        "contact_information": "821 Pham Mews\nMatthewland, VA 24846",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 16,
+        "external_references": [
+            {
+                "source_name": "next",
+                "description": "Child level put program.",
+                "url": "https://blair-allen.com/",
+                "hashes": {
+                    "MD5": "ee5c15efcc92c9df549aecd2ecf0c5cc",
+                    "SHA-1": "3138be3aeae0d430e7651606d7bd4785b7bac4f3",
+                    "SHA-256": "25bacef3532d282bbbff384c72b3d8e9db89bd5f582678992627a3a87d8cd649",
+                    "SHA-512": "11e77ae65b524c67f584e8dcaa042229343ab32d71a28e588d167784f3390670a2dc26d7e7dcaab157770b581f67c8f9adbc2f4bad4e88b79073ffa60715d4d7",
+                    "SHA3-256": "af5826b4935e263d9e7ea11eb9d08bcc441a14a9e47ceda802b6f4551d85de8d",
+                    "SHA3-512": "447639bc0b5541072315217af3157f2385eaaf226f7ec1e52b12fab6a6387f52e7f7faed07ec64fb8f7bf003aec96d5030b809a482266a8baa95ef2accebc270"
+                }
+            },
+            {
+                "source_name": "start",
+                "description": "Author rule degree fine audience.",
+                "url": "http://www.reyes.com/",
+                "hashes": {
+                    "MD5": "579a572ec8290da79ac5b8958f6127cf",
+                    "SHA-1": "cd998533a9adc06de8e03144e1510ad9e4f4f7da",
+                    "SHA-256": "0a2949fae874417c7c983071c3a56339f50f14dd0089c49c49195b2128a3366f",
+                    "SHA-512": "f9d0c429b4e32a44d9d7ea13ae273609e613e152d052f3e2f5a4a0deb79b49ed33d32e696cc1e8cba47171fc743c5c2f8ef2cf3c6d17b45e03c0ea34c984a800",
+                    "SHA3-256": "f4944b50b9d617684c1787aea42a3ce2effc0422b6af7787d6062c715391a533",
+                    "SHA3-512": "e988730ffd7af3a3848424dfbdd314ad3d4fdf8419df0f38b48a636542161308918cb9ed7277bb8ed8de32dd439db7cc1b666f7be4525722a9c06bb2b8b76ee0"
+                },
+                "external_id": "IUipQeZz"
+            },
+            {
+                "source_name": "power",
+                "url": "https://www.carter.net/",
+                "external_id": "GVcwTHSgOHMRaYchBPUx"
+            },
+            {
+                "source_name": "position",
+                "description": "Mouth support learn sign spend name there.",
+                "external_id": "SYCcrpdOQiSn"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--c360751f-793a-4775-9e86-2567f9c6ca96",
+        "created_by_ref": "identity--02410cff-97a3-4cca-a5f8-d45b3904fe76",
+        "created": "2022-06-19T05:26:39.17647Z",
+        "modified": "2023-01-30T23:31:06.792566Z",
+        "name": "former",
+        "first_seen": "2021-11-30T20:47:45.406051Z",
+        "last_seen": "2022-05-22T16:21:30.334625Z",
+        "objective": "Race young until grow those.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 9,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--4769cdc1-4e0a-41f6-b113-26563554c27e",
+        "created_by_ref": "identity--02410cff-97a3-4cca-a5f8-d45b3904fe76",
+        "created": "2021-08-16T14:07:20.556298Z",
+        "modified": "2022-04-15T21:11:59.036829Z",
+        "name": "hear",
+        "description": "Blue prove society camera offer.",
+        "infrastructure_types": [
+            "workstation",
+            "exfiltration",
+            "workstation"
+        ],
+        "aliases": [
+            "speak",
+            "trial",
+            "wall"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "first_seen": "2022-05-20T12:04:32.626052Z",
+        "last_seen": "2022-06-01T13:05:26.372978Z",
+        "labels": [
+            "cultural",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--05055fa2-0417-4526-920a-6f2ebe228e45",
+        "created_by_ref": "identity--02410cff-97a3-4cca-a5f8-d45b3904fe76",
+        "created": "2021-11-13T21:25:38.084804Z",
+        "modified": "2021-12-08T01:36:05.387579Z",
+        "relationship_type": "compromises",
+        "source_ref": "campaign--c360751f-793a-4775-9e86-2567f9c6ca96",
+        "target_ref": "infrastructure--4769cdc1-4e0a-41f6-b113-26563554c27e",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 67,
+        "external_references": [
+            {
+                "source_name": "pattern",
+                "url": "https://alvarado.com/",
+                "external_id": "BzLCAgkuLMMhvuLrv"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--02410cff-97a3-4cca-a5f8-d45b3904fe76",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-23T17:13:30.889274Z",
+        "modified": "2021-08-14T01:08:14.600865Z",
+        "name": "PushBagBank",
+        "identity_class": "group",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 28,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

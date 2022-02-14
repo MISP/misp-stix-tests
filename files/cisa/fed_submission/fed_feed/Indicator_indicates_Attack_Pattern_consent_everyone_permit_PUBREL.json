@@ -1,0 +1,240 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--70e5f518-5f6a-4ca8-9296-0fa2e3302da7",
+        "created_by_ref": "identity--fbb41181-3965-476d-a938-03692a1bf56d",
+        "created": "2021-10-16T03:17:49.646333Z",
+        "modified": "2021-12-27T04:13:50.592374Z",
+        "pattern": "[domain-name:defanged = false AND (domain-name:defanged NOT = false)]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-06-29T14:15:26.087355Z",
+        "valid_until": "2021-04-23T19:02:00.158707Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "JNvVJ",
+                "phase_name": "wPrkfhQIXfe"
+            },
+            {
+                "kill_chain_name": "GpAPls",
+                "phase_name": "HClbadvKEJJmvNpwq"
+            }
+        ],
+        "confidence": 41,
+        "object_marking_refs": [
+            "marking-definition--8113db3c-9f26-4ca6-9ae4-013302fa9b81"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--f8573791-2754-4048-b803-49159e2916d4",
+        "created_by_ref": "identity--fbb41181-3965-476d-a938-03692a1bf56d",
+        "created": "2021-08-04T05:49:27.867161Z",
+        "modified": "2022-02-10T13:46:19.228061Z",
+        "name": "term",
+        "description": "Worker kitchen allow go but idea each write.",
+        "aliases": [
+            "side",
+            "letter",
+            "while"
+        ],
+        "labels": [
+            "debate",
+            "old",
+            "more",
+            "site",
+            "pfte-batch-1"
+        ],
+        "confidence": 18,
+        "external_references": [
+            {
+                "source_name": "claim",
+                "description": "Themselves truth in land.",
+                "hashes": {
+                    "MD5": "560b906bde5bdd1fbfb7f6ff9474a19d",
+                    "SHA-1": "6d4c93136bbdec73a07b88e0dd47db59ca471b92",
+                    "SHA-256": "3e9a58f3e34d3fee998f393bcbadb1d17e07db8aa9d3860e2ee0a879e5150bde",
+                    "SHA-512": "c965b3fddb6a49b27c62c20c31851479b75a0d06fd12a9c08383c52cfca8018f8835d423023585a207aad1f56ce1ad6f70d76fb086387a3f0a2f779f3b337e8d",
+                    "SHA3-256": "bad6fb88ce7dfcb6b05dde067379bb1c98c2b435dba044e88bc5ea62f52033c5",
+                    "SHA3-512": "97a051b4400e10722243b06bbae706b7c30ac15a60dec6f0af9323217b4bf463c9869ea6c7f2d1688c844e897956e4514e1e50351e7473c517c91ba7e8fbf0e6"
+                },
+                "external_id": "EmBlAQwPpVX"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8113db3c-9f26-4ca6-9ae4-013302fa9b81"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--670aec37-367e-459f-8608-4b79291fe3b2",
+        "created_by_ref": "identity--fbb41181-3965-476d-a938-03692a1bf56d",
+        "created": "2021-11-08T10:34:52.722386Z",
+        "modified": "2022-04-01T17:48:09.727139Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--70e5f518-5f6a-4ca8-9296-0fa2e3302da7",
+        "target_ref": "attack-pattern--f8573791-2754-4048-b803-49159e2916d4",
+        "labels": [
+            "senior",
+            "always",
+            "debate",
+            "see",
+            "pfte-batch-1"
+        ],
+        "confidence": 62,
+        "external_references": [
+            {
+                "source_name": "thus",
+                "description": "Plan family forward as mother board.",
+                "url": "http://www.fields-mcdonald.com/",
+                "hashes": {
+                    "MD5": "6e83c02ed790facf620ed377237e5d66",
+                    "SHA-1": "43d17f4f4a3ad73d150ddd9d50b699c506269f8e",
+                    "SHA-256": "98ba1d0bda4575fa1801475045824ddea8ef75436f699126e53e38da23ae3ba0",
+                    "SHA-512": "88b5a2023bd49b1e8d3b8b74208bab6d1345352c059fef18f2f23ae707d7be4e807ad33826eef48cd6a44d4fbfb973713e2c0a288c875ddbb0e41db528c67627",
+                    "SHA3-256": "feb761ddf98cd6eb13c3d2344cc14fc68425956df6fa2e61a5257a935df5d197",
+                    "SHA3-512": "a766116fd19f38e760a2fcb4d2da9361de0283540ab21199bf5f0536516bf76c3e1fe258ac85f8aa2ec46620f2aaf46e3424d378e64a600c6947d5ec00b5e5e7"
+                }
+            },
+            {
+                "source_name": "body",
+                "description": "Individual fall break side cover.",
+                "hashes": {
+                    "MD5": "3e65a9df6e23b6ddd29044ca83ee11eb",
+                    "SHA-1": "61bab1c33528ad9f9d067bc1367f82f8ef3d330c",
+                    "SHA-256": "1137397e0c97e73e2cbf9693ab2c22bfb8a4ff80763a2f01fa7ffb400838547d",
+                    "SHA-512": "5d7b3db0c2fa12bed05f30090eb7a787628da5cf6924ea46d8dd964c9f037bb124efeb958dc2150f35e0a1340f9d68ec8d0458162b3be767b7610c92ada0371d",
+                    "SHA3-256": "803d873269ebe102b4a24995750de37cfd39222bfa24834ff6c82404c2ee558b",
+                    "SHA3-512": "a5f6f49bc97570b869f1dbe4db907dc0f15e9079260c7e894ac880fc45b5f3cfd58043ca69dcfe78894fa7f897a776070b8e20d1bbe3d4a34974b46862375d1a"
+                }
+            },
+            {
+                "source_name": "else",
+                "url": "http://johnson.com/",
+                "hashes": {
+                    "MD5": "67d6314e8885ae4317c21e5d4b6dc35b",
+                    "SHA-1": "998e27e85f66ed9173edbe33ec7a4df70e85b179",
+                    "SHA-256": "2c74add2b2076baeaf6ec050c6c6eb778e28ca4fef2189e8c162a7a9a970c8fb",
+                    "SHA-512": "55ef0007c2770c06a28e406986c5bfe2f4ad3b6800f0d0d2078338e19d34688b04a7b2036775ce9942866cee88dd89ea7410065435717ac8301c0f19941dcc86",
+                    "SHA3-256": "6737edd8507bdad414ca45bc7432bb193eb20e868d808c7907d46593e076745f",
+                    "SHA3-512": "e66912e2819f50f438f3b1f1e64a3880e0d21c88faa598d87042f3b0c830aa8cfb22f7cda946dada634b54a235510651d1392d64f9789948dfcbc145b056dc87"
+                },
+                "external_id": "vaMpUlYpuWLFikXGrVQq"
+            },
+            {
+                "source_name": "tree",
+                "external_id": "KMDuGdBjCYsVJrROg"
+            },
+            {
+                "source_name": "happy",
+                "description": "Speech affect usually four individual us health.",
+                "url": "http://jackson.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8113db3c-9f26-4ca6-9ae4-013302fa9b81"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--fbb41181-3965-476d-a938-03692a1bf56d",
+        "created_by_ref": "identity--fbb41181-3965-476d-a938-03692a1bf56d",
+        "created": "2022-03-12T10:22:10.65269Z",
+        "modified": "2022-07-30T15:37:30.94226Z",
+        "name": "Spencer, Adams and Chavez",
+        "description": "Multi-tiered composite solution",
+        "roles": [
+            "house",
+            "speech",
+            "campaign"
+        ],
+        "identity_class": "system",
+        "sectors": [
+            "water",
+            "retail",
+            "communications",
+            "dams",
+            "infrastructure"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 3,
+        "external_references": [
+            {
+                "source_name": "rest",
+                "url": "https://miller-williams.org/",
+                "hashes": {
+                    "MD5": "fb0e9266fc490dc9e9d125d39183f931",
+                    "SHA-1": "edfe8edbcf1a1c430b36cf113beff944a9130e1a",
+                    "SHA-256": "28a116abf700a7fc3c568be9da3b79b88c6bb426d826531ce1ac9f32f06a728a",
+                    "SHA-512": "175b5a244616381ac5c6056d3c873b5e722b81bb6dee5b45878b83425ffa19d3f7175d63c1012f294bf72b6c420d0aaa0de3515a190a05b5a3284f7279fbf690",
+                    "SHA3-256": "6649dd0368eae3c2facb0bd3128f34fd65c5a293b4817feab308ae5f59e9004f",
+                    "SHA3-512": "945e14f723741ba4aad39aa7c70bfd6c9451b41c4f06b09372bf33d9626798d73420c1be85de5b9208887361311a86c23faf8142a411f1cfa62cca58bfe59b7f"
+                },
+                "external_id": "npqcwCJm"
+            },
+            {
+                "source_name": "and",
+                "hashes": {
+                    "MD5": "509443c90489f3af928212032d1006b4",
+                    "SHA-1": "0474e15173167211e372022c1db8e25969a7073d",
+                    "SHA-256": "ef1f0b49eccdff4c673f557b82ff150b7a47d9d2f114bcc6aa2ff2504c8867c7",
+                    "SHA-512": "baf11e24e879f5252bf5aae2d55feb40813445bf9800f2ddcc2c89ebdd4ab305e83984db16480c8b1d786e8ceff75fe569d22ec57e4b8ff819baa5a8c04ee886",
+                    "SHA3-256": "05f380f9c4d05fd05ad3e1a3d1bb9ab843a1739d680620e044e0fe3a034b1184",
+                    "SHA3-512": "8e40b6cedfb7e00ac7bebf9bff3419556eda6e9e40a65208f435c6c9e7d09ec014bfc91821d5c23c994454354dba47220c1d460ebbc6561e825959ddc6b32935"
+                },
+                "external_id": "okKQzROGMtGoISCiVLi"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8113db3c-9f26-4ca6-9ae4-013302fa9b81"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--8113db3c-9f26-4ca6-9ae4-013302fa9b81",
+        "created": "2021-08-14T01:08:28.219275Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3b921193-36b9-467a-b549-f06fd7a0147e",
+                "name": "Artist despite travel Mrs long fish",
+                "create_date_time": "2021-08-14T01:08:08.430789Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.430622Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

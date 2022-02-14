@@ -1,0 +1,239 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--9c3207ae-e27e-4342-affd-f49c754dbfb6",
+        "created_by_ref": "identity--5501d129-fb64-426e-b56d-d4b37974c004",
+        "created": "2021-05-28T08:31:29.925889Z",
+        "modified": "2021-12-09T08:43:43.645505Z",
+        "indicator_types": [
+            "compromised",
+            "unknown"
+        ],
+        "pattern": "[x509-certificate:subject_public_key_modulus = '977442750840076308398697313699']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-04-11T09:42:25.52455Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "however",
+                "description": "Hand far house right article picture owner.",
+                "url": "http://www.frank-smith.com/",
+                "hashes": {
+                    "MD5": "fd215fa78c8650080c72090ceef26aed",
+                    "SHA-1": "9662bd575dc8435f0ee87c12046b75f5a7da86a5",
+                    "SHA-256": "18e940ad174abac522bb3367b309003c2efe9381e67a34f8995d5a6dc5c8e9ae",
+                    "SHA-512": "64f18ecbd172ebd4fbf836c1d29797f0dd8668ec36c18e3f4e41110ac280a96132425c4c195115a7957cae65853105b3de2e63fdf5ce754e28a3df98c33ff415",
+                    "SHA3-256": "0daeefd5e5be03487d7f9c41f320108e01ce7bc001f6764ace181064893e37f8",
+                    "SHA3-512": "3da6b296995261015b2b6887239dd58bbcb847aeb2f7ea3e1ecd0196d333f46edb44da95a735f9d59daa6fa3d38265a68ef42bac7ee8f94beaa91680dbd46534"
+                },
+                "external_id": "OEgvXBivzfhcgJEcn"
+            },
+            {
+                "source_name": "billion",
+                "description": "Fish within spend fall.",
+                "url": "http://strong.org/"
+            },
+            {
+                "source_name": "PM",
+                "description": "Argue difference answer measure talk.",
+                "url": "http://merritt-wilson.com/"
+            },
+            {
+                "source_name": "air",
+                "description": "Light training bad sea yeah whatever.",
+                "url": "http://www.wright-robinson.com/"
+            },
+            {
+                "source_name": "institution",
+                "url": "http://www.butler.com/",
+                "hashes": {
+                    "MD5": "ab85b93eaa6bfdb15994dcd8f3ebc29d",
+                    "SHA-1": "89ff103b4ef1516b9ad6a057a7ee7ba15af49ec2",
+                    "SHA-256": "3ed95ac681b678ee6c8e689ddf96a13f8ada383d601eed366ffa18f288027e3c",
+                    "SHA-512": "f2658c6ae7a50c1ed98b71c64d67ea7448eb7a75880fc369bd9cdee91da79ff4f72395aa15c601a767b12efc967352fbc5385cfe6a6ae3fefbde7a52db832165",
+                    "SHA3-256": "98d508a7b72a044ece1b117d73e075fa9c359e626eb7372a9046b68f595181b8",
+                    "SHA3-512": "a484f374d48b2459a410c99028bca43819616a4c0215cbd0b72febf28a1bc06a2fb31bfff3430becd0ba46e658822a9f72971607444ae2613542835eebfacd6e"
+                },
+                "external_id": "EZiCLAWuSUkjaDKoYGx"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--24c3a6d6-3f07-49b2-8ec0-e4465d84a2ea"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--57644ad5-be76-4f57-a140-11e33f5bd0a3",
+        "created_by_ref": "identity--5501d129-fb64-426e-b56d-d4b37974c004",
+        "created": "2022-07-21T17:11:09.402945Z",
+        "modified": "2023-02-03T11:24:50.141433Z",
+        "name": "along",
+        "description": "Worry cause final in along.",
+        "last_seen": "2022-05-17T05:54:52.334273Z",
+        "objective": "Total study fear level race them bank.",
+        "confidence": 76,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--24c3a6d6-3f07-49b2-8ec0-e4465d84a2ea"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--44f88f00-1f1d-4a67-85b6-cdeccad28725",
+        "created_by_ref": "identity--5501d129-fb64-426e-b56d-d4b37974c004",
+        "created": "2021-06-12T09:18:37.375027Z",
+        "modified": "2021-11-22T14:39:43.083802Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--9c3207ae-e27e-4342-affd-f49c754dbfb6",
+        "target_ref": "campaign--57644ad5-be76-4f57-a140-11e33f5bd0a3",
+        "stop_time": "2021-11-08T07:56:21.408046Z",
+        "labels": [
+            "box",
+            "born",
+            "listen",
+            "apply",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "conference",
+                "description": "Science science rule opportunity long.",
+                "url": "http://wright-payne.org/"
+            },
+            {
+                "source_name": "fund",
+                "url": "https://carlson.com/"
+            },
+            {
+                "source_name": "threat",
+                "external_id": "ghSlYfjfiX"
+            },
+            {
+                "source_name": "international",
+                "description": "Speak customer budget often side social professional.",
+                "url": "http://taylor.com/",
+                "external_id": "hBZRPlKDiHJTRkVu"
+            },
+            {
+                "source_name": "high",
+                "description": "Everyone effect look start.",
+                "url": "http://chambers.com/",
+                "external_id": "xoGEBQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--24c3a6d6-3f07-49b2-8ec0-e4465d84a2ea"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5501d129-fb64-426e-b56d-d4b37974c004",
+        "created_by_ref": "identity--5501d129-fb64-426e-b56d-d4b37974c004",
+        "created": "2021-01-15T17:20:25.052515Z",
+        "modified": "2021-08-14T01:08:29.205857Z",
+        "name": "Moore LLC",
+        "sectors": [
+            "energy",
+            "education",
+            "retail",
+            "financial-services"
+        ],
+        "contact_information": "9824 Andrews Plains Suite 272\nNorth Joseph, MD 46180",
+        "confidence": 31,
+        "external_references": [
+            {
+                "source_name": "parent",
+                "description": "Image cause voice important form cover artist."
+            },
+            {
+                "source_name": "song",
+                "description": "Imagine evening American form current spring peace.",
+                "url": "https://gonzalez-franklin.com/",
+                "hashes": {
+                    "MD5": "94bca9eb1484851b84774b7a14a8fab2",
+                    "SHA-1": "6a4bfb2a20857f25a278ef9b6023142aaaed663f",
+                    "SHA-256": "de9f1465e0cad44fecc6e9a2220ae816fc92e0ecd61379497181d949dab3e004",
+                    "SHA-512": "1e2feee6d307c751a70373cf209c691d17fc420a8353335d2d047c1f1bb3db8836915ad28666d7f7544b3ed31dc439d4c4786057e88471323e700fe986882873",
+                    "SHA3-256": "c8f41f30474d9234435d496b99c562189618550e24c1bf3aa7537c7c03768712",
+                    "SHA3-512": "47f3ef91918755c7cee4177e917a5db7239af28804239c63397dc642208b152732d9f2ab420899f90b97ddcda3e733e841135e67d508d0244a55406536a34bea"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--24c3a6d6-3f07-49b2-8ec0-e4465d84a2ea"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--24c3a6d6-3f07-49b2-8ec0-e4465d84a2ea",
+        "created": "2021-08-14T01:08:29.20268Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

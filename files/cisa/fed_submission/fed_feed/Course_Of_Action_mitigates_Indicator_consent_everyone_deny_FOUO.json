@@ -1,0 +1,240 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--5b0d9388-1313-426c-9908-b4548b149e89",
+        "created_by_ref": "identity--57c4e5e8-0992-4869-bef2-0220e6d03c66",
+        "created": "2020-12-20T18:57:58.804221Z",
+        "modified": "2021-08-14T01:08:23.96609Z",
+        "name": "fly",
+        "confidence": 11,
+        "external_references": [
+            {
+                "source_name": "ten",
+                "description": "Each where drop body.",
+                "url": "http://www.nielsen.com/",
+                "hashes": {
+                    "MD5": "439456184194dfd945ce52097c703c3e",
+                    "SHA-1": "5240c5ae50deb9e4162dabfa041a6c450f65ed7f",
+                    "SHA-256": "d339c4770cde2ea7d5d36a02705458f8d748322f4fbdcd4b92ce2722f93d9ac4",
+                    "SHA-512": "aec529e7ea6bb040506c3af72fc9d3fc06b84b02d6bcd236d52551b07e45801aaacd7d04e06168ead37a6d1c7df232e47829ea945e34a479d2f2e06723f4d07e",
+                    "SHA3-256": "53a633c44a73043398e82087eeb198047a5d684430369316ad6107e5e1bc00e4",
+                    "SHA3-512": "a8717cae8988cdc2007e20171c23421f6ee89b68ff2fe792dcf61fce0134a4ae5a12b6ceaf46e2da5064963251f28ba5213991541f5d0f795569dbf6a5b61920"
+                },
+                "external_id": "HqFGSoYpQdXCTMEpS"
+            },
+            {
+                "source_name": "rule",
+                "description": "Ok last toward argue edge service.",
+                "url": "http://www.page.org/",
+                "hashes": {
+                    "MD5": "550368c2a2025027aeee82a63f3ecdd4",
+                    "SHA-1": "13dcd0c9cbcb2b360b7b32500a89ea9470e1a0df",
+                    "SHA-256": "10ba46659e28690825208d255123434ecf6ae0b98d5787443ac96ee8a018d51b",
+                    "SHA-512": "f7946290f4272bd01138e9b97607a89ecfcff564433305b706ccdbe6ee54bc53d908f2405c76aafc47c85ed3916bf5d2b024ee929ce01879e4a26f25779d0eb0",
+                    "SHA3-256": "61e0d06c3f80066594714562001648301e62c51f2737d7be9e45f92d570c0dee",
+                    "SHA3-512": "b316ac8ca777524460cf58930150c592c789a823c007c3478482c24f499e4a9f299cf74f04786eaabc4a33c879e10524d5ffe1958fb45fac1659f06541a151b8"
+                },
+                "external_id": "oWvZVpYXgyBXYl"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b449c89b-7ae4-4871-8379-5589cf01e173"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--8d96e0e7-5260-4efe-91c6-15d1652b58f4",
+        "created_by_ref": "identity--57c4e5e8-0992-4869-bef2-0220e6d03c66",
+        "created": "2020-12-15T19:04:15.087796Z",
+        "modified": "2021-08-14T01:08:23.96693Z",
+        "description": "Identify others none expect reach.",
+        "indicator_types": [
+            "compromised",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "([process:cwd = '/design/explain.mp3'] AND ([ipv6-addr:defanged = false] START t'2020-11-26T07:52:58.639925Z' STOP t'2022-06-01T14:57:58.627917Z'))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-08-08T23:08:29.427746Z",
+        "valid_until": "2021-09-02T00:16:07.586981Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lJNnbJ",
+                "phase_name": "mTnbxhumaU"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "JJaHPMuWLqrCQKGClpT",
+                "phase_name": "wbmArgDzhYrd"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "confidence": 64,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "eye",
+                "description": "Level fast ever which.",
+                "hashes": {
+                    "MD5": "b1be92c319ed89e561a83e64dc0889b7",
+                    "SHA-1": "826f5e33df53c4aaf956ff806e13a561536ce188",
+                    "SHA-256": "dff208496dfeb890343f0eed929f602ba37f8b4a806e7c71de0e3534158f5c08",
+                    "SHA-512": "edfb64e0f1c6ba654f6abaac5703d77d39f52c4cccdf2c6f12817214295471a602328fdc32af0e15ec149c83da85cd26b301dba70af6c49b845efa943516ca09",
+                    "SHA3-256": "5c087f497d9240223adc9e1074529eb061f8642122e272f904c74f9ec4d945c2",
+                    "SHA3-512": "8a62cfdc3c024abf5cf0a64139febee62927fbc720a916a31b16181dcd3e0a6a4f31e8477f20d48e30e14d760c7c383ef5cc0764156897cd2b61e7adb9107915"
+                },
+                "external_id": "IIKkKWzYtJw"
+            },
+            {
+                "source_name": "art",
+                "url": "https://www.clark-briggs.com/",
+                "hashes": {
+                    "MD5": "0b9cec524875ec35068fae4b2a2410a7",
+                    "SHA-1": "68b04544fdb36a899560320852fb55b94720958f",
+                    "SHA-256": "aa0fcab405426fb41d374361daf9a5ad9c323fd6caf49947817f82a651a34de9",
+                    "SHA-512": "a98ebcd735e105e1b9e5b145086d2dd0825e13f655d7938ebb69f142180715c4620141a94d158c05166a28e821ec60ade20c0eaa5dc58ec4bfac7a07fd8863d8",
+                    "SHA3-256": "e806fd4da02a9da1a13be033609f99701241007b2875859b2e82c6568391f5f2",
+                    "SHA3-512": "9e5e80fffe0271dd7ba079e391ecf36cb23c3be00db58e6247bc991785d93da6701d2da06519920f54b565cfc45424c44a4d23972cab5d0e2028bf262478e56a"
+                },
+                "external_id": "VgdJjd"
+            },
+            {
+                "source_name": "difficult",
+                "description": "Choice lose give thus rule.",
+                "url": "http://www.skinner.com/"
+            },
+            {
+                "source_name": "should",
+                "url": "https://www.gallagher.net/",
+                "external_id": "JBVsreBicmt"
+            },
+            {
+                "source_name": "art",
+                "url": "https://www.johnson-yu.org/",
+                "hashes": {
+                    "MD5": "bdf4c357c5e27a222d10a433cdaeddfb",
+                    "SHA-1": "6fc036b3a490165f9d930c1577d080c7a0e47b70",
+                    "SHA-256": "c0d0989dd151c36fcc7b8b2a8ff2b5566d0f0b82f5ec4534f7a5fff137b41708",
+                    "SHA-512": "747199c7c10c50e089206840173251fb82b58994e507c960846c8ba5410c6ce05f5bcb2f062cef5325f675c5e5237da9874238329e855e16fd80007256acf10a",
+                    "SHA3-256": "29e77bfe6ca8199bf63fab922015ec5fcae7a871edac150bc8fbe77eea553d3e",
+                    "SHA3-512": "692f85418fb2bab65a18f3e3ffa1ac16044dd32ceab9d6d4906399362cee94212631bda20004bd7924b9453fd38531ce9b307ba7557c858346b25c86c40bd2ba"
+                },
+                "external_id": "yqiDqwOInxQzZofWeipS"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b449c89b-7ae4-4871-8379-5589cf01e173"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a0886220-0979-45e3-a0cc-9ce83d47b6d1",
+        "created_by_ref": "identity--57c4e5e8-0992-4869-bef2-0220e6d03c66",
+        "created": "2020-07-12T15:10:01.146252Z",
+        "modified": "2021-08-14T01:08:23.968944Z",
+        "relationship_type": "mitigates",
+        "description": "Give study woman rise machine.",
+        "source_ref": "course-of-action--5b0d9388-1313-426c-9908-b4548b149e89",
+        "target_ref": "indicator--8d96e0e7-5260-4efe-91c6-15d1652b58f4",
+        "start_time": "2021-12-20T18:00:10.155654Z",
+        "stop_time": "2022-12-11T13:11:07.013707Z",
+        "object_marking_refs": [
+            "marking-definition--b449c89b-7ae4-4871-8379-5589cf01e173"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--57c4e5e8-0992-4869-bef2-0220e6d03c66",
+        "created_by_ref": "identity--57c4e5e8-0992-4869-bef2-0220e6d03c66",
+        "created": "2020-01-02T03:01:24.869385Z",
+        "modified": "2021-08-14T01:08:23.96923Z",
+        "name": "Wall Ltd",
+        "description": "Phased context-sensitive encryption",
+        "identity_class": "class",
+        "contact_information": "11532 Gilbert Rue Apt. 824\nAyalaside, HI 91116",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--b449c89b-7ae4-4871-8379-5589cf01e173"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b449c89b-7ae4-4871-8379-5589cf01e173",
+        "created": "2021-08-14T01:08:23.965239Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3af87523-f9f6-4d99-acfc-79560c4d2219",
+                "name": "Boy understand else sense give house travel already",
+                "create_date_time": "2021-08-14T01:08:08.429507Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

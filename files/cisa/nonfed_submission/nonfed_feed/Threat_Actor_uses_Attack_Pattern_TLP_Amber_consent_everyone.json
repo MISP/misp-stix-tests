@@ -1,0 +1,137 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--e3daa92a-1e7a-4d7c-ace4-c7333f68174d",
+        "created_by_ref": "identity--19b69690-1ee1-4046-acf0-c01cb9edbdfe",
+        "created": "2021-03-02T18:21:57.218449Z",
+        "modified": "2022-02-26T23:01:11.941367Z",
+        "name": "out",
+        "threat_actor_types": [
+            "competitor",
+            "spy",
+            "criminal",
+            "sensationalist"
+        ],
+        "roles": [
+            "director",
+            "director",
+            "director",
+            "agent",
+            "infrastructure-operator"
+        ],
+        "goals": [
+            "sure"
+        ],
+        "sophistication": "strategic",
+        "resource_level": "contest",
+        "personal_motivations": [
+            "dominance",
+            "ideology",
+            "unpredictable",
+            "organizational-gain"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 44,
+        "external_references": [
+            {
+                "source_name": "line",
+                "external_id": "SCOkPkywaGCwH"
+            },
+            {
+                "source_name": "be",
+                "description": "Tree since through occur even.",
+                "url": "https://baker.net/",
+                "external_id": "nkucHBwylLMZwHl"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--9dc3d041-3fc7-42ff-a7ab-2ecb8f8b68db",
+        "created_by_ref": "identity--19b69690-1ee1-4046-acf0-c01cb9edbdfe",
+        "created": "2020-10-17T12:45:38.85741Z",
+        "modified": "2021-09-01T06:45:12.951402Z",
+        "name": "art",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "west",
+                "description": "Kitchen growth heart wait star.",
+                "url": "https://www.williams-blake.com/",
+                "hashes": {
+                    "MD5": "31f77dd51db1f02abbcf8af165d0f276",
+                    "SHA-1": "977f2cc5495d48ec3c5c63622cd9107061ddc1c5",
+                    "SHA-256": "ecadf7bb02c18dd2e5a0c5f086776d84a55cc7549605cc63473238fc137904e9",
+                    "SHA-512": "e1a945ac13cc6fd94cb68adec5bf077c547d5f35f7a0cb49c67b62c2932e98f039b483c3fc98d5e53f403e9d5ce76978cd744dce4c10ce54dd317e9cfb3c60cb",
+                    "SHA3-256": "85641deec4ebefded438d83d6a6f82b9e86cb9ffb1dda4103b2ccaacd20300c5",
+                    "SHA3-512": "98db317030d3613a109c54ef2e7ad43df890ac27839b357579804e751d485f7ccddf704da9bb72e29cdcde88f476858ff585ae127cfae72519a271dfe36a61df"
+                },
+                "external_id": "RmImtvSFLVBNjKrCH"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e5b1ecb9-1253-46e3-aca2-8258991fd006",
+        "created_by_ref": "identity--19b69690-1ee1-4046-acf0-c01cb9edbdfe",
+        "created": "2022-07-15T03:19:40.702958Z",
+        "modified": "2022-11-06T04:07:26.890968Z",
+        "relationship_type": "uses",
+        "description": "Lot long major fine next read possible. Produce find concern east page tend main. Use seek wait end.",
+        "source_ref": "threat-actor--e3daa92a-1e7a-4d7c-ace4-c7333f68174d",
+        "target_ref": "attack-pattern--9dc3d041-3fc7-42ff-a7ab-2ecb8f8b68db",
+        "start_time": "2021-11-20T04:14:46.408931Z",
+        "labels": [
+            "thought",
+            "tough",
+            "control",
+            "myself",
+            "leave",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--19b69690-1ee1-4046-acf0-c01cb9edbdfe",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-04-09T12:01:54.696697Z",
+        "modified": "2023-01-30T03:28:45.607593Z",
+        "name": "Rivera Inc",
+        "description": "Configurable 24hour archive",
+        "sectors": [
+            "pharmaceuticals",
+            "transportation",
+            "technology",
+            "government",
+            "transportation"
+        ],
+        "contact_information": "7871 Harrison Passage\nThomasmouth, KY 67237",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 21,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

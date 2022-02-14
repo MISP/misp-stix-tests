@@ -1,0 +1,135 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--72372c76-bd7c-4603-955b-c693dd0bb831",
+        "created_by_ref": "identity--e381e3b9-d50d-4685-9820-a993bdd2f9e2",
+        "created": "2021-02-24T10:00:58.036725Z",
+        "modified": "2022-02-08T02:10:26.773281Z",
+        "name": "friend",
+        "pattern": "(([domain-name:defanged = false] AND ([email-addr:value < 'yreyes@phillips.com'] FOLLOWEDBY ([process:created_time NOT = t'2022-07-28T06:07:32.703015Z']) REPEATS 4 TIMES)))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-10-05T10:16:52.3636Z",
+        "valid_until": "2022-08-11T17:11:06.395871Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "SiStjaF",
+                "phase_name": "psqAIvqfhJEmTPQfxx"
+            },
+            {
+                "kill_chain_name": "NFnfpaEtwHfaeel",
+                "phase_name": "eoIWootjJEimzRSUK"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--9047c7f0-0b8e-4940-bf39-e4b57c8f6ef9",
+        "created_by_ref": "identity--e381e3b9-d50d-4685-9820-a993bdd2f9e2",
+        "created": "2021-07-19T12:53:11.074195Z",
+        "modified": "2021-08-26T10:34:16.760724Z",
+        "first_observed": "2021-01-05T05:08:55.76672Z",
+        "last_observed": "2021-04-22T10:31:20.346205Z",
+        "number_observed": 813268386,
+        "objects": {
+            "software--082776e9-7ac7-46c3-ab3c-4a8dd0f179de": {
+                "type": "software",
+                "spec_version": "2.1",
+                "id": "software--082776e9-7ac7-46c3-ab3c-4a8dd0f179de",
+                "name": "oqNcetbxXJPHgWNwGgZ",
+                "cpe": "cpe:2.3:o:fedoraproject:fedora:29:*:*:*:*:*:*:*",
+                "swid": "org.fedoraproject.Fedora-29",
+                "version": "3"
+            }
+        },
+        "labels": [
+            "bag",
+            "message",
+            "pattern",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "hit",
+                "description": "Hundred beat record game perform.",
+                "hashes": {
+                    "MD5": "8d6416a05c6c23c7209daf2f311aab9a",
+                    "SHA-1": "bafde582ab47d7f2805795cd36998b059bba74de",
+                    "SHA-256": "639db798d65afdeb7cfd4fc7755db67fdd6c2eb800d42500a31fece878c7ab43",
+                    "SHA-512": "107e7b804b6f4775bdea91c5643c30f971e70f6af13504e37f8f46ed57794ec10d3f3013a0bd5fc13c2ce95d9379af8d6e8e6b25942e7c795f4c8332aeea79bf",
+                    "SHA3-256": "7d62fae2820da2a23c4b5bbc42666ce7eedbdc25cc821ddd82ca1c5783af7c4a",
+                    "SHA3-512": "a2765c03f12843fc037ce55b2a181d419c25f2583735aee5e841b0d7da87b125ad81fc7de049403de5341373d481898c90f7390ae2f7b9c4a2309c6956ea0c70"
+                },
+                "external_id": "eehsbNxvfEFm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f1ef0db2-1fba-454b-9fd2-fa36491c4e69",
+        "created_by_ref": "identity--e381e3b9-d50d-4685-9820-a993bdd2f9e2",
+        "created": "2021-12-24T10:59:48.479263Z",
+        "modified": "2022-02-06T22:20:46.685375Z",
+        "relationship_type": "based-on",
+        "description": "Structure rather case serious.",
+        "source_ref": "indicator--72372c76-bd7c-4603-955b-c693dd0bb831",
+        "target_ref": "observed-data--9047c7f0-0b8e-4940-bf39-e4b57c8f6ef9",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 27,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e381e3b9-d50d-4685-9820-a993bdd2f9e2",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-01-30T11:19:26.113068Z",
+        "modified": "2021-12-26T00:23:04.605952Z",
+        "name": "ServeMovementMedical",
+        "roles": [
+            "plant",
+            "involve",
+            "impact",
+            "accept"
+        ],
+        "identity_class": "system",
+        "sectors": [
+            "manufacturing",
+            "government-national",
+            "technology",
+            "emergency-services",
+            "energy"
+        ],
+        "contact_information": "68772 Jason Knolls\nPort Brian, IL 52494",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 97,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

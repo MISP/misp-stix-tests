@@ -1,0 +1,191 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--32e641ab-563e-4858-9e26-a133fa02b1e1",
+        "created_by_ref": "identity--f722ac43-a4a8-4289-b419-59cf75a471f4",
+        "created": "2021-08-24T01:09:29.155691Z",
+        "modified": "2021-11-10T00:13:16.884179Z",
+        "name": "wear",
+        "aliases": [
+            "worker",
+            "leg",
+            "inside",
+            "hard"
+        ],
+        "last_seen": "2022-04-11T15:58:20.83513Z",
+        "objective": "Suddenly public less thought.",
+        "labels": [
+            "kind",
+            "small",
+            "never",
+            "exist",
+            "vote",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "for",
+                "url": "https://cooper.net/",
+                "external_id": "QkmyzINPedZapQHE"
+            },
+            {
+                "source_name": "go",
+                "description": "Step painting number media.",
+                "hashes": {
+                    "MD5": "327d3ec759e549628ea1a9bb5cb85afd",
+                    "SHA-1": "2bb97e7803fb31b77ac16dd0d2672cb4484bba52",
+                    "SHA-256": "ca0a4bbd5c371791ea8629455256019b7f00ee33a4a21df1ecac014358cfb3fa",
+                    "SHA-512": "ecbf4f9c2df6f4ddd77fe7622df71a5384b003911c44211a16c51e290e574288680b02ddec9e87518d7ba1b4037c05c6178caef980493ab88bde9e748e362c71",
+                    "SHA3-256": "319ac14fee6db442f5ee5bd087c1ef8cf3f4b8b9d9ec3d00e621de06ae8a76b9",
+                    "SHA3-512": "bfb55d1f3ccca372582f63829ef35cfb25e65040aa33968c5e4d481a55ae36c8d32279829e7f4fc480ff27d96b17acad9c96a0db341576c07e5d279c0e901f36"
+                }
+            },
+            {
+                "source_name": "toward",
+                "description": "Or save quality game else name.",
+                "url": "http://jones.com/",
+                "external_id": "kVesZAdVrBuyZvAMWfOe"
+            },
+            {
+                "source_name": "section",
+                "description": "Under plan speech trade.",
+                "url": "https://phillips.org/",
+                "external_id": "gseFpZxx"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--0a1b6ee3-eb5b-4425-9740-005bd11b5448",
+        "created_by_ref": "identity--f722ac43-a4a8-4289-b419-59cf75a471f4",
+        "created": "2021-06-04T09:57:41.453713Z",
+        "modified": "2021-08-22T16:58:28.255923Z",
+        "name": "course",
+        "description": "Participant very attorney help street physical audience.",
+        "aliases": [
+            "fine",
+            "even"
+        ],
+        "labels": [
+            "test",
+            "job",
+            "friend",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4cb7f588-c250-441f-b065-2b4b892f1745",
+        "created_by_ref": "identity--f722ac43-a4a8-4289-b419-59cf75a471f4",
+        "created": "2021-03-16T20:00:21.331613Z",
+        "modified": "2021-08-14T01:08:18.928387Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--32e641ab-563e-4858-9e26-a133fa02b1e1",
+        "target_ref": "attack-pattern--0a1b6ee3-eb5b-4425-9740-005bd11b5448",
+        "start_time": "2022-03-31T21:25:48.146129Z",
+        "labels": [
+            "large",
+            "pfte-batch-1"
+        ],
+        "confidence": 8,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--7f383792-7832-482e-a7ae-9dfedf6da30a",
+        "created_by_ref": "identity--f722ac43-a4a8-4289-b419-59cf75a471f4",
+        "created": "2021-08-12T19:38:40.116615Z",
+        "modified": "2021-10-23T06:13:52.866072Z",
+        "context": "suspicious-activity",
+        "object_refs": [
+            "campaign--32e641ab-563e-4858-9e26-a133fa02b1e1",
+            "attack-pattern--0a1b6ee3-eb5b-4425-9740-005bd11b5448",
+            "relationship--4cb7f588-c250-441f-b065-2b4b892f1745"
+        ],
+        "labels": [
+            "turn",
+            "piece",
+            "individual",
+            "pfte-batch-1"
+        ],
+        "confidence": 86,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f722ac43-a4a8-4289-b419-59cf75a471f4",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-29T21:23:32.453799Z",
+        "modified": "2022-04-17T03:46:41.477648Z",
+        "name": "Hunt-King",
+        "description": "Exclusive transitional hierarchy",
+        "roles": [
+            "suggest",
+            "hit",
+            "actually",
+            "own"
+        ],
+        "contact_information": "60438 Stein Unions Apt. 184\nEast Christian, NY 12608",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 15,
+        "external_references": [
+            {
+                "source_name": "including",
+                "url": "https://www.braun-barker.com/",
+                "external_id": "QVgnrlqOLf"
+            },
+            {
+                "source_name": "total",
+                "url": "https://robinson.com/",
+                "hashes": {
+                    "MD5": "aec5fbbb0ac8d4036050b36aef1a3847",
+                    "SHA-1": "b45aa425fbede37799fbfec3f4afff1f4ddbac43",
+                    "SHA-256": "18899337df68e7133d83113f639c6af96cf9f60bcc1c8dfc9896576ddc0c89e9",
+                    "SHA-512": "3cd6ba9e300ad7541f55ed7851556ed90fef8b42a8986261d9722e9fc5042400bd0567cd510e227703b44c9b1ea9a5c37d2d4208d400af2d33d86dd36f8dc9a0",
+                    "SHA3-256": "86be77f3a4d6f0f887b53dadabe8dc8ec5def53e74227b4eac0526e0c30680c1",
+                    "SHA3-512": "7b943f0dfd19d22fa8ab23becc82591314c6ec660c16201501f6715a4f25ef6a1a38acfaea50b775cf69bd403dbb52432b10196e0c0a8c38e61c772fdf9f0d97"
+                }
+            },
+            {
+                "source_name": "show",
+                "external_id": "dpshYPybCMA"
+            },
+            {
+                "source_name": "law",
+                "url": "http://www.miller-herrera.info/",
+                "hashes": {
+                    "MD5": "107d7683d785267b840a4245fa526235",
+                    "SHA-1": "81001740c1e5e0cd2e6ba4b1c4c43c7d4907029f",
+                    "SHA-256": "833f8b8d0c6463bbde0d3b9ec56aa31fe66c7113ebb2448283595b193598126c",
+                    "SHA-512": "7f78a41bdaf6a232e1ff09f9a1cfc3b25c6e84e06f271350c90545bb09e2a12f87f50d06267924fa2225a7b862c0b91b5779e96e6bb4fb19265b68ee445579f4",
+                    "SHA3-256": "eb1ad061a1c12ef7e52b2552bf748e8993d10c40cd697aa68901c13e926f84b8",
+                    "SHA3-512": "1d25cda12008d69cade6e7536d4f3adfee52dfa088fecb49ae977c71ffa17fabc994c015b274319e4f8893bcaca26fbe80127e46459d25bd056e056b9b4a867d"
+                },
+                "external_id": "TUDJbuYIjbVYQxdh"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

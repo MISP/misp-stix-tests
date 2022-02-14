@@ -1,0 +1,128 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--21fc747a-a006-4aa3-857a-833e388d18dd",
+        "created_by_ref": "identity--beeb8895-add9-4e1f-b8fd-0129d14e661c",
+        "created": "2020-11-22T23:32:24.409814Z",
+        "modified": "2021-08-14T01:08:49.679216Z",
+        "name": "bar",
+        "infrastructure_types": [
+            "phishing",
+            "phishing",
+            "command-and-control",
+            "exfiltration",
+            "anonymization"
+        ],
+        "first_seen": "2022-06-22T00:13:23.965734Z",
+        "labels": [
+            "later",
+            "group",
+            "maybe",
+            "war",
+            "pfte-batch-1"
+        ],
+        "confidence": 4,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--bce54302-3379-47ec-8d93-a3c1e6786f76",
+        "created_by_ref": "identity--beeb8895-add9-4e1f-b8fd-0129d14e661c",
+        "created": "2022-01-06T03:24:45.876832Z",
+        "modified": "2022-09-18T14:54:09.200333Z",
+        "name": "huFaOOYYj",
+        "latitude": 39.711005167677854,
+        "longitude": -76.05677409185667,
+        "precision": 90.6190927940651,
+        "region": "eastern-africa",
+        "country": "Mayotte",
+        "street_address": "5222 Frye Cliff",
+        "postal_code": "45650",
+        "labels": [
+            "table",
+            "glass",
+            "leader",
+            "black",
+            "pressure",
+            "pfte-batch-1"
+        ],
+        "confidence": 9,
+        "external_references": [
+            {
+                "source_name": "participant",
+                "url": "http://www.huynh.com/",
+                "external_id": "aAVEQCHr"
+            },
+            {
+                "source_name": "society",
+                "description": "Main product could worry response.",
+                "hashes": {
+                    "MD5": "77370f8b8dfc215058a1f3144c264bae",
+                    "SHA-1": "53857ed8e2a7af80068412bdadcac915e0c49ee7",
+                    "SHA-256": "304558f7ae422613cf427a2e59697e6600a87c1a8a7c0b9fff1a00a136d32923",
+                    "SHA-512": "3669deea123ed700883ff802126ac522686ddbc655f52fda90458e1dbcc8721dfff426ef608bfe812d966b79e6a2bc601b9ce715f7a78aa988c5d83b42a9503d",
+                    "SHA3-256": "400436c9c743b1aaacc7505c57e79f2a322ae6c8a88037955bcee402f62d3012",
+                    "SHA3-512": "749c6a3216f96272e11ece2a1868ddaf83aa48b0f3acaa8b90207708637cd1b12f365ce54021e852d052f49298f7291e18295cd4b29e0518f29a8fc14cbe4d07"
+                },
+                "external_id": "SuAvl"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b549217c-664e-41e2-8d7f-47dedb20603e",
+        "created_by_ref": "identity--beeb8895-add9-4e1f-b8fd-0129d14e661c",
+        "created": "2020-10-10T13:58:23.159497Z",
+        "modified": "2021-08-14T01:08:49.679942Z",
+        "relationship_type": "located-at",
+        "source_ref": "infrastructure--21fc747a-a006-4aa3-857a-833e388d18dd",
+        "target_ref": "location--bce54302-3379-47ec-8d93-a3c1e6786f76",
+        "start_time": "2020-12-20T19:11:01.653403Z",
+        "labels": [
+            "way",
+            "teach",
+            "food",
+            "above",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--beeb8895-add9-4e1f-b8fd-0129d14e661c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-04-29T21:11:18.333475Z",
+        "modified": "2021-08-14T01:08:49.68021Z",
+        "name": "Moss Inc",
+        "description": "Grass-roots motivating utilization",
+        "roles": [
+            "month",
+            "student",
+            "democratic",
+            "performance",
+            "member"
+        ],
+        "identity_class": "class",
+        "contact_information": "301 James Burgs Apt. 990\nEast Annettefort, ND 74235",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

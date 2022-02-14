@@ -1,0 +1,206 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--52f62f8f-7da1-4ca7-8d29-13a01db9a6f9",
+        "created_by_ref": "identity--8bc6f3bf-0b1a-4fd3-ab8b-456383f53bc6",
+        "created": "2021-06-09T01:56:45.158188Z",
+        "modified": "2021-11-26T04:31:32.560711Z",
+        "name": "record",
+        "aliases": [
+            "officer"
+        ],
+        "first_seen": "2021-01-21T13:09:44.207942Z",
+        "last_seen": "2021-09-14T11:36:15.748528Z",
+        "objective": "Personal today little.",
+        "labels": [
+            "he",
+            "study",
+            "according",
+            "mission",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9c5b9587-f646-4942-b5b5-044a918b6ec2"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--dcac4c7e-32f1-4dbc-8b44-defbf0dab2bf",
+        "created_by_ref": "identity--8bc6f3bf-0b1a-4fd3-ab8b-456383f53bc6",
+        "created": "2022-06-30T01:01:32.28171Z",
+        "modified": "2022-12-28T22:25:55.349389Z",
+        "name": "people",
+        "description": "Fly exist six blood sport over realize.",
+        "aliases": [
+            "such",
+            "usually",
+            "material",
+            "public",
+            "age"
+        ],
+        "first_seen": "2021-10-23T02:14:40.695177Z",
+        "roles": [
+            "independent",
+            "malware-author",
+            "malware-author"
+        ],
+        "goals": [
+            "really",
+            "first",
+            "nature",
+            "meet"
+        ],
+        "resource_level": "organization",
+        "secondary_motivations": [
+            "personal-gain"
+        ],
+        "personal_motivations": [
+            "coercion",
+            "revenge"
+        ],
+        "confidence": 89,
+        "external_references": [
+            {
+                "source_name": "to",
+                "description": "Also its since particular suddenly.",
+                "url": "https://oneal-martinez.com/",
+                "external_id": "vNJIcf"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9c5b9587-f646-4942-b5b5-044a918b6ec2"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--afce24d7-0185-4388-ad22-932428dae3f8",
+        "created_by_ref": "identity--8bc6f3bf-0b1a-4fd3-ab8b-456383f53bc6",
+        "created": "2022-05-08T11:11:39.456851Z",
+        "modified": "2022-05-31T14:11:56.960211Z",
+        "relationship_type": "attributed-to",
+        "description": "Black really debate will campaign go. Rest discover year time. Ball low everybody role PM walk.",
+        "source_ref": "campaign--52f62f8f-7da1-4ca7-8d29-13a01db9a6f9",
+        "target_ref": "threat-actor--dcac4c7e-32f1-4dbc-8b44-defbf0dab2bf",
+        "stop_time": "2020-11-24T05:10:40.015449Z",
+        "labels": [
+            "accept",
+            "answer",
+            "use",
+            "create",
+            "pfte-batch-1"
+        ],
+        "confidence": 34,
+        "object_marking_refs": [
+            "marking-definition--9c5b9587-f646-4942-b5b5-044a918b6ec2"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--9c5b9587-f646-4942-b5b5-044a918b6ec2",
+        "created_by_ref": "identity--8bc6f3bf-0b1a-4fd3-ab8b-456383f53bc6",
+        "created": "2021-08-14T01:08:14.018136Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-881bbc21-deef-4d57-abf3-7f599266217f",
+                "name": "Way get would fight necessary hour measure",
+                "create_date_time": "2021-08-14T01:08:08.423662Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8bc6f3bf-0b1a-4fd3-ab8b-456383f53bc6",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-05-07T09:05:23.650328Z",
+        "modified": "2022-07-28T13:36:40.774825Z",
+        "name": "Lawrence, Hall and Dennis",
+        "description": "Secured bi-directional superstructure",
+        "roles": [
+            "production",
+            "save",
+            "situation",
+            "add",
+            "first"
+        ],
+        "sectors": [
+            "telecommunications",
+            "government-local",
+            "dams",
+            "government-public-services"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 46,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "door",
+                "description": "Sit pick animal manage above us view.",
+                "url": "https://taylor.com/"
+            },
+            {
+                "source_name": "couple",
+                "description": "Sell happy over action produce.",
+                "external_id": "wxHpfnz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9c5b9587-f646-4942-b5b5-044a918b6ec2"
+        ]
+    }
+]

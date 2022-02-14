@@ -1,0 +1,195 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--e04c8ae7-cc29-4c1e-b124-310a7017be97",
+        "created_by_ref": "identity--81ba5ac3-9bb2-4b69-9416-1412b99d3783",
+        "created": "2021-11-04T14:49:58.59808Z",
+        "modified": "2022-08-27T06:58:04.016894Z",
+        "name": "tough",
+        "aliases": [
+            "cost",
+            "market",
+            "film",
+            "issue"
+        ],
+        "first_seen": "2021-05-04T07:32:05.703792Z",
+        "resource_level": "contest",
+        "primary_motivation": "notoriety",
+        "secondary_motivations": [
+            "coercion"
+        ],
+        "labels": [
+            "south",
+            "someone",
+            "lose",
+            "pfte-batch-1"
+        ],
+        "confidence": 79,
+        "object_marking_refs": [
+            "marking-definition--c4c80fda-c82d-4c17-9679-57d0cb097f48"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--4a27b98f-42ab-4b3d-a720-0377a0f57d2b",
+        "created_by_ref": "identity--81ba5ac3-9bb2-4b69-9416-1412b99d3783",
+        "created": "2020-12-16T23:55:15.829877Z",
+        "modified": "2021-08-14T01:09:00.06713Z",
+        "name": "structure",
+        "confidence": 2,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c4c80fda-c82d-4c17-9679-57d0cb097f48"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--bbae6996-3b91-4fa8-a3fd-47d9c1a9af41",
+        "created_by_ref": "identity--81ba5ac3-9bb2-4b69-9416-1412b99d3783",
+        "created": "2021-12-01T12:44:17.582227Z",
+        "modified": "2022-11-24T05:04:25.643476Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--e04c8ae7-cc29-4c1e-b124-310a7017be97",
+        "target_ref": "tool--4a27b98f-42ab-4b3d-a720-0377a0f57d2b",
+        "start_time": "2020-09-26T00:20:19.13652Z",
+        "stop_time": "2020-11-05T22:29:43.952438Z",
+        "external_references": [
+            {
+                "source_name": "available",
+                "description": "Raise boy provide whatever prove old."
+            },
+            {
+                "source_name": "yeah",
+                "description": "For ask race meeting night exist term coach.",
+                "hashes": {
+                    "MD5": "c92e0059a68c1656c2c1c2fbeab08d79",
+                    "SHA-1": "1552cc5dce19aa494e3179a394765c547a93511c",
+                    "SHA-256": "4a958e79d8d5740b8be509c502f02bcaa976684e03cbb1935e98855632bcac3b",
+                    "SHA-512": "3f6d2e4e671d2b75a9f36f0df5f3971cc965780ec77da63930dbeab91f6647c3449147e388858748e3c97a2728d2aca9e8a9ac13bf855ad0b4373cef9f4dab1d",
+                    "SHA3-256": "46dccfc0e84b354099f3d21eec64759ff630fb341376fc1d6dfd62493680f3d4",
+                    "SHA3-512": "d2500188b6b501269ea484acef7431b5ec386e57d74dabb252ee872c981955c1c2bd10d69ae54a27bea04a2c5cce18e00413741d89dcf878e46f03c67193a77a"
+                }
+            },
+            {
+                "source_name": "amount",
+                "description": "Relationship administration cultural music.",
+                "url": "http://www.sullivan.com/",
+                "external_id": "PMTTVrVVuzAZvChHaty"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c4c80fda-c82d-4c17-9679-57d0cb097f48"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--c4c80fda-c82d-4c17-9679-57d0cb097f48",
+        "created_by_ref": "identity--81ba5ac3-9bb2-4b69-9416-1412b99d3783",
+        "created": "2021-08-14T01:09:00.066079Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f217105b-ccd2-4cb0-893a-c1314d7d2d64",
+                "name": "Strategy land response sport over",
+                "create_date_time": "2021-08-14T01:08:08.422773Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.422466Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--81ba5ac3-9bb2-4b69-9416-1412b99d3783",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-05-25T09:21:37.653775Z",
+        "modified": "2022-11-17T18:54:02.173612Z",
+        "name": "Lopez, Smith and Gonzales",
+        "roles": [
+            "development",
+            "deep",
+            "glass"
+        ],
+        "sectors": [
+            "chemical",
+            "commercial"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 69,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c4c80fda-c82d-4c17-9679-57d0cb097f48"
+        ]
+    }
+]

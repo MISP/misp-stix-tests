@@ -1,0 +1,176 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--b18fcffd-9b02-4b8b-aba8-bae77d65c957",
+        "created_by_ref": "identity--46861906-1d12-4f5d-b1af-17a94cc4040e",
+        "created": "2021-08-03T22:40:35.224929Z",
+        "modified": "2022-06-27T05:28:12.042588Z",
+        "name": "country",
+        "aliases": [
+            "message",
+            "part"
+        ],
+        "confidence": 31,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a45753b8-077f-48e6-9fb3-039f4f20f86b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--5aaf67d6-73a7-4d30-a6fa-5ac9de0f97c9",
+        "created_by_ref": "identity--46861906-1d12-4f5d-b1af-17a94cc4040e",
+        "created": "2021-02-25T06:29:24.788925Z",
+        "modified": "2021-10-19T14:36:55.486199Z",
+        "name": "finish",
+        "aliases": [
+            "miss",
+            "memory",
+            "play",
+            "figure"
+        ],
+        "last_seen": "2020-10-12T02:05:48.990153Z",
+        "object_marking_refs": [
+            "marking-definition--a45753b8-077f-48e6-9fb3-039f4f20f86b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d2a4d1b4-8260-4560-85f1-cfc66cd6a3f0",
+        "created_by_ref": "identity--46861906-1d12-4f5d-b1af-17a94cc4040e",
+        "created": "2021-07-25T08:19:52.823898Z",
+        "modified": "2021-09-03T19:22:00.82986Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--b18fcffd-9b02-4b8b-aba8-bae77d65c957",
+        "target_ref": "infrastructure--5aaf67d6-73a7-4d30-a6fa-5ac9de0f97c9",
+        "start_time": "2020-09-15T18:46:18.805068Z",
+        "confidence": 33,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "thought",
+                "description": "Dream a even character."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a45753b8-077f-48e6-9fb3-039f4f20f86b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--46861906-1d12-4f5d-b1af-17a94cc4040e",
+        "created_by_ref": "identity--46861906-1d12-4f5d-b1af-17a94cc4040e",
+        "created": "2020-09-25T11:16:45.107167Z",
+        "modified": "2021-08-14T01:08:19.610581Z",
+        "name": "Meadows, Garrett and Hall",
+        "roles": [
+            "idea",
+            "time",
+            "live",
+            "line"
+        ],
+        "sectors": [
+            "chemical",
+            "commercial",
+            "government-national",
+            "water"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a45753b8-077f-48e6-9fb3-039f4f20f86b"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--a45753b8-077f-48e6-9fb3-039f4f20f86b",
+        "created": "2021-08-14T01:08:19.609036Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6d40bd19-4710-4b69-9440-86c8c2a858b4",
+                "name": "Purpose response respond always trouble later investment",
+                "create_date_time": "2021-08-14T01:08:08.431664Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.4315Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

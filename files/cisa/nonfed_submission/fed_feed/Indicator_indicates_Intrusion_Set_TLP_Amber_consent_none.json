@@ -1,0 +1,177 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--afa34417-4da8-45b8-ad4c-46d0b7778a14",
+        "created_by_ref": "identity--c732f80c-d17a-4484-9c1b-b13c5d20b52e",
+        "created": "2022-06-14T20:34:27.717043Z",
+        "modified": "2023-05-09T01:03:27.996939Z",
+        "name": "not",
+        "description": "Second side increase Democrat.",
+        "indicator_types": [
+            "benign",
+            "unknown",
+            "anonymization"
+        ],
+        "pattern": "[directory:mtime <= t'2020-12-09T01:50:00.614941Z' OR (process:created_time = t'2020-11-07T11:45:28.327974Z')] FOLLOWEDBY [autonomous-system:number < -53] FOLLOWEDBY ([process:defanged NOT = false] OR [network-traffic:is_active = false])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-09-08T20:11:34.506924Z",
+        "labels": [
+            "under",
+            "take",
+            "show",
+            "reduce",
+            "south",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--d686811c-0e1e-4c01-9f81-46a003821c9b"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--2a7726ef-5ff5-4c32-8ba7-03427afbac2d",
+        "created_by_ref": "identity--c732f80c-d17a-4484-9c1b-b13c5d20b52e",
+        "created": "2022-06-13T09:47:02.689648Z",
+        "modified": "2022-11-16T12:27:28.051599Z",
+        "name": "nothing",
+        "aliases": [
+            "control",
+            "outside",
+            "head",
+            "require",
+            "process"
+        ],
+        "first_seen": "2021-01-14T11:08:53.07596Z",
+        "resource_level": "team",
+        "primary_motivation": "coercion",
+        "labels": [
+            "share",
+            "across",
+            "pfte-batch-1"
+        ],
+        "confidence": 85,
+        "object_marking_refs": [
+            "marking-definition--d686811c-0e1e-4c01-9f81-46a003821c9b"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3fef8b54-5b76-448e-b5d8-53dc7f53c018",
+        "created_by_ref": "identity--c732f80c-d17a-4484-9c1b-b13c5d20b52e",
+        "created": "2021-07-08T00:48:43.61777Z",
+        "modified": "2022-03-19T19:27:21.47435Z",
+        "relationship_type": "indicates",
+        "description": "Explain oil spend tonight example drive fund bad. Seek rule fear billion hospital game too. Per a teach rate act.",
+        "source_ref": "indicator--afa34417-4da8-45b8-ad4c-46d0b7778a14",
+        "target_ref": "intrusion-set--2a7726ef-5ff5-4c32-8ba7-03427afbac2d",
+        "confidence": 20,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "us",
+                "description": "Explain keep of play card.",
+                "url": "https://www.walker-cross.org/",
+                "external_id": "ikFgcZFIwAmMtAMFeP"
+            },
+            {
+                "source_name": "why",
+                "description": "Gas treat same.",
+                "url": "http://beasley-crawford.net/",
+                "hashes": {
+                    "MD5": "a4c2bfc0982be898de0317e2ab0f98e4",
+                    "SHA-1": "32455ad26b100a7d95834ffc04000749003ff46d",
+                    "SHA-256": "e1b336fd10b8e5ce35ffc4fdd5fba300435be8a7a8e1fb95db8c662b8cfb9092",
+                    "SHA-512": "1a0bc997def1afdaa14cc5fea5eb8554c9f497f9782c02597e01b4a332b5d4554493f56e89d8813e51d4f72e8183f9cc6f035bf33a3acdafdc017cddd0f7ecee",
+                    "SHA3-256": "926fd7bc4778c8bfd877d71315d89b2b3659d3123e2d557168258304afcf645c",
+                    "SHA3-512": "9bdbbcab39d118295871d29ad347ee9b8a6a12eb052fa81eff2cd84960729acabb5a4a2e1199ae4d6c54d3c7b533b5c8a679e436cdfe804aef567a0b378a6e3a"
+                },
+                "external_id": "LjWKVKWp"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d686811c-0e1e-4c01-9f81-46a003821c9b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d686811c-0e1e-4c01-9f81-46a003821c9b",
+        "created_by_ref": "identity--c732f80c-d17a-4484-9c1b-b13c5d20b52e",
+        "created": "2021-08-14T01:08:31.049109Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6f258483-31e6-4810-a3a3-83f9297fcea8",
+                "name": "Individual personal with know",
+                "create_date_time": "2021-08-14T01:08:08.419751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c732f80c-d17a-4484-9c1b-b13c5d20b52e",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-06-14T20:10:15.311594Z",
+        "modified": "2022-08-20T17:47:13.080038Z",
+        "name": "ConferenceAudienceSense",
+        "description": "Enhanced discrete capacity",
+        "identity_class": "system",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 83,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d686811c-0e1e-4c01-9f81-46a003821c9b"
+        ]
+    }
+]

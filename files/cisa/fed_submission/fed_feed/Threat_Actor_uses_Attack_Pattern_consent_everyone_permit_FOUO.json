@@ -1,0 +1,149 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--9a5cb702-1fe3-414f-840e-e2f772c667cc",
+        "created_by_ref": "identity--695f8fcc-247b-4e0a-9613-2d477d989dff",
+        "created": "2020-10-03T22:30:29.601384Z",
+        "modified": "2021-08-22T13:48:03.087016Z",
+        "name": "describe",
+        "description": "Various view military concern drive section mean.",
+        "aliases": [
+            "common",
+            "book"
+        ],
+        "last_seen": "2021-10-22T22:30:49.015276Z",
+        "goals": [
+            "language",
+            "open",
+            "study",
+            "score",
+            "charge"
+        ],
+        "primary_motivation": "revenge",
+        "secondary_motivations": [
+            "revenge",
+            "ideology",
+            "notoriety"
+        ],
+        "personal_motivations": [
+            "dominance",
+            "dominance",
+            "unpredictable"
+        ],
+        "object_marking_refs": [
+            "marking-definition--92ef5905-4b27-43c4-a557-4957f617880f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--9483281e-3a14-4e9b-a92e-6328e50e8139",
+        "created_by_ref": "identity--695f8fcc-247b-4e0a-9613-2d477d989dff",
+        "created": "2021-04-03T07:46:52.581432Z",
+        "modified": "2021-08-29T05:13:32.144464Z",
+        "name": "media",
+        "aliases": [
+            "international",
+            "goal",
+            "technology",
+            "art"
+        ],
+        "labels": [
+            "though",
+            "design",
+            "pfte-batch-1"
+        ],
+        "confidence": 93,
+        "object_marking_refs": [
+            "marking-definition--92ef5905-4b27-43c4-a557-4957f617880f"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--59fba0b7-60ee-4b3e-9b51-8b3acd9e60cb",
+        "created_by_ref": "identity--695f8fcc-247b-4e0a-9613-2d477d989dff",
+        "created": "2021-06-30T12:33:19.549006Z",
+        "modified": "2021-11-23T14:23:32.908857Z",
+        "relationship_type": "uses",
+        "description": "Chance movement movement night reason second. Their and wear own. Charge more employee tree live laugh. Trouble tree painting ready need local research.",
+        "source_ref": "threat-actor--9a5cb702-1fe3-414f-840e-e2f772c667cc",
+        "target_ref": "attack-pattern--9483281e-3a14-4e9b-a92e-6328e50e8139",
+        "stop_time": "2020-08-22T02:14:06.976749Z",
+        "labels": [
+            "Mr",
+            "soldier",
+            "dog",
+            "seven",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--92ef5905-4b27-43c4-a557-4957f617880f"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--695f8fcc-247b-4e0a-9613-2d477d989dff",
+        "created_by_ref": "identity--695f8fcc-247b-4e0a-9613-2d477d989dff",
+        "created": "2021-03-06T23:37:04.341402Z",
+        "modified": "2021-08-14T01:09:32.729249Z",
+        "name": "Kim LLC",
+        "description": "Innovative incremental product",
+        "sectors": [
+            "hospitality-leisure",
+            "pharmaceuticals",
+            "commercial",
+            "nuclear",
+            "emergency-services"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 16,
+        "object_marking_refs": [
+            "marking-definition--92ef5905-4b27-43c4-a557-4957f617880f"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--92ef5905-4b27-43c4-a557-4957f617880f",
+        "created": "2021-08-14T01:09:32.726492Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a064a16e-64c9-426c-9535-98e263215e51",
+                "name": "Member population available under",
+                "create_date_time": "2021-08-14T01:08:08.430342Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

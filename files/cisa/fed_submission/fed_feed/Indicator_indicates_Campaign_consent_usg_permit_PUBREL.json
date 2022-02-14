@@ -1,0 +1,243 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--68c28c3c-1e8b-4693-86a5-e92062047766",
+        "created_by_ref": "identity--4a134b21-465e-46f6-8a18-1228b65cd671",
+        "created": "2021-09-27T07:38:30.962134Z",
+        "modified": "2022-08-22T07:52:52.539033Z",
+        "description": "Drug remain challenge office wind debate.",
+        "indicator_types": [
+            "anonymization",
+            "anonymization",
+            "unknown",
+            "unknown",
+            "attribution"
+        ],
+        "pattern": "[(mutex:name >= 'good') OR ipv4-addr:value < '177.95.64.44'] FOLLOWEDBY [ipv6-addr:value >= 'ed4e:a68d:457b:2de6:1d75:a059:c0fc:2edf' AND (ipv6-addr:value >= '82cb:b668:7032:efd6:350c:1fc3:d869:f9a3')] FOLLOWEDBY [network-traffic:is_active = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-01-27T23:54:52.89095Z",
+        "valid_until": "2022-05-28T09:11:00.838229Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "OwIPljdV",
+                "phase_name": "nysDzoqImjuDnDDsvlCL"
+            },
+            {
+                "kill_chain_name": "qYhiMdGIJlyVzlW",
+                "phase_name": "braSmQMNwtklxWwFc"
+            },
+            {
+                "kill_chain_name": "LnQhMmycmkNWEABCu",
+                "phase_name": "dYpAxzCpsYkfq"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "confidence": 15,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "back",
+                "external_id": "JdTMBPzjUcgbrM"
+            },
+            {
+                "source_name": "head",
+                "description": "Performance everything serious approach.",
+                "url": "http://www.daniels.com/",
+                "hashes": {
+                    "MD5": "b8c3597a296618c3f0bf2440323b2f2f",
+                    "SHA-1": "d9cef2503d14b919cc495d8826fdf20329451592",
+                    "SHA-256": "6c50d189f3f6502c1bc0d89e9a333cb45f4da462c7e0078480e7cd958d3125cc",
+                    "SHA-512": "292e87308ec765eca9e3f6e51a441c36436b87ce040f3973b2d1002ae800cfa9be0913dd06f519c106563172269267f57fcc9cf0e083cfcd6c1eabf7ec91cd2a",
+                    "SHA3-256": "988f688e164b1e4a3e210e64b2e90ef8ac6acf6ab792fac79477439c42cba9b8",
+                    "SHA3-512": "3f734fe34fb18c2bd857b7a823eadc9abf421139f08af684b67d33324fc06db150460f053f8d800c03ff2fd29d2e32ee0964e1a70b7598a3e7f5ffe37ecc3501"
+                },
+                "external_id": "mcHMNymm"
+            },
+            {
+                "source_name": "nature",
+                "url": "https://www.carr-livingston.com/",
+                "hashes": {
+                    "MD5": "32d766ac9a6ec020bdd185b8a411b6c1",
+                    "SHA-1": "3091a5f8333a42ad0ec966730a5b7cd7931cab25",
+                    "SHA-256": "8a6b5ed82eebe44009c73f99582fecbb136be3ada83d469c5a84a21f4d75f294",
+                    "SHA-512": "51e63d84628fa7fa067e96a9a6a3d3c45a709e344df4e275e361d308d03970924aeb1dc63d6cf00ef48a2acf2dd9016dcee8de1a460f68e15325b020cc83aea2",
+                    "SHA3-256": "a7b19f34a9f3eb1fbd934945f1f42d5ed00763d14231513833931f313f90bdd3",
+                    "SHA3-512": "0c863a80284669bd57f4df6be997f9d9b93048ae7f259aa81019f0505f9305ee091bc988f3b0b2e524f7f3ef7264ba590b76a8ec4ef216f9c93427ccea5f9bd8"
+                },
+                "external_id": "WqRARtp"
+            },
+            {
+                "source_name": "think",
+                "description": "Rate international prevent yeah maintain.",
+                "url": "https://rivera.biz/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--217fa540-d098-4a5b-8223-f1cb5e4443a3"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--bbb55eac-3f80-4396-bd0a-83c696aaba27",
+        "created_by_ref": "identity--4a134b21-465e-46f6-8a18-1228b65cd671",
+        "created": "2022-03-31T08:33:33.417169Z",
+        "modified": "2022-09-16T18:07:42.303377Z",
+        "name": "relate",
+        "aliases": [
+            "seem"
+        ],
+        "labels": [
+            "sometimes",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--217fa540-d098-4a5b-8223-f1cb5e4443a3"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--fd3a78a3-5231-4181-8e81-bf5f90be81cf",
+        "created_by_ref": "identity--4a134b21-465e-46f6-8a18-1228b65cd671",
+        "created": "2021-01-29T16:42:54.500325Z",
+        "modified": "2021-08-14T01:08:29.284403Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--68c28c3c-1e8b-4693-86a5-e92062047766",
+        "target_ref": "campaign--bbb55eac-3f80-4396-bd0a-83c696aaba27",
+        "start_time": "2022-06-04T04:51:37.557575Z",
+        "stop_time": "2023-05-27T10:28:05.165057Z",
+        "labels": [
+            "week",
+            "pfte-batch-1"
+        ],
+        "confidence": 87,
+        "object_marking_refs": [
+            "marking-definition--217fa540-d098-4a5b-8223-f1cb5e4443a3"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4a134b21-465e-46f6-8a18-1228b65cd671",
+        "created_by_ref": "identity--4a134b21-465e-46f6-8a18-1228b65cd671",
+        "created": "2022-06-12T14:02:26.264473Z",
+        "modified": "2022-07-27T08:23:50.897397Z",
+        "name": "Stanton LLC",
+        "description": "Fully-configurable context-sensitive moderator",
+        "roles": [
+            "manage",
+            "behavior",
+            "to",
+            "read",
+            "program"
+        ],
+        "contact_information": "Unit 0618 Box 2850\nDPO AE 90844",
+        "confidence": 14,
+        "external_references": [
+            {
+                "source_name": "suffer",
+                "url": "http://www.little.com/",
+                "hashes": {
+                    "MD5": "e6cccba4081e07fb89fac246f96c9453",
+                    "SHA-1": "d060c2361e53c846356c086e24b7e5a0f95af0cb",
+                    "SHA-256": "e28825aa580d4bbf60765194b927aea8d346a92117b520daa88f003e7a8547dd",
+                    "SHA-512": "5ade45091cad41a122c4a019213d7576cafde8b4af7868194ebcb8f0b23a955cd6af139d8cfc86e984ed1bc82bbea88732fb3d50d7c3795ee24cdb95cb5b2f9d",
+                    "SHA3-256": "2dd20424a21fabb2dce63f1739310d62fd38ac4747a8a66dd8865ddd016c556e",
+                    "SHA3-512": "993d43e6bb65e785896671730e574dd02487062242e9c9dabe6dafabd2694a0d05e4f58e48d2502578182a31d82bd9b7452d3d093cb99518d8c37626d9c779cc"
+                },
+                "external_id": "qAQxn"
+            },
+            {
+                "source_name": "age",
+                "description": "Involve performance card security.",
+                "hashes": {
+                    "MD5": "d7b9369afd891a037b3d95733182e293",
+                    "SHA-1": "e225776e90f9dfb8680b5bd72c41873a0ef68f0e",
+                    "SHA-256": "ab46801afdfec29ac2c07b3fc1978bdd06b34299c52aadbadff0cb09782d1356",
+                    "SHA-512": "1f93f867c37fc21fa80b5eb4cdacc361a206832eec5cd3bf986e8754db5e80083f9e1a562a0afb0dbbbd25102b9352fa38847c5c3961c47c281fe704270e04fd",
+                    "SHA3-256": "84a008def76e8d1c81310636500520f401bfc0fb1f57bf429b7bf81961bcf06b",
+                    "SHA3-512": "94bc04727fa838a6aec1d688bf141c938c7c17142960cff1473cc58d43056046de92707d5d02a0c292dd66f63acefb018a2dd1234f76d4dace785a914cd074cb"
+                },
+                "external_id": "bxqHqULfjJsQngZO"
+            },
+            {
+                "source_name": "why",
+                "external_id": "xZAvX"
+            },
+            {
+                "source_name": "notice",
+                "url": "http://lewis.com/",
+                "hashes": {
+                    "MD5": "b189304bbbf8440f7c35414232a6547b",
+                    "SHA-1": "088c4579069a82efb5d65de05ed598a8240f8a97",
+                    "SHA-256": "1530d795fda465446ef38c66d578ce3cf6884186ac05e864c0e8188e4537179f",
+                    "SHA-512": "70031757601f22497771d13d72b00da7c3fccbc31d37101fc662e21c03f5e84676b4d0455d67a0be09474ab860ea3952fcad8b3b4a166da37cd99154113e4736",
+                    "SHA3-256": "02aef94f5ceecb01fce77b8635766465819c37c50f9150fe497b9b7896a58d32",
+                    "SHA3-512": "a9ae6451e20a3130a626353f0668b6e099816c5faa288dcac46aa1c2c40ea088d48233d4fb67d9e31a52f1b31d29c31f274d3aa993b4e84a8092d743dac2a399"
+                },
+                "external_id": "umygZdjQ"
+            },
+            {
+                "source_name": "decide",
+                "url": "https://www.johnson.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--217fa540-d098-4a5b-8223-f1cb5e4443a3"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--217fa540-d098-4a5b-8223-f1cb5e4443a3",
+        "created": "2021-08-14T01:08:29.279843Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f680acaf-ba5a-4af9-ba41-d819400a97d1",
+                "name": "Decide court anything one doctor sound serve nation",
+                "create_date_time": "2021-08-14T01:08:08.428211Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.428042Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

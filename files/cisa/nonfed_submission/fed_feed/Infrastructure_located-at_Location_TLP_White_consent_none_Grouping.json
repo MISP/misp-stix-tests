@@ -1,0 +1,274 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--51326534-89d8-4350-b815-b169448d2b8e",
+        "created_by_ref": "identity--3df22bc7-6eed-477f-aa99-52c79213bb7a",
+        "created": "2022-08-11T05:29:47.301848Z",
+        "modified": "2023-04-10T09:11:42.919034Z",
+        "name": "study",
+        "description": "Body compare station yard maybe.",
+        "infrastructure_types": [
+            "unknown",
+            "control-system",
+            "command-and-control",
+            "exfiltration",
+            "firewall"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "first_seen": "2020-11-13T08:24:26.78433Z",
+        "last_seen": "2021-09-04T02:53:52.142015Z",
+        "labels": [
+            "money",
+            "pfte-batch-1"
+        ],
+        "confidence": 96,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "lot",
+                "description": "Himself simple man grow trouble yourself.",
+                "url": "http://www.bender.com/",
+                "hashes": {
+                    "MD5": "797d8e0038493db920109addd8367b97",
+                    "SHA-1": "07dff83afa0db30dd25fd57988384660e62a0171",
+                    "SHA-256": "af9693ae2f6da6ab04cf3d99e7f1c55f171210c92135c0cb8b122e0fff506da4",
+                    "SHA-512": "b25f42a272d919ea9396abca8515f539ab45844fbb8cec235990b08272c4e2b055bc286e542986d8740e588dc135a2d82220d8ee7453e03a126597d60f6cb636",
+                    "SHA3-256": "570be4547dcf6bd6fe80f424f994db7f41087c2290dcfca8f69040a14e8cb429",
+                    "SHA3-512": "71d0a158796a7cd74c4903e3f3d3d9eb7cec69f3873010663cc522dc7d7eb8c6f99f06bea20e387836b1276a2383beab1428d1c09fdba5297e3ece654282d206"
+                },
+                "external_id": "GVIQCycMMIco"
+            },
+            {
+                "source_name": "never",
+                "url": "http://randolph-cain.com/",
+                "hashes": {
+                    "MD5": "bee649557059c6dab975ba5f48dd5eae",
+                    "SHA-1": "51b225df31ad01beedb131f6a7577426170cb9d2",
+                    "SHA-256": "c0333d2f6d86207b663f399328119b193f933fe224ffc068c930ad97204b22eb",
+                    "SHA-512": "c2f8250a0bc8285283ffa8f06c859ad85b546890d5d37af166df0ff616f33f4c102fbbbea88319cb0dc21c61f1b5705c987da40597fc00c323decd16c2a6c9ed",
+                    "SHA3-256": "248c4382410726605a7c9acdc473646921251fcc01b01203417b857bb661d366",
+                    "SHA3-512": "9b5a64a1a8956a22ff7c3ed53d701853a86bed512efc7cc324a0d98cff17daa7f5215cbd98ee0f3719a9d42683e533bf76f6c2de160859a827664dbf28f78d09"
+                },
+                "external_id": "uJYlejEqCSV"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a82e5ead-407b-4536-83ce-2a96804b4078"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--4c74ad44-69b6-4fda-a721-3e62b399d93a",
+        "created_by_ref": "identity--3df22bc7-6eed-477f-aa99-52c79213bb7a",
+        "created": "2021-12-12T14:36:39.456319Z",
+        "modified": "2022-07-23T14:12:10.082288Z",
+        "description": "Down-sized dynamic data-warehouse",
+        "latitude": 48.71253638328045,
+        "longitude": -147.4206636610091,
+        "country": "Spain",
+        "street_address": "2750 Wayne Loaf",
+        "postal_code": "74399",
+        "labels": [
+            "kid",
+            "idea",
+            "marriage",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--a82e5ead-407b-4536-83ce-2a96804b4078"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--58d8b2c1-b268-43c0-afaa-63adc05930c5",
+        "created_by_ref": "identity--3df22bc7-6eed-477f-aa99-52c79213bb7a",
+        "created": "2019-11-21T03:37:38.44997Z",
+        "modified": "2021-08-14T01:08:49.568031Z",
+        "relationship_type": "located-at",
+        "source_ref": "infrastructure--51326534-89d8-4350-b815-b169448d2b8e",
+        "target_ref": "location--4c74ad44-69b6-4fda-a721-3e62b399d93a",
+        "stop_time": "2021-05-06T04:02:26.9956Z",
+        "object_marking_refs": [
+            "marking-definition--a82e5ead-407b-4536-83ce-2a96804b4078"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--f6ef54ef-630a-4fa2-bdb8-3b2dbc3521d3",
+        "created_by_ref": "identity--3df22bc7-6eed-477f-aa99-52c79213bb7a",
+        "created": "2021-09-06T21:11:18.022438Z",
+        "modified": "2021-09-13T23:47:09.273262Z",
+        "name": "political",
+        "context": "unspecified",
+        "object_refs": [
+            "infrastructure--51326534-89d8-4350-b815-b169448d2b8e",
+            "location--4c74ad44-69b6-4fda-a721-3e62b399d93a",
+            "relationship--58d8b2c1-b268-43c0-afaa-63adc05930c5"
+        ],
+        "external_references": [
+            {
+                "source_name": "note",
+                "description": "Often once weight.",
+                "url": "http://www.edwards.com/",
+                "external_id": "pOAJlLENKBehNJuoZ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a82e5ead-407b-4536-83ce-2a96804b4078"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--a82e5ead-407b-4536-83ce-2a96804b4078",
+        "created_by_ref": "identity--3df22bc7-6eed-477f-aa99-52c79213bb7a",
+        "created": "2021-08-14T01:08:49.566487Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2828523e-b28d-4046-9afc-51d22e18d79b",
+                "name": "Social price record ever reveal physical each",
+                "create_date_time": "2021-08-14T01:08:08.418751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.418527Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3df22bc7-6eed-477f-aa99-52c79213bb7a",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-15T16:02:45.437751Z",
+        "modified": "2022-12-05T11:34:18.76219Z",
+        "name": "EveryGrowthSign",
+        "roles": [
+            "available"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "chemical",
+            "government-national",
+            "commercial",
+            "education"
+        ],
+        "contact_information": "119 Daniel Ramp\nBoydmouth, SC 97428",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "information",
+                "description": "Return involve physical color.",
+                "url": "https://morris.com/",
+                "hashes": {
+                    "MD5": "eec6457bb36953ab1bb71fc07854f924",
+                    "SHA-1": "c8c869135cb4be29831d2592b056b1552f6f8c5d",
+                    "SHA-256": "5de610d051b245496ab73e45c1244b8f29d7590a1a07f2e20baa4dd4e0bee035",
+                    "SHA-512": "298636e05ac02d8d28791c57864ed1ab70a9d530cca41b51a192a375db01e8dd58011ef4ce4e7f60afd2181127913c3d9be0327d46e593efee3948a783678a53",
+                    "SHA3-256": "031e0c77eff4cdc83bbd0711486e93b96541fb033a3de4bee38083fdd154161e",
+                    "SHA3-512": "79e8388d5736d98da6a97fe72d575739603508f584250149c9bfacfb18f1560cb15f12e0e54715c0001407df5c3651a44db6dd608aaeed10b2dff2b4af5c7da0"
+                },
+                "external_id": "ttuPmCb"
+            },
+            {
+                "source_name": "mouth",
+                "description": "Or apply official hand.",
+                "hashes": {
+                    "MD5": "c7311d6a47fda45721f2343e22821153",
+                    "SHA-1": "960dc4a1220bd19fb370655c5832456e993983fd",
+                    "SHA-256": "45374d7d92ddbedea5f4c3ae10c703a45de509440c2c659db355fac82b8a24e1",
+                    "SHA-512": "8c60d6fade982453febe85a02daa689284b10bc632dd15ad30b6f8e18538401cdb38615ea5bee2d9913bfbdf292873b1cde015292bf74e175b3343160f5adc11",
+                    "SHA3-256": "87c47abcc19fb8cce0f4c94e575c03f4377c8b6e9938768a5533b360859780ae",
+                    "SHA3-512": "7c0c00e6c353a7fb693a45c8b793fce5b59c19d1c3439b67d8f2a2055e70dc1b6b8363bc4de7befd2c851294d152993fea6483c996f338261b51679493835de1"
+                },
+                "external_id": "bALTYgM"
+            },
+            {
+                "source_name": "join",
+                "description": "Congress series both table.",
+                "url": "http://harvey.com/",
+                "hashes": {
+                    "MD5": "5bdf24badfa471de89f4969a0d13c149",
+                    "SHA-1": "7cb3be8a1b6de96afc2102b19a2b85ab8d29c166",
+                    "SHA-256": "25186b55ed3734bf5e777b21927681fe6f0a971b1d3a77ebb9682691cda38a5f",
+                    "SHA-512": "791b57456b256c8608248faabfacb3d72c0cd5a241b94c3e200804d8c5c6de388daf65e09ff2d4d51d05daf674e332b8cdd6ab5a74c35ad4ccda25f41484d9fe",
+                    "SHA3-256": "21d607f615fdda5219f97236e2ac9629e41638e08080aa6af68c15bf1c9863d4",
+                    "SHA3-512": "2f500153003bfc45a897cb633ba098370fc70e767db84fab30a6c30d97dab8a96cce790658923017f1cddcbdf93ea6f902a9a79d7e59db1cdbb57710477caf23"
+                },
+                "external_id": "QWJCqGOtPYCYbF"
+            },
+            {
+                "source_name": "office",
+                "url": "http://porter.biz/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a82e5ead-407b-4536-83ce-2a96804b4078"
+        ]
+    }
+]

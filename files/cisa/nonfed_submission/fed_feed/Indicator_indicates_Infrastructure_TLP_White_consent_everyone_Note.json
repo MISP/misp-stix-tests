@@ -1,0 +1,271 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--18491ad4-fef4-4604-b7cf-528c96153016",
+        "created_by_ref": "identity--c50627aa-eb7d-44a1-84be-19de20847911",
+        "created": "2022-06-23T06:31:45.772733Z",
+        "modified": "2022-11-04T08:35:53.392691Z",
+        "name": "guy",
+        "pattern": "[(ipv4-addr:defanged NOT = false) OR x509-certificate:subject_public_key_modulus <= '968845373913843680321551223142' OR mac-addr:defanged NOT = false OR ipv4-addr:defanged NOT = false OR network-traffic:src_ref >= 'ipv4-addr--9dab744a-73de-4210-b39d-ad867670c0d2']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-11-02T06:22:25.766346Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "sumUIJZAsnfMLxZuxd",
+                "phase_name": "VGntpXzfstnhsvhvN"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "external_references": [
+            {
+                "source_name": "all",
+                "description": "Single save significant point a consider with.",
+                "external_id": "SqgYrLoe"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--3f8922ac-a09a-4cbc-9e86-3cad65fc645b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--4e267c3e-f0be-4445-9d15-fb76ac4ed88e",
+        "created_by_ref": "identity--c50627aa-eb7d-44a1-84be-19de20847911",
+        "created": "2021-04-23T11:49:19.582255Z",
+        "modified": "2022-01-14T20:16:00.029633Z",
+        "name": "ground",
+        "infrastructure_types": [
+            "reconnaissance",
+            "command-and-control",
+            "command-and-control",
+            "reconnaissance",
+            "exfiltration"
+        ],
+        "aliases": [
+            "become",
+            "question",
+            "size",
+            "administration",
+            "according"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "labels": [
+            "travel",
+            "why",
+            "avoid",
+            "increase",
+            "employee",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "act",
+                "description": "Any cell entire read moment.",
+                "url": "https://www.sims.com/"
+            },
+            {
+                "source_name": "interesting",
+                "url": "http://mccann-barr.com/",
+                "hashes": {
+                    "MD5": "8ce1156392510be9accfac841eefb4f3",
+                    "SHA-1": "5218e173543545a95bccfc9d96dcae052949efe1",
+                    "SHA-256": "ea9dbeb2e53a54cc683bd7705f10705b2123ec0a07ad98bab6df788a67f32ba7",
+                    "SHA-512": "2e5e89ebc5185c0a439e3e66dd2fa60b435e6e0880a6afba446684d4a531163c2ecaee87a4c6e867c5c0908228b4fe1242b2995b191cc5edeac36a934b432ac3",
+                    "SHA3-256": "43ac992c35e2694ad6f7fdfa099d092092a37b6b17a1f95ecb90a6af572c341f",
+                    "SHA3-512": "91ec938a36bfb724c35c6ae2978dbf6670848740926d5abc634ce6d4202f3e45d72ef56c6ba0d3b3768f605ee36b0144d25667f03283072fcde0836d901d7cc6"
+                },
+                "external_id": "IWmTpsHFvxMzqjxsQSv"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--3f8922ac-a09a-4cbc-9e86-3cad65fc645b"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--58d614d2-c6c3-442f-9c34-2957ded9ab29",
+        "created_by_ref": "identity--c50627aa-eb7d-44a1-84be-19de20847911",
+        "created": "2021-02-01T18:58:09.014911Z",
+        "modified": "2021-10-26T16:25:27.75805Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--18491ad4-fef4-4604-b7cf-528c96153016",
+        "target_ref": "infrastructure--4e267c3e-f0be-4445-9d15-fb76ac4ed88e",
+        "stop_time": "2021-10-26T15:27:43.528979Z",
+        "confidence": 38,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "answer",
+                "description": "Trade evening lose off.",
+                "url": "http://www.martin-middleton.com/",
+                "hashes": {
+                    "MD5": "2116958f0454657e6ae98a5e59510f98",
+                    "SHA-1": "efc023849cb80fdf8ce00fb630f2bc7a18feec8f",
+                    "SHA-256": "0305435198d69f726d47bf11a59932b6c85ef953ee50fb53e49afbaee7db7e8a",
+                    "SHA-512": "cb2c749cc5e1758417e7408ab80c12932b121d2d0df1a4cc85730fc4d98f84ce08eb3789e546bc72382136b1c0cd4a1403acbd020bb934abed6441d746bf289d",
+                    "SHA3-256": "09abe14f089208e768665b1721645dced35e131fad74bf975a38dcd283614bc4",
+                    "SHA3-512": "bba4971021a777cbc35b5eb13f319915f3b50aff520cc6880e5b72b744ab24435986c8c92576abba6b330ff14d5031ed2839194f95395c519acd796dd069c18f"
+                }
+            },
+            {
+                "source_name": "apply",
+                "description": "Participant north Mrs figure ago.",
+                "hashes": {
+                    "MD5": "77bcda9fc4cbdae614970b7bd246ca04",
+                    "SHA-1": "b787cceb4c1f20c64e1b923d971e673a25628371",
+                    "SHA-256": "d2b142f7e196c9e261d751859f1a8c6137885b842cf816fa42fc13392a6e2faa",
+                    "SHA-512": "12fcd549cc8c97855926c3a26dfa6410de92f40ca8e82b17372f472a0876753e5e9cfdbfc02af7fd6cbac9600e518a3ddd967864a5b876c88920b40d331598ee",
+                    "SHA3-256": "114a15cae1657fd391e45c994211442ebb5892bda751bfee8e01eb8f46acae3d",
+                    "SHA3-512": "a2dcece29d6c663b57304aaa92dc802827a68782b3928c8d50422416d12728d9efc7e61dfd633cf20a129b910e1d5dd175273d519789a0b5083a4e403bf0df6f"
+                },
+                "external_id": "XxDRNBPNQOTjoPNGYN"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--3f8922ac-a09a-4cbc-9e86-3cad65fc645b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--d3f33c9c-40c2-461a-8e8a-084c0452941f",
+        "created_by_ref": "identity--c50627aa-eb7d-44a1-84be-19de20847911",
+        "created": "2021-02-17T11:44:12.393266Z",
+        "modified": "2021-12-04T17:31:25.375278Z",
+        "content": "Structure half money good. Exactly throughout read side site keep. Fall do test consider example message time.",
+        "object_refs": [
+            "indicator--18491ad4-fef4-4604-b7cf-528c96153016",
+            "infrastructure--4e267c3e-f0be-4445-9d15-fb76ac4ed88e",
+            "relationship--58d614d2-c6c3-442f-9c34-2957ded9ab29"
+        ],
+        "labels": [
+            "develop",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "challenge",
+                "url": "http://www.chapman.info/",
+                "external_id": "UtdYNigXFhsX"
+            },
+            {
+                "source_name": "whole",
+                "description": "Service record reveal organization.",
+                "url": "https://www.terrell.net/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--3f8922ac-a09a-4cbc-9e86-3cad65fc645b"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--3f8922ac-a09a-4cbc-9e86-3cad65fc645b",
+        "created_by_ref": "identity--c50627aa-eb7d-44a1-84be-19de20847911",
+        "created": "2021-08-14T01:08:29.978921Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c8895e1e-4ecb-48a8-ba6f-5865a3a3066d",
+                "name": "Development get financial fill light",
+                "create_date_time": "2021-08-14T01:08:08.421416Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.421229Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c50627aa-eb7d-44a1-84be-19de20847911",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-13T13:50:32.91162Z",
+        "modified": "2022-04-30T10:12:21.54455Z",
+        "name": "Harris, Stewart and Morales",
+        "roles": [
+            "lawyer",
+            "set",
+            "travel",
+            "himself",
+            "drug"
+        ],
+        "contact_information": "PSC 5005, Box 7725\nAPO AA 86557",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--3f8922ac-a09a-4cbc-9e86-3cad65fc645b"
+        ]
+    }
+]

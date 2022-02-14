@@ -1,0 +1,216 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--9ffa2f44-df47-4940-acb1-ca30e72973fd",
+        "created_by_ref": "identity--99e9b1bb-a2c8-427e-b495-87d2f331a300",
+        "created": "2021-05-24T10:12:33.274354Z",
+        "modified": "2022-01-29T15:34:01.493127Z",
+        "name": "mean",
+        "threat_actor_types": [
+            "insider-disgruntled",
+            "spy",
+            "nation-state",
+            "nation-state"
+        ],
+        "first_seen": "2021-05-07T11:15:05.620492Z",
+        "goals": [
+            "PM",
+            "film"
+        ],
+        "primary_motivation": "accidental",
+        "secondary_motivations": [
+            "revenge",
+            "personal-satisfaction",
+            "personal-gain"
+        ],
+        "labels": [
+            "home",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2f62b2d1-3d78-441e-9f8a-42d36d789c19"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--6f1bf79d-97ba-4069-bc06-33fb8edadb6d",
+        "created_by_ref": "identity--99e9b1bb-a2c8-427e-b495-87d2f331a300",
+        "created": "2021-01-29T03:31:42.842727Z",
+        "modified": "2021-08-14T01:09:35.329994Z",
+        "name": "power",
+        "tool_types": [
+            "denial-of-service",
+            "information-gathering",
+            "network-capture",
+            "denial-of-service"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "AcokVcebxhS",
+                "phase_name": "pyHSClEfOgCgpwlUU"
+            }
+        ],
+        "tool_version": "range",
+        "labels": [
+            "surface",
+            "food",
+            "real",
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2f62b2d1-3d78-441e-9f8a-42d36d789c19"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--43457597-dcc1-4f22-b8ea-549541ba16b8",
+        "created_by_ref": "identity--99e9b1bb-a2c8-427e-b495-87d2f331a300",
+        "created": "2021-03-06T10:03:07.665765Z",
+        "modified": "2021-08-14T01:09:35.330243Z",
+        "relationship_type": "uses",
+        "description": "Check mean letter somebody once. Price meet least money. Government southern teacher place few heavy.",
+        "source_ref": "threat-actor--9ffa2f44-df47-4940-acb1-ca30e72973fd",
+        "target_ref": "tool--6f1bf79d-97ba-4069-bc06-33fb8edadb6d",
+        "start_time": "2021-07-22T11:02:17.107912Z",
+        "labels": [
+            "then",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2f62b2d1-3d78-441e-9f8a-42d36d789c19"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--99e9b1bb-a2c8-427e-b495-87d2f331a300",
+        "created_by_ref": "identity--99e9b1bb-a2c8-427e-b495-87d2f331a300",
+        "created": "2021-04-02T22:31:11.992703Z",
+        "modified": "2021-08-14T01:09:35.330761Z",
+        "name": "Brewer-Wilson",
+        "roles": [
+            "approach",
+            "field",
+            "finally",
+            "growth"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "automotive",
+            "retail"
+        ],
+        "contact_information": "689 Derek River\nWheelerberg, HI 50844",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 99,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "number",
+                "url": "http://cordova.info/"
+            },
+            {
+                "source_name": "second",
+                "external_id": "xEBbMWHcqXEi"
+            },
+            {
+                "source_name": "daughter",
+                "url": "https://caldwell.info/",
+                "external_id": "qwFAdbkJwEZBw"
+            },
+            {
+                "source_name": "off",
+                "url": "http://medina.com/",
+                "external_id": "eATQaogIFzCeMlK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2f62b2d1-3d78-441e-9f8a-42d36d789c19"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2f62b2d1-3d78-441e-9f8a-42d36d789c19",
+        "created": "2021-08-14T01:09:35.328961Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6d40bd19-4710-4b69-9440-86c8c2a858b4",
+                "name": "Purpose response respond always trouble later investment",
+                "create_date_time": "2021-08-14T01:08:08.431664Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.4315Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

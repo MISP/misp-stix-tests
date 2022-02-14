@@ -1,0 +1,166 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--b6042519-925e-447c-9d60-0e07d432372a",
+        "created_by_ref": "identity--7b83a014-0989-40a5-aa83-13c7613b6d2b",
+        "created": "2021-10-23T06:46:36.316023Z",
+        "modified": "2022-07-31T08:48:14.741221Z",
+        "name": "professor",
+        "description": "Find bar stop mention every us.",
+        "first_seen": "2022-02-28T17:53:23.258886Z",
+        "last_seen": "2022-07-03T01:52:05.110598Z",
+        "labels": [
+            "thing",
+            "pfte-batch-1"
+        ],
+        "confidence": 56,
+        "object_marking_refs": [
+            "marking-definition--59de1e60-8d2d-4864-bcdc-3c18fb43a246"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--975540ba-ff3a-44d6-a686-07e41cb25c89",
+        "value": "http://james.com/",
+        "object_marking_refs": [
+            "marking-definition--59de1e60-8d2d-4864-bcdc-3c18fb43a246"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f68ba1c7-5314-451b-b922-519859706f27",
+        "created_by_ref": "identity--7b83a014-0989-40a5-aa83-13c7613b6d2b",
+        "created": "2020-09-05T18:04:14.225745Z",
+        "modified": "2021-08-14T01:08:41.495337Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--b6042519-925e-447c-9d60-0e07d432372a",
+        "target_ref": "url--975540ba-ff3a-44d6-a686-07e41cb25c89",
+        "start_time": "2021-12-31T20:52:30.383958Z",
+        "stop_time": "2022-11-26T08:04:21.058846Z",
+        "confidence": 53,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "audience",
+                "description": "Seek teacher bed bed process number conference.",
+                "hashes": {
+                    "MD5": "a01496e5ba45614edeb7e98d38a9fb9d",
+                    "SHA-1": "c8da577ee06d6e7484bf5def829940e696581e0c",
+                    "SHA-256": "c6ce51f95bd63236f41e6d062711810d64490ff317d0e13c732ae44eebe10fbc",
+                    "SHA-512": "adce4ae22874ac22d222bb70c1d2697a39b93133ffb27a19e2f4b5e10adbc4e419b6c38f4499a751ec8c47b27ae21ddef9dbc027a461cd26855060e81e674d44",
+                    "SHA3-256": "9c448f94f6d67a4c994fd09b9a95cfbc930935dbf7be80cd4b6d496926074590",
+                    "SHA3-512": "da1b6b38e9f8fec17737114549f9bc74c42a6d2bfb1c7591f49e74fba0915b5c43159a8f5b626690cf0d22ee7e6913c962226c281702633b2c702b7da452403f"
+                },
+                "external_id": "EFBwUQopupXBuDVoTSKV"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--59de1e60-8d2d-4864-bcdc-3c18fb43a246"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--59de1e60-8d2d-4864-bcdc-3c18fb43a246",
+        "created_by_ref": "identity--7b83a014-0989-40a5-aa83-13c7613b6d2b",
+        "created": "2021-08-14T01:08:41.494269Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f98cddfd-8461-4143-a969-e6e230df21d4",
+                "name": "Word describe cold color",
+                "create_date_time": "2021-08-14T01:08:08.422252Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7b83a014-0989-40a5-aa83-13c7613b6d2b",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-18T00:27:22.253291Z",
+        "modified": "2022-05-29T20:37:06.500535Z",
+        "name": "Castaneda, Hamilton and Barker",
+        "description": "Customizable zero administration toolset",
+        "roles": [
+            "from"
+        ],
+        "sectors": [
+            "education"
+        ],
+        "contact_information": "913 Diaz Keys\nNorth Davidmouth, UT 12989",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "country",
+                "url": "http://www.taylor-miller.com/",
+                "external_id": "WmwtaXX"
+            },
+            {
+                "source_name": "four",
+                "description": "Wrong successful speech town.",
+                "url": "https://shepard.com/",
+                "hashes": {
+                    "MD5": "767205d351be63c9b43fe8e764c15eb8",
+                    "SHA-1": "c85545bf2b92c8c944f0fb09f2807fd5ba6d1801",
+                    "SHA-256": "1641bcee29e0a7422a41fc7912f38245bf169f788e28628575015900686d3a6e",
+                    "SHA-512": "bd46ea83c0e2527ea0c206bf3e725d799df4d4f1550fb01ce66c6b128dd3fcd3bb9114da6d1db0a9056420769e3ea61d420bce0d527de3d6d5a330aac448d4d4",
+                    "SHA3-256": "18262bd25afc69ac60c1bda677d3f42a8d24296609d872336412b583d0653c72",
+                    "SHA3-512": "fef1bb937142d6fdd670112e183e39b6ae644718d588c2bd27f89ee51cffa8ccc113eff88505834843391b2f9cdeaed5d79e37587ea3ee53f466ccf318329705"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--59de1e60-8d2d-4864-bcdc-3c18fb43a246"
+        ]
+    }
+]

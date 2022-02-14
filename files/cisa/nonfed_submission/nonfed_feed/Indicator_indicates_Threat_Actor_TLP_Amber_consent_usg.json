@@ -1,0 +1,234 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--fc9cf0f8-432e-4f94-8980-54c4b416262f",
+        "created_by_ref": "identity--208e4756-a32e-4128-8b94-535cf79398b6",
+        "created": "2022-07-05T07:08:45.580574Z",
+        "modified": "2022-12-06T04:18:15.542429Z",
+        "name": "truth",
+        "indicator_types": [
+            "anomalous-activity",
+            "unknown",
+            "compromised",
+            "unknown"
+        ],
+        "pattern": "[domain-name:defanged = false] FOLLOWEDBY [mac-addr:defanged NOT = false AND (mac-addr:defanged = false)] FOLLOWEDBY [x509-certificate:defanged NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-09-11T07:57:32.762913Z",
+        "valid_until": "2021-04-03T06:43:09.720442Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "rBRmzccYsDlOiWbd",
+                "phase_name": "bmmHgJCiZrzCOQCCr"
+            },
+            {
+                "kill_chain_name": "eYyFTBUZqyjI",
+                "phase_name": "KwWum"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "labels": [
+            "out",
+            "various",
+            "create",
+            "view",
+            "amount",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--8622020e-1374-4745-8f09-f7a1705844ac",
+        "created_by_ref": "identity--208e4756-a32e-4128-8b94-535cf79398b6",
+        "created": "2021-06-21T11:34:48.761347Z",
+        "modified": "2022-01-19T18:49:18.366616Z",
+        "name": "event",
+        "threat_actor_types": [
+            "crime-syndicate"
+        ],
+        "last_seen": "2020-09-17T11:11:27.097043Z",
+        "roles": [
+            "sponsor",
+            "independent",
+            "independent"
+        ],
+        "goals": [
+            "away",
+            "space",
+            "white",
+            "nature",
+            "improve"
+        ],
+        "resource_level": "team",
+        "labels": [
+            "people",
+            "who",
+            "pfte-batch-1"
+        ],
+        "confidence": 17,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "interest",
+                "description": "Finish us method box practice.",
+                "url": "https://www.johnson-smith.biz/",
+                "hashes": {
+                    "MD5": "9a3394a3cdac26de39542e717090f22d",
+                    "SHA-1": "a5dcdee75a3e48e2ae1981342f5611559b646062",
+                    "SHA-256": "00d07e0d03e6c85b2024ec1349ce2b6111630561e5d7ad2e58cca96701ffc6e5",
+                    "SHA-512": "50a0b232bdbfd560b50708a84205d0026400625bdc6ab61ed16b5c3c49f7785d88279d771f13f136bd07514d9614b36602d2b9aeb6b13b57e4bbe19b82e82ecd",
+                    "SHA3-256": "bde50dafafc874c7f37027d4a4239e605c6b5b50e11ad627927aa8a6063df889",
+                    "SHA3-512": "f7d9fb9c725dc0f6b53fe9d2df07362a42ac599a81ed4876b9b47b25f53493f146a70534d09b8c39d3c49091059847c09b794401518687d39f469bd9c50b3790"
+                }
+            },
+            {
+                "source_name": "unit",
+                "description": "Under before apply prove pass.",
+                "url": "http://www.lopez.net/",
+                "external_id": "FiOkcOjfjgkEGmqo"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--dcafd166-0861-4f3a-852f-be31bf2574c5",
+        "created_by_ref": "identity--208e4756-a32e-4128-8b94-535cf79398b6",
+        "created": "2022-04-08T16:56:36.550686Z",
+        "modified": "2022-04-25T14:48:10.788643Z",
+        "relationship_type": "indicates",
+        "description": "Center toward effort art hear. Also off and order along action choose reflect. Join type answer side.",
+        "source_ref": "indicator--fc9cf0f8-432e-4f94-8980-54c4b416262f",
+        "target_ref": "threat-actor--8622020e-1374-4745-8f09-f7a1705844ac",
+        "start_time": "2021-08-07T19:06:10.581094Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "father",
+                "description": "Where computer health image no population PM theory.",
+                "hashes": {
+                    "MD5": "29524780380489d47d70fc322b189cc5",
+                    "SHA-1": "9d8cd8858a4f1fe7a80730e3a2f065519c81a80f",
+                    "SHA-256": "2b0c1ad9cb9407d57293ddcdee9378d7eb7bb64749a7877b5b588efba41f426a",
+                    "SHA-512": "8b31156c1644eae4448e337c676089632d05f4fc42198950a73c204bf0e7859f614c53f4bdd35b96e7cf0cf59fdf128b32212fc17ed037efdeaa19c1879304d9",
+                    "SHA3-256": "8c75cdf500d2db2ddc4e5515f21460095fa5e6556533f1bb9ed5d88671f669cf",
+                    "SHA3-512": "a45733640aa396a168503b6d2667e2bbcabd31dc0daed6033f587c8ab7ed99522826632ddee1bb9f8335eb80622fdd283c5d67d105f8aa89a8eb5dcd3f986b00"
+                },
+                "external_id": "JTbcuemitdu"
+            },
+            {
+                "source_name": "herself",
+                "description": "Help television modern whether consider let collection return.",
+                "hashes": {
+                    "MD5": "746c5736e124584024c72b686660f965",
+                    "SHA-1": "2aa2fc0723977157dc682c82204f21e7a6c6cb07",
+                    "SHA-256": "3a2f0aae2a26bc4a3ea9ad52ba3adccbbca098cee97d5eb4c26502ad4de17f2f",
+                    "SHA-512": "e9088862a94e06b18746497f309c7e8acfbbadcad1e668735e3b51e52dfed93c1328247420f02d30cc939438eabe117e11a05c1c1e7ec01548b6e54c4ccd2d05",
+                    "SHA3-256": "0e164d62bc5a29295bacdfabcdcc7747a06c2cba06d09b0d313c66bbc2238193",
+                    "SHA3-512": "b6e7867b1e759725d14b35d80cc9f32895bd6db0acf90410d9741dcb896b8dbf000231b4f2dea019f73b1490b420182e00312a6952b9b96de7e27d645f7fdff4"
+                },
+                "external_id": "QnLVYwWQXHTQfUOqH"
+            },
+            {
+                "source_name": "year",
+                "description": "Chance receive fill magazine.",
+                "external_id": "bQPiqWbmdjbBjXSCXRd"
+            },
+            {
+                "source_name": "half",
+                "url": "http://morales-martin.com/",
+                "external_id": "AwzqIdDYY"
+            },
+            {
+                "source_name": "serious",
+                "description": "Describe manage industry local agency seat.",
+                "url": "http://www.carlson.com/",
+                "external_id": "cmQFbT"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--208e4756-a32e-4128-8b94-535cf79398b6",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-17T16:18:08.588088Z",
+        "modified": "2021-08-25T18:49:34.265533Z",
+        "name": "TimeStandNothing",
+        "sectors": [
+            "emergency-services",
+            "infrastructure",
+            "government-regional",
+            "transportation"
+        ],
+        "contact_information": "70606 Simmons Road\nNorth Danielville, DE 85957",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "affect",
+                "url": "https://www.patel.net/",
+                "external_id": "IVteprpHRXWpvSiua"
+            },
+            {
+                "source_name": "PM",
+                "description": "Yet Republican set mother whom age offer.",
+                "url": "https://conway-black.net/",
+                "hashes": {
+                    "MD5": "67f19e3843c70b02a3cb016b328be033",
+                    "SHA-1": "36cb77dbaf65af2dd1f4ee3db9f23c3e8ff928f7",
+                    "SHA-256": "11ac0285ad9eeacba1df3d1bb99dbe81e26ebe876ad705d8cd96910bf636157f",
+                    "SHA-512": "30c8483cdbfe7886c6d95a9cd6e4f2bfd6a0e76537d1b14c46ba0af4a7848bdefcfc7e3d5402b97b2bdcaaa49c1f65bed6b5a771d5d914d75b46d539cddaf310",
+                    "SHA3-256": "f4bf960b13df19f76a2b88923b4cea8633cc9285c939caa0ffb20b194ee3aa0d",
+                    "SHA3-512": "b5d4440b947f3cf5a9c53fb6ad7955e264647bc9bcf7266810be39d84b10dc075b012ed78188fef78ed9962dc51a733b047b9eb3decdfac51c23b2de73ea6743"
+                },
+                "external_id": "aVeUwdjdIAbCfMFpAMiA"
+            },
+            {
+                "source_name": "fear",
+                "external_id": "lKuvzbfa"
+            },
+            {
+                "source_name": "choice",
+                "description": "Coach participant remember debate research.",
+                "url": "https://spence-shah.com/",
+                "hashes": {
+                    "MD5": "28143e6b4860a12f6356fad54b5c0104",
+                    "SHA-1": "acbb7cdcca009079dbc4f6dfc535fd0b61f4bc5f",
+                    "SHA-256": "f20c3ee186d7aabfdea0fb0d686b63d1140ea8d8680d6c85c34bb6c07e175c7e",
+                    "SHA-512": "4ec59142c9e837b6bdd3ba9a1080ab73fab55edc6484f111d97fdc404140f9835eb3c277da15ce3140c0e9bb59425d814b01c4f391c694ec7edada650464274e",
+                    "SHA3-256": "eef84fa5116d7c287971f065ac210a4bebf67f1893e847d8a859f1e8644428b2",
+                    "SHA3-512": "06f489a7ff47aadebe55e8c95cc7ecccf2fed9c939fe2a405d648cb3ef7f7d6b2aca5e3c679aa2b5b25e53a8edb73b8c8746413f467048d9e99eb30ffec6d1d9"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

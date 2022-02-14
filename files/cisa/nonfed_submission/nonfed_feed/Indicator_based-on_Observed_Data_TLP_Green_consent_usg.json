@@ -1,0 +1,143 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--843f02e4-d99c-4264-8f86-4733c6a08749",
+        "created_by_ref": "identity--969c04a1-dc2b-4233-b46f-a0bedef83f30",
+        "created": "2020-12-25T15:09:44.206077Z",
+        "modified": "2021-08-14T01:08:36.216501Z",
+        "description": "Relationship event table rich prevent perform staff.",
+        "indicator_types": [
+            "compromised"
+        ],
+        "pattern": "([ipv6-addr:value < 'a170:bd9a:e90e:5e74:56ec:c2e6:1f50:7a5'] OR ([file:name < 'without.pptx'])) FOLLOWEDBY [process:created_time NOT = t'2021-04-25T13:09:17.861125Z'] FOLLOWEDBY [ipv6-addr:value >= 'ffd4:31fa:7fad:e88f:66e7:e627:bad2:6880']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-01-07T22:24:02.942922Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 40,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--822f072c-47fd-4e31-ad36-498d3063148a",
+        "created_by_ref": "identity--969c04a1-dc2b-4233-b46f-a0bedef83f30",
+        "created": "2020-09-27T18:25:51.100778Z",
+        "modified": "2021-08-14T01:08:36.219708Z",
+        "first_observed": "2020-09-14T19:03:57.274079Z",
+        "last_observed": "2021-02-24T16:27:35.726516Z",
+        "number_observed": 306554717,
+        "objects": {
+            "domain-name--5767ce13-ed8d-4b97-bfa6-57ea8881cf60": {
+                "type": "domain-name",
+                "spec_version": "2.1",
+                "id": "domain-name--5767ce13-ed8d-4b97-bfa6-57ea8881cf60",
+                "value": "rojas.com"
+            },
+            "network-traffic--3ae00de4-444c-466a-8352-c89e878c8a26": {
+                "type": "network-traffic",
+                "spec_version": "2.1",
+                "id": "network-traffic--3ae00de4-444c-466a-8352-c89e878c8a26",
+                "start": "2021-02-20T01:06:34.522201Z",
+                "src_ref": "domain-name--5767ce13-ed8d-4b97-bfa6-57ea8881cf60",
+                "dst_port": 33331,
+                "protocols": [
+                    "ipv4",
+                    "tcp",
+                    "http"
+                ],
+                "src_byte_count": 613243,
+                "dst_byte_count": 868533,
+                "src_packets": 967977,
+                "dst_packets": 252270
+            }
+        },
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ec349568-bdc8-4b0d-aa3b-918a76bca577",
+        "created_by_ref": "identity--969c04a1-dc2b-4233-b46f-a0bedef83f30",
+        "created": "2021-02-22T09:30:13.17739Z",
+        "modified": "2021-08-14T01:08:36.220706Z",
+        "relationship_type": "based-on",
+        "source_ref": "indicator--843f02e4-d99c-4264-8f86-4733c6a08749",
+        "target_ref": "observed-data--822f072c-47fd-4e31-ad36-498d3063148a",
+        "stop_time": "2022-08-02T10:32:03.54569Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 29,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--969c04a1-dc2b-4233-b46f-a0bedef83f30",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-01-05T17:21:25.447058Z",
+        "modified": "2021-08-14T01:08:36.221297Z",
+        "name": "DespiteDownBall",
+        "description": "Vision-oriented radical help-desk",
+        "contact_information": "61746 Emma Highway Suite 091\nConleyton, NE 11477",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "road",
+                "description": "Will finally play piece particularly administration.",
+                "url": "https://www.lowe-klein.info/"
+            },
+            {
+                "source_name": "low",
+                "external_id": "iDNLNnGpzaTQ"
+            },
+            {
+                "source_name": "current",
+                "description": "Available college on subject.",
+                "url": "http://evans-morris.biz/",
+                "hashes": {
+                    "MD5": "47c2ae0b220a5f2551f14592ac50f737",
+                    "SHA-1": "168628300d3e340e635e4140b5762c10178b205d",
+                    "SHA-256": "89408f99aca6fc87f276972e2cdddb4af18f25f63bb9268f65f2b2e9f5547239",
+                    "SHA-512": "de6cd9eecca1bd1efa97cf1c0b317209bdaed9517b0ebed0e2d4b0ed6a0840fc134cefda5db4c08a144abc23a4527ab15ebb78f7320254e85e97218c2ed52dd1",
+                    "SHA3-256": "0b0a435bfb9a15a276c256918add8ae2e7e3e613fe8c09485ff49619f8f4b8e4",
+                    "SHA3-512": "97f28f5a60b33ab4c1248bd0f51c0b1b6091c41b1ecce5a67a1fc456cc0493a251be961b127eac35674861fe82eb67898dd8db408fc94145f1ccac946b4ae395"
+                }
+            },
+            {
+                "source_name": "ahead",
+                "url": "https://www.foster-campbell.com/",
+                "hashes": {
+                    "MD5": "175c0b10b2049bd192ff2f9793a9f1ef",
+                    "SHA-1": "07aff41b0bf6f5c7c19e86903a26c73b45daf2b5",
+                    "SHA-256": "03a577526451c8b424416ea819c2bde4fb350981038eff0b58a8f1256c38350c",
+                    "SHA-512": "d6ef4e5a64c4705781f16956ee7535e883b5cbc038d3985ebc88d1ed303139f3bee96ea9d6cd7801caf1239cc01a0d90670c0d8f15b080ef567e958d259e9d23",
+                    "SHA3-256": "1cf19df18ed94ca59b0840769313980c98b0cc0bb451e7a6d819c8808ffeea35",
+                    "SHA3-512": "9fc8c69fe3456d36ed6563a04ace530d74a6b0d677cc3a287e6960737d036679337a9ce3bf08a643f54b5f4f59052a14d52cce859dec70b222669891ce8c2a3c"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

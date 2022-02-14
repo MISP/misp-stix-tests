@@ -1,0 +1,200 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--1503aa0a-e2c0-480f-8996-84d3289c781b",
+        "created_by_ref": "identity--692ae5a1-5a20-44ac-995e-e80b597b0b68",
+        "created": "2022-06-09T08:19:27.512714Z",
+        "modified": "2022-12-06T10:52:54.607981Z",
+        "name": "discover",
+        "indicator_types": [
+            "unknown",
+            "benign",
+            "anonymization"
+        ],
+        "pattern": "([url:value > 'https://williams-estes.com/'] OR (((([file:name NOT = 'admit.html'] OR [email-message:date NOT = t'2021-08-07T15:35:40.292621Z']) AND [file:hashes.MD5 = '68a0f57dccb21fc9bdc81431da28f7cd']) FOLLOWEDBY [mac-addr:defanged NOT = false])))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-04-28T20:17:13.785059Z",
+        "valid_until": "2022-03-06T04:39:50.998183Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "wonder",
+                "description": "Better political head fish.",
+                "url": "http://www.davis.net/",
+                "hashes": {
+                    "MD5": "b08a1c84589022540aab10d25debc327",
+                    "SHA-1": "74c804e97cf20e65b04bc173277c786a1271dac8",
+                    "SHA-256": "55c21ca8ab96e1bbff4c0687553a9ce53fa21b79f40be419a68679f657f214d9",
+                    "SHA-512": "5caa2ea06c00920e8714dab6bd6038418f3ceb467556cb90f3b135df0521b7b1c621fde26a2d480c474d72dbd187bd3a1913ed21e312ffe0925e75efeacd4303",
+                    "SHA3-256": "45cb1ab7a8c75d9ab8e99b7cd69ee0e4241cbda330e1cf6467bd3cd2266d2b74",
+                    "SHA3-512": "92628305ef2a04f36af00b523c49ff1cabbec3390e1147706a54803b991f1a9b062d8343a121d4decff5dc4a0cf0c180f152bd27474b2be5848c7b1dd4264184"
+                },
+                "external_id": "xZeMhdfwV"
+            },
+            {
+                "source_name": "recently",
+                "hashes": {
+                    "MD5": "6e412f589641d8022be64f10d35c07b9",
+                    "SHA-1": "f67fb7545526cad53856d04f682cf6c6c04f43b8",
+                    "SHA-256": "3a1cb28b335d53c136cae8e208e3e542ae065a1c54c9a7958e58568f43087c8e",
+                    "SHA-512": "0d74097604593850aa39156bf2900b283db82d7aaf5d5a353ca7426856c822efaa8616aab87ccdb37ddff3db449d7741a566ee61a10c62bb75931e7b6ef76ef5",
+                    "SHA3-256": "2314b25809a6f1ec31c9d44e6e98135052b5acc573d26c7e13522e81a0589f15",
+                    "SHA3-512": "bf3dbbfe357fc6574a2ab464b03468a1399a8c19e5c2950cb752f3f2e070b17acc6e24ba969cc15ce68e18bc0c1b32f98d5b96d61e4415dd809939f5955adc05"
+                },
+                "external_id": "zSuVds"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--b238d18e-f555-4951-b8de-242d0d984b1d",
+        "created_by_ref": "identity--692ae5a1-5a20-44ac-995e-e80b597b0b68",
+        "created": "2021-05-21T19:51:13.623793Z",
+        "modified": "2021-08-14T01:08:34.976384Z",
+        "name": "radio",
+        "aliases": [
+            "significant",
+            "while",
+            "happen"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "Dxwlrj",
+                "phase_name": "BETZJOJVRGJg"
+            },
+            {
+                "kill_chain_name": "gpHRgifo",
+                "phase_name": "PxyyRDSllKHJ"
+            },
+            {
+                "kill_chain_name": "HRmiYorodLAN",
+                "phase_name": "PJXgUfRowhWtqdcg"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 32,
+        "external_references": [
+            {
+                "source_name": "point",
+                "description": "What like answer expert.",
+                "url": "https://www.griffin.com/",
+                "hashes": {
+                    "MD5": "24b928ec3006faab96bffa6a912e6443",
+                    "SHA-1": "3d47603017e74f3e0f4aa185813bbddaae5b3c1a",
+                    "SHA-256": "993f7df5026cc8c3bc6c7ca02279c73937aebfd32932ce3f48a014158dd94fcb",
+                    "SHA-512": "3368f985549220530022cfcbe06ed1b5605c837181c4249e3d92dd892e7197c5de753942309361a0e83b3b04a6c00e908594efbf1a62b91cddfde9662dede1b5",
+                    "SHA3-256": "f8055f09519a3d2c8b1b977702c01dc938191638a8866507399e1579211ae191",
+                    "SHA3-512": "782e13b71150975408cd44fbf685dcdc1150f26e119f994c77b768e8c0a69c27008f3496988583140fef3e0f4dee696aeea79a0e829939d02822c2f81174b180"
+                },
+                "external_id": "kiWsKUEOfBMxPJO"
+            },
+            {
+                "source_name": "go",
+                "description": "Toward firm none suffer rise keep seem medical.",
+                "url": "http://white-woods.info/",
+                "hashes": {
+                    "MD5": "273a2fb0c818aa5313fcab9eee955d61",
+                    "SHA-1": "ff012133284f7602e3ec133eba16bd32738713c4",
+                    "SHA-256": "e44eb7d54217c8c754fdfcfc8365703dbeaa636740290abd5594fc9f6679fef9",
+                    "SHA-512": "6d19ab7b4c9bec447640cfb2327abb49e5b9f554a90b9c41c4c31c040bc1564a8a99a0014c14cfe63fc8b67a1cfb8ac77f44722a23ea159bdbf7df36f1e28242",
+                    "SHA3-256": "bffd9c67171a03a4d52d2078ededc35649a49074960eecef9db134df739eced0",
+                    "SHA3-512": "2063f227da7fd1a7cafa8c3104ba0528d581d0743d9b7b489cf8a0b167bd1b999290fa497343521e103586461334581a91f8620a7d1649eb67a0c6a18e7073d2"
+                },
+                "external_id": "sypLIWvLUyWLP"
+            },
+            {
+                "source_name": "nothing",
+                "description": "Population state green policy action bed old.",
+                "hashes": {
+                    "MD5": "f499fb995ed28bbe6569d1dc02e1af31",
+                    "SHA-1": "13a5ad7119a5e2463c77539dad3470a40d6a31f2",
+                    "SHA-256": "b072f4b7d6b7c3fa5a6321f8843a48576e35fca99c5353c4d7dc85bcd6efc2a4",
+                    "SHA-512": "8aeefa70a622de9e0f9e087050eeeb03b96ce6bc438b9a79f1428d40dcea771b8989eb9d36cb19972445b75b268f87cfb586382dd3db6ce4f932cf6c64f06363",
+                    "SHA3-256": "141f1176923b7a0259a16c8b1701f5e76f8b9fd1b7db1d80d41f0d59127bd425",
+                    "SHA3-512": "b10fd4c30008d5e6eb4d2a961010eeac3f6fec7a019093d627455f554d2af826c4cb7fb33e45f6120f7aa8489396adea5f09f818a8c8bf415122d2515bc0e42b"
+                },
+                "external_id": "IQuZcwhqzZPYzTa"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--c96efa79-c949-4012-9001-084b5c7fa305",
+        "created_by_ref": "identity--692ae5a1-5a20-44ac-995e-e80b597b0b68",
+        "created": "2021-04-13T09:04:54.250642Z",
+        "modified": "2021-08-27T05:18:03.24566Z",
+        "relationship_type": "indicates",
+        "description": "Medical across culture southern oil culture enter. Rise film season sort.",
+        "source_ref": "indicator--1503aa0a-e2c0-480f-8996-84d3289c781b",
+        "target_ref": "tool--b238d18e-f555-4951-b8de-242d0d984b1d",
+        "stop_time": "2020-11-15T17:52:22.499625Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 52,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--692ae5a1-5a20-44ac-995e-e80b597b0b68",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-30T05:25:44.124388Z",
+        "modified": "2021-08-14T01:08:34.977204Z",
+        "name": "Thompson-Curtis",
+        "description": "Function-based mobile collaboration",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 66,
+        "external_references": [
+            {
+                "source_name": "every",
+                "description": "Despite really use walk read if win.",
+                "external_id": "RvZuBwArxHDmmx"
+            },
+            {
+                "source_name": "none",
+                "description": "Everyone yard he health learn.",
+                "url": "http://walsh-brown.info/"
+            },
+            {
+                "source_name": "onto",
+                "description": "Here itself keep four foot member wife.",
+                "url": "https://www.rasmussen.com/"
+            },
+            {
+                "source_name": "capital",
+                "hashes": {
+                    "MD5": "5d014d76606eed76de37881cf167c59e",
+                    "SHA-1": "d12ffa95a18f3f79fa3ad71a2d275f497a3df32a",
+                    "SHA-256": "fcc10816a97816d5ccd6d3d81c8201f5627c9f5055be650d87f4192c04d78489",
+                    "SHA-512": "ecf59c6c4d0916c94242c1397f063c78dbf9761debde709357b35c975d2c691091f973ba808eb0370b5d88c248e2b86ba55523cf9a3ee7f3be9c36a9cd619d36",
+                    "SHA3-256": "bd28804af4860580bc1cffce2cb9113f05b6ea080c21346d9850dd6b6eb7ebc7",
+                    "SHA3-512": "22331d314ae12f7cab63b97e6211da4d468dc789166013065c8663a81c0ca3dfdf76e704d35fb738dc29fbf8d22822b79317c784556083c8fd6cf7b6a21b6674"
+                },
+                "external_id": "qufhgtiXtWlEfnFlUPF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

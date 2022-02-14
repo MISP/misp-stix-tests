@@ -1,0 +1,224 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--4fc20c65-3b3f-4dd7-809a-d44f41b33954",
+        "created_by_ref": "identity--6655f52d-91fa-467b-b99f-30c56fe5a568",
+        "created": "2021-01-15T08:49:44.421949Z",
+        "modified": "2021-08-14T01:09:27.140936Z",
+        "name": "ten",
+        "aliases": [
+            "beautiful",
+            "that",
+            "class",
+            "same"
+        ],
+        "last_seen": "2020-09-18T09:44:40.634364Z",
+        "secondary_motivations": [
+            "unpredictable",
+            "organizational-gain",
+            "dominance",
+            "personal-satisfaction"
+        ],
+        "personal_motivations": [
+            "dominance",
+            "dominance",
+            "dominance"
+        ],
+        "confidence": 69,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--bec11eb7-35e2-4061-84cd-3c84978fb844"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--077cd27b-f36b-4118-851d-abe5dc4f3236",
+        "created_by_ref": "identity--6655f52d-91fa-467b-b99f-30c56fe5a568",
+        "created": "2022-06-23T12:53:54.179335Z",
+        "modified": "2023-03-24T15:21:56.084341Z",
+        "name": "participant",
+        "infrastructure_types": [
+            "phishing",
+            "hosting-malware",
+            "phishing",
+            "staging"
+        ],
+        "first_seen": "2022-04-06T02:29:09.551395Z",
+        "labels": [
+            "service",
+            "pfte-batch-1"
+        ],
+        "confidence": 30,
+        "external_references": [
+            {
+                "source_name": "station",
+                "url": "https://thompson.org/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--bec11eb7-35e2-4061-84cd-3c84978fb844"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8c95cbe8-c2f2-4648-8ec1-5381f8eca3a2",
+        "created_by_ref": "identity--6655f52d-91fa-467b-b99f-30c56fe5a568",
+        "created": "2020-01-18T17:27:51.128115Z",
+        "modified": "2021-08-14T01:09:27.141631Z",
+        "relationship_type": "owns",
+        "source_ref": "threat-actor--4fc20c65-3b3f-4dd7-809a-d44f41b33954",
+        "target_ref": "infrastructure--077cd27b-f36b-4118-851d-abe5dc4f3236",
+        "object_marking_refs": [
+            "marking-definition--bec11eb7-35e2-4061-84cd-3c84978fb844"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--bec11eb7-35e2-4061-84cd-3c84978fb844",
+        "created_by_ref": "identity--6655f52d-91fa-467b-b99f-30c56fe5a568",
+        "created": "2021-08-14T01:09:27.14014Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3d6ad3e0-0112-4a6d-8546-447c0e169799",
+                "name": "Space side determine future",
+                "create_date_time": "2021-08-14T01:08:08.419249Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6655f52d-91fa-467b-b99f-30c56fe5a568",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-16T11:28:39.992484Z",
+        "modified": "2022-08-13T21:16:06.00922Z",
+        "name": "MotherPriceRise",
+        "description": "Operative demand-driven contingency",
+        "roles": [
+            "move"
+        ],
+        "contact_information": "82479 Williams Squares\nEast Kevinville, CA 23260",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "movement",
+                "description": "Real economy pick recognize never.",
+                "url": "http://garcia-henry.org/",
+                "hashes": {
+                    "MD5": "4b221109da159717c48b599f0d13ff44",
+                    "SHA-1": "bf8b8b8f6ff4356d61771ccd208c72237509c636",
+                    "SHA-256": "2c8c8c888aa951afe2fae20adc3d433047dbd78e5d0e34c966000e12082fd932",
+                    "SHA-512": "8b5d454a6f3980ed72ab0709a47baf627bc1283d0593127ec4fe5986b3cf6ba3ed8138f19b51e3156afa4a839b2e21d8d3736868784bfb53a41b0dc9daae431c",
+                    "SHA3-256": "5bd6db8080b4f1b90cec4e74edfbfb7f4197a82b0a2d2ccb1758733791090895",
+                    "SHA3-512": "c164c905424347ea860796368ea47bbfe8a9d12944747a52718266b5ce0792b39d4c7affb5a09dcc2be6a6a0e2b143646b82769b7e0c365bb3b082bd2ba64bd9"
+                }
+            },
+            {
+                "source_name": "might",
+                "description": "Mean inside item way maybe yourself today.",
+                "hashes": {
+                    "MD5": "3dba613b1b30188984a5783f4ca48cc2",
+                    "SHA-1": "2fa8ac2ef8c7969f70d6e177d907aa36f566d97b",
+                    "SHA-256": "2e7a0e76270eaa6ecc841a87682d6457a11135153d9296a536eb3d1f6964cd43",
+                    "SHA-512": "f6e8492bfd0b23b4aacbd8d6041a8c83c7a1e9ed23bcd05709204c1f2fb9a38b9615f5eaa23c92dd8c6e84edd3438b0c2114a169e30523b56f3ec75245238a9a",
+                    "SHA3-256": "7c31dc67e2459d74618eba4d51bb88902ca053dcb0a9e0a412ba4b1a4c1995a5",
+                    "SHA3-512": "ba0445bd0deb6e145dc3ae9bdcc422a67cc54230957bd6fbe9e08a48514f5d6219e608a281ea6b46ffecb3338353dcd4195c1203ff2181371188f9dea53119c2"
+                }
+            },
+            {
+                "source_name": "hour",
+                "description": "Meet answer animal produce year fact fall.",
+                "hashes": {
+                    "MD5": "49077dfa75ea4e50ef9300b5eb6d59c3",
+                    "SHA-1": "3a6e894ba4641708f21b9b3e5dccfef964ffa2c2",
+                    "SHA-256": "9542ae79ccbe71f4a3ee7eb91ef6b922de9d0af31c941653c8e423b89f2a11c7",
+                    "SHA-512": "6be35abe2b080a59621b48f7c9245e3720ed690f1bb78d812889ae28de276ccefb66a354fbaa59048c3832de98febc6748d124075b9fb60b543f2e9a5dc72e84",
+                    "SHA3-256": "c23a7b6f7556a123da96e42a740afba5c631e765bbe0e1b74a61f7a806f163da",
+                    "SHA3-512": "91a1bbc751b18faf01d7470e0020203826a88c8106cc35cc8fb8b6ee828ba87a75f9cbb742b1d625f1cc0e615537345af66616709a2325a917794d6ca7f99b26"
+                }
+            },
+            {
+                "source_name": "describe",
+                "url": "https://poole.com/",
+                "hashes": {
+                    "MD5": "7da21663b532791671c7448ef1669c44",
+                    "SHA-1": "e3c33f6377cd58a673bf7df29387208c636acc34",
+                    "SHA-256": "2fbddb9ba2a76ef418d364658983d60a570a4088c2414f8d7033c3dc427640d6",
+                    "SHA-512": "341a26137c718900779c3a829530e63f2891830451f290d664785e8dc295a6cbe74bc0917307c76c915e68e1ecc2ba92924b0bb028914f061329aac365968b4a",
+                    "SHA3-256": "c033d27bc14490395f946a4852c0e10a5eb13ba5002683da2f536381ed712dcf",
+                    "SHA3-512": "a1c5e8dee569b3c1e4e7f6c3eebb4e10a90fa8cf8aa4b69e9b569a64485259c923d1cbf046720a36e6f1a0ec93d38ccfd88ca2a9f649f29b482920ce3be29b4b"
+                },
+                "external_id": "kcnriEp"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--bec11eb7-35e2-4061-84cd-3c84978fb844"
+        ]
+    }
+]

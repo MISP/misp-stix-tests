@@ -1,0 +1,145 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--4941e8df-78ca-4bdd-86bc-356a1cf3ea3c",
+        "created_by_ref": "identity--1c22b834-7770-450b-824d-8b4be2cbdf17",
+        "created": "2022-01-04T23:45:08.41563Z",
+        "modified": "2022-03-30T03:44:05.240003Z",
+        "name": "wear",
+        "description": "Keep have also less media.",
+        "first_seen": "2020-11-17T07:09:57.502558Z",
+        "last_seen": "2021-06-04T01:11:19.207446Z",
+        "labels": [
+            "tend",
+            "couple",
+            "pfte-batch-1"
+        ],
+        "confidence": 81,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--c3eb980e-9ca7-431b-8713-459cef0011a9",
+        "created_by_ref": "identity--1c22b834-7770-450b-824d-8b4be2cbdf17",
+        "created": "2022-03-29T20:19:40.979612Z",
+        "modified": "2022-06-26T10:46:07.260973Z",
+        "name": "artist",
+        "description": "Idea fish pick standard.",
+        "aliases": [
+            "seek",
+            "process",
+            "operation",
+            "be"
+        ],
+        "resource_level": "individual",
+        "primary_motivation": "accidental",
+        "secondary_motivations": [
+            "notoriety",
+            "notoriety",
+            "coercion"
+        ],
+        "labels": [
+            "produce",
+            "his",
+            "reach",
+            "remain",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--0e1d2d3d-0de5-4c66-94df-0245e9fa52a5",
+        "created_by_ref": "identity--1c22b834-7770-450b-824d-8b4be2cbdf17",
+        "created": "2022-02-01T02:05:06.128502Z",
+        "modified": "2022-09-21T20:56:28.470505Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "campaign--4941e8df-78ca-4bdd-86bc-356a1cf3ea3c",
+        "target_ref": "intrusion-set--c3eb980e-9ca7-431b-8713-459cef0011a9",
+        "stop_time": "2020-11-24T07:53:58.119525Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--ef64a7f4-9e43-4b47-9cd8-f293e7af3e61",
+        "created_by_ref": "identity--1c22b834-7770-450b-824d-8b4be2cbdf17",
+        "created": "2021-04-14T13:20:48.69728Z",
+        "modified": "2021-10-20T09:32:45.913216Z",
+        "description": "Learn girl maybe eat a star.",
+        "context": "malware-analysis",
+        "object_refs": [
+            "campaign--4941e8df-78ca-4bdd-86bc-356a1cf3ea3c",
+            "intrusion-set--c3eb980e-9ca7-431b-8713-459cef0011a9",
+            "relationship--0e1d2d3d-0de5-4c66-94df-0245e9fa52a5"
+        ],
+        "labels": [
+            "range",
+            "pfte-batch-1"
+        ],
+        "confidence": 36,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1c22b834-7770-450b-824d-8b4be2cbdf17",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-07T02:37:16.24405Z",
+        "modified": "2022-07-18T03:31:22.043546Z",
+        "name": "WestLaughBuild",
+        "description": "Ergonomic next generation toolset",
+        "identity_class": "individual",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 98,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "late",
+                "description": "Team buy include.",
+                "external_id": "kHeXRfIY"
+            },
+            {
+                "source_name": "church",
+                "url": "https://hernandez.com/",
+                "external_id": "NuJeLMzzZM"
+            },
+            {
+                "source_name": "election",
+                "description": "One major major news apply institution gun religious.",
+                "url": "https://hinton.com/"
+            },
+            {
+                "source_name": "itself",
+                "description": "Prevent law I.",
+                "external_id": "UnRfFwfkJG"
+            },
+            {
+                "source_name": "really",
+                "description": "Show worker fish research reach mind.",
+                "url": "https://www.jones.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

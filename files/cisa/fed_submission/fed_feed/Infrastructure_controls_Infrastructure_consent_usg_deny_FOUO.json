@@ -1,0 +1,214 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--e9d42d28-b7ed-477d-8f21-1a929c927a71",
+        "created_by_ref": "identity--58c69627-ee5b-4bee-a8af-783d82c50b5a",
+        "created": "2020-09-28T02:38:39.613257Z",
+        "modified": "2021-08-14T01:08:45.244085Z",
+        "name": "report",
+        "description": "Better offer toward establish we rich.",
+        "infrastructure_types": [
+            "phishing"
+        ],
+        "confidence": 100,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a754e18e-0809-4cd3-9526-6da6144f0c69"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--ac6949f0-8242-4aa2-b325-f04a249ce1e9",
+        "created_by_ref": "identity--58c69627-ee5b-4bee-a8af-783d82c50b5a",
+        "created": "2022-03-04T20:11:06.896069Z",
+        "modified": "2022-04-27T05:53:41.805677Z",
+        "name": "cell",
+        "infrastructure_types": [
+            "exfiltration"
+        ],
+        "aliases": [
+            "technology"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "EWhRHgMAhDbRpnfBisvD",
+                "phase_name": "NNiPWfbAFJsgzGQA"
+            }
+        ],
+        "first_seen": "2020-09-18T05:22:18.957462Z",
+        "labels": [
+            "apply",
+            "pfte-batch-1"
+        ],
+        "confidence": 48,
+        "object_marking_refs": [
+            "marking-definition--a754e18e-0809-4cd3-9526-6da6144f0c69"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--9ab4c104-55c6-42ed-817c-227e951e522e",
+        "created_by_ref": "identity--58c69627-ee5b-4bee-a8af-783d82c50b5a",
+        "created": "2022-06-24T15:50:08.417161Z",
+        "modified": "2022-09-28T10:44:15.287794Z",
+        "relationship_type": "controls",
+        "source_ref": "infrastructure--e9d42d28-b7ed-477d-8f21-1a929c927a71",
+        "target_ref": "infrastructure--ac6949f0-8242-4aa2-b325-f04a249ce1e9",
+        "start_time": "2021-10-02T02:25:49.762814Z",
+        "confidence": 35,
+        "external_references": [
+            {
+                "source_name": "difference",
+                "description": "Or draw turn alone care whether four different.",
+                "url": "http://www.jordan-higgins.com/",
+                "hashes": {
+                    "MD5": "04f67f2af34e819b1ae718a373b4d507",
+                    "SHA-1": "78255231ca5205a8ad011da314c38591a5cd06a1",
+                    "SHA-256": "88d0fbb4b09cf74151d9cfe83c70a2a2ac47cd5ef085cc9eb2369d28e27700e7",
+                    "SHA-512": "dea4a2c6a0bc52f416a27b5d43f1de8234dd9e0e2077ec4888c52e5d53adb07a88e4d1aa2c068bee2f2e1cfab982544aa9823db8a93429ac5cb6c27a1593e712",
+                    "SHA3-256": "0e3642dbe3801d96c841860a61d0495ba4e857036137d13ef439e11cce19a789",
+                    "SHA3-512": "f3ad5fc3881b65148409e87cf7a998b54a8fdefce0a4364b44fb010100578aaddc0c4e3d25b950c64346bd2f22b9e27086dfe104eb78723f2ebebe04c402c9e3"
+                },
+                "external_id": "ZpdpERPebiB"
+            },
+            {
+                "source_name": "action",
+                "description": "My pattern or student attack response.",
+                "external_id": "jCXeAYbWkqdyZcRiuWmB"
+            },
+            {
+                "source_name": "kid",
+                "description": "Kid policy change green quickly let.",
+                "url": "http://www.wood.com/",
+                "hashes": {
+                    "MD5": "35a37b8a41dbd783a5e21251e154d5b0",
+                    "SHA-1": "67e50f339346ddafe40892d8b504b57eaead2a2a",
+                    "SHA-256": "933dd2f1871a6c7dc62492c924130333396fd44060e1fc9fed9fe3fa15c8ec9c",
+                    "SHA-512": "9017d5f75051455da1af7a5daa7ce6ec86d2135503f03db00dd2071c9d4c1bff6034e8eb5fadef295dc08811aa6e202e77b31ff6abcfe30de4ffe3ecb00bc2da",
+                    "SHA3-256": "f2cd3d74bcbbc5d57621fc606c4d0132d22ce34162432065bd80a89a6ffb02ed",
+                    "SHA3-512": "7e99e73055a79a3f466af9c99a8e42f69ce383d25a83afcd15674b89ed5c8c94af09da74670f70385fb02d042a6d5acbab4c6af087febd98bcddfcaffbf1d489"
+                },
+                "external_id": "pCjLOxcGSyijKFmrP"
+            },
+            {
+                "source_name": "wrong",
+                "url": "https://www.allen-tran.info/",
+                "hashes": {
+                    "MD5": "978ef8910fd804584dd8a66aa7f94a8a",
+                    "SHA-1": "dea15f9fdbc6c2108f813e867e0c3007fc9adae9",
+                    "SHA-256": "704026bf81d1be93de45e36a4c6d8d6f224d28653e1bece948cb6268d161f067",
+                    "SHA-512": "d1b1bcdf31641fe222798abed204a7a1fdaecc09d0a8952e68f9df2089df173480da73a34a728108f4187ee0d2e7e1c98a4e77d05264695160234e2a9f7fb3dc",
+                    "SHA3-256": "695329f002e4f57b400875a43759ce38f04d824d6db0473fae66f9250e12108e",
+                    "SHA3-512": "405be2681e7073eb711b2402bf8e173863921d03113e4ef336e38c90f3ba18f8b143f992267a2f87150167e21454fd1282b5564d7275f18bcae337b2950b7e40"
+                }
+            },
+            {
+                "source_name": "use",
+                "url": "http://watkins-farmer.com/",
+                "external_id": "QCdRwh"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a754e18e-0809-4cd3-9526-6da6144f0c69"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--58c69627-ee5b-4bee-a8af-783d82c50b5a",
+        "created_by_ref": "identity--58c69627-ee5b-4bee-a8af-783d82c50b5a",
+        "created": "2022-04-27T06:51:18.153409Z",
+        "modified": "2023-04-20T02:18:32.052972Z",
+        "name": "Winters and Sons",
+        "roles": [
+            "I"
+        ],
+        "identity_class": "unknown",
+        "confidence": 3,
+        "external_references": [
+            {
+                "source_name": "kind",
+                "url": "http://www.hanson.com/",
+                "hashes": {
+                    "MD5": "b40ac2cdaebe19f89f007b70e3ae66f2",
+                    "SHA-1": "f20b9bae6dc4d1d4d137fc98d448b13500c5b4d4",
+                    "SHA-256": "0b29ff2b503578845e5d3d53b60a65bc21f0e99c5d97f8802da8b41847266be9",
+                    "SHA-512": "d3744dec364367eb959308471a4d8da5f161aa4c8a5861380a8180ba2d48d014c314588422cb265d5488611fb67b1ca3c378825cc3a58acbe43127df28e2bbf4",
+                    "SHA3-256": "845c9558332ebc8bc26e6f6ba138d02b14b9c2690e91412f06467908cb3cc64e",
+                    "SHA3-512": "ff8b9061ac73bab7880c80137b85af5ff6b53d8a16f35093b97b31ff5e4b6bf7df330b2b47621f79903a8f499b60b2123ebe797b9e1cb31ab32980b722fe1a38"
+                },
+                "external_id": "QbyHq"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a754e18e-0809-4cd3-9526-6da6144f0c69"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--a754e18e-0809-4cd3-9526-6da6144f0c69",
+        "created": "2021-08-14T01:08:45.243503Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a2bad07a-f4d3-4efb-a81b-2cf0c0637fc9",
+                "name": "Our concern loss resource wear",
+                "create_date_time": "2021-08-14T01:08:08.426882Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

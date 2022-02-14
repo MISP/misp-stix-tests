@@ -1,0 +1,170 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--e441b0d2-b553-4c49-888c-6b48bc1882f4",
+        "created_by_ref": "identity--a68947bc-1f0c-44d2-8233-606e86d774c7",
+        "created": "2020-10-21T19:15:20.170867Z",
+        "modified": "2021-08-14T01:08:54.87746Z",
+        "name": "receive",
+        "goals": [
+            "Production soldier cause anyone tough ground crime.",
+            "Set new explain discussion bed news.",
+            "Either these fill effect person."
+        ],
+        "resource_level": "contest",
+        "primary_motivation": "accidental",
+        "labels": [
+            "process",
+            "feel",
+            "well",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--8098eb57-f7a1-4e1f-8351-313d84ace925"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--612c5903-7634-4ddc-94d9-7beebb2e47ec",
+        "created_by_ref": "identity--a68947bc-1f0c-44d2-8233-606e86d774c7",
+        "created": "2021-06-22T20:29:25.431888Z",
+        "modified": "2022-03-20T07:22:00.870919Z",
+        "latitude": 56.604552903980675,
+        "longitude": -35.73932566376067,
+        "country": "Sri Lanka",
+        "administrative_area": "LqwIxFRSEAOYcqI",
+        "street_address": "61127 Alvarez Summit",
+        "postal_code": "54967",
+        "labels": [
+            "draw",
+            "standard",
+            "pfte-batch-1"
+        ],
+        "confidence": 56,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "keep",
+                "description": "Expect ask some expect foot hope.",
+                "url": "https://bishop.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8098eb57-f7a1-4e1f-8351-313d84ace925"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--97a47afb-5da2-4a9c-8896-8cb38db572c9",
+        "created_by_ref": "identity--a68947bc-1f0c-44d2-8233-606e86d774c7",
+        "created": "2021-08-23T02:34:33.851644Z",
+        "modified": "2021-09-19T00:08:49.154074Z",
+        "relationship_type": "originates-from",
+        "description": "Note want modern after be off great. Authority professional draw late light mission bad fund.",
+        "source_ref": "intrusion-set--e441b0d2-b553-4c49-888c-6b48bc1882f4",
+        "target_ref": "location--612c5903-7634-4ddc-94d9-7beebb2e47ec",
+        "start_time": "2021-06-16T05:24:47.157031Z",
+        "labels": [
+            "enter",
+            "really",
+            "generation",
+            "yet",
+            "wish",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "trial",
+                "url": "https://www.nelson.com/",
+                "external_id": "nYlGbumFjTPVbVBw"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8098eb57-f7a1-4e1f-8351-313d84ace925"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a68947bc-1f0c-44d2-8233-606e86d774c7",
+        "created_by_ref": "identity--a68947bc-1f0c-44d2-8233-606e86d774c7",
+        "created": "2022-03-03T10:28:16.222521Z",
+        "modified": "2022-08-22T03:03:36.946838Z",
+        "name": "Ray, Little and Wallace",
+        "identity_class": "class",
+        "sectors": [
+            "transportation",
+            "defense",
+            "energy"
+        ],
+        "confidence": 95,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--8098eb57-f7a1-4e1f-8351-313d84ace925"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--8098eb57-f7a1-4e1f-8351-313d84ace925",
+        "created": "2021-08-14T01:08:54.876832Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

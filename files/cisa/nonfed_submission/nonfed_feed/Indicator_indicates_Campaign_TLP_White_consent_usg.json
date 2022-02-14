@@ -1,0 +1,212 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--437df3c2-eaf6-40ad-beae-25eb330505a6",
+        "created_by_ref": "identity--67138de5-8aca-4f30-a868-64ae785a74a5",
+        "created": "2020-12-11T03:59:59.600579Z",
+        "modified": "2021-08-14T01:08:28.662723Z",
+        "name": "blue",
+        "pattern": "([(email-addr:defanged NOT = false) AND email-addr:value NOT = 'joseph29@yahoo.com'] FOLLOWEDBY ([email-addr:display_name < 'Michael Sanchez']))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-07-03T08:12:44.257102Z",
+        "valid_until": "2020-10-04T10:38:21.409272Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "CjtzCAGfwcUvmX",
+                "phase_name": "iDXGxOzPLRWbentrJe"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 97,
+        "external_references": [
+            {
+                "source_name": "senior",
+                "url": "http://www.reynolds-serrano.com/",
+                "external_id": "pErsM"
+            },
+            {
+                "source_name": "hot",
+                "description": "Better front dark effect support state effect.",
+                "url": "http://www.jordan.com/",
+                "hashes": {
+                    "MD5": "418619d4428f9c0610dad5f2b668d9d4",
+                    "SHA-1": "3600f07e147f87aa6fc9268dadde91120c1dfb63",
+                    "SHA-256": "d3df4d2f042f31446d7e952f12f245d38c1964c510928ae45a8f5e17d5d7b758",
+                    "SHA-512": "8ad1e457b0fde787af5694d57e35612ff0fbcb700dbd2d910fe7f9159d777283403d6aa81fb40ffae8490ff4a9dfbc4dc52a811b38487d08802ab1cb9a9bff58",
+                    "SHA3-256": "bb22ff89dfe32d41c7fd0b45706903059f9894ee40f1ece4372b286b0ee769dc",
+                    "SHA3-512": "e807c1552aedb67f428ebd3b477067306150a75a571301e330262d348faa1ea6083bdc55f21ff3f3d0d49cf9e1c7b4ddc2572efd13fea1db4ecdf2d554c07937"
+                },
+                "external_id": "fChthQeMCOQtegY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--ff0e0229-e776-4e37-8975-6ccf5fb046ce",
+        "created_by_ref": "identity--67138de5-8aca-4f30-a868-64ae785a74a5",
+        "created": "2020-09-03T06:14:13.374313Z",
+        "modified": "2021-08-14T01:08:28.665412Z",
+        "name": "program",
+        "aliases": [
+            "article",
+            "understand",
+            "believe"
+        ],
+        "first_seen": "2021-12-13T02:59:06.729706Z",
+        "labels": [
+            "gas",
+            "city",
+            "pfte-batch-1"
+        ],
+        "confidence": 80,
+        "external_references": [
+            {
+                "source_name": "bad",
+                "url": "https://www.lewis.com/",
+                "external_id": "PndtOTJlYhOOcOLT"
+            },
+            {
+                "source_name": "finally",
+                "description": "Conference gun couple.",
+                "hashes": {
+                    "MD5": "5d08ec07ed0b549e9531ffcb5985ee48",
+                    "SHA-1": "e9d2d2210debdbe4bf76e9fef91e76e973581cde",
+                    "SHA-256": "047b7548a986e6931b041db60d2b07b1536687e806aba2be7841817a3fd3cb01",
+                    "SHA-512": "c404383239f1b4cf4efc374850e8ab341a85c62937e756c8fbd8bcc26795692f4582664226dc137c63ff50238a473b5cb8060253749ac5f4e78d612cc80a92c3",
+                    "SHA3-256": "bf40208a6d5c774c2bcfee889c72bcd82ac6fe2cceeadc285f489fa7b4730db4",
+                    "SHA3-512": "884cf206ce64055e64d64796f7b808017cb760f86af8a3ecee704aa54dd0542487f6ffffcc47158920cf5ce825a8a582124c588cb4e843db03f5b3bfc50c826a"
+                }
+            },
+            {
+                "source_name": "for",
+                "hashes": {
+                    "MD5": "a59023f767ca00c76d728637b0f827a0",
+                    "SHA-1": "b44d7e995dec72b7ba741d0b15a0af87c75c121b",
+                    "SHA-256": "5dc02d86a46a0904a9cced7874019eb0d4898a7665c488506e2aaaccaa29d06a",
+                    "SHA-512": "aceb06f277434b644698213169d565896f540e2ecfba958db0cd9b9d27c377676ddfb9f7adc3c8962a7ae15111db9a43ce08c4b974fb8aa35cba913968dd9b1f",
+                    "SHA3-256": "b6cd05332734007ef300577e45c39010add22ffa76d4ce5a2853ddaedf486f9e",
+                    "SHA3-512": "24ab709174684f934af86fd254bdb2192e8ca1bd38c5270f7f7fd98231753d8c640c9ce11126c785de5aa33549f43624c9b53bfd85b3588c86026283813733f5"
+                },
+                "external_id": "dgtMn"
+            },
+            {
+                "source_name": "similar",
+                "url": "http://www.velasquez-smith.biz/",
+                "external_id": "dhuNCdmPBpf"
+            },
+            {
+                "source_name": "forget",
+                "description": "Run tough drug culture up different matter.",
+                "url": "https://harris-sweeney.info/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--599e3800-bbf4-45e5-8df3-3084e6a0de21",
+        "created_by_ref": "identity--67138de5-8aca-4f30-a868-64ae785a74a5",
+        "created": "2021-10-12T21:34:24.454927Z",
+        "modified": "2022-05-09T19:51:53.760305Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--437df3c2-eaf6-40ad-beae-25eb330505a6",
+        "target_ref": "campaign--ff0e0229-e776-4e37-8975-6ccf5fb046ce",
+        "start_time": "2020-12-26T14:28:23.725719Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 76,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "floor",
+                "url": "https://www.hunt.com/",
+                "external_id": "JTcSTUjIKdymX"
+            },
+            {
+                "source_name": "mean",
+                "description": "Friend national give health edge officer.",
+                "url": "http://www.miles.com/",
+                "external_id": "chmTCoReDQjLH"
+            },
+            {
+                "source_name": "film",
+                "description": "Tv nearly knowledge grow most.",
+                "url": "http://wilson-green.com/"
+            },
+            {
+                "source_name": "speech",
+                "description": "Argue detail raise happy then.",
+                "external_id": "uYlfGNHbYp"
+            },
+            {
+                "source_name": "professor",
+                "hashes": {
+                    "MD5": "117565aac3c6b6522252a798894f7106",
+                    "SHA-1": "e044f42549d63841eba69d3752e496823d1eafc3",
+                    "SHA-256": "f19d3e7f5e300c4a593d0ddccaba7de24570a8ab5a2199d516b7877760eb3f35",
+                    "SHA-512": "410391fd9f8189ba5b7abec7f39af454de911ca836b5f59ef3b48df28cf04222c48f2e24ce7d46dd85114a9e864932721115cccfea7486f64ab16cf0ef2bb652",
+                    "SHA3-256": "f38fa1c9526040d4283f53eea0af61fe4eaafb411506e41d207af4b251298e34",
+                    "SHA3-512": "624cbbab55fae9d531be516bc0175d433859f60839e77f50a197d6111eccd78110aba6e901d0410174150763a926486567facc6f44b9a3fbc4c5fc632a119c38"
+                },
+                "external_id": "qBHFyVgebpQgxpcaXYAp"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--67138de5-8aca-4f30-a868-64ae785a74a5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-03T19:19:34.804029Z",
+        "modified": "2022-01-20T21:13:54.897045Z",
+        "name": "TenLotIssue",
+        "description": "Enterprise-wide hybrid monitoring",
+        "contact_information": "901 Jessica Pine Suite 681\nMccarthyport, SD 20780",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "inside",
+                "description": "Serious government court source.",
+                "url": "http://lindsey.net/"
+            },
+            {
+                "source_name": "participant",
+                "description": "Throughout by maybe nor example happen society everybody.",
+                "url": "https://green.org/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

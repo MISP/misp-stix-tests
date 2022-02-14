@@ -1,0 +1,256 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--328eef65-d419-4d26-89a3-92cd2dbc5818",
+        "created_by_ref": "identity--3a3caeb7-fbff-4e95-a2ff-38686c6eb80d",
+        "created": "2021-01-14T06:27:03.244206Z",
+        "modified": "2021-12-27T13:38:53.148747Z",
+        "name": "size",
+        "pattern": "[autonomous-system:number NOT = 105 OR (autonomous-system:number <= -594)] OR [url:value > 'http://burnett.info/'] OR [user-account:credential > 'G@9nDlxCmw']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-03-08T13:57:29.130684Z",
+        "valid_until": "2022-07-22T08:21:09.69947Z",
+        "labels": [
+            "voice",
+            "program",
+            "PM",
+            "pfte-batch-1"
+        ],
+        "confidence": 91,
+        "external_references": [
+            {
+                "source_name": "do",
+                "description": "Light last possible group.",
+                "url": "http://www.matthews.biz/",
+                "external_id": "zuubxcnDSVJYSQV"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--f3f117c7-c617-429c-ae51-16b70dc468e0",
+        "created_by_ref": "identity--3a3caeb7-fbff-4e95-a2ff-38686c6eb80d",
+        "created": "2022-07-23T03:34:15.59243Z",
+        "modified": "2023-03-28T12:34:07.51429Z",
+        "name": "owner",
+        "infrastructure_types": [
+            "command-and-control",
+            "botnet",
+            "reconnaissance"
+        ],
+        "aliases": [
+            "property",
+            "four",
+            "discussion",
+            "test",
+            "account"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "oZWtAicyEBLCMujeNda",
+                "phase_name": "QURCFbGxNn"
+            }
+        ],
+        "first_seen": "2021-07-31T04:19:07.579997Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 54,
+        "external_references": [
+            {
+                "source_name": "follow",
+                "url": "https://www.graham.com/",
+                "hashes": {
+                    "MD5": "3b10649d695b33541aa96a899da64001",
+                    "SHA-1": "84449f10f58ed6369f0e98f81bb61d14d7eb5e59",
+                    "SHA-256": "3a916ffdc5ba4f5799f70183cb9053622dc9e2060263308240526f3f49b6fcb0",
+                    "SHA-512": "cd3502936956bdad7d84107dea012d345a9a260ebc616cdfbb788fd8dc098c57fdb76b465f01199ad379dd9a9d6d059d06ddd247f0cd8768688c846e05efac76",
+                    "SHA3-256": "88e1ff57f1a4bf8d3c5e88b37d882ec85c80a0f2d587d5e2fbf7e62f6275ddb8",
+                    "SHA3-512": "9f95e9e13a323d9490a155081518ce6c3be8cbc966fa5bc9c65af5ee8bcbc60830d591f4a363b606cdc6739ecaeb7738a5b48aef8ace1b4781d0cb136b9241a6"
+                },
+                "external_id": "xralcHcPRU"
+            },
+            {
+                "source_name": "generation",
+                "url": "http://www.morales.net/",
+                "hashes": {
+                    "MD5": "0fbe45a618e400ab10945d4be8c4fc87",
+                    "SHA-1": "fcc814f9c8d625475fd5bb99a90d3f707cdc2f1e",
+                    "SHA-256": "539fda208caad2a2fb4a5221b0359c53d5bf4e636556c509e701fcb7681c3e46",
+                    "SHA-512": "774b86f88ce5aeddbebf2a4f1de7875c38a0af738b2c299f3083e2aafa3fd00ae3ee653db5fa220c04a4d7e2cecc66a4ead15e93cd6de87d76ffebaecdebe0eb",
+                    "SHA3-256": "f350e5f5d32abbc03a094bba8c2a2f132b9d8dc28b551dc72bb63ee425797670",
+                    "SHA3-512": "478338b101ec98acb598c8e804fa474195e93d515ca1463124d6e1c85c8c98417c14a682e2f1625cd81eae49f50eda45e989e89f80816702b9c8874f51501474"
+                }
+            },
+            {
+                "source_name": "pretty",
+                "description": "Particularly new according fill.",
+                "url": "https://www.boyd.com/",
+                "hashes": {
+                    "MD5": "fd664964d4c7ef1b82c85b49d5b6627d",
+                    "SHA-1": "f202492c651cbae5d87c0934c5a4d8e599c2593c",
+                    "SHA-256": "7f1a41061eb5e910cdd13c9f03d01ce8b342846c6e99dddfaedf9a156635857f",
+                    "SHA-512": "6b7252e4bda23bf93f375aba327d7374ca0b188048bb63267c564c55732d9b74d3baa7a251044659427082d0acf31662b4f3b237c3930ee55313330a38b721b1",
+                    "SHA3-256": "406059bb82495b3c0b28c49bd406c9849723c4c3361d5c4a8ef5594bdda47332",
+                    "SHA3-512": "2c23478e04e76302c1aaa8bb7fc9b7b535d76b06d8ae3555ba075351e19dd9fe25e10e94fc81410012498e14d533274a601df0bc3a4937502bb5cf635a5b3f44"
+                },
+                "external_id": "chICLcetWquB"
+            },
+            {
+                "source_name": "several",
+                "url": "http://www.booker.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f4606d3d-c8a6-46d8-b06a-2226578064bd",
+        "created_by_ref": "identity--3a3caeb7-fbff-4e95-a2ff-38686c6eb80d",
+        "created": "2021-12-04T06:53:08.039915Z",
+        "modified": "2022-05-21T09:53:11.405677Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--328eef65-d419-4d26-89a3-92cd2dbc5818",
+        "target_ref": "infrastructure--f3f117c7-c617-429c-ae51-16b70dc468e0",
+        "start_time": "2021-01-08T13:18:59.734278Z",
+        "stop_time": "2021-05-04T13:29:14.541356Z",
+        "labels": [
+            "pass",
+            "there",
+            "drive",
+            "pfte-batch-1"
+        ],
+        "confidence": 2,
+        "external_references": [
+            {
+                "source_name": "responsibility",
+                "description": "Hour suffer success skill newspaper model thought.",
+                "url": "http://adams-scott.com/",
+                "external_id": "zBdWrJNNGpKumKJ"
+            },
+            {
+                "source_name": "boy",
+                "description": "Quite fund school teach color.",
+                "hashes": {
+                    "MD5": "d27bb6b0a5e6e6f6304aff054f13bf1c",
+                    "SHA-1": "e101d29b46ad18cb55ac85353431c369bd85c805",
+                    "SHA-256": "f24132dda09b088f4fc829315a09af116a33e067787f5075bda4d7bfe63201f3",
+                    "SHA-512": "1ad37ef6069add596739b97ecd970347d0b382703934f68ff9785fd8d165a1942103031a9f25def60f5d88fab8312c95ff6c0cb1b2e96cdb70649bb850ce6e0c",
+                    "SHA3-256": "58c24fb4ebd31cd27b09855bbf7918d6404a8eca796adfb4bbd8dc4a760c2623",
+                    "SHA3-512": "3d7613ac4fe305bc66582a4d69d9054acc299f1253f03a55ea1d6c9004f82529504d835c056e4c983a697112b718c9418aaf6c54993746b98514abd244fa562a"
+                },
+                "external_id": "zfIpTNCHFIbWsdjmvwNe"
+            },
+            {
+                "source_name": "while",
+                "description": "Include your large into store natural day when.",
+                "url": "https://www.henry.com/",
+                "external_id": "lKvulgEilAjJCjZGqUwB"
+            },
+            {
+                "source_name": "home",
+                "url": "http://lopez.com/",
+                "external_id": "GDdVS"
+            },
+            {
+                "source_name": "free",
+                "description": "Gun remember deep piece indeed brother choice.",
+                "url": "https://dalton.com/",
+                "hashes": {
+                    "MD5": "3faeb6141efa7db4f861d3cc22a7064e",
+                    "SHA-1": "c08d0ef90c217fc4b82894295813164f6e13cb16",
+                    "SHA-256": "ceca5790d6f009b143a0a1869e4e62a04fcdd0360689ee7a616f0cc7b482c5e8",
+                    "SHA-512": "71507523182d6c4188ad7a7420d640279c4bdd7c0b0186f2b981dccbbd7cd4723d5df187c4f24ed0dec4d6c1a82190e5ba05f1411222f64674070d707044dfff",
+                    "SHA3-256": "a02e56c601570a223531a6689202ae96d0817739d35fdaf55502e9747b101a68",
+                    "SHA3-512": "3a1c64045e496dbce6125faf92d343f13b8ace9bdeb1b152df2ddf67c9bc086247dd2654a3c51b54f6318d1b4d7ccd5da6bd3bf431dedb2c9871d8fc62225334"
+                },
+                "external_id": "NJownfMkbs"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3a3caeb7-fbff-4e95-a2ff-38686c6eb80d",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-01-10T23:52:13.483743Z",
+        "modified": "2022-08-14T16:56:11.408792Z",
+        "name": "PrettyThoughDetail",
+        "roles": [
+            "tend"
+        ],
+        "contact_information": "350 Parker Prairie\nAlexanderton, WI 45769",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 73,
+        "external_references": [
+            {
+                "source_name": "spring",
+                "description": "Change society her because.",
+                "url": "http://www.williams.biz/",
+                "external_id": "WzkcI"
+            },
+            {
+                "source_name": "town",
+                "description": "Finish mind song move various cold culture.",
+                "url": "https://www.greene-jackson.info/",
+                "hashes": {
+                    "MD5": "ff0cf29e492421adbc0a6561695042ff",
+                    "SHA-1": "d5937047ea6b227dadd9cf3a09472eb31e41bf24",
+                    "SHA-256": "d1281ae26d43cc725c8639bd2f525c288aba35c6541a71eddb9376b0b7d7281e",
+                    "SHA-512": "5a19060d8fd121ce92b1b300ce2feeaefffe876c868c7212ba2c5587e5fc9d4b119f74050ecf673b9cdf2ddb07fb39fb795ef31fbaf02cd77bc87069ec082d6b",
+                    "SHA3-256": "91d4dc6bbc430ecbb13131d24655cd2eed003da80335ebd9558b2547c36078f8",
+                    "SHA3-512": "8257fd03702b7d028a84e52ba8c839305ef0963b4ec2b57ceaa9a8caa2ec9288cd826ff96c07af8190c58dc3de8933c28350c25cad31fb7c6bc34107d33eb966"
+                }
+            },
+            {
+                "source_name": "eight",
+                "url": "https://www.berger-francis.com/",
+                "hashes": {
+                    "MD5": "95c17572f887b3c275ec20c96361028d",
+                    "SHA-1": "037e9897c0ff4d28e4b2bbd1f8e4249c0347985d",
+                    "SHA-256": "fc0740af8d85638d077382f3171fddc4ca49d63017480435626ac662e0a859bf",
+                    "SHA-512": "8f4c5c74ebd4e45bfd4c4d0a5066dc11b60ff3cca219e2e71ab001dc39ffcd9aee1d341465887578109e4cc78fd42103092a6f96ae44eb4cec1cf3442454894e",
+                    "SHA3-256": "7b231c651230af8e5988a92b8f192fae5592f030b06ea714382e33fe99fb6a19",
+                    "SHA3-512": "e3e0e348a6866b50a9d5235d396954a17c9a6079691667543c8f8655b92ba37f92d6ce8fa8d4ab23215960abb120e113195131f2bb68d3be8563fbf38b4fce9e"
+                },
+                "external_id": "cvTDbTzaF"
+            },
+            {
+                "source_name": "fear",
+                "description": "Animal goal amount yourself husband enough.",
+                "url": "http://www.pham.com/",
+                "hashes": {
+                    "MD5": "bf4fdbaabb33fa0c7c98fc8a062ed35a",
+                    "SHA-1": "3e5892c0d99815aa2d2b6f0b07429c809dd44509",
+                    "SHA-256": "0483bb5d323b2395a2a74b9d887df8779d2f8f9736d6f70c704429caca26c832",
+                    "SHA-512": "41495f987fc3f56633c3e35190466cc20b133747538f67656ea3aa51d0cfe7646c014c20e54a06c9782cee1f57dffdb245ff645f87bbe4bdf8b901e34c2a69f2",
+                    "SHA3-256": "f2885bfcc8beb3270c15f256d06d2a23811d40c1edc63c7bad0c48dfa6c7d7f8",
+                    "SHA3-512": "a37724aa502671357e7816b15d68177574a0835a6fdd7c19b4324b7749035245590d418c05b75d7c0cbedd890db08f9212a76fde47f326c2c1b052487cad0fd6"
+                },
+                "external_id": "gQlMQyWqH"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

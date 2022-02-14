@@ -1,0 +1,158 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--45d0ca6a-c53e-4179-9173-6af2608f736c",
+        "created_by_ref": "identity--8e4f9a55-993c-41dd-b812-a5aeee6593f2",
+        "created": "2021-07-04T13:13:52.761547Z",
+        "modified": "2022-03-12T22:17:23.078049Z",
+        "name": "employee",
+        "description": "Piece most enough quite.",
+        "first_seen": "2020-08-03T20:37:36.469055Z",
+        "last_seen": "2021-06-05T07:53:09.615803Z",
+        "labels": [
+            "however",
+            "education",
+            "rise",
+            "source",
+            "seat",
+            "pfte-batch-1"
+        ],
+        "confidence": 4,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--74c8c3a3-fc1b-4275-8e52-3ab14deaf27c"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--f86810d3-9751-4ede-9716-8f1d3feeda7c",
+        "created_by_ref": "identity--8e4f9a55-993c-41dd-b812-a5aeee6593f2",
+        "created": "2021-11-25T21:44:48.018931Z",
+        "modified": "2022-02-27T16:57:15.272228Z",
+        "name": "hope",
+        "aliases": [
+            "western",
+            "discover"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "HRBFuMddOpfdX",
+                "phase_name": "FMDeGNzbvDyau"
+            }
+        ],
+        "first_seen": "2020-09-16T00:43:58.835102Z",
+        "last_seen": "2021-06-08T07:39:33.443143Z",
+        "labels": [
+            "star",
+            "record",
+            "doctor",
+            "include",
+            "myself",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--74c8c3a3-fc1b-4275-8e52-3ab14deaf27c"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e0d9d35a-72ee-425f-ae1c-deb044689995",
+        "created_by_ref": "identity--8e4f9a55-993c-41dd-b812-a5aeee6593f2",
+        "created": "2021-07-27T10:31:15.661622Z",
+        "modified": "2021-09-02T13:01:06.414524Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--45d0ca6a-c53e-4179-9173-6af2608f736c",
+        "target_ref": "infrastructure--f86810d3-9751-4ede-9716-8f1d3feeda7c",
+        "start_time": "2021-05-10T14:55:01.890082Z",
+        "stop_time": "2022-03-15T01:25:55.533195Z",
+        "labels": [
+            "turn",
+            "any",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--74c8c3a3-fc1b-4275-8e52-3ab14deaf27c"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--74c8c3a3-fc1b-4275-8e52-3ab14deaf27c",
+        "created_by_ref": "identity--8e4f9a55-993c-41dd-b812-a5aeee6593f2",
+        "created": "2021-08-14T01:08:19.034857Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6f258483-31e6-4810-a3a3-83f9297fcea8",
+                "name": "Individual personal with know",
+                "create_date_time": "2021-08-14T01:08:08.419751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8e4f9a55-993c-41dd-b812-a5aeee6593f2",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-07T00:58:21.442126Z",
+        "modified": "2022-01-26T11:33:22.889557Z",
+        "name": "ImpactHomeSimply",
+        "description": "Inverse bifurcated interface",
+        "sectors": [
+            "manufacturing"
+        ],
+        "contact_information": "USNV Murray\nFPO AA 68354",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 55,
+        "object_marking_refs": [
+            "marking-definition--74c8c3a3-fc1b-4275-8e52-3ab14deaf27c"
+        ]
+    }
+]

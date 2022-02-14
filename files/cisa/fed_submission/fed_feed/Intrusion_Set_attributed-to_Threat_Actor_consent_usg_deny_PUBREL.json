@@ -1,0 +1,174 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--b907cb6f-a5af-4a07-9e70-8a7d8c1670f7",
+        "created_by_ref": "identity--a39db979-14bd-4f72-a737-23f8a8a5f48e",
+        "created": "2022-03-11T14:04:22.97009Z",
+        "modified": "2022-08-09T11:06:46.473156Z",
+        "name": "suddenly",
+        "description": "While project imagine industry.",
+        "goals": [
+            "Tree again cell somebody theory.",
+            "Her responsibility focus budget successful.",
+            "Appear middle he smile weight build husband."
+        ],
+        "primary_motivation": "unpredictable",
+        "secondary_motivations": [
+            "revenge",
+            "notoriety"
+        ],
+        "confidence": 32,
+        "object_marking_refs": [
+            "marking-definition--c0b29250-71a4-4a38-adf9-cccdc7d93e86"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--7cc77e14-e553-4098-b4dd-1a7ccbaa2c9a",
+        "created_by_ref": "identity--a39db979-14bd-4f72-a737-23f8a8a5f48e",
+        "created": "2020-09-01T19:19:43.330275Z",
+        "modified": "2021-08-14T01:08:51.654845Z",
+        "name": "Mrs",
+        "description": "Do believe probably ability responsibility fly popular.",
+        "last_seen": "2022-04-10T02:40:23.459186Z",
+        "sophistication": "minimal",
+        "personal_motivations": [
+            "coercion",
+            "coercion"
+        ],
+        "confidence": 23,
+        "object_marking_refs": [
+            "marking-definition--c0b29250-71a4-4a38-adf9-cccdc7d93e86"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--71edcea9-b082-4be5-bbe3-908ab6f98c1b",
+        "created_by_ref": "identity--a39db979-14bd-4f72-a737-23f8a8a5f48e",
+        "created": "2022-04-21T08:18:23.851024Z",
+        "modified": "2023-01-20T02:29:18.439139Z",
+        "relationship_type": "attributed-to",
+        "description": "Current shake summer wide feel. Some item successful population month. Beyond point different mention issue.",
+        "source_ref": "intrusion-set--b907cb6f-a5af-4a07-9e70-8a7d8c1670f7",
+        "target_ref": "threat-actor--7cc77e14-e553-4098-b4dd-1a7ccbaa2c9a",
+        "start_time": "2021-02-21T01:32:24.485655Z",
+        "stop_time": "2021-06-02T11:46:53.115253Z",
+        "labels": [
+            "anything",
+            "season",
+            "remain",
+            "couple",
+            "pfte-batch-1"
+        ],
+        "confidence": 57,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "school",
+                "description": "Stage sing near.",
+                "url": "http://king-nolan.com/",
+                "hashes": {
+                    "MD5": "eae3080ab28fde8748bb1e0135d8958a",
+                    "SHA-1": "cf7dd47f60a96f8f171ad2a2095811cad3ca6d03",
+                    "SHA-256": "9e090bc93f3f3582c47c24e25a47f1d1465229c8dd2afd79712eec647481e5ed",
+                    "SHA-512": "dd40abb9a63d99cdea72fbb6dbfbc3ae15980bbdf610993a496ad97641c02505b47dedfdf2f78505b803f8c2ffa026a0929535740e61fa05280972381c82b997",
+                    "SHA3-256": "af38e408bcaee0c79863b2a395bc46c174065164098e30b0392a4fe92eec0fc3",
+                    "SHA3-512": "ea782def9683b980cf6833b5b03a8cb5a28bfc52020749e9f32c4279762278c066ed3a03dca11382a9bda182467fb18dc2d4bb65068b0b8dff4f555d247b885e"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c0b29250-71a4-4a38-adf9-cccdc7d93e86"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a39db979-14bd-4f72-a737-23f8a8a5f48e",
+        "created_by_ref": "identity--a39db979-14bd-4f72-a737-23f8a8a5f48e",
+        "created": "2022-07-25T21:15:54.556139Z",
+        "modified": "2022-12-06T11:16:22.794955Z",
+        "name": "Thomas and Sons",
+        "identity_class": "class",
+        "sectors": [
+            "pharmaceuticals",
+            "agriculture",
+            "pharmaceuticals"
+        ],
+        "confidence": 29,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c0b29250-71a4-4a38-adf9-cccdc7d93e86"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--c0b29250-71a4-4a38-adf9-cccdc7d93e86",
+        "created": "2021-08-14T01:08:51.653815Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

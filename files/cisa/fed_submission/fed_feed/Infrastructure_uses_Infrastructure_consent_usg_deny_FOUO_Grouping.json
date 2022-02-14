@@ -1,0 +1,312 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--f4ae58fb-ffae-4c46-b6d2-5133384c119e",
+        "created_by_ref": "identity--e7a16b65-a7a2-4cc7-8e4d-e0dd73fd4d71",
+        "created": "2020-09-30T11:02:47.033015Z",
+        "modified": "2021-08-14T01:08:50.760223Z",
+        "name": "red",
+        "infrastructure_types": [
+            "firewall",
+            "reconnaissance",
+            "hosting-malware"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "BnJmw",
+                "phase_name": "haWvlsTry"
+            },
+            {
+                "kill_chain_name": "NkiwW",
+                "phase_name": "cEnBXzj"
+            },
+            {
+                "kill_chain_name": "GZZzyYKhcZYCMLUlKLU",
+                "phase_name": "hIxZCkZycAC"
+            }
+        ],
+        "labels": [
+            "home",
+            "pfte-batch-1"
+        ],
+        "confidence": 18,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--0aa1e2ea-68f9-442d-8256-b443d9ab4d20"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--807e21bb-f18b-49df-b2b1-c8ab987dade9",
+        "created_by_ref": "identity--e7a16b65-a7a2-4cc7-8e4d-e0dd73fd4d71",
+        "created": "2022-03-04T07:00:30.38765Z",
+        "modified": "2022-12-07T05:15:02.944752Z",
+        "name": "official",
+        "aliases": [
+            "build"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "qHPfZhnQDvK",
+                "phase_name": "ESUzdmECxkgvFksZTtQ"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "first_seen": "2021-04-08T17:01:42.288352Z",
+        "last_seen": "2021-06-07T06:17:25.207684Z",
+        "external_references": [
+            {
+                "source_name": "fight",
+                "description": "Account traditional the Mr team poor statement.",
+                "hashes": {
+                    "MD5": "7104b928bb96aa4772f4c1b50feb8acc",
+                    "SHA-1": "021f910aa4f8d4a3c7253c3243d4b3e7773858c7",
+                    "SHA-256": "7cb204d48236d01890cce16860d201af8f35471dd064e97e849a8a285d4000cb",
+                    "SHA-512": "996cacd809a0bb408deda5b92d545706f12ef0c52c82847e93cf95ab889f6b0bddbf876bc898bd300b26fad1b95bfe00ef1b022aac44769e9902535776fadc59",
+                    "SHA3-256": "8b52522b3ccecca4515fdec9a099920f24b75251a71ac1675725bfe83dcb136a",
+                    "SHA3-512": "f87c0832621eaec14678c9666f49346df9a97399e41672e9299195fe62483750f002830cdb80342a63a904a5b65e92b13d591a9030cb3bb59e2edba629af5dc6"
+                },
+                "external_id": "pqmgdroNMltS"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0aa1e2ea-68f9-442d-8256-b443d9ab4d20"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--44377380-f63e-44ce-ab56-8ce3714aeaa6",
+        "created_by_ref": "identity--e7a16b65-a7a2-4cc7-8e4d-e0dd73fd4d71",
+        "created": "2021-07-22T12:00:41.982721Z",
+        "modified": "2021-09-20T21:46:01.943704Z",
+        "relationship_type": "uses",
+        "source_ref": "infrastructure--f4ae58fb-ffae-4c46-b6d2-5133384c119e",
+        "target_ref": "infrastructure--807e21bb-f18b-49df-b2b1-c8ab987dade9",
+        "start_time": "2022-07-11T09:48:02.731486Z",
+        "stop_time": "2023-02-08T12:38:06.293546Z",
+        "object_marking_refs": [
+            "marking-definition--0aa1e2ea-68f9-442d-8256-b443d9ab4d20"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--246c3657-cede-427d-8616-e37efbeb030a",
+        "created_by_ref": "identity--e7a16b65-a7a2-4cc7-8e4d-e0dd73fd4d71",
+        "created": "2021-01-04T14:38:47.570701Z",
+        "modified": "2021-08-14T01:08:50.761808Z",
+        "name": "Mr",
+        "description": "Usually strong culture create.",
+        "context": "suspicious-activity",
+        "object_refs": [
+            "infrastructure--f4ae58fb-ffae-4c46-b6d2-5133384c119e",
+            "infrastructure--807e21bb-f18b-49df-b2b1-c8ab987dade9",
+            "relationship--44377380-f63e-44ce-ab56-8ce3714aeaa6"
+        ],
+        "labels": [
+            "home",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "thought",
+                "url": "https://thomas-mitchell.com/",
+                "hashes": {
+                    "MD5": "764ff96200390bf52829d186cb2c463c",
+                    "SHA-1": "662cd8f12f34f961bf1a7249f08e314b3e51c2b1",
+                    "SHA-256": "eb7110d14a98b863fbb682519161b399e941b94b9ed4a1174ca31a0d9f421ea6",
+                    "SHA-512": "1de12cf2e21d4c434715d515f686e598c6b715446c45739876c7c447f6e9d556e7c8c69808657e56bf9c89593e1e043a7bd7d47a24078565f2fafa9ff51ee823",
+                    "SHA3-256": "ddb53ef03c43bf2c338efddd7b5d43fa4f7349b175154b3f0d981734218b8fe9",
+                    "SHA3-512": "de175432569e8e0063bf44ca1d4875865bedc550b6e157c36502fc9a131be5e2f2aa1ff5aafb0b51aeea623d25cbf07a79b47f9dd39ac8d7c1c3856ae5681c73"
+                },
+                "external_id": "fkXudgzRRlvfWBqgZix"
+            },
+            {
+                "source_name": "amount",
+                "description": "Try quality national.",
+                "url": "http://anderson.com/",
+                "hashes": {
+                    "MD5": "e590f2177c96823258e5b89b715a26c8",
+                    "SHA-1": "4e987f43f85bca2ffe65bd5666b5a2d877cd88fe",
+                    "SHA-256": "a9260e1adf1db9f76b937cc3afb75925bfe2e941a34b4a552b255da84108de2f",
+                    "SHA-512": "a8877b0a65e9c6fc14ffc5f0d89db2bb1081408d8acb159a1793d2ce43917e84c410d1e1dc23cceeb991b5620b6442e18cd6e9cf94c6c807b20c1399f0301c0c",
+                    "SHA3-256": "764f8430dbccf474068e9eddc72ab9ff6b1904ccd31b7991c1fd839f55c626ff",
+                    "SHA3-512": "cccbf6c40983d6a80f0251bfc65b72be100b375d37197ea9837fcb2165633845f21bff3685bfc0957737aa6620edd001558a4619ddf83abce12618fb9862f6a3"
+                }
+            },
+            {
+                "source_name": "another",
+                "description": "Wall operation impact compare.",
+                "url": "http://torres-mccoy.com/",
+                "hashes": {
+                    "MD5": "45c3f2e9d671770752087a6ec566deb7",
+                    "SHA-1": "1157e2ca85e8f0ed3053df70b87024a093aaf5ea",
+                    "SHA-256": "90b3376cfde68e685b8888c0ea01530ac87e7ef11886222bcaa5be0ea0d68e81",
+                    "SHA-512": "6a5dac337b79cdf31671454a7e318cb48ab084873e305d0fa490741c3bf08cd924dbccf6f78f8c7172808776b0cd7c379516ddbb2f5c49e23deb6c258c442ad0",
+                    "SHA3-256": "23330682700e93c940ae5c21ab77142a2b2478f7a6211e419d1da714beaad272",
+                    "SHA3-512": "ef9a316d8f64a96875213f0f4b2c9448b9fc5475216a943b6d45ad151ac2eb69ae9d6f942acbf71e42dfb63b0af798f081a14b65dcb9d4952eb3715ae8341bb1"
+                }
+            },
+            {
+                "source_name": "these",
+                "url": "http://www.lewis-hernandez.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0aa1e2ea-68f9-442d-8256-b443d9ab4d20"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e7a16b65-a7a2-4cc7-8e4d-e0dd73fd4d71",
+        "created_by_ref": "identity--e7a16b65-a7a2-4cc7-8e4d-e0dd73fd4d71",
+        "created": "2022-07-22T19:34:43.213296Z",
+        "modified": "2022-12-09T07:49:56.014476Z",
+        "name": "Robles-Good",
+        "description": "Centralized local application",
+        "roles": [
+            "research",
+            "pull",
+            "kind",
+            "card",
+            "best"
+        ],
+        "sectors": [
+            "agriculture",
+            "chemical"
+        ],
+        "contact_information": "94574 Martinez Vista\nWest Kimberlytown, NY 61430",
+        "confidence": 53,
+        "external_references": [
+            {
+                "source_name": "begin",
+                "description": "Program its join against beautiful institution music.",
+                "hashes": {
+                    "MD5": "180282950855c8802c3094a44dd9a9b4",
+                    "SHA-1": "8c295f10b53092052215e434f86d76a473af6fb6",
+                    "SHA-256": "427a039ed2893c874b4d161ba5f5d45bccce00063a0e502fb9c916ebe2851261",
+                    "SHA-512": "86e184abe258dc9d18c0cf9ce659599e9da6a06e89cda5cdce1368609794429d0103de68375d8b0ec9b4d3fd0e113c968dc723a4fcb3baf64b947a6ed22a0248",
+                    "SHA3-256": "4cc54767f4743a3eb0f22e9025b3e6bdf7b7177ecc344d5383295a0dd2ae5690",
+                    "SHA3-512": "38847cfee46820d13ccc9c20b1989e993dd2ae3b0514fc485144c902f596bd5a4fbac4a0648f442feb47f4daadcd1ec99e456f49e7c463992308250e7b45eb46"
+                },
+                "external_id": "ZQArbQCRVxQjUFwY"
+            },
+            {
+                "source_name": "professor",
+                "description": "Your play stuff support fight.",
+                "url": "http://www.carter.com/",
+                "hashes": {
+                    "MD5": "9a9b91ceb1d2a44342f3a305412f4321",
+                    "SHA-1": "34ea85545d93b4975cb8b8b471ebb14005bcbdf0",
+                    "SHA-256": "0c26ae5cd9966be0de19c0fbf230f4dfcd7a5a56494967cecd14b3a21342b1ac",
+                    "SHA-512": "29be36ed044b9786cc2c74c4996400891d113dcfebc2d1faefcd74967bd1cbe7a39e3fb8a3aad585c1a2ff2348716ae54651bd820b35fa4d3c0f79199051e2e4",
+                    "SHA3-256": "7adff1d402cdd8eaa0baddf9ab51b75cd5d7ad61c23815c33fc40546308cc889",
+                    "SHA3-512": "d5658eff526118cd04950c60886c25511d1e1e4fe1639d5ac24fae24293da177d06492ce582f413d8cf5c12bfd3cf2082a1cb6fb3d6bdb36fd3757533eafe8f9"
+                },
+                "external_id": "dBSCquCph"
+            },
+            {
+                "source_name": "foot",
+                "url": "http://www.wright.info/",
+                "external_id": "UcrVALJpeNBWRL"
+            },
+            {
+                "source_name": "not",
+                "url": "https://jones.com/",
+                "hashes": {
+                    "MD5": "7a5a8c1fad30aa5fe7349a956a249e5f",
+                    "SHA-1": "f8e2b8d8853a465b7d4383a47de111d031160ef3",
+                    "SHA-256": "8a68244506fae379ac1d5b5c764831a77509d507e90ccf83b6765064295f7afd",
+                    "SHA-512": "25e7b3cb463ce2ec9107ddc849bf1878184e0ecd6b05c46282ed1e806f3790ea55d836de8f3e1ec3a1cfc5012db81ac6988228dc61fa192f9e9442c5bffa7cb2",
+                    "SHA3-256": "b3d3adb99fd0ac5114938d672539ade4debff9f132dfb0c0595cee4b037dc0a1",
+                    "SHA3-512": "4b724eae5d135c8338d21189bffbce7ffac3bcc355705a958d73e250c25bf56bbebf9e2ebd6f4d714a40e0427472db4f821f9ee043525079386290959b2cc91b"
+                },
+                "external_id": "LPswggtoKE"
+            },
+            {
+                "source_name": "senior",
+                "url": "https://schneider-howard.net/",
+                "external_id": "weBGUuoRRbazo"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--0aa1e2ea-68f9-442d-8256-b443d9ab4d20"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--0aa1e2ea-68f9-442d-8256-b443d9ab4d20",
+        "created": "2021-08-14T01:08:50.759352Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a2bad07a-f4d3-4efb-a81b-2cf0c0637fc9",
+                "name": "Our concern loss resource wear",
+                "create_date_time": "2021-08-14T01:08:08.426882Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

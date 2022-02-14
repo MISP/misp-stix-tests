@@ -1,0 +1,109 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--c6f6c580-8ff1-4237-a5c7-030d3e508c23",
+        "created_by_ref": "identity--c873b7c8-07bd-49bd-b289-c97aa761345a",
+        "created": "2021-11-07T18:31:34.557418Z",
+        "modified": "2022-08-24T04:56:09.017404Z",
+        "name": "kitchen",
+        "description": "Mouth best investment assume know bad.",
+        "objective": "Stop second make treatment.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--a4dcd85a-c840-447c-a224-3a7eb5c530b7",
+        "created_by_ref": "identity--c873b7c8-07bd-49bd-b289-c97aa761345a",
+        "created": "2020-09-13T12:25:56.995326Z",
+        "modified": "2021-08-14T01:08:14.241988Z",
+        "name": "catch",
+        "threat_actor_types": [
+            "insider-disgruntled",
+            "criminal",
+            "nation-state"
+        ],
+        "first_seen": "2022-01-06T13:34:55.18221Z",
+        "resource_level": "individual",
+        "personal_motivations": [
+            "unpredictable",
+            "notoriety",
+            "organizational-gain",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--144c5537-5420-4c39-abdb-2736792d5437",
+        "created_by_ref": "identity--c873b7c8-07bd-49bd-b289-c97aa761345a",
+        "created": "2021-05-30T20:56:35.732497Z",
+        "modified": "2021-12-26T13:29:05.824622Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "campaign--c6f6c580-8ff1-4237-a5c7-030d3e508c23",
+        "target_ref": "threat-actor--a4dcd85a-c840-447c-a224-3a7eb5c530b7",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 86,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c873b7c8-07bd-49bd-b289-c97aa761345a",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-20T18:00:52.113412Z",
+        "modified": "2021-08-14T01:08:14.245546Z",
+        "name": "MinuteAnotherMight",
+        "description": "Inverse executive definition",
+        "roles": [
+            "give",
+            "section",
+            "actually",
+            "local"
+        ],
+        "contact_information": "Unit 1463 Box 2924\nDPO AE 82514",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 54,
+        "external_references": [
+            {
+                "source_name": "until",
+                "description": "Probably herself and produce.",
+                "url": "http://www.henderson.com/",
+                "external_id": "ekHLJTjOlaXTs"
+            },
+            {
+                "source_name": "present",
+                "url": "https://lee.com/"
+            },
+            {
+                "source_name": "meet",
+                "url": "https://www.jones.com/",
+                "external_id": "ZdydJdAhNmVMSIerPPi"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

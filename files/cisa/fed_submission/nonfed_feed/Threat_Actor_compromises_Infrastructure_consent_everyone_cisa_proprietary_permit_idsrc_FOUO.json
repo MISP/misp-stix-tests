@@ -1,0 +1,110 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--042a0b43-cab4-4120-b59c-146ed98bdc7f",
+        "created_by_ref": "identity--f2a2baae-49ad-4924-bf4a-0c8262f204b9",
+        "created": "2022-03-18T20:31:27.624693Z",
+        "modified": "2022-11-01T11:39:51.494181Z",
+        "name": "team",
+        "last_seen": "2022-06-07T17:57:30.952067Z",
+        "roles": [
+            "malware-author"
+        ],
+        "goals": [
+            "begin"
+        ],
+        "sophistication": "none",
+        "resource_level": "club",
+        "secondary_motivations": [
+            "coercion"
+        ],
+        "personal_motivations": [
+            "dominance",
+            "notoriety",
+            "personal-gain",
+            "coercion",
+            "unpredictable"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 88,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--0256910d-3097-4476-a738-6fc00c2c1748",
+        "created_by_ref": "identity--f2a2baae-49ad-4924-bf4a-0c8262f204b9",
+        "created": "2021-03-05T22:30:39.747317Z",
+        "modified": "2022-01-11T16:12:58.180374Z",
+        "name": "study",
+        "infrastructure_types": [
+            "phishing"
+        ],
+        "aliases": [
+            "produce",
+            "tax",
+            "join",
+            "environmental"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "rWOAwyKhJNuahgcqfkvs",
+                "phase_name": "ylMbwFdGESC"
+            }
+        ],
+        "last_seen": "2021-08-13T21:14:34.951548Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--fc3b8c14-9d82-430a-accd-fa357cf3b5fd",
+        "created_by_ref": "identity--f2a2baae-49ad-4924-bf4a-0c8262f204b9",
+        "created": "2020-09-09T13:27:45.306601Z",
+        "modified": "2021-08-14T01:09:26.096595Z",
+        "relationship_type": "compromises",
+        "source_ref": "threat-actor--042a0b43-cab4-4120-b59c-146ed98bdc7f",
+        "target_ref": "infrastructure--0256910d-3097-4476-a738-6fc00c2c1748",
+        "start_time": "2021-06-28T03:05:12.204463Z",
+        "stop_time": "2021-10-20T22:35:22.72257Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 19,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f2a2baae-49ad-4924-bf4a-0c8262f204b9",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-14T13:10:53.376654Z",
+        "modified": "2021-08-22T08:18:03.613377Z",
+        "name": "Sutton Group",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 54,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

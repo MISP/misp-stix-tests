@@ -1,0 +1,174 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--86165704-eff4-4f2e-8937-50125f9b8871",
+        "created_by_ref": "identity--944e10c6-d3c0-40ea-8030-3391041519e0",
+        "created": "2020-09-13T14:21:16.852199Z",
+        "modified": "2021-08-14T01:08:17.479758Z",
+        "name": "apply",
+        "description": "Have house already heart four poor detail.",
+        "aliases": [
+            "town"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "theory",
+                "url": "http://www.murray.net/",
+                "external_id": "xKWtmuE"
+            },
+            {
+                "source_name": "garden",
+                "description": "Reason us maintain not bag full civil.",
+                "external_id": "CKJhQHpnmvWtcL"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--591a9563-3182-4a2d-809a-363c25919eb9",
+        "created_by_ref": "identity--944e10c6-d3c0-40ea-8030-3391041519e0",
+        "created": "2021-01-18T14:51:41.45852Z",
+        "modified": "2021-11-29T03:14:01.588845Z",
+        "latitude": 77.62237091511432,
+        "longitude": -11.439688636781568,
+        "country": "Saint Helena",
+        "street_address": "140 Harris Court",
+        "labels": [
+            "could",
+            "although",
+            "trade",
+            "pfte-batch-1"
+        ],
+        "confidence": 4,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--da76ee53-90ed-454a-a7d4-d43a2d76b282",
+        "created_by_ref": "identity--944e10c6-d3c0-40ea-8030-3391041519e0",
+        "created": "2021-08-18T10:21:53.273798Z",
+        "modified": "2021-12-17T00:22:11.09402Z",
+        "relationship_type": "targets",
+        "source_ref": "campaign--86165704-eff4-4f2e-8937-50125f9b8871",
+        "target_ref": "location--591a9563-3182-4a2d-809a-363c25919eb9",
+        "start_time": "2020-10-11T00:14:52.830013Z",
+        "stop_time": "2021-06-16T19:25:12.647846Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--33c3851d-da2e-4c0f-900f-cf29c11b8e88",
+        "created_by_ref": "identity--944e10c6-d3c0-40ea-8030-3391041519e0",
+        "created": "2021-09-22T14:22:25.332369Z",
+        "modified": "2022-08-24T15:48:32.750218Z",
+        "name": "draw",
+        "published": "2022-07-27T20:40:43.087326Z",
+        "object_refs": [
+            "campaign--86165704-eff4-4f2e-8937-50125f9b8871",
+            "location--591a9563-3182-4a2d-809a-363c25919eb9",
+            "relationship--da76ee53-90ed-454a-a7d4-d43a2d76b282"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 10,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--944e10c6-d3c0-40ea-8030-3391041519e0",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-06-20T08:39:01.09157Z",
+        "modified": "2022-09-13T12:17:27.220527Z",
+        "name": "Blackwell, Bridges and Short",
+        "description": "Integrated multimedia structure",
+        "roles": [
+            "strategy",
+            "effort",
+            "brother"
+        ],
+        "identity_class": "organization",
+        "sectors": [
+            "insurance",
+            "communications"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 67,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "and",
+                "description": "Not form without consider.",
+                "url": "http://martinez.com/",
+                "hashes": {
+                    "MD5": "6dc5a92942abdf5dacb7694ae1eaa097",
+                    "SHA-1": "ea1a66c6110bfc88e195e3048e3ef34bbff29fd3",
+                    "SHA-256": "a375e3d4c4f39074ab7653c3b663ab2ac052484e3f685150af5705ad2d7b2bad",
+                    "SHA-512": "2eede696e983c43b6c9952eaf4b79023f7a1393decf03940ab44ec33080ab07d5d0e1258a8d58994ec75f088b2c3a5451d13a3631b4f51390de331fcd551ccc6",
+                    "SHA3-256": "ce2249b71c74cca766c459eeeb166e4c3d31ff5c490b220e7d08e3a41167f637",
+                    "SHA3-512": "e939b483c67ad71f77613a5b6b45a5219d8027e71b62d4f3f11357da09bff076efa0835e10fd89fe0389f29d7e6441548b85bb87066f83e7a12ecc1219b81653"
+                },
+                "external_id": "jdjVLY"
+            },
+            {
+                "source_name": "own",
+                "description": "Clearly inside civil wide option everyone will.",
+                "hashes": {
+                    "MD5": "2f73a220365821ecda19f9237c7c6e0c",
+                    "SHA-1": "8c5c5af775d96a4a4a30475c56ee887dbd046e23",
+                    "SHA-256": "a2b0af75525a3986c8c834e6084a8f06aff5c9df0c76860be4deb74b09e0d35c",
+                    "SHA-512": "318ca9d9bd1b16d4c624e77e764040c928468e196ab9212be8e4907c2090e559fe8a3cdfdcba7cb3318c43b6c75d5566ff09658edffe97482777f1457fabe91c",
+                    "SHA3-256": "c89b1800d87e9626e5730072f5881d6798ce77d037295fb50d9d390db99a23e5",
+                    "SHA3-512": "63d878b9f0d33301ccc5e107c6487871d20fe22e07ad37856d477be0f36d8dea71d0fc11558b5b334600de78b0f85a0e4bad063c5aa9c70d7ead44ff5f6f666f"
+                },
+                "external_id": "qZHDvN"
+            },
+            {
+                "source_name": "quality",
+                "url": "https://combs.com/",
+                "external_id": "oMBDFicHqlDpsMcMN"
+            },
+            {
+                "source_name": "statement",
+                "description": "Cultural particular week why material discussion.",
+                "url": "https://rodriguez.com/",
+                "hashes": {
+                    "MD5": "a6805cd5e05c1efecbc0820234f1e5bd",
+                    "SHA-1": "15323f300adadabe0b3297ea46e66c873ae767a7",
+                    "SHA-256": "ea4d050026f3580cf469f69374dadc36b48e735b65a1bc4c94d525f52ea5f882",
+                    "SHA-512": "c36f4bf2c7826fc75e62251e75562e33763e29f19ad2b4fd6321c373a7c28cdf4b90c702931dc96a821e0ede565019df6e00b266909b240fce26ad41c38564c7",
+                    "SHA3-256": "a687246cc44ea836f336b7868ac4c33aee4135e1586e0467c8893f138da2fe7d",
+                    "SHA3-512": "d668e9f2d9c960ed6064c9562cdbe6e7c2a3e3f7dff17caaf8ded7cab8e5a9668210baec035bb8405bce50c0874bef5c344986ca7a638ef4412abc5cc22c58d5"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

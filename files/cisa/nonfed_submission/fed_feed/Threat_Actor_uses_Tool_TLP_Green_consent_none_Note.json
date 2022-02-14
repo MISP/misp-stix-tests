@@ -1,0 +1,256 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--21b97149-b12e-4db8-9db8-c50978f17aeb",
+        "created_by_ref": "identity--4c0fec50-8226-47d7-a690-dd0ce775d8a6",
+        "created": "2021-07-25T10:20:01.671106Z",
+        "modified": "2022-05-20T09:51:50.46951Z",
+        "name": "national",
+        "threat_actor_types": [
+            "hacker",
+            "activist",
+            "competitor",
+            "activist",
+            "unknown"
+        ],
+        "aliases": [
+            "sort"
+        ],
+        "first_seen": "2020-12-12T15:17:02.206537Z",
+        "goals": [
+            "or",
+            "push"
+        ],
+        "primary_motivation": "notoriety",
+        "secondary_motivations": [
+            "unpredictable",
+            "organizational-gain",
+            "ideology"
+        ],
+        "personal_motivations": [
+            "organizational-gain",
+            "dominance",
+            "organizational-gain",
+            "unpredictable",
+            "ideology"
+        ],
+        "confidence": 60,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--07ee0312-ecd3-4926-8776-66907944b12e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--20e9c635-32a8-4ef0-b1bc-b36234dff446",
+        "created_by_ref": "identity--4c0fec50-8226-47d7-a690-dd0ce775d8a6",
+        "created": "2021-05-20T20:41:25.175392Z",
+        "modified": "2022-01-28T07:50:47.23517Z",
+        "name": "last",
+        "description": "Coach cost modern who.",
+        "aliases": [
+            "bit",
+            "decision",
+            "choice",
+            "defense"
+        ],
+        "tool_version": "hit",
+        "confidence": 11,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--07ee0312-ecd3-4926-8776-66907944b12e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--7d7c7867-5e9c-4b7f-80b4-5de5c44d6031",
+        "created_by_ref": "identity--4c0fec50-8226-47d7-a690-dd0ce775d8a6",
+        "created": "2022-07-08T10:12:12.357312Z",
+        "modified": "2023-03-29T17:51:53.004481Z",
+        "relationship_type": "uses",
+        "description": "Different focus which pattern. Guess grow hospital everyone threat believe form husband. Song major contain try main.",
+        "source_ref": "threat-actor--21b97149-b12e-4db8-9db8-c50978f17aeb",
+        "target_ref": "tool--20e9c635-32a8-4ef0-b1bc-b36234dff446",
+        "stop_time": "2020-10-07T15:10:25.266088Z",
+        "labels": [
+            "finish",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--07ee0312-ecd3-4926-8776-66907944b12e"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--93316c8c-3b0c-40dc-a76e-4817383dfce9",
+        "created_by_ref": "identity--4c0fec50-8226-47d7-a690-dd0ce775d8a6",
+        "created": "2022-03-11T07:44:23.979668Z",
+        "modified": "2023-01-03T09:04:51.999413Z",
+        "abstract": "Official population place front bad. Quite dark clearly Congress create.",
+        "content": "Able left political business lay none edge. Stage relationship someone the medical the though news. Bad trial main religious what trade.",
+        "authors": [
+            "present",
+            "action"
+        ],
+        "object_refs": [
+            "threat-actor--21b97149-b12e-4db8-9db8-c50978f17aeb",
+            "tool--20e9c635-32a8-4ef0-b1bc-b36234dff446",
+            "relationship--7d7c7867-5e9c-4b7f-80b4-5de5c44d6031"
+        ],
+        "labels": [
+            "majority",
+            "pfte-batch-1"
+        ],
+        "confidence": 13,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "hair",
+                "url": "https://www.underwood.com/",
+                "hashes": {
+                    "MD5": "77987c9368cec139e22d3f8d38c4ffeb",
+                    "SHA-1": "0be56ca589af3d7a7d08251532461d080d14946d",
+                    "SHA-256": "77e6f9a66ac74c52a2f7f3b5d29f101c8de2522d61fa34aa20ba52d7bfb96828",
+                    "SHA-512": "6202dd1dd60abaf3e0bd1f993c08bdee21a863593af0c8da98b8c2e7d117ba55df05a26f7aa1045df53b99cd522a9d82f23eed1a2685657b03c25581b2c45d59",
+                    "SHA3-256": "da1cbc422b4e6c529b80a9c975648ae1c0d24debc8b92c40a45a87a10c8e6e2b",
+                    "SHA3-512": "a718a51cba73773b684521f34d97db8bf11662a4f30574504bb631a83d9036da34176c184138989087228ca191c96ebd5825773847c909babe2cbed5b2c1fdd4"
+                },
+                "external_id": "fNxJrCkFmOm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--07ee0312-ecd3-4926-8776-66907944b12e"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--07ee0312-ecd3-4926-8776-66907944b12e",
+        "created_by_ref": "identity--4c0fec50-8226-47d7-a690-dd0ce775d8a6",
+        "created": "2021-08-14T01:09:34.693013Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3d6ad3e0-0112-4a6d-8546-447c0e169799",
+                "name": "Space side determine future",
+                "create_date_time": "2021-08-14T01:08:08.419249Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4c0fec50-8226-47d7-a690-dd0ce775d8a6",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-01-17T08:21:27.805286Z",
+        "modified": "2021-12-27T12:43:59.75802Z",
+        "name": "SpendAsFinally",
+        "identity_class": "organization",
+        "contact_information": "PSC 1344, Box 3048\nAPO AA 62079",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "peace",
+                "url": "http://powell.org/",
+                "hashes": {
+                    "MD5": "7523d3c139f445db0ff9fa969e97702d",
+                    "SHA-1": "736dcce87ee19b923cb50b9ee90b48b43158bfd3",
+                    "SHA-256": "7a4d2c37d5ef98c54ed24c29be192d8e0e97c92b3242dc4994e5f7d7a40c4117",
+                    "SHA-512": "14a19a0cb148cc79a7ee83ef1b4b2f1dd64cc893df4836e108d98c20696ee3a09d939337fcc273da04747aff28b7a03a746d4bac96de95ab955050cdc39f54e1",
+                    "SHA3-256": "4e86dbcd17d3b3ff27f92e69caef863b4111d9c52ae487aa6f6026d6bbe00e1c",
+                    "SHA3-512": "8a1c8203853bc833028d0f249c70e8b1e18c30a85deeb888c7d6f11f7bdf160115bdb5cad96b617cfcc7e815ca8450a2dad5a6d7cc284369184498236f3f5d5d"
+                }
+            },
+            {
+                "source_name": "subject",
+                "description": "Information street them.",
+                "url": "https://www.thomas.net/",
+                "external_id": "CDvtxDXtMpyLcaUbRlml"
+            },
+            {
+                "source_name": "quality",
+                "description": "Live nor thought money face certainly finally.",
+                "url": "https://mann-morgan.com/",
+                "hashes": {
+                    "MD5": "d01bcb23414cd4e9634243a8bdd7c9df",
+                    "SHA-1": "fe087548cbcccc2d4cc9b48382ed70ac508c179e",
+                    "SHA-256": "ed2c75e0bbba3e100133ce6f1a467378bed9428e18c1e4a03976dfe38178f987",
+                    "SHA-512": "765947a9f82ff051b0a1267a240eb50f080ac1ffb8bec79cfd2cd1e13ae74a36298b3fd2f58c9a8b112f5cf68dc49a9703e407ed4f386b5397cdc3ff6f70bc77",
+                    "SHA3-256": "35afa9dbcb1c5ed78bf084fa6cf331d8452774efe06331ef3ae8a1a44cdf13d5",
+                    "SHA3-512": "021abb4cee839fe5bc3d3d6cfe822799cde6bfe5758dfddf66f2088c6595b6b8c6f84a5cb51ae6a484dc80d4b9e713ef8c951878ee4160c4a76087b18d8a3873"
+                },
+                "external_id": "rTBNvvGNTJNdP"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--07ee0312-ecd3-4926-8776-66907944b12e"
+        ]
+    }
+]

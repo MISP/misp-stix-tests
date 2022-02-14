@@ -1,0 +1,97 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--31096dab-17f9-4caf-8284-93e8fae4d2c6",
+        "created_by_ref": "identity--7b352989-0182-4cfa-aa67-645d96632184",
+        "created": "2020-10-23T23:59:25.850429Z",
+        "modified": "2021-08-14T01:08:44.862046Z",
+        "name": "my",
+        "first_seen": "2020-09-12T13:32:05.898854Z",
+        "labels": [
+            "simple",
+            "article",
+            "pfte-batch-1"
+        ],
+        "confidence": 11,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--5522b1eb-44cb-4f79-8162-4fd59bc943de",
+        "created_by_ref": "identity--7b352989-0182-4cfa-aa67-645d96632184",
+        "created": "2021-07-28T17:45:35.801385Z",
+        "modified": "2022-05-27T20:29:12.466177Z",
+        "name": "guess",
+        "description": "Often choice energy PM war we.",
+        "aliases": [
+            "fear",
+            "community"
+        ],
+        "first_seen": "2021-04-28T05:19:29.883626Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--0c7b8aad-bad2-4075-b801-29c077e5621b",
+        "created_by_ref": "identity--7b352989-0182-4cfa-aa67-645d96632184",
+        "created": "2020-09-20T00:39:12.537121Z",
+        "modified": "2021-08-14T01:08:44.862572Z",
+        "relationship_type": "controls",
+        "source_ref": "infrastructure--31096dab-17f9-4caf-8284-93e8fae4d2c6",
+        "target_ref": "infrastructure--5522b1eb-44cb-4f79-8162-4fd59bc943de",
+        "start_time": "2021-06-15T04:43:06.428196Z",
+        "stop_time": "2022-05-04T01:26:23.817822Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 19,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7b352989-0182-4cfa-aa67-645d96632184",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-05-25T19:32:23.121058Z",
+        "modified": "2022-11-08T19:24:36.543318Z",
+        "name": "BringAnyoneDark",
+        "description": "Reverse-engineered composite service-desk",
+        "roles": [
+            "cell",
+            "certainly",
+            "available",
+            "discussion"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "hospitality-leisure",
+            "telecommunications",
+            "emergency-services",
+            "insurance"
+        ],
+        "contact_information": "5707 Alisha Ferry\nSouth Mathew, WI 36372",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

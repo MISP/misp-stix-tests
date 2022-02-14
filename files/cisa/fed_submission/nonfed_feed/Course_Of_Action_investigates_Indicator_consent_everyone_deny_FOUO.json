@@ -1,0 +1,117 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--03dc8a7e-8712-4a4b-a150-c009cad5617a",
+        "created_by_ref": "identity--d6e1a3e0-802e-4243-b6e1-94469ad61a9f",
+        "created": "2022-03-28T06:01:02.115505Z",
+        "modified": "2022-08-24T18:22:40.686986Z",
+        "name": "development",
+        "labels": [
+            "crime",
+            "guess",
+            "marriage",
+            "old",
+            "pfte-batch-1"
+        ],
+        "confidence": 41,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--2ffcbe14-626c-4b76-ab56-cf3575146d11",
+        "created_by_ref": "identity--d6e1a3e0-802e-4243-b6e1-94469ad61a9f",
+        "created": "2021-10-27T03:56:56.041331Z",
+        "modified": "2022-03-07T08:21:00.511967Z",
+        "description": "Mention present guess receive information environment.",
+        "pattern": "([email-addr:value > 'vrussell@yahoo.com'] START t'2022-01-01T11:45:27.717821Z' STOP t'2022-03-07T15:10:27.33345Z') OR [windows-registry-key:values[*].data >= 'xErCNHmRJbt'] OR [process:created_time = t'2020-10-14T15:24:18.541596Z']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-05-28T09:21:13.545619Z",
+        "valid_until": "2022-05-24T03:29:49.387971Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "property",
+                "description": "Enough simple we left result war important.",
+                "url": "http://www.maldonado.net/"
+            },
+            {
+                "source_name": "trip",
+                "description": "Benefit area consider whom respond.",
+                "url": "http://davis.com/",
+                "hashes": {
+                    "MD5": "7598c860f40c241f069946d7b4bee21c",
+                    "SHA-1": "451b50210f717e843fa06115b2848f1718ffbeb8",
+                    "SHA-256": "68342b5eca7842c08b7312b9615032d2a362b10b1ffbcbe36bc4a3f90efdd9dd",
+                    "SHA-512": "a5b31175133d59d51b4c0464d9977a1d9bc22e83ecbbcd51441e5b9f3f0a55dda568d4e3fc58753df3713115998b36aef163a9fafb580938ba12cbb8dd394a2c",
+                    "SHA3-256": "a3736f61c4a11fee62e7dc4271fb2404f0518c4cf326dea72eccd63f59d76b56",
+                    "SHA3-512": "3cc63d16b285395c1849c8eeb569e45c96dac0e7e8127e4dc5e6d945c884efd0dbcae4c3c580c28b91373f40bb3b469f716d887822677aea801d6c982e1a6825"
+                }
+            },
+            {
+                "source_name": "join",
+                "description": "Out little analysis strong trouble.",
+                "hashes": {
+                    "MD5": "3fa800b667aaec75732df66d5914c606",
+                    "SHA-1": "30b49b795a26dee51422253ce052ef6c1fe9d498",
+                    "SHA-256": "0d86edb300afbaa3bfef31830e6fc2be5c72195551fa1c6d73ef94ac57e5b63a",
+                    "SHA-512": "ec2af18cb15b979e411584856b3750d8a14e3ce201b76cd8b5240aebc016846502f1b4dca7e3b2b300d3e8a2eedf647e9e7cac0a9e2571695b44e935bba0c0ad",
+                    "SHA3-256": "69f6b4a5c44430cf3ee0fa797763a1456cf5d3704c10af7154e6dae75bb06c1d",
+                    "SHA3-512": "3b7adc11defa628d136943987ddd9b335a8a24e8a0f85f89cead4055d86fb8b75753aefd10adef83e64b20d98a6d167d071548832ab4d2ae834d9979e688413d"
+                },
+                "external_id": "VbmRQoITkutoFoz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--bdab438d-9d9e-4bac-aa5a-de7e0e60b150",
+        "created_by_ref": "identity--d6e1a3e0-802e-4243-b6e1-94469ad61a9f",
+        "created": "2021-03-22T16:41:28.052413Z",
+        "modified": "2021-08-14T01:08:22.161749Z",
+        "relationship_type": "investigates",
+        "description": "Position detail herself. Third keep building however partner. Myself item determine could study family. Hand himself morning development security thus strategy.",
+        "source_ref": "course-of-action--03dc8a7e-8712-4a4b-a150-c009cad5617a",
+        "target_ref": "indicator--2ffcbe14-626c-4b76-ab56-cf3575146d11",
+        "start_time": "2021-09-09T23:28:19.332248Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 100,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d6e1a3e0-802e-4243-b6e1-94469ad61a9f",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-07T19:24:14.216921Z",
+        "modified": "2021-08-14T01:08:22.163872Z",
+        "name": "CenterEnvironmentalAdd",
+        "description": "Adaptive 6thgeneration portal",
+        "identity_class": "unknown",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 63,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

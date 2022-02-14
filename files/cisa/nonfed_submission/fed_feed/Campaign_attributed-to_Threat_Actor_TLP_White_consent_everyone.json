@@ -1,0 +1,198 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--eea25608-46ba-4162-a6cb-0a1b3ed83561",
+        "created_by_ref": "identity--7e16ea5f-9635-40f5-8442-d793ad01caaf",
+        "created": "2022-03-07T16:00:24.827159Z",
+        "modified": "2022-10-09T20:53:05.926285Z",
+        "name": "control",
+        "first_seen": "2021-11-29T14:04:32.079103Z",
+        "last_seen": "2022-06-05T06:14:53.949913Z",
+        "objective": "Sure former late lay.",
+        "labels": [
+            "cup",
+            "pfte-batch-1"
+        ],
+        "confidence": 5,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ccaf82c7-cc50-4a00-a967-ef8e70df4f68"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--d6c8648d-9e82-46c7-b1a7-4f66b4b66e73",
+        "created_by_ref": "identity--7e16ea5f-9635-40f5-8442-d793ad01caaf",
+        "created": "2022-06-19T08:04:19.208119Z",
+        "modified": "2023-01-13T06:39:57.633821Z",
+        "name": "plant",
+        "threat_actor_types": [
+            "crime-syndicate",
+            "nation-state"
+        ],
+        "first_seen": "2020-09-13T12:44:27.363243Z",
+        "roles": [
+            "agent",
+            "malware-author",
+            "infrastructure-operator"
+        ],
+        "sophistication": "strategic",
+        "resource_level": "team",
+        "primary_motivation": "unpredictable",
+        "secondary_motivations": [
+            "personal-gain",
+            "revenge"
+        ],
+        "personal_motivations": [
+            "unpredictable",
+            "organizational-gain",
+            "personal-satisfaction",
+            "coercion"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ccaf82c7-cc50-4a00-a967-ef8e70df4f68"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e9446c0d-fb1b-4bac-9f46-6e6dbb42286d",
+        "created_by_ref": "identity--7e16ea5f-9635-40f5-8442-d793ad01caaf",
+        "created": "2021-01-12T21:25:35.076295Z",
+        "modified": "2021-08-27T10:57:29.222661Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "campaign--eea25608-46ba-4162-a6cb-0a1b3ed83561",
+        "target_ref": "threat-actor--d6c8648d-9e82-46c7-b1a7-4f66b4b66e73",
+        "start_time": "2020-09-22T21:52:54.496367Z",
+        "labels": [
+            "across",
+            "ready",
+            "southern",
+            "camera",
+            "around",
+            "pfte-batch-1"
+        ],
+        "confidence": 40,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ccaf82c7-cc50-4a00-a967-ef8e70df4f68"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--ccaf82c7-cc50-4a00-a967-ef8e70df4f68",
+        "created_by_ref": "identity--7e16ea5f-9635-40f5-8442-d793ad01caaf",
+        "created": "2021-08-14T01:08:13.922603Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c8895e1e-4ecb-48a8-ba6f-5865a3a3066d",
+                "name": "Development get financial fill light",
+                "create_date_time": "2021-08-14T01:08:08.421416Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.421229Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7e16ea5f-9635-40f5-8442-d793ad01caaf",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-03-15T21:59:16.236692Z",
+        "modified": "2021-08-14T01:08:13.924411Z",
+        "name": "Olson-Beard",
+        "roles": [
+            "join",
+            "down",
+            "cut",
+            "probably",
+            "none"
+        ],
+        "identity_class": "class",
+        "sectors": [
+            "government-local"
+        ],
+        "contact_information": "PSC 3690, Box 1631\nAPO AP 95392",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "fill",
+                "description": "Two minute coach almost.",
+                "hashes": {
+                    "MD5": "6821f6fea87fb074bdabcf5d886207b8",
+                    "SHA-1": "ef38225b632f652337c517f750e23e1e8203c7e3",
+                    "SHA-256": "c43f45a6216ccb60db4890e84ef43fb4c3362b455be0a23d445b6772208dcfc9",
+                    "SHA-512": "b5307ec33204f73f0471ff0cda8748fc33c9dadc4c2ec05af911d61c647b4e7a932d52d7e532ba3c973fb9d6f3a76f7278817b51bfe8ce9ca468805cc890cde9",
+                    "SHA3-256": "b44c9030b15e186e5d885759e5c71acd06e863c72fd1d2b29dc9c02a97d3bcea",
+                    "SHA3-512": "41676cf1a81e9c44e07e263e489174682043488551e2b635cd43f6881bb5c9b607bb257c77f383f2a7b795dfa0aec38473f07f4227e1e2d7c77d3c6b7dc0b15b"
+                },
+                "external_id": "zwwDozxslobD"
+            },
+            {
+                "source_name": "major",
+                "description": "Tell fight news heart fish.",
+                "url": "http://www.woods.org/",
+                "external_id": "TIjgaSlAKobQHjlU"
+            },
+            {
+                "source_name": "unit",
+                "url": "https://www.allen.biz/"
+            },
+            {
+                "source_name": "off",
+                "url": "http://ortiz.com/",
+                "external_id": "OWQoJz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ccaf82c7-cc50-4a00-a967-ef8e70df4f68"
+        ]
+    }
+]

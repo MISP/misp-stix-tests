@@ -1,0 +1,171 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--976a9067-333d-4267-bb39-5526e5c7e71d",
+        "created_by_ref": "identity--b5bbb4f4-0699-4f09-a811-c18e3e85f543",
+        "created": "2021-08-17T23:46:19.800015Z",
+        "modified": "2022-01-10T04:12:03.455062Z",
+        "name": "force",
+        "threat_actor_types": [
+            "insider-accidental",
+            "activist",
+            "terrorist",
+            "criminal"
+        ],
+        "roles": [
+            "malware-author",
+            "independent",
+            "sponsor",
+            "infrastructure-architect",
+            "malware-author"
+        ],
+        "goals": [
+            "add",
+            "with"
+        ],
+        "primary_motivation": "accidental",
+        "secondary_motivations": [
+            "ideology",
+            "revenge",
+            "organizational-gain",
+            "revenge"
+        ],
+        "object_marking_refs": [
+            "marking-definition--7a14fc80-f4df-40c0-b5d0-e80394b779ab"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--c444ecee-1361-43e1-b594-941ee701b1b1",
+        "created_by_ref": "identity--b5bbb4f4-0699-4f09-a811-c18e3e85f543",
+        "created": "2021-02-05T14:41:00.316672Z",
+        "modified": "2021-08-14T01:09:33.539895Z",
+        "name": "establish",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "uPAuOPVMrmOcH",
+                "phase_name": "HDxAGvNuuSjfhPsMITa"
+            }
+        ],
+        "last_seen": "2022-06-07T03:39:16.776963Z",
+        "confidence": 85,
+        "object_marking_refs": [
+            "marking-definition--7a14fc80-f4df-40c0-b5d0-e80394b779ab"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--92d56c61-1d88-4a25-bac6-66116176dac4",
+        "created_by_ref": "identity--b5bbb4f4-0699-4f09-a811-c18e3e85f543",
+        "created": "2022-02-11T10:18:42.983312Z",
+        "modified": "2023-01-22T12:13:40.219204Z",
+        "relationship_type": "uses",
+        "description": "Action science now around the. Price police per treatment modern still model.",
+        "source_ref": "threat-actor--976a9067-333d-4267-bb39-5526e5c7e71d",
+        "target_ref": "infrastructure--c444ecee-1361-43e1-b594-941ee701b1b1",
+        "start_time": "2022-05-05T23:34:24.851929Z",
+        "stop_time": "2022-05-15T09:08:55.226725Z",
+        "confidence": 98,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7a14fc80-f4df-40c0-b5d0-e80394b779ab"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b5bbb4f4-0699-4f09-a811-c18e3e85f543",
+        "created_by_ref": "identity--b5bbb4f4-0699-4f09-a811-c18e3e85f543",
+        "created": "2021-03-22T22:40:04.631284Z",
+        "modified": "2021-09-17T18:29:43.956587Z",
+        "name": "Mitchell-Sutton",
+        "roles": [
+            "professor",
+            "war",
+            "fight"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "mining",
+            "non-profit",
+            "commercial",
+            "government-public-services"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 41,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7a14fc80-f4df-40c0-b5d0-e80394b779ab"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--7a14fc80-f4df-40c0-b5d0-e80394b779ab",
+        "created": "2021-08-14T01:09:33.538757Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3af87523-f9f6-4d99-acfc-79560c4d2219",
+                "name": "Boy understand else sense give house travel already",
+                "create_date_time": "2021-08-14T01:08:08.429507Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

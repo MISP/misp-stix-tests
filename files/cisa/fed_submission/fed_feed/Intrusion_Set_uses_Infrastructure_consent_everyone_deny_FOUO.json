@@ -1,0 +1,172 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--6461c8d3-7c5c-423b-bc2a-89960a50c7ae",
+        "created_by_ref": "identity--e850fce8-9b24-4209-9269-2eb88e7d78e9",
+        "created": "2020-11-11T02:24:43.669847Z",
+        "modified": "2021-10-23T09:15:35.0635Z",
+        "name": "town",
+        "primary_motivation": "notoriety",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "base",
+                "url": "http://fletcher-cook.com/",
+                "hashes": {
+                    "MD5": "5d0b224832843d2158d6d6d8c9cb16ca",
+                    "SHA-1": "d219cff4951254f48ed5f73bd9c8a7a388db1794",
+                    "SHA-256": "236f8edd1896400a75185bd8bafd51f0cf7ade17503893f003b05a381d650b51",
+                    "SHA-512": "7f6c79d195671c546e52d5e76b84c94d699094fb66d0713313d0c9a4c822dfeb1d9f7649996b921b49dc1d7b526561cf9cd5124b56ea72b671cba0dce4e682c0",
+                    "SHA3-256": "871db1deacf3b74e7d0fe12f8dc5d213217e56127af1ca379f63ba5a17e45852",
+                    "SHA3-512": "eafaf2dd28469d3f114148f748ea8cb20557a5e2b615791e814f0eee17eabd4b4a3cc839d541c91659a958f25562a476ebb4cb07eb4657e18929dc0aab098af6"
+                },
+                "external_id": "mFALssUfdRAfmLZm"
+            },
+            {
+                "source_name": "car",
+                "description": "Fire current ask toward.",
+                "url": "https://gonzalez-romero.net/",
+                "external_id": "NDRJhKgESPAbwAelhaa"
+            },
+            {
+                "source_name": "heavy",
+                "external_id": "dsikdHAuBQZB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a593a5bb-f120-4265-81de-40ab0b1f3d83"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--f71d0104-3bad-4d76-90a8-a30f3064edc9",
+        "created_by_ref": "identity--e850fce8-9b24-4209-9269-2eb88e7d78e9",
+        "created": "2022-03-07T13:34:00.752906Z",
+        "modified": "2022-09-16T16:10:26.50962Z",
+        "name": "three",
+        "infrastructure_types": [
+            "hosting-malware"
+        ],
+        "aliases": [
+            "suddenly"
+        ],
+        "first_seen": "2020-10-02T19:27:30.723843Z",
+        "last_seen": "2020-10-23T16:53:48.202552Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a593a5bb-f120-4265-81de-40ab0b1f3d83"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d4011b3e-f8d8-4cca-aa4c-2173dfb25043",
+        "created_by_ref": "identity--e850fce8-9b24-4209-9269-2eb88e7d78e9",
+        "created": "2021-09-03T16:03:20.281378Z",
+        "modified": "2021-12-25T09:20:25.82712Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6461c8d3-7c5c-423b-bc2a-89960a50c7ae",
+        "target_ref": "infrastructure--f71d0104-3bad-4d76-90a8-a30f3064edc9",
+        "stop_time": "2022-02-22T21:41:25.679286Z",
+        "labels": [
+            "show",
+            "pfte-batch-1"
+        ],
+        "confidence": 59,
+        "external_references": [
+            {
+                "source_name": "as",
+                "description": "Mrs already with voice many way bad.",
+                "url": "http://gomez-simpson.org/",
+                "external_id": "PZMVlP"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a593a5bb-f120-4265-81de-40ab0b1f3d83"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e850fce8-9b24-4209-9269-2eb88e7d78e9",
+        "created_by_ref": "identity--e850fce8-9b24-4209-9269-2eb88e7d78e9",
+        "created": "2021-03-30T07:03:01.565201Z",
+        "modified": "2021-12-07T17:16:39.397792Z",
+        "name": "Higgins and Sons",
+        "roles": [
+            "degree",
+            "fast"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 49,
+        "object_marking_refs": [
+            "marking-definition--a593a5bb-f120-4265-81de-40ab0b1f3d83"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--a593a5bb-f120-4265-81de-40ab0b1f3d83",
+        "created": "2021-08-14T01:08:58.785608Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3af87523-f9f6-4d99-acfc-79560c4d2219",
+                "name": "Boy understand else sense give house travel already",
+                "create_date_time": "2021-08-14T01:08:08.429507Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

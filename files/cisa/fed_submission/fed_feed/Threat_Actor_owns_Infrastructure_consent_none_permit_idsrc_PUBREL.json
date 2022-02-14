@@ -1,0 +1,210 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--d01406c6-3841-47c5-a502-1b6524937cf6",
+        "created_by_ref": "identity--2071fc23-0abc-4c2f-b7ff-7acb2aa28238",
+        "created": "2021-07-11T06:12:37.55491Z",
+        "modified": "2022-06-23T02:24:11.550192Z",
+        "name": "worker",
+        "description": "Arm commercial before.",
+        "threat_actor_types": [
+            "insider-disgruntled",
+            "criminal",
+            "competitor"
+        ],
+        "goals": [
+            "sing",
+            "conference"
+        ],
+        "sophistication": "none",
+        "resource_level": "individual",
+        "primary_motivation": "revenge",
+        "personal_motivations": [
+            "coercion"
+        ],
+        "labels": [
+            "eye",
+            "pfte-batch-1"
+        ],
+        "confidence": 22,
+        "object_marking_refs": [
+            "marking-definition--90da3671-aaf0-4b55-867a-4ea0b0dae9bb"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--00a12321-9696-4618-95fd-7b23cd4322f1",
+        "created_by_ref": "identity--2071fc23-0abc-4c2f-b7ff-7acb2aa28238",
+        "created": "2021-06-24T08:09:10.01303Z",
+        "modified": "2021-08-14T01:09:27.546379Z",
+        "name": "suddenly",
+        "description": "Generation expert increase media.",
+        "infrastructure_types": [
+            "reconnaissance",
+            "unknown",
+            "reconnaissance"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "last_seen": "2022-07-16T23:57:17.452723Z",
+        "labels": [
+            "collection",
+            "top",
+            "bed",
+            "seven",
+            "idea",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "artist",
+                "description": "Share sister executive TV grow marriage large.",
+                "url": "https://butler.net/",
+                "external_id": "CkpNrRuyKGHvpI"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--90da3671-aaf0-4b55-867a-4ea0b0dae9bb"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d16fae5f-f9fe-4da4-b8b5-924f0fc2abd7",
+        "created_by_ref": "identity--2071fc23-0abc-4c2f-b7ff-7acb2aa28238",
+        "created": "2022-08-06T02:35:40.414593Z",
+        "modified": "2023-03-16T21:25:05.67461Z",
+        "relationship_type": "owns",
+        "source_ref": "threat-actor--d01406c6-3841-47c5-a502-1b6524937cf6",
+        "target_ref": "infrastructure--00a12321-9696-4618-95fd-7b23cd4322f1",
+        "stop_time": "2022-04-03T11:38:39.942895Z",
+        "confidence": 84,
+        "object_marking_refs": [
+            "marking-definition--90da3671-aaf0-4b55-867a-4ea0b0dae9bb"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2071fc23-0abc-4c2f-b7ff-7acb2aa28238",
+        "created_by_ref": "identity--2071fc23-0abc-4c2f-b7ff-7acb2aa28238",
+        "created": "2022-02-03T07:51:04.496174Z",
+        "modified": "2022-06-24T15:38:36.119632Z",
+        "name": "Patrick-Williams",
+        "description": "Horizontal next generation collaboration",
+        "roles": [
+            "great",
+            "reason"
+        ],
+        "identity_class": "individual",
+        "confidence": 59,
+        "external_references": [
+            {
+                "source_name": "market",
+                "url": "https://www.lynch.net/"
+            },
+            {
+                "source_name": "page",
+                "description": "Weight sing program manager.",
+                "url": "http://www.smith.biz/",
+                "external_id": "MTSkmQsi"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--90da3671-aaf0-4b55-867a-4ea0b0dae9bb"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--90da3671-aaf0-4b55-867a-4ea0b0dae9bb",
+        "created": "2021-08-14T01:09:27.544082Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c37eda22-f302-4b2e-bf63-7f8ea35d72b0",
+                "name": "Event really first our country somebody",
+                "create_date_time": "2021-08-14T01:08:08.426408Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.426228Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

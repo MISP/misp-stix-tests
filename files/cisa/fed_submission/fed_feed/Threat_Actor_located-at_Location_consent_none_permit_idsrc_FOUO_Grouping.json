@@ -1,0 +1,218 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--7a1ecb52-79c7-4c38-b805-a455ad9d116a",
+        "created_by_ref": "identity--0902038e-1186-481c-a945-150d489dfc3e",
+        "created": "2021-08-23T01:26:40.899864Z",
+        "modified": "2022-05-30T15:26:56.395417Z",
+        "name": "down",
+        "description": "Whom plan win concern compare.",
+        "aliases": [
+            "there",
+            "son",
+            "brother",
+            "me"
+        ],
+        "sophistication": "minimal",
+        "resource_level": "government",
+        "primary_motivation": "unpredictable",
+        "labels": [
+            "someone",
+            "guy",
+            "chance",
+            "film",
+            "pfte-batch-1"
+        ],
+        "confidence": 32,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "page",
+                "url": "https://turner.biz/",
+                "hashes": {
+                    "MD5": "604079a4f84d5ff951bb5a708da335a9",
+                    "SHA-1": "63dee8dbc9d0ee9406006ed87da894a6ddde8485",
+                    "SHA-256": "6b2a25dcf067cd927d6c0f9adcebbdc85f235f5dfd2ed08105052cd7b8ec786b",
+                    "SHA-512": "cbe4ff861d640fea217482a90923f5504e8840b6d1d5c38d248bf6856640948f461501c897f6419fa9c7b58bb3e2b6996e4909e37ddce46fc49269f0b858c0fc",
+                    "SHA3-256": "212226960ceb1baf23ab6ec93474665efd38e1559d62638201db75662b9933f0",
+                    "SHA3-512": "41458196a1ba3e2c934517ffc3f84863df067daedc9cfe4d28be74aea68c30e28b5623d31ecfdc8f659269e8302b55e8feb0f2261ef75b57f8c44bfcae9e1fba"
+                }
+            },
+            {
+                "source_name": "above",
+                "hashes": {
+                    "MD5": "d4ccb442c7363505d7380f0fc6be25b6",
+                    "SHA-1": "75fa58e2d50be02a26f7b2b0059b2d0b2e43ea29",
+                    "SHA-256": "0bea9a9044a580c651a88b9a1a8c08d1456ce4cc3067aecad3826383b24c6f1f",
+                    "SHA-512": "a82020e821d168b2f4476ce1367f22f39c7ae804705439cda84d863cbd0eaf9402799d8359d06a5b634ffbf30da607f0a017130029e3ae60f0be52f9ede5f460",
+                    "SHA3-256": "2157a2f94301c27f846b6d210c561b00f5a504023d4db83ba32637b2da8d55aa",
+                    "SHA3-512": "58eb712d96c67300d354fe8f7a5cc8c99b38b03befd215379c040b10e00f54a419fdbea58e772a99f2b5ddf95fb8f1ed64b3601cccb80302e95d0770f14fd63a"
+                },
+                "external_id": "krVKpDDEeaCWfnbQdSy"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ad5ee049-58d6-4459-99dd-fc31bdbc6606"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--e617c2f3-d64d-47a7-b3f1-15049bf923f3",
+        "created_by_ref": "identity--0902038e-1186-481c-a945-150d489dfc3e",
+        "created": "2020-11-15T08:41:45.515048Z",
+        "modified": "2021-08-14T01:09:29.231854Z",
+        "description": "Down-sized 6thgeneration open architecture",
+        "latitude": -52.30001808461091,
+        "longitude": -36.47072478581532,
+        "region": "western-europe",
+        "country": "Moldova",
+        "administrative_area": "KyBmAtOUjU",
+        "city": "Blairberg",
+        "labels": [
+            "will",
+            "media",
+            "movie",
+            "happy",
+            "sell",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--ad5ee049-58d6-4459-99dd-fc31bdbc6606"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e465f4fb-4212-45fc-a3f2-f9d177d7571c",
+        "created_by_ref": "identity--0902038e-1186-481c-a945-150d489dfc3e",
+        "created": "2021-10-16T17:07:55.586674Z",
+        "modified": "2021-12-20T18:45:13.542604Z",
+        "relationship_type": "located-at",
+        "source_ref": "threat-actor--7a1ecb52-79c7-4c38-b805-a455ad9d116a",
+        "target_ref": "location--e617c2f3-d64d-47a7-b3f1-15049bf923f3",
+        "stop_time": "2021-01-07T15:06:43.879037Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ad5ee049-58d6-4459-99dd-fc31bdbc6606"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--03cf9c6d-c99d-498f-b5b5-66db743b4e87",
+        "created_by_ref": "identity--0902038e-1186-481c-a945-150d489dfc3e",
+        "created": "2021-07-04T23:55:33.698324Z",
+        "modified": "2021-12-20T08:41:44.653501Z",
+        "context": "malware-analysis",
+        "object_refs": [
+            "threat-actor--7a1ecb52-79c7-4c38-b805-a455ad9d116a",
+            "location--e617c2f3-d64d-47a7-b3f1-15049bf923f3",
+            "relationship--e465f4fb-4212-45fc-a3f2-f9d177d7571c"
+        ],
+        "object_marking_refs": [
+            "marking-definition--ad5ee049-58d6-4459-99dd-fc31bdbc6606"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0902038e-1186-481c-a945-150d489dfc3e",
+        "created_by_ref": "identity--0902038e-1186-481c-a945-150d489dfc3e",
+        "created": "2022-08-02T20:47:40.536696Z",
+        "modified": "2023-02-06T21:10:42.021868Z",
+        "name": "Clarke-Castro",
+        "description": "Exclusive analyzing open system",
+        "roles": [
+            "watch"
+        ],
+        "confidence": 14,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ad5ee049-58d6-4459-99dd-fc31bdbc6606"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--ad5ee049-58d6-4459-99dd-fc31bdbc6606",
+        "created": "2021-08-14T01:09:29.230687Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1a59cf40-939d-4572-bc52-0472b77923dd",
+                "name": "Run main democratic",
+                "create_date_time": "2021-08-14T01:08:08.425934Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

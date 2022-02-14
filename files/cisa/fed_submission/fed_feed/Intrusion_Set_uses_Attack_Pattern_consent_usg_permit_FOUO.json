@@ -1,0 +1,131 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--0f93f1c1-0f23-42c1-ac87-5d0a1df7629e",
+        "created_by_ref": "identity--95e4c30c-8e74-43c2-9556-9e09e894e6e6",
+        "created": "2022-02-15T01:03:44.234651Z",
+        "modified": "2022-05-01T14:23:49.285599Z",
+        "name": "help",
+        "resource_level": "individual",
+        "secondary_motivations": [
+            "dominance",
+            "dominance"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a3e1220f-758b-4b59-a0be-a8bc1247a46a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--7e3c9df3-e6bd-418f-bf3f-1404795fc6de",
+        "created_by_ref": "identity--95e4c30c-8e74-43c2-9556-9e09e894e6e6",
+        "created": "2021-09-25T10:15:49.026Z",
+        "modified": "2022-04-10T14:29:06.808934Z",
+        "name": "summer",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "confidence": 27,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a3e1220f-758b-4b59-a0be-a8bc1247a46a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--53e0ad26-1da8-439c-909f-e88e86db6305",
+        "created_by_ref": "identity--95e4c30c-8e74-43c2-9556-9e09e894e6e6",
+        "created": "2020-10-06T15:38:35.251608Z",
+        "modified": "2021-08-14T01:08:57.898922Z",
+        "relationship_type": "uses",
+        "description": "Word attention win wide through eight attack name.",
+        "source_ref": "intrusion-set--0f93f1c1-0f23-42c1-ac87-5d0a1df7629e",
+        "target_ref": "attack-pattern--7e3c9df3-e6bd-418f-bf3f-1404795fc6de",
+        "labels": [
+            "begin",
+            "go",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a3e1220f-758b-4b59-a0be-a8bc1247a46a"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--95e4c30c-8e74-43c2-9556-9e09e894e6e6",
+        "created_by_ref": "identity--95e4c30c-8e74-43c2-9556-9e09e894e6e6",
+        "created": "2021-10-04T04:30:04.00705Z",
+        "modified": "2021-11-08T04:30:07.045267Z",
+        "name": "Valdez Ltd",
+        "description": "Ergonomic bandwidth-monitored budgetary management",
+        "identity_class": "individual",
+        "sectors": [
+            "nuclear",
+            "government-national",
+            "government-regional"
+        ],
+        "confidence": 78,
+        "external_references": [
+            {
+                "source_name": "indeed",
+                "url": "http://www.moore.net/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a3e1220f-758b-4b59-a0be-a8bc1247a46a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--a3e1220f-758b-4b59-a0be-a8bc1247a46a",
+        "created": "2021-08-14T01:08:57.897854Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2214d9cf-0e77-4d0b-9826-dfff28324708",
+                "name": "Build while international maybe effect movie",
+                "create_date_time": "2021-08-14T01:08:08.427765Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

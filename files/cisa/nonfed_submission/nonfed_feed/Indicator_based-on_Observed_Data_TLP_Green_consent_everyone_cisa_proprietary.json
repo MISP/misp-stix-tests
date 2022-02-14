@@ -1,0 +1,143 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--0da5787e-6ca3-4370-9e9f-940bc1f9ac2b",
+        "created_by_ref": "identity--339e8aea-9bab-4be8-bb6f-5dae9f0c1585",
+        "created": "2021-09-06T00:58:49.37249Z",
+        "modified": "2022-03-14T21:55:57.176529Z",
+        "name": "establish",
+        "description": "Little buy address.",
+        "indicator_types": [
+            "unknown"
+        ],
+        "pattern": "(((([x509-certificate:subject_public_key_exponent >= 48914] AND ([domain-name:defanged NOT = false] WITHIN 6 SECONDS) REPEATS 7 TIMES)) REPEATS 3 TIMES)) FOLLOWEDBY [network-traffic:dst_port <= 49776]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-06-14T11:16:24.597201Z",
+        "valid_until": "2021-06-16T11:00:48.323481Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "oEjWqhyZIyMY",
+                "phase_name": "DmUxqDbNWQwQeV"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "fUbtTemISFeUsY",
+                "phase_name": "KRvdYBGbcQJPt"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "labels": [
+            "main",
+            "space",
+            "radio",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--42ecba0e-a950-4d1f-b6f8-cbd60cca4e64",
+        "created_by_ref": "identity--339e8aea-9bab-4be8-bb6f-5dae9f0c1585",
+        "created": "2021-03-04T10:38:21.166638Z",
+        "modified": "2022-02-14T07:31:42.048639Z",
+        "first_observed": "2021-10-17T22:45:53.079586Z",
+        "last_observed": "2021-12-05T05:07:45.036688Z",
+        "number_observed": 550287914,
+        "objects": {
+            "software--d4d172a8-c3c2-4a51-a23b-26832e8657b9": {
+                "type": "software",
+                "spec_version": "2.1",
+                "id": "software--d4d172a8-c3c2-4a51-a23b-26832e8657b9",
+                "name": "BhGZticGghsO",
+                "cpe": "cpe:2.3:o:fedoraproject:fedora:29:*:*:*:*:*:*:*",
+                "swid": "org.fedoraproject.Fedora-29",
+                "vendor": "Giles-Green"
+            }
+        },
+        "labels": [
+            "tax",
+            "talk",
+            "these",
+            "product",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "produce",
+                "description": "Local record hour modern national exist only partner.",
+                "url": "https://www.williams.com/",
+                "hashes": {
+                    "MD5": "6fd50e9afa5467df9f42ac7ff6fb043f",
+                    "SHA-1": "95033fd306ac29387ee97176a0fc493c5607e8c4",
+                    "SHA-256": "d1caaf8f41c3e7dfdeaa8f2227fbe7921e81e452b996688b60a2df08762ce85f",
+                    "SHA-512": "c53398af264c4366ef742c6d44e05f4cd9fd5c7a1c9b20e22c10362cbd08f7ceccee18241f7bb8f43abffbaa4b2d4a0e323e91b08593e374a62b320221e65656",
+                    "SHA3-256": "0761b9e495375d0b3ce364561db8d8052602d132970f2949cb454b4e9f7095f0",
+                    "SHA3-512": "b2b719c2ee75d061a93b73591f2b4e6b9091fb33b3e150a5a521a616f1c870f4de98ef6cc165315acb237a5f7593f38aab7569ef82f0ab6680b0a0e840adb403"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--036b9563-52aa-494c-9458-410fe9770d35",
+        "created_by_ref": "identity--339e8aea-9bab-4be8-bb6f-5dae9f0c1585",
+        "created": "2020-10-13T19:46:39.302727Z",
+        "modified": "2021-08-14T01:08:36.637105Z",
+        "relationship_type": "based-on",
+        "source_ref": "indicator--0da5787e-6ca3-4370-9e9f-940bc1f9ac2b",
+        "target_ref": "observed-data--42ecba0e-a950-4d1f-b6f8-cbd60cca4e64",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--339e8aea-9bab-4be8-bb6f-5dae9f0c1585",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-05T21:05:21.443636Z",
+        "modified": "2022-08-19T22:30:37.241242Z",
+        "name": "Hill, Burns and Murphy",
+        "description": "Diverse logistical strategy",
+        "identity_class": "system",
+        "sectors": [
+            "aerospace",
+            "chemical",
+            "infrastructure",
+            "aerospace",
+            "aerospace"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

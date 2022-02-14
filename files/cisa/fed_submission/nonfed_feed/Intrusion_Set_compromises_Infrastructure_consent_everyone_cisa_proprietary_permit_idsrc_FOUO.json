@@ -1,0 +1,114 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--5a238573-7f27-484e-b067-53510f2995ab",
+        "created_by_ref": "identity--884782f7-334f-4713-8587-8f9c2f65a0fa",
+        "created": "2020-10-25T15:00:51.892481Z",
+        "modified": "2021-08-14T01:08:52.909363Z",
+        "name": "air",
+        "description": "Good effort family garden.",
+        "aliases": [
+            "indicate"
+        ],
+        "last_seen": "2021-09-14T14:42:14.946034Z",
+        "goals": [
+            "Fact else degree computer beat someone key.",
+            "Attack on know perhaps single.",
+            "Picture these could tax."
+        ],
+        "labels": [
+            "part",
+            "future",
+            "admit",
+            "just",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--d35e2359-9b69-4d2e-92b2-b1e78c0ae3fb",
+        "created_by_ref": "identity--884782f7-334f-4713-8587-8f9c2f65a0fa",
+        "created": "2020-11-24T02:49:47.918615Z",
+        "modified": "2021-11-04T15:47:48.034531Z",
+        "name": "college",
+        "aliases": [
+            "fish",
+            "skill",
+            "later",
+            "range",
+            "difference"
+        ],
+        "labels": [
+            "both",
+            "international",
+            "thus",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--bcbfead4-3a4f-4b2b-99b8-2c84cbb45293",
+        "created_by_ref": "identity--884782f7-334f-4713-8587-8f9c2f65a0fa",
+        "created": "2022-02-12T11:07:56.710672Z",
+        "modified": "2023-01-25T07:56:45.93556Z",
+        "relationship_type": "compromises",
+        "source_ref": "intrusion-set--5a238573-7f27-484e-b067-53510f2995ab",
+        "target_ref": "infrastructure--d35e2359-9b69-4d2e-92b2-b1e78c0ae3fb",
+        "start_time": "2020-11-28T02:59:16.100207Z",
+        "labels": [
+            "moment",
+            "century",
+            "turn",
+            "affect",
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--884782f7-334f-4713-8587-8f9c2f65a0fa",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-28T22:39:06.844416Z",
+        "modified": "2021-08-31T18:45:03.095714Z",
+        "name": "Williams-Palmer",
+        "description": "Open-source empowering toolset",
+        "identity_class": "individual",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "try",
+                "url": "https://www.mitchell.info/",
+                "hashes": {
+                    "MD5": "30fe5cdd65dadbc7a7bbb2d305b2774f",
+                    "SHA-1": "eac172982f5a6f46d183a9cbcd79101074ae0eb1",
+                    "SHA-256": "cf291dc28eef30e71fa256335f0b9b5a1203f44242367269ea2ab7eedb0ae763",
+                    "SHA-512": "9567c054966f09f665b9eda1b0e7f062d3bdd1c0c97d33e3c1f342d2682a0183afb975b38e4a5271add2f09893fa5f79b6ba177e81a4c1ac9f8f0dc981afe32d",
+                    "SHA3-256": "c3b463048b672de63df8d6ccf8ec21b03f4d0c5e23744d4850e7cb4dca1499fe",
+                    "SHA3-512": "48808eb36abf4613e9f9b4b1719813a0125cb4cf3afddb09a46a0dc9b2983a8ce99d86ae2726a8fbe3a84c721c9c2994d15c8eb7f0be4d7bc5efe464dd7cb32f"
+                },
+                "external_id": "MUPeejolVEimb"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

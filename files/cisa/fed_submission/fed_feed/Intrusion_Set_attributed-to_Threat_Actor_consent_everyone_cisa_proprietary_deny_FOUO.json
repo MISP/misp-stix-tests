@@ -1,0 +1,192 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--b65cc1ad-5eae-4f2a-b315-cdae17479256",
+        "created_by_ref": "identity--e71317e6-3600-46c2-850d-af56f5d54258",
+        "created": "2021-03-08T08:13:24.835823Z",
+        "modified": "2021-09-30T01:17:17.496041Z",
+        "name": "minute",
+        "description": "Be picture decide.",
+        "first_seen": "2020-11-15T11:35:14.359002Z",
+        "goals": [
+            "Understand nature ask provide PM buy kitchen.",
+            "Institution begin blue.",
+            "Option now everything week."
+        ],
+        "confidence": 67,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "something",
+                "description": "Community happy ahead city strategy if however leave.",
+                "url": "https://clark.com/"
+            },
+            {
+                "source_name": "personal",
+                "description": "Of audience nor poor child on practice.",
+                "url": "https://barr-cooley.info/"
+            },
+            {
+                "source_name": "government",
+                "url": "http://www.lewis.com/",
+                "external_id": "qeFgCymwLqbQkZgop"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fe2aedb9-ddfe-486e-8e08-081f8078b095"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--01ada0b9-94a4-4eba-8e1b-e5b6ef25dd03",
+        "created_by_ref": "identity--e71317e6-3600-46c2-850d-af56f5d54258",
+        "created": "2021-07-21T18:07:24.812102Z",
+        "modified": "2022-07-17T06:38:51.285423Z",
+        "name": "fish",
+        "description": "Summer remember what statement.",
+        "last_seen": "2021-07-23T20:43:23.808502Z",
+        "roles": [
+            "malware-author",
+            "sponsor",
+            "director"
+        ],
+        "goals": [
+            "peace"
+        ],
+        "primary_motivation": "coercion",
+        "personal_motivations": [
+            "personal-satisfaction",
+            "ideology",
+            "unpredictable"
+        ],
+        "labels": [
+            "everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 9,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fe2aedb9-ddfe-486e-8e08-081f8078b095"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--56bccca3-373b-454a-93c0-0c99ffd8f044",
+        "created_by_ref": "identity--e71317e6-3600-46c2-850d-af56f5d54258",
+        "created": "2022-02-11T22:31:44.267124Z",
+        "modified": "2022-10-03T02:34:09.236372Z",
+        "relationship_type": "attributed-to",
+        "description": "Entire whatever whether. Establish paper soon you.",
+        "source_ref": "intrusion-set--b65cc1ad-5eae-4f2a-b315-cdae17479256",
+        "target_ref": "threat-actor--01ada0b9-94a4-4eba-8e1b-e5b6ef25dd03",
+        "start_time": "2021-09-21T16:59:24.107928Z",
+        "stop_time": "2021-10-13T11:51:20.272536Z",
+        "confidence": 82,
+        "object_marking_refs": [
+            "marking-definition--fe2aedb9-ddfe-486e-8e08-081f8078b095"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e71317e6-3600-46c2-850d-af56f5d54258",
+        "created_by_ref": "identity--e71317e6-3600-46c2-850d-af56f5d54258",
+        "created": "2021-05-06T15:31:33.466877Z",
+        "modified": "2022-01-13T23:23:00.203635Z",
+        "name": "Holmes LLC",
+        "description": "Secured 6thgeneration policy",
+        "roles": [
+            "fire",
+            "adult",
+            "us"
+        ],
+        "identity_class": "system",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "minute",
+                "description": "Himself particularly administration sea growth.",
+                "url": "https://www.adams.com/",
+                "hashes": {
+                    "MD5": "6e251298612677a8d8c77e4acff02485",
+                    "SHA-1": "613396a6fcbde46b41a8934816708e4d9695a78b",
+                    "SHA-256": "69b9913650fc4d0adf57106dd384ec4ff77e8118df878c5f24f605cae256f9a4",
+                    "SHA-512": "c9d25608d26571bed6fce200b40c9008b468abef8cd0970696838eb67f399ff30e2560d35141af9a315d8b7fbb4547f98375f1e75c358ef53bface7c5ffedb42",
+                    "SHA3-256": "015f49b1b88c71a1d3e05c2e970f9e1489c6a382c4cea26062e7beaa9c1a6ffc",
+                    "SHA3-512": "5bdcb72a63a7c2e89339d5a7e7a91f42caa8e984e29552b458e7422fa7bf3af50468238c43c9dd46b7f46dc10f419d02856bad2b36c3e3c0d80f062a6c52715f"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fe2aedb9-ddfe-486e-8e08-081f8078b095"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--fe2aedb9-ddfe-486e-8e08-081f8078b095",
+        "created": "2021-08-14T01:08:51.904495Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e0c28f68-5570-434a-9764-3e8498f0a59a",
+                "name": "Serve much idea usually",
+                "create_date_time": "2021-08-14T01:08:08.432065Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

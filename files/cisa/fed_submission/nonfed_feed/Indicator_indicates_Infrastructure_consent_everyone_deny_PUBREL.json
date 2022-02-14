@@ -1,0 +1,126 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--55bd67be-8583-4204-9d2e-ed1d16673220",
+        "created_by_ref": "identity--70515362-914f-499c-ae96-f47f404942d6",
+        "created": "2021-06-06T15:32:00.400387Z",
+        "modified": "2021-08-14T01:08:30.56451Z",
+        "indicator_types": [
+            "compromised",
+            "malicious-activity"
+        ],
+        "pattern": "[(email-addr:value = 'paul07@smith-hall.net') AND email-addr:value >= 'ccooper@anderson-sanchez.biz'] OR [ipv4-addr:value NOT = '170.113.92.82' OR (domain-name:defanged = false)] OR [directory:path = '/above/accept.wav']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-02-20T10:11:25.943245Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "TrzzlgciiMMYIUkm",
+                "phase_name": "JbYDylLqhMLitd"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--b58d39ad-cb3d-4b25-a9eb-eed8ab571729",
+        "created_by_ref": "identity--70515362-914f-499c-ae96-f47f404942d6",
+        "created": "2022-01-24T10:35:13.761094Z",
+        "modified": "2022-03-09T15:14:55.431771Z",
+        "name": "rate",
+        "description": "And art effect side.",
+        "infrastructure_types": [
+            "routers-switches"
+        ],
+        "aliases": [
+            "house",
+            "sister"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "VhbHDfgNiDeYNRe",
+                "phase_name": "bkIvucYWTUBppdHoO"
+            }
+        ],
+        "first_seen": "2022-02-11T17:25:22.183233Z",
+        "labels": [
+            "protect",
+            "mention",
+            "group",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b082e134-bc39-4f30-b9ad-29af4218c77f",
+        "created_by_ref": "identity--70515362-914f-499c-ae96-f47f404942d6",
+        "created": "2020-12-10T00:01:32.243097Z",
+        "modified": "2021-08-14T01:08:30.568331Z",
+        "relationship_type": "indicates",
+        "description": "Them edge through always enough free. Fight relationship entire art role. Edge mean something hard its wish team.",
+        "source_ref": "indicator--55bd67be-8583-4204-9d2e-ed1d16673220",
+        "target_ref": "infrastructure--b58d39ad-cb3d-4b25-a9eb-eed8ab571729",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--70515362-914f-499c-ae96-f47f404942d6",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-12T02:43:01.915375Z",
+        "modified": "2021-08-14T01:08:30.570622Z",
+        "name": "GroupWantIn",
+        "roles": [
+            "room"
+        ],
+        "contact_information": "672 Nixon Light Suite 924\nWest Theodoreshire, NC 84532",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

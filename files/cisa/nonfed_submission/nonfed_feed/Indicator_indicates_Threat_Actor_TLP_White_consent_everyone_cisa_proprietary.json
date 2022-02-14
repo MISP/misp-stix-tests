@@ -1,0 +1,93 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--1b3f0252-e736-4195-b1c6-181b3121b551",
+        "created_by_ref": "identity--bbf37f4a-97a2-44d1-b938-a963d456945c",
+        "created": "2021-10-28T21:12:49.525951Z",
+        "modified": "2022-02-15T22:16:36.137775Z",
+        "description": "Remain evidence doctor defense.",
+        "pattern": "[network-traffic:dst_packets >= 1038832] OR [network-traffic:dst_byte_count = 475128] OR [software:defanged NOT = false] REPEATS 3 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-09-01T14:05:10.855605Z",
+        "valid_until": "2021-10-26T16:30:09.543829Z",
+        "labels": [
+            "reason",
+            "large",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--c0374944-5acc-4a33-8b28-a897d6a6d83c",
+        "created_by_ref": "identity--bbf37f4a-97a2-44d1-b938-a963d456945c",
+        "created": "2020-12-20T06:53:44.513145Z",
+        "modified": "2021-08-14T01:08:33.758598Z",
+        "name": "six",
+        "description": "Catch new lay sell necessary day within.",
+        "threat_actor_types": [
+            "hacker",
+            "nation-state",
+            "nation-state",
+            "nation-state"
+        ],
+        "last_seen": "2021-03-04T01:49:03.830542Z",
+        "sophistication": "innovator",
+        "resource_level": "government",
+        "primary_motivation": "organizational-gain",
+        "personal_motivations": [
+            "coercion"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 54,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b63de493-b7ca-435e-841c-4a638de8fe9c",
+        "created_by_ref": "identity--bbf37f4a-97a2-44d1-b938-a963d456945c",
+        "created": "2021-01-21T09:34:59.007242Z",
+        "modified": "2021-10-15T00:28:39.471945Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--1b3f0252-e736-4195-b1c6-181b3121b551",
+        "target_ref": "threat-actor--c0374944-5acc-4a33-8b28-a897d6a6d83c",
+        "start_time": "2021-03-22T18:12:01.961713Z",
+        "labels": [
+            "threat",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--bbf37f4a-97a2-44d1-b938-a963d456945c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-12-27T19:42:41.560253Z",
+        "modified": "2022-11-03T08:24:23.802949Z",
+        "name": "Johnson-Garcia",
+        "description": "Pre-emptive non-volatile hierarchy",
+        "contact_information": "1093 Tina Mountain\nNew Brendaberg, NM 52535",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 63,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

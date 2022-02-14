@@ -1,0 +1,228 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--ac5a25e3-f878-4170-a0ef-33314fe3ffff",
+        "created_by_ref": "identity--076aa819-190d-4528-a7e0-ab8477471af3",
+        "created": "2021-08-29T18:21:17.46694Z",
+        "modified": "2022-07-28T00:00:00.512266Z",
+        "name": "perform",
+        "description": "Can main significant evening.",
+        "threat_actor_types": [
+            "criminal",
+            "crime-syndicate",
+            "hacker",
+            "insider-disgruntled"
+        ],
+        "roles": [
+            "infrastructure-operator",
+            "infrastructure-operator",
+            "malware-author",
+            "sponsor",
+            "infrastructure-operator"
+        ],
+        "goals": [
+            "wear"
+        ],
+        "labels": [
+            "chair",
+            "trial",
+            "pfte-batch-1"
+        ],
+        "confidence": 84,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--1a16fe89-7202-4201-96f9-2d020efad931"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b69a2a91-10b2-419b-8fbb-cf36556b3001",
+        "created_by_ref": "identity--076aa819-190d-4528-a7e0-ab8477471af3",
+        "created": "2021-07-15T01:53:57.718629Z",
+        "modified": "2021-12-27T11:56:01.782881Z",
+        "name": "Williams Group",
+        "roles": [
+            "threat",
+            "court"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "agriculture"
+        ],
+        "confidence": 38,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "one",
+                "description": "Clearly eat forget where physical during.",
+                "external_id": "owIgGMH"
+            },
+            {
+                "source_name": "section",
+                "description": "Purpose turn success build perform statement.",
+                "url": "https://obrien.org/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1a16fe89-7202-4201-96f9-2d020efad931"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f649db75-d653-406a-aa77-1c575e44abd8",
+        "created_by_ref": "identity--076aa819-190d-4528-a7e0-ab8477471af3",
+        "created": "2022-04-08T19:17:58.033906Z",
+        "modified": "2023-02-15T10:57:49.34586Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "threat-actor--ac5a25e3-f878-4170-a0ef-33314fe3ffff",
+        "target_ref": "identity--b69a2a91-10b2-419b-8fbb-cf36556b3001",
+        "confidence": 14,
+        "external_references": [
+            {
+                "source_name": "care",
+                "description": "Crime wear there explain.",
+                "url": "https://www.benitez.com/",
+                "hashes": {
+                    "MD5": "9be433462d680d78c2601da3413083df",
+                    "SHA-1": "877ae88bc0531e7a4c585ea70f2335d9068d5f90",
+                    "SHA-256": "d2c443b6c45c0edd0cbc8e303b5e27794a7c3272f450e2e7a22788ff717ade22",
+                    "SHA-512": "ee46db1a3a058ffbdd071bd1ab2f912fc159a5ca9ae97549b24381a6138012b5ef1d20981d823c258540336842efcf6a7023fbbc82613c47d24df18d79a805c0",
+                    "SHA3-256": "998a125b516ba59b8847dd1158db107f2bfac198c7fc658d631789622aaea0b9",
+                    "SHA3-512": "0de57a2f6fa520091c24d8f8254e31f395268ec974c6c07012b268990c723be1560c764034b60e04f214f102cfa1f5f3f73b62142ab091aa95c16fa149f95bbd"
+                },
+                "external_id": "pqNZu"
+            },
+            {
+                "source_name": "child",
+                "hashes": {
+                    "MD5": "282f72a0171eeaa386e7a87775dcaef0",
+                    "SHA-1": "6333b83db5f13087a00929c48f320d2d811528aa",
+                    "SHA-256": "1f76744686111a1921f5a40635e18b3ee636e46f86833dc886735d7aa7e97548",
+                    "SHA-512": "9f55390fc4e946a4175f8efea26b1bd0127916d6d33be8a9ed40be26bc82438d3bf0f7bb60551eab7ac1c258ee59fbe78e03c5c06e45b183c6670a9233eee3df",
+                    "SHA3-256": "be4d9ecbeb5a1e6054227a43996a9df464c1c086e20f5fc20695a7a119c0e068",
+                    "SHA3-512": "92109fb26d7702b91bd8c97892534485bcf5d43b5895950c888481ea84627d2a4f3ed9873e1d4be48b3f5b558b8e93309257bd10643632d75ea18856589ac9f0"
+                },
+                "external_id": "OuFVbCcKAcrsGSuVxB"
+            },
+            {
+                "source_name": "edge",
+                "hashes": {
+                    "MD5": "5b62a1609c5a99b716fb4cab67b4f36e",
+                    "SHA-1": "3377186ce501681f494306f3cc4b5de84b28786b",
+                    "SHA-256": "6383ea45e996b1af6ee5eee3c3594cd7763830e6aefdbbacc32f3ea9363ed2be",
+                    "SHA-512": "0a75d50bf89153b1fa9355cec0c392f6c02277262e295c08b9c06fbcdf4d82189f2525c0b68b2b1a602e2e97842cda7a9c83985c0fa05b44e4f9409c2a5542e6",
+                    "SHA3-256": "580c701b07d23bdce0f5a80aa6cdbbd8180f2c5261344699da89996e40a9545b",
+                    "SHA3-512": "a9550c983fa88146fe7559173e5431c05523576830df6ca188de21da41426d189dee220c84601058aa3166972b0e9c945c196b8c63f8a5183802c8c8c9348556"
+                },
+                "external_id": "YVVMaPfbxIOrpHDr"
+            },
+            {
+                "source_name": "real",
+                "description": "Much dream gas while.",
+                "url": "http://martin-moore.com/",
+                "hashes": {
+                    "MD5": "12479284bac5b896a66dcf1fdeb9b23a",
+                    "SHA-1": "def88b110c82790da666fc19339f2827e362062b",
+                    "SHA-256": "c162e61956415571d63dc19a8593deba9c8584ab2eb79e59ea47258bd5cf1f8e",
+                    "SHA-512": "8218b1abc20117f5b42494e2f5f04865ef96e8ce6bc488e5b83b54073f4dc15d82de78c5354c690f640a9a2edc7c0317c740ce75f8520ba3d4788811030d1cbf",
+                    "SHA3-256": "0c96c728167bba1155a6e91e4a31c209b64c7b6c20e105fad219a55adc949faf",
+                    "SHA3-512": "c2d303b96e904d2e0d9e2017e949b31b44b10363156ec6d2c944fc0f2f26ff50242a298e8c0101d1086c925dc4c03ced93f4a55530dd95b87517ee7b7727e348"
+                },
+                "external_id": "vCubJFKinGODiECe"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1a16fe89-7202-4201-96f9-2d020efad931"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--1a16fe89-7202-4201-96f9-2d020efad931",
+        "created_by_ref": "identity--076aa819-190d-4528-a7e0-ab8477471af3",
+        "created": "2021-08-14T01:09:24.626296Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f98cddfd-8461-4143-a969-e6e230df21d4",
+                "name": "Word describe cold color",
+                "create_date_time": "2021-08-14T01:08:08.422252Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--076aa819-190d-4528-a7e0-ab8477471af3",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-14T05:27:50.499821Z",
+        "modified": "2021-10-21T14:36:19.123629Z",
+        "name": "Oneal Inc",
+        "roles": [
+            "finally",
+            "forget",
+            "without",
+            "allow"
+        ],
+        "identity_class": "unknown",
+        "contact_information": "24252 Conley Centers Apt. 767\nWest Ronald, MT 43851",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 85,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--1a16fe89-7202-4201-96f9-2d020efad931"
+        ]
+    }
+]

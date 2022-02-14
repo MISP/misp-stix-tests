@@ -1,0 +1,177 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--a3c9151a-f4ab-4a4e-92c7-d1bebbf5b00c",
+        "created_by_ref": "identity--7e48f733-c4fa-4a96-bfb9-ada5189fcf3c",
+        "created": "2021-09-29T23:06:04.365042Z",
+        "modified": "2022-06-13T11:46:23.475707Z",
+        "name": "assume",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "paper",
+                "description": "Head early already.",
+                "url": "https://frye.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7556787b-5103-4d90-b885-94712abfd87a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--80ae6a0c-5529-4a3f-9e57-d21a4dfc2bd9",
+        "created_by_ref": "identity--7e48f733-c4fa-4a96-bfb9-ada5189fcf3c",
+        "created": "2022-08-07T08:53:50.585849Z",
+        "modified": "2023-05-08T05:41:50.701695Z",
+        "description": "Ability tell they with majority part.",
+        "indicator_types": [
+            "attribution",
+            "unknown",
+            "unknown",
+            "anomalous-activity",
+            "compromised"
+        ],
+        "pattern": "[url:defanged = false] OR ([directory:mtime = t'2022-05-29T20:53:28.512946Z'] AND [windows-registry-key:key <= 'HFELBqCMgEsnrXD'])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-10-19T19:49:15.62056Z",
+        "valid_until": "2021-06-29T02:22:48.72341Z",
+        "labels": [
+            "should",
+            "hear",
+            "pfte-batch-1"
+        ],
+        "confidence": 48,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "figure",
+                "description": "Foreign player with subject magazine.",
+                "url": "http://www.middleton.com/",
+                "hashes": {
+                    "MD5": "9d1036c6a2615d5a98ef9bd07ac9f992",
+                    "SHA-1": "25a210c5ab3c0fd1a2b7136ff57a85cf153313f2",
+                    "SHA-256": "70e11591bc865d42e45bd28b67b68476bae5886e3015e01039e697c118461249",
+                    "SHA-512": "2244dbfbf73fd9374d22b814410e96c66dab9b89ba956c1be5ad35fd6b20df81f57b9acd786a31633cc9774af108caa3ddd9c607c56bdd4aeac4a83832099b47",
+                    "SHA3-256": "a19d76ecdad400729f3de3a617c3dd23ecd3a2eedddb7d769cc389ea3b8fe454",
+                    "SHA3-512": "adb25014c98c4fd32a46517da37bb4edb581388ba4b6c67880ca740ef2d0f4da0574dd03237e729bd3e104426b661108776e863d84e8c90d1f9d17b29d9159a1"
+                }
+            },
+            {
+                "source_name": "decision",
+                "url": "http://jenkins.com/",
+                "external_id": "EJZOmHNFgltBBrr"
+            },
+            {
+                "source_name": "draw",
+                "description": "Per institution modern still.",
+                "url": "http://walters.info/",
+                "external_id": "WPprTnKnUn"
+            },
+            {
+                "source_name": "international",
+                "url": "http://reyes.info/",
+                "external_id": "wvbqFuRfnxyKhPSeTtv"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7556787b-5103-4d90-b885-94712abfd87a"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e8a708cb-3190-4818-b891-574e2e917634",
+        "created_by_ref": "identity--7e48f733-c4fa-4a96-bfb9-ada5189fcf3c",
+        "created": "2022-01-25T15:00:33.050418Z",
+        "modified": "2022-05-12T16:16:55.098611Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--a3c9151a-f4ab-4a4e-92c7-d1bebbf5b00c",
+        "target_ref": "indicator--80ae6a0c-5529-4a3f-9e57-d21a4dfc2bd9",
+        "labels": [
+            "much",
+            "relationship",
+            "pfte-batch-1"
+        ],
+        "confidence": 99,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7556787b-5103-4d90-b885-94712abfd87a"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7e48f733-c4fa-4a96-bfb9-ada5189fcf3c",
+        "created_by_ref": "identity--7e48f733-c4fa-4a96-bfb9-ada5189fcf3c",
+        "created": "2021-10-15T12:23:27.602978Z",
+        "modified": "2022-06-11T10:38:30.300991Z",
+        "name": "Boyle-Morris",
+        "description": "Object-based real-time open architecture",
+        "roles": [
+            "degree",
+            "commercial",
+            "prepare"
+        ],
+        "confidence": 84,
+        "external_references": [
+            {
+                "source_name": "turn",
+                "description": "Dark animal woman which serve wonder someone.",
+                "url": "http://www.harrington-davis.biz/"
+            },
+            {
+                "source_name": "benefit",
+                "description": "Back person cultural under clearly.",
+                "external_id": "CUvvyYtEKPagLybbFpt"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7556787b-5103-4d90-b885-94712abfd87a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--7556787b-5103-4d90-b885-94712abfd87a",
+        "created": "2021-08-14T01:08:23.842748Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2214d9cf-0e77-4d0b-9826-dfff28324708",
+                "name": "Build while international maybe effect movie",
+                "create_date_time": "2021-08-14T01:08:08.427765Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

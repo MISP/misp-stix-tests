@@ -1,0 +1,156 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--e88f2de1-7f5a-4896-8788-34d6941a2324",
+        "created_by_ref": "identity--ca378333-c1ed-46c3-9c65-645a0034fd94",
+        "created": "2021-11-06T01:48:37.465864Z",
+        "modified": "2022-09-08T04:05:15.211136Z",
+        "name": "suddenly",
+        "goals": [
+            "and",
+            "against",
+            "even"
+        ],
+        "sophistication": "none",
+        "personal_motivations": [
+            "ideology",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "sea",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--522dc558-9037-4a5f-a86d-a22cf9f087cd"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--1c89b618-0996-45c2-8b6f-c7d8daf6c854",
+        "created_by_ref": "identity--ca378333-c1ed-46c3-9c65-645a0034fd94",
+        "created": "2021-01-12T10:55:25.239718Z",
+        "modified": "2021-09-29T06:19:15.683356Z",
+        "description": "Phased 24hour application",
+        "latitude": 71.28222141265795,
+        "longitude": 33.910578752523264,
+        "country": "Bahamas",
+        "street_address": "873 Thompson Trafficway Suite 951",
+        "object_marking_refs": [
+            "marking-definition--522dc558-9037-4a5f-a86d-a22cf9f087cd"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4cd4e459-1b0b-4a5c-9316-1a5e8a31d14d",
+        "created_by_ref": "identity--ca378333-c1ed-46c3-9c65-645a0034fd94",
+        "created": "2020-11-27T18:24:27.189912Z",
+        "modified": "2021-08-24T21:11:37.50485Z",
+        "relationship_type": "located-at",
+        "description": "Focus get recognize black receive. Practice floor land.",
+        "source_ref": "threat-actor--e88f2de1-7f5a-4896-8788-34d6941a2324",
+        "target_ref": "location--1c89b618-0996-45c2-8b6f-c7d8daf6c854",
+        "start_time": "2020-12-17T17:16:23.583135Z",
+        "labels": [
+            "business",
+            "professor",
+            "the",
+            "management",
+            "suddenly",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--522dc558-9037-4a5f-a86d-a22cf9f087cd"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ca378333-c1ed-46c3-9c65-645a0034fd94",
+        "created_by_ref": "identity--ca378333-c1ed-46c3-9c65-645a0034fd94",
+        "created": "2021-07-11T18:45:38.548257Z",
+        "modified": "2021-08-14T01:09:29.570624Z",
+        "name": "Bailey and Sons",
+        "description": "Digitized 4thgeneration knowledgebase",
+        "roles": [
+            "dog",
+            "prevent",
+            "shake",
+            "word"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 95,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--522dc558-9037-4a5f-a86d-a22cf9f087cd"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--522dc558-9037-4a5f-a86d-a22cf9f087cd",
+        "created": "2021-08-14T01:09:29.568958Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7114ed24-0991-4631-bb44-7704e6b690d1",
+                "name": "Traditional contain thing officer story",
+                "create_date_time": "2021-08-14T01:08:08.432511Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.432344Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

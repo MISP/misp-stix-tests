@@ -1,0 +1,172 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--0b99ecd8-67fe-4a1d-a7c1-749d9da5b41c",
+        "created_by_ref": "identity--1d6f9a61-da8a-484b-96a4-cf714b8c0f12",
+        "created": "2022-07-12T16:34:20.973416Z",
+        "modified": "2023-04-16T18:25:27.145323Z",
+        "description": "Show head now research writer clear.",
+        "pattern": "[ipv4-addr:defanged = false] FOLLOWEDBY ([mutex:name <= 'kind'])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-10-19T14:22:59.35048Z",
+        "valid_until": "2021-11-08T03:22:09.634595Z",
+        "external_references": [
+            {
+                "source_name": "group",
+                "description": "Country conference all deep shake attorney.",
+                "url": "https://lee.com/",
+                "hashes": {
+                    "MD5": "3bcf2f63a3a98a1c6b08bed3c0d1c018",
+                    "SHA-1": "96e431c1e069bf9b96f3f6009d297ebc47bd50af",
+                    "SHA-256": "eee0599b8781840856f34bbb527ded1d06d7423f59597cf6d04d35d558af0c0d",
+                    "SHA-512": "8ccaaaf3d8253d21dda9dc580d9d519e030ecbb2f1278fdee33ea54b2eb3f9c1c5f5872cd3e21288f510df05ac63f1b2a9d18174da8f44e2585fcbcf7ddbaff4",
+                    "SHA3-256": "7ece30da13022fbe4202988a9ea3153a80050e3329bd70d2b0448969fbc06148",
+                    "SHA3-512": "3e02b72a38add03e567800a5a0aadeaebe9212b0d3ddbcca81cf9cfb474964d6da922280a13dd6d2598baab9920ed050954bfd66e67388e55eb13cc7cb1dea42"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9c6a1f48-3c30-4ce4-a575-ed7ddb69a05f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--0b81a161-ef75-40eb-bf16-8f784ebcf360",
+        "created_by_ref": "identity--1d6f9a61-da8a-484b-96a4-cf714b8c0f12",
+        "created": "2022-03-03T14:00:08.259009Z",
+        "modified": "2022-05-19T14:33:24.757731Z",
+        "name": "anything",
+        "description": "Stay trial risk response run.",
+        "aliases": [
+            "entire",
+            "involve",
+            "world",
+            "provide"
+        ],
+        "resource_level": "club",
+        "primary_motivation": "personal-satisfaction",
+        "secondary_motivations": [
+            "ideology",
+            "accidental",
+            "revenge"
+        ],
+        "labels": [
+            "that",
+            "these",
+            "pfte-batch-1"
+        ],
+        "confidence": 66,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9c6a1f48-3c30-4ce4-a575-ed7ddb69a05f"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b70f7fb8-a82e-474f-8df1-c54dabcdc6f8",
+        "created_by_ref": "identity--1d6f9a61-da8a-484b-96a4-cf714b8c0f12",
+        "created": "2021-07-02T16:38:56.69691Z",
+        "modified": "2022-06-07T22:18:38.764169Z",
+        "relationship_type": "indicates",
+        "description": "So cold need wrong.",
+        "source_ref": "indicator--0b99ecd8-67fe-4a1d-a7c1-749d9da5b41c",
+        "target_ref": "intrusion-set--0b81a161-ef75-40eb-bf16-8f784ebcf360",
+        "start_time": "2021-04-03T22:14:28.373044Z",
+        "stop_time": "2021-11-05T22:13:55.857481Z",
+        "labels": [
+            "group",
+            "pfte-batch-1"
+        ],
+        "confidence": 23,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9c6a1f48-3c30-4ce4-a575-ed7ddb69a05f"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1d6f9a61-da8a-484b-96a4-cf714b8c0f12",
+        "created_by_ref": "identity--1d6f9a61-da8a-484b-96a4-cf714b8c0f12",
+        "created": "2021-04-02T03:56:23.854923Z",
+        "modified": "2021-08-14T01:08:31.390002Z",
+        "name": "Bryant Ltd",
+        "description": "User-centric radical middleware",
+        "identity_class": "class",
+        "sectors": [
+            "water",
+            "government-public-services",
+            "government-local"
+        ],
+        "confidence": 10,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9c6a1f48-3c30-4ce4-a575-ed7ddb69a05f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--9c6a1f48-3c30-4ce4-a575-ed7ddb69a05f",
+        "created": "2021-08-14T01:08:31.387091Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1946efc8-a2e0-46a4-bb9a-691cbe16f041",
+                "name": "Home politics letter yes consider",
+                "create_date_time": "2021-08-14T01:08:08.424111Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

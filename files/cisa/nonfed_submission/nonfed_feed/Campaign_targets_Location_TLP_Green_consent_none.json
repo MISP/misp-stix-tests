@@ -1,0 +1,117 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--521f8765-680b-4b20-a548-3bb1496936ca",
+        "created_by_ref": "identity--8c1534c3-5e0f-4905-ab46-2dbf10d49ce2",
+        "created": "2020-12-06T03:05:43.443423Z",
+        "modified": "2021-08-14T01:08:16.829397Z",
+        "name": "popular",
+        "description": "Part condition spring.",
+        "first_seen": "2021-11-08T09:46:05.87217Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 89,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--02b08494-386c-4ac4-bf8b-59a7d8dfa263",
+        "created_by_ref": "identity--8c1534c3-5e0f-4905-ab46-2dbf10d49ce2",
+        "created": "2020-11-02T17:51:48.747981Z",
+        "modified": "2021-08-14T01:08:16.829643Z",
+        "latitude": 50.91787743456052,
+        "longitude": -24.241127823646536,
+        "precision": 45.878766720908814,
+        "country": "Trinidad and Tobago",
+        "city": "North Karina",
+        "street_address": "9381 Donald Union Suite 425",
+        "postal_code": "38718",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 95,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--510e520b-8717-4847-bf1a-d1aeb82506ac",
+        "created_by_ref": "identity--8c1534c3-5e0f-4905-ab46-2dbf10d49ce2",
+        "created": "2021-12-28T04:39:15.816516Z",
+        "modified": "2022-10-11T07:25:41.927329Z",
+        "relationship_type": "targets",
+        "description": "Respond serve heavy food speak push career. Site wear surface explain. Full state forget health between along discuss. World plan provide technology here.",
+        "source_ref": "campaign--521f8765-680b-4b20-a548-3bb1496936ca",
+        "target_ref": "location--02b08494-386c-4ac4-bf8b-59a7d8dfa263",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 35,
+        "external_references": [
+            {
+                "source_name": "walk",
+                "description": "Matter education fast charge.",
+                "url": "http://thornton.com/"
+            },
+            {
+                "source_name": "free",
+                "description": "Travel population necessary democratic act.",
+                "url": "http://www.price.com/",
+                "external_id": "DgHQURNWOIccQeWVsF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8c1534c3-5e0f-4905-ab46-2dbf10d49ce2",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-26T09:39:30.784519Z",
+        "modified": "2022-06-07T23:31:07.875891Z",
+        "name": "WillDeepFace",
+        "identity_class": "unknown",
+        "sectors": [
+            "technology",
+            "government-regional",
+            "education",
+            "emergency-services"
+        ],
+        "contact_information": "600 Mcdonald Oval Apt. 186\nClarkmouth, IN 24245",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "land",
+                "description": "Media agreement mission agent American at of.",
+                "url": "https://www.rivera-drake.com/",
+                "hashes": {
+                    "MD5": "690c53be58f32b267662f0f8674f2b45",
+                    "SHA-1": "6abe6e59b9e81ac01b05f782b89c9bdd1d24b764",
+                    "SHA-256": "0197a62184c2df2b22f10c273fe69dab30c1516ef0cdb18b720c32d9c6f1639f",
+                    "SHA-512": "724efe6c7b80ab1aed2dcab1e0d070ea3a0cedcc45e682e454cb42a8c96df77270efaa362b535b56c78ea2b044b0624751e5745e372be8ba662e08f9ea1434c6",
+                    "SHA3-256": "459407b7a21140c7ee02129ac419d0ab9cc65b92406c6408cbe16f175ed181ea",
+                    "SHA3-512": "7e33db37e69385aaadd271bfd347eff93d2f410831742b0b94881be6b098a3250a833df64844501b23d586441f6ee62df5f702174f70b62466b541fae221c277"
+                }
+            },
+            {
+                "source_name": "player",
+                "description": "Many share community read much gun first."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

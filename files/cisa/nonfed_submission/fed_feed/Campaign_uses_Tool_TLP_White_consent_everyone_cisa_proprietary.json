@@ -1,0 +1,200 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--ac1ee27c-1881-4137-a8ad-451db759483d",
+        "created_by_ref": "identity--67830e18-761a-48b3-8124-aa93deb3f048",
+        "created": "2021-08-11T10:11:17.997295Z",
+        "modified": "2021-10-16T01:43:40.955729Z",
+        "name": "movie",
+        "description": "Real new kitchen energy significant.",
+        "aliases": [
+            "social",
+            "project",
+            "third"
+        ],
+        "confidence": 57,
+        "object_marking_refs": [
+            "marking-definition--e0b74e7b-aef4-4537-b0fc-6489a04adb62"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--01472674-8589-44bd-a08f-f9c030b95eef",
+        "created_by_ref": "identity--67830e18-761a-48b3-8124-aa93deb3f048",
+        "created": "2020-12-24T12:35:17.603092Z",
+        "modified": "2021-08-14T01:08:20.778429Z",
+        "name": "interesting",
+        "tool_types": [
+            "vulnerability-scanning",
+            "vulnerability-scanning",
+            "exploitation",
+            "network-capture",
+            "credential-exploitation"
+        ],
+        "confidence": 45,
+        "object_marking_refs": [
+            "marking-definition--e0b74e7b-aef4-4537-b0fc-6489a04adb62"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f1e86a89-706f-4a02-b766-69abe2a4558b",
+        "created_by_ref": "identity--67830e18-761a-48b3-8124-aa93deb3f048",
+        "created": "2022-05-06T14:46:58.603287Z",
+        "modified": "2022-12-16T22:35:30.295662Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--ac1ee27c-1881-4137-a8ad-451db759483d",
+        "target_ref": "tool--01472674-8589-44bd-a08f-f9c030b95eef",
+        "stop_time": "2021-04-02T21:34:47.914217Z",
+        "labels": [
+            "deep",
+            "wide",
+            "pfte-batch-1"
+        ],
+        "confidence": 1,
+        "object_marking_refs": [
+            "marking-definition--e0b74e7b-aef4-4537-b0fc-6489a04adb62"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--e0b74e7b-aef4-4537-b0fc-6489a04adb62",
+        "created_by_ref": "identity--67830e18-761a-48b3-8124-aa93deb3f048",
+        "created": "2021-08-14T01:08:20.777328Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f217105b-ccd2-4cb0-893a-c1314d7d2d64",
+                "name": "Strategy land response sport over",
+                "create_date_time": "2021-08-14T01:08:08.422773Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.422466Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--67830e18-761a-48b3-8124-aa93deb3f048",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-22T04:54:57.277831Z",
+        "modified": "2022-01-26T19:25:42.233066Z",
+        "name": "Knight Inc",
+        "description": "Advanced neutral conglomeration",
+        "roles": [
+            "sing",
+            "up",
+            "receive"
+        ],
+        "contact_information": "6275 Johnson Radial\nBennettshire, NM 45229",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "current",
+                "hashes": {
+                    "MD5": "b683aa83c90ff4ad4157f0d8aaaf23ca",
+                    "SHA-1": "81e94bf5c6a92327d1d6d4fccb78fd9bd668303c",
+                    "SHA-256": "26fdb779dcfdd0f5ce2f9f71b1a87ef0f57e65b0f7b9253a4b36e886374ea690",
+                    "SHA-512": "b535200fb6d143da5ea3b6a48d55bb9fd6d16bb0e5ac7752d24b64dcbb15367f9242b464bbde9c621e4275c6dd5d7f2629bd85d0260b6aeeb01aa4fd72fd0516",
+                    "SHA3-256": "0207ae873d81df121630257646ba20c27344314f26075c524665554f37e35a7b",
+                    "SHA3-512": "3915611e4bbf8f1a19d21859d310a61ad5670c1bc62da516269203641850c575dc3cad00f52b3da3d4a4e5fa5a567204edf303aac399665c0c2f418d74b70d41"
+                },
+                "external_id": "pONTG"
+            },
+            {
+                "source_name": "short",
+                "description": "Really model have leave before trip even.",
+                "url": "http://www.garcia.com/",
+                "hashes": {
+                    "MD5": "a725f41bf7d967deacfa3f58641996d4",
+                    "SHA-1": "efa541ebafdffe08b9c286907c852ee38f19f1fa",
+                    "SHA-256": "426d31dcb6702c7bc2769af5fd49774c83b809d1b634c50a502e89416256d8e6",
+                    "SHA-512": "d9329ddf107bbcbb88048a6d64dbfb3632d22749edbf78a30a42b6164240569648f4c932680e716148d7675ecf0baf9054cbb2c7ebd7384f278634c443485539",
+                    "SHA3-256": "0250b49a082762b1b422610f602e8140b239ef0aa7245a04fedd5c26e0efaaca",
+                    "SHA3-512": "5c3ae269640b401bbe95079d7a9307309c6bd8ff6bba4d04afb7403b2d94132a3684044b1422da34c9d9dedb7dbd0b7a10a982d3c3eafb8c7565be209030ed28"
+                },
+                "external_id": "IukShbMz"
+            },
+            {
+                "source_name": "before",
+                "url": "https://guerra-day.com/",
+                "external_id": "VlMAiXtPuquNjgeSEvf"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e0b74e7b-aef4-4537-b0fc-6489a04adb62"
+        ]
+    }
+]

@@ -1,0 +1,288 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--a382d0dd-89a3-4aa2-94ef-7e0a6c35b2c5",
+        "created_by_ref": "identity--e5852eda-9f86-4532-9e2a-ff90514ea928",
+        "created": "2021-03-28T09:12:06.041933Z",
+        "modified": "2021-08-14T01:08:31.929917Z",
+        "name": "structure",
+        "description": "Catch process last black along material.",
+        "indicator_types": [
+            "malicious-activity",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "[process:is_hidden = true] FOLLOWEDBY [email-addr:defanged NOT = false] FOLLOWEDBY ([autonomous-system:number NOT = 326] WITHIN 6 SECONDS)",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-02-23T17:23:16.124444Z",
+        "object_marking_refs": [
+            "marking-definition--b8026e8f-aeff-4cac-bfea-e58cff88acee"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--5429a22e-39a8-4f65-9a6c-00133927c0d6",
+        "created_by_ref": "identity--e5852eda-9f86-4532-9e2a-ff90514ea928",
+        "created": "2021-01-28T22:44:22.515725Z",
+        "modified": "2021-08-14T01:08:31.932791Z",
+        "name": "herself",
+        "first_seen": "2021-01-21T07:34:41.342215Z",
+        "last_seen": "2021-05-28T18:42:05.4666Z",
+        "goals": [
+            "Oil significant think do.",
+            "Ok popular building participant up activity.",
+            "Bit medical part person story impact win."
+        ],
+        "external_references": [
+            {
+                "source_name": "fill",
+                "external_id": "kdNxbpVlEKLrv"
+            },
+            {
+                "source_name": "off",
+                "url": "https://kelly.com/",
+                "hashes": {
+                    "MD5": "042cf280d546ea1a9086171b464fa642",
+                    "SHA-1": "c54e8d9d272caff4b43aacbe9c8075bfef50e194",
+                    "SHA-256": "d17821c2df9afe195195df02e45f1701bf8ec931ac75f80ef0ec3fb8097fea5a",
+                    "SHA-512": "3adb532fcc2ae9b610db233516327e25bb64cf7645b8a271e8305ef9bfe6ddbab88330f0e27b416b1f5bc8a431950005613537616bcd5f8d82cd982decd50831",
+                    "SHA3-256": "a5ded0a0ae8c72997059cd5cda4fdd0bc79e162aca9c98fb3e3e3d7a8c04c3eb",
+                    "SHA3-512": "c9c6a8d9967ed92c465ca09d4d0672700b94abe04624c342e9396c7a0414b2d04e92224e6787dbe4f0c300b743cdfbb0806a8a73192ef89726fe391b8c8ef67c"
+                }
+            },
+            {
+                "source_name": "size",
+                "description": "Buy decide ten into front cost better explain.",
+                "url": "http://nixon-hernandez.com/"
+            },
+            {
+                "source_name": "effort",
+                "description": "Exactly cold success place door.",
+                "url": "http://www.goodman-ramirez.com/",
+                "hashes": {
+                    "MD5": "e6507e830f3abfac704c66ac5d2dc230",
+                    "SHA-1": "817aafcb19785087d5271d4eefd0ba1b04c89ca5",
+                    "SHA-256": "11ef87a3993f2710af62c6896e0e876b6414086b1f291fa66e056fb7e991a836",
+                    "SHA-512": "b7265f7ec91dda2dbc9b45fac1cf09a6c8dcdd664e16d8c45384b422907846e9fe471fd87a6e65d5269548a395efbc82a5a17f6621287c54e180b73fea770d53",
+                    "SHA3-256": "48b80acf620711ebe71eabeffb53abcb248cd7f81126bc3dab5ced750001ec21",
+                    "SHA3-512": "2d24dccc195e74ee3ecc937aca4d734411b8f2c0acea96a7e12e2b01a816c67f421167af950447271ac8ac6e3be1eebdfa1c6197d8700bb9fa7153be2e86e56f"
+                }
+            },
+            {
+                "source_name": "remember",
+                "description": "Word begin success phone from democratic outside which.",
+                "url": "http://miranda-garcia.com/",
+                "hashes": {
+                    "MD5": "7cdf66d9627861d471d05bc227975371",
+                    "SHA-1": "e91bc114c85c98125081fe34a4645e56b593523a",
+                    "SHA-256": "8333eff19ae87def198b2867e4c1933e78171efee4ccdc36002d2b5efc082a38",
+                    "SHA-512": "a5fd755a4109d17c85dc3f645e64a6bfbf2812f93735d1c9555446a25bf8601e7a1063e05bd26e028851fa5626b53472a3f4c3580cda73d6dd25d772d3861f5c",
+                    "SHA3-256": "452b3fce95f8a360cb195bd95edcd798ea403cce78029786ed03141514c3fb74",
+                    "SHA3-512": "532d1571b7a709a487ea16e4a5e1091ff7516d8fc5d378add2182948b9b62cac6e645dc2f39b0d4b1824ba756752fc89250e182abb5174b8758a889a39711543"
+                },
+                "external_id": "sdfWXmmlwEdoRaE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b8026e8f-aeff-4cac-bfea-e58cff88acee"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--9e0d8032-014f-48d3-84ae-bd2107e71cb5",
+        "created_by_ref": "identity--e5852eda-9f86-4532-9e2a-ff90514ea928",
+        "created": "2022-04-24T10:25:10.802309Z",
+        "modified": "2022-05-04T02:57:54.567888Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--a382d0dd-89a3-4aa2-94ef-7e0a6c35b2c5",
+        "target_ref": "intrusion-set--5429a22e-39a8-4f65-9a6c-00133927c0d6",
+        "stop_time": "2020-12-10T22:18:11.728421Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b8026e8f-aeff-4cac-bfea-e58cff88acee"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--1df90294-d6ca-4e79-bdbf-68c0f2ede6ed",
+        "created_by_ref": "identity--e5852eda-9f86-4532-9e2a-ff90514ea928",
+        "created": "2020-11-19T19:35:08.574434Z",
+        "modified": "2021-08-14T01:08:31.933698Z",
+        "explanation": "Help tend six himself. Key guess heart kind such audience art.",
+        "authors": [
+            "blue",
+            "not",
+            "practice",
+            "cut"
+        ],
+        "opinion": "strongly-disagree",
+        "object_refs": [
+            "indicator--a382d0dd-89a3-4aa2-94ef-7e0a6c35b2c5",
+            "intrusion-set--5429a22e-39a8-4f65-9a6c-00133927c0d6",
+            "relationship--9e0d8032-014f-48d3-84ae-bd2107e71cb5"
+        ],
+        "labels": [
+            "be",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "trouble",
+                "description": "Agreement organization allow avoid form.",
+                "url": "https://cole-buckley.com/"
+            },
+            {
+                "source_name": "against",
+                "description": "Cultural add send kid shake current.",
+                "url": "https://www.moon.biz/",
+                "hashes": {
+                    "MD5": "67b72a4b162ce69fd4e0882aa53a84b8",
+                    "SHA-1": "52a2c2c94db1a50eb2517c34527b647b0af698c4",
+                    "SHA-256": "28d4cdd3e84be678d98291b051531bf7d32d3e71b7d471a200b6867e8dc6d499",
+                    "SHA-512": "266f3e0b45e6dd0664e44a9b2283fa8321a8d5c03fa3f6090746c3db1b288d8b9e7abb7043ee81c45b13da03e63a9edaca0ef7eca5ef288ac39807d820900ccf",
+                    "SHA3-256": "fa415b7e997bbb91b5991a750c3a45ed786c7f692f540426e7c6365cfd12b4c8",
+                    "SHA3-512": "8c12730b17b4ea467dae093ec1e4fc31be87f72bc075625102b06f189db0138b77eca607d0cf5cdd2ed533d72478dd6df7646a209ba910541da06c3ac55bf3f2"
+                },
+                "external_id": "DlmEOgmXYatN"
+            },
+            {
+                "source_name": "dog",
+                "url": "http://www.garcia.com/"
+            },
+            {
+                "source_name": "power",
+                "url": "https://www.ross.com/",
+                "external_id": "sHYXrxxoRrFP"
+            },
+            {
+                "source_name": "itself",
+                "description": "Open economic paper feeling.",
+                "external_id": "ZUWRYAr"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b8026e8f-aeff-4cac-bfea-e58cff88acee"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e5852eda-9f86-4532-9e2a-ff90514ea928",
+        "created_by_ref": "identity--e5852eda-9f86-4532-9e2a-ff90514ea928",
+        "created": "2021-11-29T08:30:36.097402Z",
+        "modified": "2022-11-19T15:19:39.281364Z",
+        "name": "Christensen, Sullivan and Simpson",
+        "description": "Compatible encompassing service-desk",
+        "roles": [
+            "well",
+            "find",
+            "practice",
+            "we",
+            "music"
+        ],
+        "sectors": [
+            "technology",
+            "retail",
+            "pharmaceuticals",
+            "government-national"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b8026e8f-aeff-4cac-bfea-e58cff88acee"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b8026e8f-aeff-4cac-bfea-e58cff88acee",
+        "created": "2021-08-14T01:08:31.929225Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6d40bd19-4710-4b69-9440-86c8c2a858b4",
+                "name": "Purpose response respond always trouble later investment",
+                "create_date_time": "2021-08-14T01:08:08.431664Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.4315Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,187 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--66d607b3-d26b-422d-9607-00f30384ef54",
+        "created_by_ref": "identity--903e4b3c-ebf2-466b-85d6-c1b94b0ea70c",
+        "created": "2020-10-16T10:39:15.069629Z",
+        "modified": "2021-09-23T17:07:48.947515Z",
+        "name": "capital",
+        "description": "Sea difficult remember attorney.",
+        "labels": [
+            "character",
+            "baby",
+            "share",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--d3f57164-9090-41ba-9e10-41d4ef1e96c2",
+        "created_by_ref": "identity--903e4b3c-ebf2-466b-85d6-c1b94b0ea70c",
+        "created": "2021-03-21T13:13:03.128162Z",
+        "modified": "2021-08-14T01:08:22.413158Z",
+        "name": "class",
+        "indicator_types": [
+            "benign",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "[mutex:defanged NOT = false] AND (([ipv4-addr:defanged NOT = false] OR [(directory:path NOT = '/appear/trial.ppt') AND directory:path_enc < 'ISO-8859-6-E']))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-09-27T19:11:25.129851Z",
+        "valid_until": "2021-06-17T14:34:24.483332Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1991290c-35b0-4a8a-a471-cb200e224cdf",
+        "created_by_ref": "identity--903e4b3c-ebf2-466b-85d6-c1b94b0ea70c",
+        "created": "2021-10-03T02:54:42.988403Z",
+        "modified": "2022-09-30T12:26:36.47423Z",
+        "relationship_type": "investigates",
+        "description": "Sea kind trade inside letter. Development life this tend. Create worry both population performance trip argue.",
+        "source_ref": "course-of-action--66d607b3-d26b-422d-9607-00f30384ef54",
+        "target_ref": "indicator--d3f57164-9090-41ba-9e10-41d4ef1e96c2",
+        "stop_time": "2021-09-29T08:24:46.864208Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "great",
+                "description": "Of education protect can partner huge too.",
+                "url": "http://www.turner-west.biz/"
+            },
+            {
+                "source_name": "foot",
+                "description": "Send audience society everyone quality.",
+                "url": "http://oneill.com/",
+                "hashes": {
+                    "MD5": "4c35c6ad84bfa42acfaed7f70291cc83",
+                    "SHA-1": "88adc5ec688bc66af22ad1e782ca41b8f0e98143",
+                    "SHA-256": "06274534effe425fc26f1903bc594e7aae6f32e3fd1000873a9b0775f8d18398",
+                    "SHA-512": "d41e77df6d1c8b7bcb92a777ca214f42c9659a1a1aa7bf256a6040951b9bbdaa523c4d0790bab235c195e1352060b070f573a3bb9cb7b4a62cfbc210537d6a5c",
+                    "SHA3-256": "c167b63ce69cac70aaffe62f4ae925152d332e800f963c7510e5b67add42d445",
+                    "SHA3-512": "cf1c97511584980b68e4207f3e92c43e82c938911c902e4328cc206b81f2e77c430c01aecc9f27d426e5707bf7fea14493d27e00c458b796d726af4256bba3ef"
+                }
+            },
+            {
+                "source_name": "four",
+                "description": "Music meet share position drug.",
+                "url": "http://www.montgomery.info/",
+                "external_id": "AhGaNkqtzVeuAuu"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--33272939-54ab-4976-9b1c-03608852c039",
+        "created_by_ref": "identity--903e4b3c-ebf2-466b-85d6-c1b94b0ea70c",
+        "created": "2020-05-31T17:26:53.355392Z",
+        "modified": "2021-08-14T01:08:22.416388Z",
+        "name": "positive",
+        "published": "2020-12-29T17:11:36.041992Z",
+        "object_refs": [
+            "course-of-action--66d607b3-d26b-422d-9607-00f30384ef54",
+            "indicator--d3f57164-9090-41ba-9e10-41d4ef1e96c2",
+            "relationship--1991290c-35b0-4a8a-a471-cb200e224cdf"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--903e4b3c-ebf2-466b-85d6-c1b94b0ea70c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-05-24T13:16:47.271788Z",
+        "modified": "2022-10-27T19:17:12.457853Z",
+        "name": "Horton-Giles",
+        "identity_class": "individual",
+        "sectors": [
+            "government-national",
+            "healthcare"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 7,
+        "external_references": [
+            {
+                "source_name": "investment",
+                "description": "Open within social drop position mission tough.",
+                "external_id": "JgXeykBKKZ"
+            },
+            {
+                "source_name": "spend",
+                "description": "Require behind have second will follow avoid.",
+                "url": "https://www.watkins.biz/",
+                "hashes": {
+                    "MD5": "cbb7dad8341f4f3145e1c19d1e43fe2b",
+                    "SHA-1": "c161568223c41eae7557e0e68e7d0dc01e913cee",
+                    "SHA-256": "8a72f9cc9bd8d7ba16db38c088c7415dd8943d30c0e22ef715af8c163253b81a",
+                    "SHA-512": "ac830428df444ec310d81f08197b15d6dbac2c7b460a3c95d5e829978c63a1ef02a4f5c361b3a6f3a86411a90be8caae7aaaefbe7a63794a30cf1c2229de27db",
+                    "SHA3-256": "3974eef523e309ffe6094fed90c2b7037ac2f34b854db6a5e19396cb9ce61a9d",
+                    "SHA3-512": "64d489a56b1a291f7f3fe3c086c33e58fac0e41898865f0b9a5ea2eec7272919ad3ddb20d5a1caeae3e66cc87395affca0254cbdbaf9a9b6c542808cfc2c1911"
+                },
+                "external_id": "ioKmMJLEeXIGlXjgQU"
+            },
+            {
+                "source_name": "ahead",
+                "description": "Site forward allow sense single pattern.",
+                "hashes": {
+                    "MD5": "3f4859fad11688af3a455ab15fd323f2",
+                    "SHA-1": "50c3246072e936898a564ba9c55fc16a474f09cd",
+                    "SHA-256": "29f108bf33326a18ab949284267ae27447bfb9a2e5fe4a3f49afe25905bcec8d",
+                    "SHA-512": "a0bf9a432f8a93a5dfc6dd4295269000554898c180e13830fb023b51a6285dd6ddaca6c946025fb552ea3d91c614faf8544a29a12357f0f49b92ea97b8ebfcf0",
+                    "SHA3-256": "13d09c95cb26f09a165e87ab9e1a1e404e5a7d99543d46310eaf719aa3c095d9",
+                    "SHA3-512": "e223fd06b6aba9b7c84f6b53c72f708fc3937780b0b7a289fa0e68bfa5252119466281479def2790b17cad057690672f956d98d66e2d67c3ae4e747bc52e38ce"
+                },
+                "external_id": "QKdATPy"
+            },
+            {
+                "source_name": "company",
+                "description": "Summer fire lose site reflect soldier.",
+                "url": "https://www.mckee-gonzales.com/",
+                "hashes": {
+                    "MD5": "3c5e8a4d9e4d2a523ac0364ae5db0c9f",
+                    "SHA-1": "61098c3705a0d84062d97e50aaad71cbf1101c0e",
+                    "SHA-256": "323996a52bbb8295f546d9a30036f7d770aaf1d793ac0c3d3404a85a3252007b",
+                    "SHA-512": "230498fadede2f7dc45e4ec399f5cb40ca5c10d0f59ff21b41dbfdcead6d43972b25d89589f75976ea6fba9f8dbfd276b6ff1e3c5e520345b262c77f61354ae1",
+                    "SHA3-256": "53d1cac8a988288299275471ac0fef55059529ad2724dd19bccdefbed3496e73",
+                    "SHA3-512": "170b4eb1643c496ec705808967fb1c10536c60364415fc89fbcdeb6269235fcea2063f401b5f4bbb2ada568da5d5e8ff22ca0732a72b7f1494154c53c1fe22ae"
+                },
+                "external_id": "KWmzlHrtcRIzHsgmfqU"
+            },
+            {
+                "source_name": "share",
+                "url": "http://jenkins-haynes.com/",
+                "external_id": "QbcQNDNlcI"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

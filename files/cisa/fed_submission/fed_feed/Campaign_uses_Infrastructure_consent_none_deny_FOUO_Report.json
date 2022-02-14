@@ -1,0 +1,219 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--45cc3a89-869b-4d2f-a7bc-11e0d0358cc0",
+        "created_by_ref": "identity--b8787c73-1833-433b-956f-e1b0d027a814",
+        "created": "2022-03-05T14:44:23.40871Z",
+        "modified": "2022-08-23T23:13:37.499821Z",
+        "name": "interview",
+        "aliases": [
+            "hotel",
+            "possible",
+            "lay"
+        ],
+        "first_seen": "2022-03-15T19:12:55.343764Z",
+        "labels": [
+            "where",
+            "energy",
+            "own",
+            "point",
+            "window",
+            "pfte-batch-1"
+        ],
+        "confidence": 48,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d7f169fe-7422-4980-8ad7-bca7946f6731"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--e4d62f03-9ea5-4b62-ac37-0e127452a4bd",
+        "created_by_ref": "identity--b8787c73-1833-433b-956f-e1b0d027a814",
+        "created": "2022-03-23T05:13:10.60439Z",
+        "modified": "2022-05-11T07:12:01.236452Z",
+        "name": "measure",
+        "description": "Choice side should argue sense key.",
+        "infrastructure_types": [
+            "hosting-malware",
+            "exfiltration",
+            "amplification",
+            "amplification",
+            "botnet"
+        ],
+        "aliases": [
+            "attorney",
+            "fill",
+            "onto",
+            "our"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "szroAIzRDA",
+                "phase_name": "OgdrJ"
+            },
+            {
+                "kill_chain_name": "qzELbR",
+                "phase_name": "UVRKJbxS"
+            },
+            {
+                "kill_chain_name": "ssnGosuqsudgtIPDO",
+                "phase_name": "eEPvuoFIkYbfCR"
+            },
+            {
+                "kill_chain_name": "AwISEmBKiWzdOgZFQ",
+                "phase_name": "bXbpAIkpxmclDrVsjYRD"
+            },
+            {
+                "kill_chain_name": "CltGMwFrDKZ",
+                "phase_name": "TyZjaAdOFZ"
+            }
+        ],
+        "labels": [
+            "generation",
+            "only",
+            "pfte-batch-1"
+        ],
+        "confidence": 43,
+        "object_marking_refs": [
+            "marking-definition--d7f169fe-7422-4980-8ad7-bca7946f6731"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--7a100258-18ed-4ee4-9f8c-26ad63da969a",
+        "created_by_ref": "identity--b8787c73-1833-433b-956f-e1b0d027a814",
+        "created": "2022-05-16T01:06:46.479959Z",
+        "modified": "2022-09-10T12:06:27.317984Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--45cc3a89-869b-4d2f-a7bc-11e0d0358cc0",
+        "target_ref": "infrastructure--e4d62f03-9ea5-4b62-ac37-0e127452a4bd",
+        "stop_time": "2021-11-11T00:59:35.029364Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d7f169fe-7422-4980-8ad7-bca7946f6731"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--deb2a2ae-79b5-4f2b-a651-1e1e889db92a",
+        "created_by_ref": "identity--b8787c73-1833-433b-956f-e1b0d027a814",
+        "created": "2021-02-28T14:28:10.649139Z",
+        "modified": "2022-02-09T20:24:31.512475Z",
+        "name": "training",
+        "report_types": [
+            "indicator"
+        ],
+        "published": "2022-06-08T07:39:57.652718Z",
+        "object_refs": [
+            "campaign--45cc3a89-869b-4d2f-a7bc-11e0d0358cc0",
+            "infrastructure--e4d62f03-9ea5-4b62-ac37-0e127452a4bd",
+            "relationship--7a100258-18ed-4ee4-9f8c-26ad63da969a"
+        ],
+        "external_references": [
+            {
+                "source_name": "central",
+                "description": "Give government customer side evening huge.",
+                "external_id": "xsEZZTT"
+            },
+            {
+                "source_name": "move",
+                "url": "https://russell.com/",
+                "hashes": {
+                    "MD5": "290b626cd2804becc85abaa3fce8945c",
+                    "SHA-1": "2a38356fa8cde020357e835bc4d26352d67e1df8",
+                    "SHA-256": "e09e9546da200a4a19526b23c62556410990a3ba0df93aafd94d90b18cdb2f7b",
+                    "SHA-512": "fa1c644a2b83fd9071ee9903b6a793261fa9d6afe048b0d47d02c6a0401b8fe3a9451dfea9e3d627f4e7013c73a75be45aebf0034c7ba861b1c178dd43655b53",
+                    "SHA3-256": "da52270231f50d7f4ab2d76282ee480e4ff5bc006b00522792371dae543ca798",
+                    "SHA3-512": "b48ea2464692803c395858dfc3ff20897d4f94bb2b717ddbee61bb88e151681597d47313f6c1a0d06af2e983cb3ba287979cccf2d79de5eeb9665451d37c9be5"
+                },
+                "external_id": "yBEwn"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d7f169fe-7422-4980-8ad7-bca7946f6731"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b8787c73-1833-433b-956f-e1b0d027a814",
+        "created_by_ref": "identity--b8787c73-1833-433b-956f-e1b0d027a814",
+        "created": "2020-09-27T10:46:47.096541Z",
+        "modified": "2021-08-14T01:08:19.297842Z",
+        "name": "Reilly Group",
+        "description": "Balanced next generation groupware",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d7f169fe-7422-4980-8ad7-bca7946f6731"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d7f169fe-7422-4980-8ad7-bca7946f6731",
+        "created": "2021-08-14T01:08:19.295799Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1946efc8-a2e0-46a4-bb9a-691cbe16f041",
+                "name": "Home politics letter yes consider",
+                "create_date_time": "2021-08-14T01:08:08.424111Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

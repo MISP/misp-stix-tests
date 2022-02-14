@@ -1,0 +1,180 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--da6ee4e7-2549-4e56-af4b-358401a88b56",
+        "created_by_ref": "identity--3df7286b-72d5-4206-ad4d-8aa67d80f6d3",
+        "created": "2021-09-24T16:56:05.892733Z",
+        "modified": "2022-01-10T22:31:36.369851Z",
+        "name": "through",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 49,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--5fabe42a-4fb0-4790-b4ea-e2b932166edf",
+        "created_by_ref": "identity--3df7286b-72d5-4206-ad4d-8aa67d80f6d3",
+        "created": "2022-02-18T12:21:59.196113Z",
+        "modified": "2022-03-30T03:09:54.445399Z",
+        "name": "song",
+        "description": "High behavior attack hit.",
+        "aliases": [
+            "indeed",
+            "fund"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "ekiJaywINqgpWoRXdnO",
+                "phase_name": "xbbSUSXkfnsd"
+            },
+            {
+                "kill_chain_name": "iDkWRJZajRYq",
+                "phase_name": "AUnpNxnuZFHa"
+            },
+            {
+                "kill_chain_name": "NqulAjlA",
+                "phase_name": "TRqEEuXgzav"
+            },
+            {
+                "kill_chain_name": "CIOLzN",
+                "phase_name": "PGfGtTiVCsyOzj"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 8,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "probably",
+                "external_id": "secrOjukbliauSAgRUS"
+            },
+            {
+                "source_name": "door",
+                "url": "https://moore.org/",
+                "hashes": {
+                    "MD5": "3a9df427c9976c8aae56968aea587292",
+                    "SHA-1": "8c7ab9ed3267741ef8f4f75fa28bc95e2a1b5428",
+                    "SHA-256": "2a90afac40927c73679ab560201b867f1d49d8ff071bac8b50fb34c6abb57060",
+                    "SHA-512": "26699ca2e6ad02da6c0412f0844ac7ebc72c58c9fd597eefc5946e03a68b2af9adc8cdc20ac96d1bb5a659512ff899ba4394b5134609677c4972d5f0f5c939d1",
+                    "SHA3-256": "0b9be73bf12f1461039a4dea4caa3c8a668a4fb76ea33e2f8c3f9418258c59dc",
+                    "SHA3-512": "23df1e3933b2c8e4f5b9c773e15634a6793dbf16842be71bab7472234af818cbdaba797d6a3c7208c0e7250022a9e55686bfd657dae4fc134610aa3336bfa15c"
+                }
+            },
+            {
+                "source_name": "building",
+                "description": "Shake occur increase word heavy.",
+                "url": "http://martinez.com/"
+            },
+            {
+                "source_name": "five",
+                "description": "Must behavior outside treat administration should able.",
+                "url": "http://www.richards.com/",
+                "external_id": "dVFjAJexuLePaGQxGG"
+            },
+            {
+                "source_name": "boy",
+                "description": "Soldier value chance clear current.",
+                "url": "http://www.johnson-cole.com/",
+                "hashes": {
+                    "MD5": "5a598dcab749dc33336ecaae379296f3",
+                    "SHA-1": "0f38462666999c5637355091c85fa368ba766e92",
+                    "SHA-256": "e8fdd0e4484cd79637ae1d7066aa84588fb3597969be08b446feb43f13b5a60a",
+                    "SHA-512": "85c3f82ff9a8d17dc38e99e70925168ea1aa5c43e1dcb8ca53a5509c7e135ced4b2cbd0a088092aa98781046951d3c764913c6260e4ff0168796a69eb1fe7126",
+                    "SHA3-256": "24800195b4a32a4d687d4f53e35286676eb01ec4f901bf86285f96cc7816aa9e",
+                    "SHA3-512": "959d89aa3ff7a7fd5bdbfd991d50fa5949d4eafc8a70fbd6d8e6c174c291ba73702889a5873d7636f45dfab83db35ad95017e68305b5507057de864a468dd6fb"
+                },
+                "external_id": "kbmSmmsSBI"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a769dfdf-bf0a-4e69-a45c-621a13cce225",
+        "created_by_ref": "identity--3df7286b-72d5-4206-ad4d-8aa67d80f6d3",
+        "created": "2021-08-10T01:43:58.4299Z",
+        "modified": "2022-05-22T00:34:39.621339Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--da6ee4e7-2549-4e56-af4b-358401a88b56",
+        "target_ref": "attack-pattern--5fabe42a-4fb0-4790-b4ea-e2b932166edf",
+        "start_time": "2022-05-07T00:38:14.875716Z",
+        "labels": [
+            "region",
+            "set",
+            "such",
+            "pfte-batch-1"
+        ],
+        "confidence": 43,
+        "external_references": [
+            {
+                "source_name": "seek",
+                "url": "http://www.brown-alexander.org/",
+                "hashes": {
+                    "MD5": "47780ca2f62951df5cc7d003bd09b8e5",
+                    "SHA-1": "62ad3717441d491fd616e8adb10655cc8f390a81",
+                    "SHA-256": "2165b4efc4da926683d8786edd4fe7bf15bd5bb00177550b5926f323afe466d3",
+                    "SHA-512": "8ec74c4f14afb0a21667cc83916dd5f205e8036641b2f25aab216832d778ff1a55f6b3edf2984d42094748093cbbaa0f2c7d12e30db23682336b782e13b13795",
+                    "SHA3-256": "ab947510b92b34c5c89578dd747c60216159299563ba55faf2ec4dc2145e4712",
+                    "SHA3-512": "9e1a24483a8275d331b096210c5967fd209680e839371f2eabccd79c2aa32d1d1c42a4efe163d20f23b1a23bdb7c11c1444a6d7e24eea29466ff71dc67c61020"
+                }
+            },
+            {
+                "source_name": "someone",
+                "url": "https://www.russo-bates.com/",
+                "hashes": {
+                    "MD5": "2ccce4ad6872e392d3d1d811ad40ae9a",
+                    "SHA-1": "addf8ad8b319e9b0c5190a4fc5fa37b35b54bd7e",
+                    "SHA-256": "7b02f6161c40150b74d9c8c83bdd5a32fd2751a4af3c73cb109b56cddb2d3c2d",
+                    "SHA-512": "f7f85e2f7882709b9a4504217c2f36af8bcf590fab1475cfb4b5e275b5452fcfcb6d35f6b531e334e7b10c13104ff28049614df2425d83dd015f559a6a116766",
+                    "SHA3-256": "1518724772125ab634602145c33dc8318e64c1c6330b55ef96d543dbac5aedfe",
+                    "SHA3-512": "7b76a5148a30c52c16f50b4196c7fb6dffe78370f8384d63da9433e07e4f50569e3a1609af6865ec6fb9f191bca965875df798ac0ae814145a0d97fc52722bf6"
+                }
+            },
+            {
+                "source_name": "many",
+                "description": "Agree traditional cold special."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3df7286b-72d5-4206-ad4d-8aa67d80f6d3",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-08-20T05:33:40.46415Z",
+        "modified": "2021-12-27T12:31:28.711619Z",
+        "name": "AddCreateBeat",
+        "roles": [
+            "start"
+        ],
+        "identity_class": "organization",
+        "sectors": [
+            "defense",
+            "government-national"
+        ],
+        "contact_information": "2465 Mark Overpass Apt. 402\nCraigfurt, VT 29524",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 56,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

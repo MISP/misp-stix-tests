@@ -1,0 +1,207 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--21b97149-b12e-4db8-9db8-c50978f17aeb",
+        "created_by_ref": "identity--07c5f53e-cf0a-415b-ad0b-8df522977c03",
+        "created": "2021-07-25T10:20:01.671106Z",
+        "modified": "2022-05-20T09:51:50.46951Z",
+        "name": "national",
+        "threat_actor_types": [
+            "hacker",
+            "activist",
+            "competitor",
+            "activist",
+            "unknown"
+        ],
+        "aliases": [
+            "sort"
+        ],
+        "first_seen": "2020-12-12T15:17:02.206537Z",
+        "goals": [
+            "or",
+            "push"
+        ],
+        "primary_motivation": "notoriety",
+        "secondary_motivations": [
+            "unpredictable",
+            "organizational-gain",
+            "ideology"
+        ],
+        "personal_motivations": [
+            "organizational-gain",
+            "dominance",
+            "organizational-gain",
+            "unpredictable",
+            "ideology"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 60,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--20e9c635-32a8-4ef0-b1bc-b36234dff446",
+        "created_by_ref": "identity--07c5f53e-cf0a-415b-ad0b-8df522977c03",
+        "created": "2021-05-20T20:41:25.175392Z",
+        "modified": "2022-01-28T07:50:47.23517Z",
+        "name": "last",
+        "description": "Coach cost modern who.",
+        "aliases": [
+            "bit",
+            "decision",
+            "choice",
+            "defense"
+        ],
+        "tool_version": "hit",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 11,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--7d7c7867-5e9c-4b7f-80b4-5de5c44d6031",
+        "created_by_ref": "identity--07c5f53e-cf0a-415b-ad0b-8df522977c03",
+        "created": "2022-07-08T10:12:12.357312Z",
+        "modified": "2023-03-29T17:51:53.004481Z",
+        "relationship_type": "uses",
+        "description": "Different focus which pattern. Guess grow hospital everyone threat believe form husband. Song major contain try main.",
+        "source_ref": "threat-actor--21b97149-b12e-4db8-9db8-c50978f17aeb",
+        "target_ref": "tool--20e9c635-32a8-4ef0-b1bc-b36234dff446",
+        "stop_time": "2020-10-07T15:10:25.266088Z",
+        "labels": [
+            "finish",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--93316c8c-3b0c-40dc-a76e-4817383dfce9",
+        "created_by_ref": "identity--07c5f53e-cf0a-415b-ad0b-8df522977c03",
+        "created": "2022-03-11T07:44:23.979668Z",
+        "modified": "2023-01-03T09:04:51.999413Z",
+        "abstract": "Official population place front bad. Quite dark clearly Congress create.",
+        "content": "Able left political business lay none edge. Stage relationship someone the medical the though news. Bad trial main religious what trade.",
+        "authors": [
+            "present",
+            "action"
+        ],
+        "object_refs": [
+            "threat-actor--21b97149-b12e-4db8-9db8-c50978f17aeb",
+            "tool--20e9c635-32a8-4ef0-b1bc-b36234dff446",
+            "relationship--7d7c7867-5e9c-4b7f-80b4-5de5c44d6031"
+        ],
+        "labels": [
+            "majority",
+            "pfte-batch-1"
+        ],
+        "confidence": 13,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "hair",
+                "url": "https://www.underwood.com/",
+                "hashes": {
+                    "MD5": "77987c9368cec139e22d3f8d38c4ffeb",
+                    "SHA-1": "0be56ca589af3d7a7d08251532461d080d14946d",
+                    "SHA-256": "77e6f9a66ac74c52a2f7f3b5d29f101c8de2522d61fa34aa20ba52d7bfb96828",
+                    "SHA-512": "6202dd1dd60abaf3e0bd1f993c08bdee21a863593af0c8da98b8c2e7d117ba55df05a26f7aa1045df53b99cd522a9d82f23eed1a2685657b03c25581b2c45d59",
+                    "SHA3-256": "da1cbc422b4e6c529b80a9c975648ae1c0d24debc8b92c40a45a87a10c8e6e2b",
+                    "SHA3-512": "a718a51cba73773b684521f34d97db8bf11662a4f30574504bb631a83d9036da34176c184138989087228ca191c96ebd5825773847c909babe2cbed5b2c1fdd4"
+                },
+                "external_id": "fNxJrCkFmOm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--07c5f53e-cf0a-415b-ad0b-8df522977c03",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-18T02:26:25.13006Z",
+        "modified": "2022-12-19T07:18:13.737375Z",
+        "name": "VisitSituationAvoid",
+        "contact_information": "Unit 7725 Box 7895\nDPO AP 54286",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 37,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "himself",
+                "url": "http://robinson.com/",
+                "hashes": {
+                    "MD5": "6933f8f556d6fc3f16163cbd8e2d75dd",
+                    "SHA-1": "22cd12949e8031e4d9003c076793099ee8cdbcf0",
+                    "SHA-256": "4addb84d385100e7b892df701cfd1a2c30776b6af4043388d4c8a1cdd0988e8a",
+                    "SHA-512": "0fe9be5934fda44d00955461888a0558eedc20b42d88433cf1fd84f2644dd8c7ff374b83c5873b8232f34d1242e0cc184c03e4482237b55b038826ddf7f2a7d0",
+                    "SHA3-256": "a9b8f269c5969055bcfd4886df904a3852ace9286ed6eae033454977c31c8ae2",
+                    "SHA3-512": "ae5a0ad63c4f3e7bf593aeab0fa6110da1df178d98cfdfe9a2fd47992a80636748c79cc92f0bac09bb4ffa75c0569f11856031c3d81226d0c952d5b97b1cfe10"
+                },
+                "external_id": "fPMGfJGtrAUjeXCOENTY"
+            },
+            {
+                "source_name": "phone",
+                "description": "Back deep western develop meet answer top.",
+                "url": "http://www.kelley.com/"
+            },
+            {
+                "source_name": "son",
+                "description": "Such professor but.",
+                "url": "http://www.carpenter.com/",
+                "hashes": {
+                    "MD5": "2f14901df1f5aa4ddefdb190de64706a",
+                    "SHA-1": "9d331d92675cfa2a015982afca440016fe8dfbbd",
+                    "SHA-256": "2f96044811cda9b00376e8f6b8e41714d02d312f97f8f9c85c94f958c0ba0993",
+                    "SHA-512": "385be0a1f9cda0fff24f298b474bde0de5f826ae826f2999e64d71a62a003812afc78ccf4ecde127d320e261ea6466e8a4195adac79cc393177c0aafc18d3131",
+                    "SHA3-256": "95dc7c1e3186756033d8e28f443ed4b75f3660133526d48cd39ae6ee852da25f",
+                    "SHA3-512": "085619a69a05c06cccc4e1d3879835436683b29eef7d8a395c7e8c8a831364786bb0c830cffe5731f0e48bdcc55d8c1af2a6f62c9eb4819ee64d7e9d83c57ee2"
+                },
+                "external_id": "LLqlQQxPsGU"
+            },
+            {
+                "source_name": "serve",
+                "url": "https://www.moyer.info/",
+                "hashes": {
+                    "MD5": "a744744e6e42367f06b8766a9598a47d",
+                    "SHA-1": "6afa478b5c75cf53b346b48e16e70d6e09744066",
+                    "SHA-256": "ae5c57e111d81e6c310d33a29bb1d055162fd4e62bee604625d8acc330135470",
+                    "SHA-512": "84017df92be967f7c4b1328c860e0798af2ae24c46649b228f38285669a97010147f01fe3507416a199cf48734cc82e44d49c740c49e84377313d104ec1881ce",
+                    "SHA3-256": "a253a68720fac70f76e5f8c0fcd8d4d44f5080d9b47d62cb0323a8c90a973ff4",
+                    "SHA3-512": "4404b59a848ce06a9bcd8211dd382f600770ffac29cdf04b6e26dff989c3be1cd8a5ed49348569da31eb7ddc1b6c135159b04f29c42ea2c639ee6aaf8c10964a"
+                },
+                "external_id": "oslAmhVvKF"
+            },
+            {
+                "source_name": "in",
+                "description": "Standard Mrs technology order chair tough per help.",
+                "url": "http://www.decker.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

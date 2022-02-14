@@ -1,0 +1,103 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--d850b26b-f73e-4088-9c19-1394aae19eda",
+        "created_by_ref": "identity--8364422d-1025-46e0-bb28-f3f68bf19d56",
+        "created": "2021-07-19T15:47:03.841326Z",
+        "modified": "2022-01-07T16:33:42.715291Z",
+        "name": "away",
+        "threat_actor_types": [
+            "crime-syndicate",
+            "nation-state"
+        ],
+        "roles": [
+            "independent",
+            "malware-author",
+            "infrastructure-operator",
+            "sponsor"
+        ],
+        "secondary_motivations": [
+            "accidental",
+            "ideology",
+            "personal-satisfaction",
+            "coercion"
+        ],
+        "personal_motivations": [
+            "personal-gain"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 27,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--33d178d9-8d51-43f3-927b-76dae79be8d9",
+        "created_by_ref": "identity--8364422d-1025-46e0-bb28-f3f68bf19d56",
+        "created": "2021-09-14T17:00:28.654742Z",
+        "modified": "2021-10-26T21:27:47.824056Z",
+        "name": "Cook and Sons",
+        "identity_class": "organization",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 85,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--08070403-59c0-40c4-8937-2c7f5428606e",
+        "created_by_ref": "identity--8364422d-1025-46e0-bb28-f3f68bf19d56",
+        "created": "2022-01-13T08:40:46.994037Z",
+        "modified": "2022-02-27T16:28:50.400535Z",
+        "relationship_type": "targets",
+        "description": "Model tax large financial history. Month talk mother contain become campaign.",
+        "source_ref": "threat-actor--d850b26b-f73e-4088-9c19-1394aae19eda",
+        "target_ref": "identity--33d178d9-8d51-43f3-927b-76dae79be8d9",
+        "stop_time": "2021-10-14T19:17:20.396227Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8364422d-1025-46e0-bb28-f3f68bf19d56",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-15T20:27:05.786432Z",
+        "modified": "2022-02-22T06:17:56.993511Z",
+        "name": "Taylor Group",
+        "description": "Cross-platform incremental extranet",
+        "roles": [
+            "learn",
+            "then"
+        ],
+        "sectors": [
+            "hospitality-leisure",
+            "mining",
+            "energy",
+            "nuclear",
+            "emergency-services"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

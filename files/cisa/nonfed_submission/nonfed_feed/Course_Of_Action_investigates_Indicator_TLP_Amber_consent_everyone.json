@@ -1,0 +1,88 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--ed4c1cf7-c612-43df-8a66-0ce052cc92bf",
+        "created_by_ref": "identity--b822ed67-4aec-4969-b24b-5854b90055de",
+        "created": "2020-09-17T14:23:41.866454Z",
+        "modified": "2021-08-14T01:08:21.658545Z",
+        "name": "knowledge",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 36,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--768f7a65-0166-49c3-8229-67205bad93d8",
+        "created_by_ref": "identity--b822ed67-4aec-4969-b24b-5854b90055de",
+        "created": "2021-02-09T16:55:43.718801Z",
+        "modified": "2021-08-14T01:08:21.658866Z",
+        "name": "resource",
+        "description": "Firm art matter ten.",
+        "indicator_types": [
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "[network-traffic:src_ref.value = 'black-mcgrath.com']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-06-20T01:31:57.750866Z",
+        "valid_until": "2020-11-12T17:30:06.409355Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 5,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--2a7da9e5-9581-4f10-90e2-08c6147b22a5",
+        "created_by_ref": "identity--b822ed67-4aec-4969-b24b-5854b90055de",
+        "created": "2020-08-16T22:03:09.554834Z",
+        "modified": "2021-08-14T01:08:21.660007Z",
+        "relationship_type": "investigates",
+        "source_ref": "course-of-action--ed4c1cf7-c612-43df-8a66-0ce052cc92bf",
+        "target_ref": "indicator--768f7a65-0166-49c3-8229-67205bad93d8",
+        "start_time": "2020-12-05T06:31:40.493502Z",
+        "stop_time": "2021-09-25T05:02:17.294018Z",
+        "labels": [
+            "customer",
+            "discussion",
+            "defense",
+            "yet",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b822ed67-4aec-4969-b24b-5854b90055de",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-08-04T08:11:23.107995Z",
+        "modified": "2023-04-13T03:12:29.948782Z",
+        "name": "Gonzalez, Marsh and Parker",
+        "roles": [
+            "speak",
+            "wide"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 79,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

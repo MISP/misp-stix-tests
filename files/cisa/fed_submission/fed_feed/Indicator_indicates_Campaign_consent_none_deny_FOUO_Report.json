@@ -1,0 +1,295 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--e814fcad-8eb1-4564-b269-85cdef328629",
+        "created_by_ref": "identity--2b05f305-31dd-44f9-b365-8f92504ca55b",
+        "created": "2021-04-17T01:50:40.88793Z",
+        "modified": "2021-10-06T05:04:41.661113Z",
+        "description": "Community on record tonight through.",
+        "pattern": "[email-message:date = t'2021-01-24T04:05:30.806227Z']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-08-19T20:00:30.821032Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "tWZPBwInTaRsiUEL",
+                "phase_name": "NuYNRH"
+            },
+            {
+                "kill_chain_name": "VOqwJLmCSTeTD",
+                "phase_name": "OnbYKCpoqF"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "labels": [
+            "approach",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "month",
+                "description": "Provide current onto letter into true collection.",
+                "hashes": {
+                    "MD5": "9f05c40e1f8de0660d0505cb98be7a8f",
+                    "SHA-1": "1a947a9c660e423d9d670ac553f3cd049d29ad6a",
+                    "SHA-256": "6965d0a0968150be2a8df1ad80b79b4c55a2b2046c0088245d46313d07012fed",
+                    "SHA-512": "415bbf7368ad0b8ac4c0ae84be3b73b07051ea25aa40344c20214b49ae77156692c55985056ed64c74b9227751440ea88ea9f0d368b616b00c1b3196e298398f",
+                    "SHA3-256": "3730b4e9585e1fad0fd15733bf4aca14f288201a8b8c3eae7b6baf82d7a3f2cb",
+                    "SHA3-512": "ffc7fe5267f3a6d117920bee167d3d5bc977740be3d934154f79e4484a8fa49c93b269987b80a71cdb8f49753c21c22d1b21bbd09d46439c842180a2b86b6fc5"
+                }
+            },
+            {
+                "source_name": "door",
+                "description": "Economy hundred its.",
+                "hashes": {
+                    "MD5": "acf58b8c89c0883b1eae63de04c4afc5",
+                    "SHA-1": "53413f3a8d33f115f4bb320e539c2a8330b34ee7",
+                    "SHA-256": "3931bb032caea3bbb3852d12a062e642092ddf41fec2915a0412f40771252ad4",
+                    "SHA-512": "7e9f06dc2dc85153e23068d752b02275f414a6a75726816abb7992b139cb09bdfc8ebe29a64c050e26fa1e81d4262bbc96a3ddb2c4f8d6adab334ca8aec7368d",
+                    "SHA3-256": "b87e2a35e8a938ce4a6eb4a3b16b8ad4cc384625c2a97163685300f9a4ca4f8b",
+                    "SHA3-512": "082b6e28e49d8131e84dd9824918b4d5a72fa20c25cb65b4ac1ed74122f3f91c3960ee0333fffa0dca2792b3b7dc61ef4fb558ce1e57cda54b0822570c48ad67"
+                },
+                "external_id": "KiWnyexy"
+            },
+            {
+                "source_name": "challenge",
+                "description": "Not gun structure.",
+                "url": "https://www.kelley.net/",
+                "external_id": "TKxFHHmbcXjExhqWJ"
+            },
+            {
+                "source_name": "part",
+                "description": "Off meeting rise performance.",
+                "url": "https://www.lee-riley.com/",
+                "external_id": "LOdoOw"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--6407be13-8680-488b-8143-fb09909b7200"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--90760c51-0636-4d40-af3c-07cf48f0a6c2",
+        "created_by_ref": "identity--2b05f305-31dd-44f9-b365-8f92504ca55b",
+        "created": "2020-08-26T12:50:39.313307Z",
+        "modified": "2021-08-14T01:08:28.977457Z",
+        "name": "interesting",
+        "description": "Audience want still you along.",
+        "first_seen": "2020-10-15T19:16:25.904175Z",
+        "labels": [
+            "under",
+            "nature",
+            "data",
+            "ahead",
+            "throughout",
+            "pfte-batch-1"
+        ],
+        "confidence": 73,
+        "object_marking_refs": [
+            "marking-definition--6407be13-8680-488b-8143-fb09909b7200"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--15a7ce7e-1489-4fe0-9dfe-0a42ccc8231c",
+        "created_by_ref": "identity--2b05f305-31dd-44f9-b365-8f92504ca55b",
+        "created": "2021-09-05T03:04:02.804985Z",
+        "modified": "2021-10-05T13:39:52.139305Z",
+        "relationship_type": "indicates",
+        "description": "Take language American rock teacher sure seem. Standard soon happen hot southern democratic town.",
+        "source_ref": "indicator--e814fcad-8eb1-4564-b269-85cdef328629",
+        "target_ref": "campaign--90760c51-0636-4d40-af3c-07cf48f0a6c2",
+        "start_time": "2022-08-01T14:08:29.417073Z",
+        "object_marking_refs": [
+            "marking-definition--6407be13-8680-488b-8143-fb09909b7200"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--c2538d6f-6161-4619-b92c-de2692c3fa95",
+        "created_by_ref": "identity--2b05f305-31dd-44f9-b365-8f92504ca55b",
+        "created": "2022-02-04T14:25:06.922694Z",
+        "modified": "2023-01-27T01:02:19.542293Z",
+        "name": "stop",
+        "report_types": [
+            "threat-report",
+            "attack-pattern",
+            "campaign",
+            "threat-report",
+            "threat-actor"
+        ],
+        "published": "2021-06-04T11:03:53.042872Z",
+        "object_refs": [
+            "indicator--e814fcad-8eb1-4564-b269-85cdef328629",
+            "campaign--90760c51-0636-4d40-af3c-07cf48f0a6c2",
+            "relationship--15a7ce7e-1489-4fe0-9dfe-0a42ccc8231c"
+        ],
+        "labels": [
+            "also",
+            "table",
+            "enter",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "capital",
+                "url": "https://rasmussen.com/",
+                "external_id": "FGmDjFhju"
+            },
+            {
+                "source_name": "listen",
+                "hashes": {
+                    "MD5": "810d75374af09182c30d400f975dfb79",
+                    "SHA-1": "e1c6ea62dbbc7f87d755d5d8e25fa38224004a07",
+                    "SHA-256": "04634e9186ff595d1ee522ee80be0fa7a2a80a4d43f4a36f91bd01b2eb984c48",
+                    "SHA-512": "ad418ab6a2b0d47e702ffd66bb9b0d5ef7c86b9487f4c81d9e364b6118709db6f34d64a5b67ed2ef922fa4e0f7d09250bd335512315018d4ae7a1444083c4017",
+                    "SHA3-256": "312b338f55e676768f169f0a89fecfa1e2e72639f0da526f95e64580adaa87ee",
+                    "SHA3-512": "0a70832d9964102970fb72163d07c150188c2eee2d78bf628232704312bf04a9cfd9bd84b6b8ef6a283704a771f7e672b487aee61aa5dfa398493d9000a989fc"
+                },
+                "external_id": "dVQJxsvfqsokmjuCbMq"
+            },
+            {
+                "source_name": "claim",
+                "description": "Worry section here head.",
+                "hashes": {
+                    "MD5": "c252de11929e39e18e2998aeddd860cc",
+                    "SHA-1": "f4b847cab6d609b029f77c56ca43af792abdeccf",
+                    "SHA-256": "069c1a4d60301e54c6ef985b810d8b4281c4d85a89aca542b67899b23e0fabff",
+                    "SHA-512": "b2eb108734f81e810dca7118c4f3be301e8a8a147f16f04bdfbc76698a299f9803adff9e37b6e789122e6e9af2c38dccb670f2453c110623d6da4fed9aa4eb72",
+                    "SHA3-256": "95e97d1ea3548856a340b495d2be447f98b1a51afe113018ac1ced79c3a9c163",
+                    "SHA3-512": "82265a6ec0349d2c861225bbd65e53c88fcc207d5a9b1d3cd1e39f58555091cd3b1d625427875b0900c06202955310ed817f719a68c5ea04a7aa00a3d421f207"
+                },
+                "external_id": "xrHbBlrvtWHCQSRzYgLH"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--6407be13-8680-488b-8143-fb09909b7200"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2b05f305-31dd-44f9-b365-8f92504ca55b",
+        "created_by_ref": "identity--2b05f305-31dd-44f9-b365-8f92504ca55b",
+        "created": "2021-11-10T10:37:38.968913Z",
+        "modified": "2022-11-01T05:28:29.4885Z",
+        "name": "Patterson PLC",
+        "description": "De-engineered bi-directional flexibility",
+        "roles": [
+            "fund"
+        ],
+        "sectors": [
+            "non-profit"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "impact",
+                "url": "http://www.clark.org/",
+                "hashes": {
+                    "MD5": "171c5cd5ec9e5250f9e741fbec3e2036",
+                    "SHA-1": "b0677818340de849a5ea5b29d210a439ebaab391",
+                    "SHA-256": "00b0b0d5a8e94353d44135c7805dca530afef62d96b92590d6c9f5f2b49d0367",
+                    "SHA-512": "2a68fabf77cf64165ff285494422be141a2da614e7d1434fe24874387b5e8a4c8f03fda0197f602cf508310cb8a7bcaecbd5b456bdedb4e1fce9769849e316a6",
+                    "SHA3-256": "a93544bb5f0d5358d4d610bf6cec00f0f1c0059f736c4f532d5ba1515a8ad7b9",
+                    "SHA3-512": "d008504f428ffe3071545ac3b1f316624e3a82fb0eac4790f4a7e00edadca4d203e32fee4f066b2e8786a4e874745dd6b47a403970cef3e3b94e4062bc5352e4"
+                },
+                "external_id": "duiuAlpxHcFOYlmkNU"
+            },
+            {
+                "source_name": "whose",
+                "description": "Begin themselves vote good consumer be although.",
+                "url": "http://www.grant.com/",
+                "hashes": {
+                    "MD5": "1d5c58565f06a25fbcc94e0cae1e428b",
+                    "SHA-1": "355eb3a891dbf8bb213e7585ab156db724074408",
+                    "SHA-256": "bb0df01e03d4c197a9c30c29638968e47829488e0e784b432513e5f03ad9db38",
+                    "SHA-512": "07067c0a773c8cb2c760d07e30a28d4ca8c5302d0137f3963c378dcaec43bd18d3cdf605c3bd8980d34b188e2e1471fc19fdaa680864928256bec671fa540618",
+                    "SHA3-256": "914f768ef5eaa768fa526a8cbb1c140ba6f2fb7eb1deb1dfc31eee0636bf8625",
+                    "SHA3-512": "b491886b4e209ba527144ab84bc3bed5512ef12f02c7cbd77ace045742f9ee62babcc36d21afce499be78e42c67895f48f916a352fd849ccc52d05db84d5947b"
+                }
+            },
+            {
+                "source_name": "worker",
+                "description": "Support minute care like investment have."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--6407be13-8680-488b-8143-fb09909b7200"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--6407be13-8680-488b-8143-fb09909b7200",
+        "created": "2021-08-14T01:08:28.975394Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1946efc8-a2e0-46a4-bb9a-691cbe16f041",
+                "name": "Home politics letter yes consider",
+                "create_date_time": "2021-08-14T01:08:08.424111Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

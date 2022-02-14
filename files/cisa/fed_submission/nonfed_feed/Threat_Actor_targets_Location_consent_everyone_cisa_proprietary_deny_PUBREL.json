@@ -1,0 +1,188 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--d0e49b2f-8a35-4e52-b563-c181c36aef9b",
+        "created_by_ref": "identity--4632456c-c3ba-479e-b5e6-d56ab8ef4438",
+        "created": "2022-05-21T14:09:21.389618Z",
+        "modified": "2022-06-13T13:05:57.380215Z",
+        "name": "talk",
+        "threat_actor_types": [
+            "unknown",
+            "hacker"
+        ],
+        "aliases": [
+            "too",
+            "fine",
+            "today"
+        ],
+        "first_seen": "2021-11-05T05:04:31.09356Z",
+        "last_seen": "2022-06-30T19:09:33.452986Z",
+        "goals": [
+            "own",
+            "strategy",
+            "since"
+        ],
+        "primary_motivation": "unpredictable",
+        "labels": [
+            "future",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--0ed43eef-cca3-43a3-88b3-834cd318a8d8",
+        "created_by_ref": "identity--4632456c-c3ba-479e-b5e6-d56ab8ef4438",
+        "created": "2021-02-22T09:39:37.601941Z",
+        "modified": "2021-08-14T01:09:31.184757Z",
+        "latitude": 80.76912454966717,
+        "longitude": -23.858040850276183,
+        "precision": 40.17681927364259,
+        "region": "latin-america-caribbean",
+        "country": "Israel",
+        "administrative_area": "AvgFhXYaJVNUfzWI",
+        "city": "Cindychester",
+        "street_address": "4191 Butler Island",
+        "postal_code": "30575",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 42,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "against",
+                "description": "Key mission statement new ten.",
+                "hashes": {
+                    "MD5": "01abf9c60228601864026dc9dfb72477",
+                    "SHA-1": "22ebb813f3fe162e31d378d41ba8b8f22dc5feff",
+                    "SHA-256": "6baa9b8685879d023e0f20b6f82a7e0057747272f79bc204deb7a1e907e69411",
+                    "SHA-512": "aebc96d3060ce11dd039b5a6f7b3d0e2bb1cd202f0e70a552189bb27470f09cc1f5930029e3f8a336bb0efac73394bd29cd999a7cb1ae40dc1d5bb1fab38ddea",
+                    "SHA3-256": "c92d65daa4a358d4432983b08db30b8e48ebc99b6499db383e6019c61dc92e20",
+                    "SHA3-512": "924d6483eafcea10b4c7029472314262254c405800712e19946282117077e443f25640dbf9256f944be90a61788f89ae6b86e75116de0534365b03f4136ab26c"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--09ef4681-46a2-4aab-9264-47a4201d2ecd",
+        "created_by_ref": "identity--4632456c-c3ba-479e-b5e6-d56ab8ef4438",
+        "created": "2021-12-12T20:14:07.243457Z",
+        "modified": "2022-09-19T03:53:28.587458Z",
+        "relationship_type": "targets",
+        "source_ref": "threat-actor--d0e49b2f-8a35-4e52-b563-c181c36aef9b",
+        "target_ref": "location--0ed43eef-cca3-43a3-88b3-834cd318a8d8",
+        "start_time": "2021-10-25T02:49:56.975596Z",
+        "stop_time": "2021-11-11T13:53:58.360314Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4632456c-c3ba-479e-b5e6-d56ab8ef4438",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-05T01:20:07.429665Z",
+        "modified": "2022-06-14T22:16:32.374488Z",
+        "name": "DefenseTalkCatch",
+        "description": "Team-oriented clear-thinking structure",
+        "roles": [
+            "situation",
+            "note",
+            "voice",
+            "agreement"
+        ],
+        "sectors": [
+            "hospitality-leisure"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 52,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "return",
+                "url": "http://www.sims-lam.biz/",
+                "hashes": {
+                    "MD5": "4af1c4030e7a4ce9450db30c38cc4beb",
+                    "SHA-1": "4966e31ccd5ee129a8176b9306cb6506e886740c",
+                    "SHA-256": "d84a90691aa33dd9dbc2341164eb5f8586ee0ee36885b9715afafd0350d14cae",
+                    "SHA-512": "6dd31b24dcac71351bbb86abe648a36a53830e9e224dc9089fe302241948cec632d19d2633e3085e9367227297d841a6f7910f60b260217c4b590dcbe2f561bf",
+                    "SHA3-256": "45f3e004a7db00871c988ccef72a0089096b1451675211a763233f9fc64666cd",
+                    "SHA3-512": "c376ded2d8a2b478ec6cbedb80a7889b282a52efb4c19161efaaedd720744360c3d103ce7beb0e2a002428c50fdb7611843b5f640d5231861d48d1636afb45b6"
+                },
+                "external_id": "jWAGKycy"
+            },
+            {
+                "source_name": "movement",
+                "description": "Would customer group building war west ever.",
+                "url": "http://www.sexton.com/",
+                "hashes": {
+                    "MD5": "18cb7de071c5441d3820e901307294df",
+                    "SHA-1": "53e3dcae704f2f7f786f895ad84d1490d93527fb",
+                    "SHA-256": "3a55e8b7b83aad903a538405f16e912ebf1118b9b5af22ae528a5901e049bb79",
+                    "SHA-512": "f317c060f5c7ca5de5feac10e43f0a0f965a878e5618bd52bd33016764b6d5fc6aef5f81e705babe44fc8134e1cb0b7c440025a2b53738b6821d3814151c5137",
+                    "SHA3-256": "cec0e1f6afec1953861309e7466e9633ccfe8cdbcd339a1315dd8d76e842251b",
+                    "SHA3-512": "80f370c493959a4286bd848f517453e3baf41e0cf2308cacc6ed519d0fcbee32959570b4b82afd2c079f914b4dfab5c7648e1f6b6b22e31c755ffaaad1bc8268"
+                }
+            },
+            {
+                "source_name": "even",
+                "description": "Style only situation audience.",
+                "hashes": {
+                    "MD5": "1790c7f59c661038a7ecdcf68096fd3e",
+                    "SHA-1": "8d5d40f77c35edd72231316bc0d0224251d72b7a",
+                    "SHA-256": "24a72f9d29fa808476585ff81d9b37b220bf48bc11733aa5d1168b48108622c5",
+                    "SHA-512": "f39b025cf9705a9037fd0738384e1aea9eba4b2d9c991a5c9f85075a1a3fd6763dac546d4a078cda76c2f5937ba7e342936addc7b3e55b4cb57ccd4afad025e5",
+                    "SHA3-256": "2f40db64201dbd0b356029b7a0049e695f11613f68747026e01d2e5517d33903",
+                    "SHA3-512": "4e7152164d8b5f0c8cbf81411d2ec0963a6269358720a671d38c15463a6cf3def10e9f2054ba828ca500d863b596f1a8358c3a6f30b93d5438acd6b901cb3e81"
+                }
+            },
+            {
+                "source_name": "early",
+                "description": "Stop whom form clear.",
+                "hashes": {
+                    "MD5": "2eb8438b3466fc5fc7e3e8ef4724531d",
+                    "SHA-1": "22baabc6a36df4a1359db51573dc5d03bc378005",
+                    "SHA-256": "d6e6717cf3f697a3a4bca5807d664bb55bbf5896a16f34604d4674124d3c8d06",
+                    "SHA-512": "5abb044101e913f7f7505ca8c2ac68c5bc80b574c79e4c767df365bc41278203605206487fa1fce9049b8511228211ff742683bdd2f2bb24c6e4ee0e8e469840",
+                    "SHA3-256": "81b17fb4eab3327ee8d8280484e4e18bd282c4fafee8200c704f55a2f7a466fa",
+                    "SHA3-512": "b462e0e7729edafbb85ff9deef509b6e7a56d65c9ddb9224d7dd26963de61ea2125bc5307f475a6f02a9c4e7da3014a068b61e0ae45e6708a9de33da63b60fa6"
+                },
+                "external_id": "LbbFiWbNrEPtMYxRKjic"
+            },
+            {
+                "source_name": "hotel",
+                "url": "http://cannon-petersen.info/",
+                "hashes": {
+                    "MD5": "2209a58728b764b7fdce515846901328",
+                    "SHA-1": "f54e281334f9d5766091c201f6e014d2f901a1c1",
+                    "SHA-256": "ada73a4da19f59ea502fae8b44bfba52e6da34205dc3060da84f5a81399815c8",
+                    "SHA-512": "8948d0d4a78d7a56bc4ad976e995d591e673c16854d6b6e2c32422523ca41f36749a26b6b82f557f4033add1feb93dfb1359956cc13d9f2799f6542649deff5a",
+                    "SHA3-256": "6c4e76add9f033c914dfdbe8cf0c9ba5fbe4e623d41073dcfcba8114c69d60fa",
+                    "SHA3-512": "b89e235f50fef7631c73ccd1bffa6bef890a42ca5ff89bede69d9530f41f67a69c5f9997973f49a6b96e1ea440bae80c0fbb9d62a412a550bcbc15d9de4d96b7"
+                },
+                "external_id": "MTrGyB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

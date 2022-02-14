@@ -1,0 +1,184 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--ed4c5caf-51fc-4a70-8032-91aa24cad2f3",
+        "created_by_ref": "identity--ecbdaa86-7e6b-4304-bf51-5b69915d4fed",
+        "created": "2020-10-26T13:16:52.112034Z",
+        "modified": "2021-08-14T01:09:33.082522Z",
+        "name": "it",
+        "description": "Without a dream consumer treatment.",
+        "first_seen": "2022-03-14T06:19:14.032615Z",
+        "primary_motivation": "coercion",
+        "personal_motivations": [
+            "personal-gain",
+            "unpredictable"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9438a4a1-748c-4f62-a7f4-bd3aa62cbeed"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--d32ae6d0-1925-43e4-aa42-c8d9b36d53e5",
+        "created_by_ref": "identity--ecbdaa86-7e6b-4304-bf51-5b69915d4fed",
+        "created": "2021-01-02T22:44:33.781346Z",
+        "modified": "2021-08-14T01:09:33.082919Z",
+        "name": "discussion",
+        "description": "Sound themselves race kid.",
+        "infrastructure_types": [
+            "reconnaissance",
+            "routers-switches"
+        ],
+        "aliases": [
+            "shoulder",
+            "trial",
+            "large",
+            "bit"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "BDIGf",
+                "phase_name": "xTuVhzYWnuwhiElHlvdM"
+            }
+        ],
+        "last_seen": "2021-05-07T05:08:55.749026Z",
+        "labels": [
+            "list",
+            "change",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9438a4a1-748c-4f62-a7f4-bd3aa62cbeed"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b7d81eeb-464e-4702-b146-a145bc788866",
+        "created_by_ref": "identity--ecbdaa86-7e6b-4304-bf51-5b69915d4fed",
+        "created": "2022-01-13T04:32:25.378928Z",
+        "modified": "2022-08-16T23:52:01.278478Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--ed4c5caf-51fc-4a70-8032-91aa24cad2f3",
+        "target_ref": "infrastructure--d32ae6d0-1925-43e4-aa42-c8d9b36d53e5",
+        "start_time": "2021-03-14T19:46:53.406695Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "later",
+                "description": "Lot dog least around some grow.",
+                "external_id": "fDMFjZADQWL"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9438a4a1-748c-4f62-a7f4-bd3aa62cbeed"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--9438a4a1-748c-4f62-a7f4-bd3aa62cbeed",
+        "created_by_ref": "identity--ecbdaa86-7e6b-4304-bf51-5b69915d4fed",
+        "created": "2021-08-14T01:09:33.081736Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-15d3e0eb-8dda-4b6b-a55d-5c6a8a6d490b",
+                "name": "Clearly industry family",
+                "create_date_time": "2021-08-14T01:08:08.420657Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ecbdaa86-7e6b-4304-bf51-5b69915d4fed",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-03-13T09:23:03.472906Z",
+        "modified": "2021-12-22T16:02:04.307616Z",
+        "name": "Schultz, Jones and Schmidt",
+        "roles": [
+            "another",
+            "organization",
+            "speech",
+            "experience",
+            "model"
+        ],
+        "sectors": [
+            "government"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--9438a4a1-748c-4f62-a7f4-bd3aa62cbeed"
+        ]
+    }
+]

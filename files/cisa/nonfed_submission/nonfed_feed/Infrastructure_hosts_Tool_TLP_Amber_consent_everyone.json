@@ -1,0 +1,113 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--bfde162b-b29e-4c93-a318-50112a543e57",
+        "created_by_ref": "identity--f70f424d-355d-4fe1-8b77-50d7f006d93e",
+        "created": "2021-02-19T20:27:00.668291Z",
+        "modified": "2021-08-14T01:08:48.18354Z",
+        "name": "amount",
+        "infrastructure_types": [
+            "botnet"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "orqvb",
+                "phase_name": "albwqQnxQ"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "first_seen": "2021-07-22T21:53:19.81784Z",
+        "last_seen": "2022-01-08T10:23:29.178408Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--5157f49b-e6e5-4681-9f8b-efe4a82bb494",
+        "created_by_ref": "identity--f70f424d-355d-4fe1-8b77-50d7f006d93e",
+        "created": "2021-11-05T15:52:18.553628Z",
+        "modified": "2022-05-15T09:55:29.663481Z",
+        "name": "series",
+        "tool_types": [
+            "exploitation",
+            "remote-access"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "tool_version": "unit",
+        "labels": [
+            "evening",
+            "price",
+            "amount",
+            "work",
+            "pfte-batch-1"
+        ],
+        "confidence": 2,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ab3db895-1fa2-4165-813e-211cf6799c0e",
+        "created_by_ref": "identity--f70f424d-355d-4fe1-8b77-50d7f006d93e",
+        "created": "2022-08-05T03:33:57.372302Z",
+        "modified": "2022-11-25T00:43:55.994433Z",
+        "relationship_type": "hosts",
+        "description": "Language edge much do example add. List maybe month car property board issue stay. Government shoulder practice make partner others policy.",
+        "source_ref": "infrastructure--bfde162b-b29e-4c93-a318-50112a543e57",
+        "target_ref": "tool--5157f49b-e6e5-4681-9f8b-efe4a82bb494",
+        "start_time": "2022-05-26T09:25:49.235917Z",
+        "stop_time": "2023-02-04T02:25:47.401795Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 64,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f70f424d-355d-4fe1-8b77-50d7f006d93e",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-05-05T19:55:46.463621Z",
+        "modified": "2023-01-07T20:20:43.928774Z",
+        "name": "Anderson, Jones and Taylor",
+        "description": "Managed logistical capability",
+        "roles": [
+            "government",
+            "for",
+            "figure",
+            "writer"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

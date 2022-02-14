@@ -1,0 +1,134 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--82bcf107-d16d-42ec-a1e6-e20526276710",
+        "created_by_ref": "identity--ae9d51e2-c7bf-4150-879d-0e295d30b017",
+        "created": "2022-01-27T20:29:12.021085Z",
+        "modified": "2022-09-12T12:40:44.468319Z",
+        "name": "stage",
+        "aliases": [
+            "several"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "HIKLLkgRvqbJXZQLcwn",
+                "phase_name": "jRkesVobR"
+            },
+            {
+                "kill_chain_name": "XDQUPzFIayXRi",
+                "phase_name": "gYCdS"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "first_seen": "2021-04-23T06:55:43.213888Z",
+        "last_seen": "2021-08-07T04:10:51.40086Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--fbf104eb-22d7-46c3-be67-ebc0eca575ff",
+        "created_by_ref": "identity--ae9d51e2-c7bf-4150-879d-0e295d30b017",
+        "created": "2022-03-13T19:58:19.98554Z",
+        "modified": "2022-09-08T22:34:50.944476Z",
+        "name": "require",
+        "description": "Imagine discussion cause note rule.",
+        "labels": [
+            "activity",
+            "without",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "very",
+                "url": "https://www.wilson-rojas.com/",
+                "hashes": {
+                    "MD5": "51326afb8051f34f9933c0016f4deb9e",
+                    "SHA-1": "f8891c2e6499bdd322c98fce097ec1b96b7bbc31",
+                    "SHA-256": "dad92767123e52b91f2b74b5aecfe51bd495879045d3c9a8f4f25d0e4dbd0996",
+                    "SHA-512": "f21275016ba99bebb9af86e6ed66579126edbda78fbd6f71d0198f3a7b35d10f514b687b6e3f5a199a102f9db4092defb05b781737bc2289df9a38dd88543b35",
+                    "SHA3-256": "f1b2577226077a3ae41a3e87c4b55a9517165ea391be77aba0bb41b0bbcddb04",
+                    "SHA3-512": "646f42bbecbf38f4624a8adab06d46a57a8b84cbbd8138c060e915b4b0c8b229a6f7446943bd91522033a05343e80311fad83b9c3c5deb6bf459cc3534cb411b"
+                },
+                "external_id": "TPHxdGNkMGZ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--49c14bac-19f9-422f-a0a2-72c8178aced3",
+        "created_by_ref": "identity--ae9d51e2-c7bf-4150-879d-0e295d30b017",
+        "created": "2022-05-02T06:10:45.30452Z",
+        "modified": "2022-11-08T22:58:43.268503Z",
+        "relationship_type": "uses",
+        "source_ref": "infrastructure--82bcf107-d16d-42ec-a1e6-e20526276710",
+        "target_ref": "infrastructure--fbf104eb-22d7-46c3-be67-ebc0eca575ff",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "personal",
+                "description": "Indeed two require call.",
+                "url": "https://savage.com/",
+                "hashes": {
+                    "MD5": "ecde5eda75d5b7052b58357ca41dd821",
+                    "SHA-1": "d9acea2aea74d5ce530eb485fcfd467031e5deb0",
+                    "SHA-256": "cd0cd14f5d89ae47370e680750d1ff9f32585f658affb26077f23e93d81ac3ba",
+                    "SHA-512": "0ba12957de3550fa470ed6e8cde38f66fea9708a0dda679a448092bebaad52f3b57c6acbd390ec49bb1e2e172ef7ba25bccfa4c6e822ce51233d55e121d0cb1c",
+                    "SHA3-256": "df5d4afc66d784677b02114cf5a619418dfd33dc4be11094b02e136a0bc6db0d",
+                    "SHA3-512": "782f2f24057838e30f966515bf04dec712ff2b7a8414ed3a703178b382b73a8259ea51ff91b0455faaa8470576ac4a3720b3c1ac073aaf3f764ddb3669dbdca3"
+                },
+                "external_id": "xcPhCiKNa"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ae9d51e2-c7bf-4150-879d-0e295d30b017",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-08T06:51:08.659592Z",
+        "modified": "2022-04-01T21:27:43.093284Z",
+        "name": "Evans-Rogers",
+        "contact_information": "311 Samantha Roads\nPort Timothy, KY 34503",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "recognize",
+                "url": "https://www.bates.biz/",
+                "external_id": "mGTLlKZrilb"
+            },
+            {
+                "source_name": "fire",
+                "url": "http://www.foster.org/",
+                "external_id": "wtQRpBLhHBabTren"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

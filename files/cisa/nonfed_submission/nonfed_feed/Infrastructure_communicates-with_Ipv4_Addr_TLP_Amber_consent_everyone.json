@@ -1,0 +1,130 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--1756f708-429b-4255-a5d6-d0b6248fb017",
+        "created_by_ref": "identity--b62211b6-9df8-4120-8f12-26448784d794",
+        "created": "2022-07-03T23:53:15.199418Z",
+        "modified": "2023-04-04T23:43:51.890349Z",
+        "name": "moment",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "last_seen": "2020-11-17T06:45:38.924722Z",
+        "labels": [
+            "this",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "school",
+                "url": "http://www.martinez.com/",
+                "hashes": {
+                    "MD5": "da4dffc516c817481d54f4d3105ecc9b",
+                    "SHA-1": "3480d45ae0121bf70fd1c059d4b5e430c2f28ecb",
+                    "SHA-256": "de7a8e39c4b0c57a1d9ca8b2f97a332aa4d42632b42e64fb6d0b0d8f18f02919",
+                    "SHA-512": "46fe4faed00fb5361a114193ab6b093102602cd2055c3f16b2d32481e2d10df8507aa3e60a0909b8258fd205f80210737e73482d43d4a22eddcc987bf964ead9",
+                    "SHA3-256": "b354cfd4ffc256368b40a755fd58a757a10cf19dcfe6bee6598ef84bd578f83f",
+                    "SHA3-512": "13f013880072f277b9246044ac34aaa0cdc19b6494ec534ebf5538fd942fe473b10d2ee726566468d2dd41639b8c59afdfbeb50f5d151a988a765c77ed1b8b92"
+                },
+                "external_id": "zEzeEnJo"
+            },
+            {
+                "source_name": "yet",
+                "description": "Serious citizen soon word television big list.",
+                "url": "http://fisher.biz/",
+                "hashes": {
+                    "MD5": "b649a583cc641e33bc984300eba59c34",
+                    "SHA-1": "0415db7d512835604b3ac460093dcbf0b8870f20",
+                    "SHA-256": "79370cfae255d73438cf386deb134cb14039b9d07c419faa10636c5892623b50",
+                    "SHA-512": "8701e9e4149a004ad5474aeaf4587f5d989fc1a929692243358939381ef6eec0706775f13100ca404c260df0fac3d047801febd17097fdda2cbc023388110aa2",
+                    "SHA3-256": "79b99b708a716293eb438209d08c5e85610ee57b1a542ed546dc1de8198b2dd0",
+                    "SHA3-512": "4c53393302ac5765d3b8df767bf91057f6dc12b18ae0b42a604c3faf42868fdb61bb69fea6c5c9e9042d0b3e11d01feddedbb777d0f824132c94ed326d4264ae"
+                }
+            },
+            {
+                "source_name": "nice",
+                "description": "Later four close recently ready.",
+                "url": "http://www.meza-clark.info/",
+                "external_id": "sOPxRMVDq"
+            },
+            {
+                "source_name": "attorney",
+                "hashes": {
+                    "MD5": "de7c50fd94aba9ad4499d460565a1553",
+                    "SHA-1": "7f329435ec7c300334c9d9e3f9919c2797ce03d7",
+                    "SHA-256": "45f1b256f403f92e3729bb1db8644d2a91642dfe491350fabc4b91615ec75eb4",
+                    "SHA-512": "26a80f16f0fcbb8996ab9e5e0abdf51b116e424706bcb6c990f3e52ab0fb2b024ed8eac29026c1ef5599546ca4395dcf6b79d92e85d2cb78aa544802de01863a",
+                    "SHA3-256": "b7a055f71f589b0c8290266e2690efa9c69357f45ba5d2a7ac96328279ae23bf",
+                    "SHA3-512": "d94d35f1853a824d8d8283a19f4b349b83eab4ba2f9eb1b3fa167439667b81589fd962ce45808e0ca8d64b83c8ae4b517dd2c686eefb6b2d811bee337d08079c"
+                },
+                "external_id": "DdrQBjIRf"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "ipv4-addr",
+        "spec_version": "2.1",
+        "id": "ipv4-addr--a66fdee8-6fb8-4ef0-857a-a61bd6de0e83",
+        "value": "81.141.126.165",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f717af87-2c5d-44bf-80f7-f949aad25f8c",
+        "created_by_ref": "identity--b62211b6-9df8-4120-8f12-26448784d794",
+        "created": "2020-10-22T16:15:40.722983Z",
+        "modified": "2021-08-14T01:08:39.467188Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--1756f708-429b-4255-a5d6-d0b6248fb017",
+        "target_ref": "ipv4-addr--a66fdee8-6fb8-4ef0-857a-a61bd6de0e83",
+        "stop_time": "2020-12-20T23:29:31.907355Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b62211b6-9df8-4120-8f12-26448784d794",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-22T08:24:01.219565Z",
+        "modified": "2023-01-22T23:09:36.895429Z",
+        "name": "Rivera-Matthews",
+        "description": "Integrated empowering product",
+        "contact_information": "864 Sara Summit Suite 607\nChriston, DE 18540",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

@@ -1,0 +1,168 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--5393bf77-10ca-43e9-aa5c-8a353fcfcacf",
+        "created_by_ref": "identity--821cd83b-23e0-4b0d-852b-ef1e61d5d580",
+        "created": "2021-11-06T23:32:00.423842Z",
+        "modified": "2021-11-21T09:50:36.814293Z",
+        "name": "interview",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "UkLMONXvMxQYvqGAwU",
+                "phase_name": "cGqysVCgxSiVfBQPD"
+            },
+            {
+                "kill_chain_name": "awwhBQcWkF",
+                "phase_name": "emymKhBYTzAXcxfZko"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "aZhuto",
+                "phase_name": "BkXMhSWCXcTWsO"
+            }
+        ],
+        "first_seen": "2022-06-09T10:29:18.19853Z",
+        "confidence": 100,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--51f87753-7d8b-4b84-bf34-475d72656183"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--98f67fb2-a3f3-4a14-bf99-2a0790cdbba1",
+        "value": "https://www.carter.org/",
+        "object_marking_refs": [
+            "marking-definition--51f87753-7d8b-4b84-bf34-475d72656183"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--790d0c65-7573-40f9-bc0a-97bddad66db3",
+        "created_by_ref": "identity--821cd83b-23e0-4b0d-852b-ef1e61d5d580",
+        "created": "2021-06-24T15:16:46.796889Z",
+        "modified": "2021-08-14T01:08:41.79854Z",
+        "relationship_type": "communicates-with",
+        "description": "Base movement establish notice wrong effect. Seek top arm order. Discover free general leader success lawyer civil.",
+        "source_ref": "infrastructure--5393bf77-10ca-43e9-aa5c-8a353fcfcacf",
+        "target_ref": "url--98f67fb2-a3f3-4a14-bf99-2a0790cdbba1",
+        "confidence": 41,
+        "external_references": [
+            {
+                "source_name": "money",
+                "description": "Bar year ready hair."
+            },
+            {
+                "source_name": "him",
+                "description": "Once itself I send record hospital."
+            },
+            {
+                "source_name": "necessary",
+                "description": "Middle theory break wait such help agency.",
+                "external_id": "MwboZDvvUhPmJOAkIph"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--51f87753-7d8b-4b84-bf34-475d72656183"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--821cd83b-23e0-4b0d-852b-ef1e61d5d580",
+        "created_by_ref": "identity--821cd83b-23e0-4b0d-852b-ef1e61d5d580",
+        "created": "2022-02-27T13:59:11.15136Z",
+        "modified": "2022-11-27T06:59:35.560066Z",
+        "name": "Coleman LLC",
+        "description": "Front-line high-level conglomeration",
+        "roles": [
+            "when",
+            "blue",
+            "myself",
+            "over"
+        ],
+        "contact_information": "817 Martha Drive Apt. 610\nPort Raymondmouth, MS 72803",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--51f87753-7d8b-4b84-bf34-475d72656183"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--51f87753-7d8b-4b84-bf34-475d72656183",
+        "created": "2021-08-14T01:08:41.797229Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1b1f4ecf-83db-4fe9-8c22-38a5f88b6694",
+                "name": "Deal certainly rather appear present safe",
+                "create_date_time": "2021-08-14T01:08:08.429946Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.429783Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

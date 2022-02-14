@@ -1,0 +1,139 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--2d8ae316-2d69-4ffc-9e27-e56d7eb44382",
+        "created_by_ref": "identity--ecc0c684-c39d-4e94-b11c-7a4e5889e7e5",
+        "created": "2021-10-04T07:02:55.69653Z",
+        "modified": "2022-03-31T08:21:35.621304Z",
+        "name": "hospital",
+        "infrastructure_types": [
+            "control-system",
+            "control-system",
+            "hosting-malware",
+            "workstation",
+            "command-and-control"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "nHUfYLEwNRZCow",
+                "phase_name": "lyoIykMCh"
+            }
+        ],
+        "labels": [
+            "social",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--f0f26cf7-8206-4328-b9ac-475e82ebd626",
+        "created_by_ref": "identity--ecc0c684-c39d-4e94-b11c-7a4e5889e7e5",
+        "created": "2020-11-12T12:45:44.766975Z",
+        "modified": "2021-10-21T06:46:25.642971Z",
+        "name": "use",
+        "aliases": [
+            "might",
+            "five"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "WOeSAbvj",
+                "phase_name": "pmEwK"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "labels": [
+            "writer",
+            "learn",
+            "point",
+            "star",
+            "natural",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d9def56c-403d-44fc-bc6d-891da1d50147",
+        "created_by_ref": "identity--ecc0c684-c39d-4e94-b11c-7a4e5889e7e5",
+        "created": "2020-10-17T15:05:39.784975Z",
+        "modified": "2021-08-14T01:08:48.053693Z",
+        "relationship_type": "hosts",
+        "description": "Local message baby fine discussion. Speech north minute quite worker sit case.",
+        "source_ref": "infrastructure--2d8ae316-2d69-4ffc-9e27-e56d7eb44382",
+        "target_ref": "tool--f0f26cf7-8206-4328-b9ac-475e82ebd626",
+        "start_time": "2020-11-04T09:13:51.753922Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 11,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--32d76e1e-377a-4fcf-a739-0906f90f46e1",
+        "created_by_ref": "identity--ecc0c684-c39d-4e94-b11c-7a4e5889e7e5",
+        "created": "2020-11-26T01:38:35.594055Z",
+        "modified": "2021-09-29T20:11:25.934223Z",
+        "content": "Guy talk medical career significant board tree prevent. Success record TV military concern.",
+        "object_refs": [
+            "infrastructure--2d8ae316-2d69-4ffc-9e27-e56d7eb44382",
+            "tool--f0f26cf7-8206-4328-b9ac-475e82ebd626",
+            "relationship--d9def56c-403d-44fc-bc6d-891da1d50147"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ecc0c684-c39d-4e94-b11c-7a4e5889e7e5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-22T10:26:35.12411Z",
+        "modified": "2021-08-14T01:08:48.054217Z",
+        "name": "AskLeaveBecome",
+        "description": "Ergonomic client-driven customer loyalty",
+        "identity_class": "group",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 55,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

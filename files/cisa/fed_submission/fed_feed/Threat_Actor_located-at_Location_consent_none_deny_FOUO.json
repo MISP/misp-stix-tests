@@ -1,0 +1,148 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--2f7876fa-85c4-4be5-a311-910c5a7263ae",
+        "created_by_ref": "identity--47b274d7-e026-4219-bb79-f7b9f8d850d6",
+        "created": "2020-12-27T14:06:27.103269Z",
+        "modified": "2021-08-14T01:09:29.147331Z",
+        "name": "impact",
+        "description": "Want development stuff perhaps.",
+        "threat_actor_types": [
+            "crime-syndicate",
+            "competitor",
+            "crime-syndicate"
+        ],
+        "aliases": [
+            "natural",
+            "owner"
+        ],
+        "first_seen": "2021-04-06T22:02:37.935625Z",
+        "last_seen": "2021-07-16T07:02:16.618502Z",
+        "labels": [
+            "measure",
+            "explain",
+            "pfte-batch-1"
+        ],
+        "confidence": 92,
+        "object_marking_refs": [
+            "marking-definition--06aab910-9eac-4855-89ee-01d7236f5ec7"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--bb6e080a-a304-4760-8160-7992472ffd40",
+        "created_by_ref": "identity--47b274d7-e026-4219-bb79-f7b9f8d850d6",
+        "created": "2021-07-04T16:35:01.980701Z",
+        "modified": "2021-08-15T17:16:40.939699Z",
+        "latitude": -66.21218475504665,
+        "longitude": -124.3006096888921,
+        "city": "Patrickmouth",
+        "street_address": "32952 Hall Plaza",
+        "confidence": 18,
+        "object_marking_refs": [
+            "marking-definition--06aab910-9eac-4855-89ee-01d7236f5ec7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--299431a0-fb98-46b9-a4e6-71063f9f34be",
+        "created_by_ref": "identity--47b274d7-e026-4219-bb79-f7b9f8d850d6",
+        "created": "2022-02-15T02:38:10.924657Z",
+        "modified": "2022-08-04T11:30:19.359645Z",
+        "relationship_type": "located-at",
+        "description": "Necessary common energy travel. Act court attention.",
+        "source_ref": "threat-actor--2f7876fa-85c4-4be5-a311-910c5a7263ae",
+        "target_ref": "location--bb6e080a-a304-4760-8160-7992472ffd40",
+        "start_time": "2021-07-23T12:39:11.890901Z",
+        "stop_time": "2021-10-19T01:30:14.048343Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--06aab910-9eac-4855-89ee-01d7236f5ec7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--47b274d7-e026-4219-bb79-f7b9f8d850d6",
+        "created_by_ref": "identity--47b274d7-e026-4219-bb79-f7b9f8d850d6",
+        "created": "2020-12-22T11:01:05.014479Z",
+        "modified": "2021-10-01T23:56:04.230923Z",
+        "name": "Page, Edwards and Gardner",
+        "roles": [
+            "man",
+            "federal"
+        ],
+        "confidence": 64,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--06aab910-9eac-4855-89ee-01d7236f5ec7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--06aab910-9eac-4855-89ee-01d7236f5ec7",
+        "created": "2021-08-14T01:09:29.146718Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1946efc8-a2e0-46a4-bb9a-691cbe16f041",
+                "name": "Home politics letter yes consider",
+                "create_date_time": "2021-08-14T01:08:08.424111Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

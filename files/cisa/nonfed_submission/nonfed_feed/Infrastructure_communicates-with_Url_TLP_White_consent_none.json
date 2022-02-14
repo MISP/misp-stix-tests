@@ -1,0 +1,82 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--458f7ea4-ce07-419c-bb2c-b8b125f6168a",
+        "created_by_ref": "identity--5d5846c9-952a-4bf7-b98d-d17633f5bf88",
+        "created": "2021-03-13T05:57:05.793692Z",
+        "modified": "2021-08-14T01:08:41.321244Z",
+        "name": "offer",
+        "infrastructure_types": [
+            "anonymization",
+            "reconnaissance",
+            "reconnaissance",
+            "staging"
+        ],
+        "first_seen": "2021-12-28T18:10:14.591246Z",
+        "last_seen": "2022-07-23T12:33:41.843865Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--343fad05-7524-4c91-bb3d-26c53de4b27f",
+        "value": "http://chapman.com/",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b928b4b4-420d-4a5c-83c7-6419cc8e0055",
+        "created_by_ref": "identity--5d5846c9-952a-4bf7-b98d-d17633f5bf88",
+        "created": "2021-10-21T07:20:50.266137Z",
+        "modified": "2022-08-26T00:11:11.610534Z",
+        "relationship_type": "communicates-with",
+        "description": "Camera employee car without president both camera throw.",
+        "source_ref": "infrastructure--458f7ea4-ce07-419c-bb2c-b8b125f6168a",
+        "target_ref": "url--343fad05-7524-4c91-bb3d-26c53de4b27f",
+        "start_time": "2021-11-23T11:04:10.435337Z",
+        "labels": [
+            "off",
+            "treat",
+            "pfte-batch-1"
+        ],
+        "confidence": 13,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5d5846c9-952a-4bf7-b98d-d17633f5bf88",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-08-12T18:04:07.146274Z",
+        "modified": "2022-06-29T01:14:04.049476Z",
+        "name": "DetermineSeriesBlack",
+        "description": "Multi-channeled 24hour frame",
+        "sectors": [
+            "financial-services",
+            "technology"
+        ],
+        "contact_information": "55881 Amanda Islands\nAdamfort, VA 96703",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 23,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

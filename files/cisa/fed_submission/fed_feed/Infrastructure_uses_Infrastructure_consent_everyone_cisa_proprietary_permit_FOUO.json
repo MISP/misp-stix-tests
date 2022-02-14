@@ -1,0 +1,171 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--f066d735-cdcf-4546-b440-4cfda89d3087",
+        "created_by_ref": "identity--4c284177-813b-49d4-8276-92c6c48a3ba5",
+        "created": "2020-10-24T04:08:06.84525Z",
+        "modified": "2021-08-14T01:08:51.122153Z",
+        "name": "my",
+        "infrastructure_types": [
+            "routers-switches",
+            "firewall",
+            "exfiltration"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "first_seen": "2020-11-02T16:52:58.452439Z",
+        "labels": [
+            "executive",
+            "staff",
+            "physical",
+            "later",
+            "pfte-batch-1"
+        ],
+        "confidence": 65,
+        "object_marking_refs": [
+            "marking-definition--cb268feb-6cfd-4941-b8f1-91459967589c"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--75517299-7d1a-4d87-ac83-768c8a10231a",
+        "created_by_ref": "identity--4c284177-813b-49d4-8276-92c6c48a3ba5",
+        "created": "2022-05-04T08:10:50.544233Z",
+        "modified": "2022-11-12T08:25:38.768438Z",
+        "name": "effect",
+        "infrastructure_types": [
+            "unknown",
+            "botnet",
+            "amplification",
+            "botnet",
+            "anonymization"
+        ],
+        "aliases": [
+            "similar"
+        ],
+        "confidence": 77,
+        "object_marking_refs": [
+            "marking-definition--cb268feb-6cfd-4941-b8f1-91459967589c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--833795fd-8870-4514-8f0c-3c94e18d6cb6",
+        "created_by_ref": "identity--4c284177-813b-49d4-8276-92c6c48a3ba5",
+        "created": "2021-01-21T03:32:55.080571Z",
+        "modified": "2022-01-19T22:19:30.101055Z",
+        "relationship_type": "uses",
+        "description": "Inside range plan this trip. Language building teacher remember prepare person husband fly. Color compare brother remain bad reduce. Happy stuff third media rise.",
+        "source_ref": "infrastructure--f066d735-cdcf-4546-b440-4cfda89d3087",
+        "target_ref": "infrastructure--75517299-7d1a-4d87-ac83-768c8a10231a",
+        "stop_time": "2022-05-02T04:59:31.799089Z",
+        "labels": [
+            "which",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--cb268feb-6cfd-4941-b8f1-91459967589c"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4c284177-813b-49d4-8276-92c6c48a3ba5",
+        "created_by_ref": "identity--4c284177-813b-49d4-8276-92c6c48a3ba5",
+        "created": "2021-01-18T20:03:51.47955Z",
+        "modified": "2021-12-17T03:04:17.314355Z",
+        "name": "Ryan, Dean and Scott",
+        "identity_class": "group",
+        "sectors": [
+            "pharmaceuticals",
+            "chemical",
+            "energy"
+        ],
+        "contact_information": "872 Smith Isle Suite 841\nEast Juanmouth, SD 73061",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 60,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "defense",
+                "url": "https://www.carson.info/",
+                "hashes": {
+                    "MD5": "ef38d857bf019abec9e797324d3c6bf0",
+                    "SHA-1": "d021ff93db5a121cb1257a7401e4369979cd48c9",
+                    "SHA-256": "ea30b9fc9beb751ba287178ec7f9d8ff1bf2545cb87c6256c984d919075b64c0",
+                    "SHA-512": "874587350c5c6dd4f94c6dfc30bcf94dbb5cf5cc82b3247b8c159289a42c3e668128b3537a4ea6ea801d17ca5dfb06f1da72209f2f8ee74ac18488102c41e2af",
+                    "SHA3-256": "f2a3b1782028fd7ea1c87d930419147cde62ca77d5bb60e7098ff8edfc078f75",
+                    "SHA3-512": "6bd3d69dca0d816bec4206504e5ffeaf16e98762a931162b7f5a9b7e75d88183692a18a01584b215cb768a493faf92e3c067863a881aeb520372d07ca929e13a"
+                },
+                "external_id": "BbgSKBzsRfmin"
+            },
+            {
+                "source_name": "describe",
+                "hashes": {
+                    "MD5": "33448616a58b0e983920eaa87aebe2dc",
+                    "SHA-1": "28751792287b3ceec7a3ee2ec2bb92a600769166",
+                    "SHA-256": "c971695032fe6e9f1aab8b84a70c01a6205e9fa0a2a3748a9df80c279158f29f",
+                    "SHA-512": "2d886107e49babb65fa487c01b072160a857ed7cb8072ae837485a7fcae77d0f2a709e4f72fa7cf64c8394f9ed8869bf01eda8cdc19bc54b236e5071f15fd005",
+                    "SHA3-256": "4abadf47559808e132fe304e7a179a020a67f0806268e16b65f0ecbb6152682b",
+                    "SHA3-512": "e06c45bfaeb2c36f888a53aa2968665a63b92bb27ce28daf1aba9b4392236f136ea572d19ea33ff0cd4bfe20e55e79ea1f33d9daa7a4eff0b7095de6402661b0"
+                },
+                "external_id": "CSSRVKjQku"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--cb268feb-6cfd-4941-b8f1-91459967589c"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--cb268feb-6cfd-4941-b8f1-91459967589c",
+        "created": "2021-08-14T01:08:51.121574Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-114c3c02-d336-4257-a679-8cbd2bcdae34",
+                "name": "Sort author none he account American industry worry",
+                "create_date_time": "2021-08-14T01:08:08.432919Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

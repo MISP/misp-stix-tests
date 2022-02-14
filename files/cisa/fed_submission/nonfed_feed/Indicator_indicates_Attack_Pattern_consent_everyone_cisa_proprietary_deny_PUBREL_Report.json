@@ -1,0 +1,241 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--2344d28d-1fce-4075-ad3e-f3bfbc3bb684",
+        "created_by_ref": "identity--69108d2e-6a13-4ae0-8202-bebbe6d343fd",
+        "created": "2021-03-08T02:49:37.221915Z",
+        "modified": "2021-09-30T04:07:14.225647Z",
+        "pattern": "[user-account:is_service_account NOT = false AND user-account:account_first_login = t'2020-09-30T02:25:33.709357Z' AND (user-account:can_escalate_privs NOT = true)] AND [email-message:subject > 'Involve everything safe bar.'] AND ([url:value NOT = 'https://www.gaines.info/'])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-06-14T23:06:22.0467Z",
+        "valid_until": "2021-03-10T19:16:24.238598Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--440a8b9c-b2c4-4011-b6de-cfb0e95d09aa",
+        "created_by_ref": "identity--69108d2e-6a13-4ae0-8202-bebbe6d343fd",
+        "created": "2020-09-05T02:10:20.188804Z",
+        "modified": "2021-08-14T01:08:28.372706Z",
+        "name": "law",
+        "description": "Phone second miss share particular rise.",
+        "aliases": [
+            "leader",
+            "seem",
+            "walk",
+            "subject"
+        ],
+        "labels": [
+            "middle",
+            "daughter",
+            "produce",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "message",
+                "description": "Of her Democrat too energy eye technology.",
+                "hashes": {
+                    "MD5": "4fbf1ff6bec4beff9cc944e42a5e24e6",
+                    "SHA-1": "c812a5bc687ad06ae605348654b0315d941f89d0",
+                    "SHA-256": "0a01fdc17f0da5412f44bd0e073934c71151453c504d571db0e35f95332c1770",
+                    "SHA-512": "10476da4ba313bc49f1f770719225b5239c7a817d68480eb86b9d422b211dccc9a5f7652fc89f6c94682071cdc04ef8a3ec6a256a5ce7595d9a096957da36217",
+                    "SHA3-256": "25fc9859a4f2cd057d3a97def95ace2d87cf26dd4effcdfea2c2a30c5e9e4f18",
+                    "SHA3-512": "04829729923a2454851cb0e68d311b353801c48cf821d82ae87deb2d14250bdaedd5b243a9f8a18956bfcd3f4d104031b70bc3261457f7fce598f907ef21e730"
+                },
+                "external_id": "lKGredKC"
+            },
+            {
+                "source_name": "enjoy",
+                "description": "Decision region look nice system.",
+                "url": "http://www.payne.com/",
+                "hashes": {
+                    "MD5": "5a45f5196041e1f740bc42b26d276a5b",
+                    "SHA-1": "399e12a4cb9c39731b8ce556f5296e6de719da25",
+                    "SHA-256": "cfc650d65fabbb6179ac82524dc0119da41c618d236cb15e513353bcd241ea2b",
+                    "SHA-512": "52ea04df5544e8ba9ed911f035ef036860379dd7452025d10caca84159fa34a6f08f6c8e6d1385160122beae8a212b02dba1bcda535a87fbdbd0c7607f461f5e",
+                    "SHA3-256": "5a60ac0dbfcf335a89ce6ec9c1c0fe94c2bc9717162ca852f48f01f8885c4109",
+                    "SHA3-512": "a0e31efad0f9c837e83b96165b658658bd4887b49a8c1c43c4c659fd96114ac0fc756aeb64caab6a0cc3929d3daff7778cb8572bd3cdbaac3aeb6510ebe46b3a"
+                }
+            },
+            {
+                "source_name": "entire",
+                "description": "System may professor happen church west."
+            },
+            {
+                "source_name": "science",
+                "description": "A among author remain herself single seven.",
+                "url": "https://pena-evans.org/",
+                "hashes": {
+                    "MD5": "c62ecac904649de795b846c8c2341dea",
+                    "SHA-1": "9bd5fa447c27d33cb74d1fb465f4bfcaec25bee0",
+                    "SHA-256": "c94cf43f7306923f5b4c1b9e0fe50cdad229652405fb31584b4c1757670d908a",
+                    "SHA-512": "e1da8a0c953a3b9108bf50b5ba60b598dfe3b66824294ade903b9df186b1c13da7021736203c038d723c3c8d826203b9edf359094568b4b5ac74b5f39e42922c",
+                    "SHA3-256": "3901e7693717e1d7e7b9e83ec42ed338f999812b4c067f0c046a657672a06532",
+                    "SHA3-512": "f555aa82e7ff750db894fb30d3ca10adb864127298186084760582009e894c585815aa4a3665319d628e3ab23cd7d70d8a4adc384ebdb2c9fa0d891fa9994e2c"
+                },
+                "external_id": "YYzDpehMl"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8b3fd3bd-edf5-4dc4-baf5-4e5f258fd3f8",
+        "created_by_ref": "identity--69108d2e-6a13-4ae0-8202-bebbe6d343fd",
+        "created": "2022-01-17T23:10:43.842069Z",
+        "modified": "2022-08-01T21:41:52.177494Z",
+        "relationship_type": "indicates",
+        "description": "Very until before. Box high admit though wear it.",
+        "source_ref": "indicator--2344d28d-1fce-4075-ad3e-f3bfbc3bb684",
+        "target_ref": "attack-pattern--440a8b9c-b2c4-4011-b6de-cfb0e95d09aa",
+        "start_time": "2022-06-03T11:21:29.282383Z",
+        "stop_time": "2023-01-21T20:11:27.622311Z",
+        "labels": [
+            "them",
+            "tree",
+            "view",
+            "his",
+            "pfte-batch-1"
+        ],
+        "confidence": 50,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--27dd31cb-b1fb-43cc-8b27-e75ad4c910ae",
+        "created_by_ref": "identity--69108d2e-6a13-4ae0-8202-bebbe6d343fd",
+        "created": "2022-07-26T06:47:35.575309Z",
+        "modified": "2023-04-27T12:03:20.353579Z",
+        "name": "song",
+        "report_types": [
+            "malware",
+            "attack-pattern",
+            "identity",
+            "identity"
+        ],
+        "published": "2021-12-11T20:51:50.117882Z",
+        "object_refs": [
+            "indicator--2344d28d-1fce-4075-ad3e-f3bfbc3bb684",
+            "attack-pattern--440a8b9c-b2c4-4011-b6de-cfb0e95d09aa",
+            "relationship--8b3fd3bd-edf5-4dc4-baf5-4e5f258fd3f8"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 66,
+        "external_references": [
+            {
+                "source_name": "network",
+                "url": "https://www.freeman-price.com/",
+                "external_id": "EguDMqFjZE"
+            },
+            {
+                "source_name": "think",
+                "description": "Reduce painting technology early.",
+                "url": "https://www.bishop.net/"
+            },
+            {
+                "source_name": "south",
+                "url": "http://sutton-ramsey.com/",
+                "hashes": {
+                    "MD5": "8b2e2d2c0b7449848abb65e4be5b4f0b",
+                    "SHA-1": "7dd431f954fd9b725d25c022197b32f45e983b21",
+                    "SHA-256": "29cda7ec6ea1a76cf3c5258321961daf6a078d17eebc9e81434f17092743a53f",
+                    "SHA-512": "6c6fdad18660e56b0ab54774a4add012d776bb7533ae55fbb5847e24d92d6ec1a65382dc5a0b6d0c22ec84582a3e5f0bfc51f0597cb90509371ff4fcc7ffd5b9",
+                    "SHA3-256": "a836dc968b657df6df668bb52523e0e0592fd61aab4379ca85394331e677a6c0",
+                    "SHA3-512": "a195e1fdce39b37f2b30e8a5f31cb87ebaf8512f1e2faa6997d33d717061b07f0f9ccf4c369f23ee8f93c8a3e335bd00f3e31ad5ca2f11bfb3b639c5e9c01b4c"
+                },
+                "external_id": "WGoYZn"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--69108d2e-6a13-4ae0-8202-bebbe6d343fd",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-14T16:43:39.395739Z",
+        "modified": "2022-09-24T07:15:19.064154Z",
+        "name": "WhetherTvTeam",
+        "description": "Multi-lateral 6thgeneration hub",
+        "roles": [
+            "let",
+            "section",
+            "issue",
+            "they"
+        ],
+        "identity_class": "unknown",
+        "sectors": [
+            "government-local",
+            "technology",
+            "transportation",
+            "manufacturing"
+        ],
+        "contact_information": "468 Butler Corner\nMeredithmouth, OR 01610",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "challenge",
+                "url": "http://michael-rojas.info/",
+                "hashes": {
+                    "MD5": "a7368213e471c967c4977cb7e72923dc",
+                    "SHA-1": "28224f714cd2b07b173948283d5e566c4170a7ab",
+                    "SHA-256": "51ebe8833cd44b07cbcf8d58d2b6ff0397e72baeb162af2469bfa10ea6df8a54",
+                    "SHA-512": "361840219698c50cf8b740a16ea5ddb2b738a91926c6c4862cb675ad973f0f60d466af5b067e39c63efdc2d404205e18270c7e4032e4ce59ffcf7a52531982df",
+                    "SHA3-256": "27602be20f4e570ead58f96f2481ddbd1b7049663c5c5141686750457e845650",
+                    "SHA3-512": "5c9baee82130dd18df2a2f7a0d61da2501193b4681ffb2412387fa3267e421ec6b568d70c9b1779331e8fb0ffb2ef3f5dc7b6ba97a7df1dff4df19798ebd219a"
+                }
+            },
+            {
+                "source_name": "skin",
+                "description": "Everyone entire partner prove walk south special.",
+                "url": "http://taylor-lucero.com/"
+            },
+            {
+                "source_name": "couple",
+                "url": "http://hayes.com/",
+                "external_id": "DVBRHjIkgbw"
+            },
+            {
+                "source_name": "professor",
+                "description": "Opportunity wife describe sea piece pick.",
+                "url": "https://www.woods.info/",
+                "hashes": {
+                    "MD5": "8e01ce45ce51417b55feb7ee7b4498e5",
+                    "SHA-1": "b383eedc6d7e5bf0b7bd4e83066503da2118d96f",
+                    "SHA-256": "d495c9b94ad1cda7a68263bbb364658d91e78c7707a0cb70a5233157f8be7ebf",
+                    "SHA-512": "6c94f4f20908d6c9ccc53c8ac8667b6d55df732a1f864e13a0ba2c609389c9a312afd017ea210e234a74b4e24ac337b7435fde4ba924be27560cde24d57f67fd",
+                    "SHA3-256": "1968eabdf832b30f46aee6b9e32912f5edb10d3338cd9a4883ea9802499b73a6",
+                    "SHA3-512": "4c82ff7e20d97c4566bdd396c6a1799c12196126f83db6d4292bf1884d83c5345b04648f43d5e7ed5371ae89ce97539514e589be7fcca85bddc40582bea4b0f7"
+                },
+                "external_id": "TVMpeQRGaS"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

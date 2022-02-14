@@ -1,0 +1,181 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--9cfa3261-0a2d-4438-860e-87d81edbe303",
+        "created_by_ref": "identity--583602ad-afa5-4ede-b852-cf2b2cd3ef92",
+        "created": "2022-07-03T05:43:15.534377Z",
+        "modified": "2023-02-04T07:03:15.956224Z",
+        "name": "along",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "YUzUODnZ",
+                "phase_name": "pdnmVGhJKHeLAtU"
+            }
+        ],
+        "first_seen": "2021-04-02T06:36:21.231053Z",
+        "last_seen": "2021-06-09T10:23:36.564096Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d58905bd-4579-4da5-a204-d468b4e14d59"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--fed582e7-3769-423c-95cf-630903871798",
+        "created_by_ref": "identity--583602ad-afa5-4ede-b852-cf2b2cd3ef92",
+        "created": "2020-11-09T07:14:08.971061Z",
+        "modified": "2021-08-14T01:08:44.887253Z",
+        "name": "effect",
+        "description": "Various kid but focus.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "JIvtZ",
+                "phase_name": "avSNNJoBMJSxiheWbP"
+            }
+        ],
+        "last_seen": "2022-06-12T15:02:54.223531Z",
+        "labels": [
+            "remember",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--d58905bd-4579-4da5-a204-d468b4e14d59"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--23ffcb33-8cf0-4f1c-9a9f-fbd7e1a504fb",
+        "created_by_ref": "identity--583602ad-afa5-4ede-b852-cf2b2cd3ef92",
+        "created": "2021-11-26T11:47:04.756249Z",
+        "modified": "2022-11-01T03:53:25.428053Z",
+        "relationship_type": "controls",
+        "source_ref": "infrastructure--9cfa3261-0a2d-4438-860e-87d81edbe303",
+        "target_ref": "infrastructure--fed582e7-3769-423c-95cf-630903871798",
+        "start_time": "2020-09-07T20:17:30.311938Z",
+        "labels": [
+            "low",
+            "civil",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--d58905bd-4579-4da5-a204-d468b4e14d59"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--cc21bc3a-3263-4671-9b5c-0a802a97bfaf",
+        "created_by_ref": "identity--583602ad-afa5-4ede-b852-cf2b2cd3ef92",
+        "created": "2021-12-24T13:00:06.916379Z",
+        "modified": "2022-07-01T20:38:08.186912Z",
+        "name": "mention",
+        "published": "2021-07-23T04:32:28.327598Z",
+        "object_refs": [
+            "infrastructure--9cfa3261-0a2d-4438-860e-87d81edbe303",
+            "infrastructure--fed582e7-3769-423c-95cf-630903871798",
+            "relationship--23ffcb33-8cf0-4f1c-9a9f-fbd7e1a504fb"
+        ],
+        "labels": [
+            "forward",
+            "specific",
+            "not",
+            "away",
+            "exactly",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d58905bd-4579-4da5-a204-d468b4e14d59"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d58905bd-4579-4da5-a204-d468b4e14d59",
+        "created_by_ref": "identity--583602ad-afa5-4ede-b852-cf2b2cd3ef92",
+        "created": "2021-08-14T01:08:44.886297Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--583602ad-afa5-4ede-b852-cf2b2cd3ef92",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-01-06T22:24:37.153474Z",
+        "modified": "2021-08-14T01:08:44.888064Z",
+        "name": "Flores, Bailey and Roberts",
+        "description": "Configurable object-oriented emulation",
+        "roles": [
+            "themselves",
+            "film",
+            "both"
+        ],
+        "identity_class": "system",
+        "sectors": [
+            "nuclear",
+            "non-profit",
+            "hospitality-leisure",
+            "automotive",
+            "government-local"
+        ],
+        "contact_information": "04814 Donna Stream Suite 920\nSandraville, HI 38605",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d58905bd-4579-4da5-a204-d468b4e14d59"
+        ]
+    }
+]

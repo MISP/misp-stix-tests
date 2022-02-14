@@ -1,0 +1,239 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--a382d0dd-89a3-4aa2-94ef-7e0a6c35b2c5",
+        "created_by_ref": "identity--2cac6c54-060f-4e96-ab37-fdf5dcb9b17b",
+        "created": "2021-03-28T09:12:06.041933Z",
+        "modified": "2021-08-14T01:08:31.912446Z",
+        "name": "structure",
+        "description": "Catch process last black along material.",
+        "indicator_types": [
+            "malicious-activity",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "[process:is_hidden = true] FOLLOWEDBY [email-addr:defanged NOT = false] FOLLOWEDBY ([autonomous-system:number NOT = 326] WITHIN 6 SECONDS)",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-02-23T17:23:16.124444Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--5429a22e-39a8-4f65-9a6c-00133927c0d6",
+        "created_by_ref": "identity--2cac6c54-060f-4e96-ab37-fdf5dcb9b17b",
+        "created": "2021-01-28T22:44:22.515725Z",
+        "modified": "2021-08-14T01:08:31.915217Z",
+        "name": "herself",
+        "first_seen": "2021-01-21T07:34:41.342215Z",
+        "last_seen": "2021-05-28T18:42:05.4666Z",
+        "goals": [
+            "Oil significant think do.",
+            "Ok popular building participant up activity.",
+            "Bit medical part person story impact win."
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "fill",
+                "external_id": "kdNxbpVlEKLrv"
+            },
+            {
+                "source_name": "off",
+                "url": "https://kelly.com/",
+                "hashes": {
+                    "MD5": "042cf280d546ea1a9086171b464fa642",
+                    "SHA-1": "c54e8d9d272caff4b43aacbe9c8075bfef50e194",
+                    "SHA-256": "d17821c2df9afe195195df02e45f1701bf8ec931ac75f80ef0ec3fb8097fea5a",
+                    "SHA-512": "3adb532fcc2ae9b610db233516327e25bb64cf7645b8a271e8305ef9bfe6ddbab88330f0e27b416b1f5bc8a431950005613537616bcd5f8d82cd982decd50831",
+                    "SHA3-256": "a5ded0a0ae8c72997059cd5cda4fdd0bc79e162aca9c98fb3e3e3d7a8c04c3eb",
+                    "SHA3-512": "c9c6a8d9967ed92c465ca09d4d0672700b94abe04624c342e9396c7a0414b2d04e92224e6787dbe4f0c300b743cdfbb0806a8a73192ef89726fe391b8c8ef67c"
+                }
+            },
+            {
+                "source_name": "size",
+                "description": "Buy decide ten into front cost better explain.",
+                "url": "http://nixon-hernandez.com/"
+            },
+            {
+                "source_name": "effort",
+                "description": "Exactly cold success place door.",
+                "url": "http://www.goodman-ramirez.com/",
+                "hashes": {
+                    "MD5": "e6507e830f3abfac704c66ac5d2dc230",
+                    "SHA-1": "817aafcb19785087d5271d4eefd0ba1b04c89ca5",
+                    "SHA-256": "11ef87a3993f2710af62c6896e0e876b6414086b1f291fa66e056fb7e991a836",
+                    "SHA-512": "b7265f7ec91dda2dbc9b45fac1cf09a6c8dcdd664e16d8c45384b422907846e9fe471fd87a6e65d5269548a395efbc82a5a17f6621287c54e180b73fea770d53",
+                    "SHA3-256": "48b80acf620711ebe71eabeffb53abcb248cd7f81126bc3dab5ced750001ec21",
+                    "SHA3-512": "2d24dccc195e74ee3ecc937aca4d734411b8f2c0acea96a7e12e2b01a816c67f421167af950447271ac8ac6e3be1eebdfa1c6197d8700bb9fa7153be2e86e56f"
+                }
+            },
+            {
+                "source_name": "remember",
+                "description": "Word begin success phone from democratic outside which.",
+                "url": "http://miranda-garcia.com/",
+                "hashes": {
+                    "MD5": "7cdf66d9627861d471d05bc227975371",
+                    "SHA-1": "e91bc114c85c98125081fe34a4645e56b593523a",
+                    "SHA-256": "8333eff19ae87def198b2867e4c1933e78171efee4ccdc36002d2b5efc082a38",
+                    "SHA-512": "a5fd755a4109d17c85dc3f645e64a6bfbf2812f93735d1c9555446a25bf8601e7a1063e05bd26e028851fa5626b53472a3f4c3580cda73d6dd25d772d3861f5c",
+                    "SHA3-256": "452b3fce95f8a360cb195bd95edcd798ea403cce78029786ed03141514c3fb74",
+                    "SHA3-512": "532d1571b7a709a487ea16e4a5e1091ff7516d8fc5d378add2182948b9b62cac6e645dc2f39b0d4b1824ba756752fc89250e182abb5174b8758a889a39711543"
+                },
+                "external_id": "sdfWXmmlwEdoRaE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--9e0d8032-014f-48d3-84ae-bd2107e71cb5",
+        "created_by_ref": "identity--2cac6c54-060f-4e96-ab37-fdf5dcb9b17b",
+        "created": "2022-04-24T10:25:10.802309Z",
+        "modified": "2022-05-04T02:57:54.567888Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--a382d0dd-89a3-4aa2-94ef-7e0a6c35b2c5",
+        "target_ref": "intrusion-set--5429a22e-39a8-4f65-9a6c-00133927c0d6",
+        "stop_time": "2020-12-10T22:18:11.728421Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--1df90294-d6ca-4e79-bdbf-68c0f2ede6ed",
+        "created_by_ref": "identity--2cac6c54-060f-4e96-ab37-fdf5dcb9b17b",
+        "created": "2020-11-19T19:35:08.574434Z",
+        "modified": "2021-08-14T01:08:31.916129Z",
+        "explanation": "Help tend six himself. Key guess heart kind such audience art.",
+        "authors": [
+            "blue",
+            "not",
+            "practice",
+            "cut"
+        ],
+        "opinion": "strongly-disagree",
+        "object_refs": [
+            "indicator--a382d0dd-89a3-4aa2-94ef-7e0a6c35b2c5",
+            "intrusion-set--5429a22e-39a8-4f65-9a6c-00133927c0d6",
+            "relationship--9e0d8032-014f-48d3-84ae-bd2107e71cb5"
+        ],
+        "labels": [
+            "be",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "trouble",
+                "description": "Agreement organization allow avoid form.",
+                "url": "https://cole-buckley.com/"
+            },
+            {
+                "source_name": "against",
+                "description": "Cultural add send kid shake current.",
+                "url": "https://www.moon.biz/",
+                "hashes": {
+                    "MD5": "67b72a4b162ce69fd4e0882aa53a84b8",
+                    "SHA-1": "52a2c2c94db1a50eb2517c34527b647b0af698c4",
+                    "SHA-256": "28d4cdd3e84be678d98291b051531bf7d32d3e71b7d471a200b6867e8dc6d499",
+                    "SHA-512": "266f3e0b45e6dd0664e44a9b2283fa8321a8d5c03fa3f6090746c3db1b288d8b9e7abb7043ee81c45b13da03e63a9edaca0ef7eca5ef288ac39807d820900ccf",
+                    "SHA3-256": "fa415b7e997bbb91b5991a750c3a45ed786c7f692f540426e7c6365cfd12b4c8",
+                    "SHA3-512": "8c12730b17b4ea467dae093ec1e4fc31be87f72bc075625102b06f189db0138b77eca607d0cf5cdd2ed533d72478dd6df7646a209ba910541da06c3ac55bf3f2"
+                },
+                "external_id": "DlmEOgmXYatN"
+            },
+            {
+                "source_name": "dog",
+                "url": "http://www.garcia.com/"
+            },
+            {
+                "source_name": "power",
+                "url": "https://www.ross.com/",
+                "external_id": "sHYXrxxoRrFP"
+            },
+            {
+                "source_name": "itself",
+                "description": "Open economic paper feeling.",
+                "external_id": "ZUWRYAr"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2cac6c54-060f-4e96-ab37-fdf5dcb9b17b",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-10T10:01:23.835129Z",
+        "modified": "2022-04-12T17:09:44.072579Z",
+        "name": "Nixon LLC",
+        "description": "Automated multimedia groupware",
+        "roles": [
+            "wife",
+            "quickly",
+            "when"
+        ],
+        "sectors": [
+            "retail",
+            "technology",
+            "non-profit",
+            "transportation"
+        ],
+        "contact_information": "058 Sarah Lights Suite 554\nLindaland, AL 45808",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 41,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "whom",
+                "url": "http://www.wilson.org/",
+                "hashes": {
+                    "MD5": "acdf86b3a014791030e4ad16bd38bae8",
+                    "SHA-1": "75b1a1dbb7a905e0e06409bad82ab7060fb7a9a1",
+                    "SHA-256": "254510ccb28942c60349446f71c836a177854e43410c57fea126e8cbd3094b1b",
+                    "SHA-512": "e24818de8570c0c777b4ad86e99dcac94649dfb16ad918871c9d868e6e4c63dbd126f6d8871f0941d5bc7cf195de6ba9ec65aef790648c98af647800c80e9344",
+                    "SHA3-256": "6e7221ba89744ca9405876b26b9da487ae055674f49af1984c36f7bca0077451",
+                    "SHA3-512": "9354d86215db316b04b46d06bfbbae6958f5898d27653377693d85315dabce3b9f655ee1924cf83d1febcffa8efa360e9855bb5d42c6626ee2f597cb5d482ee7"
+                },
+                "external_id": "ldhqOmMFrIt"
+            },
+            {
+                "source_name": "chair",
+                "url": "http://gonzalez.com/",
+                "hashes": {
+                    "MD5": "c7b3e59733731d3f06ea7ef8d4950212",
+                    "SHA-1": "2637f86fc8e28d05d1e57e495b27fcd2d4665c91",
+                    "SHA-256": "fdedef34bfefb9510d024f2bb415027ead4a0bf85eac0cdd58fe15c8a156a092",
+                    "SHA-512": "19366e871c580681ff2e6c11111ded28f94ee80d0acb5bd7e173ba5c73cb193f2741076adc7596cd6b900da79bf1c411280dda62923951da2d9fb5320cf8516c",
+                    "SHA3-256": "c7f18a52f4f77b00ade64d085b690dbe4220611ecd472a0ae07e481bb92b0093",
+                    "SHA3-512": "5d29177c3cca1fe4b7f766044e8814bab06d7c038bc5b76711b4a91ee38611fb786ada2db3aa101c251def3c177ef2c7e55e112ac37946eda2fc93cad6716b96"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

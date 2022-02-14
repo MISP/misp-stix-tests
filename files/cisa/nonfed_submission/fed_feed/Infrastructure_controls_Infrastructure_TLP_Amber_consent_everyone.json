@@ -1,0 +1,188 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--eb14139f-726a-450b-a7d5-397fad74a519",
+        "created_by_ref": "identity--ca541bc1-8b86-43e8-a8ed-215e83b5e8f4",
+        "created": "2021-03-22T05:59:15.481632Z",
+        "modified": "2021-08-27T22:47:53.015901Z",
+        "name": "hear",
+        "description": "Hold machine yourself.",
+        "first_seen": "2020-09-18T00:16:17.451287Z",
+        "last_seen": "2021-03-02T21:51:09.252006Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--8e094140-c81a-4564-ab93-50037f8a4b34"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--1d9800ac-fcce-4c27-977c-b9453f25f11a",
+        "created_by_ref": "identity--ca541bc1-8b86-43e8-a8ed-215e83b5e8f4",
+        "created": "2020-08-16T21:06:38.481765Z",
+        "modified": "2021-08-14T01:08:45.021292Z",
+        "name": "challenge",
+        "description": "Teacher let sure Mr center sport.",
+        "aliases": [
+            "similar",
+            "they",
+            "price",
+            "pay"
+        ],
+        "labels": [
+            "ever",
+            "value",
+            "create",
+            "sort",
+            "chair",
+            "pfte-batch-1"
+        ],
+        "confidence": 17,
+        "external_references": [
+            {
+                "source_name": "example",
+                "description": "Himself blood land traditional require sea enjoy any.",
+                "url": "http://www.waters-evans.com/",
+                "external_id": "dXTPFkDsceaTstejDueg"
+            },
+            {
+                "source_name": "dark",
+                "description": "Between account growth food.",
+                "url": "http://jimenez.com/",
+                "hashes": {
+                    "MD5": "1a664d5dbe13eb56988196a70a5d0959",
+                    "SHA-1": "ac247a4d2485e1865c2d8b3a86e2ee4e0ddae705",
+                    "SHA-256": "afee36651b93b55db3ac0fff72d1ee5492b967d78b11b15a0f49a15767d39292",
+                    "SHA-512": "3eb3207f2936bb70035576d801b1b3920c3d6bd7ffc33f661f5fb1c69758e57f411e86a5b9b8a0bd8a86cbc4cc66fc2500dbf2ff7e9b2a8757a0620f6651bcb8",
+                    "SHA3-256": "cee17960af462a39de9b23ff24b1987754ddfe815924f14186249536644d4d44",
+                    "SHA3-512": "4d50f03de1a4d89e0807bf0d5d9eaabc271e40f1f43a9aacd5fd61c0677cc034a424078ec08766db2d0bc49da168ee6c422120d331117ecf8312aacd995839b5"
+                },
+                "external_id": "sELKbBiMJMxu"
+            },
+            {
+                "source_name": "put",
+                "description": "Or effect tree.",
+                "hashes": {
+                    "MD5": "b567f7b9a17f62d966bfd163d993dd80",
+                    "SHA-1": "1706768c92d5ceff16e71c5aeeedd61a4505bdac",
+                    "SHA-256": "2acf0f096f4132732563e369e03f796d1ea7379f8857df1b84e2ce706a1aafce",
+                    "SHA-512": "87f9336454ca3caa2dcc307c785bf43463985c7e9b910054bcb24c4d2e4748af53d4ceeddeca5bfa5b40e1cbafb9fbb3ea3d651d9a122e1352953bf3ee6d7a87",
+                    "SHA3-256": "8259be0f9827eb300356f2d1087c5c4345cb0a6d181c0d3e0f55f94a19f5afee",
+                    "SHA3-512": "54eabd3f160a1aa55329f1874ba53a30e80e4fbc8ed60dcb97549d1da81a7c47a735f2d83c75ec12a13f62a6d1bf1a1e550e6ed020bd4a5c98f7d2961fd9b895"
+                },
+                "external_id": "SUBYYvsjftp"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8e094140-c81a-4564-ab93-50037f8a4b34"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8e70bfeb-6c79-4dfa-9e57-67e95e749d63",
+        "created_by_ref": "identity--ca541bc1-8b86-43e8-a8ed-215e83b5e8f4",
+        "created": "2020-08-15T03:01:26.715677Z",
+        "modified": "2021-08-14T01:08:45.021539Z",
+        "relationship_type": "controls",
+        "source_ref": "infrastructure--eb14139f-726a-450b-a7d5-397fad74a519",
+        "target_ref": "infrastructure--1d9800ac-fcce-4c27-977c-b9453f25f11a",
+        "object_marking_refs": [
+            "marking-definition--8e094140-c81a-4564-ab93-50037f8a4b34"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--8e094140-c81a-4564-ab93-50037f8a4b34",
+        "created_by_ref": "identity--ca541bc1-8b86-43e8-a8ed-215e83b5e8f4",
+        "created": "2021-08-14T01:08:45.020162Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f98cddfd-8461-4143-a969-e6e230df21d4",
+                "name": "Word describe cold color",
+                "create_date_time": "2021-08-14T01:08:08.422252Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ca541bc1-8b86-43e8-a8ed-215e83b5e8f4",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-01-31T01:20:37.691736Z",
+        "modified": "2022-07-07T09:21:20.162468Z",
+        "name": "Larson, Hickman and Brown",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 99,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "process",
+                "url": "https://www.hernandez.com/",
+                "hashes": {
+                    "MD5": "f41103fb6cd8a1c2a569787e4bf106de",
+                    "SHA-1": "558bbb21c870524484eb6751bddbfdad3f200e32",
+                    "SHA-256": "c4559f2d5ccb6b01b84f00e91c29576f59592315e1770477cb02c8b154744323",
+                    "SHA-512": "a7146c115ff3f8782cbc78b68ad301fc0e20d14c9aca29912da6000a00ede3a63f9b845db5fd57047b2fa304fb66598e02a4018aeecdd0db339e75a515bfbe64",
+                    "SHA3-256": "ec2e763f0735a06e483996259d4b6c063ce8c4361bdff976df8f0177b5e8d49a",
+                    "SHA3-512": "224fadec1eb13bb29b5082cd3a95d6dce8fecac9f7847d43a83a6b7ba4e415a48392092433753a6245bbda42211e292825ae617a704e55e6329ff216de7c73cb"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8e094140-c81a-4564-ab93-50037f8a4b34"
+        ]
+    }
+]

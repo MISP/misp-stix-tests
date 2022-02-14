@@ -1,0 +1,182 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--090775af-e0d1-480b-92cd-4c80dc057338",
+        "created_by_ref": "identity--6253f705-023d-4493-b133-dfbfc20c9f49",
+        "created": "2022-06-19T02:08:07.658606Z",
+        "modified": "2023-01-21T02:44:16.589606Z",
+        "name": "add",
+        "threat_actor_types": [
+            "insider-disgruntled"
+        ],
+        "roles": [
+            "director",
+            "agent",
+            "infrastructure-architect",
+            "infrastructure-operator"
+        ],
+        "sophistication": "strategic",
+        "resource_level": "team",
+        "secondary_motivations": [
+            "personal-gain"
+        ],
+        "labels": [
+            "pass",
+            "pfte-batch-1"
+        ],
+        "confidence": 50,
+        "object_marking_refs": [
+            "marking-definition--d00d1eac-2556-4d45-8c76-969a95387e3e"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c3cad59b-5659-43cb-9212-b15156a17cbe",
+        "created_by_ref": "identity--6253f705-023d-4493-b133-dfbfc20c9f49",
+        "created": "2022-03-24T18:38:22.212305Z",
+        "modified": "2022-11-29T19:55:50.088679Z",
+        "name": "Bush, Cortez and Murphy",
+        "roles": [
+            "traditional",
+            "either",
+            "grow",
+            "toward",
+            "fill"
+        ],
+        "contact_information": "Unit 8557 Box 0691\nDPO AP 50358",
+        "labels": [
+            "between",
+            "Mrs",
+            "act",
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "object_marking_refs": [
+            "marking-definition--d00d1eac-2556-4d45-8c76-969a95387e3e"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--736e0933-340a-4c4e-b295-f4642a222807",
+        "created_by_ref": "identity--6253f705-023d-4493-b133-dfbfc20c9f49",
+        "created": "2020-09-01T02:40:26.980258Z",
+        "modified": "2021-08-14T01:09:24.603065Z",
+        "relationship_type": "attributed-to",
+        "description": "Time pay fish news miss until candidate. Summer reduce fear enough politics just development. Store build agree with heavy compare federal.",
+        "source_ref": "threat-actor--090775af-e0d1-480b-92cd-4c80dc057338",
+        "target_ref": "identity--c3cad59b-5659-43cb-9212-b15156a17cbe",
+        "confidence": 57,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d00d1eac-2556-4d45-8c76-969a95387e3e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d00d1eac-2556-4d45-8c76-969a95387e3e",
+        "created_by_ref": "identity--6253f705-023d-4493-b133-dfbfc20c9f49",
+        "created": "2021-08-14T01:09:24.601383Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-cdad75a5-97a2-450d-bb1c-cac3b21b4823",
+                "name": "Continue half as create together strong",
+                "create_date_time": "2021-08-14T01:08:08.421874Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6253f705-023d-4493-b133-dfbfc20c9f49",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-05T20:48:18.091864Z",
+        "modified": "2023-04-15T20:45:26.785469Z",
+        "name": "Dickerson-Hogan",
+        "description": "Optional national solution",
+        "contact_information": "231 Ross Expressway Suite 478\nColinberg, MA 43525",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 79,
+        "external_references": [
+            {
+                "source_name": "best",
+                "description": "Keep couple notice wrong.",
+                "url": "https://www.cox.biz/",
+                "hashes": {
+                    "MD5": "ef5ccdaf1e8d7b70698d2903eb508575",
+                    "SHA-1": "b9f7f2eabc6161f61489facc0ba05b0eb74dcc15",
+                    "SHA-256": "089732e3ea8243595a7bbc61b65fd4ee3ea913925706ad58517ff8bf47ae6439",
+                    "SHA-512": "c877f6eb37d4e4c0bef11640aa0b2d4b2c60d6dc4d7d73511a8eec43be97d354d4c1d59310a42d025d4826ec4b17a9bbae151172641d0e6755d08d5ebb68db4e",
+                    "SHA3-256": "02bcadaa0c951d2f7d7c70042053992095b1c88d16c1bff4f6ea543e09221ed3",
+                    "SHA3-512": "12221251ff6c8a17f419482fee37e700249e95cea3115155e5f32352d6f0fbba8ece76301e5761a157b2558b511d0767a37dd7d1dc44c316ecb9a517d6d96c1b"
+                },
+                "external_id": "dRMKxGqfOApTthzNJid"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d00d1eac-2556-4d45-8c76-969a95387e3e"
+        ]
+    }
+]

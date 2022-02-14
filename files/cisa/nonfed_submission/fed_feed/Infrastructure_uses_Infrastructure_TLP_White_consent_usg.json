@@ -1,0 +1,160 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--45bc99cf-451a-4e32-9aa5-194caf4f20dc",
+        "created_by_ref": "identity--93226949-ea73-42f7-8637-fc7968aac46b",
+        "created": "2022-05-11T02:49:42.324211Z",
+        "modified": "2022-08-07T18:20:40.328395Z",
+        "name": "ago",
+        "aliases": [
+            "environment",
+            "baby",
+            "through"
+        ],
+        "labels": [
+            "new",
+            "ever",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--916b9848-f743-4d25-a3b5-1225134e54da"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--3496b808-030c-42c3-8a81-f297eb9b8bbe",
+        "created_by_ref": "identity--93226949-ea73-42f7-8637-fc7968aac46b",
+        "created": "2020-10-30T13:00:00.640362Z",
+        "modified": "2021-08-14T01:08:50.39368Z",
+        "name": "recently",
+        "description": "Put knowledge speak where question more.",
+        "infrastructure_types": [
+            "control-system",
+            "workstation",
+            "routers-switches",
+            "hosting-target-lists",
+            "botnet"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "bzTpeVBxQXnd",
+                "phase_name": "pCCyL"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "last_seen": "2020-08-28T02:33:22.467785Z",
+        "labels": [
+            "camera",
+            "pfte-batch-1"
+        ],
+        "confidence": 32,
+        "object_marking_refs": [
+            "marking-definition--916b9848-f743-4d25-a3b5-1225134e54da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--875b6b88-9ff0-4112-b4e7-7c0fce5b8fa4",
+        "created_by_ref": "identity--93226949-ea73-42f7-8637-fc7968aac46b",
+        "created": "2021-06-12T18:37:24.686168Z",
+        "modified": "2022-04-12T17:43:43.097905Z",
+        "relationship_type": "uses",
+        "description": "Message listen believe health prove know. Bag paper start difficult.",
+        "source_ref": "infrastructure--45bc99cf-451a-4e32-9aa5-194caf4f20dc",
+        "target_ref": "infrastructure--3496b808-030c-42c3-8a81-f297eb9b8bbe",
+        "stop_time": "2021-12-25T17:13:18.651369Z",
+        "confidence": 65,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--916b9848-f743-4d25-a3b5-1225134e54da"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--916b9848-f743-4d25-a3b5-1225134e54da",
+        "created_by_ref": "identity--93226949-ea73-42f7-8637-fc7968aac46b",
+        "created": "2021-08-14T01:08:50.392606Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--93226949-ea73-42f7-8637-fc7968aac46b",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-12-16T22:55:22.152464Z",
+        "modified": "2022-06-19T21:21:03.444235Z",
+        "name": "Moore-Robinson",
+        "description": "Multi-channeled mission-critical hub",
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 52,
+        "object_marking_refs": [
+            "marking-definition--916b9848-f743-4d25-a3b5-1225134e54da"
+        ]
+    }
+]

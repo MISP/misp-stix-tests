@@ -1,0 +1,166 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--23f6725c-4ca4-4124-bc66-b872f3264f82",
+        "created_by_ref": "identity--960cdd81-d18a-43ed-8089-e6c7152c13da",
+        "created": "2022-05-29T05:24:17.813695Z",
+        "modified": "2022-06-14T23:47:29.95251Z",
+        "name": "own",
+        "description": "None artist want between wonder.",
+        "infrastructure_types": [
+            "anonymization",
+            "command-and-control"
+        ],
+        "last_seen": "2022-01-11T21:10:21.993522Z",
+        "labels": [
+            "race",
+            "skin",
+            "commercial",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2d15bda3-7098-450d-8ec4-1c19d23cbbed"
+        ]
+    },
+    {
+        "type": "domain-name",
+        "spec_version": "2.1",
+        "id": "domain-name--0fbc0e48-c59d-40e8-8909-73c1b1d88659",
+        "value": "burton.com",
+        "object_marking_refs": [
+            "marking-definition--2d15bda3-7098-450d-8ec4-1c19d23cbbed"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d7d85ef0-49d4-4bd4-8812-1da67f793ba8",
+        "created_by_ref": "identity--960cdd81-d18a-43ed-8089-e6c7152c13da",
+        "created": "2021-05-06T03:32:52.872316Z",
+        "modified": "2021-08-14T01:08:40.702033Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--23f6725c-4ca4-4124-bc66-b872f3264f82",
+        "target_ref": "domain-name--0fbc0e48-c59d-40e8-8909-73c1b1d88659",
+        "stop_time": "2022-05-27T12:49:56.597116Z",
+        "confidence": 67,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "wait",
+                "description": "Give big agent so by.",
+                "url": "https://harris.com/",
+                "hashes": {
+                    "MD5": "df404c710df1cc4329b67e9317d616da",
+                    "SHA-1": "16d56fac388bf5e0df7c7d138d87161b1e250b87",
+                    "SHA-256": "b72e63adf16639b1871a533d64e5d8d5f278b92466f61b9beeb2f7e6aade34ff",
+                    "SHA-512": "5ce83b95fd7561b16048a3da7d5674334733f0f6e161f2a9944c3130e3ab931abf318fec8586edb89dfd744705148c3c4f55108caaf7cf8b2c84a7a5d90d341f",
+                    "SHA3-256": "29bcdc4b21de6585afd00fbbd204fd6e429746158bdf836d6e70fdc64368e5be",
+                    "SHA3-512": "df7384e3b69681a3fdfecdab4e1ed12a22dd8a542b58954729cb3f3c02128e8043207fad67f098e4c7ed1b600679f57adc0216819a7abc21c6279ff9dd47a6c9"
+                },
+                "external_id": "QfhkRZWkDMMNdAYz"
+            },
+            {
+                "source_name": "grow",
+                "url": "https://www.barrett-odonnell.com/",
+                "external_id": "leXYzDaQjCz"
+            },
+            {
+                "source_name": "experience",
+                "description": "North think push happen middle standard near.",
+                "external_id": "SFINlhzWlufO"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2d15bda3-7098-450d-8ec4-1c19d23cbbed"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2d15bda3-7098-450d-8ec4-1c19d23cbbed",
+        "created_by_ref": "identity--960cdd81-d18a-43ed-8089-e6c7152c13da",
+        "created": "2021-08-14T01:08:40.700614Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6f258483-31e6-4810-a3a3-83f9297fcea8",
+                "name": "Individual personal with know",
+                "create_date_time": "2021-08-14T01:08:08.419751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--960cdd81-d18a-43ed-8089-e6c7152c13da",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-10-27T15:01:47.840907Z",
+        "modified": "2021-08-14T01:08:40.702316Z",
+        "name": "TrialHimResearch",
+        "roles": [
+            "down"
+        ],
+        "sectors": [
+            "infrastructure",
+            "infrastructure",
+            "energy",
+            "construction",
+            "commercial"
+        ],
+        "contact_information": "USCGC Franklin\nFPO AP 69887",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 56,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2d15bda3-7098-450d-8ec4-1c19d23cbbed"
+        ]
+    }
+]

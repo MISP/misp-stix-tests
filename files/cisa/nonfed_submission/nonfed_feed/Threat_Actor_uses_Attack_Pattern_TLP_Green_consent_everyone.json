@@ -1,0 +1,143 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--3912ee7b-f89b-4849-bc28-6afbac8f52b8",
+        "created_by_ref": "identity--1074f91b-2238-47ef-85e1-080ea5cd8448",
+        "created": "2021-12-25T18:10:50.300968Z",
+        "modified": "2022-03-26T20:37:29.195759Z",
+        "name": "development",
+        "last_seen": "2021-09-18T09:11:48.510804Z",
+        "roles": [
+            "malware-author"
+        ],
+        "sophistication": "intermediate",
+        "secondary_motivations": [
+            "dominance",
+            "accidental",
+            "accidental"
+        ],
+        "personal_motivations": [
+            "unpredictable",
+            "dominance",
+            "personal-gain",
+            "personal-satisfaction",
+            "notoriety"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "soon",
+                "description": "Write strategy letter should skill those center.",
+                "url": "https://jones.com/",
+                "hashes": {
+                    "MD5": "5634ac34e8973d057439d47aeba851ec",
+                    "SHA-1": "56ca9b252490fb357ec4d5f1eaed239ead1d8d31",
+                    "SHA-256": "8e5f74582303c2cc623e887fcf5c04e8a770d3fe38312fee0d48a8ef6adc5638",
+                    "SHA-512": "6ba3bfe9a7496a2001effdec26cced2acd931f040d0fe656785a174ba459949c7e67e2cb8ed892bf148ead263c175ead4d9f43782858531de833f871f4a6429b",
+                    "SHA3-256": "4645a28d49b3e9212c34925883c3e72cd4e5a4c469236f2f454ae771eb6a0baf",
+                    "SHA3-512": "1ebe66464e6f6f4d04944f3e81d75e08b795b18954b5f6aaf79577037989f8e97d8358e39e77099e550f8e708583d70ca78810c6ba20aafdd65b3766eb3c5d1c"
+                },
+                "external_id": "GjcMoBGznryolQjR"
+            },
+            {
+                "source_name": "way",
+                "url": "https://ford.com/",
+                "external_id": "EeBWzSiZqmVvLby"
+            },
+            {
+                "source_name": "it",
+                "description": "Buy training respond participant recently determine nature.",
+                "external_id": "SYmEyaSMyKrlHKm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--b1752502-d2bc-44c8-b095-2aaea8502a40",
+        "created_by_ref": "identity--1074f91b-2238-47ef-85e1-080ea5cd8448",
+        "created": "2021-11-19T15:51:01.838968Z",
+        "modified": "2022-07-15T09:24:25.0798Z",
+        "name": "social",
+        "description": "Final difficult simple later recent what stuff.",
+        "labels": [
+            "course",
+            "crime",
+            "theory",
+            "record",
+            "pfte-batch-1"
+        ],
+        "confidence": 47,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "more",
+                "url": "http://thompson.com/",
+                "external_id": "vpwWpJplASbBfKktV"
+            },
+            {
+                "source_name": "for",
+                "description": "South respond city tonight.",
+                "url": "http://www.hayes.com/",
+                "hashes": {
+                    "MD5": "af5f25944eca6c591ec7811b24992cf6",
+                    "SHA-1": "c81af81d2ff2d70255617351a467bfdc5906ed4e",
+                    "SHA-256": "5ff212518029cba76e66e3e7931d4254926a39548ad7d3a796078e8d6781f45d",
+                    "SHA-512": "df2a50f12d458dfa7579897df5fce1d53f19a8626c1729cb62b8ccd3e81d15fd2d40673dafd3ddc2efcb08f94d4c29d51e2440681dd80217f934e7a708044ce7",
+                    "SHA3-256": "8097796a8e8f4158cb13df6e6c80321e04517664124a56697a4d8520beb0b920",
+                    "SHA3-512": "3764107263eb0adefc5c6b194592c134791bbd44bf6d26dd43366ac13fe99e87900a851f12a9e6f13b229c5118d2853c6713336ed5fcd925736f1f11edb85bb3"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3162e60f-cc92-41e7-b163-a8f1be1e7c99",
+        "created_by_ref": "identity--1074f91b-2238-47ef-85e1-080ea5cd8448",
+        "created": "2020-12-24T12:27:40.759591Z",
+        "modified": "2021-08-14T01:09:32.26921Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--3912ee7b-f89b-4849-bc28-6afbac8f52b8",
+        "target_ref": "attack-pattern--b1752502-d2bc-44c8-b095-2aaea8502a40",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 75,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1074f91b-2238-47ef-85e1-080ea5cd8448",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-16T05:11:55.85539Z",
+        "modified": "2021-08-14T01:09:32.269475Z",
+        "name": "Hodges, Lopez and Gallegos",
+        "roles": [
+            "become"
+        ],
+        "identity_class": "organization",
+        "contact_information": "777 Jennifer Junction\nLake Anna, LA 96763",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

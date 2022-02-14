@@ -1,0 +1,172 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--ab7b0543-82f0-4798-a046-619e7696b2f9",
+        "created_by_ref": "identity--7edd7079-91ea-4844-8404-fb497931c5c0",
+        "created": "2021-01-10T22:57:36.043279Z",
+        "modified": "2021-09-16T15:36:18.440603Z",
+        "name": "same",
+        "description": "Develop style mouth some represent.",
+        "aliases": [
+            "get",
+            "three",
+            "so"
+        ],
+        "first_seen": "2022-07-28T21:48:40.804115Z",
+        "goals": [
+            "Least decision expert majority.",
+            "Central standard establish baby beyond still political.",
+            "Itself coach say take method order."
+        ],
+        "secondary_motivations": [
+            "unpredictable",
+            "notoriety",
+            "coercion",
+            "personal-gain",
+            "notoriety"
+        ],
+        "confidence": 83,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "fine",
+                "description": "Score idea particularly those space.",
+                "external_id": "xemUEdSEiXX"
+            },
+            {
+                "source_name": "team",
+                "description": "Ask camera space understand less key.",
+                "url": "http://www.heath.org/",
+                "external_id": "bEjCviuSjiMFRD"
+            },
+            {
+                "source_name": "evidence",
+                "description": "Approach save any third himself anything beat theory.",
+                "url": "https://drake.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--13d6cb69-1cb1-4e73-b5e7-53b26c9fd310"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--bad8886f-0c4c-406e-8d5c-7f8ba87e8b7e",
+        "created_by_ref": "identity--7edd7079-91ea-4844-8404-fb497931c5c0",
+        "created": "2021-09-19T01:51:23.521662Z",
+        "modified": "2021-11-17T09:32:45.341501Z",
+        "latitude": -6.678357770207157,
+        "longitude": 58.35328516363353,
+        "region": "australia-new-zealand",
+        "administrative_area": "WHDDvfjsYdtcLnJBN",
+        "labels": [
+            "before",
+            "pfte-batch-1"
+        ],
+        "confidence": 22,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--13d6cb69-1cb1-4e73-b5e7-53b26c9fd310"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--09c7b8cd-dc7c-4316-888a-ba0a02394d20",
+        "created_by_ref": "identity--7edd7079-91ea-4844-8404-fb497931c5c0",
+        "created": "2022-05-02T23:56:09.999131Z",
+        "modified": "2022-06-06T22:24:46.779472Z",
+        "relationship_type": "targets",
+        "source_ref": "intrusion-set--ab7b0543-82f0-4798-a046-619e7696b2f9",
+        "target_ref": "location--bad8886f-0c4c-406e-8d5c-7f8ba87e8b7e",
+        "start_time": "2022-06-13T02:55:42.604803Z",
+        "object_marking_refs": [
+            "marking-definition--13d6cb69-1cb1-4e73-b5e7-53b26c9fd310"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7edd7079-91ea-4844-8404-fb497931c5c0",
+        "created_by_ref": "identity--7edd7079-91ea-4844-8404-fb497931c5c0",
+        "created": "2021-01-08T00:13:40.781074Z",
+        "modified": "2021-08-14T01:08:56.390762Z",
+        "name": "Barrett-Schwartz",
+        "description": "Optimized object-oriented access",
+        "sectors": [
+            "mining",
+            "dams",
+            "government"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--13d6cb69-1cb1-4e73-b5e7-53b26c9fd310"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--13d6cb69-1cb1-4e73-b5e7-53b26c9fd310",
+        "created": "2021-08-14T01:08:56.389179Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a2bad07a-f4d3-4efb-a81b-2cf0c0637fc9",
+                "name": "Our concern loss resource wear",
+                "create_date_time": "2021-08-14T01:08:08.426882Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

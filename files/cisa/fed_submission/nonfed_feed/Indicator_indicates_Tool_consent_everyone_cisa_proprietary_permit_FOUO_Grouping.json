@@ -1,0 +1,217 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--689b9017-be13-4655-a3c0-2f3400383068",
+        "created_by_ref": "identity--6cc58d92-743d-4446-a6fc-7951488ede42",
+        "created": "2022-03-31T19:20:13.576432Z",
+        "modified": "2022-12-29T12:07:03.941273Z",
+        "description": "Until reduce music kind produce that.",
+        "indicator_types": [
+            "attribution",
+            "anonymization",
+            "compromised",
+            "unknown",
+            "malicious-activity"
+        ],
+        "pattern": "(((([mac-addr:defanged NOT = false AND mac-addr:value <= 'f2:e5:0d:b1:87:b5' AND ((mac-addr:value = 'e6:93:55:d1:92:3e') AND mac-addr:defanged = false)] WITHIN 3 SECONDS) START t'2021-11-03T16:31:24.37049Z' STOP t'2022-03-06T14:51:55.067853Z')))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-08-28T07:55:00.742366Z",
+        "valid_until": "2021-12-21T02:08:24.504238Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "ooNSMNzVRsyQQyMlvf",
+                "phase_name": "nuALDJDS"
+            },
+            {
+                "kill_chain_name": "qvkBfSMZDopGAR",
+                "phase_name": "RSFWbTL"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 29,
+        "external_references": [
+            {
+                "source_name": "give",
+                "description": "Onto sister citizen within.",
+                "url": "https://www.king-harris.com/",
+                "external_id": "hcMSdyrcNW"
+            },
+            {
+                "source_name": "appear",
+                "description": "Subject act pay.",
+                "hashes": {
+                    "MD5": "afa78a85e89f3da60987b43c52ea5bac",
+                    "SHA-1": "c37bc0fcd8c8782f3a11ff491b52b5e3a6481d85",
+                    "SHA-256": "48ef8671383ad29edca2c769681d981e629cdfe08c94bc466bb5f271f6546b02",
+                    "SHA-512": "54a512095b4e21b4724e3df02e7abf56e16e6b6b616d4fdb245d7b57420cfe8c156e21280c1b622c47d6161a2d2feb1fc9fba6cd9259499fd83f51fb1118f01c",
+                    "SHA3-256": "39a55b8ce2cb7652c98b1c8c0720afff3f13e720f3361795e0eda74fff1cda38",
+                    "SHA3-512": "c3a608ac374db8c0dcd20ae1aea454e9bb75f09145a642abf12be53d313e3668947c7081ac012a42daade4c1da9dcc34762f03f5e1733819e25a7697a8381418"
+                },
+                "external_id": "VWlYmnKsfdeoSYdKGQ"
+            },
+            {
+                "source_name": "time",
+                "description": "Sometimes you true inside.",
+                "url": "http://mcbride-carter.com/",
+                "hashes": {
+                    "MD5": "e75f7cf44072491f5d9f8cdc31528bb9",
+                    "SHA-1": "a66173acdca4ec45dcea3ca1916515d2f0780392",
+                    "SHA-256": "ca2baba4a365e1611cbab32690f4cb838ac27edfe642dc28cbec063532a44fa3",
+                    "SHA-512": "9357db60de6576334f196df3d927ec54bc9429a955146b92168264f2628d2b2131709b0f0a2c7e6592debf192db6ff5f81025dad869855561b7b2dfe46ca84e3",
+                    "SHA3-256": "7535d0cc6b0b2608c287d704f02dcd8a1ea479181b9be04ab5cecb9a8f70c2d4",
+                    "SHA3-512": "d576f1dc13b6621b91e215a5c01aa380aaae4ae81abdb82a6d2fac1cf084e8baef1ba4efbd3daae405df3001785fa53ac724b984aa15266e05785cbaa9a70785"
+                },
+                "external_id": "ttpLmRKUZ"
+            },
+            {
+                "source_name": "fast",
+                "description": "Claim any artist past in.",
+                "url": "http://williams-day.com/",
+                "hashes": {
+                    "MD5": "c1b69a3ea67037d0e80d011ec10e4f9f",
+                    "SHA-1": "2c60f88da1315296b7f91a63581dc422318efbf8",
+                    "SHA-256": "d8031699849eeade7fc4e177bfeb2a212d8686e01337e45da176a2e22328e0b1",
+                    "SHA-512": "6cdfd3e2ef1ab6fadf68b17f67d78ecfef7cf6613f5b06685233a52baf1addae86dcf45a08ccfb1e8219751df17c5aecc891fbc9e7afb906342c87b3a07cd19c",
+                    "SHA3-256": "58e43dd280dc7454b16e1d5a1f143bd2ef6c8128ad1a94864bfce65b1f140efe",
+                    "SHA3-512": "44273edc58c9f0f49cc16adac4e6baa29feec3f033aeca31bdb076719d1afeca3dec6a43d0ac441671e4f49cf759a222f2ca48486c9fb02e54d2a57daa15ef6d"
+                },
+                "external_id": "gtrUmHtHeDtkZpzJQBu"
+            },
+            {
+                "source_name": "significant",
+                "description": "Paper recent oil special.",
+                "external_id": "kxGHwpE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--3539e804-ff87-4d6b-b9fe-c09ccd6cad18",
+        "created_by_ref": "identity--6cc58d92-743d-4446-a6fc-7951488ede42",
+        "created": "2022-05-28T20:45:12.731666Z",
+        "modified": "2023-03-21T07:55:49.894367Z",
+        "name": "however",
+        "description": "Worry range early about leader.",
+        "tool_types": [
+            "unknown",
+            "information-gathering",
+            "information-gathering",
+            "credential-exploitation",
+            "information-gathering"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "leeseywcwqfgllUwoc",
+                "phase_name": "fbBEKmnPjU"
+            },
+            {
+                "kill_chain_name": "ftCveD",
+                "phase_name": "oiOKWXfrPnhsAH"
+            }
+        ],
+        "tool_version": "our",
+        "labels": [
+            "physical",
+            "allow",
+            "possible",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "especially",
+                "description": "Finally take course worry paper human size coach.",
+                "url": "http://wheeler.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--546fcaae-b9af-4c84-9ee7-1b7701f8931b",
+        "created_by_ref": "identity--6cc58d92-743d-4446-a6fc-7951488ede42",
+        "created": "2021-10-22T17:59:30.704232Z",
+        "modified": "2022-07-22T01:10:42.917331Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--689b9017-be13-4655-a3c0-2f3400383068",
+        "target_ref": "tool--3539e804-ff87-4d6b-b9fe-c09ccd6cad18",
+        "stop_time": "2020-11-12T13:19:58.483608Z",
+        "labels": [
+            "chance",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--6d32e9c2-3e62-4b94-bc3a-09b60875a7fe",
+        "created_by_ref": "identity--6cc58d92-743d-4446-a6fc-7951488ede42",
+        "created": "2021-12-01T15:25:40.459096Z",
+        "modified": "2022-02-08T16:26:21.516159Z",
+        "name": "instead",
+        "description": "Artist measure eat executive read resource skill.",
+        "context": "suspicious-activity",
+        "object_refs": [
+            "indicator--689b9017-be13-4655-a3c0-2f3400383068",
+            "tool--3539e804-ff87-4d6b-b9fe-c09ccd6cad18",
+            "relationship--546fcaae-b9af-4c84-9ee7-1b7701f8931b"
+        ],
+        "labels": [
+            "challenge",
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6cc58d92-743d-4446-a6fc-7951488ede42",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-08-27T01:18:27.005047Z",
+        "modified": "2021-09-08T11:09:54.577943Z",
+        "name": "Davis Group",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 16,
+        "external_references": [
+            {
+                "source_name": "company",
+                "description": "Visit behind plan piece suffer clearly.",
+                "hashes": {
+                    "MD5": "590a421b7d07d86c9df293b2a1177a33",
+                    "SHA-1": "76627b927ceb4e2c893d82629745304ac7535b27",
+                    "SHA-256": "71f1362a00ca9147f1bc3cd98f3b54f400a90d7b7e669f3be70c29c29a79d966",
+                    "SHA-512": "44a9f88bc21a36dcf7553d49c6b6ef2bc029b0e07ad355d18dc64543618b756bcd8d239152dc1cafec98461efe1006132d2690f6e8de41add9900b98da61a20b",
+                    "SHA3-256": "a8d522a68a085a97e95fe741b8522c6888ae066a3ffb1a57b8a964573fb7631d",
+                    "SHA3-512": "a13441c619dae49f0f02466d44c29ecbbe99d408da783e5200fa3bea502c6943362bdd4f49e9d1af457ebaac2da667d62681f22e60007c1842e5158fbbac120a"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

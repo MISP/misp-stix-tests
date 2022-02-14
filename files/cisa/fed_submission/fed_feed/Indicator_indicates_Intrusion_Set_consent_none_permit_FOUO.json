@@ -1,0 +1,184 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--63d50867-9f08-4858-83cc-d6258d1e47dd",
+        "created_by_ref": "identity--4267c21e-2f04-4970-a80d-038c5a4adf7c",
+        "created": "2021-01-17T03:49:15.334602Z",
+        "modified": "2022-01-14T07:11:53.418617Z",
+        "description": "Even unit modern south choice grow television oil.",
+        "indicator_types": [
+            "unknown",
+            "attribution",
+            "anonymization"
+        ],
+        "pattern": "([x509-certificate:defanged = false]) FOLLOWEDBY [(mutex:defanged NOT = false) OR directory:path >= '/true/current.ppt'] FOLLOWEDBY [ipv4-addr:value = '115.120.204.174'] REPEATS 4 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-02-15T01:25:23.101081Z",
+        "valid_until": "2022-04-13T21:56:54.677139Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "AKVAilDyGBqalslmbh",
+                "phase_name": "jZbnX"
+            },
+            {
+                "kill_chain_name": "Alfsg",
+                "phase_name": "zXzqAs"
+            },
+            {
+                "kill_chain_name": "qGhlziizLtQludl",
+                "phase_name": "WOzQpVVihMLKXzLGQu"
+            },
+            {
+                "kill_chain_name": "lzlVevYpJMiDVOEBu",
+                "phase_name": "gNeysSBa"
+            }
+        ],
+        "confidence": 44,
+        "object_marking_refs": [
+            "marking-definition--05b86dce-7f10-4506-8b3e-1d0b425d4907"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--90ac518b-3a40-4395-a965-99eb9519591e",
+        "created_by_ref": "identity--4267c21e-2f04-4970-a80d-038c5a4adf7c",
+        "created": "2021-04-08T01:54:27.247659Z",
+        "modified": "2022-02-03T03:42:56.074549Z",
+        "name": "available",
+        "description": "Choice rise interview everything use animal best laugh.",
+        "aliases": [
+            "participant",
+            "model",
+            "turn",
+            "training",
+            "low"
+        ],
+        "secondary_motivations": [
+            "accidental",
+            "notoriety"
+        ],
+        "external_references": [
+            {
+                "source_name": "approach",
+                "description": "Front reduce almost Republican player million woman hold.",
+                "external_id": "FUdYIXGPwrYgOa"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--05b86dce-7f10-4506-8b3e-1d0b425d4907"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e6ec7aa4-02a2-4be7-a75d-e40c03772af0",
+        "created_by_ref": "identity--4267c21e-2f04-4970-a80d-038c5a4adf7c",
+        "created": "2022-06-15T20:02:04.477044Z",
+        "modified": "2023-04-11T14:07:47.592148Z",
+        "relationship_type": "indicates",
+        "description": "More likely happy five. Within game study.",
+        "source_ref": "indicator--63d50867-9f08-4858-83cc-d6258d1e47dd",
+        "target_ref": "intrusion-set--90ac518b-3a40-4395-a965-99eb9519591e",
+        "stop_time": "2020-11-16T18:49:10.513721Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "road",
+                "description": "Agree yes middle response natural.",
+                "external_id": "KjizCAdbMyFoBjg"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--05b86dce-7f10-4506-8b3e-1d0b425d4907"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4267c21e-2f04-4970-a80d-038c5a4adf7c",
+        "created_by_ref": "identity--4267c21e-2f04-4970-a80d-038c5a4adf7c",
+        "created": "2021-02-17T20:57:10.841981Z",
+        "modified": "2021-08-14T01:08:31.454213Z",
+        "name": "Jones-Bailey",
+        "roles": [
+            "activity",
+            "fine",
+            "a",
+            "political"
+        ],
+        "sectors": [
+            "non-profit",
+            "retail",
+            "construction",
+            "aerospace"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "particularly",
+                "description": "Approach side organization bring quickly this.",
+                "hashes": {
+                    "MD5": "6bc5eeb90e1b5d3b98a426e905b098a0",
+                    "SHA-1": "3414ec3d5120c49696b09350aa1ce0713e26b132",
+                    "SHA-256": "b4c8b8df5adc019f127b041329443b84c9970b6aae8c1318a09fa1ca0b8901fc",
+                    "SHA-512": "68cb343c9da58d46653da146a4bd51cd0659ce14d4ad21b6f923f54eaeccbd957d2b8efdc6289692243e965756400a7092074a5189310dbb82aab42b5f221fb8",
+                    "SHA3-256": "a72038893edcb87200e54a315763a48a6793fd067d60b409bc5d6c47a1fc8e4c",
+                    "SHA3-512": "21c85614950ca97b1b0f4a30426fa45c969f87b450f8e80883ec399c33bfdd99cbc500d3f7b0897e38c5013a243991a273ec18a631dfd700f929a9815540adef"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--05b86dce-7f10-4506-8b3e-1d0b425d4907"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--05b86dce-7f10-4506-8b3e-1d0b425d4907",
+        "created": "2021-08-14T01:08:31.44978Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-54b25f01-6af2-45fd-9467-12811cc2be8c",
+                "name": "Help hit around teach",
+                "create_date_time": "2021-08-14T01:08:08.425022Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

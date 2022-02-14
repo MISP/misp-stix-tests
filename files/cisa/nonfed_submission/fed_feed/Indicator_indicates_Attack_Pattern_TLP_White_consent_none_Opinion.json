@@ -1,0 +1,345 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--f85ae8f6-431a-4cf1-ba32-b73778e955a4",
+        "created_by_ref": "identity--a70d9bf8-0376-4d6f-918e-cd0add92e5fd",
+        "created": "2021-02-19T12:44:29.697252Z",
+        "modified": "2021-08-14T01:08:27.344209Z",
+        "description": "Sport middle natural game report hundred may this.",
+        "indicator_types": [
+            "unknown",
+            "unknown",
+            "attribution",
+            "unknown",
+            "attribution"
+        ],
+        "pattern": "[x509-certificate:subject_public_key_algorithm < 'strategy' AND (x509-certificate:defanged NOT = false)] FOLLOWEDBY [url:defanged NOT = false] FOLLOWEDBY ([x509-certificate:subject <= 'ready'] AND [url:defanged = false])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-03-18T11:04:01.246746Z",
+        "valid_until": "2021-05-07T01:07:39.42506Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "wdxyhmWXscNCZzqJL",
+                "phase_name": "itiFFuEcytF"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "confidence": 61,
+        "external_references": [
+            {
+                "source_name": "require",
+                "external_id": "lwGevtwqvgiILvOSDRF"
+            },
+            {
+                "source_name": "charge",
+                "hashes": {
+                    "MD5": "3feac4f195af2dbda5a4a4802e2f59da",
+                    "SHA-1": "dec54a48faeedad10684dd4873277f5cc8ed2f1b",
+                    "SHA-256": "f886f03d458117a17b2944de986f5dd529e2ee3c74f9b4d715d45fe241ee85a4",
+                    "SHA-512": "204b70c94626a75d7afbb3071c436d00bac8c9cb412a802c912d9fdb57b18953d89b1993a6d41f317f4a6db484d4ea783690bd15935af717b508547a4958a11e",
+                    "SHA3-256": "1f7da57634de4ed9056a93d01234ff6f1cb9aa1c4b800d0369a871dff07307b4",
+                    "SHA3-512": "720fac45a79bc0266eb3e386f976a207417299b9fc915591a7c66e8aea16fe4953dec0fd22120eacbcacdb6c79d5dbd1bb8c78fbe2ffd422cad773f01e669ee6"
+                },
+                "external_id": "tuUJxuJvdcdhit"
+            },
+            {
+                "source_name": "early",
+                "description": "Standard ahead base win myself especially."
+            },
+            {
+                "source_name": "pay",
+                "description": "Fight build first respond mother.",
+                "external_id": "LnZqtVDl"
+            },
+            {
+                "source_name": "summer",
+                "hashes": {
+                    "MD5": "9503cc27878a199422aa4cf5b4491ee3",
+                    "SHA-1": "7ff6c7122461bbe4e73d61ac09b55c367d649087",
+                    "SHA-256": "d236f5190b0224066a4be6421971e1390b291ee6f884ab370f97669a7b835d65",
+                    "SHA-512": "850a29f688b9c917ab5d83fbca0ee86ed29b5712ae12aeee7f0f254a498c6a61fcfdfff483e409627953ff296975da7aa477dc0469a6671ea422ef98d337dce0",
+                    "SHA3-256": "ae58c003b55378f0e42aef2ad632e92e6ac54839b9f89804cf0e7366672a2331",
+                    "SHA3-512": "0bf52dabb15bf5394785d74a7c9800c4989549a9438f25cfc7e348867cfaca5a38be477cfa7f57c10ad3f8cc8e9b9d56e3d5ddfcfae3fd565986b7f1a27eb4c3"
+                },
+                "external_id": "AzpOEEa"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--418c9cee-bd9f-4847-a6ba-b696f610dd93"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--ea9399cf-25c9-4cd8-bcf4-95c312e01f99",
+        "created_by_ref": "identity--a70d9bf8-0376-4d6f-918e-cd0add92e5fd",
+        "created": "2021-03-01T01:21:43.843211Z",
+        "modified": "2021-09-21T02:39:37.198604Z",
+        "name": "structure",
+        "confidence": 74,
+        "external_references": [
+            {
+                "source_name": "leg",
+                "url": "http://johnson.com/"
+            },
+            {
+                "source_name": "cultural",
+                "description": "Class audience toward accept these any.",
+                "url": "http://murray-greer.biz/",
+                "hashes": {
+                    "MD5": "6c8bbacbdbfc1873a5d6816792a4746f",
+                    "SHA-1": "33b2c4ff1731aa15361cfc207416f59bbd17ed57",
+                    "SHA-256": "fcadaa0dd7df5854d8f2d6b92a91149000261ff34a167c33749fd5e2b8b5c725",
+                    "SHA-512": "d8607539d18abc00296b7ffb222c6f6e1b28b8fef63967a7f6c6ac4d5e237aaa349a1a2d6ae515671e9283f1a39f4159578ed1647042c897b2a9d6f2eed14613",
+                    "SHA3-256": "5094a11217dafb1ef066b8d35e644f65a3da73d808d2b40c3517446e42bdff6b",
+                    "SHA3-512": "cdcdee62881ecd1106522c66b05764ba9dcf57f200a7d5369a93c65d5bdd7814bc134bc89843fc3db0bbf48cffad0abaa768a418a11026e4669f7db8d2993e36"
+                },
+                "external_id": "NRDNdfymXDU"
+            },
+            {
+                "source_name": "make",
+                "url": "http://hernandez.org/",
+                "external_id": "npOUTtdWmxytb"
+            },
+            {
+                "source_name": "defense",
+                "url": "http://www.pena.info/",
+                "external_id": "nGloobXBoMnIeSQTEI"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--418c9cee-bd9f-4847-a6ba-b696f610dd93"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--51506199-1a8c-4ec4-a1f1-e49a93ef2bfd",
+        "created_by_ref": "identity--a70d9bf8-0376-4d6f-918e-cd0add92e5fd",
+        "created": "2021-06-30T07:59:00.490514Z",
+        "modified": "2021-08-14T01:08:27.348102Z",
+        "relationship_type": "indicates",
+        "description": "Ago usually national child. Culture land these call drug. Gun bag open off.",
+        "source_ref": "indicator--f85ae8f6-431a-4cf1-ba32-b73778e955a4",
+        "target_ref": "attack-pattern--ea9399cf-25c9-4cd8-bcf4-95c312e01f99",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "many",
+                "description": "Side get across exactly return.",
+                "url": "http://www.bond.biz/",
+                "hashes": {
+                    "MD5": "d138120f3538408d52f851fd3d333d6e",
+                    "SHA-1": "37e59cffa6763e0ef1b34e58ec58aef21e6b6068",
+                    "SHA-256": "df9f742a1e20fe797f9601ec60b696a8d51a9beac1f1dff06e62f76a9c445487",
+                    "SHA-512": "fa31f0300dd9511db99162150d495803d43678e8892e69e0bcbb621b160517046773659980bf6a0139e71827a4a568b61475e7d4180bbba29fb8fba5c180d990",
+                    "SHA3-256": "dfe98f79afc973a1e3dedcc45b7f14afd3d39f02e66cf706548c1cf929a71a00",
+                    "SHA3-512": "92ea9fceb58041b0cb304f34ecc97ea03fbcd83fbd322fd7a498fb093292277d3c36fa4f53f492c8ee6f090ea3d110582322a1f8121ec300384e4b20ab5c64c2"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--418c9cee-bd9f-4847-a6ba-b696f610dd93"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--96cb58a7-6d0c-4108-ab20-3a9d150c645e",
+        "created_by_ref": "identity--a70d9bf8-0376-4d6f-918e-cd0add92e5fd",
+        "created": "2022-04-30T16:46:15.566523Z",
+        "modified": "2023-04-15T22:08:14.052943Z",
+        "authors": [
+            "perhaps",
+            "ready"
+        ],
+        "opinion": "disagree",
+        "object_refs": [
+            "indicator--f85ae8f6-431a-4cf1-ba32-b73778e955a4",
+            "attack-pattern--ea9399cf-25c9-4cd8-bcf4-95c312e01f99",
+            "relationship--51506199-1a8c-4ec4-a1f1-e49a93ef2bfd"
+        ],
+        "confidence": 41,
+        "external_references": [
+            {
+                "source_name": "same",
+                "description": "From arm somebody walk.",
+                "hashes": {
+                    "MD5": "319f5e6aa1810dccd5ef57aa5999550e",
+                    "SHA-1": "09ae525863c83d332aa27ae775be41b4d801857e",
+                    "SHA-256": "40c01e7d8db2ecc4972b2bf2635e879a871dcd10fd59ef386eae8625d6edf211",
+                    "SHA-512": "134d39c0a733e19219bd9d4e7bde9d58897b8a84e346f42469ca56ab9328ef287b54934b9dca2e37725e8f30ee1c385f9a1972742863b3b56d79c2c4dad8fff8",
+                    "SHA3-256": "3939627527cdc23773869869a00d6275deefd964dd8f822da2bb9a3db307047e",
+                    "SHA3-512": "11956f33ded95d219a39300a72714beaa6a262bca90652d879164648aa6682ded19d3c5264784a4fa19bde76613568bf0d9b2bf8c4597765e6e5da1335a42e3c"
+                },
+                "external_id": "YoCICyo"
+            },
+            {
+                "source_name": "no",
+                "description": "Health ball car bring air draw recently language.",
+                "hashes": {
+                    "MD5": "9dbe5511057d62b878cd8d988e716975",
+                    "SHA-1": "5da99373ef9edeba1edf5c362a4f03092c976cbd",
+                    "SHA-256": "e0db7eebecc471558acad1fa993d2274ee3c9f1e8c0d644530e8ee907099c440",
+                    "SHA-512": "aee6d3de5e170545173c45eb55d9f5ce8e6b404bf18705535f2619cc193ac569fa5c738150d47e30cf33ae81ea96a6f35470ad03e29646db24817d8a09d6282b",
+                    "SHA3-256": "a60bb6ba54baff11bfec23922ba35d8891247373ab7a8e65846c29efc5cf263f",
+                    "SHA3-512": "43959cfc659e36dfae70a0ffddf00adc97584d94bb9e52b87358a9a68d3b65dd66664a481c3f60aa41f5ecea8f8602a41e4da4bf3f960b64f4f2e1e10ceae1b8"
+                }
+            },
+            {
+                "source_name": "ground",
+                "url": "http://carr.com/",
+                "external_id": "StcIeRgCCmijcHMXQmC"
+            },
+            {
+                "source_name": "during",
+                "url": "https://rios.com/"
+            },
+            {
+                "source_name": "form",
+                "description": "Glass size throw including loss us.",
+                "url": "https://www.henderson.com/",
+                "external_id": "oeSsmbFRkXkY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--418c9cee-bd9f-4847-a6ba-b696f610dd93"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--418c9cee-bd9f-4847-a6ba-b696f610dd93",
+        "created_by_ref": "identity--a70d9bf8-0376-4d6f-918e-cd0add92e5fd",
+        "created": "2021-08-14T01:08:27.343125Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2828523e-b28d-4046-9afc-51d22e18d79b",
+                "name": "Social price record ever reveal physical each",
+                "create_date_time": "2021-08-14T01:08:08.418751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.418527Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a70d9bf8-0376-4d6f-918e-cd0add92e5fd",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-08-02T20:43:55.547452Z",
+        "modified": "2023-04-08T04:23:50.598199Z",
+        "name": "ShoulderQuiteTelevision",
+        "description": "Expanded context-sensitive monitoring",
+        "roles": [
+            "image",
+            "station",
+            "shoulder"
+        ],
+        "sectors": [
+            "technology",
+            "education",
+            "aerospace",
+            "insurance",
+            "mining"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 25,
+        "external_references": [
+            {
+                "source_name": "treatment",
+                "description": "Particular difficult such production."
+            },
+            {
+                "source_name": "store",
+                "description": "Focus see they campaign along American.",
+                "url": "http://www.wade-reynolds.info/",
+                "external_id": "UCsFgozyYZUPZ"
+            },
+            {
+                "source_name": "market",
+                "url": "http://www.clarke.biz/",
+                "hashes": {
+                    "MD5": "e939adb1064e5e1ef08f8c7b893c421a",
+                    "SHA-1": "ee548a0ef673aa72352249e182740afe4695a659",
+                    "SHA-256": "68903032537878bf15691a48b7f44c953df520fcbeafd31a6f54d68682f59211",
+                    "SHA-512": "b76141312aae865b823c953fa642fcd22cb11089f41b8b6e172980ea9ec0bb047adc26c2ba4a094b176c46b1d7778223c9a76605dcd362b310214a4f694c1456",
+                    "SHA3-256": "4d78db632f35fed812f97cdcd394a3e3cff9daad3a19eaf9fa5c16e0f3accffb",
+                    "SHA3-512": "709be404c9dfd996fb5dd897e0f07646499769f2c4ef12e796520194e93e857f08f32a355a283ac346946df75ca428182d2282ef55a184d6df6f15d6dd4d8ea1"
+                },
+                "external_id": "zWcWpzowVBMGNfU"
+            },
+            {
+                "source_name": "let",
+                "hashes": {
+                    "MD5": "3f525e90c662252678b97c2a769cd9ea",
+                    "SHA-1": "34d83fa32f0ccf9cb6d58c78e2d864bb05ca93fe",
+                    "SHA-256": "14d47d5874c1037c459baa7cf612e7c27616ac2d45cdc856029d97101cd530e8",
+                    "SHA-512": "e72b86d7f9f8febb6fa46c41735a45f26b4084edaf0fa496ad267b3846b8d51d80db11677879224cecedf4edc890427b913d8667638ec3f54f37e526a145cbd4",
+                    "SHA3-256": "3977df973be7e925a1142f377da8bb9681558934b783e89683281ff795e3ef70",
+                    "SHA3-512": "41258a04aea12c1985b824c3c66b49eacaf3b01b7175d8748794ba77a898423c19abb145f39a543f38f836d43007f1b477c464d1008b3dc1867b82008a931ffe"
+                },
+                "external_id": "WOrOwdD"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--418c9cee-bd9f-4847-a6ba-b696f610dd93"
+        ]
+    }
+]

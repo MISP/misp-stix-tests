@@ -1,0 +1,115 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--c904d8e5-4e28-4c38-9fb2-69337033c5aa",
+        "created_by_ref": "identity--ab8eb718-5844-4b5a-a380-ac54cf6e057e",
+        "created": "2022-04-12T06:33:05.068193Z",
+        "modified": "2022-09-22T08:49:22.845545Z",
+        "name": "accept",
+        "description": "Feel individual discuss production position history.",
+        "infrastructure_types": [
+            "unknown",
+            "hosting-malware",
+            "command-and-control",
+            "staging",
+            "firewall"
+        ],
+        "labels": [
+            "might",
+            "wife",
+            "indeed",
+            "pfte-batch-1"
+        ],
+        "confidence": 56,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--305e1497-4f45-40b7-aff1-0034402b156a",
+        "created_by_ref": "identity--ab8eb718-5844-4b5a-a380-ac54cf6e057e",
+        "created": "2021-01-15T23:57:01.460449Z",
+        "modified": "2021-09-04T22:43:30.160751Z",
+        "first_observed": "2020-07-08T03:18:56.657644Z",
+        "last_observed": "2021-02-07T01:12:51.918131Z",
+        "number_observed": 591289391,
+        "objects": {
+            "domain-name--2d1f785d-7649-4b70-81ba-e8e719795f06": {
+                "type": "domain-name",
+                "spec_version": "2.1",
+                "id": "domain-name--2d1f785d-7649-4b70-81ba-e8e719795f06",
+                "value": "mendoza.com"
+            }
+        },
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "newspaper",
+                "description": "Popular everything there blood environmental room."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--6869ebd7-c75e-47d4-9d4a-f4cc728fb85a",
+        "created_by_ref": "identity--ab8eb718-5844-4b5a-a380-ac54cf6e057e",
+        "created": "2020-12-03T19:40:07.071848Z",
+        "modified": "2021-08-14T01:08:43.361895Z",
+        "relationship_type": "consists-of",
+        "source_ref": "infrastructure--c904d8e5-4e28-4c38-9fb2-69337033c5aa",
+        "target_ref": "observed-data--305e1497-4f45-40b7-aff1-0034402b156a",
+        "start_time": "2020-12-07T02:08:45.265453Z",
+        "stop_time": "2021-11-18T08:25:19.211696Z",
+        "labels": [
+            "receive",
+            "travel",
+            "future",
+            "election",
+            "pfte-batch-1"
+        ],
+        "confidence": 35,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ab8eb718-5844-4b5a-a380-ac54cf6e057e",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-11-02T12:47:54.93213Z",
+        "modified": "2021-08-14T01:08:43.362245Z",
+        "name": "Rojas Group",
+        "roles": [
+            "before",
+            "decision",
+            "minute",
+            "administration"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "suddenly",
+                "description": "Know play half each or election.",
+                "external_id": "oqJpOa"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

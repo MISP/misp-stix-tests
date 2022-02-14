@@ -1,0 +1,241 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--b9b73769-b246-4f25-8f3f-b4f9189df189",
+        "created_by_ref": "identity--1c0c4c16-6b3a-4a1a-b013-b1321aaf520d",
+        "created": "2022-08-05T01:50:51.303724Z",
+        "modified": "2022-08-17T10:00:36.254914Z",
+        "name": "concern",
+        "threat_actor_types": [
+            "spy"
+        ],
+        "aliases": [
+            "lead",
+            "economic",
+            "effect"
+        ],
+        "first_seen": "2021-04-05T09:27:27.60106Z",
+        "roles": [
+            "director",
+            "sponsor",
+            "independent"
+        ],
+        "resource_level": "individual",
+        "primary_motivation": "personal-gain",
+        "personal_motivations": [
+            "coercion",
+            "ideology"
+        ],
+        "labels": [
+            "high",
+            "husband",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--bd0eecb5-cd3c-497a-a161-0612a7a8ba6f"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--ab29cb40-b52b-4d53-be3c-ab77ddd239e4",
+        "created_by_ref": "identity--1c0c4c16-6b3a-4a1a-b013-b1321aaf520d",
+        "created": "2022-05-09T01:46:28.405685Z",
+        "modified": "2022-08-27T22:01:25.399307Z",
+        "name": "every",
+        "aliases": [
+            "relationship",
+            "culture"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "cKTySJGInyKyZLy",
+                "phase_name": "EDxncRET"
+            }
+        ],
+        "last_seen": "2022-08-12T01:20:48.494281Z",
+        "confidence": 43,
+        "object_marking_refs": [
+            "marking-definition--bd0eecb5-cd3c-497a-a161-0612a7a8ba6f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--734aa8ae-28b2-4f9e-8664-8e6c190cff27",
+        "created_by_ref": "identity--1c0c4c16-6b3a-4a1a-b013-b1321aaf520d",
+        "created": "2020-11-12T20:40:48.451831Z",
+        "modified": "2021-08-14T01:09:26.566248Z",
+        "relationship_type": "hosts",
+        "description": "Control society might attack truth. Best technology anyone imagine major. Structure read difference agency find foreign arrive.",
+        "source_ref": "threat-actor--b9b73769-b246-4f25-8f3f-b4f9189df189",
+        "target_ref": "infrastructure--ab29cb40-b52b-4d53-be3c-ab77ddd239e4",
+        "start_time": "2022-07-09T06:35:38.657973Z",
+        "confidence": 35,
+        "object_marking_refs": [
+            "marking-definition--bd0eecb5-cd3c-497a-a161-0612a7a8ba6f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1c0c4c16-6b3a-4a1a-b013-b1321aaf520d",
+        "created_by_ref": "identity--1c0c4c16-6b3a-4a1a-b013-b1321aaf520d",
+        "created": "2021-03-27T11:47:30.015973Z",
+        "modified": "2021-08-14T01:09:26.567024Z",
+        "name": "Lewis-Griffin",
+        "description": "Switchable dedicated policy",
+        "identity_class": "organization",
+        "confidence": 33,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "figure",
+                "description": "Walk this pass might term position personal.",
+                "url": "http://torres.com/",
+                "hashes": {
+                    "MD5": "0a483ffc7ccf77944e71b2e13e12fa27",
+                    "SHA-1": "561109ac071057669287f8977eef615e4c7972a8",
+                    "SHA-256": "cdb34926acb28e43dedfbe8ff8ab32747efa2eccf08f4ada2f90a1c8d584bf35",
+                    "SHA-512": "1e1fcb1be748f18fd088bbedeb3ac9c067325299e50f5acc334db6f93d929d00c71c6d9d66c6aedb39cc8c364e9e197c79e9133fb6425cd0683b6f857a1f218a",
+                    "SHA3-256": "48b90c975eb7048b60def214b01fce6105fa854558d2fb83c1cc4595539b01da",
+                    "SHA3-512": "c353680f101c20378ee75e1ca1bfcf5eddf116e155e7d49d56fa8a53b4664b29b8f97b8edae77c380e7f716e026634cffa1d72b56c8786a885a30bbf0aaa782e"
+                },
+                "external_id": "JNiXLEUaMzISHVFMIA"
+            },
+            {
+                "source_name": "contain",
+                "url": "https://www.gonzalez-gregory.com/"
+            },
+            {
+                "source_name": "part",
+                "description": "Task blue soon professor.",
+                "url": "https://ramos.net/",
+                "hashes": {
+                    "MD5": "863c940ed674eb29eeab5bfe49f7c2a1",
+                    "SHA-1": "454a0a1c429b0c37ad4a0acbc0c7413ba1b6580e",
+                    "SHA-256": "e93a3d6b7e552ce3b96a1954239c9fe55535d14b4630451c91793fcb2f0ca28d",
+                    "SHA-512": "dc2c401b134359b1d6214d5fae43961caa69b246b234e2bf1fd79c04c585e83ccf5c7de3dbe0c514f1558f8b1a986b422e9dd88f7be09a09a20ba06172bf461c",
+                    "SHA3-256": "b29651a9dcdd169e22e71b5b82f7e09f771dba9fa14d4dfc85c601461fd08e4b",
+                    "SHA3-512": "6a8ed0339a7dd5cfc8c4b89ca5ba535eae11be62db795b786450df38fda60cf2b5469c48c22191d85b29513c4e3a2d50a9d5e315f24888475228035210034be0"
+                }
+            },
+            {
+                "source_name": "number",
+                "url": "https://erickson.com/",
+                "external_id": "zZOrGwippIDyvt"
+            },
+            {
+                "source_name": "shake",
+                "description": "Least talk indicate system.",
+                "url": "https://knight-alexander.biz/",
+                "hashes": {
+                    "MD5": "3d3de5bb11c0c07ba121a18211a8cbe7",
+                    "SHA-1": "302b67e81796bac1bb4e0d6b7ddde3d1021de954",
+                    "SHA-256": "cdc687eba40c9a054eff7551995288eaf191c60f93474cf81e31a44c858dcf9a",
+                    "SHA-512": "c2080585364f2aea43ce03d32d58093c410ff71a277b0f3a149865f6bfcdfb7c91f4cd9ef0d87f0ff3812551b1bda173f572a66a3f684925c3d8eec47883af92",
+                    "SHA3-256": "ff84107f86caccc0f3ca258422f78e5247aae7fc84d426296dbd3887c569972c",
+                    "SHA3-512": "9cabe104afc2832ff08a87dbf6496464978eb31baa1bd931d066630bb365b1254a1fbddb4f890e9a9c908d48622144e463590c12f33ea44a1a618a0a73200115"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--bd0eecb5-cd3c-497a-a161-0612a7a8ba6f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--bd0eecb5-cd3c-497a-a161-0612a7a8ba6f",
+        "created": "2021-08-14T01:09:26.564749Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c37eda22-f302-4b2e-bf63-7f8ea35d72b0",
+                "name": "Event really first our country somebody",
+                "create_date_time": "2021-08-14T01:08:08.426408Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.426228Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,258 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--b448bbe2-7849-4b45-a24b-d437949985e3",
+        "created_by_ref": "identity--c41a810c-aea7-47b7-8e2a-dd0614706fbe",
+        "created": "2021-02-13T16:15:57.496523Z",
+        "modified": "2021-08-14T01:09:33.126911Z",
+        "name": "whatever",
+        "threat_actor_types": [
+            "terrorist",
+            "activist"
+        ],
+        "aliases": [
+            "worker"
+        ],
+        "first_seen": "2022-01-01T06:19:51.604296Z",
+        "roles": [
+            "independent",
+            "independent",
+            "independent"
+        ],
+        "goals": [
+            "gun",
+            "drop",
+            "good",
+            "probably",
+            "stuff"
+        ],
+        "resource_level": "government",
+        "primary_motivation": "accidental",
+        "secondary_motivations": [
+            "personal-satisfaction",
+            "unpredictable"
+        ],
+        "object_marking_refs": [
+            "marking-definition--009607cc-3a13-4508-a76d-8d553303de80"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--6ae5df05-be77-4ba0-ad9b-30560bea7ec7",
+        "created_by_ref": "identity--c41a810c-aea7-47b7-8e2a-dd0614706fbe",
+        "created": "2021-01-22T12:10:05.404176Z",
+        "modified": "2021-08-14T01:09:33.127495Z",
+        "name": "include",
+        "description": "Majority develop commercial shake method real.",
+        "labels": [
+            "door",
+            "investment",
+            "policy",
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "large",
+                "description": "Recognize those their mouth himself them.",
+                "url": "https://miles.biz/",
+                "hashes": {
+                    "MD5": "f9e0566d69981ad72c17f785c8eed0f7",
+                    "SHA-1": "05fcb7df3c48c51e2093f248118698589cc7bd44",
+                    "SHA-256": "37effd97d38312d57f9d5580eabc573d825f609b49fad222d5107a6cc3c70832",
+                    "SHA-512": "f693bfc0e2e8c8b996df2418b74463e135954bb5724aea940662f267c66aa5d175b85efcbe40f05a5411552b9ac1f82758504935db954dc9f2260b751aefd25b",
+                    "SHA3-256": "36251c750177b7846c329c7a7a96b012defb7bc7dc27aec3facf274e264f6af8",
+                    "SHA3-512": "719287ff7dc267920acfd1c0d354df78291062497be714d8a6fb38a981cc463d088baf821c544a169950687a69301209a17b17a9188c37f27349615296d9a24e"
+                }
+            },
+            {
+                "source_name": "miss",
+                "description": "Ever institution season certain.",
+                "hashes": {
+                    "MD5": "6e58a42a4b7bf18e58169ab502c3477a",
+                    "SHA-1": "b2ab7947623f771920e9979c649df59abffe36c5",
+                    "SHA-256": "9f9c22bc627448c6e0f51b1468dce8d5aeb0f73a468d7a74639447cef53c1fc3",
+                    "SHA-512": "573d7b57f8eef085bf14b69c0a3d9219023b54c4595f4de9501facccae174b2492baa282c04eef77e34760ed8afe092f7118fa92826661f3dd5988940ca803a5",
+                    "SHA3-256": "e43c54d7c55240cfa93f89e2f782a05ff15848f6c8facd7d0759f31150c7543d",
+                    "SHA3-512": "cba9f2f9a065757298bd4828ba504d5fdc9929ca23c8cac275a45e6bccfaa3a3701d622423a6e1e5afa8992c02d3db62580a5568c1b085be674ac2d3d2aa81b5"
+                },
+                "external_id": "omFIcL"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--009607cc-3a13-4508-a76d-8d553303de80"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--50bd7b6c-59ff-4f7f-9d7d-7add1dd978ed",
+        "created_by_ref": "identity--c41a810c-aea7-47b7-8e2a-dd0614706fbe",
+        "created": "2021-08-04T05:40:29.233085Z",
+        "modified": "2022-05-22T14:14:52.208163Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--b448bbe2-7849-4b45-a24b-d437949985e3",
+        "target_ref": "infrastructure--6ae5df05-be77-4ba0-ad9b-30560bea7ec7",
+        "start_time": "2022-05-30T19:49:53.160964Z",
+        "stop_time": "2022-07-24T01:47:09.910436Z",
+        "confidence": 75,
+        "external_references": [
+            {
+                "source_name": "key",
+                "url": "http://www.vargas.info/",
+                "hashes": {
+                    "MD5": "362ade6c00442feaada83bb19c0bbdb5",
+                    "SHA-1": "4cb30fcd285d2ca1154f2201d03101498c106fc0",
+                    "SHA-256": "4f79473c2f5ce06d74f3006a5113ac7cd7c62b7c29262c127d558d54d622b49d",
+                    "SHA-512": "48eb8a3549f334711060cbb6c375470f3b4c6e2bb9a095b26f396099895c6b4084d4e99f1c3ceffb4b099880c4a8b97234dd5b610c705fc996e50b3d4785723b",
+                    "SHA3-256": "e553ac6bfa485eb6033c5b3999011cbcc41d952d1dffc5614158c031878a7f84",
+                    "SHA3-512": "0c80f587b2753656db7f870b86af6c0e62f50b87fc233fc501771f6e683a98263728930bae0691b2568342138de7acd16fabc75d0e8cf75a59f9079db44fb94b"
+                },
+                "external_id": "DkzxUN"
+            },
+            {
+                "source_name": "where",
+                "description": "Weight him certain speak.",
+                "url": "http://johnston-kelly.com/",
+                "external_id": "sLzERzaBOL"
+            },
+            {
+                "source_name": "address",
+                "description": "Democrat land picture their.",
+                "url": "https://evans.com/",
+                "hashes": {
+                    "MD5": "4334ad234cf5703b67ebed1f878510ba",
+                    "SHA-1": "1bb9b422cd74be23fd45f516361d33c16a18f097",
+                    "SHA-256": "f0914d611837122a30e19a76da5f9147ec10b3aa4400b305b985f52866e77f66",
+                    "SHA-512": "0e2ab0d4c8774f056f20e6ea94d9f6e411caa33ff8e5bde9facbda61300e0c6ee99b592e3bcdcc7b4934e51e554e54fb92f2ba0ef9feab00fa1680c5bb7ff3f9",
+                    "SHA3-256": "c35dc9d8dca501574e494daa53689bc63f13ed66b036ef50552bfb6c8e7aff0d",
+                    "SHA3-512": "6c91b0daa43fe23dca96f8b1c270459357c09870c46775c3ae49d8cc0e6609538b757576bbd093352e94fd25642e9643e94421397199f7173849153e6106f63c"
+                },
+                "external_id": "tXGPf"
+            },
+            {
+                "source_name": "actually",
+                "description": "Traditional school writer picture.",
+                "url": "https://ross.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--009607cc-3a13-4508-a76d-8d553303de80"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--009607cc-3a13-4508-a76d-8d553303de80",
+        "created_by_ref": "identity--c41a810c-aea7-47b7-8e2a-dd0614706fbe",
+        "created": "2021-08-14T01:09:33.126177Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c8895e1e-4ecb-48a8-ba6f-5865a3a3066d",
+                "name": "Development get financial fill light",
+                "create_date_time": "2021-08-14T01:08:08.421416Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.421229Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c41a810c-aea7-47b7-8e2a-dd0614706fbe",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-14T04:24:48.920381Z",
+        "modified": "2021-10-08T10:10:29.724621Z",
+        "name": "Juarez, Robertson and Martinez",
+        "description": "Universal object-oriented knowledge user",
+        "sectors": [
+            "retail",
+            "entertainment",
+            "construction",
+            "hospitality-leisure"
+        ],
+        "contact_information": "037 Wright Parkway Apt. 402\nGonzalesfort, NV 46027",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 43,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "environmental",
+                "description": "Eye dark see positive word ball amount.",
+                "url": "http://www.jones.net/",
+                "hashes": {
+                    "MD5": "9bf1aa71e4241b4534398ddd83fe87b8",
+                    "SHA-1": "2d5b726f4b34c9aea87f9e685c18ba2e707b98c6",
+                    "SHA-256": "48dc1718957d801e9fa5d07d9874b78253cf29912dd53a98ad5d6f5eb37bf6db",
+                    "SHA-512": "23debbe24a9eb1e5d6d840301193cb0e658df6bf7284a23df53eb736b8365b9f8ab5b2a83b27d2f9f65bc2ede857c7b31b63c7d610f6318da18f696be887c274",
+                    "SHA3-256": "b929ae9856a35c85a6510bf02c9527a3f44a0cd3e323da55f5b47d278c679d93",
+                    "SHA3-512": "95e452b9b9d24f7d324b10fb669c4c7408fc244a70b9210caa39697f13c1b191063ad964aac27038bbf21ee71c0d6ff10ad1b7e901ad47838a3f22255354a355"
+                },
+                "external_id": "TMyysCTiWgzIKL"
+            },
+            {
+                "source_name": "bag",
+                "url": "https://www.ramirez-lee.biz/",
+                "hashes": {
+                    "MD5": "356e3c1129351f1dfae7c0af83bf3a89",
+                    "SHA-1": "93e9d411dff68e452824dfc8c2ba9520c445e44c",
+                    "SHA-256": "cdd677ebee02463a39153278cd61dacfc3e7d29f6f522d2bbdf3fca6cfe829f0",
+                    "SHA-512": "d75c924d4b92d0206164355103463d7d21b4f0dff146589fb32fbfdaba7b8b3771402f80792767526226f81dc453947c935f5a37d7506bfa1e88974907508ff6",
+                    "SHA3-256": "c01d429bdf92bcb52132d65f7ad03d6d850a5448b63985bfddc7a4fef2188a3c",
+                    "SHA3-512": "1177823da8c2b3aab3303a665252587f1c764cfd573ad6415f49228d9b2375f67f1289da42826cd688e7b1d96e7ad1ab217caa2e53c7581c0b3733e5f732ebd8"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--009607cc-3a13-4508-a76d-8d553303de80"
+        ]
+    }
+]

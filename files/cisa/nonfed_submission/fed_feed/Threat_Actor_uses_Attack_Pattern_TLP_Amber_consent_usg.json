@@ -1,0 +1,224 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--4b5c0f60-5837-45fe-b45e-f9349c51ba27",
+        "created_by_ref": "identity--75278bf5-57a4-45e5-ab3f-a6c4d2e30fdd",
+        "created": "2021-05-18T19:46:23.041792Z",
+        "modified": "2021-11-12T13:42:54.452726Z",
+        "name": "at",
+        "threat_actor_types": [
+            "spy",
+            "terrorist",
+            "sensationalist",
+            "terrorist",
+            "criminal"
+        ],
+        "aliases": [
+            "several",
+            "situation",
+            "other",
+            "every"
+        ],
+        "sophistication": "advanced",
+        "secondary_motivations": [
+            "organizational-gain",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "pretty",
+            "ground",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--b9916789-a948-4883-ba25-f80e1647af1c"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--7618ec10-48bd-4d05-afcc-3851ccade23e",
+        "created_by_ref": "identity--75278bf5-57a4-45e5-ab3f-a6c4d2e30fdd",
+        "created": "2020-12-27T00:36:53.574459Z",
+        "modified": "2021-11-16T08:30:55.591391Z",
+        "name": "remain",
+        "aliases": [
+            "what"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "confidence": 5,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b9916789-a948-4883-ba25-f80e1647af1c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--171c1680-6562-4a62-a16c-3e5895349fa0",
+        "created_by_ref": "identity--75278bf5-57a4-45e5-ab3f-a6c4d2e30fdd",
+        "created": "2020-08-28T11:30:43.236136Z",
+        "modified": "2021-08-21T02:54:21.611258Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--4b5c0f60-5837-45fe-b45e-f9349c51ba27",
+        "target_ref": "attack-pattern--7618ec10-48bd-4d05-afcc-3851ccade23e",
+        "labels": [
+            "million",
+            "pull",
+            "movie",
+            "act",
+            "would",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "three",
+                "description": "Type public capital ability.",
+                "external_id": "VvOmCEefoYAqDDWwWGh"
+            },
+            {
+                "source_name": "run",
+                "description": "Radio fear value by position within.",
+                "hashes": {
+                    "MD5": "0d0da7f7d0e72040a68c9f0263558595",
+                    "SHA-1": "d123b1deeafe521129d0974d23743b4622cc83a8",
+                    "SHA-256": "67a08c34e14733525c8e4ed32985e5de691c613a496db6d5db4b8e8ebb21513d",
+                    "SHA-512": "ea56a79da52f5adacf57027252ebbef992efab6dc065c88bf0328a75771f95770d2ac3d93bdd2274a95cd928e25c057ecc0990ace291b9584abe82dc997caf7e",
+                    "SHA3-256": "aa8e88412ddfeaabbd91f1061555165ff2353d6eab9afc4e9528641108578c9c",
+                    "SHA3-512": "effd9868c643aec6dc46e260b60fa3944b3e7a92f87d18437e6da3628d3027830078c63ded0eb608813f8c4190d97dd9fde38cc9bb24aa6979b67b8612521908"
+                },
+                "external_id": "OJLbWktKrgLrALsWfet"
+            },
+            {
+                "source_name": "wrong",
+                "url": "http://www.smith.info/",
+                "external_id": "DjilxSLGRuju"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b9916789-a948-4883-ba25-f80e1647af1c"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b9916789-a948-4883-ba25-f80e1647af1c",
+        "created_by_ref": "identity--75278bf5-57a4-45e5-ab3f-a6c4d2e30fdd",
+        "created": "2021-08-14T01:09:32.234027Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2a4a5944-494c-4a33-b0ba-c70e719ee1c8",
+                "name": "Room arrive pay often",
+                "create_date_time": "2021-08-14T01:08:08.421032Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--75278bf5-57a4-45e5-ab3f-a6c4d2e30fdd",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-04-05T11:38:53.680027Z",
+        "modified": "2022-12-06T05:25:26.49793Z",
+        "name": "Peterson-Johnson",
+        "description": "Synchronized even-keeled superstructure",
+        "roles": [
+            "possible",
+            "theory"
+        ],
+        "identity_class": "group",
+        "contact_information": "78863 Jones Viaduct Suite 918\nAllisonfurt, TX 81665",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "range",
+                "description": "Four use whom whatever forget bill beat hair.",
+                "hashes": {
+                    "MD5": "828b67488babc2fee9570948da63079d",
+                    "SHA-1": "14cef51d83d5f78b0755b4426fd1ba1f19dc2d13",
+                    "SHA-256": "4044382050b1c2e716973af9b908b7375b74aaac5f860a3010d37b66ab005e5b",
+                    "SHA-512": "2ec23c80667c3d4becab7bfa4614737e51ee682c09fc1807a5e9c58e90ce596c3f323f037cec3a5f8d6730ad2f9bb9d427879082cbb2038d3c4b03f84fb2304a",
+                    "SHA3-256": "9e1abf2c6623600bd626555e18a2cdfc33d5081c039afb14faa0d3888ed30d59",
+                    "SHA3-512": "9ff746b0fa0b11115d5b4ecb38d74c603b4c7b74a6ca61396d7c4c73b14be77072daf0d395674483e88ab1422169cf16d6cdb4dca7af24fa70011160726d5b86"
+                },
+                "external_id": "dghNZciFVEJXeyXkoiFi"
+            },
+            {
+                "source_name": "wall",
+                "url": "https://clayton-henderson.com/",
+                "hashes": {
+                    "MD5": "d0b022b33cc54d556142959429d48bb5",
+                    "SHA-1": "aa722ee9c8bf3f948c9928ba29a29baf61c8020d",
+                    "SHA-256": "5f93e6aaa7efa299c0231b5bf97feb117e52a4d1f493f4b81f98e2b836ba5cd3",
+                    "SHA-512": "90705b7449953cd187013d40f20a2957c3e795718b84f62d8a7aece8698fab478e4851a96a58bd75d3aa95a84dff67295f9a52b52d47111261be16f148d79088",
+                    "SHA3-256": "9c462e26e4cc737e5aed885ac20a96d032537772de9e75eff10b4819708f558e",
+                    "SHA3-512": "e94bd2ff29c0ec47abe09e83de371597d005b411972013bf311b0b8a77129a2a7e4ea8f2ce1f2d137d94866a1afd9d8dedc901512bc7f054a2a458defd8f2ca1"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b9916789-a948-4883-ba25-f80e1647af1c"
+        ]
+    }
+]

@@ -1,0 +1,171 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--60c4350a-21c0-4ab4-a9d7-db208361fb2b",
+        "created_by_ref": "identity--3aba889c-e67e-467c-a7d8-95c2078b632f",
+        "created": "2022-02-04T08:15:59.037967Z",
+        "modified": "2022-10-14T23:14:16.679457Z",
+        "name": "cause",
+        "description": "Study poor back.",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--73f6db07-e68a-475f-9a40-6de73e88df4d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--1735f967-feb3-4af9-8b0b-3963d24016ff",
+        "created_by_ref": "identity--3aba889c-e67e-467c-a7d8-95c2078b632f",
+        "created": "2022-06-26T19:34:07.175579Z",
+        "modified": "2022-10-28T13:40:35.607222Z",
+        "name": "political",
+        "tool_types": [
+            "credential-exploitation",
+            "network-capture"
+        ],
+        "aliases": [
+            "push",
+            "growth",
+            "fire",
+            "trial",
+            "against"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "YbMKLazbvieD",
+                "phase_name": "QGldtshLfhNd"
+            },
+            {
+                "kill_chain_name": "GKXsq",
+                "phase_name": "jGNcdHqh"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            }
+        ],
+        "tool_version": "radio",
+        "confidence": 23,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--73f6db07-e68a-475f-9a40-6de73e88df4d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--dfbf60e8-2a41-4daa-ac0a-8179aa3f816b",
+        "created_by_ref": "identity--3aba889c-e67e-467c-a7d8-95c2078b632f",
+        "created": "2021-02-26T10:50:08.636669Z",
+        "modified": "2021-10-27T03:11:48.23864Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--60c4350a-21c0-4ab4-a9d7-db208361fb2b",
+        "target_ref": "tool--1735f967-feb3-4af9-8b0b-3963d24016ff",
+        "start_time": "2022-02-09T13:56:28.570073Z",
+        "stop_time": "2022-11-19T08:45:16.723574Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--73f6db07-e68a-475f-9a40-6de73e88df4d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3aba889c-e67e-467c-a7d8-95c2078b632f",
+        "created_by_ref": "identity--3aba889c-e67e-467c-a7d8-95c2078b632f",
+        "created": "2020-12-24T20:24:08.392473Z",
+        "modified": "2021-08-23T05:12:51.285114Z",
+        "name": "Kelly-Mcdonald",
+        "description": "Self-enabling background utilization",
+        "sectors": [
+            "defense",
+            "non-profit",
+            "automotive",
+            "hospitality-leisure",
+            "water"
+        ],
+        "contact_information": "Unit 6063 Box 2159\nDPO AP 91871",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 71,
+        "object_marking_refs": [
+            "marking-definition--73f6db07-e68a-475f-9a40-6de73e88df4d"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--73f6db07-e68a-475f-9a40-6de73e88df4d",
+        "created": "2021-08-14T01:08:25.61905Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3af87523-f9f6-4d99-acfc-79560c4d2219",
+                "name": "Boy understand else sense give house travel already",
+                "create_date_time": "2021-08-14T01:08:08.429507Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

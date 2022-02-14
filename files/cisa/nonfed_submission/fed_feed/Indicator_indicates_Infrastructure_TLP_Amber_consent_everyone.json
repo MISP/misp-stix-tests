@@ -1,0 +1,229 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--0f154a79-1f05-4a11-abac-a04019e42d3f",
+        "created_by_ref": "identity--caae8c36-0ee1-476e-94d2-91e2190da507",
+        "created": "2021-01-03T13:39:42.099949Z",
+        "modified": "2021-08-14T01:08:30.05798Z",
+        "description": "Possible report rock.",
+        "indicator_types": [
+            "malicious-activity",
+            "anonymization"
+        ],
+        "pattern": "[(user-account:credential < 'avG$#cS9!8') AND user-account:display_name > 'Alexandra Nguyen' AND user-account:user_id >= 'mirandakevin'] AND (([directory:mtime = t'2020-12-29T06:00:54.518351Z']) FOLLOWEDBY [process:defanged NOT = false])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-09-16T12:44:34.483802Z",
+        "valid_until": "2021-03-12T07:10:35.20809Z",
+        "labels": [
+            "trade",
+            "several",
+            "not",
+            "history",
+            "control",
+            "pfte-batch-1"
+        ],
+        "confidence": 17,
+        "external_references": [
+            {
+                "source_name": "peace",
+                "url": "https://ramsey-cox.com/",
+                "external_id": "GouuFzuDB"
+            },
+            {
+                "source_name": "I",
+                "description": "Government coach mother human center.",
+                "url": "https://bowen.com/",
+                "hashes": {
+                    "MD5": "45bf7e5376d3a3e8f57c60d5716c1309",
+                    "SHA-1": "0c8b54e16a5f6f46891fa151b610ce3270371aa1",
+                    "SHA-256": "11344552acbc23a383a4c5207a58bcadc8b4df4a0a78d02c9466415525a188cc",
+                    "SHA-512": "4a64a88d2def0ae1e100e2c131df85c2d33d239597ba800be650d7bbde2e7e97500df748e042abd4ba34c024b4f357d00738605fe377f40d3fd80414f641a997",
+                    "SHA3-256": "2f7612308562b5c0e5a439ec47a099c1e50553a60b00e5f8ceda063f67aac181",
+                    "SHA3-512": "0fa13428d1aa79b44969c533419a03f1f1f3b85723230193280a2b793183771b437559871df2a22de67a4571f3361017b598ce04979341af76c5b491ab6b06dd"
+                }
+            },
+            {
+                "source_name": "commercial",
+                "url": "https://johnson.com/",
+                "hashes": {
+                    "MD5": "9c4e55ab5763620767e99be84f42e100",
+                    "SHA-1": "05cbd5e8d8d986ab51b29ee3d2df0ddb9a967c1e",
+                    "SHA-256": "48c5a5dc3501efa6d43e1aa354f6adf43ef185d51e7237ae26a38e5d30569376",
+                    "SHA-512": "dda85847070c6deb67fea6e07671a6cbb1cdf2abac35590b8d2f4e16f8b9f37e14e388981757641b2c042e2ec86328c0e61e7bdaf6e88edcf7746e46ea91f9d3",
+                    "SHA3-256": "06253e6c3ec3827a4abd20561fa7355046b97514f1ef0e9e64e04661fd95c59e",
+                    "SHA3-512": "08a46ae0ac2ceee5e30383c0577ed361e5a8e9be669d81306cba29eb47195bb704829c5d4fdf1f289eef5e62f1b272c25acb9bd2c66af8a93a42461d02e80eee"
+                },
+                "external_id": "CULGBvTvEelCeWkQIqE"
+            },
+            {
+                "source_name": "office",
+                "description": "Sing doctor human.",
+                "url": "https://wilkerson.org/",
+                "external_id": "iQMGOQyzJruPvVoXlJQy"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--6c5ad413-38ba-4f50-8bff-18641ec4ddc8"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--41a17b56-fc52-49bf-ac5c-15d332e95287",
+        "created_by_ref": "identity--caae8c36-0ee1-476e-94d2-91e2190da507",
+        "created": "2021-02-11T08:11:38.891628Z",
+        "modified": "2021-08-14T01:08:30.061272Z",
+        "name": "north",
+        "description": "Long debate story appear action itself that.",
+        "aliases": [
+            "name",
+            "again"
+        ],
+        "labels": [
+            "ok",
+            "agency",
+            "too",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "others",
+                "url": "https://www.stephens.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--6c5ad413-38ba-4f50-8bff-18641ec4ddc8"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4e96bf67-0523-44ca-ba9a-e6f0beaa8c44",
+        "created_by_ref": "identity--caae8c36-0ee1-476e-94d2-91e2190da507",
+        "created": "2021-06-30T02:47:21.509752Z",
+        "modified": "2022-03-30T21:22:05.240423Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--0f154a79-1f05-4a11-abac-a04019e42d3f",
+        "target_ref": "infrastructure--41a17b56-fc52-49bf-ac5c-15d332e95287",
+        "start_time": "2020-12-15T02:17:23.189188Z",
+        "stop_time": "2021-10-14T09:11:33.99694Z",
+        "labels": [
+            "hour",
+            "sit",
+            "game",
+            "statement",
+            "pfte-batch-1"
+        ],
+        "confidence": 63,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--6c5ad413-38ba-4f50-8bff-18641ec4ddc8"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--6c5ad413-38ba-4f50-8bff-18641ec4ddc8",
+        "created_by_ref": "identity--caae8c36-0ee1-476e-94d2-91e2190da507",
+        "created": "2021-08-14T01:08:30.057064Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f98cddfd-8461-4143-a969-e6e230df21d4",
+                "name": "Word describe cold color",
+                "create_date_time": "2021-08-14T01:08:08.422252Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--caae8c36-0ee1-476e-94d2-91e2190da507",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-01-13T01:19:35.087246Z",
+        "modified": "2021-08-14T01:08:30.062044Z",
+        "name": "Liu, Singleton and Kelly",
+        "sectors": [
+            "healthcare",
+            "transportation",
+            "healthcare",
+            "water",
+            "retail"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "set",
+                "hashes": {
+                    "MD5": "13ac2697d9f9514f4c9f4556d27f877d",
+                    "SHA-1": "c9aec2cb487f077f03c1c4a9712c15d47761e077",
+                    "SHA-256": "87d380cfb937172de9214654b26c7d242b54ba356f0a4858daa789f4e7cea9de",
+                    "SHA-512": "4d1b589e11196f1a2813652d5a112117f4130298104a49dd8a208cbc7a170ed7d0f3663050093c39469e87fb9f264ed7f8718dc851a6573abd8f8f8d42470981",
+                    "SHA3-256": "041f797b00f4237702f84fec010869e3e10354a4a790441dcedd0921195fe435",
+                    "SHA3-512": "7d1326f176124dd4f2c45045b48e960c2423818e644cbbb2dbe0f19928ecab0254121a97193583a76e07be340879959ec23f32e4f70d55f8dfdbd775343ef746"
+                },
+                "external_id": "RgHfVGKFcIxtQRUFop"
+            },
+            {
+                "source_name": "chair",
+                "description": "Land through trial leader join.",
+                "url": "http://www.floyd.com/"
+            },
+            {
+                "source_name": "method",
+                "description": "Card likely even management finish south movie.",
+                "url": "https://burton.info/",
+                "external_id": "bOVLWJmrH"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--6c5ad413-38ba-4f50-8bff-18641ec4ddc8"
+        ]
+    }
+]

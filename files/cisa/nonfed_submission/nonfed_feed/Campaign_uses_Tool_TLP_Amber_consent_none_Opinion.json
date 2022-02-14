@@ -1,0 +1,262 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--da44a7c7-6b2a-498c-9b21-7ce3cd50be2f",
+        "created_by_ref": "identity--8c58ab69-b495-4180-8e9a-641187a193ce",
+        "created": "2020-10-22T08:54:26.43179Z",
+        "modified": "2021-08-14T01:08:20.622147Z",
+        "name": "art",
+        "aliases": [
+            "more",
+            "later",
+            "many"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "second",
+                "description": "Charge very TV.",
+                "hashes": {
+                    "MD5": "727fa316f5cc5d397ccbfa83941ca76d",
+                    "SHA-1": "1114367035a058741d5033c62bb9c2342bc1285c",
+                    "SHA-256": "31c647f2f2645018b2dd45908d9e76ba7b4a2d6033f4ddf86a5b0d392d7b4cc9",
+                    "SHA-512": "32531c3bd531984e108a0b3edd3faf864cda6dce0defd7ee97ddf1bda2ca8c2b2f0dfa0913f06748782e1768bd63ac96c171584b1c18ae71fdc365a5f3c364d4",
+                    "SHA3-256": "b99c8e323864d41824d539b246245af7dbccbef12f24de35e8a6896f4470d2ba",
+                    "SHA3-512": "ef1c41be170b25dad89e344f55aef27b801f4b633ed278677aef8915c086985609d80d199f433d2603e04663c740034e3115ac434c375bd7ede26b653094e8a6"
+                },
+                "external_id": "lJkGzPVljXizwPKv"
+            },
+            {
+                "source_name": "agency",
+                "url": "http://fuentes.info/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--5630f015-668b-4039-a791-aaafd52ce717",
+        "created_by_ref": "identity--8c58ab69-b495-4180-8e9a-641187a193ce",
+        "created": "2020-09-25T11:47:08.155621Z",
+        "modified": "2021-08-14T01:08:20.62249Z",
+        "name": "region",
+        "tool_types": [
+            "unknown",
+            "information-gathering"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "tool_version": "stuff",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3e52144f-a844-4e7d-be82-801665f26cde",
+        "created_by_ref": "identity--8c58ab69-b495-4180-8e9a-641187a193ce",
+        "created": "2022-07-03T22:10:29.818515Z",
+        "modified": "2023-04-01T15:43:23.837602Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--da44a7c7-6b2a-498c-9b21-7ce3cd50be2f",
+        "target_ref": "tool--5630f015-668b-4039-a791-aaafd52ce717",
+        "start_time": "2021-08-31T20:07:59.883687Z",
+        "stop_time": "2021-09-12T04:29:28.201983Z",
+        "labels": [
+            "officer",
+            "power",
+            "total",
+            "everybody",
+            "almost",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "training",
+                "url": "http://santiago-lee.com/",
+                "hashes": {
+                    "MD5": "8e2dddd0f91dac716a62a93d5f7b09f3",
+                    "SHA-1": "2807cdc339f20301a08847f71833c1d01967a753",
+                    "SHA-256": "fce64b495eda98bab7aa863fd4b28e04d0c38a3c18f942df2a3f001802240416",
+                    "SHA-512": "12e47ddf56508053ac7552561bfa8e1ec20311d0452efcabf19ce9167ea36515f98b340054b0eee295f61d2032c96a817ddd8dc95380816ae142cd7a9e4f37fb",
+                    "SHA3-256": "7833f20a2e5f1431bb8652ba8659c0b02707795d570ceab54b88fdb9baf98b4b",
+                    "SHA3-512": "2528ae90b95b9c620a4d4d7db014bec5475ff77300c9131d3a78af818359e90e8a2b251bd2cd40db4f4a336a531f8bbf02427fc47eb38be63b8f29c8a71c46c4"
+                },
+                "external_id": "VFumNxlXXxrjLpfvEDu"
+            },
+            {
+                "source_name": "purpose",
+                "description": "Activity base value explain word.",
+                "url": "http://mccarthy-chapman.com/",
+                "hashes": {
+                    "MD5": "91080cc610b8c8b6ee5f48bcbbf82349",
+                    "SHA-1": "7e034228d982a261e7bdb6b236074035806d2bdd",
+                    "SHA-256": "30df2777a4574eff4663129feea4cd700a24b46bfbe771fc377de01b933ef4d1",
+                    "SHA-512": "ac36d1094ab00a583ee737454cbb03fcceb446fd69cd369c1d545541d3ae625abed92623cb9a6cbba427222b46c4b45a20e160c88394e66d4f825325fa38b26e",
+                    "SHA3-256": "a7e50ed08ab16c11172812db40209bc9146a544974827393a807890879b45d5c",
+                    "SHA3-512": "7fee726acd5c9db9058436b9340e30f53391f6ea602a26321dc2ea7e63d7afefd30867f26f52cba1892c3da0e7bf9e5c39d4dc09eff082a07a4edc263ec55554"
+                },
+                "external_id": "XCcXOBbu"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--896263e1-342e-4365-81ff-ad1c08253dbe",
+        "created_by_ref": "identity--8c58ab69-b495-4180-8e9a-641187a193ce",
+        "created": "2021-07-16T03:58:38.521428Z",
+        "modified": "2022-04-23T18:27:58.811821Z",
+        "explanation": "Want say thing detail. Bed smile authority line last money car kid.",
+        "authors": [
+            "your",
+            "strong",
+            "find"
+        ],
+        "opinion": "strongly-agree",
+        "object_refs": [
+            "campaign--da44a7c7-6b2a-498c-9b21-7ce3cd50be2f",
+            "tool--5630f015-668b-4039-a791-aaafd52ce717",
+            "relationship--3e52144f-a844-4e7d-be82-801665f26cde"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "carry",
+                "hashes": {
+                    "MD5": "8af72e70258f77d440b1c9714ebf5302",
+                    "SHA-1": "e90bfcc6e656fd7240a1c44f57d92cbd1e9b92d1",
+                    "SHA-256": "f325df74dccfcf5caa77faf13ebbeced64c5a4d1530c291b644b2492857dabc7",
+                    "SHA-512": "b38acdf94764026e78d68e75c1098397372a8d3d6b6dfce78a3f26794721ad30458c21fa5785db426d7802ba8c29a4c0beb33a342287e40ee8746f816944cdf5",
+                    "SHA3-256": "00647c0773abc02c8004896add0c5e03d4232998f156536842dfd544071126d3",
+                    "SHA3-512": "9825ff62377aa0f78f40a0f80effe9327bd021ecf88d74057e45bdbc2aa4d528eadaedc7ffae3abc1be16f48c97e0273bb2a73bd8740406a5ae2a1c1062b3a76"
+                },
+                "external_id": "PcVQWm"
+            },
+            {
+                "source_name": "give",
+                "description": "Occur happy care hand crime kind.",
+                "url": "https://hampton.com/",
+                "hashes": {
+                    "MD5": "4e0c49a1f69a1df0594c57c579b1c294",
+                    "SHA-1": "ff8c9c23cb1f2a0471cba0caebbec718e2046f43",
+                    "SHA-256": "b0fe75bfb2e02df6b735815f6d283bbe74fe72323b17d2999c20c7ab4fad72ae",
+                    "SHA-512": "a3bda635aed06172f3f19fa12e09aa86375017e49ad90518135e9ad19d9fca3c7c252db131deb1bf350c36283bdd544c9ec6ab3f884ef39b4a37b6f302afcbf0",
+                    "SHA3-256": "914e8835851f768db0cac0e70fa51c12eb5bf231c7015daab080e53e3edb1334",
+                    "SHA3-512": "0c1e69524a4efee0f19d449427191ee966b462f27bd5d0fa555f09acb915c68e9097b4b46a2fe5b08853fd8aed5a004c33d14797df954e4a31fd049f33be26b0"
+                }
+            },
+            {
+                "source_name": "maintain",
+                "hashes": {
+                    "MD5": "e8e36b400d5a4dc6e54efed2307843db",
+                    "SHA-1": "9ac0bcd08f0c2116b2a6d209befa03661008c8cd",
+                    "SHA-256": "8bc76445d4d0002e49e568fabf9eb77aa35096d756e5d3a0785ab6e4694c3bbe",
+                    "SHA-512": "1b8b1cf641d79f3587d9b84cee7f16b59de6a7d74942b23af6202997980061ac1d0f365439f38a2b409c3c19eed71fea16ee7d781d11d93bed1074cadd964015",
+                    "SHA3-256": "590178d07e7bc2b0728c68fe4cbf32adbc664cc1040c8ccf6e593681fb5ad47c",
+                    "SHA3-512": "eb91bbc396e4d92622e461c921157fa153e3f07004681a522e4a310110e0f55a290c992860e75e4f4a04c584397679b21d002950ad181bf9a40abeb326d1de76"
+                },
+                "external_id": "FYhafrYEgcmCMUfgkAoE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8c58ab69-b495-4180-8e9a-641187a193ce",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-27T00:31:37.832543Z",
+        "modified": "2022-03-27T23:53:39.022194Z",
+        "name": "SuddenlyLevelPopular",
+        "description": "Advanced impactful structure",
+        "identity_class": "system",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "while",
+                "description": "Standard effort respond center.",
+                "url": "http://www.lawrence-vasquez.com/",
+                "hashes": {
+                    "MD5": "bcbe330c16e5f78cbc8b741de8782b76",
+                    "SHA-1": "8f64501ca3e485c7b45ecc4c38008caf83df57e8",
+                    "SHA-256": "5ea480b0500410448b0696925215b69af2fefcebbd0c1659ea9b8c64bc21d752",
+                    "SHA-512": "bf0e27e3fa4556d4546b3b0bee139ca1bc8be94d90aece3d9213de97e5ce1af8e9bd27758892076b6e5451c78d91345a0116c00b8e7aa726a3a01cd8b53bdaa7",
+                    "SHA3-256": "6e8dd753e558dfd1269fea9677b418420710a9e71ec3bce9a352716a1cf4aac5",
+                    "SHA3-512": "cf92daec2b4deee46554a773e105b56a1bf731d417e1d94fc97b2b43d2ceeeca24f35c1de907d827c7113754e96a5521ec157f39180a67ad3d0ab9259328ba55"
+                },
+                "external_id": "mMvBQ"
+            },
+            {
+                "source_name": "provide",
+                "description": "Whole along dog next without could.",
+                "hashes": {
+                    "MD5": "e71653c09f12f84224b86a33622181f0",
+                    "SHA-1": "ab6e6ad613b302f5ea4d2cf571e93f5def7cb03c",
+                    "SHA-256": "16b3750ab2018227833f56919828e0f20e59612b41923d1d20096a4b22a65098",
+                    "SHA-512": "dcefb2bdf685305a56b6399929a783391799153a444e9f800d132f599ec27464bed39ece2fa58314c3bd09b5d2833a532043881869202a0ef9558da8991c1222",
+                    "SHA3-256": "374d300e4e99c60fa8e24e890fb2044670922982408b006d86c49fe2c022fdec",
+                    "SHA3-512": "b648d6dcbcb742e6526ac34d5463da4d7fdf6066d7ec5835a00653ed10c191cb1f97b0069932e20ec9408fc6b25d10fd2b583888625a575c07e6cec2a026a80d"
+                },
+                "external_id": "caixTMMBRajGrGdOKKQ"
+            },
+            {
+                "source_name": "easy",
+                "description": "Like win the cell feeling.",
+                "url": "http://www.bernard-bruce.net/"
+            },
+            {
+                "source_name": "compare",
+                "description": "Sound ask window window agreement debate.",
+                "external_id": "dWCyARRYeA"
+            },
+            {
+                "source_name": "computer",
+                "description": "Activity lot himself scene white well.",
+                "url": "https://www.schultz-barker.info/",
+                "hashes": {
+                    "MD5": "c64a13ac16fec6bf58bb5e054de9ea50",
+                    "SHA-1": "99ef7aa7cc4d8cd15e260dd46b5363441a7d0797",
+                    "SHA-256": "d16a22c6095bb7da4a4dc7b359521841b0c1f2336d2cf34d8237e1abf27fee90",
+                    "SHA-512": "8ae0e4899645453f582440524bddd350c33cd53b2f0a393c14dba92c0cc21288d1a8417170e5acdb8b4bae4e1323a31c20b8bc09a03666bce4879367839590b2",
+                    "SHA3-256": "f1cf066215b144e2fd1f87fc0b317fd67c16746680dcc93bca35f41c89efb379",
+                    "SHA3-512": "d2e80e5762320bcb85ce9ec4b622a716666837f9b6676e3224421d5457e5f854762fb70799a4eefe0aca8768989cae6d021c8e213606804769b88d31c13b3454"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

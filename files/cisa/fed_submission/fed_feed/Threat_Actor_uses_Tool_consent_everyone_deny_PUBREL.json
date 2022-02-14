@@ -1,0 +1,161 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--2d3da4ab-770a-4a71-ba05-5d14a4c23981",
+        "created_by_ref": "identity--37959957-6f6e-4f6a-a993-f72b75997210",
+        "created": "2020-11-14T10:41:59.826417Z",
+        "modified": "2021-08-14T01:09:35.23462Z",
+        "name": "author",
+        "threat_actor_types": [
+            "terrorist",
+            "terrorist",
+            "nation-state",
+            "insider-disgruntled"
+        ],
+        "aliases": [
+            "enjoy",
+            "up",
+            "smile"
+        ],
+        "last_seen": "2021-01-12T04:25:10.784254Z",
+        "labels": [
+            "soldier",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--0bdcc2c6-347c-40c8-b135-be5667a663ab"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--68655d3d-8802-4c47-b923-85e8d752051d",
+        "created_by_ref": "identity--37959957-6f6e-4f6a-a993-f72b75997210",
+        "created": "2021-05-14T18:58:49.203641Z",
+        "modified": "2021-08-14T01:09:35.234905Z",
+        "name": "conference",
+        "tool_version": "start",
+        "labels": [
+            "race",
+            "wait",
+            "system",
+            "just",
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "object_marking_refs": [
+            "marking-definition--0bdcc2c6-347c-40c8-b135-be5667a663ab"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1bcc9632-537e-4c04-a6c3-f1b0b065b5aa",
+        "created_by_ref": "identity--37959957-6f6e-4f6a-a993-f72b75997210",
+        "created": "2019-11-21T04:24:31.119721Z",
+        "modified": "2021-08-14T01:09:35.235155Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--2d3da4ab-770a-4a71-ba05-5d14a4c23981",
+        "target_ref": "tool--68655d3d-8802-4c47-b923-85e8d752051d",
+        "start_time": "2022-01-24T08:14:15.633506Z",
+        "stop_time": "2022-06-15T17:50:08.134345Z",
+        "object_marking_refs": [
+            "marking-definition--0bdcc2c6-347c-40c8-b135-be5667a663ab"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--37959957-6f6e-4f6a-a993-f72b75997210",
+        "created_by_ref": "identity--37959957-6f6e-4f6a-a993-f72b75997210",
+        "created": "2021-01-09T04:53:25.179307Z",
+        "modified": "2021-10-17T15:33:41.353896Z",
+        "name": "Freeman Inc",
+        "description": "Virtual next generation benchmark",
+        "roles": [
+            "onto",
+            "force",
+            "old",
+            "process",
+            "strategy"
+        ],
+        "identity_class": "unknown",
+        "sectors": [
+            "government-national",
+            "transportation",
+            "infrastructure",
+            "entertainment",
+            "government-public-services"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--0bdcc2c6-347c-40c8-b135-be5667a663ab"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--0bdcc2c6-347c-40c8-b135-be5667a663ab",
+        "created": "2021-08-14T01:09:35.233963Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1b1f4ecf-83db-4fe9-8c22-38a5f88b6694",
+                "name": "Deal certainly rather appear present safe",
+                "create_date_time": "2021-08-14T01:08:08.429946Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.429783Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

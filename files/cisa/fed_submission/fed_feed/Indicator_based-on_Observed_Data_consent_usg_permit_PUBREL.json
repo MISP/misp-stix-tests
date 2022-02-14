@@ -1,0 +1,210 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--982a66a1-5e34-44b8-93bf-a5095f2db167",
+        "created_by_ref": "identity--a50116b7-6340-4a31-8b4c-058a7d669520",
+        "created": "2022-05-27T06:00:59.851949Z",
+        "modified": "2023-02-15T17:55:46.273647Z",
+        "description": "Another up company last animal.",
+        "indicator_types": [
+            "anonymization"
+        ],
+        "pattern": "(([ipv4-addr:defanged = false]) AND [directory:path_enc >= 'EUC-KR'] REPEATS 5 TIMES)",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-03-20T11:57:36.743577Z",
+        "valid_until": "2022-01-01T12:47:25.511005Z",
+        "external_references": [
+            {
+                "source_name": "be",
+                "description": "Heavy someone purpose.",
+                "hashes": {
+                    "MD5": "327769ea8d03ce2b25b671369bce3987",
+                    "SHA-1": "9be628e94675ed128a3fa61cdcb17f4f1d3277ad",
+                    "SHA-256": "1ce390fc7233e63199f11a64d152a68875f59a30ae83dc21a655d114df442285",
+                    "SHA-512": "a25293ed6d1eb0d99ca3bccbf678ef17792396e669a948252c4de2802196b05ae09329ef85964f2f6b6f8370d46765e516bbdf401feff4b4482e1e61ba82e426",
+                    "SHA3-256": "84f965aa6feb33ddc318b898b9ded7a2b81f5b039d98e53abf17fbafa6c25db0",
+                    "SHA3-512": "4be8552d793ebb76d22cf5ee628792ea07935a9d1c8707b7061e65bd98c18238858297805037f26ac03f2d407a9e845f5dc7684250a46781f2ec75f1a7842de8"
+                },
+                "external_id": "XVHmQKpPwah"
+            },
+            {
+                "source_name": "pattern",
+                "description": "Media both laugh world.",
+                "external_id": "epCUoJB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--497a5de3-052b-47b9-9360-bcd837fa4b82"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--a1772264-e034-43bc-8220-b658150dc61e",
+        "created_by_ref": "identity--a50116b7-6340-4a31-8b4c-058a7d669520",
+        "created": "2022-04-09T21:27:26.470812Z",
+        "modified": "2022-06-23T08:20:00.006511Z",
+        "first_observed": "2021-03-08T06:10:14.08411Z",
+        "last_observed": "2021-08-10T14:35:18.251822Z",
+        "number_observed": 496671910,
+        "objects": {
+            "email-addr--73d4eddc-8e77-4b68-9d44-cbeb38ebce64": {
+                "type": "email-addr",
+                "spec_version": "2.1",
+                "id": "email-addr--73d4eddc-8e77-4b68-9d44-cbeb38ebce64",
+                "value": "marshalljoy@hotmail.com"
+            }
+        },
+        "confidence": 21,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "local",
+                "description": "Some other politics rock city Mrs enter.",
+                "url": "https://www.jackson.com/",
+                "hashes": {
+                    "MD5": "b814cdf98dd9f66e555cc8913c022b60",
+                    "SHA-1": "252b09d215248aea889563333aa1a9c09fc9a7fb",
+                    "SHA-256": "24eb793e36bdcf2fe59aff81926d44285c2d00b6950e0ae09bef9bf13d6e7a16",
+                    "SHA-512": "a749a7dd27a3dcf9334767aa2e24c336c569a12f6b23dff5817035febedb9da1871299892ce2ed9ca5c4b64690d2aebaf2da685fa588cfecfe6f98c2ba3bbede",
+                    "SHA3-256": "b0a71a5261f9cefac0b58e96149432f020aed271f80ffb63065d90df06fdb632",
+                    "SHA3-512": "7a7609b7a649ce390b00d725aa88fbc5e53a76b68f69f5902fef534f767e4d740fc90d3b3ae6904931a6063f64456e4856a41e1b385b984dd9c6cef6ecd9ca10"
+                },
+                "external_id": "YCjgJrXXhUBExwrSDgxC"
+            },
+            {
+                "source_name": "inside",
+                "description": "Without may employee eye several region voice.",
+                "url": "https://norris.com/"
+            },
+            {
+                "source_name": "able",
+                "url": "http://www.simon.net/",
+                "hashes": {
+                    "MD5": "e881f54cb6be1d347f19b305ad694397",
+                    "SHA-1": "7713d840ad985a1b5477dd541906ae1453fcb82c",
+                    "SHA-256": "adcef92e21f09ee4edb8bfc2c5218231b12440cd1a42b28028beb0df5247872c",
+                    "SHA-512": "0028d44db0056cdafcbf78703bf465e1740a1fbc5149123afe5ecd04415d296b5988bec7531c8e14756f7ab15bbf7198c83b428bf5b5bbf4b02351bde2124df5",
+                    "SHA3-256": "3bdb710b4b71dd740ce751e2b0c05ed07dd0c35cf259699e72cda368134a0a28",
+                    "SHA3-512": "16f4dcf909f5b29a62171449cb881c266a853e5ca687cffd9c29dd757a241b5ed1011c1e7ef525993ec7ae8c5ace7b01ffadaaa6adbc0463c4fbc940df97b138"
+                },
+                "external_id": "TgMMJSLxtXqzQCjDu"
+            },
+            {
+                "source_name": "radio",
+                "description": "Drop investment ability.",
+                "url": "http://pearson.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--497a5de3-052b-47b9-9360-bcd837fa4b82"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ceacbeca-10e3-4d86-ad3e-5134aa5d44fc",
+        "created_by_ref": "identity--a50116b7-6340-4a31-8b4c-058a7d669520",
+        "created": "2022-01-10T16:30:36.319818Z",
+        "modified": "2022-06-28T13:26:46.439312Z",
+        "relationship_type": "based-on",
+        "description": "I back visit event start. Significant outside party bank mention candidate. Information three seat forget affect tell.",
+        "source_ref": "indicator--982a66a1-5e34-44b8-93bf-a5095f2db167",
+        "target_ref": "observed-data--a1772264-e034-43bc-8220-b658150dc61e",
+        "start_time": "2021-05-22T22:52:10.379746Z",
+        "labels": [
+            "class",
+            "water",
+            "size",
+            "test",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--497a5de3-052b-47b9-9360-bcd837fa4b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a50116b7-6340-4a31-8b4c-058a7d669520",
+        "created_by_ref": "identity--a50116b7-6340-4a31-8b4c-058a7d669520",
+        "created": "2020-10-25T19:07:42.774397Z",
+        "modified": "2021-08-14T01:08:37.38781Z",
+        "name": "Stevenson LLC",
+        "sectors": [
+            "entertainment",
+            "nuclear",
+            "non-profit",
+            "transportation"
+        ],
+        "contact_information": "9446 James Track Suite 616\nNew Mariamouth, NY 21416",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "him",
+                "description": "Impact really against left.",
+                "hashes": {
+                    "MD5": "58f8ac306b9e75edb38a1b4d70aee517",
+                    "SHA-1": "c7a90b7e6c9d9c42a7c1a0bc94dda513d454a951",
+                    "SHA-256": "c6bc5127b1388143b8a27c322fd552dd8d429ce4fc8bb4446fa9aa027a099ba4",
+                    "SHA-512": "0d37f4151618de102d1a2a69f340a4afa644c1e3e73ec4c98420143b35ff0b8e85e34b16e417e9ab94844bd21f695daa25c58c49efb3b004953d311fee7d4e5a",
+                    "SHA3-256": "e235a049032dc4ddfff491ea43e56d7b1b86128b7405249ea49c2e0649963260",
+                    "SHA3-512": "12ee9dd552a17f18b19b5e62ca883c1e0f012330c27e652a9de72d1ed6890bb73eb6432129b46dc7b82077fb4b7148ba484a7125c19dddc0e0a03297d1bdef53"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--497a5de3-052b-47b9-9360-bcd837fa4b82"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--497a5de3-052b-47b9-9360-bcd837fa4b82",
+        "created": "2021-08-14T01:08:37.383835Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f680acaf-ba5a-4af9-ba41-d819400a97d1",
+                "name": "Decide court anything one doctor sound serve nation",
+                "create_date_time": "2021-08-14T01:08:08.428211Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.428042Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

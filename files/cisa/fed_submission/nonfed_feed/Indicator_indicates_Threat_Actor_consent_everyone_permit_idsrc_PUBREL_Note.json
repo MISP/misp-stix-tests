@@ -1,0 +1,260 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--618e03a4-f5c6-486e-8adf-bfbd92cfa330",
+        "created_by_ref": "identity--ef63c6f9-d080-4086-98f5-49a5f8e4582d",
+        "created": "2021-04-21T03:40:31.766469Z",
+        "modified": "2021-12-17T15:26:59.700307Z",
+        "name": "argue",
+        "indicator_types": [
+            "unknown"
+        ],
+        "pattern": "[network-traffic:dst_byte_count <= 101193] FOLLOWEDBY [windows-registry-key:key <= 'hzBkMUoPgChv'] FOLLOWEDBY ([domain-name:value < 'walter.biz'] START t'2021-01-23T21:02:21.755971Z' STOP t'2021-11-01T21:50:23.798576Z')",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-03-15T00:15:17.131156Z",
+        "valid_until": "2021-02-12T15:50:09.534716Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "UpmLzHmRgdywbC",
+                "phase_name": "TRxCbdjsapuHbigkgK"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "labels": [
+            "year",
+            "offer",
+            "middle",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "image",
+                "description": "Week when summer attack.",
+                "url": "http://www.manning.com/",
+                "external_id": "VRVklsBUDhApZObr"
+            },
+            {
+                "source_name": "computer",
+                "external_id": "WxmijPF"
+            },
+            {
+                "source_name": "successful",
+                "description": "Service happy service tree tend.",
+                "url": "https://henderson.com/",
+                "hashes": {
+                    "MD5": "a41bdc3e7a10f4c5c8484eac20f3a1ea",
+                    "SHA-1": "73f2c04800fe22ab0063f759e3acdbffc9902326",
+                    "SHA-256": "cd911fed8d0529988e90b7b84e69f68338d391f42f792b56eede33b0d83f8d81",
+                    "SHA-512": "ff45cf766628346dbabe649ca268d0827169a931475f5ff3dec97c954c2fe059c313d81c1a074ce9b4387b2bc4e73563b902634975b1952b436d4e7c406ff53e",
+                    "SHA3-256": "96947126272a6ab7feb56f503d712315b871a61fcfb72d250389e9d3276cde0d",
+                    "SHA3-512": "faa6cbbfb7940919ac35a6b87c62dc1b1074aff0a3857f9360da00a44e90fb7d794817d3969a641483a83987b31825ab3b28fa61ddf95c11b83882dd4bb14dd9"
+                }
+            },
+            {
+                "source_name": "effect",
+                "url": "http://www.roberts.com/",
+                "hashes": {
+                    "MD5": "509f7e5b390d392e03dafb701596bce1",
+                    "SHA-1": "0a325425d24179200ff0ccef5e2f56d539d2d681",
+                    "SHA-256": "49f62f70f1ac7b8444bbbb4c1880c670f3f75bd2187c4fb7b55cde0bf8a6e7ed",
+                    "SHA-512": "143d0b5df7181433cf7357acecc3895a797e84971db1844f8971ae98efeeb485518c9d15146fd198fd5407d0f584fb999894f8e3e6ce32ee2bd3160f4d408401",
+                    "SHA3-256": "c04cbf6b8b42e367217d903f00ab88a0640fe0c1f3cb2e3a670c5314992f42c6",
+                    "SHA3-512": "fb9ed9b332770ab7d366bcd48d12bb55311d29cd65ef36738be461e9a6d29c51759a148454819f211b7c0c7112b487f571f94e75eaf5c0a48d168c7d0e985435"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--7950c312-5dac-4939-b82b-2a524b95eb31",
+        "created_by_ref": "identity--ef63c6f9-d080-4086-98f5-49a5f8e4582d",
+        "created": "2022-04-12T13:37:54.497534Z",
+        "modified": "2022-11-22T19:12:51.433431Z",
+        "name": "market",
+        "description": "Enjoy carry late writer weight part memory.",
+        "aliases": [
+            "science",
+            "hear"
+        ],
+        "last_seen": "2021-08-05T05:20:03.156555Z",
+        "goals": [
+            "quality",
+            "than",
+            "institution"
+        ],
+        "sophistication": "intermediate",
+        "primary_motivation": "revenge",
+        "labels": [
+            "building",
+            "claim",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "seven",
+                "description": "That speak north.",
+                "url": "https://castro.com/"
+            },
+            {
+                "source_name": "short",
+                "description": "About year stuff half why.",
+                "external_id": "KLdxXZaYpGMGUaVxmvvL"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--0515e8b0-e51e-4b51-9fcc-0161c8304f2b",
+        "created_by_ref": "identity--ef63c6f9-d080-4086-98f5-49a5f8e4582d",
+        "created": "2020-10-26T12:32:58.761451Z",
+        "modified": "2021-08-14T01:08:34.402673Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--618e03a4-f5c6-486e-8adf-bfbd92cfa330",
+        "target_ref": "threat-actor--7950c312-5dac-4939-b82b-2a524b95eb31",
+        "stop_time": "2021-06-13T11:57:33.056354Z",
+        "labels": [
+            "low",
+            "job",
+            "open",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--6a04de4e-4afc-4540-907e-cd8eb9638c9a",
+        "created_by_ref": "identity--ef63c6f9-d080-4086-98f5-49a5f8e4582d",
+        "created": "2021-11-20T01:37:59.422232Z",
+        "modified": "2022-01-06T08:31:04.031564Z",
+        "content": "Sound number four trouble debate. Able fine board somebody. Coach people nothing international sea student. Pretty make take ball.",
+        "authors": [
+            "wall",
+            "never"
+        ],
+        "object_refs": [
+            "indicator--618e03a4-f5c6-486e-8adf-bfbd92cfa330",
+            "threat-actor--7950c312-5dac-4939-b82b-2a524b95eb31",
+            "relationship--0515e8b0-e51e-4b51-9fcc-0161c8304f2b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 94,
+        "external_references": [
+            {
+                "source_name": "interview",
+                "description": "Single heavy research explain.",
+                "url": "http://smith.com/",
+                "hashes": {
+                    "MD5": "de7038e6927798409c4531989d602fa1",
+                    "SHA-1": "9d42844178ba1661fc48533462c06590ed0fc81b",
+                    "SHA-256": "298a9020eae73cf9957c484f5a44f98b5c5d31d2709bfea5c97389a2cb4a2337",
+                    "SHA-512": "c80e9f6bd4d1e94c5de48ce7eaf7544a664983e0d57c0317ac6f57504ddadb34741d01c62668d5d84299c0b46d0f4ff64cec09b5c19a86e2c763de094300911d",
+                    "SHA3-256": "3441de0e6dc5d8133a7c7e6a278bd6ce6e09bb8f70910af99d46cd8c44a5589c",
+                    "SHA3-512": "7916019bf68981ff85b9c55b78b7c4dcd82b9244815cae21dde44cf5ee2080723bbb62f946449ab72571c03b820202ed0281b768a9b4bb233c46a3457b2b46e8"
+                },
+                "external_id": "NFNLZZzHglbHXOOVQUOC"
+            },
+            {
+                "source_name": "throw",
+                "url": "http://www.jones.com/",
+                "hashes": {
+                    "MD5": "b079074f0277af25e3945d5b2c846612",
+                    "SHA-1": "b7c355d76013aad97b0f9bafc2948777a43344d2",
+                    "SHA-256": "c0d975deff32be4e0af33cccfb57eff283eb3a7059a865ea0ccc9ce47b57a370",
+                    "SHA-512": "487af587b34034b3725527753ae44d190f8bdf0a3cc0174d45ed57654cb57d82d479e59e5cdce353df5fe15e9d6f2e1659133d79c2ea7d91416c9d11d920a335",
+                    "SHA3-256": "f97d611bc95cec0829645554c8db49c9b00b650284ff538d64b92457d14f6b70",
+                    "SHA3-512": "fc76f67823eee5a6bbe0ebdd660ad6c11572f2edf6c2f34eb524fabb0a28a7fff7d8c737a0c1a946997388bf6e5dea633422922c56e99039d091e81006855ec9"
+                },
+                "external_id": "NpRvpZdMTAuFcgcne"
+            },
+            {
+                "source_name": "money",
+                "url": "https://www.chambers.com/",
+                "hashes": {
+                    "MD5": "bc650a3e96fda4c49e394a78fce0fd42",
+                    "SHA-1": "42e385c07c281c777c51f913f0a3d10b1da183b7",
+                    "SHA-256": "f66c278dd29c8c3bfda25cce3ef2f794d786cf2f28666dbdfc121745c8deb7a4",
+                    "SHA-512": "469a7e27053e890c662cf0026f9435344eac5f6f2f46e611ee7209ce588caedf2b79759672f5138a18c0daf02b80b457a92f88fcb0431c3fb14de2442309f43c",
+                    "SHA3-256": "70bf95c802d778615075cdb1a3d784bccbd4820a23711208fa52f9063e5cc41a",
+                    "SHA3-512": "84aecfe4dad25e75f1a3f6d235960bdfebabc7c2d7d93d1e3d7d84046ec2fa414fe1d575aa1e23edbd40b21ec1e277524e12f199349210159cc91e501f6acb9c"
+                }
+            },
+            {
+                "source_name": "true",
+                "external_id": "urmBghEykzNqmjs"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ef63c6f9-d080-4086-98f5-49a5f8e4582d",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-08-29T08:00:00.193991Z",
+        "modified": "2021-08-14T01:08:34.407314Z",
+        "name": "Harris, Reynolds and Li",
+        "identity_class": "system",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "price",
+                "url": "http://www.dunn-bridges.info/",
+                "hashes": {
+                    "MD5": "db30211b35111c3d3af73bc8e58b0c7d",
+                    "SHA-1": "e3ec4c1cfb726de3f896f4ae5cc24e4952607668",
+                    "SHA-256": "4612677a3dc234c116d9e348ed14a40e4eebded82aa5db2599c4108c424b90c5",
+                    "SHA-512": "937bd697c1e1e8c4303188451acaff2a9c6806b33c4961ec1136d2fda8e0ec5fbe1deca9fbd305c4820195d7a8cd94202d54e815d3e87670edd354c18b31ef9b",
+                    "SHA3-256": "907866df0f6680c87d94b8cba3ae39f0c550dbee482470a0ef502b78d4ca8580",
+                    "SHA3-512": "92bfc3471975f186f1f32fdd090b3edc0b13ac3f4aa3dcfc9319ae872cf3fcf4ef52170170ca7ffeed49335451b14b0f5f3008f13730706f2e93f54cc14c0f6f"
+                }
+            },
+            {
+                "source_name": "late",
+                "description": "Ability find summer.",
+                "url": "https://www.wells.com/",
+                "external_id": "wODpQGcqqnj"
+            },
+            {
+                "source_name": "common",
+                "description": "People involve event eat.",
+                "url": "https://hill.info/",
+                "hashes": {
+                    "MD5": "8317c0944f879935eb4594a8547d3a64",
+                    "SHA-1": "4b6d9630af1e7b230acb40e5895009987e95c7de",
+                    "SHA-256": "14bc9c412eab38b786efd5816e49396f1893cf9491a10386b1921d2075c45512",
+                    "SHA-512": "97a5200877c19f8abb58aabe1b262ab15a90ebf6ae6d762a7a53dcd55b14ea26e63c205caad8b150ad01b94f2ce337cb7ccea4dc44950d22d1b6ebca0dbb63f8",
+                    "SHA3-256": "331fc1fe9fb9640cad0d99a9504d2658da39ef42c3586515bf15df09afb6edf0",
+                    "SHA3-512": "8372057f04742800835099a0f18c0ce6328fb57009ff987dd776f21d1d67c875497cb0040c9fa6a408b72f6d2ae2117158f8d3b04d559a22de1bc0d0241ff95e"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

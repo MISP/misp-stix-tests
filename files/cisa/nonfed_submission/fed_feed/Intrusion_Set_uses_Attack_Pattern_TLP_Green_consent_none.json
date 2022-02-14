@@ -1,0 +1,161 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--72ae2794-23ac-407b-a4ca-9174724704a0",
+        "created_by_ref": "identity--37f81fbe-7c4c-40d2-8b44-536e5da95851",
+        "created": "2021-12-08T22:35:39.720793Z",
+        "modified": "2022-01-16T10:30:34.439314Z",
+        "name": "really",
+        "first_seen": "2020-07-23T22:10:36.033441Z",
+        "last_seen": "2021-02-28T01:22:09.944041Z",
+        "resource_level": "government",
+        "secondary_motivations": [
+            "coercion",
+            "ideology",
+            "ideology",
+            "ideology"
+        ],
+        "labels": [
+            "age",
+            "able",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--fdbbceb9-6a7d-4371-be21-4b0a8942c59e"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--0c383eb9-d5f4-4dfc-aa54-d926d31a313d",
+        "created_by_ref": "identity--37f81fbe-7c4c-40d2-8b44-536e5da95851",
+        "created": "2021-06-30T14:39:41.329669Z",
+        "modified": "2021-11-21T06:46:13.75278Z",
+        "name": "decide",
+        "description": "Price dark happen thousand financial lot.",
+        "confidence": 65,
+        "object_marking_refs": [
+            "marking-definition--fdbbceb9-6a7d-4371-be21-4b0a8942c59e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--45dc7ee3-93db-47bd-9588-076562d26f90",
+        "created_by_ref": "identity--37f81fbe-7c4c-40d2-8b44-536e5da95851",
+        "created": "2021-05-07T16:20:03.83144Z",
+        "modified": "2022-03-28T03:25:03.601909Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--72ae2794-23ac-407b-a4ca-9174724704a0",
+        "target_ref": "attack-pattern--0c383eb9-d5f4-4dfc-aa54-d926d31a313d",
+        "start_time": "2022-02-26T23:16:14.251996Z",
+        "stop_time": "2022-12-03T05:22:22.117665Z",
+        "confidence": 26,
+        "external_references": [
+            {
+                "source_name": "north",
+                "url": "http://www.kelley-sharp.com/",
+                "external_id": "VilXxatgLnQaLVIoo"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fdbbceb9-6a7d-4371-be21-4b0a8942c59e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--fdbbceb9-6a7d-4371-be21-4b0a8942c59e",
+        "created_by_ref": "identity--37f81fbe-7c4c-40d2-8b44-536e5da95851",
+        "created": "2021-08-14T01:08:57.488212Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3d6ad3e0-0112-4a6d-8546-447c0e169799",
+                "name": "Space side determine future",
+                "create_date_time": "2021-08-14T01:08:08.419249Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--37f81fbe-7c4c-40d2-8b44-536e5da95851",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-29T18:06:42.249983Z",
+        "modified": "2022-02-16T01:37:01.862851Z",
+        "name": "KitchenExpertAuthority",
+        "description": "Horizontal asymmetric synergy",
+        "roles": [
+            "accept"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 4,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fdbbceb9-6a7d-4371-be21-4b0a8942c59e"
+        ]
+    }
+]

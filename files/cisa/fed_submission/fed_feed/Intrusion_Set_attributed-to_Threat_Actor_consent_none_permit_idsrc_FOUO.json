@@ -1,0 +1,250 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--bf5a02e6-4a5a-4bb3-bae2-2ab6d088786a",
+        "created_by_ref": "identity--927ca0a0-9cd4-4757-9387-eaa726a61c3d",
+        "created": "2020-08-25T09:05:25.369428Z",
+        "modified": "2021-08-14T01:08:51.597957Z",
+        "name": "language",
+        "aliases": [
+            "fall",
+            "watch",
+            "event",
+            "item"
+        ],
+        "first_seen": "2022-06-03T21:15:24.019025Z",
+        "primary_motivation": "dominance",
+        "secondary_motivations": [
+            "dominance",
+            "organizational-gain",
+            "personal-satisfaction"
+        ],
+        "object_marking_refs": [
+            "marking-definition--5e2ad2e4-60a8-4d15-bb3e-d8900e720d39"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--aa2e63ee-e20d-422d-910a-59262301f3fc",
+        "created_by_ref": "identity--927ca0a0-9cd4-4757-9387-eaa726a61c3d",
+        "created": "2022-03-03T17:18:12.823621Z",
+        "modified": "2022-06-04T05:06:54.952891Z",
+        "name": "own",
+        "description": "Yeah a stage outside crime himself.",
+        "threat_actor_types": [
+            "terrorist",
+            "unknown",
+            "crime-syndicate"
+        ],
+        "aliases": [
+            "begin"
+        ],
+        "goals": [
+            "front",
+            "position"
+        ],
+        "secondary_motivations": [
+            "unpredictable"
+        ],
+        "confidence": 97,
+        "external_references": [
+            {
+                "source_name": "quickly",
+                "description": "Exist baby quality which society similar drop almost.",
+                "external_id": "BWmApm"
+            },
+            {
+                "source_name": "property",
+                "description": "Feeling about service respond student senior stay similar.",
+                "url": "https://www.berry.com/",
+                "external_id": "aJrFFvOA"
+            },
+            {
+                "source_name": "relate",
+                "url": "https://esparza.info/",
+                "external_id": "fbpaxbdcoDXBMzEts"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--5e2ad2e4-60a8-4d15-bb3e-d8900e720d39"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--271bdc51-a9b6-41e0-a2ed-2c78c089e49d",
+        "created_by_ref": "identity--927ca0a0-9cd4-4757-9387-eaa726a61c3d",
+        "created": "2020-09-30T03:47:47.018967Z",
+        "modified": "2021-08-14T01:08:51.598996Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "intrusion-set--bf5a02e6-4a5a-4bb3-bae2-2ab6d088786a",
+        "target_ref": "threat-actor--aa2e63ee-e20d-422d-910a-59262301f3fc",
+        "start_time": "2020-11-30T18:10:22.071813Z",
+        "labels": [
+            "ago",
+            "order",
+            "even",
+            "pfte-batch-1"
+        ],
+        "confidence": 93,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "friend",
+                "description": "Year white task quality security.",
+                "hashes": {
+                    "MD5": "bfe4999858f69ff863f27ee2a42a734e",
+                    "SHA-1": "796a30c3278066ba6cc6ee12114be49cc8a923d4",
+                    "SHA-256": "d5f021c3167bee2931db92f7ea0731f81aaf4a74b0a39f91f70d0688a3d2c191",
+                    "SHA-512": "cdf081d8076053fd349de3415a3c48c07cb5485d01d7d27680f265c37078fab53bcaab69f39020007ca1f8278d581c531ffa6a595312fc923faad83f4e824a69",
+                    "SHA3-256": "6735ec77e56e79fdfb3b13f7f2a8e2987d27d1462a1eb3065924efad6f15a872",
+                    "SHA3-512": "619bbeaf93b2303cd1533b1c84902548ee6096ee49e677f3a748072cd16258d4401324ab3e0401b62d454aa6519e81c06d91cd9b1f8bae04a76a77c229f8778c"
+                },
+                "external_id": "UijVqsFJTrpbP"
+            },
+            {
+                "source_name": "forward",
+                "hashes": {
+                    "MD5": "67c7b639c2eda87a80e035338d60698b",
+                    "SHA-1": "c4d9b649a2710d00f4cdbcac1221a0bf19e56666",
+                    "SHA-256": "fb7b02d1dfe0682f3c8adf643a9a32e6f41ca469924b928387c1702bfbc03ca0",
+                    "SHA-512": "73e86d49e401d04cd57b296491eaa554e97df177f993bb6b56af2d74903b1b1eada6c3fffb7b635c6aedbe409d4dc6e1cd63449e9befa63c96a8c2b12787d59e",
+                    "SHA3-256": "6d5331fd0e96d0faf909d7dbcb2f196113136123d6fdd51d3df4fb4ffc748efa",
+                    "SHA3-512": "1eb6b6040be3ef05a3c89e9eb1c48e6538bccf49f308f832739aa49339ea8cf42af2a0b70b1752bc6513b9c2510d970fd9478bd4ba4ac73c616c34f0d3fbbf72"
+                },
+                "external_id": "vCSYQxBApVeMdR"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--5e2ad2e4-60a8-4d15-bb3e-d8900e720d39"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--927ca0a0-9cd4-4757-9387-eaa726a61c3d",
+        "created_by_ref": "identity--927ca0a0-9cd4-4757-9387-eaa726a61c3d",
+        "created": "2021-09-21T19:21:03.055929Z",
+        "modified": "2022-04-20T03:24:29.535955Z",
+        "name": "Proctor Group",
+        "roles": [
+            "authority",
+            "notice",
+            "traditional"
+        ],
+        "sectors": [
+            "agriculture"
+        ],
+        "external_references": [
+            {
+                "source_name": "every",
+                "description": "That fill yourself agency kind right will.",
+                "url": "https://www.williams-allen.net/",
+                "hashes": {
+                    "MD5": "0c397e025e1827d31d572c9457fce920",
+                    "SHA-1": "01207571d7fda084042c2fd19efbc937108500be",
+                    "SHA-256": "67ebf4163f9fd585e73f7c74fbc416195fc350fe85698d24ff3dd325e2d349f4",
+                    "SHA-512": "41eb010793611f1b330888041e9fc1832740437dffd44ef0d305c4fb5dec70a2f4d652ccfedc89784a83ef893f8ced93f47b5ba8bfb83ff30bd94e419dec34c0",
+                    "SHA3-256": "4b1327c5bd24a0c7bbe965e051fdc150c81236ab83c903f314d8e5e147dd1b44",
+                    "SHA3-512": "29fc93f973cd3aca4e8a97ad12d49b2b16e4cc012dd596c1c918596687f7cfeececdde09f23c4f5828389aa4eb41b9a65085cf8bafca0b4d1f01e37cbcaf1f5c"
+                }
+            },
+            {
+                "source_name": "side",
+                "url": "http://www.graham-wilson.net/",
+                "external_id": "nwcovPUYYQfokwzCFGh"
+            },
+            {
+                "source_name": "professional",
+                "url": "http://www.davis.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--5e2ad2e4-60a8-4d15-bb3e-d8900e720d39"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--5e2ad2e4-60a8-4d15-bb3e-d8900e720d39",
+        "created": "2021-08-14T01:08:51.597262Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1a59cf40-939d-4572-bc52-0472b77923dd",
+                "name": "Run main democratic",
+                "create_date_time": "2021-08-14T01:08:08.425934Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

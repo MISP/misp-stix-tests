@@ -1,0 +1,206 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--155e5238-a4bf-4db7-a51f-2ebb49ce1f57",
+        "created_by_ref": "identity--a6291665-b032-4e9b-948c-19dfe57d7f8d",
+        "created": "2021-09-23T05:35:11.004022Z",
+        "modified": "2022-02-06T18:11:04.253751Z",
+        "name": "another",
+        "description": "Must example heart.",
+        "goals": [
+            "Sing military age could.",
+            "Raise student want law.",
+            "Most offer agent whose."
+        ],
+        "resource_level": "team",
+        "labels": [
+            "best",
+            "list",
+            "seek",
+            "pfte-batch-1"
+        ],
+        "confidence": 69,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "so",
+                "url": "http://www.reid.com/",
+                "hashes": {
+                    "MD5": "3e90bb9562236328f5fd12ba3cd9f856",
+                    "SHA-1": "ab7cff9a0465bc5ab3bbbb83d3151fe542192459",
+                    "SHA-256": "f4a701e2d1a0133e1bd3f027f8b44d36bf288c362335a1a22c68aef93266bcc8",
+                    "SHA-512": "0649a58785558cd2e6afded484eaac5fcd2a753d71f4bc4c0decc3bd7e3305fc861ed0cf809e3ec8e5b4d2518a78961ac334659397ca634adf072acffaab0641",
+                    "SHA3-256": "17a4a0f4e2b6de9daf165f65ff66244832cc4c9e72431327e481375a089ebb28",
+                    "SHA3-512": "c48a1fcee277ff63d84904332adb37da5ee3267ea6c32bb49590c75c2f0079298b6b2aed20289847677929244a6ab2a8f64a0ec8e28bda806949d326c76f5c4d"
+                }
+            },
+            {
+                "source_name": "law",
+                "description": "Pressure degree fast home opportunity happy return the.",
+                "url": "http://williams.com/",
+                "external_id": "usITohEclQPPYaZF"
+            },
+            {
+                "source_name": "drug",
+                "hashes": {
+                    "MD5": "853bff1ebf52e59c42a0d5d36e208419",
+                    "SHA-1": "97203188ddf27e1a6e96d1ccb51f371dc58265ab",
+                    "SHA-256": "fe39fadab3f276274f1a54d1bfe944ea58169504802f5a4072a52e0f5f9a56aa",
+                    "SHA-512": "2ac0ecfab9be42fc69e46d4a2cf4c12761eee7144451a9f0a6b387bcd9dfec6b8691593ae911f28b737921f10b6ea55eb95898d02da71e5513d90db35135f131",
+                    "SHA3-256": "7f8a1530b5ed7cd66e1a112bd231d0a6c60d51b5e7dabaf31dad22925d64b570",
+                    "SHA3-512": "ec82058b2398e0214e379a3a9bd1b7132684c8e08f4e28dfce366f84ffd9ef44ebb0a61b53c58220db687d5f6fdd1e75d192bede17b573dd79a7fb5a00e145ad"
+                },
+                "external_id": "luWYjZavTM"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--ead9fc3a-863e-488a-aee8-3db2ecd8326b"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--8c782ed0-bc33-4619-906b-6c4cea99abbe",
+        "created_by_ref": "identity--a6291665-b032-4e9b-948c-19dfe57d7f8d",
+        "created": "2021-03-12T10:06:12.613211Z",
+        "modified": "2021-09-06T16:31:18.504355Z",
+        "name": "natural",
+        "description": "Because my second theory itself act.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "way",
+            "medical",
+            "anything",
+            "plant",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--ead9fc3a-863e-488a-aee8-3db2ecd8326b"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b390fa2e-ddcc-47b5-a5ad-9d8989434e10",
+        "created_by_ref": "identity--a6291665-b032-4e9b-948c-19dfe57d7f8d",
+        "created": "2022-08-01T21:59:41.843836Z",
+        "modified": "2023-07-09T21:27:19.351634Z",
+        "relationship_type": "uses",
+        "description": "Present thank value billion real worry despite writer. Clear ability state authority system according. Security garden heavy moment consider under.",
+        "source_ref": "intrusion-set--155e5238-a4bf-4db7-a51f-2ebb49ce1f57",
+        "target_ref": "attack-pattern--8c782ed0-bc33-4619-906b-6c4cea99abbe",
+        "start_time": "2021-05-14T16:30:03.291853Z",
+        "stop_time": "2022-03-15T22:15:58.862306Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ead9fc3a-863e-488a-aee8-3db2ecd8326b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a6291665-b032-4e9b-948c-19dfe57d7f8d",
+        "created_by_ref": "identity--a6291665-b032-4e9b-948c-19dfe57d7f8d",
+        "created": "2021-10-10T18:21:28.795775Z",
+        "modified": "2022-08-21T23:36:58.995857Z",
+        "name": "Fowler LLC",
+        "description": "Cross-group human-resource product",
+        "identity_class": "group",
+        "sectors": [
+            "pharmaceuticals"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--ead9fc3a-863e-488a-aee8-3db2ecd8326b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--ead9fc3a-863e-488a-aee8-3db2ecd8326b",
+        "created": "2021-08-14T01:08:57.931491Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-57e7d098-4c26-4a4d-bfaa-3ee9c5e47adc",
+                "name": "Customer hot subject fight customer",
+                "create_date_time": "2021-08-14T01:08:08.428617Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

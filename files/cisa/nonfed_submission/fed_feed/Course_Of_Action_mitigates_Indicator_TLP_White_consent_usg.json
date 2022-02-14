@@ -1,0 +1,175 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--9748d0ce-b553-4a0f-a953-c3d74a850b48",
+        "created_by_ref": "identity--fa3ffc7e-7e28-4432-b57e-ef2f5699d850",
+        "created": "2021-10-14T06:58:43.303085Z",
+        "modified": "2022-05-26T16:48:46.339214Z",
+        "name": "trip",
+        "description": "Miss state outside forget let.",
+        "confidence": 84,
+        "object_marking_refs": [
+            "marking-definition--8ac95091-a923-4001-aa1b-c16c3906c2fb"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--e957a224-4650-46ff-ac09-55091e88f409",
+        "created_by_ref": "identity--fa3ffc7e-7e28-4432-b57e-ef2f5699d850",
+        "created": "2022-03-27T09:06:10.491601Z",
+        "modified": "2022-06-22T08:56:12.46845Z",
+        "name": "company",
+        "pattern": "[email-addr:defanged NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-01-26T05:21:18.190931Z",
+        "valid_until": "2022-04-13T13:25:36.548908Z",
+        "labels": [
+            "then",
+            "age",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "collection",
+                "description": "Enjoy senior activity box."
+            },
+            {
+                "source_name": "offer",
+                "description": "Produce land now son home political.",
+                "hashes": {
+                    "MD5": "a3ab0e2b96ff90f80f97a52046c1c505",
+                    "SHA-1": "e17ef57287709c429a9d5e5d70caf3a2ad595424",
+                    "SHA-256": "d6c3086b998b5760042fa716ff0777bc38095aa2aa14cfd4e461277ec02807af",
+                    "SHA-512": "7be2363ed80662bb51b0426ab3c4823d484f8bb0e31fd9230fc4f10c9644eb7b58b3e721bfe1937105ab97b9412a2f5c03203221bf35d268a8a7fedc175e277c",
+                    "SHA3-256": "2e21096134c6915762df0031cbb98fb130344c991b3150b6eba4fa3479335015",
+                    "SHA3-512": "bb91ac9b11af8b64de578a248462115ccd88800e88f731629faa212525cf860aef3674a7bba539be7be1d9f4cd472d2da73d6c9141da70d577f0c357d7b8c131"
+                },
+                "external_id": "ljetevKqmBNRgspnCrmT"
+            },
+            {
+                "source_name": "performance",
+                "description": "Whether focus bag story girl Congress traditional.",
+                "hashes": {
+                    "MD5": "9b253e06119dc7893fe7740d1cf77978",
+                    "SHA-1": "e6cedb51b3d43068b2c2acf36b7d3134a439053a",
+                    "SHA-256": "bd4ab0d820a0fa83578bc16a94ffe9845f78e1d85b2f10f57228dcdeb85dfb2d",
+                    "SHA-512": "a82042060c043dba3cd33e2ec966db36b3bf99eff69c2cb61f4d898c4e770796d05e6a7ff9532b59268a9c6207acf71fd241a2b646658ef287830920b03ca69f",
+                    "SHA3-256": "3e78c8148dc2d9116cd2bcfcd4ab2a54c87d6167e9989a840d17efe26a3ba61f",
+                    "SHA3-512": "c2a4a55061937b70ad74df002a3ce04ae9453c9627905a011e58f6b55dd7f966e80ab51dc8a5f4f5cb21fcfe81e4cbc4dc216342e72e7cc483e42b68494d02e4"
+                },
+                "external_id": "SNeTbwTIujTqia"
+            },
+            {
+                "source_name": "talk",
+                "url": "http://barron.net/"
+            },
+            {
+                "source_name": "spring",
+                "description": "Travel often strong economic.",
+                "external_id": "DXtzWUCxMIdDWtYpg"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8ac95091-a923-4001-aa1b-c16c3906c2fb"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--3efdd250-9a47-4bbd-935d-7528c4d7ec9d",
+        "created_by_ref": "identity--fa3ffc7e-7e28-4432-b57e-ef2f5699d850",
+        "created": "2021-11-27T10:14:18.11815Z",
+        "modified": "2021-12-15T05:17:10.199492Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--9748d0ce-b553-4a0f-a953-c3d74a850b48",
+        "target_ref": "indicator--e957a224-4650-46ff-ac09-55091e88f409",
+        "stop_time": "2021-07-23T02:52:46.601156Z",
+        "confidence": 63,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--8ac95091-a923-4001-aa1b-c16c3906c2fb"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--8ac95091-a923-4001-aa1b-c16c3906c2fb",
+        "created_by_ref": "identity--fa3ffc7e-7e28-4432-b57e-ef2f5699d850",
+        "created": "2021-08-14T01:08:23.347978Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--fa3ffc7e-7e28-4432-b57e-ef2f5699d850",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-16T10:55:23.28056Z",
+        "modified": "2021-08-14T01:08:23.350389Z",
+        "name": "Gibbs LLC",
+        "roles": [
+            "just"
+        ],
+        "contact_information": "9877 Gibson Flat Suite 940\nPort Glenda, PA 52464",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 86,
+        "object_marking_refs": [
+            "marking-definition--8ac95091-a923-4001-aa1b-c16c3906c2fb"
+        ]
+    }
+]

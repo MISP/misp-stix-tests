@@ -1,0 +1,210 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--177185d9-c89b-4367-9417-16c0cfc030a7",
+        "created_by_ref": "identity--6bc4d767-045d-4d7f-9c87-2730c141342d",
+        "created": "2021-08-03T14:11:21.822894Z",
+        "modified": "2022-03-27T23:32:06.13223Z",
+        "name": "data",
+        "aliases": [
+            "every",
+            "interview",
+            "include",
+            "individual",
+            "involve"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "last_seen": "2021-03-21T21:27:40.958385Z",
+        "labels": [
+            "office",
+            "could",
+            "good",
+            "country",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7d91eaef-92bb-4523-a106-fcb73f0ea620"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--34fb3f84-98a5-4ab8-a730-36119d5a0ddc",
+        "created_by_ref": "identity--6bc4d767-045d-4d7f-9c87-2730c141342d",
+        "created": "2021-09-10T03:11:58.83489Z",
+        "modified": "2022-05-02T00:10:05.709701Z",
+        "name": "statement",
+        "infrastructure_types": [
+            "phishing",
+            "routers-switches",
+            "firewall"
+        ],
+        "aliases": [
+            "energy",
+            "cultural",
+            "land",
+            "live",
+            "begin"
+        ],
+        "first_seen": "2020-11-13T08:14:56.774626Z",
+        "confidence": 59,
+        "object_marking_refs": [
+            "marking-definition--7d91eaef-92bb-4523-a106-fcb73f0ea620"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--897bbba0-4918-40e7-a862-838df476762b",
+        "created_by_ref": "identity--6bc4d767-045d-4d7f-9c87-2730c141342d",
+        "created": "2021-01-13T05:01:25.911139Z",
+        "modified": "2021-08-14T01:08:38.513238Z",
+        "relationship_type": "communicates-with",
+        "description": "Loss various fish around fact. Close follow along sister step budget. Question answer ok trouble. Since be record particular.",
+        "source_ref": "infrastructure--177185d9-c89b-4367-9417-16c0cfc030a7",
+        "target_ref": "infrastructure--34fb3f84-98a5-4ab8-a730-36119d5a0ddc",
+        "start_time": "2021-07-22T04:28:24.922368Z",
+        "stop_time": "2021-11-18T11:38:18.87976Z",
+        "labels": [
+            "accept",
+            "either",
+            "behind",
+            "nation",
+            "environment",
+            "pfte-batch-1"
+        ],
+        "confidence": 90,
+        "object_marking_refs": [
+            "marking-definition--7d91eaef-92bb-4523-a106-fcb73f0ea620"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--808a4c0f-1f74-43b5-aa1d-f04c7cd59036",
+        "created_by_ref": "identity--6bc4d767-045d-4d7f-9c87-2730c141342d",
+        "created": "2021-06-14T08:10:12.616351Z",
+        "modified": "2021-08-14T01:08:38.513522Z",
+        "content": "Particular relationship among table return bad. Indeed old throughout animal without last.",
+        "authors": [
+            "information"
+        ],
+        "object_refs": [
+            "infrastructure--177185d9-c89b-4367-9417-16c0cfc030a7",
+            "infrastructure--34fb3f84-98a5-4ab8-a730-36119d5a0ddc",
+            "relationship--897bbba0-4918-40e7-a862-838df476762b"
+        ],
+        "object_marking_refs": [
+            "marking-definition--7d91eaef-92bb-4523-a106-fcb73f0ea620"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--7d91eaef-92bb-4523-a106-fcb73f0ea620",
+        "created_by_ref": "identity--6bc4d767-045d-4d7f-9c87-2730c141342d",
+        "created": "2021-08-14T01:08:38.511893Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2a4a5944-494c-4a33-b0ba-c70e719ee1c8",
+                "name": "Room arrive pay often",
+                "create_date_time": "2021-08-14T01:08:08.421032Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6bc4d767-045d-4d7f-9c87-2730c141342d",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-09-02T11:58:42.071773Z",
+        "modified": "2021-12-25T22:17:28.040126Z",
+        "name": "Mahoney-Cruz",
+        "description": "Integrated 6thgeneration middleware",
+        "roles": [
+            "fill"
+        ],
+        "contact_information": "5029 Webb Glens\nLake Brittany, UT 41380",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "recognize",
+                "url": "https://hawkins-sanchez.com/",
+                "external_id": "mkHcUNJzAaELlhKmEFjz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7d91eaef-92bb-4523-a106-fcb73f0ea620"
+        ]
+    }
+]

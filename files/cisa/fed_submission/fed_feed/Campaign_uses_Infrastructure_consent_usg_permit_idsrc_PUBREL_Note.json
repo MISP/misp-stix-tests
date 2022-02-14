@@ -1,0 +1,245 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--d086a7b6-b876-49d4-b8ec-45604bcedb5b",
+        "created_by_ref": "identity--ef6c293a-04f5-4cba-85e0-e5456a9ca369",
+        "created": "2022-04-26T16:44:03.719905Z",
+        "modified": "2022-06-28T15:03:20.383125Z",
+        "name": "player",
+        "aliases": [
+            "go"
+        ],
+        "labels": [
+            "word",
+            "pfte-batch-1"
+        ],
+        "confidence": 81,
+        "object_marking_refs": [
+            "marking-definition--80dd4be6-894e-4375-a9de-183b69c23b8b"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--a1b27b62-607b-4e32-8c99-996942da5021",
+        "created_by_ref": "identity--ef6c293a-04f5-4cba-85e0-e5456a9ca369",
+        "created": "2021-01-24T11:39:30.63523Z",
+        "modified": "2021-08-14T01:08:19.494094Z",
+        "name": "anyone",
+        "description": "Theory less another develop accept successful forward.",
+        "aliases": [
+            "charge",
+            "my",
+            "investment",
+            "development"
+        ],
+        "labels": [
+            "carry",
+            "certainly",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "argue",
+                "description": "Outside realize maybe sing according.",
+                "url": "http://www.bates.info/"
+            },
+            {
+                "source_name": "draw",
+                "description": "Perform time will simply detail interest.",
+                "hashes": {
+                    "MD5": "b0e917f53200cd1ae55440b5b7f73666",
+                    "SHA-1": "5105f610978f1b56469b5bd0bcda8b93aa1bd0b6",
+                    "SHA-256": "77e785de9752971d96b5ea79633f2200eaeaeaaf85e1d6fc5298e7635027b5fe",
+                    "SHA-512": "cc155f7e8c81215c587985536e836d6e438da86ece52906531609c765a6d91fa2cb81db77889efbeb753450540ab82d79d701465b0acc662e0821bf921aa65d5",
+                    "SHA3-256": "cbdaebc862a82e72d4307728bb79f582008dac1b9b45ddc302ff75ae0008aebe",
+                    "SHA3-512": "89c068db6aab7aa38d859722994503ca8483b940ba3a024e6172e6dce042a300c4fc4ee419c3b4df547bc0de76ed73704e2e565d82b6625ca3ec4dbbb9ad43dc"
+                },
+                "external_id": "ertXNGYGOMeOZtej"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--80dd4be6-894e-4375-a9de-183b69c23b8b"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1be0c91e-dfa6-4103-a97e-c57ca5166626",
+        "created_by_ref": "identity--ef6c293a-04f5-4cba-85e0-e5456a9ca369",
+        "created": "2021-11-08T02:08:27.294516Z",
+        "modified": "2022-02-19T14:41:28.566604Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--d086a7b6-b876-49d4-b8ec-45604bcedb5b",
+        "target_ref": "infrastructure--a1b27b62-607b-4e32-8c99-996942da5021",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "decide",
+                "description": "Push beyond smile live team rock foot art.",
+                "hashes": {
+                    "MD5": "bde2085b13cc5a1ef9d6405051ac9260",
+                    "SHA-1": "47408eff8ad986f395b56fb17ddda391a51b177c",
+                    "SHA-256": "a207292c85589c064b88f41b8dfd16d4ea6fa01518fc50b748dc6bb808a3886e",
+                    "SHA-512": "98987b7c4e7e991cf76e8ec30b1e07f670639a78b8e68fb8cb838584e4fb966a00c490291309d6ba917fde065be61c1ec3a3be104144eeae0556312e6ba775cd",
+                    "SHA3-256": "8d0f21e070b67b7335add837300a8fff3ff2f4d4730671f606a7ab0fe0ca6fc8",
+                    "SHA3-512": "5210459935d7fbdd01d478d9fa0ef88d81b6c19385518afc34e5ff4b32a8704ed29d59434afb9513c565416197015418dfba71a940d174df4375b678defaac89"
+                },
+                "external_id": "RlLiRuKVdGSisdlfYSY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--80dd4be6-894e-4375-a9de-183b69c23b8b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--44dcfaa9-c0fb-4f03-9a50-655b42aba2b7",
+        "created_by_ref": "identity--ef6c293a-04f5-4cba-85e0-e5456a9ca369",
+        "created": "2022-04-10T00:02:11.704549Z",
+        "modified": "2022-09-14T23:55:49.316934Z",
+        "content": "Early beyond manager turn range meeting own.",
+        "authors": [
+            "language",
+            "attorney"
+        ],
+        "object_refs": [
+            "campaign--d086a7b6-b876-49d4-b8ec-45604bcedb5b",
+            "infrastructure--a1b27b62-607b-4e32-8c99-996942da5021",
+            "relationship--1be0c91e-dfa6-4103-a97e-c57ca5166626"
+        ],
+        "confidence": 66,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--80dd4be6-894e-4375-a9de-183b69c23b8b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ef6c293a-04f5-4cba-85e0-e5456a9ca369",
+        "created_by_ref": "identity--ef6c293a-04f5-4cba-85e0-e5456a9ca369",
+        "created": "2020-11-13T03:08:41.271686Z",
+        "modified": "2021-08-14T01:08:19.495148Z",
+        "name": "Gomez LLC",
+        "description": "Re-engineered 3rdgeneration firmware",
+        "roles": [
+            "physical",
+            "particular"
+        ],
+        "sectors": [
+            "retail",
+            "government-national",
+            "nuclear",
+            "construction",
+            "government-public-services"
+        ],
+        "contact_information": "70592 Kirk Key Suite 998\nBoltonmouth, MN 64636",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "laugh",
+                "hashes": {
+                    "MD5": "83b922f5e96afe62b530806cedb3155a",
+                    "SHA-1": "c96aace774816e700c03239fc001283ea7c4a8a8",
+                    "SHA-256": "6edb0111f2485fe5b7cb160c9bc42e0dd916d96af4d9cd67b265bafd123aed8c",
+                    "SHA-512": "c3b5edc2f22b9bf9562053a898b9f6a78bcea83bab5cb9f515ee7f04b88c1626e646f9abc9106f9ec821912c53ca895b2031489c3d1b5a2768cde0d04559b600",
+                    "SHA3-256": "80861cce3ccdb7a539ce6b0d20ed2e50965a74306fc53ec3cd808bf165aab6ae",
+                    "SHA3-512": "89f6a2935d29eb71552a7a8ab3461e84febf451d8bf4034db6d64e5117b7162e85a30c58541ddd7cfed1befb574edd83d386199f542547b68f1d3e0f7dab282e"
+                },
+                "external_id": "JRDljYfasMcaNBvrlRy"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--80dd4be6-894e-4375-a9de-183b69c23b8b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--80dd4be6-894e-4375-a9de-183b69c23b8b",
+        "created": "2021-08-14T01:08:19.492987Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-147f852e-75ac-49e9-b9d2-55199760c488",
+                "name": "Yes might consider why south he",
+                "create_date_time": "2021-08-14T01:08:08.429077Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.428904Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

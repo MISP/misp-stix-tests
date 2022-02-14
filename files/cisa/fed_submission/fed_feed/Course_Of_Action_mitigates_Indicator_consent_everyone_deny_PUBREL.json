@@ -1,0 +1,190 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--55d1c724-541b-42a0-880c-1aaa5397b6e3",
+        "created_by_ref": "identity--739874fd-9fb1-4392-b860-a6c48f86aaa8",
+        "created": "2021-06-14T08:46:15.950229Z",
+        "modified": "2022-06-04T12:42:18.380972Z",
+        "name": "exist",
+        "description": "Usually religious world.",
+        "labels": [
+            "under",
+            "Democrat",
+            "happy",
+            "pfte-batch-1"
+        ],
+        "confidence": 12,
+        "object_marking_refs": [
+            "marking-definition--9c807de7-c9b7-41e9-86dd-a78407ceb4f3"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--1c28d997-fc47-4dd7-8c56-6db6fa20d5da",
+        "created_by_ref": "identity--739874fd-9fb1-4392-b860-a6c48f86aaa8",
+        "created": "2022-05-29T21:54:00.334722Z",
+        "modified": "2022-10-20T12:19:57.850948Z",
+        "description": "Walk change miss doctor stand test.",
+        "pattern": "[(email-message:message_id = 'kennethtaylor@harris.com') AND email-message:defanged NOT = false] OR ([(directory:defanged NOT = false) AND directory:path_enc = 'ISO-8859-6-I'])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-12-05T04:16:31.662541Z",
+        "valid_until": "2021-12-23T08:04:25.587571Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "labels": [
+            "policy",
+            "ever",
+            "worry",
+            "final",
+            "wait",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "out",
+                "url": "https://beck.biz/",
+                "external_id": "VRfVtqeVlqEPBYTNHs"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9c807de7-c9b7-41e9-86dd-a78407ceb4f3"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f4261f83-4c12-46e4-87ad-7c5ce6a186c2",
+        "created_by_ref": "identity--739874fd-9fb1-4392-b860-a6c48f86aaa8",
+        "created": "2021-07-25T01:35:11.280607Z",
+        "modified": "2021-08-14T01:08:24.003162Z",
+        "relationship_type": "mitigates",
+        "description": "Suffer happen heart opportunity fight. Together effect fire ahead.",
+        "source_ref": "course-of-action--55d1c724-541b-42a0-880c-1aaa5397b6e3",
+        "target_ref": "indicator--1c28d997-fc47-4dd7-8c56-6db6fa20d5da",
+        "confidence": 13,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "similar",
+                "description": "Nor offer mouth help government probably learn professional.",
+                "url": "http://acosta.biz/"
+            },
+            {
+                "source_name": "boy",
+                "description": "Contain consider sure.",
+                "url": "http://murray.com/"
+            },
+            {
+                "source_name": "five",
+                "description": "Hundred summer travel likely court bit.",
+                "hashes": {
+                    "MD5": "53370e9eb3a2f680f848ac44a03457cc",
+                    "SHA-1": "be202e2d1cfd2be5e930121f4b34e0b8ec8ec75d",
+                    "SHA-256": "55857b51709bd36f6a8967c7c63b3f0091f3d8fbdad2e1ba8dd966db70ba0216",
+                    "SHA-512": "47cf438d438783dbb287e43268d547aa012e9bb006b3e6f4ebd45d1b13390b92815b06eec357d32103d4124edff5bbfa744a64f981c8b53943188dfda8f50558",
+                    "SHA3-256": "73815f205adc70b621d5e84b152c6196c726d2301e1239f4b0cd8059384a7564",
+                    "SHA3-512": "d326cdf2777b54818967eb1d515579f8ba0d5d7ffafa86f3230f2c84196e7cf4d9580dcc9a36fbba19e70f34ef2630aee774caf23bb414e91ef36a1ae9f6a26f"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9c807de7-c9b7-41e9-86dd-a78407ceb4f3"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--739874fd-9fb1-4392-b860-a6c48f86aaa8",
+        "created_by_ref": "identity--739874fd-9fb1-4392-b860-a6c48f86aaa8",
+        "created": "2021-11-23T13:58:15.839013Z",
+        "modified": "2022-11-01T22:05:30.412983Z",
+        "name": "Johnson, Smith and Adkins",
+        "identity_class": "class",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 8,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--9c807de7-c9b7-41e9-86dd-a78407ceb4f3"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--9c807de7-c9b7-41e9-86dd-a78407ceb4f3",
+        "created": "2021-08-14T01:08:23.999233Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1b1f4ecf-83db-4fe9-8c22-38a5f88b6694",
+                "name": "Deal certainly rather appear present safe",
+                "create_date_time": "2021-08-14T01:08:08.429946Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.429783Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

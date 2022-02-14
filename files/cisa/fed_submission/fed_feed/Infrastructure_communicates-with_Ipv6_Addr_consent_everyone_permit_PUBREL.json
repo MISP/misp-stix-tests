@@ -1,0 +1,169 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--b87fc3c4-1ef4-40af-b7dc-37c3b177e8c2",
+        "created_by_ref": "identity--1e34ba88-0b2f-44ad-abf7-5f24527857fd",
+        "created": "2021-12-04T05:50:21.15422Z",
+        "modified": "2022-02-12T09:49:04.710957Z",
+        "name": "if",
+        "aliases": [
+            "top"
+        ],
+        "first_seen": "2022-01-08T21:55:15.758959Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b0a60d89-18af-4c7f-8182-9a3835cf2b88"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "ipv6-addr",
+        "spec_version": "2.1",
+        "id": "ipv6-addr--b8aab2ab-5156-41f3-bdac-29c1d131087f",
+        "value": "7720:d82c:a842:48a3:bba3:163:d0a:a2f2",
+        "object_marking_refs": [
+            "marking-definition--b0a60d89-18af-4c7f-8182-9a3835cf2b88"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--635f8c20-f864-4ff2-ac9d-103f26b49dba",
+        "created_by_ref": "identity--1e34ba88-0b2f-44ad-abf7-5f24527857fd",
+        "created": "2021-07-03T20:42:02.165224Z",
+        "modified": "2022-02-03T16:38:41.250982Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--b87fc3c4-1ef4-40af-b7dc-37c3b177e8c2",
+        "target_ref": "ipv6-addr--b8aab2ab-5156-41f3-bdac-29c1d131087f",
+        "labels": [
+            "fly",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b0a60d89-18af-4c7f-8182-9a3835cf2b88"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1e34ba88-0b2f-44ad-abf7-5f24527857fd",
+        "created_by_ref": "identity--1e34ba88-0b2f-44ad-abf7-5f24527857fd",
+        "created": "2021-05-06T18:09:07.131912Z",
+        "modified": "2022-02-27T10:42:36.477846Z",
+        "name": "Hayes LLC",
+        "description": "Polarized intermediate emulation",
+        "sectors": [
+            "education"
+        ],
+        "contact_information": "USNS Guerra\nFPO AP 00879",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 57,
+        "external_references": [
+            {
+                "source_name": "weight",
+                "description": "Learn rise interest think.",
+                "hashes": {
+                    "MD5": "8a2cde1587eb59e0be4b691d7c2d5ed1",
+                    "SHA-1": "4e43421912d4a6272d4cf8e90e11c12eb658cee0",
+                    "SHA-256": "d70d56752b9ec2509f6143ed013055f7e47a1f1d035ef8a85ef2d3b78d5702dc",
+                    "SHA-512": "3cc544e97926e05c4672996f0b4360b0b5776a63876f78d6ce08477c16000c6c1f325c6fd71ed48b88b49d075bb1731493ea6ce77bca9f926f0dd6fa347bce11",
+                    "SHA3-256": "1173eab97f96a97de2daa5baa4af037a1299d30881715d1aeaece44c46bfbc65",
+                    "SHA3-512": "8d8346cafc10ce2ae1be51cb14c06c78febd691be5a305aca2d726d49a7268884b1ed7e0de5e45b2586c8802d4ad4d412c792e17bd36c09fe69ef33873d4416e"
+                },
+                "external_id": "uftdjPuo"
+            },
+            {
+                "source_name": "individual",
+                "description": "North enough perform even receive.",
+                "url": "https://www.king-espinoza.biz/",
+                "hashes": {
+                    "MD5": "3cdefc340cdba8bbca52884b101be08c",
+                    "SHA-1": "9689b83cd5931021cbb42a14de7c7813895269e0",
+                    "SHA-256": "ac52f7d28cdcb2ce7b543c88ba6e7996e36b20105747e5db31efad11fac15bc0",
+                    "SHA-512": "631e21b7c48ee4cf8f321c9eba390f273407186888d0ea8b9cfe5906dafe6839562fba75366e022dd42ab724d80d30779123e8e32b94ae6f95d7411b89e2c7e3",
+                    "SHA3-256": "6986532981d94b930b62a274ca85da4b1e773cea4faa475d3a3f38549668249e",
+                    "SHA3-512": "a591f12bbd4dfab918916fb13d9e8a92cd634ce8fcff4dceef6c944a55bbafd3ee39499aa591640f70300a633304c9f970f733ab6190a15cf1585a8b810dfbdf"
+                },
+                "external_id": "PtjwByzOAF"
+            },
+            {
+                "source_name": "baby",
+                "description": "Body tell science author research different.",
+                "hashes": {
+                    "MD5": "3e2d7f8f3b7ec28a780cea60b225b246",
+                    "SHA-1": "21c3ee0df950918081d85caa8aacc8331a1f6e4f",
+                    "SHA-256": "8e5eb4e49315518f132c359d0152000c964c9b9c2998508bb1a16792ed53455f",
+                    "SHA-512": "e120676ffb86715cfa3941abd9269c18836309251b2e1feae3b7cdcc0f57c2f91c172202b077340b122be1ed486ffffed0152b7e8f63fb75f9b0c1716d908a91",
+                    "SHA3-256": "95b06c4b0759eb2868d8aecefc15409d6b6798f5acdcf22b65ee46c7df9bb142",
+                    "SHA3-512": "696543e8083f126021f095adf7dc69542b7f87a6a9476f1a7263a32c22b38da3f41de6b311fbbe7495342cfa19dcb4dbf9f3d87e415bbbfaa887048c2097fc9b"
+                },
+                "external_id": "SsUITvcNvNNh"
+            },
+            {
+                "source_name": "stay",
+                "url": "https://www.williams.com/",
+                "hashes": {
+                    "MD5": "287088af886d91e8d23b252cd3dda507",
+                    "SHA-1": "7ba2d95292f0fdbb5f6b4addcf3b201b86be8882",
+                    "SHA-256": "11c522b42b5a52abd22420c21ee3d3fa5ada32bf355a96113c69eac04b1bf9e7",
+                    "SHA-512": "be98d74fc4f797d90e9853e7461b67181e10f702c846a0a62b8b867586a972522e6cdd17ec38913f1eff0385860cd462ef3e770ed4712b22f3d0bc36450056e4",
+                    "SHA3-256": "aef1b13ef465085a94aa8ce362044f7fa0d46ce72665f832559a9091ed8419b2",
+                    "SHA3-512": "b1adecdc818fc7839278e0a2007ca8b6cbd2c2def5d0f8e6ca670535fee4a80daa4408a12022c783f4aaf69ee61235b14834b6d755089697a91720acefce32a7"
+                },
+                "external_id": "XACrUdS"
+            },
+            {
+                "source_name": "main",
+                "description": "Series key top television economic law property read."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b0a60d89-18af-4c7f-8182-9a3835cf2b88"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b0a60d89-18af-4c7f-8182-9a3835cf2b88",
+        "created": "2021-08-14T01:08:40.497658Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3b921193-36b9-467a-b549-f06fd7a0147e",
+                "name": "Artist despite travel Mrs long fish",
+                "create_date_time": "2021-08-14T01:08:08.430789Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.430622Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

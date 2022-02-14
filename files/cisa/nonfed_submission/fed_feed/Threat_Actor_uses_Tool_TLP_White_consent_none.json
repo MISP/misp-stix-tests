@@ -1,0 +1,259 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--05d92232-a742-46de-86d0-c9ad737c7328",
+        "created_by_ref": "identity--59cff209-d1b6-45c1-a64b-e587c893fd22",
+        "created": "2022-02-12T23:37:10.500318Z",
+        "modified": "2022-10-21T05:13:22.884781Z",
+        "name": "cell",
+        "description": "Travel them each trouble.",
+        "aliases": [
+            "story",
+            "general"
+        ],
+        "first_seen": "2021-03-18T10:14:20.252563Z",
+        "roles": [
+            "malware-author",
+            "infrastructure-architect"
+        ],
+        "sophistication": "innovator",
+        "secondary_motivations": [
+            "unpredictable",
+            "ideology"
+        ],
+        "labels": [
+            "tell",
+            "institution",
+            "really",
+            "memory",
+            "morning",
+            "pfte-batch-1"
+        ],
+        "confidence": 51,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--00f21b5e-7992-41ee-b136-e1029e0459aa"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--e93a2521-3735-461f-a0a9-7af7e1f28c86",
+        "created_by_ref": "identity--59cff209-d1b6-45c1-a64b-e587c893fd22",
+        "created": "2021-08-07T10:42:39.068413Z",
+        "modified": "2022-06-19T04:43:52.471427Z",
+        "name": "maybe",
+        "tool_types": [
+            "network-capture",
+            "information-gathering",
+            "unknown"
+        ],
+        "aliases": [
+            "chair",
+            "your",
+            "way"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "mydFGsCdHVyneEi",
+                "phase_name": "vAsXYRyp"
+            },
+            {
+                "kill_chain_name": "FGcREGMvIs",
+                "phase_name": "SVWwrWvspCXngrA"
+            },
+            {
+                "kill_chain_name": "OurtkJsxWBAFbLfLrDq",
+                "phase_name": "XfkTNuwpTqLiE"
+            }
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "west",
+                "description": "Why somebody bank be visit woman.",
+                "url": "https://www.moreno.com/",
+                "hashes": {
+                    "MD5": "bfaf9426edb49378f246937b1c047a3a",
+                    "SHA-1": "8f0f82f66a4531276acd99bbb7722fd385d957f6",
+                    "SHA-256": "45d96ba000a035f65354485eeb21b7c6394aec119a7c017f0fc9d500dd0d54c5",
+                    "SHA-512": "f6ad265920b41d5a6211bf541a3b953d5bee2b08ddfd9b7115b6e1b32f75144f6c9eed74b0f6e53b6c769aa44808348aa56c5c7acacbb2f51aba56f423044474",
+                    "SHA3-256": "cdf7e3623aee720bc61f706cdb3508423534fc0c2594c8750063a2eb972c9fef",
+                    "SHA3-512": "fa597f8f31b1e177f7f5463014d5b27cc88b9a886c5dcb0cb38133abb60c8bae55d476c1e708210c71af986c9be61c34b434de7d05a894330227cfbb8d492191"
+                },
+                "external_id": "IQPutFLlCOm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--00f21b5e-7992-41ee-b136-e1029e0459aa"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b77293a2-2080-464f-bd79-2dd324c65923",
+        "created_by_ref": "identity--59cff209-d1b6-45c1-a64b-e587c893fd22",
+        "created": "2022-06-04T01:10:04.239142Z",
+        "modified": "2022-07-20T13:47:37.0053Z",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--05d92232-a742-46de-86d0-c9ad737c7328",
+        "target_ref": "tool--e93a2521-3735-461f-a0a9-7af7e1f28c86",
+        "labels": [
+            "best",
+            "PM",
+            "pfte-batch-1"
+        ],
+        "confidence": 6,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "director",
+                "url": "http://www.smith.net/",
+                "hashes": {
+                    "MD5": "0e2317e15ca16f57e62865c188ee3ddc",
+                    "SHA-1": "9572b2a4f3523d7ee26e6277ed96aff7380d2cca",
+                    "SHA-256": "9d0bd0a2e29d81b1a501a95a2974251ed8a4236791f7352f8839733bb6469a5b",
+                    "SHA-512": "78bf88a2afafb2208e974a85c61965fd2fa533f3dedd4cf4e1126b89ea9dcd28c3aec7a1d2a3d531623efd54be3a6f98efcc0b0e51917c43c25da4d6e3da568c",
+                    "SHA3-256": "4ec8cdae8371ca59709aa2ebf7991b342101decf7cadccafa2b7eca70ba46fdb",
+                    "SHA3-512": "f2eee1e9ca0c133c66c0e7be77dba6f6506547d1485e65ee57f1cc00bf3cafa174f02120e5a2e0c2c2f3cc0d8bdeb11091913cab4f88ba40e2d15f6823fd5f86"
+                },
+                "external_id": "tFgUCDTQpunmgo"
+            },
+            {
+                "source_name": "start",
+                "description": "Positive history compare along over leave anyone red.",
+                "url": "http://www.wood-shepard.info/",
+                "hashes": {
+                    "MD5": "310af8f7c6952c3d3c709858d5b1a1a6",
+                    "SHA-1": "44a29e54740ec577a96da3338c9f4db96458cca1",
+                    "SHA-256": "dde7ef776103039116a4f55cfe573f6c52f9b30151b3583b26e493637168c3f6",
+                    "SHA-512": "5d7445f095c4edeae7b109793aae83f1e85caacb79530e9a7bf6c67635deb36d3afbbd1b4163dc52801a7096f02c75b71463c28df795e40822ee8efa8b731e8c",
+                    "SHA3-256": "e8a73d4f03d6a8f19ea25e40635c59909d6096edff47d375e25bd075472452c6",
+                    "SHA3-512": "2daf96147023220228b9161551b59118abc7c2fed80b7793249926b8b20b31b688984fbd14382c93238aa8c5043fa189930212dd2f08fa50565f3616e3cb5d5b"
+                },
+                "external_id": "MRQFgFtJXf"
+            },
+            {
+                "source_name": "his",
+                "url": "http://olsen.com/"
+            },
+            {
+                "source_name": "break",
+                "description": "Range good than usually heavy.",
+                "url": "https://www.hampton-riley.net/",
+                "hashes": {
+                    "MD5": "221c923fe90d054d48cfcf6eac9b05b8",
+                    "SHA-1": "35a3ff79653d9c15e26289b83505afe50e85107f",
+                    "SHA-256": "9d0bb7dfb64c253f0adf6e001147d71f7b99993d2ae6796d474f73081014071e",
+                    "SHA-512": "23bfb08ed4e257650501ed4265380f4f3175f225a9d12a5428c683fd7e8f498fd7203ccd36e63f2965c63a6d06366caa7da2fb8cc0c9f533c62ef7c50a010013",
+                    "SHA3-256": "c9e5ab3022a796f5791806ca75fb2b35ecb9f470136aecf5d8d2df1ba3228b21",
+                    "SHA3-512": "8463845efe48fc0380d23dfd6698ded4c02b296b43f2f3822e91b8597a9b62ce0ede2e84ef5470548816a55c74b87f1f92d0113a4687e94f6e442ce9a0e26ba2"
+                },
+                "external_id": "cUpOXGnIkZCeIA"
+            },
+            {
+                "source_name": "without",
+                "url": "https://levy-price.com/",
+                "hashes": {
+                    "MD5": "c1654602e283dfdc93091ecaae57a03e",
+                    "SHA-1": "ffac870d3c13bc060e3f46d0a3b750ffe3fd4f61",
+                    "SHA-256": "07c38225be96fdf5f6ae727fb2543548a12aaae5a9243a873bf4b6f4e0cee7bd",
+                    "SHA-512": "39b1583037a08c7b7673c42b2baa82608f22d739bc93d56551eb072694d1eba7570a3246afeb67e0063dc9161fea269fe16303424d89e37c8cd7f27ccd1713e6",
+                    "SHA3-256": "6df8ad300fb27719c374e77a83da30e31609c73443ff33d61415d4faafbbaddc",
+                    "SHA3-512": "af67576a333f816395564f47c9fc3ab24a630f1c8a26016539161ec367425987a8249211a91715b392745dd127e984d1cad62a41044578538653d9b79299decc"
+                },
+                "external_id": "fqcOUnrbExsdsINmxN"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--00f21b5e-7992-41ee-b136-e1029e0459aa"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--00f21b5e-7992-41ee-b136-e1029e0459aa",
+        "created_by_ref": "identity--59cff209-d1b6-45c1-a64b-e587c893fd22",
+        "created": "2021-08-14T01:09:34.66796Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2828523e-b28d-4046-9afc-51d22e18d79b",
+                "name": "Social price record ever reveal physical each",
+                "create_date_time": "2021-08-14T01:08:08.418751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.418527Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--59cff209-d1b6-45c1-a64b-e587c893fd22",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-08-13T04:21:26.175194Z",
+        "modified": "2021-09-19T22:56:57.925452Z",
+        "name": "MissionInterviewWater",
+        "sectors": [
+            "government-public-services",
+            "utilities"
+        ],
+        "contact_information": "444 Andersen Meadow Suite 018\nWest Gary, NV 41494",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--00f21b5e-7992-41ee-b136-e1029e0459aa"
+        ]
+    }
+]

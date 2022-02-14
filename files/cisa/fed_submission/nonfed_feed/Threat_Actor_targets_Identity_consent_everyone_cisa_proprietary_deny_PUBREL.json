@@ -1,0 +1,127 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--e605968a-da4b-4ad4-ac21-60406035df14",
+        "created_by_ref": "identity--d29fb21c-5f94-4543-ba76-e6a3de678fb7",
+        "created": "2021-10-04T09:33:28.515126Z",
+        "modified": "2021-12-21T01:32:47.201005Z",
+        "name": "key",
+        "first_seen": "2021-08-03T04:20:23.786915Z",
+        "last_seen": "2022-04-22T22:49:22.387547Z",
+        "roles": [
+            "malware-author",
+            "independent"
+        ],
+        "goals": [
+            "buy",
+            "technology",
+            "population"
+        ],
+        "sophistication": "expert",
+        "personal_motivations": [
+            "revenge",
+            "accidental",
+            "dominance"
+        ],
+        "labels": [
+            "check",
+            "stop",
+            "effect",
+            "sport",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--17d928f9-ee15-4ac8-90d8-2d75101b6209",
+        "created_by_ref": "identity--d29fb21c-5f94-4543-ba76-e6a3de678fb7",
+        "created": "2020-12-07T07:09:50.221881Z",
+        "modified": "2021-08-14T01:09:30.349174Z",
+        "name": "Strickland PLC",
+        "description": "Automated 3rdgeneration focus group",
+        "roles": [
+            "particularly"
+        ],
+        "sectors": [
+            "transportation",
+            "aerospace"
+        ],
+        "contact_information": "4675 Wilson Ville Suite 711\nRickyton, VT 09859",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "by",
+                "description": "Bar sort not establish can either career.",
+                "url": "http://www.ball-woods.info/",
+                "hashes": {
+                    "MD5": "e21c4629f1f1f49b72ab5f89738695e5",
+                    "SHA-1": "d2ff554d517f2c27ef4679a8cc3c496ebba1bcbf",
+                    "SHA-256": "aaedfaf8875a8a1b5ee8abd56e379b4335de46d3e1cc421abcedc5da2c01beb9",
+                    "SHA-512": "8fb22cc1d8d5b480219ce63e5b05910a1b89a1af76911da7c87b9904a44a6a632593adcb544a156356c8b29b40fb855481fa79377e644869b004a6ad189113b5",
+                    "SHA3-256": "51efdcb027a541dab09536c70656bd1b8258754014b383eddf00f3b93a80e097",
+                    "SHA3-512": "18f85672336983528d6dee66fb8e353284e4ef48758538688e6d7184e23f4808edc5b10a5ab503cdfd8e5d9f005f1e30453edfe4acd5f3774d88422d9a752467"
+                },
+                "external_id": "ajQUvUoriZYZNkE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e1ce547b-bc31-435c-9f15-48de3c8683c8",
+        "created_by_ref": "identity--d29fb21c-5f94-4543-ba76-e6a3de678fb7",
+        "created": "2022-04-06T03:07:59.664657Z",
+        "modified": "2022-08-21T04:47:17.76234Z",
+        "relationship_type": "targets",
+        "source_ref": "threat-actor--e605968a-da4b-4ad4-ac21-60406035df14",
+        "target_ref": "identity--17d928f9-ee15-4ac8-90d8-2d75101b6209",
+        "start_time": "2021-07-12T15:10:37.181754Z",
+        "stop_time": "2022-06-14T00:42:22.456789Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 7,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "black",
+                "url": "https://knight.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d29fb21c-5f94-4543-ba76-e6a3de678fb7",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-01-10T04:54:23.293506Z",
+        "modified": "2021-08-14T01:09:30.352109Z",
+        "name": "BeforeQuiteOk",
+        "roles": [
+            "share",
+            "woman"
+        ],
+        "identity_class": "group",
+        "contact_information": "55861 Sweeney Crossing Suite 813\nPaigefort, GA 41790",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

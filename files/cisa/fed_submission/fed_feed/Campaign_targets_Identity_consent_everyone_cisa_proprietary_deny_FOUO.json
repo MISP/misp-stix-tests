@@ -1,0 +1,144 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--1f6c959c-be81-4532-8857-9131db12c77e",
+        "created_by_ref": "identity--a7851b00-8409-4f00-8904-15c52f548f82",
+        "created": "2021-12-23T05:11:55.398827Z",
+        "modified": "2021-12-29T08:10:05.210053Z",
+        "name": "car",
+        "labels": [
+            "dream",
+            "research",
+            "as",
+            "prevent",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--18f473ef-cc0f-4f36-860a-152643baa95e"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--02e5d63b-8501-4ea9-b9e4-43a9ab4734a1",
+        "created_by_ref": "identity--a7851b00-8409-4f00-8904-15c52f548f82",
+        "created": "2020-12-08T22:31:53.884628Z",
+        "modified": "2021-11-17T07:46:12.876337Z",
+        "name": "Hawkins, Williams and Atkins",
+        "description": "Implemented didactic hub",
+        "contact_information": "34792 David Fields\nWalshfurt, PA 33627",
+        "labels": [
+            "seven",
+            "pfte-batch-1"
+        ],
+        "confidence": 73,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--18f473ef-cc0f-4f36-860a-152643baa95e"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a0c72f6e-3646-4424-8ca2-7b02500d980e",
+        "created_by_ref": "identity--a7851b00-8409-4f00-8904-15c52f548f82",
+        "created": "2021-05-24T15:43:38.685787Z",
+        "modified": "2022-05-06T10:19:46.802459Z",
+        "relationship_type": "targets",
+        "description": "Identify determine teach professor compare. Effort glass again marriage. Plan system security rich memory.",
+        "source_ref": "campaign--1f6c959c-be81-4532-8857-9131db12c77e",
+        "target_ref": "identity--02e5d63b-8501-4ea9-b9e4-43a9ab4734a1",
+        "stop_time": "2021-02-18T03:40:32.901666Z",
+        "labels": [
+            "modern",
+            "room",
+            "can",
+            "church",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--18f473ef-cc0f-4f36-860a-152643baa95e"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a7851b00-8409-4f00-8904-15c52f548f82",
+        "created_by_ref": "identity--a7851b00-8409-4f00-8904-15c52f548f82",
+        "created": "2021-06-28T10:06:39.506133Z",
+        "modified": "2022-04-04T05:10:55.746349Z",
+        "name": "Wilkerson, Rojas and Simpson",
+        "sectors": [
+            "construction",
+            "non-profit",
+            "dams"
+        ],
+        "contact_information": "9317 Allison River Suite 175\nNew Kristen, DC 37048",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 77,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--18f473ef-cc0f-4f36-860a-152643baa95e"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--18f473ef-cc0f-4f36-860a-152643baa95e",
+        "created": "2021-08-14T01:08:16.690919Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e0c28f68-5570-434a-9764-3e8498f0a59a",
+                "name": "Serve much idea usually",
+                "create_date_time": "2021-08-14T01:08:08.432065Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

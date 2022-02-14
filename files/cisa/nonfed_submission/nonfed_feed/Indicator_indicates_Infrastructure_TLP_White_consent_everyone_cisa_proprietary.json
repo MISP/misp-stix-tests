@@ -1,0 +1,105 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--c1c0e9a8-bc08-40df-bb29-2dd0bf27ea1f",
+        "created_by_ref": "identity--a9eaac00-b791-4c59-850c-b649867ccb13",
+        "created": "2022-05-13T06:39:54.444672Z",
+        "modified": "2023-03-05T05:03:26.780365Z",
+        "indicator_types": [
+            "compromised"
+        ],
+        "pattern": "[network-traffic:defanged = true] FOLLOWEDBY [url:value NOT = 'http://www.adams-brady.com/']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-03-15T05:17:44.718941Z",
+        "valid_until": "2022-05-16T05:43:57.996015Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 100,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--cae6f6fb-bb5b-4891-b162-9442c9bf3b71",
+        "created_by_ref": "identity--a9eaac00-b791-4c59-850c-b649867ccb13",
+        "created": "2022-03-30T12:28:13.599198Z",
+        "modified": "2022-12-19T02:33:46.796751Z",
+        "name": "call",
+        "aliases": [
+            "road",
+            "reflect",
+            "safe",
+            "throughout",
+            "food"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "last_seen": "2021-03-13T03:43:53.852129Z",
+        "labels": [
+            "production",
+            "use",
+            "agree",
+            "kind",
+            "job",
+            "pfte-batch-1"
+        ],
+        "confidence": 12,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "meeting",
+                "description": "Wind pretty determine peace.",
+                "url": "https://bolton.net/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4dc2737e-5547-406a-a065-8d8effb1c4e0",
+        "created_by_ref": "identity--a9eaac00-b791-4c59-850c-b649867ccb13",
+        "created": "2020-10-07T07:47:39.514418Z",
+        "modified": "2021-08-14T01:08:30.076538Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--c1c0e9a8-bc08-40df-bb29-2dd0bf27ea1f",
+        "target_ref": "infrastructure--cae6f6fb-bb5b-4891-b162-9442c9bf3b71",
+        "stop_time": "2021-11-06T02:13:22.257819Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 92,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a9eaac00-b791-4c59-850c-b649867ccb13",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-24T18:11:39.218448Z",
+        "modified": "2022-03-01T15:50:25.132961Z",
+        "name": "Harris LLC",
+        "description": "Customer-focused modular strategy",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 2,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

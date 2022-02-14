@@ -1,0 +1,137 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--d54371f9-ce2b-4c85-b5ea-0248517a4760",
+        "created_by_ref": "identity--1c172e6e-1960-4968-9857-eaa16aba23ab",
+        "created": "2020-11-24T07:11:19.93327Z",
+        "modified": "2021-08-14T01:08:09.775218Z",
+        "name": "responsibility",
+        "description": "Next tonight yes would deep start.",
+        "aliases": [
+            "style"
+        ],
+        "labels": [
+            "beat",
+            "list",
+            "professional",
+            "easy",
+            "message",
+            "pfte-batch-1"
+        ],
+        "confidence": 71,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "capital",
+                "url": "http://www.kim.org/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--217ff350-a9b7-4d25-abed-d48f68d5f673"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--112c25fd-99e7-4820-9fa2-0e5db44148c9",
+        "created_by_ref": "identity--1c172e6e-1960-4968-9857-eaa16aba23ab",
+        "created": "2021-01-27T07:42:52.59155Z",
+        "modified": "2021-08-14T01:08:09.775454Z",
+        "name": "Smith-Vega",
+        "roles": [
+            "soldier",
+            "above",
+            "tend",
+            "position"
+        ],
+        "sectors": [
+            "automotive",
+            "pharmaceuticals",
+            "government-regional",
+            "defense"
+        ],
+        "object_marking_refs": [
+            "marking-definition--217ff350-a9b7-4d25-abed-d48f68d5f673"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b1a3dc74-b2f6-413f-97b6-8f3f0fb4a56c",
+        "created_by_ref": "identity--1c172e6e-1960-4968-9857-eaa16aba23ab",
+        "created": "2020-08-17T18:41:31.369001Z",
+        "modified": "2021-08-14T01:08:09.775698Z",
+        "relationship_type": "targets",
+        "description": "Near stay painting choose buy plant.",
+        "source_ref": "attack-pattern--d54371f9-ce2b-4c85-b5ea-0248517a4760",
+        "target_ref": "identity--112c25fd-99e7-4820-9fa2-0e5db44148c9",
+        "stop_time": "2022-02-01T08:07:39.331673Z",
+        "labels": [
+            "number",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--217ff350-a9b7-4d25-abed-d48f68d5f673"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1c172e6e-1960-4968-9857-eaa16aba23ab",
+        "created_by_ref": "identity--1c172e6e-1960-4968-9857-eaa16aba23ab",
+        "created": "2021-10-29T07:42:59.643666Z",
+        "modified": "2021-11-14T15:21:22.204306Z",
+        "name": "Burns, Hunter and Morales",
+        "description": "Triple-buffered multimedia orchestration",
+        "identity_class": "unknown",
+        "contact_information": "240 Whitehead Well\nWilliamside, DC 04444",
+        "confidence": 38,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--217ff350-a9b7-4d25-abed-d48f68d5f673"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--217ff350-a9b7-4d25-abed-d48f68d5f673",
+        "created": "2021-08-14T01:08:09.774698Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2214d9cf-0e77-4d0b-9826-dfff28324708",
+                "name": "Build while international maybe effect movie",
+                "create_date_time": "2021-08-14T01:08:08.427765Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,222 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--414ccb6c-b1cb-49f0-9894-a6ff1c197bcc",
+        "created_by_ref": "identity--214a43d1-8764-48b5-85f0-791d3264a842",
+        "created": "2021-02-02T22:26:10.84381Z",
+        "modified": "2021-08-14T01:08:52.964081Z",
+        "name": "happy",
+        "description": "Rather game cause provide.",
+        "aliases": [
+            "hard",
+            "now",
+            "manager",
+            "baby"
+        ],
+        "last_seen": "2020-12-31T18:24:20.584689Z",
+        "resource_level": "contest",
+        "secondary_motivations": [
+            "personal-gain"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "environmental",
+                "url": "http://martin.com/",
+                "external_id": "YrRnGdjnzR"
+            },
+            {
+                "source_name": "effect",
+                "url": "http://www.harris.org/",
+                "external_id": "tuvuZwEfaTzftk"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--879506dc-8416-4a3e-8e0c-9527a5a3552f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--8cbcdf63-79bd-4bba-8245-c94f103410a5",
+        "created_by_ref": "identity--214a43d1-8764-48b5-85f0-791d3264a842",
+        "created": "2020-11-08T17:02:28.665865Z",
+        "modified": "2021-08-14T01:08:52.964401Z",
+        "name": "decide",
+        "description": "Use strategy staff lose only perform.",
+        "aliases": [
+            "lay"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "first_seen": "2022-07-02T11:54:39.287364Z",
+        "confidence": 79,
+        "object_marking_refs": [
+            "marking-definition--879506dc-8416-4a3e-8e0c-9527a5a3552f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a049bc12-4b8e-414d-afe9-2928f963c618",
+        "created_by_ref": "identity--214a43d1-8764-48b5-85f0-791d3264a842",
+        "created": "2021-03-21T00:45:53.432093Z",
+        "modified": "2021-09-21T20:30:23.237326Z",
+        "relationship_type": "hosts",
+        "source_ref": "intrusion-set--414ccb6c-b1cb-49f0-9894-a6ff1c197bcc",
+        "target_ref": "infrastructure--8cbcdf63-79bd-4bba-8245-c94f103410a5",
+        "stop_time": "2021-04-20T22:28:26.046355Z",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "unit",
+                "description": "Skill least nearly only.",
+                "external_id": "SHdyZOtOaRgSNmJQ"
+            },
+            {
+                "source_name": "all",
+                "description": "Through perhaps respond."
+            },
+            {
+                "source_name": "eight",
+                "description": "Tough within term tonight pull.",
+                "url": "https://waller.com/",
+                "external_id": "JkrqsamqKiNvTJnnc"
+            },
+            {
+                "source_name": "throw",
+                "url": "https://hill.org/",
+                "external_id": "dSvjtzaFXkbeTkzsuYx"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--879506dc-8416-4a3e-8e0c-9527a5a3552f"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--879506dc-8416-4a3e-8e0c-9527a5a3552f",
+        "created_by_ref": "identity--214a43d1-8764-48b5-85f0-791d3264a842",
+        "created": "2021-08-14T01:08:52.963352Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2828523e-b28d-4046-9afc-51d22e18d79b",
+                "name": "Social price record ever reveal physical each",
+                "create_date_time": "2021-08-14T01:08:08.418751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.418527Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--214a43d1-8764-48b5-85f0-791d3264a842",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-04T04:02:47.312835Z",
+        "modified": "2023-04-24T14:06:05.688294Z",
+        "name": "LeaderSourceLaw",
+        "description": "Triple-buffered modular synergy",
+        "roles": [
+            "also",
+            "short"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 51,
+        "external_references": [
+            {
+                "source_name": "minute",
+                "description": "Goal turn difference hope sport expert executive stand.",
+                "url": "https://www.larson.info/",
+                "hashes": {
+                    "MD5": "7124c2122def2799eeee1d5a9f0ec00d",
+                    "SHA-1": "40004da9726fa8ee50793b8d01f2995a03b6e341",
+                    "SHA-256": "d65667d7b9cb2fd5597de244393209806cb06aa1038d17e5ed1da3784d4f678b",
+                    "SHA-512": "420be2987a5963d8ff000e7e5cbf69608e83f317950b5aebf242b5f1f5ef41b6f18377469faa41ee3c54bbe0550604657aaf3e71435743da352a71f87f1adf78",
+                    "SHA3-256": "86a1fee087af843ffdaa36fd7e96c28ed79863c74a28fc1c73a8942d049f66fd",
+                    "SHA3-512": "f484812eed29957e72f61836e158d139ea071896f73e51c6ec3c8402a4ff38125afd1a3b2903fc7638967846394517111cbf0dae4ee2a8fd074c15c269550c03"
+                }
+            },
+            {
+                "source_name": "yes",
+                "description": "Opportunity heavy land fly view event avoid.",
+                "url": "https://green.com/"
+            },
+            {
+                "source_name": "reflect",
+                "hashes": {
+                    "MD5": "c53a932d9edbd1680c39552b6223160c",
+                    "SHA-1": "f2355a8975bba3474a37bab8ba68bfafa890751d",
+                    "SHA-256": "a30596be038a75e457cc6df2881b7baaf9437610d5263411e2e8f9de4c99ef6c",
+                    "SHA-512": "f798cf9d9ef00ed8e40d73d167544bd91dd4fc8c0db6954d6e0d75c0c3f522a22cdc9b1287ea850dd10e75d1aee80139c2247d23abe2259c0735f9c613f12046",
+                    "SHA3-256": "dde6e6ca28caa731e0ff490219dd2347b7f7ea8add6b0caf9f06b88e0e508307",
+                    "SHA3-512": "1909a93af3ff7e20c7569c7a5facaf70a2ffcf83beb8efd00f05877c6cbf0f7262d7ac44c8b59623e8c655fdb4e76540e1cefd03cc53d810644d52e5cbf771b7"
+                },
+                "external_id": "JPcvA"
+            },
+            {
+                "source_name": "national",
+                "description": "Offer recognize after.",
+                "url": "http://smith.info/",
+                "external_id": "RVTtChrpAIKHoOsa"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--879506dc-8416-4a3e-8e0c-9527a5a3552f"
+        ]
+    }
+]

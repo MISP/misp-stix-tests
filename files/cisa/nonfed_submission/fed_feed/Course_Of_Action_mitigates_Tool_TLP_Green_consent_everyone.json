@@ -1,0 +1,185 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--68458d51-3faa-43ee-a4ed-14cdf633117a",
+        "created_by_ref": "identity--728325ce-46fb-46e4-b6c1-41f79601458b",
+        "created": "2021-10-11T05:40:56.117172Z",
+        "modified": "2022-02-08T20:28:58.666429Z",
+        "name": "four",
+        "description": "Per phone hope check couple particularly.",
+        "external_references": [
+            {
+                "source_name": "always",
+                "description": "Resource end full.",
+                "external_id": "JBzdKJTcJRLCd"
+            },
+            {
+                "source_name": "also",
+                "hashes": {
+                    "MD5": "f265c7f8ba29abdd3d0ba50b74f9d345",
+                    "SHA-1": "ac195dfcbb52d18cb36702f447f0d70b60348a4e",
+                    "SHA-256": "10db1629821d9bb8d3b9fd0826af84e4354f61261c7443f65c14a9c32fda7eda",
+                    "SHA-512": "bc31351eff1c26c100bafa2a4f74497336bcec919898f30d8fc03a05f8e5649c457761b7c28787ab37e71d9bed75e180f49e8cf043af7be3c64316654cac669f",
+                    "SHA3-256": "72e880ece670b7e632cb2d3320571015a64f12ffe70c4117df5dbc656207370c",
+                    "SHA3-512": "55ab47cf0c29178e895ede7ed856fec8199da5adba0ed676c58f8b6b762b4c8512255f259b9c0db05904112f92a66278db2b30cc78f0909be223b158d2129d3f"
+                },
+                "external_id": "vyyszUikrCWukZfd"
+            },
+            {
+                "source_name": "and",
+                "description": "Work think six else.",
+                "url": "http://myers.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1db7c010-83bd-4888-b461-c8c80987a0ee"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--ab69dc1f-9677-4c34-99bb-bbddc4d77a7d",
+        "created_by_ref": "identity--728325ce-46fb-46e4-b6c1-41f79601458b",
+        "created": "2020-12-11T04:21:34.829358Z",
+        "modified": "2021-08-14T01:08:25.284044Z",
+        "name": "get",
+        "aliases": [
+            "type"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "zVOjFKUowrNsG",
+                "phase_name": "jjpCFSv"
+            },
+            {
+                "kill_chain_name": "wHpQyiKb",
+                "phase_name": "iaxzfgivEuHdLIQYxya"
+            }
+        ],
+        "tool_version": "I",
+        "confidence": 92,
+        "object_marking_refs": [
+            "marking-definition--1db7c010-83bd-4888-b461-c8c80987a0ee"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--778661df-74cd-4eff-a4d4-41974cd62df8",
+        "created_by_ref": "identity--728325ce-46fb-46e4-b6c1-41f79601458b",
+        "created": "2021-12-18T16:25:00.758834Z",
+        "modified": "2022-08-11T23:29:42.85911Z",
+        "relationship_type": "mitigates",
+        "description": "Six matter start continue. Born tend when major card.",
+        "source_ref": "course-of-action--68458d51-3faa-43ee-a4ed-14cdf633117a",
+        "target_ref": "tool--ab69dc1f-9677-4c34-99bb-bbddc4d77a7d",
+        "start_time": "2020-10-25T09:52:58.441291Z",
+        "stop_time": "2021-09-25T21:04:16.635463Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--1db7c010-83bd-4888-b461-c8c80987a0ee"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--1db7c010-83bd-4888-b461-c8c80987a0ee",
+        "created_by_ref": "identity--728325ce-46fb-46e4-b6c1-41f79601458b",
+        "created": "2021-08-14T01:08:25.282803Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-cdad75a5-97a2-450d-bb1c-cac3b21b4823",
+                "name": "Continue half as create together strong",
+                "create_date_time": "2021-08-14T01:08:08.421874Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--728325ce-46fb-46e4-b6c1-41f79601458b",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-30T23:37:41.995291Z",
+        "modified": "2021-08-14T01:08:25.284617Z",
+        "name": "Joseph Ltd",
+        "description": "Decentralized background hardware",
+        "roles": [
+            "line",
+            "reflect",
+            "evening",
+            "participant"
+        ],
+        "identity_class": "individual",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 61,
+        "object_marking_refs": [
+            "marking-definition--1db7c010-83bd-4888-b461-c8c80987a0ee"
+        ]
+    }
+]

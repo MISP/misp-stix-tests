@@ -1,0 +1,195 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--cc32a2ef-f25b-4a91-9350-0010d655737a",
+        "created_by_ref": "identity--69abeecf-d66c-45e1-9e2d-f602da93afc5",
+        "created": "2021-12-13T09:32:51.127787Z",
+        "modified": "2022-11-28T09:10:27.525309Z",
+        "name": "subject",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a24a10c0-6735-46c6-bdf7-ee1f0f1c12cd"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f3b688af-8097-4150-b12c-e667dad78407",
+        "created_by_ref": "identity--69abeecf-d66c-45e1-9e2d-f602da93afc5",
+        "created": "2022-08-12T00:14:11.778288Z",
+        "modified": "2022-12-12T16:48:39.396453Z",
+        "name": "Palmer Ltd",
+        "description": "Implemented needs-based approach",
+        "roles": [
+            "together",
+            "national",
+            "laugh",
+            "section"
+        ],
+        "identity_class": "organization",
+        "contact_information": "2741 Christian Junctions Suite 610\nNorth Scott, AZ 82657",
+        "confidence": 29,
+        "object_marking_refs": [
+            "marking-definition--a24a10c0-6735-46c6-bdf7-ee1f0f1c12cd"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--468260d9-9bd9-40cb-818a-10d1f56af4ac",
+        "created_by_ref": "identity--69abeecf-d66c-45e1-9e2d-f602da93afc5",
+        "created": "2020-10-29T00:40:11.359686Z",
+        "modified": "2021-08-14T01:08:09.61673Z",
+        "relationship_type": "targets",
+        "description": "Special leave tonight edge couple woman institution. Idea rest skin. New serve figure tell edge relate without. Brother friend beautiful year impact.",
+        "source_ref": "attack-pattern--cc32a2ef-f25b-4a91-9350-0010d655737a",
+        "target_ref": "identity--f3b688af-8097-4150-b12c-e667dad78407",
+        "stop_time": "2021-10-19T04:45:29.790946Z",
+        "labels": [
+            "visit",
+            "family",
+            "improve",
+            "pfte-batch-1"
+        ],
+        "confidence": 98,
+        "object_marking_refs": [
+            "marking-definition--a24a10c0-6735-46c6-bdf7-ee1f0f1c12cd"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--a24a10c0-6735-46c6-bdf7-ee1f0f1c12cd",
+        "created_by_ref": "identity--69abeecf-d66c-45e1-9e2d-f602da93afc5",
+        "created": "2021-08-14T01:08:09.615532Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-881bbc21-deef-4d57-abf3-7f599266217f",
+                "name": "Way get would fight necessary hour measure",
+                "create_date_time": "2021-08-14T01:08:08.423662Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--69abeecf-d66c-45e1-9e2d-f602da93afc5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-02-02T20:08:20.315021Z",
+        "modified": "2022-05-04T21:47:26.854785Z",
+        "name": "Clark Inc",
+        "contact_information": "5980 Raymond Streets Suite 030\nPrestonborough, OH 29227",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 58,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "past",
+                "url": "http://hernandez-joseph.com/",
+                "hashes": {
+                    "MD5": "4ff1b840a931b579b3470324cf25b102",
+                    "SHA-1": "23de2b505d94d16d9f3cf3b7cfada8d9d0e0b3da",
+                    "SHA-256": "b818207af0dc0b00e9d82bf27ef2e858bfa2396c82fa856da07ce1b0395221ea",
+                    "SHA-512": "9511485b4a8f8961361201eb53cc2822fdbaa0cfa16e14d25a69ad6e13f995912eacc438f87413dcf00c24e7221cc3b43f737d264135cd631748d1d01496704d",
+                    "SHA3-256": "060dfaf72c2d0fbdde814a73cea2c41021f8e088fa19803fc75ba9d15cd3a3f0",
+                    "SHA3-512": "b3e2d68060bcc587318fe3ae4dd06253ced84104873bbb88a230b2922382eac36f52d4101e15e7ec80b4c54e24e6a9d0fda1ae102be08995411ebf786e5f5515"
+                },
+                "external_id": "ViHvWNxjCdHrQ"
+            },
+            {
+                "source_name": "business",
+                "description": "Campaign mother everyone month blue prove.",
+                "url": "http://www.kim-swanson.info/",
+                "hashes": {
+                    "MD5": "c7f463468632dcfbc738819a5c736ac7",
+                    "SHA-1": "a0df426179be28b4e67ecd592ee7ac496ec8f410",
+                    "SHA-256": "25b036fe4878f2d33afda7bdde56e25183abe70400ca5615f8abbe8c36f22cca",
+                    "SHA-512": "946cedaf95c5047f31dbea7bcaeb975065768477493e7922c65f4013459d5bcc1b9411ab0d81a47273046bd87e8080fa9ec6dde28b3ae2e03d6426d3f3f3ac47",
+                    "SHA3-256": "78692c371fa6af59400f861b48338561f5dd50a133aef2042a3c0bb0de6f247e",
+                    "SHA3-512": "73c1f243e6fa66a2f90e8c8157d8f501e5ae87db7fafaeaa3e79321d87136cd45ce43ca0090e2fb33a51e5b9c0f5524f14e4602e044f49fd8901f7de2dc9c2ee"
+                },
+                "external_id": "rzdhgkBGSugbYWDuYVdf"
+            },
+            {
+                "source_name": "page",
+                "description": "None simply half happen most edge.",
+                "hashes": {
+                    "MD5": "2005c1356b25631b551e7bfbb32b56f8",
+                    "SHA-1": "d90db36b4b396467a17025fcbe68ecd44ea832e5",
+                    "SHA-256": "59aed6f112f1378b47a28b57d10d6e9bf5b2da590d038d33b7dc07d1f60fa332",
+                    "SHA-512": "bd6f534285c3affe64ad0c992a0162ea9b0e8c637af1fe8412a2f6ebb33d0ff08ea6057e8a9d4e4db5ebd5a820e2229015d4dfcab4a796f2a40e6145c09bd352",
+                    "SHA3-256": "c3de0237ac8304096b14ba3123276ee3e4114645bc47c2c20fb315457b374d21",
+                    "SHA3-512": "57a178d8f243051691e61b2c9e5cc5b93c03dd91cdc5a5298d146e9bff3fdba8cefa1dca04fef2d54bec328a70851966a5d947a2e97db5930bcf8c67a1390f4b"
+                },
+                "external_id": "qUhVCqmxSQhmx"
+            },
+            {
+                "source_name": "worker",
+                "description": "Say compare ask someone always outside activity.",
+                "external_id": "LxJbzKEKBRFVDMU"
+            },
+            {
+                "source_name": "enjoy",
+                "url": "https://www.payne-haynes.com/",
+                "external_id": "nMHJXW"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a24a10c0-6735-46c6-bdf7-ee1f0f1c12cd"
+        ]
+    }
+]

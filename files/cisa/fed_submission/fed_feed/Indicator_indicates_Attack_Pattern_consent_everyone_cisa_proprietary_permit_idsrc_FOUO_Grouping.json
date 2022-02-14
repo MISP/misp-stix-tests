@@ -1,0 +1,244 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--fef6ceea-817c-489e-a9e3-f6340f08c633",
+        "created_by_ref": "identity--14f90374-5ba4-452e-9bef-2033b89a1d60",
+        "created": "2022-05-12T14:51:44.912935Z",
+        "modified": "2022-12-23T20:56:28.509014Z",
+        "indicator_types": [
+            "unknown",
+            "unknown",
+            "attribution"
+        ],
+        "pattern": "((((([url:defanged = false] START t'2021-06-19T08:57:47.723792Z' STOP t'2022-07-24T22:02:17.853207Z') OR [mac-addr:value <= '16:ec:a7:36:6b:8c'] OR [user-account:account_expires NOT = t'2022-03-05T05:49:44.774124Z']) START t'2021-04-26T19:53:01.789665Z' STOP t'2021-09-08T18:30:03.130564Z') REPEATS 6 TIMES) OR [(mac-addr:defanged NOT = false) AND mac-addr:value > '20:cb:c1:73:09:e7'])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-07-19T11:10:10.084864Z",
+        "valid_until": "2022-05-01T22:20:53.44015Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "labels": [
+            "prove",
+            "view",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--e379d567-8f55-47d5-a77f-8cf3b25e7e0e"
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--b1580ee0-9a0f-48fe-8c47-09eafcb0a1f1",
+        "created_by_ref": "identity--14f90374-5ba4-452e-9bef-2033b89a1d60",
+        "created": "2021-07-24T01:43:08.146754Z",
+        "modified": "2022-05-10T00:37:23.19806Z",
+        "name": "work",
+        "description": "Tv much general every full.",
+        "aliases": [
+            "find",
+            "skin",
+            "current"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "Zzvpiflq",
+                "phase_name": "dOiwXuoaxXHqFPMMqK"
+            },
+            {
+                "kill_chain_name": "dHOeCZWKNy",
+                "phase_name": "BljAoZqBBugkYMRxvOVI"
+            }
+        ],
+        "labels": [
+            "page",
+            "receive",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--e379d567-8f55-47d5-a77f-8cf3b25e7e0e"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8b9ed045-dd0b-43dd-802a-e3a00ae18992",
+        "created_by_ref": "identity--14f90374-5ba4-452e-9bef-2033b89a1d60",
+        "created": "2021-07-25T21:41:34.024732Z",
+        "modified": "2022-03-19T10:18:39.350735Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--fef6ceea-817c-489e-a9e3-f6340f08c633",
+        "target_ref": "attack-pattern--b1580ee0-9a0f-48fe-8c47-09eafcb0a1f1",
+        "labels": [
+            "address",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "social",
+                "description": "Raise crime serious oil.",
+                "external_id": "PLSqrqV"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e379d567-8f55-47d5-a77f-8cf3b25e7e0e"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--4195ac1f-9f7b-4aaa-b584-126070bbeac7",
+        "created_by_ref": "identity--14f90374-5ba4-452e-9bef-2033b89a1d60",
+        "created": "2022-07-28T03:12:27.656307Z",
+        "modified": "2022-12-19T20:48:35.707447Z",
+        "name": "room",
+        "description": "Form cause third relationship into.",
+        "context": "unspecified",
+        "object_refs": [
+            "indicator--fef6ceea-817c-489e-a9e3-f6340f08c633",
+            "attack-pattern--b1580ee0-9a0f-48fe-8c47-09eafcb0a1f1",
+            "relationship--8b9ed045-dd0b-43dd-802a-e3a00ae18992"
+        ],
+        "confidence": 94,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--e379d567-8f55-47d5-a77f-8cf3b25e7e0e"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--14f90374-5ba4-452e-9bef-2033b89a1d60",
+        "created_by_ref": "identity--14f90374-5ba4-452e-9bef-2033b89a1d60",
+        "created": "2021-03-01T13:13:56.462623Z",
+        "modified": "2021-08-14T01:08:28.508196Z",
+        "name": "Pena Inc",
+        "roles": [
+            "enough",
+            "create",
+            "develop"
+        ],
+        "identity_class": "unknown",
+        "contact_information": "Unit 1762 Box 0624\nDPO AE 90229",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "unit",
+                "description": "He play indeed loss.",
+                "url": "http://www.daniel-jacobs.com/",
+                "hashes": {
+                    "MD5": "4ed18f433104750d7117a647ba6ac3cf",
+                    "SHA-1": "bb8d6abe934c28b14d0df5dce174f1a1785544c9",
+                    "SHA-256": "d883136b98a2828228b8d5f9ad00d24182c804c42e5f97d44dc4cd845c2f4d0c",
+                    "SHA-512": "680ca0901b062783946ca3589f1ed05a85f9b289989bfcd0ea27848e302766858db13b9ee524420f2e62bafaef148f02bb1a9b4e21f331ac2e32507b7b4071fd",
+                    "SHA3-256": "2d1b3658d0138515add7bf8d97dae987192a03f7bd9a00ef1ceb79780195416c",
+                    "SHA3-512": "245a3f391ab393bce3e1617b4bcca08815e0f33294379771f1f85d3d4fee8bde4c5aef036ae84e96ae7c0fbc24e020bf63062e58a8db6ccdeff38ef6d6c674e4"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--e379d567-8f55-47d5-a77f-8cf3b25e7e0e"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--e379d567-8f55-47d5-a77f-8cf3b25e7e0e",
+        "created": "2021-08-14T01:08:28.501321Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fadf816-7ba3-41ea-a52c-2855b3ec9d5a",
+                "name": "Report official major we center outside throughout population",
+                "create_date_time": "2021-08-14T01:08:08.433803Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

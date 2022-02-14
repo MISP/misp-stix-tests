@@ -1,0 +1,101 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--a5eda3d4-cf72-4749-b7f7-363375f6a2f9",
+        "created_by_ref": "identity--aa1e056e-57f9-40e5-9027-a3a5ecd7cfde",
+        "created": "2021-08-04T06:10:26.208762Z",
+        "modified": "2022-07-31T01:18:45.093045Z",
+        "name": "morning",
+        "threat_actor_types": [
+            "criminal",
+            "spy",
+            "unknown"
+        ],
+        "first_seen": "2021-12-08T19:17:48.915649Z",
+        "sophistication": "strategic",
+        "resource_level": "team",
+        "primary_motivation": "accidental",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 68,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--de17cf91-081f-4a50-84af-400c139feb79",
+        "created_by_ref": "identity--aa1e056e-57f9-40e5-9027-a3a5ecd7cfde",
+        "created": "2021-08-16T16:34:04.701606Z",
+        "modified": "2022-07-08T04:19:15.689595Z",
+        "name": "Howell-Estrada",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 34,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ed0ec09e-b675-4f21-bef6-4b7bdd6afd3f",
+        "created_by_ref": "identity--aa1e056e-57f9-40e5-9027-a3a5ecd7cfde",
+        "created": "2022-05-18T04:47:10.196206Z",
+        "modified": "2023-04-11T07:34:09.298073Z",
+        "relationship_type": "attributed-to",
+        "description": "Sometimes notice particular.",
+        "source_ref": "threat-actor--a5eda3d4-cf72-4749-b7f7-363375f6a2f9",
+        "target_ref": "identity--de17cf91-081f-4a50-84af-400c139feb79",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "figure",
+                "description": "Within above raise something arm.",
+                "url": "https://torres-washington.com/",
+                "hashes": {
+                    "MD5": "2ab287c442f76a5c80d1682aa96dc6e4",
+                    "SHA-1": "63dca9a0afb06c7d30ac3965a3c01d1845245ae3",
+                    "SHA-256": "fb4c394aeeef0a10f262cce66ee245dca1da5af2e1167182963fc94f5028adbd",
+                    "SHA-512": "43632435af01148aefe8fb08e561b14525424d97f4be6c4c415801fad2e7e54e1a3548e53563f0fe4e4235f1e49012b3d313ca38a6de3831773ead63e00e07a8",
+                    "SHA3-256": "b9208343d885720f69ee8004708187bde60fed049fdeb23f7e707e6814317fef",
+                    "SHA3-512": "62ce9ab04ca451b9b5477a43b39d0dcc9a3430d90134093acbddd9baa36369a5e6b022d681734d96dc918d3159cf65a64da59633f901fa5a73f811f90a842d6c"
+                },
+                "external_id": "BodMUym"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--aa1e056e-57f9-40e5-9027-a3a5ecd7cfde",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-10-03T01:35:58.628762Z",
+        "modified": "2022-05-12T12:46:39.798052Z",
+        "name": "Kelly-Davis",
+        "description": "Realigned grid-enabled open architecture",
+        "roles": [
+            "yard",
+            "option",
+            "build"
+        ],
+        "identity_class": "unknown",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

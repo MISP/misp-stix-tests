@@ -1,0 +1,196 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--00fa27a2-d15d-40b1-8019-31b173c16da1",
+        "created_by_ref": "identity--3a26f618-453a-4aac-b080-8b0eb54f5f98",
+        "created": "2022-06-13T14:32:30.458573Z",
+        "modified": "2022-06-18T22:35:21.281137Z",
+        "name": "end",
+        "description": "Word eight data tough risk debate window.",
+        "aliases": [
+            "prepare",
+            "my"
+        ],
+        "first_seen": "2021-07-13T06:57:16.575911Z",
+        "resource_level": "government",
+        "secondary_motivations": [
+            "personal-gain",
+            "revenge",
+            "notoriety",
+            "revenge",
+            "coercion"
+        ],
+        "labels": [
+            "down",
+            "expect",
+            "almost",
+            "although",
+            "pfte-batch-1"
+        ],
+        "confidence": 61,
+        "external_references": [
+            {
+                "source_name": "protect",
+                "description": "Approach federal among have writer determine thus.",
+                "external_id": "EyABuUrREFDAJIodWzXj"
+            },
+            {
+                "source_name": "charge",
+                "description": "With table exist measure several.",
+                "url": "https://www.durham.com/",
+                "external_id": "lhbFXRVFeBAftKnrHEr"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c0f5ef8d-dd90-47ae-8ee1-378fb2b9f01d"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--01c749d5-f76c-41f6-9793-4a20bfd7d07a",
+        "created_by_ref": "identity--3a26f618-453a-4aac-b080-8b0eb54f5f98",
+        "created": "2021-08-11T12:18:20.883965Z",
+        "modified": "2021-10-31T07:41:28.13259Z",
+        "name": "send",
+        "description": "Western condition kitchen suggest news hot computer.",
+        "tool_types": [
+            "denial-of-service"
+        ],
+        "external_references": [
+            {
+                "source_name": "own",
+                "url": "http://www.taylor.com/"
+            },
+            {
+                "source_name": "nice",
+                "description": "Partner form much response able about party.",
+                "url": "http://www.clark-marsh.com/",
+                "external_id": "rCxyMkuwBrxdZRDaEaVK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c0f5ef8d-dd90-47ae-8ee1-378fb2b9f01d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--dfeca751-bf4f-4d3c-975e-fea67b258c2c",
+        "created_by_ref": "identity--3a26f618-453a-4aac-b080-8b0eb54f5f98",
+        "created": "2020-08-29T06:46:35.3455Z",
+        "modified": "2021-08-14T01:08:59.889615Z",
+        "relationship_type": "uses",
+        "description": "Miss speak in north. Effect expert activity fund light.",
+        "source_ref": "intrusion-set--00fa27a2-d15d-40b1-8019-31b173c16da1",
+        "target_ref": "tool--01c749d5-f76c-41f6-9793-4a20bfd7d07a",
+        "start_time": "2021-05-10T00:19:29.650508Z",
+        "labels": [
+            "yourself",
+            "school",
+            "street",
+            "here",
+            "kid",
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "object_marking_refs": [
+            "marking-definition--c0f5ef8d-dd90-47ae-8ee1-378fb2b9f01d"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--c0f5ef8d-dd90-47ae-8ee1-378fb2b9f01d",
+        "created_by_ref": "identity--3a26f618-453a-4aac-b080-8b0eb54f5f98",
+        "created": "2021-08-14T01:08:59.887976Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3d6ad3e0-0112-4a6d-8546-447c0e169799",
+                "name": "Space side determine future",
+                "create_date_time": "2021-08-14T01:08:08.419249Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3a26f618-453a-4aac-b080-8b0eb54f5f98",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-11-26T05:03:01.729647Z",
+        "modified": "2021-09-19T16:04:06.207479Z",
+        "name": "WordSourceChoose",
+        "sectors": [
+            "water",
+            "mining",
+            "emergency-services",
+            "government"
+        ],
+        "contact_information": "274 Garcia Common\nTravisbury, MS 40484",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c0f5ef8d-dd90-47ae-8ee1-378fb2b9f01d"
+        ]
+    }
+]

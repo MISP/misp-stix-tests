@@ -1,0 +1,195 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--4e09258b-41ec-4cb4-9234-1470e9b1f191",
+        "created_by_ref": "identity--2782b177-0a2c-40d9-b010-d632686a15e4",
+        "created": "2020-08-21T12:04:27.937898Z",
+        "modified": "2021-08-14T01:08:42.537481Z",
+        "name": "through",
+        "infrastructure_types": [
+            "command-and-control",
+            "anonymization",
+            "control-system"
+        ],
+        "first_seen": "2019-12-12T09:06:53.163621Z",
+        "last_seen": "2020-09-13T19:44:45.219827Z",
+        "labels": [
+            "focus",
+            "least",
+            "born",
+            "team",
+            "employee",
+            "pfte-batch-1"
+        ],
+        "confidence": 94,
+        "external_references": [
+            {
+                "source_name": "he",
+                "url": "http://www.smith.com/",
+                "external_id": "VGqaarhugiLJhPlaQXY"
+            },
+            {
+                "source_name": "subject",
+                "url": "https://pineda-walton.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a8a1436a-8799-4c9d-b67a-323e17049fcf"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--bb8829bb-f103-4076-97f1-71e6bc5dfd7c",
+        "created_by_ref": "identity--2782b177-0a2c-40d9-b010-d632686a15e4",
+        "created": "2022-01-11T03:10:41.068039Z",
+        "modified": "2022-05-11T19:04:25.665489Z",
+        "name": "decision",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "OaURwZdrmasLpcIcjX",
+                "phase_name": "XDCoRV"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "last_seen": "2020-11-02T19:05:51.391417Z",
+        "object_marking_refs": [
+            "marking-definition--a8a1436a-8799-4c9d-b67a-323e17049fcf"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--67b073fe-0979-4ca0-8a37-b598b91df702",
+        "created_by_ref": "identity--2782b177-0a2c-40d9-b010-d632686a15e4",
+        "created": "2022-02-09T06:12:41.306146Z",
+        "modified": "2023-01-29T07:47:20.848762Z",
+        "relationship_type": "consists-of",
+        "source_ref": "infrastructure--4e09258b-41ec-4cb4-9234-1470e9b1f191",
+        "target_ref": "infrastructure--bb8829bb-f103-4076-97f1-71e6bc5dfd7c",
+        "start_time": "2021-10-10T22:10:19.835042Z",
+        "stop_time": "2022-05-14T08:39:41.942436Z",
+        "confidence": 99,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a8a1436a-8799-4c9d-b67a-323e17049fcf"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2782b177-0a2c-40d9-b010-d632686a15e4",
+        "created_by_ref": "identity--2782b177-0a2c-40d9-b010-d632686a15e4",
+        "created": "2022-04-04T01:51:23.609986Z",
+        "modified": "2022-08-26T11:35:02.692381Z",
+        "name": "Davis Inc",
+        "identity_class": "individual",
+        "sectors": [
+            "utilities"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 30,
+        "external_references": [
+            {
+                "source_name": "management",
+                "url": "http://jackson.org/",
+                "hashes": {
+                    "MD5": "862027e4b8a2e1997d5b50217de3604c",
+                    "SHA-1": "67552234566ac3920b44c53a0843a7cebc861e1c",
+                    "SHA-256": "a4ec3b68853aae94aed850840b9e191f659f24ac7612dfe36326890c99c36bf9",
+                    "SHA-512": "a114557d77a04d633e27577315fdb4709fa0c03137b05d0650ea18a04ad7e9e9bdada44b75e9b52f9e5c05371ec8618cead9bcee7f3cc4c747307e87bb767496",
+                    "SHA3-256": "c9227ecec1b887c0a7e5b0c364d9d14ccb1a6fb1a22b35874722df87e837c5ec",
+                    "SHA3-512": "e2cc3757b71f0fec253ff1656eb1edd631f857aebd7568090e57d526f237507cfe7a5ba1327dfc7e9e5fa0c29c3eaf73c8df3357a99b73604397f481c7830732"
+                },
+                "external_id": "bSRCAIDKxIhJJ"
+            },
+            {
+                "source_name": "mother",
+                "description": "Will kitchen continue tend head win bar.",
+                "hashes": {
+                    "MD5": "c8113c0e9f96d0996e9fb69e86fa8344",
+                    "SHA-1": "28723a1b94eab386de38d2be90ab1a20df7acc44",
+                    "SHA-256": "74ed2326ee1457ac99d874eb1d5d6f97e59338a289026c3e7b532fb1c161d4f2",
+                    "SHA-512": "bf0219c5d2158b21e31b48969f16c0a4c8406a630093e2e7ba92c02ae0644215511c8ccd8fc5226e5865c4fd71b61baa9fc4f2f7cc958588753b4cbc8d0cbbbc",
+                    "SHA3-256": "1606a4d850956afcbadb10909cb1c2cd24f04380f75fbf30cb30993a1a0dbe09",
+                    "SHA3-512": "199bbe4ad66b287d66ac501cc54b1dadd4f7d009def775f8af301bb45cd259441cd95018d07c2e73d99abfd320343d3da6ef97334bd1a229ea5e3944986a3535"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--a8a1436a-8799-4c9d-b67a-323e17049fcf"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--a8a1436a-8799-4c9d-b67a-323e17049fcf",
+        "created": "2021-08-14T01:08:42.536765Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-3af87523-f9f6-4d99-acfc-79560c4d2219",
+                "name": "Boy understand else sense give house travel already",
+                "create_date_time": "2021-08-14T01:08:08.429507Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

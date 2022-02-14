@@ -1,0 +1,138 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--8cc6055f-2668-4324-b656-a5baa67eb028",
+        "created_by_ref": "identity--794b8c4a-2d10-4e81-8def-c6e4d95e0938",
+        "created": "2020-10-26T18:09:21.943522Z",
+        "modified": "2021-08-14T01:08:41.943624Z",
+        "name": "enjoy",
+        "description": "Big street southern could soldier sign.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "eIzCXweQBUNzPkeDq",
+                "phase_name": "WKqlDM"
+            },
+            {
+                "kill_chain_name": "UgBkxOx",
+                "phase_name": "OMZRB"
+            }
+        ],
+        "last_seen": "2022-06-16T04:21:46.142576Z",
+        "confidence": 99,
+        "external_references": [
+            {
+                "source_name": "leg",
+                "description": "Current move upon find.",
+                "external_id": "gekUtwgjYbKaiTPlT"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c11dfdca-b707-4dfa-92da-b3a0316af445"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--cb7458a0-2300-4e2e-928e-5309ca2d8a7f",
+        "value": "http://www.miller.com/",
+        "object_marking_refs": [
+            "marking-definition--c11dfdca-b707-4dfa-92da-b3a0316af445"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--67e21684-c4fc-4f34-8f95-3b5e102d1d79",
+        "created_by_ref": "identity--794b8c4a-2d10-4e81-8def-c6e4d95e0938",
+        "created": "2021-06-22T20:03:54.13935Z",
+        "modified": "2022-01-09T03:25:32.986646Z",
+        "relationship_type": "communicates-with",
+        "description": "Color policy score have vote. Just where investment you similar similar character.",
+        "source_ref": "infrastructure--8cc6055f-2668-4324-b656-a5baa67eb028",
+        "target_ref": "url--cb7458a0-2300-4e2e-928e-5309ca2d8a7f",
+        "stop_time": "2021-10-11T21:34:03.765939Z",
+        "labels": [
+            "force",
+            "operation",
+            "pfte-batch-1"
+        ],
+        "confidence": 12,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c11dfdca-b707-4dfa-92da-b3a0316af445"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--794b8c4a-2d10-4e81-8def-c6e4d95e0938",
+        "created_by_ref": "identity--794b8c4a-2d10-4e81-8def-c6e4d95e0938",
+        "created": "2021-04-15T09:18:45.506104Z",
+        "modified": "2021-10-24T09:02:46.105095Z",
+        "name": "Paul Inc",
+        "description": "Configurable zero tolerance challenge",
+        "identity_class": "class",
+        "contact_information": "8254 John Locks\nNorth Aaronchester, NE 25839",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 16,
+        "external_references": [
+            {
+                "source_name": "fast",
+                "description": "To wear perform foreign mouth let.",
+                "url": "https://cooper.net/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c11dfdca-b707-4dfa-92da-b3a0316af445"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--c11dfdca-b707-4dfa-92da-b3a0316af445",
+        "created": "2021-08-14T01:08:41.942519Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-716f5d31-4760-4ed1-b8df-6b76bb19bd34",
+                "name": "Wife plan yourself training yet rich",
+                "create_date_time": "2021-08-14T01:08:08.43336Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.433196Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

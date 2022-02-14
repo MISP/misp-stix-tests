@@ -1,0 +1,122 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--9ee546d1-ff0a-41c9-bde6-8ad26e89423f",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2022-06-08T22:54:25.743061Z",
+        "modified": "2023-01-30T03:32:24.171665Z",
+        "name": "sell",
+        "description": "Visit share save consumer drop writer half.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "EpWAaXbDHcFAoMF",
+                "phase_name": "XwoyFFHgkZnCl"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 13,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--f5708e2d-a126-43ee-ae1e-31eb05ac4345",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2022-05-16T08:15:06.678314Z",
+        "modified": "2022-08-26T18:48:16.339611Z",
+        "name": "qrWqUiUhTtFnc",
+        "latitude": 41.10621804266427,
+        "longitude": 29.794402118727447,
+        "precision": 59.71069629333684,
+        "region": "northern-africa",
+        "city": "North James",
+        "street_address": "1570 Aaron Bypass Apt. 612",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 99,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--cf263ec8-15ce-4717-9bac-45ea46b4204d",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2020-12-13T17:05:59.061883Z",
+        "modified": "2021-08-14T01:08:10.459512Z",
+        "relationship_type": "targets",
+        "description": "Break son lead forget phone something. Animal key environmental front may majority.",
+        "source_ref": "attack-pattern--9ee546d1-ff0a-41c9-bde6-8ad26e89423f",
+        "target_ref": "location--f5708e2d-a126-43ee-ae1e-31eb05ac4345",
+        "start_time": "2022-03-15T09:40:32.870791Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 85,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-01-01T00:00:00.000Z",
+        "modified": "2020-01-01T00:00:00.000Z",
+        "name": "USA.USG",
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

@@ -1,0 +1,156 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--8ae05b43-add8-4c9e-97b4-de1e9478494c",
+        "created_by_ref": "identity--c7efbf4d-9cfc-4baf-907a-336cb5d994f6",
+        "created": "2021-06-21T14:30:44.238279Z",
+        "modified": "2022-04-26T12:08:59.350635Z",
+        "name": "accept",
+        "threat_actor_types": [
+            "hacker",
+            "insider-accidental",
+            "criminal",
+            "unknown"
+        ],
+        "last_seen": "2022-02-26T07:39:30.936683Z",
+        "primary_motivation": "revenge",
+        "labels": [
+            "system",
+            "heart",
+            "product",
+            "drop",
+            "pfte-batch-1"
+        ],
+        "confidence": 21,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2a9c103e-1e7e-4c58-a905-88468b1f4b50"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c2fcea18-56c9-4c11-9895-a9809b5addd3",
+        "created_by_ref": "identity--c7efbf4d-9cfc-4baf-907a-336cb5d994f6",
+        "created": "2020-12-25T22:14:03.796555Z",
+        "modified": "2021-08-14T01:09:30.397866Z",
+        "name": "Wood, Gates and Thompson",
+        "identity_class": "organization",
+        "confidence": 39,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2a9c103e-1e7e-4c58-a905-88468b1f4b50"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--8f53b491-b93e-4efc-9df9-3cfe30936e0d",
+        "created_by_ref": "identity--c7efbf4d-9cfc-4baf-907a-336cb5d994f6",
+        "created": "2021-06-18T19:06:38.029611Z",
+        "modified": "2022-03-05T17:34:03.780273Z",
+        "relationship_type": "targets",
+        "description": "Your remember information police. Wife trade smile hot learn argue prove. Would be face a.",
+        "source_ref": "threat-actor--8ae05b43-add8-4c9e-97b4-de1e9478494c",
+        "target_ref": "identity--c2fcea18-56c9-4c11-9895-a9809b5addd3",
+        "start_time": "2022-05-12T23:31:29.477142Z",
+        "labels": [
+            "gun",
+            "magazine",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "customer",
+                "description": "Fine main join.",
+                "external_id": "zBUYeyVuH"
+            },
+            {
+                "source_name": "cultural",
+                "description": "Prepare mission indicate once use hold.",
+                "url": "https://www.mejia.biz/",
+                "external_id": "wtzxtQ"
+            },
+            {
+                "source_name": "community",
+                "url": "http://www.allen.com/",
+                "hashes": {
+                    "MD5": "6a874d3548a6c059488c2adb7f805692",
+                    "SHA-1": "8dfb327e12358a43cd7dca90d4e11810e7b9a0dd",
+                    "SHA-256": "6aad22d43ee7de3ecc3b0ce898127a9d8cff8c2a8f24f66f343da534084c08c6",
+                    "SHA-512": "b84be14408abce34c5cbb220dd85aab96e242cf75410d49bbb27fa1a85d6f8906747ef957c7d8a91048a7a9947d6e5da0723d3ccb66c079f2714d14933f5c0e0",
+                    "SHA3-256": "6d0ae59da6c4e28ec4cc97c41987e331b7cac04c81296ae39970a4212e6adb1d",
+                    "SHA3-512": "b3f521dd8a48d3648b9544b7908a13e9c6002749d2d2996fcfb780c6ea425959d0d8eab61549cc6b39f19e7cd195a501e386c973c9da723975210d8dbf0fc327"
+                },
+                "external_id": "DjAAaIZCotnkofzazJt"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2a9c103e-1e7e-4c58-a905-88468b1f4b50"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c7efbf4d-9cfc-4baf-907a-336cb5d994f6",
+        "created_by_ref": "identity--c7efbf4d-9cfc-4baf-907a-336cb5d994f6",
+        "created": "2021-04-24T21:44:52.085233Z",
+        "modified": "2021-10-25T17:44:10.77877Z",
+        "name": "Coleman, Villa and Pugh",
+        "description": "Public-key bandwidth-monitored open architecture",
+        "sectors": [
+            "education",
+            "government-regional",
+            "entertainment"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--2a9c103e-1e7e-4c58-a905-88468b1f4b50"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2a9c103e-1e7e-4c58-a905-88468b1f4b50",
+        "created": "2021-08-14T01:09:30.396944Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-716f5d31-4760-4ed1-b8df-6b76bb19bd34",
+                "name": "Wife plan yourself training yet rich",
+                "create_date_time": "2021-08-14T01:08:08.43336Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.433196Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

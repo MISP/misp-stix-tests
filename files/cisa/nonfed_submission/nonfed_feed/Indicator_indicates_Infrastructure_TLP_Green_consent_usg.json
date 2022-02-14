@@ -1,0 +1,172 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--c338d710-55a0-4b79-a534-2d6c1fe93bf0",
+        "created_by_ref": "identity--6bada053-b3f4-4fb1-86ff-fb950f715c91",
+        "created": "2022-01-13T17:35:03.796666Z",
+        "modified": "2022-06-22T12:31:30.832091Z",
+        "name": "stock",
+        "description": "There ask hold car responsibility condition.",
+        "indicator_types": [
+            "unknown",
+            "anonymization"
+        ],
+        "pattern": "([email-addr:defanged = false]) OR [(network-traffic:src_packets < 752030) OR mac-addr:defanged NOT = false] OR [(mutex:name < 'defense') AND mutex:defanged NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-03-26T09:38:50.841788Z",
+        "valid_until": "2022-05-17T06:16:30.383856Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lkSLyqMqWTlPdQNwOETE",
+                "phase_name": "LcifiuuIdofuuLtqa"
+            },
+            {
+                "kill_chain_name": "kISdNZrG",
+                "phase_name": "phQIXSXofQBv"
+            }
+        ],
+        "labels": [
+            "fight",
+            "save",
+            "rock",
+            "thing",
+            "thank",
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--1f8e58f6-b6bd-4b4a-a867-03be4f5ba0eb",
+        "created_by_ref": "identity--6bada053-b3f4-4fb1-86ff-fb950f715c91",
+        "created": "2021-12-07T12:48:37.004751Z",
+        "modified": "2022-01-26T21:09:21.612338Z",
+        "name": "outside",
+        "description": "Month industry common black floor.",
+        "first_seen": "2022-07-31T03:14:40.231244Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--23afd267-d68b-4faf-8232-740d1d32c70f",
+        "created_by_ref": "identity--6bada053-b3f4-4fb1-86ff-fb950f715c91",
+        "created": "2022-02-07T10:51:55.22802Z",
+        "modified": "2022-02-18T08:57:14.736361Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--c338d710-55a0-4b79-a534-2d6c1fe93bf0",
+        "target_ref": "infrastructure--1f8e58f6-b6bd-4b4a-a867-03be4f5ba0eb",
+        "labels": [
+            "story",
+            "value",
+            "face",
+            "general",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "grow",
+                "description": "Interview tell question.",
+                "hashes": {
+                    "MD5": "a2751f0c34964d3e38faf12666ad1733",
+                    "SHA-1": "ce2e88ae13e149238b174ab9c86349c3ccfe9858",
+                    "SHA-256": "686eb5909d5bac015dcd59a7e88a2df1f52fcd77106e1a632af7e90ddbe092bb",
+                    "SHA-512": "27d46f318e2618f6dbed00e8caf53c885bf2f38e71950094db80e05acfc0e7e3b676d63e505e717a901fc8f54eb9a58531146bd39c38bfa69b3a6cc891c091f1",
+                    "SHA3-256": "afa1baaa3a19f12738b69db1f91c2ba6c1a366eecc096b30815964d735ba41da",
+                    "SHA3-512": "be93161259a3ec415415eb648aadd337e0bc8ba1ce16433fac19cbb763b761bab37cad7690427ea3d0a43c15bb75b5f62575d76b2703cf7280219877f03942b7"
+                }
+            },
+            {
+                "source_name": "material",
+                "external_id": "GTsCtyeRrzCY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--6bada053-b3f4-4fb1-86ff-fb950f715c91",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-26T05:45:34.920183Z",
+        "modified": "2022-01-19T15:05:31.23518Z",
+        "name": "ParentMeetPractice",
+        "description": "Face-to-face bandwidth-monitored database",
+        "sectors": [
+            "hospitality-leisure",
+            "chemical"
+        ],
+        "contact_information": "8156 Brittany Prairie Apt. 147\nNathanberg, NJ 59263",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 32,
+        "external_references": [
+            {
+                "source_name": "even",
+                "url": "http://www.hernandez-powers.com/",
+                "external_id": "dtMdRrfMlYgMOiuz"
+            },
+            {
+                "source_name": "tree",
+                "url": "https://www.love.com/",
+                "hashes": {
+                    "MD5": "e0feb9e2d24aac4a3419332aa58e07e7",
+                    "SHA-1": "954c9a1a33d10e0236f18e15db93d9e3889319d9",
+                    "SHA-256": "576d89fc1a2f62ea2a657bf07852cd9f63a0a9d773ef1594fa17d37563438893",
+                    "SHA-512": "be73808fc8f7885c755736104e4d82caf8e36c194c6d62bef30a20842366c552ffeb163bd234204393f31fe1aeb6991d766a4bba0b6720aa4b47111ad3c025df",
+                    "SHA3-256": "7722dae82ba766052e6e194a0696de7614e79f1c3c4c32f38ef68f495bc8fdc0",
+                    "SHA3-512": "ffc587dd19ff111a2cce4a23ccc3c3be50243071bbc6ef608b260b8c8037d6c842555d767d4dd78058be111ec0497a2b83f597b9a07e69e7c1258f21778d634b"
+                },
+                "external_id": "KcDgBOXbFflnKibA"
+            },
+            {
+                "source_name": "listen",
+                "description": "Available event sea.",
+                "url": "https://www.lewis-james.info/"
+            },
+            {
+                "source_name": "when",
+                "description": "Really myself peace course knowledge always.",
+                "url": "http://ryan.com/",
+                "external_id": "izlnvUPtBPW"
+            },
+            {
+                "source_name": "cultural",
+                "description": "During reduce peace somebody.",
+                "url": "http://www.howell.net/",
+                "hashes": {
+                    "MD5": "bf7308813290dc798a5451c39a50fcb0",
+                    "SHA-1": "51c533a971c77069aac9e1de2b17092902308266",
+                    "SHA-256": "dc2864833af1abfe73c7a3fb4debe0a0c05e46bca5dbf0f247d855549351e474",
+                    "SHA-512": "acf2051130f2ece31d0c33fcb220e11df42413b72b2d26315004a622eb43541031540f17d41a18be228d9627fa980b20462341d6f344ec97b4649c91a5880635",
+                    "SHA3-256": "6e4d27efcb2d179412bae3723212124999037c8e682424ddd5d6f5c625a0097c",
+                    "SHA3-512": "41bca912d898c2d4ca0204e587f5415ffb99782e8cf7073a3bbad364fab76a573422eafb700f69bb61556a1280db10e2c1c17179b7a82a2ce302784b027ff38c"
+                },
+                "external_id": "hLJDzmgPvvYM"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

@@ -1,0 +1,193 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--f788f3bd-8d4c-4076-9290-acb3571b519a",
+        "created_by_ref": "identity--8a436b89-3833-43a1-9b17-abfb6137e96e",
+        "created": "2022-01-21T04:34:05.422015Z",
+        "modified": "2022-06-06T04:27:01.601216Z",
+        "name": "different",
+        "last_seen": "2021-06-07T03:07:41.218403Z",
+        "roles": [
+            "director",
+            "infrastructure-architect"
+        ],
+        "goals": [
+            "any",
+            "year",
+            "decide",
+            "let",
+            "other"
+        ],
+        "sophistication": "strategic",
+        "secondary_motivations": [
+            "personal-satisfaction",
+            "organizational-gain",
+            "dominance",
+            "revenge"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "total",
+                "url": "https://www.ware.com/",
+                "external_id": "lKLhuBXjUbAJJscQEE"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9f18fde7-bf00-4eca-9c14-e706b7e121ee"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--0a97e9c7-e13f-4922-b20e-cc15883e6b83",
+        "created_by_ref": "identity--8a436b89-3833-43a1-9b17-abfb6137e96e",
+        "created": "2020-05-02T04:55:17.70837Z",
+        "modified": "2021-08-14T01:09:26.250483Z",
+        "name": "always",
+        "aliases": [
+            "race",
+            "treat",
+            "community",
+            "camera",
+            "add"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "qIxLttCfsPAZUZH",
+                "phase_name": "EpBquJipfIiBq"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "riMOZJDOrXejnthzYo",
+                "phase_name": "ucuNbFnPlw"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "zAUuMMvOEbESkvXMbgI",
+                "phase_name": "SJNXeLpUYavE"
+            }
+        ],
+        "last_seen": "2022-06-26T07:08:00.128328Z",
+        "object_marking_refs": [
+            "marking-definition--9f18fde7-bf00-4eca-9c14-e706b7e121ee"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--20727d07-797c-4a5d-9418-25b756f6f387",
+        "created_by_ref": "identity--8a436b89-3833-43a1-9b17-abfb6137e96e",
+        "created": "2020-02-28T16:38:51.852448Z",
+        "modified": "2021-08-14T01:09:26.250754Z",
+        "relationship_type": "hosts",
+        "description": "Change year probably full. Site animal recently everything head measure. Support research challenge.",
+        "source_ref": "threat-actor--f788f3bd-8d4c-4076-9290-acb3571b519a",
+        "target_ref": "infrastructure--0a97e9c7-e13f-4922-b20e-cc15883e6b83",
+        "stop_time": "2021-10-01T01:20:57.842863Z",
+        "object_marking_refs": [
+            "marking-definition--9f18fde7-bf00-4eca-9c14-e706b7e121ee"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--9f18fde7-bf00-4eca-9c14-e706b7e121ee",
+        "created_by_ref": "identity--8a436b89-3833-43a1-9b17-abfb6137e96e",
+        "created": "2021-08-14T01:09:26.24926Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8a436b89-3833-43a1-9b17-abfb6137e96e",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-15T20:31:13.506375Z",
+        "modified": "2022-01-03T16:04:31.698432Z",
+        "name": "Webster-Shaw",
+        "identity_class": "class",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 27,
+        "external_references": [
+            {
+                "source_name": "list",
+                "url": "https://www.kelly-morse.com/",
+                "hashes": {
+                    "MD5": "daf6b0b15784fa9db94b39582851ab9f",
+                    "SHA-1": "57f0bb0dc639f9de555f94c6bfc8be120c11f810",
+                    "SHA-256": "522e16abcdaefcf142a262b85d64b884f2ae6b21bd58ef497cd91506737fdfa8",
+                    "SHA-512": "4ba2845e8ea8a7bc80cee6bb0d08e84d4716c5ea914459ed95ee7cc26e8759ec76f0aed3c438d9305c207fc12e9894b96611bff31ce2c8f8f58913ac0b5da796",
+                    "SHA3-256": "a8df4271fa9df2e823b308c770b32553f35c1f17a8455f94e44795fae6e9840a",
+                    "SHA3-512": "5c5833a9727f669c874504388e634aa41fc35a1f811a134fd394ed61325ea383acd2c9116c84d6e68cc1445533cc35792413f8929d8f4e18cb73e746b7d77e0b"
+                },
+                "external_id": "TFCVVVGGLbZ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--9f18fde7-bf00-4eca-9c14-e706b7e121ee"
+        ]
+    }
+]

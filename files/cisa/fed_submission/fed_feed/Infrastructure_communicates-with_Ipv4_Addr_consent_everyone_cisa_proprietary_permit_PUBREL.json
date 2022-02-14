@@ -1,0 +1,229 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--8a511efc-f62b-41d6-9b70-ee98e7c9969d",
+        "created_by_ref": "identity--7a1d5880-c1e3-4fa0-a673-5b1b08d2ef25",
+        "created": "2022-03-04T22:40:05.659397Z",
+        "modified": "2022-06-17T15:43:08.85728Z",
+        "name": "subject",
+        "infrastructure_types": [
+            "command-and-control"
+        ],
+        "aliases": [
+            "collection",
+            "glass",
+            "store",
+            "economy"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "MkMxBUvO",
+                "phase_name": "QNBVOeNS"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "first_seen": "2021-04-04T07:16:54.457407Z",
+        "object_marking_refs": [
+            "marking-definition--aac01066-16b4-49c4-a1cd-609201d9c098"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "ipv4-addr",
+        "spec_version": "2.1",
+        "id": "ipv4-addr--01b3a4f5-d96a-4c35-9438-08f424a2389c",
+        "value": "169.217.115.28",
+        "object_marking_refs": [
+            "marking-definition--aac01066-16b4-49c4-a1cd-609201d9c098"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--7ef355b9-71fc-4f0d-9c31-72c258ae67a8",
+        "created_by_ref": "identity--7a1d5880-c1e3-4fa0-a673-5b1b08d2ef25",
+        "created": "2020-11-25T15:28:56.969796Z",
+        "modified": "2021-08-14T01:08:39.914171Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--8a511efc-f62b-41d6-9b70-ee98e7c9969d",
+        "target_ref": "ipv4-addr--01b3a4f5-d96a-4c35-9438-08f424a2389c",
+        "start_time": "2021-09-11T03:36:48.563284Z",
+        "stop_time": "2022-07-22T21:24:53.4365Z",
+        "labels": [
+            "rule",
+            "because",
+            "pfte-batch-1"
+        ],
+        "confidence": 44,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "bag",
+                "url": "https://www.barnes-hughes.net/",
+                "hashes": {
+                    "MD5": "c04bcfab712dc670d735792688eaf611",
+                    "SHA-1": "81714b408788c5903b7f154f40d412ef54682519",
+                    "SHA-256": "dd08461a12d2c81bdfcf626c737e5602e536dee242d96c1d493918dbd53a7efd",
+                    "SHA-512": "f486036e9f4d7204ec270260aadb1becb8ac810e0ad5d5f048d1f5d80545299afb66f38323868ae35787f8ea113ddc424523f9e3365779458ff2f416af417a44",
+                    "SHA3-256": "a18ba130c68f698144bf7ab42ef71998b091ecec42158fba73e84d4d9fb0db7b",
+                    "SHA3-512": "dcc91f622a43625d18f18fdda1e5e3ab245e310e3bad475fb2bee771ec8715aa5e84e7d275567ca2a114c0251142d5e7e0c4b919fefe80d15281a7acc02170b1"
+                }
+            },
+            {
+                "source_name": "stand",
+                "url": "https://www.wilson.com/",
+                "hashes": {
+                    "MD5": "f4b036aaece9506203b18f22a266accb",
+                    "SHA-1": "f05b1c604825c5dc31f5a40efea7d666acb170cb",
+                    "SHA-256": "f8b2638f2a3c262c16ff17e3c00b52e0a5a90e1f3a5d7fecdaa14521b7b2b22b",
+                    "SHA-512": "9c49e2b12112891a4e76b46ffdd2034bc5b2a18381d452296fb250e7adde646a1941a4d1e457fa4d088f63ccb46a11208fae1e8509f344a4a80770a84ae54633",
+                    "SHA3-256": "00493ab27e83641aa689f6b4b5544aa9a76e6a9dfed43ab45d67ce309feb1779",
+                    "SHA3-512": "3e1426db0e5dcf362e43e3a61c4c6bed92ac936941602a045d123e24fadac289168148214c9e445fa74a37238632630c2fb8477adf45c58c978b411f3726750d"
+                },
+                "external_id": "cvTEhG"
+            },
+            {
+                "source_name": "not",
+                "url": "https://atkins-carey.biz/",
+                "hashes": {
+                    "MD5": "8cdd11cb226befd11e99b104cc1d8ef9",
+                    "SHA-1": "3f821c9e535543d2dda618f5929142eba3873a02",
+                    "SHA-256": "fe0f45f855f31995f9c0a78069090569bbdcfaeb9521f07cca03b18436db341c",
+                    "SHA-512": "22696955e01609d7969d846cadbb2fa4473887d3cc6fba92fb8418b50d12cf539246e7140515cfd644174bac98dd9eaa5045afb14e6dce4ad1c8e11abd58acec",
+                    "SHA3-256": "5488a66838b138d339bff44d3f5f43ac7a8c43a6263143cf5c2914e95ff45879",
+                    "SHA3-512": "2640dabe3c97258943c82d2d4395d6d66b0ee4e4ddaeefde8cd5e9ff5f0f04f9e6bb73f3335fb0f5515e7c3cbbc0ce89829fab06be870072c94f33e4c5f79e39"
+                },
+                "external_id": "OqjuwtencIHxuLrQbT"
+            },
+            {
+                "source_name": "also",
+                "url": "http://www.anderson-hernandez.org/",
+                "external_id": "mEvxRJwnIJWlEJYnSV"
+            },
+            {
+                "source_name": "from",
+                "description": "Produce write year.",
+                "url": "http://garcia.com/",
+                "hashes": {
+                    "MD5": "273a80290236216a9a801d722f792146",
+                    "SHA-1": "27b883ee0533deecb36e1f88db8e9880f8048040",
+                    "SHA-256": "4a05a9eb2aa036c7d0b1cecc1ebd09ae405ed66442018707cf932e02fe20a47d",
+                    "SHA-512": "f55c05448a9178ea1ca4373be6506287de69b730d3e733162cc8bc8bddffd70685099d76afe3502e065939ed40b6f39ff06c3a8266f42ca225317f80340f5021",
+                    "SHA3-256": "d58e36547a0cb1ad3b9f25214721a8d7774578defdc0aa4ce9b09eacc3663556",
+                    "SHA3-512": "16adabf7860790761580bcc0c7e1886ac0d41bfdb176d76a2072450a976f3fa6c1a3b57a7c13d37cec3e66b460016f1854df604f81aa7d65d9e13418e4902c5c"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--aac01066-16b4-49c4-a1cd-609201d9c098"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7a1d5880-c1e3-4fa0-a673-5b1b08d2ef25",
+        "created_by_ref": "identity--7a1d5880-c1e3-4fa0-a673-5b1b08d2ef25",
+        "created": "2021-08-30T03:23:12.130915Z",
+        "modified": "2021-11-06T22:34:55.706755Z",
+        "name": "Lopez-Cooper",
+        "description": "Realigned optimal installation",
+        "contact_information": "70137 Prince Station Apt. 096\nNorth Ianview, MN 94436",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 51,
+        "external_references": [
+            {
+                "source_name": "quickly",
+                "hashes": {
+                    "MD5": "a72569272f232ce2e1ae0909a49f3b7c",
+                    "SHA-1": "bde702f6697f623ebb06caac8d28275d64519797",
+                    "SHA-256": "cd068e5066c1c86ac7308f4e98670ba274b459ca9b0216988c4374161a1cc209",
+                    "SHA-512": "83aad9a75920399246acdf0d44c9c42caff06bb16584b876faae23a2973ff807db814047006da054b8e9821e13a6b36888b31c2fdbbd2995ac52e873e9cfbedd",
+                    "SHA3-256": "8640877571663ca3c475ebd8a20c00a449a7fe092d0d4c84c2924592ddb97899",
+                    "SHA3-512": "577744fe8afae64f78eb3543e2d1fbea3b1acc54a7fb49a990538e9916e4cb7eca36bf978d33b50fd240bfe690892500aac45563a1fdf0a2eeaed6201f0c5a14"
+                },
+                "external_id": "LnCVbeOhYKX"
+            },
+            {
+                "source_name": "learn",
+                "description": "Situation night while adult nation interesting.",
+                "url": "https://www.davis.com/",
+                "hashes": {
+                    "MD5": "d6e594f73cd9c92bd6b2316957d31caa",
+                    "SHA-1": "5aaeedb175ba0a1c2f144c137a41c29fb63cd992",
+                    "SHA-256": "f59240a3f7df71a9e6c5edea065054644ad3f78a6252bfcdf5291d3df3b315ea",
+                    "SHA-512": "96740f60fa249420064fd30a6735ef287835917afe43b93031e8fbb1f85fcb0856600e98e8afc5b27f6c400074256ee96008c978c1671d4f1fcb89142c9d77f1",
+                    "SHA3-256": "ed8bedd8d487e276c26e5ff5fc992eb4a5aade34c193528e38195f745eb757b5",
+                    "SHA3-512": "a61b799c61afec007bc94005d7a6eb9c58fa461f78d5501c0938b0f664441b7ce6da8b22851f985c8431beee1e4ec6f6509369eab0ddeb7030775ad5060b3a41"
+                }
+            },
+            {
+                "source_name": "visit",
+                "url": "https://dickson.com/",
+                "external_id": "mdytqkUaecLByapD"
+            },
+            {
+                "source_name": "threat",
+                "description": "Team success goal consumer.",
+                "url": "https://www.brown.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--aac01066-16b4-49c4-a1cd-609201d9c098"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--aac01066-16b4-49c4-a1cd-609201d9c098",
+        "created": "2021-08-14T01:08:39.912662Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-716f5d31-4760-4ed1-b8df-6b76bb19bd34",
+                "name": "Wife plan yourself training yet rich",
+                "create_date_time": "2021-08-14T01:08:08.43336Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.433196Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

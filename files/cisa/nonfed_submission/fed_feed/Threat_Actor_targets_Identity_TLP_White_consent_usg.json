@@ -1,0 +1,157 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--1c557831-1912-4a17-95f9-4ec22951d740",
+        "created_by_ref": "identity--fb04d591-851c-4767-9aff-394ac7c234b1",
+        "created": "2021-05-01T18:54:34.651491Z",
+        "modified": "2021-11-18T19:52:15.270352Z",
+        "name": "dog",
+        "threat_actor_types": [
+            "sensationalist",
+            "spy"
+        ],
+        "aliases": [
+            "trial"
+        ],
+        "first_seen": "2021-02-20T21:13:49.206126Z",
+        "roles": [
+            "infrastructure-operator",
+            "independent",
+            "director"
+        ],
+        "sophistication": "minimal",
+        "resource_level": "individual",
+        "primary_motivation": "unpredictable",
+        "labels": [
+            "person",
+            "sound",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--d5cb1ec4-1f6b-4d1e-b10b-80ec448ee431"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d9c44973-494e-47bf-98bf-cbaec0815f7e",
+        "created_by_ref": "identity--fb04d591-851c-4767-9aff-394ac7c234b1",
+        "created": "2021-02-17T14:34:02.572236Z",
+        "modified": "2021-08-14T01:09:29.757246Z",
+        "name": "Lee, Schmidt and Mason",
+        "description": "Robust web-enabled contingency",
+        "identity_class": "system",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d5cb1ec4-1f6b-4d1e-b10b-80ec448ee431"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--175e1f52-d1b9-412d-9aa3-8fd6839c76b9",
+        "created_by_ref": "identity--fb04d591-851c-4767-9aff-394ac7c234b1",
+        "created": "2021-05-08T05:05:37.631496Z",
+        "modified": "2021-12-03T03:17:47.139405Z",
+        "relationship_type": "targets",
+        "source_ref": "threat-actor--1c557831-1912-4a17-95f9-4ec22951d740",
+        "target_ref": "identity--d9c44973-494e-47bf-98bf-cbaec0815f7e",
+        "start_time": "2020-10-01T02:41:48.15696Z",
+        "labels": [
+            "expert",
+            "yes",
+            "speak",
+            "pfte-batch-1"
+        ],
+        "confidence": 48,
+        "object_marking_refs": [
+            "marking-definition--d5cb1ec4-1f6b-4d1e-b10b-80ec448ee431"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d5cb1ec4-1f6b-4d1e-b10b-80ec448ee431",
+        "created_by_ref": "identity--fb04d591-851c-4767-9aff-394ac7c234b1",
+        "created": "2021-08-14T01:09:29.756355Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-0593643c-51b2-42da-a00a-74f8ab77059a",
+                "name": "Level manage blue drug treatment",
+                "create_date_time": "2021-08-14T01:08:08.420164Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.419967Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--fb04d591-851c-4767-9aff-394ac7c234b1",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-02T04:39:58.50219Z",
+        "modified": "2021-08-14T01:09:29.757801Z",
+        "name": "Benjamin, Carr and Morales",
+        "roles": [
+            "mind",
+            "represent"
+        ],
+        "identity_class": "system",
+        "sectors": [
+            "hospitality-leisure",
+            "communications",
+            "entertainment",
+            "education",
+            "commercial"
+        ],
+        "contact_information": "686 Taylor Mountains Suite 701\nAnnchester, MA 52271",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--d5cb1ec4-1f6b-4d1e-b10b-80ec448ee431"
+        ]
+    }
+]

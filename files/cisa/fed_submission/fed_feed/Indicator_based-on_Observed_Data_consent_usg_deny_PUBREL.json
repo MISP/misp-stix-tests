@@ -1,0 +1,173 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--c6a34163-4120-46b1-bb22-68e8d81dc0a5",
+        "created_by_ref": "identity--564212c2-ce47-416c-9c95-2dc12e2ff257",
+        "created": "2021-09-21T04:12:05.427519Z",
+        "modified": "2021-09-30T03:19:50.674434Z",
+        "indicator_types": [
+            "anomalous-activity",
+            "anonymization",
+            "unknown",
+            "unknown",
+            "attribution"
+        ],
+        "pattern": "[email-message:defanged = false] OR ([mac-addr:value = '7e:dd:ee:6b:d7:68'])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-10-11T23:25:51.929291Z",
+        "confidence": 86,
+        "object_marking_refs": [
+            "marking-definition--fd26093d-31c2-41fb-b68c-046a38746f14"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--066c712f-2ffa-4281-9b62-f7d273f2b898",
+        "created_by_ref": "identity--564212c2-ce47-416c-9c95-2dc12e2ff257",
+        "created": "2020-08-16T01:00:25.425323Z",
+        "modified": "2021-08-14T01:08:37.257675Z",
+        "first_observed": "2020-05-31T08:19:37.402657Z",
+        "last_observed": "2020-11-23T17:40:53.580976Z",
+        "number_observed": 737947552,
+        "objects": {
+            "domain-name--1a56cc11-92d5-4778-aff2-8b81b56e9c9a": {
+                "type": "domain-name",
+                "spec_version": "2.1",
+                "id": "domain-name--1a56cc11-92d5-4778-aff2-8b81b56e9c9a",
+                "value": "walker-erickson.com"
+            }
+        },
+        "labels": [
+            "lot",
+            "pfte-batch-1"
+        ],
+        "confidence": 23,
+        "object_marking_refs": [
+            "marking-definition--fd26093d-31c2-41fb-b68c-046a38746f14"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--911076f9-7490-4f2f-9fab-bf2e6a86c798",
+        "created_by_ref": "identity--564212c2-ce47-416c-9c95-2dc12e2ff257",
+        "created": "2021-04-10T06:15:19.878385Z",
+        "modified": "2021-08-29T10:57:38.380356Z",
+        "relationship_type": "based-on",
+        "description": "Once cover so gas around maintain industry mother. Compare gas effort green professor home prove. Because real place subject rock financial day.",
+        "source_ref": "indicator--c6a34163-4120-46b1-bb22-68e8d81dc0a5",
+        "target_ref": "observed-data--066c712f-2ffa-4281-9b62-f7d273f2b898",
+        "stop_time": "2022-05-21T17:13:06.114584Z",
+        "labels": [
+            "activity",
+            "rest",
+            "base",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fd26093d-31c2-41fb-b68c-046a38746f14"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--564212c2-ce47-416c-9c95-2dc12e2ff257",
+        "created_by_ref": "identity--564212c2-ce47-416c-9c95-2dc12e2ff257",
+        "created": "2020-09-03T22:57:35.680144Z",
+        "modified": "2021-08-14T01:08:37.258638Z",
+        "name": "Chambers, Rubio and Hall",
+        "identity_class": "class",
+        "contact_information": "9550 Benitez Junction Suite 547\nMarshalltown, WY 12338",
+        "confidence": 19,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "serve",
+                "description": "Us yeah back will.",
+                "hashes": {
+                    "MD5": "54350f1c8717937b9e463762d21ab6b4",
+                    "SHA-1": "3532ff73e6498731314f544eb10ce2fa0d87cead",
+                    "SHA-256": "2cfe68f3b7062323b5bc7f0f8104814b4b2e2dc7b17a0d3ed4252e1085244924",
+                    "SHA-512": "5d3fa989951a03767becf72e4e57214722eadad51000be535d3e6a88456764b1e0447b33d0a0f5ba26bd37c399db164daafda3f87357bb582bcbbb2aa141af7b",
+                    "SHA3-256": "df32afb637abc413667bffa117c639b5c653e2e0015f4b5e5e81690520467c93",
+                    "SHA3-512": "de6c068b3560fff1598794f44820443ba868f97a9406d10530890fe3a111260c71457f49a59ba77126f64c10b60b7ee4c13b189a61b3acdd34bca8f4b3d3bd1d"
+                }
+            },
+            {
+                "source_name": "less",
+                "description": "Doctor Democrat might eight skill."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fd26093d-31c2-41fb-b68c-046a38746f14"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--fd26093d-31c2-41fb-b68c-046a38746f14",
+        "created": "2021-08-14T01:08:37.255375Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-43175159-8b22-4755-bb89-fe0c2083a98a",
+                "name": "Simple name him investment road war scene",
+                "create_date_time": "2021-08-14T01:08:08.427347Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.427174Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

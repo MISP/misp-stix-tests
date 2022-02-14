@@ -1,0 +1,203 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--55cb111f-ce6f-4fd5-8ffe-004e4ddd210d",
+        "created_by_ref": "identity--c4ee9bfc-2b68-40c2-a94f-ac7c39eca892",
+        "created": "2021-02-17T04:53:03.773898Z",
+        "modified": "2021-08-17T09:39:20.174199Z",
+        "name": "sport",
+        "description": "Offer president mouth alone physical reality serious.",
+        "labels": [
+            "when",
+            "agency",
+            "sound",
+            "pfte-batch-1"
+        ],
+        "confidence": 66,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "either",
+                "description": "Member many important several.",
+                "external_id": "RZcWQTwQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--856ab43d-bf45-4c16-b2e5-2e3bc1c14ff5"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--4cb9650c-07f3-4feb-b688-53b6bb0845ef",
+        "created_by_ref": "identity--c4ee9bfc-2b68-40c2-a94f-ac7c39eca892",
+        "created": "2022-06-02T06:44:48.896338Z",
+        "modified": "2022-06-16T04:50:19.557398Z",
+        "indicator_types": [
+            "unknown",
+            "malicious-activity",
+            "unknown",
+            "compromised"
+        ],
+        "pattern": "([email-message:defanged NOT = false AND (email-message:date <= t'2020-11-26T05:23:03.993939Z')])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2019-09-20T00:02:56.330776Z",
+        "valid_until": "2020-09-15T12:13:52.289137Z",
+        "external_references": [
+            {
+                "source_name": "bag",
+                "description": "Pass throw rate.",
+                "url": "https://www.mcconnell.com/",
+                "hashes": {
+                    "MD5": "042a05499d5e7400dafde910d84fd7b0",
+                    "SHA-1": "c4afd24e151d1e716fa5ef521be6c50745018b49",
+                    "SHA-256": "28344060134a30a694332aff143ed6e000153c57c02c7e926a12f3f5ddcbab9a",
+                    "SHA-512": "0d3ffb860443905ba77aeff6fb8af59a2f9b27cd651f7ea62ac16b821b5dd8708e814adc8092d9d21a3e248d1990e8c602f63f800ea0d5631ca758405059b5de",
+                    "SHA3-256": "ce10eafb45bfef7c0cab9774cd517af3c5b75e3a5b2f5238a1ba4281ab89484d",
+                    "SHA3-512": "61398d0826f4b6ce12d66839a4468db43f61394aa8207d14032be4815603b204525266bc8a371ba3307e6832150f5b3b23467ff46b03d2a13ca05e5d5a61ccd1"
+                }
+            },
+            {
+                "source_name": "service",
+                "description": "Research hand pretty room officer financial receive.",
+                "url": "https://www.jones.info/",
+                "external_id": "RzqKYMuENnTICD"
+            },
+            {
+                "source_name": "reality",
+                "description": "Opportunity yeah at join value first cover.",
+                "url": "https://miller-salazar.com/"
+            },
+            {
+                "source_name": "know",
+                "description": "Plant customer explain someone task music.",
+                "url": "https://king-thomas.org/",
+                "external_id": "iZTwDRWif"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--856ab43d-bf45-4c16-b2e5-2e3bc1c14ff5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a00ddf31-211a-4a67-8b36-d1cd1fd72082",
+        "created_by_ref": "identity--c4ee9bfc-2b68-40c2-a94f-ac7c39eca892",
+        "created": "2020-12-19T03:42:57.382435Z",
+        "modified": "2021-11-10T18:57:50.749968Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--55cb111f-ce6f-4fd5-8ffe-004e4ddd210d",
+        "target_ref": "indicator--4cb9650c-07f3-4feb-b688-53b6bb0845ef",
+        "start_time": "2020-10-08T21:05:45.968507Z",
+        "confidence": 58,
+        "object_marking_refs": [
+            "marking-definition--856ab43d-bf45-4c16-b2e5-2e3bc1c14ff5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c4ee9bfc-2b68-40c2-a94f-ac7c39eca892",
+        "created_by_ref": "identity--c4ee9bfc-2b68-40c2-a94f-ac7c39eca892",
+        "created": "2021-07-01T02:23:57.680774Z",
+        "modified": "2022-04-03T08:39:27.405046Z",
+        "name": "Tyler, Haas and Peters",
+        "description": "Configurable scalable process improvement",
+        "identity_class": "class",
+        "sectors": [
+            "government-public-services",
+            "aerospace",
+            "chemical",
+            "defense"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--856ab43d-bf45-4c16-b2e5-2e3bc1c14ff5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--856ab43d-bf45-4c16-b2e5-2e3bc1c14ff5",
+        "created": "2021-08-14T01:08:23.900995Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-57e7d098-4c26-4a4d-bfaa-3ee9c5e47adc",
+                "name": "Customer hot subject fight customer",
+                "create_date_time": "2021-08-14T01:08:08.428617Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

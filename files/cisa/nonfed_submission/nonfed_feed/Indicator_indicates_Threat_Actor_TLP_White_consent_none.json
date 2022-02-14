@@ -1,0 +1,122 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--b9335d68-0862-4e88-ac91-f5831c0edb9b",
+        "created_by_ref": "identity--ae125b42-80dc-4ac9-a0af-f2b23fd3956e",
+        "created": "2021-06-17T09:46:03.119129Z",
+        "modified": "2021-12-02T17:58:28.16194Z",
+        "pattern": "[directory:path_enc < 'ISO-8859-2'] OR [url:defanged NOT = false] OR (([autonomous-system:defanged NOT = false]) OR [x509-certificate:subject_public_key_modulus <= '476548511860045952541673086412'] OR [software:vendor NOT = 'Navarro, Fisher and Wilkinson']) START t'2021-08-13T03:08:58.380342Z' STOP t'2021-09-26T00:40:07.186998Z'",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-03-02T08:46:49.27238Z",
+        "valid_until": "2020-12-19T21:08:25.388444Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            }
+        ],
+        "labels": [
+            "nothing",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--4ceab01b-0d85-4791-868d-97a2feed5741",
+        "created_by_ref": "identity--ae125b42-80dc-4ac9-a0af-f2b23fd3956e",
+        "created": "2022-02-06T02:55:40.178277Z",
+        "modified": "2022-02-14T07:41:03.49812Z",
+        "name": "yeah",
+        "description": "Discover option even theory outside relationship perform hope.",
+        "threat_actor_types": [
+            "unknown",
+            "terrorist",
+            "unknown",
+            "spy"
+        ],
+        "first_seen": "2021-01-20T04:56:16.455786Z",
+        "last_seen": "2021-03-22T19:02:03.683365Z",
+        "sophistication": "expert",
+        "primary_motivation": "organizational-gain",
+        "secondary_motivations": [
+            "accidental",
+            "dominance",
+            "personal-gain"
+        ],
+        "personal_motivations": [
+            "coercion"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ff524048-93f2-487b-ac54-c3d6dde9ad3e",
+        "created_by_ref": "identity--ae125b42-80dc-4ac9-a0af-f2b23fd3956e",
+        "created": "2021-06-23T01:50:17.258738Z",
+        "modified": "2021-08-20T12:12:56.913756Z",
+        "relationship_type": "indicates",
+        "description": "Thank story family nice research brother. Exactly write clear rich concern in against. Agency prove listen full.",
+        "source_ref": "indicator--b9335d68-0862-4e88-ac91-f5831c0edb9b",
+        "target_ref": "threat-actor--4ceab01b-0d85-4791-868d-97a2feed5741",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 97,
+        "external_references": [
+            {
+                "source_name": "for",
+                "description": "Interview simple present oil green personal world.",
+                "hashes": {
+                    "MD5": "d3385768130f57398c5df555064ae38d",
+                    "SHA-1": "a2d5f25f0232c28a04dd16b12819e81d11ba8be2",
+                    "SHA-256": "ae1afb52e71e4a7b2dde8f88dcff909aad7b8da07068200c9b265a11f57dc77e",
+                    "SHA-512": "485dfe4d5ccd919de0ff25641eff34f7405d4440c1c4b18369a5d1dae3d67be0e7b2822b647af903e23912988211836bb629e24f2785dddc07751d80f2dbc765",
+                    "SHA3-256": "2576ff53e329871b804c105b2dc7d3196ef628bb98e1d566d92eb2fc386c6fd8",
+                    "SHA3-512": "e3618fc3aad6ef57f6b5bfcb6dd6dd04dbf64dda71ac222cb8894fcd878feba4ca0c617182402dfc1b64c172d65c9b644e7d196bf2a1ea53a99ddf82b7158a87"
+                },
+                "external_id": "cRFmwCpbrgGFvIEz"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ae125b42-80dc-4ac9-a0af-f2b23fd3956e",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-02T03:57:35.131869Z",
+        "modified": "2022-07-11T04:32:54.815089Z",
+        "name": "PublicIndicateAgain",
+        "description": "Polarized well-modulated data-warehouse",
+        "roles": [
+            "that"
+        ],
+        "identity_class": "unknown",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

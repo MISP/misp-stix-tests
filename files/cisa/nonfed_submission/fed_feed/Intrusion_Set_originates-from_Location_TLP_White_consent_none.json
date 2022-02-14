@@ -1,0 +1,187 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--f08b715d-90ca-43ce-bf3c-33a7d1f3f730",
+        "created_by_ref": "identity--1ce6c957-c300-4e9d-b0e6-11915b53af2b",
+        "created": "2020-12-27T12:39:47.589606Z",
+        "modified": "2021-08-14T01:08:54.49113Z",
+        "name": "respond",
+        "confidence": 85,
+        "object_marking_refs": [
+            "marking-definition--aff1ef50-6a1d-472d-8d54-c8313193d005"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--9a1e46e2-b9e1-4f3a-86c1-dbf5f1fe3f49",
+        "created_by_ref": "identity--1ce6c957-c300-4e9d-b0e6-11915b53af2b",
+        "created": "2020-09-24T20:18:03.948205Z",
+        "modified": "2021-08-17T11:47:27.345191Z",
+        "latitude": -8.877974740047918,
+        "longitude": -135.00421055315144,
+        "precision": 70.71001688191153,
+        "region": "antarctica",
+        "administrative_area": "WXuqV",
+        "street_address": "6887 King Bypass",
+        "labels": [
+            "lead",
+            "ok",
+            "eight",
+            "situation",
+            "pick",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "anything",
+                "description": "Relationship part public couple at project yes.",
+                "url": "https://www.benson.com/"
+            },
+            {
+                "source_name": "message",
+                "description": "Especially white either but.",
+                "external_id": "aIhcwxFnhNedeHldtjK"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--aff1ef50-6a1d-472d-8d54-c8313193d005"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--fa3a3d06-c571-4191-bb4c-8d00faa018f1",
+        "created_by_ref": "identity--1ce6c957-c300-4e9d-b0e6-11915b53af2b",
+        "created": "2021-09-22T11:56:09.927755Z",
+        "modified": "2022-01-12T15:50:43.202321Z",
+        "relationship_type": "originates-from",
+        "source_ref": "intrusion-set--f08b715d-90ca-43ce-bf3c-33a7d1f3f730",
+        "target_ref": "location--9a1e46e2-b9e1-4f3a-86c1-dbf5f1fe3f49",
+        "start_time": "2020-12-13T22:02:55.422762Z",
+        "stop_time": "2021-04-29T06:47:41.310527Z",
+        "object_marking_refs": [
+            "marking-definition--aff1ef50-6a1d-472d-8d54-c8313193d005"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--aff1ef50-6a1d-472d-8d54-c8313193d005",
+        "created_by_ref": "identity--1ce6c957-c300-4e9d-b0e6-11915b53af2b",
+        "created": "2021-08-14T01:08:54.490531Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-2828523e-b28d-4046-9afc-51d22e18d79b",
+                "name": "Social price record ever reveal physical each",
+                "create_date_time": "2021-08-14T01:08:08.418751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.418527Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1ce6c957-c300-4e9d-b0e6-11915b53af2b",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-02T14:44:08.372044Z",
+        "modified": "2021-10-24T22:51:39.288598Z",
+        "name": "StepDirectorFirm",
+        "roles": [
+            "skill",
+            "prevent",
+            "difficult",
+            "executive",
+            "can"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 39,
+        "external_references": [
+            {
+                "source_name": "fine",
+                "description": "Kind artist oil thank raise.",
+                "url": "https://benjamin.com/",
+                "hashes": {
+                    "MD5": "e374393bafba61e1fdb0e93abcc44501",
+                    "SHA-1": "018a51fa4d80015061b4e12302f39d9105d83fa8",
+                    "SHA-256": "e2d99be82df6d85ce339e72d53a95b86991f79d84f66c297ed84f022ad66498c",
+                    "SHA-512": "ab85c6d698c2b28b627840fa0b93bedf4c8cddddd31a67fe8fcbbffc638c92e6a46631497e7e0cee1014b56ddba38324cdad57fc4260bbdf3731a27949108f27",
+                    "SHA3-256": "c2f914c26439eb2d8dbe6318ff8d9da949f2b126c281a58972c23282d8d66a17",
+                    "SHA3-512": "2648dc4c8893cd77dd01b49f7b17a7f8b65d874a15502b43d956f77b6fa157d05644121a368e28d0bb3bf97c116df9dd7326fc6ae77861e049a305db37a425a7"
+                }
+            },
+            {
+                "source_name": "information",
+                "description": "Animal safe middle little same end old.",
+                "url": "https://elliott.com/"
+            },
+            {
+                "source_name": "attorney",
+                "description": "Treat yet work role anything arm less.",
+                "external_id": "NmTMOwSGxqKzdN"
+            },
+            {
+                "source_name": "if",
+                "description": "Seek raise while cut away.",
+                "hashes": {
+                    "MD5": "64e88136a6d1f12b9b570d212db1eee5",
+                    "SHA-1": "dadef767ce360d84822d33b6d111e819a02df825",
+                    "SHA-256": "5a02539740a853f325252d57b9362876e878966e5e111634fbcfd879958e59ac",
+                    "SHA-512": "20646427575cf5a52068c620f752f1fa53a4104cda2d7da565cee08f7e93de3bce72db3556ba3d032afecbbf6dfb120ba9852bab03e6db11580bd82d9bee0f68",
+                    "SHA3-256": "fb02b789b258f382e6140f2047d2eeeac3ed45159da2e5add2ffa8793bb73e9f",
+                    "SHA3-512": "da1a37c3af7f3b2d6e17a51daa358d4058dd638466beab823db03d2be999a759c9989d784536a9237f3ca441d45d949dcdc0105a06d73bbd7b7c44719f9d2cc6"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--aff1ef50-6a1d-472d-8d54-c8313193d005"
+        ]
+    }
+]

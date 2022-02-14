@@ -1,0 +1,221 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--34c3a7fc-9607-42e2-a4f3-e771ae3758af",
+        "created_by_ref": "identity--08763199-a4b6-47b3-9883-2fdf5cc29970",
+        "created": "2021-03-21T19:47:15.858985Z",
+        "modified": "2022-01-22T19:40:18.680365Z",
+        "name": "full",
+        "threat_actor_types": [
+            "terrorist",
+            "unknown",
+            "crime-syndicate",
+            "insider-disgruntled",
+            "nation-state"
+        ],
+        "aliases": [
+            "population"
+        ],
+        "sophistication": "minimal",
+        "primary_motivation": "unpredictable",
+        "confidence": 31,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--6dee950b-9289-4663-9ec4-587cbba3dc8d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--d130c9e4-aa54-4ab3-8590-01cd54bcaabd",
+        "created_by_ref": "identity--08763199-a4b6-47b3-9883-2fdf5cc29970",
+        "created": "2022-03-05T04:32:21.389602Z",
+        "modified": "2022-09-14T23:51:03.064499Z",
+        "description": "Adaptive national benchmark",
+        "latitude": 82.7697092107112,
+        "longitude": -174.55755176865375,
+        "administrative_area": "qvWWQmDFcomRrDdncFmz",
+        "city": "Stephanieview",
+        "street_address": "275 Wallace Island",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--6dee950b-9289-4663-9ec4-587cbba3dc8d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--86ac55a4-f737-41f6-bf6f-37907d8c433a",
+        "created_by_ref": "identity--08763199-a4b6-47b3-9883-2fdf5cc29970",
+        "created": "2021-02-16T08:53:33.982894Z",
+        "modified": "2021-08-14T01:09:29.267943Z",
+        "relationship_type": "located-at",
+        "description": "Class off language stay not floor between writer. Partner watch reality wrong year feeling heart.",
+        "source_ref": "threat-actor--34c3a7fc-9607-42e2-a4f3-e771ae3758af",
+        "target_ref": "location--d130c9e4-aa54-4ab3-8590-01cd54bcaabd",
+        "start_time": "2020-08-25T20:22:52.895541Z",
+        "stop_time": "2021-06-22T17:22:08.737318Z",
+        "labels": [
+            "human",
+            "dinner",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--6dee950b-9289-4663-9ec4-587cbba3dc8d"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--e44b07c1-31aa-4332-8968-bd4c547706ab",
+        "created_by_ref": "identity--08763199-a4b6-47b3-9883-2fdf5cc29970",
+        "created": "2022-03-26T11:32:41.760119Z",
+        "modified": "2022-12-31T13:25:48.032178Z",
+        "name": "point",
+        "context": "malware-analysis",
+        "object_refs": [
+            "threat-actor--34c3a7fc-9607-42e2-a4f3-e771ae3758af",
+            "location--d130c9e4-aa54-4ab3-8590-01cd54bcaabd",
+            "relationship--86ac55a4-f737-41f6-bf6f-37907d8c433a"
+        ],
+        "labels": [
+            "this",
+            "entire",
+            "foreign",
+            "particularly",
+            "more",
+            "pfte-batch-1"
+        ],
+        "confidence": 27,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--6dee950b-9289-4663-9ec4-587cbba3dc8d"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--08763199-a4b6-47b3-9883-2fdf5cc29970",
+        "created_by_ref": "identity--08763199-a4b6-47b3-9883-2fdf5cc29970",
+        "created": "2022-05-20T17:40:30.473231Z",
+        "modified": "2023-04-19T12:00:09.201486Z",
+        "name": "Yoder Inc",
+        "description": "User-centric clear-thinking productivity",
+        "sectors": [
+            "pharmaceuticals",
+            "transportation",
+            "chemical",
+            "government-regional",
+            "utilities"
+        ],
+        "confidence": 76,
+        "external_references": [
+            {
+                "source_name": "recent",
+                "hashes": {
+                    "MD5": "743acd92a417476b9a653c1c1acacd3a",
+                    "SHA-1": "4737d0f83487f2131c3fa0e66f861d47a0a5fd84",
+                    "SHA-256": "94aae749dd76ed6f582dca2be4e14af4630fd006dcf5cc6e42ddc2d58e583ee2",
+                    "SHA-512": "9d968f63e3aa8c41f835b3e250d18df15107089c0a4dc20dbcdfbf57185fb2a99c388a54e7641c04d50eac70b59b3141ae61fa634e65290f48fc31647ab157a9",
+                    "SHA3-256": "38a29a498fa570efb2111d5f787382d46b7810267b7737c75be0c777827dc2be",
+                    "SHA3-512": "a758119541a4912ff0262c0d660b001ba80a34f2d1f686793a5c0c827205deb2a301bdd4c03052fd566b33c0a9c00d4b53764c1c9e517cf00a7971c4592b27a5"
+                },
+                "external_id": "xVMuTfSSdaMWkbM"
+            },
+            {
+                "source_name": "campaign",
+                "url": "https://www.williamson.net/",
+                "hashes": {
+                    "MD5": "3817a681a3470fb9fffadec9ab1ab2be",
+                    "SHA-1": "2e1671a604a46b0d28c84e13fc66752bc2cf43e6",
+                    "SHA-256": "ec577f239f7dbf1426118537e9b16f9b0bdaad6ec378b7f5611950ee14fd2828",
+                    "SHA-512": "f39c075df794b6d7038f13090f8c9e64b325c00c7fe081c937c3b56fc349ff15277ac280c715f3469bf8fb77bba2a283b019a8c6e64f62a02c8946900ed31c4d",
+                    "SHA3-256": "c9eb249f42939705868638248010d9ecf3f600e4b846f29a2b3c7e3410f7fa15",
+                    "SHA3-512": "3526fb747a108698e64dd7231cf50b786a249a76497d550dd6ff75e80576bdb4073c3f0a5d86361f561abdb0300c0188f6665f4396e5ed0fc125cf366e9184e7"
+                },
+                "external_id": "NbJlB"
+            },
+            {
+                "source_name": "summer",
+                "description": "Attorney dark machine follow technology.",
+                "url": "http://guzman.com/",
+                "hashes": {
+                    "MD5": "17479e4816607b907a23cec852bd8014",
+                    "SHA-1": "e417f09a1b8ec1ded609e7bb167ab38ada2f094b",
+                    "SHA-256": "43a2ca2fd44a2e19e440289a380d54841a637b179de4e1ca889d5602aafd15fb",
+                    "SHA-512": "10879ca853a0315d5554278a3a50a32c47d2aecdb6c02cc2615606f0d0c677bc2bda187f034f7e697e4aba56d86a5683f7a2cb2d366ffe877914d33ec5f17806",
+                    "SHA3-256": "5f5f0c0bb55bfaad0df86e76fa13d7200020c6166974a83e9f19492c9e6fa83a",
+                    "SHA3-512": "2a89e97e5a33386f34e061e9fa8a6144a168c7b278cbd07e0d910658e438926d716e12618bf4f2f302550dcfec5d78995d99afafe840a227a1a3771e47378af8"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--6dee950b-9289-4663-9ec4-587cbba3dc8d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--6dee950b-9289-4663-9ec4-587cbba3dc8d",
+        "created": "2021-08-14T01:09:29.266685Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-a2bad07a-f4d3-4efb-a81b-2cf0c0637fc9",
+                "name": "Our concern loss resource wear",
+                "create_date_time": "2021-08-14T01:08:08.426882Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

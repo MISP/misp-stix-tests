@@ -1,0 +1,196 @@
+[
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--4bc4d3c6-5e36-466d-b2fa-c211877a1f97",
+        "created_by_ref": "identity--191c3014-a0f5-43f3-a37e-94a714b7a785",
+        "created": "2020-10-25T00:23:57.317701Z",
+        "modified": "2021-09-21T08:54:55.63611Z",
+        "name": "like",
+        "description": "Far thought today plant event ability once.",
+        "aliases": [
+            "manager"
+        ],
+        "goals": [
+            "Movie Mrs minute attention.",
+            "Listen product can choose item draw remember.",
+            "Hold including rule population pick."
+        ],
+        "secondary_motivations": [
+            "accidental",
+            "accidental",
+            "accidental",
+            "revenge",
+            "personal-satisfaction"
+        ],
+        "confidence": 24,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fe3681b7-6c37-4424-8880-373eccc630e3"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--9c92f2ef-7b3f-457f-8c8c-a796a00a9af6",
+        "created_by_ref": "identity--191c3014-a0f5-43f3-a37e-94a714b7a785",
+        "created": "2021-02-26T04:32:05.992519Z",
+        "modified": "2021-08-14T01:08:55.509864Z",
+        "name": "Brown, Sullivan and Thomas",
+        "roles": [
+            "must",
+            "according"
+        ],
+        "sectors": [
+            "chemical",
+            "financial-services"
+        ],
+        "contact_information": "214 Nguyen Pass\nEast Patrick, NC 33754",
+        "labels": [
+            "happy",
+            "account",
+            "economy",
+            "camera",
+            "health",
+            "pfte-batch-1"
+        ],
+        "confidence": 88,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fe3681b7-6c37-4424-8880-373eccc630e3"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--65261ab7-feef-47a2-8b58-c62b6ab8f53e",
+        "created_by_ref": "identity--191c3014-a0f5-43f3-a37e-94a714b7a785",
+        "created": "2022-06-05T18:50:22.081404Z",
+        "modified": "2022-10-05T20:07:28.664611Z",
+        "relationship_type": "targets",
+        "source_ref": "intrusion-set--4bc4d3c6-5e36-466d-b2fa-c211877a1f97",
+        "target_ref": "identity--9c92f2ef-7b3f-457f-8c8c-a796a00a9af6",
+        "start_time": "2020-12-15T05:41:07.520276Z",
+        "stop_time": "2021-06-19T07:20:34.330664Z",
+        "labels": [
+            "but",
+            "admit",
+            "light",
+            "staff",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--fe3681b7-6c37-4424-8880-373eccc630e3"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--fe3681b7-6c37-4424-8880-373eccc630e3",
+        "created_by_ref": "identity--191c3014-a0f5-43f3-a37e-94a714b7a785",
+        "created": "2021-08-14T01:08:55.508899Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-881bbc21-deef-4d57-abf3-7f599266217f",
+                "name": "Way get would fight necessary hour measure",
+                "create_date_time": "2021-08-14T01:08:08.423662Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--191c3014-a0f5-43f3-a37e-94a714b7a785",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-30T02:39:34.790413Z",
+        "modified": "2022-06-09T03:00:31.006873Z",
+        "name": "Hall-Rocha",
+        "sectors": [
+            "hospitality-leisure",
+            "education"
+        ],
+        "contact_information": "00721 Crystal View Suite 381\nConradville, MI 36059",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "plan",
+                "description": "Set simply ten positive part source work.",
+                "external_id": "OzLvrERZYchaSIPIekC"
+            },
+            {
+                "source_name": "peace",
+                "description": "Data quite compare she chair wide shake.",
+                "url": "http://www.thompson-walters.com/",
+                "external_id": "AUfBkflOU"
+            },
+            {
+                "source_name": "benefit",
+                "description": "Apply total cup grow.",
+                "url": "http://torres.net/",
+                "hashes": {
+                    "MD5": "5a4857e0e93976de711e44b3a53b972b",
+                    "SHA-1": "a825442449b64067860de7833a29981ddca5ab94",
+                    "SHA-256": "4f2c09d3f731ee36d2af2b432adad04d33dd23990af5b7b0e53db60c553fc342",
+                    "SHA-512": "34ff059672fc17b01c4fe310fc6e57555dcf291534cb004a4e1142f7737adfa4cbe87bb8867023d75df435edda9a230095e56106abe858b0361cb1facec5a4e6",
+                    "SHA3-256": "9946f9def5d037c3c8ba3bccc12e86fb8f61d2980143997e10b1518c86e2e219",
+                    "SHA3-512": "21c3f812d8f91413193e47dc629ac0984d6ac8d7abba2e904829026e68247f4a528b4aa9192bc424dc9dbb3568580b3c57ca156562c053e64930944b0c49e62e"
+                },
+                "external_id": "trNuF"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fe3681b7-6c37-4424-8880-373eccc630e3"
+        ]
+    }
+]

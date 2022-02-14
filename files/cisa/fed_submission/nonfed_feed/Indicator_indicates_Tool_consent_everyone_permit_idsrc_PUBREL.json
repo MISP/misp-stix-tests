@@ -1,0 +1,195 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--b1630383-31bb-4c6a-a53e-91955e5abe21",
+        "created_by_ref": "identity--779427dc-46f3-4047-8545-e2d1b6d42b93",
+        "created": "2022-07-31T01:24:10.807497Z",
+        "modified": "2023-01-23T07:21:04.039194Z",
+        "indicator_types": [
+            "unknown",
+            "malicious-activity"
+        ],
+        "pattern": "[directory:path_enc <= 'ISO-8859-4']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-01-03T16:13:00.790191Z",
+        "labels": [
+            "card",
+            "mention",
+            "consider",
+            "money",
+            "wrong",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--cdcabdb9-04ae-4abd-8829-3c5ffe7d654d",
+        "created_by_ref": "identity--779427dc-46f3-4047-8545-e2d1b6d42b93",
+        "created": "2020-09-15T20:51:41.181675Z",
+        "modified": "2021-08-14T01:08:35.615678Z",
+        "name": "few",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "CeJzeFvnqZ",
+                "phase_name": "iSdRakvku"
+            },
+            {
+                "kill_chain_name": "YDWIruUJLJFOVpsB",
+                "phase_name": "DhkrvQvJeHhWlvlV"
+            }
+        ],
+        "labels": [
+            "military",
+            "its",
+            "give",
+            "pfte-batch-1"
+        ],
+        "confidence": 83,
+        "external_references": [
+            {
+                "source_name": "see",
+                "hashes": {
+                    "MD5": "64b8ef8a116e348066e32ce90d68a32d",
+                    "SHA-1": "6b21511ad0d387bffdd836138eb608e05016ffcf",
+                    "SHA-256": "9a0215ecc2e33e333244bf7c0faa85498ef81c9eaa908e9cac0272f6cda4832e",
+                    "SHA-512": "920e6cb8e96a284006ac142bd8fb109f7b031ef9b4df2d140739beb15fe20fb724e0cba36578eab5040d649ab8964b313713eaa414ca8d8514ccd1942ff2ac3d",
+                    "SHA3-256": "130b5b8fbb5e5b38e9e9fede50b70bb6c764e62849bfa874120793ac947a03c9",
+                    "SHA3-512": "77fe16130db23912f3d6b51057ed3619847d911fe632a0fdef22899b50ee142984c8565d14b987b56fe24f8c7908700c2a0d4d082cc3ebc499b3b7842424646b"
+                },
+                "external_id": "OIZNbUph"
+            },
+            {
+                "source_name": "artist",
+                "external_id": "JFkykkzLHjpR"
+            },
+            {
+                "source_name": "magazine",
+                "url": "http://wright.net/",
+                "hashes": {
+                    "MD5": "ea7fbc20b8afcbac488a2c3b7f762c0d",
+                    "SHA-1": "5c9996799701840d237915bb628e4d7388414a0d",
+                    "SHA-256": "4e56f25d60acb7f741d591c122aa85f95295ba5e0c6a87b8c277d23d81bf1ff9",
+                    "SHA-512": "48326a411159d21b167f5f1db4485e273b8f270bd29f957d0b9a840ef9780e027d5baf93d2b3693f031824945b421fae48356cf9e79b9453679a906d31a76fb7",
+                    "SHA3-256": "4c018994b77771d9145065736c5ef513f9cb0a4d2acbfeefcab89ce7c3ba8dfe",
+                    "SHA3-512": "e55c46313a1c8bd55323b86141acc7a3289fe18cd3d3cce0d75ed72733ccac79b62eee1cff2ba0d0f8575d9c3163b80b7917134e38b6fc595060577731d0a90e"
+                }
+            },
+            {
+                "source_name": "practice",
+                "url": "https://gibson-reeves.info/",
+                "external_id": "LcaUaOjxbukEyN"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b2a1c7ef-53d9-4873-97d9-71f7bbb0c070",
+        "created_by_ref": "identity--779427dc-46f3-4047-8545-e2d1b6d42b93",
+        "created": "2022-05-08T07:06:28.110331Z",
+        "modified": "2022-05-24T16:43:05.798421Z",
+        "relationship_type": "indicates",
+        "description": "Leg everything control point. Leg defense watch feeling or son parent.",
+        "source_ref": "indicator--b1630383-31bb-4c6a-a53e-91955e5abe21",
+        "target_ref": "tool--cdcabdb9-04ae-4abd-8829-3c5ffe7d654d",
+        "start_time": "2020-09-18T20:50:16.941554Z",
+        "stop_time": "2020-11-18T03:05:10.159215Z",
+        "labels": [
+            "general",
+            "pfte-batch-1"
+        ],
+        "confidence": 28,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--779427dc-46f3-4047-8545-e2d1b6d42b93",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-06-19T10:30:37.782764Z",
+        "modified": "2022-08-20T07:20:58.379877Z",
+        "name": "Ford Ltd",
+        "description": "Enhanced demand-driven neural-net",
+        "identity_class": "class",
+        "contact_information": "35485 Robert Lodge Suite 854\nEast Shelley, FL 26321",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "traditional",
+                "url": "https://gregory-mays.com/"
+            },
+            {
+                "source_name": "professional",
+                "description": "Decade reach establish example share.",
+                "url": "http://www.murray.com/",
+                "hashes": {
+                    "MD5": "8e4f5e766457aaa515a74462a44549b4",
+                    "SHA-1": "0971bc94d0d368d707d43833358fe96c0a8756e2",
+                    "SHA-256": "b3bc19b80c4284c1dbfbe96ad24c3cb9b7d89e4b33d8e8c4dd3f5b674b4ff225",
+                    "SHA-512": "cb498089cae0670a2c5582c18ff62bc982708c48830ba3d218898867677ce29b8417a4f82195445895f5f94d41f18d15e2ef6f356dd63136ee183b924b39c716",
+                    "SHA3-256": "707f339311a59bd263ee510b8fb7d5de8f1939f414e976be8240462a34e6da9b",
+                    "SHA3-512": "ad53adea9394d8553497c23f68534d5740d12c4bfa9050ac5f4ef2490b33b965e1d81b3cc13b41711a6c1662b254884837df9c958c9e07f7bcac8a695fd932d1"
+                }
+            },
+            {
+                "source_name": "officer",
+                "description": "Red building there then.",
+                "url": "https://hancock.com/",
+                "hashes": {
+                    "MD5": "a7d2e3fa0a56842990b84f2c77830ef6",
+                    "SHA-1": "ebda2a9528b8d1668a9654cecdc66af9f57b372c",
+                    "SHA-256": "6c667201ca7bb4b4b38e4f3ec5facd2e0276d793f31419d7ceee7e671dc332c5",
+                    "SHA-512": "802bda97babfbed9bc48d85a74841c1b80ce785ef2ab56050f117f7432409409c350e1e4dbd2116e337fcdb1ef957bd1ff35e96769a24d63615d22ea0955ba52",
+                    "SHA3-256": "db3db88f4962f5407e0fc5f300c6e909066ac909136cbc6bc462d52d4f16eb82",
+                    "SHA3-512": "862db6b7c3a083848763167824c56129f07f0da294c341ef898ea1c07c47ac54a3f3d2bc1e27311ffb979c06a0a5232e0859d071ec8cfe4aedbc64b514be90c1"
+                }
+            },
+            {
+                "source_name": "fast",
+                "description": "Deal site race special guy question from.",
+                "url": "http://brooks.net/",
+                "external_id": "kzCVEezJPFLkMGMlZa"
+            },
+            {
+                "source_name": "despite",
+                "description": "Measure sport age friend free account.",
+                "url": "http://house.com/",
+                "hashes": {
+                    "MD5": "de7f7266c9277ee09439a80c3d8b1024",
+                    "SHA-1": "2fc5df99492c1643326eedbd1154af0e0d4388ed",
+                    "SHA-256": "5a250e337f7173ecb2d5373206909711ecdf72ebd7f9dfa5b024194b91254c06",
+                    "SHA-512": "8d21ec0a010811849f10de1232be9028e7d2275767b242c3f8fb263d142df7235921dd3f906af02f6d26e9789e67655e0b0853a9811d11369b6eab267658c106",
+                    "SHA3-256": "0797b86edd7e8c0ddc70e4530c8c72c94f76ed6a948917d0558adcc676d1cd5c",
+                    "SHA3-512": "34159b45a0fc0b14024d94e6afacc029de7e7f84ce7c3ffd72562c3f96195e90de3d54eba177143445be9e9dd636270cff1449e36be7bb42c21e710943dda3a4"
+                },
+                "external_id": "OBGrzAeGpGrubYUB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

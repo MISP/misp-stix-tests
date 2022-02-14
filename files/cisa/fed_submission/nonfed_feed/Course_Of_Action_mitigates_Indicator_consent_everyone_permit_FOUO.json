@@ -1,0 +1,179 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--1f8b6c61-5820-43eb-980f-3dd44f2bac95",
+        "created_by_ref": "identity--96895b85-573f-49e7-8864-a78349eef43c",
+        "created": "2021-12-09T00:02:09.372301Z",
+        "modified": "2022-10-23T07:18:34.203816Z",
+        "name": "operation",
+        "description": "Finally serve mind buy.",
+        "labels": [
+            "source",
+            "card",
+            "peace",
+            "civil",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--53332e7a-439f-4c89-b24d-ae0f5c09046a",
+        "created_by_ref": "identity--96895b85-573f-49e7-8864-a78349eef43c",
+        "created": "2021-06-19T06:58:43.985662Z",
+        "modified": "2021-12-14T00:41:13.389856Z",
+        "description": "Age run something control point executive recently.",
+        "pattern": "[windows-registry-key:key = 'xhCIliIGVaBMMjC'] START t'2021-08-14T22:49:10.96147Z' STOP t'2021-10-17T07:22:57.689591Z'",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-05-11T20:19:33.319127Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "slQoUhnUNK",
+                "phase_name": "fAXkEBEvy"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "MdDadgNxERhMeycr",
+                "phase_name": "TJpeANeCEgkI"
+            }
+        ],
+        "labels": [
+            "new",
+            "oil",
+            "cell",
+            "account",
+            "door",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--5c374d0a-e7dd-4e29-9832-71dc79fbf36c",
+        "created_by_ref": "identity--96895b85-573f-49e7-8864-a78349eef43c",
+        "created": "2022-06-22T12:09:09.203158Z",
+        "modified": "2023-06-16T14:23:04.651943Z",
+        "relationship_type": "mitigates",
+        "source_ref": "course-of-action--1f8b6c61-5820-43eb-980f-3dd44f2bac95",
+        "target_ref": "indicator--53332e7a-439f-4c89-b24d-ae0f5c09046a",
+        "start_time": "2020-10-13T14:00:33.076735Z",
+        "stop_time": "2021-08-23T21:56:20.118171Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "hold",
+                "description": "Tend morning scene sound.",
+                "url": "https://barnes.biz/",
+                "hashes": {
+                    "MD5": "3f9f68c1f145d538f86c5ce0c337367b",
+                    "SHA-1": "cff67f6b4839c65cf74f83365d71ed7cad03e301",
+                    "SHA-256": "2c92d3b644fc4e98e8bc7b9c5a5c776bfd483a3b829723f404b15fc34082c6c2",
+                    "SHA-512": "9621c6bed675937e849bd071118880f91d7f134b786069b0298981d50ee1762a6642ea17465b69e7bc1b73f66a377af936c97541fddc886172d710643c3b78ef",
+                    "SHA3-256": "f27ec10472b8b79361cb1c04e8caef05ab30ed37595e726869dba47a75522b80",
+                    "SHA3-512": "3f32669615c836dd6bed40af65c628e941697102f27e3798d5ec0d5fb745f6560cfc6f14846699ea9b658bbe36044fea7c2b1fc459b7cbf162a65d512a9c01d2"
+                },
+                "external_id": "ECCFmVYiZMDwLJkCt"
+            },
+            {
+                "source_name": "pattern",
+                "description": "Record game keep firm to.",
+                "external_id": "BHOLOpiOnlCBrrlbZya"
+            },
+            {
+                "source_name": "radio",
+                "url": "http://www.vasquez-johnson.com/",
+                "hashes": {
+                    "MD5": "866f6fbcebfc976f25beeea9aeb969eb",
+                    "SHA-1": "9f957fd4221157bfce3c303e542d160a6a020d31",
+                    "SHA-256": "69b44c9f2200aaa77fc80886f74bc55823bf26af93123ec1b82f7cea25b30d7b",
+                    "SHA-512": "0d5064b96198be97947903607fd6877e7229c62d2add468de6d161310b250a0c2bca06c8e9fbecf83bc8be73a221d951123b85f659a13712b2a5bf82eb998914",
+                    "SHA3-256": "b513d7047d1692bd05d2558242a38756048c34d85198ce5f912036bb32b177fa",
+                    "SHA3-512": "a96fe73047fd663f6c6e404c285d20e7c25dad2cca78d43d8195e9e281c55a5e823ec67e008b180a21d66ec770ca17890543c5c09208264a5e88cb2d8bdaecd5"
+                },
+                "external_id": "XshkBdMNglQhkgyfhB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--96895b85-573f-49e7-8864-a78349eef43c",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-12-15T11:46:55.851261Z",
+        "modified": "2021-08-14T01:08:24.020809Z",
+        "name": "Dean, Hernandez and Cowan",
+        "description": "Multi-lateral hybrid challenge",
+        "identity_class": "organization",
+        "contact_information": "4290 Desiree Cliffs Suite 608\nNorth Andrewshire, MA 50472",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "energy",
+                "url": "https://www.english-davis.com/",
+                "hashes": {
+                    "MD5": "38827f9690ec8102ade54e7c6df17fac",
+                    "SHA-1": "723bb7f6758cbc85ad8ff0430ba40f971c4a354a",
+                    "SHA-256": "45e72d60e427425ed4f981f897b82e2d3001f775e85717f619e87b8c054e44d4",
+                    "SHA-512": "7ed2f56a718a875a59d931fc019636e76ec9791b50cf51ce98f3969a90b818c3ac689643fc4eaff2ccc28bef21c5c6840440fd82a3da1b6ed43e1bfe0dca10df",
+                    "SHA3-256": "3ed36414c60ebc2967130c72bc73456ef4cb934cb2764efa45ab7355dba4ea70",
+                    "SHA3-512": "a7007e3f288b060a367874ce5561415c5223facb1d6f1ff06d5e27c61047f8c5bbeba7c83b6ca02a8ea21e7614d2cb79b140263a4bcc0f968451077c76d9a80b"
+                },
+                "external_id": "YouFaSFlFcENFSWUwI"
+            },
+            {
+                "source_name": "reflect",
+                "description": "Method federal even easy set.",
+                "url": "https://www.duffy-lee.net/"
+            },
+            {
+                "source_name": "statement",
+                "url": "http://www.phillips.com/"
+            },
+            {
+                "source_name": "big",
+                "url": "http://joyce.com/",
+                "hashes": {
+                    "MD5": "b07ef66e7e207154f2362a767c2f5687",
+                    "SHA-1": "1174a4ce66c2b8e73efa83125b37e60e93424c08",
+                    "SHA-256": "37eb19207c3d2e346bfa8b654f73f55a820660b47575a19c49d872f9c6a893f8",
+                    "SHA-512": "109c39daa70ac6bfa744190284f395f2292f8c1430b3537120e9dc91848f9d865116426298deb73edca377644ed965f778aa5eb14191ba3538f948101a91fae4",
+                    "SHA3-256": "bd2856abb2b92930ebad6f7b7057efc8a91050cc1d18b4e16a6d244543486501",
+                    "SHA3-512": "3e92ec849a29d2bffcd994dc744cf012af836d90d116cd97ab2d04faad1be24a39f7ab11071d155207f6d7c7e2c6518fb97077d13e87ba1cb33a9952e860dcde"
+                },
+                "external_id": "AAtxbr"
+            },
+            {
+                "source_name": "event",
+                "description": "Use risk without yeah affect these reflect.",
+                "external_id": "OQajdgZOrIr"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

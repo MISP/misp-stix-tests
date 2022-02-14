@@ -1,0 +1,145 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--29a91de6-a50e-41cd-88ad-34eb8de22694",
+        "created_by_ref": "identity--ee4a2c57-9c7c-4673-9875-24936229ffa4",
+        "created": "2021-08-14T21:26:03.922532Z",
+        "modified": "2022-05-17T05:17:26.303269Z",
+        "name": "arm",
+        "description": "A piece account treat.",
+        "pattern": "(([url:value = 'https://gonzales.net/'] FOLLOWEDBY [autonomous-system:defanged = false] FOLLOWEDBY (([file:hashes.'SHA3-512' <= 'a9a6da13b337649a0e9440331d0ffb92099397f36bc8b8f4b1e3ecd625d389f593e7f442a9ee544ebb5bb111408f1ba6b090c9bd689d0e3338e559c78f2e8b7f']) FOLLOWEDBY [email-addr:defanged = false] REPEATS 4 TIMES)) AND [ipv4-addr:value = '118.234.43.189'] START t'2022-05-18T20:47:42.767051Z' STOP t'2022-07-20T05:19:23.263516Z')",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-02-01T12:08:01.863129Z",
+        "valid_until": "2022-02-08T23:40:12.910268Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "observed-data",
+        "spec_version": "2.1",
+        "id": "observed-data--5d1d588a-20ec-4fd9-9f61-20730b30c2c8",
+        "created_by_ref": "identity--ee4a2c57-9c7c-4673-9875-24936229ffa4",
+        "created": "2021-01-11T14:00:35.164933Z",
+        "modified": "2021-08-14T01:08:37.911351Z",
+        "first_observed": "2020-08-20T05:28:20.773798Z",
+        "last_observed": "2021-04-26T08:25:30.888593Z",
+        "number_observed": 762220352,
+        "objects": {
+            "user-account--7d56b39d-0470-4de6-a719-6b302d92e959": {
+                "type": "user-account",
+                "spec_version": "2.1",
+                "id": "user-account--7d56b39d-0470-4de6-a719-6b302d92e959",
+                "user_id": "rhondafarmer",
+                "credential": "e$9XTj9(Ai",
+                "account_login": "ayersaaron@hodge.org",
+                "account_type": "unix",
+                "display_name": "Brett Wilcox",
+                "is_service_account": true,
+                "can_escalate_privs": false,
+                "account_created": "2022-04-18T10:03:25.083392Z",
+                "credential_last_changed": "2022-06-23T11:30:39.865172Z",
+                "account_last_login": "2022-07-27T18:08:37.202695Z"
+            }
+        },
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 37,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--bdc54f12-e2c3-4ba5-946b-5632b86acaa1",
+        "created_by_ref": "identity--ee4a2c57-9c7c-4673-9875-24936229ffa4",
+        "created": "2021-12-11T19:44:21.534749Z",
+        "modified": "2022-01-17T00:06:45.853486Z",
+        "relationship_type": "based-on",
+        "description": "Reflect physical industry hit. Tell glass still the. Population must cold effect college big.",
+        "source_ref": "indicator--29a91de6-a50e-41cd-88ad-34eb8de22694",
+        "target_ref": "observed-data--5d1d588a-20ec-4fd9-9f61-20730b30c2c8",
+        "labels": [
+            "address",
+            "size",
+            "pfte-batch-1"
+        ],
+        "confidence": 43,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "blood",
+                "description": "Lot ball pretty PM American arm.",
+                "hashes": {
+                    "MD5": "4e97e71649cb8540200ebe2f20f8516b",
+                    "SHA-1": "67235b931eda3a5766ea1960ff37fcb5ba522aa8",
+                    "SHA-256": "ef5942151350ff28ca6d94c6c784b111ff89573539a92d256b0c49e247848f6b",
+                    "SHA-512": "e9929c5342ec4cac9dc35491f513a56fbbe7441eae0aa44e621f555873e2e7407e55eccee0d4a42ebc69d5bb10d46f586128977b22b312c15055ad2b09215af7",
+                    "SHA3-256": "aa2eeb7dedaec73266a2339ee7df2cebffc44af0da3628982935fc3bebba4ee1",
+                    "SHA3-512": "d3ce17df4281909a05e7a510205c376e67c15f4e9ca747dd6d9156f53d142e89f320e067e21a3db8c20d774f715b749a00dbcdd859e9306ed48c66a12816425b"
+                },
+                "external_id": "dSMXK"
+            },
+            {
+                "source_name": "before",
+                "description": "Walk one open without at reduce.",
+                "external_id": "ZPQQzCqYbDeEjBic"
+            },
+            {
+                "source_name": "make",
+                "description": "Soon some spring thought she.",
+                "url": "http://barnett.com/",
+                "external_id": "hAfChxUQq"
+            },
+            {
+                "source_name": "responsibility",
+                "url": "https://www.flores-hicks.com/"
+            },
+            {
+                "source_name": "economic",
+                "external_id": "EbADmFUZa"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ee4a2c57-9c7c-4673-9875-24936229ffa4",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-04-13T22:45:25.408678Z",
+        "modified": "2021-08-15T22:30:30.052092Z",
+        "name": "Ayers, Weaver and Alvarez",
+        "description": "Cloned cohesive benchmark",
+        "roles": [
+            "term",
+            "here",
+            "town"
+        ],
+        "sectors": [
+            "commercial",
+            "nuclear",
+            "education"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 59,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

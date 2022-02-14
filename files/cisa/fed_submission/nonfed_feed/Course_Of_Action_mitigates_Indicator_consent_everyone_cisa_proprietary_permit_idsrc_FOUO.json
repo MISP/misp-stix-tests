@@ -1,0 +1,128 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--39f45727-b37a-453f-ba12-b751bc17d3bf",
+        "created_by_ref": "identity--944dd9f6-ab99-4f69-862c-e843f0ecae13",
+        "created": "2022-05-16T18:42:50.997712Z",
+        "modified": "2022-06-03T20:22:07.823036Z",
+        "name": "themselves",
+        "description": "Election surface government popular team inside.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 40,
+        "external_references": [
+            {
+                "source_name": "know",
+                "description": "Quality turn somebody concern room into between relationship.",
+                "url": "https://www.cortez.com/",
+                "hashes": {
+                    "MD5": "ce334a43874555e96f62af624f0e3454",
+                    "SHA-1": "a7d110f0d1a99c3b2cea76da4bf0ccd4add26844",
+                    "SHA-256": "417e41786e4e2466d26752cdb3368febd432f81ec6e592a3dc6f496271abac17",
+                    "SHA-512": "e2bb110bf057d431441b70ab61c80026997603690b8a6cd1b0376282c785ff772dad32eee9c0cd6acb54244e65566b8d426d60af0d77aa865ea8bbcdc2e280d1",
+                    "SHA3-256": "cdf725fa5a8c63d0b04e531222f50283c26fb09db95b2cfb55f8b7e77e64de65",
+                    "SHA3-512": "29a1b469b7eac2e1758b60c1eabe6ee06b2f78293b0916962cf03c4897e8c5701fbffe1b14f32f535b025617c09b3d1574286c9e44760f1846aed8480d954f51"
+                },
+                "external_id": "AkHKvpMWIrNOGD"
+            },
+            {
+                "source_name": "court",
+                "description": "Interesting help when large heart.",
+                "external_id": "wvVWCQbOHkwouFunTsC"
+            },
+            {
+                "source_name": "ahead",
+                "description": "Art pass probably visit skin.",
+                "external_id": "qmRXUOcH"
+            },
+            {
+                "source_name": "role",
+                "description": "Remember world real season seek many.",
+                "url": "https://www.weiss-flynn.biz/",
+                "external_id": "hVxDtsZLRXflQSNueW"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--dfe59c02-31c1-4b28-9788-4ceaf67b54d6",
+        "created_by_ref": "identity--944dd9f6-ab99-4f69-862c-e843f0ecae13",
+        "created": "2020-03-01T10:17:24.930307Z",
+        "modified": "2021-08-14T01:08:24.274258Z",
+        "name": "hear",
+        "description": "Investment state give only somebody by example.",
+        "indicator_types": [
+            "anonymization",
+            "benign",
+            "unknown",
+            "malicious-activity"
+        ],
+        "pattern": "(([ipv4-addr:defanged = false] FOLLOWEDBY [email-message:is_multipart = true] FOLLOWEDBY ([software:vendor NOT = 'Cortez Group'] START t'2020-11-22T11:06:50.670206Z' STOP t'2022-08-12T03:38:38.460044Z')))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-06-06T07:59:34.024729Z",
+        "valid_until": "2020-10-31T08:09:14.717037Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--69cf95f4-4f21-4503-9874-3a4856a589ed",
+        "created_by_ref": "identity--944dd9f6-ab99-4f69-862c-e843f0ecae13",
+        "created": "2020-10-14T16:46:52.305036Z",
+        "modified": "2021-08-14T01:08:24.276944Z",
+        "relationship_type": "mitigates",
+        "description": "Stuff fall hope free available today wide. Risk example avoid story beat trouble.",
+        "source_ref": "course-of-action--39f45727-b37a-453f-ba12-b751bc17d3bf",
+        "target_ref": "indicator--dfe59c02-31c1-4b28-9788-4ceaf67b54d6",
+        "start_time": "2022-08-07T13:04:49.296372Z",
+        "stop_time": "2023-01-01T13:01:02.506704Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 44,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--944dd9f6-ab99-4f69-862c-e843f0ecae13",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-08-16T10:34:27.10983Z",
+        "modified": "2021-08-14T01:08:24.279214Z",
+        "name": "Butler, Gardner and Gray",
+        "roles": [
+            "ok",
+            "remember",
+            "quite"
+        ],
+        "sectors": [
+            "non-profit",
+            "agriculture",
+            "utilities"
+        ],
+        "contact_information": "92373 Ruiz Roads\nEast Kevinbury, IN 30261",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 84,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

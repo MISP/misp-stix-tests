@@ -1,0 +1,91 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--24377afe-6da4-4842-9bc0-d440eb26cce0",
+        "created_by_ref": "identity--b04a2cb1-3562-4d83-aea8-5c11799d5618",
+        "created": "2022-08-05T10:26:15.669914Z",
+        "modified": "2022-10-05T20:02:12.156942Z",
+        "name": "yet",
+        "aliases": [
+            "benefit",
+            "they"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 51,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--ed470995-6b39-4a5f-9205-75e231297c91",
+        "created_by_ref": "identity--b04a2cb1-3562-4d83-aea8-5c11799d5618",
+        "created": "2021-07-02T21:32:21.473255Z",
+        "modified": "2021-08-14T01:08:10.235835Z",
+        "name": "SXbqYrIHftmWJy",
+        "description": "User-friendly grid-enabled alliance",
+        "latitude": 57.71749471220019,
+        "longitude": -117.86870538962367,
+        "precision": 69.30995773673733,
+        "region": "northern-america",
+        "city": "Justinbury",
+        "street_address": "8137 Melanie Unions",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--6281ab3e-2ffa-4c2d-8af8-631ac2ba9722",
+        "created_by_ref": "identity--b04a2cb1-3562-4d83-aea8-5c11799d5618",
+        "created": "2021-03-04T17:39:23.704808Z",
+        "modified": "2021-12-11T05:40:13.003022Z",
+        "relationship_type": "targets",
+        "source_ref": "attack-pattern--24377afe-6da4-4842-9bc0-d440eb26cce0",
+        "target_ref": "location--ed470995-6b39-4a5f-9205-75e231297c91",
+        "labels": [
+            "play",
+            "during",
+            "moment",
+            "about",
+            "surface",
+            "pfte-batch-1"
+        ],
+        "confidence": 63,
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--b04a2cb1-3562-4d83-aea8-5c11799d5618",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-03-22T22:04:11.979995Z",
+        "modified": "2022-03-17T03:59:33.217512Z",
+        "name": "Williams, Little and Torres",
+        "sectors": [
+            "nuclear",
+            "emergency-services",
+            "entertainment",
+            "healthcare",
+            "emergency-services"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

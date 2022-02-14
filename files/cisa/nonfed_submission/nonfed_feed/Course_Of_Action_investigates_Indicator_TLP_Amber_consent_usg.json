@@ -1,0 +1,215 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--745cd53d-12fc-4342-98be-e443e3943776",
+        "created_by_ref": "identity--07aa0d32-64dc-4897-b036-40dab46905be",
+        "created": "2021-02-10T23:56:36.197747Z",
+        "modified": "2021-11-10T23:57:24.456669Z",
+        "name": "tough",
+        "labels": [
+            "defense",
+            "can",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--2071e0dc-2de9-4bc3-9de8-649240bcf9d9",
+        "created_by_ref": "identity--07aa0d32-64dc-4897-b036-40dab46905be",
+        "created": "2021-07-20T04:09:47.790346Z",
+        "modified": "2022-06-06T19:35:42.554553Z",
+        "name": "black",
+        "description": "Share our nation maintain minute.",
+        "indicator_types": [
+            "attribution",
+            "malicious-activity",
+            "unknown"
+        ],
+        "pattern": "(((([network-traffic:is_active = false]) FOLLOWEDBY [mac-addr:value = '96:85:8c:05:02:55'])) OR [network-traffic:defanged NOT = false]) FOLLOWEDBY [ipv4-addr:value <= '208.81.61.190'] FOLLOWEDBY [url:value < 'https://ho-keller.com/'] WITHIN 6 SECONDS",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-04-06T12:32:34.628302Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "IvVFGKmJJpLUuN",
+                "phase_name": "mgfptEqBgASKSxa"
+            },
+            {
+                "kill_chain_name": "KaRBXUCzPzxSEeOCKBN",
+                "phase_name": "rondqSHSAW"
+            },
+            {
+                "kill_chain_name": "ZhUZMInfDHW",
+                "phase_name": "XNFSuwLsoQTh"
+            },
+            {
+                "kill_chain_name": "PJhMmOlvjRrAtiNlCSWi",
+                "phase_name": "RDHkngtAzALDmpvM"
+            }
+        ],
+        "labels": [
+            "third",
+            "Democrat",
+            "that",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "yourself",
+                "description": "Occur part social or grow land.",
+                "url": "https://www.medina.biz/",
+                "hashes": {
+                    "MD5": "80fcdb79e0a98f2f25c739c81164cc3f",
+                    "SHA-1": "6b7a1b928d6ed27fc8e0d5a12ed744d2d40200b1",
+                    "SHA-256": "d4fb65c63a4ae1b71d0409fd07443d6591fd3220edeae622d7d095f63d496f51",
+                    "SHA-512": "6eb39d22813ae050b7f0387daa65ce823d55a0a8478e68c16a65c0447ad96b378dc4617b569fc3b14c8b166f475694d007c05fa7258648098cbd702afea7ce1f",
+                    "SHA3-256": "f58b7f7b2057cbe09f3ba2f270b0171b0c1a30fb221fd8a5399a422273b8a703",
+                    "SHA3-512": "3726db970b1d04388597bc8cb4fefe8a2ceec5deb773cab1d8bb9699f1bffdf2cc026c4dbaa393926155c680025ff58c75d2dc45f5c7cbf69925e494d93fe6c4"
+                },
+                "external_id": "OMwZvOZSkqFcRstAnXO"
+            },
+            {
+                "source_name": "thus",
+                "description": "Difference glass minute maybe policy."
+            },
+            {
+                "source_name": "story",
+                "hashes": {
+                    "MD5": "70ebd770d2ee319fcffa96b405c849a5",
+                    "SHA-1": "853425a5d291d6d5e67fc331f5ea31592386cc43",
+                    "SHA-256": "fc148cd384af0e45a880d629c17986b931fb96c3f7aab13d95ff2d7511ca306c",
+                    "SHA-512": "9e668d4874285ff0d2cbc1ec9ebd0281c98b3419e06f93cf466d26ef4b661781fb2e1322aee62c942cc344b74f4660250e5742fb24085d15eaadea5c0240a8bb",
+                    "SHA3-256": "93031a72767c49eef82a581c27905f8f1bf44f9054d662646dc3dd17e887fa2d",
+                    "SHA3-512": "952306dc371c7bda5fdbc937020466b900c3f64acfcca60660c182e3153d38b978a7e6f347459f2e7cf838894ebfe818a941aab81353e86d0c8d649f84f57839"
+                },
+                "external_id": "QiiZtrtTPc"
+            },
+            {
+                "source_name": "us",
+                "description": "Then keep then quickly both.",
+                "hashes": {
+                    "MD5": "3b0e11e70a64d590def3490395e1a110",
+                    "SHA-1": "7866307b3cf58499b2592992e3b47455019d528a",
+                    "SHA-256": "6fe7d34be3048e031946402a5972f1a2714b70249a9655d627eb014f43bed0af",
+                    "SHA-512": "a4ae1611ebf486eaa23df636c28b722319a7794fa2bffe8a59766a5bb19cb9e0b1af436b59a47bb18481746930978a0d354cc44a2bec92bb954f47a717631553",
+                    "SHA3-256": "4fcbd10dd20265c33b6536829df55751c4953f5373e9837115b5dc28136c0f52",
+                    "SHA3-512": "1026bdf4d318ebe96313c60a340def5b61c07cfcc501be77c646dcfd248d3f889373edcd9bcc393e693699c1bf38d963b051a3fa62b0578824ec0b26276e8315"
+                }
+            },
+            {
+                "source_name": "agency",
+                "url": "https://hampton.com/",
+                "hashes": {
+                    "MD5": "f99cccb1e3308b79e8459245d73d8aae",
+                    "SHA-1": "9174d0813f46fd8b52f13c474e34ce637f931f8a",
+                    "SHA-256": "ad92d804b8cbe012ee294998e6b44e93db1fad89916bcec7a736f06b02e0a2f3",
+                    "SHA-512": "8f16859a723881ff741ba7833f40831d6e6c854a47dcd530bd038a6af5dab0375b2da1082630647800237475e0bd3651263fc9f2da34a14f942691c4f0471bed",
+                    "SHA3-256": "9a7daf498bec3cdf40661dc5a4182b99cb872493a4c85ec3ade15e1635785860",
+                    "SHA3-512": "1a1ff39e9736615a3a0d5cd134f40f319e64d13257df5fc5fe3e391606ff6c76118d78fd68cc9e3f7460bffa00994c4eb729f344e3b87f3a03bf246a86daf7e5"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--0c137305-9622-429d-839f-6d71ba5f887f",
+        "created_by_ref": "identity--07aa0d32-64dc-4897-b036-40dab46905be",
+        "created": "2021-06-18T11:14:21.375822Z",
+        "modified": "2021-11-28T12:19:28.096361Z",
+        "relationship_type": "investigates",
+        "description": "Teacher indicate fire enjoy race space huge. Three skin whole truth.",
+        "source_ref": "course-of-action--745cd53d-12fc-4342-98be-e443e3943776",
+        "target_ref": "indicator--2071e0dc-2de9-4bc3-9de8-649240bcf9d9",
+        "stop_time": "2020-09-23T19:40:00.065406Z",
+        "labels": [
+            "argue",
+            "wrong",
+            "though",
+            "although",
+            "paper",
+            "pfte-batch-1"
+        ],
+        "confidence": 12,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--07aa0d32-64dc-4897-b036-40dab46905be",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-15T11:24:21.866654Z",
+        "modified": "2021-12-07T05:52:12.212363Z",
+        "name": "LearnUntilMaterial",
+        "identity_class": "group",
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 80,
+        "external_references": [
+            {
+                "source_name": "bill",
+                "url": "https://www.chan.com/",
+                "hashes": {
+                    "MD5": "540088c535337b24e3fee4eb422f0241",
+                    "SHA-1": "e805bdf6d377d0fa680f197e14a9ddd53254f37b",
+                    "SHA-256": "eaa5b610ed11820f7d1f040a9a405ca38f831009d53397ea22ed21e08374a099",
+                    "SHA-512": "ed47371dee157f6b6d5fbec24838d5754ea6e0343ff60116b1b64bcd0d2abbafd279136d9163c2d47ee09c1f7ead1c6d70ac331d035bd6bb79339979586df43c",
+                    "SHA3-256": "3efb4a53c9432e81f0a93a994402e7d1b9b7cb1bed7a1a1f8ac1547082a1707b",
+                    "SHA3-512": "263ca55e248db05a832a832b61f991f82e1113d7427b5292dff08d680f0a5a09feae64eed5040aca7cf91a0128f4ca7616bf8f59c44dc7d6039f156f00008849"
+                },
+                "external_id": "ToAbaLwADdz"
+            },
+            {
+                "source_name": "miss",
+                "description": "Expert between offer until.",
+                "url": "http://www.ross.biz/",
+                "hashes": {
+                    "MD5": "373248a7af1ee1e678b2e5e6487fe36f",
+                    "SHA-1": "71e53056108faea1f65bda6b75a19191d6bec877",
+                    "SHA-256": "a6699f6db971d18a67596f5cb6cddae791fe13fc55c4779949263933a00f7dd6",
+                    "SHA-512": "f22e4cdeb37e45fbe960b63587094429a0547e6809d9a9b6bb3141cdb223992159316909722a8f0b5902b11a226f5a1b5a2e10f656fe8b4118bf5d66d8538296",
+                    "SHA3-256": "4e67a0ae4c426a07479c414d00000293abd763615ebc5a4664c0bd2163858746",
+                    "SHA3-512": "faf237560c60a624ea5197e7df37ae7e53209bc3972122a7740b272fa8d0bbc3290002d372dc353d50949add72dd933b278f9539699d62f7199e5a194969a5e3"
+                },
+                "external_id": "NdzbcwWShXDZrKxI"
+            },
+            {
+                "source_name": "recent",
+                "hashes": {
+                    "MD5": "9e2ce8fff262ba840b49ee4015fd4bc0",
+                    "SHA-1": "61437a67586c30a60f3c923b8e69d10304b3d9bd",
+                    "SHA-256": "ffc9c7ea1dbb9deb2aa6eeabd0bda8fd53f1c0e09b18dfa99b114bf1c638345a",
+                    "SHA-512": "60e0587208cf5e61a9a2e25ea2fd0f06730ecc294aebd875823b5ad0801e935e5bac1aa0b2db44251590d120c850173e97e924732e13265018efe68f005cdd4e",
+                    "SHA3-256": "85d31ef156f23ec25f96a5093513298692bb5a3580b99ee0b818856db197dced",
+                    "SHA3-512": "e42ed96a1434918b2990027132d0235ec578fd142fdf726e151a980694cf1d147ff0d787ffea9821e4d5e59238872dfa47c6aa527d751c54d5681823e8c7fc68"
+                },
+                "external_id": "nQgZP"
+            },
+            {
+                "source_name": "before",
+                "description": "Arm number about create full three."
+            },
+            {
+                "source_name": "turn",
+                "description": "Already politics yard join time foreign development.",
+                "url": "http://watson-collier.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

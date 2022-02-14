@@ -1,0 +1,258 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--e84671fb-d645-48ca-b512-3517654558dc",
+        "created_by_ref": "identity--2429be95-2a9e-42e0-8b61-a6397763a529",
+        "created": "2019-12-17T23:04:20.47182Z",
+        "modified": "2021-08-14T01:08:31.772081Z",
+        "name": "subject",
+        "indicator_types": [
+            "malicious-activity",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "([email-addr:value NOT = 'michealcalderon@herring.org' OR (x509-certificate:subject_public_key_algorithm NOT = 'key')])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-08-24T22:49:48.671316Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lRlhEtpb",
+                "phase_name": "PrMRutPIUUXvRb"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "pzEoJSmjKegoyhVj",
+                "phase_name": "SpqeJLpm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--71f18031-ff27-4a71-b8a0-a612d5a13947"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--7701fa97-4daf-4708-af32-b888e64641ec",
+        "created_by_ref": "identity--2429be95-2a9e-42e0-8b61-a6397763a529",
+        "created": "2021-06-18T21:09:11.528076Z",
+        "modified": "2021-10-01T03:06:17.026447Z",
+        "name": "yourself",
+        "description": "Window say receive.",
+        "first_seen": "2022-01-15T13:28:46.204353Z",
+        "primary_motivation": "unpredictable",
+        "secondary_motivations": [
+            "unpredictable",
+            "ideology",
+            "notoriety",
+            "unpredictable",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "hospital",
+            "hear",
+            "fall",
+            "you",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "beautiful",
+                "url": "https://www.chavez-bond.com/",
+                "hashes": {
+                    "MD5": "67459187e0109e86e17544d158b12af7",
+                    "SHA-1": "7f4d0d76e79c3c3329a858e5004b022ea34af3c9",
+                    "SHA-256": "f7287df5fc4c96f7d6f4af9c37985aa47efcade168758c37b0c31ffbb6230106",
+                    "SHA-512": "06bc7309211e3f5aa74a85c1ccf51ec2851005a979189a5f6b72bcde7e120e452fb7677740c9d156d04186c6f61e7be9edadde0e84d2b3723644c5cb4ec644b6",
+                    "SHA3-256": "29699d5c4ff5dd3df2053d0c93a62ab31b4f0d6d5cb980250c72dcc5654c4edb",
+                    "SHA3-512": "43e8c70eb7c5d5574227f12e872c5a1a74275b1792322c699003d657638dcbaae77e733001063359eb676a92aaa0bd9222ad98256b3b12dde5950ab86ffe2b02"
+                }
+            },
+            {
+                "source_name": "participant",
+                "url": "https://www.ellis.net/",
+                "hashes": {
+                    "MD5": "994fdc686596d2b9a83c3294288e56de",
+                    "SHA-1": "ec2bc7f2108bb2b1662531eea21f9bbca2f6f038",
+                    "SHA-256": "284b82ac4255d56ef23b21e36991d416b5358e6a994c355d7faf247a2647112c",
+                    "SHA-512": "0d3711bf28ee9e681e2805819320a61793364bc9e37f5c22334fd0d4014d0cf585b3033ecd9cc06c8b7aea87808f3191de9d1599c9b9c715bb66133d5325c58b",
+                    "SHA3-256": "6480db12605d55547d7814d58a3cba3f9453787ba000c0ed5027776760eb6b54",
+                    "SHA3-512": "d5ae716b6145da456ed47ea575b900d9014db78519df59e69642a1b11f0aaae7b5738b95f1f9f118938f8fc02884aaffc036448aa92d548c483e8494c0f8be77"
+                },
+                "external_id": "MIsZYLibG"
+            },
+            {
+                "source_name": "particularly",
+                "description": "Great thank resource class.",
+                "url": "http://hickman-hall.com/"
+            },
+            {
+                "source_name": "traditional",
+                "description": "Free magazine adult author budget in wall.",
+                "url": "http://www.white.com/",
+                "hashes": {
+                    "MD5": "8772341b5a88aebd600d460f773bdf72",
+                    "SHA-1": "02db597cdfff31ba174ea70a7634c6d5799c75bf",
+                    "SHA-256": "ad684985ac3fb48605df069472df73ea352d51020757bdae8b48f3d144cf08ba",
+                    "SHA-512": "f7158696dc2d805bae0ad5c8556640360bea55e6104626538e49ead3c89c8e45eaa185d445d62c3e1752087d291aa222754579aeaacdf8d85a11034a950bb54a",
+                    "SHA3-256": "3163067dc5c2c310ceb7c092c71cd2938f368995fd4a3dadd365b062ee261236",
+                    "SHA3-512": "3eddce2bc680786d63d948bf2563459c528b0f0f52602d17e8104d7537eae800b8cd96c6549c6062731ce672f16b3a86d0d7e76dad99fc2f3b69446b62257e7c"
+                },
+                "external_id": "FWbXcfDSJ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--71f18031-ff27-4a71-b8a0-a612d5a13947"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--387e1db1-2d62-4a7a-8482-dcd054bf91a9",
+        "created_by_ref": "identity--2429be95-2a9e-42e0-8b61-a6397763a529",
+        "created": "2021-11-24T15:32:59.35783Z",
+        "modified": "2022-04-14T13:34:04.73801Z",
+        "relationship_type": "indicates",
+        "description": "War need either. Far politics risk guy resource miss. Right investment most true often prepare.",
+        "source_ref": "indicator--e84671fb-d645-48ca-b512-3517654558dc",
+        "target_ref": "intrusion-set--7701fa97-4daf-4708-af32-b888e64641ec",
+        "start_time": "2020-11-05T13:08:58.988317Z",
+        "stop_time": "2020-12-24T23:01:08.331063Z",
+        "labels": [
+            "standard",
+            "pfte-batch-1"
+        ],
+        "confidence": 16,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--71f18031-ff27-4a71-b8a0-a612d5a13947"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--82feadcd-2aa8-47a2-bf0c-43a263227975",
+        "created_by_ref": "identity--2429be95-2a9e-42e0-8b61-a6397763a529",
+        "created": "2021-09-01T04:51:31.108925Z",
+        "modified": "2021-11-09T11:10:13.48782Z",
+        "abstract": "Hospital note head factor record. Program series employee his southern. Accept final government article help early charge.",
+        "content": "Election ahead ahead she international. Generation organization doctor hope reveal. Money must much clearly mention out start view.",
+        "authors": [
+            "under",
+            "part",
+            "job"
+        ],
+        "object_refs": [
+            "indicator--e84671fb-d645-48ca-b512-3517654558dc",
+            "intrusion-set--7701fa97-4daf-4708-af32-b888e64641ec",
+            "relationship--387e1db1-2d62-4a7a-8482-dcd054bf91a9"
+        ],
+        "labels": [
+            "scene",
+            "itself",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--71f18031-ff27-4a71-b8a0-a612d5a13947"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--2429be95-2a9e-42e0-8b61-a6397763a529",
+        "created_by_ref": "identity--2429be95-2a9e-42e0-8b61-a6397763a529",
+        "created": "2020-09-15T01:00:18.177121Z",
+        "modified": "2021-08-14T01:08:31.775101Z",
+        "name": "Barrett, Sexton and Allen",
+        "roles": [
+            "artist",
+            "involve"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "construction",
+            "mining",
+            "automotive",
+            "commercial"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 78,
+        "object_marking_refs": [
+            "marking-definition--71f18031-ff27-4a71-b8a0-a612d5a13947"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--71f18031-ff27-4a71-b8a0-a612d5a13947",
+        "created": "2021-08-14T01:08:31.77126Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1b1f4ecf-83db-4fe9-8c22-38a5f88b6694",
+                "name": "Deal certainly rather appear present safe",
+                "create_date_time": "2021-08-14T01:08:08.429946Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.429783Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

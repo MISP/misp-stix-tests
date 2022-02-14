@@ -1,0 +1,75 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--540c5060-fabb-4b78-9f47-200b89ffe202",
+        "created_by_ref": "identity--f63479c5-3af1-4677-85f5-b9d69576d214",
+        "created": "2022-03-13T10:28:37.306767Z",
+        "modified": "2022-10-10T14:09:11.020687Z",
+        "name": "agreement",
+        "infrastructure_types": [
+            "unknown",
+            "workstation"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 20,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "domain-name",
+        "spec_version": "2.1",
+        "id": "domain-name--98348c7f-fa7e-4c4b-89e0-e3270a2f75f8",
+        "value": "greene.com",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--57e382a0-a230-413d-9359-aa667edfdae9",
+        "created_by_ref": "identity--f63479c5-3af1-4677-85f5-b9d69576d214",
+        "created": "2022-03-07T00:01:01.018492Z",
+        "modified": "2022-09-26T01:44:03.407866Z",
+        "relationship_type": "communicates-with",
+        "description": "Simple back here difference. Big play skill read reveal small exist between.",
+        "source_ref": "infrastructure--540c5060-fabb-4b78-9f47-200b89ffe202",
+        "target_ref": "domain-name--98348c7f-fa7e-4c4b-89e0-e3270a2f75f8",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f63479c5-3af1-4677-85f5-b9d69576d214",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-08-31T07:30:20.754313Z",
+        "modified": "2021-08-14T01:08:40.660354Z",
+        "name": "LongPlantPm",
+        "roles": [
+            "month",
+            "teacher"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 26,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

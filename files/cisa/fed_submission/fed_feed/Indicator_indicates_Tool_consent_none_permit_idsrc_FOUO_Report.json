@@ -1,0 +1,234 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--919c6ef2-bae0-47b6-8525-098c14d900d7",
+        "created_by_ref": "identity--8ad95574-4faa-4117-8596-0ee722ec0f17",
+        "created": "2021-08-11T13:36:15.101285Z",
+        "modified": "2021-10-02T09:18:49.864422Z",
+        "name": "new",
+        "description": "Action focus agent fly can.",
+        "indicator_types": [
+            "unknown",
+            "benign",
+            "unknown",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "([email-addr:defanged = false OR (email-message:is_multipart NOT = true)] OR ([mac-addr:value >= 'ea:e0:98:09:5e:d9']))",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-04-28T07:09:09.438032Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lszBUxpjA",
+                "phase_name": "mvPaIYLit"
+            }
+        ],
+        "labels": [
+            "deep",
+            "thought",
+            "pfte-batch-1"
+        ],
+        "confidence": 39,
+        "object_marking_refs": [
+            "marking-definition--d3da9207-a272-40b6-823c-7dd017857053"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--fde48c4f-64f9-43d1-8a6c-69b4feb1cbd5",
+        "created_by_ref": "identity--8ad95574-4faa-4117-8596-0ee722ec0f17",
+        "created": "2021-08-06T22:01:10.222356Z",
+        "modified": "2021-08-23T14:50:08.489973Z",
+        "name": "much",
+        "description": "Individual thus woman best involve.",
+        "tool_types": [
+            "vulnerability-scanning",
+            "remote-access"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "XLLxdwTL",
+                "phase_name": "rrdAnktDKuIIgYtIHvwp"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "DEnwNPcBBiMHZm",
+                "phase_name": "ljcCsusfSIYptlpRJvHz"
+            },
+            {
+                "kill_chain_name": "dcLbcnOmZfFUQMc",
+                "phase_name": "yEIoaCyLzXBAh"
+            }
+        ],
+        "tool_version": "discover",
+        "labels": [
+            "commercial",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "eight",
+                "description": "Growth radio week can cultural strategy east.",
+                "hashes": {
+                    "MD5": "ecab4e160d79bc32ec55453432bdfb4d",
+                    "SHA-1": "404967a01a4e064479c048564dd0163947b500b7",
+                    "SHA-256": "61310573b0b7c53df6dd3d036ef8dcfde4a4572b00990fe8e8b95349f81345d7",
+                    "SHA-512": "a4f16f30ac1740ce12db21ac623f3dcfecbdf30d29ce40f4bb3ae0e529e52572f11ab1cba87be30818b859df1eb3eb627fba5f4593c92bcdd368d4e8c3e7a450",
+                    "SHA3-256": "c1a669f4c44fdedd4a0093bae78368e911953892bdb54d63fd3088aa40a6bd81",
+                    "SHA3-512": "859921a84756d7a071a53c303cc1a1b497d4a83db26d1cf22c9bb595c52343593563b89759c6c185b0bf1de0c5e4d583491032e4115b773dc83b982b5b34b4ee"
+                },
+                "external_id": "lbnrbkzKGo"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d3da9207-a272-40b6-823c-7dd017857053"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4302da01-7743-46e6-bc41-605df7fda697",
+        "created_by_ref": "identity--8ad95574-4faa-4117-8596-0ee722ec0f17",
+        "created": "2021-01-30T18:55:04.551218Z",
+        "modified": "2021-08-14T01:08:35.225517Z",
+        "relationship_type": "indicates",
+        "description": "Analysis cell moment project item trade else store. Begin budget interesting sometimes present stand.",
+        "source_ref": "indicator--919c6ef2-bae0-47b6-8525-098c14d900d7",
+        "target_ref": "tool--fde48c4f-64f9-43d1-8a6c-69b4feb1cbd5",
+        "start_time": "2021-04-01T00:06:37.235538Z",
+        "stop_time": "2021-09-14T17:47:24.216176Z",
+        "confidence": 23,
+        "object_marking_refs": [
+            "marking-definition--d3da9207-a272-40b6-823c-7dd017857053"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--3c86dfe5-1f9f-4a7a-9586-af6540d6e386",
+        "created_by_ref": "identity--8ad95574-4faa-4117-8596-0ee722ec0f17",
+        "created": "2021-02-10T09:34:55.493177Z",
+        "modified": "2021-10-26T17:25:25.039839Z",
+        "name": "once",
+        "published": "2021-08-27T06:34:25.717118Z",
+        "object_refs": [
+            "indicator--919c6ef2-bae0-47b6-8525-098c14d900d7",
+            "tool--fde48c4f-64f9-43d1-8a6c-69b4feb1cbd5",
+            "relationship--4302da01-7743-46e6-bc41-605df7fda697"
+        ],
+        "object_marking_refs": [
+            "marking-definition--d3da9207-a272-40b6-823c-7dd017857053"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8ad95574-4faa-4117-8596-0ee722ec0f17",
+        "created_by_ref": "identity--8ad95574-4faa-4117-8596-0ee722ec0f17",
+        "created": "2020-12-08T02:22:57.444844Z",
+        "modified": "2021-08-14T01:08:35.226123Z",
+        "name": "Hinton Inc",
+        "identity_class": "individual",
+        "contact_information": "0688 Davis Spur\nNorth Jennifer, WV 27552",
+        "confidence": 22,
+        "object_marking_refs": [
+            "marking-definition--d3da9207-a272-40b6-823c-7dd017857053"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d3da9207-a272-40b6-823c-7dd017857053",
+        "created": "2021-08-14T01:08:35.221898Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1a59cf40-939d-4572-bc52-0472b77923dd",
+                "name": "Run main democratic",
+                "create_date_time": "2021-08-14T01:08:08.425934Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

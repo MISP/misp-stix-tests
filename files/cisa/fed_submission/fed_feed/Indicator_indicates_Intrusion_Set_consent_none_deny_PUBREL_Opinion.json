@@ -1,0 +1,221 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--e1e3381c-adfc-4532-84dd-d32983f4eb2c",
+        "created_by_ref": "identity--1aae50e3-d60c-4b31-be34-d2df28c50056",
+        "created": "2020-11-13T04:37:23.34208Z",
+        "modified": "2021-08-14T01:08:31.419941Z",
+        "name": "thousand",
+        "indicator_types": [
+            "compromised",
+            "anonymization",
+            "unknown",
+            "unknown"
+        ],
+        "pattern": "([process:defanged NOT = false]) OR [autonomous-system:defanged = false OR (email-message:subject < 'Personal almost those never someone.' AND (email-message:is_multipart = true))]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-06-09T14:30:28.027622Z",
+        "valid_until": "2022-04-28T08:39:04.399139Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "bar",
+            "guess",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b0ab11a3-dbce-4d67-b0fd-c4c2222c970d"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--cd929bf2-4691-439a-b07f-dc5a3fe33180",
+        "created_by_ref": "identity--1aae50e3-d60c-4b31-be34-d2df28c50056",
+        "created": "2021-05-18T06:19:29.780299Z",
+        "modified": "2022-02-26T22:42:51.428624Z",
+        "name": "long",
+        "description": "His world bring great ago.",
+        "goals": [
+            "Read stuff relate election this.",
+            "Left all staff politics.",
+            "Book effect development main blood land."
+        ],
+        "labels": [
+            "where",
+            "but",
+            "executive",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b0ab11a3-dbce-4d67-b0fd-c4c2222c970d"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--2a1398e4-9feb-4744-8f2c-a375c619d48a",
+        "created_by_ref": "identity--1aae50e3-d60c-4b31-be34-d2df28c50056",
+        "created": "2022-04-03T13:35:32.718252Z",
+        "modified": "2022-10-02T12:16:21.920755Z",
+        "relationship_type": "indicates",
+        "description": "Everything technology likely rule sport house level.",
+        "source_ref": "indicator--e1e3381c-adfc-4532-84dd-d32983f4eb2c",
+        "target_ref": "intrusion-set--cd929bf2-4691-439a-b07f-dc5a3fe33180",
+        "start_time": "2021-08-23T14:41:38.856956Z",
+        "labels": [
+            "suddenly",
+            "maybe",
+            "their",
+            "fast",
+            "section",
+            "pfte-batch-1"
+        ],
+        "confidence": 55,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "far",
+                "description": "Indicate cost particular hope.",
+                "url": "http://dodson.com/",
+                "hashes": {
+                    "MD5": "72722ed2b6bc4eb203e38ebf4ae10d7f",
+                    "SHA-1": "20dd8292482d47bef198839b665d5095e01f6e0c",
+                    "SHA-256": "a376b301a0456d866c19c627ba598a5dd44e005a3d3a6d695e9dd69f486aedba",
+                    "SHA-512": "742c1ce7a5ebb3ca95aa42b39802dd2464937a6ed53f06d7ce3d5e44df42fcadb8ec49f9f30761f3ccd08ba7ee285874799da2fe88d30a30031da35a75c7049a",
+                    "SHA3-256": "c77c539e65d6b935e412223c3fefa59607f8023be898e0774487c620af9b00cd",
+                    "SHA3-512": "dff3a5c2527a6448e3ced0af14d11d19a1600d04a31b442d644fea051595cc36906a8e7253a6d66cd2a9a0844f3eadb0c67877a792f692aadfc768ad0afaced1"
+                }
+            },
+            {
+                "source_name": "chair",
+                "description": "Increase cost conference project.",
+                "url": "http://www.moss.com/",
+                "hashes": {
+                    "MD5": "2a5ded4b4a1ed4d94fd36cc51cebc25c",
+                    "SHA-1": "25c79a9de23a9ca6100192cd1ec8b41b8c66d29d",
+                    "SHA-256": "561bbce2fb63cbc42c322c0d280bf7779844da186fdbc25f186f44be75215f93",
+                    "SHA-512": "635a9ce7a09ad8a4120123ac1a54ac7cd45329bd8c282d01856dacce7841da5de4ac2ec331d6eaf2661b58defbfbcf466897a0b172d68af2df1ab062dbd3783f",
+                    "SHA3-256": "a312fdd159c6b9ed3f173e4f2b0b0a8625d89ab4a8daef4af573462d7999ff98",
+                    "SHA3-512": "d7ac4d005a56716d4ca5d223d920f7e2d696c01dcb4bbae85c996e69e58c483e6603d8e3297560c8c9f4f9cb8a9137640902a90e5e03a187a488fdf81c072b4d"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--b0ab11a3-dbce-4d67-b0fd-c4c2222c970d"
+        ]
+    },
+    {
+        "type": "opinion",
+        "spec_version": "2.1",
+        "id": "opinion--67510fcb-ac7c-4f05-b671-04b7711fd9ee",
+        "created_by_ref": "identity--1aae50e3-d60c-4b31-be34-d2df28c50056",
+        "created": "2021-12-09T18:15:02.261972Z",
+        "modified": "2021-12-27T15:28:06.76918Z",
+        "explanation": "Safe serious think kind. Too sell crime lead pass much. Rest town dream for.",
+        "opinion": "disagree",
+        "object_refs": [
+            "indicator--e1e3381c-adfc-4532-84dd-d32983f4eb2c",
+            "intrusion-set--cd929bf2-4691-439a-b07f-dc5a3fe33180",
+            "relationship--2a1398e4-9feb-4744-8f2c-a375c619d48a"
+        ],
+        "labels": [
+            "medical",
+            "research",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--b0ab11a3-dbce-4d67-b0fd-c4c2222c970d"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--1aae50e3-d60c-4b31-be34-d2df28c50056",
+        "created_by_ref": "identity--1aae50e3-d60c-4b31-be34-d2df28c50056",
+        "created": "2021-11-20T06:41:22.946414Z",
+        "modified": "2022-03-30T14:41:45.626153Z",
+        "name": "Hernandez, Best and Wright",
+        "sectors": [
+            "insurance"
+        ],
+        "contact_information": "19553 Brenda Burgs Apt. 287\nRoberthaven, MD 62083",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--b0ab11a3-dbce-4d67-b0fd-c4c2222c970d"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--b0ab11a3-dbce-4d67-b0fd-c4c2222c970d",
+        "created": "2021-08-14T01:08:31.419175Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-44002952-ef1b-4819-85db-bdfcd1864e5e",
+                "name": "Free major nothing gun",
+                "create_date_time": "2021-08-14T01:08:08.424588Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.424412Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

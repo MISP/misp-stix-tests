@@ -1,0 +1,142 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--f7a0512d-ac02-4d18-b732-5df1f1374bab",
+        "created_by_ref": "identity--e33db90c-b0b5-4668-a9d0-780b8d74d4a2",
+        "created": "2021-12-26T07:46:13.234236Z",
+        "modified": "2022-10-08T19:56:57.336204Z",
+        "name": "its",
+        "description": "Fast image expect pull away table several bit.",
+        "pattern": "[autonomous-system:rir <= 'Green Inc']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-10-07T22:52:00.997906Z",
+        "valid_until": "2020-11-14T12:39:23.063512Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "sdxUJtfyv",
+                "phase_name": "QLZboyXrjPSW"
+            },
+            {
+                "kill_chain_name": "yMfiFY",
+                "phase_name": "FDetnLwyvXTvMDYO"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "labels": [
+            "drug",
+            "into",
+            "pfte-batch-1"
+        ],
+        "confidence": 25,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--478726db-507d-4cfa-b92d-91de7cf0e923",
+        "created_by_ref": "identity--e33db90c-b0b5-4668-a9d0-780b8d74d4a2",
+        "created": "2022-06-22T17:45:37.147755Z",
+        "modified": "2023-03-04T07:53:43.442545Z",
+        "name": "prepare",
+        "last_seen": "2021-02-21T11:02:46.971305Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 75,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--adf1e32a-5893-4254-9863-38fd93541eb7",
+        "created_by_ref": "identity--e33db90c-b0b5-4668-a9d0-780b8d74d4a2",
+        "created": "2021-05-17T23:49:36.596376Z",
+        "modified": "2021-08-14T01:08:29.7082Z",
+        "relationship_type": "indicates",
+        "description": "Doctor almost these necessary. Without site certainly employee wife. Food represent realize campaign.",
+        "source_ref": "indicator--f7a0512d-ac02-4d18-b732-5df1f1374bab",
+        "target_ref": "campaign--478726db-507d-4cfa-b92d-91de7cf0e923",
+        "stop_time": "2021-11-18T17:52:34.112884Z",
+        "labels": [
+            "agreement",
+            "out",
+            "significant",
+            "assume",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e33db90c-b0b5-4668-a9d0-780b8d74d4a2",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-04-11T18:50:43.712802Z",
+        "modified": "2022-05-20T12:09:03.942973Z",
+        "name": "Jones-Lopez",
+        "roles": [
+            "step"
+        ],
+        "identity_class": "system",
+        "sectors": [
+            "non-profit",
+            "non-profit",
+            "retail"
+        ],
+        "contact_information": "240 Williams Mountain Apt. 328\nNew Brian, TX 37351",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 65,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "choose",
+                "description": "Reality experience same hour development investment happen.",
+                "url": "https://smith.com/",
+                "hashes": {
+                    "MD5": "5ba51cf607a8f81196515a8e674670c5",
+                    "SHA-1": "1b99fc26b95f88924970cb6866f463b9988503c7",
+                    "SHA-256": "328e5fd987dfd8f3986dcccf3f6fae16106f7d8c919d231d92b80fa096b335c8",
+                    "SHA-512": "b1c0d562a4ba14c150afe86ed445b09669343ee3c9b8713bcb5144ad5372fbbef0cf5310128999dbb4196d220a51866932e17254b2e0b5e1d68315666de9795f",
+                    "SHA3-256": "7220c3607e5061b93e2bb9dfb69658c1eea048e4d03314ad3b3fb2971419d3ae",
+                    "SHA3-512": "a9efea974498763ae5ae181a3336b8eaf9f3c97ef1a8afd4876cdf7c616fcba801967faaea3786ce9c6ce898e7b802cff7a0fba29ce4b98164740814a8b22f51"
+                }
+            },
+            {
+                "source_name": "pay",
+                "url": "https://taylor.com/",
+                "hashes": {
+                    "MD5": "07b657cb91a426ac08e90be4ed479399",
+                    "SHA-1": "b59d99f2753d53b3e91d76b5c06e9a0539ba5065",
+                    "SHA-256": "8b5f009a8e7c4fa3e745129df33ac51207708ea60e3af66336a112f894dcc042",
+                    "SHA-512": "48f23c6b8aa3e5ff0c9c832122fb0c4d7e8770fe4c1117e62b550d3a9a2d7d084d209c38249500b27c9a877d8c4f48d80e2ea292c4286b2c4d7e78227f689617",
+                    "SHA3-256": "d6f15a554e37b6c048295393ba7f423bd1481277c6b967a34c73dc2bb74f0072",
+                    "SHA3-512": "9b715f4fadefeb3e0a9db48c61ff95b04dc12ab64ccc878bd15b9aa6e487bc76bf87504ca1f9ae180a1800d0664f6e647027463b5bd67e564cc30b09319fdbd5"
+                },
+                "external_id": "NtTyJENiRVGR"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

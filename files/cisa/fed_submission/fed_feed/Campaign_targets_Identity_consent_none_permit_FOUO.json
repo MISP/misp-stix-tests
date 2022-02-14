@@ -1,0 +1,154 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--e85740d3-a53e-4883-ad74-8e574f4b2a1a",
+        "created_by_ref": "identity--478e9f44-fbd4-47f5-8e7b-3556e61ef1e0",
+        "created": "2021-07-01T14:07:30.128575Z",
+        "modified": "2022-01-19T00:48:47.318288Z",
+        "name": "far",
+        "aliases": [
+            "approach",
+            "eight"
+        ],
+        "first_seen": "2020-11-19T17:47:32.058519Z",
+        "last_seen": "2021-01-30T12:18:58.772859Z",
+        "objective": "How include son item feel nor organization I.",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--71c32f3d-2ec9-4b8a-8263-819f7b02acc5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--dbf53a10-efb1-4769-bfff-496c9f74e3b0",
+        "created_by_ref": "identity--478e9f44-fbd4-47f5-8e7b-3556e61ef1e0",
+        "created": "2022-01-17T15:21:28.178355Z",
+        "modified": "2022-06-28T03:54:04.951158Z",
+        "name": "Stewart Group",
+        "description": "Versatile discrete initiative",
+        "roles": [
+            "do",
+            "all",
+            "security",
+            "safe"
+        ],
+        "identity_class": "individual",
+        "sectors": [
+            "pharmaceuticals",
+            "mining",
+            "commercial",
+            "dams"
+        ],
+        "labels": [
+            "analysis",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--71c32f3d-2ec9-4b8a-8263-819f7b02acc5"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--73bb3505-4da2-4f56-9a5c-3a4f1c3f7d94",
+        "created_by_ref": "identity--478e9f44-fbd4-47f5-8e7b-3556e61ef1e0",
+        "created": "2022-03-07T22:11:07.806976Z",
+        "modified": "2022-05-21T01:00:00.615962Z",
+        "relationship_type": "targets",
+        "source_ref": "campaign--e85740d3-a53e-4883-ad74-8e574f4b2a1a",
+        "target_ref": "identity--dbf53a10-efb1-4769-bfff-496c9f74e3b0",
+        "stop_time": "2021-10-28T14:30:06.634899Z",
+        "labels": [
+            "cut",
+            "door",
+            "leg",
+            "who",
+            "first",
+            "pfte-batch-1"
+        ],
+        "confidence": 81,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--71c32f3d-2ec9-4b8a-8263-819f7b02acc5"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--478e9f44-fbd4-47f5-8e7b-3556e61ef1e0",
+        "created_by_ref": "identity--478e9f44-fbd4-47f5-8e7b-3556e61ef1e0",
+        "created": "2020-09-18T00:39:41.518088Z",
+        "modified": "2021-08-29T07:23:24.678645Z",
+        "name": "Sanford-Johnson",
+        "roles": [
+            "draw"
+        ],
+        "sectors": [
+            "defense"
+        ],
+        "contact_information": "833 Moss Cove Suite 467\nEast Dylan, OR 85427",
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "read",
+                "description": "Open hotel responsibility available political finally clearly once.",
+                "url": "https://gonzalez.org/",
+                "hashes": {
+                    "MD5": "20c9b7c930bcb0161ea83f9e919b536f",
+                    "SHA-1": "f20847174efb0f514fbd980f864a830d92ae9b4c",
+                    "SHA-256": "db51122b6c005ea94c81a1fdc21e4f34f2138e7b16a09fb7b0b801fc6cf37476",
+                    "SHA-512": "edce88763b0f8a71aa7a0e3c5403c97cce90eee29e48d13c34bbc57531e6a190a01f056403174418a7d1bb45ab739e0d4b6c3a432f560f9d276fbce4e3db5da5",
+                    "SHA3-256": "ab3d322947ab6727357f6f60565f83e36e5cbffc3b2747b29cc70ad075b4d643",
+                    "SHA3-512": "acf3880c1e64bc17a7c3d87369468088983ab9d5a34a6a64c9fa2883825271097ef8e3357f125f29dbd48414e844f66a13af7a6d2f153723655918fb655e3aa4"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--71c32f3d-2ec9-4b8a-8263-819f7b02acc5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--71c32f3d-2ec9-4b8a-8263-819f7b02acc5",
+        "created": "2021-08-14T01:08:16.325464Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-54b25f01-6af2-45fd-9467-12811cc2be8c",
+                "name": "Help hit around teach",
+                "create_date_time": "2021-08-14T01:08:08.425022Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

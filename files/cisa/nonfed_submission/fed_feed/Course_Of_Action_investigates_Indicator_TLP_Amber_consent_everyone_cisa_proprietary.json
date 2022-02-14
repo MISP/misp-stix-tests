@@ -1,0 +1,285 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--a4e7fe47-a0c0-41d8-88f8-355c9b79c7d5",
+        "created_by_ref": "identity--470c79da-01fd-4893-b027-eec496d41bd6",
+        "created": "2021-08-08T11:36:16.375833Z",
+        "modified": "2022-01-05T03:34:02.942298Z",
+        "name": "year",
+        "confidence": 58,
+        "external_references": [
+            {
+                "source_name": "community",
+                "description": "Range appear front.",
+                "url": "https://cook-gonzalez.net/"
+            },
+            {
+                "source_name": "value",
+                "description": "Focus news herself final education myself.",
+                "hashes": {
+                    "MD5": "c47978d862cbda9fd97532a7ae8a0c5c",
+                    "SHA-1": "c1980f50dfdd2396557d987b3fab0f12f2c3cbcd",
+                    "SHA-256": "7f72c19743a0022796b438e8a4f775253d76124d8278805b6ad1e1e9c4f8edef",
+                    "SHA-512": "057b59434e61d12a2801fceffdb47cf089d5037b6cdb61bb003684e41604404b017c903d0a42bc9cecae8fd25d927b11922a6410df05a43979299da63a093e50",
+                    "SHA3-256": "a4a0c014f12b03196e3da298542786a0e69c57b54a52d4a2ab89735256becc34",
+                    "SHA3-512": "3a6677c692bd3ce8bb913007a5ff94040b7cbc5932dcaa7be4f6e6aeef7a3efaeff632a5889ea8d8dc8574e0f014ea75c68548c3b5603cbe6e6575732bf07200"
+                }
+            },
+            {
+                "source_name": "early",
+                "description": "Matter cold foreign.",
+                "url": "https://curtis.com/",
+                "hashes": {
+                    "MD5": "de377ef18cdc9bc21395e0658c950e0f",
+                    "SHA-1": "7627e5f3ae754359f38e811548589a88ec936123",
+                    "SHA-256": "ca98284a9f02e3bab68000ce84f251f76d63863bccded1a829b2c19ec3360e9c",
+                    "SHA-512": "8c3ccf6d60cf9dd04afeb2d5146b3dd8190f1f8aaac5b8fc2352573c0c5cbf57e4a3ce6d14db9a09a6b5bf826b8121a017aecf8cf071c6528dba00fc9e8d3bbe",
+                    "SHA3-256": "555069abd9f5d196a7bdeae71ec176ee1a08671a46867b8b94c6e7bf1f94ca93",
+                    "SHA3-512": "a7cc52305f0bb19b8d94d0a927a36e5f51a9ac3623313cc1860ee3494c087c3dc5a5934d7f92c86e5d21ef7b94cc96bfb7d1acdad9f2c1b1188baa8dec6508ff"
+                }
+            },
+            {
+                "source_name": "medical",
+                "description": "Two second peace understand prepare environmental information.",
+                "url": "https://www.williamson.com/",
+                "external_id": "jOUIPAEhwAjSEwRgoAT"
+            },
+            {
+                "source_name": "woman",
+                "description": "Government Mr member current Mr real.",
+                "external_id": "MszFlbimTDFHR"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7cc2ebdd-c46d-41a7-9ed5-b6fa965d6bdf"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--7659ae2a-a3e2-4db8-b08d-c5a9afb0261e",
+        "created_by_ref": "identity--470c79da-01fd-4893-b027-eec496d41bd6",
+        "created": "2021-11-21T02:05:45.16045Z",
+        "modified": "2022-07-01T04:28:01.166274Z",
+        "indicator_types": [
+            "unknown",
+            "unknown",
+            "anonymization",
+            "benign",
+            "attribution"
+        ],
+        "pattern": "[software:swid = 'org.fedoraproject.Fedora-29'] AND [directory:defanged = false] AND (([domain-name:defanged = false] FOLLOWEDBY [ipv6-addr:defanged = false]) FOLLOWEDBY [x509-certificate:serial_number >= 'GLrkKPXDzzTwzUvCiIAy'])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-07-29T00:57:34.512452Z",
+        "valid_until": "2022-05-23T08:59:09.032673Z",
+        "labels": [
+            "fund",
+            "pfte-batch-1"
+        ],
+        "confidence": 85,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "center",
+                "url": "http://harris-arnold.com/",
+                "hashes": {
+                    "MD5": "ec4a26f07816fbf4f47a25b8572cb3d7",
+                    "SHA-1": "d73656d0f4eb13946352281b2368a02f666d08dd",
+                    "SHA-256": "c9352a343c9191d8da0e95b73bf6d545c85db1bea69afa6865e26828eb5128ca",
+                    "SHA-512": "0f63793ce22f3ad8fe2e92e08acc3496c0675e1232f515a37c4e44681d0cd00eee5a7339927d7605a22f947a86b440610c4107cbd2bdea910c4fb7cd99675fb5",
+                    "SHA3-256": "440c4ce229ee47a7ae07ea083466e25430c8c44c497ad9634c60441780ce3fde",
+                    "SHA3-512": "faacc6092078a4362b74da030785ae611353331c8e71cd941d850d45a781cb89348715a0a77be78afa56d924967d06613da1a5798d32ddff6fd1d3d08f5632ac"
+                }
+            },
+            {
+                "source_name": "water",
+                "description": "Store paper inside these arrive wife local everything.",
+                "url": "https://roberts.info/",
+                "hashes": {
+                    "MD5": "9e131fdb2a613fe1aef318940511922a",
+                    "SHA-1": "ce890a53ef2e857c3cad49aa2557ca3c7ae6a1cd",
+                    "SHA-256": "ff42f6940fbe148eef6687213f94039d0a1afe622effda4cf7b0ecb4030fecc1",
+                    "SHA-512": "7f0d06ad6397e50b15c6a58460ace27071c961de5f4e2ae4018dd244efdd5e4260d89a847467f7ee220c507e1486c2613a14cc47f53fbede78b95ff453852139",
+                    "SHA3-256": "f43b32a62f56a68981f4a6ee72fe6099c704ee37437a5b02c40cf4c409dc1af6",
+                    "SHA3-512": "c25c5752f55cc9eca103d95629b618799e05b228ffd3b43e71e69362437873aa5906f79432b50fefd5f0dda3ea44d8495b6a236d5752927accd3cc36bc8e1034"
+                }
+            },
+            {
+                "source_name": "take",
+                "description": "Professional far whether number act.",
+                "url": "https://horn.biz/",
+                "external_id": "ffTpAgY"
+            },
+            {
+                "source_name": "media",
+                "url": "https://www.rangel.com/"
+            },
+            {
+                "source_name": "receive",
+                "description": "Final form open often matter.",
+                "url": "http://www.fischer-woods.com/",
+                "hashes": {
+                    "MD5": "d036f0cd3d8eb9f713020183cf51c088",
+                    "SHA-1": "a15c3bf9a3ae001c7bab4b5bee8363d6bb2d9680",
+                    "SHA-256": "c99f5647cf3d2c2af773483b6558b70705f5525ddc240c8a46c3678632f6c158",
+                    "SHA-512": "f745b68d48964ad5e1045251d17b17de27d73c2e08422e5f64ca18d6cb2511495021c6a2f6e39fab83ae1eeddf94ef7da44ca3eaf6aa3ddba7abb2d25ccdf0cb",
+                    "SHA3-256": "e64924a96a2276f2ad28544096308353facc3ef9e2d2678476f07a8aca3858ff",
+                    "SHA3-512": "d61ab2732fa4ab7deb6b58ce37f11b052401b256d45ed41d361f9c75512931fab8ca2dcdedd534f3fcc39d10bf168c8f7583d1ab888ccc963e9b7a2ae1327a08"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7cc2ebdd-c46d-41a7-9ed5-b6fa965d6bdf"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a406bf67-4fe9-4933-828c-ba1d3e5b4988",
+        "created_by_ref": "identity--470c79da-01fd-4893-b027-eec496d41bd6",
+        "created": "2022-07-05T03:55:19.00637Z",
+        "modified": "2022-10-30T22:14:50.362877Z",
+        "relationship_type": "investigates",
+        "source_ref": "course-of-action--a4e7fe47-a0c0-41d8-88f8-355c9b79c7d5",
+        "target_ref": "indicator--7659ae2a-a3e2-4db8-b08d-c5a9afb0261e",
+        "labels": [
+            "near",
+            "mention",
+            "air",
+            "mother",
+            "data",
+            "pfte-batch-1"
+        ],
+        "confidence": 39,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "involve",
+                "description": "Guy affect police.",
+                "hashes": {
+                    "MD5": "74f07a6ae2b748815f612a2bf10d9e2b",
+                    "SHA-1": "e2cf14c77865c1ddf8ea3fd5f426dcc8e65f0ccb",
+                    "SHA-256": "9a207aad3a621d5cb69b7e353bb08782a91c5f21b344166394bb4cd7ba577279",
+                    "SHA-512": "c090d5a19ca2ef6342b20ddc60067e0d0b0428498241eb3a8f1647bd62a3007ebc60948480b7527d29daa9fd707924ff2cd4190d773241919cb894479abed94f",
+                    "SHA3-256": "9d4504053d22fca44cd91c25dcfbce100d01d6637a8e0870365c6943a2110ce4",
+                    "SHA3-512": "f043598be49abfb04ab946107e03b1d6c32aec4f879df80cbb93e2b11d47caf4518a22a241076a494f77260a422c656db720bc8209b349dafbefc863a7a39ea2"
+                },
+                "external_id": "sNtRmDMUHqfizhFdhNs"
+            },
+            {
+                "source_name": "crime",
+                "url": "http://knight.net/",
+                "hashes": {
+                    "MD5": "e9352f26637a74fc3bf821c9efdffbc7",
+                    "SHA-1": "7fbcc34463f68cc854648f18dd2c88ebb9d937ea",
+                    "SHA-256": "6ac6025f3ea473f803ae79bea5c2b7636015fef0d9ad23d1120479b393effc74",
+                    "SHA-512": "888195c1d6711895d97ab8be18c1bac582528e32bf27eb0bdcaf01b42e749d02a3d85b0ac1d53228ea3190067aca2b47b568f14879399781c1e9fedc20645ef7",
+                    "SHA3-256": "a240f1ba7f3ea7ccdc0f11e9123c2d3b10bb06f35cdc88807b80b1404adb8f3f",
+                    "SHA3-512": "21d038a548a9bb484b7a8a60f84a16e7d71d13ca563e9af3da372721e3d07729c61aed77a23bb3a2f904e22fc715442862a2f8f4e64eda62ceab62f5aca09296"
+                },
+                "external_id": "KaPGhMA"
+            },
+            {
+                "source_name": "member",
+                "url": "http://howard.com/",
+                "hashes": {
+                    "MD5": "2a7076abb626853c6f1be2283544b67c",
+                    "SHA-1": "d8159738426a6a6a1a62cad4b3654f16cb4aa389",
+                    "SHA-256": "ff72d0925c0ede7ad497936f458f9058a17cf784931871b06d356ee952b0915d",
+                    "SHA-512": "b365f4280f477964b50a3631e651e9606581e9a3ab784be99f562c582bd087bcdcb6b339be5910cc5d4da17ae73ac4ce8314caeb55a7ee243a77e9a0b59313cc",
+                    "SHA3-256": "688c3952ed8a782d024240355d58bb657267bf2bd03f8e4155e74898d2a0afda",
+                    "SHA3-512": "91831560c063be396c36d94b61321533ded3dd6aeecb99170a6b43fab4c88d51c5bde1661bff5387a6ac8e1153709f1eeb20323f0b3539b36d9ab4efb4119af5"
+                },
+                "external_id": "grVgUfbJj"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7cc2ebdd-c46d-41a7-9ed5-b6fa965d6bdf"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--7cc2ebdd-c46d-41a7-9ed5-b6fa965d6bdf",
+        "created_by_ref": "identity--470c79da-01fd-4893-b027-eec496d41bd6",
+        "created": "2021-08-14T01:08:21.79177Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-881bbc21-deef-4d57-abf3-7f599266217f",
+                "name": "Way get would fight necessary hour measure",
+                "create_date_time": "2021-08-14T01:08:08.423662Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--470c79da-01fd-4893-b027-eec496d41bd6",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-05-31T12:36:05.986165Z",
+        "modified": "2023-03-16T20:16:22.608207Z",
+        "name": "Bradford-Gutierrez",
+        "identity_class": "group",
+        "sectors": [
+            "commercial"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 4,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7cc2ebdd-c46d-41a7-9ed5-b6fa965d6bdf"
+        ]
+    }
+]

@@ -1,0 +1,199 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--1886c3a8-3475-45b5-9231-c0c434723b32",
+        "created_by_ref": "identity--c85d2449-b62b-43de-9cea-42d41b3c7079",
+        "created": "2021-09-05T22:26:48.221339Z",
+        "modified": "2021-11-21T00:54:31.209398Z",
+        "name": "matter",
+        "aliases": [
+            "kitchen",
+            "short",
+            "teacher",
+            "carry",
+            "human"
+        ],
+        "roles": [
+            "infrastructure-operator"
+        ],
+        "sophistication": "strategic",
+        "resource_level": "contest",
+        "primary_motivation": "personal-satisfaction",
+        "secondary_motivations": [
+            "personal-gain",
+            "dominance"
+        ],
+        "external_references": [
+            {
+                "source_name": "practice",
+                "url": "http://anderson.com/",
+                "external_id": "ATBpezO"
+            },
+            {
+                "source_name": "few",
+                "url": "https://www.walls.com/",
+                "hashes": {
+                    "MD5": "83952424f319d81ffd85f58417e25f43",
+                    "SHA-1": "769f83b1a8b5412da0861770c38540da2ffd2d5d",
+                    "SHA-256": "6772014c31379fa715c04dadea5ba10660831142319315d9dd76d69f24f6825e",
+                    "SHA-512": "c251d793e62c6088e22268fa84535e07642bfa6b07bb0be5d94cc330dfb386dcddd9cf8f03896e308f78736d4055762a36cec070773fa095a3e1aebe67df7cc8",
+                    "SHA3-256": "fdc141f42c114f169ea40dc7906b10c2fe1fcce719b94c507ac6a539c98b4494",
+                    "SHA3-512": "f505f23929035aa04113ab9a3feb1a14ee1a5cd5aa241c167800fe7e559df0c406c052595b956191270efd23639d18be9e83a6862931dcea671896b343bc9d9e"
+                },
+                "external_id": "NOgOwUduACdaBqU"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--dc60efe0-64a9-444e-915d-bbf47d0b7fc8"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--8081f703-ee88-4709-a598-4192c57805cd",
+        "created_by_ref": "identity--c85d2449-b62b-43de-9cea-42d41b3c7079",
+        "created": "2022-06-14T14:36:22.983131Z",
+        "modified": "2022-10-10T08:17:11.423519Z",
+        "name": "discussion",
+        "infrastructure_types": [
+            "amplification",
+            "firewall",
+            "anonymization"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "JFlvFW",
+                "phase_name": "joEerqb"
+            },
+            {
+                "kill_chain_name": "qkhEVAZw",
+                "phase_name": "mONzrOoNrvDNlTTtivl"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--dc60efe0-64a9-444e-915d-bbf47d0b7fc8"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e8661c2a-1ba0-4730-bc46-ca7898266d16",
+        "created_by_ref": "identity--c85d2449-b62b-43de-9cea-42d41b3c7079",
+        "created": "2020-09-06T18:12:50.854601Z",
+        "modified": "2021-08-14T01:09:27.294335Z",
+        "relationship_type": "owns",
+        "description": "Big out share hand shoulder family hundred movie. Involve fly soldier very visit skill.",
+        "source_ref": "threat-actor--1886c3a8-3475-45b5-9231-c0c434723b32",
+        "target_ref": "infrastructure--8081f703-ee88-4709-a598-4192c57805cd",
+        "start_time": "2020-11-08T22:49:23.196013Z",
+        "stop_time": "2021-01-15T13:26:53.67084Z",
+        "object_marking_refs": [
+            "marking-definition--dc60efe0-64a9-444e-915d-bbf47d0b7fc8"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--dc60efe0-64a9-444e-915d-bbf47d0b7fc8",
+        "created_by_ref": "identity--c85d2449-b62b-43de-9cea-42d41b3c7079",
+        "created": "2021-08-14T01:09:27.292523Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-cdad75a5-97a2-450d-bb1c-cac3b21b4823",
+                "name": "Continue half as create together strong",
+                "create_date_time": "2021-08-14T01:08:08.421874Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c85d2449-b62b-43de-9cea-42d41b3c7079",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-06-23T22:18:50.166405Z",
+        "modified": "2022-02-26T10:36:37.095849Z",
+        "name": "Nelson, Morris and Meyer",
+        "description": "Fully-configurable interactive customer loyalty",
+        "contact_information": "83326 Krista Vista\nNew Masonside, OH 54616",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--dc60efe0-64a9-444e-915d-bbf47d0b7fc8"
+        ]
+    }
+]

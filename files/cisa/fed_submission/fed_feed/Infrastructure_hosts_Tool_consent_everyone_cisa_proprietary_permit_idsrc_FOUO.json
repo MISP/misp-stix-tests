@@ -1,0 +1,242 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--3850267b-52de-4953-8bd9-fd566c9441f6",
+        "created_by_ref": "identity--e8c42a84-3a09-41f8-b786-dc143f2bc90f",
+        "created": "2021-05-28T12:57:54.92216Z",
+        "modified": "2022-02-07T06:03:15.783799Z",
+        "name": "the",
+        "last_seen": "2022-06-26T17:53:39.700868Z",
+        "labels": [
+            "ever",
+            "away",
+            "amount",
+            "crime",
+            "hard",
+            "pfte-batch-1"
+        ],
+        "confidence": 76,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--1bf3a537-0daa-40a0-8e9b-0e59844b67be"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--0d391c9d-d30f-4eff-949c-21361a3dfc6a",
+        "created_by_ref": "identity--e8c42a84-3a09-41f8-b786-dc143f2bc90f",
+        "created": "2021-06-07T05:33:28.212371Z",
+        "modified": "2021-08-14T01:08:48.708577Z",
+        "name": "scientist",
+        "description": "Ever maintain site after never right.",
+        "aliases": [
+            "necessary",
+            "board",
+            "nearly",
+            "remember"
+        ],
+        "tool_version": "child",
+        "labels": [
+            "receive",
+            "wait",
+            "such",
+            "data",
+            "pfte-batch-1"
+        ],
+        "confidence": 11,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "house",
+                "description": "Public whatever member some stand trip speak to.",
+                "url": "http://www.shannon.com/",
+                "external_id": "cAsNajHrF"
+            },
+            {
+                "source_name": "consumer",
+                "url": "http://brooks.info/",
+                "hashes": {
+                    "MD5": "9b5ead58f32ff594b2527281e73e251a",
+                    "SHA-1": "d4b275562974299a7d38e924cfd1cd8d27525361",
+                    "SHA-256": "0a8a4ec9b6861f665aa0acface5492ebb04388e58cb7851a793fe3b6b387ab9c",
+                    "SHA-512": "204296097850f6ae38e5fd0bf389ef4a6520ea2f513704aca44f27dd6e7ccfbcb6f19294637c6df6f8774955f00026e0ee7e781751e5ba8ae0238d3faa7a02db",
+                    "SHA3-256": "fd5cf5da9477b7c07fb03ea042d2e5087d20ad945e8965efb68c4b643b1e49a0",
+                    "SHA3-512": "655d9ea905a6f769f71cc8e71aa2adae602cab376607a45f0d0969624639481bc0814d32a720d58e0e359af0f9fd6366e2abbdee6c0b5ea25a4da63ec8a4494a"
+                },
+                "external_id": "KrSKcni"
+            },
+            {
+                "source_name": "stand",
+                "description": "Why teach half vote stock theory.",
+                "url": "https://sullivan.com/",
+                "external_id": "GjwDFZslHP"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1bf3a537-0daa-40a0-8e9b-0e59844b67be"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--59584732-f6fe-4fd9-a496-e0e2b6fd0e7b",
+        "created_by_ref": "identity--e8c42a84-3a09-41f8-b786-dc143f2bc90f",
+        "created": "2021-12-20T01:10:06.730882Z",
+        "modified": "2022-10-09T12:42:04.573259Z",
+        "relationship_type": "hosts",
+        "source_ref": "infrastructure--3850267b-52de-4953-8bd9-fd566c9441f6",
+        "target_ref": "tool--0d391c9d-d30f-4eff-949c-21361a3dfc6a",
+        "start_time": "2020-11-29T17:02:51.436204Z",
+        "stop_time": "2021-04-18T17:51:12.516894Z",
+        "labels": [
+            "event",
+            "hit",
+            "three",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "decision",
+                "description": "Often letter candidate yet any.",
+                "url": "http://www.miller-miller.com/"
+            },
+            {
+                "source_name": "news",
+                "description": "Specific walk give explain.",
+                "url": "http://torres-herrera.net/",
+                "external_id": "CVRcClpEbi"
+            },
+            {
+                "source_name": "need",
+                "description": "World situation join live medical some.",
+                "url": "https://www.george.biz/",
+                "hashes": {
+                    "MD5": "650f112c06409dc84be78c84616ca735",
+                    "SHA-1": "cbfbbb2abf89c3756f65cc2a8b78a971ed466340",
+                    "SHA-256": "1effe69cf87c4e341f0d372473ad1eb2e5e1dfff44f5a3b9bcff005e643d623d",
+                    "SHA-512": "7ae05835c9838ea30d4c6b6455c444eba74ee73155c6cc38724820b906ff99b7ce3de014e8f054c876f6dbd527cb752c827c008c76ecbc047d50cb707dbb8bdb",
+                    "SHA3-256": "64c4b43e565753bde036571b04f89633ec1a9cd8d1438b04f6f637042a3074c0",
+                    "SHA3-512": "e875ff2f97e28586eadd0e7d7e3da6525263738417ed9f818babbd81820f451c3c3a1e9fd0dbed2b31918ce580eb5b7cbb903926115c1fffa839895a16af2b57"
+                }
+            },
+            {
+                "source_name": "campaign",
+                "description": "Clearly yourself coach worker administration discover.",
+                "url": "http://berry-hammond.info/",
+                "external_id": "tKRtFyBonXdlQUV"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1bf3a537-0daa-40a0-8e9b-0e59844b67be"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e8c42a84-3a09-41f8-b786-dc143f2bc90f",
+        "created_by_ref": "identity--e8c42a84-3a09-41f8-b786-dc143f2bc90f",
+        "created": "2021-12-31T16:17:39.268003Z",
+        "modified": "2022-12-05T16:58:38.359725Z",
+        "name": "Madden-Jordan",
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 66,
+        "external_references": [
+            {
+                "source_name": "way",
+                "url": "https://brown.com/",
+                "hashes": {
+                    "MD5": "3ffd4010cd5a59234faed2fc41a1275e",
+                    "SHA-1": "87bfe65a60511b3e4738373d8daa41b34b2fadb2",
+                    "SHA-256": "e50da65eb7edfd83b97e92f026ca3d6778dd3be4d11adec59dde8efa007862d0",
+                    "SHA-512": "aff075b1c8f47c64cb12a10bb73806032864012b16280e06eb636abf743d0adba103296b0e5143506a9a3d931ceb2ffde99c3d6dfca0e89509a31acf55f93ce4",
+                    "SHA3-256": "feecba7fb4dff35d309e6671a1c9ba554bce5bdce8da33a5d8f5645d3fdd721b",
+                    "SHA3-512": "faece06a4d1428c3bf1728d0d225d38963615618b1a7ef36e22eeda2c3880209fb846f4d62f89e96e535010b6ef987d6954b8457bab2cc69a34d6829835b52c8"
+                },
+                "external_id": "AWEZxSqRGgOHQ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--1bf3a537-0daa-40a0-8e9b-0e59844b67be"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--1bf3a537-0daa-40a0-8e9b-0e59844b67be",
+        "created": "2021-08-14T01:08:48.707425Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fadf816-7ba3-41ea-a52c-2855b3ec9d5a",
+                "name": "Report official major we center outside throughout population",
+                "create_date_time": "2021-08-14T01:08:08.433803Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

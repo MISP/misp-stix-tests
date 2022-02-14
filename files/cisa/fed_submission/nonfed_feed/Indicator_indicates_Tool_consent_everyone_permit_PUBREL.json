@@ -1,0 +1,167 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--36e9065f-d00c-4d71-9ee3-ea7edf636f80",
+        "created_by_ref": "identity--c2989ea6-b622-411c-98aa-7e4287022989",
+        "created": "2021-01-18T08:35:30.284934Z",
+        "modified": "2021-08-14T01:08:35.554974Z",
+        "indicator_types": [
+            "unknown",
+            "attribution",
+            "attribution",
+            "malicious-activity"
+        ],
+        "pattern": "([(ipv6-addr:value < 'dae4:807e:2126:39d4:a01a:90ea:b36:68a8') AND ipv6-addr:defanged NOT = false AND ipv6-addr:defanged = false AND ipv6-addr:value >= '6158:d71d:c1f2:f55d:6f3:2d97:f60c:473e'] OR ([process:cwd >= '/suffer/eight.flac'] START t'2020-10-15T03:39:29.546898Z' STOP t'2021-01-09T18:59:44.305884Z') WITHIN 5 SECONDS)",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-10-17T08:57:04.260834Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "nDfGpMqqPEVgWaScYDI",
+                "phase_name": "zPlVcXFtU"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "QFzqhWatFxRBLeuT",
+                "phase_name": "lfhOocRrmKjxM"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 93,
+        "external_references": [
+            {
+                "source_name": "heart",
+                "url": "http://perez-mckay.com/",
+                "hashes": {
+                    "MD5": "254930957dbbfe8a02f9e8ebbaa8d8e2",
+                    "SHA-1": "4732ba75aad6fb449487b1d5b9ea9b3de1c54c52",
+                    "SHA-256": "91c6b5670a6915ca383cc77174233b596a0eef48332b90c72892cfd17f11ff90",
+                    "SHA-512": "6eab44838234fe60ea2e5e6175668047cd130d5f6e803ca54a196b68fbb4042b47d8d3476a568126fde4f55c8d4e09dbc47aea9d51fb452f478c3341d1244198",
+                    "SHA3-256": "05acb86e8c81e834c70991e3b586d7441b6f451ffa52e87a78f3a18a6c20181a",
+                    "SHA3-512": "f276cfcbdef1b913269e8d4c766ef54e4d89e8bc849c951f20063615e74c9a24038d893f1bc42fc879a3915b2520d7856bfe9f7c2028a0103774bd84d5367b0d"
+                },
+                "external_id": "PIgrTNm"
+            },
+            {
+                "source_name": "commercial",
+                "url": "https://thomas.org/"
+            },
+            {
+                "source_name": "do",
+                "description": "Well itself up top feel.",
+                "url": "http://www.brooks-lucas.com/",
+                "external_id": "PkmrljTZKTcWCQgu"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--3eff3778-6d28-4c29-82cd-58c21c94196e",
+        "created_by_ref": "identity--c2989ea6-b622-411c-98aa-7e4287022989",
+        "created": "2022-03-16T09:11:06.77619Z",
+        "modified": "2022-07-12T16:14:53.261517Z",
+        "name": "drug",
+        "aliases": [
+            "piece",
+            "work",
+            "performance",
+            "main",
+            "more"
+        ],
+        "tool_version": "outside",
+        "labels": [
+            "fight",
+            "TV",
+            "night",
+            "together",
+            "pfte-batch-1"
+        ],
+        "confidence": 66,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "town",
+                "description": "Section network left lay expect believe space mission.",
+                "url": "http://roberson.com/",
+                "hashes": {
+                    "MD5": "358e40f54b54856cf5369fe6331e39b4",
+                    "SHA-1": "8557f62a7c129a1a4c84ed5173eeb82ffd01dcf0",
+                    "SHA-256": "434a3f0901d21d7af4ee429d1941f75a19f34270bbf5e6e0f33471c33fd7fb77",
+                    "SHA-512": "ea4bbba927e563c82063a848df92c409ab8ab3ff367d801523cfbb63d1af722aff78b59c7be4edb7557bcd849477496cbbc56debe669c2d397ac9739f710c076",
+                    "SHA3-256": "40b39d84f6ef72ae2551e8938ec96a0ec036b6ff81717b22121c314195b32456",
+                    "SHA3-512": "c749bf31a5241fe5b9caa4033b572cb7fcc8c323941756dfd1a70b2130491e58d704a73764127b4a27d945b7f1a7114db24c51aa2964d6961b7e88d6494442ae"
+                },
+                "external_id": "brCDJsrdleRSxCBk"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d8811c02-ab72-4bd5-9b2c-1e4a9f064b4e",
+        "created_by_ref": "identity--c2989ea6-b622-411c-98aa-7e4287022989",
+        "created": "2021-04-12T04:17:52.596913Z",
+        "modified": "2021-08-14T01:08:35.558959Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--36e9065f-d00c-4d71-9ee3-ea7edf636f80",
+        "target_ref": "tool--3eff3778-6d28-4c29-82cd-58c21c94196e",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "else",
+                "description": "Color attack instead energy describe agree cut window."
+            },
+            {
+                "source_name": "myself",
+                "external_id": "UJSXT"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c2989ea6-b622-411c-98aa-7e4287022989",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-04-13T10:21:43.488646Z",
+        "modified": "2022-10-20T13:46:24.804251Z",
+        "name": "Peterson, Nielsen and Allen",
+        "description": "Synergistic logistical frame",
+        "roles": [
+            "around",
+            "dog",
+            "billion"
+        ],
+        "identity_class": "individual",
+        "contact_information": "06967 Scott Lodge Apt. 739\nSouth Kristina, NC 59752",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

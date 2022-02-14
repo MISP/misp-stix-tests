@@ -1,0 +1,241 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--23489713-e0fa-4d7e-b2ff-c136a320afd3",
+        "created_by_ref": "identity--5d3148da-897b-405c-9ccf-3d5ac63ac2d2",
+        "created": "2020-10-07T00:54:07.004064Z",
+        "modified": "2021-08-14T01:08:10.047707Z",
+        "name": "glass",
+        "labels": [
+            "from",
+            "paper",
+            "choice",
+            "pfte-batch-1"
+        ],
+        "confidence": 46,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "everything",
+                "description": "Store make head star speak morning.",
+                "url": "https://wilson.com/"
+            },
+            {
+                "source_name": "per",
+                "url": "https://www.ramos-tyler.com/",
+                "hashes": {
+                    "MD5": "de71370277208978dc8283cc5be2b0e3",
+                    "SHA-1": "26a5b336c56fef903b33450f5f23088c84982ec5",
+                    "SHA-256": "6ea52764d2897a0a2469ccf8b644c9827c99ada786ac874c8eb9db9bee35086d",
+                    "SHA-512": "de52e7ee4b2aa494dfbd65cb2ba860822bf67cd61d9a2196e98b6fef3993faf6efedb28d7111e512a57344a63a8c0a01a1432ebac11728844cbe0442c9288e64",
+                    "SHA3-256": "a0b4438abc782e78fbcaedb95e6176e289510583e91e58415ab0569df752cbd2",
+                    "SHA3-512": "e2fb99943ca9241af2dfc700fb5c1a362a0bf424468e590985a4c9830c48e9f010a02e2b4f0a9195980161e4c4e08ff91debbfd093de6c944e422d1dc45695bd"
+                },
+                "external_id": "OUebYlmJWfyKzgdXauzn"
+            },
+            {
+                "source_name": "record",
+                "url": "http://sanchez.biz/",
+                "hashes": {
+                    "MD5": "4266bf9ad48425d96e730a2ba1cbc24e",
+                    "SHA-1": "9cede31c435e6d2551d01bdd027a73ecfab13083",
+                    "SHA-256": "7442cba96e30bc43753a67e3085c6c5234841b277b714467c8e3b33951656715",
+                    "SHA-512": "32ca171880f048999540bdd63287ff614379fd3247d8e8a2fecdd9d8f6e5bf9401b6f4ef346211e5e1ae730facfe3f33dcfd9531337a7026a0e2d5ce7cf2cae3",
+                    "SHA3-256": "83160d396ec8f43f2dd7d75c711f51ddf15be911fba98751b8dba0127caeb896",
+                    "SHA3-512": "faee123dca1efb96cb8fa2fdab1ef98d49cbd72d244d57eb79321588722bcf870b914f3178d8c2139e1b862ab315fbbe95fc7fbf9e3c39af2ebc026ee11b0220"
+                },
+                "external_id": "eBpjkKY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2bce0e28-70a3-422e-80ce-09b4f1654468"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--36841d8e-1c36-4c9a-aac4-8bb0f6fe3c5b",
+        "created_by_ref": "identity--5d3148da-897b-405c-9ccf-3d5ac63ac2d2",
+        "created": "2022-05-06T09:37:51.564439Z",
+        "modified": "2022-11-18T19:35:06.452834Z",
+        "name": "Molina PLC",
+        "identity_class": "unknown",
+        "sectors": [
+            "insurance",
+            "healthcare",
+            "manufacturing"
+        ],
+        "confidence": 24,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2bce0e28-70a3-422e-80ce-09b4f1654468"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ecae86c2-8fe4-496b-a5ba-3c4fb6355726",
+        "created_by_ref": "identity--5d3148da-897b-405c-9ccf-3d5ac63ac2d2",
+        "created": "2020-06-23T21:26:35.242326Z",
+        "modified": "2021-08-14T01:08:10.048191Z",
+        "relationship_type": "targets",
+        "description": "Heavy adult set seem return happy very property. Girl dinner through particularly prove necessary.",
+        "source_ref": "attack-pattern--23489713-e0fa-4d7e-b2ff-c136a320afd3",
+        "target_ref": "identity--36841d8e-1c36-4c9a-aac4-8bb0f6fe3c5b",
+        "object_marking_refs": [
+            "marking-definition--2bce0e28-70a3-422e-80ce-09b4f1654468"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5d3148da-897b-405c-9ccf-3d5ac63ac2d2",
+        "created_by_ref": "identity--5d3148da-897b-405c-9ccf-3d5ac63ac2d2",
+        "created": "2022-08-08T19:00:50.773016Z",
+        "modified": "2023-02-12T18:01:37.662662Z",
+        "name": "Hernandez, Martinez and Roberts",
+        "description": "Fully-configurable 5thgeneration synergy",
+        "sectors": [
+            "financial-services",
+            "insurance",
+            "manufacturing"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 62,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "also",
+                "description": "East specific build seven.",
+                "url": "http://www.whitney.com/",
+                "hashes": {
+                    "MD5": "34c74ab174686bab22308a251ef7c702",
+                    "SHA-1": "f33c50382d3074d8a4b41aa11ee0a68792c3cbaa",
+                    "SHA-256": "3543a6a9ef261c0ddb1881313ac12aec21e36242a65dee880fbe67afa587ef02",
+                    "SHA-512": "2dd701e65a7b6f9f102f8153a02ad8e71c695a071ac6a899415a6903edf49d9c86d46d3333204633b2484a633ff2ff9bc094e9f58cdc1cc39e5a987208ba129d",
+                    "SHA3-256": "256d6b4446cdf8308c50de12556af2893e57798e030fc87693a75f7a5b650182",
+                    "SHA3-512": "0d2d93f55797bb1d611f5dc36d89b3880a8dc95a1412944fdfd71f2828aa343b24395da948e80bc274dc6682ef0b0f005e83f0707599a9f6be2b6cc0f35a80ca"
+                }
+            },
+            {
+                "source_name": "method",
+                "description": "Level media street form station trouble their sport.",
+                "url": "http://www.rivera.com/",
+                "hashes": {
+                    "MD5": "39d8ec8074c65586b4f151394e9248ba",
+                    "SHA-1": "9ac3636021da935d31241b9c6b8718e46511c9da",
+                    "SHA-256": "f238e63a45efd6b393b3f24b595a7756aefd244b54c6c3aaeafa5697452e7560",
+                    "SHA-512": "9b9f60adf8c58e2b42a40ce7faa1c2d476429c82db221447c6065fa75aec10af70533a16b39deb08e42006a32094505489909d2351b05e02bceaf035dc4b6406",
+                    "SHA3-256": "814d2684463ab2f57c25d446a06b340344710305fb5db10673103450bbb98c20",
+                    "SHA3-512": "9bc96550277bfa83f6a7a43cf0f359ed7ef67c90256f2c8d92e5b65d5ff7fe97d1d65835dbdd2a9df70ac88566655202066b4b50f89d544145db39f390de4184"
+                },
+                "external_id": "tSCAJiin"
+            },
+            {
+                "source_name": "church",
+                "description": "Table mention space former feeling per."
+            },
+            {
+                "source_name": "protect",
+                "hashes": {
+                    "MD5": "811ade60f7326bf4ec8cb5918113b83e",
+                    "SHA-1": "7545259c7b312e7f2685c7d0f0450e771c4c1ea5",
+                    "SHA-256": "c0e9c35d4614ab29b6e360d6dd46499bf99745f25027ad9c4ec85ff14a9fab5e",
+                    "SHA-512": "2ca0459fc4d8abf3a50129de8164274b9864643bf70a195fab336f7b3d663eda17d8fce1d2e2de06465554803c6366d9fcaca9d9ad64ec45c8696d0b96401405",
+                    "SHA3-256": "4408f39a0dc291d28678d968341613f3a976590eea2cf0379e28e7600a7a0071",
+                    "SHA3-512": "0c6d1829bb0e7e51e9c3802bdfc5a78a467186ddee54501da3b343356dca6d996413c7fa147208abdb02a385a00d736b7aab0a5afa0a194077ad3397e627e23c"
+                },
+                "external_id": "UnGIEUADdqM"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2bce0e28-70a3-422e-80ce-09b4f1654468"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2bce0e28-70a3-422e-80ce-09b4f1654468",
+        "created": "2021-08-14T01:08:10.046744Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-b6e02fdc-1bc2-4bf7-88bf-58ec1e8c0a26",
+                "name": "Eye set happy strong city way",
+                "create_date_time": "2021-08-14T01:08:08.434259Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.434092Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

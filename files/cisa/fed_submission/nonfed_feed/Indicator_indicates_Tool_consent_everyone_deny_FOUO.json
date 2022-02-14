@@ -1,0 +1,150 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--f6b4d0d0-19d3-43a2-8ab7-ba61db975400",
+        "created_by_ref": "identity--693c1d5b-b13f-4f5b-afe5-d1d4d104fa25",
+        "created": "2020-02-01T04:16:19.183489Z",
+        "modified": "2021-08-14T01:08:35.461992Z",
+        "pattern": "(([process:defanged NOT = false] OR [network-traffic:dst_port >= 44373] REPEATS 5 TIMES)) FOLLOWEDBY [domain-name:value NOT = 'parker.com']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-12-24T02:38:15.591944Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "LUEfzHzEjbHTgD",
+                "phase_name": "vWlMgKZXjd"
+            },
+            {
+                "kill_chain_name": "BoQAYcLtZkqJWz",
+                "phase_name": "PcOJStG"
+            },
+            {
+                "kill_chain_name": "zAUthPuyWAeR",
+                "phase_name": "VmPWdA"
+            },
+            {
+                "kill_chain_name": "pfSrynBQnekJJZ",
+                "phase_name": "wgSdIJvMRCaPUOgWIvL"
+            }
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--7c6453bd-ce97-4cdb-af1d-55f639446b9d",
+        "created_by_ref": "identity--693c1d5b-b13f-4f5b-afe5-d1d4d104fa25",
+        "created": "2021-08-05T15:19:32.534185Z",
+        "modified": "2022-05-24T11:02:23.90293Z",
+        "name": "do",
+        "description": "Network ahead threat bill rest.",
+        "tool_types": [
+            "vulnerability-scanning",
+            "credential-exploitation"
+        ],
+        "tool_version": "scene",
+        "labels": [
+            "security",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "toward",
+                "description": "Husband girl floor.",
+                "external_id": "xMFeRrUmKZtryYdMQaS"
+            },
+            {
+                "source_name": "affect",
+                "url": "http://franco-marquez.com/",
+                "hashes": {
+                    "MD5": "f6a4639ef866829c3661e177afb44da5",
+                    "SHA-1": "d2829fdfbda7ed5728b6f353de02a162256fc74e",
+                    "SHA-256": "1739c5cde245c021bc97d102a9b4d51ec93235cd4767f23cf3466b09a45ca099",
+                    "SHA-512": "e6dceee8ea1324bc3f44ce5adcb99291159c30d0fa921bb4a6d044aabe5d4085ae71f16c4f78f3e45ee510a42892a75709fe79ca4d55acd74a7a91d425ec4f12",
+                    "SHA3-256": "fe43ddff1b8b8531a905ae7bb709877749eedfe60d7db867766b4b0f334a1169",
+                    "SHA3-512": "f6a8dee91949a4b1d0ec5dd1d58937f5ec77febf92f224c240d353610178375a622ae84bafc38a01d83813ef86a90ab5bd09df430421e72fab8f77a1ebda93a7"
+                },
+                "external_id": "lbtOGjZrxtUx"
+            },
+            {
+                "source_name": "husband",
+                "description": "Republican detail size story.",
+                "url": "http://lewis.org/",
+                "hashes": {
+                    "MD5": "324791cc5890966e58b429777fea3d84",
+                    "SHA-1": "e9000c5b0b3a79d43143d995812772a5f2fbee99",
+                    "SHA-256": "5447c5ee513a217b0d92e0c13b92320871f74bedd0c3b780ecbf742065635942",
+                    "SHA-512": "5c70a887cf75c05865fcefeefba2c0c7068e3023df09d38a5515b4ad012b3de58484ed20661b4d654008bf424c6803c9f177dec17d31ea22543daa968e29a63f",
+                    "SHA3-256": "8dcca8065711bb3137d152d0d3e3830d62b2d946443baa09b4d490198d85e938",
+                    "SHA3-512": "4216ef8077356ee414e9a0b9a0d40a0af1a225eafbc78a92b4de16f302b001c045df7071b302816f0c546b8e79efba2c3da7d9467b3ab51d7e21a42de7683815"
+                },
+                "external_id": "tGWdviw"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--42af0f38-eaf5-4866-8027-92be417d0522",
+        "created_by_ref": "identity--693c1d5b-b13f-4f5b-afe5-d1d4d104fa25",
+        "created": "2020-09-12T19:46:33.275059Z",
+        "modified": "2021-08-23T02:01:12.590451Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--f6b4d0d0-19d3-43a2-8ab7-ba61db975400",
+        "target_ref": "tool--7c6453bd-ce97-4cdb-af1d-55f639446b9d",
+        "start_time": "2022-05-02T08:30:52.636837Z",
+        "stop_time": "2022-08-12T11:45:30.638821Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--693c1d5b-b13f-4f5b-afe5-d1d4d104fa25",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-07T21:16:30.136514Z",
+        "modified": "2021-09-20T02:14:46.905357Z",
+        "name": "MiddleCatchRepresent",
+        "identity_class": "organization",
+        "sectors": [
+            "hospitality-leisure",
+            "non-profit",
+            "entertainment",
+            "entertainment",
+            "government-public-services"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "star",
+                "description": "Until doctor purpose.",
+                "url": "https://hernandez.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

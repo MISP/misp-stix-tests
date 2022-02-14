@@ -1,0 +1,167 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--25aec9ee-1989-42a1-826f-ac2e4825e7b3",
+        "created_by_ref": "identity--7af9d010-46c7-4121-a7f6-3a57a4fa58b0",
+        "created": "2022-01-20T02:38:17.641951Z",
+        "modified": "2022-07-29T20:02:56.01745Z",
+        "name": "responsibility",
+        "first_seen": "2021-04-20T07:39:15.715287Z",
+        "labels": [
+            "special",
+            "also",
+            "doctor",
+            "fire",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--8eebba18-88ee-43d4-a406-1dda9d2b2af7"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--890d7a33-134e-482f-8908-d1368fa9d1c1",
+        "value": "http://www.little.com/",
+        "object_marking_refs": [
+            "marking-definition--8eebba18-88ee-43d4-a406-1dda9d2b2af7"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--76f187d5-3c8a-4c0c-89d1-7b40e2406ca1",
+        "created_by_ref": "identity--7af9d010-46c7-4121-a7f6-3a57a4fa58b0",
+        "created": "2022-07-12T19:05:36.506408Z",
+        "modified": "2023-01-06T11:08:35.427724Z",
+        "relationship_type": "communicates-with",
+        "description": "Ago stay draw see. Stuff pressure as know agreement term. Later light I ten note.",
+        "source_ref": "infrastructure--25aec9ee-1989-42a1-826f-ac2e4825e7b3",
+        "target_ref": "url--890d7a33-134e-482f-8908-d1368fa9d1c1",
+        "start_time": "2020-09-03T13:24:41.924751Z",
+        "stop_time": "2021-04-04T05:47:10.462713Z",
+        "labels": [
+            "so",
+            "give",
+            "evening",
+            "recognize",
+            "maybe",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--8eebba18-88ee-43d4-a406-1dda9d2b2af7"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--ebc8ac0a-6cc5-465c-8276-40e0c84bf37c",
+        "created_by_ref": "identity--7af9d010-46c7-4121-a7f6-3a57a4fa58b0",
+        "created": "2020-11-12T09:47:10.166126Z",
+        "modified": "2021-08-14T01:08:41.530355Z",
+        "name": "feel",
+        "published": "2021-12-21T00:40:18.330683Z",
+        "object_refs": [
+            "infrastructure--25aec9ee-1989-42a1-826f-ac2e4825e7b3",
+            "url--890d7a33-134e-482f-8908-d1368fa9d1c1",
+            "relationship--76f187d5-3c8a-4c0c-89d1-7b40e2406ca1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--8eebba18-88ee-43d4-a406-1dda9d2b2af7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--8eebba18-88ee-43d4-a406-1dda9d2b2af7",
+        "created_by_ref": "identity--7af9d010-46c7-4121-a7f6-3a57a4fa58b0",
+        "created": "2021-08-14T01:08:41.529104Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e665ae49-7536-4ce4-b3ac-ad9803b6185e",
+                "name": "Push teach indeed like accept",
+                "create_date_time": "2021-08-14T01:08:08.423274Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7af9d010-46c7-4121-a7f6-3a57a4fa58b0",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-10T22:41:57.245506Z",
+        "modified": "2022-04-17T05:18:38.060217Z",
+        "name": "Koch, Snyder and Fernandez",
+        "description": "User-centric local productivity",
+        "identity_class": "individual",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--8eebba18-88ee-43d4-a406-1dda9d2b2af7"
+        ]
+    }
+]

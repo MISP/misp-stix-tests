@@ -1,0 +1,226 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--42d77665-c130-4ac4-bca4-0074ab9a656e",
+        "created_by_ref": "identity--d1ce2028-898c-42be-a4c1-b2ef9b22bde8",
+        "created": "2020-11-22T00:11:58.36658Z",
+        "modified": "2021-08-14T01:08:31.702284Z",
+        "name": "too",
+        "description": "News part four mother education professor.",
+        "indicator_types": [
+            "attribution",
+            "unknown",
+            "anonymization"
+        ],
+        "pattern": "[process:is_hidden NOT = true]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-05-27T08:50:47.54267Z",
+        "valid_until": "2021-01-14T19:24:12.856936Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "FWrVtybC",
+                "phase_name": "IfTTDtGtK"
+            },
+            {
+                "kill_chain_name": "JvclfHgvIHJZmRGQQ",
+                "phase_name": "TVhuqeYHsM"
+            }
+        ],
+        "confidence": 23,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f0f39715-6628-4388-88e9-6db2afc86c51"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--42e57cfd-e965-4918-82c0-d7b251c7acc4",
+        "created_by_ref": "identity--d1ce2028-898c-42be-a4c1-b2ef9b22bde8",
+        "created": "2021-12-18T08:07:42.451482Z",
+        "modified": "2022-05-14T19:49:11.434385Z",
+        "name": "mission",
+        "last_seen": "2020-11-07T06:21:12.469704Z",
+        "goals": [
+            "Both action miss firm particularly country.",
+            "Edge describe idea recognize learn middle own worker.",
+            "Stop discussion article offer."
+        ],
+        "secondary_motivations": [
+            "organizational-gain",
+            "organizational-gain",
+            "notoriety",
+            "personal-satisfaction"
+        ],
+        "labels": [
+            "analysis",
+            "letter",
+            "amount",
+            "century",
+            "pfte-batch-1"
+        ],
+        "confidence": 74,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f0f39715-6628-4388-88e9-6db2afc86c51"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--09641fb7-7dcc-46a6-a10d-cc4276a35e6f",
+        "created_by_ref": "identity--d1ce2028-898c-42be-a4c1-b2ef9b22bde8",
+        "created": "2021-04-19T11:05:37.757581Z",
+        "modified": "2022-03-12T03:07:15.173195Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--42d77665-c130-4ac4-bca4-0074ab9a656e",
+        "target_ref": "intrusion-set--42e57cfd-e965-4918-82c0-d7b251c7acc4",
+        "stop_time": "2022-05-04T19:36:09.055784Z",
+        "labels": [
+            "authority",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "skill",
+                "url": "https://www.hart.com/"
+            },
+            {
+                "source_name": "score",
+                "description": "Thank next my lawyer ground wish."
+            },
+            {
+                "source_name": "catch",
+                "url": "http://www.osborn.biz/",
+                "hashes": {
+                    "MD5": "6fca14583cad7253eb568e888b1c18a9",
+                    "SHA-1": "ed5c81d5628ec8fce488cddc8c13b87008c222bf",
+                    "SHA-256": "ec2ef2a0a9c88979cb9bd1db85010e945762d86e178a86a91c9a33b71fd7cd4e",
+                    "SHA-512": "4f968cdd60bd37b2bacfa580a6cf9991662bba2d0b50737085d11c17abc19c783d3ec442b609c556ec8dd92258c0ef0bbc1a4962bb9925889551f009bb422d49",
+                    "SHA3-256": "80e641233274a154a23c614e43210ae0daf7b57ed6d8ed6ed1aa42531bc8ff58",
+                    "SHA3-512": "5d58108cc28ca43315c18c4b5f3b6bc02b0a7ee43e190b04a6cbc34190bfcc21ee665edfd2145d8fde1a7e9be699fafdd438b4b7eddd0f2b8ec80053d2ae0b2d"
+                }
+            },
+            {
+                "source_name": "between",
+                "description": "Return development change stop present fear.",
+                "url": "https://lewis.org/",
+                "hashes": {
+                    "MD5": "b7f86e2a849d5fd5217f881be6ac3f1c",
+                    "SHA-1": "4f7d58c43eb1ef9a57e0a5d6961268c2dd7a28e2",
+                    "SHA-256": "e8a9e3e601be4883a40f54d6c8981018f0acd11d2ca64791d921d05c721762ec",
+                    "SHA-512": "ec871f0a03e46dfcc83ab4bd783cef8ec2547fa44acbcb930abd11f4e6c2734a4962f148ecd1d93be21a9ea867fbf965f9aad8a4dcb94e5f808dfd52345a838c",
+                    "SHA3-256": "4026809f206da322721fb0a32c44707b96464257e147ff2a6fec6a5318d635e5",
+                    "SHA3-512": "c99ed7a9fb7ded7776e58524f0ff022b116eccd2057982bc5d88339cae7e1afdb6b52eec502b0dd8ed108a39fa13acb1f7ce8c4df548f9abdc9ab9b05a063b59"
+                },
+                "external_id": "dgOTLJGDIAfIqPbGNB"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--f0f39715-6628-4388-88e9-6db2afc86c51"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d1ce2028-898c-42be-a4c1-b2ef9b22bde8",
+        "created_by_ref": "identity--d1ce2028-898c-42be-a4c1-b2ef9b22bde8",
+        "created": "2021-05-29T18:59:14.30409Z",
+        "modified": "2021-11-13T16:31:23.583916Z",
+        "name": "Lin Ltd",
+        "identity_class": "organization",
+        "sectors": [
+            "government-public-services"
+        ],
+        "contact_information": "250 Hughes Key\nJonesview, DC 27007",
+        "confidence": 97,
+        "object_marking_refs": [
+            "marking-definition--f0f39715-6628-4388-88e9-6db2afc86c51"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--f0f39715-6628-4388-88e9-6db2afc86c51",
+        "created": "2021-08-14T01:08:31.701493Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-147f852e-75ac-49e9-b9d2-55199760c488",
+                "name": "Yes might consider why south he",
+                "create_date_time": "2021-08-14T01:08:08.429077Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.428904Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

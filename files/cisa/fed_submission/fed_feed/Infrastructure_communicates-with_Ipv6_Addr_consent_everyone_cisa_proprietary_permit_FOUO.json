@@ -1,0 +1,220 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--f72038bc-41b6-43d0-b2a9-cba8b7ed1db1",
+        "created_by_ref": "identity--5ea38819-ba4e-4a00-a302-5b3498debf22",
+        "created": "2020-10-25T11:46:47.796171Z",
+        "modified": "2021-08-14T01:08:40.600753Z",
+        "name": "participant",
+        "description": "Republican present whatever candidate.",
+        "infrastructure_types": [
+            "routers-switches",
+            "firewall"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "first_seen": "2021-01-14T03:19:59.574816Z",
+        "last_seen": "2021-08-13T08:24:00.127939Z",
+        "external_references": [
+            {
+                "source_name": "able",
+                "description": "Relationship light water stuff week own.",
+                "url": "http://www.hughes-wheeler.net/",
+                "external_id": "TyoqCHh"
+            },
+            {
+                "source_name": "explain",
+                "description": "Course other food present modern partner focus.",
+                "url": "http://perez.com/",
+                "hashes": {
+                    "MD5": "8b533714f83105d62ec9b3efe4b4ec4b",
+                    "SHA-1": "4587a119732c2a26be4725cc3d833aed9dbd86e9",
+                    "SHA-256": "9c0dba0332f96b9d1e719431660fd3bb07a73ae675e23f665c4e262a1e1184ab",
+                    "SHA-512": "866c2f06750731262fe573d67a894ba182a4d3e80d9c384c7b0d6ba642d0a347a410b9c325f602dde5de523e727abf6a7bb171d5d64ad1af08fd626b26876b83",
+                    "SHA3-256": "c4e2f02e16cdacf8326459b473e318864cca9592055d0904f8df90afe5c231ed",
+                    "SHA3-512": "1bac4a6d848b5c3e51fb38b72037abbdacfb0de4c48a68b568f1ee289f3b2b35e7296f3fff8c90c3550f5b7b68e6689ce3ae3a40b6159fea6a97c49bf4c8392c"
+                },
+                "external_id": "KQFUOukO"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8387c46b-75ed-4394-a2c0-6c4ff8d8b03b"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "ipv6-addr",
+        "spec_version": "2.1",
+        "id": "ipv6-addr--eb80a734-dc37-4f81-96f7-a36a63e92326",
+        "value": "2577:7b9b:8714:cb:b18c:66a7:63f4:ddf4",
+        "object_marking_refs": [
+            "marking-definition--8387c46b-75ed-4394-a2c0-6c4ff8d8b03b"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e8d9296d-5bae-4395-9777-09072e922350",
+        "created_by_ref": "identity--5ea38819-ba4e-4a00-a302-5b3498debf22",
+        "created": "2020-11-10T03:44:25.36657Z",
+        "modified": "2021-08-14T01:08:40.601228Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--f72038bc-41b6-43d0-b2a9-cba8b7ed1db1",
+        "target_ref": "ipv6-addr--eb80a734-dc37-4f81-96f7-a36a63e92326",
+        "stop_time": "2022-03-07T19:31:13.587724Z",
+        "labels": [
+            "trial",
+            "arm",
+            "those",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "official",
+                "url": "http://www.miller.com/",
+                "hashes": {
+                    "MD5": "5b2dee293ec3f1e1b7294e74d84c1cde",
+                    "SHA-1": "83190674e5f7c64294f80ba6a352366d1216fbf2",
+                    "SHA-256": "d0793ebcd855b9128f8224c9b22e40a73b85b5dc4e87367fad928d5d5828108c",
+                    "SHA-512": "5331f3875ddfc2531e0909dd2b9096cf41280e5d7d14292ceb3d1a8df771a4bef0b5b2cb019a04016a7c1f4f6b33f53d9e54de2f0fbca8fde31066c575a161eb",
+                    "SHA3-256": "de3ea553cb88f9fd764455139b72d08f8a6ac14db2244dc6f03b01e4ef2386f5",
+                    "SHA3-512": "1ed0d0f24a2f7070fd04c33ea2d4ffbcb8a308232ffaae7e4e592e36bb89a3b7ff5b5ea7a6d7c03c834433118a6f38a891833a216f63f86f8ab4374b1573844d"
+                }
+            },
+            {
+                "source_name": "wide",
+                "description": "Arm indicate house skill.",
+                "url": "http://www.gonzalez-miller.org/",
+                "external_id": "KRsPuOFcGxoYBDH"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8387c46b-75ed-4394-a2c0-6c4ff8d8b03b"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--5ea38819-ba4e-4a00-a302-5b3498debf22",
+        "created_by_ref": "identity--5ea38819-ba4e-4a00-a302-5b3498debf22",
+        "created": "2021-01-16T18:13:32.433293Z",
+        "modified": "2021-08-14T01:08:40.601935Z",
+        "name": "Wilson-Chambers",
+        "roles": [
+            "team"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "behind",
+                "description": "Development board full peace career.",
+                "hashes": {
+                    "MD5": "4e135231d6958200f4db70b599ddfbbc",
+                    "SHA-1": "3bb6e4515f35f62364f333cdbecd6139eeb9c55a",
+                    "SHA-256": "61f581d03284ecd11470ccd117b4919bedb3164979f37b7adfed67f4e7023630",
+                    "SHA-512": "4e4537335e4b45587486e6eb9cc301e7d18fdf8cc139a98802c7211a1768b16a6262cf040d3ff130987b49bb9fa1833a388399687152bc799260f592aa3e810f",
+                    "SHA3-256": "4fe3e7906adab6a6cc5fb3c5c4e1881b6a77734bd5471585cc8c0092d6c103dc",
+                    "SHA3-512": "6d3e78e2cae9e5cc6611293c3cdb6ed54830c0dfff1e588b5a5d3d6188633d895b56cac4897e8619d6d0e2cc2b292ed15ba55f9688f0e4df4328a4f5dada23eb"
+                }
+            },
+            {
+                "source_name": "ready",
+                "description": "If culture clear staff heart.",
+                "url": "http://www.nguyen.org/",
+                "hashes": {
+                    "MD5": "36b030b7361a3ffdc03b6d1d85b68ac2",
+                    "SHA-1": "6d4d213bb3e21615ca278463b509ba9cf44927d1",
+                    "SHA-256": "daf145a13dacdfc510fac91177c8bc560f7e8166f3fb91dee7b74ef5f6824033",
+                    "SHA-512": "ba8c5f66c0bf96b0729ae9ee8026235727774b849e0bda9ba46a9cddb29af93361f120a47212d3cf1c698a207b5c594fbceff646119a62a8643c90f43ee0125e",
+                    "SHA3-256": "c3264943e851d453ddd547023a5f369b639c81b6eed58bc55126521bf66630d1",
+                    "SHA3-512": "1fd76083c22677bd64a9cfdb3e1b0aaf7bd9ec7f237b67e0c5451058b08b45b1ae75cf1eb9bbb5a0928a7d6bcaefbf512353a039584eb6ba713ad23b4b0a8f63"
+                }
+            },
+            {
+                "source_name": "stock",
+                "description": "Nearly prevent heart play five small center range.",
+                "url": "https://mcdaniel-kennedy.com/",
+                "hashes": {
+                    "MD5": "ae3305e608d68dad983953173f445495",
+                    "SHA-1": "425bc98a18f2396a36e178be76c6c82ba73087cb",
+                    "SHA-256": "61d16f847dcf65f101b803a13ce4bd6a04cb665bfab56fa4b48243f4f714630d",
+                    "SHA-512": "663980a431ad1be9acc54b0a9de42671fe539de9836e6ef76e63baec2eb47be1d73dd67a706043bbb4ab545ec31339c2f153866fe22bcaafe02a3d5bae39fd68",
+                    "SHA3-256": "e54a28b9368608c517890b0b156491a292571c7db68d19a894a4ca0a65d6ffdd",
+                    "SHA3-512": "5b588193677098b5c4fb38edd24f51d28abaa6862595250a89052f42f11ce6bfe7b5ce31517d6fdb9fa09efbfe54ef284cb176492eb8fb6f64cc66469d2f2370"
+                },
+                "external_id": "ZZNdmwWxGEqpCHHAMwn"
+            },
+            {
+                "source_name": "western",
+                "url": "http://johnson.com/",
+                "hashes": {
+                    "MD5": "1e8f8925929e94c9df01c255433a4fd2",
+                    "SHA-1": "2a5207504864b83e7f0b6a41a6c2c196e33be2e5",
+                    "SHA-256": "6ea6b5433517d3f007eec64414cd38dfa60c973760fbc06611a21cab972a8cf1",
+                    "SHA-512": "6313e1b69d0d1e645354dc8ed43b704fb13f5bbb3ed10a7cf8e5115f6859ddb0fec04bf5a769e02abbbeaf473259c1506aeedd75717880345009fb352b80b21a",
+                    "SHA3-256": "3492c2860c17dbca04a852f88fdd71e1a185235faeffbc060c3f092e10ede2db",
+                    "SHA3-512": "83923b5aca9693a1a926f8f0d11b19ab5c8694dbf134ffa65cd3a0b491150f608e1d456ebaf4d894708152634bff8c6a727c2a80f817bd8cdfe5ca29f239dd3f"
+                },
+                "external_id": "AXbwxOtTAqt"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--8387c46b-75ed-4394-a2c0-6c4ff8d8b03b"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--8387c46b-75ed-4394-a2c0-6c4ff8d8b03b",
+        "created": "2021-08-14T01:08:40.599978Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-114c3c02-d336-4257-a679-8cbd2bcdae34",
+                "name": "Sort author none he account American industry worry",
+                "create_date_time": "2021-08-14T01:08:08.432919Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

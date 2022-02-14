@@ -1,0 +1,253 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--48f8194b-3467-4c31-a057-309e46f1beaa",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2020-09-22T06:31:59.819697Z",
+        "modified": "2021-08-14T01:08:14.832421Z",
+        "name": "speak",
+        "description": "Indicate beyond often none approach region best.",
+        "aliases": [
+            "agency",
+            "let",
+            "modern"
+        ],
+        "objective": "Mouth skill truth believe.",
+        "labels": [
+            "election",
+            "marriage",
+            "peace",
+            "send",
+            "cause",
+            "pfte-batch-1"
+        ],
+        "confidence": 47,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--a19220c9-f0cd-4fc9-8a4b-868a587dbb0b",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2021-05-29T17:07:37.635821Z",
+        "modified": "2022-05-15T20:04:00.985373Z",
+        "name": "woman",
+        "infrastructure_types": [
+            "control-system",
+            "reconnaissance",
+            "unknown",
+            "workstation",
+            "anonymization"
+        ],
+        "aliases": [
+            "guy",
+            "contain"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "CmejppDoNeTIu",
+                "phase_name": "mFLfF"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "CkOnLi",
+                "phase_name": "uOSXqTKOoWjkeRGfa"
+            },
+            {
+                "kill_chain_name": "yXQGRjVwqHVwpC",
+                "phase_name": "rixBvvMYYVflmZr"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "first_seen": "2022-03-01T21:24:00.40056Z",
+        "labels": [
+            "majority",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "once",
+                "url": "https://howe.org/",
+                "external_id": "ESSaRv"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--b1f4bc00-3a48-4085-97b5-70421a5bd7a5",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2021-11-05T01:35:09.444008Z",
+        "modified": "2022-01-25T14:58:50.877184Z",
+        "relationship_type": "compromises",
+        "description": "Small family pay shake public. Fire perhaps leave red.",
+        "source_ref": "campaign--48f8194b-3467-4c31-a057-309e46f1beaa",
+        "target_ref": "infrastructure--a19220c9-f0cd-4fc9-8a4b-868a587dbb0b",
+        "start_time": "2021-12-08T15:31:24.61042Z",
+        "stop_time": "2022-07-20T12:13:06.245203Z",
+        "labels": [
+            "cup",
+            "camera",
+            "letter",
+            "draw",
+            "baby",
+            "pfte-batch-1"
+        ],
+        "confidence": 92,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "note",
+        "spec_version": "2.1",
+        "id": "note--7dd71ccb-ee4a-44e3-9ba8-8b98898e79c5",
+        "created_by_ref": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created": "2020-09-22T03:44:13.779289Z",
+        "modified": "2021-08-14T01:08:14.833898Z",
+        "content": "Attack physical prevent pay. Near role way nation structure month about.",
+        "object_refs": [
+            "campaign--48f8194b-3467-4c31-a057-309e46f1beaa",
+            "infrastructure--a19220c9-f0cd-4fc9-8a4b-868a587dbb0b",
+            "relationship--b1f4bc00-3a48-4085-97b5-70421a5bd7a5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 68,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f8d34e5b-fbf0-451c-9fa3-d1312372bef5",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-01-01T00:00:00.000Z",
+        "modified": "2020-01-01T00:00:00.000Z",
+        "name": "USA.USG",
+        "identity_class": "organization",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

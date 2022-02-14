@@ -1,0 +1,272 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--7b6fba3f-7ee2-440a-934f-01ae9bc7319f",
+        "created_by_ref": "identity--50cd0863-00bc-41e7-ac2e-192fa18fdf31",
+        "created": "2021-04-08T03:21:57.253802Z",
+        "modified": "2021-11-04T19:37:59.878952Z",
+        "name": "wear",
+        "roles": [
+            "infrastructure-architect",
+            "sponsor",
+            "infrastructure-operator",
+            "sponsor",
+            "independent"
+        ],
+        "sophistication": "minimal",
+        "resource_level": "government",
+        "primary_motivation": "organizational-gain",
+        "personal_motivations": [
+            "dominance",
+            "dominance",
+            "dominance",
+            "coercion",
+            "coercion"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--3cd754a7-aba2-4ab1-a65e-58b276cccb5f",
+        "created_by_ref": "identity--50cd0863-00bc-41e7-ac2e-192fa18fdf31",
+        "created": "2020-09-04T15:03:25.642128Z",
+        "modified": "2021-08-14T01:09:25.920035Z",
+        "name": "opportunity",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "mQAlc",
+                "phase_name": "GFKMErCbqGffcrJ"
+            },
+            {
+                "kill_chain_name": "npRfXRhILhtdO",
+                "phase_name": "NOdfDWCZXAnrg"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "reconnaissance"
+            },
+            {
+                "kill_chain_name": "aQPbXPFr",
+                "phase_name": "oYkQVSYbn"
+            }
+        ],
+        "first_seen": "2020-09-18T10:32:08.142918Z",
+        "last_seen": "2021-01-01T02:10:50.177617Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 98,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "interesting",
+                "url": "http://fisher.com/",
+                "hashes": {
+                    "MD5": "e32c111f7e481ca0fe80ee59c204330d",
+                    "SHA-1": "906a7bfdda59fc11bfb609873f48f371950f1aeb",
+                    "SHA-256": "f235bdc5e41152da764535392fbce196361822d48504ac7704bc5bf4d9cd8d1a",
+                    "SHA-512": "9d663a53e97b5ede8412968a398d2580c362676efe318dc6c4d50315a6277fe430b3dd1116c35d4be7e31df082002a1e2c1e840a2c179fcac6b75b24440ef192",
+                    "SHA3-256": "7aef502b01aa750799833aa451a58150d5190bbd80990a395f3f7c4b841e3264",
+                    "SHA3-512": "368f48dad2c1a6e035f1e3da1a547e7ab45eaee267318328956a6ce5c470ec1b47b40da969fa63ad0b52f922aaccb3b87131bdee819f99436bfff0d84dce541b"
+                },
+                "external_id": "QiABZxyP"
+            },
+            {
+                "source_name": "and",
+                "description": "Drive capital form plant produce American.",
+                "hashes": {
+                    "MD5": "fc7c9c76306240304fec9fb11a6c6fa6",
+                    "SHA-1": "9e7422e7d41836947b13acc3114b111c04c22add",
+                    "SHA-256": "6ceb75a0f9604e222c8180ed0fe362b26a6dac01a44ff1d077aeab3750099328",
+                    "SHA-512": "bbf80010cb6145eeacf28d8fd4e43f2856b0f1a0418077bfa289c7b19436819af42157d7eed45eea57b71d9746472c45608939a4694ec4f00bf740b5fae17c53",
+                    "SHA3-256": "b9fb8b1b7ef20fc3dfe13718bb18ff03daac27991046084e583f499f5b91e752",
+                    "SHA3-512": "825a4c73a892e35933d93fb5f08757c05c2504113bf12719c939017e1c00c488232d63312e262539aafc74c61d3e5f3cf6d4a5a3d82c5df3567b7eb71d168448"
+                },
+                "external_id": "kvtUDGrNig"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1092ec05-4d71-4dd4-ae3c-841155555696",
+        "created_by_ref": "identity--50cd0863-00bc-41e7-ac2e-192fa18fdf31",
+        "created": "2021-04-25T09:05:25.222626Z",
+        "modified": "2021-08-14T01:09:25.920307Z",
+        "relationship_type": "compromises",
+        "description": "Author such service various. Research form single decision everybody.",
+        "source_ref": "threat-actor--7b6fba3f-7ee2-440a-934f-01ae9bc7319f",
+        "target_ref": "infrastructure--3cd754a7-aba2-4ab1-a65e-58b276cccb5f",
+        "stop_time": "2021-10-14T06:50:41.302118Z",
+        "labels": [
+            "stuff",
+            "use",
+            "kind",
+            "off",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--0db8a166-766c-4136-a53d-ef9d43b78879",
+        "created_by_ref": "identity--50cd0863-00bc-41e7-ac2e-192fa18fdf31",
+        "created": "2021-04-20T17:24:21.290017Z",
+        "modified": "2021-11-09T14:15:45.513305Z",
+        "name": "his",
+        "report_types": [
+            "threat-actor"
+        ],
+        "published": "2021-01-01T15:58:46.218312Z",
+        "object_refs": [
+            "threat-actor--7b6fba3f-7ee2-440a-934f-01ae9bc7319f",
+            "infrastructure--3cd754a7-aba2-4ab1-a65e-58b276cccb5f",
+            "relationship--1092ec05-4d71-4dd4-ae3c-841155555696"
+        ],
+        "labels": [
+            "watch",
+            "college",
+            "money",
+            "pfte-batch-1"
+        ],
+        "confidence": 79,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "girl",
+                "description": "Hair realize look begin north human two.",
+                "url": "https://www.erickson.info/",
+                "external_id": "AobCFrzO"
+            },
+            {
+                "source_name": "senior",
+                "url": "https://silva.com/",
+                "hashes": {
+                    "MD5": "708acf6c0320eeb5f28e585633e28715",
+                    "SHA-1": "f66021c6354c6e9f943df75aa26a720d79eea505",
+                    "SHA-256": "3d2f5ba93128dd0bc39353c94f654c3d8de0523202ed5ac9fcdc53f961ebd697",
+                    "SHA-512": "1ff5dfbb5860734d583a9a96e2909d3bcd560ec482a4e437d31eba8a956fc25fcd3e606ba1752d3f605b47c3cb24fd232c1ef880bf0017fa72077f350a69ce8c",
+                    "SHA3-256": "dfc726b5a67efe448619045ebf7f6e2635e4df6d424400da1147312417fa9d53",
+                    "SHA3-512": "485d8daa105e39948657df346a57b377c271a28de0afc190d2a98b54d674e04c344a3e13721fb748c9e7eedfdeb142c7f3648b3268bc87eb3156674ee4e0e250"
+                },
+                "external_id": "RZwMCRthrtmbpkGXeQux"
+            },
+            {
+                "source_name": "finish",
+                "url": "https://www.elliott.com/",
+                "external_id": "GapYf"
+            },
+            {
+                "source_name": "grow",
+                "description": "Former environmental election husband alone.",
+                "hashes": {
+                    "MD5": "a6cac31bc5e27b59a86be19ae72cec92",
+                    "SHA-1": "17b5f2716770d14fca5f8a3fc54d7f3f54b625a2",
+                    "SHA-256": "cf8ac16246e932bff04fbf00adb239118d9558cc0f08271da651169ed2c826fb",
+                    "SHA-512": "57a75f8e366dabbe8882a79d9cb85148aaffc46f11027bee454c788250f06dbad581607b82ee662c983dad1aaf785094bea2ff5af7f39c79b052855b12126be5",
+                    "SHA3-256": "5860ae9673ffdf8b266ec7672f757a59c4de62f430a358582d0c9eb388b94aa2",
+                    "SHA3-512": "37a47cc43c229781068458ddf4363a20679a50b6305d27670dfb9d62960553b009dd4c8e47ba6f1bb7d7a086b73fb6c79e6873ea3fd4939fe26514656047427f"
+                },
+                "external_id": "QuETLaezaKkuZNyont"
+            },
+            {
+                "source_name": "field",
+                "description": "Prevent audience baby Mr consider least.",
+                "url": "http://chambers.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--50cd0863-00bc-41e7-ac2e-192fa18fdf31",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-30T10:26:20.306338Z",
+        "modified": "2023-06-22T17:58:06.825418Z",
+        "name": "Douglas, Pierce and Bishop",
+        "roles": [
+            "hit",
+            "take",
+            "decide",
+            "certainly",
+            "decide"
+        ],
+        "contact_information": "PSC 1780, Box 0138\nAPO AA 26199",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "check",
+                "description": "Tonight type reduce everything.",
+                "external_id": "qSMkfihhctWuTPh"
+            },
+            {
+                "source_name": "charge",
+                "description": "Thousand participant chance focus.",
+                "hashes": {
+                    "MD5": "1692163e36c5cd53b5b6cd55d388475f",
+                    "SHA-1": "8ef1b952dba0ff035115e25f6284a90284849e75",
+                    "SHA-256": "978e89d45fe4caf33bd8e04c244564b2da5fa82591dc1d87f6a209bb91612b7b",
+                    "SHA-512": "7147b36d9acc253a51b89d65a203ff908b05279a5813544c04de5355b03fde67d0633377049dabcac02939f662a5830bf2c96d6fea1c0326efe59e6a1cb3b5ac",
+                    "SHA3-256": "c19445f97139268a75392f6a1b42dfc1e522d3048a71dfdec347f018f4bf0c0b",
+                    "SHA3-512": "69b18041643e8ba77222de491296a4c6c4a21fd9a25e06ad5b8b3fd7a9d27ac3f87b064483a2bb644219bed6deb6a713c5e5ef1675384809f6f1e30b42307e1f"
+                },
+                "external_id": "QADJCA"
+            },
+            {
+                "source_name": "above",
+                "description": "Born police point price world left car out.",
+                "url": "http://suarez.com/",
+                "hashes": {
+                    "MD5": "d86d019e0f45076b7d6e04e93a904907",
+                    "SHA-1": "8debe49f3ed210794153d6547c1db2cc518c6c85",
+                    "SHA-256": "be544f741561f289631db4052d176c76b36625840b27da561a95706a9308553b",
+                    "SHA-512": "1f15b91047c6d1a008bb72f4b97a389d23a3e4b51ffd26f4e3e43e2972f929f92cfa3e68007d6e561a8584630f3e42cde1bc2b565b33428ea52f63c9f7d3a505",
+                    "SHA3-256": "4a4092f06a6d820156694fd926ceeaecdd91a0b2a8f1dbc62fd1227103198815",
+                    "SHA3-512": "4987ffda5cd095b8d013e12161ccdc5912f5e1f881468091f42fe592d0bc43cd37c6449c5e3a616361947210dcf815ec5a66b26bf57db4263d9c2de0cd682e28"
+                },
+                "external_id": "fhpgLstwaGSSqHN"
+            },
+            {
+                "source_name": "someone",
+                "description": "That military the by theory.",
+                "url": "http://www.walters.net/",
+                "hashes": {
+                    "MD5": "d8c431dc717feb5b69506351074a710c",
+                    "SHA-1": "8a6fb8cc1c3bb59503a599a93a34adbf2ea45023",
+                    "SHA-256": "debef53fba92fd9da61de62dd7d76ca8e69edcf3766d91251bec5ca879407ce9",
+                    "SHA-512": "74863c62a3cc9e8290366ce2c9f68213bd463416a7d9c13a380abe48d5888edf23b00789b6cc4264f56786142c90bbeae1385bdc2938d469ef77fbbac40d3efa",
+                    "SHA3-256": "9a0dfe5053e141bb9bb0e1a65e84ee81e33242dd75432ff819b7f99ead05473e",
+                    "SHA3-512": "dadb5db2dcedb0165491ffe32f583c9284e852a63eaa1ef63195cb55cc96f139202720fcfc5ed2731392c4b605c2612308c2750326033a364d7028e04664a995"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

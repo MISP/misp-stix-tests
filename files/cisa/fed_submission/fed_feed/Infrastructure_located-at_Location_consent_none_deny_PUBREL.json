@@ -1,0 +1,172 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--d0bd2252-6b35-44bc-9e93-8b07c0893342",
+        "created_by_ref": "identity--0597e625-c3f0-425d-967f-58c51ca91e7e",
+        "created": "2022-04-21T06:53:39.003264Z",
+        "modified": "2022-07-03T12:37:27.980431Z",
+        "name": "century",
+        "infrastructure_types": [
+            "botnet",
+            "workstation"
+        ],
+        "aliases": [
+            "financial",
+            "order",
+            "a",
+            "Congress"
+        ],
+        "confidence": 9,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2a2b7a59-5860-4ce1-9c18-e41be5873438"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--c7dfef6b-6806-4714-b532-21a7756640e3",
+        "created_by_ref": "identity--0597e625-c3f0-425d-967f-58c51ca91e7e",
+        "created": "2022-03-28T14:30:40.771908Z",
+        "modified": "2023-03-19T18:48:14.366159Z",
+        "description": "Upgradable scalable architecture",
+        "latitude": -30.4295601777187,
+        "longitude": 129.37836968300127,
+        "country": "Tajikistan",
+        "administrative_area": "wgEmMIbhzlBsv",
+        "labels": [
+            "a",
+            "former",
+            "major",
+            "its",
+            "pfte-batch-1"
+        ],
+        "confidence": 81,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2a2b7a59-5860-4ce1-9c18-e41be5873438"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--ec87f7df-e2b5-4f6b-ac92-f3d5815cf246",
+        "created_by_ref": "identity--0597e625-c3f0-425d-967f-58c51ca91e7e",
+        "created": "2021-11-15T14:10:01.365936Z",
+        "modified": "2022-09-14T07:10:31.558777Z",
+        "relationship_type": "located-at",
+        "description": "Chair present light act sign catch. Let cost let expert support guess. While cell similar before often crime newspaper.",
+        "source_ref": "infrastructure--d0bd2252-6b35-44bc-9e93-8b07c0893342",
+        "target_ref": "location--c7dfef6b-6806-4714-b532-21a7756640e3",
+        "labels": [
+            "detail",
+            "crime",
+            "bit",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "final",
+                "description": "Write use thought newspaper else hit amount old.",
+                "url": "http://turner.com/",
+                "hashes": {
+                    "MD5": "aba28f8e8c4c211153085dbc9c2e362b",
+                    "SHA-1": "48f64a567ab557d74547b4764fa5f038cbe3e7b9",
+                    "SHA-256": "9201231f08c36555db3b5739a8727422e4874ebb08cfe16f2b3f3f2fefa5827a",
+                    "SHA-512": "d8d9e214943cf9e2fdcd5b193e9aebf5e106c4e96e6fef9ad9a903275f4ff10519247f7999e41ecb8ce4a18642823685631d9af779cd3c05f28b0f50611250a6",
+                    "SHA3-256": "e32fc748ce67fefba72d5317e46abd18380ebc1004e419f15ef41aad01802dbe",
+                    "SHA3-512": "0c5375a0d046eb31f2f8d81d37e59b22d0a3002c60286ce927594f0fad1239d43bac5e7bd77077d8272a114d4fa28c9e947dfb238e4af387d3fb59001cddc8b9"
+                },
+                "external_id": "qSsRLvTKvPDUZ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--2a2b7a59-5860-4ce1-9c18-e41be5873438"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--0597e625-c3f0-425d-967f-58c51ca91e7e",
+        "created_by_ref": "identity--0597e625-c3f0-425d-967f-58c51ca91e7e",
+        "created": "2020-11-21T06:48:51.405281Z",
+        "modified": "2021-08-14T01:08:49.812525Z",
+        "name": "Morales Ltd",
+        "roles": [
+            "much",
+            "speech",
+            "teacher"
+        ],
+        "confidence": 39,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--2a2b7a59-5860-4ce1-9c18-e41be5873438"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--2a2b7a59-5860-4ce1-9c18-e41be5873438",
+        "created": "2021-08-14T01:08:49.810869Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-44002952-ef1b-4819-85db-bdfcd1864e5e",
+                "name": "Free major nothing gun",
+                "create_date_time": "2021-08-14T01:08:08.424588Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.424412Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

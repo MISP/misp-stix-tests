@@ -1,0 +1,156 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--95e128ef-c2d2-4c36-aba5-41f4cddf41b3",
+        "created_by_ref": "identity--a25c2192-89bd-4982-99a6-567ea196b92a",
+        "created": "2021-11-10T03:48:35.390622Z",
+        "modified": "2022-02-13T01:10:47.505053Z",
+        "name": "must",
+        "infrastructure_types": [
+            "staging",
+            "botnet",
+            "routers-switches",
+            "exfiltration"
+        ],
+        "aliases": [
+            "scene",
+            "boy",
+            "out",
+            "miss",
+            "reality"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "XDELTGfMcEcNjTVYxpCt",
+                "phase_name": "nGCGkVR"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "labels": [
+            "myself",
+            "attack",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--46f66533-df9c-479e-aed8-2302f0b8735c"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--0f045992-9b1d-43a7-b961-09d55d111731",
+        "value": "https://kim.com/",
+        "object_marking_refs": [
+            "marking-definition--46f66533-df9c-479e-aed8-2302f0b8735c"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--5227c314-7484-473f-8b77-07aaf70617fa",
+        "created_by_ref": "identity--a25c2192-89bd-4982-99a6-567ea196b92a",
+        "created": "2022-07-15T19:03:02.271224Z",
+        "modified": "2022-08-30T21:53:28.326763Z",
+        "relationship_type": "communicates-with",
+        "description": "Cell number nearly evening worry. Water any minute. Find pull reach action card others perhaps medical.",
+        "source_ref": "infrastructure--95e128ef-c2d2-4c36-aba5-41f4cddf41b3",
+        "target_ref": "url--0f045992-9b1d-43a7-b961-09d55d111731",
+        "stop_time": "2022-05-19T18:05:50.934023Z",
+        "labels": [
+            "short",
+            "dark",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "spend",
+                "external_id": "FWdFiRbmauwTVsg"
+            },
+            {
+                "source_name": "late",
+                "url": "http://browning.com/",
+                "external_id": "slCjZbzpqOFAZjcdQiER"
+            },
+            {
+                "source_name": "administration",
+                "description": "Peace hair themselves science control hair product.",
+                "url": "http://www.gonzalez.com/",
+                "external_id": "pEJZRFR"
+            },
+            {
+                "source_name": "assume",
+                "url": "http://www.decker.com/",
+                "external_id": "jFBvHPh"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--46f66533-df9c-479e-aed8-2302f0b8735c"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a25c2192-89bd-4982-99a6-567ea196b92a",
+        "created_by_ref": "identity--a25c2192-89bd-4982-99a6-567ea196b92a",
+        "created": "2022-06-18T11:39:12.000289Z",
+        "modified": "2023-01-26T15:47:04.705813Z",
+        "name": "Figueroa-Ward",
+        "roles": [
+            "involve",
+            "produce",
+            "better"
+        ],
+        "sectors": [
+            "pharmaceuticals"
+        ],
+        "confidence": 70,
+        "object_marking_refs": [
+            "marking-definition--46f66533-df9c-479e-aed8-2302f0b8735c"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--46f66533-df9c-479e-aed8-2302f0b8735c",
+        "created": "2021-08-14T01:08:41.712213Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-f680acaf-ba5a-4af9-ba41-d819400a97d1",
+                "name": "Decide court anything one doctor sound serve nation",
+                "create_date_time": "2021-08-14T01:08:08.428211Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.428042Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

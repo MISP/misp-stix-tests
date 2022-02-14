@@ -1,0 +1,146 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--7ac1b5de-4197-49cb-ae40-fe02ab0a6e01",
+        "created_by_ref": "identity--8858bf6d-03e5-4275-a4cf-f973b80051ce",
+        "created": "2021-09-27T07:01:02.043679Z",
+        "modified": "2022-06-06T15:11:35.814552Z",
+        "name": "here",
+        "description": "Relationship human blood tough level stand model.",
+        "first_seen": "2022-02-21T05:22:29.736998Z",
+        "objective": "Look view smile say consider stuff.",
+        "labels": [
+            "production",
+            "black",
+            "move",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--6f8c151a-a082-4bd3-a824-a7145f496253"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--53d06dca-16d7-4b86-a5b7-0f77bfc549e8",
+        "created_by_ref": "identity--8858bf6d-03e5-4275-a4cf-f973b80051ce",
+        "created": "2020-08-15T13:05:21.135026Z",
+        "modified": "2021-08-14T01:08:13.215191Z",
+        "name": "onto",
+        "aliases": [
+            "shake",
+            "long",
+            "ground"
+        ],
+        "first_seen": "2022-04-10T18:14:50.518433Z",
+        "primary_motivation": "personal-satisfaction",
+        "secondary_motivations": [
+            "accidental"
+        ],
+        "labels": [
+            "few",
+            "break",
+            "pfte-batch-1"
+        ],
+        "confidence": 53,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--6f8c151a-a082-4bd3-a824-a7145f496253"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e5a3fbf5-ba79-49db-bcec-b16dd5f7d367",
+        "created_by_ref": "identity--8858bf6d-03e5-4275-a4cf-f973b80051ce",
+        "created": "2021-03-22T05:42:06.233182Z",
+        "modified": "2021-08-14T01:08:13.215463Z",
+        "relationship_type": "attributed-to",
+        "description": "Moment act represent guess raise film. Blue near smile author hospital subject fine thus.",
+        "source_ref": "campaign--7ac1b5de-4197-49cb-ae40-fe02ab0a6e01",
+        "target_ref": "intrusion-set--53d06dca-16d7-4b86-a5b7-0f77bfc549e8",
+        "start_time": "2021-07-09T00:25:18.345039Z",
+        "object_marking_refs": [
+            "marking-definition--6f8c151a-a082-4bd3-a824-a7145f496253"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--6f8c151a-a082-4bd3-a824-a7145f496253",
+        "created_by_ref": "identity--8858bf6d-03e5-4275-a4cf-f973b80051ce",
+        "created": "2021-08-14T01:08:13.214318Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c8895e1e-4ecb-48a8-ba6f-5865a3a3066d",
+                "name": "Development get financial fill light",
+                "create_date_time": "2021-08-14T01:08:08.421416Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.421229Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--8858bf6d-03e5-4275-a4cf-f973b80051ce",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2020-09-13T01:17:14.52803Z",
+        "modified": "2021-08-14T01:08:13.215732Z",
+        "name": "Farrell and Sons",
+        "identity_class": "organization",
+        "sectors": [
+            "chemical",
+            "automotive"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 40,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--6f8c151a-a082-4bd3-a824-a7145f496253"
+        ]
+    }
+]

@@ -1,0 +1,135 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--bb753fca-3491-4fa1-ae48-34e7c2006ff4",
+        "created_by_ref": "identity--d536013d-5d48-45df-a247-5c7427d99ee2",
+        "created": "2021-12-06T00:03:59.623479Z",
+        "modified": "2022-05-27T15:55:51.541162Z",
+        "name": "we",
+        "description": "Lot ask there.",
+        "infrastructure_types": [
+            "phishing",
+            "firewall"
+        ],
+        "aliases": [
+            "lose",
+            "out",
+            "culture",
+            "strategy",
+            "two"
+        ],
+        "last_seen": "2021-12-09T20:05:29.762841Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--89941471-8660-456f-bd20-026e7f27ebc7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "domain-name",
+        "spec_version": "2.1",
+        "id": "domain-name--d26027e2-8e83-4051-9d57-9b587faeb7d1",
+        "value": "allison.com",
+        "object_marking_refs": [
+            "marking-definition--89941471-8660-456f-bd20-026e7f27ebc7"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--aa334c1f-3a36-41d2-93f3-32448b709433",
+        "created_by_ref": "identity--d536013d-5d48-45df-a247-5c7427d99ee2",
+        "created": "2021-01-03T04:18:41.146625Z",
+        "modified": "2021-08-14T01:08:40.773192Z",
+        "relationship_type": "communicates-with",
+        "description": "Bank man reveal. Entire hour happen hundred forget draw result.",
+        "source_ref": "infrastructure--bb753fca-3491-4fa1-ae48-34e7c2006ff4",
+        "target_ref": "domain-name--d26027e2-8e83-4051-9d57-9b587faeb7d1",
+        "object_marking_refs": [
+            "marking-definition--89941471-8660-456f-bd20-026e7f27ebc7"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--89941471-8660-456f-bd20-026e7f27ebc7",
+        "created_by_ref": "identity--d536013d-5d48-45df-a247-5c7427d99ee2",
+        "created": "2021-08-14T01:08:40.772305Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c8895e1e-4ecb-48a8-ba6f-5865a3a3066d",
+                "name": "Development get financial fill light",
+                "create_date_time": "2021-08-14T01:08:08.421416Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.421229Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--d536013d-5d48-45df-a247-5c7427d99ee2",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-17T19:25:15.547686Z",
+        "modified": "2021-09-23T07:16:28.587413Z",
+        "name": "Arnold Ltd",
+        "roles": [
+            "instead",
+            "street",
+            "describe",
+            "drive",
+            "artist"
+        ],
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 90,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--89941471-8660-456f-bd20-026e7f27ebc7"
+        ]
+    }
+]

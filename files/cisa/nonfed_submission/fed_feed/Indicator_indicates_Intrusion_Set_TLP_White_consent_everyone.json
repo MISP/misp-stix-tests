@@ -1,0 +1,255 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--bdeccaac-197a-4269-bd16-25dbd7509a2d",
+        "created_by_ref": "identity--60c5a07a-3988-49a4-bbce-8fe596bace66",
+        "created": "2022-07-31T05:40:11.078226Z",
+        "modified": "2022-09-07T08:59:20.737004Z",
+        "name": "every",
+        "indicator_types": [
+            "compromised"
+        ],
+        "pattern": "[mac-addr:defanged NOT = false OR software:name < 'JWSdkhWyooYNVLEMXPR' OR mutex:name <= 'visit' OR (mac-addr:defanged NOT = false)] OR [process:is_hidden NOT = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-07-30T05:07:49.805368Z",
+        "valid_until": "2021-01-14T18:31:07.636295Z",
+        "labels": [
+            "figure",
+            "against",
+            "foot",
+            "pfte-batch-1"
+        ],
+        "confidence": 7,
+        "external_references": [
+            {
+                "source_name": "difficult",
+                "description": "Century research senior energy day.",
+                "url": "https://villegas.biz/",
+                "external_id": "VwIigH"
+            },
+            {
+                "source_name": "present",
+                "description": "Section arrive perhaps will.",
+                "url": "https://www.weaver.org/"
+            },
+            {
+                "source_name": "cup",
+                "description": "Structure detail what edge lawyer thought environment.",
+                "hashes": {
+                    "MD5": "baf7cf48c4b553754855f0dc04742087",
+                    "SHA-1": "f71f8e6d0183750613bdf7edcf710495be9d7182",
+                    "SHA-256": "3801cccc58b1c0a480f3af202ef8c7e4cbc8c32d2cca3f31a61fe067a7edb99a",
+                    "SHA-512": "fbc2044a42db179cd5e1a35978d4926d33e24c43958382e6976c512e9894b5d77e8fc8f770ece627ccd9c25989ee5c12893f7a43c38fe7a83369bd25520fbae0",
+                    "SHA3-256": "b406aa9ff169572c167f3c998f2354628bab9af7746b810f8a198df0a79b84ea",
+                    "SHA3-512": "c1b17b507cff20b5ecd2f1ef798ac4e4c7721d37880393ceec054ae26ccfff1faade99986ad1ed9ef40b542c96d2ff44cfb84a61e63b4ecbe9d2e79017144c93"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--45ccf73d-5e20-43c1-bf88-8dce3da1a511"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--9acc0e10-ea18-4ec8-8b07-a1ffccf945b6",
+        "created_by_ref": "identity--60c5a07a-3988-49a4-bbce-8fe596bace66",
+        "created": "2021-01-07T14:03:43.019907Z",
+        "modified": "2021-12-12T03:44:19.523799Z",
+        "name": "thank",
+        "first_seen": "2022-01-25T12:16:43.020293Z",
+        "last_seen": "2022-07-05T09:53:09.397315Z",
+        "goals": [
+            "Three population floor office.",
+            "Democratic onto challenge news third maintain.",
+            "Peace decade team east."
+        ],
+        "primary_motivation": "notoriety",
+        "labels": [
+            "director",
+            "pfte-batch-1"
+        ],
+        "confidence": 42,
+        "external_references": [
+            {
+                "source_name": "good",
+                "description": "Option hospital play home economic center model.",
+                "url": "https://adams.com/",
+                "hashes": {
+                    "MD5": "a91786d90b2ce2d2ea39672f8f39ab9c",
+                    "SHA-1": "7a297dc06586aabb21457b5dfa93b1e54fa87482",
+                    "SHA-256": "8cb1ef030e280207f855b36c318d3e183d29b8548d6f18649ceeea5ca6fed27f",
+                    "SHA-512": "09e807c311ccbba98e08dc6e0ff91e019aa3ae0422bb601e7fd7f2fc6b907f24f16a781a75466a9615693a71eca974f900ae012f00976fb87a8b5cf346066d18",
+                    "SHA3-256": "ee1d490b4c2c7dbcb710f110dc4603a0b00522368d7db5dcd11cd13943be644b",
+                    "SHA3-512": "ef4659d4fc08ca8b1367be0a27cc14fbddd47c07bf8c955ea554b24dd4cc179a0ef1a91774ef3066eeb345c9f213259ac57f84ebab931edf000ec4a30d10b96d"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--45ccf73d-5e20-43c1-bf88-8dce3da1a511"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--1d17a7b7-0ae1-4b91-92a4-1819407ed534",
+        "created_by_ref": "identity--60c5a07a-3988-49a4-bbce-8fe596bace66",
+        "created": "2022-01-20T04:55:18.085489Z",
+        "modified": "2022-02-23T02:29:41.900311Z",
+        "relationship_type": "indicates",
+        "description": "Reveal physical worry allow. Use school hold several car.",
+        "source_ref": "indicator--bdeccaac-197a-4269-bd16-25dbd7509a2d",
+        "target_ref": "intrusion-set--9acc0e10-ea18-4ec8-8b07-a1ffccf945b6",
+        "start_time": "2020-08-23T03:06:04.390703Z",
+        "stop_time": "2021-05-25T07:45:00.253505Z",
+        "labels": [
+            "picture",
+            "whom",
+            "often",
+            "every",
+            "her",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "scene",
+                "external_id": "tqlrNPGNhZsGWLOJy"
+            },
+            {
+                "source_name": "able",
+                "description": "Again power road age only peace grow why."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--45ccf73d-5e20-43c1-bf88-8dce3da1a511"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--45ccf73d-5e20-43c1-bf88-8dce3da1a511",
+        "created_by_ref": "identity--60c5a07a-3988-49a4-bbce-8fe596bace66",
+        "created": "2021-08-14T01:08:31.192053Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c8895e1e-4ecb-48a8-ba6f-5865a3a3066d",
+                "name": "Development get financial fill light",
+                "create_date_time": "2021-08-14T01:08:08.421416Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.421229Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--60c5a07a-3988-49a4-bbce-8fe596bace66",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-02-09T09:15:14.94797Z",
+        "modified": "2021-08-14T01:08:31.196977Z",
+        "name": "Wagner Group",
+        "description": "Reverse-engineered discrete implementation",
+        "roles": [
+            "race"
+        ],
+        "sectors": [
+            "manufacturing",
+            "government-public-services",
+            "government-national",
+            "government-national",
+            "automotive"
+        ],
+        "contact_information": "2182 Steven Divide\nJohnchester, NJ 54521",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "thing",
+                "url": "https://fitzgerald-roberts.biz/"
+            },
+            {
+                "source_name": "order",
+                "description": "Your security hospital need edge.",
+                "url": "https://hughes.com/",
+                "external_id": "uJURBlarhRihkvKqMTX"
+            },
+            {
+                "source_name": "carry",
+                "description": "Push fall floor long.",
+                "url": "https://www.jackson.org/",
+                "hashes": {
+                    "MD5": "ec0b520d0f79c4669de58bdefed970a1",
+                    "SHA-1": "824b4887ad0a4e67c208409d3989ec6264757340",
+                    "SHA-256": "bac6c5455edad6ae7c6eb69e5436a8a55bde27afaf32f5a20aff6659a88102df",
+                    "SHA-512": "4c7e064c863c31e314d76ba935cc774cbaefac2207fcc68585540ad2813054101b4e358af048d82699c3c9d7eda65210591429f8ef6de8448807c77e8ccd12ed",
+                    "SHA3-256": "00deb825f1052775e3a5729de84a46ae9b467c3e0bffcc8c76af2d092c288be4",
+                    "SHA3-512": "139222791faaf14a499b563f340d2f3cdda2d7a380197230580bff19b1ebbac1943f54d954849ed9bf50d63c1c642bd26ff0fa71fb83971f367d8d9ca3dc9222"
+                },
+                "external_id": "FHpcYQieAZBiaqa"
+            },
+            {
+                "source_name": "money",
+                "description": "Decision style media development some tonight.",
+                "url": "http://www.singleton.biz/",
+                "hashes": {
+                    "MD5": "610b3bcae93ae8bb549ad01acdd351c1",
+                    "SHA-1": "903234aabda3ca1f8479d962fc29a89038b6d621",
+                    "SHA-256": "3916ad4d6ed50cf7e5720191dbd287367be39b7cc90750da00375092a027fcfa",
+                    "SHA-512": "6c0fdb8403bf9fc962ae5455ffb5e58e8eed6254f0845fa7959e8869e4117c3b5ebabbb617098930d9b5c2b37683f7b8cc69f1a618802820a1651843b8159758",
+                    "SHA3-256": "4ad21f4ceb7a50bc323a9a8588f9522b043fcddd07338730e11582fdea789d5e",
+                    "SHA3-512": "b8b9c3c2684b20eb7aacb96398122fe0dc5e37b361d9ee7eca0c8652e547689e342b06de9156203e87bdd6a9ab98a3b9ef0bd1a6c42eab1cf5b7a946443e52ab"
+                },
+                "external_id": "TXcRUtOpjhvMP"
+            },
+            {
+                "source_name": "town",
+                "description": "School option own part wide national modern design."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--45ccf73d-5e20-43c1-bf88-8dce3da1a511"
+        ]
+    }
+]

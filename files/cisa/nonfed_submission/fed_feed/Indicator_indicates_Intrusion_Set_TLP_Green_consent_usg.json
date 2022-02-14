@@ -1,0 +1,256 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--c791e12d-2ca4-46fe-82c8-aef7cae0e76b",
+        "created_by_ref": "identity--f66c3abf-7fd9-44a5-912c-b7367761b750",
+        "created": "2020-10-14T06:01:51.860765Z",
+        "modified": "2021-08-14T01:08:31.119547Z",
+        "name": "sense",
+        "pattern": "[(mac-addr:defanged NOT = false) AND mac-addr:value <= 'da:2b:f5:72:1b:de'] FOLLOWEDBY ([process:defanged = false])",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-12-29T01:05:14.051193Z",
+        "valid_until": "2022-05-02T08:55:39.561375Z",
+        "labels": [
+            "always",
+            "anything",
+            "TV",
+            "situation",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--c31be54c-5005-4580-a2b7-a6636faf7b0a"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--d64c1de5-5359-4b13-b1c9-709219bc55ea",
+        "created_by_ref": "identity--f66c3abf-7fd9-44a5-912c-b7367761b750",
+        "created": "2020-09-30T07:53:43.144929Z",
+        "modified": "2021-08-14T01:08:31.121818Z",
+        "name": "while",
+        "first_seen": "2022-04-18T17:41:46.589916Z",
+        "last_seen": "2022-04-19T04:45:57.882017Z",
+        "resource_level": "organization",
+        "primary_motivation": "organizational-gain",
+        "external_references": [
+            {
+                "source_name": "central",
+                "description": "Everyone degree have heart."
+            },
+            {
+                "source_name": "manager",
+                "url": "https://dunlap.com/",
+                "hashes": {
+                    "MD5": "dc92b88484d1de702ab1294e213a592c",
+                    "SHA-1": "09fd3d84adfac12716e06c0f26887a0cc986169c",
+                    "SHA-256": "fed97c65cf28f4c7cf150b476f4880a56d2cfbbc274a408e8ad7df515a4828c4",
+                    "SHA-512": "61c8d6eea319e2ee7eea47eb8f156e551af6b4b4decbeaf132d61532f74ab4dac10b232e4803bd677f8fb519c42c06c97a5e71636abf04ab47baa3a2bb71f2c1",
+                    "SHA3-256": "a643d94cbdfadea2c97a6e824dc49e37393f040fd03b141b48dbdba4973710e1",
+                    "SHA3-512": "7ce7ffb0784a127ec81580b4abff31102e35094ea08b288201b93297c4451cf3190ad627980a45d630f7616ae25e03f5f8c00766ba77e08253ec438041998b84"
+                },
+                "external_id": "zVTzDZxoPEEcPmEe"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c31be54c-5005-4580-a2b7-a6636faf7b0a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4bb12dae-a4c9-4827-9b6f-cdbd0446da4a",
+        "created_by_ref": "identity--f66c3abf-7fd9-44a5-912c-b7367761b750",
+        "created": "2020-08-24T09:11:56.469153Z",
+        "modified": "2021-08-14T01:08:31.122486Z",
+        "relationship_type": "indicates",
+        "description": "Plan line brother see between enough human. Because sing water sure avoid management appear. Those offer attack debate push film back.",
+        "source_ref": "indicator--c791e12d-2ca4-46fe-82c8-aef7cae0e76b",
+        "target_ref": "intrusion-set--d64c1de5-5359-4b13-b1c9-709219bc55ea",
+        "confidence": 81,
+        "external_references": [
+            {
+                "source_name": "near",
+                "url": "https://king-hernandez.biz/",
+                "external_id": "HtsCiDbLxRgN"
+            },
+            {
+                "source_name": "ago",
+                "description": "Run city race quite cause father feel.",
+                "url": "https://ray.biz/",
+                "hashes": {
+                    "MD5": "b031cb5878a9ec2e4bd6c57436a13351",
+                    "SHA-1": "16e2ce4b4a109a7fe51badd226c543e614773415",
+                    "SHA-256": "e66446178acdec5c0d8997c40fb493543a87e2586e268bd5a46039d4d95bf4ad",
+                    "SHA-512": "7ff08e8cbd6007c34cccd2cb2af2150f0fbc4aa64be832cec8c8423e32be4a37b7e9492ea2110556f4453e3dc3fcfc1983f20991f0e3acc3569d236cf4a16163",
+                    "SHA3-256": "19ace60875fb7abf6ba86856ed9979cc47eceeb84ccc3b6e913c37592ed521ba",
+                    "SHA3-512": "1d48df6b8b42584ece9eb0720d3c9fbbdb07d2f5e6752b87bab3f92ef24a639c27c96b0f52761f22734352feda96c75a286781516739962d98860cbdd456b46f"
+                }
+            },
+            {
+                "source_name": "treatment",
+                "description": "Out service religious much quality role.",
+                "url": "https://kramer.org/",
+                "hashes": {
+                    "MD5": "90bb359a7ae8c2ab70a7882c33d1bcdc",
+                    "SHA-1": "be78b0f9dddd35760f20634a9a617b9573d05c80",
+                    "SHA-256": "3c13a37b4920c2cffc57731ce99c280e5d870ddf5b7442024320f28d1292d76b",
+                    "SHA-512": "208f2efd23f824b3006184cc34168c13ceb3c2bbcb371fba59f0e0abd30b10df6b73464d7d8d1cb0edf0013b20302c1678de5cb99f75e0f58d1be4f634fb4b18",
+                    "SHA3-256": "5f2bcda82df15f5eb2944e9810796a223df1c77aae2dd59176cd938d9c4cc92b",
+                    "SHA3-512": "4d69ed177084a4ff3d1fcbbbf85dcaccd7a6e57376d04828a60e581ad7d97094e878669d519fc4261d4fc28eab785642ad989c064e11985fcd20243cc554e357"
+                }
+            },
+            {
+                "source_name": "evening",
+                "url": "https://haney.com/",
+                "hashes": {
+                    "MD5": "9d7a60e3f70be86993eba10ec5d9428f",
+                    "SHA-1": "1e2d35df5097a107673d1b6eaff5ea19dc2607cb",
+                    "SHA-256": "dc84ccb06a89e35851603997e5f039407bdbee7502dcba60dae21727cbbab005",
+                    "SHA-512": "be0b9c0c78b3796fd7f69986dc784e9d45bf7e05d34d97f63e1806a4358bec2e17611f90b436a9058c592267793302b4e69745cd3d9b89dbdbed1b6cd437487f",
+                    "SHA3-256": "7ebedfdbd0d3d497b57fa7b48a2fdefd7a549c2b97685275d5060f591d54361d",
+                    "SHA3-512": "c987b540f58f198a11547d4cf89168539883a3344315ca4e40635b12a80af5f08a27d66b06ff9cf6ca3922f9a6d953d5a485740c52f687f481b7c658cfbcf772"
+                },
+                "external_id": "ptXGQQgAnUoVDYLtrT"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c31be54c-5005-4580-a2b7-a6636faf7b0a"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--c31be54c-5005-4580-a2b7-a6636faf7b0a",
+        "created_by_ref": "identity--f66c3abf-7fd9-44a5-912c-b7367761b750",
+        "created": "2021-08-14T01:08:31.118843Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-15d3e0eb-8dda-4b6b-a55d-5c6a8a6d490b",
+                "name": "Clearly industry family",
+                "create_date_time": "2021-08-14T01:08:08.420657Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--f66c3abf-7fd9-44a5-912c-b7367761b750",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-12-05T23:36:01.861205Z",
+        "modified": "2022-08-09T18:15:36.411364Z",
+        "name": "Hernandez-Hanna",
+        "sectors": [
+            "mining"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "wait",
+                "description": "Nothing turn performance.",
+                "hashes": {
+                    "MD5": "753b90a2f1d82fa0d26061b4ca7b4f37",
+                    "SHA-1": "115f0463b41bbae99d9347541e21aa8028bf71af",
+                    "SHA-256": "3eab331a429a76bffce81ecb6c2fa15d8f6e20a38e6eec628d93182d6745a225",
+                    "SHA-512": "f90d1f3e59d33756d2461c341e9aeff83e0c7582b8d84d394cfdc6a78bd2dadd428fe0f571578298f60b686f5c50235276bcfc6480ad7d2dea1eecf33a9f7fa3",
+                    "SHA3-256": "b0c9c10cb66f77a90a22703eeb75033df628fde5704f12a4d5753222188e2b5b",
+                    "SHA3-512": "983b7f0cf3655338b4ebd1993027c2490a502d74140e52271e394d36cc7da13c60cec6f1f491c950dcddb9e015f83e3f683aba24f041883b779257d1f2bd74d3"
+                },
+                "external_id": "WpCjFRdgtAUSQKW"
+            },
+            {
+                "source_name": "participant",
+                "description": "Paper color couple help.",
+                "url": "https://bowman-strong.com/",
+                "external_id": "ofFFIelU"
+            },
+            {
+                "source_name": "single",
+                "description": "Commercial cold blue number child get wind.",
+                "url": "http://www.sanchez-hill.com/",
+                "hashes": {
+                    "MD5": "c2fc7827a3474c1aa24392c9c05b9806",
+                    "SHA-1": "d09b7e048c042bd04131ddefb53e6ea18af91824",
+                    "SHA-256": "765bf5b2df967f3e028ce1c53c26c25c69a085846c312ffb60b203b145cf08af",
+                    "SHA-512": "4415a2e8e46373940a13f387aeb79ba57b08a55156746aa414e002d6417b7b937df7bd6ea92c02ce64fe8136daad9e814ceeed455533ec372db67253082582b1",
+                    "SHA3-256": "ae354f9734cbb429032c67d54ce4182eb25c104eec809997544a5e9bef47be8f",
+                    "SHA3-512": "b2926475e5824241ab534140deb9a2cb8d8daebe88f5981b441fd5958512488bae423815d9dd4fdd6cb48659c8bdd1ba32bbb978d385327ea88e930cc95b4b80"
+                },
+                "external_id": "ewGglLSmQMwMbapQPc"
+            },
+            {
+                "source_name": "event",
+                "url": "https://www.kerr.net/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--c31be54c-5005-4580-a2b7-a6636faf7b0a"
+        ]
+    }
+]

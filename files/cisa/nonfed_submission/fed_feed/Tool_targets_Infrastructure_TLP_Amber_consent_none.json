@@ -1,0 +1,213 @@
+[
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--782c2c7b-6033-4558-9ea7-b572f1916861",
+        "created_by_ref": "identity--3f9b02b8-c1bd-4ea1-bf86-404e00bfd735",
+        "created": "2021-09-30T06:35:21.567807Z",
+        "modified": "2022-02-21T09:01:26.902888Z",
+        "name": "decision",
+        "tool_types": [
+            "unknown",
+            "denial-of-service",
+            "exploitation",
+            "remote-access"
+        ],
+        "aliases": [
+            "these",
+            "white",
+            "community"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "JQSeyVINcaCLs",
+                "phase_name": "vSFpa"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            },
+            {
+                "kill_chain_name": "IQcKNxwswaNBwzrXa",
+                "phase_name": "ZVdScLSoeqjsgx"
+            }
+        ],
+        "labels": [
+            "least",
+            "meet",
+            "pfte-batch-1"
+        ],
+        "confidence": 36,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "go",
+                "description": "Fish land choice sister short policy.",
+                "url": "https://allen.biz/",
+                "hashes": {
+                    "MD5": "0d43a7ab52e1fc408343c557a24f15cd",
+                    "SHA-1": "d35b21dfd67a443e6065352e892a47d44286b69b",
+                    "SHA-256": "7be39b27f0fb14a14195707e36db0104341a8508adaa3c7721336bd2de2c8cdd",
+                    "SHA-512": "31cd8a781ad5fba547cf064b43b48a869c6a386f709822044287cf29a32321cdac6e75f872287cd91bd04571135a9336f90030f4c5cc81e3b15c3948a8b11ffd",
+                    "SHA3-256": "6ea65cccec7d848e0b8374a471ed6ec44b8a31d4624924d959998a1a38f5743d",
+                    "SHA3-512": "d8a12ff191bb890dc7a61050295582553b407fd01a8a9a6639a8ad59700679b66a573940b80f20a5669ec26c2956fa9330a6d239a4ffdbfee6b84d981fcd261d"
+                }
+            },
+            {
+                "source_name": "dark",
+                "url": "http://www.weeks.com/",
+                "external_id": "ujLforpUzcHQYco"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fc6b67fd-d973-49e2-b813-6b4c6fe121ca"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--b20e3eb5-4fbc-4ff1-b6cf-58f9be94fa96",
+        "created_by_ref": "identity--3f9b02b8-c1bd-4ea1-bf86-404e00bfd735",
+        "created": "2021-10-20T16:57:31.077269Z",
+        "modified": "2022-08-01T20:29:41.721779Z",
+        "name": "general",
+        "infrastructure_types": [
+            "anonymization",
+            "control-system",
+            "routers-switches"
+        ],
+        "aliases": [
+            "chair"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "LXDMT",
+                "phase_name": "ReCjOOIjJ"
+            },
+            {
+                "kill_chain_name": "XpbavIShCfNbYA",
+                "phase_name": "upgkYyychAoBSYqBRF"
+            }
+        ],
+        "last_seen": "2022-07-05T20:53:39.742865Z",
+        "confidence": 66,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--fc6b67fd-d973-49e2-b813-6b4c6fe121ca"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a8ec7846-87b3-40c9-8b9f-8e432825e237",
+        "created_by_ref": "identity--3f9b02b8-c1bd-4ea1-bf86-404e00bfd735",
+        "created": "2022-01-10T01:33:24.277176Z",
+        "modified": "2022-10-05T03:32:57.07011Z",
+        "relationship_type": "targets",
+        "source_ref": "tool--782c2c7b-6033-4558-9ea7-b572f1916861",
+        "target_ref": "infrastructure--b20e3eb5-4fbc-4ff1-b6cf-58f9be94fa96",
+        "confidence": 94,
+        "object_marking_refs": [
+            "marking-definition--fc6b67fd-d973-49e2-b813-6b4c6fe121ca"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--fc6b67fd-d973-49e2-b813-6b4c6fe121ca",
+        "created_by_ref": "identity--3f9b02b8-c1bd-4ea1-bf86-404e00bfd735",
+        "created": "2021-08-14T01:09:39.512728Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6f258483-31e6-4810-a3a3-83f9297fcea8",
+                "name": "Individual personal with know",
+                "create_date_time": "2021-08-14T01:08:08.419751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3f9b02b8-c1bd-4ea1-bf86-404e00bfd735",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-05-01T13:32:58.531887Z",
+        "modified": "2021-08-14T01:09:39.514794Z",
+        "name": "IncludeSeatWife",
+        "description": "Synchronized upward-trending website",
+        "identity_class": "organization",
+        "contact_information": "193 Jonathon Ford Apt. 426\nNorth Michael, SC 20862",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 1,
+        "external_references": [
+            {
+                "source_name": "bar",
+                "url": "http://collier.biz/",
+                "external_id": "AUDWGBBU"
+            },
+            {
+                "source_name": "available",
+                "description": "Whom let loss staff understand money.",
+                "url": "http://booth.com/",
+                "external_id": "XwAni"
+            },
+            {
+                "source_name": "behind",
+                "description": "Author doctor hotel action why after bag.",
+                "external_id": "KbhUm"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fc6b67fd-d973-49e2-b813-6b4c6fe121ca"
+        ]
+    }
+]

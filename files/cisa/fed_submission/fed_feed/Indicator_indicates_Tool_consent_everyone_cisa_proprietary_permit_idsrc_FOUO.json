@@ -1,0 +1,200 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--e930c729-c4ef-483d-b2e7-cf9219ead063",
+        "created_by_ref": "identity--e33b5748-5b96-49cf-9c5b-a8d62d2d8fa2",
+        "created": "2021-03-21T23:51:50.22405Z",
+        "modified": "2021-08-14T01:08:35.816429Z",
+        "pattern": "[(windows-registry-key:number_of_subkeys <= 0) AND windows-registry-key:key <= 'gvAWtiMOyLfdFlkOcv'] OR [ipv4-addr:value >= '118.134.184.124'] OR [(domain-name:value NOT = 'smith.com') AND domain-name:value >= 'williams.com']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-12-04T19:05:04.394155Z",
+        "labels": [
+            "radio",
+            "miss",
+            "treatment",
+            "prepare",
+            "pfte-batch-1"
+        ],
+        "confidence": 47,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "reflect",
+                "description": "Nothing approach guess finally offer positive although line.",
+                "url": "http://horne.info/",
+                "hashes": {
+                    "MD5": "caf1adfa479ddcb36b595925b43abd64",
+                    "SHA-1": "cc30439a4fa11478e45746c9b88ed20af7635d2c",
+                    "SHA-256": "3e2441de04dd517fb0dd138f2d077aac4562f392b46fe8f64e9ac97f7004d44a",
+                    "SHA-512": "9705ae50404e9c183962419a77338cb4b92ec6c15fdd71d4d3c5c0e5fd61a433670720b60b71fe5db006c99003f2bd8985c80ff258faf66fdd9b89c637e929b2",
+                    "SHA3-256": "ebaf9bef11428c09503bfa9d9abaf0bcdc462a7780446b0fe9e28be9c69e97b8",
+                    "SHA3-512": "9162d9e87bd3fe5d7ff59152a3848fef227ab304309d508978fa4e2e9da8eb80fbb80f4b308b881d964654295ed2653ff01c0dbac6e325f351d838b54a96a49f"
+                },
+                "external_id": "lGsdkImckkUjaWaHAnv"
+            },
+            {
+                "source_name": "thus",
+                "description": "Section eight industry community fast another customer."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--88fcda8f-9065-432e-b81d-cdee1d2573d2"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--6ebe01c5-ca88-4a88-86cd-5f2e0e51b349",
+        "created_by_ref": "identity--e33b5748-5b96-49cf-9c5b-a8d62d2d8fa2",
+        "created": "2021-10-12T23:18:26.408344Z",
+        "modified": "2022-09-22T18:49:50.426862Z",
+        "name": "budget",
+        "tool_types": [
+            "remote-access",
+            "network-capture",
+            "unknown"
+        ],
+        "tool_version": "difference",
+        "confidence": 66,
+        "object_marking_refs": [
+            "marking-definition--88fcda8f-9065-432e-b81d-cdee1d2573d2"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--a8ff22a6-ac95-4f25-9794-4e0cc53a8c52",
+        "created_by_ref": "identity--e33b5748-5b96-49cf-9c5b-a8d62d2d8fa2",
+        "created": "2021-09-24T16:31:10.018291Z",
+        "modified": "2021-11-19T12:49:05.049324Z",
+        "relationship_type": "indicates",
+        "description": "Open admit each to. Thousand outside individual. Politics name source Mrs build factor walk.",
+        "source_ref": "indicator--e930c729-c4ef-483d-b2e7-cf9219ead063",
+        "target_ref": "tool--6ebe01c5-ca88-4a88-86cd-5f2e0e51b349",
+        "start_time": "2022-05-24T22:10:44.129595Z",
+        "stop_time": "2023-03-16T08:33:29.571469Z",
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--88fcda8f-9065-432e-b81d-cdee1d2573d2"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e33b5748-5b96-49cf-9c5b-a8d62d2d8fa2",
+        "created_by_ref": "identity--e33b5748-5b96-49cf-9c5b-a8d62d2d8fa2",
+        "created": "2021-07-21T01:17:13.903461Z",
+        "modified": "2021-10-13T21:35:14.537486Z",
+        "name": "Garcia-Gibson",
+        "description": "Managed encompassing complexity",
+        "contact_information": "USNS Hart\nFPO AA 88551",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "clearly",
+                "description": "Go beat option professional because image people thousand.",
+                "url": "https://www.thompson.com/",
+                "hashes": {
+                    "MD5": "138f3e4eb61484d8003f473bb84deed6",
+                    "SHA-1": "c0a9336f87b44d4b80ae6910dc54916d9559fe1b",
+                    "SHA-256": "f993c0ea0644696dd1b1bf77430ca2fe4078013b762c713391fdec9f1a8a5b24",
+                    "SHA-512": "5cb4728de2e64bce297db0e101a33d18faede0995c83dc53e92aefec04bffdfcdfe3fad66b60102bd345b130597893a499da4fd516c39b91b3903c76ea14e2ce",
+                    "SHA3-256": "652c084c39bd3988c577c0f17a0cceb1674d4f24a86bc078e55173be228c1f3c",
+                    "SHA3-512": "fe11b91e544226f8e503bf29ddec3acf5e1d51864ddfddf26329d602fbacafe70eb8d6fcf3cb18f4cae5b799abdf1226a9fb1bdbdb748bd204b34a2339481b25"
+                }
+            },
+            {
+                "source_name": "suffer",
+                "external_id": "QVjwMykFPWJ"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--88fcda8f-9065-432e-b81d-cdee1d2573d2"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--88fcda8f-9065-432e-b81d-cdee1d2573d2",
+        "created": "2021-08-14T01:08:35.815606Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7fadf816-7ba3-41ea-a52c-2855b3ec9d5a",
+                "name": "Report official major we center outside throughout population",
+                "create_date_time": "2021-08-14T01:08:08.433803Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

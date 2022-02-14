@@ -1,0 +1,135 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--104be239-d6cd-4803-b14a-980491928551",
+        "created_by_ref": "identity--7eee6bce-bcd7-402a-acc6-867fd10d8cbf",
+        "created": "2022-04-19T17:18:05.369999Z",
+        "modified": "2022-07-13T19:50:36.033329Z",
+        "name": "economy",
+        "threat_actor_types": [
+            "nation-state",
+            "hacker",
+            "insider-accidental",
+            "unknown",
+            "criminal"
+        ],
+        "aliases": [
+            "weight",
+            "join"
+        ],
+        "last_seen": "2021-12-29T15:27:36.895381Z",
+        "goals": [
+            "page",
+            "tell",
+            "enjoy"
+        ],
+        "resource_level": "individual",
+        "secondary_motivations": [
+            "personal-gain",
+            "accidental",
+            "dominance"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 49,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "should",
+                "url": "http://www.fox-santiago.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a0e957ec-319a-4a82-9351-46efe5df2b13",
+        "created_by_ref": "identity--7eee6bce-bcd7-402a-acc6-867fd10d8cbf",
+        "created": "2022-05-05T03:04:11.070433Z",
+        "modified": "2022-10-08T03:10:15.594237Z",
+        "name": "Hull, Hernandez and Neal",
+        "description": "Intuitive 6thgeneration utilization",
+        "identity_class": "class",
+        "contact_information": "5318 Rodriguez Way\nLake Christopherfurt, KY 80148",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "information",
+                "url": "http://www.smith-smith.info/",
+                "external_id": "swEcH"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--485d680d-2c8e-46cb-a043-9ec65eae66e1",
+        "created_by_ref": "identity--7eee6bce-bcd7-402a-acc6-867fd10d8cbf",
+        "created": "2022-05-29T12:42:41.917619Z",
+        "modified": "2023-03-20T06:24:01.99778Z",
+        "relationship_type": "impersonates",
+        "description": "Food let court ten contain. See themselves discussion south fill book. Interview teacher challenge east prevent.",
+        "source_ref": "threat-actor--104be239-d6cd-4803-b14a-980491928551",
+        "target_ref": "identity--a0e957ec-319a-4a82-9351-46efe5df2b13",
+        "start_time": "2021-06-04T14:43:59.885897Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "outside",
+                "description": "Huge reflect watch owner local ability."
+            },
+            {
+                "source_name": "someone",
+                "description": "Board long fast no future hand will.",
+                "url": "http://www.silva.com/",
+                "external_id": "SXdUkSlahjJaLFM"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--7eee6bce-bcd7-402a-acc6-867fd10d8cbf",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-26T06:29:33.024066Z",
+        "modified": "2022-04-15T19:56:57.595188Z",
+        "name": "OwnBornInvolve",
+        "roles": [
+            "agency",
+            "before",
+            "affect",
+            "law"
+        ],
+        "sectors": [
+            "agriculture",
+            "agriculture",
+            "commercial",
+            "transportation"
+        ],
+        "labels": [
+            "ais-consent-usg",
+            "pfte-batch-1"
+        ],
+        "confidence": 8,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

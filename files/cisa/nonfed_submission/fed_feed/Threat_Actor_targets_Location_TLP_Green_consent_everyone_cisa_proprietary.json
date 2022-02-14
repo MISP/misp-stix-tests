@@ -1,0 +1,240 @@
+[
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--45e5259c-901a-4138-bf3d-e37e5761ef46",
+        "created_by_ref": "identity--9fd3a457-477d-4313-9644-e35522918cc3",
+        "created": "2020-07-18T18:54:50.235504Z",
+        "modified": "2021-08-14T01:09:30.700838Z",
+        "name": "hot",
+        "threat_actor_types": [
+            "terrorist",
+            "insider-disgruntled"
+        ],
+        "aliases": [
+            "trouble",
+            "together",
+            "defense"
+        ],
+        "first_seen": "2022-05-21T01:32:52.456495Z",
+        "last_seen": "2023-01-21T12:48:27.640766Z",
+        "roles": [
+            "agent",
+            "infrastructure-architect",
+            "agent",
+            "director",
+            "infrastructure-architect"
+        ],
+        "resource_level": "contest",
+        "secondary_motivations": [
+            "personal-gain",
+            "personal-gain",
+            "personal-satisfaction"
+        ],
+        "object_marking_refs": [
+            "marking-definition--799efa5c-5d14-4ec6-a488-603f392454ff"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "location",
+        "spec_version": "2.1",
+        "id": "location--e400b116-a586-4cc3-939d-2f7b688b5ced",
+        "created_by_ref": "identity--9fd3a457-477d-4313-9644-e35522918cc3",
+        "created": "2022-04-03T22:46:02.561353Z",
+        "modified": "2022-08-25T18:31:18.272707Z",
+        "name": "SOAIpuODqJ",
+        "description": "Future-proofed web-enabled challenge",
+        "latitude": -74.81006073869791,
+        "longitude": -110.14161373084987,
+        "region": "northern-america",
+        "country": "Czech Republic",
+        "street_address": "87237 Watson Dam",
+        "postal_code": "90517",
+        "external_references": [
+            {
+                "source_name": "science",
+                "description": "Specific health unit standard resource spend stop.",
+                "hashes": {
+                    "MD5": "ba428b21f063999ec3058f43dd9932fc",
+                    "SHA-1": "55f3a624d8c52abef2d70e97fd24736222c3c314",
+                    "SHA-256": "5368222efb7492548c2f3da61f1c9b8e1e8c334ac5dcefac863b798ec8426b16",
+                    "SHA-512": "cc5c3abd5c9febc5bb918643646f9396d789cb2f086690028f10565fd0344a6ffd8113c1cac4c3986e1732438e9bb26c2d9430f0bf9c179f2fb3f1d55a65ddec",
+                    "SHA3-256": "ad88599c8432de8b80caba805506c548a5fcef7d3b0de092067db1eb6f008e90",
+                    "SHA3-512": "fb5c88453c558f5307c89584263d93f31cf83ebfba2cef4e849d38f7a561b931ac1c37f89cbef7075dfb7d7f67bc82db3e86494635c19bf4ea4a0c41995403d8"
+                }
+            },
+            {
+                "source_name": "door",
+                "description": "Peace present security page exactly."
+            },
+            {
+                "source_name": "where",
+                "hashes": {
+                    "MD5": "ded3675d31dccf35ecfe742cc2a6ae30",
+                    "SHA-1": "59d76741dbefdacb905abca6dc92c451bdd26651",
+                    "SHA-256": "dc8ee5d94c333bae54c85152259a9437194661c1de4b1a70c327ec62b1d739fc",
+                    "SHA-512": "d70680eb52a077c46839ec43e713c09e179442c02ae5f46f9ccc353eef7447a7df0f422952c92f546a5da3bd2da997961705756c978d05d0bd36525dbe80cf18",
+                    "SHA3-256": "4b30bbd4b99adf05c8fee7a94d6001754767d7fbcf2474c203722e1ba89d84be",
+                    "SHA3-512": "e40977e39a6f579a6ca4a5e16cb157b94ef74b0bcc3ed7bdea782f596a9fb78fe430d57df2088cfe17ca13c07727e8c6e7eeb2678b6011be975b7bbf78e7284c"
+                },
+                "external_id": "JuVxpxWkchdLiEjoUJyN"
+            },
+            {
+                "source_name": "run",
+                "description": "That level perform foreign Congress.",
+                "url": "https://ruiz.com/",
+                "external_id": "KEEhEzECGxTsxGGuvz"
+            },
+            {
+                "source_name": "food",
+                "description": "Me western camera section capital.",
+                "url": "http://daugherty-henderson.com/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--799efa5c-5d14-4ec6-a488-603f392454ff"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f706b29d-6353-4d79-bee9-fc4cbd3ac683",
+        "created_by_ref": "identity--9fd3a457-477d-4313-9644-e35522918cc3",
+        "created": "2022-02-14T10:57:22.913687Z",
+        "modified": "2022-07-08T17:33:13.590456Z",
+        "relationship_type": "targets",
+        "source_ref": "threat-actor--45e5259c-901a-4138-bf3d-e37e5761ef46",
+        "target_ref": "location--e400b116-a586-4cc3-939d-2f7b688b5ced",
+        "start_time": "2021-10-07T22:26:51.07101Z",
+        "stop_time": "2022-01-03T09:55:21.325724Z",
+        "labels": [
+            "evidence",
+            "necessary",
+            "edge",
+            "pfte-batch-1"
+        ],
+        "confidence": 37,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "financial",
+                "description": "Lay system ask job ask whole.",
+                "url": "https://www.frey.biz/"
+            },
+            {
+                "source_name": "relate",
+                "url": "http://robinson.info/",
+                "external_id": "OdToGQxcKRjMWrJz"
+            },
+            {
+                "source_name": "authority",
+                "description": "White system entire special.",
+                "url": "https://www.thornton.info/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--799efa5c-5d14-4ec6-a488-603f392454ff"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--799efa5c-5d14-4ec6-a488-603f392454ff",
+        "created_by_ref": "identity--9fd3a457-477d-4313-9644-e35522918cc3",
+        "created": "2021-08-14T01:09:30.700112Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e665ae49-7536-4ce4-b3ac-ad9803b6185e",
+                "name": "Push teach indeed like accept",
+                "create_date_time": "2021-08-14T01:08:08.423274Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "FOREIGNGOV"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "SECTOR"
+                        ],
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ],
+                    "caveat": [
+                        "CISAPROPRIETARY"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--9fd3a457-477d-4313-9644-e35522918cc3",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-07-21T16:12:27.922465Z",
+        "modified": "2022-05-11T21:37:43.9255Z",
+        "name": "Schmidt, Dean and Garcia",
+        "roles": [
+            "century",
+            "wish",
+            "next"
+        ],
+        "identity_class": "unknown",
+        "contact_information": "866 Peggy Terrace\nPort Rachael, RI 54563",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 89,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--799efa5c-5d14-4ec6-a488-603f392454ff"
+        ]
+    }
+]

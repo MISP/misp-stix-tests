@@ -1,0 +1,239 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--95776763-f878-46e2-98cf-079a78c3b7b2",
+        "created_by_ref": "identity--4351e32b-f7d2-467d-a084-406d00562511",
+        "created": "2021-01-09T07:20:07.399265Z",
+        "modified": "2021-08-14T01:08:35.164681Z",
+        "pattern": "[email-message:defanged = false]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-02-03T05:28:16.663891Z",
+        "labels": [
+            "interest",
+            "pfte-batch-1"
+        ],
+        "confidence": 12,
+        "object_marking_refs": [
+            "marking-definition--d5d7e190-584c-415f-b3f1-5b834efaf6af"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--c5bd653e-9c64-44ec-973a-b92f35cb2321",
+        "created_by_ref": "identity--4351e32b-f7d2-467d-a084-406d00562511",
+        "created": "2021-01-03T02:23:15.670546Z",
+        "modified": "2021-08-14T01:08:35.165654Z",
+        "name": "whether",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "actions on objective"
+            }
+        ],
+        "labels": [
+            "listen",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "article",
+                "description": "Be when them drop low seek born."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d5d7e190-584c-415f-b3f1-5b834efaf6af"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--abc8ed2b-6eaa-4b65-b3a0-c8243636d42f",
+        "created_by_ref": "identity--4351e32b-f7d2-467d-a084-406d00562511",
+        "created": "2021-02-15T08:43:58.632231Z",
+        "modified": "2021-10-23T08:13:26.322808Z",
+        "relationship_type": "indicates",
+        "description": "Light agency measure.",
+        "source_ref": "indicator--95776763-f878-46e2-98cf-079a78c3b7b2",
+        "target_ref": "tool--c5bd653e-9c64-44ec-973a-b92f35cb2321",
+        "start_time": "2020-11-15T18:52:45.702263Z",
+        "labels": [
+            "size",
+            "sister",
+            "huge",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "chair",
+                "description": "Camera student thus through region red everything training.",
+                "url": "http://www.edwards.com/",
+                "hashes": {
+                    "MD5": "88c48fd41aa7c8a76bc4a071727d0971",
+                    "SHA-1": "80a038a52bbdb5d063d4be3a6d1e9179d878775d",
+                    "SHA-256": "42af6bbf309d8875b42968462f4d23607b757cb9a3327cd969bffab351d9c551",
+                    "SHA-512": "b25a0df033d92b5b48c3d44290d19cc3813118dabebd943a3e245e83095ba8eabb34cbc64d33a6de679d57f36969e7db407b13738885ed7406cbe376a5d06e73",
+                    "SHA3-256": "256c01d5143709afe0a7e7a913f60af4b3415dbbc14a84b770edbeb070c77b96",
+                    "SHA3-512": "9ce6dc0fd709f52a7670cee017908ed6f0b0040b8fd1e518000ebaa79a568b0410f4f199b7412ce86c85f30e8e42264e5c7e46092b4bf44268567c69eb9ae34f"
+                },
+                "external_id": "WFrdOiznhVgiG"
+            },
+            {
+                "source_name": "firm",
+                "description": "Industry carry professional first.",
+                "hashes": {
+                    "MD5": "4e5721d58adeb63537d4cf77942fef6c",
+                    "SHA-1": "27f69876b95fce2c538da8cb0b768b87a7bf0c80",
+                    "SHA-256": "78e617ef65d356800a83a1e345446031121ae9a32c743026b395dd9133c6c63e",
+                    "SHA-512": "afd641ef89cdaa8c1c1380d2f5009cf9a052c0cd1cee2e17ed9aa494b59c63a8c88cd5bf60557fa7701082f4f920caefd3341a4904ace9548a014367653c46e7",
+                    "SHA3-256": "750ebf38f8af1300c43efa38acbc00460cdf3dd822be3398125de89dcaa1e19d",
+                    "SHA3-512": "59fcc42f97a12e38db3489f4de07a1f55bb8b6f353e3e17922a6479ecb975839150e5d34ed68e54d594d106bb693cf4492a9d93e511f9fc552006a41998f76be"
+                },
+                "external_id": "tonCN"
+            },
+            {
+                "source_name": "great",
+                "description": "Floor save performance full.",
+                "url": "https://www.bennett.com/",
+                "hashes": {
+                    "MD5": "1064e6c733512cbb8b8b096d960479fd",
+                    "SHA-1": "dde21b9733dd41718e6aeb9cebf9db68b4cdb9fa",
+                    "SHA-256": "b947871368f359f61c313b78dc5c910bedaf64fe6a899cf5d8cd2ad5e6eec7d5",
+                    "SHA-512": "40cb5630cbafd959ebdaf18fa7e520652de273d3f89d9060e2fb0cd3bb8007ce847d007e4561cd8789419714374afcc2ac026822d78f4d45076eff0a32d6298e",
+                    "SHA3-256": "e85435edfa7cd95808be05886ac23f18bd9159128992c3db9285f08518817eb2",
+                    "SHA3-512": "8dd1c2e4c5efc446bf57c8dedc0fabc9f0fefa4e557f9a1a8949f7540bd11b75e39a43d9eaf1a44f48c5c391d933b8d4e1b3fe9c2568fd5017b3dd53b8d49f52"
+                },
+                "external_id": "nXNnvDVg"
+            },
+            {
+                "source_name": "rich",
+                "description": "Hope cover discuss theory.",
+                "url": "http://www.conley.net/",
+                "hashes": {
+                    "MD5": "d5e807635da151d38a94a18f6a8a0fb2",
+                    "SHA-1": "39c0b0ad4dd7bde9514cc8534565d40c72297504",
+                    "SHA-256": "d894b8ce72e52891165d97634948dd74148e5cc5a52817978e4372adc3bedfda",
+                    "SHA-512": "dffffca8c4eb07a7846041104026485e0d807a41a255fcd3449df7d6ec64b79b490b3866ddd38b76ca9218e9b3b1fad6acedab611d5e746e51f0b212c5a37ef8",
+                    "SHA3-256": "343fd0b847e309ad997f28e4416d238608d1a570fdaaf5171133720bb0ba6f9f",
+                    "SHA3-512": "8cedbc31d89d94bcc8357824755c9e96e7e8918f0dcfb79a58856fd5ae02db09b3594b87962519ca59fd4086ce44fc8df6d34f8227f372054b0769ba0743f254"
+                }
+            },
+            {
+                "source_name": "memory",
+                "description": "Claim base pretty follow.",
+                "url": "https://www.kerr.com/",
+                "hashes": {
+                    "MD5": "b059ada3a8f615521277d3b3febd6f89",
+                    "SHA-1": "d47a49d0cb262bdc00844858eaf7f2f491093450",
+                    "SHA-256": "1955d6f1908730f463456822cb9a575246156a4e4d80fe81f5fa851192b8338d",
+                    "SHA-512": "42d66f46d6305909aa472f34807f37101bab2b39532c6858cdf4a79cacf3fe73ae79ca1e2f9cf42ef66c01c9b5f866bd2c7671f6fc0d54e52892af5c3cf8a200",
+                    "SHA3-256": "c118520dc8031b0022090432168dc35710f70e9fc2112a9c2811b5f50fa51784",
+                    "SHA3-512": "b4aca99c72952742aa57d6520bacb9f44492b59e74284d228232ee7eea6c687d5a988a9062dbad861017d9fe9797a551b57e75926287e31bb4cd222deeb4eb94"
+                },
+                "external_id": "gGslbedivdHWvOsExzc"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d5d7e190-584c-415f-b3f1-5b834efaf6af"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--4351e32b-f7d2-467d-a084-406d00562511",
+        "created_by_ref": "identity--4351e32b-f7d2-467d-a084-406d00562511",
+        "created": "2022-06-04T20:22:51.654584Z",
+        "modified": "2022-08-30T11:34:03.137945Z",
+        "name": "Scott-Thompson",
+        "description": "Pre-emptive regional protocol",
+        "roles": [
+            "beat",
+            "of"
+        ],
+        "contact_information": "218 Stone Extensions\nLoveport, GA 03875",
+        "external_references": [
+            {
+                "source_name": "forget",
+                "external_id": "iwenUSGrlIzDb"
+            },
+            {
+                "source_name": "laugh",
+                "description": "Former spring option.",
+                "url": "http://martinez-garcia.com/",
+                "hashes": {
+                    "MD5": "c5271e1457860100df338f94708e41ad",
+                    "SHA-1": "ababc29cf5a335483208945ecdf27d5035ff3a40",
+                    "SHA-256": "ce923eda0b3250986575d768817f971ec1d6699cda9152168060bb48f6811605",
+                    "SHA-512": "247cecb3e24da282ad0ffb0f542d7961fc8048d2db80c1f79d2facdb24196edec9dddfb14f074f78a50b367004f7e83adcbedfc36873ecd150cc45f458c4911f",
+                    "SHA3-256": "de9c9ec524369d06f42d9ac101045737a9b34d76c8a13bf8bbea36d8b65cbe94",
+                    "SHA3-512": "fac86a90a2c73211d3b4aae7e73137806ebf30ac3ebb8367189fe3ddf5ae373104845fad690de34070f527b62f66735c4eec3fc88faf1ff2ba057f092834d28f"
+                },
+                "external_id": "XmOFdrwvBrkBmXfjjj"
+            },
+            {
+                "source_name": "general",
+                "description": "Head TV standard level question."
+            },
+            {
+                "source_name": "more",
+                "description": "Nor interesting consumer according respond be.",
+                "url": "http://www.lopez.biz/",
+                "hashes": {
+                    "MD5": "df140ef6c02860d0318cf7d8edcdbae2",
+                    "SHA-1": "218366aff26387318a577715ea66d15fddccfe45",
+                    "SHA-256": "d41f4a32020e4607c90bbdf5814820c707e58005a3f37be62cbdbb6e6ba70872",
+                    "SHA-512": "50939af2aa3ee7677a84f9f6780afb9b11619863a983af7892cd755b964f41d3ba5062aa3cec49b9ab80470743e0fc232ce7be29feab4e27136c3760ee1f94e5",
+                    "SHA3-256": "1c4a9e7c4662d1f85e4dce97f3ebae349b65d70ab9a02cde45435ae961a255d7",
+                    "SHA3-512": "dade6df728c6d68b20c9028655323f8e1e87869df29ddee0cd325d938477bee8b22e97c26f03208011bb6626cf8bbd4c36bfe2e07d1a4d2453dd277bf24d6061"
+                }
+            },
+            {
+                "source_name": "begin",
+                "description": "Father guess us agency risk."
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--d5d7e190-584c-415f-b3f1-5b834efaf6af"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--d5d7e190-584c-415f-b3f1-5b834efaf6af",
+        "created": "2021-08-14T01:08:35.164223Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-54b25f01-6af2-45fd-9467-12811cc2be8c",
+                "name": "Help hit around teach",
+                "create_date_time": "2021-08-14T01:08:08.425022Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

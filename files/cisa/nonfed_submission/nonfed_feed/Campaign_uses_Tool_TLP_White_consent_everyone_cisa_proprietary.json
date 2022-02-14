@@ -1,0 +1,91 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--ac1ee27c-1881-4137-a8ad-451db759483d",
+        "created_by_ref": "identity--45908394-d0c1-48f5-b919-6c6234aab2f0",
+        "created": "2021-08-11T10:11:17.997295Z",
+        "modified": "2021-10-16T01:43:40.955729Z",
+        "name": "movie",
+        "description": "Real new kitchen energy significant.",
+        "aliases": [
+            "social",
+            "project",
+            "third"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 57,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--01472674-8589-44bd-a08f-f9c030b95eef",
+        "created_by_ref": "identity--45908394-d0c1-48f5-b919-6c6234aab2f0",
+        "created": "2020-12-24T12:35:17.603092Z",
+        "modified": "2021-08-14T01:08:20.771929Z",
+        "name": "interesting",
+        "tool_types": [
+            "vulnerability-scanning",
+            "vulnerability-scanning",
+            "exploitation",
+            "network-capture",
+            "credential-exploitation"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 45,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--f1e86a89-706f-4a02-b766-69abe2a4558b",
+        "created_by_ref": "identity--45908394-d0c1-48f5-b919-6c6234aab2f0",
+        "created": "2022-05-06T14:46:58.603287Z",
+        "modified": "2022-12-16T22:35:30.295662Z",
+        "relationship_type": "uses",
+        "source_ref": "campaign--ac1ee27c-1881-4137-a8ad-451db759483d",
+        "target_ref": "tool--01472674-8589-44bd-a08f-f9c030b95eef",
+        "stop_time": "2021-04-02T21:34:47.914217Z",
+        "labels": [
+            "deep",
+            "wide",
+            "pfte-batch-1"
+        ],
+        "confidence": 1,
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--45908394-d0c1-48f5-b919-6c6234aab2f0",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-08-01T01:33:46.042243Z",
+        "modified": "2023-04-13T19:20:38.000134Z",
+        "name": "Owens-Fletcher",
+        "identity_class": "unknown",
+        "sectors": [
+            "defense",
+            "construction",
+            "insurance"
+        ],
+        "contact_information": "7554 Benson Roads Apt. 129\nWest Lisa, MI 48486",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

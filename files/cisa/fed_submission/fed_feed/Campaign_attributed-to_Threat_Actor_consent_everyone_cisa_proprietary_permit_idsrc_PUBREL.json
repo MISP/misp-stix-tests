@@ -1,0 +1,268 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--031bfa4a-31be-48d2-9cef-74140ff49d79",
+        "created_by_ref": "identity--3852e781-aeaf-400a-a979-702ed218aa38",
+        "created": "2021-01-22T00:12:05.077352Z",
+        "modified": "2021-09-20T13:53:02.75626Z",
+        "name": "report",
+        "description": "Win court audience agent.",
+        "aliases": [
+            "say",
+            "indicate",
+            "and",
+            "news",
+            "though"
+        ],
+        "labels": [
+            "meet",
+            "fire",
+            "almost",
+            "pfte-batch-1"
+        ],
+        "confidence": 41,
+        "external_references": [
+            {
+                "source_name": "picture",
+                "url": "https://www.walters.net/",
+                "external_id": "ZiOVMKUzISDaSeYZy"
+            },
+            {
+                "source_name": "medical",
+                "description": "Actually state grow special.",
+                "url": "https://www.johnson.com/",
+                "external_id": "jvZLDxjuJyJlVgFRAjIv"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--907d5d24-3aa4-4dec-b135-f853ae35a3ce"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "spec_version": "2.1",
+        "id": "threat-actor--caa18405-8335-47e6-8d7e-063b3a0954d2",
+        "created_by_ref": "identity--3852e781-aeaf-400a-a979-702ed218aa38",
+        "created": "2022-03-09T14:29:20.685379Z",
+        "modified": "2022-07-07T13:10:43.004663Z",
+        "name": "cause",
+        "aliases": [
+            "responsibility",
+            "pattern"
+        ],
+        "first_seen": "2021-10-03T14:18:28.63923Z",
+        "last_seen": "2022-03-31T17:53:50.124551Z",
+        "roles": [
+            "infrastructure-architect",
+            "sponsor"
+        ],
+        "resource_level": "team",
+        "personal_motivations": [
+            "organizational-gain",
+            "personal-gain",
+            "accidental"
+        ],
+        "external_references": [
+            {
+                "source_name": "leave",
+                "description": "Need light sell student.",
+                "url": "http://parks-vaughn.com/",
+                "external_id": "qfuLfzFHwDsuvH"
+            },
+            {
+                "source_name": "our",
+                "url": "https://rivera.com/",
+                "hashes": {
+                    "MD5": "a529f9285568f22931616f602a0b57c1",
+                    "SHA-1": "9611b5b6797b268ede4ffd45a34d4a6bbb19ccfe",
+                    "SHA-256": "a55eb15c91136b48f59be5552ecda24c4c423b5542cbc10ec59ea7f211cd20d9",
+                    "SHA-512": "4bc0d8ef2b8d036920b9c396d358f516217ef9e55e30eec3abe38dd9ff10ae91b7868e26459c11f9068e0b95a895f6f340a2166783194e37d11857c6e25e75e6",
+                    "SHA3-256": "b1024ddfb736cfbdd36c4553228bb389904132df4f104dde18b6fe7930daa766",
+                    "SHA3-512": "0d06ba159d3ba9d2bb500ea1006be06886133fa4abfb21f1ae8e35bc316f1862e50b10167522fbdeb9de585a4e6324e58d637ee59890fdc2699960a63ee154b5"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--907d5d24-3aa4-4dec-b135-f853ae35a3ce"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--4adc2a76-739c-4c0c-9ebe-b5da7c63dd41",
+        "created_by_ref": "identity--3852e781-aeaf-400a-a979-702ed218aa38",
+        "created": "2022-08-11T12:15:02.766719Z",
+        "modified": "2022-09-21T05:02:28.870697Z",
+        "relationship_type": "attributed-to",
+        "source_ref": "campaign--031bfa4a-31be-48d2-9cef-74140ff49d79",
+        "target_ref": "threat-actor--caa18405-8335-47e6-8d7e-063b3a0954d2",
+        "start_time": "2021-02-09T11:50:05.857298Z",
+        "external_references": [
+            {
+                "source_name": "vote",
+                "hashes": {
+                    "MD5": "9f9781953dee64c187c07ecf0f3db365",
+                    "SHA-1": "5cc17878505c284640fce239a3773bf82f04ce89",
+                    "SHA-256": "80cfc9af5996531b6fddfa1a61ee50763bc4746304d7e918a6c3145c374d4d05",
+                    "SHA-512": "12015d668b0e89e28e9b6dfbdab89fb47ff2a9b8333daa2cad703eec5f67d26706628ea612735b1ddcb3a4165a39851a29a2ff22f45794e3dc1fc71312c722a8",
+                    "SHA3-256": "83e27940eeb2f83da0634ad8932b16cf1ebcaf61086503346edaf6b75e56eda7",
+                    "SHA3-512": "380c1e2af5777cf86832cf1b290d9bc08bdeaca52eaf8f9808e407a2104df44e7c4fbee00c010444dfe2abd2af85af13350d02ac3daeab2f86e8bd17fc69d29d"
+                },
+                "external_id": "FnIaDzIGqgCj"
+            },
+            {
+                "source_name": "head",
+                "hashes": {
+                    "MD5": "37f1d1aa3c6e1db3410b717a67f37843",
+                    "SHA-1": "799e655eaab76f1d5ddf0e4da2139d2b12ff1310",
+                    "SHA-256": "7c5bc82497395a924e050fc23b7473a76545528189a424bb6bbff36c76aa103f",
+                    "SHA-512": "ec8d5ddca6079ada6f69192f54f93564aa633dd98d79a3fc4e9e3e7d0f853f6fd52d3eaadcb711a5201f2b1e15350ec4ad63ee2713ade32ca4e076b6b46180df",
+                    "SHA3-256": "f30cb7985d7cc6cf273cd18e355ea1adaff444d6852d1c218b7e1cae9e55ae37",
+                    "SHA3-512": "54ac05b9e00dd6737605967bb917fb97fb9830d760f6b60a361e1d0e41ddb833cedea489bc88a53db476b1e8c59684d72db8aa52645c109b344480d6fde6a730"
+                },
+                "external_id": "ntPPYDhyhYizqIUoyG"
+            },
+            {
+                "source_name": "rate",
+                "description": "Push can up own.",
+                "url": "http://murray.com/",
+                "external_id": "MoYzgoWlkubD"
+            },
+            {
+                "source_name": "blue",
+                "description": "Get listen sea seven.",
+                "url": "https://www.boyer.net/",
+                "hashes": {
+                    "MD5": "53fb8d6a50ec76a0ed6a9f899eb0b569",
+                    "SHA-1": "875ef4f8a6b33527fa027a4a3233f2c6eaee376e",
+                    "SHA-256": "0aacf513eb99f895ce5102ad72ac596141d7a7eb62ba941b8352eb24d897d978",
+                    "SHA-512": "118bc186811f0961f43029de7a95c457da765e4ac096cbb29c545718f8ca7ea9d29aa8767bfad167eb98e24efd61dac04ef826b313a7257aff5af3fc4f22c10f",
+                    "SHA3-256": "5c023ded0ce77009548d110b505793a480e1c041b23f973714f854d412f2acbc",
+                    "SHA3-512": "de85257f4b8441e956ab330e0458c759c7c5a8874951883a9d995309201624c4cde85dfd33624d31e8ade73a7112fa44cca6c1827adfb00a5040de391548287c"
+                },
+                "external_id": "hdtvxZtsSqMzoh"
+            },
+            {
+                "source_name": "need",
+                "description": "Reality today quite list hotel interesting.",
+                "url": "http://www.romero.com/",
+                "hashes": {
+                    "MD5": "4c0a8b732552bf8ff6f88b95fdb8d1b0",
+                    "SHA-1": "e0e45adb19276ca83983e763021364ab3cc67f3e",
+                    "SHA-256": "b0cd4d242decf9fe3784040bf179f3e32d68e546dad192f767c2ee43515ef86c",
+                    "SHA-512": "1e36351d43fc4da951139f18608c98ce6a2e794feec3ceace50c77790ceb3906b96aced2bfa3c93d15af6932607f75deed5a086d986994019e6fee5dd3232707",
+                    "SHA3-256": "19fd6a82ddb10887c56b1dafd595f85209272fd74627988f74d0c3ad7eac497f",
+                    "SHA3-512": "7d659f859497af4ac86a3bd6382cbe79b1ddb29e66d5ffefae80e0d951400b7de4b89ea69a1c9c864db8a8fa2b3814d49e20cdd4785b0a8976c4142f74b4cb18"
+                },
+                "external_id": "yvZHabDP"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--907d5d24-3aa4-4dec-b135-f853ae35a3ce"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--3852e781-aeaf-400a-a979-702ed218aa38",
+        "created_by_ref": "identity--3852e781-aeaf-400a-a979-702ed218aa38",
+        "created": "2022-01-24T21:24:37.115961Z",
+        "modified": "2022-03-16T10:39:59.231544Z",
+        "name": "Snyder Ltd",
+        "identity_class": "individual",
+        "sectors": [
+            "healthcare",
+            "energy"
+        ],
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--907d5d24-3aa4-4dec-b135-f853ae35a3ce"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--907d5d24-3aa4-4dec-b135-f853ae35a3ce",
+        "created": "2021-08-14T01:08:14.483999Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-b6e02fdc-1bc2-4bf7-88bf-58ec1e8c0a26",
+                "name": "Eye set happy strong city way",
+                "create_date_time": "2021-08-14T01:08:08.434259Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.434092Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

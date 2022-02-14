@@ -1,0 +1,161 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--6f0dfdcf-614c-46ea-abac-b7a51dd7a349",
+        "created_by_ref": "identity--c58e9c59-d6f0-42fb-b917-73da0169d4b2",
+        "created": "2021-02-07T22:04:54.14952Z",
+        "modified": "2021-10-04T22:39:56.978407Z",
+        "name": "section",
+        "infrastructure_types": [
+            "reconnaissance",
+            "anonymization",
+            "hosting-malware",
+            "hosting-target-lists",
+            "hosting-target-lists"
+        ],
+        "aliases": [
+            "ask",
+            "high"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "command and control"
+            }
+        ],
+        "first_seen": "2020-10-01T01:21:01.885944Z",
+        "last_seen": "2021-05-19T01:11:06.345413Z",
+        "labels": [
+            "energy",
+            "traditional",
+            "stock",
+            "there",
+            "hundred",
+            "pfte-batch-1"
+        ],
+        "confidence": 26,
+        "object_marking_refs": [
+            "marking-definition--5c890e67-a082-4f4e-a6b2-f680cab1b3f6"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--7a149c30-24d7-4e9e-996c-45056603a48e",
+        "value": "http://www.smith-aguirre.info/",
+        "object_marking_refs": [
+            "marking-definition--5c890e67-a082-4f4e-a6b2-f680cab1b3f6"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--169dc753-790a-4445-9b10-5e0376b25ce0",
+        "created_by_ref": "identity--c58e9c59-d6f0-42fb-b917-73da0169d4b2",
+        "created": "2020-08-02T05:33:04.885855Z",
+        "modified": "2021-08-14T01:08:41.459662Z",
+        "relationship_type": "communicates-with",
+        "description": "Sister thank much down enjoy produce to article. Leader memory film road civil.",
+        "source_ref": "infrastructure--6f0dfdcf-614c-46ea-abac-b7a51dd7a349",
+        "target_ref": "url--7a149c30-24d7-4e9e-996c-45056603a48e",
+        "start_time": "2020-09-25T01:55:22.803296Z",
+        "object_marking_refs": [
+            "marking-definition--5c890e67-a082-4f4e-a6b2-f680cab1b3f6"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--5c890e67-a082-4f4e-a6b2-f680cab1b3f6",
+        "created_by_ref": "identity--c58e9c59-d6f0-42fb-b917-73da0169d4b2",
+        "created": "2021-08-14T01:08:41.458667Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-c8895e1e-4ecb-48a8-ba6f-5865a3a3066d",
+                "name": "Development get financial fill light",
+                "create_date_time": "2021-08-14T01:08:08.421416Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=permit",
+                "public_release": {
+                    "released_by": "NONFED",
+                    "released_on": "2021-08-14T01:08:08.421229Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL",
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c58e9c59-d6f0-42fb-b917-73da0169d4b2",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-11-26T19:54:00.923202Z",
+        "modified": "2022-05-05T09:20:52.489669Z",
+        "name": "Nelson-Osborn",
+        "description": "Progressive multimedia software",
+        "sectors": [
+            "pharmaceuticals",
+            "insurance",
+            "retail",
+            "dams",
+            "government"
+        ],
+        "contact_information": "974 Dwayne Parkways Apt. 727\nAndersonmouth, ND 93911",
+        "labels": [
+            "ais-consent-everyone",
+            "pfte-batch-1"
+        ],
+        "confidence": 99,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "movie",
+                "url": "https://rowe.com/",
+                "external_id": "fiAkWSfqhCxBuqQDyf"
+            },
+            {
+                "source_name": "station",
+                "description": "Share parent senior price peace second almost.",
+                "external_id": "SchqbVZKTTH"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--5c890e67-a082-4f4e-a6b2-f680cab1b3f6"
+        ]
+    }
+]

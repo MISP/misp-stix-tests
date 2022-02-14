@@ -1,0 +1,133 @@
+[
+    {
+        "type": "course-of-action",
+        "spec_version": "2.1",
+        "id": "course-of-action--1308f6bd-67b5-41ea-b05f-e567a5de7b9d",
+        "created_by_ref": "identity--c0926b00-e76c-49f2-9ffe-cb81463a4903",
+        "created": "2019-11-16T04:03:36.830943Z",
+        "modified": "2021-08-14T01:08:24.152717Z",
+        "name": "answer",
+        "description": "Official people lay beat environmental activity.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--f6cc6563-66c9-48f4-a44a-4a3656f720a6",
+        "created_by_ref": "identity--c0926b00-e76c-49f2-9ffe-cb81463a4903",
+        "created": "2021-06-03T04:04:33.186629Z",
+        "modified": "2021-08-14T01:08:24.153078Z",
+        "name": "although",
+        "description": "Seem product keep election quality arm.",
+        "indicator_types": [
+            "attribution",
+            "malicious-activity"
+        ],
+        "pattern": "([software:name = 'fGlWrTyQIL' OR (x509-certificate:validity_not_before NOT = t'2021-11-12T02:03:45.809569Z')] AND ((([ipv6-addr:defanged NOT = false]) FOLLOWEDBY [autonomous-system:name >= 'Nelson Inc']) START t'2021-02-19T12:33:54.014352Z' STOP t'2021-10-09T05:15:19.922783Z')) FOLLOWEDBY [mac-addr:defanged NOT = false] WITHIN 10 SECONDS",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2021-01-23T21:03:45.479644Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "exploitation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            }
+        ],
+        "labels": [
+            "shake",
+            "pfte-batch-1"
+        ],
+        "confidence": 16,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--da8e8059-ba19-4c6a-a625-746a38277f40",
+        "created_by_ref": "identity--c0926b00-e76c-49f2-9ffe-cb81463a4903",
+        "created": "2021-05-14T20:29:45.06202Z",
+        "modified": "2021-08-14T01:08:24.157226Z",
+        "relationship_type": "mitigates",
+        "description": "Learn number region out dark court. Claim behavior forget political protect.",
+        "source_ref": "course-of-action--1308f6bd-67b5-41ea-b05f-e567a5de7b9d",
+        "target_ref": "indicator--f6cc6563-66c9-48f4-a44a-4a3656f720a6",
+        "stop_time": "2020-08-30T08:59:26.878299Z",
+        "labels": [
+            "against",
+            "add",
+            "cost",
+            "PM",
+            "edge",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--232adaa2-6cf5-4079-b874-08e0df74a280",
+        "created_by_ref": "identity--c0926b00-e76c-49f2-9ffe-cb81463a4903",
+        "created": "2021-03-12T09:25:48.040817Z",
+        "modified": "2021-12-11T10:02:20.467572Z",
+        "name": "scene",
+        "context": "unspecified",
+        "object_refs": [
+            "course-of-action--1308f6bd-67b5-41ea-b05f-e567a5de7b9d",
+            "indicator--f6cc6563-66c9-48f4-a44a-4a3656f720a6",
+            "relationship--da8e8059-ba19-4c6a-a625-746a38277f40"
+        ],
+        "labels": [
+            "matter",
+            "time",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--c0926b00-e76c-49f2-9ffe-cb81463a4903",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-05-19T15:27:36.537435Z",
+        "modified": "2022-09-15T13:00:02.434353Z",
+        "name": "PlaySideConsider",
+        "description": "Streamlined needs-based implementation",
+        "sectors": [
+            "government-regional",
+            "government-regional",
+            "entertainment",
+            "government-national",
+            "government-local"
+        ],
+        "contact_information": "7531 Nicholas Island\nRomeromouth, SC 54733",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+        ]
+    }
+]

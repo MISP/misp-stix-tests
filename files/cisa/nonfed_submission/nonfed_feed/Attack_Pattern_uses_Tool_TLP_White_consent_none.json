@@ -1,0 +1,156 @@
+[
+    {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--21f49bf9-db52-4a60-88f0-abbe6cbf439a",
+        "created_by_ref": "identity--ae429a87-da0c-4b5b-988d-772b2bd587b2",
+        "created": "2020-10-17T10:19:20.765978Z",
+        "modified": "2021-08-14T01:08:12.335438Z",
+        "name": "better",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 24,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--c31f3b80-d265-43e0-a33a-70105ec41c85",
+        "created_by_ref": "identity--ae429a87-da0c-4b5b-988d-772b2bd587b2",
+        "created": "2020-12-08T01:56:43.627349Z",
+        "modified": "2021-11-29T02:50:41.566996Z",
+        "name": "TV",
+        "tool_types": [
+            "vulnerability-scanning",
+            "unknown",
+            "denial-of-service",
+            "information-gathering",
+            "exploitation"
+        ],
+        "aliases": [
+            "someone",
+            "body",
+            "make",
+            "sign",
+            "finish"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "family",
+                "external_id": "KTZntek"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--0a360b62-4a8e-484d-9148-437f31aeae7a",
+        "created_by_ref": "identity--ae429a87-da0c-4b5b-988d-772b2bd587b2",
+        "created": "2021-05-28T05:55:15.450205Z",
+        "modified": "2022-01-28T20:47:41.957429Z",
+        "relationship_type": "uses",
+        "source_ref": "attack-pattern--21f49bf9-db52-4a60-88f0-abbe6cbf439a",
+        "target_ref": "tool--c31f3b80-d265-43e0-a33a-70105ec41c85",
+        "start_time": "2021-04-11T11:50:02.17325Z",
+        "labels": [
+            "mission",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "structure",
+                "hashes": {
+                    "MD5": "cae1b311724e74bbab785782ac97b299",
+                    "SHA-1": "9194938ea5f566e2b905bb575b88c254e7cc0d46",
+                    "SHA-256": "d1cdfd5426e338d237b772e1a5f274b75026267bcb12dd452b257c35c38f51a4",
+                    "SHA-512": "cfa5adf6db058ced34a9a6e25d9977294ede76e658e25b836295f63b53eb1ad13d86d4960ca7f1109a994bd8be299d0721306de53efdc5cf60dc757b5203a2c5",
+                    "SHA3-256": "26ab1be55a5d057c1b6cb3ef90129dc464082a661b0c6d857d23cf7f43116833",
+                    "SHA3-512": "7cf2e3c8977c28497bd200d7638ba311230bc77138627bce6271943ae4fa7f4fef4aa14e1adba4967952156f613d6a9aa3ce31fb722eb7a0d9e2b7d5c9091d44"
+                },
+                "external_id": "ARqNcbIebi"
+            },
+            {
+                "source_name": "seek",
+                "description": "Herself alone budget town likely color.",
+                "url": "http://www.krueger.com/"
+            },
+            {
+                "source_name": "herself",
+                "url": "http://www.brown-reynolds.net/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--ae429a87-da0c-4b5b-988d-772b2bd587b2",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-07-15T14:59:35.263628Z",
+        "modified": "2023-01-24T14:13:03.644035Z",
+        "name": "FireMeanFive",
+        "roles": [
+            "artist",
+            "official",
+            "peace"
+        ],
+        "identity_class": "group",
+        "sectors": [
+            "chemical",
+            "entertainment",
+            "government-regional",
+            "education"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 38,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "do",
+                "description": "Laugh situation among already need past responsibility.",
+                "url": "https://jones.org/",
+                "hashes": {
+                    "MD5": "3220f18edaccb857e721b3eaad1dac83",
+                    "SHA-1": "aa38c9863b5b7cbe3357254ef62f3addf5e578ee",
+                    "SHA-256": "766cf780e5d25d9a726b4358816a3afdf73781beb11c0a351d0684b72c34c0c4",
+                    "SHA-512": "9b407f00c682708a39a13e230608151f9c048825f8344304c6067d7faf57cb4c5d6721c7eb43b6171adb700a6b3fa4f9c0a5d3d11f923df56b3ac5cd54228bb0",
+                    "SHA3-256": "73679e86bf0187b8c457ca6ede343eaec97b3c6e25c3a2d112e7eef1333d14c6",
+                    "SHA3-512": "5a5b56d3fc2cb323b021f3730b335342d354ce654a69243357ff5b9dcab7d1d1b56b94a9d5df9283004d2942fd89a5b39bef0fa7df3028b4106923c93b0655d5"
+                },
+                "external_id": "plxroBkd"
+            },
+            {
+                "source_name": "along",
+                "description": "Rule among season discussion.",
+                "hashes": {
+                    "MD5": "284df449de4b558ecdffecaf6dba0517",
+                    "SHA-1": "2fb47b5457bd13268f1dce34ec3bc06cd26c1464",
+                    "SHA-256": "14ccd42ac61b45a771e9d786345ca5ce411b3b1e57015e1e89581dca67a59bdd",
+                    "SHA-512": "575776d903ba9f207a32094b117408492097a5ec39365c76647e4ba2908caf35337aded0ed2b8c3601f151af2673f9bc842020fe118fa227db048dc26be589ed",
+                    "SHA3-256": "e7b2fbe06e7d762df23dd911d80c5763845b99c0ffd4af484381d40ba5f63cfd",
+                    "SHA3-512": "86d6d06dbe922e0ef55b24a1694ae09ba3db2308d6b8661c5cadb121fe372b170eb1f52bf0f2a22f32e44a801d97b3d8ebc5b363a957628b7aa6ed203d748186"
+                },
+                "external_id": "SpUjyBUTXStzu"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+        ]
+    }
+]

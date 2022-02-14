@@ -1,0 +1,218 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--a569df29-6516-4cc4-823e-08f47a3188fd",
+        "created_by_ref": "identity--e2cfa34e-c528-41fb-9c89-482804223e2d",
+        "created": "2021-06-06T13:24:15.863896Z",
+        "modified": "2022-04-16T09:15:40.715474Z",
+        "name": "adult",
+        "description": "Network music remain environmental participant.",
+        "indicator_types": [
+            "compromised",
+            "compromised",
+            "anomalous-activity"
+        ],
+        "pattern": "[ipv6-addr:value = 'dbce:5e86:204a:3e24:4fdc:e76c:bd68:d0ef'] AND [directory:defanged NOT = false] AND ([(mutex:defanged = false) AND mutex:defanged NOT = false]) REPEATS 8 TIMES",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-08-19T01:16:32.847948Z",
+        "valid_until": "2020-10-16T19:22:18.920465Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "weaponization"
+            }
+        ],
+        "labels": [
+            "sense",
+            "modern",
+            "most",
+            "pfte-batch-1"
+        ],
+        "confidence": 97,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "class",
+                "description": "Common growth prepare yourself us turn.",
+                "url": "http://yu.net/",
+                "external_id": "QTGpk"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--cd3ba25f-0eff-426d-a522-9ec9837210ee"
+        ]
+    },
+    {
+        "type": "tool",
+        "spec_version": "2.1",
+        "id": "tool--c888958a-89fe-40f3-b3f0-f272e5e8e66d",
+        "created_by_ref": "identity--e2cfa34e-c528-41fb-9c89-482804223e2d",
+        "created": "2021-03-11T13:39:05.663657Z",
+        "modified": "2021-08-14T01:08:35.667966Z",
+        "name": "decade",
+        "tool_types": [
+            "credential-exploitation",
+            "exploitation",
+            "unknown",
+            "denial-of-service"
+        ],
+        "tool_version": "appear",
+        "labels": [
+            "general",
+            "people",
+            "drive",
+            "when",
+            "police",
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--cd3ba25f-0eff-426d-a522-9ec9837210ee"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--6a6fccbb-f522-4763-96a5-7ff3c7a15fc6",
+        "created_by_ref": "identity--e2cfa34e-c528-41fb-9c89-482804223e2d",
+        "created": "2022-01-21T17:15:06.385556Z",
+        "modified": "2022-08-29T20:51:13.916716Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--a569df29-6516-4cc4-823e-08f47a3188fd",
+        "target_ref": "tool--c888958a-89fe-40f3-b3f0-f272e5e8e66d",
+        "start_time": "2021-04-22T06:59:59.908023Z",
+        "stop_time": "2021-08-22T05:49:40.061625Z",
+        "labels": [
+            "once",
+            "fast",
+            "pattern",
+            "exist",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "if",
+                "description": "First ready eight reduce series.",
+                "external_id": "IFDPOkHJLWrAghbYwHGY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--cd3ba25f-0eff-426d-a522-9ec9837210ee"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--e2cfa34e-c528-41fb-9c89-482804223e2d",
+        "created_by_ref": "identity--e2cfa34e-c528-41fb-9c89-482804223e2d",
+        "created": "2021-07-31T13:02:35.213742Z",
+        "modified": "2022-04-22T07:54:02.582733Z",
+        "name": "Miller Ltd",
+        "description": "Cross-group multi-tasking Graphical User Interface",
+        "roles": [
+            "difference",
+            "matter",
+            "wonder",
+            "notice",
+            "scene"
+        ],
+        "identity_class": "group",
+        "sectors": [
+            "construction"
+        ],
+        "contact_information": "6827 Eric Roads\nPort Michael, IA 15524",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "confidence": 97,
+        "external_references": [
+            {
+                "source_name": "down",
+                "description": "Capital individual spend strong.",
+                "url": "http://martin.com/"
+            },
+            {
+                "source_name": "it",
+                "description": "Star size tell color attention mission.",
+                "url": "https://shields.com/"
+            },
+            {
+                "source_name": "enter",
+                "hashes": {
+                    "MD5": "b3b7abaae2aa938130ba375ea9270347",
+                    "SHA-1": "b40a639627f3bbd62d8c21a254976124ba4294ab",
+                    "SHA-256": "5ec462add82e6249c81aea07e9d270d661ecfb3618f9c2c908c740eda5ed6712",
+                    "SHA-512": "d38121c6a2e7e4f68adacd30d97dc38beec1123cbe36b98fd3367cb57127aff8c1d6a2d5e1c0da8afe9b97699afd1d1644f2c2dfd5945e8e176996bdf3af7f9e",
+                    "SHA3-256": "b023c3cd4bc8b1a368fea8d03f1f20944d2f3cbe4b826583e441bff0a65fea09",
+                    "SHA3-512": "a99fbadf28355b7dec312c59826ca73842d29a1de806f68e47d7ade4ad13c37c21c10f9ea8b0b87c57f139e6e24e2d80e81d59263a86d22542d8275d325a0975"
+                },
+                "external_id": "NbJDgrZV"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--cd3ba25f-0eff-426d-a522-9ec9837210ee"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--cd3ba25f-0eff-426d-a522-9ec9837210ee",
+        "created": "2021-08-14T01:08:35.664469Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-e0c28f68-5570-434a-9764-3e8498f0a59a",
+                "name": "Serve much idea usually",
+                "create_date_time": "2021-08-14T01:08:08.432065Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

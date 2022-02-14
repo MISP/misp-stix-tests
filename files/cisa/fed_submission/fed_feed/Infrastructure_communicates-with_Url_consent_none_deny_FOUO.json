@@ -1,0 +1,151 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--b1e95407-16fa-4e80-8fe6-b0c17abf0103",
+        "created_by_ref": "identity--264e9c08-bf5e-4903-b56c-77bfeee6e426",
+        "created": "2020-12-27T16:50:14.515795Z",
+        "modified": "2021-08-14T01:08:41.557868Z",
+        "name": "recently",
+        "description": "Special determine available arrive fine plan win.",
+        "infrastructure_types": [
+            "hosting-malware",
+            "hosting-malware",
+            "exfiltration",
+            "hosting-target-lists",
+            "firewall"
+        ],
+        "aliases": [
+            "available",
+            "sort",
+            "candidate",
+            "defense",
+            "improve"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "FOPYTBLO",
+                "phase_name": "HuZgQTRpwCKBWI"
+            }
+        ],
+        "confidence": 69,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a969962d-51ab-41bd-9c17-f81eca50ec42"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "url",
+        "spec_version": "2.1",
+        "id": "url--3e251eb7-34e9-4978-941f-119418aeec6f",
+        "value": "http://www.ramos-monroe.com/",
+        "object_marking_refs": [
+            "marking-definition--a969962d-51ab-41bd-9c17-f81eca50ec42"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--118ce4cb-ac7c-4382-9622-d83c03f4124c",
+        "created_by_ref": "identity--264e9c08-bf5e-4903-b56c-77bfeee6e426",
+        "created": "2021-09-24T22:51:58.632251Z",
+        "modified": "2022-08-14T10:22:27.79121Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--b1e95407-16fa-4e80-8fe6-b0c17abf0103",
+        "target_ref": "url--3e251eb7-34e9-4978-941f-119418aeec6f",
+        "labels": [
+            "because",
+            "will",
+            "trouble",
+            "what",
+            "say",
+            "pfte-batch-1"
+        ],
+        "confidence": 86,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a969962d-51ab-41bd-9c17-f81eca50ec42"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--264e9c08-bf5e-4903-b56c-77bfeee6e426",
+        "created_by_ref": "identity--264e9c08-bf5e-4903-b56c-77bfeee6e426",
+        "created": "2020-12-23T11:41:08.736441Z",
+        "modified": "2021-08-14T01:08:41.558425Z",
+        "name": "Gibson, Brewer and Mcdonald",
+        "identity_class": "unknown",
+        "sectors": [
+            "entertainment",
+            "manufacturing",
+            "government",
+            "government-regional"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--a969962d-51ab-41bd-9c17-f81eca50ec42"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--a969962d-51ab-41bd-9c17-f81eca50ec42",
+        "created": "2021-08-14T01:08:41.557225Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-1946efc8-a2e0-46a4-bb9a-691cbe16f041",
+                "name": "Home politics letter yes consider",
+                "create_date_time": "2021-08-14T01:08:08.424111Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "FOUO",
+                        "AIS"
+                    ]
+                }
+            }
+        }
+    }
+]

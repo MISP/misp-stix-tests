@@ -1,0 +1,198 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--f7a0512d-ac02-4d18-b732-5df1f1374bab",
+        "created_by_ref": "identity--83629fab-879f-4979-90ea-828ef76c0193",
+        "created": "2021-12-26T07:46:13.234236Z",
+        "modified": "2022-10-08T19:56:57.336204Z",
+        "name": "its",
+        "description": "Fast image expect pull away table several bit.",
+        "pattern": "[autonomous-system:rir <= 'Green Inc']",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2020-10-07T22:52:00.997906Z",
+        "valid_until": "2020-11-14T12:39:23.063512Z",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "sdxUJtfyv",
+                "phase_name": "QLZboyXrjPSW"
+            },
+            {
+                "kill_chain_name": "yMfiFY",
+                "phase_name": "FDetnLwyvXTvMDYO"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "delivery"
+            },
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "installation"
+            }
+        ],
+        "labels": [
+            "drug",
+            "into",
+            "pfte-batch-1"
+        ],
+        "confidence": 25,
+        "object_marking_refs": [
+            "marking-definition--5411ed67-058e-404e-9eb8-78f7dc2067ff"
+        ]
+    },
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--478726db-507d-4cfa-b92d-91de7cf0e923",
+        "created_by_ref": "identity--83629fab-879f-4979-90ea-828ef76c0193",
+        "created": "2022-06-22T17:45:37.147755Z",
+        "modified": "2023-03-04T07:53:43.442545Z",
+        "name": "prepare",
+        "last_seen": "2021-02-21T11:02:46.971305Z",
+        "confidence": 75,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--5411ed67-058e-404e-9eb8-78f7dc2067ff"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--adf1e32a-5893-4254-9863-38fd93541eb7",
+        "created_by_ref": "identity--83629fab-879f-4979-90ea-828ef76c0193",
+        "created": "2021-05-17T23:49:36.596376Z",
+        "modified": "2021-08-14T01:08:29.719577Z",
+        "relationship_type": "indicates",
+        "description": "Doctor almost these necessary. Without site certainly employee wife. Food represent realize campaign.",
+        "source_ref": "indicator--f7a0512d-ac02-4d18-b732-5df1f1374bab",
+        "target_ref": "campaign--478726db-507d-4cfa-b92d-91de7cf0e923",
+        "stop_time": "2021-11-18T17:52:34.112884Z",
+        "labels": [
+            "agreement",
+            "out",
+            "significant",
+            "assume",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--5411ed67-058e-404e-9eb8-78f7dc2067ff"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--83629fab-879f-4979-90ea-828ef76c0193",
+        "created_by_ref": "identity--83629fab-879f-4979-90ea-828ef76c0193",
+        "created": "2022-07-20T04:33:13.955649Z",
+        "modified": "2023-03-11T03:41:06.547271Z",
+        "name": "Noble Ltd",
+        "roles": [
+            "his"
+        ],
+        "sectors": [
+            "chemical",
+            "aerospace"
+        ],
+        "contact_information": "4058 George Mountain\nPort James, KY 46566",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "opportunity",
+                "description": "Minute natural ball activity wind.",
+                "external_id": "OIWXiFpvYfhZozxdZ"
+            },
+            {
+                "source_name": "size",
+                "url": "http://ray-barnett.com/",
+                "external_id": "eKDsxVgW"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--5411ed67-058e-404e-9eb8-78f7dc2067ff"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--5411ed67-058e-404e-9eb8-78f7dc2067ff",
+        "created": "2021-08-14T01:08:29.717621Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-b6e02fdc-1bc2-4bf7-88bf-58ec1e8c0a26",
+                "name": "Eye set happy strong city way",
+                "create_date_time": "2021-08-14T01:08:08.434259Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.NCCIC",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.434092Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    },
+                    {
+                        "privilege_action": "IDSRC",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

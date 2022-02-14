@@ -1,0 +1,102 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--4059cd52-2b48-437e-b455-4a43c74cae1e",
+        "created_by_ref": "identity--a4215cd1-69fb-4d4e-b5a0-1fe455ba0dc7",
+        "created": "2021-07-07T23:04:54.979977Z",
+        "modified": "2021-10-29T15:02:35.331566Z",
+        "name": "just",
+        "description": "Color discuss safe add.",
+        "first_seen": "2020-06-07T22:00:33.156316Z",
+        "last_seen": "2020-12-08T08:00:43.828096Z",
+        "objective": "He everyone knowledge sound live indicate reality.",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "confidence": 49,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--8b9de0ed-20f5-4b28-9ca9-908b92da6a5b",
+        "created_by_ref": "identity--a4215cd1-69fb-4d4e-b5a0-1fe455ba0dc7",
+        "created": "2021-01-27T11:36:01.83673Z",
+        "modified": "2021-12-03T13:02:11.214701Z",
+        "name": "buy",
+        "first_seen": "2021-05-13T23:28:12.427498Z",
+        "last_seen": "2022-04-05T01:21:57.615497Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--cc15e5bb-3be8-4c42-bcd8-748a81d8a16c",
+        "created_by_ref": "identity--a4215cd1-69fb-4d4e-b5a0-1fe455ba0dc7",
+        "created": "2020-10-19T14:14:03.301256Z",
+        "modified": "2021-09-29T10:34:23.426251Z",
+        "relationship_type": "compromises",
+        "description": "Sing night policy music what imagine too. Draw glass move me hear western land box.",
+        "source_ref": "campaign--4059cd52-2b48-437e-b455-4a43c74cae1e",
+        "target_ref": "infrastructure--8b9de0ed-20f5-4b28-9ca9-908b92da6a5b",
+        "stop_time": "2020-08-30T00:42:24.599621Z",
+        "labels": [
+            "pfte-batch-1"
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--a4215cd1-69fb-4d4e-b5a0-1fe455ba0dc7",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2022-03-25T14:24:44.144085Z",
+        "modified": "2022-09-02T03:01:48.725607Z",
+        "name": "MakeEstablishExecutive",
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "face",
+                "url": "http://barnett.com/",
+                "hashes": {
+                    "MD5": "8359cb5c02bcba14304f67b739daaaa6",
+                    "SHA-1": "8eb79730afbdefff517b4290562d60df84c241b5",
+                    "SHA-256": "4db41568d747ca68df19ff91490cd46e3767f4bc8894d5b62406903530e4ac51",
+                    "SHA-512": "cfb3c494ad963d0d1761fc2a883b1daec42c6a2f443a1034477a622ae2fcd61227fe54c0eed2d9e97eee406047fc1b03781df1c0bf68c4793cf0b64981bbc6f5",
+                    "SHA3-256": "dac573e663d2eb3d3082ca9ca4170f240a603c480886a5b5f20705c42b23b0ac",
+                    "SHA3-512": "a666b7cb55e02237b1496f8061152fa4d7bbfc47e514ce6c3c2b62740cde8348e74f2fe593c41e74053f97c545bc753debccb7a1bb2b169f535f272cc6dcfcfc"
+                }
+            },
+            {
+                "source_name": "cup",
+                "description": "Security customer term line seek.",
+                "hashes": {
+                    "MD5": "218a8901b640cd0952ec38c32aab34e8",
+                    "SHA-1": "4df2a4e61c079588dd6458550e50c93aeb4ac659",
+                    "SHA-256": "e637a189b048e747a3482f6c553c5ef9a1c957eab65135f46b5f4cee0a4b2e34",
+                    "SHA-512": "6f20db91075b92918f2ca0a52e6a6e2f1c0898ad4025931f0ca388a55d54917060ad1ff3db6194c657cf926ed01b41d09ef1dcc5ea9e1ada5e57918f2c16f79d",
+                    "SHA3-256": "ce865060aa07df69e0b85ef1e1dc997beafc4cf7c39d207055eb3cdb3b43f4b3",
+                    "SHA3-512": "c8f2ae4d5c5c52ad7e68c5080db19658c3c20a827c6a440c41fa1f54e21520333d3b540c8d4ebc67d2e354aa6f8fca3b2c0af5849156666315aea67dede50511"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+        ]
+    }
+]

@@ -1,0 +1,247 @@
+[
+    {
+        "type": "infrastructure",
+        "spec_version": "2.1",
+        "id": "infrastructure--ef3b046b-857d-4745-8959-b02ed1c02b03",
+        "created_by_ref": "identity--96e74f01-2514-47ec-91e5-ba42986c6bb7",
+        "created": "2022-07-18T06:23:27.488145Z",
+        "modified": "2022-09-26T11:35:06.733468Z",
+        "name": "pattern",
+        "infrastructure_types": [
+            "workstation",
+            "firewall",
+            "reconnaissance",
+            "exfiltration"
+        ],
+        "aliases": [
+            "front",
+            "sometimes"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "oxKytAnPwHdS",
+                "phase_name": "pVsYCdXZuyDgJt"
+            },
+            {
+                "kill_chain_name": "AuYgTRGCb",
+                "phase_name": "PfdftvGZadrnLCHG"
+            },
+            {
+                "kill_chain_name": "JmgtYoyieiUXFTNrX",
+                "phase_name": "CtJJaWbhQTrmJ"
+            },
+            {
+                "kill_chain_name": "ZvyTfLtBQBjhJ",
+                "phase_name": "vqrvOe"
+            },
+            {
+                "kill_chain_name": "mjuImFYhV",
+                "phase_name": "FBRCJuFonzAh"
+            }
+        ],
+        "labels": [
+            "source",
+            "prevent",
+            "across",
+            "follow",
+            "pfte-batch-1"
+        ],
+        "confidence": 49,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "girl",
+                "description": "Industry never alone but.",
+                "external_id": "iYvefOnfQiwqRtukzpX"
+            },
+            {
+                "source_name": "mission",
+                "description": "Century large off chance approach personal commercial.",
+                "external_id": "XdSAcfkFOBbBxRWj"
+            },
+            {
+                "source_name": "large",
+                "description": "In view seven clearly lot arrive service.",
+                "external_id": "XciCnU"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--624898a2-4b93-4c92-8dfc-96a8121514fc"
+        ]
+    },
+    {
+        "type": "ipv6-addr",
+        "spec_version": "2.1",
+        "id": "ipv6-addr--f9b4b657-e990-4ef1-96db-04c47eab2504",
+        "value": "91e6:6532:17f1:e4d8:67a9:88f5:26d7:9810",
+        "object_marking_refs": [
+            "marking-definition--624898a2-4b93-4c92-8dfc-96a8121514fc"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--bffb8fe4-158f-4e33-b2d8-920f0bdb8ff9",
+        "created_by_ref": "identity--96e74f01-2514-47ec-91e5-ba42986c6bb7",
+        "created": "2021-11-18T11:16:29.229775Z",
+        "modified": "2022-05-13T19:06:40.152635Z",
+        "relationship_type": "communicates-with",
+        "source_ref": "infrastructure--ef3b046b-857d-4745-8959-b02ed1c02b03",
+        "target_ref": "ipv6-addr--f9b4b657-e990-4ef1-96db-04c47eab2504",
+        "start_time": "2020-11-01T18:38:07.070747Z",
+        "stop_time": "2021-02-28T06:01:08.69915Z",
+        "labels": [
+            "above",
+            "pfte-batch-1"
+        ],
+        "confidence": 77,
+        "object_marking_refs": [
+            "marking-definition--624898a2-4b93-4c92-8dfc-96a8121514fc"
+        ]
+    },
+    {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--86936c4f-ff83-4927-b68a-07370e192eb3",
+        "created_by_ref": "identity--96e74f01-2514-47ec-91e5-ba42986c6bb7",
+        "created": "2020-12-17T03:27:56.637692Z",
+        "modified": "2021-08-31T08:06:25.183917Z",
+        "name": "job",
+        "description": "Issue story line plant. Hour particular discover bad nature occur past. Guess knowledge street least set item.",
+        "report_types": [
+            "indicator"
+        ],
+        "published": "2020-09-10T10:18:49.152546Z",
+        "object_refs": [
+            "infrastructure--ef3b046b-857d-4745-8959-b02ed1c02b03",
+            "ipv6-addr--f9b4b657-e990-4ef1-96db-04c47eab2504",
+            "relationship--bffb8fe4-158f-4e33-b2d8-920f0bdb8ff9"
+        ],
+        "labels": [
+            "skin",
+            "pfte-batch-1"
+        ],
+        "confidence": 89,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "change",
+                "description": "Large during into safe big page by.",
+                "url": "http://www.greer.net/",
+                "hashes": {
+                    "MD5": "9a0318bd95caf09b2bf8f201d4aa5b68",
+                    "SHA-1": "e6a00135c62034c38e5e528bcdb2abc7ee841f36",
+                    "SHA-256": "d6c85dfe6f50a4cb1d2f2ff2de1817cde650e78251bf1cd4a7651b5e807de010",
+                    "SHA-512": "ed97239f74f5ab337c8f226c76f8b7684f2b4fcf499b28707518d13a1914a7cedf62fa7e672bd64ad160b245400bb3ebfaa148d9b966eff462439258576123e6",
+                    "SHA3-256": "f912520eaa30ded25db5934d423f60e0d096315b4712cce792bf019d771fd62d",
+                    "SHA3-512": "875971bd91bc0e01f832568aa933e1a7e211f1962dba570161f6952b8e8d8389f75977501468aa330d1763dbeefa5419c9e45f20ae19c6d3f6daaf732fbadc41"
+                },
+                "external_id": "GiTTnzACaRTVpNeqIvv"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--624898a2-4b93-4c92-8dfc-96a8121514fc"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--96e74f01-2514-47ec-91e5-ba42986c6bb7",
+        "created_by_ref": "identity--96e74f01-2514-47ec-91e5-ba42986c6bb7",
+        "created": "2021-10-19T09:17:43.187452Z",
+        "modified": "2022-09-19T21:51:24.485694Z",
+        "name": "Vasquez-Robinson",
+        "description": "Reverse-engineered motivating architecture",
+        "roles": [
+            "lead",
+            "build",
+            "administration"
+        ],
+        "sectors": [
+            "government-regional",
+            "non-profit",
+            "mining"
+        ],
+        "contact_information": "PSC 4818, Box 9709\nAPO AA 66878",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "external_references": [
+            {
+                "source_name": "realize",
+                "description": "Fight sometimes somebody.",
+                "hashes": {
+                    "MD5": "63882f3fb582b0ace685d74c3fd5564d",
+                    "SHA-1": "3b587e5307ff5fe654494a870d9ef5ead4e7ce3a",
+                    "SHA-256": "2787ff0631877ec493e57fef809799987a5ab8ba29edad8fb4797f7c56d12026",
+                    "SHA-512": "9992620447ff5f952943a9b94d3972f8d90fcc7c97c06f247ce1aee8628e38d26c715cb320f3505fa89451c2144dfcc89dbfaea6d8b6640ec9fc0adccdec6aec",
+                    "SHA3-256": "54ad0efdd44035e7362ac09948e74077630da6f3f2720858b1f1876291107e81",
+                    "SHA3-512": "7be86311225b18488adc70ac78f01314d3525cfb1095dbf7503ce481e3b9a46ab93649a5cd210ef918e2f732467b2ed7cec634ce4183a60057e0725cad624e37"
+                },
+                "external_id": "bibMBLWBBoGYY"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--624898a2-4b93-4c92-8dfc-96a8121514fc"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--624898a2-4b93-4c92-8dfc-96a8121514fc",
+        "created": "2021-08-14T01:08:40.578129Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-7114ed24-0991-4631-bb44-7704e6b690d1",
+                "name": "Traditional contain thing officer story",
+                "create_date_time": "2021-08-14T01:08:08.432511Z",
+                "responsible_entity_custodian": "USA.DHS.US-CERT",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.US-CERT",
+                    "released_on": "2021-08-14T01:08:08.432344Z"
+                },
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

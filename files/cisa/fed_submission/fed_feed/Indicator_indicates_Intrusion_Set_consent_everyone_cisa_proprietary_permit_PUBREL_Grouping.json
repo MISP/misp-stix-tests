@@ -1,0 +1,200 @@
+[
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--604a0b3c-4278-4e05-9c86-20a5e82d5d97",
+        "created_by_ref": "identity--707d1a21-024e-4b7f-ad36-3725d3e2910d",
+        "created": "2020-11-28T01:41:26.579408Z",
+        "modified": "2021-08-14T01:08:32.054623Z",
+        "name": "three",
+        "description": "Myself not follow speak provide.",
+        "indicator_types": [
+            "unknown",
+            "attribution",
+            "unknown",
+            "anonymization"
+        ],
+        "pattern": "[network-traffic:src_byte_count > 131878]",
+        "pattern_type": "stix",
+        "pattern_version": "2.1",
+        "valid_from": "2022-02-11T01:12:28.412441Z",
+        "confidence": 37,
+        "object_marking_refs": [
+            "marking-definition--47cb51ab-91e5-40e5-9306-d410b55bc6e5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "intrusion-set",
+        "spec_version": "2.1",
+        "id": "intrusion-set--e6c4926e-574e-4dd1-8667-5fd74b016617",
+        "created_by_ref": "identity--707d1a21-024e-4b7f-ad36-3725d3e2910d",
+        "created": "2020-10-22T06:52:41.257419Z",
+        "modified": "2021-08-14T01:08:32.055516Z",
+        "name": "politics",
+        "description": "Force rock discuss stuff.",
+        "aliases": [
+            "nice",
+            "between"
+        ],
+        "first_seen": "2021-11-08T06:42:12.100266Z",
+        "last_seen": "2021-12-10T16:46:55.488443Z",
+        "goals": [
+            "Movement thank central miss air fact.",
+            "Help interesting around.",
+            "Court attention modern condition."
+        ],
+        "resource_level": "organization",
+        "labels": [
+            "beyond",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--47cb51ab-91e5-40e5-9306-d410b55bc6e5"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--d6f4f1f2-3c21-4bd1-98ac-ee1a8a901812",
+        "created_by_ref": "identity--707d1a21-024e-4b7f-ad36-3725d3e2910d",
+        "created": "2021-12-11T08:43:42.341062Z",
+        "modified": "2022-08-12T22:55:02.579122Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--604a0b3c-4278-4e05-9c86-20a5e82d5d97",
+        "target_ref": "intrusion-set--e6c4926e-574e-4dd1-8667-5fd74b016617",
+        "start_time": "2021-12-18T07:55:51.577008Z",
+        "stop_time": "2022-08-11T07:35:58.361277Z",
+        "confidence": 89,
+        "object_marking_refs": [
+            "marking-definition--47cb51ab-91e5-40e5-9306-d410b55bc6e5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "grouping",
+        "spec_version": "2.1",
+        "id": "grouping--7d92a1d5-dbd0-42d8-9024-415f7dad47db",
+        "created_by_ref": "identity--707d1a21-024e-4b7f-ad36-3725d3e2910d",
+        "created": "2022-07-11T10:49:47.560876Z",
+        "modified": "2022-09-04T11:50:10.981495Z",
+        "name": "argue",
+        "description": "Individual picture simple rule every economic wall wind.",
+        "context": "malware-analysis",
+        "object_refs": [
+            "indicator--604a0b3c-4278-4e05-9c86-20a5e82d5d97",
+            "intrusion-set--e6c4926e-574e-4dd1-8667-5fd74b016617",
+            "relationship--d6f4f1f2-3c21-4bd1-98ac-ee1a8a901812"
+        ],
+        "confidence": 77,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--47cb51ab-91e5-40e5-9306-d410b55bc6e5"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--707d1a21-024e-4b7f-ad36-3725d3e2910d",
+        "created_by_ref": "identity--707d1a21-024e-4b7f-ad36-3725d3e2910d",
+        "created": "2022-03-10T07:38:02.360011Z",
+        "modified": "2023-03-03T03:34:18.018166Z",
+        "name": "Webb-Mccoy",
+        "description": "Operative optimizing collaboration",
+        "roles": [
+            "clearly",
+            "shake",
+            "cell",
+            "weight",
+            "oil"
+        ],
+        "sectors": [
+            "healthcare",
+            "government-public-services",
+            "emergency-services"
+        ],
+        "contact_information": "224 Allen Fords\nWest Theodore, NJ 20147",
+        "labels": [
+            "ais-consent-everyone-cisa-proprietary",
+            "pfte-batch-1"
+        ],
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "mind",
+                "description": "Structure between particular summer policy son scientist.",
+                "url": "https://phillips-anthony.com/",
+                "external_id": "PkjZtufDVUCo"
+            },
+            {
+                "source_name": "under",
+                "description": "Name dog country.",
+                "url": "https://www.smith-rich.com/",
+                "hashes": {
+                    "MD5": "e6226d17bbc698454368a6d3ded8fac5",
+                    "SHA-1": "279c7d8bc8cba3484045505bb48d6ff827e21385",
+                    "SHA-256": "afd6432d5ce968fe14f9c7a70ece322a65c1f401c01ee3c16c52727ffdc50f56",
+                    "SHA-512": "7301d363e3e8e76e0355e0833f29f1f24f11191d5365da064c069485900f8c39cbb5fe5762808c286473148508a7927afb2909ba5acf1570f61f11d5011e61b7",
+                    "SHA3-256": "389e101a7fbd65ae01f1afd8c7c536904ef0bd31b643a76bdd3a0e1745dc04e9",
+                    "SHA3-512": "3c0bca7bd1e06d5bcc7fa29a49f28826a0b64cf51e3edf9c322c83b1564e8510da4e41ba78b1460424acc8a53dcf58322b29f0583571e700ca84712940761851"
+                },
+                "external_id": "XLiKaOZIfaRt"
+            },
+            {
+                "source_name": "strong",
+                "description": "Popular religious agent campaign with peace itself since.",
+                "url": "http://www.kim-ramirez.org/",
+                "external_id": "uhEfrKwW"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--47cb51ab-91e5-40e5-9306-d410b55bc6e5"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--47cb51ab-91e5-40e5-9306-d410b55bc6e5",
+        "created": "2021-08-14T01:08:32.054096Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-716f5d31-4760-4ed1-b8df-6b76bb19bd34",
+                "name": "Wife plan yourself training yet rich",
+                "create_date_time": "2021-08-14T01:08:08.43336Z",
+                "responsible_entity_custodian": "USA.DHS.NCCIC",
+                "responsible_entity_originator": "USA.DHS.US-CERT",
+                "authority_reference": [
+                    "urn:isa:authority:misa"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=permit&sharedefault=permit",
+                "public_release": {
+                    "released_by": "USA.DHS.NCCIC",
+                    "released_on": "2021-08-14T01:08:08.433196Z"
+                },
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "PUBREL"
+                    ]
+                }
+            }
+        }
+    }
+]

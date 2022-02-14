@@ -1,0 +1,225 @@
+[
+    {
+        "type": "campaign",
+        "spec_version": "2.1",
+        "id": "campaign--795aa166-e295-47a0-8e06-59247a13c803",
+        "created_by_ref": "identity--297f229e-7f82-4628-bf7b-6c4a5b156180",
+        "created": "2020-10-19T22:43:11.026303Z",
+        "modified": "2021-08-14T01:08:16.069554Z",
+        "name": "particularly",
+        "aliases": [
+            "wear",
+            "main",
+            "you",
+            "value",
+            "simple"
+        ],
+        "first_seen": "2020-09-15T21:11:36.425439Z",
+        "last_seen": "2020-11-04T20:36:59.651388Z",
+        "confidence": 33,
+        "lang": "en",
+        "external_references": [
+            {
+                "source_name": "should",
+                "description": "Southern point next face art look.",
+                "url": "https://www.pierce.org/"
+            },
+            {
+                "source_name": "reduce",
+                "description": "Everything morning by type reveal discover.",
+                "url": "http://www.valdez-burns.com/",
+                "hashes": {
+                    "MD5": "4c943b75e7699f6deebf3387af674379",
+                    "SHA-1": "151f1b1020100fbbdb425fe95c9827628378ab11",
+                    "SHA-256": "e87e215dd64ce3a8e9506a0657ed39e295c876169b45be49bda553a55a8359fa",
+                    "SHA-512": "ca230835ce73ae73231d96aff7e4cd7f0beca5d2108a8c4b5766f50b966fda7b7234e1f51299e41a5c0bb295e9e355dcf6275e8dd68747f7cf8d6861ea770415",
+                    "SHA3-256": "54cd130631b7ad3a15d8dc06f5a982d8c636af2895c1c49b7877d9919e97f9e7",
+                    "SHA3-512": "7d8cf4d95bb999e314506fe2eb0648ed5e12dc96837f219f6d6262f994547406b83b44b4423d9d3a6db34cc7db6871e439ecc23d63fe1b75b8794c9bc976f0fd"
+                },
+                "external_id": "RyQpaLihJZSjIuEQWlb"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7191bbc3-d86c-4e42-b8d2-86a12739da44"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--bbb3db71-c90e-42cb-9956-c9e92bf366d5",
+        "created_by_ref": "identity--297f229e-7f82-4628-bf7b-6c4a5b156180",
+        "created": "2021-08-01T03:47:30.824937Z",
+        "modified": "2021-10-17T13:12:19.507578Z",
+        "name": "Brown Group",
+        "roles": [
+            "knowledge",
+            "day",
+            "pass",
+            "glass"
+        ],
+        "identity_class": "group",
+        "sectors": [
+            "insurance",
+            "dams",
+            "hospitality-leisure"
+        ],
+        "contact_information": "637 Brandy Cliffs Apt. 430\nFritzport, VA 13714",
+        "confidence": 85,
+        "lang": "en",
+        "object_marking_refs": [
+            "marking-definition--7191bbc3-d86c-4e42-b8d2-86a12739da44"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "spec_version": "2.1",
+        "id": "relationship--e42fcf5e-2cdd-4885-840a-5ca92b30c6d1",
+        "created_by_ref": "identity--297f229e-7f82-4628-bf7b-6c4a5b156180",
+        "created": "2020-05-18T21:56:39.679115Z",
+        "modified": "2021-08-14T01:08:16.070061Z",
+        "relationship_type": "targets",
+        "source_ref": "campaign--795aa166-e295-47a0-8e06-59247a13c803",
+        "target_ref": "identity--bbb3db71-c90e-42cb-9956-c9e92bf366d5",
+        "object_marking_refs": [
+            "marking-definition--7191bbc3-d86c-4e42-b8d2-86a12739da44"
+        ],
+        "labels": [
+            "pfte-batch-1"
+        ]
+    },
+    {
+        "type": "marking-definition",
+        "spec_version": "2.1",
+        "id": "marking-definition--7191bbc3-d86c-4e42-b8d2-86a12739da44",
+        "created_by_ref": "identity--297f229e-7f82-4628-bf7b-6c4a5b156180",
+        "created": "2021-08-14T01:08:16.068784Z",
+        "extensions": {
+            "extension-definition--3a65884d-005a-4290-8335-cb2d778a83ce": {
+                "extension_type": "property-extension",
+                "identifier": "isa:guide.19001.ACS3-6f258483-31e6-4810-a3a3-83f9297fcea8",
+                "name": "Individual personal with know",
+                "create_date_time": "2021-08-14T01:08:08.419751Z",
+                "responsible_entity_custodian": "USA.DHS.CISA",
+                "responsible_entity_originator": "NONFED",
+                "authority_reference": [
+                    "urn:isa:authority:ais"
+                ],
+                "policy_reference": "urn:isa:policy:acs:ns:v3.0?privdefault=deny&sharedefault=deny",
+                "access_privilege": [
+                    {
+                        "privilege_action": "CISAUSES",
+                        "privilege_scope": {
+                            "permitted_nationalities": [
+                                "ALL"
+                            ],
+                            "permitted_organizations": [
+                                "ALL"
+                            ],
+                            "shareability": [
+                                "ALL"
+                            ],
+                            "entity": [
+                                "ALL"
+                            ]
+                        },
+                        "rule_effect": "permit"
+                    }
+                ],
+                "further_sharing": [
+                    {
+                        "sharing_scope": [
+                            "USA.USG"
+                        ],
+                        "rule_effect": "permit"
+                    }
+                ],
+                "control_set": {
+                    "classification": "U",
+                    "formal_determination": [
+                        "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "type": "identity",
+        "spec_version": "2.1",
+        "id": "identity--297f229e-7f82-4628-bf7b-6c4a5b156180",
+        "created_by_ref": "identity--b3bca3c2-1f3d-4b54-b44f-dac42c3a8f01",
+        "created": "2021-08-31T13:50:56.078066Z",
+        "modified": "2021-10-23T18:34:28.215385Z",
+        "name": "DespiteDespiteSocial",
+        "description": "Intuitive dedicated flexibility",
+        "roles": [
+            "wait",
+            "customer"
+        ],
+        "labels": [
+            "ais-consent-none",
+            "pfte-batch-1"
+        ],
+        "confidence": 92,
+        "external_references": [
+            {
+                "source_name": "this",
+                "url": "https://www.robinson-little.com/",
+                "hashes": {
+                    "MD5": "a1851d446a9f509231ab66519e8d59b6",
+                    "SHA-1": "de53e127e2a67e817bd26dd2fa19f605a333141a",
+                    "SHA-256": "0e2bbc752bb95654fec341c4399b47da6d4a7d08fd306f9f49245fe5fd337721",
+                    "SHA-512": "55f85ad7a20aba36a06f9673b60b8efe35c76107a210f2a3fb5f943c4cb98ed8d779de8278986f79cdcb2e5c8afb41ac5becadae1e6c48bcbde789c6e0f33e33",
+                    "SHA3-256": "8cd509136d2174f2d68c3a8c28a508807678adfdab20641734dbb7d29015da25",
+                    "SHA3-512": "59143271072dcff5ace4f8a451da239bf38d8a7a0b19ad3e0ed8c6a5ee94382ec54a85debea12bf2880ee8ecbc3bbe493e8f37f348b458ba704ecf3558b57cb0"
+                }
+            },
+            {
+                "source_name": "source",
+                "description": "Involve thought foreign play ok.",
+                "external_id": "gkxUmy"
+            },
+            {
+                "source_name": "expect",
+                "description": "Note population provide.",
+                "url": "http://williams.biz/",
+                "hashes": {
+                    "MD5": "1edef3194e6f30e5268dd7f5c9d89f9c",
+                    "SHA-1": "3329c6af2244f9ab9474121a3b07b84af0750f42",
+                    "SHA-256": "aadf23ec5640e7637df7a571264449f3ee2d571183dd41e4d80ee0fa21884d45",
+                    "SHA-512": "a43b09f189cae36a2c27c80123860a5678e0d75872afe3ec8a6079480f5ed7ed20d8caceb90805f11161eeb9b8f4e4d400ecb30d5f7e884d27e0d3401382abf6",
+                    "SHA3-256": "f6fc15006a2ce1d21b1fab847a021ae880fded7001ee4c5a2466f568a2aecc54",
+                    "SHA3-512": "4608489208069b556c64bf868d09f9dd45e9490f408567afb130874ebddfb9f00a4d44579cf719e1ca822f8ea6154c439127194a6f20cf27761b407a2ebc9c26"
+                },
+                "external_id": "MHVhtCr"
+            },
+            {
+                "source_name": "week",
+                "description": "Reach raise occur must serve hope.",
+                "url": "https://patel.info/",
+                "external_id": "nPDbAqJYrKito"
+            },
+            {
+                "source_name": "table",
+                "description": "Child score left east.",
+                "url": "http://blackburn.biz/",
+                "hashes": {
+                    "MD5": "abcba81cba743db0ef7b5cbf2aa8a941",
+                    "SHA-1": "55286eada5978143c615ed3debb6d199ffc25819",
+                    "SHA-256": "1f6befbe20bb3047ebabcca5ca09b3620cc00d0676312c8ce0d2bcbe9c2e8a11",
+                    "SHA-512": "154f88dfbf2f76127f634d6ba8dfec30c24c32a6fc8117dfb1abbbc130d385582424c8eb3c1fe37b2b116066dd18f26acef507d1dc66699edc654a9576640958",
+                    "SHA3-256": "0da8cce085710f93bc81007a413637716929c8d8a4a39d37b2c220656b1328ba",
+                    "SHA3-512": "09c757f0ee0ae4fd0fe7e31c6988492352d8f6ecffb1d20013ca7116a03135bfeacefa37da050e14fd3fdec94a6dc6df040bea7ca56fcaafb2cfa36af66dad60"
+                }
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--7191bbc3-d86c-4e42-b8d2-86a12739da44"
+        ]
+    }
+]
